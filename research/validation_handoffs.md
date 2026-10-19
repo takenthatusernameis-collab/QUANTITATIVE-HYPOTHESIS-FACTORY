@@ -1,13 +1,27 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLE 1
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–2
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
 
-Three specifications are provided, in shortlist order: V-001 (IDEA-001), V-002 (IDEA-004),
-V-003 (IDEA-003). IDEA-002 is not specified for validation this cycle because its feasibility
-precondition (source gap G-01) is open; see `next_agent_handoff.md`.
+Cycle 1 provided three specifications, in shortlist order: V-001 (IDEA-001), V-002 (IDEA-004),
+V-003 (IDEA-003). IDEA-002 is not specified for validation because its feasibility precondition
+(source gap G-01) is open; see `next_agent_handoff.md`.
+
+Cycle 2 adds **V-004 (IDEA-005)**, which reached the top three, plus two **optional**
+specifications for candidates that did not: V-005 (IDEA-007) and V-006 (IDEA-006). They are
+provided because pre-specifying them is cheap now and expensive later, and because a validation
+agent can execute them without re-reading the dossiers. Executing V-005 or V-006 is only
+appropriate after the blocking originality checks noted in each specification are closed. **G-10
+is now MOSTLY CLOSED** (funding-currency corpus read, S-052 … S-073), which releases V-005 only
+in a narrowed form: the aggregate funding-state → carry relation is a published baseline (S-055,
+rejected as R-006), so V-005 tests the **cross-sectional and publication-timing residual only**.
+**G-09 is also now MOSTLY CLOSED** (intraday fixing literature read, S-074 … S-081), which narrows
+V-006 in the same way: the fix-window price effect is published (S-075, S-076, S-077, S-074,
+S-081, rejected as R-007), so V-006 tests the **settlement-side residual only**, and it stays
+blocked on the new **G-11** (the settlement-side literature has not been searched) as well as on
+data access.
 
 ---
 
@@ -299,3 +313,379 @@ size.
 Kill if the unconditioned harvest is already optimal, or if the premium is not present in the
 modern sample. Justify follow-up research if the gate works only in specific regimes, which would
 point to a state-conditional allocation problem rather than a new premium.
+
+---
+
+## V-004 — ROLLCOND (IDEA-005) — *required by the Cycle-2 top-three rule*
+
+### Frozen hypothesis
+The scheduled monthly roll of commodity index trackers creates a price concession in the expiring
+and deferred contracts of the rolled commodities. The concession's size is a function of the
+passive flow relative to the contract's liquidity, it is therefore observable in advance from the
+regulator's published Index Trader positions, and it survives in the modern period only in
+contracts where the passive share of open interest is high and depth is thin. Part of the
+concession reverses after the roll completes.
+
+### Frozen conceptual rules
+- **Event universe:** the monthly roll of the S&P GSCI, from the 5th to the 9th business day, per
+  the provider methodology in force on the event date (S-029). Sibling families (S&P GSCI Pre-Roll;
+  S&P GSCI Enhanced, with a partly dynamic schedule) are **separate pre-specified sub-studies and
+  must not be pooled** with the spot-index roll.
+- **Position:** supply the liquidity the passive requires. The passive is long and rolls out of the
+  expiring contract and into the deferred contract; the position is therefore **long the expiring
+  (first-nearby) contract and short the deferred (second-nearby) contract**, entered during the
+  roll window and exited on a pre-specified schedule tied to the completion of the roll. The
+  measured object is the change in the nearby-minus-deferred spread, which falls during the roll
+  and reverts afterwards (the pattern measured in S-033).
+- **State variable:** passive share of open interest = the CFTC "Index Traders" long position in the
+  expiring contract divided by that contract's open interest, from the most recent published report
+  (positions as of the prior Tuesday, published the prior Friday), combined with a liquidity
+  measure (depth, or the passive flow relative to open interest).
+- **No look-ahead:** the roll calendar is known years ahead; the COT publication lag must be
+  respected exactly, and a decision taken on a roll day may use only reports already published.
+- **Carry bound:** the deviation must be measured against a *state-dependent* no-arbitrage bound
+  (storage and financing costs, convenience yield), not a constant (S-038, S-039).
+
+### Ambiguities the validator must resolve and record
+1. Which benchmark family and which roll-weight schedule applies on each event date (the provider
+   revises the methodology; S-029).
+2. How "thin" is defined, and on which of the several liquidity measures (depth, quoted spread,
+   open interest, volume) the state is computed — the choice must be made on the training window.
+3. Whether the passive executes the roll as a block or algorithmically, and whether the observable
+   spread move is a single event or a sequence (the provider's per-day roll weights, S-029, allow
+   a five-day path).
+4. How to handle market disruption events, in which the provider's own rule changes the roll
+   (S-029) — these events must be excluded or analysed separately, not silently treated as normal.
+5. The contamination of the COT "Index Traders" category in both directions (S-030) and the
+   question of whether swap-dealer hedging of OTC index exposure should be included.
+6. The treatment of delivery months, first notice days and price limits.
+
+### Target universe, time frame, sampling frequency
+- Universe: the commodity futures contracts that are components of the benchmark, restricted to
+  contracts that are liquid enough to trade; the validator must state the inclusion rule.
+- Time frame: from the earliest date on which the required CFTC series (Disaggregated and
+  Supplemental CIT) exists for the contracts concerned, with a **mandatory pre-2012 / post-2012
+  split** because the published aggregate result changes character at that boundary (S-033).
+- Sampling frequency: event-driven around each monthly roll, at the contract level, with a
+  pre-specified intraday or daily resolution and a stated rule for overlapping events.
+
+### Data fields required
+Contract-level settlement and trade prices by delivery month; open interest, volume, quoted spread
+and depth per contract per day; CFTC Supplemental (Index Traders) and Disaggregated COT positions
+by contract; benchmark contract weights, roll schedule and roll-weight path; delivery calendars and
+price limits; and a measure of the carry/convenience-yield bound for each contract-month.
+
+### Timing, execution and survivorship
+- COT data must be used with their true lag; a decision rule that uses a report published after the
+  decision is a look-ahead and must be reported as such.
+- Contract universes must be point-in-time: contracts that have been delisted or have expired must
+  not be backfilled, and the selection of tradeable contracts must not use information from after
+  the event (a contract excluded because it was illiquid *after* the roll is a survivorship error).
+- The classification error in the Index Traders category must be quantified and reported.
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread crossed twice, commission, slippage and market impact in thin contracts, margin
+financing on a two-leg futures position, and the settlement/roll mechanics of the deferred leg.
+The validator must show the **gross concession per contract exceeds the round-trip cost** at the
+pre-specified size, or report that it does not. The published anchor for the size of the passive's
+own cost is roughly three percent per year for one large ETF's roll (S-032), which bounds what can
+be harvested and should be used as a sanity ceiling.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the mean change in the nearby-minus-deferred spread during the roll window, and the
+  mean reversion over the pre-specified post-roll window, each estimated as a function of the
+  passive-share and liquidity state variables.
+- Guardrails: maximum drawdown of the event book; concentration in a single commodity, a single
+  contract and a single calendar week (all commodity rolls fall in the same five days, so the book
+  is one month-end-dated bet); gross and net exposure; margin utilisation; turnover; the worst
+  single event; and the loss in the worst calendar month.
+- Tail guardrail: the loss distribution in windows containing a market disruption event or a
+  commodity supply shock, in which the position is short one leg of a rising curve.
+
+### Baselines, separation and controls
+- **Baselines (the decisive comparisons):** (a) the *unconditional* roll effect — the published
+  aggregate null for 2012–2019 (S-033) is the number the candidate must beat, and a validator
+  must reproduce that baseline before reporting anything about the state condition; (b) a
+  placebo roll calendar in the middle of the month; (c) the same contracts in months without a
+  roll; and (d) the "passive roll has little price impact" result (S-036) as a null to be
+  contradicted or confirmed.
+- **Separation:** training, selection and holdout windows fixed in advance; all tercile
+  cut-points and thresholds estimated on the training window only; the holdout opened once.
+- **Controls against peeking:** an explicit count of every (state definition × event window ×
+  sub-sample) combination examined; every rule change logged with a date and a reason.
+
+### Stress cases, regime slices, ablations
+- Regime slices: pre- vs post-2012; pre- vs post-electronification in the contract's own
+  history; calendar quarters containing a commodity supply shock; months containing a
+  market-disruption event.
+- Ablations: (a) drop the state conditioning and estimate the unconditional effect (this is the
+  baseline, and if the state adds nothing the candidate is dead); (b) replace the passive-share
+  variable with a liquidity-only variable, to test whether the passive is doing the work or
+  liquidity is; (c) add managed-money positioning in the deferred contract as a covariate, which
+  is the discriminating test between the two rival decay channels — *arbitrage capital
+  pre-positioning* versus *electronification and liquidity supply*; (d) exclude delivery months and
+  price-limited contracts; (e) replace the state-dependent carry bound with a constant one, to
+  expose the convenience-yield confound.
+
+### Pass / fail / uncertain
+- **Pass:** the concession is larger in high-passive-share, thin contracts than in low-passive-
+  share, liquid contracts within the same commodity and period; the relation survives the
+  post-2012 split; the reversal after the roll is present and larger when the concession was
+  larger; and the gross concession exceeds the justified round-trip cost in the selected
+  contracts.
+- **Fail:** the cross-section is flat or reversed; the effect is absent in every contract in the
+  modern period (in which case the published null is a statement about the market, not about
+  composition); the reversion is explained by a moving carry bound rather than by the flow; or the
+  gross concession is below cost in every selected contract.
+- **Uncertain:** the CFTC series do not cover enough of the benchmark's contracts, or the
+  classification error dominates the signal — the validator then reports the descriptive
+  roll-window behaviour with the state variable and states that the candidate is untested rather
+  than concluding.
+
+### Kill criteria and follow-up justification
+Kill if the unconditional baseline cannot be reproduced, if the state conditioning adds nothing
+after costs, or if the effect does not survive the post-2012 split. Justify follow-up research if
+the effect is present in the modern period but only in a handful of thin contracts — that points
+to a capacity-and-selection problem and a different, more specialised candidate rather than a
+general edge.
+
+---
+
+## V-005 — FUNDSTATE-FX (IDEA-007) — *optional specification; G-10 mostly closed — executable only as the residual test*
+
+**Blocking condition (updated after the Cycle-2 source closure).** The literature gap that
+blocked this specification is now **mostly closed**: the funding-currency and global-liquidity
+corpus has been read and registered (S-052 … S-073), and the verdict on G-10 is MOSTLY CLOSED.
+The consequence for this specification is a **scope restriction, not a release**: the *aggregate*
+funding-constraint-state → carry-return relation is a published, peer-reviewed, positive baseline
+(S-055) and was rejected as a candidate (R-006). The validator must therefore execute **only the
+cross-sectional and publication-timing residual** below, and must report the aggregate relation as
+a **reproduction of a published result, never as a discovery**. A validator who reports "the
+funding state predicts carry" has reproduced S-055 and has tested nothing.
+
+### Frozen hypothesis
+When dollar funding liquidity expands, the currencies whose borrowers are most dependent on
+dollar funding appreciate more against the dollar than the currencies whose borrowers are least
+dependent, conditional on the interest differential, and the relation appears from the
+publication date of the funding statistics and not before it.
+
+### Frozen conceptual rules
+- State: the published change in dollar-denominated cross-border liabilities of intermediaries
+  (S-054), used exactly as published on its published calendar, with the publication lag respected.
+- Dependence measure: each currency's share of its cross-border borrowing that is dollar-
+  denominated, from the same published tables.
+- Cross-section: the prediction is an ordering across currencies within a publication date, not a
+  time-series forecast of the dollar.
+- Sign discipline: the funding-liquidity channel has the **opposite** sign to the carry-crash
+  channel; periods in which the two point in opposite directions must be either excluded or
+  analysed separately, and the rule must state which channel it is trading.
+
+### Ambiguities the validator must resolve and record
+1. The exact published aggregate to use, and whether to use the locational or the consolidated view
+   (S-054) — a choice that must be made on the training window and reported.
+2. The dependence measure's construction and its coverage across currencies.
+3. The publication *time* of day, which must be pinned down before any same-day effect is claimed.
+4. The treatment of the 2007–09 structural shift noted by the authors (S-052) and of data revisions.
+5. The carry control: which interest differential (policy rates or forward-implied) and at what
+   tenor.
+
+### Target universe, time frame, sampling frequency
+- Universe: a pre-specified set of liquid currencies with materially different dollar-funding
+  dependence, including at least one dollar-funding-dependent emerging-market group and one
+  insulated group; the choice of which currencies enter the cross-section must be made ex ante.
+- Time frame: all publication dates available in the chosen statistics, with a mandatory split
+  around 2008–2010 and around the 2020 and 2022 episodes.
+- Sampling frequency: event-driven at each publication date; the position is held until the next
+  publication.
+
+### Data fields required
+Published cross-border and dollar-denominated liability aggregates by residence, currency and
+counterparty sector; the dependence measure per currency; policy and forward-implied rate
+differentials; a volatility series; and the FX spot series.
+
+### Timing, execution and survivorship
+- Data must be used as published; revised vintages must be handled explicitly, and the validator
+  must state whether a real-time vintage or the latest vintage is used (and if the latter, that
+  revisions may create a look-ahead).
+- Currency selection must not use post-publication outcomes; the currency set must be point-in-time
+  (a currency that becomes untradeable or is redenominated must be handled explicitly).
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread, the funding/carry cost of the position (which is the dominant cost at this
+horizon), the transaction cost of the rebalance at each publication date, and the impact of the
+size taken in the less liquid currencies, which are the ones with the highest funding dependence.
+The validator must state whether the slow edge survives these costs.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the cross-sectional spread between the predicted return of the most dependent currency
+  group and the least dependent group, per publication date, net of the interest differential.
+- Guardrails: maximum drawdown; per-currency concentration; gross and net exposure; the loss in
+  the worst funding-contraction episode; turnover and carry cost as a share of gross return; and
+  the exposure to the funding currency.
+
+### Baselines, separation and controls
+- Baselines: (a) the interest differential alone (the carry trade — the decisive comparison, and
+  the candidate must beat it); (b) the **published aggregate results, which are baselines and not
+  discoveries**: the funding-constraint state → carry-return relation (S-055) and the
+  funding-liquidity → dollar-forecast relation (S-052), both of which must be reproduced and
+  reported as reproductions, with the candidate's claim confined to what is added on top of them;
+  (c) a time-only forecast of the dollar (S-052, duplicated baseline in substance); (d) a random
+  currency grouping with the same sizes; and (e) an equal-weight cross-section of the same
+  currencies.
+- Separation: training, selection and holdout publication dates fixed in advance; all thresholds
+  frozen on the training window; the holdout opened once.
+- Controls against peeking: an explicit count of configurations examined; a pre-registered
+  stopping rule; no re-specification of the dependence measure after seeing holdout results.
+
+### Stress cases, regime slices, ablations
+- Regime slices: funding expansion vs contraction; crisis vs calm; periods where the carry channel
+  and the funding channel agree vs disagree; the 2007–09 structural shift.
+- Ablations: (a) drop the dependence measure and use the funding state alone (this is the
+  published result, and if nothing is added the candidate is a restatement of S-052); (b) replace
+  the dependence measure with trade-weighted dollar invoicing share, to test whether trade
+  invoicing rather than funding is doing the work; (c) add a risk-off control; (d) use the
+  consolidated rather than the locational statistics.
+
+### Pass / fail / uncertain
+- **Pass:** the cross-sectional ordering holds out of sample, survives the interest-differential
+  control, appears from the publication date and not before it, and exceeds costs.
+- **Fail:** the effect is explained by the interest differential; the relation is present before
+  the data were public (meaning the state is not the cause); the effect is a single-episode
+  artefact; or the edge is below costs.
+- **Uncertain:** the published series cannot support the cross-section (insufficient currency
+  coverage) — report the time-series reproduction of S-052 and state that the cross-sectional
+  candidate is untested.
+
+### Kill criteria and follow-up justification
+Kill if the candidate cannot beat the carry baseline, or if the publication-timing test fails.
+Justify follow-up research if the cross-section works but the time-series version does not — that
+would point to a cross-sectional rather than a level effect and to a different candidate.
+
+---
+
+## V-006 — FIXCLOCK (IDEA-006) — *optional specification; G-09 mostly closed — executable only as the residual test*
+
+**Blocking conditions (updated after the G-09 closure).** (a) **G-09 is now MOSTLY CLOSED**: the
+intraday FX literature around the 4pm fix has been read and registered (S-074 … S-081), and the
+consequence is a **scope restriction, not a release**. The fix-window price effect is **published**:
+the temporary, end-of-month-concentrated impact of passive hedging demand at the fix (S-075), the
+negative serial correlation around the fix (S-076), the negative pre/post-fixing autocorrelation
+(S-077), the elevated volatility and movement size around 4pm (S-074) and the W-shaped dollar
+pattern around global fixings (S-081). The aggregate version of this candidate was therefore
+rejected as a known baseline (R-007), and the validator must execute **only the residual below** —
+the settlement-side deadlines and the post-2015 persistence of the published fix effect. Reporting
+"the fix moves prices in the evening" reproduces the literature and tests nothing.
+(b) **G-11 must be closed first**: the settlement-side deadline cluster (the CLS currency-close and
+pay-in cut-offs and the post-US-close window created by T+1) has not been searched at all, and if a
+published paper already tests it as a price determinant, the candidate is rejected rather than
+narrowed. (c) The validator must confirm access to intraday order-book data for the pairs in
+scope; the dataset used in the peer-reviewed work was provided by the benchmark administrator and
+is not public (S-047), and the fix literature itself used a decade of tick-by-tick data for 21
+currency pairs (S-076) and administrator-provided high-frequency data (S-074, S-080). If (c) fails,
+this specification is not executable and the candidate is a structural description only.
+
+### Frozen hypothesis
+*Residual only.* On days with no scheduled macro release, the settlement-side deadline windows —
+between the US equity close and the CLS initial-pay-in deadline, and around the CLS currency-close
+deadline (S-048, S-049) — show a systematic directional move in the direction of the funding
+requirement, **after the published fix-window effect has been removed and the fix window itself
+excluded from the sample**; and the published fix effect (S-075, S-076) is materially smaller after
+the 2015 widening of the calculation window from one minute to five and after the post-2013
+enforcement regime than before it.
+
+### Frozen conceptual rules
+- Windows: the 16:00 London fix window (five minutes, per the published methodology, S-045) is the
+  **control to be reproduced, not traded**; the residual windows are the post-US-close settlement
+  window between the US equity close and the CLS initial-pay-in deadline (S-048, S-049).
+- Days with any scheduled macro release inside either window are excluded, and the exclusion is
+  applied before any result is read.
+- The state variable is the fix window's share of daily volume for the pair; the benchmark
+  administrator's published notices (including holiday and service-alteration notices) define the
+  days on which the fix does not exist.
+- The position supplies liquidity to the deadline-driven flow, on the opposite side of the
+  deadline-constrained demand, and is exited on a pre-specified schedule after the window.
+
+### Ambiguities the validator must resolve and record
+1. The data source and its coverage (which pairs, which platform, what depth of book).
+2. How the "net deadline-constrained demand" is measured from order-book or print data, and how it
+   is signed.
+3. The exact window boundaries, given the five-minute calculation window and the different
+   platform cut-offs.
+4. The macro-release exclusion list and its data source.
+5. Whether the post-US-close window and the fix window should be analysed jointly or separately
+   (they overlap in time for some pairs).
+
+### Target universe, time frame, sampling frequency
+- Universe: the most liquid currency pairs, restricted to those with adequate fix-window volume.
+- Time frame: the full period for which the chosen data exist, with a **mandatory pre- and
+  post-May-2024 split**, because the T+1 transition changed the settlement calendar (S-048).
+- Sampling frequency: intraday, tick or order-book level, with the aggregation into windows
+  pre-specified.
+
+### Data fields required
+Order-book or print data for the pairs in scope, including timestamps, sizes and the fix window
+boundaries; the published benchmark calendar and holiday notices; the CLS settlement timeline; a
+macro-release calendar; and quoted spreads and depth.
+
+### Timing, execution and survivorship
+- No data may be used that is timestamped after the decision point; the exit rule must be
+  executable with data available at the time.
+- The benchmark administrator's methodology revisions (notably the 2015 widening of the window)
+  must be handled as a regime break, not smoothed.
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread crossed twice, slippage in a concentrated window, the cost of trading *around* the
+fix rather than at it, and the possibility that liquidity providers are already stationed in the
+window (in which case the concession is competed away before the validator can measure it). The
+validator must state whether the gross concession exceeds the round-trip cost.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the mean signed price move into the fix window on no-release days, and the mean
+  reversion after it, as a function of the fix-window volume share and the calendar position.
+- Guardrails: maximum drawdown; the loss in the worst window; concentration; gross and net
+  exposure; the cost floor test; and the effect of any benchmark suspension or service-alteration
+  day.
+
+### Baselines, separation and controls
+- Baselines: (a) **the published fix results, which are baselines and not discoveries** — the
+  temporary end-of-month impact of passive hedging demand (S-075), the negative serial correlation
+  (S-076) and the negative pre/post-fixing autocorrelation (S-077) must be reproduced and reported
+  as reproductions, and the candidate's claim is confined to what is added on top of them;
+  (b) the same windows on days *with* macro releases; (c) the same calendar position on a placebo
+  time of day with no institutional deadline; (d) the unconditional intraday drift; (e) the
+  fix window itself, estimated on the same sample as the settlement window, as the quantity the
+  settlement window must be separated from.
+- Separation: training, selection and holdout *days* fixed in advance; thresholds frozen on the
+  training window only.
+- Controls against peeking: an explicit count of window/measure/calendar combinations examined; no
+  re-selection of the exclusion list after seeing results.
+
+### Stress cases, regime slices, ablations
+- Regime slices: pre- vs post-T+1; month-end vs mid-month; high- vs low-fix-volume-share pairs;
+  days around benchmark methodology changes and holidays.
+- Ablations: (a) drop the no-release exclusion and show what the macro confound does; (b) replace
+  the fix window with a placebo window of the same length; (c) replace the volume-share state
+  with a simple liquidity measure; (d) analyse the settlement window alone.
+
+### Pass / fail / uncertain
+- **Pass:** the settlement-side window shows a signed, non-zero move in the funding direction
+  after the fix effect is removed and the fix window excluded; the effect is absent in the
+  pre-T+1 sample; the published fix effect is measurably smaller after the 2015 methodology
+  revision; and the gross concession exceeds the justified round-trip cost.
+- **Fail:** the settlement window is indistinguishable from the unconditional intraday drift or
+  from a placebo window; the macro exclusion removes the entire effect (which would mean the
+  candidate was a news-timestamp artefact); the effect vanishes once the fix effect is controlled
+  for; the concession is below cost; or the published fix effect is unchanged across the
+  post-2015 break, in which case there is no new state condition to trade.
+- **Uncertain:** intraday data of adequate quality are unavailable — report the descriptive
+  intraday periodicity, report the reproduction of the published fix result, and state that the
+  candidate is untested.
+
+### Kill criteria and follow-up justification
+Kill if the placebo window performs the same, if the effect vanishes net of costs, or if the
+settlement-side effect disappears once the fix effect is controlled for. Justify follow-up research
+if the effect survives costs but is concentrated in one or two pairs, which would point to a
+venue-specific rather than a general closing-clock phenomenon. **If G-11 closes against the
+candidate, kill it rather than re-scoping it**: the aggregate version is already published, and a
+narrower re-scope around an unsearched literature is how a known baseline returns wearing a
+different label.

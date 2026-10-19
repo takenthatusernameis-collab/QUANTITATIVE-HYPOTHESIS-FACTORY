@@ -34,8 +34,8 @@ it off. That is the correct output, not a failure.
 - `research/rejected_and_parked.md` — rejections, parkings, and the known-baseline reference set.
 - `research/cycle_notes.md` — cycle log, the three-pass task-framing loop, artifact history.
 
-ID sequences in use: `IDEA-001…004`, `S-001…028`, `V-001…003`, `R-001…003`, `P-001…004`,
-`G-01…05`, `Cycle 1`. Continue each series rather than restarting it.
+ID sequences in use: `IDEA-001…007`, `S-001…081`, `V-001…006`, `R-001…007`, `P-001…007`,
+`G-01…11`, `Cycle 1–2`. Continue each series rather than restarting it.
 
 ## Working rules
 
