@@ -1903,6 +1903,87 @@ costs and after controlling for momentum?
 
 ---
 
+## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
+
+- **ID / short name:** IDEA-010 / CREDIT-ETF
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+
+**One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
+
+**Mechanism.** APs use creations/redemptions to manage balance sheets; when balance-sheet space is scarce and bonds are costly to intermediate, APs become liquidity seekers in the ETF, widening the ETF–NAV gap and cheapening the underlying bonds (Pan & Zeng 2019). Dealer balance-sheet costs and interdealer capacity are published/measurable proxies (Eisfeldt, Herskovic & Liu 2024). The decision-time state is observable: ETF creation/redemption baskets and AP-level balance-sheet proxies are reported with known lags; the flow itself (ETF shares outstanding change) is published daily.
+
+**Expected return source.** Compensation for bearing intermediary balance-sheet risk in the bond–ETF basis, harvestable when the gap exceeds the cost floor; the basis mean-reverts as AP capacity recovers.
+
+**Originality.** Closest work: Pan & Zeng 2019 (AP balance-sheet constraints limit ETF arbitrage); Eisfeldt et al. 2024 (interdealer price dispersion / dealer capacity). Differentiator: a *state-conditioned, two-legged* specification keyed to published AP-stress proxies and a pre-scheduled exit, rather than a static basis trade. Honest classification: informed synthesis; the joint conditioning is an unresolved conjecture. Confidence: moderate.
+
+**Target scope.** US investment-grade and high-yield corporate bond ETFs vs their creation baskets; daily state; holding 1–10 sessions; regime conditions: stressed dealer capacity, normal-to-high redemption flow.
+
+**Observables (decision time).** ETF shares outstanding change (daily, published); ETF–NAV discount; AP balance-sheet proxies (dealer positions, interdealer price dispersion, SRF take-up); bond liquidity proxies (TRACE volume, dealer inventory); macro release calendar.
+
+**Falsifiable predictions.** (1) ETF–NAV discount widens when AP-stress proxies are high and ETF flow is negative. (2) The discount mean-reverts within 1–10 sessions. (3) The effect is absent when AP capacity is ample (control). (4) Gross discount exceeds round-trip cost in selected ETFs. Kill: no state-dependence, no reversion, or effect below cost.
+
+**Confounders.** Fundamental bond re-pricing during stress; index-rebalance flows; redemption-driven forced selling that is permanent, not temporary; dealer inventory accounting changes.
+
+**Data requirements.** ETF prices/NAV, creation/redemption baskets, TRACE bond data, dealer position proxies, AP balance-sheet data. Feasibility: medium (TRACE is public; AP-level data is commercial).
+
+**Theory/evidence status.** Conceptual rationale supported (Pan & Zeng 2019; Eisfeldt et al. 2024). Joint relation unresolved conjecture. Priority score 66/100; rank TBD.
+
+---
+
+## IDEA-011 — ACCTCLOCK: accounting-standards adoption as a slow-information-diffusion event clock
+
+- **ID / short name:** IDEA-011 / ACCTCLOCK
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+
+**One-sentence hypothesis.** Mandatory adoption of a new accounting standard is a dated, regulator-announced information shock whose market reaction diffuses slowly because investors and analysts must re-learn the new numbers; the drift between the adoption announcement and the first full reporting cycle under the new standard is predictable in direction for firms whose pre-adoption information quality was low, and partly reverses once comparability is priced.
+
+**Mechanism.** Mandatory IFRS adoption increased earnings information content and reduced stock-return synchronicity in the adoption year, with effects concentrated in firms with lower pre-adoption information quality and in strong-enforcement countries (Armstrong, Barth, Jagolinzer & Riedl 2010; Beuselinck et al. 2009; Lambertides & Mazouz 2013). The adoption dates are published by regulators (IASB/SEC/FASB) years in advance, so the clock is public and ex-ante knowable. The state (pre-adoption information quality, enforcement regime, analyst following) is observable from published filings.
+
+**Expected return source.** Compensation for bearing slow information diffusion and comparability risk across the adoption window; a drift from announcement to first full reporting cycle, with partial reversal once the new numbers are fully digested.
+
+**Originality.** Closest work: Armstrong et al. 2010; Beuselinck et al. 2009; Christensen, Lee & Walker 2007. Differentiator: a *dated, two-legged trade specification* keyed to the adoption calendar and to a pre-registered information-quality state, rather than an event study. Honest classification: informed synthesis of a documented effect; the two-legged specification is an unresolved conjecture. Confidence: moderate.
+
+**Target scope.** Firms in jurisdictions with a mandated adoption date (EU IFRS 2005; other jurisdictions with announced adoption); announcement-to-first-full-reporting-cycle horizon; regime conditions: strong enforcement, no concurrent macro shocks.
+
+**Observables (decision time).** Adoption announcement date and effective date (regulator-published); pre-adoption information quality proxies (earnings quality, analyst following, foreign ownership); enforcement regime (country-level); firm size; reporting lag.
+
+**Falsifiable predictions.** (1) Low pre-adoption information-quality firms drift more from announcement to first full report under the new standard. (2) The drift is larger in strong-enforcement countries. (3) Part of the drift reverses within 1–4 quarters after the first full report. (4) High pre-adoption quality firms show a smaller, possibly negative, drift (convergence benefit). Kill: no information-quality interaction, no reversal, or effect explained by concurrent macro shocks.
+
+**Confounders.** Concurrent macro/regulatory shocks; selection into adoption; the adoption event itself being a proxy for other reforms; size and liquidity differences; analyst coverage changes independent of the standard.
+
+**Data requirements.** Regulator adoption calendars; firm-level returns; accounting-quality proxies; analyst following; country enforcement indices. Feasibility: high (all public, with a known adoption calendar).
+
+**Theory/evidence status.** Conceptual rationale supported (Armstrong et al. 2010; Beuselinck et al. 2009). Two-legged specification unresolved conjecture. Priority score 64/100; rank TBD.
+
+---
+
+## IDEA-012 — CLS-CLOSE: the settlement-side deadline cluster as a price determinant (continuation of IDEA-006)
+
+- **ID / short name:** IDEA-012 / CLS-CLOSE
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+
+**One-sentence hypothesis.** Beyond the published 16:00 London fix effect, the CLS currency-close and pay-in deadlines (and the post-US-close window created by T+1) create a separate, dated, settlement-constrained demand/supply pressure in specific currency pairs on no-macro-release days; the state (deadline proximity and fix-window volume share) is published by the benchmark administrator and the settlement utility.
+
+**Mechanism.** The 16:00 London fix effect is published (Melvin & Prins 2015; Evans 2018; Ito & Yamada 2015). The settlement-side mechanics are documented (CLS pay-in schedule, currency-close deadlines, Banque de France / ECB documentation) and are a priced friction (Ranaldo & Santucci de Magistris 2022; Lee, Ranaldo & Tsuruga 2026 IMF WP), but the specific CLS deadline cluster / post-US-close T+1 window is untested (G-11). The state is published: the CLS settlement timeline, the benchmark administrator's calendar and holiday notices, and the fix-window volume share.
+
+**Expected return source.** A liquidity-provision premium for supplying liquidity to settlement-constrained participants in the post-US-close window; partial reversal once the deadline passes.
+
+**Originality.** Closest work: Melvin & Prins 2015; Evans 2018; Ito & Yamada 2015 (fix window, published). Differentiator: the *settlement-side* residual beyond the fix, which no located paper tests. Honest classification: informed conjecture pending G-11 closure; if a published paper tests the settlement-side cluster, this candidate is rejected, not narrowed. Confidence: low-to-moderate.
+
+**Target scope.** Liquid currency pairs with adequate fix-window volume; no-macro-release days; pre- and post-T+1 (May 2024) split; intraday windows.
+
+**Observables (decision time).** CLS settlement timeline and pay-in deadlines (published); benchmark administrator calendar and holiday notices; fix-window volume share for the pair; macro-release calendar; quoted spread and depth.
+
+**Falsifiable predictions.** (1) On no-release days, the post-US-close settlement window shows a signed move in the funding direction after the fix effect is removed. (2) The effect is absent pre-T+1 (settlement calendar change). (3) The effect is absent in a placebo window of the same length. (4) Gross concession exceeds round-trip cost. Kill: placebo performs the same, effect vanishes net of costs, or G-11 closes against the candidate.
+
+**Confounders.** Macro releases inside the window; the fix effect itself (must be removed); liquidity-provider pre-positioning; non-settlement intraday drift; holiday/alteration days.
+
+**Data requirements.** Intraday order-book or print data for the pairs; published benchmark calendar; CLS timeline; macro-release calendar. Feasibility: medium-low (intraday data is the binding constraint; the published fix literature used administrator-provided data).
+
+**Theory/evidence status.** Conceptual rationale: settlement-side mechanics are a priced friction (S-082, S-071). Specific deadline-cluster price effect: unresolved conjecture (G-11). Priority score 60/100; rank TBD.
+
+---
+
 ## State-proxy methodological note (closing section)
 
 **Purpose.** This note answers the question deferred by Cycles 1 and 2: how to choose, build and

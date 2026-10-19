@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-19, end of Cycle 3 · Cycle 3 closed · Next cycle: Cycle 4
+Last updated: 2026-10-19, end of Cycle 4 · Cycle 4 closed · Next cycle: Cycle 5
 
 ---
 
@@ -10,9 +10,9 @@ Last updated: 2026-10-19, end of Cycle 3 · Cycle 3 closed · Next cycle: Cycle 
 
 | Item | Status |
 | --- | --- |
-| Idea register | 9 dossiers (IDEA-001 … IDEA-009) — 4 listed US equities, 5 outside them; IDEA-006 and IDEA-007 narrowed to v1.1 |
+| Idea register | 12 dossiers (IDEA-001 … IDEA-012) — 4 listed US equities, 5 outside them; IDEA-006 and IDEA-007 narrowed to v1.1 |
 | Ranked shortlist | 9 ranked, scored out of 100 (76 / 74 / 72 / 71 / 65 / 64 / 63 / 63 / 59) |
-| Source ledger | **89 verified sources (S-001 … S-089)**, source gaps G-01 … G-11 (G-06 narrowed, G-09/G-10 mostly closed, G-11 partially closed) |
+| Source ledger | **92 verified sources (S-001 … S-092)**, source gaps G-01 … G-11 (G-06 narrowed, G-09/G-10 mostly closed, G-11 partially closed) |
 | Validation hand-offs | 8 specifications (V-001 … V-008) |
 | Rejected / parked | **7 rejected (R-001 … R-007)**, 7 parked (P-001 … P-007), 15-row baseline table |
 | Canonical mission prompt | `research_prompts/systematic_edge_discovery_agent_prompt.txt` — **unchanged** |
