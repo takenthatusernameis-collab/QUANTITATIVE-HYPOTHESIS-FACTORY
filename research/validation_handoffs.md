@@ -10,7 +10,14 @@ V-003 (IDEA-003). IDEA-002 is not specified for validation because its feasibili
 (source gap G-01) is open; see `next_agent_handoff.md`.
 
 Cycle 2 adds **V-004 (IDEA-005)**, which reached the top three, plus two **optional**
-specifications for candidates that did not: V-005 (IDEA-007) and V-006 (IDEA-006). They are
+specifications for candidates that did not: V-005 (IDEA-007) and V-006 (IDEA-006).
+
+Cycle 3 adds **V-007 (IDEA-008)** and **V-008 (IDEA-009)**, both new candidates that entered the
+top three (ranks 5 and 7). Both are specified because pre-specifying them is cheap now and
+expensive later, and because a validation agent can execute them without re-reading the dossiers.
+**V-007 is executable as specified** (short interest and lending fees are public; the recall event
+must be inferred). **V-008 is executable as specified** (funding rates are published by the venue
+with zero lag); the binding constraint is venue risk, not data access. They are
 provided because pre-specifying them is cheap now and expensive later, and because a validation
 agent can execute them without re-reading the dossiers. Executing V-005 or V-006 is only
 appropriate after the blocking originality checks noted in each specification are closed. **G-10
@@ -689,3 +696,211 @@ venue-specific rather than a general closing-clock phenomenon. **If G-11 closes 
 candidate, kill it rather than re-scoping it**: the aggregate version is already published, and a
 narrower re-scope around an unsearched literature is how a known baseline returns wearing a
 different label.
+
+---
+
+## V-007 — SECURITY-LEND (IDEA-008)
+
+### Frozen hypothesis
+When a stock's borrow becomes expensive or scarce and lenders recall loaned shares, short sellers
+are forced to cover involuntarily; the resulting buying pressure creates a temporary price spike
+that decays as the covering is completed. A rule that buys into borrow-constraint and recall
+events and exits on a pre-scheduled basis captures a liquidity-provision premium paid by the
+forced coverers.
+
+### Frozen conceptual rules
+- **Event universe:** US equities with publicly reported short interest and active
+  securities-lending markets. Exclude names with scheduled fundamental news (earnings, M&A, FDA
+  decisions) inside the event window; exclude names under a Reg SHO short-sale restriction
+  (threshold securities).
+- **State variable:** securities-lending fee ("specialness") relative to the name's own trailing
+  distribution, and the change in short interest (biweekly, exchange-published). A borrow-fee
+  spike into the top decile of the name's own distribution is the entry signal.
+- **Position:** long the name, sized as a small fraction of its daily volume, entered when the
+  fee spikes or short interest rises sharply with a simultaneous fee increase.
+- **Exit:** pre-scheduled after T+1 to T+5 sessions, exit rule fixed in advance of the trade.
+- **No look-ahead:** short interest is biweekly and lagged; a decision on day T may use only
+  reports published on or before day T. The recall event itself is not published; it is inferred
+  from fee spikes and volume anomalies, and this inference must be pre-specified.
+
+### Ambiguities the validator must resolve and record
+1. How "fee spike" is defined (top decile of trailing distribution, z-score, or threshold) —
+   pre-specified on the training window.
+2. How the recall event is inferred (fee spike, volume anomaly, or both), and the false-positive
+   rate of the inference.
+3. Whether the exit is T+1, T+3, or T+5, and whether it is time-based or condition-based
+   (e.g. exit when the fee returns to median).
+4. The treatment of names on the Reg SHO threshold list.
+5. The treatment of delivery months, corporate actions, and price limits.
+
+### Target universe, time frame, sampling frequency
+- Universe: US-listed common stocks with exchange-published short interest and active
+  securities-lending markets; liquidity filter (top quintile by dollar volume).
+- Time frame: the validator must choose and justify a start date; a pre-2010 / post-2010 split
+  should be reported because market structure changed.
+- Sampling frequency: event-driven at daily resolution; the state is evaluated daily and the
+  position is held for 1–5 sessions.
+
+### Data fields required
+Short interest (biweekly, exchange-published); securities-lending fees and availability (from
+lending agents or data vendors — commercial); daily OHLCV; Reg SHO threshold list (exchange /
+FINRA-published); fundamental-news calendar (earnings, M&A); borrow cost; a flag set for halts
+and corporate actions.
+
+### Timing, execution and survivorship
+- All state variables must be used with their true publication lag; short interest is biweekly
+  and lagged, so the state is stale by design and this must be handled explicitly.
+- Universe construction must be point-in-time (no survivors, no backfilled borrow availability).
+- The recall inference must itself be validated against an independent measure if one exists.
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread crossed twice, commission, slippage in the concentrated covering window, and
+market impact relative to the name's typical depth. The validator must show the gross spike
+exceeds round-trip cost at the pre-specified size.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the average abnormal (market- and industry-adjusted) return over T+1 to T+5 after the
+  fee-spike event, as a function of the fee-spike magnitude and the short-interest change.
+- Guardrails: maximum drawdown; per-name and per-sector concentration; gross and net exposure;
+  turnover; the worst single event; and the loss in calendar windows containing market-wide
+  stress.
+- Tail guardrail: the loss distribution in windows containing fundamental news that was not
+  excluded (the news confounder).
+
+### Baselines, separation and controls
+- Baselines: (a) no-event days; (b) fee spikes on days with fundamental news (the confounder
+  baseline); (c) a placebo window at a random time of day with no institutional event; (d) the
+  unconditional long return of the selected names.
+- Separation: training, selection and holdout windows fixed in advance; all thresholds frozen on
+  the training window; the holdout opened once.
+- Controls against peeking: an explicit count of every (state definition × event window ×
+  sub-sample) combination examined; every rule change logged with a date and a reason.
+
+### Stress cases, regime slices, ablations
+- Regime slices: crisis vs calm; high vs low market-wide volatility; pre- vs post-2010; sectors
+  with high recall rates.
+- Ablations: (a) drop the state conditioning and take unconditional long positions on the
+  selected names (if the state adds nothing, the candidate is dead); (b) use short interest alone
+  without the fee spike; (c) remove the no-news exclusion to quantify the confounder; (d) use
+  the Reg SHO threshold list as the sole entry signal.
+
+### Pass / fail / uncertain
+- **Pass:** the post-event abnormal return is positive, scales with the fee-spike magnitude,
+  decays within 1–5 sessions, survives justified costs, and is not explained by the news
+  confounder baseline.
+- **Fail:** no post-event return, or no decay, or the effect is fully explained by fundamental
+  news, or the gross spike is below cost in every selected name.
+- **Uncertain:** the recall inference cannot be validated, or the event rate (~2% of loans per
+  month) is too small for clean inference — report the descriptive event behaviour and state that
+  the candidate is untested rather than concluding.
+
+### Kill criteria and follow-up justification
+Kill if the news confounder explains the entire event spike, or if the state conditioning adds
+nothing after costs. Justify follow-up research if the effect survives costs but is concentrated
+in a handful of names — that points to a capacity-and-selection problem and a more specialised
+candidate rather than a general edge.
+
+---
+
+## V-008 — PERP-FUND (IDEA-009)
+
+### Frozen hypothesis
+The perpetual-futures funding rate is settled every few hours and published by the exchange; it
+measures the crowded-leverage state directly. A rule that takes the side opposite to the
+funding-rate crowd — short when the funding rate is high and positive (longs paying shorts),
+long when it is low or negative (shorts paying longs) — captures a mean-reversion premium in the
+futures-spot basis that decays as the crowd unwinds.
+
+### Frozen conceptual rules
+- **Event universe:** crypto perpetual futures on major exchanges for liquid underlyings (BTC,
+  ETH and a small set of large altcoins). Exclude underlyings with thin perpetual order books;
+  exclude periods of exchange outage or severe congestion.
+- **State variable:** the published funding rate relative to its own trailing distribution (top /
+  bottom decile), with zero lag. The funding rate is published by the exchange every funding
+  period (typically every 8 hours).
+- **Position:** short the perpetual when the funding rate is in the top decile (longs paying,
+  crowded long side); long the perpetual when it is in the bottom decile (shorts paying, crowded
+  short side). Sized as a small fraction of open interest.
+- **Exit:** after a pre-specified number of funding periods (e.g. 1–3) or when the funding rate
+  crosses zero, whichever comes first; exit rule fixed in advance.
+- **No look-ahead:** the funding rate is published at the start of each funding period and is
+  known before the position is entered.
+
+### Ambiguities the validator must resolve and record
+1. Which exchange(s) and which underlyings are in scope — pre-specified on the training window;
+   results are not transferable across venues without restatement.
+2. How "top/bottom decile" is defined (trailing window length, decile boundaries) — pre-specified.
+3. The exit rule: fixed number of funding periods vs. funding-rate zero-crossing vs. a hybrid.
+4. The clamp region: funding rates below the exchange clamp (e.g. 0.01% per period) are not
+   informative and must be excluded.
+5. The treatment of the position's own funding cost (which moves with the same state variable).
+
+### Target universe, time frame, sampling frequency
+- Universe: perpetual futures on at least two exchanges for BTC and ETH (and optionally large
+  altcoins); liquidity filter (minimum open interest and depth).
+- Time frame: the full period for which exchange-published funding rates are available.
+- Sampling frequency: event-driven at each funding settlement (typically every 8 hours); the
+  position is held for 1–3 funding periods.
+
+### Data fields required
+Exchange-published funding rates (every funding period); perpetual and spot prices; open
+interest and volume; exchange clamp rules and calculation methods; a flag set for exchange
+outages and congestion.
+
+### Timing, execution and survivorship
+- No data may be used that is timestamped after the decision point; the funding rate at the start
+  of each funding period is the decision input.
+- Exchange-specific funding implementations differ (clamp regions, calculation methods); results
+  must be reported per exchange and not pooled without restatement.
+- Crypto markets trade 24/7; the "session" concept does not apply, and the exit rule must be
+  defined in funding periods, not sessions.
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread crossed twice, slippage, funding paid while holding the position (which moves with
+the state variable), and market impact relative to the perpetual's depth. The validator must show
+the gross reversal plus funding received exceeds round-trip cost at the pre-specified size.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the average futures-spot basis change over 1–3 funding periods after the funding-rate
+  extreme, as a function of the funding-rate decile; plus the funding payments received while
+  holding.
+- Guardrails: maximum drawdown; per-underlying concentration; gross and net exposure; turnover;
+  the worst single funding period; and the loss in windows containing market-wide crypto stress.
+- Tail guardrail: the loss distribution in windows containing a crypto deleveraging spike that
+  gaps through the pre-scheduled exit.
+
+### Baselines, separation and controls
+- Baselines: (a) no-extreme funding periods; (b) a placebo window at a random time with no
+  funding-rate extreme; (c) the unconditional basis return; (d) the documented funding-rate
+  arbitrage (long spot, short expensive perpetual) as a baseline to compare against — the
+  candidate must show it adds something the arbitrage does not capture.
+- Separation: training, selection and holdout funding periods fixed in advance; all thresholds
+  frozen on the training window; the holdout opened once.
+- Controls against peeking: an explicit count of every (decile definition × exit rule ×
+  underlying × exchange) combination examined; every rule change logged with a date and a reason.
+
+### Stress cases, regime slices, ablations
+- Regime slices: high vs low crypto volatility; bull vs bear markets; pre- vs post-2024 market
+  structure; exchange-specific regimes.
+- Ablations: (a) drop the state conditioning and take unconditional positions (if the state adds
+  nothing, the candidate is dead); (b) use the basis alone without the funding-rate level; (c)
+  test on a single exchange only, to quantify venue specificity; (d) replace the funding-rate
+  level with a simple momentum measure (past returns) to separate reversal from momentum.
+
+### Pass / fail / uncertain
+- **Pass:** the basis mean-reverts after a funding-rate extreme (negative after a top-decile
+  rate, positive after a bottom-decile rate), the reversal scales with the funding-rate extreme,
+  the funding payments received contribute materially to the return, the effect holds on at least
+  two exchanges, and the gross return exceeds justified costs.
+- **Fail:** no mean reversion, or the basis moves in the same direction as the funding rate
+  (momentum, not reversal), or the effect is exchange-specific, or the gross return is below cost
+  in every selected underlying.
+- **Uncertain:** momentum feedback explains the apparent reversal (past returns predict basis
+  deviations in S-086), or venue risk makes the trade unexecutable at scale — report the
+  descriptive behaviour and state that the candidate is untested rather than concluding.
+
+### Kill criteria and follow-up justification
+Kill if momentum explains the effect, or if the effect is exchange-specific, or if the gross
+return is below cost. Justify follow-up research if the effect survives costs but is concentrated
+in BTC/ETH only — that points to a liquidity-constrained candidate rather than a general crypto
+edge.

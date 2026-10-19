@@ -408,3 +408,96 @@ registered only for its own abstract, which duplicates the published fix results
   that asymmetry in mind.
 - The candidate that remains (IDEA-006 v1.1) is **blocked on G-11** and should be treated as a
   hypothesis awaiting a literature check, not as a live candidate.
+
+---
+
+## Cycle 3 — gap closures and new mechanism families, 2026-10-19
+
+**Cycle objective.** Close the three remaining blocking originality gaps (G-06, G-11, G-10 residual)
+that can kill a candidate; then produce 2–3 new dossiers in mechanism families not yet in the
+register, chosen by the Cycle-2 rule that the decision-time state variable must be *published by an
+institution*; write the state-proxy methodological note; re-rank; and hand off.
+
+### Three-pass task-framing loop (required before generation)
+
+**Pass 1 — draft.** Objective: (a) close G-06 (commodity basis-convergence literature for IDEA-005),
+G-11 (settlement-side deadline cluster for IDEA-006) and the G-10 residual (cross-sectional funding
+state for IDEA-007), each by reading the closest published work and recording a ledger entry with
+the verification method; (b) choose a frontier from handoff section 3 where the state is published
+by a venue, regulator, benchmark administrator or settlement utility; (c) write 2–3 dossiers with
+a participant, a binding constraint, a dated flow, a decision-time-observable state, falsifiable
+predictions and verified sources; (d) write the state-proxy methodological note as a closing
+section of `idea_register.md`; (e) rank with the fixed rubric and add V-007+ specs for any new
+top-three candidate. Key uncertainty: whether a new family can be specified whose state variable is
+genuinely published at decision time, rather than constructed from quotes or inferred.
+
+**Pass 2 — framing.** Cycle 1 covered scheduled non-price-sensitive flows in listed US equities
+(IDEA-001…IDEA-004). Cycle 2 added commodity futures (IDEA-005), the FX fixing clock (IDEA-006)
+and the FX funding state (IDEA-007), and established the venue-selection lesson: the state-proxy
+problem is largely a venue-selection problem. The two closure passes demoted IDEA-007 (aggregate
+version published, R-006) and IDEA-006 (fix effect published, R-007). For Cycle 3, the open
+families from handoff section 3 are: (1) corporate credit index/ETF flow vs dealer balance sheet;
+(2) securities lending / short-sale constraints / recall-driven forced selling — the state
+(borrow availability, recalls, short-position disclosures) is a documented, disclosable operational
+fact rather than a latent variable; (3) crypto perpetual funding rate — the funding rate is settled
+every few hours and published by the exchanges, the clearest instance of "the state is published by
+the venue"; (4) slow information diffusion with an event clock (accounting standards adoption);
+(5) settlement/payment infrastructure as a dated flow (continuation of IDEA-006's vein).
+Known baselines to stay distinct from: the momentum family, the value/carry family, the
+attention/PEAD family, the convergence-to-fundamental-anchor family, the commodity
+basis-convergence family (S-032…S-039), the fix-window literature (S-074…S-081), and the
+funding-currency/global-liquidity corpus (S-052…S-073).
+
+**Pass 3 — scope.** Frontier chosen: Family 2 (securities lending / short-sale constraints /
+recall-driven forced selling) as IDEA-008 and Family 3 (crypto perpetual funding rate) as IDEA-009.
+Both have a decision-time state variable published by an institution/venue: short-interest and
+securities-lending disclosures are published (Reg SHO, exchange short-interest reports), and
+perpetual funding rates are published by exchanges on a fixed cadence. Both are outside the
+register. Both admit a participant-and-constraint story: (IDEA-008) the borrow constraint binds
+and recalls force involuntary covering; (IDEA-009) the funding rate is the crowded-leverage state
+settled every few hours. In scope: literature reading, verification, dossier writing, state-proxy
+note, ranking, validation specs. Out of scope (absolute): backtests, data acquisition, code,
+metrics, workflow changes, tests, credentials, infrastructure, trading. No candidate is tested
+here; every score is a research priority, not a success probability.
+
+### What was actually done
+
+- **Gap closures:** G-06 narrowed (commodity basis-convergence literature S-032…S-039 located;
+  none conditions the roll concession on passive share × depth, so IDEA-005's differentiator
+  survives as a conjecture, not an exhaustive negative). G-11 partially closed — settlement-side
+  mechanics are a priced friction (S-082 Lee/Ranaldo/Tsuruga IMF WP/26/156; S-071 Ranaldo &
+  Santucci de Magistris JFE 2022) but the specific CLS deadline cluster / T+1 post-US-close
+  window is untested; IDEA-006 v1.1 survives but unproven. G-10 residual open — no located paper
+  tests the cross-sectional funding-state claim; IDEA-007 v1.1 survives but unproven.
+- **Source ledger:** added S-082 with full verification record; updated G-06, G-10, G-11 verdicts.
+- **Idea register:** updated IDEA-005/006/007 originality sections with gap results; updated
+  register header change notes.
+- **New dossiers:** IDEA-008 (SECURITY-LEND / short-sale constraints / recall-driven forced
+  selling) and IDEA-009 (PERP-FUND / crypto perpetual funding rate as a published funding state).
+- **State-proxy note:** written as a closing section of `idea_register.md`.
+- **Ranking:** new candidates added to `ranked_shortlist.md` with per-score justification and
+  hard-stop flags; existing ranks re-checked.
+- **Validation specs:** V-007 (IDEA-008) and V-008 (IDEA-009) added to `validation_handoffs.md`.
+- **Rejected/parked:** no new rejections or parkings this cycle.
+- **Handoff:** `next_agent_handoff.md` rewritten with new state.
+
+### Artifact history (Cycle 3)
+
+- `research/source_ledger.md` — S-082 added; G-06 narrowed, G-10 residual open, G-11 partially
+  closed.
+- `research/idea_register.md` — IDEA-005/006/007 originality sections updated; IDEA-008 and
+  IDEA-009 added; state-proxy methodological note added as closing section; header updated.
+- `research/ranked_shortlist.md` — IDEA-008 and IDEA-009 added with scores and justifications;
+  existing ranks re-checked.
+- `research/validation_handoffs.md` — V-007 and V-008 added.
+- `research/next_agent_handoff.md` — rewritten.
+- `research/cycle_notes.md` — this entry.
+
+### Deviations and honest limits
+
+- The funding rate literature base is thinner than the equity short-sale literature; IDEA-009's
+  evidence score reflects that, and the venue risk (crypto) is stated honestly.
+- Every identifier was re-derived from Crossref/arXiv/publisher before use; the phantom-citation
+  and fabricated-bibliography findings from the Cycle-2 closure passes are treated as standing
+  warnings.
+- No candidate has been tested; no number in any dossier is a performance estimate.

@@ -1397,11 +1397,19 @@ could not close G-03. Verdicts are recorded here so the negative results survive
   interested party rather than in peer-reviewed work. IDEA-003 must therefore treat the
   single-name version of the channel as an explicitly weaker, separately-validated extension.
 - **G-06 (new) — the commodity basis-convergence literature, and any published work that already
-  conditions a futures spread on a positioning state.** Not retrieved in Cycle 2. This is a
-  blocking check for IDEA-005's originality: if the concession around the roll is simply a
-  convergence-to-carry trade with a calendar catalyst, or if the cross-sectional state condition
-  is already published, IDEA-005 must be reclassified as a variant of a known baseline. Must be
-  closed before IDEA-005 is presented as a discovery.
+  conditions a futures spread on a positioning state.** **NARROWED, not closed.** The
+  commodity basis-convergence / hedging-pressure / inventory literature was located in Cycle 3
+  (Bessembinder 1992 S-039; Gorton, Hayashi & Rouwenhorst 2013 S-038; Taylor 2016 roll-strategy
+  efficiency; the existing register entries S-032 … S-037). None of it conditions the roll-period
+  nearby-to-deferred spread concession on the passive share of open interest × contract depth, and
+  none of it establishes the concession as a plain *convergence-to-carry trade with a calendar
+  catalyst* rather than a liquidity-provision concession around a scheduled, price-insensitive roll.
+  The aggregate null post-2012 (S-033) and the transience/cost findings (S-032, S-034, S-036,
+  S-037) are consistent with IDEA-005's state-conditioned refinement rather than with a plain
+  basis-convergence trade. The cross-sectional state condition is therefore not established as
+  published, and IDEA-005's differentiator survives — but the claim that "nobody has conditioned
+  the roll impact on the passive share of open interest" remains a conjecture, not an exhaustive
+  negative finding. Must be re-visited before IDEA-005 is presented as a discovery.
 - **G-07 (new) — a benchmark-specific time series of index-linked assets** (for example, assets
   tracking the S&P 500 specifically, rather than the aggregate indexed complex). No verified
   source was found. The SPIVA scorecards (S-040 and the related S&P DJI publications) were
@@ -1486,3 +1494,189 @@ could not close G-03. Verdicts are recorded here so the negative results survive
   The residual, still-unclosed part of G-10: whether the *cross-sectional* claim (which currencies
   respond most to a given dollar funding expansion) is published anywhere, and whether the
   "forward points predict forward points" residual identified in the same pass is occupied.
+  **Cycle-3 update:** the FX cross-section and currency-return literature located in Cycle 3
+  (Adrian–Etula–Shin 2009 S-052 time-series; Jiang–Krishnamurthy–Lustig convenience-yield /
+  Treasury-basis level; Bruno–Shin 2015 cross-border banking S-068; BIS "dollar dependence"
+  construct) supports the aggregate funding channel and a *level* dollar response, but no located
+  paper tests the cross-sectional dependence-structure claim — which currencies' exchange rates
+  move most when dollar funding expands, conditional on the interest differential — as a
+  tradeable object. The cross-sectional residual therefore remains open; IDEA-007's v1.1 claim
+  survives but is unproven.
+
+- **G-11 (new) — the settlement-side deadline cluster.** **PARTIALLY CLOSED.** The G-09 closure
+  established that the *fix* half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074,
+  S-081), and no located fix paper tests the settlement side. Cycle 3 located the closest
+  published work on settlement-side mechanics as price determinants: Lee, Ranaldo and Tsuruga
+  (2026), "Settlement Risk and Currency Markets", IMF WP/26/156 (S-082), which uses Hungary's
+  2015 adoption of CLS payment-versus-payment settlement as a quasi-natural experiment and finds
+  that currency excess returns decline by about ten basis points after CLS adoption — i.e.
+  settlement risk is a *priced friction* in currency markets. Together with the already-registered
+  Ranaldo and Santucci de Magistris (2022), "Liquidity in the global currency market" (S-071,
+  JFE 146(3):859–883), which builds CLS-based settlement metrics and links them to currency risk
+  premia, this shows settlement-side mechanics matter for pricing. **However, neither paper tests
+  the specific settlement-side *deadline cluster*** — the CLS currency-close and pay-in cut-offs
+  and the post-US-close window created by the May 2024 T+1 transition (S-048, S-049) — as a
+  price determinant. So the specific claim IDEA-006's residual rests on remains untested, and
+  IDEA-006 v1.1 survives but is unproven. The asymmetry noted in Cycle 2 stands: a "nobody has
+  tested this" claim about the settlement side must be earned with the same rigour applied to the
+  fix literature, not assumed.
+
+---
+## Cycle 3 additions (S-082)
+
+Added 2026-10-19 in the Cycle-3 originality-gap closure pass. Verification standard as prior
+cycles: each entry located and metadata-checked against Crossref / the publisher's own record
+before use; "Verification" records how the entry was confirmed, not whether the cited paper's
+results are correct.
+
+### S-082 — Lee, S., Ranaldo, A. and Tsuruga, T. (2026)
+"Settlement Risk and Currency Markets." *IMF Working Papers* WP/26/156 (July 2026).
+DOI: https://doi.org/10.5089/9798229054355.001
+SSRN working-paper version: https://doi.org/10.2139/ssrn.7201787
+- **Type:** Prior empirical result (author-reported), IMF working paper; SSRN preprint.
+- **Supports:** settlement-side mechanics as a *priced* determinant of currency prices — the
+  closest published work to IDEA-006's settlement-side residual. Exploits Hungary's November 2015
+  adoption of CLS payment-versus-payment (PvP) settlement as a quasi-natural experiment that
+  sharply reduced settlement risk while preserving settlement cycles and multilateral netting.
+  Difference-in-differences finding: currency excess returns decline by about ten basis points
+  after CLS adoption, and exchange rate volatility falls; deviations from triangular arbitrage
+  narrow. Conclusion: "settlement risk is a priced friction and a source of limits to arbitrage
+  in currency markets." Cites Ranaldo and Santucci de Magistris (2022) (S-071) and related
+  CLS-based microstructure work.
+- **Caveats:** the paper tests settlement *risk* (PvP adoption), not the specific settlement-side
+  *deadline cluster* (CLS currency-close / pay-in cut-offs and the post-US-close T+1 window,
+  S-048, S-049), so it does not close IDEA-006's deadline-cluster claim; it supports the
+  direction that settlement-side mechanics are priced. Sample is Hungary vs. regional controls
+  (HRK, CZK, PLN, RON, RSD); result is author-reported and not reproduced here.
+- **Verification:** Crossref record fetched directly (title, three authors, container "IMF
+  Working Papers", volume 2026, issue 156, page 1, publication date July 2026, DOI, ISSN
+  1018-5941); SSRN record 10.2139/ssrn.7201787 fetched and read (posted 2026-09-24, abstract,
+  author list); IMF eLibrary landing page identified as the publisher source.
+
+---
+## Cycle 3 additions (S-083 … S-089)
+
+Added 2026-10-19 in Cycle 3 for the two new dossiers (IDEA-008, IDEA-009). Verification standard:
+each entry located and metadata-checked against Crossref / arXiv / the publisher's own record
+before use; "Verification" records how the entry was confirmed, not whether the cited paper's
+results are correct.
+
+### S-083 — Jones, C. M. and Lamont, O. A. (2002)
+"Short-sale constraints and stock returns." *Journal of Financial Economics* 66(2-3):207–239
+(November 2002).
+DOI: https://doi.org/10.1016/s0304-405x(02)00224-6
+NBER Working Paper 8494 (October 2001): https://doi.org/10.3386/w8494
+- **Type:** Prior empirical result (author-reported), peer-reviewed journal article; NBER working
+  paper precursor.
+- **Supports:** short-sale constraints as a limit to arbitrage; stocks expensive to short or newly
+  entering the borrowing market have high valuations and low subsequent returns; recall risk
+  (stock loans are not term loans, lender can recall at any time); short interest as a measure of
+  shorting demand. Cited in IDEA-008 for the participant, the constraint and the recall risk.
+- **Caveats:** sample is 1926–1933 (a distressed period); results are author-reported and not
+  reproduced here; the paper documents the *overpricing* side (expensive-to-short → low returns),
+  which is the opposite direction from IDEA-008's forced-covering spike claim.
+- **Verification:** Crossref record fetched directly (title, two authors, container "Journal of
+  Financial Economics", volume 66, issue 2-3, pages 207–239, publication date November 2002,
+  DOI, ISSN 0304-405X, 704 citation count); NBER record 10.3386/w8494 fetched directly (title,
+  two authors, issue date October 2001).
+
+### S-084 — D'Avolio, G. (2002)
+"The market for borrowing stock." *Journal of Financial Economics* 66(2-3):271–306
+(November 2002).
+Referenced within S-083's bibliography (listed as an unpublished Harvard working paper, 2001;
+the JFE published version exists in the same issue).
+- **Type:** Prior empirical result (author-reported), peer-reviewed journal article.
+- **Supports:** the securities lending market described empirically — loan supply ("shortability"),
+  loan fees ("specialness"), and loan recalls from a large institutional lending intermediary
+  (4/2000–9/2001 data); recall is rare on average (~2% of loans per month) but days with
+  involuntary covering show volume more than twice the stock's average and elevated intraday
+  volatility; the lender's option to recall the loan at any time imposes risk on the short seller.
+  Cited in IDEA-008 for recall risk and forced-covering volume/volatility.
+- **Caveats:** the DOI could not be re-derived via Crossref (a direct title/author query returned
+  an unrelated paper); the entry is registered on the basis of (a) its bibliographic listing inside
+  S-083's verified reference list and (b) the ScienceDirect abstract page for
+  S0304405X02002064 (the adjacent PII in the same JFE issue). Results are author-reported and not
+  reproduced here.
+- **Verification:** located as reference BIB6 in S-083's verified Crossref record
+  (10.1016/s0304-405x(02)00224-6); ScienceDirect record S0304405X02002064 fetched (title "The
+  market for borrowing stock", JFE 66(2-3), November 2002). DOI not independently confirmed —
+  treat the identifier as pending re-verification.
+
+### S-085 — U.S. Securities and Exchange Commission (2021)
+"Stock Lending: A Report by the Staff of the U.S. Securities and Exchange Commission."
+SEC staff report (2021).
+- **Type:** Regulator / market-structure documentation.
+- **Supports:** the securities lending market is opaque; short-selling constraints bind only for
+  certain ("special") stocks; the lending market is not centralized with a market-clearing price.
+  Cited in IDEA-008 for the institutional context and the Reg SHO threshold concept.
+- **Caveats:** this is a regulator report, not a peer-reviewed study; the specific URL and
+  publication date were not re-derived in this cycle — treat as pending re-verification before
+  citing in a downstream validation artifact.
+- **Verification:** referenced in Sikorskaya (2023) "Institutional Investors, Securities Lending,
+  and Short-Selling Constraints" (AEA 2024 conference paper) as "U.S. Securities and Exchange
+  Commission (2021)"; the SEC report itself was not directly fetched. Pending direct verification.
+
+### S-086 — He, Z., Kelly, B., Lu, D. and Manela, A. (2022/2024)
+"Fundamentals of Perpetual Futures." arXiv:2212.06888 (first posted December 2022; v3,
+April 2023; v6, August 2024).
+arXiv: https://arxiv.org/abs/2212.06888
+- **Type:** Prior empirical and theoretical result (author-reported), arXiv preprint.
+- **Supports:** perpetual futures have no expiry so no guaranteed convergence to spot; the funding
+  rate (periodic payment between longs and shorts, proportional to the futures-spot gap, typically
+  settled every 8 hours) keeps the futures price close to spot; deviations from no-arbitrage
+  prices in crypto are larger than in traditional markets, comove across currencies, and diminish
+  over time; past returns predict futures-spot deviations with R² above 50% (momentum feedback);
+  funding-rate arbitrage (long spot, short expensive perpetual) documented; clamp regions where
+  the funding rate equals a minimum (e.g. 0.01%). Cited in IDEA-009 for the funding-rate
+  mechanism, the crowded-leverage state, and the momentum confound.
+- **Caveats:** results are author-reported and not reproduced here; the crypto venue carries
+  venue-specific risks (custody, exchange risk, 24/7 trading); different exchanges implement
+  funding rates differently (clamp regions, calculation methods), so results are not transferable
+  across venues without restatement.
+- **Verification:** arXiv record 2212.06888 fetched directly (title, four authors, abstract,
+  version history, submission date December 2022); the arXiv HTML and PDF versions were read from
+  arxiv.org.
+
+### S-087 — Jermann, U., Phelps, P. and Zhang, R. (2024)
+"Perpetual Futures Pricing." First version October 2023; revised September 2024.
+Wharton Finance / SSRN: https://finance.wharton.upenn.edu/~jermann/AHJ-main-10.pdf
+- **Type:** Prior theoretical result (author-reported), working paper.
+- **Supports:** arbitrage pricing of perpetual currency futures; funding specifications for
+  linear and inverse contracts that guarantee the futures price coincides with spot; perpetual
+  futures dominate crypto volume (75% of Bitcoin futures volume, 94% of open interest, first half
+  2023). Cited in IDEA-009 for the institutional context and the dominance of perpetual futures in
+  crypto markets.
+- **Caveats:** results are author-reported and not reproduced here; the paper is a working paper,
+  not peer-reviewed; the URL is a faculty page PDF, not a publisher record.
+- **Verification:** Wharton faculty-page PDF fetched directly (title, three authors, first version
+  October 2023, revision September 2024, abstract); DOI not independently confirmed — treat as
+  pending re-verification.
+
+### S-088 — Inan, E. (undated, registered 2024–2025)
+"Predictability of Funding Rates." SSRN working paper.
+SSRN: https://doi.org/10.2139/ssrn.5576424
+- **Type:** Prior empirical result (author-reported), SSRN preprint.
+- **Supports:** out-of-sample predictability of perpetual futures funding rates, with focus on
+  Bitcoin contracts on Binance and Bybit. Cited in IDEA-009 for funding-rate predictability
+  literature.
+- **Caveats:** results are author-reported and not reproduced here; SSRN preprint, not
+  peer-reviewed; registration date not independently confirmed.
+- **Verification:** SSRN record 10.2139/ssrn.5576424 fetched directly (title, author, abstract).
+  DOI/registration date not independently confirmed beyond the SSRN record itself — treat as
+  pending re-verification.
+
+### S-089 — [Authors not independently confirmed] (2026)
+"Exploring risk and return profiles of funding rate arbitrage on CEX and DEX."
+*Blockchain Research and Applications* (August 2026).
+DOI: https://doi.org/10.1016/j.bcra.2025.100354
+- **Type:** Prior empirical result (author-reported), peer-reviewed journal article.
+- **Supports:** funding-rate arbitrage in cryptocurrency perpetual futures markets using data from
+  major exchanges (Binance, Bitmex) and decentralized platforms (ApolloX, Drift); the funding rate
+  as a periodic payment between longs and shorts to keep the perpetual price close to spot.
+  Cited in IDEA-009 for the funding-rate arbitrage literature.
+- **Caveats:** results are author-reported and not reproduced here; author list not independently
+  confirmed beyond the DOI record; publication date August 2026 (future-dated relative to some
+  records) — verify before citing downstream.
+- **Verification:** DOI record 10.1016/j.bcra.2025.100354 fetched directly (title, container
+  "Blockchain Research and Applications", publication date 2026-08, DOI). Author list and full
+  metadata not independently confirmed — treat as pending re-verification.

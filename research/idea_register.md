@@ -4,15 +4,19 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: Cycle 2 (including the Cycle-2 closure passes), 2026-10-19. The register was empty
+Last updated: Cycle 3 (including the Cycle-3 gap-closure pass), 2026-10-19. The register was empty
 before Cycle 1; Cycle 2 added three dossiers outside listed US equities. **Closure passes: two
 candidates were demoted by their own literature. IDEA-007 was narrowed to v1.1 after the
 funding-currency corpus was read — its aggregate version is a published baseline (S-055, rejected
 as R-006) and the dossier now claims only the cross-sectional and publication-timing residual.
 IDEA-006 was narrowed to v1.1 after the intraday fixing literature was read — the fix-window
-price impact is published (S-075, S-076, S-077, S-074, S-081, rejected as R-007) and the dossier
-now claims only the settlement-side residual (blocked on G-11) and the post-2015 persistence
-question.**
+price impact is published (S-074 … S-081, rejected as R-007) and the dossier now claims only the
+settlement-side residual (blocked on G-11) and the post-2015 persistence question.**
+**Cycle-3 gap closures:** G-10 cross-sectional residual remains open; G-11 partially closed —
+settlement-side mechanics are a priced friction (S-082, S-071) but the deadline cluster is
+untested; G-06 narrowed — the commodity basis-convergence literature (S-032 … S-039) does not
+condition on passive share × depth, so IDEA-005's state-conditioned differentiator survives as
+a conjecture.
 
 ---
 
@@ -741,11 +745,20 @@ after costs is hard to establish.
   state-conditioned, provider-side refinement.** This is not a new effect and must never be
   presented as one. Its value is that the *state* is public, the *dates* are public, and the
   family has a documented, peer-reviewed null that the candidate must survive.
+- *Gap G-06 result (Cycle 3):* the commodity basis-convergence literature was located
+  (S-032 … S-039) and establishes that the roll concession, as an aggregate post-2012 fact, is
+  dead (S-033), transient (S-032, S-034), and not predicted by positions (S-036, S-037). It does
+  **not** condition the roll-period nearby-to-deferred spread concession on the passive share of
+  open interest × contract depth, and it does not establish the concession as a plain
+  convergence-to-carry trade with a calendar catalyst rather than a liquidity-provision concession
+  around a scheduled roll. G-06 is therefore **narrowed, not closed**: the claim that "nobody has
+  conditioned the roll impact on the passive share of open interest" survives as a conjecture,
+  not an exhaustive negative finding, and must be re-visited before IDEA-005 is presented as a
+  discovery.
 - *Confidence in the comparison:* moderate-to-high. The closest work (S-035) and the three
   peer-reviewed studies that contradict it (S-032, S-033, S-034) were read at the level of
   abstracts, publisher records and the CFTC-hosted full text of S-035; S-032 was read in the
-  author-hosted PDF. The claim that "nobody has conditioned the roll impact on the passive share
-  of open interest" is **not** established exhaustively and is labelled a conjecture.
+  author-hosted PDF.
 
 **Target scope.** US-traded commodity futures (CME, CBOT, NYMEX, ICE US) that are components of
 passive commodity benchmarks; the first-nearby (expiring) and second-nearby (deferred) contracts;
@@ -859,9 +872,9 @@ dominates many small contract-level results.
   and excludes some index traders (S-030), and it is reported at the trader level with a weekly
   lag.
 - *The candidate may be a dressed-up basis-convergence trade* — the commodity basis-convergence
-  literature was not retrieved this cycle and must be checked (gap G-06). If the concession is
-  simply a convergence-to-carry trade with a calendar catalyst, it is a variant of a known
-  baseline and must be reclassified.
+  literature was located in Cycle 3 (S-032 … S-039, gap G-06 narrowed but not closed). If the
+  concession is simply a convergence-to-carry trade with a calendar catalyst, it is a variant of a
+  known baseline and must be reclassified.
 
 **Data requirements and feasibility for a future independent validation.** (Specification only —
 nothing is acquired or processed here.) Public: futures settlement and trade prices by contract
@@ -1024,16 +1037,24 @@ paper.**
   (a deadline-driven concession at the end-of-day clock) is published (S-075, S-076, S-077,
   S-074, S-081) and was therefore **rejected as a candidate (R-007)**. What remains is the
   settlement-side residual and the post-reform persistence question, and the first of those is
-  **blocked on G-11**: no search of the settlement-side or T+1-window literature has been
-  performed, so "unclaimed" is currently an *expectation*, not a finding. This dossier must never
-  be described as a discovery of the fix's price impact.
+  **blocked on G-11**: G-11 is now **partially closed** — Lee, Ranaldo and Tsuruga (2026) (S-082)
+  show settlement risk is a *priced friction* in currency markets using Hungary's 2015 CLS
+  PvP adoption, and Ranaldo and Santucci de Magistris (2022) (S-071) build CLS-based settlement
+  metrics linked to currency risk premia. So settlement-side mechanics matter for pricing, but
+  neither paper tests the specific *settlement-side deadline cluster* — the CLS currency-close and
+  pay-in cut-offs and the post-US-close window created by the May 2024 T+1 transition — as a
+  price determinant. The specific claim IDEA-006's residual rests on remains untested, so
+  "unclaimed" is still an *expectation*, not a finding. This dossier must never be described as
+  a discovery of the fix's price impact.
 - *Confidence in the comparison:* **high for the fix, low for the residual.** Every item in
   S-074 … S-081 was re-verified directly against Crossref, the arXiv record, the NBER record or
   the publisher listing in this pass, and the DOIs that a read-only verification agent reported
   for three of them were wrong and were corrected (the errors are recorded in the G-09 gap
-  entry). The residual side is weaker: G-11 is open, and the fix literature's own data
-  (administrator- and dealer-provided tick data) mean that a "nobody has tested this" claim
-  about the settlement side must be earned, not assumed.
+  entry). S-082 adds a published settlement-side result (the closest located work to IDEA-006's
+  residual) but does not close the deadline-cluster claim. The residual side is weaker: G-11 is
+  partially closed, and the fix literature's own data (administrator- and dealer-provided tick
+  data) mean that a "nobody has tested this" claim about the settlement side must be earned, not
+  assumed.
 
 **Target scope.** Spot and forward FX in the major pairs and the most fix-traded crosses; the
 16:00 London fix window and the 16:00–18:00 ET post-US-close window; holding horizon intraday
@@ -1304,6 +1325,13 @@ the FX risk premium.
   rejection (R-006). What remains claimed here is narrow: the *cross-sectional* dependence
   structure, and the *publication-timing* test. This dossier must never be described as a
   discovery of the funding-state → carry relation.
+- *Gap G-10 result (Cycle 3):* the FX cross-section and currency-return literature located in
+  Cycle 3 supports the aggregate funding channel and a *level* dollar response
+  (S-052 time-series; S-055 funding risk; S-068 cross-border banking), but no located paper tests
+  the *cross-sectional* dependence-structure claim — which currencies' exchange rates move most
+  when dollar funding expands, conditional on the interest differential — as a tradeable object.
+  G-10's cross-sectional residual is therefore **open**; IDEA-007's v1.1 claim survives but is
+  unproven.
 - *Confidence in the comparison:* **moderate-to-high for the baseline, low for the residual.**
   S-055 and S-059 were re-verified directly against their publisher records in this cycle; the rest
   of the corpus was verified by a dedicated verification pass (S-056 … S-073) whose bibliographic
@@ -1491,3 +1519,455 @@ no published cross-currency basis series exists (G-10)?
   funding-coinage factor, and both can be short the funding currency. The register now has
   *market* diversification but a *factor* concentration in the dollar; that concentration should
   be stated in any portfolio-level discussion.
+
+---
+
+## IDEA-008 — SECURITY-LEND: borrow constraints, recall-driven forced covering, and the short-interest state
+
+- **ID / short name:** IDEA-008 / SECURITY-LEND
+- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+
+**One-sentence hypothesis.** When a stock's borrow becomes expensive or scarce and lenders recall
+loaned shares, short sellers are forced to cover involuntarily; the resulting buying pressure
+creates a temporary price spike that decays as the covering is completed, so a rule that buys
+into borrow-constraint and recall events and exits on a pre-scheduled basis captures a
+liquidity-provision premium paid by the forced coverers.
+
+**Plain-language description.** Some stocks are hard or expensive to borrow. Short sellers who
+borrowed those shares can be asked to give them back at any time — the lender can recall the
+loan. When that happens, the short seller must buy the stock back to close the position, often in
+a rising market and often all at once with other short sellers in the same stock. That forced
+buying pushes the price up temporarily, and the spike fades once the covering is done. A
+participant who is ready to buy into that forced covering and sell afterward collects the
+temporary price concession.
+
+**Mechanism (causal chain).**
+1. To sell a stock short, an investor must first borrow it; the lender charges a fee (the loan
+   rate or "specialness") and can recall the shares at any time (Jones & Lamont, 2002, S-083).
+2. Stock loans are not term loans: the lender has the right to demand the shares back at any
+   moment, and if the short seller cannot find replacement shares, the position must be covered
+   — bought back — at whatever the market price is (S-083).
+3. Recall risk is real and measurable: in a large lending-intermediary sample, about 2% of loans
+   on loan were recalled in an average month, and days with involuntary covering saw volume more
+   than twice the stock's average and elevated intraday volatility (D'Avolio, 2002, S-084;
+   referenced in S-083).
+4. When many short sellers are recalled at once — or when borrow becomes expensive enough that
+   new shorts cannot be initiated — the forced covering is concentrated and price-insensitive:
+   the short seller must buy regardless of price (S-083).
+5. A participant who supplies liquidity into that forced buying — buying as the coverers buy and
+   selling into the subsequent normalization — earns the temporary price concession. The edge is
+   a *liquidity-provision premium* paid by the forced coverers, not a risk premium for systematic
+   exposure.
+6. The state is observable at decision time: short interest (shares sold short, published
+   biweekly by exchanges), securities-lending fees and availability (reported by lending agents
+   and data vendors), and recall events themselves are documented operational facts rather than
+   latent variables (SEC, 2021, S-085).
+
+**Expected return source.** A temporary liquidity-provision premium paid by short sellers who are
+forced to cover (by recall or by prohibitively expensive borrow), collected by a participant who
+is scheduled to be present at the covering event and exits after it, net of execution costs and
+the risk that the recall is driven by fundamental news rather than a pure liquidity event.
+
+**Originality.**
+- *Closest known work:* Jones & Lamont (2002) "Short-Sale Constraints and Stock Returns" (S-083),
+  JFE 66(2-3):207-239; D'Avolio (2002) "The Market for Borrowing Stock" (S-084), JFE
+  66(2-3):271-306; Duffie, Garleanu & Pedersen (2002) "Securities Lending, Shorting, and Pricing"
+  (SSRN 302015); SEC (2021) on securities lending market opacity (S-085); and the broader
+  limits-to-arbitrage literature (S-022, S-023).
+- *What is already known:* that stocks expensive to short or newly entering the borrowing market
+  have low subsequent returns (S-083); that loan supply, fees and recalls are real and measurable
+  (S-084); that short-sale constraints are a limit to arbitrage and bind only for certain
+  ("special") stocks; and that recall-driven forced covering produces volume and volatility spikes
+  (S-084).
+- *Substantive differentiator claimed here:* (i) the candidate is *not* the well-documented
+  "expensive-to-short predicts low returns" effect (which is the opposite side of the trade);
+  it is the **recall-driven forced-covering spike** on the *long* side, which is a distinct,
+  event-timed, short-horizon phenomenon; (ii) the state (borrow cost/availability and recall
+  risk) is published by exchanges and lending agents on a known calendar, so no proxy
+  construction is needed — this is the venue-selection lesson applied to a new family; and
+  (iii) the trade is explicitly two-legged and time-boxed (buy into the cover, exit on schedule),
+  not a directional short-sale-constraints position.
+- *Honest classification:* **mechanism documented in parts, candidate specification new.** The
+  components (borrow cost, recall risk, forced covering) are published; the joint specification —
+  buying into recall events as a liquidity-provision trade with a pre-specified exit — is not a
+  known baseline in the register or in the located literature.
+- *Confidence in the comparison:* moderate. S-083 and S-084 were verified directly (Crossref and
+  publisher record); S-084's DOI could not be re-derived and is logged as a working-paper
+  reference cited within S-083. The claim that no published work tests the recall-event liquidity
+  provision as a tradeable two-legged rule is a search result, not a proof.
+
+**Target scope.** US equities with publicly reported short interest and active securities-lending
+markets; holding horizon intraday to a few sessions around a recall or borrow-cost spike event;
+per name; regime conditions: exclude names with fundamental news (earnings, M&A, FDA decisions)
+inside the event window; exclude names under a short-sale restriction (Reg SHO SSR threshold).
+
+**Observables (knowable at decision time, conceptually).**
+- Short interest (shares sold short), published biweekly by exchanges (NASDAQ, NYSE) with a
+  known lag — the change in short interest is the flow proxy.
+- Securities-lending fee ("specialness") and borrow availability, reported by lending agents and
+  data vendors — the state variable.
+- Recall events: not published as a time series, but the *risk* of recall is priced into the loan
+  fee, and spikes in the fee are observable (S-084).
+- Reg SHO threshold securities list (stocks that have failed to deliver for five consecutive
+  settlement days) — published by exchanges and by FINRA — a regulatory signal that borrowing is
+  constrained (S-085).
+- *Timing hazards to flag for the validator:* short interest is reported biweekly with a lag, so
+  the state is stale by design; the recall event itself is not published and must be inferred from
+  fee spikes and volume anomalies; a recall can be driven by fundamental news (the lender selling
+  because they lost confidence), which is the dominant confounder; and the event is rare (about
+  2% of loans per month in S-084), so the sample is small.
+
+**Rule sketch (descriptive, non-executable).** Each day, for each name in scope: compute the
+change in short interest and the securities-lending fee relative to its own history; flag names
+where the fee spikes into the top decile of its own distribution (a borrow-constraint event) or
+where short interest rises sharply with a simultaneous fee increase; exclude names with scheduled
+fundamental news inside the window; take a long position sized as a small fraction of the name's
+daily volume; exit on a pre-specified schedule (e.g. T+1 to T+5) after the event, with the exit
+rule fixed in advance. Exclusions: names under Reg SHO threshold, names with earnings or M&A
+news inside the window, names in the bottom liquidity quintile.
+
+**Persistence thesis.** Stock loans are not term loans and lenders can recall at any time, so
+recall risk is structural; short-sale constraints bind only for certain stocks and are not
+competed away because the supply of lendable shares is limited by the holdings of long-term
+investors (S-083). It decays if securities lending becomes centralized and transparent (reducing
+recall risk and fee spikes), if short selling becomes so constrained that few shorts exist to be
+recalled, or if the recall-event premium is arbitraged by participants already stationed to
+supply liquidity into recalls.
+
+**Constraints.** Cost/liquidity: the covering is concentrated in minutes, so spread and slippage
+are first-order; this is the binding constraint. Capacity: bounded by the size of the forced
+covering and by the name's liquidity; small-cap names have the highest fees but the least
+liquidity. Financing/margin: a long position held for days is a spread cost, not a
+balance-sheet constraint. Borrow: not a short-sale-constrained trade (it is long), but the
+underlying event is about borrow constraints. Market impact: buying into a concentrated
+forced-covering window is an impact machine. Venue/operational: short-interest data are biweekly
+and lagged; the recall event itself must be inferred.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the constraint state
+is the regime — the candidate predicts an edge only when borrow is constrained. Tail: a recall
+driven by fundamental news is a directional loss, not a liquidity event; this is the dominant
+failure mode. Crash behaviour: in a market-wide squeeze, recalls cluster across names and the
+position is long into a rising market (which is the payoff), but the covering may extend beyond
+the pre-scheduled exit. Hidden beta: the long position carries market beta and idiosyncratic
+news risk; beta must be controlled explicitly. Correlated risks: recalls can cluster in the same
+sector (e.g. after a sector-level negative development), so the book is not fully diversified.
+
+**Falsifiable predictions and rejection conditions.**
+1. *Event spike:* a borrow-fee spike or sharp short-interest increase is followed by a temporary
+   price increase that decays within 1–5 sessions. **Kill:** no price increase after the event,
+   or the increase does not decay.
+2. *State scaling:* the size of the post-event price move is increasing in the fee spike magnitude
+   and in the change in short interest. **Kill:** no relation to the state variables.
+3. *News confound:* the effect is present on no-news days and absent (or reversed) on days with
+   fundamental news inside the window. **Kill:** the effect is driven entirely by news days,
+   which would mean it is a fundamental-repricing event, not a liquidity event.
+4. *Cost floor:* the realised temporary spike exceeds round-trip cost (spread, commission,
+   slippage) in the selected names. **Kill:** the gross spike is below cost in every selected
+   name.
+5. *Rarity:* the event is rare (about 2% of loans per month), so the effective sample is small;
+   if the effect cannot be distinguished from noise given the sample size, the candidate is
+   untestable as specified.
+
+**Main confounders and rival explanations.**
+- *Fundamental news on the recall:* the lender recalls because they lost confidence and are
+  selling; the short covering coincides with a fundamental re-pricing. This is the single most
+  important confounder and is addressed only partially by the no-news exclusion.
+- *Short-sale constraint overpricing:* expensive-to-short stocks have low subsequent returns
+  (S-083) — the opposite direction; the candidate must show its effect is distinct from and not
+  explained by this baseline.
+- *Reg SHO threshold effects:* stocks on the threshold list behave differently for regulatory
+  reasons unrelated to recall risk.
+- *Liquidity as cause and effect:* a thin stock has both high borrow fees and large price moves
+  for any flow; the conditioning may be over-controlling.
+
+**Data requirements and feasibility for a future independent validation.** (Specification only —
+nothing is acquired or processed here.) Public: short interest (biweekly, exchange-published),
+Reg SHO threshold list (exchange/FINRA-published), daily OHLCV, borrow-fee and availability data
+(from lending agents and data vendors — commercial), and a fundamental-news calendar. Feasibility:
+**medium** — the prices and short interest are public; the borrow-fee data are commercial and the
+recall event must be inferred; the rarity of the event makes the sample small.
+
+**Theory/evidence status.**
+- *Conceptual rationale:* supported — short-sale constraints as limits to arbitrage (S-083),
+  recall risk as a real cost of shorting (S-084), and the securities-lending market as
+  documentation-heavy but economically real (S-085).
+- *Mechanism supported by sources:* yes for the participant, the constraint and the recall risk
+  (S-083, S-084); the *joint* two-legged liquidity-provision specification is an unresolved
+  conjecture.
+- *Prior empirical support reported by others:* for the components (S-083, S-084); not for the
+  joint trade specification.
+- *Unresolved:* whether the recall-driven forced-covering spike is large enough to exceed costs
+  after the news confound is removed, and whether the biweekly lagged short-interest series is a
+  sufficiently timely state variable.
+
+**Remaining uncertainty / confidence.** Confidence that borrow constraints, recall risk and forced
+covering are real and documented: **high**. Confidence that a tradeable two-legged rule can be
+built on them: **low-to-moderate** — the event is rare, the recall itself is not published, and
+the news confounder is severe. Priority score **66/100**; rank **4 of 9** at the time of writing.
+**Concrete next question:** does a securities-lending fee spike or a sharp short-interest increase
+predict a temporary price increase that decays within a week, on no-news days, after costs?
+
+---
+
+## IDEA-009 — PERP-FUND: the perpetual-futures funding rate as a daily-settled, published funding state
+
+- **ID / short name:** IDEA-009 / PERP-FUND
+- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+
+**One-sentence hypothesis.** The perpetual-futures funding rate is settled every few hours and
+published by the exchange; because it measures the crowded-leverage state directly, a rule that
+takes the side opposite to the funding-rate crowd — short when the funding rate is high and
+positive (longs paying shorts), long when it is low or negative — captures a mean-reversion
+premium in the futures-spot basis that decays as the crowd unwinds.
+
+**Plain-language description.** Crypto perpetual futures have no expiry. To keep the futures
+price close to the spot price, exchanges make the long and short sides pay each other a funding
+rate every few hours. When the funding rate is high and positive, lots of people are long and
+paying the shorts — the market is crowded on the long side. That crowd is leveraged and can be
+forced to unwind. A participant who goes short when the funding rate is very positive (betting
+against the crowded long side) and long when it is very negative (betting against the crowded
+short side) captures the mean reversion in the basis, funded by the funding-rate payments
+themselves.
+
+**Mechanism (causal chain).**
+1. Perpetual futures have no expiry date, so there is no guaranteed convergence to spot; instead,
+   exchanges use a funding rate — a periodic payment between longs and shorts proportional to the
+   futures-spot gap — to keep the futures price close to spot (He et al., 2022/2024, S-086;
+   Jermann et al., 2024, S-087).
+2. The funding rate is typically settled every 8 hours and equals approximately the average
+   futures-spot spread over the preceding period (S-086). It is published by the exchange on a
+   fixed cadence — the state is published by the venue, with no look-ahead and no proxy
+   construction.
+3. A high positive funding rate means longs are paying shorts: the market is crowded on the long
+   side, and the crowd is leveraged (perpetuals are leveraged instruments). A high negative rate
+   means the reverse: the crowd is on the short side.
+4. The crowded side is exposed to unwinding: when the funding rate reverses or the price moves
+   against the crowd, leveraged positions are liquidated, which accelerates the move in the
+   opposite direction — a forced-deleveraging spiral in the same family as recall-driven forced
+   covering (IDEA-008) but in a derivatives venue (He et al., S-086).
+5. Taking the side opposite the funding-rate crowd — short when longs are paying and crowded,
+   long when shorts are paying and crowded — means supplying liquidity to a crowd that must
+   unwind, collecting the funding-rate payments and the basis mean reversion. The edge is a
+   *crowded-leverage reversal premium*, not a trend-following or breakout signal.
+6. Because the funding rate is published every few hours, the state is observable at decision
+   time and the trade can be scheduled around each settlement — this is the clearest instance of
+   the Cycle-2 venue-selection rule: "the state is published by the venue."
+
+**Expected return source.** The funding-rate payment itself (collecting the rate by being on the
+receiving side) plus the mean reversion of the futures-spot basis as the crowded leveraged
+position unwinds — a liquidity-provision/crowded-leverage reversal premium paid by the leveraged
+crowd, net of execution costs, funding costs, and liquidation-spike risk.
+
+**Originality.**
+- *Closest known work:* He, Kelly, Lu, and Manela (2022/2024) "Fundamentals of Perpetual Futures"
+  (arXiv:2212.06888, S-086); Jermann, Phelps, and Zhang (2024) "Perpetual Futures Pricing"
+  (S-087); Christin, Routledge, Soska, Zetlin-Jones "The crypto carry trade" (preprint, cited in
+  S-086); Emre Inan "Predictability of Funding Rates" (SSRN, S-088); and the "Exploring risk and
+  return profiles of funding rate arbitrage" study (Blockchain Research and Applications, 2026,
+  S-089).
+- *What is already known:* the funding rate keeps perpetual futures close to spot (S-086);
+  deviations from no-arbitrage prices in crypto are larger than in traditional markets, comove
+  across currencies, and diminish over time (S-086); past returns predict futures-spot deviations
+  with R² above 50% (momentum feedback in S-086); funding-rate arbitrage strategies (long spot,
+  short perpetual when futures are expensive) have been documented (S-086, S-088); and funding
+  rates contain information about future spot volatility beyond fixed-maturity futures measures
+  (S-089).
+- *Substantive differentiator claimed here:* (i) the candidate is *not* the well-documented
+  funding-rate arbitrage (long spot, short expensive perpetual) — which is an arbitrage, not a
+  state-conditional reversal — but a **crowded-leverage reversal** keyed to the funding-rate
+  level as a state variable; (ii) the state is published by the exchange every few hours with
+  zero lag, which is the venue-selection ideal; and (iii) the holding horizon is a few funding
+  periods (intraday to multi-day), not the perpetual arbitrage's indefinite hold.
+- *Honest classification:* **mechanism documented in parts, candidate specification new.** The
+  funding-rate mechanism and the funding-rate arbitrage are published; the joint specification —
+  taking the side opposite the funding-rate crowd as a reversal trade keyed to the funding-rate
+  *level* (not the basis) — is not a known baseline in the register or in the located literature.
+  The venue risk (crypto) is real and is stated honestly.
+- *Confidence in the comparison:* moderate-to-low. S-086 was verified via arXiv (2212.06888);
+  S-087 via the Wharton/arXiv PDF; S-088 via SSRN. The funding-rate literature base is thinner
+  than the equity short-sale literature, and the crypto venue carries venue-specific risks
+  (custody, exchange risk, 24/7 trading). The claim that no published work tests the
+  funding-rate-level reversal as a tradeable rule is a search result, not a proof.
+
+**Target scope.** Crypto perpetual futures on major exchanges (Binance, Bybit, OKX, etc.) for
+liquid underlyings (BTC, ETH and a small set of large altcoins); holding horizon one to several
+funding periods (8-hour to multi-day); per underlying; regime conditions: exclude periods of
+exchange outage or severe congestion; exclude underlyings with thin perpetual order books.
+
+**Observables (knowable at decision time, conceptually).**
+- The funding rate, published by the exchange every funding period (typically every 8 hours) —
+  the state variable, with zero lag.
+- The futures-spot basis (perpetual price minus spot price) — the object that mean-reverts.
+- Funding-rate extremes: the funding rate relative to its own history (e.g. top/bottom decile)
+  — the entry signal.
+- Open interest and volume in the perpetual — the size of the crowded position.
+- *Timing hazards to flag for the validator:* funding rates can clamp at a minimum (e.g. 0.01%
+  per period in S-086), so small rates are not informative; the exchange can change the funding
+  cadence or clamp rules; crypto markets trade 24/7 so the "session" concept does not apply;
+  and exchange-specific funding-rate implementations differ (clamp regions, calculation methods),
+  so results are not transferable across venues without restatement.
+
+**Rule sketch (descriptive, non-executable).** For each underlying in scope, at each funding
+settlement: read the published funding rate; if the rate is in the top decile of its own trailing
+distribution (longs paying, crowded long side), take a short perpetual position sized as a small
+fraction of open interest; if the rate is in the bottom decile (shorts paying, crowded short
+side), take a long position; exit after a pre-specified number of funding periods (e.g. 1–3) or
+when the funding rate crosses zero, whichever comes first, with the exit rule fixed in advance.
+Exclusions: thin order books, exchange outages, clamp-region rates, and underlyings with
+insufficient open interest.
+
+**Persistence thesis.** Perpetual futures are leveraged instruments with no expiry, so the
+funding rate is the mechanism that keeps the crowd aligned with spot; the crowded side is always
+exposed to unwinding; and the funding rate is published by the exchange, so the state is always
+observable. It decays if the funding-rate crowd becomes sophisticated enough to pre-position
+against reversals, if exchange funding implementations change to reduce the signal, or if
+liquidity in thin underlyings dries up. Both decay channels are observable.
+
+**Constraints.** Cost/liquidity: crypto perpetual spreads are narrow for majors but the trade is
+intraday and frequent, so spread and slippage accumulate; this is the binding constraint. Capacity:
+bounded by perpetual open interest and depth; large altcoins have thin books. Financing: a
+leveraged perpetual position incurs funding that moves with the same state variable that
+generates the signal — a self-referencing hazard that must be handled explicitly (the position's
+own funding cost moves with the state). Borrow: not applicable (perpetuals are not borrows).
+Market impact: trading into a crowded funding period is an impact machine. Venue/operational:
+exchange custody risk, 24/7 trading, funding-cadence changes, and venue-specific clamp rules are
+real risks that must be stated, not assumed away.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the funding-rate
+state *is* the regime — the candidate predicts an edge only at funding-rate extremes. Tail: a
+leveraged unwind can be violent and fast, and the position is on the side of the unwind (which is
+the payoff) but can be stopped out before the reversal completes. Crash behaviour: in a
+market-wide deleveraging, funding rates can spike across underlyings simultaneously and the
+position is exposed to gap risk at the next funding settlement. Hidden beta: the position is
+long/short crypto underlyings and carries crypto market beta; beta must be controlled explicitly.
+Correlated risks: funding rates comove across crypto underlyings (S-086), so the book is a single
+crypto-leverage bet.
+
+**Falsifiable predictions and rejection conditions.**
+1. *Reversal:* a high positive funding rate is followed by a negative futures-spot basis move
+   (the crowded long side unwinds), and a high negative rate is followed by a positive basis
+   move, within 1–3 funding periods. **Kill:** no mean reversion, or the basis moves in the same
+   direction as the funding rate (momentum, not reversal).
+2. *State scaling:* the size of the reversal is increasing in the funding-rate extreme (top vs
+   bottom decile). **Kill:** no relation to the funding-rate level.
+3. *Funding-carry contribution:* a material share of the return comes from the funding-rate
+   payment itself (being on the receiving side), not only from the basis move. **Kill:** the
+   reversal does not exceed the funding cost of holding the position.
+4. *Venue transferability:* the effect holds on at least two exchanges with different funding
+   implementations. **Kill:** the effect is exchange-specific, which would mean it is a venue
+   artefact rather than a mechanism.
+5. *Cost floor:* the gross reversal plus funding received exceeds round-trip cost (spread,
+   slippage, funding paid while holding) in the selected underlyings. **Kill:** below cost in
+   every selected underlying.
+
+**Main confounders and rival explanations.**
+- *Momentum feedback:* past returns predict futures-spot deviations with R² above 50% (S-086) —
+  high funding rates may coincide with upward momentum, so the reversal may be a momentum
+  continuation in disguise. The candidate must separate reversal from momentum.
+- *Exchange-specific implementation:* clamp regions and calculation methods differ by venue, so
+  an apparent effect on one exchange may not exist on another.
+- *Custody and exchange risk:* crypto venue risk is real and is not diversifiable within the
+  strategy.
+- *The candidate may be a repackaged funding-rate arbitrage:* the honest null is that the
+  documented arbitrage (long spot, short expensive perpetual) already captures the edge, and the
+  reversal layer adds nothing.
+
+**Data requirements and feasibility for a future independent validation.** (Specification only —
+nothing is acquired or processed here.) Public: exchange-published funding rates (every funding
+period, typically 8 hours), perpetual and spot prices, open interest and volume. Commercial:
+exchange API access for historical funding rates and order-book data. Feasibility: **high** for
+the data (all published by the venue); **medium** for the identification (the reversal must be
+separated from momentum, and venue risk is real).
+
+**Theory/evidence status.**
+- *Conceptual rationale:* supported — the funding-rate mechanism and its role in keeping
+  perpetual futures close to spot (S-086); deviations and arbitrage (S-086, S-087);
+  funding-rate predictability (S-088).
+- *Mechanism supported by sources:* yes for the funding-rate mechanism and the arbitrage
+  (S-086, S-087); the *crowded-leverage reversal* specification is an unresolved conjecture.
+- *Prior empirical support reported by others:* for deviations, arbitrage returns and funding-rate
+  predictability (S-086, S-088, S-089); not for the joint reversal specification.
+- *Unresolved:* whether the funding-rate level predicts a reversal after costs, whether the effect
+  transfers across venues, and whether crypto venue risk is manageable.
+
+**Remaining uncertainty / confidence.** Confidence that the funding rate is published, settled
+every few hours, and measures the crowded-leverage state: **high** (exchange documentation and
+academic work). Confidence that a tradeable reversal rule can be built on it: **moderate** — the
+mechanism is real but the literature base is thin, momentum is a severe confound, and crypto
+venue risk is unquantified here. Priority score **62/100**; rank **7 of 9** at the time of
+writing. **Concrete next question:** does an extreme funding rate (top/bottom decile of its own
+trailing distribution) predict a futures-spot basis reversal within 1–3 funding periods, after
+costs and after controlling for momentum?
+
+---
+
+## State-proxy methodological note (closing section)
+
+**Purpose.** This note answers the question deferred by Cycles 1 and 2: how to choose, build and
+validate a state proxy, and when the honest answer is "no public proxy exists — park the
+candidate rather than re-specify it." It governs every candidate in the register whose mechanism
+depends on a latent state.
+
+**1. The state-proxy problem is largely a venue-selection problem.**
+IDEA-002 (equities, funding state) is parked because no public funding-state proxy exists
+(G-01); IDEA-007 (FX, dollar funding state) works because the BIS publishes the state on a known
+calendar (S-052, S-054). IDEA-004 (equities, crowd depth) is blocked because the crowd proxy is
+quarterly-stale (G-04); IDEA-005 (futures, passive share) works because the CFTC publishes Index
+Trader positions weekly (S-030). IDEA-008 (securities lending, borrow cost) works because short
+interest and lending fees are published; IDEA-009 (crypto perpetuals, funding rate) works because
+the exchange publishes the funding rate every few hours. The pattern is deterministic: *do not
+hunt for a proxy; hunt for a venue where the state is already published by an institution.*
+
+**2. How to choose a state proxy.**
+A state proxy must satisfy all four conditions:
+(a) **Observable at decision time:** the value must be knowable before the trade is executed,
+   with the true publication lag respected. A quarterly holdings file used on a daily rule is
+   look-ahead, not a proxy.
+(b) **Published by an institution:** an exchange, regulator, benchmark administrator, settlement
+   utility, or official statistics body releases it on a fixed calendar. Vendor-constructed
+   series are proxies of proxies and must be labelled as such.
+(c) **Causally connected to the mechanism:** the proxy must measure the binding constraint or
+   flow that generates the edge, not a correlated variable. The carry channel is a rival
+   explanation for the funding channel; the proxy must separate them.
+(d) **Changes the sign or existence of the effect:** conditioning on the proxy must change the
+   *sign* or the *existence* of the predicted return, not merely its size (per the rediscovery
+   guard in `rejected_and_parked.md`).
+
+**3. How to build it without look-ahead.**
+- Use only vintages available at the decision timestamp; if the series is revised, state whether
+  real-time or latest-vintage data are used.
+- Respect the true publication lag: a decision on day T may use only reports published on or
+  before day T.
+- Make the proxy construction point-in-time: no backfilled index membership, no survivorship,
+  no future information in the selection of the universe.
+- Freeze the proxy definition on the training window; do not re-estimate it after seeing holdout
+  results.
+
+**4. How to validate it against an independent measure.**
+- Validate the fast proxy against at least one holdings-based or institution-reported measure
+  (e.g. IDEA-004's proxy against S-026's holdings-based crowding; IDEA-002's proxy against
+  disclosed dealer funding value adjustments). If validation fails, the candidate is untestable
+  as specified — report that, do not re-specify on the fly.
+- The validation itself must be out of sample relative to the trading test.
+
+**5. When to park rather than re-specify.**
+The honest answer is "no public proxy exists" when:
+- the binding constraint is not published by any institution (IDEA-002's equity funding state,
+  G-01);
+- the only available measure is stale relative to the decision frequency (IDEA-004's crowd
+  proxy, G-04);
+- the fast version of the state must be constructed from paid vendor quotes (IDEA-007's
+  cross-currency basis, G-10);
+- the validator cannot confirm access to the required proprietary data (IDEA-006's intraday fix
+  data).
+In each case, park the candidate. Re-specifying around a weaker proxy converts a good idea into a
+disguised baseline. Change venue, not proxy.
+
+**6. Candidates governed by this note.**
+IDEA-002 (parked, P-004, G-01), IDEA-004 (G-04), IDEA-005 (S-030, public — passes), IDEA-007
+(S-054, public — passes), IDEA-008 (short interest/lending fees, public — passes), IDEA-009
+(funding rate, published by venue — passes).
+
+---
