@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-19, end of Cycle 4 · Cycle 4 closed · Next cycle: Cycle 5
+Last updated: 2026-10-19, partial Cycle 5 pass · G-10 residual narrowed (likely closed by Fed 2024 / Avdjiev cross-sectional CIP work, pending verification); G-11, G-06 and T5–T8 remain open
 
 ---
 
@@ -30,9 +30,12 @@ closing section of `research/idea_register.md`.
 
 ## 2. Highest-priority unresolved theoretical questions
 
-1. **G-10 residual — is the cross-sectional funding-state claim already published?** Still open.
-   No located paper tests which currencies respond most to a dollar funding expansion conditional on
-   the interest differential. If found, IDEA-007 is rejected.
+1. **G-10 residual — partially narrowed.** Fed 2024 "Quantities and Covered-Interest Parity" tests
+   cross-sectional variation in CIP bases conditional on safe-asset ratios and intermediary capacity;
+   Avdjiev et al. (2016) [S-009] already explains cross-sectional CIP variation via differential
+   dollar sensitivity. Pending verification whether either tests the *interest-differential-conditional*
+   currency response to a dollar funding expansion specifically; if confirmed, IDEA-007 v1.1 is
+   rejected. Candidate new source S-095 (Fed 2024 working paper).
 2. **G-11 — has anyone tested the settlement-side deadline cluster as a price determinant?** Open.
    Settlement-side mechanics are a priced friction (S-082, S-071) but the specific CLS deadline
    cluster / post-US-close T+1 window is untested. IDEA-006 v1.1 and IDEA-012 are both blocked.
