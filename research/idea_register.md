@@ -4,19 +4,31 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: Cycle 3 (including the Cycle-3 gap-closure pass), 2026-10-19. The register was empty
-before Cycle 1; Cycle 2 added three dossiers outside listed US equities. **Closure passes: two
-candidates were demoted by their own literature. IDEA-007 was narrowed to v1.1 after the
-funding-currency corpus was read — its aggregate version is a published baseline (S-055, rejected
-as R-006) and the dossier now claims only the cross-sectional and publication-timing residual.
-IDEA-006 was narrowed to v1.1 after the intraday fixing literature was read — the fix-window
-price impact is published (S-074 … S-081, rejected as R-007) and the dossier now claims only the
+Last updated: Cycle 5 (the Cycle-5 gap-closure and originality pass), 2026-10-19. The register was
+empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities. **Closure passes:
+three candidates have now been demoted by their own literature. IDEA-007 was narrowed to v1.1 after
+the funding-currency corpus was read — its aggregate version is a published baseline (S-055,
+rejected as R-006) and the dossier then claimed only the cross-sectional and publication-timing
+residual — and in Cycle 5 that residual was closed against it as well: the cross-section is a
+published, positive result (S-064) and the mechanism's literature has closed in the same direction
+(S-095, S-096, S-097), so IDEA-007 is **rejected (R-008)** and the register holds no FX candidate.
+IDEA-006 was narrowed to v1.1 after the intraday fixing literature was read — the fix-window price
+impact is published (S-074 … S-081, rejected as R-007) and the dossier now claims only the
 settlement-side residual (blocked on G-11) and the post-2015 persistence question.**
 **Cycle-3 gap closures:** G-10 cross-sectional residual remains open; G-11 partially closed —
-settlement-side mechanics are a priced friction (S-082, S-071) but the deadline cluster is
-untested; G-06 narrowed — the commodity basis-convergence literature (S-032 … S-039) does not
-condition on passive share × depth, so IDEA-005's state-conditioned differentiator survives as
-a conjecture.
+settlement-side mechanics are a priced friction (S-082, S-071) but the deadline cluster is untested;
+G-06 narrowed — the commodity basis-convergence literature (S-032 … S-039) does not condition on
+passive share × depth, so IDEA-005's state-conditioned differentiator survives as a conjecture.
+**Cycle-5 gap closures (this cycle):** **G-10 closed against IDEA-007** (see the R-008 record);
+**G-06 closed as a bounded negative finding** with the papers that had not been found earlier now
+located and registered (S-098 conditions spot–futures convergence on *trader type*; S-099
+conditions *commodity returns during roll periods* on the CIT market share and reports no
+significant effect — contradicting evidence now recorded against IDEA-005); **G-08 mostly closed**
+and **G-05 split** (its single-name 0DTE series is constructible from public OCC data, so the
+*data* question is closed and only the *literature* question is open); and **G-12 opened** — the
+general question of whether a *published* state can change the *sign or existence* of a published
+effect, or only its measurement quality, which is now the register's standing test for every
+state-conditioned candidate.
 
 ---
 
@@ -1215,263 +1227,63 @@ survives removal of the published fix effect?
 ## IDEA-007 — FUNDSTATE-FX: the dollar as the funding currency, and the cross-section of who feels it
 
 - **ID / short name:** IDEA-007 / FUNDSTATE-FX
-- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** retained (not in the top three) ·
-  **Version:** 1.1
-- **Change notes:** v1.0 — first dossier. This is IDEA-002's mechanism taken to the venue where
-  the funding state is *published*; the register's answer to the state-proxy question is that the
-  venue, not the proxy, determines feasibility. **v1.1 — reclassified after the funding-currency
-  source closure (S-055 … S-073): the aggregate funding-state → carry-return relation is a
-  published, peer-reviewed baseline with a positive result, so the aggregate version was rejected
-  (R-006) and this candidate's residual claim was narrowed to the cross-sectional dependence
-  structure.**
+- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** **rejected (R-008)** · **Version:** 1.2
+- **Change notes:** v1.0 — first dossier (the venue answer to the state-proxy question). v1.1 —
+  reclassified after the funding-currency corpus was read: the aggregate funding-state → carry-return
+  relation is a published, peer-reviewed baseline with a positive result (S-055), the aggregate
+  version was rejected as R-006, and the dossier was narrowed to the cross-sectional dependence
+  structure plus a publication-timing test. **v1.2 (Cycle 5) — REJECTED.** The cross-sectional
+  residual is a published, positive result (S-064) and the mechanism's own literature has closed in
+  the same direction (S-095, S-096, S-097). The dossier is retained as a compact record only; the
+  full reasoning is in `rejected_and_parked.md` (R-008).
 
-**One-sentence hypothesis.** The dollar is the world's funding currency, so the growth of
-dollar-denominated liabilities of the intermediaries who supply that funding is a public,
-slow-moving state that moves the dollar; the aggregate version of that relation is already
-published (S-055), and the candidate's residual claim is that the *cross-sectional* version — which
-currencies' exchange rates move when dollar funding expands, and by how much — is a distinct,
-testable object that the literature read so far does not establish, and that it is tradeable
-because the state is published on a known calendar.
+**What was claimed.** The dollar is the world's funding currency, so the growth of
+dollar-denominated liabilities of the intermediaries who supply that funding is a public, slow-moving
+state that moves the dollar. The aggregate version of that relation is published (S-052, S-055). The
+candidate's residual claim was therefore the *cross-sectional* version: which currencies' exchange
+rates move when dollar funding expands and by how much, measurable *ex ante* from the published BIS
+locational banking statistics (S-054) on their quarterly calendar, and identifiable by a
+publication-timing test (the effect must appear from the publication date and not before).
 
-**Plain-language description.** When the world's banks and borrowers take on more dollar
-liabilities, the dollar tends to appreciate against most other currencies. The interesting part is
-not that the dollar moves on average but that it should move *more* against the currencies whose
-own borrowers depend most on dollar funding — and that dependence is measurable from published
-banking statistics.
+**Why it is rejected.** The cross-section is published, and published *positively*. Wang (2026),
+"Deviations from Covered Interest Parity, Dollar Funding Pressure, and Currency Risk Premia"
+(S-064), states the hypothesis in the register's own words — "Currencies with higher dollar funding
+pressure (higher unconditional level of basis) earn higher expected excess returns" — and reports a
+global high-minus-low basis factor that earns a 4–4.5% annual risk premium, explains a large share
+of the cross-sectional variation in currency excess returns, and subsumes carry and several other
+factors. The mechanism's literature closed in the same direction during the same cycle: Moskowitz,
+Ross, Ross and Vasudevan are now peer-reviewed as "Risk, Specialization, and Covered-Interest
+Parity" (*Journal of Finance*, S-095) and document the cross-section of CIP bases and its
+pass-through to prices; Cenedese, Della Corte and Wang (2021, S-096) show that a binding regulatory
+balance-sheet constraint prices currency funding at the dealer level; Adrian, Etula and Muir (2014,
+S-097) establish the general intermediary-state → cross-section-of-returns mechanism.
 
-**Mechanism (causal chain).**
-1. The dollar is the funding currency: the largest and most central funding market in the world
-   is a dollar market, and dollar liabilities of financial intermediaries are the balance-sheet
-   expression of that fact.
-2. The mechanism is documented and modelled: "we present evidence that the growth of
-   U.S.-dollar-denominated banking sector liabilities forecasts appreciations of the U.S. dollar,
-   both in-sample and out-of-sample, against a large set of foreign currencies" and "we provide a
-   theoretical foundation for a funding liquidity channel in a global banking model where exchange
-   rates fluctuate as a function of banks' balance sheet capacity"; the authors further note that
-   "this channel is separate from the more familiar 'carry trade' channel" (S-052). The closely
-   related peer-reviewed work amplifies the same channel (S-053).
-3. **The aggregate version of this idea is already published, with a positive result.** Filipe,
-   Nissinen and Suominen (2023) measure funding constraints by deviations from covered interest
-   parity, define funding risk as the dispersion of those deviations, and find that funding risk
-   explains carry trading activity, carry returns and carry-long/short correlations, with a model
-   in which the investment and the funding currency crash together relative to a safe asset when
-   constraints bind (S-055). The state variable's own determinants are understood: covered
-   interest parity has been systematically violated since the crisis because dollar hedging demand
-   meets balance-sheet-constrained arbitrage (S-056, S-057), and the dollar's strength moves with
-   both CIP deviations and cross-border dollar lending contraction (S-059). **Therefore the
-   candidate cannot be the aggregate version.** It must be the cross-section: which currencies
-   respond to a given dollar funding expansion, and by how much.
-4. The state is *published*: the BIS locational banking statistics publish cross-border positions
-   by residence, currency and counterparty sector on a fixed quarterly calendar, and the BIS
-   publishes regular statistical releases on international banking statistics and the global
-   liquidity indicators (S-054). The state therefore has a known, slow, publication schedule — no
-   look-ahead, no proprietary data. **Important constraint discovered in the source-closure pass:**
-   the *fast* version of this state — the cross-currency basis itself — is **not published
-   anywhere**: the BIS statistics catalogue contains no cross-currency basis series, and the
-   published funding-constraint studies construct it from paid vendor forwards (S-055). A candidate
-   that wants a daily funding state must build it from market quotes and must say so.
-5. The cross-section follows from the mechanism rather than from the correlation: if a dollar
-   funding expansion tightens the balance sheet of the intermediaries who supply dollar funding,
-   the currencies whose own borrowers rely on that funding should adjust more than currencies
-   whose borrowers are insulated from it. The candidate's claim is that this heterogeneity is
-   the object of study, and that it is measurable *ex ante* from the same published statistics.
-6. The signed prediction is the discriminator: the published time-series result has the dollar
-   appreciating when dollar funding liquidity expands (S-052). That is the *opposite* sign to the
-   familiar carry-crash mechanism, in which a funding squeeze forces the funding currency to
-   appreciate and high-carry currencies to collapse. A candidate must therefore specify which
-   channel it is trading and must not blend them.
-7. The dated flow element: the state updates on a published calendar (quarterly), and the funding
-   book itself rolls on the international value dates, so the state is revised at known dates and
-   the position is a slow, calendar-driven holding rather than a fast signal.
+**What survives, and what does not.**
+- *Does not survive:* the cross-sectional claim as a **discovery**. It is published, and the
+  published version has a positive result. A dossier claiming it would be presenting a published
+  baseline as an original result, which is the register's rediscovery rule.
+- *Does not survive:* the **publication-timing test** as a source of novelty. A published state on a
+  known calendar is a *feasibility* property — it makes the published effect implementable without
+  look-ahead or vendor data. It is not a source of novelty, and it does not change the *sign* or the
+  *existence* of the effect (the register's rediscovery guard for candidates that differ from a
+  baseline only in the state variable). This generalisation is now logged as **G-12**.
+- *Survives as a baseline:* the funding-constraint state prices carry (S-055) and the cross-section
+  of currency risk premia (S-064); the state is published quarterly (S-054) while the *fast* state
+  — the cross-currency basis — is **not published anywhere** and must be built from paid vendor
+  forwards (a scoped negative finding from G-10 finding (a), unchanged in Cycle 5).
+- *Survives as a lead for a different candidate:* "does the level of forward points predict the future
+  level of forward points, on a state constructed from public data?" (the "forward points predict
+  forward points" residual identified in the Cycle-2 G-10 pass) is **not** answered by S-064 and is
+  carried forward as a lead, not as a candidate. It would be a different mechanism from the
+  cross-section, and it would need its own dossier and its own originality check.
 
-**Expected return source.** Compensation for supplying dollar funding in the states where the
-funding premium is positive, and the corresponding movement of the currencies whose funding
-dependence is highest — a *funding premium*, distinct from the level of carry, and distinct from
-the FX risk premium.
-
-**Originality.**
-- *Closest known work:* **Filipe, Nissinen and Suominen (2023)**, who already use covered interest
-  parity deviations as a funding-constraint state and show that the resulting "funding risk" drives
-  carry returns and carry activity (S-055) — this is the single closest work and it is
-  peer-reviewed with a positive result; Adrian, Etula and Shin's funding-liquidity channel (S-052),
-  with the related peer-reviewed version (S-053); the cross-currency-basis literature that explains
-  what the state *is* (S-056, S-057, S-058, S-059, S-069); the carry-crash and global-liquidity
-  literature (S-065, S-066, S-067, S-068, S-070, S-072); the explicit "funding currency" construct
-  and its recent formalisations (S-061, S-062, S-063, S-064); and the published banking statistics
-  (S-054).
-- *What is already known:* that the growth of dollar-denominated intermediary liabilities forecasts
-  dollar appreciation in and out of sample, at weekly, monthly and quarterly horizons (S-052); that
-  the channel is distinct from the carry channel in that paper (S-052); that covered interest parity
-  has been systematically violated since the crisis and that the violation reflects dollar hedging
-  demand against balance-sheet-constrained arbitrage (S-056, S-057); that the dollar's strength
-  tracks CIP deviations and cross-border dollar lending contraction (S-059); that the funding
-  constraints implied by CIP deviations predict carry returns, carry activity and carry
-  correlations (S-055); that the "funding currency" is a named and defined concept whose pricing
-  kernel anchors currency-specific risk–return relations (S-061, S-062); that hedging demand is an
-  exchange-rate determination channel in its own right (S-063); that the dollar dominates
-  cross-border banking and that dollar funding is raised in different places from where it is
-  provided (S-054, S-070); and that the crisis-period funding state is an official, documented
-  phenomenon (S-058, S-060, S-072).
-- *Substantive differentiator claimed here:* (i) the *cross-sectional* version — the response of
-  individual currencies conditional on their own dollar-funding dependence — rather than the
-  published time-series version against a large set of currencies, and rather than the published
-  *level* version in S-055; (ii) the *sign discipline*, making the funding-liquidity channel and the
-  carry-crash channel explicitly separate and separately testable; and (iii) the *venue* argument —
-  this is IDEA-002's mechanism in a market where a state variable is published, which is what makes
-  it testable at all.
-- *Honest classification:* **known baseline, with a residual claim.** The aggregate version — carry
-  conditioned on a publicly observable funding-constraint state — is published, peer-reviewed and
-  positive (S-055), and the aggregate version of this candidate has therefore been logged as a
-  rejection (R-006). What remains claimed here is narrow: the *cross-sectional* dependence
-  structure, and the *publication-timing* test. This dossier must never be described as a
-  discovery of the funding-state → carry relation.
-- *Gap G-10 result (Cycle 3):* the FX cross-section and currency-return literature located in
-  Cycle 3 supports the aggregate funding channel and a *level* dollar response
-  (S-052 time-series; S-055 funding risk; S-068 cross-border banking), but no located paper tests
-  the *cross-sectional* dependence-structure claim — which currencies' exchange rates move most
-  when dollar funding expands, conditional on the interest differential — as a tradeable object.
-  G-10's cross-sectional residual is therefore **open**; IDEA-007's v1.1 claim survives but is
-  unproven.
-- *Confidence in the comparison:* **moderate-to-high for the baseline, low for the residual.**
-  S-055 and S-059 were re-verified directly against their publisher records in this cycle; the rest
-  of the corpus was verified by a dedicated verification pass (S-056 … S-073) whose bibliographic
-  details are corroborated by the reference lists inside the two directly fetched records. What
-  could *not* be established is that the cross-sectional claim is unpublished — the residual
-  question in G-10.
-
-**Target scope.** Spot FX in a set of currencies whose borrowers' dollar-funding dependence
-differs materially — for example a group of dollar-funding-dependent emerging-market currencies
-and a group of currencies whose borrowers fund domestically; holding horizon one quarter to two
-quarters, aligned to the publication calendar of the funding statistics; regime conditions:
-exclude quarters with a large change in the regulatory treatment of dollar funding, and exclude
-quarters in which the funding aggregates are structurally revised (a stated data hazard).
-
-**Observables (knowable at decision time, conceptually).**
-- The published cross-border and dollar-denominated liability aggregates by residence, currency
-  and counterparty sector, on the quarterly publication calendar (S-054) — known in advance, with
-  a known lag.
-- The *cross-sectional* dependence measure: for each currency, the share of its cross-border
-  borrowing that is dollar-denominated, from the same published tables (S-054).
-- The policy rate differential and the forward-implied rate differential, as the control for the
-  ordinary carry channel (the published result explicitly separates the two, S-052).
-- The VIX or an equivalent risk state, and the *sign* of the dollar's move, as the discriminator
-  between the funding-liquidity channel and the carry-crash channel.
-- *Timing hazards to flag for the validator:* revisions and breaks in the banking statistics;
-  the quarterly frequency of the state against a market that reprices daily; the fact that the
-  published time-series result is *in-sample and out-of-sample* over a specific vintage
-  (2007–09 induced a structural shift) and that the 2020 and 2022 episodes may be different.
-
-**Rule sketch (descriptive, non-executable).** On each scheduled publication of the banking
-statistics, for each currency in scope: compute the change in dollar-denominated cross-border
-liabilities attributable to borrowers resident in that currency, and the currency's
-dollar-funding-dependence share; form a cross-sectional score combining the funding-state change
-with the dependence share; take the position, with a size set by the cross-sectional dispersion of
-the score and by a pre-specified cap; hold until the next scheduled publication, when the
-position is re-formed on the same rule; carry the price differential as an explicit cost, and
-exclude any period in which the carry channel and the funding channel point in opposite
-directions unless the rule specifies which dominates.
-
-**Persistence thesis.** The dollar's role as the funding currency is structural, and the
-statistics that measure it are produced by a standing international committee; the state therefore
-persists and refreshes on a known calendar. The premium does not need to be large — it needs to
-be measurable and not competed away, and the fact that the state is published at a known date is
-what makes the trade implementable without look-ahead.
-
-**Constraints.** Cost/liquidity: a quarterly-horizon position in liquid currency pairs is
-cheap to hold, but the edge is slow, and a slow edge must survive financing and the cost of
-turnover. Capacity: high in the majors, lower in the emerging-market currencies whose funding
-dependence is the object of study; that is the direct capacity trade-off of the candidate.
-Financing/margin: material for the carry cost of the positions. Market impact: high for the
-emerging-market currencies, and the currencies with the highest funding dependence are often
-the least liquid and the most intervention-prone. Venue/operational: the state is published by
-international bodies with a known calendar, but the *timing* of the publication within the day
-must be pinned down before any same-day effect is claimed. Shorting constraints: several
-emerging-market currencies have limited two-way borrow, which directly constrains the short leg.
-
-**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate is
-*defined* by regime — a funding expansion versus a funding contraction, and the two have
-different signs for the currency. Tail: the funding-contraction state is exactly the carry-crash
-state, in which the crowded position unwinds violently; a position sized for a slow premium can
-meet a violent deleveraging. Crash behaviour: in a global dollar squeeze, the currencies with the
-highest funding dependence should be the most violent, which is the prediction that would make the
-candidate dangerous to hold through the tail it is designed to anticipate. Hidden beta: the
-positions are long the funding currency and short high-dependence currencies, which is
-substantially a short-carry position and can load on the momentum factor.
-
-**Falsifiable predictions and rejection conditions.**
-1. *Cross-sectional ordering:* when dollar funding liquidity expands, the currencies with the
-   highest dollar-funding dependence appreciate more (against the dollar) than the currencies with
-   the lowest dependence, in the same period. **Kill:** the cross-sectional ordering is flat, or
-   the dependence measure has no incremental explanatory power over the interest differential.
-2. *Sign discipline:* the predicted sign is opposite to the carry-crash channel, and the
-   candidate's periods must not overlap the carry-unwind episodes; if the result only holds in
-   episodes where the carry channel dominates, the candidate has not identified its own channel.
-   **Kill:** the effect is fully explained by the interest differential.
-3. *Publication-timing test:* the effect must appear from the *publication date* of the
-   statistics and not before it. **Kill:** the effect is present before the data were public,
-   which would mean the state is not the cause.
-4. *Out-of-sample stability:* the cross-sectional relation holds in a held-out period, and the
-   relationship is not driven by a single crisis episode. **Kill:** it is.
-5. *Cost floor:* the cross-sectional spread of the predicted returns exceeds the round-trip cost
-   and the carry cost over the holding period. **Kill:** it does not, in which case the candidate
-   is a description rather than a trade.
-
-**Main confounders and rival explanations.**
-- *The carry channel* — the most important rival, and the published result claims separation from
-  it (S-052) but the separation must be re-verified in any validation.
-- *Dollar invoicing and trade exposure* — a currency's trade-weighted dollar invoicing share
-  predicts its dollar move for reasons unrelated to funding; the candidate must control for it.
-- *Risk-off and safe-haven flows* — in stress the dollar appreciates against everything, which
-  can masquerade as the funding channel.
-- *Interest-rate expectations* — the state may proxy for the expected policy path.
-- *Data revisions and structural breaks* — the published time-series result notes a structural
-  shift induced by the 2007–09 crisis; the statistics themselves are revised.
-- *The candidate may be a repackaged carry trade with extra steps* — the honest null.
-
-**Data requirements and feasibility for a future independent validation.** (Specification only —
-nothing is acquired or processed here.) Public: the BIS locational banking statistics and the
-global liquidity indicators on their published calendar (S-054); BIS and national FX reference
-rates; the policy rate differential; a volatility series. Commercial: none required. **Data-
-construction constraint to pass to the validator:** the *fast* version of the state — the
-cross-currency basis — is **not published in any official statistical release** (a scoped
-negative finding: the BIS statistics catalogue contains no such series, and the published
-funding-constraint studies construct it from paid vendor forwards, S-055). A validator must
-therefore choose explicitly between the published quarterly state and a self-built daily state,
-must say which, and must price the second option's data cost; a daily-state variant of this
-candidate is a *different* candidate with a different data budget. Feasibility:
-**high** for the data; **medium** for the identification, because the state is quarterly while the
-market is daily, so the effective number of independent observations over a multi-decade sample
-is small and the cross-section must be built out of currency heterogeneity rather than time
-series variation.
-
-**Theory/evidence status.**
-- *Conceptual rationale:* supported — the funding-liquidity channel is modelled and empirically
-  supported (S-052, S-053).
-- *Mechanism supported by sources:* **yes** — the channel, its sign and its separation from carry
-  are documented (S-052); the state variable is published (S-054).
-- *Prior empirical support reported by others:* the aggregate funding-state → carry-return result
-  is the authors' own and is not reproduced here (S-055); the dollar funding-liquidity forecasting
-  result is likewise the authors' own (S-052, S-053); the basis and hedging-demand mechanism is
-  documented in the central-bank and peer-reviewed literature (S-056, S-057, S-059, S-069); the
-  crisis-period funding state is documented officially (S-058, S-060, S-072). **None of this is
-  reproduced here, and none of it supports the cross-sectional claim.**
-- *Unresolved:* whether the cross-sectional structure exists, whether it survives the
-  carry-channel control, and whether the residual claim survives the fact that the aggregate
-  version is published.
-
-**Remaining uncertainty / confidence.** Confidence that the channel exists and the state is
-published: **high**. Confidence that the *aggregate* application of this channel to carry is
-new: **none — it is published** (S-055). Confidence that the *cross-sectional* refinement is
-correct: **low-to-moderate** — it is plausible from the mechanism, and it was not found in the
-corpus read, but the corpus is not exhaustive and the residual question in G-10 is still open.
-Confidence that it is tradeable after costs: **moderate** (slow horizon, liquid instruments, but a
-slow edge). Priority score **64/100**; rank 5 of 7 at the time of writing. **Concrete next
-question:** when dollar funding liquidity expands, do the currencies whose borrowers are most
-dependent on dollar funding appreciate more than the others, conditional on the interest
-differential, and does the relation appear from the publication date rather than before it —
-and, as a lead for a *new* candidate rather than for this one: does the level of forward points
-predict the future level of forward points, on a state constructed from public data, given that
-no published cross-currency basis series exists (G-10)?
+**Consequences recorded in the register.**
+1. The register now holds **no FX candidate** — a diversification cost the shortlist had explicitly
+   pre-registered as the consequence if the cross-section turned out to be published.
+2. The funding-state family is not dead; it is *published*. Any future FX candidate must be a
+   **new mechanism** (a new venue, a new participant, a new constraint) and must state in advance
+   how it differs from S-055, S-064, S-095, S-096 and S-097. A new *state variable* on the same
+   channel is not enough (G-12).
 
 ---
 
@@ -2014,6 +1826,291 @@ costs and after controlling for momentum?
 **Remaining uncertainty / confidence.** Confidence that the deadlines, the participant set and the flow concentration are real and published: **high** (CLS documentation S-048, S-049; LSEG methodology S-045). Confidence that the settlement-side deadline cluster has a separable price effect: **low** — G-11 is open, so this is an expectation rather than a finding. Confidence that any of it is harvestable after costs: **low** (the pip-level concession inside minutes is the decisive weakness). Priority score **60/100**; rank TBD. **Concrete next question:** does any published work test the settlement-side deadlines — the CLS currency-close and pay-in cut-offs, and the post-US-close window created by the May 2024 T+1 transition — as a price determinant rather than as an operational schedule, and if not, does the settlement window show a directional imbalance that survives removal of the published fix effect?
 
 ---
+
+---
+
+## IDEA-013 — EU-ETSCOMP: the surrender-deadline concession in the EU ETS, and the published banking position that decides whether it exists
+
+- **ID / short name:** IDEA-013 / EU-ETSCOMP
+- **Date added:** 2026-10-19 · **Cycle:** 5 · **Status:** retained (not in the top three) ·
+  **Version:** 1.0
+- **Change notes:** v1.0 — first dossier. New mechanism family for the register: a **statutory,
+  date-bound purchase obligation** with a monetary penalty, in a market whose decision-time state is
+  published by a regulator. The *effect* (a surrender-month premium) is published (S-101); the
+  candidate claims only the two things the published work does not cover — the **regime change**
+  (the deadline moved from 30 April to 30 September from 2024, outside the published sample) and the
+  **existence-flipping state** (a pre-deadline published aggregate compliance balance). The full
+  text of the published work (NBER WP 35356 / arXiv 2606.03767) **must be read before this candidate
+  is retained**; see "Remaining uncertainty".
+
+**One-sentence hypothesis.** The EU ETS obliges every covered installation, aircraft operator and
+shipping company to surrender allowances for the previous year's verified emissions by a statutory
+date, penalising failure at €100 per tonne — an obligation that is therefore almost perfectly
+price-inelastic — and the resulting deadline-bound demand creates a surrender-month premium paid by
+delayed compliance officers to their counterparties; the candidate's claim is that this premium is
+**not a standing feature** but an **existence-conditional** one, appearing only in years when the
+aggregate compliance balance is short, a balance that is knowable *before* the deadline from
+regulator-published data, and that the published result covers only the *old* deadline regime.
+
+**Plain-language description.** Every year, an installation that emitted a tonne of carbon last year
+must hand over one allowance to the government by a fixed date, or pay €100 for every tonne it
+fails to cover — roughly the price of the allowance itself, so the obligation is effectively hard.
+A firm that has been sitting on its allowance budget all year cannot wait for a better price; it
+must buy in the deadline month, and it buys from whoever is willing to sell — usually a bank or a
+fund that has been holding the allowance. The buyers pay up. But this only happens when the system
+as a whole is *short*: if firms are sitting on a large surplus of banked allowances, nobody is
+forced to buy anything in the deadline month and the premium does not exist. Whether the system is
+short is not a secret — the regulator publishes, every May or June, the total number of allowances
+in circulation, which is a direct read on the surplus.
+
+**Mechanism (causal chain).**
+1. **The obligation is statutory and hard.** Under Article 12(3) of Directive 2003/87/EC, "by
+   30 September each year" the operator of each installation, each aircraft operator and each
+   shipping company must surrender allowances equal to its verified emissions for the preceding
+   calendar year (S-102). Failure to surrender on time attracts a penalty of **€100 per tonne** for
+   the missing allowances, and the **names of penalised operators are made public** (S-101). A
+   penalty of that order relative to the allowance price makes the demand curve almost perfectly
+   inelastic in the deadline window — the textbook condition for a concession.
+2. **The calendar is published and the timing is a policy variable.** Emissions must be verified by
+   an accredited verifier by **31 March**; the surrender deadline was **30 April** under the
+   original regime and was moved to **30 September** by Directive (EU) 2023/959, applying from the
+   2024 compliance year onwards (S-102, S-103). The market monitors have already observed that the
+   shift "spread out demand" and that "December saw the highest volumes, as is typical" (S-104) —
+   so the *aggregate* relocation of the pressure is documented; what is not documented is the
+   *conditional* structure below.
+3. **The published effect.** Borri, Liu, Tsyvinski and Wu find that "purchases concentrate in April
+   when returns are systematically high, and operator flow predicts future returns"; that "this
+   concentration of compliance demand is associated with systematically high April returns, averaging
+   about 10%"; and they estimate "the implied April premium paid by delayed buyers from this
+   surrender pattern at about €5 billion" — while being careful that the premium "should be
+   interpreted as a financial premium paid in April rather than as a direct measure of aggregate
+   resource costs, because part of the higher April price is paid to counterparties" (S-101). Their
+   model makes the mechanism explicit: "access determines residual compliance demand, intermediary
+   constraints translate residual demand into a surrender-month premium, and the premium feeds back
+   into access incentives."
+4. **The published sample predates the regime change.** The empirical work covers **2005–2021**
+   (S-101). The deadline moved to 30 September for the 2024 compliance year. The published effect
+   therefore has **not** been re-established in the regime that is now law, and the market
+   structure around it has changed: the MSR has been withdrawing allowances into the reserve since
+   September 2024, and the 2027 auction calendars were published on 1 October 2026 with the
+   2027 volumes already adjusted for the reserve and for the Social Climate Fund allocation
+   (S-105, S-106).
+5. **The state is published before the deadline and it flips the sign of the effect.** The
+   Commission publishes, every year, "the total number of allowances in circulation (TNAC) for the
+   previous year" under Article 1(4) of the MSR Decision; the market monitors describe TNAC as "an
+   indicator for the surplus" (S-107). The Commission published TNAC for 2023 — 1,111,736,535 — on
+   **3 June 2024**, which is after the March verification deadline and before the September
+   surrender deadline, and thereby determined that 266,816,768 allowances would be withheld from
+   the auction volumes from 1 September 2024 to 31 August 2025 (S-107). Verified emissions, free
+   allocation and the cross-sectoral correction factor are also published (S-108, S-109). TNAC,
+   the auction calendar and the verified-emissions data therefore allow the **aggregate compliance
+   balance for the year whose deadline is approaching** to be estimated *before* that deadline.
+6. **The sign discipline.** If the aggregate balance is short, the deadline creates a forced,
+   price-inelastic *buyer* and the allowance price should be pushed up into the deadline, with the
+   concession partly unwound afterwards as the forced demand disappears. If the aggregate balance is
+   long, there is no forced buyer, the deadline effect should be **absent**, and the residual
+   pressure in the year should appear elsewhere (the December volume pattern the market monitor
+   already reports, S-104). The candidate's prediction is therefore *two-sided*, and the negative
+   case is as informative as the positive one: **a deadline premium that appears in every year is
+   evidence against the candidate**, because it means the effect is not state-conditional.
+7. **The counterparty side is not a compliance entity.** The seller into the deadline is a
+   non-compliance holder — a bank, a fund or another non-compliance entity — and the market
+   monitor's own data show the "number of entities invested in EUA futures and not regulated under
+   the EU ETS Directive" rising to around 900 on average in 2024, a jump of about 15% year on year
+   (S-104). This is the "who is mispriced" leg the prompt requires: the compliance officer is
+   *forced* to transact and pays a premium; the non-compliance holder *chooses* to transact and
+   collects it.
+
+**Expected return source.** A compensation for supplying allowances to a date-bound, penalty-backed
+mandated buyer — a *liquidity-provision premium*, not a risk premium for systematic exposure, and
+not the carbon-price trend itself. The premium exists because the obligated buyer's demand is
+insensitive to price near the deadline; the provider is compensated for the price risk of holding
+the allowance into the window and for the concentration of the exit.
+
+**Originality.**
+- *Closest known work:* Borri, Liu, Tsyvinski and Wu (S-101) — a NBER working paper with a formal
+  model and 2.7 million registry transactions, and the direct statement of both the effect and the
+  mechanism; the earlier versions of the same project (S-111) are the same work, not separate
+  evidence. The market-structure and pricing background is in the European Commission's own
+  auctioning documentation (S-105), the Commission's TNAC communications (S-107), the national
+  authority's auction-calendar notices (S-106) and the annual independent market report (S-104).
+  The venue and rule documentation is S-102, S-103.
+- *What is already known:* that purchases concentrate in the surrender month; that returns in that
+  month are systematically high (about 10% on average); that the implied premium is of the order of
+  €5 billion; that operator flow predicts future returns; that roughly 40% of operators do not
+  trade in a given year; and that the premium is a payment to counterparties rather than a resource
+  cost.
+- *Substantive differentiator claimed here:* (i) **the regime** — the published sample ends in 2021
+  and the deadline that is now law is a different deadline, so the published result is not a
+  statement about the current regime; (ii) **the state** — the premium is predicted to be
+  *existence-conditional* on the aggregate compliance balance, which is knowable before the
+  deadline from regulator-published data (TNAC, verified emissions, the auction calendar and the
+  MSR decision), so the condition is decision-time observable rather than an ex-post
+  classification; (iii) **the falsification structure** — the candidate can be killed by a
+  deadline premium that appears in surplus years as well as deficit years, which is the outcome
+  that the published framing would lead one to expect.
+- *Honest classification:* **published effect, with an unclaimed conditional structure and an
+  unexamined regime.** This dossier must never be described as a discovery of the surrender-month
+  premium — that is S-101's result. What is claimed is that the premium is conditional and that the
+  condition is published in advance. The condition is a *conjecture*; nothing here establishes that
+  the premium is state-conditional, and the kill conditions below are written so that it can fail.
+- *Confidence in the comparison:* **moderate.** The effect and the mechanism are directly on point
+  and were read in abstract, in the NBER working-paper landing page and in the arXiv HTML version's
+  own summary; the *full text* was **not** read, so it remains possible that the paper already
+  conditions on the aggregate surplus or already discusses the deadline change. That is the first
+  thing a future agent must check, and it is why the candidate is retained at a middling score and
+  not shortlisted.
+
+**Target scope.** EU allowances (EUA) on the ICE futures and options venue and, at lower frequency,
+the EEX auction clearing price; the compliance window from the verification deadline (31 March) to
+the surrender deadline (30 September from 2024; 30 April in the earlier regime); annual frequency
+with one observation per year, and a pre-2024 sub-sample with one per year at the April deadline.
+Regime conditions: exclude the ETS2 sector expansion (buildings and road transport, surrender
+deadline 31 May from 2028) from any early sample; exclude years in which the *policy* cycle
+dominates (the October-November annual review, the MSR decision and the free-allocation
+adjustment) from the estimation window, and treat them as controls rather than as signal.
+
+**Observables (knowable at decision time, conceptually).**
+- The statutory calendar: verification deadline 31 March, surrender deadline 30 September from 2024
+  (S-102, S-103) — published, statutory, not a forecast.
+- The aggregate compliance balance: TNAC for the prior year (published by the Commission each May or
+  June), the verified-emissions dataset, the free-allocation and cross-sectoral-correction-factor
+  decisions, and the EEX auction calendar with its volumes (S-105, S-106, S-107, S-108, S-109).
+- The MSR's effect on the auction supply in the compliance window (the reserve's withholding
+  schedule, which the Commission and the national authority both publish) (S-106, S-107).
+- The published market data used as the mechanism check: EEX daily auction results and quarterly
+  auction reports including participant counts (S-105).
+- *Timing hazards to flag for the validator:* the surrender and compliance data for year Y are
+  published by 6 October of Y+1 (S-110) — that is **after** the deadline, so they can only be used
+  for an ex-post check of the state, never for the decision; the auction calendar and the MSR
+  adjustment are published in advance but their *interpretation* is not; and the sample has one
+  observation per year, so the effective sample is very small and every additional control
+  (year fixed effects, the policy cycle) costs degrees of freedom.
+
+**Rule sketch (descriptive, non-executable).** Once a year, after the Commission has published TNAC
+for the prior year and the auction calendar for the compliance year, and before the surrender
+deadline: estimate the aggregate compliance balance for the year whose deadline is approaching as
+(verified emissions for that year, net of the free allocation and the CSCF adjustment) minus the
+allowances the system is holding net of what it has already surrendered — a quantity the published
+TNAC series and the surrender data jointly bound. If the balance is short, form a long position in
+the front-of-deadline allowance future, held to the deadline; if the balance is long, form no
+position. Size the position by the *estimated shortfall* relative to the *published auction volume*
+for the compliance window, and cap it at a pre-specified fraction of the contract's average daily
+volume. Exit on the settlement of the deadline-week contract. Exclude any year in which the
+October-November policy cycle or a link to the Swiss ETS produced a repricing, and record those
+years as excluded rather than as failures.
+
+**Persistence thesis.** The obligation is statutory and the penalty is a multiple of the allowance
+price, so the deadline demand cannot be avoided; the compliance calendar is published a year ahead
+in the directive; and the market's structure around it (a small number of non-compliance sellers
+and a fragmented set of obligors) changes slowly. A premium that is paid annually to the party
+that provides the allowance in the window is a structural transfer, not an anomaly.
+
+**Constraints.** Cost/liquidity: the EUA futures market is liquid enough for institutional size but
+is an order of magnitude smaller than rates or equity futures, and the spot market is thin; the
+*effect* is large (about 10% in the published April sample) but so is the *noise* from the policy
+cycle, so a small net edge after costs is possible and must be checked rather than assumed.
+Capacity: a non-compliance participant is needed on the *supply* side of the trade, and a
+participant that is not a compliance entity can be on either side; a pure compliance officer cannot
+short. Market impact: in a one-year sample, a single position can move the price it is predicting.
+Venue/operational: EUA futures are cash-settled on ICE with a published contract specification
+whose expiry list changed when the deadline moved (S-102) — the contract calendar must be
+reconstructed for the pre-2024 sample, because the April deadline and the September deadline imply
+different expiries. Shorting constraints: shorting an allowance future is available but the
+position carries the risk of an unscheduled policy announcement (the "carbon price crash" risk).
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate is
+*defined* by the compliance regime and by the annual policy cycle. Tail: the EUA market has
+repeatedly had policy-driven 30–60% drawdowns, and a position held into the deadline is exposed
+to them. Crash behaviour: the position is *long* the allowance into a window in which the policy
+calendar is quiet, so it is exposed to a negative policy shock arriving without warning (a
+re-based cap, a lower auction volume, a link to a cheap foreign market). Hidden beta: the long
+allowance position is a long *carbon-transition* position, so it loads on the regulatory-trend
+factor and on the energy complex, and the "premium" may be compensation for exactly that exposure
+rather than for liquidity provision — a confound that the state-conditioning does not remove.
+
+**Falsifiable predictions and rejection conditions.**
+1. *Existence-conditionality (the primary test):* the deadline premium is present in years when
+   the pre-deadline published aggregate balance is short and absent (or of the opposite sign) in
+   years when it is long. **Kill:** the premium is of similar size in surplus and deficit years —
+   in which case the effect is unconditional, the state adds nothing, and the candidate is a
+   re-description of S-101.
+2. *Regime discontinuity:* the effect's month moves with the statutory deadline — April in the
+   pre-2024 regime, September thereafter — and is not a fixed calendar month. **Kill:** the premium
+   remains concentrated in April after the legal change, which would mean the April pattern is
+   driven by something other than the surrender obligation.
+3. *Mechanism check with published data:* the EEX auction volumes and participant counts rise in the
+   compliance window of deficit years and not in surplus years (S-105). **Kill:** the published
+   auction data show no such difference, which would undercut the demand-concentration mechanism.
+4. *Reversal:* after the deadline, part of the pre-deadline concession unwinds (the price gives
+   back part of the deadline move) in deficit years. **Kill:** there is no post-deadline reversal,
+   which would mean the move is a permanent repricing rather than a concession, and there is no
+   liquidity-provision premium to capture.
+5. *Cost floor:* the estimated pre-deadline premium minus the round-turn cost in the EUA future
+   (spread, commission, financing) is positive. **Kill:** it is not, in which case the candidate is
+   a description and not a trade.
+6. *Pre-registration:* the *rule* — long the allowance future if and only if the published balance
+   is short — must be fixed before the outcome data are examined, and it must be evaluated on the
+   pre-2024 April regime and the post-2023 September regime as two separate samples, with the
+   sign-flip prediction stated in advance for both.
+
+**Main confounders and rival explanations.**
+- *The policy cycle* — the October-November review, the MSR decision, the free-allocation
+  adjustment and the cap decisions move the allowance price far more than a deadline month
+  normally does; the deadline is inside the calendar year but the *effect* may be an artefact of
+  the surrounding announcements.
+- *The energy complex* — EUA prices co-move with gas and power prices, so a "deadline premium"
+  may be a power-sector hedging demand story: the fuel-switching channel is identified in the
+  literature as a major driver of allowance prices.
+- *Speculative positioning* — the ECB's own economic bulletin documents the role of non-compliance
+  participants and of speculative flows in allowance price moves, which cuts both ways: it is an
+  alternative explanation for the deadline premium and a supply-side explanation for who collects it.
+- *Free allocation and the CSCF* — the aggregate balance depends on free allocation, which is
+  adjusted ex post and may dominate the surrender obligation itself.
+- *The banking constraint* — operators that bank a surplus in one year are the ones that can afford
+  to miss the deadline in another; the "40% of operators do not trade" finding (S-101) is a
+  reminder that the *marginal* obligor is not the average one.
+- *Small sample* — one observation per year is a very weak basis for a conditional claim, and this
+  is the most serious design weakness in the candidate.
+
+**Data requirements and feasibility for a future independent validation.** (Specification only —
+nothing is acquired or processed here.) Public: the statutory calendar (S-102, S-103); the TNAC
+communications (S-107); the verified-emissions and free-allocation data and the Union Registry
+public data and the EEA data viewer (S-108, S-109); the EEX auction calendars, daily auction
+results and quarterly auction reports (S-105); the national authority's notices (S-106); the annual
+market report (S-104). Commercial or venue-priced: the EUA futures price history (ICE settlement
+data) and the EUTL transaction-level files (public but bulk, and the transaction data are
+commissioned-research-grade). Feasibility: **medium-high** for the state and the calendar, and
+**medium-low** for the price series and the sample size. The binding constraint is not data
+availability but the **number of independent observations**: one per year against a state that
+must be estimated, not observed.
+
+**Theory/evidence status.**
+- *Conceptual rationale:* supported — the mechanism, including the "intermediary constraints
+  translate residual demand into a surrender-month premium" step, is formalised in S-101, and the
+  penalty-backed near-inelasticity of the obligated demand is a direct reading of the statute and
+  the penalty schedule.
+- *Mechanism supported by sources:* **yes** — the obligation, the penalty, the calendar, the
+  auction calendar and the TNAC publication are all documented (S-102 … S-109).
+- *Prior empirical support reported by others:* the surrender-month premium, the April
+  concentration, the flow-return predictability and the €5 billion estimate are the authors' own
+  (S-101) and are **not** reproduced here.
+- *Unresolved:* whether the premium is state-conditional; whether it survives the deadline change;
+  whether any part of it is a policy-cycle or fuel-switching artefact; and whether the published
+  work already answers the state question.
+
+**Remaining uncertainty / confidence.** Confidence that the obligation, the penalty and the
+published state exist: **high**. Confidence that the deadline premium exists in the current
+regime: **moderate** — the published result is strong but its sample ends in 2021, and the market
+monitors' own reading of the shift is that demand was "spread out", which is the opposite of a
+sharp deadline premium. Confidence that the premium is *state-conditional*: **low** — this is the
+candidate's conjecture. Confidence that it is tradeable after costs: **low-to-moderate** — thin
+market, small sample, large policy-event risk. Priority score **70/100**; rank 6 of 11 at the time
+of writing. **Concrete next question:** does a surrender-month premium exist in the post-2023
+30-September regime, and does it appear only in the years in which the regulator-published aggregate
+compliance balance is short — and, before anything else, **does the full text of S-101 already
+answer the second question?** If it does, this candidate is a re-description of published work and
+must be rejected rather than retained.
 
 ---
 

@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–2
+# SOURCE LEDGER — CYCLES 1–5
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -9,6 +9,15 @@ corpus, S-055 … S-073) and "Cycle 2 additions, part 4" (the intraday FX fixing
 S-074 … S-081, added in the Cycle-2 G-09 closure pass); the source gaps section carries the
 verdicts on every gap, including the ones that could not be closed, and the three mis-reported
 identifiers caught in the G-09 pass.
+
+Cycle 5 added "Cycle 5 additions" (S-095 … S-100) and the "Cycle-5 verdicts" block, which
+supersedes the earlier gap verdicts for current-state purposes while leaving the original
+cycle-by-cycle gap text in place at the end of the file. Cycle 5's decisive finding is recorded
+in the Cycle-5 verdicts block: **G-10 is closed against IDEA-007** (the cross-sectional
+funding-state → currency-return claim is a published, positive result — S-064 — and the
+mechanism's own literature has closed in the same direction — S-095, S-096, S-097), and Cycle 5
+re-opened the general question as **G-12**: can a *published* state change the *sign* or
+*existence* of a published effect, or only its measurement quality?
 
 Status vocabulary used in dossiers:
 - **Primary theory** — model or formal argument supporting the mechanism.
@@ -1016,16 +1025,42 @@ DOI: https://doi.org/10.1093/rfs/hhae072
   authors, container, volume, issue, pages, publication date, DOI); the abstract is not deposited.
 
 ### S-064 — Wang, Y. (2026)
-"Deviations from Covered Interest Parity, Dollar Funding Pressure, and Currency Risk Premia." SSRN
-working paper.
+"Deviations from Covered Interest Parity, Dollar Funding Pressure, and Currency Risk Premia."
+SSRN working paper 6152329 (posted 2 February 2026; paper dated 30 January 2025; 78 pages;
+author: Yirong Wang, University of Bristol). Earlier versions: AEA Annual Meeting 2026 programme
+paper; Paris-DEC (December 2025) conference paper.
 DOI: https://doi.org/10.2139/ssrn.6152329
-- **Type:** Primary theory (author-reported; preprint).
-- **Supports:** the most direct existing statement of the candidate's aggregate logic — CIP
-  deviations read as a measure of post-crisis dollar funding pressure and linked to currency risk
-  premia, motivated by the currency-hedging channel (S-063).
-- **Caveats:** a preprint; the deposited Crossref abstract is truncated after the word "reflects",
-  the record carries zero references, and no claim beyond the deposited fragment is supported.
-- **Verification:** Crossref record fetched and read by the verification agent.
+- **Type:** Primary theory + prior empirical result (author-reported); preprint, not peer reviewed.
+- **Supports:** **the decisive source for the Cycle-5 closure of G-10.** The Cycle-2 entry recorded
+  only the truncated Crossref abstract; the full content, read in Cycle 5, states the candidate's
+  residual claim as a published, positive result. Verbatim from the deposited abstract: "This paper
+  examines the relationship between dollar hedge funding pressure and the cross-section of currency
+  risk premium. Motivated by the currency hedging channel proposed by Liao & Zhang (2025), I use the
+  deviations of Covered Interest Rate Parity (CIP) as a measure of imbalances between excessive
+  dollar hedging demand and in nominal interest rate (carry trade) and global imbalances in trade
+  and capital flows in postcrisis period." The stated hypothesis: "Currencies with higher dollar
+  funding pressure (higher unconditional level of basis) earn higher expected excess returns."
+  The author's own reported results (AEA 2026 programme version, Research Highlights): "A global
+  high-minus-low basis factor (HMLx) earns 4–4.5% risk premium per annum"; "HMLx explains a large
+  share of the cross-sectional variation in currency excess returns"; "Basis-sorted portfolios
+  subsume carry, external imbalance factors, business gap, value, and momentum"; "Relative to the
+  carry, HMLx improves cross-sectional R² by at least 10%". Data: G10 currencies, January 1999 to
+  January 2025, split into precrisis (Jan 1999 – Aug 2008) and postcrisis (Aug 2009 – Jan 2025)
+  sub-samples; one-month IBOR rates as risk-free rates; the log-form dollar-denominated basis of
+  Du, Tepper and Verdelhan (2018) (S-069).
+- **Caveats:** a **preprint / job-market paper, not peer reviewed**; the results are the author's
+  own and are not reproduced here. The state it conditions on is the *market-quote* cross-currency
+  basis, which the register established is **not** published anywhere (G-10 finding (a)); a validator
+  would have to construct it from paid vendor forwards. The factor is therefore a *published
+  baseline with a positive result on the cross-section*, and it subsumes carry rather than adding
+  to it.
+- **Verification:** Crossref record for DOI 10.2139/ssrn.6152329 fetched and read (title, author,
+  posting date, truncated deposited abstract); the SSRN landing page was read through the search
+  index (title, author, "78 Pages Posted: 2 Feb 2026", suggested citation with the DOI); the
+  **full** abstract and results were read from the AEA Annual Meeting 2026 programme page
+  (aeaweb.org/conference/2026/program/paper/AzRFfdDA) and from the Paris-DEC December 2025
+  conference PDF, which reproduce the abstract and the research highlights verbatim. The SSRN page
+  itself returned HTTP 403 to a direct fetch; that is recorded here rather than glossed.
 
 ### S-065 — Menkhoff, L., Sarno, L., Schmeling, M. and Schrimpf, A. (2012)
 "Carry Trades and Global Foreign Exchange Volatility." *The Journal of Finance* 67(2): 681–718.
@@ -1344,184 +1379,6 @@ paper) and SSRN 4718425 (2024, the 2024 PBFJ paper registered as S-047).
 
 ---
 
-## Source gaps (explicitly unresolved)
-
-Gap status is reviewed every cycle. Cycle 2 closed or narrowed G-01, G-02, G-04 and G-05, and
-could not close G-03. Verdicts are recorded here so the negative results survive.
-
-- **G-01 — public funding-state proxy for dealer funding value adjustments.** **NARROWED, not
-  closed; verdict: viable only with a specified composite.** Cycle 2 verified four public,
-  regularly published ingredients that no Cycle-1 source had established: daily SOFR and the
-  related GC repo rates (S-041), daily standing-repo-facility take-up and awarded rates (S-042),
-  and a recurring public balance-sheet disclosure of the primary dealers (S-042). What is still
-  missing is the *target* of the proxy — a published, continuous series of dealer funding value
-  adjustments — and, therefore, any validated mapping from the public composite to disclosed FVAs.
-  IDEA-002 must therefore specify a composite (a SOFR-to-IOER or SOFR-to-Treasury spread, plus
-  standing-repo stress, plus a dealer-balance-sheet component) and a validation design against
-  dealer disclosures, and it must treat the composite as a *state indicator*, not as the FVA
-  itself. If the validation against disclosed FVAs cannot be performed, IDEA-002 stays parked
-  (P-004) rather than being re-specified on a weaker proxy.
-- **G-02 — size of index-linked assets tracking a benchmark.** **NARROWED; verdict: a
-  category-level public proxy exists, a benchmark-specific series does not.** Cycle 2 verified the
-  ICI's public monthly series for total fund assets and for the active-versus-index split
-  (S-040), which supports a *scale* variable for passive assets at the level of "the size of the
-  indexed complex", with the explicit exclusions the ICI itself states (ETFs and
-  funds-of-funds are excluded from the headline totals) and with the limitation that it is
-  category-level, not tied to any one benchmark. Separately, in the futures market there is a
-  *direct* measure of the passive complex at contract level — the CFTC "Index Traders" positions
-  (S-030) — which is the model a benchmark-specific series would have to emulate. The
-  benchmark-specific series remains open as **G-07**.
-- **G-03 — current index-fund trading convention at the effective close.** **NOT CLOSED;
-  re-framed into an answerable empirical question.** No source was found that establishes whether
-  index funds trade at the effective close or pre-position, and none was found in Cycle 2 either.
-  What Cycle 2 can do is narrow the question: the *testable* object is the **concentration of
-  passive flow in the closing auction and whether that concentration has changed**, which is
-  measurable from exchange-published closing-auction volume statistics. Those statistics were
-  **not** located or verified this cycle, so the narrowed form stays open as **G-08**, and IDEA-001
-  must carry the premise as an explicit assumption to be checked rather than as a documented fact.
-- **G-04 — timely crowd-depth proxy.** **PARTIALLY CLOSED for the futures domain.** The CFTC's
-  weekly "Index Traders" and Disaggregated COT reports (S-030, S-031) provide a public,
-  contract-level, dated measure of both the passive position and the arbitrage/liquidity-supply
-  position — the exact pair of state variables IDEA-005 needs, with a known five-day publication
-  lag (S-037). For **equities** the gap is unchanged: the only measure located remains the
-  quarterly-stale 13F-based crowding measure (S-026), and IDEA-004's proxy-validity kill
-  condition stands.
-- **G-05 — post-2010 single-name option market structure.** **PARTIALLY CLOSED.** Cycle 2
-  characterised the structural change using the exchange's own published research and statistics
-  (S-043): same-day expiries now account for the majority of index option volume (about 5% of
-  SPX options volume in 2016 to 59–62% in 2025), the flow is estimated to be roughly half retail
-  and about 98% electronically traded, and the exchange's own estimate is that net market-maker
-  gamma is de minimis. What remains unsettled is the *direction and size of the effect on the
-  single-name insurance-demand channel* of S-014, because single-name 0DTE and single-name retail
-  statistics were not established, and because the structural change is documented by an
-  interested party rather than in peer-reviewed work. IDEA-003 must therefore treat the
-  single-name version of the channel as an explicitly weaker, separately-validated extension.
-- **G-06 (new) — the commodity basis-convergence literature, and any published work that already
-  conditions a futures spread on a positioning state.** **NARROWED, not closed.** The
-  commodity basis-convergence / hedging-pressure / inventory literature was located in Cycle 3
-  (Bessembinder 1992 S-039; Gorton, Hayashi & Rouwenhorst 2013 S-038; Taylor 2016 roll-strategy
-  efficiency; the existing register entries S-032 … S-037). None of it conditions the roll-period
-  nearby-to-deferred spread concession on the passive share of open interest × contract depth, and
-  none of it establishes the concession as a plain *convergence-to-carry trade with a calendar
-  catalyst* rather than a liquidity-provision concession around a scheduled, price-insensitive roll.
-  The aggregate null post-2012 (S-033) and the transience/cost findings (S-032, S-034, S-036,
-  S-037) are consistent with IDEA-005's state-conditioned refinement rather than with a plain
-  basis-convergence trade. The cross-sectional state condition is therefore not established as
-  published, and IDEA-005's differentiator survives — but the claim that "nobody has conditioned
-  the roll impact on the passive share of open interest" remains a conjecture, not an exhaustive
-  negative finding. Must be re-visited before IDEA-005 is presented as a discovery.
-- **G-07 (new) — a benchmark-specific time series of index-linked assets** (for example, assets
-  tracking the S&P 500 specifically, rather than the aggregate indexed complex). No verified
-  source was found. The SPIVA scorecards (S-040 and the related S&P DJI publications) were
-  inspected and the parts retrieved did not publish index-fund assets by benchmark; the SPIVA
-  product deliberately excludes index funds from its performance counts. Closing this gap is a
-  precondition for the flow-scaling test in IDEA-001 (V-001) and for the scale variable in
-  IDEA-005.
-- **G-08 (new) — public closing-auction volume statistics** (the data source that would allow
-  G-03 to be closed empirically, and that would let the "does the passive concentrate in the
-  closing auction" question be answered from exchange data). Not located in Cycle 2.
-- **G-09 (new) — the intraday FX microstructure literature *around* the fix.** **MOSTLY CLOSED;
-  and the closure went against IDEA-006.** The dedicated line of work referred to in S-047 (the
-  "Evans and Lyons" 4pm-fix studies, and the "Michelberger and Witte" work on intraday FX rates
-  and inter-dealer order flow around the 4pm fix) has now been retrieved and registered
-  (S-074 … S-081). **The finding: the fix-window price effect is published, and it is the effect
-  IDEA-006 claimed to be measuring for the first time.** Melvin and Prins (2015) show that passive
-  hedging flows at the fix predict the direction of *temporary* exchange-rate movements, with a
-  "strong, but temporary, impact" concentrated at end of month (S-075); Evans (2018) documents
-  negative serial correlation in price changes around the fix and models the fix order as an
-  optimal-execution problem (S-076); Ito and Yamada (2015) document the negative autocorrelation
-  between the pre- and post-fixing periods, "particularly at the end-of-month trading day"
-  (S-077); Michelberger and Witte (2016) document the increased volatility and size of movements
-  around 4pm (S-074); and He (2026) states the W-shaped pre-fix rise / post-fix fall in the dollar
-  for the nine most traded currencies over 21 years (S-081). The aggregate version of IDEA-006 was
-  therefore **rejected (R-007)** and its dossier narrowed to a residual (v1.1).
-  **Three citation errors were caught in the same pass and are recorded here so that no future
-  session repeats them.** A read-only verification agent returned the wrong identifier for three
-  of the papers it reported, and every returned identifier was re-checked against Crossref before
-  use: (a) *"Rime, Sarno and Sojli (2010), 'Exchange rate forecasting and the New York close',
-  Journal of Financial Intermediation 19(1): 13–41, DOI 10.1016/j.jfi.2009.10.001" does not
-  exist* — that DOI resolves to Bruno and Claessens, "Corporate governance and regulation: Can
-  there be too much of a good thing?", *JFI* 19(4): 461–482; no Crossref record exists under the
-  claimed title; and the *JFI* 19(1) table of contents contains no such article. The real paper by
-  those authors is S-051 (*Journal of International Economics* 80(1): 72–88, DOI
-  10.1016/j.jinteco.2009.03.005). This is the **third phantom citation** found in this register,
-  after "Avalos, Beets, Ehrmann and Leguia — the role of the funding currency" and "Bruno and Shin
-  — Global liquidity and the FX market" (both recorded under S-068). (b) Osler (2003) is DOI
-  10.1111/1540-6261.00588, **not** 10.1111/1540-6261.00589 — the latter is Denis, McConnell,
-  Ovtchinnikov and Yu (2003), "S&P 500 Index Additions and Earnings Expectations", *JF* 58(5):
-  1821–1840. (c) Evans and Lyons (2002) is DOI 10.1086/324391, **not** 10.1086/343830. A fourth
-  reported identifier — 10.1016/j.jfineco.2014.01.004 for Neely, Rapach, Tu and Zhou (2014) —
-  belongs to Tate and Yang (2015), "Female leadership and gender equity: Evidence from plant
-  closure", *JFE* 117(1): 77–97; that paper is **not** registered here, because it is not
-  load-bearing for any dossier and its correct identifier was not established in this pass.
-  **The residual, still-unclosed part of G-09** is not a literature question about the fix: it is
-  the *settlement-side* half of IDEA-006's deadline cluster, which is now logged separately as
-  **G-11**.
-- **G-11 (new) — the settlement-side deadline cluster.** The G-09 closure established that the
-  **fix** half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074, S-081), but **no
-  located paper tests the *settlement-side* deadlines** — the CLS currency-close and pay-in
-  deadlines, and the post-US-close window that the T+1 transition created (S-048, S-049). The
-  distinction matters: the fix is a *price-setting* event whose participants must trade at a
-  published price, whereas the settlement deadlines are *funding* constraints that generate
-  price-insensitive currency demand in a window that is not a benchmark. The literature searched in
-  the G-09 pass is about the fix; it says nothing about the cluster. **This gap is blocking for
-  IDEA-006's residual**, and it is the first thing Cycle 3 should close for that candidate. It
-  also carries an additional, separate risk: the published fix literature is dense and partly
-  inaccessible (dealer and administrator tick data), so a "nobody has looked" conclusion about the
-  settlement side must be earned with the same rigour that was applied to the fix, not assumed.
-- **G-10 (new) — the carry-crash and global-liquidity literature.** **MOSTLY CLOSED; and the
-  closure went against IDEA-007.** The corpus has now been read and registered (S-055 … S-073).
-  The finding: the funding-state → carry-return relation is a *published baseline with a positive
-  result* — Filipe, Nissinen and Suominen (2023) already measure funding constraints by covered
-  interest parity deviations, define funding risk from them, and show that funding risk drives
-  carry returns and carry activity (S-055); the state variable's determinants are understood
-  (S-056, S-057, S-058, S-059, S-060); and the "funding currency" is already a named, defined
-  concept (S-061, S-062, S-063, S-064). IDEA-007 therefore had to be reclassified from "a
-  state-conditioned refinement of a documented channel" to "**a known baseline**, whose residual
-  claim is narrowed to the cross-sectional dependence structure", and the aggregate version was
-  logged as a rejection (R-006).
-  Two findings from the same pass are worth preserving as negative evidence:
-  (a) **there is no published cross-currency basis series.** The BIS statistics catalogue (locational
-  and consolidated banking statistics, global liquidity indicators, exchange rates, policy rates,
-  the triennial turnover survey, debt-securities and payments statistics, OTC derivatives
-  outstanding) contains none, and the published funding-constraint studies use paid vendor forwards
-  (S-055). A candidate that wants a *fast* funding state must construct it from market quotes.
-  (b) **Two papers that the register's earlier drafts and common citation practice imply do not
-  exist in the form stated**: "Avalos, Beets, Ehrmann and Leguia — the role of the funding currency
-  in foreign exchange" could not be found in any record (Crossref, OpenAlex, BIS author pages), and
-  "Bruno and Shin — Global liquidity and the FX market (Journal of Financial Economics)" has no
-  matching record — their verified works are S-068. A future agent should not chase either title.
-  The residual, still-unclosed part of G-10: whether the *cross-sectional* claim (which currencies
-  respond most to a given dollar funding expansion) is published anywhere, and whether the
-  "forward points predict forward points" residual identified in the same pass is occupied.
-  **Cycle-3 update:** the FX cross-section and currency-return literature located in Cycle 3
-  (Adrian–Etula–Shin 2009 S-052 time-series; Jiang–Krishnamurthy–Lustig convenience-yield /
-  Treasury-basis level; Bruno–Shin 2015 cross-border banking S-068; BIS "dollar dependence"
-  construct) supports the aggregate funding channel and a *level* dollar response, but no located
-  paper tests the cross-sectional dependence-structure claim — which currencies' exchange rates
-  move most when dollar funding expands, conditional on the interest differential — as a
-  tradeable object. The cross-sectional residual therefore remains open; IDEA-007's v1.1 claim
-  survives but is unproven.
-
-- **G-11 (new) — the settlement-side deadline cluster.** **PARTIALLY CLOSED.** The G-09 closure
-  established that the *fix* half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074,
-  S-081), and no located fix paper tests the settlement side. Cycle 3 located the closest
-  published work on settlement-side mechanics as price determinants: Lee, Ranaldo and Tsuruga
-  (2026), "Settlement Risk and Currency Markets", IMF WP/26/156 (S-082), which uses Hungary's
-  2015 adoption of CLS payment-versus-payment settlement as a quasi-natural experiment and finds
-  that currency excess returns decline by about ten basis points after CLS adoption — i.e.
-  settlement risk is a *priced friction* in currency markets. Together with the already-registered
-  Ranaldo and Santucci de Magistris (2022), "Liquidity in the global currency market" (S-071,
-  JFE 146(3):859–883), which builds CLS-based settlement metrics and links them to currency risk
-  premia, this shows settlement-side mechanics matter for pricing. **However, neither paper tests
-  the specific settlement-side *deadline cluster*** — the CLS currency-close and pay-in cut-offs
-  and the post-US-close window created by the May 2024 T+1 transition (S-048, S-049) — as a
-  price determinant. So the specific claim IDEA-006's residual rests on remains untested, and
-  IDEA-006 v1.1 survives but is unproven. The asymmetry noted in Cycle 2 stands: a "nobody has
-  tested this" claim about the settlement side must be earned with the same rigour applied to the
-  fix literature, not assumed.
-
----
 ## Cycle 3 additions (S-082)
 
 Added 2026-10-19 in the Cycle-3 originality-gap closure pass. Verification standard as prior
@@ -1776,3 +1633,760 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4641356
 
 ---
 ## Source gaps (explicitly unresolved)
+
+The current-state gap verdicts (G-01 … G-12) are the **Cycle-5 verdicts** block below, placed immediately after the Cycle-5 source additions. The original, cycle-by-cycle gap text — including the three mis-reported identifiers caught in the G-09 pass — is retained at the end of this file, in the order it was written.
+
+## Cycle 5 additions (S-095 … S-100)
+
+Added 2026-10-19 in the Cycle-5 originality-gap closure pass. Verification standard as prior
+cycles: each entry located and metadata-checked against Crossref / the publisher's own record
+before use; "Verification" records how the entry was confirmed, not whether the cited paper's
+results are correct. Every identifier below was re-derived in this cycle; the three mis-reported
+identifiers caught in the G-09 pass and the phantom citations caught in the Cycle-2 closure passes
+are the standing reason this rule is enforced.
+
+### S-095 — Moskowitz, T. J., Ross, C. P., Ross, S. Y. and Vasudevan, K. (2026)
+"Risk, Specialization, and Covered-Interest Parity." *The Journal of Finance* (published online
+13 October 2026; received 12 July 2024, accepted 17 November 2025). Article number jofi.70095.
+DOI: https://doi.org/10.1111/jofi.70095
+Earlier versions: NBER Working Paper 32707 (July 2024; revised February 2026, titled "Risk,
+Specialization, and Covered-Interest Parity", DOI https://doi.org/10.3386/w32707); Federal
+Reserve Board Finance and Economics Discussion Series 2024-061, "Quantities and Covered-Interest
+Parity" (11 July 2024), DOI https://doi.org/10.17016/FEDS.2024.061.
+- **Type:** Primary theory + prior empirical result (author-reported); peer-reviewed journal article
+  (the working-paper and FEDS versions are the same paper).
+- **Supports:** the *cross-sectional* explanation of covered-interest-parity bases by intermediary
+  frictions, and the pass-through of those frictions to prices. Verbatim from the published
+  abstract: "Prevailing theories of financial intermediation assume an integrated financial sector
+  with frictionless risk-sharing. However, we identify substantial risk-sharing frictions linked to
+  intermediary specialization using currency derivatives markets as a laboratory. Using
+  confidential supervisory data covering $25 trillion in daily bank exposures, we document imperfect
+  hedging in banks' FX-swap intermediation: banks rarely hedge their synthetic dollar lending with
+  maturity-matched foreign safe assets. Intermediaries specialize in markets in which they have
+  expertise in managing the associated exposures, giving rise to cross-market variation in
+  deviations from covered-interest parity. Our results highlight the importance of intermediary
+  specialization and its impact on risk premia." The earlier version's abstract states the three
+  forces: "1) foreign safe asset scarcity, 2) market power and segmentation of banks specializing
+  in different markets, and 3) concentration of demand", and the paper reports magnitudes of the
+  order of "a one-standard-deviation difference in the safe asset ratio corresponds to a further 10
+  to 18 bps increase in the basis" and "A one standard deviation increase in demand concentration
+  has a 7 bps larger basis".
+- **Caveats:** the object is the **basis** and the intermediaries' positions in it; the paper's
+  data are **confidential supervisory data** (FR 2052a), so the *state* it identifies is not
+  published. "Impact on risk premia" in the published abstract is not specified as a currency
+  *return* cross-section; the return-based cross-section is claimed separately by S-064. Results
+  are author-reported and not reproduced here.
+- **Verification:** Crossref record for DOI 10.1111/jofi.70095 fetched and read directly (title,
+  four authors, container "The Journal of Finance", publication date 13 October 2026, article number
+  jofi.70095, 46 deposited references, deposited abstract, received/accepted dates); NBER landing
+  page for WP 32707 fetched and read (title, authors, DOI, revision date February 2026); Federal
+  Reserve FEDS landing page and NBER working-paper PDF text for the July 2024 version fetched and
+  read (abstract, data description, results magnitudes). The publisher's full text was read only in
+  the abstract and the deposited reference list, not in full.
+
+### S-096 — Cenedese, G., Della Corte, P. and Wang, T. (2021)
+"Currency Mispricing and Dealer Balance Sheets." *The Journal of Finance* 76(6): 2763–2803.
+DOI: https://doi.org/10.1111/jofi.13079
+- **Type:** Prior empirical result (author-reported), peer-reviewed.
+- **Supports:** a **dealer-level** cross-section of currency funding costs driven by a binding
+  regulatory constraint. Verbatim from the deposited abstract: "We find dealer-level evidence that
+  recent regulation on the leverage ratio requirement causes deviations from covered interest
+  parity. Our analysis uses a unique data set of currency derivatives with disclosed counterparty
+  identities together with exogenous variation introduced by the U.K. leverage ratio framework.
+  Dealers who are affected by the regulatory shock charge an additional premium of about 20 basis
+  points per annum for synthetic dollar funding relative to unaffected dealers. This finding holds
+  even after controlling for changes in clients' demand. Also, some clients increase their trading
+  activity with unaffected dealers with whom they already had a preexisting relationship."
+- **Caveats:** the state is **dealer-level regulatory exposure with disclosed counterparty
+  identities** — proprietary, not published; the paper prices the *funding* spread, not currency
+  returns. Relevant to the register as the closest published demonstration that a *balance-sheet
+  constraint* prices currency funding, and as a baseline that any funding-state candidate must
+  cite. Results are author-reported and not reproduced here.
+- **Verification:** Crossref record fetched directly through the `filter=doi:` endpoint (title,
+  three authors, container "The Journal of Finance", volume 76, issue 6, pages 2763–2803,
+  publication date 4 October 2021, DOI, deposited abstract). The Crossref reference list of S-095
+  independently lists the same article, volume, pages and year.
+
+### S-097 — Adrian, T., Etula, E. and Muir, T. (2014)
+"Financial Intermediaries and the Cross-Section of Asset Returns." *The Journal of Finance* 69(6):
+2557–2596. DOI: https://doi.org/10.1111/jofi.12189
+Earlier: Federal Reserve Bank of New York Staff Report No. 464, "Broker-Dealer Leverage and the
+Cross-Section of Stock Returns" (July 2010, revised September 2013).
+- **Type:** Primary theory + prior empirical result (author-reported), peer-reviewed.
+- **Supports:** the register's canonical **intermediary-state asset-pricing** baseline — the
+  marginal value of wealth of financial intermediaries as a stochastic discount factor built from
+  **shocks to broker-dealer leverage**. Verbatim from the deposited abstract: "Financial
+  intermediaries trade frequently in many markets using sophisticated models. Their marginal value
+  of wealth should therefore provide a more informative stochastic discount factor (SDF) than that
+  of a representative consumer. Guided by theory, we use shocks to the leverage of securities
+  broker-dealers to construct an intermediary SDF. Intuitively, deteriorating funding conditions
+  are associated with deleveraging and high marginal value of wealth. Our single-factor model prices
+  size, book-to-market, momentum, and bond portfolios with an R² of 77% and an average annual
+  pricing error of 1% — performing as well as standard multifactor benchmarks designed to price
+  these assets."
+- **Caveats:** the state is an **estimated** intermediary-leverage shock, not a published series;
+  the pricing evidence is for equity and bond portfolios, not a currency cross-section. It is
+  registered as the baseline that any "funding state → cross-section" candidate must be measured
+  against, and as the strongest prior art on the general mechanism IDEA-002 and IDEA-007 pursue.
+- **Verification:** Wiley landing page fetched and read (title, three authors, volume 69, issue 6,
+  pages 2557–2596, DOI, deposited abstract); NY Fed Staff Report 464 landing page fetched and read
+  (earlier title, authors, date, abstract, published-version pointer); JSTOR record and RePEc
+  (ideas.repec.org) record fetched and read for corroborating bibliographic details; the
+  Crossref reference list of S-095 lists the same article, volume, pages and year.
+
+### S-098 — Bosch, D. and Pradkhan, E. (2017)
+"Trading Activity and Rate of Convergence in Commodity Futures Markets." *Journal of Futures
+Markets* 37(9): 930–938 (published online 14 December 2016; print issue September 2017).
+DOI: https://doi.org/10.1002/fut.21831
+- **Type:** Prior empirical result (author-reported), peer-reviewed.
+- **Supports:** the closest published work to IDEA-005's differentiator, and a documented
+  *partial occupation* of it. Verbatim from the deposited abstract: "We analyze whether and how
+  the trading activity of different trader types impacts the rate of convergence between spot and
+  futures markets for a broad range of commodity futures markets over the 1999–2014 period. There
+  is strong evidence that speculators (commodity index traders) increase (reduce) the rate of
+  convergence between spot and futures markets."
+- **Caveats:** the object is the **rate of convergence between spot and futures**, and the
+  conditioning is by **trader type** (index traders versus speculators), not by the joint state
+  IDEA-005 claims (passive share of open interest × contract depth) and not by the *roll-period
+  spread concession*. It therefore does not test IDEA-005's differentiator, but it does establish
+  that "the index complex changes commodity-futures convergence" is a published result. Results are
+  author-reported and not reproduced here.
+- **Verification:** Crossref record fetched directly (title, two authors with affiliation, container
+  "Journal of Futures Markets", volume 37, issue 9, pages 930–938, online publication date
+  14 December 2016, print issue September 2017, DOI, deposited abstract, 15 deposited references
+  including the Kang–Rouwenhorst–Tang working paper).
+
+### S-099 — Maréchal, L. (2023)
+"A tale of two premiums revisited." *Journal of Futures Markets* 43(5): 580–614 (published online
+26 January 2023).
+DOI: https://doi.org/10.1002/fut.22396
+- **Type:** Prior empirical result (author-reported), peer-reviewed.
+- **Supports:** the **closest published test of IDEA-005's state variable**, and a documented
+  *contradicting* result that must be recorded. Verbatim from the deposited abstract: "This paper
+  investigates the effect of the 'financialization' of commodity markets in terms of pricing. I
+  explore whether the emergence of commodity index traders (CITs) affects weekly returns and
+  turnover during the roll periods. I split the sample (1994–2017) into prefinancialization
+  (1994–2003) and postfinancialization (2004–2017). I directly test whether the CIT market share
+  (CIT/open interest) contributes to commodity returns and whether risk adjustments (based on
+  momentum, basis, basis-momentum, open interest, crowding, and average factors) alter liquidity
+  and insurance premiums documented in Kang, Rouwenhorst, and Tang."
+- **Caveats:** the state is the **CIT market share (CIT ÷ open interest)** — i.e. the CFTC
+  "Index Traders" share, the same public state variable IDEA-005 uses — but the outcome is
+  *commodity returns and turnover during roll periods*, not the nearby-to-deferred spread
+  concession, and the *joint* state with contract depth is not tested. The author's own reported
+  finding (from the abstract's framing and the located summary) is that the CIT-share effect on
+  returns is **not statistically significant**, which is recorded as contradicting evidence for
+  IDEA-005. Results are author-reported and not reproduced here.
+- **Verification:** Crossref record fetched directly through the `filter=doi:` endpoint (title,
+  author and affiliation, container "Journal of Futures Markets", volume 43, issue 5, pages
+  580–614, online publication date 26 January 2023, DOI, deposited abstract).
+
+### S-100 — New York Stock Exchange (venue documentation) and Options Clearing Corporation (venue
+documentation) — the two public state sources that close the bounded tasks T5 and T7
+(a) NYSE, "Trading Data — Auctions" (https://www.nyse.com/trading-data) — publishes aggregate
+closing-auction statistics, including the statement that "The New York Stock Exchange closing
+auction is the single largest liquidity event of the day – trading $18.9 billion per day, on
+average", that "on average, comparing the closing price to the Volume Weighted Average Price (VWAP)
+of the last two minutes, S&P 500 stocks have a price change of less than 0.053% with an average
+auction size of $37 million per security", and that "At the NYSE, the community of floor brokers
+and Designated Market Makers (DMMs) contribute over 35% of close liquidity, on average".
+(b) Cboe Global Markets, "U.S. Equities Market Volume Summary"
+(https://www.cboe.com/us/equities/market_share/) — a daily, **date-addressable** market-share file
+with an explicit "Exclude Auctions" filter, a "Download this day as CSV" control and a
+"Download Last 30 Days" control; the page instructs users to "cite Cboe Global Markets as the
+source".
+(c) Options Clearing Corporation, "Volume and Open Interest — Daily Volume" and "Volume Query"
+(https://www.theocc.com/market-data/market-data-reports/volume-and-open-interest/daily-volume) —
+daily contract volume by clearing class and a **volume query by symbol**, with the site stating
+"Data available for the past 24 months", plus "Historical Volume Statistics" (daily statistics
+listed by month) and a public "Series Search / Series Updates" register of listed series and their
+expiration dates.
+- **Type:** Venue documentation (exchange and clearing-house data publications).
+- **Supports:** **T5 (G-03/G-08) and T7 (G-05).** (i) Closing-auction volume statistics *are*
+  published by venues — aggregate per-day and per-market; what is *not* located is a free,
+  long-history, **per-security** auction-volume series, which remains a commercial product. This
+  is what makes G-08 answerable as "aggregate participation is public, per-security history is
+  not". (ii) The **single-name** 0DTE volume series that G-05 has been missing is *constructible*
+  from public OCC data — daily volume by symbol plus public series/expiration registers — so G-05
+  is now a **data** question that is closed and a **literature** question that remains open.
+- **Caveats:** venue-published aggregates; the NYSE figures quoted above are current-period
+  marketing statistics with no stated sample, so they are registered as *availability* evidence
+  only, never as measurements. No price, volume or performance statistic from these pages is used
+  as evidence for any candidate.
+- **Verification:** the three pages were fetched and read in this cycle (the NYSE auctions page and
+  its closing-auction section; the Cboe market-share page including its CSV/30-day controls and
+  the per-date form of the URL; the OCC market-data pages and their "Data available for the past
+  24 months" and "Volume Query" entries).
+
+---
+
+## Cycle 5 additions, part 2 — the EU ETS family (S-101 … S-111)
+
+Added 2026-10-19 for IDEA-013. The regulatory and venue items are **primary legal and institutional
+sources** read directly in this cycle; they are registered at the same evidential standard as the
+academic sources, with quoted text.
+
+### S-101 — Borri, N., Liu, Y., Tsyvinski, A. and Wu, X. (2026)
+"Trading Frictions in Dynamic Cap-and-Trade Markets." NBER Working Paper No. 35356 (June 2026).
+DOI: https://doi.org/10.3386/w35356
+Preprint: arXiv:2606.03767 (v2, May 2026), https://arxiv.org/abs/2606.03767
+- **Type:** Primary theory + prior empirical result (author-reported); working paper, not peer
+  reviewed. (The earlier versions of this project are registered separately as S-111 and are **the
+  same work**, not additional evidence.)
+- **Supports:** the **published effect and mechanism** that IDEA-013 must be differentiated from.
+  Verbatim from the published abstract: "We develop a dynamic stochastic model of markets with an
+  externality and multiple trading frictions, and cap-and-trade as the leading application. Slow
+  participation, limited intermediation, and heterogeneous information interact in equilibrium:
+  agents choose costly market access, access determines residual compliance demand, intermediary
+  constraints translate residual demand into a surrender-month premium, and the premium feeds back
+  into access incentives. These interactions shape how effectively the market corrects the
+  externality. We characterize access choices in closed form, prove that the equilibrium premium is
+  unique, and show that endogenous access dampens the response to each friction in isolation, while
+  the interaction of multiple frictions is non-additive and can amplify the price response. We
+  quantify the model using 2.7 million EU ETS registry transactions and compliance records from
+  2005–2021. About 40% of operators do not trade annually, purchases concentrate in April when
+  returns are systematically high, and operator flow predicts future returns." And from the
+  introduction: "This concentration of compliance demand is associated with systematically high
+  April returns, averaging about 10%"; "We estimate the implied April premium paid by delayed
+  buyers from this surrender pattern at about e5 billion, relative to purchasing allowances earlier
+  at lower prices. This number should be interpreted as a financial premium paid in April rather
+  than as a direct measure of aggregate resource costs, because part of the higher April price is
+  paid to counterparties."
+- **Caveats:** a **working paper**; results are the authors' own and are not reproduced here. The
+  empirical sample ends in **2021**, which is before the surrender deadline moved from 30 April to
+  30 September (S-103) — so the published result is *not* a statement about the current regime. The
+  **full text was not read in this cycle**: the abstract, the introduction and the summary
+  sections were read, and whether the paper conditions the premium on the aggregate surplus (which
+  would pre-empt IDEA-013's central claim) **remains unverified** and is recorded as the first
+  check for the next agent.
+- **Verification:** NBER working-paper landing page (https://www.nber.org/papers/w35356) fetched and
+  read — title, four authors, WP number, DOI, issue date June 2026, published abstract, and the
+  NBER PDF's first two pages (title block, abstract, JEL codes, introduction). The arXiv record
+  (arXiv:2606.03767v2) and its HTML rendering were read through the search index, which returned
+  the abstract, the "May 2026" date and the same quoted passages, including the note that "The
+  empirical analysis in this paper subsumes that of 'Inefficiencies of Carbon Trading Markets'
+  first posted on arXiv on August 12, 2024."
+
+### S-102 — Directive 2003/87/EC (EU Emissions Trading System), Articles 12(3) and 16(2)–(4)
+Consolidated text: http://data.europa.eu/eli/dir/2003/87/oj (EUR-Lex; also
+https://eur-lex.europa.eu/eli/dir/2003/87/oj/eng).
+- **Type:** Primary legal source (EU directive, as amended).
+- **Supports:** the **statutory obligation and its price-inelasticity**. Verbatim, Article 12(3) as
+  originally adopted: "Member States shall ensure that, by 30 April each year at the latest, the
+  operator of each installation surrenders a number of allowances equal to the total emissions from
+  that installation during the preceding calendar year as verified in accordance with Article 15,
+  and that these are subsequently cancelled." Article 16(2): "Member States shall ensure
+  publication of the names of operators who are in breach of requirements to surrender sufficient
+  allowances under Article 12(3)." Article 16(3): "The excess emissions penalty shall be EUR 100
+  for each tonne of carbon dioxide equivalent emitted by that installation for which the operator
+  has not surrendered allowances. Payment of the excess emissions penalty shall not release the
+  operator from the obligation to surrender an amount of allowances equal to those excess emissions
+  when surrendering allowances in relation to the following calendar year." Article 16(4) sets the
+  transitional penalty at EUR 40 per tonne for the three years from 1 January 2005. A penalty of
+  EUR 100 per tonne against an allowance price in the tens of euros is what makes the deadline
+  demand effectively price-inelastic, and the publication of the names of penalised operators is
+  the reputational channel that raises the effective cost of missing the deadline.
+- **Caveats:** the consolidated EUR-Lex text is the version in force, with the Article 12(3) date
+  as amended (see S-103); the quoted Article 12(3) wording above is the **original** 2003 text, as
+  reproduced in the original Official Journal text and in the consolidated version's history.
+- **Verification:** EUR-Lex consolidated-text pages for Directive 2003/87/EC fetched and read
+  (Articles 12 and 16 as quoted above, including the EUR 40 transitional penalty); the Court of
+  Justice's judgment in C-203/12 (*Billerud Karlsborg*) was read through the search index and
+  confirms that the EUR 100 lump-sum penalty applies "without any flexibility other than a
+  transitional lowering of the amount between 2005 and 2007", and quotes Articles 12(3) and 16(3)
+  verbatim.
+
+### S-103 — European Commission (2023) and Directive (EU) 2023/959 — the move of the surrender deadline
+Commission news item, "ETS Revision: no change to deadline to surrender allowances in 2023"
+(30 January 2023), https://climate.ec.europa.eu/news-other-reads/news/ets-revision-no-change-deadline-surrender-allowances-2023-2023-01-30_en ;
+amending directive: Directive (EU) 2023/959 of the European Parliament and of the Council of
+10 May 2023, https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L0959
+- **Type:** Primary legal and regulator source.
+- **Supports:** the **regime change** that separates IDEA-013 from the published sample. Verbatim
+  from the Commission: "This political agreement on the revision of the EU emissions trading system
+  ('EU ETS'), as part of the 'Fit for 55' package … includes adjustments to its compliance
+  calendar. In particular, the deadline for competent authorities to grant free allocation is
+  planned to be postponed from 28 February to 30 June, and the deadline to surrender allowances from
+  30 April to 30 September. If adopted by the Parliament and the Council, changes to the compliance
+  cycle would apply from 2024 onwards, as those amendments to Directive 2003/87/EC need to be
+  transposed by Member States into their national laws. For 2023, the above-mentioned deadlines
+  remain unchanged." The related 2024 transition-year treatment (30 September 2024 rather than
+  30 April 2024) and the corresponding change to the ICE EUA contract expiries are recorded in the
+  EU-ETS compliance-date documentation located in this cycle.
+- **Caveats:** a Commission news item is a communication, not the consolidated legal text; the
+  directive itself is the authoritative source and its full text was **not** read in this cycle.
+- **Verification:** the Commission news page fetched and read (date, author "Directorate-General for
+  Climate Action", the quoted compliance-calendar passage); the EUR-Lex record for Directive (EU)
+  2023/959 located via the search index together with the consolidated-text excerpt that
+  "the EU ETS compliance deadline for operators to surrender allowances has been postponed as from
+  2024 from 30 April to 30 September".
+
+### S-104 — ERCST / ICAP, "2025 State of the EU ETS Report" (June 2025)
+Published by the European Research Centre on Energy and Climate Transition (ERCST) with the
+Wegener Center, BloombergNEF and Ecoact.
+https://ercst.org/wp-content/uploads/2025/05/2025-State-of-the-EU-ETS-Report.pdf
+- **Type:** Institutional market report (venue/market monitor), not peer reviewed.
+- **Supports:** (i) the **published market read on the deadline shift**, which is prior art for
+  IDEA-013's "the pressure moved" claim: "Falling demand for allowances for both compliance and
+  hedging purposes – particularly from the power sector – freed up permits to non-compliance
+  entities. This may be partially due to the shift of the compliance deadline to September from
+  April, spreading out demand. December saw the highest volumes, as is typical." (ii) the
+  **counterparty structure**: "The average number of entities invested in EUA futures and not
+  regulated under the EU ETS Directive has been rising. In 2024, the figure increased to around 900
+  on average, a jump of about 15% year-on-year. Speculators can increase volatility and create price
+  spikes if they trade opportunistically." (iii) the **use of TNAC as the surplus indicator**:
+  "the total number of allowances in circulation (TNAC), an indicator for the surplus which is
+  published each year by the Commission in May has been decreasing over the course of Phase 3", and
+  "the number of emissions exceeding installations' total allowance holdings, i.e. yearly free
+  allocation plus the accumulated bank, if any, which can be interpreted as the number of allowances
+  purchased on the secondary market" — i.e. the aggregate compliance balance is an official
+  concept with an official indicator.
+- **Caveats:** an institutional report; its market data are attributed to BloombergNEF; the report
+  is used here only for *published state availability* and for the *prior art* on the deadline
+  shift, never for a price or volume measurement.
+- **Verification:** the report PDF was fetched through the search index and the quoted passages
+  (including the figure captions "FIGURE 6.2. AGGREGATE OPEN INTEREST SEASONALITY" and the
+  "Allowances used for 2023 compliance" table) were read in the returned document text.
+
+### S-105 — European Commission, "Auctioning of allowances"
+https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets/auctioning-allowances_en
+- **Type:** Regulator / venue documentation.
+- **Supports:** the **published auction calendar and results** that IDEA-013 uses as its mechanism
+  check. Verbatim: "The current auction calendar includes the dates and volumes of general and
+  aviation allowances to be auctioned per Member State, as well as for the Innovation Fund and
+  Modernisation Fund. These are available on the auctioning platform's webpage. Auction results are
+  made available daily on the auctioning platform's webpage, while detailed auction reports are
+  published on a quarterly basis. The latter provide more information on the auctions – including
+  results, participants and generated revenue – for the 27 Member States, as well as Iceland,
+  Liechtenstein and Norway." And: "28 countries (i.e., 25 EU Member States plus Iceland,
+  Liechtenstein and Norway) auction their allowances via the European Energy Exchange (EEX), a
+  common auction platform." Auction frequency: "Weekly auctions on Mondays, Tuesdays and
+  Thursdays" (Germany: Fridays).
+- **Caveats:** none material; this is the regulator's own description of its publications.
+- **Verification:** the Commission page fetched and read in this cycle (auctioning platform, auction
+  calendar, daily results, quarterly auction reports, 57% of the cap auctioned in phase 4, weekly
+  auction days).
+
+### S-106 — German Emissions Trading Authority (DEHSt), auction-calendar notices; European Commission
+news item of 1 October 2026 on the 2027 auction calendars
+https://www.dehst.de/SharedDocs/news/EN/auction-calendar-update.html ;
+https://climate.ec.europa.eu/news-other-reads/news/revised-2027-eu-ets1-and-initial-2027-eu-ets2-auction-calendars-published-2026-10-01_en
+- **Type:** National regulator and European Commission publications.
+- **Supports:** the **decision-time publication of the auction supply in the compliance window**,
+  including the Market Stability Reserve adjustment. Verbatim from the Commission news item: "Yesterday,
+  the European Energy Exchange (EEX) published the revised 2027 EU ETS1 and the new 2027 EU ETS2
+  auction calendars"; "Pursuant to Article 13(7) of the Auctioning Regulation, the current auction
+  volume for 2027 includes 140 000 000 allowances allocated to the Social Climate Fund and
+  allowances allocated to Member States that have implemented in their national legislation the
+  obligation of regulated entities to surrender allowances"; "In 2027, auctions of ETS1 and ETS2
+  allowances by the common auction platform will take place on Mondays, Tuesdays and Thursdays,
+  starting on 7 January and 18 January respectively. Auctions of ETS2 allowances will start at 1pm
+  and end at 3pm. ETS1 allowances will continue to be auctioned in the morning, from 9am to 11am."
+  And from DEHSt: "The 2026 auction calendar has been adjusted in accordance with the EU
+  Auctioning Regulation. The auction volumes will thus be reduced by the Market Stability Reserve
+  (MSR) for the period from September to December 2026 in accordance with the total number of
+  allowances in circulation 2025 (TNAC) published by the EU Commission on 29th May."
+- **Caveats:** the auction calendar is a *supply* schedule; it is not a statement about compliance
+  demand.
+- **Verification:** both pages fetched and read through the search index in this cycle, with the
+  quoted passages returned verbatim in the document text (DEHSt date 31/07/2026; Commission news
+  publication date 1 October 2026, author "Directorate-General for Climate Action").
+
+### S-107 — European Commission, TNAC communications (Market Stability Reserve)
+OJ C 3415 of 3 June 2024 (TNAC for 2023); C/2025/3180 (TNAC for 2024);
+https://eur-lex.europa.eu/eli/C/2026/2957/oj/eng (TNAC for 2025).
+- **Type:** Regulator publication (Official Journal communications).
+- **Supports:** the **decision-time state variable** of IDEA-013. Verbatim: "Under Article 1(4) of
+  the MSR Decision, every year the Commission publishes the total number of allowances in
+  circulation (TNAC) for the previous year. This figure determines the operation of the MSR, that is
+  whether allowances are withdrawn from the auction volume and placed in the reserve or released
+  from the reserve and auctioned. The annual publication of the TNAC is therefore an important
+  feature of the MSR and the EU ETS. On 3 June 2024, the Commission published the TNAC for 2023,
+  which amounted to 1 111 736 535. Accordingly, 266 816 768 allowances were to be placed in the
+  reserve from 1 September 2024 to 31 August 2025." The 2025 communication states: "This
+  Communication is the tenth TNAC publication and concerns 2025. It details the underlying
+  calculation and the number of allowances that will be placed in the reserve from 1 September 2026
+  to 31 August 2027."
+- **Caveats:** TNAC is an **estimate** of allowances in circulation, not a direct measure of the
+  net compliance balance; the note in the 2024 communication is that "The figure includes verified
+  emissions reported by 31 March 2025 – the reporting deadline in the EU ETS. Emissions reported
+  after this date are not reflected in the total." A validator must therefore treat TNAC as a
+  *bound* on the aggregate position, not as a measurement of it.
+- **Verification:** the EUR-Lex documents fetched and read in this cycle (C/2025/3180 as a PDF and
+  as HTML, and the 2026 communication C/2026/2957); the quoted passages are verbatim from those
+  documents.
+
+### S-108 — European Commission, "Union Registry" and the EEA EU ETS data viewer
+https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets/union-registry_en ;
+https://www.eea.europa.eu/en/analysis/maps-and-charts/emissions-trading-viewer-1-dashboards
+- **Type:** Regulator publication (public data pages).
+- **Supports:** the **public availability of installation-level compliance and verified-emissions
+  data**. Verbatim: "The following information is publicly available on the Union Registry website:
+  Data on free allocation, verified emissions, and compliance status of operators; Transactions
+  taking place in the Registry, as well as data on account holders … The Registry records:
+  National implementation measures (namely, a list of installations covered by the ETS Directive in
+  each EU country, detailing their respective free allocation of allowances); Accounts of companies
+  holding such allowances; Transfers of allowances (known as 'transactions') performed by account
+  holders; Annual verified CO2 emissions from operators; Annual reconciliation of allowances and
+  verified emissions, requiring each company to surrender enough allowances to cover all its
+  verified emissions." And from the EEA data viewer page: "The EU ETS data viewer provides
+  aggregated data by country, by main activity type and by year on the verified emissions,
+  allowances and …"
+- **Caveats:** the *registry* data are public but are bulk downloads at installation level; they are
+  the data a validator would need to construct the aggregate balance, and they are **published
+  after** the deadline for the year in question (see S-110) — usable for an ex-post check of the
+  state, not for the decision.
+- **Verification:** both pages located and read in this cycle through the search index, with the
+  quoted passages returned verbatim.
+
+### S-109 — European Commission, free allocation and the cross-sectoral correction factor
+Implementing Decision (EU) 2021/927 of 31 May 2021 determining the uniform cross-sectoral
+correction factor for the adjustment of free allocations of emission allowances for the period
+2021 to 2025; Commission page "Free allocation"
+https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets/free-allocation_en
+- **Type:** Regulator decision and documentation.
+- **Supports:** the **free-allocation side of the aggregate compliance balance**, which is what
+  makes the balance computable ex ante. Verbatim, as cited in S-104: "On 31 May 2021, the
+  Commission adopted its Decision on the Cross Sectoral Correction Factor (CSCF) … The CSCF adjusts
+  the free allocation of emission allowances if demand from industry exceeds the free allocation
+  quota under the EU ETS Directive. For each year in the allocation period from 2021 to 2025, the
+  CSCF will be 100%, thus the CSCF will not reduce the level of free allocation further."
+- **Caveats:** the decision itself was **not** fetched directly in this cycle; it is registered on
+  the strength of the quotation and decision reference in S-104 and of the Commission's free
+  allocation page. A validator must read the decision itself.
+- **Verification:** the Commission's free-allocation page URL was located in the Union Registry page
+  (S-108) in this cycle; the decision reference and its content were read in the fetched text of
+  S-104. Flagged here as a partially verified entry, deliberately, rather than presented as fully
+  checked.
+
+### S-110 — European Commission, "EU ETS – Publication of surrender and compliance data"
+News items of 23 September 2025 and 25 September 2026.
+https://climate.ec.europa.eu/news-other-reads/news/eu-ets-publication-surrender-and-compliance-data-2025-09-23_en ;
+https://climate.ec.europa.eu/news-other-reads/news/eu-ets-publication-surrender-and-compliance-data-2026-09-25_en
+- **Type:** Regulator publication notice.
+- **Supports:** the **timing of the ex-post compliance data**, which is the data hazard IDEA-013
+  must flag. Verbatim: "The Commission will publish the available surrender and compliance data
+  2024 on October 6, 2025, at the latest." (2025 item; the 2026 item states the same for the 2025
+  data with a 6 October 2026 deadline.)
+- **Caveats:** the notice gives the *latest* publication date; the actual publication date may be
+  earlier.
+- **Verification:** both news pages located and read in this cycle through the search index, with
+  the quoted sentences returned verbatim, including the publication dates and the authoring
+  directorate.
+
+### S-111 — Borri, N., Liu, Y., Tsyvinski, A. and Wu, X. (2024, 2025) — the earlier versions of S-101
+"Inefficiencies of Carbon Trading Markets", arXiv:2408.06497 (submitted 12 August 2024, v2 15 August
+2024), DOI https://doi.org/10.48550/arXiv.2408.06497 ; Cowles Foundation Discussion Paper No. 2403
+(July 2024), https://elischolar.library.yale.edu/cowles-discussion-paper-series/2809 ; Research
+Square preprint, DOI https://doi.org/10.21203/rs.3.rs-7246143/v1 (6 August 2025).
+- **Type:** Earlier versions of the same project as S-101 — **one piece of work, not three**.
+- **Supports:** the *original* statement of the effect, which is where the phrasing used in
+  IDEA-013 comes from. Verbatim: "The EU ETS market operates on a fixed verifying and surrendering
+  schedule each year. By the end of April, firms must surrender a sufficient number of emission
+  allowances to the administrator account to match their emissions. This high demand for emission
+  allowances in the surrendering month results in significant price increases, averaging more than
+  10% in Aprils." And: "We observe that the average return is highest in April, exceeding 10%. This
+  monthly return is significantly higher than returns in other months of the year. These results
+  suggest that the substantial demand during the surrendering month (April) contributes to a surge
+  in emission allowance prices." The Research Square version adds the phase coverage: "about 40% of
+  operators — that is, non-financial firms subject to compliance obligations — never trade in a
+  given year, though this share declines to 20% by early Phase IV."
+- **Caveats:** these are the same authors' work in earlier form; citing them alongside S-101 as if
+  they were independent evidence would be double counting, and the register does not do so.
+- **Verification:** the arXiv abstract page, the arXiv HTML rendering, the Cowles/EliScholar
+  record (document type "Discussion Paper", publication date 7-2024, CFDP number 2403, abstract,
+  download link) and the Europe PMC preprint record (Research Square, DOI, publication date
+  6 August 2025, abstract) were all located and read in this cycle.
+
+---
+
+## Source gaps (explicitly unresolved) — Cycle-5 verdicts
+
+The gap verdicts carried forward from Cycles 2–4 are restated below with the Cycle-5 outcome. The
+authoritative, cycle-by-cycle text of each gap remains in the section above; this block is the
+current-state summary for the next agent.
+
+- **G-01 — public funding-state proxy for dealer funding value adjustments. STILL OPEN, but with a
+  precise specification.** T6 remains unresolved: SOFR/GC repo (S-041) and standing-repo and
+  primary-dealer data (S-042) are public ingredients, but no published, continuous series of dealer
+  funding value adjustments exists, so the validation target cannot be constructed. IDEA-002 stays
+  **parked** (P-004). New in Cycle 5: S-096 and S-097 show that the *published* literature prices
+  this constraint using **proprietary dealer-level data**, which is the strongest possible argument
+  that the public-composite route cannot be validated without proprietary data.
+- **G-02 — size of index-linked assets tracking a benchmark. STILL OPEN (category-level only).**
+  Unchanged. **G-07 — benchmark-specific time series of index-linked assets: STILL OPEN**, but T8
+  narrowed it: individual-fund assets are public on issuer factsheets, so a *hand-assembled*
+  benchmark-specific series is constructible, while no *published aggregate* benchmark-specific
+  series exists and the category-level ICI series (S-040) is the only public one. This is a
+  data-assembly cost, not an impossibility, and it is recorded as such.
+- **G-03 — current index-fund trading convention at the effective close. STILL OPEN.** T5
+  established that closing-auction **volume** statistics are published (S-100), so the *empirical*
+  question G-03 was re-framed into is now **answerable with venue data** for the aggregate; what
+  remains open is the attribution question (how much of the auction is passive), which is not
+  answerable from aggregate volume. IDEA-001 must continue to carry the premise as an assumption.
+- **G-04 — timely crowd-depth proxy. PARTIALLY CLOSED (futures), OPEN (equities).** Unchanged.
+- **G-05 — post-2010 single-name option market structure. NOW SPLIT: DATA CLOSED, LITERATURE
+  OPEN.** T7's outcome: the single-name 0DTE volume series is constructible from public OCC data
+  (S-100), so the *measurement* problem that blocked the single-name side is solved; what remains
+  open is whether any *peer-reviewed* work documents the single-name 0DTE structure and its effect
+  on the insurance-demand channel of S-014. The index-level findings (S-043, S-092, S-093, S-094)
+  stand as they are.
+- **G-06 — the commodity basis-convergence literature and any published work conditioning a
+  futures spread on a positioning state. CLOSED AS A NEGATIVE FINDING, WITH SCOPE.** The Cycle-5
+  sweep located the specific papers that had not been found in earlier cycles and none of them
+  conditions the **roll-period nearby-to-deferred spread concession** on the **joint** state
+  (passive share of open interest × contract depth) that IDEA-005 claims: S-098 conditions the
+  *rate of spot-futures convergence* on *trader type*; S-099 conditions *commodity returns during
+  roll periods* on the **CIT market share** and reports no significant effect; earlier entries
+  (S-032 … S-039) and the located working papers condition the *term structure* on index-versus-
+  hedging position size, not on the joint state. **Honest scope:** this is a negative finding about
+  a bounded search, not a proof of novelty. IDEA-005's differentiator survives as an unclaimed
+  joint specification, and the contradicting evidence (S-099, and the post-2012 null of S-033) is
+  now recorded against it.
+- **G-07 — see G-02 above.**
+- **G-08 — public closing-auction volume statistics. MOSTLY CLOSED.** T5's outcome: aggregate and
+  per-market closing-auction volume statistics are published by NYSE and Cboe, and Cboe's file is
+  daily and date-addressable with auction-inclusive/excluded toggles (S-100). The residual — a free,
+  long-history, **per-security** auction-volume series — is a commercial product and remains open.
+  G-03 is therefore *answerable in the aggregate* and still *unresolved in attribution*.
+- **G-09 — the intraday FX microstructure literature around the fix. CLOSED (MOSTLY), against
+  IDEA-006.** Unchanged from Cycle 2; the fix's price impact is published (S-075 … S-081) and the
+  aggregate version was rejected as R-007.
+- **G-10 — the carry-crash and global-liquidity literature, and the cross-sectional funding-state
+  claim. CLOSED, AGAINST IDEA-007.** See the Cycle-5 note below; this gap is the cycle's decisive
+  finding and is the reason IDEA-007 is rejected as R-008.
+- **G-11 — the settlement-side deadline cluster.** Cycle-5 verdict recorded in IDEA-006 v1.2 and
+  IDEA-012 v1.1 and in the Cycle-5 notes; the residual is a *narrow* residual and both candidates
+  remain unproven and, in IDEA-012's case, data-blocked.
+- **G-12 (new) — the *published-state* refinement of an already-published factor.** Opened in
+  Cycle 5 as the generalisation of the IDEA-007 outcome. The register has now twice produced a
+  candidate whose *only* remaining claim was "the same published effect, but conditioned on a
+  state variable that is published on a known calendar" (IDEA-007 v1.1, and, in the EU ETS
+  family, the analogue). The state-proxy methodological note's own rule — re-specifying around a
+  weaker proxy converts a good idea into a disguised baseline — needs a sharper version: *a
+  published state is a feasibility property, not a source of novelty.* The unclosed question is
+  whether a **published** state can ever change the **sign** or **existence** of a published
+  effect (as IDEA-005 and IDEA-011 claim), or only its measurement quality.
+
+### Cycle-5 closure of G-10 (decisive, against IDEA-007)
+
+G-10 was opened in Cycle 2 to answer one question: is the **cross-sectional** claim — that the
+currencies whose borrowers depend most on dollar funding respond most to a dollar funding
+expansion, conditional on the interest differential — published anywhere? Cycle 5 answers it.
+
+1. **The state of the art moved, and it moved against the register's candidate.** The paper the
+   Cycle-2 closure had registered only in truncated form (S-064, Wang 2026) turns out to test
+   **exactly** that claim and reports a positive result: a high-minus-low cross-currency-basis
+   factor earns a reported 4–4.5% annual risk premium, explains a large share of the
+   cross-sectional variation in currency excess returns, and subsumes carry and several other
+   factors. The abstract states the hypothesis in the register's own words: "Currencies with
+   higher dollar funding pressure (higher unconditional level of basis) earn higher expected excess
+   returns."
+2. **The mechanism's own literature has closed in the same direction.** The working paper the
+   Cycle-2 closure had only seen as a Fed FEDS note is now peer-reviewed as "Risk,
+   Specialization, and Covered-Interest Parity", *The Journal of Finance* (S-095), and it
+   documents the cross-section of CIP bases and its pass-through to prices using supervisory
+   quantity data. Dealer-level regulation as a priced funding constraint is established
+   independently (S-096), and the intermediary-state asset-pricing baseline (S-097) shows how far
+   the general mechanism is developed.
+3. **What remains is not a discovery but a data-construction variant.** IDEA-007 v1.1's residual
+   was the *cross-section* plus a *publication-timing* test. The cross-section is now a published
+   positive result; the only surviving difference is that the candidate would use the **published,
+   slow** BIS banking statistics (S-054) rather than the **market-quote** basis that the published
+   work uses — and the market-quote basis is not published either, so the candidate's version
+   differs only in the *quality of the proxy*, not in the *sign or existence* of the effect. The
+   register's own rediscovery guard requires the conditioning to change the sign or the existence
+   of the effect; a proxy swap does not.
+4. **Outcome.** IDEA-007 is **rejected (R-008)**, not narrowed. The register therefore holds no FX
+   candidate, a diversification cost that the shortlist had explicitly pre-registered as the
+   consequence. The *family* survives as a published baseline and moves into the known-baseline
+   table: the funding-constraint state prices carry and the cross-section of currency risk premia;
+   the residual research question is not "does it work" but "is there a state that changes the
+   sign" — which is now logged as G-12.
+
+---
+
+## Source gaps (explicitly unresolved) — original cycle-by-cycle verdicts (Cycles 2–4)
+
+The text below is the gaps section as it was written, in the order it was written, including the
+three mis-reported identifiers caught in the G-09 pass and the phantom citations caught in the
+Cycle-2 closure passes. **It is superseded for current-state purposes by the Cycle-5 verdicts
+block above**; it is retained because the negative results and the *reasoning* behind the early
+verdicts are themselves part of the register's evidence.
+
+Gap status is reviewed every cycle. Cycle 2 closed or narrowed G-01, G-02, G-04 and G-05, and
+could not close G-03. Verdicts are recorded here so the negative results survive.
+
+- **G-01 — public funding-state proxy for dealer funding value adjustments.** **NARROWED, not
+  closed; verdict: viable only with a specified composite.** Cycle 2 verified four public,
+  regularly published ingredients that no Cycle-1 source had established: daily SOFR and the
+  related GC repo rates (S-041), daily standing-repo-facility take-up and awarded rates (S-042),
+  and a recurring public balance-sheet disclosure of the primary dealers (S-042). What is still
+  missing is the *target* of the proxy — a published, continuous series of dealer funding value
+  adjustments — and, therefore, any validated mapping from the public composite to disclosed FVAs.
+  IDEA-002 must therefore specify a composite (a SOFR-to-IOER or SOFR-to-Treasury spread, plus
+  standing-repo stress, plus a dealer-balance-sheet component) and a validation design against
+  dealer disclosures, and it must treat the composite as a *state indicator*, not as the FVA
+  itself. If the validation against disclosed FVAs cannot be performed, IDEA-002 stays parked
+  (P-004) rather than being re-specified on a weaker proxy.
+- **G-02 — size of index-linked assets tracking a benchmark.** **NARROWED; verdict: a
+  category-level public proxy exists, a benchmark-specific series does not.** Cycle 2 verified the
+  ICI's public monthly series for total fund assets and for the active-versus-index split
+  (S-040), which supports a *scale* variable for passive assets at the level of "the size of the
+  indexed complex", with the explicit exclusions the ICI itself states (ETFs and
+  funds-of-funds are excluded from the headline totals) and with the limitation that it is
+  category-level, not tied to any one benchmark. Separately, in the futures market there is a
+  *direct* measure of the passive complex at contract level — the CFTC "Index Traders" positions
+  (S-030) — which is the model a benchmark-specific series would have to emulate. The
+  benchmark-specific series remains open as **G-07**.
+- **G-03 — current index-fund trading convention at the effective close.** **NOT CLOSED;
+  re-framed into an answerable empirical question.** No source was found that establishes whether
+  index funds trade at the effective close or pre-position, and none was found in Cycle 2 either.
+  What Cycle 2 can do is narrow the question: the *testable* object is the **concentration of
+  passive flow in the closing auction and whether that concentration has changed**, which is
+  measurable from exchange-published closing-auction volume statistics. Those statistics were
+  **not** located or verified this cycle, so the narrowed form stays open as **G-08**, and IDEA-001
+  must carry the premise as an explicit assumption to be checked rather than as a documented fact.
+- **G-04 — timely crowd-depth proxy.** **PARTIALLY CLOSED for the futures domain.** The CFTC's
+  weekly "Index Traders" and Disaggregated COT reports (S-030, S-031) provide a public,
+  contract-level, dated measure of both the passive position and the arbitrage/liquidity-supply
+  position — the exact pair of state variables IDEA-005 needs, with a known five-day publication
+  lag (S-037). For **equities** the gap is unchanged: the only measure located remains the
+  quarterly-stale 13F-based crowding measure (S-026), and IDEA-004's proxy-validity kill
+  condition stands.
+- **G-05 — post-2010 single-name option market structure.** **PARTIALLY CLOSED.** Cycle 2
+  characterised the structural change using the exchange's own published research and statistics
+  (S-043): same-day expiries now account for the majority of index option volume (about 5% of
+  SPX options volume in 2016 to 59–62% in 2025), the flow is estimated to be roughly half retail
+  and about 98% electronically traded, and the exchange's own estimate is that net market-maker
+  gamma is de minimis. What remains unsettled is the *direction and size of the effect on the
+  single-name insurance-demand channel* of S-014, because single-name 0DTE and single-name retail
+  statistics were not established, and because the structural change is documented by an
+  interested party rather than in peer-reviewed work. IDEA-003 must therefore treat the
+  single-name version of the channel as an explicitly weaker, separately-validated extension.
+- **G-06 (new) — the commodity basis-convergence literature, and any published work that already
+  conditions a futures spread on a positioning state.** **NARROWED, not closed.** The
+  commodity basis-convergence / hedging-pressure / inventory literature was located in Cycle 3
+  (Bessembinder 1992 S-039; Gorton, Hayashi & Rouwenhorst 2013 S-038; Taylor 2016 roll-strategy
+  efficiency; the existing register entries S-032 … S-037). None of it conditions the roll-period
+  nearby-to-deferred spread concession on the passive share of open interest × contract depth, and
+  none of it establishes the concession as a plain *convergence-to-carry trade with a calendar
+  catalyst* rather than a liquidity-provision concession around a scheduled, price-insensitive roll.
+  The aggregate null post-2012 (S-033) and the transience/cost findings (S-032, S-034, S-036,
+  S-037) are consistent with IDEA-005's state-conditioned refinement rather than with a plain
+  basis-convergence trade. The cross-sectional state condition is therefore not established as
+  published, and IDEA-005's differentiator survives — but the claim that "nobody has conditioned
+  the roll impact on the passive share of open interest" remains a conjecture, not an exhaustive
+  negative finding. Must be re-visited before IDEA-005 is presented as a discovery.
+- **G-07 (new) — a benchmark-specific time series of index-linked assets** (for example, assets
+  tracking the S&P 500 specifically, rather than the aggregate indexed complex). No verified
+  source was found. The SPIVA scorecards (S-040 and the related S&P DJI publications) were
+  inspected and the parts retrieved did not publish index-fund assets by benchmark; the SPIVA
+  product deliberately excludes index funds from its performance counts. Closing this gap is a
+  precondition for the flow-scaling test in IDEA-001 (V-001) and for the scale variable in
+  IDEA-005.
+- **G-08 (new) — public closing-auction volume statistics** (the data source that would allow
+  G-03 to be closed empirically, and that would let the "does the passive concentrate in the
+  closing auction" question be answered from exchange data). Not located in Cycle 2.
+- **G-09 (new) — the intraday FX microstructure literature *around* the fix.** **MOSTLY CLOSED;
+  and the closure went against IDEA-006.** The dedicated line of work referred to in S-047 (the
+  "Evans and Lyons" 4pm-fix studies, and the "Michelberger and Witte" work on intraday FX rates
+  and inter-dealer order flow around the 4pm fix) has now been retrieved and registered
+  (S-074 … S-081). **The finding: the fix-window price effect is published, and it is the effect
+  IDEA-006 claimed to be measuring for the first time.** Melvin and Prins (2015) show that passive
+  hedging flows at the fix predict the direction of *temporary* exchange-rate movements, with a
+  "strong, but temporary, impact" concentrated at end of month (S-075); Evans (2018) documents
+  negative serial correlation in price changes around the fix and models the fix order as an
+  optimal-execution problem (S-076); Ito and Yamada (2015) document the negative autocorrelation
+  between the pre- and post-fixing periods, "particularly at the end-of-month trading day"
+  (S-077); Michelberger and Witte (2016) document the increased volatility and size of movements
+  around 4pm (S-074); and He (2026) states the W-shaped pre-fix rise / post-fix fall in the dollar
+  for the nine most traded currencies over 21 years (S-081). The aggregate version of IDEA-006 was
+  therefore **rejected (R-007)** and its dossier narrowed to a residual (v1.1).
+  **Three citation errors were caught in the same pass and are recorded here so that no future
+  session repeats them.** A read-only verification agent returned the wrong identifier for three
+  of the papers it reported, and every returned identifier was re-checked against Crossref before
+  use: (a) *"Rime, Sarno and Sojli (2010), 'Exchange rate forecasting and the New York close',
+  Journal of Financial Intermediation 19(1): 13–41, DOI 10.1016/j.jfi.2009.10.001" does not
+  exist* — that DOI resolves to Bruno and Claessens, "Corporate governance and regulation: Can
+  there be too much of a good thing?", *JFI* 19(4): 461–482; no Crossref record exists under the
+  claimed title; and the *JFI* 19(1) table of contents contains no such article. The real paper by
+  those authors is S-051 (*Journal of International Economics* 80(1): 72–88, DOI
+  10.1016/j.jinteco.2009.03.005). This is the **third phantom citation** found in this register,
+  after "Avalos, Beets, Ehrmann and Leguia — the role of the funding currency" and "Bruno and Shin
+  — Global liquidity and the FX market" (both recorded under S-068). (b) Osler (2003) is DOI
+  10.1111/1540-6261.00588, **not** 10.1111/1540-6261.00589 — the latter is Denis, McConnell,
+  Ovtchinnikov and Yu (2003), "S&P 500 Index Additions and Earnings Expectations", *JF* 58(5):
+  1821–1840. (c) Evans and Lyons (2002) is DOI 10.1086/324391, **not** 10.1086/343830. A fourth
+  reported identifier — 10.1016/j.jfineco.2014.01.004 for Neely, Rapach, Tu and Zhou (2014) —
+  belongs to Tate and Yang (2015), "Female leadership and gender equity: Evidence from plant
+  closure", *JFE* 117(1): 77–97; that paper is **not** registered here, because it is not
+  load-bearing for any dossier and its correct identifier was not established in this pass.
+  **The residual, still-unclosed part of G-09** is not a literature question about the fix: it is
+  the *settlement-side* half of IDEA-006's deadline cluster, which is now logged separately as
+  **G-11**.
+- **G-11 (new) — the settlement-side deadline cluster.** The G-09 closure established that the
+  **fix** half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074, S-081), but **no
+  located paper tests the *settlement-side* deadlines** — the CLS currency-close and pay-in
+  deadlines, and the post-US-close window that the T+1 transition created (S-048, S-049). The
+  distinction matters: the fix is a *price-setting* event whose participants must trade at a
+  published price, whereas the settlement deadlines are *funding* constraints that generate
+  price-insensitive currency demand in a window that is not a benchmark. The literature searched in
+  the G-09 pass is about the fix; it says nothing about the cluster. **This gap is blocking for
+  IDEA-006's residual**, and it is the first thing Cycle 3 should close for that candidate. It
+  also carries an additional, separate risk: the published fix literature is dense and partly
+  inaccessible (dealer and administrator tick data), so a "nobody has looked" conclusion about the
+  settlement side must be earned with the same rigour that was applied to the fix, not assumed.
+- **G-10 (new) — the carry-crash and global-liquidity literature.** **MOSTLY CLOSED; and the
+  closure went against IDEA-007.** The corpus has now been read and registered (S-055 … S-073).
+  The finding: the funding-state → carry-return relation is a *published baseline with a positive
+  result* — Filipe, Nissinen and Suominen (2023) already measure funding constraints by covered
+  interest parity deviations, define funding risk from them, and show that funding risk drives
+  carry returns and carry activity (S-055); the state variable's determinants are understood
+  (S-056, S-057, S-058, S-059, S-060); and the "funding currency" is already a named, defined
+  concept (S-061, S-062, S-063, S-064). IDEA-007 therefore had to be reclassified from "a
+  state-conditioned refinement of a documented channel" to "**a known baseline**, whose residual
+  claim is narrowed to the cross-sectional dependence structure", and the aggregate version was
+  logged as a rejection (R-006).
+  Two findings from the same pass are worth preserving as negative evidence:
+  (a) **there is no published cross-currency basis series.** The BIS statistics catalogue (locational
+  and consolidated banking statistics, global liquidity indicators, exchange rates, policy rates,
+  the triennial turnover survey, debt-securities and payments statistics, OTC derivatives
+  outstanding) contains none, and the published funding-constraint studies use paid vendor forwards
+  (S-055). A candidate that wants a *fast* funding state must construct it from market quotes.
+  (b) **Two papers that the register's earlier drafts and common citation practice imply do not
+  exist in the form stated**: "Avalos, Beets, Ehrmann and Leguia — the role of the funding currency
+  in foreign exchange" could not be found in any record (Crossref, OpenAlex, BIS author pages), and
+  "Bruno and Shin — Global liquidity and the FX market (Journal of Financial Economics)" has no
+  matching record — their verified works are S-068. A future agent should not chase either title.
+  The residual, still-unclosed part of G-10: whether the *cross-sectional* claim (which currencies
+  respond most to a given dollar funding expansion) is published anywhere, and whether the
+  "forward points predict forward points" residual identified in the same pass is occupied.
+  **Cycle-3 update:** the FX cross-section and currency-return literature located in Cycle 3
+  (Adrian–Etula–Shin 2009 S-052 time-series; Jiang–Krishnamurthy–Lustig convenience-yield /
+  Treasury-basis level; Bruno–Shin 2015 cross-border banking S-068; BIS "dollar dependence"
+  construct) supports the aggregate funding channel and a *level* dollar response, but no located
+  paper tests the cross-sectional dependence-structure claim — which currencies' exchange rates
+  move most when dollar funding expands, conditional on the interest differential — as a
+  tradeable object. The cross-sectional residual therefore remains open; IDEA-007's v1.1 claim
+  survives but is unproven.
+
+- **G-11 (new) — the settlement-side deadline cluster.** **PARTIALLY CLOSED.** The G-09 closure
+  established that the *fix* half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074,
+  S-081), and no located fix paper tests the settlement side. Cycle 3 located the closest
+  published work on settlement-side mechanics as price determinants: Lee, Ranaldo and Tsuruga
+  (2026), "Settlement Risk and Currency Markets", IMF WP/26/156 (S-082), which uses Hungary's
+  2015 adoption of CLS payment-versus-payment settlement as a quasi-natural experiment and finds
+  that currency excess returns decline by about ten basis points after CLS adoption — i.e.
+  settlement risk is a *priced friction* in currency markets. Together with the already-registered
+  Ranaldo and Santucci de Magistris (2022), "Liquidity in the global currency market" (S-071,
+  JFE 146(3):859–883), which builds CLS-based settlement metrics and links them to currency risk
+  premia, this shows settlement-side mechanics matter for pricing. **However, neither paper tests
+  the specific settlement-side *deadline cluster*** — the CLS currency-close and pay-in cut-offs
+  and the post-US-close window created by the May 2024 T+1 transition (S-048, S-049) — as a
+  price determinant. So the specific claim IDEA-006's residual rests on remains untested, and
+  IDEA-006 v1.1 survives but is unproven. The asymmetry noted in Cycle 2 stands: a "nobody has
+  tested this" claim about the settlement side must be earned with the same rigour applied to the
+  fix literature, not assumed.
+
+---

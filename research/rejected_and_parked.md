@@ -5,8 +5,8 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 2, 2026-10-19. 5 rejections (R-001 … R-005), 7 parkings (P-001 … P-007),
-15-row known-baseline table.
+Last updated: Cycle 5, 2026-10-19. 6 rejections (R-001 … R-008), 7 parkings (P-001 … P-007),
+17-row known-baseline table.
 
 ---
 
@@ -131,6 +131,57 @@ Last updated: Cycle 2, 2026-10-19. 5 rejections (R-001 … R-005), 7 parkings (P
 - **Kill condition met:** yes — the aggregate claim is published with a positive result, so
   presenting it as a candidate would be presenting a known baseline as a discovery.
 
+### R-008 — "The cross-section of who feels the dollar funding constraint" (IDEA-007 v1.1 → v1.2)
+- **Proposed:** the cross-sectional version of the funding-state channel — that the currencies whose
+  own borrowers depend most on dollar funding respond most to a given dollar funding expansion,
+  conditional on the interest differential — measured *ex ante* from the published BIS locational
+  banking statistics (S-054) on their quarterly publication calendar, and identified by a
+  publication-timing test (the effect must appear from the publication date and not before it).
+- **Rejection reason:** it is **published, with a positive result**, and the publication is
+  *precisely* the residual the dossier claimed. Wang (2026), "Deviations from Covered Interest
+  Parity, Dollar Funding Pressure, and Currency Risk Premia" (S-064), states the hypothesis in the
+  register's own words — "Currencies with higher dollar funding pressure (higher unconditional level
+  of basis) earn higher expected excess returns" — and reports that a global high-minus-low basis
+  factor earns a 4–4.5% annual risk premium, explains a large share of the cross-sectional
+  variation in currency excess returns, and subsumes carry and several other factors (G10
+  currencies, January 1999 – January 2025). The mechanism's own literature closed in the same
+  direction during the same cycle: Moskowitz, Ross, Ross and Vasudevan are now peer-reviewed as
+  "Risk, Specialization, and Covered-Interest Parity" (*Journal of Finance*, S-095) and document the
+  cross-section of CIP bases and its pass-through to prices; Cenedese, Della Corte and Wang (2021,
+  S-096) show that a binding regulatory balance-sheet constraint prices currency funding at the
+  dealer level (about 20 basis points per annum for affected dealers); and Adrian, Etula and Muir
+  (2014, S-097) establish the general intermediary-state → cross-section-of-returns mechanism that
+  the candidate's family sits inside.
+- **What was learned (and it is the transferable lesson of this cycle).** The only surviving
+  difference between the candidate and the published result was **the choice of state variable**:
+  the published work conditions on the *market-quote* cross-currency basis, the candidate would
+  condition on the *published* BIS banking statistics. Two consequences, both general:
+  1. A **published state on a known calendar is a feasibility property, not a source of novelty.**
+     It makes an effect implementable without look-ahead or vendor data; it does not make the
+     effect a discovery. The register's rediscovery guard already required a state-only difference
+     to change the *sign or existence* of the effect; this case shows why, and the requirement is
+     now generalised and logged as **G-12**.
+  2. A **published, slow, point-in-time proxy for a market-quote state is not a better candidate
+     than the market-quote state** — it is a re-specification around a weaker proxy, which the
+     register's own state-proxy note forbids. This is the second time this register has produced a
+     candidate whose only claim was a proxy swap; the rule now bites hard.
+- **Caveats recorded for honesty.** S-064 is a **preprint / job-market paper, not peer reviewed**;
+  its results are the author's own and are not reproduced here. The rejection rests on the
+  *existence and positive sign* of the published result, not on its peer-review status — a
+  positive working-paper result is enough to stop a candidate being presented as a discovery, and
+  the peer-reviewed neighbours (S-095, S-096, S-097) independently establish the mechanism.
+- **Could it be re-opened?** Only with a **new mechanism** — a new venue, participant or
+  constraint — and only with a demonstration that it adds to S-055, S-064, S-095, S-096 and S-097.
+  A new state variable on the same channel is explicitly not sufficient (G-12). One *unrelated*
+  lead from the same closure pass is carried forward and is **not** a re-opening: "does the level of
+  forward points predict the future level of forward points, on a state constructed from public
+  data?" — a different mechanism, which would need its own dossier and its own originality check.
+- **Kill condition met:** yes — the cross-sectional claim is published with a positive result, so
+  presenting it as a candidate would be presenting a known baseline as a discovery.
+- **Consequence for the register:** the register now holds **no FX candidate**. The shortlist had
+  pre-registered this consequence explicitly. The funding-state *family* survives as a published
+  baseline and moves into the known-baseline table.
+
 ---
 
 ## Parked (not rejected; blocked on a specific question)
@@ -235,7 +286,13 @@ to baselines.
 | Hedging pressure and the inventory state in commodity futures | Established (S-039, S-038); these are the rival explanations for any futures-spread move and the state against which a convenience-yield bound must be measured. |
 | Retail / same-day-expiry options flow and market-maker gamma | Established as a market-structure fact and as a narrative (S-043, exchange-published); the size of the index-level channel is estimated by the exchange to be de minimis, and the single-name question is open (G-05). P-006 records the parked candidate. |
 | FX end-of-day fixing and closing-clock effects | **Literature read in the G-09 closure pass** (S-074 … S-081). The *fix* is a published, documented effect: the temporary, end-of-month-concentrated price impact of passive hedging demand at the 16:00 London fix (S-075), negative serial correlation around the fix (S-076), negative pre/post-fixing autocorrelation (S-077), elevated volatility and movement size around 4pm (S-074), and the W-shaped dollar pattern around global fixings (S-081). The benchmark's post-2015-revision quality is separately documented (S-080). **The fix is a baseline, not a candidate**: the aggregate version of IDEA-006 was rejected as R-007. The only residual not covered by the located literature is the *settlement-side* half of the deadline cluster — the CLS currency-close and pay-in deadlines and the post-US-close window created by T+1 (S-048, S-049) — which is unsearched (**G-11**) and must be described as an expectation until it is checked. Any candidate in this family must name the published fixing/session rules it depends on and must not present the fix's price impact as a discovery. |
-| Funding-currency / global-liquidity channel and FX carry crashes | **Literature read in Cycle 2** (S-052 … S-073). The *aggregate* funding-constraint-state → carry-return relation is a published, peer-reviewed, positive baseline (S-055); the dollar-funding-liquidity → dollar-forecast relation is published in working-paper form (S-052) and peer-reviewed form (S-053); the crash mechanism, CIP deviations, hedging demand and the global-liquidity driver are documented in the central-bank and peer-reviewed literature (S-056 … S-060, S-069, S-072). **The aggregate versions are baselines, not candidates**: they were rejected as R-006. The only residual that is not published is the *cross-sectional* structure — which currencies respond most to a given dollar funding expansion — and the publication-timing test, which is retained as IDEA-007's narrow residual (v1.1) and must always be described that way. |
+| Funding-currency / global-liquidity channel and FX carry crashes | **Literature read in Cycle 2 and closed in Cycle 5** (S-052 … S-073, S-095 … S-097). The *aggregate* funding-constraint-state → carry-return relation is a published, peer-reviewed, positive baseline (S-055); the dollar-funding-liquidity → dollar-forecast relation is published in working-paper form (S-052) and peer-reviewed form (S-053); the crash mechanism, CIP deviations, hedging demand and the global-liquidity driver are documented in the central-bank and peer-reviewed literature (S-056 … S-060, S-069, S-072). **The aggregate versions were rejected as R-006, and the cross-sectional version was rejected as R-008 in Cycle 5.** The whole family — aggregate, cross-sectional, and the publication-timing variant — is now a baseline, not a candidate. |
+| Cross-currency basis as a priced cross-section of currency risk premia | **Published and positive** (S-064, a preprint; G10 currencies 1999–2025). "Currencies with higher dollar funding pressure (higher unconditional level of basis) earn higher expected excess returns"; a high-minus-low basis factor is reported to earn 4–4.5% annually and to subsume carry and other factors. Any FX candidate in this family must be a **new mechanism**, not a new state variable (R-008, G-12). |
+| Intermediary specialization, safe-asset scarcity and the cross-section of CIP bases | **Published, peer-reviewed** (S-095, *Journal of Finance* 2026; NBER WP 32707; FEDS 2024-061). Three forces are documented — foreign safe asset scarcity, market power and segmentation of banks by market, and concentration of demand — and their pass-through to prices is quantified (of the order of 7–18 basis points per standard deviation). The state is **confidential supervisory data**, so it is not reproducible from public sources; this is the strongest argument that the family needs a new mechanism rather than a new proxy. |
+| Dealer balance-sheet constraints as a priced currency-funding spread | **Published, peer-reviewed** (S-096): dealers affected by the U.K. leverage-ratio framework charge about 20 basis points per annum more for synthetic dollar funding. Dealer-level and counterparty-identified, so the state is proprietary. |
+| Intermediary leverage as a stochastic discount factor for the cross-section of returns | **Published, peer-reviewed** (S-097). The canonical intermediary-state asset-pricing baseline (R² of 77% on size, book-to-market, momentum and bond portfolios). Any funding-state candidate in any asset class must be measured against it. |
+| Trader type and the rate of spot–futures convergence in commodity futures | **Published, peer-reviewed** (S-098): "There is strong evidence that speculators (commodity index traders) increase (reduce) the rate of convergence between spot and futures markets." This is a *component* of IDEA-005's differentiator, not the differentiator itself. |
+| Commodity index-trader market share and roll-period returns | **Published, peer-reviewed, and largely null** (S-099): the CIT market share (CIT ÷ open interest) is tested directly as a contributor to commodity returns in roll periods, with risk adjustments, and the reported effect is not significant. This is the closest published test of IDEA-005's state variable and is recorded as **contradicting evidence** against it. |
 
 ---
 
