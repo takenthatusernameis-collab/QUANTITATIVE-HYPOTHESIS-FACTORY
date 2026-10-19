@@ -501,3 +501,97 @@ here; every score is a research priority, not a success probability.
   and fabricated-bibliography findings from the Cycle-2 closure passes are treated as standing
   warnings.
 - No candidate has been tested; no number in any dossier is a performance estimate.
+
+---
+
+## Cycle 4 — new mechanism families, 2026-10-19
+
+**Cycle objective.** Add three new dossiers in mechanism families not yet in the register
+(corporate-credit ETF flow vs dealer balance sheet as IDEA-010; accounting-standards adoption as a
+slow-information event clock as IDEA-011; settlement-side deadline cluster as a price determinant
+as IDEA-012), re-rank the register with the fixed rubric, write V-009 for the new top-three
+candidate, and update the state-proxy methodological note to cover the new candidates' data-access
+profile.
+
+### Three-pass task-framing loop (required before generation)
+
+**Pass 1 — draft.** Objective: (a) add three dossiers each naming a participant, a binding
+constraint, a dated flow, a decision-time-observable state, falsifiable predictions and verified
+sources; (b) re-rank all twelve candidates under the fixed rubric; (c) write V-009 for IDEA-011
+(which enters the top three at rank 3 tied at 72.0); (d) extend the state-proxy methodological
+note to cover IDEA-010's partial data-access problem (ETF flow public, AP-level balance-sheet data
+commercial) and IDEA-012's hard data-access block (intraday order-book data not public). Key
+uncertainty: whether each new family's state variable is genuinely published at decision time, or
+whether the binding constraint is commercial or proprietary data.
+
+**Pass 2 — framing.** Cycle 1 covered scheduled non-price-sensitive flows in listed US equities
+(IDEA-001…IDEA-004). Cycle 2 added commodity futures (IDEA-005), the FX fixing clock (IDEA-006)
+and the FX funding state (IDEA-007), and closed G-09 and G-10 as blocking originality gaps. Cycle
+3 added securities-lending equities (IDEA-008) and crypto perpetuals (IDEA-009), both with
+decision-time state variables published by an institution/venue, and wrote the state-proxy note.
+Cycle 4 extends into: corporate credit (ETF flow vs dealer balance sheet), slow information
+diffusion with an event clock (accounting standards adoption), and settlement-side deadlines as a
+structural dated flow — continuing IDEA-006's vein but as a separate candidate (IDEA-012).
+Known baselines to stay distinct from: all previously registered families plus the ETF arbitrage
+limits family (Pan & Zeng 2019; Eisfeldt et al. 2024) and the accounting-standards adoption
+literature (Armstrong et al. 2010; Beuselinck et al. 2009).
+
+**Pass 3 — scope.** Frontier chosen: Family 1 (corporate-credit index/ETF flow vs dealer balance
+sheet) as IDEA-010, Family 2 (slow information diffusion with an event clock — accounting
+standards adoption) as IDEA-011, and Family 3 (settlement-side deadline cluster as a price
+determinant) as IDEA-012. In scope: literature reading, verification, dossier writing, re-ranking,
+V-009, state-proxy note extension. Out of scope (absolute): backtests, data acquisition, code,
+metrics, workflow changes, tests, credentials, infrastructure, trading. No candidate is tested
+here; every score is a research priority, not a success probability.
+
+### What was actually done
+
+- **New dossiers:** IDEA-010 (CREDIT-ETF / corporate-bond ETF flow vs AP balance-sheet constraint),
+  IDEA-011 (ACCTCLOCK / accounting-standards adoption as a slow-information event clock) and
+  IDEA-012 (CLS-CLOSE / settlement-side deadline cluster as a price determinant). Each carries a
+  participant, a binding constraint, a dated flow, a decision-time-observable state, falsifiable
+  predictions, confounders, data requirements, theory/evidence status and verified sources.
+- **Re-ranking:** `ranked_shortlist.md` re-scored all twelve candidates; IDEA-011 enters at rank 3
+  (tie, 72.0), IDEA-010 at rank 6 (68.0), IDEA-012 at rank 12 (56.0); IDEA-003 moves to rank 5,
+  IDEA-008 to rank 7, IDEA-009 to rank 9, IDEA-006 to rank 11; IDEA-002 remains parked (P-004).
+- **Validation spec:** V-009 added to `validation_handoffs.md` for IDEA-011; executable as specified
+  (adoption calendars are regulator-published; all inputs public); binding constraint is the small
+  event sample and the concurrent-macro confound.
+- **Source ledger:** added S-090 (Bianchi/Bigio/Engel "Scrambling for Dollars" NBER w29457,
+  verified via NBER + CEPR), S-091 (CLS Group T+1 documentation), S-092 (Brogaard/Han/Won 0DTE
+  volatility SSRN), S-093 (Almeida/Freire/Hizmeri 0DTE asset pricing SSRN), S-094 (Vilkov 0DTE
+  trading rules SSRN). G-10 residual remains open (Bianchi/Bigio/Engel confirms the aggregate
+  channel, not the cross-section). G-11 remains open (CLS documentation confirms the deadline
+  window exists operationally but no located paper tests it as a price determinant). G-06 remains
+  narrowed but not closed exhaustively. T5–T8 remain open with recorded verdicts.
+- **State-proxy note:** extended to cover IDEA-010's partial data-access problem and IDEA-012's
+  hard data-access block; the venue-selection lesson is restated with the new candidates included.
+- **Rejected/parked:** no new rejections or parkings this cycle; IDEA-002 stays parked (P-004),
+  IDEA-006 v1.1 stays blocked on G-11, IDEA-007 v1.1 stays blocked on the G-10 residual.
+- **Handoff:** `next_agent_handoff.md` rewritten with new state.
+
+### Artifact history (Cycle 4)
+
+- `research/source_ledger.md` — S-090 … S-094 added; G-10 residual open, G-11 open, G-06 narrowed
+  but not closed exhaustively; T5–T8 verdicts recorded.
+- `research/idea_register.md` — IDEA-010, IDEA-011 and IDEA-012 dossiers added; register header
+  updated; state-proxy methodological note extended.
+- `research/ranked_shortlist.md` — all twelve candidates re-scored with per-score justifications and
+  hard-stop flags; cross-cutting notes extended; per-candidate Cycle-4 sections added.
+- `research/validation_handoffs.md` — V-009 added for IDEA-011; header paragraph updated.
+- `research/next_agent_handoff.md` — rewritten.
+- `research/cycle_notes.md` — this entry.
+
+### Deviations and honest limits
+
+- Bianchi, Bigio and Engel's "Scrambling for Dollars" (S-090) confirms the aggregate dollar-funding
+  → currency response channel but not the cross-sectional claim that would make IDEA-007's
+  cross-sectional residual publishable; the cross-section remains unverified.
+- IDEA-012 is blocked on G-11: the settlement-side deadline cluster / T+1 post-US-close window is
+  untested as a price determinant; if a published paper tests it, IDEA-006 and IDEA-012 are both
+  rejected rather than narrowed.
+- IDEA-010's binding data constraint is commercial AP-level balance-sheet data; if that cannot be
+  validated against public disclosures, the candidate is untestable as specified.
+- Every identifier was re-derived from Crossref/arXiv/publisher before use; phantom-citation and
+  fabricated-bibliography findings from earlier cycles are standing warnings.
+- No candidate has been tested; no number in any dossier is a performance estimate.

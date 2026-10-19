@@ -1907,8 +1907,11 @@ costs and after controlling for momentum?
 
 - **ID / short name:** IDEA-010 / CREDIT-ETF
 - **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
+
+**Plain-language description.** Corporate-bond ETFs create and redeem shares through authorised participants — typically big bond dealers. When investors redeem ETF shares, the AP has to take the underlying bonds onto its own balance sheet temporarily. If the AP's balance sheet is already tight (dealers are constrained), the AP will demand a bigger discount to absorb those bonds, so the ETF trades at a wider discount to NAV and the underlying bonds cheapen. A participant who supplies the liquidity the AP cannot — buying the cheapened bonds or the discounted ETF — earns the concession when the AP's balance-sheet stress eases and the discount narrows.
 
 **Mechanism.** APs use creations/redemptions to manage balance sheets; when balance-sheet space is scarce and bonds are costly to intermediate, APs become liquidity seekers in the ETF, widening the ETF–NAV gap and cheapening the underlying bonds (Pan & Zeng 2019). Dealer balance-sheet costs and interdealer capacity are published/measurable proxies (Eisfeldt, Herskovic & Liu 2024). The decision-time state is observable: ETF creation/redemption baskets and AP-level balance-sheet proxies are reported with known lags; the flow itself (ETF shares outstanding change) is published daily.
 
@@ -1926,7 +1929,15 @@ costs and after controlling for momentum?
 
 **Data requirements.** ETF prices/NAV, creation/redemption baskets, TRACE bond data, dealer position proxies, AP balance-sheet data. Feasibility: medium (TRACE is public; AP-level data is commercial).
 
-**Theory/evidence status.** Conceptual rationale supported (Pan & Zeng 2019; Eisfeldt et al. 2024). Joint relation unresolved conjecture. Priority score 66/100; rank TBD.
+**Theory/evidence status.** Conceptual rationale supported (Pan & Zeng 2019; Eisfeldt et al. 2024). Joint relation unresolved conjecture. Priority score 68/100; rank TBD.
+
+**Constraints.** Cost/liquidity: corporate bond ETFs and their underlying bonds are less liquid than equities; the spread is crossed twice (ETF and bond); the discount itself is the edge, so transaction costs are first-order. Capacity: bounded by the size of the ETF's creation/redemption flow and by the liquidity of the underlying bonds; high-yield ETFs have the widest discounts but the thinnest underlying markets. Financing/margin: bond positions require margin; a leveraged basis trade consumes balance sheet exactly when dealer capacity is tight — the same constraint that generates the signal. Venue/operational: TRACE is public but with a lag; creation/redemption baskets are published daily by the ETF sponsor; AP-level balance-sheet data is commercial or inferred from dealer disclosures. Shorting constraints: not a borrow-constrained trade, but shorting corporate bonds is costly and recall-risk exposed.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate predicts an edge only when dealer balance-sheet capacity is constrained; in normal times the ETF–NAV basis is narrow and the edge is absent. Tail: a credit stress event widens spreads permanently (fundamental re-pricing, not temporary discount), and the position is long illiquid bonds into a falling market. Crash behaviour: in a dealer balance-sheet crisis (e.g. March 2020), the basis can blow out and not mean-revert within the holding window; the AP may stop making markets entirely. Hidden beta: the position is long corporate credit and short ETF shares — it loads on credit spread duration and on the dollar (for USD-denominated bonds), and can carry event risk from issuer-specific news. Correlated risks: all bond ETFs in the same credit tier share the same dealer-capacity state, so the book is a single credit-cycle bet.
+
+**Remaining uncertainty / confidence.** Confidence that AP balance-sheet constraints widen ETF–NAV discounts: **moderate** (Pan & Zeng 2019 documents the mechanism; dealer capacity is documented by Eisfeldt et al. 2024). Confidence that a tradeable two-legged rule can be built on published AP-stress proxies: **low-to-moderate** — AP-level data is commercial, the discount mean-reversion is unproven at the daily frequency, and the cost floor in thin bond markets is binding. Priority score **68/100**; rank TBD. **Concrete next question:** does the ETF–NAV discount in corporate-bond ETFs widen predictably when published AP-stress proxies are high and ETF flows are negative, and does it mean-revert within 1–10 sessions after costs?
+
+---
 
 ---
 
@@ -1934,8 +1945,11 @@ costs and after controlling for momentum?
 
 - **ID / short name:** IDEA-011 / ACCTCLOCK
 - **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
 
 **One-sentence hypothesis.** Mandatory adoption of a new accounting standard is a dated, regulator-announced information shock whose market reaction diffuses slowly because investors and analysts must re-learn the new numbers; the drift between the adoption announcement and the first full reporting cycle under the new standard is predictable in direction for firms whose pre-adoption information quality was low, and partly reverses once comparability is priced.
+
+**Plain-language description.** When a regulator requires all companies in a market to switch to a new accounting standard (for example, IFRS in the EU in 2005), the announcement date is known years in advance. But the actual numbers under the new standard only appear in companies' first full financial reports after adoption. Until then, investors and analysts must re-learn what the numbers mean, and that learning happens slowly. Firms whose pre-adoption information quality was low — opaque earnings, few analysts, low foreign ownership — should see a bigger drift as the new standards are progressively understood, and part of that drift should reverse once the new numbers are fully digested and comparability is restored. A participant who positions before the first full reporting cycle under the new standard, sized by pre-adoption information quality, captures the slow-diffusion drift.
 
 **Mechanism.** Mandatory IFRS adoption increased earnings information content and reduced stock-return synchronicity in the adoption year, with effects concentrated in firms with lower pre-adoption information quality and in strong-enforcement countries (Armstrong, Barth, Jagolinzer & Riedl 2010; Beuselinck et al. 2009; Lambertides & Mazouz 2013). The adoption dates are published by regulators (IASB/SEC/FASB) years in advance, so the clock is public and ex-ante knowable. The state (pre-adoption information quality, enforcement regime, analyst following) is observable from published filings.
 
@@ -1955,14 +1969,25 @@ costs and after controlling for momentum?
 
 **Theory/evidence status.** Conceptual rationale supported (Armstrong et al. 2010; Beuselinck et al. 2009). Two-legged specification unresolved conjecture. Priority score 64/100; rank TBD.
 
+**Constraints.** Cost/liquidity: the affected firms may be small-cap or less liquid; the spread is crossed twice (entry and exit); the holding horizon is quarters, so financing and borrow costs accumulate. Capacity: bounded by the number of adoption events and by the liquidity of the affected firms; a single jurisdiction's adoption creates only one cross-section of firms. Financing/margin: a long/short book across firms is capital-intensive; borrow on the short leg can be scarce in small-cap names. Venue/operational: adoption dates are published by regulators but may change; the first full reporting cycle under the new standard may not align with the effective date (filing lags). Shorting constraints: short legs in small-cap, low-information-quality firms are the most expensive to borrow.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate predicts an edge only around mandated adoption events; outside adoption windows there is no signal. Tail: the fundamental anchor can break if the adoption itself is delayed, watered down, or accompanied by other reforms — the trade becomes a directional loss unrelated to information diffusion. Crash behaviour: a market-wide crash during the adoption window confounds the diffusion drift with broad re-pricing; the exclusion rule (no concurrent macro shocks) must be applied before any result is read. Hidden beta: the long/short book loads on size, value, and momentum factors; low-information-quality firms tend to be smaller and less liquid. Correlated risks: all firms in one adoption jurisdiction share the same event date; a single jurisdiction-level shock dominates many firm-level results.
+
+**Remaining uncertainty / confidence.** Confidence that accounting-standards adoption changes information quality and is dated in advance: **high** (Armstrong et al. 2010; Beuselinck et al. 2009). Confidence that a tradeable two-legged rule can be built on pre-announced adoption calendars: **moderate** — the state is public, the dates are known, but the drift is slow and the sample of adoption events is small (a handful of jurisdictions). Priority score **64/100**; rank TBD. **Concrete next question:** do firms with low pre-adoption information quality show a predictable drift from the adoption announcement to the first full reporting cycle under the new standard, with partial reversal afterward, after costs?
+
+---
+
 ---
 
 ## IDEA-012 — CLS-CLOSE: the settlement-side deadline cluster as a price determinant (continuation of IDEA-006)
 
 - **ID / short name:** IDEA-012 / CLS-CLOSE
 - **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register; a dedicated vehicle for the settlement-side residual of IDEA-006, blocked on G-11.
 
 **One-sentence hypothesis.** Beyond the published 16:00 London fix effect, the CLS currency-close and pay-in deadlines (and the post-US-close window created by T+1) create a separate, dated, settlement-constrained demand/supply pressure in specific currency pairs on no-macro-release days; the state (deadline proximity and fix-window volume share) is published by the benchmark administrator and the settlement utility.
+
+**Plain-language description.** Once a day, the world's currencies have to be settled. CLS members must have the right currency in the right place by hard cut-offs — the currency close at midday CET, the initial pay-in schedule issued at 00:00 CET, the settlement completion target at 09:00 CET. Since the US moved to T+1 in May 2024, when the US equity market closes at 16:00 EST (22:00 CET), there are only about two hours to arrange the currency for US securities settlement. That is a predictable, dated, price-insensitive demand for currency in a window that is not a benchmark — funds must fund their settlement obligations whether they want to or not. Whoever supplies liquidity into that settlement-constrained flow earns a temporary price concession that reverses once the deadline passes.
 
 **Mechanism.** The 16:00 London fix effect is published (Melvin & Prins 2015; Evans 2018; Ito & Yamada 2015). The settlement-side mechanics are documented (CLS pay-in schedule, currency-close deadlines, Banque de France / ECB documentation) and are a priced friction (Ranaldo & Santucci de Magistris 2022; Lee, Ranaldo & Tsuruga 2026 IMF WP), but the specific CLS deadline cluster / post-US-close T+1 window is untested (G-11). The state is published: the CLS settlement timeline, the benchmark administrator's calendar and holiday notices, and the fix-window volume share.
 
@@ -1981,6 +2006,14 @@ costs and after controlling for momentum?
 **Data requirements.** Intraday order-book or print data for the pairs; published benchmark calendar; CLS timeline; macro-release calendar. Feasibility: medium-low (intraday data is the binding constraint; the published fix literature used administrator-provided data).
 
 **Theory/evidence status.** Conceptual rationale: settlement-side mechanics are a priced friction (S-082, S-071). Specific deadline-cluster price effect: unresolved conjecture (G-11). Priority score 60/100; rank TBD.
+
+**Constraints.** Cost/liquidity: the concession is measured in pips inside a few minutes, so spread and slippage are first-order; this is the binding constraint. Capacity: bounded by the fix-window depth of the pair and by the size of the deadline-constrained flow. Market impact: trading into a concentrated deadline window is an impact machine. Venue/operational: the fix is a benchmark calculation, not an execution venue — the trade must be executed around it, not at it; execution infrastructure around the fix is expensive. Financing/margin: negligible for spot, relevant for leveraged forward positions. Shorting constraints: not a borrow-constrained trade.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: entirely deadline-dependent — on an ordinary day the deadline flow is small; at month-end or on a T+1 settlement peak it is not. Tail: a market disruption (a failed settlement, a benchmark suspension, a forced closure) is exactly when the deadline binds hardest and when liquidity is worst, so the position is most likely to be held exactly when it cannot be exited. Crash behaviour: a benchmark suspension removes the trade entirely; a settlement stress can force the deadline to bind on multiple currencies simultaneously. Hidden beta: the position is a short/long in the funding currency around a deadline, so it loads on the funding-coinage and the basis trade, and can carry an event risk that is not visible in the return. Correlated risks: all pairs sharing the same funding currency respond to the same deadline, so the book is a single funding-currency bet.
+
+**Remaining uncertainty / confidence.** Confidence that the deadlines, the participant set and the flow concentration are real and published: **high** (CLS documentation S-048, S-049; LSEG methodology S-045). Confidence that the settlement-side deadline cluster has a separable price effect: **low** — G-11 is open, so this is an expectation rather than a finding. Confidence that any of it is harvestable after costs: **low** (the pip-level concession inside minutes is the decisive weakness). Priority score **60/100**; rank TBD. **Concrete next question:** does any published work test the settlement-side deadlines — the CLS currency-close and pay-in cut-offs, and the post-US-close window created by the May 2024 T+1 transition — as a price determinant rather than as an operational schedule, and if not, does the settlement window show a directional imbalance that survives removal of the published fix effect?
+
+---
 
 ---
 

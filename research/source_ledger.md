@@ -1680,3 +1680,99 @@ DOI: https://doi.org/10.1016/j.bcra.2025.100354
 - **Verification:** DOI record 10.1016/j.bcra.2025.100354 fetched directly (title, container
   "Blockchain Research and Applications", publication date 2026-08, DOI). Author list and full
   metadata not independently confirmed — treat as pending re-verification.
+
+---
+
+## Cycle 4 additions (S-090 … S-094)
+
+Added 2026-10-19 in the Cycle-4 gap-closure research pass. Verification standard as prior
+cycles: each entry located and metadata-checked against Crossref / the publisher's own record
+before use; "Verification" records how the entry was confirmed, not whether the cited paper's
+results are correct.
+
+### S-090 — Bianchi, J., Bigio, S. and Engel, C. (2021, rev. 2023)
+"Scrambling for Dollars: International Liquidity, Banks and Exchange Rates." NBER Working Paper
+No. 29457 (November 2021; revised February 2023); CEPR Discussion Paper 16712; Revise and
+Resubmit, Review of Economic Studies.
+URL: https://www.nber.org/papers/w29457 ·
+https://cepr.org/publications/dp16712
+- **Type:** Primary theory + prior empirical result (author-reported), working paper.
+- **Supports:** the aggregate dollar-funding-liquidity channel — "an increase in the dollar funding
+  risk leads to a rise in the convenience yield and an appreciation of the dollar"; "we present
+  empirical evidence on the relationship between exchange rate fluctuations for the G10 currencies
+  and the quantity of dollar liquidity"; the model predicts dollar appreciation when banks
+  "scramble for dollars" due to settlement frictions in interbank markets. Relevant to G-10:
+  this is the *aggregate/time-series* dollar response, not the *cross-sectional* claim about which
+  currencies respond most conditional on the interest differential. The cross-sectional residual
+  therefore remains open (G-10).
+- **Caveats:** working paper; empirical evidence on G10 currencies and dollar liquidity quantity;
+  the cross-sectional structure (heterogeneous currency responses conditional on funding
+  dependence) is not tested. The paper is "Revise and Resubmit, Review of Economic Studies" per
+  the author's website.
+- **Verification:** NBER working-paper page fetched and read (title, authors, report number, date,
+  abstract); CEPR discussion paper page fetched and read (title, authors, DP number, date);
+  author's personal page (javierbianchi.com) confirms R&R status at Review of Economic Studies.
+
+### S-091 — CLS Group (settlement utility documentation)
+"Shaping FX // 06: The FX ecosystem // Part 2 — What difference has a day made so far?" (30
+October 2024) and "CLS declines to delay FX cut-off as US stock changes loom" (Reuters, 9 April
+2024); "The Ripple Effect of US Settlement Cycle T+1" (CLS Group, 6 November 2024).
+URLs: https://www.cls-group.com/media/ngyfp2um/shapingfx06_part2_tplus1-the-fx-ecosystem-and-cls-what-difference-has-a-day-made-so-far.pdf ·
+https://www.reuters.com/markets/us/cls-declines-delaying-fx-cutoff-us-stock-changes-loom-2024-04-09 ·
+https://www.cls-group.com/news/the-ripple-effect-of-us-tplus1-settlement/
+- **Type:** Venue documentation (settlement utility's own publication + press coverage).
+- **Supports:** the T+1 post-US-close settlement window that IDEA-006/IDEA-012's residual rests on —
+  CLS kept the 00:00 CET initial pay-in schedule unchanged despite the T+1 transition; about 1% of
+  CLS settlement ADV linked to non-US funds trading US securities; FX instruction submissions
+  between 19:00–24:00 CET increased 42% in July–August 2024 vs October 2023–March 2024; the US
+  equity close at 16:00 EST leaves a narrow window for associated currency trading. Relevant to
+  G-11: confirms the deadline exists and the window is compressed, but does *not* test it as a
+  price determinant.
+- **Caveats:** interested-party communication; reports operational consequences, not price impact.
+- **Verification:** CLS PDF fetched and read (deadline schedule, T+1 impact analysis, submission
+  deadline unchanged); Reuters article fetched and read (CLS declining to extend cut-off);
+  CLS news article fetched and read (post-transition analysis).
+
+### S-092 — Brogaard, J., Han, J. and Won, P. Y. (2023)
+"Does 0DTE Options Trading Increase Volatility?" SSRN working paper 4426358 (April 2023).
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4426358
+- **Type:** Prior empirical result (author-reported), SSRN preprint.
+- **Supports:** 0DTE index options volume grew from 0.08 million contracts (Jan 2011) to 34.4
+  million (Aug 2023), ~48% of index option trading; even controlling for market-maker gamma
+  hedging, 0DTE trading increases volatility, driven primarily by speculative retail investors.
+  Relevant to G-05/T7: documents single-name/index 0DTE growth but does not test the
+  insurance-demand channel of S-014 or its post-2010 structural change at the single-name level.
+- **Caveats:** SSRN preprint, not peer-reviewed; results are author-reported and not reproduced
+  here; index-options focus, not single-name.
+- **Verification:** SSRN record fetched directly (title, authors, abstract, posted date, SSRN ID).
+
+### S-093 — Almeida, C., Freire, G. and Hizmeri, R. (2024)
+"0DTE Asset Pricing." SSRN working paper 4701401 (January 2024; revised June 2025).
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4701401
+- **Type:** Prior empirical result (author-reported), SSRN preprint.
+- **Supports:** 0DTEs now comprise half of S&P 500 option volume; investors require more
+  compensation for positive than negative market returns; the variance risk premium is mainly
+  driven by upside-risk compensation and negatively predicts market returns; most 0DTEs violate
+  risk-averse price bounds; a trading strategy exploiting these was profitable up to 2022 but
+  dissipated after daily 0DTE availability. Relevant to G-05/T7: documents post-2010 0DTE
+  structural change at the index level but not the single-name insurance-demand channel.
+- **Caveats:** SSRN preprint, not peer-reviewed; results are author-reported and not reproduced
+  here; index-options focus.
+- **Verification:** SSRN record fetched directly (title, authors, abstract, posted date, SSRN ID,
+  revision history).
+
+### S-094 — Vilkov, G. (2023)
+"0DTE Trading Rules." SSRN working paper 4641356 (December 2023).
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4641356
+- **Type:** Prior empirical result (author-reported), SSRN preprint.
+- **Supports:** S&P 500 0DTE options and multi-leg structures from 09/2016 to February 2026;
+  positive 0DTE variance risk premium exists but at same-day horizons its economic magnitude is
+  small and difficult to monetize after realistic frictions; net P&L distributions are wide,
+  state-dependent, and dominated by tail risk. Relevant to G-05/T7: documents the cost floor
+  problem for 0DTE strategies but at the index level, not single-name.
+- **Caveats:** SSRN preprint, not peer-reviewed; results are author-reported and not reproduced
+  here; index-options focus.
+- **Verification:** SSRN record fetched directly (title, author, abstract, posted date, SSRN ID).
+
+---
+## Source gaps (explicitly unresolved)

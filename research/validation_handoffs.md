@@ -13,22 +13,23 @@ Cycle 2 adds **V-004 (IDEA-005)**, which reached the top three, plus two **optio
 specifications for candidates that did not: V-005 (IDEA-007) and V-006 (IDEA-006).
 
 Cycle 3 adds **V-007 (IDEA-008)** and **V-008 (IDEA-009)**, both new candidates that entered the
-top three (ranks 5 and 7). Both are specified because pre-specifying them is cheap now and
-expensive later, and because a validation agent can execute them without re-reading the dossiers.
-**V-007 is executable as specified** (short interest and lending fees are public; the recall event
-must be inferred). **V-008 is executable as specified** (funding rates are published by the venue
-with zero lag); the binding constraint is venue risk, not data access. They are
-provided because pre-specifying them is cheap now and expensive later, and because a validation
-agent can execute them without re-reading the dossiers. Executing V-005 or V-006 is only
-appropriate after the blocking originality checks noted in each specification are closed. **G-10
-is now MOSTLY CLOSED** (funding-currency corpus read, S-052 … S-073), which releases V-005 only
-in a narrowed form: the aggregate funding-state → carry relation is a published baseline (S-055,
-rejected as R-006), so V-005 tests the **cross-sectional and publication-timing residual only**.
-**G-09 is also now MOSTLY CLOSED** (intraday fixing literature read, S-074 … S-081), which narrows
-V-006 in the same way: the fix-window price effect is published (S-075, S-076, S-077, S-074,
-S-081, rejected as R-007), so V-006 tests the **settlement-side residual only**, and it stays
-blocked on the new **G-11** (the settlement-side literature has not been searched) as well as on
-data access.
+top three (ranks 5 and 7). Cycle 4 adds **V-009 (IDEA-011 ACCTCLOCK)**, a new top-three candidate
+(rank 3, tie at 72.0). All validation specifications are provided because pre-specifying them is
+cheap now and expensive later, and because a validation agent can execute them without re-reading
+the dossiers. **V-007 is executable as specified** (short interest and lending fees are public; the
+recall event must be inferred). **V-008 is executable as specified** (funding rates are published
+by the venue with zero lag); the binding constraint is venue risk, not data access. **V-009 is
+executable as specified** (adoption calendars are regulator-published years in advance; all inputs
+are public); the binding constraint is the small sample of adoption events and the concurrent
+macro confound. Executing V-005 or V-006 is only appropriate after the blocking originality checks
+noted in each specification are closed. **G-10 is now MOSTLY CLOSED** (funding-currency corpus
+read, S-052 … S-073), which releases V-005 only in a narrowed form: the aggregate funding-state →
+carry relation is a published baseline (S-055, rejected as R-006), so V-005 tests the **cross-sectional
+and publication-timing residual only**. **G-09 is also now MOSTLY CLOSED** (intraday fixing
+literature read, S-074 … S-081), which narrows V-006 in the same way: the fix-window price effect
+is published (S-075, S-076, S-077, S-074, S-081, rejected as R-007), so V-006 tests the
+**settlement-side residual only**, and it stays blocked on the new **G-11** (the settlement-side
+literature has not been searched) as well as on data access.
 
 ---
 
@@ -904,3 +905,121 @@ Kill if momentum explains the effect, or if the effect is exchange-specific, or 
 return is below cost. Justify follow-up research if the effect survives costs but is concentrated
 in BTC/ETH only — that points to a liquidity-constrained candidate rather than a general crypto
 edge.
+
+---
+
+## V-009 — ACCTCLOCK (IDEA-011) — *required by the Cycle-4 top-three rule*
+
+### Frozen hypothesis
+When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
+years in advance and the affected firms are knowable ex ante. The market incorporates the
+standards-driven improvement in information quality slowly — there is a drift in affected firms'
+returns from the adoption announcement to the first full post-adoption reporting period — and the
+drift partially reverses in the quarter after the first full report. The drift is larger for
+firms with low pre-adoption information quality and for countries with weaker enforcement regimes,
+and it is conditional on no concurrent macro shock dominating the event window.
+
+### Frozen conceptual rules
+- **Event universe:** adoption events of new accounting standards (IFRS or national GAAP changes)
+  with a public announcement date and a published effective date, covering affected firms in the
+  adopting jurisdiction. Exclude firms with scheduled fundamental news (earnings, M&A, regulatory
+  decisions) inside the event window.
+- **State variable:** pre-adoption information quality (e.g. analyst following, forecast dispersion,
+  accruals quality) measured from public filings as of the announcement date; country enforcement
+  regime (e.g. World Bank / regulatory quality indices) as of the announcement date. The adoption
+  calendar itself is public years in advance and is the dated clock.
+- **Position:** long affected firms with low pre-adoption information quality and/or weak-enforcement
+  countries, from the announcement date to the first full post-adoption reporting date; exit on a
+  pre-scheduled schedule (e.g. exit at the first full report, or hold 1–4 quarters). Sized as a
+  small fraction of the firm's typical daily volume.
+- **Exit:** pre-scheduled after the first full post-adoption report or after 1–4 quarters,
+  whichever comes first; exit rule fixed in advance of the trade.
+- **No look-ahead:** the adoption calendar and the affected-firm list are public before the decision;
+  information quality is measured from filings available at the decision timestamp.
+
+### Ambiguities the validator must resolve and record
+1. Which standards count as "adoption events" (IFRS issuances, national GAAP changes, both) —
+   pre-specified on the training window; results are not transferable across standard types without
+   restatement.
+2. The information-quality measure and its trailing window — pre-specified.
+3. The enforcement-regime index and its source — pre-specified.
+4. The exit rule: first full report vs. 1–4 quarters vs. hybrid — pre-specified.
+5. The treatment of concurrent macro shocks around the event window — these must be excluded or
+   analysed separately, and the rule must state which is done.
+6. Whether the affected-firm list is knowable ex ante (regulator publications vs. inferred from
+   filings) — this is the binding data constraint.
+
+### Target universe, time frame, sampling frequency
+- Universe: listed firms in adopting jurisdictions, restricted to liquid names (top quintile by
+  dollar volume) and to jurisdictions with verifiable adoption calendars and enforcement data.
+- Time frame: the full period for which adoption calendars, firm-level returns and accounting
+  quality data exist, with a mandatory pre- vs post-2010 split because disclosure regimes changed.
+- Sampling frequency: event-driven at each adoption announcement; the position is held from
+  announcement to the first full post-adoption report or up to 4 quarters.
+
+### Data fields required
+Regulator adoption calendar (announcement date, effective date, affected firms/jurisdictions);
+firm-level daily returns; accounting-quality proxies (analyst following, forecast dispersion,
+accruals quality); country enforcement indices; fundamental-news calendar (earnings, M&A); borrow
+series for any short leg; macro-release calendar; and a flag set for halts and corporate actions.
+
+### Timing, execution and survivorship
+- All state variables must be used with their true publication lag; accounting data is quarterly
+  and lagged, so the state is stale by design and this must be handled explicitly.
+- Universe construction must be point-in-time (no survivors, no backfilled enforcement data or
+  firm membership).
+- The adoption calendar must be treated as published at its true publication date; a decision rule
+  that uses a date announced after the decision is a look-ahead and must be reported as such.
+
+### Cost and execution assumptions the validator must justify independently
+Bid-ask spread crossed twice, commission, slippage, financing/carry drag over the holding horizon
+(which is quarters), borrow cost and availability for any short leg (which can be scarce in
+small-cap names), and market impact relative to the firm's typical depth. The validator must show
+the gross drift exceeds round-trip cost at the pre-specified size.
+
+### Pre-specified primary outcome and guardrails
+- Primary: the average abnormal (market- and industry-adjusted) return from announcement to the
+  first full post-adoption report, as a function of the information-quality state and the
+  enforcement-regime state; plus the average abnormal return in the post-report reversal window.
+- Guardrails: maximum drawdown; per-name, per-sector and per-country concentration; gross and net
+  exposure; turnover; the worst single event; and the loss in calendar windows containing market-wide
+  stress.
+- Tail guardrail: the loss distribution in windows containing a macro shock that dominates the
+  event window (the concurrent-shock confounder).
+
+### Baselines, separation and controls
+- Baselines: (a) non-adoption firms in the same jurisdiction and period (placebo); (b) affected
+  firms with high pre-adoption information quality (the state-conditioning control); (c) the
+  unconditional drift of affected firms; (d) affected firms in jurisdictions with strong enforcement
+  (the regime control); (e) a random date calendar matched by jurisdiction and sector.
+- Separation: training, selection and holdout event windows fixed in advance; all thresholds frozen
+  on the training window only; the holdout opened once.
+- Controls against peeking: an explicit count of every (state definition × exit rule ×
+  jurisdiction × sub-sample) combination examined; every rule change logged with a date and a
+  reason.
+
+### Stress cases, regime slices, ablations
+- Regime slices: crisis vs calm; high vs low market-wide volatility; pre- vs post-2010; strong vs
+  weak enforcement countries; quarters containing macro shocks.
+- Ablations: (a) drop the state conditioning and take unconditional long positions on affected
+  firms (if the state adds nothing, the candidate is dead); (b) use information quality alone
+  without the enforcement regime; (c) remove the macro-shock exclusion to quantify the confounder;
+  (d) replace the enforcement regime with trade invoicing share or another country characteristic,
+  to test whether enforcement is doing the work.
+
+### Pass / fail / uncertain
+- **Pass:** the drift is positive for low-information-quality / weak-enforcement firms, scales with
+  the state variables, partially reverses after the first full report, survives justified costs,
+  and is not explained by the concurrent-shock confounder or the high-information-quality baseline.
+- **Fail:** no drift, or no reversal, or the drift is fully explained by concurrent macro shocks,
+  or the high-information-quality firms perform identically, or the gross drift is below cost in
+  every selected firm.
+- **Uncertain:** the adoption-event sample is too small for clean inference, or the affected-firm
+  list cannot be constructed ex ante — report the descriptive event behaviour and state that the
+  candidate is untested rather than concluding.
+
+### Kill criteria and follow-up justification
+Kill if the concurrent-shock confounder explains the entire drift, or if the state conditioning
+adds nothing after costs. Justify follow-up research if the effect survives costs but is
+concentrated in a handful of events — that points to a capacity-and-selection problem and a more
+specialised candidate rather than a general edge.
