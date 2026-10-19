@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–2
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–5
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -21,15 +21,18 @@ recall event must be inferred). **V-008 is executable as specified** (funding ra
 by the venue with zero lag); the binding constraint is venue risk, not data access. **V-009 is
 executable as specified** (adoption calendars are regulator-published years in advance; all inputs
 are public); the binding constraint is the small sample of adoption events and the concurrent
-macro confound. Executing V-005 or V-006 is only appropriate after the blocking originality checks
-noted in each specification are closed. **G-10 is now MOSTLY CLOSED** (funding-currency corpus
-read, S-052 … S-073), which releases V-005 only in a narrowed form: the aggregate funding-state →
-carry relation is a published baseline (S-055, rejected as R-006), so V-005 tests the **cross-sectional
-and publication-timing residual only**. **G-09 is also now MOSTLY CLOSED** (intraday fixing
-literature read, S-074 … S-081), which narrows V-006 in the same way: the fix-window price effect
-is published (S-075, S-076, S-077, S-074, S-081, rejected as R-007), so V-006 tests the
-**settlement-side residual only**, and it stays blocked on the new **G-11** (the settlement-side
-literature has not been searched) as well as on data access.
+macro confound.
+
+**Cycle 5 update — two specifications withdrawn, none added.** The Cycle-5 G-10 closure rejected
+IDEA-007 (**R-008**) and the Cycle-5 G-11 closure rejected IDEA-006 (**R-009**) and IDEA-012
+(**R-010**); the optional specifications **V-005 and V-006 are therefore WITHDRAWN** and must not be
+executed. No new specification was required in Cycle 5 because **no new candidate entered the top
+three**: the top three remain IDEA-001 (76.0), IDEA-004 (74.0) and the tie at 72.0 between IDEA-005
+and IDEA-011, and all four already have specifications (V-001, V-002, V-004, V-009). IDEA-013 was
+added as a candidate in the first half of Cycle 5 and **parked (P-008)** in the second half, so it
+has no specification and should not be given one before its dated unblocking condition is met. The
+executable set is therefore **V-001, V-002, V-003, V-004, V-007, V-008, V-009**, with **V-005 and
+V-006 withdrawn**.
 
 ---
 
@@ -459,7 +462,16 @@ general edge.
 
 ---
 
-## V-005 — FUNDSTATE-FX (IDEA-007) — *optional specification; G-10 mostly closed — executable only as the residual test*
+## V-005 — FUNDSTATE-FX (IDEA-007) — **WITHDRAWN in Cycle 5 — do not execute**
+
+**Status: withdrawn.** The candidate was **rejected (R-008)** in Cycle 5: the cross-sectional
+funding-state → currency-return relation is a published, positive result (S-064 — "Currencies with
+higher dollar funding pressure (higher unconditional level of basis) earn higher expected excess
+returns"), and the mechanism's own literature has closed in the same direction (S-095, S-096, S-097).
+The specification below is retained **only** so that the reasoning is not re-derived and so that a
+future validator can see what was specified and why it was withdrawn. **No validator should execute
+it as a candidate test.** If it is run at all, it is a *reproduction check* of S-064, never a
+discovery, and its result must be reported as such.
 
 **Blocking condition (updated after the Cycle-2 source closure).** The literature gap that
 blocked this specification is now **mostly closed**: the funding-currency and global-liquidity
@@ -571,7 +583,17 @@ would point to a cross-sectional rather than a level effect and to a different c
 
 ---
 
-## V-006 — FIXCLOCK (IDEA-006) — *optional specification; G-09 mostly closed — executable only as the residual test*
+## V-006 — FIXCLOCK (IDEA-006) — **WITHDRAWN in Cycle 5 — do not execute**
+
+**Status: withdrawn.** The candidate was **rejected (R-009)** in Cycle 5, and its dedicated vehicle
+IDEA-012 was **rejected (R-010)**, when the G-11 closure pass established that a settlement deadline
+cluster is a published price determinant (S-112), that the securities settlement cycle is a published
+price-impact determinant (S-113, S-114, S-115), and that the post-US-close FX window is documented
+as a cost rather than an edge (S-117, S-118, S-119, S-120). Both candidates set the rule themselves —
+"if a published paper already shows a settlement-side or T+1-window price effect, the candidate is
+rejected, not narrowed" — and that condition is now met. The specification below is retained **only**
+so that the reasoning is not re-derived; **no validator should execute it**, and any execution must
+be reported as a reproduction of published work, never as a discovery.
 
 **Blocking conditions (updated after the G-09 closure).** (a) **G-09 is now MOSTLY CLOSED**: the
 intraday FX literature around the 4pm fix has been read and registered (S-074 … S-081), and the

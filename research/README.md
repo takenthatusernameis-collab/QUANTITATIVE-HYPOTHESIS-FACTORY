@@ -22,14 +22,16 @@ defined by the canonical mission prompt, which is **not** to be modified:
 
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
-3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-008`), sources are `S-0NN` (next free:
-   `S-082`), validation specs are `V-0NN` (next free: `V-007`), rejections are `R-0NN` (next
-   free: `R-008`), parkings are `P-0NN` (next free: `P-008`), source gaps are `G-NN` (next:
-   `G-12`), and cycles are `Cycle N` (next: `Cycle 3`).
+3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-014`), sources are `S-0NN` (next free:
+   `S-126`), validation specs are `V-0NN` (next free: `V-010`), rejections are `R-0NN` (next
+   free: `R-011`), parkings are `P-0NN` (next free: `P-009`), source gaps are `G-NN` (next:
+   `G-14`), and cycles are `Cycle N` (next: `Cycle 6`).
    Reuse an existing source ID rather than duplicating a citation; extend the "supports" note instead.
    **Re-derive every identifier yourself** (publisher, Crossref, arXiv, NBER or the institution's
    own site) before it enters the ledger: identifiers supplied by a search or research agent have
-   been found wrong, and one registered working paper carries a fabricated bibliography.
+   been found wrong, and one registered working paper carries a fabricated bibliography. Record
+   whether a document was **fetched directly** or read only through a **search index**, and never
+   present an index-rendered quotation as a directly parsed document.
 4. **Never invent a citation.** Every external claim in a dossier points to an `S-0NN` entry in the
    source ledger, and every ledger entry records how it was verified. If a claim cannot be sourced,
    mark it as an unresolved conjecture in the dossier.

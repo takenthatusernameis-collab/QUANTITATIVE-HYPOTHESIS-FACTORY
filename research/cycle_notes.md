@@ -595,3 +595,155 @@ here; every score is a research priority, not a success probability.
 - Every identifier was re-derived from Crossref/arXiv/publisher before use; phantom-citation and
   fabricated-bibliography findings from earlier cycles are standing warnings.
 - No candidate has been tested; no number in any dossier is a performance estimate.
+
+---
+
+## Cycle 5 — closure passes and the frontier after the settlement window closes, 2026-10-19
+
+**Cycle objective.** Cycle 5 was run in two halves, and the handoff now records both. *First half*:
+close the blocking originality gaps that the previous handoff identified (G-10 residual, G-11, G-06,
+T5–T8), add new dossiers in mechanism families not yet in the register, and re-rank. *Second half*
+(this session): close G-11 decisively, resolve the outstanding full-text check on IDEA-013's cited
+published work, re-rank the register against the fixed rubric, update every downstream artifact and
+rewrite the handoff.
+
+### Three-pass task-framing loop (required before generation)
+
+**Pass 1 — draft.** Objective: (a) close G-10, G-11 and G-06 with published work, recording each
+source with the method by which it was verified; (b) answer IDEA-013's outstanding first check by
+reading the full text of the published work it claims to differ from; (c) add candidates in
+mechanism families not yet in the register, with the decision-time state published by a venue,
+regulator, benchmark administrator or settlement utility; (d) re-rank everything under the fixed
+rubric; (e) write validation specifications for any new top-three candidate; (f) rewrite the
+handoff. Key uncertainty for the second half: whether G-11's literature, when actually searched,
+would *narrow* the two settlement-window candidates or *kill* them — and whether a published state
+is ever available **before** the decision it is meant to inform.
+
+**Pass 2 — framing.** Cycle 1 covered scheduled non-price-sensitive flows in listed US equities
+(IDEA-001 … IDEA-004); Cycle 2 added commodity futures and two FX candidates and closed G-09 and
+G-10 as blocking gaps; Cycle 3 added securities-lending equities and crypto perpetuals and wrote
+the state-proxy note; Cycle 4 added corporate-bond ETFs, accounting-standards adoption and FX
+settlement. At the start of Cycle 5 the register held twelve candidates and the frontier was
+narrowing: the remaining originality gaps were all in the *settlement and funding* family, and the
+second-half objective had to be decided by the outcome of one literature check rather than chosen
+freely. The framing that governed the second half was the register's own rule — "if a published
+paper already shows the effect, the candidate is rejected, not narrowed" — and the standing
+rediscovery guard's three conditions (G-12, G-13, and the closure rule).
+
+**Pass 3 — scope.** In scope: literature reading and verification, dossier maintenance, gap
+verdicts, re-ranking, validation-specification status, artifact consistency, and the handoff. Out of
+scope (absolute, and honoured): backtests, simulations, parameter sweeps, significance testing,
+performance or risk metrics, market-data acquisition or processing, strategy or signal
+implementation, executable research infrastructure, job or workflow launches, changes to workflow
+files or tests, credentials or infrastructure, work in other repositories, and any trading. The
+canonical mission prompt was not modified. No candidate was tested; every score is a research
+priority, not a success probability.
+
+### What was actually done
+
+- **First half (previous session, recorded for completeness):** G-10 closed against IDEA-007 (R-008);
+  G-06 closed as a bounded negative finding with contradicting evidence registered (S-098, S-099);
+  G-08 mostly closed and G-05 split; IDEA-013 (EU-ETSCOMP) added as a new candidate at 70.0;
+  S-095 … S-111 registered; G-12 opened as the general question of whether a published state can
+  change the sign or existence of a published effect.
+- **Second half — G-11 closed against IDEA-006 and IDEA-012.** The settlement-side literature was
+  searched and produced four findings: (i) a settlement deadline cluster is a **published price
+  determinant** (S-112: Kraenzlin and Nellen, SNB WP 2010/06 — after CLS "the value of intraday
+  liquidity has increased during the hours of the CLS settlement cycle", with an estimated "roughly
+  1.5bp for the CLS settlement cycle"); (ii) the securities settlement cycle is a **published
+  price-impact and market-quality determinant** (S-113, S-114, and S-115 as a preprint), with the
+  published sign that shortening the cycle *improves* liquidity; (iii) the FX settlement-risk
+  premium is already published (S-082, S-071); and (iv) the **post-US-close window is documented as
+  a cost, not an edge** — the New York Fed's own FX Committee material names "NY 4-6pm currency
+  liquidity" as the transition's priority FX risk and records an expected "uptick in price premium
+  and market impact for trades executed later in the NY trading day" (S-117, S-118), while the
+  market record is "less than 1% of trades in the $7 trillion OTC FX market" in that window, a
+  half-hour pricing-engine outage at 5pm ET and "bid/ask spreads widen and liquidity shrinks"
+  (S-119), and the market's own answer was custodian cut-off extensions and pre-funding (S-120).
+  Both candidates had set the rule that this outcome rejects rather than narrows. **IDEA-006 was
+  rejected (R-009) and IDEA-012 was rejected (R-010).**
+- **IDEA-013's outstanding first check was performed.** The full text of the published work
+  (arXiv 2606.03767v2) was fetched and read. Result: the paper does **not** condition the
+  surrender-month premium on the aggregate surplus, so the candidate is not a re-description of
+  published work; **but** the paper's model already makes the equilibrium price affine in the
+  aggregate bank of allowances, its own robustness construction works from operator-level,
+  bank-adjusted shortfalls, and its statement that the delayed-trading pattern "persists into the
+  most recent phase of the EU ETS" covers Phase IV (2021), a large-surplus year. In addition, the
+  Commission's own TNAC communications (S-121) establish that the aggregate balance is published in
+  **late May or June of the year following the emissions year**, so under the pre-2023 regime it was
+  published *after* the surrender deadline it was meant to inform. The decision-time form of the
+  candidate therefore has three observations and no deficit year. **IDEA-013 was parked (P-008),
+  with a dated unblocking condition; G-13 was opened and a fifth screening condition added to the
+  state-proxy note.**
+- **Frontier screening that produced no candidate.** Four further families were screened so that the
+  next cycle does not re-derive them, and all four were found to be published or documented:
+  exchange-published maintenance-margin schedules (S-122: "I do not find a significant effect of
+  margin changes on the futures price level", but a 50% rise in realized variance and funding-
+  liquidity spillovers); ETF primary-market arbitrage and AP inventory (S-123: the FCA's own study
+  of 128 ETFs, and its proprietary dataset — the same constraint that blocks IDEA-010); crypto
+  spot-ETF flow (S-124, S-125: "the ETF channels large, uninformed demand into the spot market,
+  making it busier but shallower"); and the benchmark-window-alteration angle (already published,
+  S-047, S-080). These are now baseline rows, so the next cycle starts from a wider reference set.
+- **Ranking and specifications:** the register was re-ranked under the fixed rubric. The active
+  ranking is now eight candidates (IDEA-001 76.0, IDEA-004 74.0, IDEA-005 72.0, IDEA-011 72.0,
+  IDEA-003 71.0, IDEA-010 68.0, IDEA-008 65.0, IDEA-009 63.0), with IDEA-002 and IDEA-013 parked
+  and three candidates withdrawn. **No new validation specification was required**, because no new
+  candidate entered the top three; **V-005 and V-006 were withdrawn** because their candidates were
+  rejected.
+- **Handoff:** `next_agent_handoff.md` rewritten with the new state, a dated next task and a fresh,
+  self-contained initial task message.
+
+### Artifact history (Cycle 5)
+
+- `research/source_ledger.md` — S-095 … S-111 (first half); **S-112 … S-125** (second half: the
+  settlement-deadline cluster, the T+1 window, the decision-time state, and the four screened-out
+  families); S-101's caveats rewritten with the full-text read; **G-11 rewritten as CLOSED against
+  IDEA-006 and IDEA-012**; **G-13 opened**; the Cycle-5 verdict block and the ledger header updated.
+- `research/idea_register.md` — IDEA-006 to v1.2 (**rejected**, R-009) with a closure paragraph;
+  IDEA-012 to v1.1 (**rejected**, R-010) with a closure paragraph; IDEA-013 to v1.1 (**parked**,
+  P-008) with the resolved first check, the contradicting evidence, the decision-time timing
+  finding, a revised score (70 → 58) and a dated unblocking question; register header rewritten;
+  state-proxy note extended with **condition (e)** on publication timing and with IDEA-013 in the
+  governed list.
+- `research/rejected_and_parked.md` — **R-009** (IDEA-006) and **R-010** (IDEA-012) added;
+  **P-008** (IDEA-013) added; seven baseline rows added (settlement deadlines, settlement cycle
+  length, the post-close window, the EU ETS surrender-month premium, margin schedules, ETF
+  primary-market arbitrage, crypto spot-ETF flow); rediscovery guard rewritten with the three
+  standing screening conditions; header counts corrected.
+- `research/ranked_shortlist.md` — header rewritten for Cycles 1–5; the table rebuilt with the
+  active ranking, the parked table and the withdrawn table; Cycle-5 rank changes recorded; section
+  headers re-labelled for the new ranks; a new section added for IDEA-013; cross-cutting notes
+  rewritten (nine notes, including the new "a published state is not automatically a decision-time
+  state" note).
+- `research/validation_handoffs.md` — header rewritten for Cycles 1–5; **V-005 and V-006 marked
+  withdrawn with reasons**; the executable set stated explicitly.
+- `research/next_agent_handoff.md` — rewritten.
+- `research/cycle_notes.md` — this entry.
+
+### Deviations and honest limits
+
+- **The register shrank rather than grew.** Cycle 5 ended with three rejections, one parking and one
+  new candidate, against the previous handoff's request for two to three new dossiers. The reason is
+  recorded rather than papered over: the second half of the cycle was spent on the two checks that
+  could invalidate candidates (G-11 and IDEA-013's full text), and the frontier families that could
+  have supported new dossiers were screened and found to be published (S-122 … S-125). A future cycle
+  should treat those families as closed and generate in families the register has not touched.
+- **G-11's scope is narrow in one direction.** No located paper measures an **FX-spot** price effect
+  specific to the post-US-close window with the published fix effect removed. That gap was not
+  converted into a candidate because the window is documented as structurally illiquid (S-119) and
+  the data required are commercial. It is recorded as a baseline boundary instead.
+- **Two of the new institutional sources are index-rendered rather than directly parsed.** The New
+  York Fed FX Committee minutes (S-118) and the Traders Magazine article (S-119) are binary PDFs
+  whose text was returned through the search index; the quotes are reproduced as returned, and both
+  are used only for market-structure documentation, never as the sole support for an economic claim.
+  The peer-reviewed claims that carry the verdict (S-112, S-113, S-114) were metadata-checked
+  directly against Crossref.
+- **The valuation of IDEA-013 rests on a reading of the published sample's coverage, not on its
+  year-by-year numbers.** The published paper states that the pattern persists into Phase IV; it does
+  not report the April premium's magnitude by year, so the candidate's existence-flipping hypothesis
+  is neither supported nor refuted by it. That ambiguity is recorded as such, and is one reason the
+  candidate is parked rather than rejected.
+- **No candidate has been tested; no number in any dossier is a performance estimate.** Every
+  identifier added this cycle was re-derived from Crossref, the publisher's own record, the issuing
+  institution or the primary document before use; the phantom-citation and fabricated-bibliography
+  findings from earlier cycles remain standing warnings.

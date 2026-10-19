@@ -4,31 +4,41 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: Cycle 5 (the Cycle-5 gap-closure and originality pass), 2026-10-19. The register was
-empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities. **Closure passes:
-three candidates have now been demoted by their own literature. IDEA-007 was narrowed to v1.1 after
-the funding-currency corpus was read — its aggregate version is a published baseline (S-055,
-rejected as R-006) and the dossier then claimed only the cross-sectional and publication-timing
-residual — and in Cycle 5 that residual was closed against it as well: the cross-section is a
-published, positive result (S-064) and the mechanism's literature has closed in the same direction
-(S-095, S-096, S-097), so IDEA-007 is **rejected (R-008)** and the register holds no FX candidate.
-IDEA-006 was narrowed to v1.1 after the intraday fixing literature was read — the fix-window price
-impact is published (S-074 … S-081, rejected as R-007) and the dossier now claims only the
-settlement-side residual (blocked on G-11) and the post-2015 persistence question.**
+Last updated: **Cycle 5 complete** (the Cycle-5 gap-closure and originality pass), 2026-10-19. The
+register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
+**Closure passes: five candidates have now been demoted by their own literature.** IDEA-007 was
+narrowed to v1.1 after the funding-currency corpus was read — its aggregate version is a published
+baseline (S-055, rejected as R-006) and the dossier then claimed only the cross-sectional and
+publication-timing residual — and in Cycle 5 that residual was closed against it as well: the
+cross-section is a published, positive result (S-064) and the mechanism's literature has closed in
+the same direction (S-095, S-096, S-097), so IDEA-007 is **rejected (R-008)**. IDEA-006 was narrowed
+to v1.1 after the intraday fixing literature was read — the fix-window price impact is published
+(S-074 … S-081, rejected as R-007) — and in Cycle 5 its own gate was met: **G-11 closed against it,
+so IDEA-006 is rejected (R-009)** and its dedicated vehicle IDEA-012 is **rejected (R-010)**.
 **Cycle-3 gap closures:** G-10 cross-sectional residual remains open; G-11 partially closed —
 settlement-side mechanics are a priced friction (S-082, S-071) but the deadline cluster is untested;
 G-06 narrowed — the commodity basis-convergence literature (S-032 … S-039) does not condition on
 passive share × depth, so IDEA-005's state-conditioned differentiator survives as a conjecture.
 **Cycle-5 gap closures (this cycle):** **G-10 closed against IDEA-007** (see the R-008 record);
-**G-06 closed as a bounded negative finding** with the papers that had not been found earlier now
-located and registered (S-098 conditions spot–futures convergence on *trader type*; S-099
-conditions *commodity returns during roll periods* on the CIT market share and reports no
-significant effect — contradicting evidence now recorded against IDEA-005); **G-08 mostly closed**
-and **G-05 split** (its single-name 0DTE series is constructible from public OCC data, so the
-*data* question is closed and only the *literature* question is open); and **G-12 opened** — the
+**G-11 closed against IDEA-006 and IDEA-012** (a settlement deadline cluster is a published price
+determinant — S-112; the securities settlement cycle is a published price-impact determinant —
+S-113, S-114, S-115; the post-US-close FX window is documented as a cost rather than an edge —
+S-117, S-118, S-119, S-120); **G-06 closed as a bounded negative finding** with the papers that had
+not been found earlier now located and registered (S-098 conditions spot–futures convergence on
+*trader type*; S-099 conditions *commodity returns during roll periods* on the CIT market share and
+reports no significant effect — contradicting evidence now recorded against IDEA-005); **G-08 mostly
+closed** and **G-05 split** (its single-name 0DTE series is constructible from public OCC data, so
+the *data* question is closed and only the *literature* question is open); **G-12 opened** — the
 general question of whether a *published* state can change the *sign or existence* of a published
 effect, or only its measurement quality, which is now the register's standing test for every
-state-conditioned candidate.
+state-conditioned candidate; and **G-13 opened** — a published state is usable as a decision-time
+variable only if it is published *before* the decision, an established instance being the EU ETS
+aggregate balance (S-121), which was published after the pre-2023 surrender deadline it was meant to
+inform. **IDEA-013 was parked (P-008)** after its required full-text check: S-101 does not condition
+the premium on the aggregate surplus (so the candidate is not a re-description of published work),
+but the published model already implies the conditional structure, the published sample contains a
+high-surplus year in which the effect persisted, and the decision-time form of the candidate has
+only three observations.
 
 ---
 
@@ -930,8 +940,8 @@ in 2012–present in the thin, high-passive-share contracts where the published 
 ## IDEA-006 — FIXCLOCK: the end-of-day deadline cluster, and the concession that the clock rents
 
 - **ID / short name:** IDEA-006 / FIXCLOCK
-- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** retained (not in the top three),
-  **blocked on G-11** · **Version:** 1.1
+- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** **rejected (R-009)** ·
+  **Version:** 1.2
 - **Change notes:** v1.0 — first dossier. The intraday periodicity around the London fix is an
   established fact; the candidate is the *deadline-constrained flow* reading of it, extended to
   the post-US-close settlement window that the T+1 transition created. **v1.1 — reclassified after
@@ -941,6 +951,22 @@ in 2012–present in the thin, high-passive-share contracts where the published 
   candidate was rejected (R-007) and the dossier was narrowed to two residuals: the
   *settlement-side* deadlines beyond the fix (blocked on G-11) and the post-2015 persistence of
   the published fix effect.**
+  **v1.2 — REJECTED after the Cycle-5 G-11 closure (S-112 … S-121).** The candidate's own gate —
+  "G-11 must be closed before any of the above is treated as a candidate rather than a hypothesis.
+  If a published paper already shows a settlement-side or T+1-window price effect, the candidate is
+  rejected, not narrowed" — is now met, in both of its limbs. A settlement deadline cluster is a
+  published price determinant: Kraenzlin and Nellen (2010, S-112) show that after CLS "the value of
+  intraday liquidity has increased during the hours of the CLS settlement cycle", with a structural
+  break at the pay-in schedule and an estimated mark-up of "approximately 0.50bp per hour, leading to
+  a total of roughly 1.5bp for the CLS settlement cycle". A T+1-window price effect is also
+  published: Baig, Breeze, Cox and Griffith (2022, S-113) find that shortening the US cycle to T+2
+  made US securities *more liquid* than matched London-listed securities, and Bhanu, Nath and
+  Patnaik (2024, S-114) find that T+1 "significantly improved liquidity" measured by bid-ask
+  spreads, Amihud illiquidity and price impact. The residual's own kill condition on the post-2015
+  persistence question was answered earlier (S-047, S-080: the benchmark's post-revision quality and
+  the 2015–2023 effectiveness of the fix are documented in peer-reviewed work). **The dossier is
+  closed; the reasoning is preserved in R-009 and the candidate is not to be presented as an
+  opportunity.**
 
 **One-sentence hypothesis.** The FX day ends with a cluster of hard, published deadlines — the
 16:00 London benchmark fix, the CLS currency-close and pay-in deadlines, and, since May 2024, the
@@ -1218,9 +1244,22 @@ effect that the liquidity providers who are already stationed there will have ar
 Priority score **59/100** (down from 66 after the G-09 closure); rank 7 of 7 at the time of
 writing, below the parked IDEA-002. **Concrete next question:** does any published work test the
 *settlement-side* deadlines — the CLS currency-close and pay-in cut-offs, and the post-US-close
-window created by the May 2024 T+1 transition — as a price determinant rather than as an
-operational schedule, and if not, does the settlement window show a directional imbalance that
-survives removal of the published fix effect?
+window created by the May 2024 T+1 transition — as a price determinant rather than as an operational
+schedule, and if not, does the settlement window show a directional imbalance that survives removal of
+the published fix effect?
+
+**v1.2 closure (Cycle 5). The question above was answered, and the answer is disqualifying.**
+Published work does test settlement deadlines as price determinants (S-112: the CLS settlement cycle
+raises the price of intraday liquidity in the Swiss franc repo market; S-113, S-114: the securities
+settlement cycle is a published price-impact determinant, with the *liquidity-improvement* sign),
+and the institutional record shows the post-US-close window to be structurally illiquid and expensive
+rather than concession-rich (S-117, S-118, S-119, S-120: "less than 1% of trades in the $7 trillion
+OTC FX market are carried out in this window"; "bid/ask spreads widen and liquidity shrinks"; the
+market's own answer was custodian cut-off extensions and pre-funding). The candidate's rule is
+explicit that this outcome rejects rather than narrows. **Status: rejected (R-009).** The mechanism
+is real and now partly owned by published work; the *trading* claim was never supported and the cost
+structure of the target window makes it unsupportable. This dossier is retained only so that the
+negative reasoning is not re-derived.
 
 ---
 
@@ -1794,8 +1833,19 @@ costs and after controlling for momentum?
 ## IDEA-012 — CLS-CLOSE: the settlement-side deadline cluster as a price determinant (continuation of IDEA-006)
 
 - **ID / short name:** IDEA-012 / CLS-CLOSE
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** **rejected (R-010)** · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register; a dedicated vehicle for the settlement-side residual of IDEA-006, blocked on G-11.
+  **v1.1 — REJECTED after the Cycle-5 G-11 closure (S-112 … S-121).** The candidate existed to be a
+  literature check: "if the settlement-side cluster is tested and found priced, IDEA-006 and IDEA-012
+  are both rejected; if untested, they remain as narrow, unproven residuals." The check was run and
+  returned "tested and found priced": a settlement deadline cluster is a published price determinant
+  (S-112 — the CLS pay-in schedule raises the price of intraday liquidity by an estimated "roughly
+  1.5bp for the CLS settlement cycle"), the securities settlement cycle is a published price-impact
+  determinant (S-113, S-114, S-115), the FX settlement-risk premium is published (S-082, S-071), and
+  the post-US-close FX window is documented as a cost, not an edge (S-117, S-118, S-119, S-120). The
+  candidate's own "key uncertainties" section stated the consequence in advance: "If G-11 closes
+  against the candidate … the candidate is rejected, not re-scored." **The dossier is closed; the
+  reasoning is preserved in R-010.**
 
 **One-sentence hypothesis.** Beyond the published 16:00 London fix effect, the CLS currency-close and pay-in deadlines (and the post-US-close window created by T+1) create a separate, dated, settlement-constrained demand/supply pressure in specific currency pairs on no-macro-release days; the state (deadline proximity and fix-window volume share) is published by the benchmark administrator and the settlement utility.
 
@@ -1825,6 +1875,25 @@ costs and after controlling for momentum?
 
 **Remaining uncertainty / confidence.** Confidence that the deadlines, the participant set and the flow concentration are real and published: **high** (CLS documentation S-048, S-049; LSEG methodology S-045). Confidence that the settlement-side deadline cluster has a separable price effect: **low** — G-11 is open, so this is an expectation rather than a finding. Confidence that any of it is harvestable after costs: **low** (the pip-level concession inside minutes is the decisive weakness). Priority score **60/100**; rank TBD. **Concrete next question:** does any published work test the settlement-side deadlines — the CLS currency-close and pay-in cut-offs, and the post-US-close window created by the May 2024 T+1 transition — as a price determinant rather than as an operational schedule, and if not, does the settlement window show a directional imbalance that survives removal of the published fix effect?
 
+**v1.1 closure (Cycle 5).** The question above was run as a literature check and answered
+disqualifyingly. Settlement deadlines **are** tested as price determinants in the published
+literature: Kraenzlin and Nellen (2010, S-112) show that the CLS pay-in schedule raises the value of
+intraday liquidity during the settlement cycle, with an estimated "roughly 1.5bp for the CLS
+settlement cycle"; Baig, Breeze, Cox and Griffith (2022, S-113), Bhanu, Nath and Patnaik (2024,
+S-114) and Shah and Davda (2026, S-115) make the securities settlement cycle a published
+price-impact and market-quality determinant. The FX settlement-risk premium is published (S-082,
+S-071). The remaining, narrower question — the *post-US-close window's* own market quality — is
+answered by the institutional record as a **cost**: the New York Fed's FX Committee material names
+the 4–6pm ET window as the transition's priority FX risk (S-117) and records the market's
+expectation of "an uptick in price premium and market impact for trades executed later in the NY
+trading day" (S-118); the trade record shows "less than 1% of trades in the $7 trillion OTC FX
+market are carried out in this window", pricing engines shut at 5pm for up to half an hour, and
+"bid/ask spreads widen and liquidity shrinks" (S-119); the after-action reporting shows the market
+solved the constraint with custodian cut-off extensions and pre-funding, not with concession capture
+(S-120). A concession priced inside a window with under 1% of volume, widening spreads and a
+half-hour pricing-engine outage cannot survive a round trip. **Status: rejected (R-010).** The
+mechanism is documented; the *edge* was never evidenced and the cost structure rules it out.
+
 ---
 
 ---
@@ -1832,8 +1901,7 @@ costs and after controlling for momentum?
 ## IDEA-013 — EU-ETSCOMP: the surrender-deadline concession in the EU ETS, and the published banking position that decides whether it exists
 
 - **ID / short name:** IDEA-013 / EU-ETSCOMP
-- **Date added:** 2026-10-19 · **Cycle:** 5 · **Status:** retained (not in the top three) ·
-  **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 5 · **Status:** **parked (P-008)** · **Version:** 1.1
 - **Change notes:** v1.0 — first dossier. New mechanism family for the register: a **statutory,
   date-bound purchase obligation** with a monetary penalty, in a market whose decision-time state is
   published by a regulator. The *effect* (a surrender-month premium) is published (S-101); the
@@ -1842,6 +1910,39 @@ costs and after controlling for momentum?
   **existence-flipping state** (a pre-deadline published aggregate compliance balance). The full
   text of the published work (NBER WP 35356 / arXiv 2606.03767) **must be read before this candidate
   is retained**; see "Remaining uncertainty".
+  **v1.1 — the required full-text check was performed, and the candidate is parked (P-008).** Three
+  findings, all verified in this cycle. (i) **The check is resolved in the candidate's favour and
+  against it at once:** S-101 does **not** condition the premium on the aggregate surplus (there is
+  no occurrence of "TNAC" in the paper; the aggregate balance appears only as a state variable
+  *inside the model*, and the paper's "cumulative surplus" measure is used to *construct*
+  operator-level shortfalls, not to explain premium variation) — so the candidate is not a
+  re-description of published work. But the published model already makes the benchmark price affine
+  in the aggregate bank, so the state-conditional structure is **implied by the published model**; what
+  the candidate claims is an *empirical* conditional structure that the published work does not
+  estimate. (ii) **The published sample does not support the existence-flipping hypothesis and mildly
+  cuts against it:** the paper states that "This delayed and frictional trading pattern persists into
+  the most recent phase of the EU ETS, indicating limited improvement over time", and its most recent
+  phase is Phase IV (2021) — a period of very large aggregate surplus (TNAC 1 134 794 738 for 2022
+  and 1 111 736 535 for 2023, S-121). The paper does not report the April premium's magnitude by
+  year, so the hypothesis is neither supported nor refuted by the published sample; what the sample
+  shows is that a large surplus did **not** switch the effect off. (iii) **The decision-time state
+  was, until the regime change, published *after* the deadline it was supposed to inform** — the
+  Commission publishes TNAC for emissions year Y in late May or June of year Y+1 (S-121), so under
+  the pre-2023 regime (surrender deadline for emissions of year Y: 30 April of year Y+1) the aggregate
+  state for the compliance year was published **after** that deadline. Decision-time availability
+  begins only with the 2023 compliance year (deadline 30 September 2024), which leaves **three
+  decision-time observations to date** (2023, 2024 and 2025 compliance years) and **no observation in
+  a deficit year**. This is recorded as the new gap **G-13** and as a new screening condition in the
+  state-proxy note: *a published state is usable as a decision-time variable only if it is published
+  before the decision.*
+  **Why parked rather than retained or rejected.** The effect is published (S-101), so this is not a
+  discovery; the claimed residual is not refuted, but the candidate cannot be *validated* in any
+  decision-time form: the state switches sign too rarely for a conditional claim to be testable, the
+  published model implies the conditional structure rather than leaving it open, and the published
+  sample contains a high-surplus year in which the effect persisted. Re-specifying around a weaker
+  state (operator-level bank-adjusted shortfalls, which are public only *ex post* in the EUTL) would
+  convert the idea into a disguised baseline. The honest position is a **park** with a dated
+  unblocking question, not a retention and not a rejection.
 
 **One-sentence hypothesis.** The EU ETS obliges every covered installation, aircraft operator and
 shipping company to surrender allowances for the previous year's verified emissions by a statutory
@@ -1850,7 +1951,9 @@ price-inelastic — and the resulting deadline-bound demand creates a surrender-
 delayed compliance officers to their counterparties; the candidate's claim is that this premium is
 **not a standing feature** but an **existence-conditional** one, appearing only in years when the
 aggregate compliance balance is short, a balance that is knowable *before* the deadline from
-regulator-published data, and that the published result covers only the *old* deadline regime.
+regulator-published data — though, as v1.1 records, that property holds only in the current regime,
+from the 2023 compliance year onwards — and that the published result covers only the *old* deadline
+regime.
 
 **Plain-language description.** Every year, an installation that emitted a tonne of carbon last year
 must hand over one allowance to the government by a fixed date, or pay €100 for every tonne it
@@ -1861,7 +1964,10 @@ fund that has been holding the allowance. The buyers pay up. But this only happe
 as a whole is *short*: if firms are sitting on a large surplus of banked allowances, nobody is
 forced to buy anything in the deadline month and the premium does not exist. Whether the system is
 short is not a secret — the regulator publishes, every May or June, the total number of allowances
-in circulation, which is a direct read on the surplus.
+in circulation, which is a direct read on the surplus. **But** (v1.1) that publication arrives in
+late May or June of the year *after* the emissions year, so before the 2023 compliance year it
+arrived *after* the surrender deadline it was meant to inform, and the "knowable before the
+deadline" property of this state is a property of the **current regime only**.
 
 **Mechanism (causal chain).**
 1. **The obligation is statutory and hard.** Under Article 12(3) of Directive 2003/87/EC, "by
@@ -1895,7 +2001,8 @@ in circulation, which is a direct read on the surplus.
    September 2024, and the 2027 auction calendars were published on 1 October 2026 with the
    2027 volumes already adjusted for the reserve and for the Social Climate Fund allocation
    (S-105, S-106).
-5. **The state is published before the deadline and it flips the sign of the effect.** The
+5. **The state is published before the deadline — but only in the current regime — and it flips the
+   sign of the effect.** The
    Commission publishes, every year, "the total number of allowances in circulation (TNAC) for the
    previous year" under Article 1(4) of the MSR Decision; the market monitors describe TNAC as "an
    indicator for the surplus" (S-107). The Commission published TNAC for 2023 — 1,111,736,535 — on
@@ -1904,7 +2011,10 @@ in circulation, which is a direct read on the surplus.
    the auction volumes from 1 September 2024 to 31 August 2025 (S-107). Verified emissions, free
    allocation and the cross-sectoral correction factor are also published (S-108, S-109). TNAC,
    the auction calendar and the verified-emissions data therefore allow the **aggregate compliance
-   balance for the year whose deadline is approaching** to be estimated *before* that deadline.
+   balance for the year whose deadline is approaching** to be estimated before that deadline —
+   **in the current regime only** (v1.1: the TNAC publication calendar is late May or June of the
+   *following* year, so under the pre-2023 April deadline the balance for the compliance year was
+   published after that deadline; see the timing finding below and gap G-13).
 6. **The sign discipline.** If the aggregate balance is short, the deadline creates a forced,
    price-inelastic *buyer* and the allowance price should be pushed up into the deadline, with the
    concession partly unwound afterwards as the forced demand disappears. If the aggregate balance is
@@ -1954,12 +2064,20 @@ the allowance into the window and for the concentration of the exit.
   premium — that is S-101's result. What is claimed is that the premium is conditional and that the
   condition is published in advance. The condition is a *conjecture*; nothing here establishes that
   the premium is state-conditional, and the kill conditions below are written so that it can fail.
-- *Confidence in the comparison:* **moderate.** The effect and the mechanism are directly on point
-  and were read in abstract, in the NBER working-paper landing page and in the arXiv HTML version's
-  own summary; the *full text* was **not** read, so it remains possible that the paper already
-  conditions on the aggregate surplus or already discusses the deadline change. That is the first
-  thing a future agent must check, and it is why the candidate is retained at a middling score and
-  not shortlisted.
+- *Confidence in the comparison:* **moderate, and now checked.** The full text of S-101 (arXiv HTML
+  rendering, v2) **has been read** in Cycle 5. The verdict: the paper does **not** condition the
+  surrender-month premium on the aggregate surplus, so the candidate's central claim is not
+  pre-empted; but the paper's *model* already makes the equilibrium price affine in the aggregate
+  bank of allowances, so the state-conditional structure is an implication of the published model
+  rather than an unclaimed idea about the mechanism; and the paper's own robustness construction
+  works from **operator-level, bank-adjusted** shortfalls, which implies the aggregate balance is
+  not the object that determines residual demand. The full text also supplies two facts that the
+  v1.0 dossier did not have: the statement that the delayed-trading pattern "persists into the most
+  recent phase of the EU ETS" (Phase IV, 2021 — a high-surplus year), and the fact that the paper's
+  own counterfactual analysis of **staggered surrender deadlines** already reduces the premium by
+  about 59%, which is directly relevant to the regime change the candidate relies on. **What remains
+  unclaimed** is an *empirical* estimate of how the premium varies with the published aggregate
+  balance across the regime change.
 
 **Target scope.** EU allowances (EUA) on the ICE futures and options venue and, at lower frequency,
 the EEX auction clearing price; the compliance window from the verification deadline (31 March) to
@@ -1973,9 +2091,11 @@ adjustment) from the estimation window, and treat them as controls rather than a
 **Observables (knowable at decision time, conceptually).**
 - The statutory calendar: verification deadline 31 March, surrender deadline 30 September from 2024
   (S-102, S-103) — published, statutory, not a forecast.
-- The aggregate compliance balance: TNAC for the prior year (published by the Commission each May or
-  June), the verified-emissions dataset, the free-allocation and cross-sectoral-correction-factor
-  decisions, and the EEX auction calendar with its volumes (S-105, S-106, S-107, S-108, S-109).
+- The aggregate compliance balance: TNAC for the compliance year (published by the Commission in
+  late May or June of the year of the deadline — **available before the deadline only from the 2023
+  compliance year**), the verified-emissions dataset, the free-allocation and
+  cross-sectoral-correction-factor decisions, and the EEX auction calendar with its volumes
+  (S-105, S-106, S-107, S-108, S-109, S-121).
 - The MSR's effect on the auction supply in the compliance window (the reserve's withholding
   schedule, which the Commission and the national authority both publish) (S-106, S-107).
 - The published market data used as the mechanism check: EEX daily auction results and quarterly
@@ -1986,9 +2106,22 @@ adjustment) from the estimation window, and treat them as controls rather than a
   adjustment are published in advance but their *interpretation* is not; and the sample has one
   observation per year, so the effective sample is very small and every additional control
   (year fixed effects, the policy cycle) costs degrees of freedom.
+- **The decisive timing finding of Cycle 5 (G-13):** the aggregate state itself has a publication
+  calendar that must be checked against the decision date. The Commission publishes TNAC for
+  emissions year Y in **late May or June of year Y+1** — TNAC for 2022 on 15 May 2023, for 2023 on
+  3 June 2024 (S-121). Under the pre-2023 regime the surrender deadline for emissions of year Y was
+  **30 April of year Y+1**, i.e. the aggregate balance for the compliance year was published
+  **after** the deadline it was meant to inform, and the state a rule could have used before that
+  deadline was the balance for year Y−2. Under the post-2023 regime (deadline 30 September of year
+  Y+1) the balance for year Y is published **before** the deadline. **Consequence:** the
+  *decision-time* form of this candidate can only be run from the **2023 compliance year** onwards —
+  three observations so far (deadlines of 30 September 2024, 2025 and 2026), all in a period of large
+  aggregate surplus, with **no deficit observation**. The *ex-post* form can be run over the whole
+  published sample, but an ex-post state is a decomposition, not a rule.
 
-**Rule sketch (descriptive, non-executable).** Once a year, after the Commission has published TNAC
-for the prior year and the auction calendar for the compliance year, and before the surrender
+**Rule sketch (descriptive, non-executable).** Once a year, after the Commission has published the
+TNAC figure for the compliance year (which, in the current regime, happens in late May or June of
+the year of the deadline) and the auction calendar for that year, and before the surrender
 deadline: estimate the aggregate compliance balance for the year whose deadline is approaching as
 (verified emissions for that year, net of the free allocation and the CSCF adjustment) minus the
 allowances the system is holding net of what it has already surrendered — a quantity the published
@@ -1998,7 +2131,10 @@ position. Size the position by the *estimated shortfall* relative to the *publis
 for the compliance window, and cap it at a pre-specified fraction of the contract's average daily
 volume. Exit on the settlement of the deadline-week contract. Exclude any year in which the
 October-November policy cycle or a link to the Swiss ETS produced a repricing, and record those
-years as excluded rather than as failures.
+years as excluded rather than as failures. **Feasibility note (v1.1):** this rule can only be run
+from the **2023 compliance year** onwards, because before that the TNAC for the compliance year was
+published after its deadline (G-13) — three observations to date, none in a deficit year, so the
+rule as written cannot yet be evaluated on a state switch.
 
 **Persistence thesis.** The obligation is statutory and the penalty is a multiple of the allowance
 price, so the deadline demand cannot be avoided; the compliance calendar is published a year ahead
@@ -2034,7 +2170,11 @@ rather than for liquidity provision — a confound that the state-conditioning d
    the pre-deadline published aggregate balance is short and absent (or of the opposite sign) in
    years when it is long. **Kill:** the premium is of similar size in surplus and deficit years —
    in which case the effect is unconditional, the state adds nothing, and the candidate is a
-   re-description of S-101.
+   re-description of S-101. **Cycle-5 status: untestable in decision-time form, and partly
+   pre-answered.** The decision-time test has at most three observations, none in a deficit year
+   (G-13); and the published sample contains a high-surplus year (Phase IV, 2021) in which the
+   delayed-trading pattern persisted, which is evidence against the sign flip. Both facts are
+   recorded here rather than buried, and they are the reason the candidate is parked.
 2. *Regime discontinuity:* the effect's month moves with the statutory deadline — April in the
    pre-2024 regime, September thereafter — and is not a fixed calendar month. **Kill:** the premium
    remains concentrated in April after the legal change, which would mean the April pattern is
@@ -2083,7 +2223,8 @@ data) and the EUTL transaction-level files (public but bulk, and the transaction
 commissioned-research-grade). Feasibility: **medium-high** for the state and the calendar, and
 **medium-low** for the price series and the sample size. The binding constraint is not data
 availability but the **number of independent observations**: one per year against a state that
-must be estimated, not observed.
+must be estimated, not observed — and, after the Cycle-5 timing finding (G-13), **only three
+years in which the state was published before the decision at all**.
 
 **Theory/evidence status.**
 - *Conceptual rationale:* supported — the mechanism, including the "intermediary constraints
@@ -2104,13 +2245,24 @@ published state exist: **high**. Confidence that the deadline premium exists in 
 regime: **moderate** — the published result is strong but its sample ends in 2021, and the market
 monitors' own reading of the shift is that demand was "spread out", which is the opposite of a
 sharp deadline premium. Confidence that the premium is *state-conditional*: **low** — this is the
-candidate's conjecture. Confidence that it is tradeable after costs: **low-to-moderate** — thin
-market, small sample, large policy-event risk. Priority score **70/100**; rank 6 of 11 at the time
-of writing. **Concrete next question:** does a surrender-month premium exist in the post-2023
-30-September regime, and does it appear only in the years in which the regulator-published aggregate
-compliance balance is short — and, before anything else, **does the full text of S-101 already
-answer the second question?** If it does, this candidate is a re-description of published work and
-must be rejected rather than retained.
+candidate's conjecture; the full text of S-101 (read in Cycle 5) neither tests it nor supports it,
+and its Phase IV persistence statement shows that a very large surplus did not switch the effect
+off. Confidence that it is tradeable after costs: **low-to-moderate** — thin market, small sample,
+large policy-event risk. **Feasibility of the decision-time rule: low** — the state is published
+before the decision only from the 2023 compliance year, leaving three observations, none of them in
+a deficit year (G-13). Priority score **58/100** (down from 70: the first check was resolved
+favourably, but the model-implied conditional structure, the contradicting persistence statement
+and the decision-time sample cut the other way); rank 10 of 10 retained-or-parked candidates at the
+time of writing. **Status: parked (P-008).** **Concrete next question (dated, and it is a
+data-accumulation question, not a research question):** the unblocking event is the accumulation of
+enough post-2023 compliance years for the *ex-post* balance to move across a sign change with at
+least one observation on each side. The next published TNAC is for emissions year 2026, expected in
+late May or June 2027 (S-121's calendar); the corresponding surrender deadline is 30 September
+2027. **Before 2029, the candidate cannot be validated in any decision-time form, and the register
+should not spend further effort on it.** A secondary question, worth one search only: whether the
+published literature has yet replicated the April premium in the post-2023 September regime — if a
+replication exists, the *regime* residual is closed too and the candidate should be rejected rather
+than parked.
 
 ---
 
@@ -2132,7 +2284,7 @@ the exchange publishes the funding rate every few hours. The pattern is determin
 hunt for a proxy; hunt for a venue where the state is already published by an institution.*
 
 **2. How to choose a state proxy.**
-A state proxy must satisfy all four conditions:
+A state proxy must satisfy all five conditions:
 (a) **Observable at decision time:** the value must be knowable before the trade is executed,
    with the true publication lag respected. A quarterly holdings file used on a daily rule is
    look-ahead, not a proxy.
@@ -2145,6 +2297,15 @@ A state proxy must satisfy all four conditions:
 (d) **Changes the sign or existence of the effect:** conditioning on the proxy must change the
    *sign* or the *existence* of the predicted return, not merely its size (per the rediscovery
    guard in `rejected_and_parked.md`).
+(e) **Published before the decision, not after it** (added in Cycle 5, gap **G-13**): the state must
+   be released *before* the decision date it informs, not merely before the end of the sample. An
+   official state published on a calendar that runs *after* the decision it is supposed to inform
+   can support an explanatory decomposition but can never support a decision-time rule. This is not
+   a technicality: in the EU ETS the aggregate compliance balance is published in late May or June
+   of the year *after* the emissions year (S-121), so under the pre-2023 April deadline it was
+   published *after* the deadline, and the decision-time form of IDEA-013 begins only with the 2023
+   compliance year. **Every candidate must now record, for each observation, the publication date of
+   the state relative to the decision date.**
 
 **3. How to build it without look-ahead.**
 - Use only vintages available at the decision timestamp; if the series is revised, state whether
@@ -2179,6 +2340,7 @@ disguised baseline. Change venue, not proxy.
 **6. Candidates governed by this note.**
 IDEA-002 (parked, P-004, G-01), IDEA-004 (G-04), IDEA-005 (S-030, public — passes), IDEA-007
 (S-054, public — passes), IDEA-008 (short interest/lending fees, public — passes), IDEA-009
-(funding rate, published by venue — passes).
+(funding rate, published by venue — passes), IDEA-013 (published state, but **fails condition (e)**
+for the pre-2023 regime — parked, P-008).
 
 ---

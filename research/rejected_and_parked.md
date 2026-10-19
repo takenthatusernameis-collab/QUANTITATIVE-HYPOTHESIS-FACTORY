@@ -5,8 +5,10 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 5, 2026-10-19. 6 rejections (R-001 … R-008), 7 parkings (P-001 … P-007),
-17-row known-baseline table.
+Last updated: Cycle 5 complete, 2026-10-19. **10 rejections (R-001 … R-010), 8 parkings
+(P-001 … P-008), 28-row known-baseline table.** Cycle 5 added R-009 (IDEA-006), R-010 (IDEA-012)
+and P-008 (IDEA-013), and added seven baseline rows, so that the settlement-window family, the
+margin-schedule family and the ETF-primary-market family are not re-presented as discoveries.
 
 ---
 
@@ -262,6 +264,105 @@ Last updated: Cycle 5, 2026-10-19. 6 rejections (R-001 … R-008), 7 parkings (P
   end-of-day fixing clock and the funding-currency state are the other two Cycle-2 instantiations
   and each must be specified separately.
 
+### R-009 — IDEA-006 FIXCLOCK: the end-of-day deadline cluster (settlement-side residual) — *Cycle 5, G-11 closure*
+- **What was claimed:** the FX day ends with a cluster of hard, published deadlines, and the flows
+  those deadlines force are not price-sensitive; the *fix* half of the cluster is published (rejected
+  as R-007), and the candidate's residual claim was that the **settlement-side** deadlines impose a
+  separable, additional price-insensitive demand in a window that is not a benchmark — the CLS
+  currency-close and pay-in cut-offs and the post-US-close window created by the May 2024 T+1
+  transition (S-048, S-049) — and that the published fix effect survives the 2015 methodology
+  revision and the post-2013 enforcement regime.
+- **Why rejected:** the candidate set its own gate — "G-11 must be closed before any of the above is
+  treated as a candidate rather than a hypothesis. **If a published paper already shows a
+  settlement-side or T+1-window price effect, the candidate is rejected, not narrowed**" — and the
+  Cycle-5 G-11 closure met it in both limbs. **(i) A settlement deadline cluster is a published
+  price determinant:** Kraenzlin and Nellen (2010, S-112) show that after the introduction of CLS
+  "the value of intraday liquidity has increased during the hours of the CLS settlement cycle", with
+  a structural break at the pay-in schedule and an estimated mark-up of "approximately 0.50bp per
+  hour, leading to a total of roughly 1.5bp for the CLS settlement cycle"; the mechanism is stated
+  explicitly — "CLS members have to meet a pay-in schedule set by CLS in due time. This requires
+  large amounts of reserve balances to be transferred during specific time slots." **(ii) A
+  T+1-window price effect is also published**, and with the *opposite* sign to a harvestable
+  concession: shortening the securities settlement cycle *improved* liquidity (S-113: US securities
+  "become more liquid, relative to similarly matched securities listed on the London Stock
+  Exchange" after T+3 → T+2; S-114: T+1 "significantly improved liquidity, measured by bid-ask
+  spreads, Amihud illiquidity and price impact measures"; S-115, preprint: T+1 "significantly
+  reduces Parkinson volatility by 3.6% relative to its mean"). **(iii) The residual's own
+  kill condition on post-2015 persistence was answered earlier** by the published, pre-registered
+  reassessment of the 4pm fix using 2015–2023 data (S-047, S-080). **(iv) The remaining sliver —
+  the post-US-close window's own market quality — is documented as a cost, not an edge:** the
+  New York Fed's FX Committee material names "NY 4-6pm currency liquidity" as the transition's
+  priority FX risk (S-117) and records the market's expectation of "an uptick in price premium and
+  market impact for trades executed later in the NY trading day" (S-118); the market record is that
+  "less than 1% of trades in the $7 trillion OTC FX market are carried out in this window", that at
+  5pm ET "most of the large investment banks shutdown their market making pricing engines for
+  anywhere up to 30 minutes", and that "bid/ask spreads widen and liquidity shrinks" (S-119); the
+  market's own solution was custodian cut-off extensions and pre-funding (S-120).
+- **What would have rescued it:** nothing in the literature — the candidate's own rule forecloses
+  narrowing when a published paper already shows the effect. A *different* mechanism in the same
+  window (for example, a flow whose size is published and dated rather than a price premium) would
+  be a new candidate with its own originality check, not a revival of this one.
+- **Residual open for the register (not for this candidate):** no located paper measures an
+  **FX-spot** price effect specific to the post-US-close window with the published fix effect
+  removed. That gap is now recorded as a *baseline boundary* in the table below, not as an
+  opportunity: the window is documented as too illiquid to harvest, and the data required are
+  commercial.
+
+### R-010 — IDEA-012 CLS-CLOSE: the settlement-side deadline cluster as a price determinant — *Cycle 5, G-11 closure*
+- **What was claimed:** a dedicated vehicle for the settlement-side residual of IDEA-006: the CLS
+  settlement deadline cluster (the CLS midnight CET currency close and pay-in schedule) and the
+  post-US-close T+1 window impose a price-insensitive funding demand in a window that is not a
+  benchmark, and the resulting concession has not been tested.
+- **Why rejected:** the candidate existed to *be* a literature check, and it recorded its own
+  consequence in advance: "If G-11 closes against the candidate (a published paper tests the
+  settlement-side deadline cluster as a price determinant), the candidate is rejected, not
+  re-scored." The check was run and returned "tested and found priced" — S-112 (settlement deadlines
+  priced), S-113/S-114/S-115 (the securities settlement cycle is a published price-impact and
+  market-quality determinant), S-082 and S-071 (the FX settlement-risk premium is published) — and
+  the residual window is documented as structurally illiquid and costly rather than concession-rich
+  (S-117 … S-120). A pip-level concession measured inside minutes in a window carrying under 1% of
+  daily volume cannot survive a round trip, which was the candidate's acknowledged weakest point
+  even before the closure.
+- **What would have rescued it:** a materially different specification with public intraday data
+  and a cost estimate that survives the documented market structure — which is precisely what the
+  market-structure evidence denies.
+- **Note on scope:** this rejection is about the *price-determinant* claim. The market-structure
+  facts established here (the window's illiquidity, the pricing-engine outage, the custodian
+  cut-off extensions) are recorded as baselines and may be useful as *costs* in the design of
+  unrelated candidates that must trade in or around that window.
+
+### P-008 — IDEA-013 EU-ETSCOMP: the surrender-deadline concession in the EU ETS — *parked, not rejected*
+- **Why parked rather than retained or rejected:** the required full-text check on the published work
+  (S-101) was performed in Cycle 5 and came out *against* the candidate in three specific ways.
+  (i) The published paper does **not** condition the surrender-month premium on the aggregate
+  allowance surplus, so the candidate is **not** a re-description of published work; but the paper's
+  *model* already makes the equilibrium price affine in the aggregate bank of allowances, so the
+  state-conditional structure is an implication of the published model rather than an unclaimed
+  idea; and the paper's own robustness construction works from **operator-level, bank-adjusted**
+  shortfalls, which implies the aggregate balance is not the object that determines residual demand.
+  (ii) The published sample contains a **high-surplus year in which the effect persisted** — "This
+  delayed and frictional trading pattern persists into the most recent phase of the EU ETS" (Phase
+  IV, 2021; TNAC 1 134 794 738 for 2022 and 1 111 736 535 for 2023, S-121) — which does not support
+  the candidate's existence-flipping hypothesis. (iii) The **decision-time availability** of the
+  state is the binding constraint: the Commission publishes TNAC for emissions year Y in late May or
+  June of year Y+1 (S-121), so under the pre-2023 regime the aggregate state for the compliance
+  year was published **after** the 30 April deadline it was meant to inform. Decision-time
+  availability begins only with the 2023 compliance year, leaving **three observations, none in a
+  deficit year** (new gap **G-13**). Re-specifying around a weaker state — operator-level
+  bank-adjusted shortfalls, public only *ex post* in the Union Registry — would convert the idea
+  into a disguised baseline, which the register's own method forbids.
+- **Unblocking question (dated):** the unblocking event is the accumulation of enough post-2023
+  compliance years for the aggregate balance to cross a sign change with at least one observation on
+  each side. The next TNAC (emissions year 2026) is expected in late May or June 2027, with the
+  corresponding surrender deadline on 30 September 2027. **Before 2029 the candidate cannot be
+  validated in decision-time form, and no further effort should be spent on it.** A cheaper
+  secondary check, worth at most one search: whether a replication of the surrender-month premium in
+  the post-2023 September regime has appeared in the literature — if it has, the *regime* residual is
+  closed too and the candidate should be rejected rather than parked.
+- **Score and standing:** priority score **58/100** (down from 70 in v1.0), below every retained
+  candidate. The dossier remains in `idea_register.md` because the reasoning is worth preserving;
+  the candidate is not in the active ranking and has no validation specification.
+
 ---
 
 ## Known baselines (reference set, not candidates)
@@ -293,15 +394,40 @@ to baselines.
 | Intermediary leverage as a stochastic discount factor for the cross-section of returns | **Published, peer-reviewed** (S-097). The canonical intermediary-state asset-pricing baseline (R² of 77% on size, book-to-market, momentum and bond portfolios). Any funding-state candidate in any asset class must be measured against it. |
 | Trader type and the rate of spot–futures convergence in commodity futures | **Published, peer-reviewed** (S-098): "There is strong evidence that speculators (commodity index traders) increase (reduce) the rate of convergence between spot and futures markets." This is a *component* of IDEA-005's differentiator, not the differentiator itself. |
 | Commodity index-trader market share and roll-period returns | **Published, peer-reviewed, and largely null** (S-099): the CIT market share (CIT ÷ open interest) is tested directly as a contributor to commodity returns in roll periods, with risk adjustments, and the reported effect is not significant. This is the closest published test of IDEA-005's state variable and is recorded as **contradicting evidence** against it. |
+| Payment-system / CLS settlement deadlines as a price determinant | **Published, peer-reviewed** (S-112): after the introduction of CLS "the value of intraday liquidity has increased during the hours of the CLS settlement cycle", with a structural break at the pay-in schedule and an estimated mark-up of "roughly 1.5bp for the CLS settlement cycle"; the mechanism is "large amounts of reserve balances … transferred during specific time slots". Settlement risk in currency markets is also published (S-082, S-071). **This is a baseline**: any candidate whose mechanism is "settlement deadlines are priced" is re-presenting published work. |
+| Securities settlement cycle length as a price-impact and market-quality determinant | **Published, peer-reviewed** (S-113, S-114; plus a preprint in S-115): shortening the cycle *improved* liquidity — US securities became more liquid relative to matched London-listed ones after T+3 → T+2, and T+1 "significantly improved liquidity, measured by bid-ask spreads, Amihud illiquidity and price impact measures". The published sign is the opposite of a harvestable concession, and any candidate in this family must explain that sign. |
+| The post-US-close FX window (the T+1 funding window) as a market-quality object | **Documented, institutionally** (S-117, S-118, S-119, S-120): the New York Fed's FX Committee names "NY 4-6pm currency liquidity" as the transition's priority FX risk and records the market's expectation of "an uptick in price premium and market impact for trades executed later in the NY trading day"; the market record is "less than 1% of trades in the $7 trillion OTC FX market" in that window, a half-hour pricing-engine outage at 5pm ET, and "bid/ask spreads widen and liquidity shrinks". **This is a baseline and a cost model, not an opportunity**: a concession that exists only in a sub-1%-of-volume window with widening spreads cannot survive a round trip. |
+| EU ETS surrender-month premium (compliance-deadline concession) | **Published** (S-101): purchases concentrate in April, April returns average about 10%, the implied premium is of the order of €5 billion, and operator flow predicts future returns. The *state-conditioned* version is unclaimed but currently untestable (P-008): the aggregate balance is published **after** the pre-2023 deadline it would inform (S-121, G-13), so the decision-time rule has three observations and none in a deficit year. Any future candidate in this family must not present the surrender-month premium as a discovery. |
+| Exchange-published maintenance-margin schedules as a liquidity and volatility determinant | **Published** (S-122): margin increases cause hedgers and speculators to reduce open positions and produce "funding liquidity spillovers that affect price impact for all contracts", but "I do not find a significant effect of margin changes on the futures price level", while "realized variance increases by 50% on average on the day of a margin increase". The margin schedule is published by the venue and its setting rule is published too ("2.5 times the daily standard deviation of returns"). **This is a baseline**: the family is studied, and its published effect is on liquidity and volatility, not on the price level. |
+| ETF primary-market arbitrage and AP inventory as a driver of ETF mispricing | **Published, institutionally** (S-123): with a regulatory dataset covering the primary and secondary market transactions of 128 ETFs from 2018 to 2022, the FCA finds "a connection between mispricing … and AP's inventory", with "excess AP inventory … widen[ing] discounts". **This is a baseline**, and its dataset is proprietary — the same AP-level data constraint that blocks IDEA-010. |
+| Spot-crypto-ETF flow as a channel into the underlying market | **Published, institutionally and as a preprint** (S-124, S-125): the Fed finds crypto ETPs "track NAV less-closely than other ETPs and ETFs" and that the premium reflects segmentation and arbitrage difficulty; the preprint finds that the ETF channels large, uninformed demand into the spot market, "making it busier but shallower", with volume rising "only within U.S. trading hours, when ETF and Authorized Participant activity is concentrated". **This is a baseline**: the creation-flow channel is published, with a *liquidity-deterioration* sign and a published intraday timing pattern. |
 
 ---
 
 ## Rediscovery guard
 
-Before adding any candidate, check it against (a) the seven dossiers in `idea_register.md`,
-(b) the baseline table above, and (c) the six specified validation hand-offs. If the candidate
-differs from a baseline only in parameterisation, in label, or in the time frame, it is a variant
-and belongs in this log with the baseline named, not in the register. A candidate that differs
-from a baseline only in the *state variable* it is conditioned on must still show that the state
-variable is observable at decision time — and must show that the conditioning changes the
-*sign* or the *existence* of the effect, not merely its size.
+Before adding any candidate, check it against (a) the thirteen dossiers in `idea_register.md`,
+(b) the baseline table above, and (c) the nine validation hand-offs in `validation_handoffs.md`
+(two of which — V-005 and V-006 — are **withdrawn**, their candidates having been rejected in
+Cycle 5). If the candidate differs from a baseline only in parameterisation, in label, or in the
+time frame, it is a variant and belongs in this log with the baseline named, not in the register. A
+candidate that differs from a baseline only in the *state variable* it is conditioned on must still
+show that the state variable is observable at decision time — and must show that the conditioning
+changes the *sign* or the *existence* of the effect, not merely its size.
+
+**Three standing screening conditions added in Cycle 5** (they are now part of the guard, not
+advice):
+
+1. **G-12 — the conditioning must change the sign or the existence of the effect.** A published
+   effect conditioned on a published state is a baseline re-description unless the conditioning
+   flips the sign or creates/destroys the effect. IDEA-007 and IDEA-013 both failed this test in
+   different ways, and both are recorded so the failure is not repeated.
+2. **G-13 — the state must be published *before* the decision.** An official state published on a
+   calendar that runs after the decision it informs (the EU ETS aggregate balance before 2024,
+   S-121) supports an explanatory decomposition but never a decision-time rule. Every candidate must
+   record, per observation, the state's publication date relative to the decision date.
+3. **The literature-closure rule, applied symmetrically.** If a published paper already shows the
+   candidate's effect, the candidate is **rejected, not narrowed** — this is the rule IDEA-006 and
+   IDEA-012 set for themselves and the rule that closed both of them (R-009, R-010). A residual
+   survives only if it is (a) genuinely untested, (b) testable with the data that exist, and
+   (c) large enough to survive the cost structure of the venue in which it would be traded.

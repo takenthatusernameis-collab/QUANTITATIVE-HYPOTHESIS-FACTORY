@@ -10,14 +10,22 @@ S-074 … S-081, added in the Cycle-2 G-09 closure pass); the source gaps sectio
 verdicts on every gap, including the ones that could not be closed, and the three mis-reported
 identifiers caught in the G-09 pass.
 
-Cycle 5 added "Cycle 5 additions" (S-095 … S-100) and the "Cycle-5 verdicts" block, which
-supersedes the earlier gap verdicts for current-state purposes while leaving the original
-cycle-by-cycle gap text in place at the end of the file. Cycle 5's decisive finding is recorded
-in the Cycle-5 verdicts block: **G-10 is closed against IDEA-007** (the cross-sectional
-funding-state → currency-return claim is a published, positive result — S-064 — and the
-mechanism's own literature has closed in the same direction — S-095, S-096, S-097), and Cycle 5
-re-opened the general question as **G-12**: can a *published* state change the *sign* or
-*existence* of a published effect, or only its measurement quality?
+Cycle 5 added "Cycle 5 additions" (S-095 … S-100), "Cycle 5 additions, part 2" (S-101 … S-111, the
+  EU ETS family) and "Cycle 5 additions, part 3" (S-112 … S-125, the settlement-deadline cluster, the
+T+1 window and the decision-time state), and the "Cycle-5 verdicts" block, which supersedes the
+earlier gap verdicts for current-state purposes while leaving the original cycle-by-cycle gap text in
+place at the end of the file. Cycle 5's decisive findings are recorded in the Cycle-5 verdicts block:
+**G-10 is closed against IDEA-007** (the cross-sectional funding-state → currency-return claim is a
+published, positive result — S-064 — and the mechanism's own literature has closed in the same
+direction — S-095, S-096, S-097); **G-11 is closed against IDEA-006 and IDEA-012** (a settlement
+deadline cluster is a published price determinant — S-112; the securities settlement cycle is a
+published price-impact determinant — S-113, S-114, S-115; the post-US-close FX window is documented
+as a cost rather than an edge — S-117, S-118, S-119, S-120); Cycle 5 re-opened the general question
+as **G-12**: can a *published* state change the *sign* or *existence* of a published effect, or only
+its measurement quality?; and Cycle 5's second general question, **G-13**: is an official state
+usable as a *decision-time* variable, or only as an explanatory decomposition? (established instance:
+the EU ETS aggregate balance is published in late May/June of the following year — S-121 — and was
+  therefore unavailable at the pre-2023 surrender deadline). The register now holds **S-001 … S-125**.
 
 Status vocabulary used in dossiers:
 - **Primary theory** — model or formal argument supporting the mechanism.
@@ -1854,18 +1862,36 @@ Preprint: arXiv:2606.03767 (v2, May 2026), https://arxiv.org/abs/2606.03767
   paid to counterparties."
 - **Caveats:** a **working paper**; results are the authors' own and are not reproduced here. The
   empirical sample ends in **2021**, which is before the surrender deadline moved from 30 April to
-  30 September (S-103) — so the published result is *not* a statement about the current regime. The
-  **full text was not read in this cycle**: the abstract, the introduction and the summary
-  sections were read, and whether the paper conditions the premium on the aggregate surplus (which
-  would pre-empt IDEA-013's central claim) **remains unverified** and is recorded as the first
-  check for the next agent.
+  30 September (S-103) — so the published result is *not* a statement about the current regime.
+  **Full-text status (updated in the Cycle-5 IDEA-013 review): the full text has now been read**
+  (arXiv HTML rendering, v2). The check flagged for the next agent is **resolved**: the paper does
+  **not** condition the surrender-month premium on the aggregate allowance surplus. There is no
+  occurrence of "TNAC" in the paper; the aggregate banking position appears only as a *state variable
+  inside the model* (the public state is written as the aggregate bank, the scarcity state and the
+  operator shortfall), and the aggregate "cumulative surplus" measure is used only to *construct*
+  operator-level shortfall measures, not to explain premium variation. Three further findings from
+  the full text bear on IDEA-013 and are recorded here so that the next agent does not re-read the
+  paper: (i) the model's benchmark price is affine in the aggregate bank, so a state-conditional
+  price structure is **implied by the published model** — the candidate's conditional structure is a
+  conjecture about the empirics, not an unclaimed idea about the mechanism; (ii) the paper states
+  that "This delayed and frictional trading pattern persists into the most recent phase of the EU
+  ETS, indicating limited improvement over time", and its most recent phase in the sample is
+  **Phase IV (2021)** — a period in which the aggregate surplus was very large (TNAC 1 134 794 738
+  for 2022 and 1 111 736 535 for 2023, S-121) — so the published sample does **not** support the
+  proposition that the premium switches off in surplus years, although it does not refute it either,
+  since the paper does not report the April premium's magnitude by year; (iii) the paper's own
+  robustness analysis constructs shortfalls from **operator-level, bank-adjusted** data, which
+  implies that the *aggregate* balance is not the object that determines residual demand.
 - **Verification:** NBER working-paper landing page (https://www.nber.org/papers/w35356) fetched and
   read — title, four authors, WP number, DOI, issue date June 2026, published abstract, and the
   NBER PDF's first two pages (title block, abstract, JEL codes, introduction). The arXiv record
   (arXiv:2606.03767v2) and its HTML rendering were read through the search index, which returned
   the abstract, the "May 2026" date and the same quoted passages, including the note that "The
   empirical analysis in this paper subsumes that of 'Inefficiencies of Carbon Trading Markets'
-  first posted on arXiv on August 12, 2024."
+  first posted on arXiv on August 12, 2024." **Cycle 5 update:** the full arXiv HTML rendering was
+  fetched to a file and searched directly for "TNAC", "surplus", "30 September", "conditional" and
+  "state"; the passages cited in the Caveats above were read in that text, which confirms the
+  absence of an aggregate-surplus-conditioned premium and the persistence statement.
 
 ### S-102 — Directive 2003/87/EC (EU Emissions Trading System), Articles 12(3) and 16(2)–(4)
 Consolidated text: http://data.europa.eu/eli/dir/2003/87/oj (EUR-Lex; also
@@ -2100,6 +2126,302 @@ Square preprint, DOI https://doi.org/10.21203/rs.3.rs-7246143/v1 (6 August 2025)
 
 ---
 
+## Cycle 5 additions, part 3 — the settlement-deadline cluster, the T+1 window, the decision-time state, and four screened-out frontier families (S-112 … S-125)
+
+Added 2026-10-19 in the Cycle-5 **G-11 closure pass**. Same verification standard as every other
+entry: metadata was checked against Crossref, the publisher's own record, or the primary document
+before use, and the "Verification" line records *how the entry was confirmed*, not whether the cited
+result is correct. Two of these entries are **institutional** rather than peer-reviewed (a central
+bank's FX-committee material, an industry after-action report) and are labelled as such; they are used
+for *published state availability and market-structure documentation*, never as the sole support for
+an economic claim.
+
+### S-112 — Kraenzlin, S. P. and Nellen, T. (2010) — "Daytime is money"
+Swiss National Bank Working Paper **2010-06**, 31 January 2010, 31 pp.
+https://www.snb.ch/en/publications/research/working-papers/2010/working_paper_2010_06
+Published version: *Journal of Money, Credit and Banking* 42(8): 1689–1702 (December 2010),
+DOI https://doi.org/10.1111/j.1538-4616.2010.00360.x
+- **Type:** Prior empirical result (author-reported); central-bank working paper, subsequently
+  peer-reviewed.
+- **Supports:** the **settlement deadline cluster as a price determinant** — the load-bearing source
+  for the G-11 verdict. Verbatim from the abstract: "we show that after the introduction of the
+  foreign exchange settlement system CLS the value of intraday liquidity has increased during the
+  hours of the CLS settlement cycle … These facts provide evidence for the cost of immediacy." From
+  the results: "the introduction of CLS marks a structural break. After the introduction of CLS, ON
+  rates stay as high as at the beginning of the day until the end of the CLS settlement cycle at
+  noon … We estimate the mark-up on hourly ON rates due to CLS to be approximately 0.50bp per hour,
+  leading to a total of roughly 1.5bp for the CLS settlement cycle." The institutional description
+  is explicit about the mechanism: "CLS settlement cycles take place on an hourly basis from 7 a.m.
+  to 12 a.m. on the actual value date. CLS members have to meet a pay-in schedule set by CLS in due
+  time. This requires large amounts of reserve balances to be transferred during specific time
+  slots."
+- **Caveats:** the measured object is the **Swiss franc overnight repo money market**, and the
+  estimate is an *implicit intraday rate* recovered from the overnight term structure, not an
+  executed FX price. This entry therefore establishes that a settlement deadline cluster is
+  **priced**; it does **not** establish an FX-spot price effect, and the register does not claim
+  that it does.
+- **Verification:** the SNB landing page for working paper 2010-06 was located and read (title,
+  both authors, issue 2010-06, date 31 January 2010, page count 31, JEL codes E58/G21/G28,
+  keywords); the full PDF text was returned through the search index and the abstract, the SIC/CLS
+  institutional description and the results section quoted above were read in that text; the
+  published JMCB version, its volume/issue/pages and its DOI were returned by the same query.
+
+### S-113 — Baig, A., Breeze, S., Cox, J. and Griffith, T. (2022) — "Settling down: T+2 settlement cycle and liquidity"
+*European Financial Management* **28**(5): 1260–1282 (November 2022).
+DOI https://doi.org/10.1111/eufm.12344
+- **Type:** Prior empirical result (author-reported); peer-reviewed journal article.
+- **Supports:** the **securities settlement cycle as a price-impact determinant** — the closest
+  published evidence that a settlement-window price effect exists outside the fix literature.
+  Verbatim from the deposited abstract: "We examine the effects of a shortened settlement cycle on
+  liquidity. Our difference-in-differences results show that securities listed on US stock exchanges
+  become more liquid, relative to similarly matched securities listed on the London Stock Exchange,
+  after the standard settlement cycle in the United States was reduced from T+3 to T+2 … we find that
+  securities that are more difficult-to-borrow experience the greatest gains in liquidity."
+- **Caveats:** the measured object is **equity liquidity (price impact)**, not FX prices, and the
+  treatment is the *shortening* of the cycle rather than the presence of a deadline cluster. This is
+  a baseline for the family, not evidence about any FX residual.
+- **Verification:** the Crossref record was fetched directly and read (title, all four authors and
+  their institutional affiliations, container title, volume 28, issue 5, pages 1260–1282, print date
+  November 2022, online date 28 November 2021, DOI, ISSNs 1354-7798 / 1468-036X, deposited abstract,
+  and the reference list, which identifies the SEC's 2017 settlement-cycle release as the
+  institutional antecedent).
+
+### S-114 — Bhanu, A., Nath, G. C. and Patnaik, T. (2024) — "Unlocking liquidity through shortened settlement cycle: Empirical evidence from India"
+*Economics Letters* **239**: 111736 (June 2024).
+DOI https://doi.org/10.1016/j.econlet.2024.111736
+- **Type:** Prior empirical result (author-reported); peer-reviewed journal article.
+- **Supports:** a **T+1-window price-impact result** in the closest available setting — a phased
+  move from T+2 to T+1 staggered by market capitalisation, which is a clean natural experiment.
+  Verbatim from the abstract: "We examine the impact of the shortened settlement cycle of T+1 on the
+  liquidity of stocks in the Indian equity market. Our results show that the T+1 settlement cycle
+  significantly improved liquidity, measured by bid-ask spreads, Amihud illiquidity and price impact
+  measures. … The effect of the T+1 settlement cycle is more pronounced in the tails of the
+  distribution of liquidity, and is also more significant for stocks of smaller firms."
+- **Caveats:** equities in India; the result runs **opposite** in sign to the intuition that a
+  shorter settlement cycle removes liquidity — a settlement-cycle shortening is published as a
+  *liquidity improvement*, not as a concession available to harvest.
+- **Verification:** the Crossref record was fetched directly (title, three authors with ORCIDs and
+  affiliations, container, volume 239, article number 111736, print date June 2024, DOI, ISSN
+  0165-1765, and the reference list, which identifies the SEC's 2023 "Securities Transaction
+  Settlement Cycle" release and the National Stock Exchange roadmap as the institutional
+  antecedents). The abstract text quoted above was returned by the search-index rendering of the
+  publisher page, not by the Crossref record itself.
+
+### S-115 — Shah, K. and Davda, N. (2026) — "T+1 Settlement and Market Quality: Evidence from India's Phased Rollout"
+SSRN working paper 6751741 (posted 14 May 2026; last revised 13 September 2026).
+DOI https://doi.org/10.2139/ssrn.6751741
+- **Type:** Prior empirical result (author-reported); **preprint, not peer reviewed**.
+- **Supports:** a **market-quality result for the same T+1 transition**, with the heterogeneity that
+  matters for a state-conditioned reading. Verbatim from the abstract: "The rollout proceeded in 27
+  weekly batches from February 2022 to January 2023, sequenced by ascending market capitalisation,
+  providing staggered treatment timing across 2,056 stocks … T+1 settlement significantly reduces
+  Parkinson volatility by 3.6% relative to its mean (β = -0.000034, p = 0.004) … treatment effects
+  on liquidity are heterogeneous — large-cap stocks experience significant illiquidity reductions
+  (β = -0.000669, p = 0.005), while mid-cap stocks face adjustment costs (β = 0.006928, p < 0.001)."
+  Sample: 898,181 stock-day observations, January 2021 to March 2023.
+- **Caveats:** a preprint; the abstract's own heterogeneity result (mid-caps *worse*) is a caution
+  against treating a settlement-cycle change as a uniform liquidity improvement. Used here only to
+  show that the T+1-window question has been studied in equities and that its published answers are
+  about volatility and liquidity, not about a harvestable price concession.
+- **Verification:** the SSRN record was located through the search index, which returned the title,
+  both authors and their affiliation (Maharaja Sayajirao University of Baroda), the posting and
+  revision dates, the abstract and the sample description, and the DOI. A direct fetch of
+  `papers.ssrn.com/sol3/papers.cfm?abstract_id=6751741` returned HTTP 403 and was not parsed; the
+  DOI resolver rendering was returned instead and is consistent with the SSRN record.
+
+### S-116 — Marshall, D. A. and Steigerwald, R. S. (2013) — "The role of time-critical liquidity in financial markets"
+*Economic Perspectives* (Federal Reserve Bank of Chicago) **37**(2), Q2 2013, 17 pp.
+https://www.chicagofed.org/publications/economic-perspectives/2013/2q-marshall-steigerwald
+- **Type:** Central-bank research article (descriptive and structural, not a peer-reviewed empirical
+  test).
+- **Supports:** the **institutional frame** in which a settlement deadline is a price determinant.
+  Verbatim: "a settlement payment, delivery of securities, or transfer of collateral must be made at
+  a particular location, in a particular currency (or securities issue), and in a precise time frame
+  measured not in days, but in hours or even minutes"; and: "the deadlines governing time-critical
+  payments typically are 'hard,' with little room for flexibility and with no possibility of
+  renegotiating the settlement obligation." The article quantifies the funding requirement of
+  settlement across sectors and documents the time-critical funding windows of CLS and the US
+  clearing houses.
+- **Caveats:** descriptive and institutional, with no price-effect estimate; it establishes that the
+  deadline is a hard funding constraint, not that it is priced. Used here for framing only.
+- **Verification:** the Chicago Fed article page and the article PDF were both returned by the search
+  index with the title, authors, volume/issue, the abstract, and the quoted passages read in the
+  returned text; an SSRN mirror record (abstract id 2386107) was also located.
+
+### S-117 — Federal Reserve Bank of New York, Global Foreign Exchange Division (2024) — "UST1 Update", FX Committee meeting, 22 May 2024
+https://www.newyorkfed.org/medialibrary/microsites/fxc/files/2024/T1_Update_May_2024.pdf
+- **Type:** **Institutional** — a central bank's market-committee presentation (an interested
+  participant of the FX market). Not peer reviewed.
+- **Supports:** (i) that the **post-US-close window is a live operational constraint** before and
+  after the transition: "Priority focus areas for FX centred on NY 4-6pm currency liquidity, funding
+  and system maintenance"; "CLS no change in midnight CET cutoff, cont. to analyze data through
+  transition"; and (ii) that the constraint was met by **earlier execution and pre-funding**, not by
+  a market participant earning a concession: "Identifying clients with large but period trading
+  patterns to de-risk impact of fails/funding", "NY trading desks likely to extend trading hours up
+  to 530-6pm, may not include Friday", "Ensuring trade is captured into CLS is a secondary
+  consideration".
+- **Caveats:** a central bank that is a participant in the market it describes; a slide deck, not a
+  study; no price measurement of any kind. It is used only for *what the market participants say
+  they did*, which is exactly the "where does the flow go" question.
+- **Verification:** the PDF was located through the search index and its text (slide headings, author
+  attribution "Dawson, Janet", date "New York 22 MAY 2024", Global Foreign Exchange Division) was
+  read in the returned rendering. The file itself is a binary PDF and was not parsed directly.
+
+### S-118 — Federal Reserve Bank of New York, FX Committee (2024) — meeting minutes, 22 May 2024
+https://www.newyorkfed.org/medialibrary/Microsites/fxc/files/2024/FXC-May-22-2024-Meeting-Minutes
+- **Type:** **Institutional** — a central bank market-committee minute. Not peer reviewed.
+- **Supports:** the closest thing to a *published market read on the existence of a post-close price
+  premium*: "there could be an uptick in price premium and market impact for trades executed later in
+  the NY trading day". This is the institutional counterpart to the academic evidence that the
+  settlement window is priced (S-112) and to the documented illiquidity of the window (S-119).
+- **Caveats:** this is a *forward-looking, hedged* statement by a market participant about a possible
+  effect — not a measurement. It is evidence that the market *expects* a price premium in the
+  post-close window; it is not evidence that the premium exceeds costs, and the register does not
+  treat it as such.
+- **Verification:** the PDF was located through the search index, which returned the quoted passage
+  in context; a direct fetch of the same URL returned a binary PDF that could not be parsed here.
+  The claim is therefore registered as **index-rendered**, not as a directly read document.
+
+### S-119 — Traders Magazine (2024) — "T+1 Triggers an FX Tech Evolution, not Revolution for Asset Managers", 21 May 2024
+https://www.tradersmagazine.com/am/t1-triggers-an-fx-tech-evolution-not-revolution-for-asset-managers/
+- **Type:** **Industry / vendor-sponsored** trade publication article (author shown as "SGX FX").
+  Not peer reviewed, and commercially interested.
+- **Supports:** the **documented structure of the post-US-close FX window**, which is the cost side of
+  the IDEA-006/IDEA-012 residuals. Verbatim: "there are no global markets open during this time,
+  roughly, less than 1% of trades in the $7 trillion OTC FX market are carried out in this window
+  which makes execution quite costly. This cost is exacerbated at 5pm (EST), when most of the large
+  investment banks shutdown their market making pricing engines for anywhere up to 30 minutes"; "As a
+  consequence, bid/ask spreads widen and liquidity shrinks".
+- **Caveats:** vendor-sponsored trade press; the "<1% of daily volume" figure is the publisher's own
+  characterisation and is not sourced to a data provider in the article. It is used as
+  *market-structure documentation*, not as a quantitative input.
+- **Verification:** the article was located through the search index, which returned the title, the
+  date (21 May 2024), the author attribution, and the quoted passages read in the returned text.
+
+### S-120 — ValueExchange (2024) — "The T+1 Playbook", August 2024
+https://thevx.io/wp-content/uploads/2024/08/T1-from-start-to-finish_ValueExchange-playbook.pdf
+- **Type:** **Institutional / industry** after-action report (asset-manager and vendor operations
+  reporting). Not peer reviewed.
+- **Supports:** the **post-transition market structure** and the *cost* of the settlement constraint.
+  Verbatim: "The US saw a market affirmation rate of 93-95%"; "Margin requirements for clearing
+  participants were reduced by 30-40% within the target, forecasted range"; "Fail rates across the
+  market did not dramatically increase, although some saw a small uptick in fails"; "The extended
+  cut-offs offered by the global custodians to offset CLS not changing their own deadline was seen as
+  a large factor in the success of the migration from an FX perspective"; "Spreads for European ETFs
+  investing into the US grew – especially on Thursdays – due to higher funding costs"; "Signs of
+  ETFs trading at a slight premium to accommodate the additional funding requirements".
+- **Caveats:** a practitioner report without an audited methodology; the numbers are the authors'
+  own. Used only for *published state availability and market-structure documentation*.
+- **Verification:** the report PDF was located through the search index and the quoted passages —
+  including the affirmation-rate table and the FX/funding-gap section — were read in the returned
+  document text.
+
+### S-121 — European Commission (2024) — Notice of the total number of allowances in circulation for 2023
+Communication C/2024/3415, *Official Journal of the European Union*, 3 June 2024.
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202403415
+- **Type:** Primary regulator publication (extends S-107 with the full supply/demand table).
+- **Supports:** two facts that bear directly on IDEA-013 and on a **general methodological rule**
+  now recorded as gap **G-13**. First, the definition: "TNAC for 2023 amounts to 1 111 736 535
+  allowances", computed as "the total number of allowances in circulation for the year 2023 … minus
+  the sum of (a) verified emissions for 2023 … and (b) the total number of allowances banked …
+  during 2023" — i.e. **TNAC is the cumulative surplus of allowances over cumulative verified
+  emissions**, i.e. the *aggregate banking position of the system*, not a level of allowances in
+  circulation in any naive sense. Second, the **publication calendar**: the same document states that
+  "the total number of allowances in circulation for 2022, which amounted to 1 134 794 738, was
+  published on 15 May 2023", and the Market Reserve Surplus rules inside the same text fix the
+  withholding thresholds (24% of TNAC above a 1 096 million threshold; full release of 100 million
+  allowances below a 400 million threshold), which reproduce the withheld quantity exactly
+  (0.24 × 1 111 736 535 = 266 816 768). The **publication date is always in late May or June of the
+  year following the emissions year**.
+- **Caveats:** the document is the official publication of the aggregate balance; it is a *state*
+  source, not a study. Note that the *verified emissions* component is published with the emissions
+  themselves, and the Commission's own text notes that emissions verified after 31 March are not
+  reflected in the TNAC calculation for that year.
+- **Verification:** the EUR-Lex OJ PDF was fetched directly and read (document number C/2024/3415,
+  publication date 3 June 2024, the TNAC arithmetic for 2023 and 2022, the Market Reserve Surplus
+  thresholds and the withheld quantity).
+
+### S-122 — Hedegaard, E. (2014) — "Causes and Consequences of Margin Levels in Futures Markets"
+AQR Working Paper, Arizona State University (W. P. Carey School of Business), 28 February 2014.
+https://www.aqr.com/Insights/Research/Working-Paper/Causes-and-Consequences-of-Margin-Levels-in-Futures-Markets
+- **Type:** Prior empirical result (author-reported); working paper, not peer reviewed.
+- **Supports:** the fact that the **exchange-published margin schedule is a studied, published
+  determinant of futures-market liquidity** — recorded in Cycle 5 so that the family is not
+  re-presented as new. Verbatim from the abstract: "Margin increases cause both hedgers and
+  speculators to reduce their open positions, and a margin increase for one contract causes funding
+  liquidity spillovers that affect price impact for all contracts. **I do not find a significant
+  effect of margin changes on the futures price level.** However, realized variance increases by 50%
+  on average on the day of a margin increase and remains high in the following weeks." And on the
+  setting rule: "the average percentage margin is set as a multiple of the volatility of the
+  particular contract and the percentage margin requirement is, on average, 2.5 times the daily
+  standard deviation of returns."
+- **Caveats:** a working paper; the margin data were obtained through a Freedom of Information Act
+  request for 16 commodity futures contracts over 2000–2011, so the *historical* margin schedule is
+  not a free public series. The registered claim is narrow: the family is published, and the
+  published sign is "liquidity and volatility, not price level".
+- **Verification:** the AQR landing page (title, author, date 28 February 2014, the summary) and the
+  working-paper PDF were both returned by the search index; the PDF's title page, abstract and
+  acknowledgement block were read in the returned text.
+
+### S-123 — Financial Conduct Authority (2024) — Occasional Paper 68, "EFT (Mis)pricing"
+https://www.fca.org.uk/publication/occasional-papers/op68-etf-mispricing.pdf
+- **Type:** **Institutional** research paper (regulator's own research), using regulatory datasets.
+- **Supports:** the fact that the **ETF primary-market arbitrage and AP-inventory mechanism is a
+  published object**, in the form the register's IDEA-010 and its neighbours would have to beat.
+  Verbatim from the summary: "Authorised Participants (APs), primarily market makers, possess the
+  right to create and redeem Exchange Traded Funds (ETF) shares based on market demand … Using a
+  novel regulatory dataset that covers the primary and secondary market transactions of 128 ETFs
+  from 2018 to 2022, we identify a connection between mispricing (the difference between ETF prices
+  and the Net Asset Value (NAV) of their underlying baskets) and AP's inventory … excess AP inventory
+  tends to widen discounts."
+- **Caveats:** the paper's own dataset (sponsor primary-market files plus the FCA's MiFID II
+  regulatory database) is **not public**, which is itself the feasibility fact relevant to IDEA-010
+  (whose AP-level data constraint is the same constraint this paper had to solve with a regulator's
+  data). The author list and publication date were not established in this pass and are not asserted
+  here.
+- **Verification:** the FCA PDF was returned by the search index and the summary and introduction,
+  including the dataset description and the March 2020 mispricing figures, were read in the returned
+  text.
+
+### S-124 — Swem, N. and Carapella, F. (2025) — "Crypto ETPs: An Examination of Liquidity and NAV Premium"
+FEDS Notes, Board of Governors of the Federal Reserve System, 28 March 2025.
+https://www.federalreserve.gov/econres/notes/feds-notes/crypto-etps-an-examination-of-liquidity-and-nav-premium-20250328.html
+- **Type:** **Institutional** (central-bank research note), author-reported.
+- **Supports:** the fact that the **crypto ETP primary-market premium is a documented, published
+  object**, with a stated mechanism. Verbatim: "crypto ETPs track NAV less-closely than other ETPs
+  and ETFs referencing assets of comparable liquidity"; "the relatively high degree of NAV premium
+  for crypto ETPs is due in part to the fact that crypto-asset markets … and equities markets … are
+  difficult for market participants to arbitrage"; and the monitoring point: "the degree of NAV
+  premium may provide helpful information for assessing the extent to which crypto asset markets and
+  equities markets are segmented."
+- **Caveats:** a research note, not peer reviewed; the analysis is descriptive and comparative; the
+  price-discovery implication in the closing paragraphs is the note's own interpretation.
+- **Verification:** the Federal Reserve FEDS Notes page was returned by the search index and the
+  title, both authors, the date and the two findings and the interpretation were read in the
+  returned text.
+
+### S-125 — Clapham, B. and Ewald, F. (2026) — "The Impact of Bitcoin Spot ETFs on Market Quality and Price Efficiency"
+SSRN working paper 7552327, 33 pages, posted 2 October 2026.
+https://papers.ssrn.com/sol3/Delivery.cfm/7552327.pdf?abstractid=7552327
+- **Type:** Prior empirical result (author-reported); **preprint, not peer reviewed**.
+- **Supports:** the fact that the **spot-ETF creation flow's effect on the underlying market is
+  published** — and, more importantly, that its published sign is a *liquidity-deterioration* result
+  rather than a concession. Verbatim from the abstract: "Rather than improvements in market quality
+  due to the introduction of Bitcoin ETFs, we find that top-of-book depth deteriorates robustly
+  relative to Ether, while trading volume rises substantially but only within U.S. trading hours,
+  when ETF and Authorized Participant activity is concentrated. Volatility and price efficiency show
+  no response, and direct measures of adverse selection do not increase. We interpret the liquidity
+  deterioration as an inventory-risk rather than an information-based effect: the ETF channels large,
+  uninformed demand into the spot market, making it busier but shallower."
+- **Caveats:** a preprint; intraday Coinbase and Kraken data for a four-month window around the
+  January 2024 launch; the identification is a difference-in-differences against Ether and the 30
+  most-correlated Nasdaq-100 stocks.
+- **Verification:** the SSRN delivery PDF was returned by the search index and the title, both
+  authors, their affiliation, the posting date, the abstract and the data design were read in the
+  returned text.
+
+---
+
 ## Source gaps (explicitly unresolved) — Cycle-5 verdicts
 
 The gap verdicts carried forward from Cycles 2–4 are restated below with the Cycle-5 outcome. The
@@ -2155,9 +2477,17 @@ current-state summary for the next agent.
 - **G-10 — the carry-crash and global-liquidity literature, and the cross-sectional funding-state
   claim. CLOSED, AGAINST IDEA-007.** See the Cycle-5 note below; this gap is the cycle's decisive
   finding and is the reason IDEA-007 is rejected as R-008.
-- **G-11 — the settlement-side deadline cluster.** Cycle-5 verdict recorded in IDEA-006 v1.2 and
-  IDEA-012 v1.1 and in the Cycle-5 notes; the residual is a *narrow* residual and both candidates
-  remain unproven and, in IDEA-012's case, data-blocked.
+- **G-11 — the settlement-side deadline cluster. CLOSED, AGAINST IDEA-006 AND IDEA-012.** Closed in
+  the Cycle-5 G-11 closure pass (S-112 … S-121): a settlement deadline cluster is a published price
+  determinant (S-112), the securities settlement cycle is a published price-impact determinant
+  (S-113, S-114, S-115), the FX settlement-risk premium is published (S-082, S-071), and the
+  post-US-close window is documented as a cost rather than an edge (S-117, S-118, S-119, S-120).
+  Both candidates are rejected (R-009, R-010). See the G-11 verdict at the end of this file.
+- **G-13 (new) — the decision-time availability of an official state.** Opened in Cycle 5: a
+  published state is usable as a decision-time variable only if it is published **before** the
+  decision. Established instance: the EU ETS aggregate balance (TNAC) is published in late May/June
+  of the following year (S-121), so it was unavailable at the pre-2023 surrender deadline and
+  decision-time available only from the 2023 compliance year. Now a screening condition.
 - **G-12 (new) — the *published-state* refinement of an already-published factor.** Opened in
   Cycle 5 as the generalisation of the IDEA-007 outcome. The register has now twice produced a
   candidate whose *only* remaining claim was "the same published effect, but conditioned on a
@@ -2371,22 +2701,64 @@ could not close G-03. Verdicts are recorded here so the negative results survive
   tradeable object. The cross-sectional residual therefore remains open; IDEA-007's v1.1 claim
   survives but is unproven.
 
-- **G-11 (new) — the settlement-side deadline cluster.** **PARTIALLY CLOSED.** The G-09 closure
-  established that the *fix* half of IDEA-006's cluster is published (S-075, S-076, S-077, S-074,
-  S-081), and no located fix paper tests the settlement side. Cycle 3 located the closest
-  published work on settlement-side mechanics as price determinants: Lee, Ranaldo and Tsuruga
-  (2026), "Settlement Risk and Currency Markets", IMF WP/26/156 (S-082), which uses Hungary's
-  2015 adoption of CLS payment-versus-payment settlement as a quasi-natural experiment and finds
-  that currency excess returns decline by about ten basis points after CLS adoption — i.e.
-  settlement risk is a *priced friction* in currency markets. Together with the already-registered
-  Ranaldo and Santucci de Magistris (2022), "Liquidity in the global currency market" (S-071,
-  JFE 146(3):859–883), which builds CLS-based settlement metrics and links them to currency risk
-  premia, this shows settlement-side mechanics matter for pricing. **However, neither paper tests
-  the specific settlement-side *deadline cluster*** — the CLS currency-close and pay-in cut-offs
-  and the post-US-close window created by the May 2024 T+1 transition (S-048, S-049) — as a
-  price determinant. So the specific claim IDEA-006's residual rests on remains untested, and
-  IDEA-006 v1.1 survives but is unproven. The asymmetry noted in Cycle 2 stands: a "nobody has
-  tested this" claim about the settlement side must be earned with the same rigour applied to the
-  fix literature, not assumed.
+- **G-11 (new) — the settlement-side deadline cluster.** **CLOSED, AGAINST IDEA-006 AND IDEA-012.**
+  The Cycle-5 closure pass (S-112 … S-121) located published work that tests a settlement deadline
+  cluster as a price determinant, and institutional documentation of the post-US-close FX window that
+  establishes the economics of the window as a **cost**, not an edge. Four findings carry the verdict.
+  (i) **The settlement deadline cluster is priced.** Kraenzlin and Nellen (2010, S-112) show, in the
+  Swiss franc overnight repo market, that after the introduction of CLS "the value of intraday
+  liquidity has increased during the hours of the CLS settlement cycle", with a structural break at
+  the CLS pay-in schedule, an estimated mark-up of "approximately 0.50bp per hour, leading to a total
+  of roughly 1.5bp for the CLS settlement cycle", and an explicit mechanism — "CLS members have to
+  meet a pay-in schedule set by CLS in due time. This requires large amounts of reserve balances to be
+  transferred during specific time slots." The claim that no located paper tests the settlement
+  deadline cluster as a price determinant is therefore false.
+  (ii) **The securities settlement cycle is a price-impact determinant, and the published sign is
+  "liquidity improves".** Baig, Breeze, Cox and Griffith (2022, S-113) find that shortening the US
+  cycle from T+3 to T+2 made US-listed securities *more liquid* relative to matched London-listed
+  ones; Bhanu, Nath and Patnaik (2024, S-114) find that T+1 "significantly improved liquidity"
+  relative to bid-ask spreads, Amihud illiquidity and price impact; Shah and Davda (2026, S-115,
+  preprint) find T+1 "significantly reduces Parkinson volatility by 3.6% relative to its mean" with
+  heterogeneity by size. The T+1-window price-effect literature exists, is peer reviewed where it
+  matters, and does not report a concession available to harvest.
+  (iii) **The settlement-risk premium in FX is already published** (S-082, S-071: Lee, Ranaldo and
+  Tsuruga; Ranaldo and Santucci de Magistris), so the general claim that "settlement-side mechanics
+  are a priced friction" is not a discovery.
+  (iv) **The post-US-close window is documented as structurally illiquid and expensive, and the
+  documented market response was to avoid it.** The New York Fed's own FX Committee material names
+  "NY 4-6pm currency liquidity" as the priority FX risk of the transition (S-117) and records the
+  market's expectation of "an uptick in price premium and market impact for trades executed later in
+  the NY trading day" (S-118); the trade press records that "less than 1% of trades in the $7
+  trillion OTC FX market are carried out in this window", that at 5pm ET "most of the large
+  investment banks shutdown their market making pricing engines", and that "bid/ask spreads widen and
+  liquidity shrinks" (S-119); the after-action reporting records that the market's own solution was
+  "the extended cut-offs offered by the global custodians" and pre-funding, not concession
+  capture (S-120). A concession that exists only in a window carrying under 1% of volume, with
+  pricing engines down for half an hour and spreads widening, is a **cost** for the obligated party
+  and is not harvestable after round-trip costs.
+  **Scope of the verdict.** What is *not* established by this closure: no located paper measures an
+  **FX-spot** price effect specific to the post-US-close window with the published fix effect removed.
+  That sliver is not a candidate, for three reasons recorded in R-009 and R-010: the two candidates
+  that claimed it stated the rule themselves — "If a published paper already shows a settlement-side
+  or T+1-window price effect, the candidate is rejected, not narrowed" — and that condition is now
+  met; the data required (intraday order-book or print data for the major pairs) are commercial, not
+  public; and the market-structure evidence (S-119, S-120) indicates the residual concession is
+  smaller than the cost of reaching it. **G-11 is closed and is not to be re-opened without a new
+  mechanism.**
+
+- **G-13 (new) — the decision-time availability of an official state.** Opened in Cycle 5 as the
+  generalisation of what the G-11 closure and the S-101 full-text check exposed: a state that is
+  *published* is not automatically usable as a **decision-time** variable. Two instances, both
+  verified this cycle: (i) the EU ETS aggregate balance (TNAC) is published annually in late May or
+  June of the year *following* the emissions year (S-121), so under the pre-2023 regime — when the
+  surrender deadline for emissions of year Y was 30 April of year Y+1 — the aggregate state for the
+  compliance year was published **after** the deadline it was supposed to inform, and became
+  decision-time available only from the 2023 compliance year (deadline 30 September 2024);
+  (ii) the same distinction applies to any regulatory or administrative state whose publication
+  calendar is not aligned with the deadline it describes. **The rule that follows:** a candidate whose
+  decision-time rule depends on an official state must record, for each observation, the *publication
+  date* of that state relative to the *decision date*; a state published after the decision can
+  support an explanatory decomposition but never a decision-time rule. This is now a screening
+  condition in the candidate template and in the state-proxy note.
 
 ---
