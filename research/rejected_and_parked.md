@@ -5,8 +5,8 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 64 complete, 2026-10-20. **44 rejections (R-001 … R-044), 12 parking records of
-which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 73-row known-baseline table.**
+Last updated: Cycle 65 complete, 2026-10-20. **45 rejections (R-001 … R-045), 12 parking records of
+which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 74-row known-baseline table.**
 Cycle 59 added **R-039** (the **published-price-of-a-constraint** family — repo specialness, securities-
 lending fee curves, CDS financing spreads, standing-repo award rates — bounded negative, the register's
 **first screen of a *published-price-of-a-constraint* family** and the first screen run in the explicit
@@ -19,8 +19,8 @@ negative, the register's first screen of a *fee/toll* state-kind family) as **ro
 **R-041** (the published count or queue state at decision date — template D, bounded negative) as **row 70**.
 Cycle 62 added **R-042** (the published reserve/availability/headroom state at decision date — template E,
 bounded negative) as **row 71**. Cycle 63 added **R-043** (the published constraint breach / non-compliance
-events family — template F, bounded negative, screened state-first with G-12 first) as **row 72**. No new
-`S-` identifier was consumed across Cycles 60–63; no candidate was created; no score changed. Cycle 58 added
+events family — template F, bounded negative, screened state-first with G-12 first) as **row 72**. Cycle 64 added **R-044** (the published constraint waiver/amendment events family — template G, bounded negative) as **row 73**. Cycle 65 added **R-045** (the published regulatory change-of-law state at decision date — template H, bounded negative) as **row 74**. No new
+`S-` identifier was consumed across Cycles 60–65; no candidate was created; no score changed. Cycle 58 added
 **R-037** (the contractual-barrier-hedging family — the published knock-out level and the
 issuer's hedging discontinuity — bounded negative, the register's first screen of a *contractual-barrier*
 family) and **R-038** (the **rejection of IDEA-002 FUNDSTATE**, whose parking P-004 was closed), and
@@ -1427,6 +1427,7 @@ to baselines.
 | **Published reserve/availability/headroom state at decision date (added in Cycle 62)** | **Published reserve/headroom levels exist as baseline indicators (margin cushion, available capacity, position-limit headroom, inventory availability), but bounded-negative family screen (R-042).** Reserve/headroom levels are widely published as baseline indicators already embedded in price formation and do not constitute unclaimed sign-determining states that flip sign/existence of known published effects; conditioning changes magnitude in published work more often than sign/existence in an unclaimed way; many measures are fixed schedule-level or published with a lag; where public and widely observed, effects are anticipated or already embedded in prices; no feasible clean test with an unclaimed mechanism. **Dated re-screen condition:** re-screen only if a continuously published, decision-time reserve/availability/headroom state shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
 | **Published constraint breach / non-compliance events at decision date (added in Cycle 63)** | **Published constraint breach / non-compliance events exist as institutional event series (margin violations, position-limit breaches, enforcement actions, covenant breaches), but bounded-negative family screen (R-043) — the register's first screen of template (F).** Event publication is a third-party obligation to disclose rather than a constrained flow from which the screen extracts a concession; published breach events are lagged, security-specific and already embedded in price formation (an enforcement action or breach disclosure is itself price-moving information); to change sign/existence (G-12) rather than just size, an unclaimed sign-determining instance would need a published threshold that flips whether an action is worthwhile, published *before* the decision and not already claimed — no such general-family instance was identified; the effective sample is the number of breaches, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. **Dated re-screen condition:** re-screen only if a continuously published, decision-time breach/non-compliance event series shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
 | **Published constraint waiver/amendment events at decision date (added in Cycle 64)** | **Published constraint waiver/amendment events exist as institutional event series (covenant waivers, position-limit amendments, margin-requirement amendments, regulatory forbearance notices, contractually published renegotiation outcomes), but bounded-negative family screen (R-044) — the register's first screen of template (G).** Event publication is a third-party disclosure obligation rather than a constrained flow conceding an edge; published waiver/amendment events are lagged, security- or issuer-specific and already embedded in price formation; conditioning changes terms or sizing (magnitude) rather than sign/existence in any unclaimed way; the effective sample is the number of waivers/amendments, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. **Dated re-screen condition:** re-screen only if a continuously published, decision-time waiver/amendment event series shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
+| **Published regulatory change-of-law state at decision date (added in Cycle 65)** | **Changes of law or regulation with published effective dates exist as institutional series, but bounded-negative family screen (R-045) — the register's first screen of template (H).** A change of law is published in advance and anticipated; it changes terms and magnitude far more often than sign or existence in an unclaimed way; the constrained party adjusts for its own account, so there is no third-party concession flow to harvest (the S-151 analogue); the effective sample is the number of changes of law, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. No unclaimed sign-determining instance meeting G-12 was identified for the general family. **Dated re-screen condition:** re-screen only if a change of law creates a dated, price-insensitive, non-discretionary flow executed by a participant other than the obligor, with a **published list of affected securities** and an **unclaimed sign**, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
 ---
 
 ## Rediscovery guard
@@ -2020,3 +2021,25 @@ advice):
 **Dated re-screen condition:** Re-screen only if a continuously published, decision-time waiver/amendment event series shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions.
 
 **Decision:** **bounded negative (R-044).** The published constraint waiver/amendment events family is recorded in the known-baseline table (**row 73**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**, because the reasons are independent of data availability — no unclaimed sign-determining instance meeting G-12 was found for this family.
+
+---
+
+## R-045 — Published regulatory change-of-law state at decision date (template H) — bounded negative
+
+**Family screened (state-first):** A published change of law or regulation — statute, regulation, or exchange/clearinghouse rule — with a published effective date that alters an obligation or constraint applicable to a participant class, where the change is published before the decision date. Screened against literature with strict bar (published decision-time state, sign-determining not just magnitude, unclaimed sign, no published baseline, feasible clean test; Cycle-52 third test). **This is the register's first screen of template (H).**
+
+**Reasons (independent):**
+
+1. **Published in advance, so anticipated.** A change of law is enacted and published with an effective date (legislative passage, notice-and-comment, rule adoption) well before it binds, so any flow it creates is anticipated by the market before the decision date. G-13 passes for availability but that is the defect: there is no unclaimed informational asymmetry and any reaction is priced in anticipation.
+
+2. **Fails G-12 (sign/existence).** A change of law changes the terms, coverage or cost of an obligation; it changes magnitude far more often than it changes the sign or existence of a known published effect in an unclaimed way. No instance was identified where a published change of law flips the existence of a known effect without the sign already being claimed.
+
+3. **The constrained party is the obligor (S-151 analogue).** The party bound by the new law adjusts for its own account; no third party is forced to trade at a concession that another participant can harvest, so there is no S-151 analogue to extract.
+
+4. **Effective sample is small.** Changes of law are discrete, dated, infrequent events — a handful of episodes per jurisdiction, not securities × dates — so a positive rule would have almost no degrees of freedom.
+
+5. **Anticipation and competition wash out the residual.** Where the change is public and widely observed, participants pre-position; any residual is competed away or already embedded in published baselines.
+
+**Dated re-screen condition:** Re-screen only if a change of law creates a dated, price-insensitive, non-discretionary flow executed by a participant other than the obligor, with a **published list of affected securities** and an **unclaimed sign** that the literature shows is sign-determining and not already claimed.
+
+**Decision:** **bounded negative (R-045).** The published regulatory change-of-law state family is recorded in the known-baseline table (**row 74**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**, because the reasons are independent of data availability — no unclaimed sign-determining instance meeting G-12 was found for this family.

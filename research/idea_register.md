@@ -4,8 +4,8 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 63 complete** (Cycle 63 executed the register's state-kind screen template F —
-published constraint breach / non-compliance events — as a bounded negative R-043, wrote it to the
+Last updated: **Cycle 65 complete** (Cycle 65 executed the register's state-kind screen template H —
+published regulatory change-of-law states at decision date — as a bounded negative R-045, wrote it to the
 known-baseline table as row 72, settled all maintained gaps without creating a candidate, and changed no
 score).
 (13F is long-only and aggregated; 13D/13G are beneficial-ownership disclosures; FINRA short interest is an

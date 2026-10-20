@@ -1,16 +1,15 @@
 # SOURCE LEDGER — CYCLES 1–63
 
-Cycle 63 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
+Cycle 65 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
 substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation,
 V-009 not amended), G-30 (exhausted, V-010 non-executable), IDEA-014 (inconclusive, no gap),
 G-32 limb (c) and G-33 re-check (dated 2027 Q3) with no re-runs**, and **one new state-kind screen**
-— the **published constraint breach / non-compliance events** family (margin violations, position-limit
-breaches, enforcement actions, covenant breaches; template F) — logged as a **bounded negative (R-043)**
-on five independent reasons, with **no `S-` identifier consumed**. Cycle 63 also produced the **"Cycle 63
+— the **published regulatory change-of-law state at decision date** family (statute/regulation/rule changes with published effective dates altering obligations; template H) — logged as a **bounded negative (R-045)**
+on five independent reasons, with **no `S-` identifier consumed**. Cycle 65 also produced the **"Cycle 65
 gap verdicts"** block at the end of this file. **No score changed, no candidate was created, no `V-`
 specification was created, amended or withdrawn, and no `G-` identifier was opened.** The register now
 holds **S-001 … S-209** and **S-220 … S-309** — **299 verified sources**; the identifiers **S-210 … S-219**
-remain reserved and unused. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-044, P-014.**
+remain reserved and unused. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-046, P-014.**
 
 Cycle 62 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
 substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation), G-30
@@ -8190,3 +8189,25 @@ The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank
 rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
 falsifiability (4 versus 3). New identifiers consumed: **R-043** only. No `S-`, `V-`, `IDEA-` or `G-`
 identifier was consumed or opened. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-044, P-014.**
+
+---
+
+## Cycle 65 gap verdicts
+
+Cycle 65's verdicts are recorded here in the file's standard form. **No verdict, no gap closure and no score changed** — the verdicts below are the ones Cycle 65 reached; what was missing was their location, not their content.
+
+| Gap / limb | Candidate | Cycle-65 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null.** No re-run/search. V-002 frozen. | **G-28 remains OPEN and FROZEN.** No score change. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **New state-kind screen — Template (H): published regulatory change-of-law state at decision date** | — | **Bounded negative (R-045); added to known-baseline table as row 74.** Screened state-first with G-12 first. No candidate created, no score changed, no gap opened. | R-045 consumed (Cycle 65). No `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened. |
+
+**Cycle-65 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0,
+rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five
+rejected. New identifiers consumed: **R-045** only. No `S-`, `V-`, `IDEA-` or `G-` identifier was consumed
+or opened. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-046, P-014.**
