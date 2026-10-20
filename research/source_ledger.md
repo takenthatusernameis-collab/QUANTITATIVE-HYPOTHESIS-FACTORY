@@ -1,4 +1,24 @@
-# SOURCE LEDGER — CYCLES 1–43
+# SOURCE LEDGER — CYCLES 1–51
+
+Cycle 51 (2026-10-20) added **S-247 … S-251** (see "Cycle 51 sources" at the end of this file), a
+**backfilled "Cycles 44–50 gap verdicts" block** (none of those seven cycles wrote a verdict block into
+this file, so their verdicts existed only in the cycle log and the handoff — a state-integrity gap of the
+same kind as the Cycle-37 and Cycle-40 repairs) and the **"Cycle 51 gap verdicts"** block. Cycle 51's
+substantive work was the register's **first screen of a *price-formation* family**: randomised closing
+prices (a venue drawing the official close randomly inside an order-book-determined range) and real-time
+closing-auction imbalance publication, screened as one family and logged as a **bounded negative (R-031)**
+on five independent reasons — the mechanism is published prior art (S-247, S-248, S-249, with S-149 and
+S-150 already held), a randomised close is a *symmetric* draw with no sign-determining state and a
+single-price auction cannot express the compensation for the draw in the price, the exchange designs the
+imbalance publication to attract offsetting interest so the concession is competed away inside the auction
+(S-251), the settlement channel does not propagate (S-250) and the register's own instrument universe has
+no randomised close at all (S-251), and the cost floor plus the proprietary nature of the decision-time
+state leave nothing harvestable. Cycle 51 also repaired two defects in the rejection log — the missing
+**R-025** entry (its identifier was consumed in Cycle 45 but never written) and the orphaned **R-029**
+rationale that had been left under the R-030 entry — and corrected that log's own header counts against
+the file (the header had claimed 28 rejections where the file held 29 entries, R-025 having none). The
+register now holds **S-001 … S-209** and **S-220 … S-251**; the identifiers
+**S-210 … S-219** remain reserved and unused.
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -5702,3 +5722,205 @@ The screen, its instances and its four reasons are recorded in `rejected_and_par
 - **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
 - **New identifiers consumed in Cycle 43:** rejection **R-023** (the margin-schedule-switch family screen). No `IDEA-`, `S-`, `V-`, or `G-` identifiers were consumed.
 - **Next free identifiers:** **IDEA-017, S-247, V-012, G-32, R-024, P-014**. The reserved-and-unused identifiers remain as before.
+
+---
+
+## Cycle 51 sources (2026-10-20)
+
+Added for the Cycle-51 family screen of **closing-price formation** (randomised closes and real-time
+closing-auction imbalance publication), logged as **R-031**. Five new sources; the register now holds
+**S-001 … S-209** and **S-220 … S-251**.
+
+### S-247 — Ellul, A., Shin, H. S. and Tonks, I. (2005)
+"Opening and Closing the Market: Evidence from the London Stock Exchange." *Journal of Financial and
+Quantitative Analysis* 40(4): 779–801.
+DOI: https://doi.org/10.1017/S0022109000001976
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the LSE's call-market opening and closing auctions are a studied institutional mechanism —
+  the paper documents the call market's price-discovery properties relative to off-exchange dealing,
+  failure rates, and trading costs that rise with the order imbalance and with asymmetric information.
+  This is the published anchor for the *closing-mechanism* family: how the close is formed is
+  documented, not an open question.
+- **Caveats:** 2005 sample; London-specific; the paper is about the call market's price discovery and
+  costs, not about randomised price formation as such.
+- **Verification:** Cambridge Core landing page (title, authors, volume, issue, pages, DOI) read through
+  the search index; the LSE working-paper version (Financial Markets, Institutions and Instruments
+  discussion paper dp506) was seen in the search index with the passage describing the LSE closing
+  call's random end within a bounded window.
+
+### S-248 — Chelley-Steeley, P. (2009)
+"Price synchronicity: The closing call auction and the London stock market." *Journal of Financial
+Markets, Institutions and Money* 19(5): 777–791.
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the introduction of the LSE's closing call auction is measured for its market-quality
+  effects (price synchronicity, spreads, depth), with larger effects in less liquid names. The
+  *market-quality* consequences of a closing-auction redesign are therefore published prior art.
+- **Caveats:** one venue, one design change, 2000s sample; the paper is a design evaluation, not a
+  statement about any tradeable concession.
+- **Verification:** RePEc/IDEAS bibliographic record (author, title, journal, volume, issue, pages) read
+  through the search index; the publisher page was not parsed directly in this session and the DOI was
+  not verified.
+
+### S-249 — Eom, K. S., Kwon, K. Y. and Park, J.-H. (2021)
+"Effectiveness of the conditional random-end trading mechanism on the Korea Exchange: Normal trade and
+Option Shock." *Journal of Futures Markets* 41(10): 1545–1568.
+DOI: https://doi.org/10.1002/fut.22223
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** randomised end-of-auction mechanisms are a published mechanism family. The Korea
+  Exchange's conditional random end is reported to improve price discovery and stabilise the closing
+  price in normal trading, with the benefit attenuating under high-volatility ("option shock")
+  conditions — i.e. the randomised close is studied and its effects are characterised.
+- **Caveats:** one exchange, one mechanism design, 2010s sample; the paper is not a study of a
+  harvestable pre-close concession.
+- **Verification:** citation metadata (authors, title, journal, volume, issue, pages, DOI) verified
+  through the DOI resolver's Crossref record; the publisher article page returned HTTP 403 to the
+  fetch, and the abstract was read through the search index.
+
+### S-250 — Eurex Exchange (venue documentation)
+"FTSE 100 Index Futures (FTUK)" — contract specifications (product page).
+URL: https://www.eurex.com/ex-en/markets/idx/ftse/ftse-100/ftse-100-derivatives/FTSE-100-Index-Futures-2593796
+- **Type:** Venue documentation (exchange product page).
+- **Supports:** the settlement channel of the one major complex where a randomised cash close sits next
+  to a liquid futures market. The page states that the final settlement price "is established by Eurex
+  on the final settlement day of the contract and is determined by the value of the FTSE 100 Expiry
+  Index as calculated by FTSE International Limited following the Exchange Delivery Settlement Price
+  ('EDSP') intraday auction on the London Stock Exchange", and that the daily settlement price for the
+  current maturity month is "the volume-weighted average of the prices of all transactions during the
+  minute before 17:30 CET". Both are determined **after** the cash close is known, so the randomness of
+  the cash close does not reach the futures' settlement value.
+- **Caveats:** a product page, not the rulebook; the EDSP auction's own micro-description is not on
+  the page; Eurex and ICE specifications differ in detail, so this is an illustration of the
+  decoupling rather than a universal statement.
+- **Verification:** page fetched directly (contract-specifications section read in full, including the
+  settlement and final-settlement paragraphs quoted above).
+
+### S-251 — U.S. Securities and Exchange Commission / NYSE (primary regulatory material)
+89 FR 19370–19374 (18 March 2024), SEC Release No. 34-99719, File No. SR-NYSE-2024-13, "Notice of
+Filing of Proposed Rule Change for Amendments to Rule 7.35 and Rule 7.35B"; approval order SEC Release
+No. 34-100327 (13 June 2024).
+URL: https://www.govinfo.gov/content/pkg/FR-2024-03-18/html/2024-05632.htm
+- **Type:** Primary regulatory material.
+- **Supports:** two facts that the Cycle-51 screen needs. (i) **The decision-time state of a closing
+  auction is a real-time, paid-feed series**: "Beginning ten minutes before the scheduled end of Core
+  Trading Hours, the Exchange begins disseminating through its proprietary data feed Closing Auction
+  Imbalance Information", which "includes the Continuous Book Clearing Price" and "an Imbalance
+  Reference Price", is "updated at least every second … until the Closing Auction begins", and is
+  supplemented by paired/unpaired quantities; the exchange states that publishing it "could facilitate
+  entry of offsetting orders and the price discovery process" and "could also attract additional
+  contra-side interest, thereby decreasing volatility" — the exchange designs the publication to
+  attract offsetting interest, which is the competition-away mechanism in the screen's third reason.
+  (ii) **The US close is not randomised**: "In 2022, the Exchange made further changes to the Closing
+  Auction, including adding price parameters within which the DMM must select a Closing Auction Price,
+  in order to make the Closing Auction more transparent and deterministic" (Release No. 95691,
+  87 FR 56099).
+- **Caveats:** US-only, and the rule text is as of 2024; the approval order's own text was read only
+  through the search index; the NYSE also states that D Orders were 42.7 % of closing-auction volume
+  as of Q3 2023, which is an interested party's own figure.
+- **Verification:** the Federal Register text (89 FR 19370–19374) was fetched directly from govinfo and
+  read in full; the approval order (SEC Release No. 34-100327) and the 2022 amendment's own text were
+  read through the search index.
+
+---
+
+## Cycles 44–50 gap verdicts (backfilled by Cycle 51 — these seven cycles never had a verdict block in this file)
+
+**Why this block exists.** Cycles 44 through 50 each recorded their gap verdicts in `cycle_notes.md` and in
+the handoff, but none wrote a verdict block into this file, which is the register's canonical home for gap
+verdicts (the same state-integrity gap that Cycle 37 repaired for Cycle 36 and Cycle 40 repaired for Cycles
+38–39). Cycle 51 backfilled the verdicts from the cycle log. The verdicts themselves are unchanged by the
+backfill; only their location is repaired.
+
+### G-30 — all routes outside the statutory prospectus exhausted (IDEA-010), confirmed in every cycle
+- **Cycle 44** re-checked sponsor-published participant lists (iShares, Vanguard, PGIM, T. Rowe Price,
+  State Street/SPDR, Fidelity) and exchange listing-rule filings (Nasdaq Rule 5704, NYSE Arca filings):
+  no requirement that an ETF publish its authorised participants; no route found.
+- **Cycles 45–50** each reconfirmed the same closure (regulatory route closed in Cycle 41; sponsor-published
+  lists not found in Cycles 42–43; non-US/UCITS issuers not found in Cycle 42; exchange listing rules
+  no public disclosure requirement in Cycle 43). No new route was identified in any of the seven cycles.
+- **Verdict:** unchanged — **G-30 is exhausted, not open**; V-010 remains non-executable against the
+  corporate-bond ETF universe; do not re-probe statutory filings.
+
+### G-27 / G-30 counts — unchanged from Cycle 40 in every cycle from 44 to 50
+6,131 X-17A-5 documents from 2,419 distinct filers (lower bound); 10-Q 1,151 documents / 66 filers; 10-K
+737 / 96; Form FR Y-9C not indexed by EDGAR full-text search; private-AP capital state annual (9–14 months
+stale). No cycle produced a new route, so no re-derivation was triggered.
+
+### G-28 — remains frozen (IDEA-004); V-002 frozen
+No published convergence-crowd concentration measure was located in any of Cycles 44–50; the null was
+recorded each cycle and the verdict is unchanged.
+
+### G-21 (IDEA-011) and IDEA-014's state-free limb — null and inconclusive maintained
+No new source was identified in any of Cycles 44–50; the recorded null and inconclusive verdicts stand.
+
+### The seven family screens (R-024 … R-030) — all bounded negatives
+- **R-024 (Cycle 44)** — capacity/inventory-switch constraint: the switch is published in advance, the
+  constrained flow is the obligor's own, the effect is published, and the effective sample is the number of
+  rule changes.
+- **R-025 (Cycle 45)** — tax/settlement-mandate switch: the sign is published (S-113, S-114, S-115), the
+  constrained party is the market as a whole, and the effective sample is small. *Entry written for real
+  in Cycle 51.*
+- **R-026 (Cycle 46)** — exchange fee/schedule change: anticipated, broad-based cost change, no
+  third-party concession, limited sample.
+- **R-027 (Cycle 47)** — rating-threshold crossing (fallen-angel): published baseline, anticipated, no
+  unclaimed sign, limited sample.
+- **R-028 (Cycle 48)** — IPO lock-up expiry: published baseline, discretionary insider selling,
+  anticipated, no unclaimed sign.
+- **R-029 (Cycle 49)** — scheduled options-expiry (OPEX) dealer-hedging flow: published baseline,
+  anticipated, the constrained flow is the dealer's own hedging, limited effective sample. *Rationale
+  repaired in Cycle 51 (it had been orphaned under R-030).*
+- **R-030 (Cycle 50)** — information-mandate timing with third-party flow / exchange rule changes creating
+  targeted concessions: published baselines for the filing deadlines, anticipated exchange rule changes, no
+  unclaimed sign with a clean mechanism.
+
+### Cycles 44–50 ranking and identifier record
+- **No candidate was created and no score changed in any of the seven cycles.** The active ranking was and
+  remains: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0),
+  IDEA-014 (52.0)**.
+- **Identifiers consumed:** R-024 (Cycle 44), R-025 (Cycle 45), R-026 (Cycle 46), R-027 (Cycle 47),
+  R-028 (Cycle 48), R-029 (Cycle 49), R-030 (Cycle 50). No `IDEA-`, `S-`, `V-` or `G-` identifier was
+  consumed in any of the seven cycles.
+
+---
+
+## Cycle 51 gap verdicts (2026-10-20)
+
+### G-30 — **exhaustion confirmed; no re-probe** (IDEA-010)
+All sub-routes remain closed (regulatory: Cycle 41; sponsor-published lists: Cycles 42–43; non-US/UCITS
+issuers: Cycle 42; exchange listing rules: Cycle 43) and no new route was identified in Cycles 44–50 or in
+Cycle 51. **V-010 remains non-executable against the corporate-bond ETF universe.** The register's standing
+instruction to the next agent is unchanged: *do not re-run statutory filings, and do not substitute a
+published crowding proxy (S-026, S-157, S-222 measure different crowds)*.
+
+### G-28 — **remains frozen; null recorded** (IDEA-004); V-002 frozen
+No published convergence-crowd concentration measure was located. The FINRA twice-monthly short-interest
+route remains a lead with objections (per-issue aggregate, no firm-level breakdown, contamination of the
+short leg, and short interest is already published prior art for merger-arb activity (S-241), arbitrage
+crowding (S-242) and daily crowding inference (S-243)). **No new literature was found in Cycle 51 and none
+is required: G-28 stays frozen and V-002 stays frozen.**
+
+### G-21 (IDEA-011) and IDEA-014's state-free limb — **null and inconclusive maintained**
+No new source was identified in Cycle 51 and none was sought beyond the screening required by the Cycle-51
+family screen. The recorded verdicts stand unchanged.
+
+### The Cycle-51 closing-price-formation family screen — logged as **R-031**
+Randomised closes (a venue drawing the official close randomly inside an order-book-determined range) and
+real-time closing-auction imbalance publication were screened as one family: **the register's first screen
+of a *price-formation* family**, where every earlier screen (R-012 … R-030) covered obligations, switches,
+supply schedules or expiry-driven flows. Verdict: **bounded negative** on five independent reasons —
+published baseline (S-247, S-248, S-249, with S-149/S-150 already in the ledger); no sign-determining
+state, and a single-price auction cannot express the compensation for the draw in the price; the
+concession is competed away inside the auction by the exchange's own design (S-251); the settlement channel
+does not propagate (S-250) and the register's own instrument universe has no randomised close (S-251); and
+the cost floor plus the proprietary nature of the decision-time state leave nothing harvestable. The screen,
+its instances, its five reasons and its dated re-screen condition are recorded in `rejected_and_parked.md`
+under **R-031**, and the family was added to the known-baseline table.
+
+### Cycle-51 ranking and identifier record
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0,
+  rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
+- **New identifiers consumed in Cycle 51:** source **S-247 … S-251** (the closing-price-formation
+  literature and venue documentation); rejection **R-031** (the closing-price-formation family screen).
+  No `IDEA-`, `V-` or `G-` identifier was consumed. **Identifier R-025 was *not* re-consumed** — its entry
+  was written for real instead.
+- **Next free identifiers:** **IDEA-017, S-252, V-012, G-32, R-032, P-014**. The reserved-and-unused
+  identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

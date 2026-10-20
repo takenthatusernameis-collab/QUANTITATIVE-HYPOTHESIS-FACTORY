@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–42
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–51
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -154,6 +154,32 @@ issuers: no published AP set was found for any US-listed corporate-bond ETF. V-0
 prospectus. **V-002 remains frozen** pending G-28; **V-001, V-004, V-005, V-006 and V-007 remain
 withdrawn**; **V-003 is never-to-execute**. The logging of R-022 (the benchmark-methodology-change
 family screen) creates no validation specification.
+
+**Cycles 43–50 update — no specification withdrawn, none added, none amended in any of the eight
+cycles.** No candidate entered or left the top three and no score changed in any of them, so the
+executable set is unchanged in membership throughout: **V-008, V-009 and V-010** are executable as
+specified (V-009 unchanged; **V-010 with the Cycle-40 amendment**), **V-002 remains frozen** pending
+G-28, **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**, and **V-003 is never-to-execute**. The
+eight family screens logged in that window (R-023 … R-030) each produced a bounded negative and created
+no validation specification; G-30 was reconfirmed exhausted in every one of them and G-28 remained
+frozen.
+
+**Cycle 51 update — no specification withdrawn, none added, none amended.** No candidate entered or
+left the top three and no score changed. **G-30 is exhausted, not open**: all sub-routes (regulatory —
+Cycle 41; sponsor-published lists — Cycles 42–43; non-US/UCITS issuers — Cycle 42; exchange listing
+rules — Cycle 43) remain closed and no new route was identified in Cycles 44–50 or in Cycle 51, so
+**V-010 remains non-executable against the corporate-bond ETF universe** and must not be executed against
+a substituted crowding proxy. **V-002 remains frozen** pending G-28 (null recorded again; no published
+convergence-crowd concentration measure located). The **G-21 null** and **IDEA-014's inconclusive
+state-free verdict** are maintained. The Cycle-51 family screen — **closing-price formation: randomised
+closes and real-time closing-auction imbalance publication**, logged as **R-031** — is a bounded negative
+and creates no validation specification. **One input note for any future validator**: S-150 establishes
+that closing-auction price impact is *lower* than the continuous market's for all stocks except Nasdaq
+micro-caps, and S-251 establishes that the NYSE's Closing Auction Imbalance Information (Continuous Book
+Clearing Price, Imbalance Reference Price) is disseminated on the exchange's proprietary feed from ten
+minutes before the close and updated at least every second — so a specification that chooses to execute
+in the closing auction must price that venue's costs and its data dependency explicitly. No
+specification was added, withdrawn or amended in Cycle 51.
 
 ---
 

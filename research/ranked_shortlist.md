@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–43
+# RANKED SHORTLIST — CYCLES 1–51
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base
@@ -135,6 +135,27 @@ specification, **V-010**, is written in this cycle.
 ---
 
 ## Table
+
+*Cycle-51 ranking. **No score changed.** The order remains **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
+(68.0), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3); IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002 (63.0) remain parked.
+Cycle 51 executed the six priorities from the Cycle-50 handoff and changed no ranking: (i) **G-30
+(IDEA-010) exhaustion confirmed** with no re-probe of statutory filings, so **V-010 remains
+non-executable** against the corporate-bond ETF universe and no published crowding proxy may be
+substituted; (ii) **G-28 (IDEA-004) remains frozen and V-002 remains frozen**, the null recorded again —
+no published convergence-crowd concentration measure was located, and the FINRA twice-monthly
+short-interest route stays a lead with objections; (iii) the **G-21 (IDEA-011) null and IDEA-014's
+state-free limb's inconclusive verdict** were maintained, no new source being identified; (iv) the
+register's **first price-formation family screen** was run and logged as **R-031** (bounded negative) —
+randomised closing prices and real-time closing-auction imbalance publication, a family genuinely
+different from every family closed in R-014–R-030, with five independent reasons and a dated re-screen
+condition, on five metadata-verified sources (S-247 … S-251); (v) two state-integrity repairs were
+carried out in the rejection log (the missing **R-025** entry was written for real, and the orphaned
+**R-029** rationale was merged back out of the R-030 entry) and the Cycles 44–50 gap-verdict block was
+backfilled into the source ledger; (vi) the register's own counts and the README's next-free identifiers
+were re-derived from the files. **No candidate was created, no score changed, no validation specification
+was added, withdrawn or amended.** New identifiers consumed: **S-247 … S-251** and **R-031**; next free
+identifiers: **IDEA-017, S-252, V-012, G-32, R-032, P-014**.
 
 *Cycle-40 ranking. **No score changed.** The order remains **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
 (68.0), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on

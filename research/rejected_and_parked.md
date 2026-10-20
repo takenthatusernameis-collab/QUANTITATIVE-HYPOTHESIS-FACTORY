@@ -5,14 +5,24 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 49 complete, 2026-10-20. **28 rejections (R-001 … R-029), 12 parkings
-(P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
+Last updated: Cycle 51 complete, 2026-10-20. **31 rejections (R-001 … R-031), 12 parkings
+(P-001 … P-012), 63-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
-constraint family — bounded negative). Cycle 45 added **R-025** (the tax/settlement-mandate switch family — bounded
-negative). Cycle 46 added **R-026** (the exchange fee/schedule change family — bounded negative). Cycle 40 also
-**merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
+constraint family — bounded negative). Cycle 45 **consumed the identifier R-025** (the tax/settlement-mandate switch
+family) but never wrote its entry into this file; Cycle 51 **wrote R-025 for real** rather than re-consuming the
+identifier (the same repair the register made for R-017 in Cycle 37). Cycle 46 added **R-026** (the exchange
+fee/schedule change family — bounded negative). Cycle 47 added **R-027** (the rating-threshold-crossing family —
+bounded negative). Cycle 48 added **R-028** (the IPO lock-up expiry family — bounded negative). Cycle 49 added
+**R-029** (the dealer-hedging-at-option-expiry family — bounded negative). Cycle 50 added **R-030** (the
+information-mandate-timing-with-third-party-flow family — bounded negative). Cycle 51 added **R-031** (the
+randomised / imbalance-guided closing-price-formation family — bounded negative) and **repaired two structural
+defects**: the R-029 rationale that had been orphaned under the R-030 entry was merged back into R-029, and the
+file's own header counts were corrected against the file (the previous header claimed 28 rejections and a 62-row
+baseline table; the file actually held **29 rejection entries** — R-025 having no entry — and a **62-row** table,
+so the baseline count was right and the rejection count was not). Cycle 40
+also **merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
 
@@ -299,6 +309,48 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
   4. **Effective sample small** — rule changes are discrete events with limited degrees of freedom; no unclaimed sign identified.
 - **Decision:** bounded negative (R-024). No dossier created; no IDEA identifier consumed; no score changed.
 
+### R-025 — Tax/settlement-mandate switch (a rule that changes the *settlement or tax obligation* with a published effective date) (Cycle 45 family screen — **written for real in Cycle 51** — bounded negative)
+
+- **Note on provenance.** The identifier **R-025 was consumed in Cycle 45** (the Cycle-45 cycle-log entry
+  records the screen and its verdict) but its entry was never written into this file, so the negative could
+  not prevent rediscovery — precisely the failure mode the standing rule at the head of this log exists to
+  stop. Cycle 51 wrote the entry from the Cycle-45 record rather than re-consuming an identifier; the same
+  repair was made for R-017 in Cycle 37. The screening itself was performed in Cycle 45 and is not
+  re-performed here; nothing in it changes in the light of later work.
+- **The family screened.** Regulatory or market-infrastructure mandates that change a settlement cycle or a
+  tax obligation on securities, with a published effective date, creating a dated, non-discretionary
+  adjustment in the settlement or cash cycle (e.g., securities settlement-cycle length changes, mandatory
+  tax-payment dates on securities income, withholding-tax changes with published effective dates).
+- **Instances considered.** The shortening of the securities settlement cycle (the US move to T+1 and
+  national rollouts such as India's), and published withholding/mandate switches with dated effective
+  dates.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — five independent reasons:**
+  1. **Published in advance and anticipated** — settlement-cycle and tax-mandate changes are announced with
+     effective dates and are calibrated by market participants well before they bind (satisfies G-13 on
+     availability, but the state is public knowledge, not a private condition).
+  2. **Published baseline for the sign** — the settlement-cycle literature already reports the direction
+     and size of the effects: **S-113** (a longer settlement cycle reduces liquidity and widens spreads
+     in the securities market), **S-114** (a shortened cycle improves liquidity in India), **S-115**
+     (India's phased T+1 rollout: the quality improvement is smaller in the phased segments). The
+     candidate's sign is therefore prior art, not an unclaimed claim.
+  3. **The constrained party is the market as a whole, not a counterparty with a concession** — a
+     settlement-mandate change alters everyone's cash cycle simultaneously; it creates no third-party
+     forced flow whose concession some other arbitrageur can capture (the S-151 analogue that closed
+     R-020/R-023/R-024).
+  4. **Tax-mandate variants are anticipated, arbitraged or unobservable at the required sign** — where a
+     tax change is dated and public, the withholding is taken by the obligor and the price adjusts before
+     the date; where the *sign* depends on a private portfolio, the state is not published (the same
+     G-13 defect that closed IDEA-014's state-free limb).
+  5. **Effective sample is small and the effect is a cost/liquidity change, not a participant edge** —
+     discrete mandate changes have limited degrees of freedom; the observable is market-quality metrics
+     (spreads, depth, volatility), which the register does not treat as an edge.
+- **Decision:** bounded negative (R-025). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added. Re-openable only if a *new* mechanism is specified in which
+  a dated settlement- or tax-mandate change creates a **price-insensitive, non-discretionary flow
+  executed by a participant other than the obligor**, with a sign not already published in S-113/S-114/
+  S-115.
+
 ### R-026 — Exchange fee/schedule change creating temporary concession (Cycle 46 family screen — bounded negative)
 
 - **The family screened.** Exchange rule changes affecting fee schedules or trading hours/auctions with published effective dates creating temporary asymmetries (e.g., exchange fee changes affecting market makers).
@@ -337,11 +389,17 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
 
 - **The family screened.** Scheduled monthly/quarterly options expirations (OPEX) that force dealer gamma/charm hedging flows, creating predictable intraday pressure that a third-party could harvest.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale:**
-  1. **Published baseline** — dealer hedging around options expiries and pinning effects are documented in literature; the flow is known.
-  2. **Anticipated/hedged** — market participants anticipate expiries; hedging is part of dealer mechanics, not an unclaimed concession from a third-party with clean edge.
-  3. **No unclaimed sign** — no clearly unclaimed sign survives strict bar; effects are studied as market microstructure phenomena.
+- **Rationale — four independent reasons:**
+  1. **Published baseline** — OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented; intraday pinning and expiration-week dynamics are published and sized.
+  2. **Anticipated** — expiry calendars are published years in advance; all participants pre-position; no unclaimed sign survives.
+  3. **No third-party concession** — the constrained flow is the dealer's own hedging response to its book, not a price-insensitive third-party forced flow creating a harvestable concession to an arbitrageur.
+  4. **Effective sample limited** — discrete monthly/quarterly events with high anticipation; no clean securities×dates design with an unclaimed sign.
 - **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score changed.
+- **Repair note (Cycle 51).** This entry was originally written with a short three-point rationale; a
+  fuller four-point rationale for the same family was, in a later editing pass, left orphaned under the
+  R-030 entry (it appeared as a stray numbered list beneath R-030's decision line, so a reader of R-030
+  would have seen R-029's reasoning attributed to R-030). Cycle 51 merged the orphan back into this
+  entry and removed it from R-030. No verdict changed.
 
 ### R-030 — Information-mandate timing with third-party flow / exchange rule changes creating targeted concessions (Cycle 50 family screen — bounded negative)
 
@@ -352,11 +410,77 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
   2. **Third-party concession unclear** — mechanisms where third-party can harvest concessions are often not clearly unclaimed separate from published baselines; forced flows may be absorbed or anticipated.
   3. **No unclaimed sign with clean mechanism** — does not meet the bar (published decision-time state + unclaimed sign + no published baseline + feasible clean test).
 - **Decision:** bounded negative (R-030). No dossier created; no IDEA identifier consumed; no score changed.
-  1. **Published baseline** — OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented; intraday pinning and expiration-week dynamics are published and sized.
-  2. **Anticipated** — expiry calendars are published years in advance; all participants pre-position; no unclaimed sign survives.
-  3. **No third-party concession** — the constrained flow is the dealer's own hedging response to its book, not a price-insensitive third-party forced flow creating a harvestable concession to an arbitrageur.
-  4. **Effective sample limited** — discrete monthly/quarterly events with high anticipation; no clean securities×dates design with an unclaimed sign.
-- **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score changed.
+- **Repair note (Cycle 51).** Four numbered rationale points belonging to R-029 (the OPEX dealer-hedging
+  family) had been left orphaned immediately beneath this entry's decision line and read as part of
+  R-030. Cycle 51 moved them into the R-029 entry, where they belong, and removed them from here. No
+  verdict changed; R-030's own three-point rationale is unchanged.
+
+### R-031 — Randomised / imbalance-guided closing-price formation as a harvestable pre-close concession (Cycle 51 family screen — bounded negative)
+
+- **The family screened.** Market-design mechanisms that determine *how the closing price is formed*, and
+  whether they leave a concession that a third party can harvest:
+  - **(a) Randomised closes.** A venue that draws the official closing price randomly inside a range
+    determined by the closing order book (the London Stock Exchange's randomised closing call; the Korea
+    Exchange's conditional random end, S-249), so that the close is a *lottery* over a range rather than
+    a deterministic price.
+  - **(b) Imbalance-guided closes.** A venue that publishes, in real time, the closing-auction imbalance
+    and the imbalance-implied prices before the auction clears (NYSE Rules 7.35/7.35B: the Continuous Book
+    Clearing Price and the Imbalance Reference Price, disseminated on the exchange's proprietary feed and
+    updated at least every second, S-251), so that the conditional distribution of the closing print is
+    known before the trade that determines it.
+- **Outcome: bounded negative. No new candidate; the family is a baseline. This is the register's first
+  screen of a *price-formation* family** — every earlier screen (R-012 … R-030) covered obligations,
+  switches, supply schedules or expiry-driven flows, and none covered the mechanism that sets the close
+  itself.
+- **Rationale — five independent reasons, any one of them sufficient:**
+  1. **Published baseline.** The consequences of closing-auction design are peer-reviewed prior art, not
+     an open claim: the LSE's call-market opening and closing auctions and their price-discovery
+     properties (**S-247**), the market-quality effects of introducing the LSE closing call auction
+     (**S-248**), and randomised end-of-auction mechanisms themselves — the Korea Exchange's conditional
+     random end is reported to improve price discovery and stabilise the close, with the benefit
+     attenuating in high-volatility conditions (**S-249**). A candidate in this family would be
+     presenting published work as a discovery.
+  2. **No unclaimed sign (G-12).** A randomisation is a *symmetric* draw: the published state — the
+     auction's imbalance, surplus and indicative prices (S-251) — determines the **width** of the
+     randomisation range and the **conditional** price, not the direction of the draw. A directional
+     claim has no sign-determining state; the only claim the mechanism can support is about dispersion
+     or a risk premium, and the register's risk-premium/variance family is already parked (IDEA-003,
+     P-012) with its own published baseline (S-180, S-181, S-190, S-192). **A single-price auction
+     cannot express the compensation for the draw in the price**: the clearing price is set by the order
+     book, so a lottery over the close is absorbed by the auction's own risk-neutral clearing and by
+     quoting behaviour, not by a price concession that a third party can take.
+  3. **The concession is competed away inside the auction, by design.** The exchange's own stated purpose
+     for publishing the imbalance is to "facilitate entry of offsetting orders" and to "attract
+     additional contra-side interest, thereby decreasing volatility" (S-251). The parties who can trade
+     against a pre-close imbalance are the exchange's own members, who see the same published state in
+     real time and whose latency advantage is measured in milliseconds against a window that is itself
+     measured in seconds. This is the same structural reason that closed the ex-dividend family (R-017)
+     and the payment-date family (R-012): the party obliged to execute the adjustment is the party that
+     captures the concession.
+  4. **The settlement channel does not propagate.** In the one major complex where a randomised cash
+     close sits next to a liquid futures market, the futures do **not** settle on the cash close: the
+     Eurex FTSE 100 Index Future's final settlement is the Exchange Delivery Settlement Price from the
+     LSE's EDSP intraday auction, and its daily settlement is the volume-weighted average of transactions
+     in the minute before 17:30 CET (**S-250**) — both determined *after* the cash close is known, so the
+     randomness of the close does not reach the futures' settlement value. The register's own candidate
+     universe (US-listed ETFs, US index futures) has **no randomised close at all**: NYSE's 2022
+     amendment added price parameters within which the DMM must select the Closing Auction Price
+     expressly "to make the Closing Auction more transparent and deterministic" (S-251).
+  5. **Cost floor and data.** Any tradeable form of this family is a trade in the final seconds of the
+     session, where the spread, the tick and the auction's own price impact dominate: the closing
+     auction's price impact is *lower* than the continuous market's for all stocks except Nasdaq
+     micro-caps (**S-150**), which makes the close a *cheaper execution venue* — a cost-model input for
+     any candidate that chooses to trade there, and a published baseline (with S-149, S-247, S-248), not
+     an edge. The decision-time state is real-time but proprietary (the exchange's paid feed, S-251); the
+     freely published record gives only the final close, i.e. after the tradeable window has closed.
+- **Decision:** bounded negative (R-031). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition (so the negative does not go stale):** re-open this family if (i) a venue
+  with a randomised close introduces a **liquid, retail-accessible instrument that settles on the
+  randomised close** (so that the draw can be *harvested* rather than arbitraged), or (ii) a published
+  study shows that the randomisation range's **conditional mean** departs from the pre-close mid — a
+  systematic bias in the centre of the draw, which would convert the "no sign" objection into a live
+  question. Absent either, this family stays closed.
 
 ## Parked (not rejected; blocked on a specific question)
 
@@ -877,10 +1001,10 @@ to baselines.
 | **Crowding as a published first-order conditioning variable (added in Cycle 35)** | **Published, peer-reviewed** (S-222, Chincarini, Lazo-Paz & Moneta, *Journal of Banking & Finance* 2025: crowding measured on Days-ADV over 13F holdings 1980–2021 is positively related to subsequent abnormal returns on well-known anomalies, with anomaly risk-adjusted returns "primarily generated by most (least) crowded stocks for the long-leg (short-leg) portfolio", surviving publication-date controls, and with a published crash-risk channel in which crowding "adds new considerations to limits to arbitrage"), on top of S-026's holdings-based construction and S-157's comomentum. **This is a baseline and a rediscovery guard for IDEA-004:** crowding is no longer a discovery, the published relation is *monotone* where the candidate claims a two-sided gate, and the published crowd is all 13F institutional investors (directional positioning) rather than the candidate's convergence-arbitrage capital — which is why G-04 was restated and G-28 opened. |
 | **Ex-dividend date mechanics as a dated, mechanical supply event (added in Cycle 37)** | **A baseline and a rediscovery guard (bounded negative R-017, Cycle-36 screen written for real in Cycle 37).** The ex-dividend price adjustment is an accounting identity executed on a fully published date by the party obliged to execute it; there is no unpriced residual supply and no published state that makes an ex-date tight or loose. Any candidate built on the ex-date would be repackaging arithmetic. |
 | **The Rule 201 short-sale price-test circuit breaker (added in Cycle 37)** | **Published, peer-reviewed — a baseline and a bounded-negative family screen (R-018).** The effect a candidate would claim is already published and quantified: comparing stocks on either side of the −10 % threshold in the same hour, the restriction leads to 8 % lower short-sale volume and 35 bps higher daily returns, and those price effects "do not reverse after the restriction is lifted" (S-236). The constraint is also defeasible: after a trigger, short sellers migrate to the options market (put open interest +61 %, put volume +87 %; S-237) at low cost (S-238). The rule's mechanics are published law (S-235). **Any future candidate in this family must start from S-236 and must explain what is left.** |
-
 | **Authorised-participant naming in ETF statutory filings: a crypto- and commodity-trust practice (added in Cycle 40)** | **Primary statutory filings (S-239).** ETF prospectuses that name their authorised participants exist and were read directly: the iShares Bitcoin Trust ETF's Form 424B3 prospectuses name their APs verbatim (five APs in the 9 January 2024 prospectus, nine in April 2024, twelve in August 2024; twelve cash and four in-kind as of 31 July 2025), and the same practice appears in the iShares Ethereum and Staked Ethereum trusts, the Bitcoin Premium Income trust, the WisdomTree, Invesco Galaxy, 21Shares, Morgan Stanley, T. Rowe Price Active Crypto and Ark 21Shares digital-asset trusts, and — in older form — in the iShares commodity trusts, whose prospectuses name market makers and clearing counterparties. **This is a baseline and a state note:** the naming practice is real, dated and verifiable, and it is **confined to the commodity/crypto trust class**; a full-document search found **no corporate-bond ETF naming its APs**. Any candidate that needs an ETF → authorised-participant mapping must state which route it uses, and must not assume that a corporate-bond ETF discloses one. |
 | **The short-interest branch of the crowding literature (added in Cycle 40)** | **Published, peer-reviewed (plus one working paper)** — S-241 (Mitchell, Pulvino & Stafford, *Journal of Finance* 2004: short interest is the published measure of merger-arb short selling, with its price-pressure effect), S-242 (Hanson & Sunderam, *Review of Financial Studies* 2014: short interest as a published crowding measure of arbitrage capital, whose limits bind when crowding is high) and S-243 (Chan & Tan, SSRN 2020, working paper: daily short interest infers near-real-time crowding of quantitative long-short strategies). **This is a baseline and a rediscovery guard for IDEA-004:** the register's published-neighbour inventory for the convergence-crowd candidate was incomplete without this branch, and the candidate may not present a short-interest-based convergence-activity measure as a discovery. These measures identify **style** arbitrage capital, not the pair/merger-spread convergence crowd, and their published relation is monotone where the candidate claims a two-sided gate. |
 | **Eligibility switches: regulatory and provider changes in *who may hold* (added in Cycle 40)** | **Primary regulator material plus a bounded-negative family screen (R-020).** The instances are the SEC's accredited-investor and qualified-institutional-buyer definition amendment (S-244: Release 33-10824, 85 FR 64234, effective 8 December 2020; the $1 million net-worth, $200,000 income and $100 million QIB thresholds are published) and index-provider eligibility and float screens. **This is a baseline and a bounded-negative family screen (Cycle 40, R-020):** the switch is published in advance so any flow is anticipated (and the nearest published analogue finds the effect collapsed to approximately zero and shifted away from the effective date — S-146, S-147); the constrained flow is the obligor's own, so there is no third-party concession to harvest (S-151); each holder's distance to its own limit is private, so the state would be a construction; and the effective sample is the number of switches, not securities × dates. **Dated re-screen condition:** re-screen only if a change arrives with a published list of affected securities *and* a published distance-to-limit measure for each affected holder. |
+| **Closing-price formation: randomised closes and real-time closing-auction imbalance publication (added in Cycle 51)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-031, Cycle 51) — the register's first screen of a *price-formation* family.** The published record: the LSE's call-market opening and closing auctions and their price-discovery and trading-cost properties (S-247), the market-quality effects of introducing the LSE closing call auction (S-248), the Korea Exchange's conditional random end — a randomised end-of-auction mechanism reported to improve price discovery and stabilise the close, with the benefit attenuating under high-volatility conditions (S-249), and the closing auction's *lower* price impact relative to the continuous market for all stocks except Nasdaq micro-caps (S-150, with S-149 on the passive-incentive mechanism). The primary rule text: NYSE's Closing Auction Imbalance Information (Continuous Book Clearing Price, Imbalance Reference Price, paired/unpaired quantity) is disseminated on the exchange's proprietary feed from ten minutes before the close and updated at least every second, and the exchange's stated purpose for publishing it is to attract "offsetting orders" and "additional contra-side interest, thereby decreasing volatility" (S-251, 89 FR 19370–19374, Release No. 34-99719; approval order 34-100327), with NYSE's 2022 amendment (87 FR 56099) making the DMM's price selection "more transparent and deterministic" — so the US close is not randomised. The settlement channel does not propagate: the Eurex FTSE 100 Index Future settles on the EDSP intraday auction and on a 17:30 CET volume-weighted average, both determined after the cash close is known (S-250). **This is a baseline and a rediscovery guard:** a randomised close is a symmetric draw with no sign-determining state, a single-price auction cannot express the compensation for the draw in the price, and the exchange designs the imbalance publication to attract offsetting interest. Any candidate in this family must state which venue, which instrument settles on the randomised close, and what published state determines the sign. |
 
 ---
 
