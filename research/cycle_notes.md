@@ -153,19 +153,3 @@ Theory-only cycle executing the six priorities from the Cycle-42 handoff. No tes
 4. **New mechanism family screen — margin-schedule switch (R-023).** Screened CME SPAN 2 margin parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates) and CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional). Bounded negative: changes are published in advance (G-13 passes) but affect all participants broadly as cost/risk controls, not a third-party forced flow creating a harvestable concession; constrained response is margin calls/liquidation; effective sample is small number of changes; known baseline. No candidate, no dossier, no score change.
 
 5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-023. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-024, P-014.
-
-
----
-## Cycle 43 — 2026-10-20
-Theory-only cycle executing the six priorities from the Cycle-42 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
-
-### Outcomes
-1. **G-30 (IDEA-010) — routes outside the statutory prospectus exhausted with NOT FOUND.** Checked regulatory (17 CFR 270.6c-11 — no public disclosure requirement for AP identities, closed Cycle 41), sponsor-published lists for major US corporate-bond ETF issuers (iShares, Vanguard, PGIM, T. Rowe Price, State Street/SPDR, Fidelity — all use generic language, no AP names), non-US issuers (no US-listed corporate-bond ETF with published AP set), and exchange listing rules (Nasdaq Rule 5704, NYSE Arca rules, SR filings — no requirement to publicly disclose AP identities; Rule 6c-11(d)(2)(iv) requires recordkeeping only). All plausible routes exhausted with not found verdicts. No published primary-source route exists outside the statutory prospectus. V-010 remains non-executable against the corporate-bond ETF universe.
-
-2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located.
-
-3. **G-21 (IDEA-011) and IDEA-014's state-free limb** — null and inconclusive verdicts maintained; no new source.
-
-4. **New mechanism family screen — margin-schedule switch (R-023).** Screened CME SPAN 2 margin parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates) and CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional). Bounded negative: changes are published in advance (G-13 passes) but affect all participants broadly as cost/risk controls, no third-party concession flow creating harvestable opportunity, small effective sample, baseline. No candidate, no dossier, no score change.
-
-5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-023. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-024, P-014.

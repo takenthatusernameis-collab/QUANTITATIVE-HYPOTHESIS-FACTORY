@@ -286,22 +286,6 @@ Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded ne
 - **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
 
 
----
-
-
-### R-023 — Margin-schedule switch (venue rule changes margin requirements on a published calendar) (Cycle 43 family screen — bounded negative)
-
-- **The family screened.** A switch where a venue/clearinghouse changes margin requirements (initial/maintenance, SPAN parameters) on a published calendar/effective date.
-- **Instances run.** CME SPAN 2 framework parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates), CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional).
-- **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale — four independent reasons, any one of which is sufficient:**
-  1. **Published in advance** — changes are announced via notices with effective dates, satisfying G-13.
-  2. **No third-party concession flow** — margin changes affect all participants with positions; the constrained response is typically margin calls/liquidation by participants themselves or their clearing firms, not a forced flow by one party creating a concession to another third-party arbitrageur.
-  3. **Broad-based cost change, not targeted opportunity** — affects entire product classes/risk profiles; no published list of affected securities with exploitable cross-section creating an unclaimed sign.
-  4. **Effective sample is small** — discrete rule changes with limited degrees of freedom; margin effects are known as costs/risk controls.
-- **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
-
-
 ## Parked (not rejected; blocked on a specific question)
 
 ### P-001 — Crypto breakout momentum
