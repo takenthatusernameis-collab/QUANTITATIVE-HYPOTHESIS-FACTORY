@@ -1255,3 +1255,131 @@ Theory-only cycle executing the five priorities from the Cycle-70 handoff. No te
 5. **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 53.0 (rank 4), IDEA-014 52.0 (rank 5). Next free identifiers unchanged: IDEA-017, S-325, V-012, G-34, R-047, P-014.
 
 6. **Wrap up.** Handoff rewritten; fresh verbatim initial task message for Cycle 72 written. Counts re-derived: 15 dossiers, 314 verified sources, 10 validation specs, 46 rejections, 12 parking records (11 active), 76-row known-baseline table, open gaps G-21/G-28/G-30, dated G-32 limb (c)/G-33 re-check (2027 Q3).
+
+## Cycle 72 — 2026-10-20
+
+Theory-only cycle executing the five priorities from the Cycle-71 handoff. No tests, data acquisition,
+strategy or signal implementation, executable research infrastructure, workflow changes, or modifications to
+the canonical prompt. The only artefacts produced are the register's own research notes and source
+records.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-71 handoff priorities in order: (1) maintain the
+frozen/exhausted/dated items (G-28 frozen structural; G-21 handed to validation; G-30 exhausted;
+IDEA-014 inconclusive; G-32 limb (c) and the G-33 re-check dated 2027 Q3) with no re-runs or searches;
+(2) continue the evidence-currency sweep — run the prior-art re-read of **IDEA-004** (rank 2, 69.0, last
+re-read Cycle 30) against literature it had not yet seen, looking for published work that conditions the
+candidate's effect on a second variable, tests its sign claim, or changes its baseline; (3) close the
+Cycle-66 verification debts where a direct route exists, keeping verification labels honest; (4) run a
+bounded state-kind screen **only if** a genuinely new state kind is proposed; (5) wrap up — update the
+artefacts, write the ledger verdict block and this cycle-log entry before the handoff rewrite, re-derive
+counts and identifiers, and write a fresh verbatim initial task message for Cycle 73.
+
+**Pass 2 — Critique.** Three risks in the draft. (i) **Anchoring on the handoff's expectation.** The
+handoff predicted a "bounded" re-read; if the sweep finds nothing, the cycle must be allowed to end as a
+no-op, and the register must not manufacture a finding to fill the cycle. (ii) **Scoring discipline.** A
+source that supports the *family* but not the candidate's own claim must not move a dimension (the
+Cycle-35/52 precedent), and a source that *pre-empts* the candidate's differentiator must move **novelty**,
+not evidence. (iii) **Verification theatre.** The SSRN debts have failed twice; the temptation is to quote
+index-rendered abstracts as if they were read documents. The label must stay index-rendered, and every
+quoted passage must come from a document or a publisher/Crossref-deposited abstract that was actually
+fetched. Two further check: the sweep must **not** re-run the crowding-measure search that G-28 forbids
+(it may register new crowding *measures* as neighbours, which is a different operation), and the new
+sources must be checked against the ledger before minting identifiers, so that no paper is registered
+twice.
+
+**Pass 3 — Revise.** Execute as drafted, with two revisions: (a) the sweep's success criterion is
+**pre-registered** as "any published work that (i) conditions IDEA-004's effect on a second variable, (ii)
+tests its sign claim, or (iii) changes its baseline" — and a finding in any of the three triggers a
+**novelty** review before any other dimension is considered; (b) the verification-debt task is explicitly
+bounded to *three* named debts (S-310, S-317, S-318, plus the S-312 journal-DOI question), each with a
+named route, so that "no route exists" is a recorded finding rather than an omission.
+
+### Verification discipline applied in this cycle
+
+- **Fetched directly and read (2):** S-325 and S-326 — Crossref REST API records with **publisher-deposited
+  abstracts** (DOI, title, all authors with affiliations, container, volume, issue, pages, dates, licence);
+  every quoted sentence in both entries is line-verified against those deposits.
+- **Fetched directly and text-extracted (1):** S-327 — the arXiv abstract page **and** the full arXiv HTML
+  rendering; the quoted inventory sentence, Proposition 3.18, the borrow-rate crowding state and the q̂
+  estimates were read in the fetched document body.
+- **Direct route attempted and failed, label kept honest (3):** S-310, S-317, S-318 — both SSRN routes
+  (landing page and PDF delivery endpoint) returned **HTTP 403** for all three papers; the abstracts remain
+  **index-rendered**, no body text is quoted.
+- **Third route attempted, partial success (3):** the **OpenAlex Works API** was then queried for the same
+  three SSRN DOIs. All three resolve with correct titles, years and types and with full author names,
+  ORCIDs and institutional affiliations — so **authorship is now independently confirmed by a second
+  aggregator** — but every record returns **`abstract_inverted_index: null`**, so no abstract was obtained
+  and the three abstracts **remain index-rendered**; the Semantic Scholar Graph API returns **HTTP 404** for
+  the S-310 DOI. Two facts were also established: S-310's author is confirmed as *Helvin Shek* (not only
+  "Shek, H."), and S-318's two SSRN DOIs resolve to **two distinct OpenAlex work records**, which upgrades
+  the duplicate-title caveat from "Crossref metadata artefact" to a **confirmed posting-duplication**. The
+  three debts therefore **remain open**, now with the label "authorship Crossref- and OpenAlex-confirmed;
+  abstract index-rendered", and the next agent should try an author-hosted copy, a preprint mirror or a
+  publisher version rather than re-attempting SSRN's own endpoints.
+- **Debt closed as a negative (1):** S-312 — a Crossref title query returns **no journal DOI** for the
+  article; three preprint versions are registered. The journal version is recorded as Article In Press,
+  unverified and without a DOI.
+- **Entry upgraded from an adjacent source (1):** S-316 — the peer-reviewed *Mathematical Finance* version
+  (36(3): 481–499, DOI 10.1111/mafi.70018) is now registered against the arXiv entry.
+- **Stale debt corrected (1):** the Cycle-71 handoff listed "S-322 abstract not retrieved" as an open debt;
+  the ledger records a Cycle-67 retrieval and line-verification. The handoff's list was wrong and is
+  corrected. **No source content changed.**
+- **Body-text failure recorded honestly (1):** S-325's accepted-version PDF was retrieved from LSE Research
+  Online but its text layer could not be extracted, so **no body text is quoted** and the working-paper
+  passages are marked index-rendered only.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained.** G-28 (IDEA-004) remains frozen structural — the crowding-
+   measure search was **not** re-run; G-21 (IDEA-011) stays handed off to validation (contribution, not
+   replication; transition-window pre-registered); G-30 (IDEA-010) remains exhausted, confirm-only;
+   IDEA-014's state-free existence limb remains inconclusive, no new source, no gap; G-32 limb (c) and the
+   G-33 re-check remain dated 2027 Q3 and are not re-run.
+
+2. **Evidence-currency sweep — IDEA-004.** Three new sources registered (**S-325, S-326, S-327**), all
+   fetched and read. (i) **S-325** publishes the candidate's own *two-sided crowding gate* for a different
+   arbitrage strategy in the same asset class; (ii) **S-326** publishes the slow-capital mechanism with its
+   sign and a published fund-flow state of the strategy complex; (iii) **S-327** publishes the
+   crowding-measure inventory, an independent corroboration of the register's proxy-benchmarking negative,
+   a borrow-derived crowding state with a crowding-decay calibration, and an **identification constraint**
+   ("aggregate crowding is not identified from within-date variation by any estimator"). **IDEA-004
+   re-scored 69.0 → 66.0** (novelty 3 → 2; mechanism, evidence, falsifiability, resilience and data
+   unchanged) and **reclassified as an incremental variant of published crowding-conditioned arbitrage
+   work**; **rank 2 → 3**. Three new hard-stop flags attached. **G-28 remains open and frozen**, its
+   structural null strengthened (four published measure families checked, none pair-level and netted).
+   **V-002 remains frozen** and receives a Cycle-72 note; no re-specification was written. **No gap opened.**
+
+3. **Cycle-66 verification debts.** S-310, S-317 and S-318 remain **index-rendered** (all six SSRN requests
+   returned HTTP 403; a third route via OpenAlex confirmed authorship but returned no abstract, and
+   Semantic Scholar returned HTTP 404 for the S-310 DOI); S-312's journal-DOI debt is **closed as a
+   negative**; S-316 is **no longer preprint-only**; S-322 carries **no outstanding debt** (the Cycle-71
+   handoff's claim was stale and is corrected).
+
+4. **No new state kind proposed.** Screen slot skipped; no screen run, no `R-` identifier consumed.
+
+5. **No candidate created; one score changed.** Active ranking now **IDEA-011 (69.0, rank 1), IDEA-010
+   (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**.
+
+6. **Wrap up.** Handoff rewritten; fresh verbatim initial task message for Cycle 73 written. Counts
+   re-derived from the files: **15 dossiers** (5 active, 5 parked, 5 rejected), **317 verified sources**
+   (S-001 … S-209 and S-220 … S-327) with S-210 … S-219 reserved and unused, **10 validation specifications**
+   (V-008 amended Cycle 66; V-002 and V-010 frozen/non-executable as specified; V-002 noted Cycle 72),
+   **46 rejections (R-001 … R-046)**, **12 parking records of which 11 remain active**, **78-row
+   known-baseline table**, open gaps **G-21, G-28 (frozen structural), G-30 (exhausted)**, dated
+   **G-32 limb (c)** and the **G-33 re-check (2027 Q3)**. Next free identifiers: **IDEA-017, S-328, V-012,
+   G-34, R-047, P-014**.
+
+**Also recorded this cycle (state-integrity repairs 5–8 in the ledger).** (i) The three SSRN debts gained a
+third attempted route (OpenAlex) that confirmed **authorship** for S-310, S-317 and S-318 but returned **no
+abstract** — the debts stay open with an honest label. (ii) P-011's stale score anchors (IDEA-010 65.0,
+IDEA-009 60.0) were restated to the current 68.0 and 53.0, with the ordering explicitly unchanged. (iii) The
+**ordering drift** in `rejected_and_parked.md` — R-012/R-013 sitting inside the `## Parked` section and R-014
+onward after the `## Rediscovery guard` heading — was **recorded rather than silently restructured**, so the
+next agent can confirm intent before any lossless reorganisation. (iv) A programmatic sweep of the ledger
+found that **ten source entries — S-281 … S-290 — are written as bold inline blocks rather than as `### S-NNN`
+headings**; all ten are present with full text, so the source count is unaffected (307 heading-form plus 10
+bold-form = **317**), and the defect is one of heading form only; it was recorded, not rewritten. The ledger's
+own header was brought up to date (Cycles 1–72, 317 verified sources, next free identifiers). No rejection or
+parking record's verdict, rule or content changed, and no source content or verification label changed.

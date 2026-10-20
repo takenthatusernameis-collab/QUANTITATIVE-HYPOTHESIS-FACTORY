@@ -1,4 +1,24 @@
-# SOURCE LEDGER — CYCLES 1–66
+# SOURCE LEDGER — CYCLES 1–72
+
+Cycle 72 (2026-10-20) added **three new source identifiers and three new source entries — S-325, S-326,
+S-327** — and minted **no new candidate** and **no new validation specification**, but it **did change one
+score**: **IDEA-004 was re-scored 69.0 → 66.0** (novelty 3 → 2 only) and reclassified as an **incremental
+variant of published crowding-conditioned arbitrage work**. Its substantive work was (i) the register's
+**prior-art re-read of IDEA-004** — the one active candidate not re-read since Cycle 30 — which located
+published work bearing on the candidate's *differentiator*: the candidate's own **two-sided crowding gate**
+published for a different arbitrage strategy in the same asset class (**S-325**, Huang, Liu, Lou & Polk 2024,
+*Management Science* 70(8), Crossref publisher-deposited abstract); the **slow-capital mechanism** with a
+published flow-based state of deployed arbitrage capital (**S-326**, Dong, Kang & Peress 2025, *RFS* 38(10),
+Crossref publisher-deposited abstract); and the **crowding-measure inventory** with a borrow-derived crowding
+state, a published crowding-decay calibration and an **identification constraint** on aggregate crowding
+(**S-327**, Rodríguez Domínguez & Noguer i Alonso 2026, arXiv:2608.08405, abstract page and full HTML rendering
+read); and (ii) the **Cycle-66 verification debts** — **S-312's** journal-DOI question closed as a **negative**,
+**S-316** upgraded to its *Mathematical Finance* version, **S-322** confirmed to carry **no** outstanding debt,
+and **S-310/S-317/S-318** left honestly **index-rendered** after all six SSRN requests returned HTTP 403 and a
+third route (OpenAlex) confirmed authorship but returned no abstract. **No `G-` identifier was opened and no
+gap was closed**; no new state kind was proposed and the screen slot was skipped. The register now holds
+**S-001 … S-209** and **S-220 … S-327** — **317 verified sources**; the identifiers **S-210 … S-219** remain
+reserved and unused. **Next free identifiers: IDEA-017, S-328, V-012, G-34, R-047, P-014.**
 
 Cycle 66 (2026-10-20) added **thirteen new source identifiers and thirteen new source entries — S-310 … S-322** —
 and minted **no new candidate** and **no new validation specification**, but it **did change one score**: **IDEA-009
@@ -7673,6 +7693,22 @@ document unless the entry says so.**
   retry succeeded). The SSRN landing page returned **HTTP 403** to a direct fetch in this cycle, so
   the abstract wording above is **index-rendered**, not line-verified. *Cycle-66 debt closed: the
   entry previously recorded the DOI as "as printed on that record and not independently confirmed".*
+- **Cycle-72 re-attempt — the debt remains open and the label is unchanged.** Both SSRN routes were
+  tried again on 20 October 2026: the landing page
+  (`https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7520320`) and the PDF delivery endpoint
+  (`https://papers.ssrn.com/sol3/Delivery.cfm/7520320.pdf?abstractid=7520320&mirid=1&type=2`)
+  returned **HTTP 403** to a direct fetch. The abstract wording above therefore **remains
+  index-rendered**, no body text is quoted, and the DOI remains Crossref-confirmed. **No direct
+  route to a line-verified copy of this paper exists through SSRN at the time of writing.**
+- **Cycle-72 third-route attempt (OpenAlex) — authorship confirmed, abstract still not retrievable.**
+  The OpenAlex Works API (`https://api.openalex.org/works/doi:10.2139/ssrn.7520320`) resolves the DOI to
+  work `W7214449392` with type "preprint", title and year matching this entry, and authorship
+  **"Helvin Shek" (ORCID 0009-0006-1508-0375, Independent)** — so the ledger's "Shek, H." is confirmed
+  as the full name *Helvin Shek*. OpenAlex returns **`abstract_inverted_index: null`** (no abstract
+  deposited there either), and the Semantic Scholar Graph API returns **HTTP 404** for the SSRN DOI.
+  **Net effect: the authorship and bibliographic identity of this work are now independently
+  Crossref- and OpenAlex-confirmed, but the abstract wording remains index-rendered and no body text
+  is quoted.**
 
 ### S-311 — Shek, H. (2026)
 "Limits to Coordination: Funding Drag in Crypto Perpetual Funding Rates." SSRN working paper 7529458
@@ -7752,6 +7788,19 @@ DOI (preprint): https://doi.org/10.2139/ssrn.6658879
   returned HTTP 403 in Cycle 66. The journal's own website still returns HTTP 403 to a direct
   fetch, so the journal version's body remains unread; the abstracts are **index-rendered** in the
   sense that they were read from SSRN's rendered record rather than from a parsed document.
+- **Cycle-72 closure of the journal-DOI debt — closed as a *negative*, not as a confirmation.** A
+  Crossref REST **title query** for this article on 20 October 2026 returns **no journal record and
+  no journal DOI**: the only registered versions of the review are the **three preprints** — SSRN
+  6639558 (24 April 2026), SSRN 6658879 (28 April 2026 posting of the behavioural version) and
+  **preprints.org 10.20944/preprints202607.1592.v1** (submitted 21 July 2026, "Cryptocurrency
+  Perpetual Futures and Swaps", with all four authors including Lötscher) — plus a related but
+  distinct paper (SSRN 7018520, "Fundamentals of Cryptocurrency Perpetual Futures and Swaps"). The
+  *International Journal of Banking, Finance and Insurance Technologies* version therefore has **no
+  registered DOI**, so the Cycle-66 debt ("journal DOI unconfirmed") cannot be closed by confirming
+  one. The honest status is: the journal version remains **Article In Press, unverified, without a
+  DOI**, the article is citable through its preprints, and the journal's own website could not be
+  fetched (HTTP 403 in Cycles 66 and 67). **No wording in this entry is presented as read from the
+  journal version.**
 
 ### S-313 — Zhivkov, P., Todorov, V. and Georgiev, S. (2026)
 "Temporal Dynamics of Market Microstructure in Cryptocurrency Perpetual Futures: Econometric Evidence from
@@ -7847,6 +7896,18 @@ arXiv: https://arxiv.org/abs/2310.11771
 - **Caveats:** preprint; the paper prices the contract and does not test any return-predictive rule.
 - **Verification:** **arXiv abstract page fetched directly and read** — title, all three authors, both version
   dates, subject class, DOI 10.48550/arXiv.2310.11771 and the full abstract were confirmed from the arXiv record.
+- **Cycle-72 journal-version update — the entry's publication status has changed, its content has not.**
+  The paper has since appeared in a **peer-reviewed journal**: Ackerer, D., Hugonnier, J. and Jermann, U. (2026),
+  "Perpetual Futures Pricing", *Mathematical Finance* **36**(3): 481–499, DOI **10.1111/mafi.70018** (received
+  4 March 2024, accepted 2 October 2025, published online 20 November 2025, print issue July 2026; CC-BY open
+  access). The Crossref record carries the same abstract wording as the arXiv entry, and its reference list
+  includes **S-318** (Hugonnier & Jermann 2025, "Perpetual Futures Pricing With Stochastic Rates and Clamp",
+  SSRN 5481866), confirming the cross-link between this entry and S-318. The register's substantive use of this
+  entry is unchanged — it remains the published no-arbitrage benchmark for the futures-spot deviation IDEA-009
+  trades — but the entry is no longer a preprint-only source. *Verification:* **Crossref REST API lookup of
+  DOI 10.1111/mafi.70018** (title, all three authors with affiliations, container, volume 36, issue 3, pages
+  481–499, published-online and published-print dates, licence, and the publisher-deposited abstract) —
+  **direct fetch + Crossref-deposited abstract**; the Wiley article body was not read.
 
 ### S-317 — Dai, M., Li, L. and Yang, C. (2025)
 "Arbitrage in Perpetual Contracts." SSRN working paper 5262988 (first posted 21 May 2025; revised
@@ -7870,6 +7931,20 @@ arXiv: https://arxiv.org/abs/2310.11771
   returned **HTTP 403** to a direct fetch; the abstract wording is **index-rendered**. *Cycle-66 debt
   closed: the entry previously recorded only a Crossref metadata check without stating that the DOI
   itself had been resolved.*
+- **Cycle-72 re-attempt — the debt remains open and the label is unchanged.** On 20 October 2026 the
+  SSRN PDF delivery endpoint
+  (`https://papers.ssrn.com/sol3/Delivery.cfm/5262988.pdf?abstractid=5262988&mirid=1&type=2`) returned
+  **HTTP 403** to a direct fetch, as the landing page does. The abstract wording above therefore
+  **remains index-rendered**, no body text is quoted, and the DOI remains Crossref-confirmed. **No
+  direct route to a line-verified copy exists through SSRN at the time of writing.**
+- **Cycle-72 third-route attempt (OpenAlex) — authorship confirmed, abstract still not retrievable.**
+  The OpenAlex Works API (`https://api.openalex.org/works/doi:10.2139/ssrn.5262988`) resolves the DOI to
+  work `W4410571178`, type "preprint", title and year matching this entry, with authorship **Min Dai
+  (ORCID 0000-0002-1119-2488, The Hong Kong Polytechnic University), Linfeng Li (National University of
+  Singapore), Chen Yang (ORCID 0000-0001-6919-1763, Chinese University of Hong Kong, Department of
+  Systems Engineering and Management)** — an independent confirmation of the three-author attribution
+  and its institutional provenance. OpenAlex returns **`abstract_inverted_index: null`**, so the
+  abstract wording above **remains index-rendered** and no body text is quoted.
 
 ### S-318 — Hugonnier, J. and Jermann, U. (2025)
 "Perpetual Futures Pricing with Stochastic Rates and Clamp." SSRN working paper 5481866. DOI:
@@ -7894,6 +7969,24 @@ https://doi.org/10.2139/ssrn.5481866
   fetch; the abstract wording is **index-rendered**. The duplicate-title caveat (two SSRN DOIs,
   5481866 and 5610430) is unchanged; the canonical posting is still **not** established.
   *Cycle-66 debt closed.*
+- **Cycle-72 re-attempt — the debt remains open and the label is unchanged.** On 20 October 2026 the
+  SSRN PDF delivery endpoint
+  (`https://papers.ssrn.com/sol3/Delivery.cfm/5481866.pdf?abstractid=5481866&mirid=1&type=2`) returned
+  **HTTP 403** to a direct fetch, as the landing page does. The abstract wording above therefore
+  **remains index-rendered**, no body text is quoted, and the DOI remains Crossref-confirmed. The
+  duplicate-title caveat is unchanged. **No direct route to a line-verified copy exists through SSRN
+  at the time of writing.**
+- **Cycle-72 third-route attempt (OpenAlex) — authorship confirmed and the duplicate-title caveat
+  sharpened, abstract still not retrievable.** The OpenAlex Works API resolves **both** SSRN DOIs to
+  **two distinct indexed work records**: `W4414270312` (5481866; record created 10 October 2025,
+  last updated 22 September 2026) and `W4415256393` (5610430), each type "preprint", each dated
+  1 January 2025, each carrying the identical title "Perpetual Futures Pricing with Stochastic Rates
+  and Clamp" and the identical authorship **Julien N. Hugonnier (ORCID 0000-0003-1356-5070, CEPR and
+  EPFL) and Urban J. Jermann (NBER and University of Pennsylvania, Wharton)**. This **confirms that
+  the two DOIs are two separately indexed postings of the same work rather than a Crossref metadata
+  artefact** — so the caveat now stands as a confirmed posting-duplication, and **which posting is the
+  canonical one remains not established**. Both records return **`abstract_inverted_index: null`**, so
+  the abstract wording above **remains index-rendered** and no body text is quoted.
 
 ### S-319 — Jansen, S. (2026)
 "Crypto Perpetuals Funding." Case study for *Machine Learning for Trading* (3rd edition).
@@ -8682,3 +8775,232 @@ RIN 2060-AX09.
   only.
 - **Verification:** Retrieved directly from https://www.federalregister.gov/documents/2026/10/16/2026-21155/renewable-fuel-standard-rfs-program-reallocation-of-additional-2025-small-refinery-exemptions
   (2026-10-20); full text read and key figures extracted. Verification: **direct fetch + text extraction**.
+
+---
+
+## Cycle 72 sources (2026-10-20)
+
+Cycle 72 ran the register's **prior-art re-read of IDEA-004 (SLOWCAP-COND)** — the active candidate
+that had not been re-read against unseen literature since Cycle 30 — and re-attempted the Cycle-66
+verification debts. **Three new source entries are minted below: S-325 … S-327.** All three were
+retrieved and read: **two by direct Crossref fetch with publisher-deposited abstracts** (S-325, S-326)
+and **one by direct fetch of the arXiv abstract page and its full HTML rendering** (S-327). **No wording
+in this block is presented as a directly parsed document unless the entry says so**, and one body-text
+failure (S-325's accepted-version PDF, whose text layer could not be extracted) is recorded as such.
+
+### S-325 — Huang, S., Liu, X., Lou, D. and Polk, C. (2024)
+"The Booms and Busts of Beta Arbitrage." *Management Science* **70**(8): 5367–5385.
+DOI: https://doi.org/10.1287/mnsc.2023.4929
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** (INFORMS).
+- **Supports (for IDEA-004):** the **nearest published test of the candidate's own prediction 1** — that
+  the *direction* of the crowding conditioning on an arbitrage strategy is two-sided rather than monotone.
+  The publisher-deposited abstract states, verbatim: "In times of low arbitrage activity, the beta-arbitrage
+  strategy exhibits delayed correction, taking up to three years for abnormal returns to be realized. In
+  contrast, when arbitrage activity is high, prices overshoot and then revert in the long run." It also
+  states a mechanism: "We document a novel positive-feedback channel operating through firm leverage that
+  facilitates these boom-and-bust cycles." The crowding state is the arbitrage-activity measure of Lou &
+  Polk (S-157 in this ledger) applied to the beta-arbitrage legs — the paper states that it "exploit[s] the
+  novel measure of arbitrage activity introduced by Lou and Polk (2022)".
+- **Why it matters for IDEA-004:** the candidate's stated differentiator — "the claim is about the
+  **direction of the conditioning** (crowding raises expected convergence return in the short run because
+  capital is slow, and lowers it while raising tail risk in the exit) — a two-sided relation that a simple
+  'avoid crowded trades' rule does not capture" — is **published, in the same asset class (US listed
+  equities), for a different but adjacent arbitrage strategy**. The candidate may no longer present the
+  two-sided crowding gate as an unclaimed relation, and the Cycle-30 note in the dossier that "the
+  non-monotone, sign-flipping gate remains unclaimed" is **corrected by this source**. What remains
+  unclaimed is narrower: the *formulation* (pairs, merger-spread and index-convergence relative value),
+  the *crowd identity* (the convergence crowd, not a beta-arbitrage crowd), and the *state definition* (a
+  position-concentration measure rather than a return-comovement measure).
+- **Caveats:** peer-reviewed but author-reported; the trade family is a long-low-beta / short-high-beta
+  factor trade, **not** a convergence pair, so the published result is a structural analogue and **not** a
+  test of the candidate's rule; the crowding measure is **return-comovement based**, so it is not a
+  position-concentration measure of a paired crowd (G-28's structural null is untouched); and there is
+  substantial **version drift** — the working-paper lineage carries earlier titles, a different author
+  order and a different arXiv/LSE version record (LSE Financial Markets Group Discussion Paper No. 743,
+  December 2014; CEPR Discussion Paper No. 11531, 2016; accepted version deposited at LSE Research Online,
+  eprint 120807) — so the working-paper versions must not be cited as if they were the published article.
+- **Verification:** Crossref REST API (DOI, title, all four authors with affiliations, container
+  *Management Science*, volume 70, issue 8, pages 5367–5385, published-print August 2024, is-referenced-by-count
+  9, and the **publisher-deposited abstract**) — **direct fetch + Crossref-deposited abstract**; the abstract
+  wording quoted above is **line-verified from that deposit**. The accepted-version PDF at LSE Research
+  Online was retrieved directly, but its text layer could not be extracted in this cycle, so **no body text
+  is quoted** and the working-paper passages are recorded as **index-rendered only**.
+
+### S-326 — Dong, X., Kang, N. and Peress, J. (2025)
+"Fast and Slow Arbitrage: The Predictive Power of (Persistent) Capital Flows for Factor Returns."
+*The Review of Financial Studies* **38**(10): 2936–2987. DOI: https://doi.org/10.1093/rfs/hhaf036.
+Earlier SSRN version: DOI https://doi.org/10.2139/ssrn.3675163 (2020).
+- **Type:** Prior empirical and theoretical result (author-reported), **peer-reviewed journal article**.
+- **Supports (for IDEA-004):** two distinct hits on this dossier. (i) **The slow-capital mechanism is
+  published, with its sign.** The deposited abstract states: "We document that persistent aggregate capital
+  flows to hedge and mutual funds predict monthly factor returns with an out-of-sample R2 reaching 6.6%.
+  Transient flows display no such power despite being more predictable. We show—both empirically and
+  theoretically—that persistent flows' predictive power stems from active fund managers' capital
+  constraints. As a result, managers invest persistent, but not transient, capital flows into factor trading
+  strategies, leading to factor-return predictability and factor momentum, yet greater price efficiency."
+  The candidate's mechanism — arbitrage capital is slow to arrive, and that slowness is what a convergence
+  trade harvests — is therefore a **published, quantified baseline**, not a discovery.
+  (ii) **The fund-flow state of the strategy complex is a published measure of deployed arbitrage capital.**
+  The candidate's own observables list names "the fund-flow state of the strategy complex"; this paper gives
+  that state a published construction (persistent versus transient aggregate flows to hedge and mutual
+  funds), a published sign (persistent flows predict factor returns; factor momentum follows) and a published
+  mechanism (capital-constrained managers). The candidate can therefore no longer present the flow state as
+  an unexploited observable.
+- **Why it matters for IDEA-004:** the candidate's *residual* is now sharply bounded. What is left of
+  SLOWCAP-COND is the **crowd identity** (the convergence crowd in the candidate's own universe), the
+  **two-sided gate applied to convergence trades**, and a **position-concentration state** that no published
+  source supplies — which is exactly the frozen gap G-28. The paper also bears on the register's crowding
+  baseline: it is the fourth independent published route by which *deployed arbitrage capital* has been
+  inferred (short interest, comovement, institutional holdings, fund flows), and all four are aggregate and
+  security- or strategy-level, none of them pair-level and netted.
+- **Caveats:** peer-reviewed but author-reported; the published relation is for **factor** strategies, not
+  convergence pairs or merger spreads; aggregate fund-flow data carry a reporting lag and are not a
+  security-level position measure; and there is **version drift** — earlier working papers carry different
+  titles ("Fast and slow arbitrage: Smart money, dumb money and mispricing in the frequency domain", February
+  2019; CEPR Discussion Paper No. 15235, 31 August 2020, "Fast and Slow Arbitrage: Fund Flows and Mispricing
+  in the Frequency Domain") and a different author order, so the working-paper versions must not be cited as
+  if they were the published article.
+- **Verification:** Crossref REST API — the **journal-article** record for DOI 10.1093/rfs/hhaf036 (title, all
+  three authors with affiliations, container *The Review of Financial Studies*, volume 38, issue 10, pages
+  2936–2987, published 27 May 2025, and the **publisher-deposited abstract**) and the **posted-content**
+  record for the earlier SSRN version (DOI 10.2139/ssrn.3675163, 2020, same deposited abstract) —
+  **direct fetch + Crossref-deposited abstract**; the article body was not read.
+
+### S-327 — Rodríguez Domínguez, A. and Noguer i Alonso, M. (2026)
+"Robustness or Crowding: Experimental Design for Trading Strategy Capacity." arXiv:2608.08405
+(q-fin.PM; submitted 9 August 2026; 38 pages, 9 tables, 5 figures). DOI: https://doi.org/10.48550/arXiv.2608.08405
+- **Type:** Methodological and design paper (author-reported), **arXiv preprint; not peer-reviewed**. The paper
+  runs no deployment experiment: "No deployment experiment is run."
+- **Supports (for IDEA-004 and for the register's crowding baseline):** (i) a **published statement of the
+  crowding-measure inventory and of its non-benchmarked status** — "Deployed arbitrage capital has been
+  inferred from the cross-section of short interest (Hanson and Sunderam, 2014), from return comovement
+  among the constituents of a strategy (Lou and Polk, 2022), from institutional holdings and their liquidity
+  footprint (Brown et al., 2022; Chincarini et al., 2026), and from persistent flows into the funds that run
+  these strategies (Dong et al., 2025). These measures rest on different primitives, they are validated by
+  their correlation with subsequent returns, and they have rarely been benchmarked against one another."
+  (ii) an **identifiability result with direct consequences for the candidate's rule design** —
+  Proposition 3.18: under homogeneous overlap, "aggregate crowding is not identified from within-date
+  variation by any estimator", with the corollary that "robustness to arbitrary calendar effects and
+  identification of aggregate crowding are therefore mutually exclusive in any within-date design"; the paper
+  prices the alternative (Remark 3.21: deliberately heterogeneous overlap across disjoint sub-universes,
+  borrow pools or liquidity tiers recovers the aggregate estimand at the price of a weaker exposure mapping).
+  (iii) a **published borrow-derived crowding state**: the paper's calibration uses "the detrended log
+  ninetieth percentile of implied borrow rates" as the crowding state, and (iv) a **published calibration of
+  crowding-driven edge decay** — q̂ = 0.280 for the four non-overlapping momentum strategies and 0.269 for all
+  thirteen, with 12-month moving-block bootstrap intervals [0.000, 0.995] and [0.000, 0.965] on the 260
+  months on which all thirteen strategies and the borrow series overlap.
+- **Why it matters for IDEA-004:** (a) it corroborates the register's own bounded negative on crowding-proxy
+  cross-validation (G-04's validity limb, closed in the candidate's favour in Cycle 58, and G-18's bounded
+  negative) from an **independent, later source** — published crowding measures "have rarely been benchmarked
+  against one another"; (b) it adds an **identification constraint** to the candidate's own rule: a crowd-depth
+  gate read as a within-date cross-sectional contrast cannot separate aggregate crowding from calendar
+  effects, so any future execution of V-002 must pre-register how the aggregate-crowding effect is
+  identified (variation across dates, or heterogeneous overlap across sub-universes); and (c) it documents
+  that the crowding state in the newest published calibration is **borrow-rate-derived** — i.e. the
+  candidate's own cost constraint ("borrow legs in crowded names are most expensive to borrow exactly when
+  the trade is most attractive") turned into a published, measurable state — which is still security-level
+  and **not** the pair-level netted measure G-28 requires.
+- **Caveats:** preprint, not peer-reviewed; the calibration panel is purpose-built for the paper; the
+  crowding-decay estimates are the authors' own and their bootstrap intervals are extremely wide — the paper
+  itself calls the exercise "essentially uninformative about persistence in this sample"; the paper studies
+  the capacity of a *strategy*, not the payoff of a convergence trade, and it offers a **design**, not a
+  result about any trading rule.
+- **Verification:** **arXiv abstract page and the full HTML rendering fetched directly and read** — title, both
+  authors with affiliations, submission date 9 August 2026, subject class q-fin.PM, DOI
+  10.48550/arXiv.2608.08405, page/table/figure counts, JEL codes, keywords and the full abstract. The
+  passages quoted above (the crowding-measure inventory sentence, Proposition 3.18, the borrow-rate crowding
+  state, and the q̂ estimates) were read **in the fetched document body**, not from an index rendering.
+  Verification: **direct fetch + text extraction from the arXiv HTML**.
+
+## Cycle 72 gap verdicts
+
+Cycle 72's verdicts are recorded here in the file's standard form. **One score changed** (IDEA-004,
+69.0 → 66.0) and **one validation specification received a note** (V-002, which remains frozen); **no gap
+was closed and no gap was opened.**
+
+| Gap / limb | Candidate | Cycle-72 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null; the null is strengthened by three new published measure families.** No re-run of the crowding-measure search; no published *pair-level, netted* measure was found, and the three new crowding measures located this cycle are all aggregate and security- or strategy-level (a return-comovement measure of a beta-arbitrage crowd, S-325; a fund-flow measure of deployed arbitrage capital, S-326; a borrow-rate-derived crowding state, S-327). V-002 stays frozen. | **G-28 remains OPEN and FROZEN.** **Score 69.0 → 66.0** (novelty 3 → 2); **rank 2 → 3**. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** No re-probe. | **No score change.** (68.0, rank 2.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without a new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0, rank 5. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **IDEA-004 prior-art re-read** (the register's named highest-value act, applied to the active candidate that had not been re-read since Cycle 30) | IDEA-004 | **Re-scored 69.0 → 66.0 (novelty 3 → 2; mechanism, evidence, falsifiability, resilience and data unchanged)** and **reclassified as an incremental variant of published crowding-conditioned arbitrage work**. The candidate's two-sided crowding gate is published for a different arbitrage strategy in the same asset class (S-325); the slow-capital mechanism is published with its sign and a quantified flow state (S-326); and the newest published crowding work supplies both a published crowding-state construction and an **identification constraint** on the candidate's rule design (S-327). **V-002 remains frozen and receives a Cycle-72 note**; no re-specification is written. | **Score 69.0 → 66.0**; **rank 2 → 3** (below IDEA-010 at 68.0). **No gap opened** — the residual is the frozen identity limb plus a validation-design question. |
+| **New state-kind screen** | — | **Not run.** No genuinely new state kind was proposed this cycle; the screen programme remains recorded as exhausted as a source of new candidates (Cycle 66 judgement). | No `R-`, `S-`, `V-`, `IDEA-` or `G-` identifier consumed by a screen. |
+
+**Cycle-72 identifier and ranking record.** No candidate was created. **One score changed** (IDEA-004,
+69.0 → 66.0); no other score moved. The active ranking is unchanged in order but **one position swaps**:
+**IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0),
+IDEA-014 (52.0)**. The register's shape is unchanged: five active dossiers, five parked, five rejected. New
+identifiers consumed: **S-325 … S-327**. **V-002 was noted, not re-created and not unfrozen.** No `IDEA-` or
+`G-` identifier was consumed or opened; no `R-` identifier was consumed. **Next free identifiers: IDEA-017,
+S-328, V-012, G-34, R-047, P-014.**
+
+## Cycle 72 state-integrity repairs
+
+**Repair 1 — the Cycle-71 handoff listed a verification debt that the ledger had already closed.** The
+Cycle-71 handoff and the Cycle-71 cycle-note entry both recorded "S-322 abstract not retrieved" as an open
+debt. That was **stale**: the S-322 entry itself records a **Cycle-67 upgrade** in which the DOI was
+followed through the ScienceDirect record and the **full abstract was read directly**, making the entry
+**line-verified**. The handoff's debt list has been corrected; **S-322 carries no outstanding debt.** No
+source content changed.
+
+**Repair 2 — S-312's journal-DOI debt closed as a negative, not as a confirmation.** See the S-312 entry:
+a Crossref title query returns **no journal record and no journal DOI** for this article; the only
+registered versions are three preprints (SSRN 6639558, SSRN 6658879, preprints.org
+10.20944/preprints202607.1592.v1) plus a related but distinct SSRN paper. The journal version therefore
+remains **Article In Press, unverified and without a DOI**; the register now says so explicitly instead of
+leaving "journal DOI unconfirmed" open.
+
+**Repair 3 — S-316 is no longer a preprint-only source.** The *Mathematical Finance* journal version
+(volume 36, issue 3, pages 481–499, DOI 10.1111/mafi.70018, published online 20 November 2025) is now
+registered against the arXiv entry. See the S-316 entry; the entry's substantive use is unchanged and no
+downstream citation changes.
+
+**Repair 4 — the three SSRN debts remain open, and the re-attempt is on the record.** S-310, S-317 and
+S-318 were re-attempted on 20 October 2026 through **both** the SSRN landing page and the SSRN PDF
+delivery endpoint. All six requests returned **HTTP 403**. Their abstracts therefore **remain
+index-rendered**, and no body text is quoted for any of them.
+
+**Repair 5 — a third route was tried for the same three debts: OpenAlex.** After the SSRN routes
+failed, the **OpenAlex Works API** was queried for each DOI. All three DOIs resolve cleanly with
+correct titles, years and types, and each carries full author names, ORCIDs and institutional
+affiliations — so **the bibliographic identity and authorship of S-310, S-317 and S-318 are now
+independently confirmed by a second aggregator** (S-310: "Helvin Shek", ORCID 0009-0006-1508-0375;
+S-317: Min Dai / Linfeng Li / Chen Yang; S-318: Julien N. Hugonnier / Urban J. Jermann). However, every
+one of the three records returns **`abstract_inverted_index: null`**, so **no abstract was obtained by
+this route either and all three abstracts remain index-rendered**. The Semantic Scholar Graph API
+returns **HTTP 404** for the S-310 DOI. Two further facts are now established: S-318's two SSRN DOIs
+resolve to **two distinct OpenAlex work records** (a confirmed posting-duplication rather than a
+metadata artefact), and S-310's author is confirmed as *Helvin Shek* rather than only "Shek, H.".
+**Net effect on the debt ledger: the three SSRN debts remain open — now with the correct label
+"authorship Crossref- and OpenAlex-confirmed; abstract index-rendered" — and the next agent should try
+a further route (an author-hosted copy, a preprint mirror, or a publisher version) rather than
+re-attempting SSRN's own endpoints.**
+
+**Repair 6 — a stale score anchor in the parked record P-011 was restated.** P-011 (IDEA-015 PLAN-SUPPLY)
+still anchored its re-entry place to "IDEA-010 at 65.0 and IDEA-009 at 60.0", which were the scores in an
+earlier cycle. The current scores are **IDEA-010 68.0 and IDEA-009 53.0**; the *ordering* between them is
+unchanged, so the record's decision rule is unaffected. The numbers were restated in place, with the change
+noted in the record itself. **No rule, verdict or source content changed.**
+
+**Repair 7 — an observed ordering anomaly in `rejected_and_parked.md` (recorded, not silently restructured).**
+The file's rejection records are **no longer grouped under the `## Rejected` heading**: R-012 and R-013 sit
+*inside* the `## Parked` section (between P-010 and P-011), and R-014 onward appear *after* the
+`## Rediscovery guard` heading. This is a **presentation-order drift accumulated across cycles**, not a
+content loss — every record still carries its full text, heading and identifier. It was **not** restructured
+in this cycle because a lossless reorganisation of a 2,000-line file is itself a risk; the observation is
+recorded here so the next agent can confirm whether the order is intended and, if not, restore the grouping
+as an explicitly lossless repair. **No record content, verdict or identifier changed.**
+
+**Repair 8 — ten source entries (S-281 … S-290) are formatted as bold inline blocks instead of `### S-NNN`
+headings (recorded, not silently restructured).** A programmatic sweep of this file on 20 October 2026 found
+**307** entries in the standard `### S-NNN — …` heading form and **ten** further entries — **S-281, S-282,
+S-283, S-284, S-285, S-286, S-287, S-288, S-289 and S-290** — written as **bold inline entries** inside the
+cycle block in which they were registered (they are the IFRS-interim-report and market-microstructure sources
+added for IDEA-011's re-read). **All ten are present with full text, so the source count is unaffected:
+307 + 10 = 317**, and every citation elsewhere in the repository resolves to an existing entry. The defect is
+**one of heading form only**. It was not rewritten in this cycle, because converting ten multi-line bold blocks
+into heading-plus-body entries in a file of this size is a reformatting operation with real loss risk; the
+observation is recorded so the next agent can normalise it as an explicitly lossless edit (or record it as
+accepted). **No source content, verification label, verdict or identifier changed.**

@@ -1096,7 +1096,7 @@ re-specified as a tail-management claim
 
 
 - **ID / short name:** IDEA-004 / SLOWCAP-COND
-- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.2
+- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.3
 - **Change notes:** v1.0 — initial dossier. The limits-to-arbitrage family is heavily studied; the
   candidate is the *observable crowd-depth state* used to condition the trade. v1.1 (Cycle 35) — G-18
   closed as a bounded negative that supersedes its own premise; G-04 restated; G-28 opened; V-002
@@ -1122,6 +1122,23 @@ re-specified as a tail-management claim
   the prohibition on substituting any published crowding proxy is reaffirmed. New hard-stop flag added:
   a candidate may not argue the crowd is unmeasured merely because no measure was found. No score change
   (69.0, rank 2 unchanged).
+  **v1.3 — Cycle 72: prior-art re-read against unseen literature; RE-SCORED 69.0 → 66.0 (novelty 3 → 2)
+  and rank 2 → 3.** Three new peer-reviewed or directly-read sources were located and they bear on the
+  candidate's *differentiator*, not on its mechanism: (i) **S-325** (Huang, Liu, Lou & Polk 2024,
+  *Management Science* 70(8)) publishes, for a different arbitrage strategy in the same asset class, the
+  candidate's own two-sided crowding gate — "In times of low arbitrage activity, the beta-arbitrage strategy
+  exhibits delayed correction, taking up to three years for abnormal returns to be realized. In contrast,
+  when arbitrage activity is high, prices overshoot and then revert in the long run"; (ii) **S-326** (Dong,
+  Kang & Peress 2025, *Review of Financial Studies* 38(10)) publishes the slow-capital mechanism with its
+  sign and a published flow-based measure of deployed arbitrage capital (out-of-sample R² reaching 6.6 %
+  for persistent flows, none for transient flows); and (iii) **S-327** (Rodríguez Domínguez & Noguer i Alonso
+  2026, arXiv:2608.08405) publishes the crowding-measure inventory, the statement that those measures "have
+  rarely been benchmarked against one another", and — in Proposition 3.18 — an **identification constraint**
+  on the candidate's own rule ("aggregate crowding is not identified from within-date variation by any
+  estimator"). **G-28 stays open and frozen**, and its structural null is *strengthened*: all three new
+  crowding measures are aggregate and security- or strategy-level, so none is the pair-level, netted
+  convergence-crowd measure the candidate needs. **Three new hard-stop flags** are attached (below).
+  **V-002 remains frozen** and receives a Cycle-72 note. No gap opened.
 
 **One-sentence hypothesis.** Because arbitrage capital is slow to arrive and exits in
 synchronisation, a convergence trade's expected return and its crash risk are both functions of
@@ -1160,6 +1177,15 @@ from fundamental value (S-019, S-024).
 - *Closest known work:* the limits-to-arbitrage literature — Shleifer & Vishny's framing, Kondor
   [S-022], Abreu & Brunnermeier [S-023], Acharya/Shin/Yorulmazer [S-017], Duffie [S-019], plus
   empirical work on risk arbitrage [S-025] and on measurable crowding [S-026].
+  **Cycle 72 — the inventory is extended and one claim in this dossier is corrected.** The closest
+  published *analogue* of the candidate's own claim is now **S-325** (Huang, Liu, Lou & Polk 2024,
+  *Management Science*): it conditions an arbitrage strategy's profit on the depth of the arbitrage crowd
+  running it, in the same asset class, and finds a **two-sided** relation. **S-326** (Dong, Kang & Peress
+  2025, *RFS*) publishes the slow-capital mechanism, its sign, and a flow-based measure of deployed
+  arbitrage capital. **S-327** (Rodríguez Domínguez & Noguer i Alonso 2026) publishes the crowding-measure
+  inventory and an identification constraint on any within-date crowding design. **Correction to the
+  Cycle-30 note below:** the statement that "the non-monotone, sign-flipping gate remains unclaimed" is
+  **no longer true** — it is claimed in S-325 for a different arbitrage strategy.
 - *What is already known:* deviations persist; arbitragers are synchronised; crowding is a risk
   factor; crowding is measurable with slow, stale data.
 - *Substantive differentiator claimed here:* a *trade specification* in which the crowd-depth state
@@ -1254,16 +1280,27 @@ proxy is the bottleneck, and its reporting lag is a design constraint, not an im
 S-023, S-024]. Mechanism supported by sources: yes for the slow-capital and synchronisation
 channels; the *joint* crowd-depth conditioning of a convergence trade is an unresolved conjecture.
 Prior empirical support reported by others: for crowding and tail risk [S-026]; for risk-arbitrage
-characteristics [S-025]. Unresolved: the timely observability of crowd depth (G-04) and the
-direction of the conditioning (prediction 1).
+characteristics [S-025]. **Cycle 72 additions to the "reported by others" column:** the slow-capital
+mechanism with a published sign and a published flow measure [S-326]; a published two-sided
+crowding-conditioning of an arbitrage strategy's profit in the same asset class [S-325]; and a published
+crowding-state construction together with an identification constraint on within-date crowding designs
+[S-327]. Unresolved: the timely observability of crowd depth (G-04), the **identity** of the crowd the
+state must represent (G-28), and the direction of the conditioning (prediction 1) *in this candidate's
+own universe*.
 
 **Remaining uncertainty / confidence.** Confidence in the mechanism: high. Confidence in the
 two-sided conditioning: moderate-to-low — this is the falsifiable core. Confidence in timely
 observability: low-to-moderate. Priority score 74/100; rank 2 of 7 (rank 2 of 4 at Cycle 1; **Cycle 13:
 re-scored 74.0 → 69.0 and rank 2 → 3;**
-unchanged). **Concrete next question:** is
+unchanged; **Cycle 72: re-scored 69.0 → 66.0 and rank 2 → 3 — the *shape* of the claim is now published
+for another arbitrage strategy, so what is left is formulation, crowd identity and state definition, and
+the state definition is the frozen gap G-28**). **Concrete next question:** is
 the relation between convergence returns and crowd depth non-monotone as predicted, and can a
-timely proxy for crowd depth be validated against a holdings-based measure?
+timely proxy for crowd depth be validated against a holdings-based measure? **Cycle 72 restatement of the
+next question, given that the first half is now published elsewhere:** *given that the two-sided
+crowding gate is published for beta arbitrage (S-325), what would have to be true for a **convergence-
+crowd** version of it to be a distinct finding rather than a re-run — and can the aggregate-crowding
+effect be identified at all within the candidate's own design (S-327, Proposition 3.18)?*
 
 **Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
 - **G-13 — the state is published before the decision: PASS, but only on a quarterly-anchored
@@ -1628,6 +1665,96 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
 - **Score: 69.0, unchanged. Rank 2, unchanged.** Cycle 59 consumed **no `S-` identifier**: the re-check
   produced a negative about a *class* of sources and therefore required no new citation. Nothing found
   bears on any score component; the Cycle-35/52 precedent applies.
+
+#### Cycle 72 block — IDEA-004 · prior-art re-read against unseen literature; **re-scored 69.0 → 66.0 (novelty 3 → 2), rank 2 → 3**; G-28 frozen and structurally strengthened; V-002 noted, not unfrozen
+
+- **What Cycle 72 ran.** The register's named highest-value act, applied to this dossier: a **prior-art
+  re-read of IDEA-004** against literature it had not yet seen (it had not been re-read since Cycle 30).
+  The three questions the handoff set were: (i) does published work **condition the candidate's effect on
+  a second variable**; (ii) does published work **test the candidate's sign claim**; (iii) does published
+  work **change the baseline**. All three returned material findings. The re-read did **not** re-run the
+  crowding-measure search that G-28 forbids.
+- **Finding 1 (S-325) — the candidate's *sign-claim shape* is published, in this asset class, for a
+  different arbitrage strategy.** Huang, Liu, Lou & Polk (2024, *Management Science* 70(8): 5367–5385)
+  publish that "In times of low arbitrage activity, the beta-arbitrage strategy exhibits delayed
+  correction, taking up to three years for abnormal returns to be realized. In contrast, when arbitrage
+  activity is high, prices overshoot and then revert in the long run", with a positive-feedback channel
+  through firm leverage, conditioned on a comovement-based measure of arbitrage activity (S-157's construct
+  applied to the strategy's legs). Three consequences, stated plainly: (1) **the dossier's Cycle-30 claim
+  that "the non-monotone, sign-flipping gate remains unclaimed" is false** and is corrected; (2) the
+  candidate may no longer present *two-sided crowding conditioning of arbitrage profits* as unpublished —
+  it is published, for beta arbitrage, in US listed equities; (3) the published relation is **not** a
+  test of the candidate's rule: the trade family, the universe and the crowd differ, and the published
+  measure is a *return-comovement* measure, not a position-concentration measure of a paired convergence
+  crowd. What is left of the candidate's differentiator is therefore **formulation, crowd identity and
+  state definition** — not the shape of the relation.
+- **Finding 2 (S-326) — the candidate's mechanism and one of its own observables are published with
+  signs.** Dong, Kang & Peress (2025, *RFS* 38(10): 2936–2987) publish that "persistent aggregate capital
+  flows to hedge and mutual funds predict monthly factor returns with an out-of-sample R2 reaching 6.6 %.
+  Transient flows display no such power despite being more predictable", and attribute it to "active fund
+  managers' capital constraints" — so the *slow-capital* mechanism the candidate harvests is a published
+  baseline, and the candidate's own listed observable "the fund-flow state of the strategy complex" has a
+  published construction, a published sign and a published mechanism. The candidate may no longer present
+  either as an unexploited observable.
+- **Finding 3 (S-327) — a published identification constraint now attaches to the candidate's rule design.**
+  Rodríguez Domínguez & Noguer i Alonso (2026, arXiv:2608.08405) publish the crowding-measure inventory
+  ("from the cross-section of short interest … from return comovement … from institutional holdings and
+  their liquidity footprint … and from persistent flows into the funds that run these strategies") together
+  with the statement that these measures "rest on different primitives … and they have rarely been
+  benchmarked against one another" — an **independent, later corroboration of the register's own bounded
+  negative on crowding-proxy cross-validation** (G-04's validity limb, G-18). And in Proposition 3.18 they
+  publish that "aggregate crowding is not identified from within-date variation by any estimator", with the
+  corollary that calendar-robustness and aggregate-crowding identification are **mutually exclusive** in any
+  within-date design, and a priced alternative (deliberate heterogeneous overlap across disjoint
+  sub-universes). This is a **new constraint on the candidate's rule**: a crowd-depth gate read as a
+  within-date cross-sectional contrast cannot separate aggregate crowding from calendar effects. The paper's
+  calibration also uses a **borrow-rate-derived** crowding state ("the detrended log ninetieth percentile of
+  implied borrow rates") and reports crowding-driven edge-decay estimates of q̂ = 0.280 (four non-overlapping
+  momentum strategies) and 0.269 (all thirteen), with bootstrap intervals [0.000, 0.995] and [0.000, 0.965].
+- **Effect on G-28 — the freeze is maintained and the structural null is *strengthened*, not reopened.**
+  The three new crowding measures are a **return-comovement measure of a beta-arbitrage crowd** (S-325), a
+  **fund-flow measure of deployed arbitrage capital** (S-326) and a **borrow-rate-derived crowding state**
+  (S-327). Every one is aggregate and security- or strategy-level. **None is a pair-level, netted
+  position-concentration measure of the convergence crowd**, which is what the unfreezing condition
+  requires; and the Cycle-59 statement — that the available position-disclosure classes are
+  security-level and single-sided while a convergence crowd is a *pair* of positions — is not disturbed by
+  any of them. The null is now established against **four** independent published measure families
+  (holdings-based, comovement/short-interest, flow-based, borrow-based) rather than two. **G-28 stays open
+  and frozen, V-002 stays frozen, the crowding-measure search is not to be re-run, and the standing
+  prohibition on substituting any published crowding proxy is reaffirmed** (now with S-325, S-326 and
+  S-327 added to the prohibited list).
+- **New hard-stop flags — three.**
+  1. The candidate may **not** present the *two-sided / non-monotone crowding gate* as an unclaimed
+     relation — it is published for a different arbitrage strategy in the same asset class (S-325).
+  2. The candidate may **not** present *slow-moving arbitrage capital* or *the fund-flow state of the
+     strategy complex* as unexploited — both are published with signs (S-326).
+  3. The candidate may **not** present *a decision-time crowd-depth state* as unpublished — at least four
+     published constructions exist (S-026, S-157, S-242, S-325/S-326/S-327), none of which is the
+     candidate's convergence crowd; and any future execution must pre-register how the aggregate-crowding
+     effect is identified, because it is **not** identified from within-date variation by any estimator
+     (S-327, Proposition 3.18).
+- **Score: 69.0 → 66.0. Rank 2 → 3** (now behind IDEA-011 at 69.0 and IDEA-010 at 68.0).
+  **Mechanism 4 → 4** (the chain is intact and is now better documented: S-326 publishes the slow-capital
+  mechanism and its sign, but the candidate's *joint* crowd-depth conditioning remains an unresolved
+  conjecture, so the dimension cannot move to 5). **Evidence 4 → 4** (the family gained two peer-reviewed
+  sources, but they are evidence about *other* trades and other crowds; the candidate's own two-sided
+  conditioning still has **no** supporting empirical work in its own universe — the Cycle-35/52 precedent
+  applies: family-level support does not move the evidence dimension). **Novelty 3 → 2** (the structural
+  claim — two-sided crowding conditioning of an arbitrage strategy's profit, with a public decision-time
+  crowd state — is published; the residual is a formulation, market, crowd and state-definition
+  difference, on the IDEA-009 precedent, where a published rule in the same family took novelty from 2 to
+  1). **Falsifiability 3 → 3** (the published prior sharpens what a validator must beat, but the binding
+  constraint is still the *identity* of the state — G-28 — not the clarity of the test; a state that is not
+  the candidate's crowd cannot condition the candidate's rule). **Resilience 3 → 3** and **Data 3 → 3**
+  (unchanged; S-327 documents a borrow-derived crowding state and a published crowding-decay calibration,
+  both useful to a future validator's cost model, but neither changes the candidate's cost, capacity or
+  data position).
+- **Effect on V-002.** **Remains frozen.** A **Cycle-72 note** is added to the specification recording (i)
+  the extended rediscovery guard, (ii) the identification constraint from S-327, and (iii) the two new
+  published external benchmarks that any future execution would have to beat. **No re-specification is
+  written while the candidate is frozen.**
+- **No gap opened.** The residual is (a) the frozen identity limb G-28, and (b) a validation-design
+  question about identification — both are recorded, neither is a search question.
 
 ---
 

@@ -1,9 +1,18 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–66
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–72
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
+
+**Cycle 72 update — one specification noted, none amended in substance, none added, none withdrawn.**
+Cycle 72 ran the register's prior-art re-read of IDEA-004 and found published prior art on that
+candidate's own structural claim (S-325, S-326, S-327). **V-002 remains frozen** and receives a
+**Cycle-72 note** recording the extended rediscovery guard, a new **identification constraint** and two
+new **published external benchmarks**; **no re-specification is written while the candidate is frozen**.
+IDEA-004 was re-scored **69.0 → 66.0** and falls from rank 2 to **rank 3**, which does not change the
+executable set (V-002 was and remains frozen). **No new specification was written and none was
+withdrawn.**
 
 **Cycle 66 update — one specification amended, none added, none withdrawn.** Cycle 66 ran the register's
 prior-art re-read of IDEA-009 and found **direct published tests of that candidate's own prediction** (S-310,
@@ -672,7 +681,51 @@ The **unfreezing condition is therefore final in wording** — a published **pai
 a published validation of a construction against an outcome, that is not a public real-time by-product of
 the crowd's own trading — and a future session must **not** re-run the crowding-measure search. The standing
 prohibition on substituting any published crowding proxy (S-026, S-157, S-222, S-241, S-242, S-243, S-291,
-S-296) is reaffirmed. No score change; no `V-` identifier consumed; no gap opened.
+  S-296) is reaffirmed. No score change; no `V-` identifier consumed; no gap opened.
+
+**Cycle 72 note — V-002 remains frozen; the rediscovery guard is extended, an identification constraint
+is added, and two published external benchmarks are recorded.** Cycle 72 ran the register's **prior-art
+re-read of IDEA-004** against literature this candidate had not yet seen, and located published work on
+the candidate's own structural claim. Three things follow for this specification, and **none of them
+unfreezes it**.
+1. **The published-neighbour inventory is extended and the prohibition is extended with it.** The
+   candidate may no longer present (a) the **two-sided / non-monotone crowding gate** as an unclaimed
+   relation — it is published for a different arbitrage strategy in the same asset class (**S-325**:
+   Huang, Liu, Lou & Polk, *Management Science* 70(8): 5367–5385; low arbitrage activity produces delayed
+   correction of up to three years, high activity produces overshoot and long-run reversal); (b)
+   **slow-moving arbitrage capital**, or the candidate's own "fund-flow state of the strategy complex",
+   as unexploited — both are published with signs (**S-326**: Dong, Kang & Peress, *Review of Financial
+   Studies* 38(10): 2936–2987; persistent aggregate flows to hedge and mutual funds predict monthly
+   factor returns with an out-of-sample R² reaching 6.6 %, transient flows with none, the mechanism being
+   active managers' capital constraints); or (c) **a decision-time crowd-depth state** as unpublished —
+   at least four published constructions now exist (**S-026**, **S-157**, **S-242**, and **S-325 /
+   S-326 / S-327**), and **none of them is the candidate's convergence crowd**, so the standing
+   prohibition on substituting any published crowding proxy applies to the new sources as well.
+2. **A new identification constraint is attached to any future execution.** **S-327** (Rodríguez Domínguez &
+   Noguer i Alonso, arXiv:2608.08405, 9 August 2026) publishes, in Proposition 3.18, that under
+   homogeneous overlap "aggregate crowding is not identified from within-date variation by any estimator",
+   with the corollary that robustness to arbitrary calendar effects and identification of aggregate
+   crowding are **mutually exclusive** in any within-date design, and a priced alternative — deliberate
+   heterogeneous overlap across disjoint sub-universes, borrow pools or liquidity tiers (Remark 3.21). Any
+   future execution of this specification must therefore **pre-register how the aggregate-crowding effect
+   is identified** (variation across dates, or heterogeneous overlap), and must not read a within-date
+   cross-sectional crowd contrast as the aggregate effect. The same paper documents a **borrow-rate-derived
+   crowding state** ("the detrended log ninetieth percentile of implied borrow rates") and a published
+   crowding-decay calibration (q̂ = 0.280 for four non-overlapping momentum strategies and 0.269 for all
+   thirteen, with 12-month moving-block bootstrap intervals [0.000, 0.995] and [0.000, 0.965]), which are
+   usable inputs to a future validator's cost model and persistence check, and are **not** substitutes for
+   the candidate's own state.
+3. **Two published external benchmarks are recorded.** Any future execution must be benchmarked against
+   **S-325** (the published two-sided crowding-conditioned arbitrage result) and **S-326** (the published
+   flow-conditioned factor-return result), and must explain why a convergence-crowd version would be a
+   distinct finding rather than a re-run of either. A null on an *unconditional* convergence rule remains
+   **not** a kill; the candidate's own kill condition (a monotone negative relation) is unchanged.
+**What does not change:** the candidate's score is re-scored **69.0 → 66.0** on the novelty dimension only
+(the structural claim is published; the residual is formulation, crowd identity and state definition), it
+falls from rank 2 to **rank 3**, **G-28 remains open and frozen** with its unfreezing condition unchanged
+in wording — a published **pair-level, netted** measure of the convergence crowd's position concentration,
+or a published validation of a construction against an outcome, that is not a public real-time by-product
+of the crowd's own trading — and **no re-specification is written while the candidate is frozen**.
 
 ---
 
