@@ -1,4 +1,35 @@
-# RANKED SHORTLIST — CYCLES 1–56
+# RANKED SHORTLIST — CYCLES 1–58
+
+**Cycle-58 ranking. No score changed for any active candidate.** The order remains **IDEA-011 (69.0,
+rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the
+tie at 69.0 broken in IDEA-011's favour on falsifiability (4 versus 3), exactly as in Cycles 35, 37, 52
+and 56. Cycle 58 executed **G-01** — the feasibility precondition of the parked candidate IDEA-002 — and
+**closed it as a negative on three independent grounds**, so the candidate is **rejected (R-038)** and its
+parking **P-004 is closed**: the proposed validation is tautological for the candidate's own conditioning
+variable (a dealer's FVA is computed from its own funding curve, S-010/S-155, so a funding-cost proxy
+"predicting" it is an accounting identity, not a measure of dealer-specific balance-sheet capacity); the
+disclosed-dealer-FVA target is annual, thin, non-comparable and materially different in definition across
+the handful of disclosing dealers, so no multi-year public series exists; and the state the candidate
+actually needs is dealer-specific while every public ingredient is market-wide, so the conditioning
+changes only the *size* of an effect whose sign and existence are already published (S-009, S-292, S-293,
+S-297). Both the candidate's own dossier (prediction 4) and its own parking entry (P-004) prescribed
+rejection rather than re-specification, and both were followed. Score withdrawn; no `V-` specification was
+ever issued for IDEA-002, so none is withdrawn. Cycle 58 also ran the register's **first screen of a
+contractual-barrier-hedging family** (the published knock-out level of an autocallable or structured note
+and the issuer's hedging discontinuity), logged as a **bounded negative (R-037)** on six independent
+reasons (S-298 … S-308), and added that family to the known-baseline table. It also **closed G-04 in the
+candidate's favour on the proxy-validity limb** (each crowding construct the register holds has been
+validated against a published outcome, so the comomentum-versus-holdings cross-validation the register
+had been demanding was never needed) while **restating G-28 as frozen for a structural reason** — every
+published position-disclosure source is security-level and single-sided, so it cannot represent a
+convergence crowd, which is defined by a pair of positions — and **confirmed G-30 exhausted without a
+re-probe**, **maintained the G-21 null** (sharpened: the field's largest comparability study is a
+first-time-adopter design by construction and does not inventory drift), and **maintained IDEA-014's
+state-free existence limb inconclusive**. Cycle 58 also carried out a **state-integrity repair of the
+Cycle-57 source block**, finding two mis-stated titles, one mis-stated author initial, one unverifiable
+entry (S-290, struck from the evidentiary basis), one wrong volume/issue, one duplicate registration
+(S-010/S-155), and six issuer documents whose quoted disclosure language had been recorded as paraphrase
+rather than quotation. **No candidate was created; no score changed.**
 
 **Cycle-56 ranking. No score changed.** The order remains **IDEA-011 (69.0, rank 1), IDEA-004 (69.0,
 rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in
@@ -322,7 +353,6 @@ Cycle-32 active ranking; "Rank change" states the movement.*
 | --- | --- | --- | --- | --- |
 | IDEA-003 | VRP-STATE | **66.0** | rank 4 (Cycle 32) | **G-22 EXECUTED and closed against the candidate in Cycle 35 — no published work establishes that an option-surface-implied imminent-crash measure adds risk-adjusted value to a variance harvest beyond the published state-conditioned volatility-trading family (S-180). The published option-implied crash literature forecasts crash events, predicts the expected market return (S-223) and prices crash risk; and S-223's measure is a hybrid of option-implied variance and realised log-return moments, so it is not even a pure decision-time option-surface measure. By the rule G-22 registered in Cycle 32, the candidate is a known baseline with an unvalidated state overlay and must be parked — parked (P-012), not rejected, because nothing published shows the candidate's effect. Score retained for the record; V-003 marked never-to-execute** |
 | IDEA-008 | SECURITY-LEND | **63.0** | parked | **G-13 — the candidate's own named state is not publicly disseminated before 29 March 2029** (S-126) — **parked, P-010, with a dated unblocking condition (G-14)** |
-| IDEA-002 | FUNDSTATE | **63.0** | parked | feasibility kill condition (G-01) — **parked, P-004**; tied with IDEA-009 but not ranked because its precondition is open |
 | IDEA-005 | ROLLCOND | **60.0** | parked | **G-12 — the closest published test of its own state variable is null (S-099) and the family's aggregate result is null post-2012 (S-033, S-037) — parked, P-009** |
 | IDEA-013 | EU-ETSCOMP | **58.0** | parked | decision-time sample (G-13) and model-implied conditional structure — **parked, P-008** |
 | IDEA-015 | PLAN-SUPPLY | **61.0** | parked | **new in Cycle 30** — pre-announced, non-discretionary insider supply under Rule 10b5-1 plans; the state is published (Item 408(a) quarterly tables, Form 4 plan disclosures, S-182/S-183) but the nearest published price effect is attached to plan *adoption* around earnings, not to the execution of a disclosed schedule — **parked, P-011, unblocking condition G-21** |
@@ -332,9 +362,24 @@ Cycle-32 active ranking; "Rank change" states the movement.*
 | ID | Short name | Total /100 | Cycle-12 rank | Outcome |
 | --- | --- | --- | --- | --- |
 | IDEA-001 | RECON-FLOW | 76.0 | **1** | **rejected (R-011), Cycle 13** — the index effect has collapsed to ≈0 in the modern sample and the flow-scaling differentiator has a published null (S-146); the front-running is published as competitive anticipatory liquidity provision (S-147); the passive-flow counterparty is the issuer (S-151) |
+| IDEA-002 | FUNDSTATE | 63.0 | parked | **rejected (R-038), Cycle 58** — was parked (P-004) on feasibility precondition G-01; G-01 was executed and closed as a negative on three independent grounds (the proposed validation is tautological for the candidate's own conditioning variable; the disclosed-dealer-FVA target is annual, thin, non-comparable and not multi-year; and the state the candidate actually needs — dealer-specific balance-sheet capacity — is not publicly measurable, while every public ingredient is market-wide and therefore conditions only the *size* of an effect whose sign and existence are published — S-009, S-292, S-293, S-297). Both the candidate's own dossier (prediction 4) and its own parking entry (P-004) prescribed rejection rather than re-specification, and both were followed. Score withdrawn; P-004 closed |
 | IDEA-007 | FUNDSTATE-FX | 64.0 | withdrawn | **rejected (R-008)** — the cross-sectional funding-state → currency-return claim is a published, positive result (S-064) |
 | IDEA-006 | FIXCLOCK | 59.0 | withdrawn | **rejected (R-009)** — G-11 closed against it: a settlement deadline cluster is a published price determinant (S-112) |
 | IDEA-012 | CLS-CLOSE | 56.0 | withdrawn | **rejected (R-010)** — G-11 closed against it: the settlement-side cluster is published, and the target window is documented as a cost (S-117 … S-120) |
+
+**Cycle-58 rank changes.** The active ranking loses **one** parked candidate and gains **none**: IDEA-002
+moves from the parked table to the withdrawn table because **G-01 was executed and closed as a negative**,
+so its parking (P-004) is closed and the candidate is rejected (R-038). **No score changed for any
+active candidate** — the order remains **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010
+(68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3), as in Cycles 35, 37, 52 and 56. The register's *shape* changes by one:
+**five active dossiers (three shortlisted), five parked (IDEA-003, IDEA-005, IDEA-008, IDEA-013,
+IDEA-015) and five rejected (IDEA-001, IDEA-002, IDEA-006, IDEA-007, IDEA-012)**. No new validation
+specification was required — the top three are unchanged and all three already have specifications
+(V-009, V-002 frozen, V-010), so no new `V-` identifier was consumed. The executable set is
+unchanged in membership: **V-008, V-009 and V-010** (V-010 non-executable), **V-002 frozen**,
+**V-001, V-003, V-004, V-005, V-006 and V-007 withdrawn**. New identifiers consumed: **S-291 … S-308**,
+**R-037**, **R-038**; next free: **IDEA-017, S-309, V-012, G-34, R-039, P-014**.
 
 **Cycle-13 rank changes.** The active ranking loses **one** candidate and gains **none**: IDEA-001
 (previous rank 1, 76.0) is **rejected** after the register read the 2024–2026 reconstitution

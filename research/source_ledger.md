@@ -7500,9 +7500,11 @@ stronger objections that the effect is *anticipated* (S-306), *engineered away* 
 (IDEA-002, R-038).** No score changed for any other candidate. The active ranking is now
 **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0),
 IDEA-014 (52.0)** — unchanged in order and level, because IDEA-002 was parked and therefore never in the
-active table. The register's shape changes by one: **four active dossiers (two shortlisted), five parked
-(IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015), five rejected (IDEA-001, IDEA-002, IDEA-006, IDEA-007,
-IDEA-012)**. New identifiers consumed: sources **S-291 … S-308**, rejections **R-037** and **R-038**. No
+active table. The register's shape changes by one: **five active dossiers (three shortlisted), five parked
+(IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015) and five rejected (IDEA-001, IDEA-002, IDEA-006,
+IDEA-007, IDEA-012)** — IDEA-002 moved from parked to rejected, so the parked count fell from six to
+five and the rejected count rose from four to five, while the active count is unchanged. New
+identifiers consumed: sources **S-291 … S-308**, rejections **R-037** and **R-038**. No
 `IDEA-` identifier was consumed, no `V-` identifier was consumed, and no `G-` identifier was opened.
 **Next free identifiers:** **IDEA-017, S-309, V-012, G-34, R-039, P-014**. The reserved-and-unused
 identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

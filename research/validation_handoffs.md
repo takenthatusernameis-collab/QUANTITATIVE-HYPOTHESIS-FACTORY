@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–56
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–58
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -6,8 +6,9 @@ repository. The designated validation repository must make its own data, impleme
 accounting and result checks, and must not treat any statement here as a result.
 
 Cycle 1 provided three specifications, in shortlist order: V-001 (IDEA-001), V-002 (IDEA-004),
-V-003 (IDEA-003). IDEA-002 is not specified for validation because its feasibility precondition
-(source gap G-01) is open; see `next_agent_handoff.md`.
+V-003 (IDEA-003). IDEA-002 was never specified for validation: it was parked (P-004) on feasibility
+precondition G-01, and G-01 was **executed and closed as a negative in Cycle 58**, so IDEA-002 was
+**rejected (R-038)** rather than specified. See `next_agent_handoff.md` and `rejected_and_parked.md`.
 
 Cycle 2 adds **V-004 (IDEA-005)**, which reached the top three, plus two **optional**
 specifications for candidates that did not: V-005 (IDEA-007) and V-006 (IDEA-006).
@@ -101,6 +102,28 @@ specification may be written for it** until the replacement-state gap G-24 is cl
 remains frozen** pending G-18/G-21, which Cycle 32 leaves open. The executable set is therefore **V-002
 (frozen), V-003 (amended), V-008, V-009, V-010**, with **V-001, V-004, V-005, V-006 and V-007
 withdrawn**.
+
+---
+
+**Cycle 58 update — no specification withdrawn, none added, none amended.** No candidate entered or
+left the **top three** and no score changed, so the executable set is unchanged in membership:
+**V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52 and Cycle-56 amendments
+below), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**,
+and **V-003 is never-to-execute**. **G-30 remains exhausted** (all four sub-routes closed; no new route;
+**no statutory filing re-run**), so **V-010 remains non-executable against the corporate-bond ETF
+universe** and must not be executed against a substituted crowding proxy. **G-28 and V-002 remain
+frozen** — the null was re-derived once more and this cycle reached a *structural* reason for it: every
+published position-disclosure source is security-level and single-sided, so no published measure can
+represent a convergence crowd, which is defined by a pair of positions (S-291, S-296, S-242, S-026,
+S-222, S-157 each measure a different crowd). **IDEA-014's state-free existence limb remains
+inconclusive** and no specification may be written for it. The substantive change this cycle is **not**
+to a specification: **IDEA-002 (FUNDSTATE) was rejected (R-038)** after G-01 was executed and closed as
+a negative, and **no specification had ever been issued for it** (it was parked, P-004, precisely
+because G-01 was open), so **nothing is withdrawn** — the parking entry P-004 is closed instead. The
+Cycle-58 family screen — **contractual barrier hedging** (the published knock-out level of an
+autocallable or structured note and the issuer's hedging discontinuity), logged as **R-037** — is a
+bounded negative and creates no validation specification; its reasons are independent of data
+availability, so no gap is opened. No new `V-` identifier was consumed in Cycle 58.
 
 ---
 
