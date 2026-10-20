@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–37
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–40
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -116,6 +116,28 @@ filings (Form X-17A-5) for private, non-listed authorised participants as well a
 periodic reports for listed ones (S-231 … S-234), so the state-construction step is a *filing-parsing*
 task with a per-firm cadence rather than an unobtainable one — and it registers **G-29**, the
 ETF → authorised-participant mapping and the coverage count that now bounds the effective sample.
+
+**Cycle 40 update — no specification withdrawn, none added, one amended (V-010), one frozen
+specification's gap restated (V-002), one new gap registered against V-010.** No candidate entered or
+left the top three and no score changed, so the executable set is unchanged in membership:
+**V-008, V-009 and V-010** are executable as specified (V-009 unchanged; **V-010 with the Cycle-40
+amendment below, which changes what the validator may build**); **V-002 remains frozen** pending G-28,
+whose wording is restated; **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**; **V-003 is
+never-to-execute**. The substantive change is again to V-010. Cycle 40 **executed G-29** as a calibrated
+document-level search rather than another re-reading of prospectuses: the register's trade-press lead
+was verified from the primary document (S-239 — the iShares Bitcoin Trust ETF Form 424B3 prospectuses
+name their authorised participants verbatim), which supplied a detector known to work; run across every
+prospectus form type, that detector returns **five documents in four filers, all crypto or commodity
+trusts, and no corporate-bond ETF**, and the two complementary routes give the same answer. The
+coverage count is therefore **0 corporate-bond ETFs with a published AP set, 0 (ETF, AP) cells and 0
+(ETF, AP, episode) cells**, so the V-010 state-construction step — *attach the AP set to the ETF* —
+**cannot be performed for the candidate's universe from public filings**. V-010 is therefore **amended,
+not withdrawn**: it remains executable only if a specifiable route emerges (**G-30**), and any execution
+must first report the (ETF, AP, episode) denominators in the form established in Cycle 40. The Cycle-40
+amendment also fixes the **cadence premise**: the private-AP capital state is **annual**, not quarterly
+(2,414 of 2,419 filers disclose once a year; none three or more), and the one published AP set in the
+project (crypto class) has **13 named AP firms, 13 of 13 covered, 285 (AP, filing-date) cells** — the
+template for the effective-sample report V-010 must produce.
 
 ---
 
@@ -394,6 +416,34 @@ concentration at this candidate's own cadence, or a published validation of the 
 construction against an outcome. The published crowding neighbours (S-026, S-157, S-222) may not be
 substituted, because they measure a different crowd. No score change; no re-specification is written
 while the candidate is frozen.
+
+**Cycle 40 note — V-002 remains frozen; G-28 is restated with a third candidate route, and the
+register's published-crowding inventory is corrected.** Cycle 40 tested the route named in the Cycle-39
+handoff — FINRA's twice-monthly equity short-interest file (S-127) — against this candidate's pair
+structure, and recorded it as a **lead with objections**, not as a resolution. The facts (fetched
+directly from FINRA): firms must report short positions in all customer and proprietary accounts in all
+equity securities twice a month, due by 6 p.m. ET on the second business day after the designated
+settlement date and published the following Tuesday; the published object is **per issue**, for all
+exchange-listed and OTC equity securities, with one rolling year online and archives by download, and
+**no firm-level breakdown**. The objections: (i) **granularity** — a per-issue aggregate across all
+reporting firms cannot identify the convergence crowd and cannot express its concentration, so mapping
+it to pairs is a construction with the same defect as the 13F holdings-matching route, and it cannot
+separate convergence capital from a coincident directional short; (ii) **contamination of the short
+leg** — the short leg of a pair is typically the recent winner, whose short interest also carries
+value, short-bias and index strategies; (iii) **prior art** — short interest is already the published
+measure of merger-arb shorting and its price pressure (S-241), already a published crowding measure of
+arbitrage capital (S-242), and daily short interest already infers near-real-time crowding of
+quantitative long-short strategies (S-243). Note carefully what is **not** an objection: the cadence.
+Twice-monthly publication with an ~8-business-day lag is **faster** than the 45-day 13F grid this
+candidate's rule is anchored to, so a validator must not reject this route on speed grounds.
+**What this changes for the frozen specification:** the register's published-neighbour inventory for
+this candidate was **incomplete** — it listed only the 13F-based and correlation-based crowding
+measures — and the short-interest branch must now be engaged by any future execution. The unfreezing
+condition is unchanged: a *published* measure of convergence-crowd position concentration in this
+candidate's own universe at this candidate's cadence, or a published validation of a construction
+against an outcome; the published crowding neighbours (S-026, S-157, S-222, and now S-241, S-242,
+S-243) may not be substituted, because they measure a different crowd. No score change; no
+re-specification is written while the candidate is frozen.
 
 ---
 
@@ -1616,3 +1666,46 @@ narrower, more specialised candidate rather than a general edge.
   amendment): on redemption days, weak-capital ETFs' discounts widen more than strong-capital ETFs'
   discounts, with the three rival controls (S-196, S-197, S-199) applied to the *interaction* rather
   than to the level, and the monthly dispersion proxy (S-200) as a robustness check.
+
+- **Cycle-40 amendment (G-29 executed; the state-construction step is not executable on the candidate's
+  universe from public filings).** G-29 was executed as a *calibrated document-level search*: the
+  register's trade-press lead was verified from the primary document (S-239 — the iShares Bitcoin Trust
+  ETF Form 424B3 prospectuses name their authorised participants verbatim, five APs in January 2024 (nine by April, twelve by August 2024)
+  and twelve cash plus four in-kind as of 31 July 2025), which supplied a detector known to work. Run
+  across every prospectus form type, that detector returns **five documents in four filers — every one a
+  crypto or commodity trust — and no corporate-bond ETF**; the phrase-first route over 591 bond-worded
+  filings and the name-first route over bond-worded filings containing any of thirty-one AP firm names
+  return the same answer, and two sponsor product pages (iShares AGG, Vanguard BND) name no AP.
+  **Coverage count: 0 corporate-bond ETFs with a published AP set; 0 (ETF, AP) cells; 0 (ETF, AP,
+  episode) cells.** Consequences for a validator, in order of importance:
+  1. **The state-construction step of this specification cannot currently be performed for a
+     corporate-bond ETF.** The capital state itself is abundant (2,419+ broker-dealer filers, S-231);
+     what does not exist publicly is the **ETF → AP mapping**. A validator must therefore **not**
+     substitute a published crowding proxy (S-026's Days-ADV, S-157's comomentum, S-222's crowding
+     factor) for the mapping: those measure all 13F institutions, i.e. directional positioning, and the
+     candidate's claim is about arbitrage capital. Such a substitution converts the candidate into a
+     known baseline and is prohibited by the register's rule.
+  2. **If** a validator can obtain an AP mapping for a corporate-bond ETF from a source outside the
+     statutory prospectus (this is what **G-30** asks for — a sponsor-published participant list, an
+     exchange or regulatory disclosure requirement, or a non-US issuer's prospectus), then the
+     specification becomes executable and the mapping route must be **documented in the report**, with
+     the document, its date and its granularity.
+  3. **The effective-sample report must use the Cycle-40 denominators**, which are the first worked
+     (ETF, AP, episode) counts in the register: on the one published AP set in the project (the crypto
+     class), **13 distinct named AP firms, 13 of 13 with a public Form X-17A-5 filing, 285 (AP,
+     filing-date) cells**, and **none** of the thirteen files a Form 10-Q or 10-K, so Form X-17A-5 is
+     the only public capital route for the entire set.
+  4. **The cadence premise is corrected.** The private-AP capital state is **annual** — fiscal year-end,
+     filed February–March — and therefore **9–14 months stale** at any decision date; the Cycle-37
+     statement that some private filers report quarterly rests on a single document that does not
+     appear in the phrase corpus at all and must be re-verified from that firm's own filing index before
+     it is repeated (S-231, as extended in Cycle 40). This reinforces the Cycle-35 cross-sectional
+     re-anchoring: the state never changes inside a holding window, so the identification must be a
+     cross-sectional contrast between AP sets and the time-series reading stays a low-power ablation.
+  5. **Form FR Y-9C is not indexed by EDGAR's full-text search at all** (zero hits for "capital", "net
+     capital" and "Federal Reserve" restricted to that form), so the bank-holding-company leg of the
+     state must be sourced from the Federal Reserve's own National Information Center (S-226
+     restated) rather than from EDGAR. A validator who assumes an EDGAR route for this leg will find
+     nothing and must not report that as a missing disclosure.
+  6. The verdict remains **"untested"** where the counts are too small, and the candidate's status is
+     **untested, not dead**: what Cycle 40 closed is a *route*, not the candidate.

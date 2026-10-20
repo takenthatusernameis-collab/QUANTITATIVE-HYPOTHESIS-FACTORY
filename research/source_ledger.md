@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–37
+# SOURCE LEDGER — CYCLES 1–40
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -39,6 +39,25 @@ and opens **G-27** (IDEA-010's effective sample and state-frequency residual) an
 crowd-definition residual). The register now holds **S-001 … S-209** and **S-220 … S-230**; the
 identifiers **S-210 … S-219** were reserved by an unwritten cycle and are **not used** (see the note
 below).
+
+Cycle 40 (2026-10-20) added **S-239 … S-244** (see "Cycle 40 sources" at the end of this file), a
+**backfilled "Cycle 38 and Cycle 39 gap verdicts" block** (neither of those two cycles had a verdict
+block in this file, so their verdicts existed only in prose — a state-integrity gap of the same kind
+as the Cycle-35 and Cycle-37 repairs), and the **"Cycle 40 gap verdicts"** block. Cycle 40's decisive
+finding is that **G-29 is closed as a bounded negative for the public-filings route, and the negative
+now has a positive control**: the register's trade-press lead is verified from the primary document
+(S-239 — the *iShares Bitcoin Trust ETF* Form 424B3 prospectuses name their authorised participants
+verbatim, twelve cash and four in-kind as of 31 July 2025), a full-document search for that naming
+sentence across all prospectus form types returns **only crypto and commodity trusts and no
+corporate-bond ETF**, and the coverage count for the candidate's universe is **0**. The same cycle
+re-derived the G-27 counts at **filer level** rather than by phrase (2,419 distinct broker-dealer
+filers in the phrase corpus as a lower bound; 66 listed filers at quarterly and 96 at annual cadence;
+the private-AP capital state **annual**; and **FR Y-9C is not indexed by EDGAR's full-text search at
+all**), corrected the register's own crowding-measure inventory with three published sources that
+IDEA-004's dossier had not recorded (S-241, S-242, S-243), and logged the eligibility-switch family
+screen as a **bounded negative (R-020)** on the strength of the published accredited-investor rule
+(S-244). The register now holds **S-001 … S-209** and **S-220 … S-244**; the identifiers
+**S-210 … S-219** remain reserved and unused.
 
 Cycle 37 (2026-10-20) added **S-231 … S-238** (see "Cycle 37 sources" at the end of this file), the
 **"Cycle 36 gap verdicts"** block (recorded in Cycle 37, because Cycle 36's verdicts existed only in
@@ -2906,6 +2925,22 @@ https://www.finra.org/filing-reporting/regulatory-filing-systems/short-interest
   a stated rule. The page also documents a 24-month window of daily volume and open-interest data
   for the *aggregate* short-interest series, which is a different object from the settlement-date
   short-interest file.
+- **Cycle 40 extension (the data object and its granularity — the G-28 FINRA-route test).** The
+  companion data page, FINRA's **Equity Short Interest Data** catalogue entry
+  (https://www.finra.org/finra-data/browse-catalog/equity-short-interest/data), was fetched directly
+  in Cycle 40 and adds four facts that bear on IDEA-004's unfreezing condition. Verbatim: "FINRA
+  publishes the short interest reports it collects from broker-dealers for all exchange-listed and
+  over-the-counter (OTC) equity securities"; "OTC equity / other OTC short interest is available for
+  view **by issue**, or by downloadable pipe-delimited text file containing all OTC equity / other OTC
+  securities reported with a short position"; "Data is available online for one rolling year based on
+  the settlement date provided in the Short Interest Reporting Deadlines, and archived data is
+  available via download." The operative point for the register is the **granularity**: the published
+  object is a **per-issue aggregate** of all reporting firms' positions, with **no firm-level
+  breakdown published** — which is why the FINRA route cannot deliver a *crowd* or a *concentration*,
+  and why the register's G-28 verdict rests on granularity and prior art rather than on cadence.
+  FINRA's Rule 4560 reporting obligation covers short positions in all customer and proprietary
+  accounts in all equity securities, so the aggregate is a full-firm-population aggregate rather than a
+  sample.
 - **Verification:** the page was fetched directly and read in this cycle; the quoted sentences and
   the schedule columns were returned in the fetched text, including the 2025 and 2026 settlement /
   due / publication date tables.
@@ -4927,6 +4962,29 @@ relies on it.
   So the correct inference is "the net-capital figures are in documents that EDGAR has publicly
   posted", not "the filer's own confidential label is what the index excludes". A validator who needs
   the *values* must open the document and read them.
+- **Cycle 40 extension (the count instrument, its limits, and the FR Y-9C finding).** Cycle 40 used
+  this index as a *counting* instrument and produced three corrections that must be carried forward.
+  1. **The phrase corpus is a lower bound on firms, not a count of firms.** The query returns 6,131
+     documents from **2,419 distinct filers**, but filer-level enumeration of the same firms' own
+     filing indexes shows how far the two diverge: **Citadel Securities LLC (CIK 1146184) files 24
+     X-17A-5 documents across 23 periods (2003-12-31 … 2025-12-31) and contains the phrase in only
+     one of them**, so a phrase count is a *wording* count. The correct instrument for any
+     firm-coverage question is filer-level enumeration (CIK × form × report date), which in Cycle 40
+     was done through the EDGAR submissions endpoint (S-240).
+  2. **The cadence claim inside this entry needs qualification.** Re-derived at filer level over the
+     2,419 filers in this corpus: **2,414 disclose once per year and five disclose twice in a year;
+     none discloses three or more times a year.** The entry's phrase "quarterly for at least some
+     private filers" rests on a single document (Agentis Capital Markets US, LLC, period ending
+     2024-09-30) that does **not** appear in the phrase corpus at all; it must be re-verified from that
+     firm's own filing index before it is repeated. For the firms that the candidate's contrast
+     actually depends on, Cycle 40's filer-level check of **thirteen named AP firms and fifteen major
+     private AP firms found annual cadence in every case** (fiscal year-end, filed February–March).
+  3. **Form FR Y-9C is not indexed by EDGAR's full-text search at all.** Queries restricted to
+     `forms=FR Y-9C` return **zero** hits for "capital", "net capital" and "Federal Reserve" — the
+     form is not in the search index. The bank-holding-company leg of G-27 therefore **cannot be
+     enumerated through EDGAR**, and the register's S-226 route must be restated as a Federal Reserve
+     National Information Center route rather than an EDGAR route. This is a limit of the instrument,
+     not evidence about the filings.
 - **Supports:** **G-27 limb 1** — the state-availability question for IDEA-010. It is the direct
   refutation of Cycle 36's claim that firm-level broker-dealer regulatory capital is not publicly
   available, and it establishes the *document-level* nature of the route (which is why the register's
@@ -5218,4 +5276,350 @@ on this limb.
   **R-017** (the Cycle-36 ex-dividend screen, written for real) and **R-018** (the Cycle-37 Rule 201
   family screen). No `IDEA-` identifier and no `V-` identifier were consumed.
 - **Next free identifiers:** **IDEA-017, S-239, V-012, G-30, R-019, P-014**. The reserved-and-unused
+  identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 40 sources (2026-10-20)
+
+### S-239 — iShares Bitcoin Trust ETF (CIK 0001980994), **Form 424B3 statutory prospectus** — the "Authorized Participants" section, and the crypto-trust prospectus set generally
+- **Type:** primary statutory filing (Securities Act prospectus) fetched and read directly from
+  `www.sec.gov/Archives`.
+- **Why it is in the ledger.** It is the **positive control** that makes the register's G-29 negative
+  credible, and it verifies the trade-press lead that Cycle 37 had deliberately left out of the
+  ledger as unverified. Verbatim from the Form 424B3 filed **31 July 2025**
+  (`bit20250731_424b3.htm`): "As of the date of this prospectus, the Authorized Participants that are
+  able to conduct creations and redemptions for cash are ABN AMRO Clearing USA LLC, BMO Capital
+  Markets Corp., BofA Securities, Inc., Citadel Securities LLC, Citigroup Global Markets, Inc.,
+  Goldman Sachs & Co. LLC, Jane Street Capital, LLC, Jefferies LLC, JP Morgan Securities LLC,
+  Macquarie Capital (USA) Inc., UBS Securities LLC and Virtu Americas LLC. The Authorized Participants
+  that are able to conduct creations and redemptions in-kind are Jane Street Capital, LLC, Virtu
+  Americas LLC, JP Morgan Securities LLC, and Marex Capital Markets Inc. Additional Authorized
+  Participants may be added at any time, subject to the discretion of the Sponsor."
+- **The list evolves, and the evolution is dated.** Each of the following sentences was read in the
+  document itself: the **9 January 2024** Form 424B3 (filed 10 January 2024) reads "As of the date of
+  this prospectus, the Authorized Participants are ABN AMRO Clearing USA LLC, Jane Street Capital, LLC,
+  JP Morgan Securities LLC, Macquarie Capital (USA) Inc. and Virtu Americas LLC" — **five**; the
+  **11 April 2024** Form 424B3 (filed 18 April 2024) names **nine**, adding Citadel Securities LLC,
+  Citigroup Global Markets, Inc., Goldman Sachs & Co. LLC and UBS Securities LLC; the **6 June 2024**
+  Form 424B3 (filed 13 June 2024) repeats those nine; the **5 August 2024** Form 424B3 (filed 8 August
+  2024) names **twelve**, adding BMO Capital Markets Corp., BofA Securities, Inc. and Jefferies LLC; and
+  the **31 July 2025** Form 424B3 names the **twelve cash** APs above plus **four in-kind** APs. The same
+  sets appear in the trust's Form 10-K (4 March 2024, 5 March 2025, 27 February 2026). Note the sentence
+  form: the naming sentence is "As of the date of this prospectus, the Authorized Participants are …",
+  and a *later* sentence adds "Additional Authorized Participants may be added at any time, subject to
+  the discretion of the Sponsor" — so the published set is a **point-in-time** disclosure, and the
+  AP population is *endogenous*: it expands when APs find the creation/redemption economics attractive.
+- **The AP-naming practice is class-specific, and that is the finding.** An EDGAR full-text search
+  for the naming sentence across all prospectus form types returns **five documents in four filers**,
+  all of them digital-asset trusts: iShares Bitcoin Trust ETF (CIK 1980994), iShares Ethereum Trust
+  ETF (CIK 2000638), iShares Staked Ethereum Trust ETF (CIK 2099103) and iShares Bitcoin Premium
+  Income ETF (CIK 2089969). The same practice appears in the filings of WisdomTree Bitcoin Fund
+  (CIK 1850142), the Invesco Galaxy trusts, the 21Shares trusts, the Morgan Stanley digital-asset
+  trusts, T. Rowe Price Active Crypto ETF, Ark 21Shares Bitcoin ETF, and — in older form — in the
+  commodity trusts (iShares S&P GSCI Commodity-Indexed Trust, iShares Gold Trust Micro, World Gold
+  Trust), whose prospectuses name their market makers and clearing counterparties. **No
+  corporate-bond ETF names its APs.**
+- **Caveats:** a crypto trust is not a corporate-bond ETF and its AP set says nothing about the
+  candidate's universe; the AP set is a point-in-time disclosure that the sponsor may change "at any
+  time"; and the register read the *prospectus*, not the underlying AP agreements, so the *set* is
+  published but the *terms* are not.
+- **Verification:** the documents were fetched directly from `www.sec.gov/Archives/edgar/data/
+  1980994/…` and the quoted paragraph was read in the fetched text; the filer list was obtained from
+  the EDGAR company-search endpoint (CIK 0001980994, conformed name "iShares Bitcoin Trust ETF") and
+  its filing index; the document-universe counts were obtained from the EDGAR full-text search API
+  and each flagged document was fetched and read.
+
+### S-240 — U.S. Securities and Exchange Commission, **EDGAR submissions endpoint** (`https://data.sec.gov/submissions/CIK##########.json`)
+- **Type:** primary regulator data service (per-filer filing index).
+- **Why it is in the ledger.** It is the **filer-level counting instrument** the register needs after
+  Cycle 40 showed that the phrase-level corpus (S-231) counts *wordings*, not *firms*. For a given
+  CIK it returns the complete filing history with form type, filing date and **report date**, and
+  therefore the exact **cadence** of a firm's filings.
+- **What it produced in Cycle 40.** For the thirteen AP firms named in S-239 — ABN AMRO Clearing USA
+  LLC (CIK 772040), BMO Capital Markets Corp. (772028), BofA Securities, Inc. (1675365), Citadel
+  Securities LLC (1146184), Citigroup Global Markets Inc. (91154), Goldman Sachs & Co. LLC (42352),
+  Jane Street Capital, LLC (1103083), Jefferies LLC (200403), J.P. Morgan Securities LLC (782124),
+  Macquarie Capital (USA) Inc. (922116), UBS Securities LLC (230611), Virtu Americas LLC (1457716) and
+  Marex Capital Markets Inc. (1540527) — the endpoint returns **X-17A-5 filings only** (no Form 10-Q
+  and no Form 10-K for any of the thirteen), with **one filing per fiscal year in every case**
+  (2,414 of 2,419 filers in the S-231 corpus disclose once per year; five disclose twice; none
+  discloses three or more times a year), and **285 distinct (AP, filing-date) cells** across the
+  thirteen. Fiscal year-ends are mostly 31 December, with Goldman Sachs & Co. and J.P. Morgan
+  Securities on 30 November and Macquarie Capital (USA) on 31 March.
+- **Caveats:** the endpoint returns the *filer's* filings, so a firm that files under several CIKs
+  (Citadel Securities has three; ABN AMRO has three) must be enumerated CIK by CIK; and the endpoint
+  does not read the filings, so it establishes *coverage and cadence*, never the *values*.
+- **Verification:** called directly in this cycle for each of the thirteen CIKs and for the fifteen
+  major private AP firms; the JSON was parsed and the cadence computed from the report-date fields.
+
+### S-241 — Mitchell, M. L., Pulvino, T. C. and Stafford, E. (2004), "Price Pressure around Mergers", *The Journal of Finance* 59(1), 31–63. DOI: 10.1111/j.1540-6261.2004.00626.x
+- **Type:** prior empirical result (peer-reviewed).
+- **Supports:** the **prior-art limb of the G-28 verdict on IDEA-004** and the correction of the
+  register's published-neighbour inventory. The paper uses **short interest** as the published
+  measure of **merger-arbitrage short selling** and attributes part of the acquirer's announcement
+  reaction to that pressure; it also documents the closing-date index-rebalancing run-up and its
+  reversal for index-tracking strategies.
+- **Why it matters to the register.** The candidate may not present a short-interest-based measure of
+  convergence activity in merger spreads as a discovery: the construction is published, and the
+  mechanism (short selling by merger arbitrageurs) is published with it.
+- **Caveats:** the paper is about *merger* spreads and *announcement-window* price pressure, not about
+  a *position-concentration* state or a two-sided crowding gate; the short-interest data it uses are
+  exchange short-interest data, not FINRA's aggregated file.
+- **Verification:** Crossref API fetched directly (title, three authors, *The Journal of Finance*,
+  volume 59, issue 1, pages 31–63, 2004, DOI as above); the substance was confirmed from the
+  publisher-record rendering and the abstract in the search index.
+
+### S-242 — Hanson, S. G. and Sunderam, A. (2014), "The Growth and Limits of Arbitrage: Evidence from Short Interest", *The Review of Financial Studies* 27(4), 1238–1286. DOI: 10.1093/rfs/hht066
+- **Type:** prior empirical result (peer-reviewed; online 11 October 2013, print 2014).
+- **Supports:** the **prior-art limb of the G-28 verdict on IDEA-004**, and the correction of the
+  register's crowding-measure inventory. Short interest is used as a **published crowding measure of
+  arbitrage capital**, and the paper's central result is that the *limits* of that arbitrage bind
+  precisely when the measured crowding is high.
+- **Why it matters to the register.** IDEA-004's dossier listed only 13F-based and correlation-based
+  crowding measures (S-026, S-157, S-222) as the published neighbours. The short-interest branch
+  exists and is peer-reviewed; the candidate must now engage it.
+- **Caveats:** the crowd measured is *style* arbitrage capital (value, momentum and other anomaly
+  strategies), not the pair/merger-spread convergence crowd the candidate's universe requires, and
+  the published relation is monotone where the candidate claims a two-sided gate.
+- **Verification:** Crossref API fetched directly (title, two authors, *Review of Financial Studies*,
+  volume 27, issue 4, pages 1238–1286, DOI as above).
+
+### S-243 — Chan, H. and Tan, T. (2020), "Short Interest, Crowding and Liquidity Crises", SSRN working paper 3655131 (authors at AXA IM Chorus; University Paris Dauphine). DOI: 10.2139/ssrn.3655131
+- **Type:** **working paper / institutional research** — *not* peer reviewed. Labelled as such here.
+- **Supports:** the prior-art limb of the G-28 verdict, and the *cadence* comparison that makes the
+  FINRA route's weakness precise. The paper uses **daily short interest** to infer near-real-time
+  crowding levels of quantitative equity long-short strategies, and documents that crowding is
+  associated with greater exposure to short-seller liquidity shocks.
+- **Why it matters to the register.** It establishes both that a short-interest-based crowding measure
+  is a *published construction* (so the candidate cannot present one as a discovery) and that the
+  measure can be built at a cadence finer than the 13F grid the candidate's rule is anchored to —
+  which is precisely why the FINRA route's defect is granularity and crowd attribution, not speed.
+- **Caveats:** a working paper, not peer reviewed; the crowd measured is style arbitrage, not
+  convergence capital; the data used are a commercial securities-finance dataset, not FINRA's public
+  file.
+- **Verification:** the SSRN record (DOI, authors, date) and the author-hosted PDF rendering were
+  read directly, including the abstract and the data description.
+
+### S-244 — U.S. Securities and Exchange Commission, **final rule "Accredited Investor Definition"**, Release Nos. 33-10824; 34-89669, File No. S7-25-19, RIN 3235-AM19, 85 FR 64234 (9 October 2020), effective 8 December 2020.
+- **Type:** primary regulator material (the rule itself).
+- **Why it is in the ledger.** It is the **eligibility-switch instance** screened in Cycle 40's family
+  screen (R-020): a switch in *who may hold* restricted securities, with a published compliance date
+  and published thresholds. The rule amends the accredited-investor definition (adding new categories
+  of qualifying natural persons and entities, and applying the same determination to the
+  qualified-institutional-buyer definition in Rule 144A), keeps the $1 million net-worth and $200,000
+  ($300,000 joint) income tests, and keeps the $100 million QIB threshold.
+- **Why the screen closes.** The switch is published **in advance** of its effective date, and the
+  *distance to the limit* for any given holder is private, so no published decision-time state binds
+  a specific security; the obligor's flow is its own; and the number of switches is the effective
+  sample.
+- **Caveats:** the rule is a *definition* change with broad effects; the register did not attempt a
+  price-impact measurement and did not claim one. The screen is a **family** verdict, not an
+  empirical finding about this rule.
+- **Verification:** the SEC's own rule page and the Federal Register version were fetched directly
+  (release numbers, RIN, 85 FR 64234, effective date 8 December 2020) and the operative thresholds
+  were read in the fetched text.
+
+---
+
+## Cycle 38 and Cycle 39 gap verdicts (backfilled by Cycle 40 — these two cycles never had a verdict block in this file)
+
+### G-29 — as recorded by Cycle 38 — **CONFIRMED and superseded by Cycle 40's calibrated negative**
+Coverage count **0 of inspected**: the corporate-bond ETF prospectuses and statements of additional
+information read in Cycle 38 (AGG, ISTB) disclose authorised-participant concentration risk generically
+and do not name the APs, and EDGAR searches found no named AP set in bond-ETF filings. The candidate was
+recorded as **not specifiable from public bond ETF filings — untested, not dead**, with no published
+crowding proxy to be substituted.
+
+### G-27 and G-28 — as recorded by Cycle 38 — **unchanged by Cycle 38** (G-27 bounded by the G-29
+finding; G-28 remained frozen on the Form 13F holdings-matching route with its four objections)
+
+### G-29 — as recorded by Cycle 39 — **extended but still open**; Cycle 39 inspected additional issuers
+(Vanguard, Xtrackers, PGIM, Global X, Northern, Columbia) and again found generic disclosure with no
+named AP set. Coverage remained 0. The route was deliberately **not** closed, because the search had
+been organised by *issuer* rather than by *document*.
+
+### G-29 — as closed by Cycle 40 — see the Cycle-40 block below. The Cycle-38 and Cycle-39 readings
+were **correct but under-powered**: they were evidence about the documents read, not about the
+population, and the population-wide negative is now established with a calibrated detector.
+
+---
+
+## Cycle 40 gap verdicts (2026-10-20)
+
+### G-29 — **CLOSED AS A BOUNDED NEGATIVE for the public-filings route** (IDEA-010); coverage 0; and the
+### first published AP set in the project is a **crypto trust**, which does not reach the candidate
+
+**Verdict.** Cycle 40 executed the verification the gap asked for — *which corporate-bond ETFs name
+their authorised participants in a public filing, and how many (ETF, AP) cells have both a published
+AP-set membership and a public capital ratio* — as a document-level search with a **calibrated
+detector**, and the answer is: **none, and zero**. The candidate is therefore **not specifiable from
+public filings — untested, not dead** — and, per the register's standing rule, no published crowding
+proxy may be substituted for the missing mapping.
+
+**How the negative was made credible.** A negative about a population needs a detector known to work.
+Cycle 40 first found and read a filing that genuinely names its APs — the iShares Bitcoin Trust ETF's
+Form 424B3 (S-239) — and used the naming sentence itself ("Authorized Participants that are able to
+conduct …") as the detector phrase in the EDGAR full-text index. That detector returns **five documents
+in four filers**, all digital-asset trusts, and **no corporate-bond ETF**. The complement of the
+detector was run as well: the *phrase-first* route (591 bond-worded filings containing an AP-naming
+sentence — every document that actually names APs in the naming position is a commodity or crypto
+trust) and the *name-first* route (bond-worded filings containing any of thirty-one AP firm names —
+where the names appear only in securities-lending "percentage of ownership" tables and in the
+standing "an Authorized Participant may hold of record more than 25 % of the outstanding shares"
+disclosure). Two sponsor product pages (iShares AGG, Vanguard BND) were probed directly and both use
+the generic formulation without naming any AP, and the **unit-investment-trust** class was checked as a
+separate structure (First Trust's corporate-bond 497K filings of 13 February 2025 and 2 March 2026):
+they name **no** AP firm either.
+
+**Corroboration (a second, independent detector).** A broader detector — every filing whose text
+contains an authorised-participant naming position followed by corporate entity names, across sixteen
+filing form types — was read document by document: **3,628 documents read at the end of Cycle 40 of a
+4,409-document corpus** (the sweep was still running when the cycle closed and reported no contradicting
+document), of which **434 name APs**, and **every one of the 434 is a commodity or crypto trust** —
+iShares S&P GSCI Commodity-Indexed Trust (50), iShares Diversified Alternatives Trust (22), ProShares
+Trust II (17), iShares Commodity Optimized Trust (15), SPDR Gold Trust (15), ETFS Platinum Trust (12),
+WisdomTree Continuous Commodity Index trusts (19), iShares Ethereum Trust ETF (11), iShares Bitcoin
+Trust (17 across two display names), iShares Gold Trust Micro (10), World Gold Trust (9), the Invesco
+Galaxy Bitcoin and Ethereum trusts (16), Ark 21Shares Bitcoin ETF (7), Hashdex Nasdaq CME Crypto Index
+ETF (7), abrdn Gold ETF Trust (7), iShares Dow Jones-UBS Roll Select Commodity Index Trust (7),
+WisdomTree Bitcoin Fund (7), and others. **No corporate-bond ETF trust appears.**
+
+**The name-first route, completed.** The bond-worded corpus (every filing containing an AP-firm
+name and the word "Bond") came to **3,127 documents** and was read document by document: **3,124 read**
+at the end of Cycle 40, **237 flagged**, and a strict re-check of every flagged document for a firm name
+**in an authorised-participant naming position** returned **zero** true positives (the 33 apparent
+matches were the substring "IMC" inside "PIMCO" — a reminder that firm-name regexes must be bounded
+by word boundaries, a caution now recorded for future cycles).
+
+**The three false-positive mechanisms, named so a future cycle does not re-derive them.** AP firm
+names appear in ETF prospectuses in exactly three places, none of which is an AP list: (i) **
+securities-lending "percentage of ownership" tables**, where the firm is a borrower of the fund's
+collateral (verified: the Jane Street Capital entry in the iShares Trust SAI is a securities-lending
+ownership row); (ii) **revenue-sharing and placement disclosure** (verified: the Pershing, RBC,
+Schwab, TD Ameritrade, Morgan Stanley Wealth Management and Fidelity entries in the SPDR Series Trust
+SAI are the payees of distribution-arrangement payments, not APs); and (iii) the standing disclosure
+that "an Authorized Participant may hold of record more than 25 % of the outstanding shares" of a fund.
+
+**The counts, which the gap asked for explicitly.**
+
+| Quantity | Value |
+| --- | --- |
+| Corporate-bond ETFs with a published AP set in a statutory filing | **0** |
+| (ETF, AP) cells with both a published AP set and a public capital ratio | **0** |
+| (ETF, AP, episode) cells for the candidate's universe | **0** |
+| ETFs (outside the candidate's universe) with a published AP set | 4 filers / 5 documents, all crypto or commodity trusts |
+| Named AP firms in the one published set (S-239, 31 July 2025) | **13** (12 cash, 4 in-kind, 13 distinct) |
+| Of those, firms with a public Form X-17A-5 filing | **13 of 13** |
+| (AP, filing-date) episode cells for that set | **285** |
+| Cadence of that set's capital state | **annual** for all thirteen (fiscal year-end; filed February–March) |
+| Named AP firms filing a Form 10-Q or 10-K | **0 of 13** — X-17A-5 is the only public capital route for the entire set |
+
+**What the candidate may and may not now say.** It may not present the AP capital ratio as a state
+that can be attached to a corporate-bond ETF from public filings, because no such attachment exists;
+it may not substitute a published crowding proxy (S-026's Days-ADV, S-157's comomentum, S-222's
+crowding factor), which measures a different crowd; and it may not claim that the state is
+*unavailable* — the state is abundantly available (2,419+ broker-dealer filers, S-231), it is the
+*ETF → AP mapping* that is missing. The candidate is retained, not parked: what has closed is a
+route, not the candidate.
+
+**The new gap this creates — G-30.** The route is closed for *statutory filings*. It is not closed for
+*all* primary sources. A corporate-bond ETF's AP set could still be published by the sponsor itself
+(the ETF sponsor's own website or its published participant list), by a published exchange rule or
+regulatory filing that requires it, or by a *non-US* issuer's prospectus. Cycle 40 probed two sponsor
+product pages and found nothing, which is a probe, not a survey. **G-30 is therefore opened**: *is
+there a published, primary-source route by which a corporate-bond ETF's AP set is disclosed outside
+the statutory prospectus — and, if the sponsor publishes a list, does it exist for the corporate-bond
+series as well as for the crypto and commodity series?* The register's answer must be a specific
+route, not a re-reading of prospectuses.
+
+### G-27 — **CLOSED at filer level** (IDEA-010), with two corrections to the register's own statements
+
+**Verdict.** The effective-sample question the gap raised has been answered with counts taken from
+the filings' own index rather than from document text, and two of the register's statements needed
+correcting.
+
+| Route | Instrument | Count | Cadence |
+| --- | --- | --- | --- |
+| A — private broker-dealers | Form X-17A-5 (FOCUS), phrase corpus (S-231) | **6,131 documents from 2,419 distinct filers** (a **lower bound**) | 2,414 filers once per year; five twice per year; **none three or more** |
+| A' — the named AP set specifically | EDGAR submissions index (S-240) | 13 of 13 firms covered; **285 (AP, filing-date) cells** | **annual** for all thirteen |
+| B — listed broker-dealers | Form 10-Q / Form 10-K | **1,151 documents / 66 filers** (10-Q, quarterly); **737 documents / 96 filers** (10-K, annual) | quarterly and annual; the only quarterly public capital route, and it does not reach the private APs |
+| C — bank holding companies | Form FR Y-9C | **not enumerable through EDGAR**: the form is absent from EDGAR's full-text index (zero hits for "capital", "net capital", "Federal Reserve") | must come from the Federal Reserve's National Information Center; S-226 restated accordingly |
+| D — asset-manager APs | — | no equivalent exists | coverage limit, not a fixable one |
+
+**Correction 1 (S-231).** The phrase corpus counts *wordings*, not firms: Citadel Securities LLC files
+24 X-17A-5 documents across 23 periods and contains the phrase in one of them, so 6,131 documents ≠
+6,131 firms. Any firm-coverage question must be answered at filer level.
+
+**Correction 2 (S-231 / Cycle 37).** The statement "quarterly for at least some private filers"
+rests on a single document (Agentis Capital Markets US, LLC, period ending 2024-09-30) that does not
+appear in the phrase corpus at all, and filer-level enumeration of the thirteen named AP firms and
+fifteen major private AP firms found **annual cadence in every case**. The private-AP capital state is
+therefore **annual**, and at any decision date it is **9–14 months stale**. The Cycle-35
+cross-sectional re-anchoring survives this correction — indeed it is reinforced, because the state
+never changes inside a holding window — and the Cycle-35 requirement that the effective sample be
+reported is now given a concrete denominator.
+
+### G-28 — **CONFIRMED OPEN and restated** (IDEA-004): the FINRA short-interest route is a lead with
+### objections, and the published-crowding inventory was incomplete
+
+**Verdict.** Cycle 40 tested the one route the handoff named — FINRA's twice-monthly short-interest
+file (S-127) — against the candidate's pair structure, and recorded it as a **lead with objections**
+rather than as a resolution. G-28 remains open; **V-002 remains frozen**; the candidate is not
+re-scored.
+
+**The facts (fetched directly from FINRA).** Firms must report short positions in all customer and
+proprietary accounts in all equity securities twice a month, due by 6 p.m. ET on the second business
+day after the designated settlement date, published the following Tuesday (the 2026 schedule is on
+the page); the published data are **per issue**, covering all exchange-listed and OTC equity
+securities, one rolling year online with archives by download, with **no firm-level breakdown**
+(S-127, as extended in Cycle 40).
+
+**The objections, written so a validator can act on them.**
+1. **Granularity, not cadence, is what fails.** A per-issue aggregate across all reporting firms
+   cannot identify the convergence crowd and cannot express its concentration; mapping it to pairs is
+   a register-built construction with the same defect as the 13F holdings-matching route, and it
+   cannot separate convergence capital from a coincident directional short. Note that the cadence
+   objection that usually kills a route does **not** apply here: twice-monthly publication with an
+   ~8-business-day lag is *faster* than the 45-day 13F grid the candidate's rule is anchored to.
+2. **Contamination of the short leg.** In the classic pair trade the short leg is the recent winner,
+   whose short interest also carries value, short-bias and index strategies; a pair-level aggregation
+   would have to remove them, and the published data cannot.
+3. **Prior art (new in this cycle).** Short interest is *already* the published measure of merger-arb
+   shorting and its price pressure (S-241); short interest is *already* a published crowding measure of
+   arbitrage capital (S-242); and daily short interest has *already* been used to infer near-real-time
+   crowding of quantitative long-short strategies (S-243). The candidate may not present a
+   short-interest-based convergence-activity measure as a discovery, and the register's own
+   published-neighbour inventory for IDEA-004 was **incomplete** without the short-interest branch.
+4. **What would actually close the gap.** A published measure of *convergence-crowd position
+   concentration* in the candidate's own universe (pairs, merger-spread and index-convergence relative
+   value) at the candidate's cadence, or a published validation of a construction against an outcome.
+   The unfreezing condition is unchanged; the FINRA route is now named as a **third** candidate route
+   alongside the 13F holdings-matching construction and the comomentum proxy, with its objections.
+
+### G-21 — **not re-searched in Cycle 40** (IDEA-011); the Cycle-37 null stands unchanged
+Cycle 40's priorities did not include G-21, and no new evidence on the first-adopter-versus-second-adopter
+drift comparison was encountered while reading the crowding and short-interest literature. The Cycle-37
+null stands: the comparison remains **untested** rather than refuted, and IDEA-011 remains at 69.0.
+
+### IDEA-014's state-free existence limb — **CONFIRMED inconclusive** (unchanged)
+No new evidence was found. The limb is neither a positive finding nor a refutation and must not be
+described as either. IDEA-014 remains retired at 52.0; P-011 stands.
+
+### The Cycle-40 eligibility-switch family screen — logged as **R-020**
+The screen, its two instances and its four reasons are recorded in `rejected_and_parked.md` under
+**R-020**, and the accredited-investor rule that instantiates it is **S-244**.
+
+### Cycle-40 ranking and identifier record
+
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011
+  (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014
+  (52.0)**; IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002 (63.0) remain parked. Hard-stop flags were
+  added to IDEA-010 (the state cannot be attached to a corporate-bond ETF from public filings; the
+  state is annual, not quarterly; the published relation may not be presented as a discovery) and to
+  IDEA-004 (a short-interest-based convergence-activity measure is published prior art).
+- **New identifiers consumed in Cycle 40:** sources **S-239 … S-244**; gap **G-30** (the non-statutory
+  route to a corporate-bond ETF's published AP set); rejection **R-020** (the eligibility-switch family
+  screen). No `IDEA-` identifier and no `V-` identifier were consumed.
+- **Next free identifiers:** **IDEA-017, S-245, V-012, G-31, R-021, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

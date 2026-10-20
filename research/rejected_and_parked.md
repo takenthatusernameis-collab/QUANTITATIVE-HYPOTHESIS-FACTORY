@@ -5,12 +5,14 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 38 complete, 2026-10-20. **19 rejections (R-001 … R-019), 12 parkings
-(P-001 … P-012), 59-row known-baseline table.** Cycle 38 added **R-019** (Rule 10b-18 buyback
-repurchase cap — bounded negative: issuer cap, not third-party deadline-driven flow creating
-harvestable concession; remaining capacity published monthly/lagged; price-sensitive buybacks
-literature-dense). The log's own counts are re-derived from the file on every cycle; see the
-state-integrity note at the end.
+Last updated: Cycle 40 complete, 2026-10-20. **20 rejections (R-001 … R-020), 12 parkings
+(P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
+screen — bounded negative: no published decision-time binding state, the switch is published in advance so
+any flow is anticipated, the constrained flow is the obligor's own, and the effective sample is the number
+of switches). Cycle 40 also **merged the duplicate R-019** — the file had carried two different entries under
+one identifier — and added three known-baseline rows (the crypto/commodity AP-naming practice, the
+short-interest branch of the crowding literature, and the eligibility-switch family). The log's own counts
+are re-derived from the file on every cycle; see the state-integrity note at the end.
 
 ---
 
@@ -185,6 +187,62 @@ state-integrity note at the end.
 - **Consequence for the register:** the register now holds **no FX candidate**. The shortlist had
   pre-registered this consequence explicitly. The funding-state *family* survives as a published
   baseline and moves into the known-baseline table.
+
+
+### R-020 — The eligibility switch (*who may hold*): a regulatory or provider switch in who may hold or must trade a security, with a published compliance date and published thresholds (Cycle 40 family screen — bounded negative)
+
+- **The family screened.** A switch that changes the *eligible holder set* of a security: a regulator
+  changes who may hold a restricted security, or a market/index provider changes who qualifies for
+  inclusion, and the switch has a published compliance or effective date and published thresholds. The
+  template was chosen because it is *different in kind* from the compliance-deadline family the register
+  has been exhausting — nothing here is an obligation converging on a date — and because it satisfies the
+  register's G-13 test by construction: the thresholds and the date are published in advance.
+- **The two instances run.**
+  1. **The SEC's accredited-investor and qualified-institutional-buyer definition amendment** (S-244:
+     Release 33-10824, 85 FR 64234, 9 October 2020, effective **8 December 2020**), which keeps the
+     $1 million net-worth and $200,000 income tests and the $100 million QIB threshold and adds
+     categories. This is the cleanest instance of "who may hold, published compliance date, published
+     thresholds".
+  2. **Index-provider eligibility and float screens** (minimum float, multi-class treatment), which are
+     the nearest *observable* analogue, with published criteria, published transition periods and
+     published constituent lists.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons, any one of which is sufficient.**
+  1. **There is no published decision-time *binding* state.** The thresholds are published, but each
+     holder's distance to its own limit is private. The state a candidate would condition on — "which
+     securities have an eligible holder near the threshold" — is a **construction**, not a published
+     series, and the register's rule (G-13) is about *published* decision-time states. A construction
+     that must be built from non-public holder-level data is the same failure the register has already
+     recorded against the 13F holdings-matching route.
+  2. **The switch is published in advance, so the flow is anticipated.** Any effect of the switch is
+     known before the effective date, and the nearest published analogue says what happens then: the
+     index-reconstitution effect has collapsed to approximately zero in the modern sample, with
+     additions below 1 % over the past decade and an average inclusion effect of about −3 basis points
+     in 2020 (S-146), and the front-running around announced reconstitution is published as *competitive
+     anticipatory liquidity provision* that shifts price pressure **away** from the effective date
+     (S-147). A rule that buys an announced switch is buying a published anticipation.
+  3. **The constrained flow is the obligor's own.** In instance 1 the constrained party is the holder
+     whose eligibility changes; in instance 2 it is the index fund that must sell. In neither case is a
+     third-party arbitrageur the party who is forced to trade, and the register's template requires a
+     *third-party* flow creating a concession that another participant can harvest. The counterparty to
+     a passive forced sale is the issuing firm and the active managers, not an arbitrageur paying a
+     concession (S-151).
+  4. **The effective sample is the number of switches.** A switch is a dated, discrete event: the
+     number of episodes is the number of rule changes (a handful), not securities × dates, so a
+     positive rule would have almost no degrees of freedom, and the cross-sectional variation the
+     register would need (which securities are near the threshold) is exactly what is not published.
+- **What is *not* the reason.** G-13 passes for this family: the state is public, dated and in advance
+  of the event. The screen failed on the *binding-state* test, on prior publication of the nearest
+  analogue, on the identity of the constrained party, and on the effective sample — and the screen was
+  run against the literature before any conclusion was reached.
+- **Dated re-screen condition.** Re-screen only if (i) a rule or provider methodology change is
+  announced that creates a *large*, *dated*, *third-party* forced-flow obligation with a **published
+  list of affected securities** and a **published distance-to-limit measure** for each affected
+  holder — for example a published index-provider float screen that publishes each constituent's
+  distance to the threshold; or (ii) a published study identifies a residual that survives the
+  anticipation objection for a *regulatory* eligibility change.
+- **Decision:** bounded negative (R-020). The eligibility-switch family is recorded in the
+  known-baseline set; no dossier was created; no `IDEA-` identifier was consumed; no score changed.
 
 ---
 
@@ -708,6 +766,10 @@ to baselines.
 | **Ex-dividend date mechanics as a dated, mechanical supply event (added in Cycle 37)** | **A baseline and a rediscovery guard (bounded negative R-017, Cycle-36 screen written for real in Cycle 37).** The ex-dividend price adjustment is an accounting identity executed on a fully published date by the party obliged to execute it; there is no unpriced residual supply and no published state that makes an ex-date tight or loose. Any candidate built on the ex-date would be repackaging arithmetic. |
 | **The Rule 201 short-sale price-test circuit breaker (added in Cycle 37)** | **Published, peer-reviewed — a baseline and a bounded-negative family screen (R-018).** The effect a candidate would claim is already published and quantified: comparing stocks on either side of the −10 % threshold in the same hour, the restriction leads to 8 % lower short-sale volume and 35 bps higher daily returns, and those price effects "do not reverse after the restriction is lifted" (S-236). The constraint is also defeasible: after a trigger, short sellers migrate to the options market (put open interest +61 %, put volume +87 %; S-237) at low cost (S-238). The rule's mechanics are published law (S-235). **Any future candidate in this family must start from S-236 and must explain what is left.** |
 
+| **Authorised-participant naming in ETF statutory filings: a crypto- and commodity-trust practice (added in Cycle 40)** | **Primary statutory filings (S-239).** ETF prospectuses that name their authorised participants exist and were read directly: the iShares Bitcoin Trust ETF's Form 424B3 prospectuses name their APs verbatim (five APs in the 9 January 2024 prospectus, nine in April 2024, twelve in August 2024; twelve cash and four in-kind as of 31 July 2025), and the same practice appears in the iShares Ethereum and Staked Ethereum trusts, the Bitcoin Premium Income trust, the WisdomTree, Invesco Galaxy, 21Shares, Morgan Stanley, T. Rowe Price Active Crypto and Ark 21Shares digital-asset trusts, and — in older form — in the iShares commodity trusts, whose prospectuses name market makers and clearing counterparties. **This is a baseline and a state note:** the naming practice is real, dated and verifiable, and it is **confined to the commodity/crypto trust class**; a full-document search found **no corporate-bond ETF naming its APs**. Any candidate that needs an ETF → authorised-participant mapping must state which route it uses, and must not assume that a corporate-bond ETF discloses one. |
+| **The short-interest branch of the crowding literature (added in Cycle 40)** | **Published, peer-reviewed (plus one working paper)** — S-241 (Mitchell, Pulvino & Stafford, *Journal of Finance* 2004: short interest is the published measure of merger-arb short selling, with its price-pressure effect), S-242 (Hanson & Sunderam, *Review of Financial Studies* 2014: short interest as a published crowding measure of arbitrage capital, whose limits bind when crowding is high) and S-243 (Chan & Tan, SSRN 2020, working paper: daily short interest infers near-real-time crowding of quantitative long-short strategies). **This is a baseline and a rediscovery guard for IDEA-004:** the register's published-neighbour inventory for the convergence-crowd candidate was incomplete without this branch, and the candidate may not present a short-interest-based convergence-activity measure as a discovery. These measures identify **style** arbitrage capital, not the pair/merger-spread convergence crowd, and their published relation is monotone where the candidate claims a two-sided gate. |
+| **Eligibility switches: regulatory and provider changes in *who may hold* (added in Cycle 40)** | **Primary regulator material plus a bounded-negative family screen (R-020).** The instances are the SEC's accredited-investor and qualified-institutional-buyer definition amendment (S-244: Release 33-10824, 85 FR 64234, effective 8 December 2020; the $1 million net-worth, $200,000 income and $100 million QIB thresholds are published) and index-provider eligibility and float screens. **This is a baseline and a bounded-negative family screen (Cycle 40, R-020):** the switch is published in advance so any flow is anticipated (and the nearest published analogue finds the effect collapsed to approximately zero and shifted away from the effective date — S-146, S-147); the constrained flow is the obligor's own, so there is no third-party concession to harvest (S-151); each holder's distance to its own limit is private, so the state would be a construction; and the effective sample is the number of switches, not securities × dates. **Dated re-screen condition:** re-screen only if a change arrives with a published list of affected securities *and* a published distance-to-limit measure for each affected holder. |
+
 ---
 
 ## Rediscovery guard
@@ -984,17 +1046,11 @@ advice):
 - **Decision:** bounded negative (R-018). The Rule 201 family is recorded in the known-baseline set;
   no dossier was created; no `IDEA-` identifier was consumed; no score changed.
 
-### R-019 — Rule 10b-18 buyback repurchase cap as a rate-limited price-insensitive demand (Cycle 38 family screen — bounded negative)
-
-- **Template:** Rule 10b-18 provides a safe harbor for issuer repurchases; the daily volume limit is **25% of the average daily trading volume** over the four preceding weeks (a rate limit, not a deadline). The state could be remaining repurchase capacity.
-- **Why no candidate.**
-  1. **Issuer's own flow, not third-party.** The flow is the issuer repurchasing its own shares (price-sensitive, discretionary within constraints), not a third-party deadline-driven flow creating a concession that others can harvest in the register's template.
-  2. **Literature-dense and price-sensitive.** Buyback literature is extensive and the effect is generally framed as signaling/price support rather than an unclaimed concession to a third-party liquidity provider at a dated deadline.
-  3. **State is lagged/periodic.** Remaining capacity is not a clean, always-available decision-time state published in a way that fits the register's bar; repurchase activity is reported in **monthly** repurchase tables in 10-Q/10-K with lags, and the binding constraint is the rate cap applied to ADTV (itself a moving average).
-  4. **No unclaimed sign/structure.** The template does not produce the unclaimed dated price-insensitive flow the register screens for; G-12 fails.
-- **Verdict:** bounded negative — no candidate. No new source added to ledger (none located that meets the bar). Rediscovery guard: any candidate would need a third-party participant/constraint (not issuer repurchase) and a clean decision-time published state.
-
 ### R-019 — The Rule 10b-18 buyback repurchase cap (rate-limited price-insensitive demand) (Cycle 38 family screen — bounded negative)
+
+> **Merge note (Cycle 40).** This file carried **two** entries under the identifier R-019 — a short one and a
+> longer one, both describing the same screen. They are merged here into a single entry; the longer text is
+> retained and the short text's distinctive points are folded into it. One identifier, one entry.
 
 - **The family screened.** Rule 10b-18's safe harbour for issuer repurchases limits the volume of shares an issuer may repurchase in a single day to the greater of 25% of the average daily trading volume for the four calendar weeks preceding the week of the repurchase, or the issuer's average daily volume for the same four-week period — a **daily** capacity cap (not monthly) that makes an issuer's own buyback demand *rate-limited* and deferred across days.
 - **Why no candidate.**
@@ -1003,4 +1059,4 @@ advice):
   3. **The mechanism is price-sensitive and literature-dense.** Buyback literature studies price impact and signaling; the safe-harbour cap is a legal/volume constraint, not a published deadline switch that disables a participant at a specific time with an unclaimed sign. Existing literature addresses whether buybacks push prices and the signaling channel rather than a rate-limited third-party concession template.
   4. **No unclaimed sign or clean separation.** Establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating from price-sensitive execution. The bar (published decision-time state, dated price-insensitive flow, unclaimed sign) is not met.
 
-- **Verdict: bounded negative — no candidate.** The family is a baseline of rate-limited supply, not the deadline-driven third-party constraint the register screens for. No 10b-18 source added in the main ledger in this cycle; the finding is recorded as a bounded negative.
+- **Verdict: bounded negative — no candidate.** The family is a baseline of rate-limited supply, not the deadline-driven third-party constraint the register screens for. No 10b-18 source added in the main ledger in this cycle; the finding is recorded as a bounded negative. Two further points from the shorter duplicate entry, retained on merge: **no unclaimed sign or clean separation** — establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating them from price-sensitive execution; and the **state is periodic, not decision-time** — issuers are not required to publish remaining 10b-18 capacity intraday or even daily in a central public feed, and the 10b-18 repurchase tables in periodic reports disclose total repurchases over periods rather than a continuous remaining-capacity series.
