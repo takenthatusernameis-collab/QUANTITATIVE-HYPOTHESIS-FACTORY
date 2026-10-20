@@ -1121,7 +1121,7 @@ candidate, but a weakly novel one with a narrow residual.
 
 ---
 
-## Rank 5 — IDEA-009 PERP-FUND (60.0) — *new in Cycle 3; Cycle-13 rank 5, down from 63.0*
+## Rank 4 — IDEA-009 PERP-FUND (53.0) — *Cycle-66 rank 4, down from 60.0*
 
 - **Mechanism, causal coherence, persistence (4/5):** The causal chain from the exchange-published
   funding rate to the crowded-leverage state to the forced unwind and basis mean reversion is
