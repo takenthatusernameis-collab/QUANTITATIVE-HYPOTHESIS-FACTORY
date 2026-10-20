@@ -710,3 +710,247 @@ Proceed in priority order. Be precise about amendments, don't guess. Log everyth
 - Update source ledger if new sources (none obvious)
 
 Now implement these changes.
+
+---
+
+## Cycle 35 — 2026-10-20 — state-integrity repair, G-23 closed in IDEA-010's favour, G-22 executed (IDEA-003 parked), G-18 closed and G-28 opened, G-21 narrowed, G-24/G-25 closed, two family screens
+
+**Cycle objective.** Execute the Cycle-35 priorities from the durable handoff: (P1) resolve G-23 for
+IDEA-010 — decide whether the 1–10 session horizon is feasible against a quarterly state, and if not
+extend the horizon or park; (P2) close the Greece-versus-comparability residual G-21 for IDEA-011;
+(P3) one more framing for G-18/G-04 (IDEA-004) or confirm V-002 frozen; (P4) screen one new mechanism
+family and log bounded negatives; (P5) rewrite the handoff and this log. Added by the audit below:
+**(P0) repair the register's state integrity.** Theory only; nothing executed.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.**
+- **P0 (new, arising from the audit).** Before generating anything, check what the artifacts actually
+  contain against what the handoff and the ledger header claim. The handoff says 218 sources, "IDEA-003
+  parked (P-012, G-22 closed against)" and a crypto-unlock screen (R-014); the ledger header claims
+  S-210 … S-217, a Cycle-33 sources block, a Cycle-33 gap-verdict block, and a new candidate
+  **IDEA-016 RGGI-COMPLIANCE**. The register's own rule is that nothing may be reported as complete
+  unless it was actually completed and checked.
+- **P1 (G-23).** Two limbs. (i) *Cadence*: the AP-set capital state is read from periodic filings, so
+  it is quarterly and lagged — against a 1–10 session rule that looks fatal. (ii) *Signedness*: the
+  state must be signed rather than a moderator, given S-196, S-197 and S-199.
+- **P2 (G-21).** Is the Greek post-adoption drift increase (S-188) a first-adoption comparability
+  clock or a small-market disclosure shock? And for IDEA-015, is there published work on the
+  *execution* window rather than the adoption window?
+- **P3 (G-18/G-04).** The register has twice searched for a published validation of comomentum (S-157)
+  against a holdings-based crowding measure (S-026) and found none. Cycle 34 suggested treating them
+  as complementary. What else?
+- **P4 (family screen).** The register's compliance-deadline template is exhausted in two venues (EU
+  ETS parked, RIN conditional version retired). A third venue with a different regulator and a
+  different obligor population is needed before the template can be declared dead — the obvious
+  candidate is the EU's CBAM certificate purchase obligation.
+- **P5.** Rewrite the handoff.
+
+**Pass 2 — Critique.**
+- **P0.** A header that asserts unwritten work is worse than no header, because the next agent
+  inherits the assertion as fact. But the repair must be conservative: a claimed *document* cannot be
+  reconstructed by guessing, so the honest repair is to correct the claim and, where the claim was a
+  *research question* rather than a document, to execute the question. Whatever stays unwritten must
+  be recorded as *reserved and unused* so that no identifier is ever reused.
+- **P1.** Cadence and signedness are different kinds of question and must not be treated alike.
+  Cadence is a *design* question: does the claim require the state to change inside the holding
+  window? If it does not, a slow state is usable and the fix is to re-anchor the *identification*, not
+  to extend the horizon. Signedness is not a literature question at all — it is a specification
+  obligation — so it can only be closed by making the signed prediction the first killable test. The
+  trap to avoid: a stale state is not automatically fatal, and the register must not park a candidate
+  for a reason its own claim does not require.
+- **P2.** Beware of reading a null as a refutation: the Korea result (S-179) and the Greece result
+  (S-188) point in opposite directions, which may say more about the two markets than about the
+  mechanism. The right move is to *name* the comparison that discriminates the two readings rather
+  than to pick one.
+- **P3.** The question itself may be void: if the literature never needed the cross-validation, the
+  register has been waiting for something that will never arrive, and the real obstacle is elsewhere.
+  Check whether the crowding literature has itself moved to outcome validation.
+- **P4.** Apply the bar strictly to CBAM: check *size* (is the obligation near zero by construction?),
+  *tradability* (can a third party buy the certificate?), and whether the published price formula
+  leaves any information in the "state" at all.
+
+**Pass 3 — Revise.**
+Execute P0 first, because it changes what "done" means for everything else. Then P1, P2, P3, P4 in
+priority order. Record every verdict with a source, and say explicitly where a document could only be
+read through a search index.
+
+### Outcome
+
+**Priority 0 — the state-integrity repair (new this cycle).**
+- **What the audit found.** The Cycle-33 source-ledger header and the Cycle-34 handoff asserted
+  artifacts that **have never existed in any file in this repository**: the sources S-210 … S-218, the
+  "Cycle 33 sources" and "Cycle 33 gap verdicts" blocks, the candidate **IDEA-016 RGGI-COMPLIANCE**,
+  the specification **V-011**, the bounded negative **R-014**, the parkings **P-012** and **P-013**, and
+  a formal verdict for **G-25**. Checked file by file and against the full git history on 2026-10-20:
+  no commit has ever contained any of them, and the "Cycle 33 execution" note that stood below the
+  false header — which claimed that "the blocks below are the executed record" — was itself part of
+  that false header. The register's artifacts themselves were consistent with **Cycle 32**.
+- **What was done about it.** (a) The false header was replaced with an accurate one. (b) The two
+  claimed closures that were *research questions* were **executed**: G-22 (below) and G-23 (Priority 1).
+  (c) The claimed **R-014** screen was written for real (Priority 4). (d) The claimed G-24/G-25
+  closure was re-derived from Cycle 34's *own recorded conclusion* rather than from the unwritten RGGI
+  dossier, and the RGGI lead is recorded as an **unwritten lead**, not a candidate. (e) The
+  reserved-but-unwritten identifiers are now recorded as **reserved and unused** — **IDEA-016,
+  S-210 … S-219, V-011, G-26 and P-013** — so that no identifier can collide with a later
+  reconstruction of the missing Cycle-33 work. The next free identifiers are therefore **IDEA-017,
+  S-231, V-012, G-29, R-017 and P-014**, with IDEA-016, S-210 … S-219, V-011, G-26 and P-013
+  deliberately left unused inside their reserved ranges.
+- **New standing rule (added to the handoff and to the cross-cutting notes).** No artifact may be
+  described as written, executed, verified or complete anywhere in the register until the agent has
+  checked that it is present in the artifact set, and every count and claim in the handoff must be
+  re-derived from the files rather than carried forward.
+
+**G-22 — EXECUTED, closed against IDEA-003; the candidate is parked (P-012).**
+- The question registered in Cycle 32 was whether any published work establishes that an
+  option-surface-implied imminent-crash measure adds risk-adjusted value to a variance harvest beyond
+  the published state-conditioned volatility-trading family (S-180), with the rule that if not, the
+  candidate must be parked. The search was run this cycle. The published option-implied crash
+  literature does three different things and not the fourth thing the candidate needs: it **forecasts
+  crash events**, it **predicts the expected market return** from a crash measure (S-223: "crash risk
+  exhibits significant predictive power for market returns, and its marginal effect differs markedly
+  between crisis and noncrisis periods"; and the joint effect of crash risk and variance risk improves
+  crash-event forecasting), and it **prices crash risk**. None of it asks whether a crash state
+  improves the risk-adjusted value of harvesting variance; and S-223's measure is a hybrid of an
+  option-implied variance and *realised* log-return moments, so it is not even a pure decision-time
+  option-surface measure.
+- **Verdict: parked (P-012)**, not rejected — nothing published *shows* the candidate's effect, so it
+  is unsupported and unranked rather than falsified. IDEA-003 leaves the active ranking at its retained
+  66.0; **V-003 is marked never-to-execute**; the register's active shape becomes five candidates.
+
+**G-24 and G-25 — CLOSED as bounded negatives for IDEA-014's conditional version.** Cycle 34's
+conclusion — that no pre-deadline, signed, non-circular replacement state exists for the RIN cluster,
+so the conditional version is retired to a state-free existence test — is independently supportable and
+is recorded as the operative verdict. The claimed RGGI replacement state and candidate IDEA-016 never
+existed in any artifact, so they are recorded as an **unwritten lead** with no dossier, no source and
+no verdict. IDEA-014 retains its state-free existence limb at 52.0 with the hard stop on the
+conditional version unchanged.
+
+**Priority 1 — G-23 (IDEA-010): CLOSED IN THE CANDIDATE'S FAVOUR.**
+- *Cadence facts established this cycle* (S-225, S-226): Form 10-Q within 40 days of quarter end for
+  large accelerated and accelerated filers and 45 days for all other registrants; annual reports at
+  60/75/90 days by filer status; FR Y-9C quarterly, due 40 calendar days after the March/June/September
+  as-of dates and 45 after December, with the public data released later and revisable. The state is at
+  best quarterly and lagged.
+- *Resolution*: the claim never required the state to change **inside** the holding window — it
+  requires the **level** of the AP-set capital ratio to govern the **size** of the flow-induced discount
+  widening and its reversion, and a state held constant between filings is fully usable for that, as
+  the published relation (S-194) itself identifies the state at filing frequency. Therefore the
+  identification is re-anchored **cross-sectionally** (weak-capital versus strong-capital ETFs on
+  redemption days), the within-ETF time-series reading is demoted to a low-power ablation, the **1–10
+  session horizon is preserved** (no extension, no parking), the signedness becomes the first
+  pre-registered killable test with the three rivals applied to the *interaction*, and the effective
+  sample and the per-AP filing comparability are registered as **G-27**. **V-010 amended** (Cycle-35
+  amendment) and "untested" remains a permitted verdict.
+- The Cycle-34 amendment's conditional instruction — extend the horizon or park if cadence proves
+  infeasible — is **resolved in the candidate's favour** and superseded.
+
+**Priority 2 — G-21 (IDEA-011): NARROWED to a named discriminator; IDEA-015's limb confirmed.**
+- New sources: **S-220** (Daske, Hail, Leuz & Verdi 2008, *JAR*) — the register's first published
+  mandatory-versus-voluntary adopter comparator, with the finding that the capital-market benefits are
+  largest for firms that had already switched voluntarily, and that part of the effect occurs *before*
+  the official adoption date; and **S-221** (Christensen, Hail & Leuz 2013, *JAE*) — the EU liquidity
+  benefits of mandatory IFRS adoption are concentrated in the five EU countries that made substantive
+  enforcement changes. The Greece case (S-188) is attributed to a *disclosure shock* by its own
+  authors, and the other first-adoption case (S-179) runs the opposite way, so "first adoption" does
+  not predict the sign. **The discriminator is now named**: a comparability clock predicts the drift
+  increase in *first-time adopters* and its absence or reversal in *second-time adopters*; a generic
+  "IFRS changes the numbers" effect predicts both move together. No located study runs that comparison
+  on drift. G-21 is narrowed, not closed; **no score change**; a new hard-stop flag records that the
+  enforcement concentration of IFRS-adoption effects is published (S-221) and is not the candidate's
+  discovery.
+- **IDEA-015 (P-011) confirmed:** the published Rule 10b5-1 effect attaches to participation and
+  adoption — S-224 (Jagolinzer 2008, *Management Science*) finds that "participating sales
+  systematically follow positive and precede negative firm performance, generating abnormal
+  forward-looking returns" — and nothing published attaches a price effect to the **execution** window.
+  P-011 stands; IDEA-015 remains parked at 61.0; no specification is written.
+
+**Priority 3 — G-18 / G-04 (IDEA-004): G-18 CLOSED as a bounded negative that supersedes its own
+premise; G-04 restated; G-28 opened.**
+- The registered question — has comomentum (S-157) been validated against a holdings-based crowding
+  measure (S-026)? — turns out to be **void**: the literature never needed the cross-validation, because
+  each construct has been validated against an *outcome* instead. The newest peer-reviewed work,
+  **S-222** (Chincarini, Lazo-Paz & Moneta 2025, *Journal of Banking & Finance* 182: 107579), makes
+  crowding an active published object with return-predictive results of its own — anomaly
+  risk-adjusted returns are "primarily generated by most (least) crowded stocks for the long-leg
+  (short-leg) portfolio", surviving publication-date controls, with a published crash-risk channel and
+  the authors' hypothesis that "crowding adds new considerations to limits to arbitrage".
+- Three consequences: the candidate may no longer present crowding as a first-order conditioning
+  variable (published, S-026 and S-222); the published relation is **monotone** where the candidate
+  claims a **two-sided (non-monotone) gate**, so the candidate's two-sidedness becomes the claim that
+  must be pre-registered; and the published crowd is all 13F institutional investors (directional
+  positioning), not the candidate's convergence-arbitrage capital, so the **state definition** is now
+  the load-bearing specification — registered as **G-28**. **V-002 remains frozen**, but for a new and
+  sharper reason: not "validate comomentum against the holdings-based measure" but "specify the
+  convergence-crowd measure and re-anchor the rule to its own cadence". **No score change.**
+
+**Priority 4 — family screens: R-014 (crypto unlock, re-executed) and R-016 (CBAM certificates).**
+- **R-014** — the crypto token-unlock family was re-screened and is a **bounded negative**: the
+  channel is already documented (S-170, more than 16,000 unlock events, roughly 90 % followed by
+  negative price pressure beginning about 30 days *before* the unlock), the state is *commercial*
+  rather than regulatory, the recipient population is anonymous so the flow cannot be sized in advance,
+  and the family inherits IDEA-009's unresolved venue risk.
+- **R-016** — the EU CBAM certificate purchase obligation was screened as the register's third
+  compliance-deadline venue (a different regulator, the European Commission, and a different obligor
+  population, importers) and is a **bounded negative with a dated re-screen condition**, on five
+  independent grounds: the certificate price is a *published deterministic formula* off EUA auction
+  prices and the certificate is not tradable by a third party (S-227); the would-be sign state is
+  therefore a definition rather than a state; the obligation is near zero by construction in the near
+  term (2.5 % of embedded emissions in 2026, reaching 48.5 % in 2030 and 100 % only from 2034 —
+  S-229); the obligor is the party that would capture any concession (S-230); and the macro channel is
+  already published. Re-screen when the obligation share has grown materially **and** the weekly
+  pricing regime has run long enough for authorised declarants' pre-deadline **hedging behaviour in the
+  EUA market** to be observable — obligor behaviour, not a calendar fact, is the only residue that
+  could carry a sign.
+- Neither screen consumed an IDEA identifier; **no new candidate was written**.
+
+**Scores.** **No score changed this cycle.** The ranking is IDEA-011 (69.0), IDEA-004 (69.0),
+IDEA-010 (68.0), IDEA-009 (60.0), IDEA-014 (52.0); IDEA-003 is parked at 66.0.
+
+**IDs used.** Sources **S-220 … S-230** (11 new entries: S-220/S-221 for IDEA-011's mechanism and
+published conditioner, S-222 for IDEA-004, S-223 for IDEA-003's G-22, S-224 for IDEA-015's P-011,
+S-225/S-226 for IDEA-010's cadence, S-227/S-228/S-229/S-230 for the CBAM family screen). Gaps:
+**G-22 closed against**, **G-23 closed in favour**, **G-18 closed as a bounded negative**, **G-04
+restated**, **G-21 narrowed**, **G-24 and G-25 closed as bounded negatives**, **G-27 and G-28
+opened**. Parkings: **P-012 written** (IDEA-003). Bounded negatives: **R-014 written** (crypto unlock),
+**R-016 written** (CBAM). Specifications: **V-010 amended** (Cycle-35 amendment), **V-002 note
+added**, **V-003 marked never-to-execute**. No new IDEA identifier and no new V-number.
+
+### What this cycle did not do
+
+- No backtest, simulation, parameter sweep, optimisation, data acquisition or processing, strategy or
+  signal implementation, performance or risk metric, test, workflow edit, job launch or trading.
+- **No validation specification was executed.** V-010 remains a specification, and it was amended, not
+  run.
+- No market data were acquired; every number in this cycle comes from published documents, and the
+  ledger records exactly how each was verified — including, honestly, which documents could only be
+  read through a **search index** (S-226, S-228, S-229, S-230) and which were **fetched directly**
+  (S-223 via the Crossref record, S-222 and S-224 via the OpenAlex records, S-225's rule text via
+  Cornell LII, S-227 via the Commission's own page).
+- No modification to the canonical prompt.
+- The register's own hard rule was applied throughout: **a bounded negative is a legitimate outcome and
+  is recorded rather than dressed up** — and, added this cycle, **an unwritten artifact is not a
+  result**.
+
+### Cycle 36 priorities (proposed, for the next agent to confirm or replace)
+
+1. **G-27 (IDEA-010) — the effective-sample and state-frequency question.** Write down the count of
+   (ETF, filing-date) state observations the rule can actually generate, and resolve whether a
+   broker-dealer's regulatory capital ratio is publicly available at the firm level. If the count is
+   too small, say so and register the candidate as *untested* rather than re-specifying it.
+2. **G-28 (IDEA-004) — which crowd?** Specify the position-concentration measure of the
+   convergence/arbitrage crowd in the candidate's own universe, and check whether the published
+   crowding measures (S-026, S-157, S-222) can be used as the state or are substitutes for a different
+   construct. Until this is written, V-002 cannot be amended or unfrozen.
+3. **G-21 (IDEA-011) — the first-adopter/second-adopter drift comparison.** Search for any study that
+   compares post-adoption drift between first-time and second-time adopters of the same standard, in
+   any jurisdiction, on any drift measure. A hit would be decisive; a null would leave the candidate
+   with no supporting published case and should be recorded as such.
+4. **IDEA-014's state-free existence limb** — it is the only untested claim in the register that is
+   runnable without a new state; a bounded search for published evidence that the RFS compliance
+   deadline moves prices at all would either close the limb or justify retiring the candidate.
+5. **One new mechanism family screen**, applying the register's bar strictly, with bounded negatives
+   logged; the compliance-deadline template is now exhausted in three venues (EU ETS, RIN, CBAM) and
+   the next screen should look for a different template.
+6. **Re-derive the state of the register from the files at the start of the cycle** (the new standing
+   rule), and keep the reserved identifier ranges intact.

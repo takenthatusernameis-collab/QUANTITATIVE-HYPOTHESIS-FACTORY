@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 32 complete** (three pre-specification gaps closed — G-19 against IDEA-003's sign claim, G-16 in IDEA-010's favour on a reformulated validation target, G-20 against IDEA-014's state as specified — two candidates re-scored down and one up, a new validation specification written for IDEA-010, one new mechanism family screened and bounded negative), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–32's own changes are recorded in each dossier's "Cycle 30"/"Cycle 31"/"Cycle 32" block and in `cycle_notes.md`.* The
+Last updated: **Cycle 35 complete** (G-22 **executed** and closed against IDEA-003, which is **parked (P-012)** and leaves the active ranking; G-23 closed **in IDEA-010's favour** on a re-anchored cross-sectional identification, with the 1–10 session horizon preserved and the effective sample registered as G-27; G-18 closed as a bounded negative that supersedes its own premise, G-04 restated and G-28 opened for IDEA-004; G-21 narrowed to a named first-adopter/second-adopter discriminator for IDEA-011, and IDEA-015's limb confirmed so P-011 stands; G-24 and G-25 closed as bounded negatives for IDEA-014's conditional version, the claimed RGGI replacement state having never existed; two mechanism families screened and bounded negative, R-014 and R-016; eleven new sources, S-220 … S-230; **no score changed**), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–35's own changes are recorded in each dossier's "Cycle 30"/"Cycle 31"/"Cycle 32"/"Cycle 35" block and in `cycle_notes.md`.* The
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
 **Closure passes: seven candidates have now been demoted — six by their own literature and one by a
 publication calendar.** IDEA-007 was
@@ -118,6 +118,48 @@ effect attaches to plan *adoption* around earnings rather than to the execution 
 schedule. **One bounded negative: R-012** (the statutory payment-date liquidity-drain family). The
 register now holds six active dossiers (three shortlisted), **five** parked and four rejected, and
 **fifteen** dossiers in total.
+
+**Cycle 35 (this cycle) — one executed closure that parks a candidate, one closure in a candidate's
+favour, one closure that supersedes its own premise, one narrowing, two bounded negatives, and a
+state-integrity repair.** The cycle began by auditing the register against itself, and the audit
+found that the Cycle-33 source-ledger header and the Cycle-34 handoff asserted a set of artifacts —
+the sources S-210 … S-218, the "Cycle 33 sources" and "Cycle 33 gap verdicts" blocks, the candidate
+**IDEA-016 RGGI-COMPLIANCE**, the specification V-011, the bounded negative R-014, the parkings P-012
+and P-013, and a formal G-25 verdict — that **have never existed in any file in this repository**; no
+commit in the git history has ever contained any of them, and the "Cycle 33 execution" note that
+claimed otherwise was itself part of the false header. Cycle 35 corrected the header, **executed** the
+two claimed closures that were research questions rather than documents, wrote the claimed screen for
+real, and recorded the reserved identifiers as reserved so that none of them can ever be reused.
+**IDEA-003 (66.0, score unchanged, now parked):** G-22 was executed rather than assumed. The published
+option-implied crash literature forecasts crash events, predicts the expected market return from a
+crash measure (S-223) and prices crash risk; none of it asks whether a crash state improves the
+risk-adjusted value of harvesting variance, and S-223's measure is a hybrid of an option-implied
+variance and *realised* moments rather than a pure option-surface measure. By the rule G-22 registered
+in Cycle 32, the candidate is a known baseline with an unvalidated state overlay and **must be parked
+(P-012)** — parked, not rejected, because nothing published shows the candidate's effect.
+**IDEA-010 (68.0, unchanged):** G-23 closed **in the candidate's favour**. The capital state is
+quarterly and lagged (S-225, S-226), but the claim never required the state to change *inside* the
+holding window, so the identification is re-anchored to a cross-sectional contrast (weak-capital
+versus strong-capital ETFs on redemption days), the 1–10 session horizon is preserved, the signedness
+becomes the first pre-registered killable test with the three rivals applied to the *interaction*, and
+the effective sample and the per-AP filing comparability are registered as G-27. **IDEA-004 (69.0,
+unchanged):** G-18 closed as a bounded negative that supersedes its own premise — the literature never
+needed a comomentum-versus-holdings validation, because each construct has been validated against an
+*outcome*; the newest peer-reviewed work (S-222) makes crowding a published first-order conditioning
+variable with a crash-risk channel, which the candidate may no longer present as a discovery, and
+makes the *state definition* the load-bearing specification, registered as G-28. **IDEA-011 (69.0,
+unchanged):** G-21 narrowed to a named discriminator — the Greek case is attributed to a disclosure
+shock by its own authors (S-188), "first adoption" does not predict the sign of the drift effect
+(S-179 runs the other way), the published conditioner is *enforcement* (S-221), and the candidate's
+diffusion clock must start before the effective date (S-220); the residual is a first-adopter versus
+second-adopter drift comparison that has not been run. **IDEA-014 (52.0, unchanged):** G-24 and G-25
+closed as bounded negatives for the conditional version; the claimed RGGI replacement state never
+existed, and the state-free existence limb is retained. **IDEA-015 (61.0, unchanged):** P-011
+confirmed — the published 10b5-1 effect attaches to adoption and participation, not to the execution
+window (S-224). **Two mechanism families screened, two bounded negatives, no new dossier:** the crypto
+token-unlock re-screen (R-014) and the EU CBAM certificate purchase obligation (R-016). **Eleven new
+sources, S-220 … S-230. No score changed.** The register now holds five active dossiers (three
+shortlisted), **six** parked and four rejected, and **fifteen** dossiers in total.
 
 ---
 
@@ -548,9 +590,15 @@ sample? (If not, park the candidate.)
 ## IDEA-003 — VRP-STATE: the variance risk premium as crash-state compensation, and the state gate on harvesting it
 
 - **ID / short name:** IDEA-003 / VRP-STATE
-- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** **parked (P-012) — not ranked** · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. The aggregate variance risk premium is a known baseline;
-  the candidate is the *state gate* on harvesting it.
+  the candidate is the *state gate* on harvesting it. v1.1 (Cycle 30) — reclassified as an incremental
+  variant of published conditional-VRP work; V-003 amended. v1.2 (Cycle 35) — **G-22 executed and closed
+  against the candidate: no published work establishes that an option-surface-implied imminent-crash
+  measure adds risk-adjusted value to a variance harvest beyond the published state-conditioned
+  volatility-trading family (S-180), so by the rule registered in Cycle 32 the candidate is a known
+  baseline with an unvalidated state overlay and must be parked. Parked, not rejected**; V-003 is marked
+  never-to-execute; the score of 66.0 is retained for the record.
 
 **One-sentence hypothesis.** The variance risk premium is compensation for bearing crash risk
 rather than a free annuity, so a strategy that harvests it should only be run in states where the
@@ -878,15 +926,55 @@ re-specified as a tail-management claim
     bad states) is registered as a prior, and the frozen primary outcome is the risk-adjusted difference
     between the gated and the unconditioned harvest.
 
+### Cycle 35 (2026-10-20) — G-22 executed: no published work establishes the increment, so the candidate is **parked (P-012)**
+
+- **What was done.** G-22 was **executed**, not assumed. The Cycle-33 source-ledger header and the
+  Cycle-34 handoff both asserted that this closure and this parking had already happened; no source,
+  verdict or parking existed in any artifact, and the search behind G-22 had never been run. Cycle 35 ran
+  it: *does any published work establish that an option-surface-implied imminent-crash measure adds
+  risk-adjusted value to a variance harvest beyond the published state-conditioned volatility-trading
+  family (S-180)?*
+- **What was found.** The published option-implied crash literature does three different things and
+  none of them is the fourth thing the candidate needs. It **forecasts crash events**; it **predicts the
+  expected market return** from a crash measure — S-223 (Chen & Song 2025, *Journal of Futures Markets*
+  46(3): 511–528) finds that "crash risk exhibits significant predictive power for market returns, and
+  its marginal effect differs markedly between crisis and noncrisis periods", and that the joint effect
+  of crash risk and variance risk improves crash-event forecasting accuracy; and it **prices crash
+  risk** (crash indices; crash-risk pricing in the term structure). No located work asks whether a
+  crash state improves the *risk-adjusted value of harvesting variance*. Two further facts cut against
+  the candidate: S-223's crash measure is a **hybrid** of an option-implied variance and *realised*
+  log-return moments, so it is not even a pure decision-time option-surface measure; and Cycle 32 had
+  already closed G-19 against the sign claim, with the expected premium stated by three independent
+  peer-reviewed sources (S-190, S-191, S-192) as **positive and wider in turmoil**.
+- **Verdict.** By the rule G-22 registered in Cycle 32 — *"If not, the candidate is a known baseline and
+  must be parked"* — the candidate is a known baseline with an unvalidated state overlay and **must be
+  parked**. It is **parked, not rejected**: nothing published *shows* the candidate's effect, so the
+  candidate is unsupported and unranked rather than falsified. Written as **P-012** in
+  `rejected_and_parked.md`.
+- **Consequences.** IDEA-003 leaves the active ranking with its score of 66.0 retained for the record.
+  **V-003 is marked never-to-execute** (it is retained in `validation_handoffs.md` with a status block
+  and must not be executed). The register's active shape becomes five candidates: IDEA-011 (69.0),
+  IDEA-004 (69.0), IDEA-010 (68.0), IDEA-009 (60.0), IDEA-014 (52.0).
+- **Unblocking condition, if a later cycle pursues it.** Published work must (a) construct a **purely
+  option-surface-implied** imminent-crash measure with no realised-moment component, and (b) demonstrate
+  that conditioning a variance harvest on it **improves the harvest's risk-adjusted value**, rather than
+  improving crash-event forecasting or expected-return prediction. The candidate may not be re-specified
+  around an easier state (a realised-volatility or index-level state), and may not be presented as a new
+  premium edge.
+- **Score: 66.0, retained, not re-scored.** The parking rule is not a scoring event; the register keeps
+  the score so it is not re-derived.
+
 ---
 
 ## IDEA-004 — SLOWCAP-COND: capacity-conditional convergence trades under slow-moving capital
 
 
 - **ID / short name:** IDEA-004 / SLOWCAP-COND
-- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. The limits-to-arbitrage family is heavily studied; the
-  candidate is the *observable crowd-depth state* used to condition the trade.
+  candidate is the *observable crowd-depth state* used to condition the trade. v1.1 (Cycle 35) — G-18
+  closed as a bounded negative that supersedes its own premise; G-04 restated; G-28 opened; V-002
+  remains frozen for a new reason; no score change (69.0).
 
 **One-sentence hypothesis.** Because arbitrage capital is slow to arrive and exits in
 synchronisation, a convergence trade's expected return and its crash risk are both functions of
@@ -1137,6 +1225,56 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
   holdings-based crowding measure constructible?" but "does any published work validate a contemporaneous
   proxy against it, and does the two-sided conditioning survive in a modern sample in which crowding is
   associated with fragility rather than with average returns?"
+
+### Cycle 35 (2026-10-20) — G-18 closed as a bounded negative that supersedes its own premise; the published crowding literature now corroborates the tail limb and makes the *state definition* the load-bearing question (G-04 restated, **G-28** opened)
+
+- **The single most important new source.** S-222 (Chincarini, Lazo-Paz & Moneta 2025, "Crowded spaces and
+  anomalies", *Journal of Banking & Finance* 182: 107579) relates **crowded trades** — "those in which
+  many investors hold the same stocks possibly exhausting their liquidity provision" — to future returns
+  on well-known stock-market anomalies, using 13F holdings over 1980–2021 and the **Days-ADV** crowding
+  construct of Brown, Howard and Lundblad (2021), which is the register's own **S-026**. It finds that
+  "anomaly risk-adjusted returns are primarily generated by most (least) crowded stocks for the
+  long-leg (short-leg) portfolio", that the results survive publication-date controls, and hypothesises
+  that crowded equity positions increase institutional exposure to crash risk, so that "crowding adds
+  new considerations to limits to arbitrage".
+- **What this does to G-18.** The registered G-18 question was whether comomentum (S-157) had been
+  validated against a holdings-based crowding measure (S-026). That question is now **void**, and the
+  reason is the finding: the literature never needed the cross-validation, because each construct has
+  been validated against an **outcome** instead. The holdings-based construct is now an active published
+  object with return-predictive results of its own, and the correlation-based construct (S-157) likewise
+  carries published return-predictive results of its own. **G-18 is closed as a bounded negative** — no
+  published work validates one crowding proxy against the other, and none is needed.
+- **What this does to the candidate's own claim — three points, in the register's favour and against.**
+  1. **The candidate may no longer be presented as discovering that crowding is a first-order
+     conditioning variable.** That is now published (S-026, S-222). New hard-stop flag attached.
+  2. **The published relation is *monotone* in crowding; the candidate's claim is a *two-sided
+     (non-monotone)* gate.** The published result therefore does not support the candidate's
+     two-sidedness, but it also does not kill it: the candidate's specific two-sided gate becomes the
+     thing that must be pre-registered and tested, and the published monotone relation is a *prior* the
+     candidate must be able to explain.
+  3. **The published crowding population is a different crowd.** S-222 measures all 13F institutional
+     investors holding the same stock — *directional positioning* — not the *convergence/arbitrage
+     capital* the candidate's state is meant to capture, and it measures anomaly long/short portfolio
+     returns rather than the payoff of a convergence trade. The candidate's tail limb (prediction 2: a
+     worse left tail in high-crowd states) is the part most directly corroborated, since the published
+     crash-risk channel and S-026's fragility result point the same way.
+- **G-04 restated, and the new gap G-28 opened.** G-04's *proxy-validity* limb is no longer "validate
+  comomentum against the holdings-based measure"; it is now: **the crowding state must be a
+  position-concentration measure of the convergence/arbitrage crowd in the candidate's own universe**
+  (pairs, merger-spread and index-convergence relative value), and the published neighbours (S-026's
+  Days-ADV over all 13F institutions, S-222's anomaly-level crowding, S-157's comomentum) are **not**
+  substitutes for it, because they measure a different crowd at a different frequency. Until that
+  measure is specified, the candidate's rule cannot be written. This residual is registered as **G-28**.
+- **Effect on V-002.** V-002 **remains frozen**, but the *reason* changes: it is no longer frozen
+  pending a proxy validation that will never arrive, but pending **G-28** plus the Cycle-6 finding that
+  the rule must be anchored to the 13F filing cadence. No re-specification is written while frozen.
+- **Score: 69.0, unchanged.** Mechanism 4 → 4 (unchanged), evidence 4 → 4 (unchanged — the new source
+  corroborates the family and the tail limb but does **not** support the two-sided conditioning, which
+  remains the stated reason for not scoring 5), novelty 3 → 3 (unchanged), falsifiability 3 → 3
+  (unchanged — the crowd proxy remains lagged and noisy, and the binding constraint is still the state
+  *definition* rather than its availability), resilience 3 → 3 (unchanged), data 3 → 3 (unchanged).
+  **Rank 2, unchanged** (tied with IDEA-011 at 69.0; the tie is broken in IDEA-011's favour on
+  falsifiability, 4 versus 3).
 
 ---
 
@@ -2371,13 +2509,21 @@ costs and after controlling for momentum?
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
 
 - **ID / short name:** IDEA-010 / CREDIT-ETF
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 6 — re-scored 68.0 → 65.0:** the mechanism's core (AP inventory and balance-sheet
   constraints driving ETF–NAV dislocations) is published institutionally (S-123), so novelty falls
   3 → 2; G-13 passes only partially, because the *differentiating* state is commercial and the
   published substitutes are unvalidated (gap G-16). Retained, not shortlisted; no validation
   specification until G-16 is closed.
+  **Cycle 32 — re-scored 65.0 → 68.0 and V-010 written:** G-16 closed in the candidate's favour on a
+  reformulated validation target (S-194's AP regulatory capital ratios, disclosed in SEC regulatory
+  filings), with three published rivals (S-196, S-197, S-199).
+  **v1.1 (Cycle 35) — G-23 closed in the candidate's favour:** the capital state is quarterly and
+  lagged (S-225, S-226), but the claim never required the state to change inside the holding window,
+  so the identification is re-anchored to a cross-sectional contrast, the 1–10 session horizon is
+  preserved, the signedness becomes the first pre-registered killable test, and G-27 (effective sample
+  and per-AP filing comparability) is opened. V-010 amended; no score change (68.0).
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 
@@ -2535,6 +2681,67 @@ re-scored to 68.0, enters the top three, and receives V-010
     candidate's rule requires, and (ii) is it a **signed** state rather than only a moderator, given the
     three published rival explanations and the monthly frequency of the published dispersion proxy?
 
+### Cycle 35 (2026-10-20) — G-23 closed in the candidate's favour: the cadence is resolved by re-anchoring the identification, the horizon is preserved, the signedness becomes the first killable test, and the effective sample is registered as the residual (G-27)
+
+- **The cadence facts, established this cycle.** The state is refreshed only when an AP files.
+  **S-225** (SEC Form 10-Q General Instruction A.1, with 17 CFR 240.13a-13 and 240.13a-11): a Form 10-Q
+  is due for each of the first three quarters within the period set by General Instruction A.1 — 40 days
+  after quarter end for large accelerated and accelerated filers, 45 days for all other registrants —
+  and the annual report is due 60 / 75 / 90 days after fiscal year end by filer status; 240.13a-13 also
+  exempts investment companies, foreign private issuers and asset-backed issuers. **S-226** (Federal
+  Reserve FR Y-9C): quarterly, due 40 calendar days after the March, June and September as-of dates and
+  45 after December, with the public data released later and revisable until the deadline. So the state
+  is **at best quarterly and lagged** — exactly the constraint G-23 was opened for.
+- **Why the cadence is *not* fatal, and what it costs instead.** The candidate's claim never required
+  the state to change *inside* the holding window: it requires the **level** of the AP set's capital
+  ratio to govern the **size** of the flow-induced discount widening and its reversion. A state that is
+  constant between filings is fully usable for a claim of that form — and the published relation itself
+  (S-194) identifies the state at filing frequency, so the published evidence was never a
+  session-frequency state either. Two consequences are now binding on V-010:
+  1. **The primary identification is cross-sectional** — weak-capital ETFs versus strong-capital ETFs on
+     redemption days, with the state read as of the last filing date and held constant between filings.
+     The within-ETF time-series reading is demoted to a **low-power ablation**, to be reported as such
+     with its own effective-sample count.
+  2. **The effective sample must be reported and "untested" remains a permitted verdict.** The
+     informative units are (ETF, filing-date) state observations and the redemption days inside them;
+     the counts are small and the March 2020 dash-for-cash episode is the episode in which the published
+     state bound (S-194). A null in a small sample must be reported as *untested*, not upgraded into a
+     kill.
+- **The horizon is preserved and the candidate is not parked.** The 1–10 session exit governs the
+  **reversion of the flow-induced widening**; the state's refresh cadence does not enter the exit. No
+  horizon extension is authorised and no parking follows from the cadence. The V-010 Cycle-34
+  amendment's conditional instruction — "if the 1–10 session rule proves infeasible due to cadence, the
+  horizon must be extended or the candidate reconsidered for parking" — is therefore **resolved in the
+  candidate's favour** and superseded by the Cycle-35 amendment.
+- **Signedness: the literature half closed, the specification half closed.** S-194 establishes a
+  **signed, monotone** relation between the AP-set capital state and arbitrage intensity (a 0.69pp
+  versus 0.39pp decline in arbitrage intensity for bottom- versus top-quartile capital ratios), so the
+  state is signed in the mechanism's direction and not merely a moderator. The residual was never a
+  literature question but a specification obligation, and it is closed as one: the signed prediction —
+  *on redemption days, weak-capital ETFs' discounts widen more than strong-capital ETFs' discounts* — is
+  now the candidate's **first pre-registered, killable test**, measured on the *change* in the ETF–NAV
+  discount with ETF fixed effects absorbing the level, and the three rivals are now specified as controls
+  on the **interaction** rather than on the level: S-196 (fractional baskets) as a level explanation
+  absorbed by fixed effects; S-197 (funding segmentation) controlled for with public funding-state
+  variables; S-199 (client liquidity discounts) controlled for by requiring the bond-side cheapening to
+  be specific to the ETF's own AP set and redemption days. S-200's monthly dispersion proxy remains a
+  robustness check, and aggregate dealer financial-weakness averages remain a documented inferiority.
+- **Hard-stop flag added.** The candidate must not be presented as a discovery of the state-to-premium
+  relation (published, S-194, S-195), and must not be presented as evidence that a *session-refreshed*
+  capital state is tradeable: the state is a **slow filter** and the rule is a cross-sectional contrast.
+- **New gap G-27.** Two residual data questions: the **effective-sample counts** above, and the
+  **per-AP filing frequency and cross-regime comparability** of the capital ratio (broker-dealer versus
+  bank holding company versus asset manager — the firm-level public availability of a broker-dealer's
+  regulatory capital ratio was not resolved this cycle). The register must not assume a single
+  quarterly cadence for a heterogeneous AP set.
+- **Score: 68.0, unchanged.** Mechanism 4 → 4, evidence 4 → 4 (unchanged — no new source bears on the
+  state-to-premium relation itself; the new sources establish the *cadence* and the *signedness*), novelty
+  1 → 1 (unchanged — the published relation is not the candidate's discovery), falsifiability 4 → 4
+  (unchanged — the re-anchoring sharpens the test but does not create a new one), resilience 3 → 3
+  (unchanged — the cost-overwhelm kill condition is unchanged), data 4 → 4 (unchanged — the state is
+  public in principle; the residual costs are now registered in G-27 rather than in G-23). **Rank 3,
+  unchanged.**
+
 ---
 
 ---
@@ -2542,8 +2749,17 @@ re-scored to 68.0, enters the top three, and receives V-010
 ## IDEA-011 — ACCTCLOCK: accounting-standards adoption as a slow-information-diffusion event clock
 
 - **ID / short name:** IDEA-011 / ACCTCLOCK
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+  **Cycle 16 — re-scored 72.0 → 69.0** on post-2010 drift-decay evidence (S-178, S-179), with the
+  enforcement-regime concentration of the effect narrowing the tradable drift.
+  **v1.1 (Cycle 35) — G-21 narrowed to a named discriminator:** the only first-adoption case in the
+  candidate's direction (Greece, S-188) is attributed to a disclosure shock by its own authors; the
+  other first-adoption case runs the opposite way (S-179); the published conditioner is enforcement
+  (S-221); and the mandatory-versus-voluntary comparator (S-220) implies the diffusion clock starts
+  before the effective date. The residual is a first-adopter versus second-adopter drift comparison
+  that has not been run. No score change (69.0); a new hard-stop flag records that the enforcement
+  concentration of IFRS-adoption effects is published and is not the candidate's discovery.
 
 **One-sentence hypothesis.** Mandatory adoption of a new accounting standard is a dated, regulator-announced information shock whose market reaction diffuses slowly because investors and analysts must re-learn the new numbers; the drift between the adoption announcement and the first full reporting cycle under the new standard is predictable in direction for firms whose pre-adoption information quality was low, and partly reverses once comparability is priced.
 
@@ -2618,6 +2834,53 @@ re-scored to 68.0, enters the top three, and receives V-010
 - Read as a set, the post-2010 literature indicates IFRS-style adoption improves the information environment and shrinks PEAD magnitude in several settings — consistent with slow-diffusion drift weakening post-adoption, analogous to momentum's documented decay (S-156). This is evidence *against* a persistent, tradable announcement-to-first-report drift in the post-2010 sample, but the literature does not isolate the candidate's exact dated two-legged trade, and the adoption-event sample remains small (hard-stop unchanged).
 - **Score: 72.0, unchanged; rank 1, unchanged.** No re-score pending a more targeted post-2010 sample comparison; the post-2010 check is now complete and sharpens (rather than reverses) the prior assessment. The binding constraint remains the small, non-independent adoption-event sample.
 - Enforcement regimes: S-178 and S-175/S-176 both find effects concentrated in strong-enforcement countries, so enforcement is a relevant regime condition for any future specification (already in the dossier's observables/target scope).
+
+### Cycle 35 (2026-10-20) — G-21 narrowed to a named discriminator: the Greece case is attributed to a disclosure shock by its own authors, "first adoption" does not predict the sign, and the published conditioner is *enforcement* — not the candidate's information-quality clock
+
+- **Two new sources, and what each does to the candidate.**
+  1. **S-220** (Daske, Hail, Leuz & Verdi 2008, *Journal of Accounting Research* 46(5): 1085–1142) is the
+     register's first published **mandatory-versus-voluntary adopter** comparator, which is the
+     *second-time-adopter* half of the discriminator below. Two of its findings matter. The
+     capital-market benefits of IFRS adoption are "most pronounced for firms that voluntarily switch to
+     IFRS, both in the year when they switch and again later, when IFRS become mandatory" — firms with
+     comparability experience get the *bigger* benefit at the mandate date, which is consistent with a
+     comparability channel being operative at that date. And the effects "occur prior to the official
+     adoption date", which means the candidate's diffusion clock must be defined to begin *before* the
+     effective date, not at it — a specification consequence for the candidate's calendar.
+  2. **S-221** (Christensen, Hail & Leuz 2013, *Journal of Accounting and Economics* 56(2–3, Suppl. 1):
+     147–177) decomposes the EU liquidity benefits of mandatory IFRS adoption and finds them "limited to
+     five EU countries that made substantive changes in their enforcement of financial reporting around
+     the same time IFRS became mandatory". **This is a published conditioner that competes with the
+     candidate's own**: the candidate's prediction 2 conditions the drift on the enforcement regime
+     (S-175, S-176, S-178 all find the same concentration), and that is now published as the operative
+     variable for post-adoption market outcomes.
+- **The Greece case, read against its own authors.** S-188 (Forbes & Giannopoulos) attributes the Greek
+  post-adoption drift **increase** to IFRS **reducing earnings predictability** — reduced accounting
+  conservatism and higher earnings volatility — which is a *disclosure shock*, not a learning or
+  comparability clock. So the only first-adoption case in the candidate's direction is explained by a
+  rival mechanism **by the authors of that very case**. And the other first-adoption case runs the other
+  way: K-IFRS adoption **reduced** post-adoption drift (S-179). "First adoption" therefore does not
+  predict the sign of the drift effect, and the candidate's mechanism has **no published case in which
+  post-adoption drift increased under a mechanism attributable to a comparability clock**.
+- **The discriminator is now named and specified (G-21 narrowed, not closed).** A comparability clock
+  predicts that the drift increase appears in **first-time adopters** of a standard whose transition
+  creates a comparability break, and is **absent or reversed in second-time adopters** — firms or
+  jurisdictions already reporting under IFRS-equivalent standards (Australia and Canada 2004–05, South
+  Africa 2005, the EU's 2005 voluntary adopters). A generic "IFRS changes the numbers" effect (S-188's
+  own reading) predicts both groups move together. No study located in this cycle runs that comparison
+  on drift; the studies that run the mandatory-versus-voluntary comparison (S-220, S-221) do so on
+  liquidity, cost of capital and valuation. The residual is therefore no longer "is the Greece result
+  Greece-specific?" but the specific, executable comparison above.
+- **Hard-stop flag added.** The candidate must not be presented as discovering that enforcement
+  concentrates IFRS-adoption market effects: that is published (S-221). The candidate's residual is the
+  *information-quality* conditioning of a *drift* effect, and the candidate must also accommodate the
+  anticipation finding (S-220) — the clock starts before the effective date.
+- **Score: 69.0, unchanged.** Mechanism 4 → 4, evidence 3 → 3 (unchanged — the two new sources support
+  the *mechanism* and the *enforcement* limb, but the candidate's directional drift claim still has no
+  supporting published case, and the *content* of the evidence base has changed rather than its
+  quantity), novelty 3 → 3 (unchanged), falsifiability 4 → 4 (unchanged), resilience 3 → 3 (unchanged),
+  data 4 → 4 (unchanged). **Rank 1, unchanged** (tied with IDEA-004 at 69.0 and ahead of it on
+  falsifiability, 4 versus 3).
 
 ---
 
@@ -3062,12 +3325,16 @@ than parked.
 ## IDEA-014 — RIN-DEADLINE: the US Renewable Fuel Standard's compliance-deadline obligation, and the published net position that decides its sign
 
 - **ID / short name:** IDEA-014 / RIN-DEADLINE
-- **Date added:** 2026-10-20 · **Cycle:** 6 · **Status:** candidate · **Version:** 1.0
+- **Date added:** 2026-10-20 · **Cycle:** 6 · **Status:** candidate · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. New mechanism family for the register: a statutory,
   date-bound purchase obligation on a *credit* in a US regulatory market, screened as frontier
   family 1 ("statutory, date-bound obligations outside the EU ETS"). The candidate is the
   **state-conditioned sign** of the deadline effect; the EU ETS version of the same template is
   published (S-101) and is a baseline, not a discovery.
+  **v1.1 (Cycle 35) — G-24 and G-25 closed as bounded negatives for the conditional version:** the
+  claimed RGGI replacement state and candidate IDEA-016 were never written in any artifact, so the
+  RGGI lead is an unwritten lead rather than a candidate; the conditional version stays retired and
+  the state-free existence limb is retained. No score change (52.0).
 
 **One-sentence hypothesis.** Obligated parties under the US Renewable Fuel Standard must retire
 Renewable Identification Numbers (RINs) against their annual renewable volume obligations by a
@@ -3377,12 +3644,35 @@ and takes a hard-stop flag on its sign-determining state
     without circularity? If none exists, the candidate's state-conditioned version is unrunnable and the
     candidate is a state-free existence test only.
 
+### Cycle 35 (2026-10-20) — G-24 and G-25 closed as bounded negatives for the conditional version; the claimed RGGI replacement state turns out never to have existed
+
+- **The claim that has to be corrected.** The Cycle-33 source-ledger header stated that G-24 was closed
+  **in IDEA-014's favour** because "a replacement state exists in the RGGI CO₂ allowance market,
+  producing new candidate **IDEA-016 RGGI-COMPLIANCE**", and the Cycle-34 handoff repeated it. **No
+  such candidate, source or verdict exists in any artifact** — checked file by file and against the full
+  git history on 2026-10-20. IDEA-016 was never written; the "Cycle 33 sources" and "Cycle 33 gap
+  verdicts" blocks were never in the ledger; the identifier is **reserved and unused**.
+- **What survives, and on what basis.** The *Cycle-34 conclusion* — that no **pre-deadline**, **signed**,
+  **non-circular** replacement state was found for the RIN cluster, so the conditional version of the
+  candidate is retired to a state-free existence test — is independently supportable on its own terms and
+  is what Cycle 35 records. **G-24 and G-25 are closed as bounded negatives for the conditional
+  version.** The RGGI lead is logged as an **unwritten lead** (no dossier, no source, no verdict) and is
+  **not** a candidate: a later cycle may pursue it only by writing it from primary sources under the next
+  free IDEA identifier, which is **IDEA-017** (IDEA-016 stays reserved).
+- **What is unchanged.** IDEA-014 retains its **state-free existence limb** — the G-15 existence test
+  (is there a post-deadline difference at all, and is it larger than the venue's round-trip cost,
+  S-133?) — which remains runnable without look-ahead. The score stays at **52.0**, the hard stop on the
+  conditional version stays, and the candidate stays **retained, not parked**, because the existence
+  claim is a testable residual the register has no other candidate covering. **Rank 5, unchanged.**
+- **Score: 52.0, unchanged.** Mechanism 3 → 3, evidence 2 → 2, novelty 3 → 3, falsifiability 2 → 2,
+  resilience 2 → 2, data 4 → 4. No new source bears on the candidate this cycle.
+
 ---
 
 ## IDEA-015 — PLAN-SUPPLY: pre-announced, non-discretionary insider supply as a dated, published, price-insensitive shock
 
 - **ID / short name:** IDEA-015 / PLAN-SUPPLY
-- **Date added:** 2026-10-20 · **Cycle:** 30 · **Status:** **parked (P-011)** · **Version:** 1.0
+- **Date added:** 2026-10-20 · **Cycle:** 30 · **Status:** **parked (P-011)** · **Version:** 1.1
 - **Change notes:** v1.0 — new dossier, entered as a *screened family* result of Cycle 30. The
   register's first candidate whose decision-time state is published by **corporate disclosure law**
   rather than by a market operator, a regulator or an exchange. Entered parked because the nearest
@@ -3573,6 +3863,26 @@ than by a market operator, a regulator or an exchange. The economics are ordinar
 liquidity-provision economics; the register's claim is only that the *schedule* is unusually well
 published — which is exactly the kind of claim that must be earned with a price-effect literature
 this cycle did not find.
+
+### Cycle 35 (2026-10-20) — G-21's IDEA-015 limb confirmed: the published 10b5-1 effect is an *adoption*-window effect, so P-011 stands
+
+- **The unblocking condition was re-run and re-answered.** The condition registered in Cycle 30 was:
+  is there published work that (a) constructs a security-level *remaining scheduled supply* state from
+  Item 408(a) and Form 4 filings, and (b) documents a price effect attached to the **execution**
+  window rather than the **adoption** window?
+- **What was found.** The published Rule 10b5-1 literature attaches its effect to **participation and
+  adoption**. S-224 (Jagolinzer 2008, "SEC Rule 10b5-1 and insiders' strategic trade", *Management
+  Science* 55(2): 224–239) finds that "participating sales systematically follow positive and precede
+  negative firm performance, generating abnormal forward-looking returns larger than those earned by
+  non-participating colleagues", and that "a substantive proportion of randomly drawn initiations are
+  associated with pending adverse news disclosures". Read with the register's existing sources on the
+  adoption-window effect (S-182, S-183, S-187), the published result is an *adoption-window* result and
+  nothing located attaches a price effect to the **execution** of a disclosed schedule.
+- **Verdict.** No execution-window result was located, so the condition is **not met** and the parking
+  stands. **P-011 is confirmed**; IDEA-015 remains parked at 61.0 with its evidence-first condition
+  unchanged; **no validation specification is written**; the candidate may not be re-specified around an
+  easier state, and may not use sell-to-cover sales tied to vesting and tax withholding.
+- **Score: 61.0, unchanged**, and it stays outside the active ranking.
 
 ---
 
@@ -3815,7 +4125,68 @@ decidable from the published state, and the venue is feasible.
      works precisely because a *regulator* fixes one date for everyone; in credit, the deadlines are
      staggered by construction, so there is no cluster, and the family is the structural opposite of the
      register's best-documented deadline families.
-   - **Verdict: bounded negative, no dossier — logged as R-013.** Filed in `rejected_and_parked.md` as
-     a baseline so that a later cycle does not re-screen it. The one item left unverified is noted there as well: the specific
-     Rule 14e-1 periods used in this screen are index-rendered from practitioner notes (S-208, S-209) and
-     were not read against the rule text in this cycle (S-207).
+    - **Verdict: bounded negative, no dossier — logged as R-013.** Filed in `rejected_and_parked.md` as
+      a baseline so that a later cycle does not re-screen it. The one item left unverified is noted there as well: the specific
+      Rule 14e-1 periods used in this screen are index-rendered from practitioner notes (S-208, S-209) and
+      were not read against the rule text in this cycle (S-207).
+
+## Cycle 35 frontier-family screen log (2026-10-20)
+
+Two families were screened, with the standing rules applied: write a dossier only if the mechanism is
+unclaimed, the state is published *before* the decision, the sign (or existence) is decidable from the
+published state, and the venue is feasible. Both screens produced bounded negatives and **no new
+candidate**, and neither consumed an IDEA identifier.
+
+1. **Crypto token-unlock cliffs — RE-SCREENED, bounded negative, and the Cycle-33 screen entry written
+   for real (R-014).** The Cycle-33 header and the Cycle-34 handoff both asserted that this screen had
+   been executed and logged as R-014; no entry, verdict or source existed. Cycle 35 executed it. The
+   channel is **already documented** — the register's own corpus holds the Cycle-13 study of more than
+   16,000 unlock events, in which roughly 90 % were followed by negative price pressure, prices
+   typically begin declining about 30 days *before* the unlock, team unlocks are the most disruptive,
+   and the move stabilises within roughly two weeks after (S-170) — so a dated supply whose price
+   effect is already published, in a signed direction, with a published pre-event window is a baseline,
+   not a candidate space. Two further reasons: the **state is commercial** (third-party unlock
+   calendars, not an issuer, exchange or regulator), which trips the register's own Cycle-30 standing
+   condition on commercial states; and the **recipient population is anonymous**, so no pre-event
+   measure of supply about to be absorbed exists that is not a restatement of the schedule. The family
+   also inherits the unresolved crypto-venue risk that IDEA-009 already carries. **Bounded negative,
+   R-014**; filed in `rejected_and_parked.md` as a baseline.
+2. **The EU CBAM certificate purchase obligation — SCREENED, bounded negative, with a dated re-screen
+   condition (R-016).** This was the register's best remaining template fit and the *third* instance
+   of its own compliance-deadline template after two that are already exhausted (IDEA-013 parked,
+   IDEA-014's conditional version retired) — a **different regulator** (the European Commission, not
+   the EPA) and a **different obligor population** (importers of CBAM goods, not fuel producers). The
+   family has excellent published state: the certificate price is published on a fixed calendar
+   (four quarterly prices for 2026 — €75.36, €75.28, €82.32 and a Q4 price due 4 January 2027 — and
+   **weekly from 2027**), the obligation calendar is fixed in the Commission's guidance and Q&A (from
+   2027 an authorised declarant must hold certificates for at least 50 % of its embedded emissions at
+   each quarter end; the first annual surrender is 30 September 2027; sales open on the central
+   platform on 1 February 2027; the annual deadline has already moved once, from 31 May to
+   30 September), and the constraint is real (loss of authorised-declarant status for serious or
+   repeated infringement). Five findings nevertheless make it a baseline:
+   - **The concession is not harvestable.** The certificate price is a *published deterministic formula*
+     — the weighted average of EUA auction clearing prices (S-227) — and the certificate can be used
+     only to discharge the obligation, is sold only to authorised declarants, and is not an allowance.
+     No third party can buy it, and certificate sales do not consume EUAs.
+   - **The would-be sign state is a definition.** Any gap between the certificate price and the spot EUA
+     price is an artefact of the lagging formula, and declarants can time purchases inside the window,
+     so the gap is arbitraged by the obligor rather than being a price.
+   - **The obligation is near zero by construction.** The share of embedded emissions generating a
+     certificate obligation is the complement of the free-allocation factor: 2.5 % in 2026, 5 % in 2027,
+     10 % in 2028, 22.5 % in 2029, 48.5 % in 2030, 100 % only from 2034 (S-229) — the same structure
+     the register already closed against IDEA-014's RIN state under G-20. The 2026 obligation is
+     immaterial against EU allowance turnover.
+   - **The obligor is the beneficiary.** The party who would capture any concession is the authorised
+     declarant, not a participant the register could act as.
+   - **The macro channel is published.** CBAM's effect on EU carbon prices, trade and competitiveness is
+     a large published and policy literature, including the European Parliament's own briefing (S-229).
+   **Bounded negative, R-016**, with a **dated re-screen condition**: re-screen when the obligation
+   share has grown materially (the 2029–2030 step to 48.5 % of embedded emissions) *and* the weekly
+   pricing regime has run long enough for the **pre-deadline hedging behaviour of authorised declarants
+   in the EUA market** to be observable — obligor behaviour, not a regulatory-calendar fact, is the
+   only residue that could carry a sign. Filed in `rejected_and_parked.md` as a baseline.
+
+**Cycle 35 summary of the screening log.** Two families, two bounded negatives, zero new dossiers — and
+a third, larger repair: the two screens above are the ones a prior cycle *claimed* to have run. The
+productive part of the cycle was not a new family but the execution of the register's own **owed**
+searches (G-22, G-23, G-21) and the correction of a header that had asserted work that was never done.

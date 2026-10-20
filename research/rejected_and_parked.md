@@ -604,6 +604,48 @@ effect (the rule that produces R-007, R-009 and R-010).
   rather than remaining capacity), must not use sell-to-cover sales tied to vesting and tax
   withholding, and must not be given a validation specification while parked. **V-010 is not opened.**
 
+### P-012 — IDEA-003 VRP-STATE: an option-surface crash state layered on a variance harvest — *parked in Cycle 35 on evidence (G-22), not rejected*
+
+- **What the candidate is.** A variance-risk-premium harvest — selling options, or its delta-hedged
+  equivalent — whose *state* is an imminent-crash measure read off the option surface, on the claim that
+  the harvest's risk-adjusted value improves, or its tail improves, when the state says a crash is
+  imminent. After the Cycle-32 re-specification it survived only as a *tail-management* claim: the
+  realised harvest is catastrophically left-tailed in crash states, and the candidate's residual
+  content is the **state construction**.
+- **Why it is parked and not rejected.** The register rejects only when a published result *shows* the
+  candidate's effect, and nothing published shows it. G-22 was registered in Cycle 32 with an explicit
+  rule: *does any published work establish that an option-surface-implied imminent-crash measure adds
+  risk-adjusted value to a variance harvest beyond the published state-conditioned volatility-trading
+  family (S-180)? If not, the candidate is a known baseline and must be parked.* The Cycle-35 search
+  (executed, not assumed) found that the published option-implied crash literature does three different
+  things — it **forecasts crash events**, it **predicts the expected market return** from a crash measure
+  with a markedly different marginal effect in crisis and non-crisis periods (S-223), and it **prices
+  crash risk** — and none of it asks whether a crash state improves the risk-adjusted value of
+  harvesting variance. By the registered rule, the candidate is a known baseline with an unvalidated
+  state overlay and **must be parked**. It is parked, not rejected: the candidate is unsupported and
+  unranked, not falsified.
+- **Prior art now also in the way.** Cycle 32 closed G-19 against the candidate's sign claim: the
+  expected variance premium is stated by three independent peer-reviewed sources (S-190, S-191, S-192)
+  and its sign in bad states has been tested — the premium is **positive and higher in turmoil**
+  (S-190), while the negative stress readings belong to the naive ex-post estimator. So the candidate's
+  "the harvest pays more in crash states" framing is contradicted at the premium level, and the
+  *newest* literature prices a crash measure's own return-predictive content (S-223) rather than its
+  usefulness as a harvest conditioner.
+- **Unblocking condition — a new G-22 restatement, to be registered if pursued.** The candidate could
+  be re-admitted only if published work exists that (a) constructs a **purely option-surface-implied**
+  imminent-crash measure (no realised-moment component, as in S-223) and (b) demonstrates that
+  conditioning a variance harvest on it **improves the harvest's risk-adjusted value**, as opposed to
+  improving crash-event forecasting or expected-return prediction. Nothing published in the Cycle-35
+  search does both.
+- **What it must not do.** It must not be re-specified around an easier state (a realised-volatility
+  or VIX-level state, which would be a published baseline), must not be presented as a new premium
+  edge, and must not be given a validation specification while parked. **V-003 is marked
+  never-to-execute.**
+- **Cycle-35 note on the record-keeping.** The Cycle-33 source-ledger header and the Cycle-34 handoff
+  both asserted that this parking ("P-012, G-22 closed against") had already been executed. It had not:
+  no source, verdict or parking existed in any artifact. Cycle 35 executed the search, wrote the
+  parking and the verdict, and the handoff's standing condition is now true rather than claimed.
+
 ## Known baselines (reference set, not candidates)
 
 These are recorded so that future sessions do not re-present them as discoveries and so that new
@@ -666,19 +708,42 @@ to baselines.
 | **Authorized-participant regulatory capital ratios as the operative ETF-arbitrage state (added in Cycle 32)** | **Published, peer-reviewed** (S-194, *Journal of Banking & Finance* 2025). APs' **regulatory capital ratios, disclosed in SEC regulatory filings**, govern ETF arbitrage intensity and ETF premia; the effect is material (0.69pp vs 0.39pp decline in arbitrage intensity between 25th- and 75th-percentile APs in the March 2020 dash-for-cash) and other AP characteristics do not matter. The mechanism is S-195 (working paper, **proprietary datasets**) and the published rivals are S-196 (fractional baskets), S-197 (funding segmentation) and S-199 (client-sourced liquidity discounts). **This is a baseline and a state note:** the AP capital ratio is a *public* state that is already validated against the ETF-premium relation, so IDEA-010 must be described as a trade specification and cost-floor test on a published relation, never as a discovery of the relation. |
 | **The RFS volume requirement is calibrated to the agency's own supply projection, and projected shortfalls are waived rather than bought (added in Cycle 32)** | **Primary regulator material** (S-201, the Set 2 final rule, 91 FR 16388; S-202, 40 CFR 80.1405; S-203, the agency's 2026–2027 standards summary). The annual volume requirement is set so that the agency's **projected** supply meets it, so the projected net obligated position is near zero by construction; where the projection fell short (2025 cellulosic: 1.21 billion gallons projected against a 1.38 billion RIN requirement, "a shortfall of approximately 13 percent") the agency's response was the **waiver** of the volume requirement, not a market purchase. **This is a baseline and a state note:** the projected net obligated position is not a sign-determining state, and the realised one is published only after the deadline. Any future candidate in the RFS family must name a different pre-deadline state. |
 | **Debt tender offers and liability-management exercises: the price-insensitive flow at a published deadline (added in Cycle 32)** | **Published, peer-reviewed, plus the rule itself** (S-204, Mann & Powers, *Journal of Banking & Finance* 2006: the tender price averages a 4.75% premium to the pre-tender market price and 82.3% of the issue tenders; S-205, Levy & Shalev, *Journal of Accounting and Economics* 2016: the tender is the price-insensitive, dated repurchase route; S-206, Daniels, Díaz & Ramírez, *Journal of Corporate Finance* 2012: renegotiations cluster before a published clawback deadline; S-207, 17 CFR 240.14e-1, and S-208/S-209 for the offer mechanics). **This is a baseline and a bounded-negative family screen (Cycle 32):** the deadline-clustered, price-insensitive flow is a documented institutional pattern, and the one tradeable implication — buying a bond below a published offer price and tendering it — is a mechanical, published arbitrage rather than an edge, with the residual (the post-deadline capital-structure jump) being a credit event rather than a mechanical reversion. |
+| **The EU CBAM certificate purchase obligation (added in Cycle 35)** | **Primary regulator material** (S-227, the Commission's published certificate prices — the weighted average of EUA auction clearing prices, quarterly for 2026 and weekly from 2027; S-228, the definitive-regime guidance, the Q&A and the certificate factsheet — the 50 %-of-embedded-emissions quarter-end holding requirement from 2027, the 30 September annual surrender, sales from 1 February 2027 and the deadline's one revision from 31 May; S-229, the free-allocation phase-out — 97.5 % free allocation in 2026 falling to 0 % in 2034, so the obligation share is 2.5 % in 2026 and 100 % only from 2034; S-230, the loss of authorised-declarant status for non-compliance). **This is a baseline and a bounded-negative family screen (Cycle 35, R-016):** the obligation is a genuine, punitive, dated purchase obligation, but the certificate price is a published deterministic formula off EUA auction prices and the certificate is neither tradable by a third party nor usable for anything but the obligation, so no concession is harvestable; the obligation is near zero by construction in the near term; the obligor is the beneficiary; and CBAM's effect on EU carbon prices is itself published. **Dated re-screen condition:** re-screen when the obligation share is materially larger (the 2029–2030 step to 48.5 % of embedded emissions) **and** the weekly pricing regime has run long enough for authorised declarants' pre-deadline **hedging behaviour in the EUA market** to be observable. |
+| **Option-implied crash measures as return predictors and crash forecasters (added in Cycle 35)** | **Published, peer-reviewed** (S-223, Chen & Song, *Journal of Futures Markets* 2025: a hybrid option-implied-variance/realised-moment crash measure with significant predictive power for the expected market return, a markedly different marginal effect in crisis and non-crisis periods, and superior out-of-sample crash-event forecasting when combined with variance risk), alongside the option-implied crash-index and crash-risk-pricing literature. **This is a baseline and the reason IDEA-003 was parked (P-012, G-22):** the published work forecasts crash events, predicts the expected market return and prices crash risk — it does not condition a variance harvest on a crash state, and the measure it uses is not a pure option-surface construct. Any future candidate that layers a crash state on a variance harvest must engage S-223 explicitly. |
+| **Crowding as a published first-order conditioning variable (added in Cycle 35)** | **Published, peer-reviewed** (S-222, Chincarini, Lazo-Paz & Moneta, *Journal of Banking & Finance* 2025: crowding measured on Days-ADV over 13F holdings 1980–2021 is positively related to subsequent abnormal returns on well-known anomalies, with anomaly risk-adjusted returns "primarily generated by most (least) crowded stocks for the long-leg (short-leg) portfolio", surviving publication-date controls, and with a published crash-risk channel in which crowding "adds new considerations to limits to arbitrage"), on top of S-026's holdings-based construction and S-157's comomentum. **This is a baseline and a rediscovery guard for IDEA-004:** crowding is no longer a discovery, the published relation is *monotone* where the candidate claims a two-sided gate, and the published crowd is all 13F institutional investors (directional positioning) rather than the candidate's convergence-arbitrage capital — which is why G-04 was restated and G-28 opened. |
 
 ---
 
 ## Rediscovery guard
 
 Before adding any candidate, check it against (a) the fifteen dossiers in `idea_register.md`,
-(b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (five of
-which — V-001, V-004, V-005, V-006 and V-007 — are **withdrawn**, their candidates having been
-rejected or parked). If the candidate differs from a baseline only in parameterisation, in label, or
-in the time frame, it is a variant and belongs in this log with the baseline named, not in the
-register. A candidate that differs from a baseline only in the *state variable* it is conditioned
-on must still show that the state variable is observable at decision time — and must show that the
-conditioning changes the *sign* or the *existence* of the effect, not merely its size.
+(b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (**seven of the ten are not executable** — V-001,
+V-004, V-005, V-006 and V-007 withdrawn because their candidates were rejected or parked, V-003
+marked never-to-execute because IDEA-003 was parked in Cycle 35, and V-002 frozen pending G-28). If the candidate differs from
+a baseline only in parameterisation, in label, or in the time frame, it is a variant and belongs in
+this log with the baseline named, not in the register. A candidate that differs from a baseline only
+in the *state variable* it is conditioned on must still show that the state variable is observable at
+decision time — and must show that the conditioning changes the *sign* or the *existence* of the
+effect, not merely its size.
+
+**One standing condition added in Cycle 35 (state integrity), and it is a guard on the register's
+own bookkeeping, not on candidates.** *No artifact may be described as written, executed, verified
+or complete anywhere in this register until the agent has checked that it is present in the artifact
+set, and every count and claim in the handoff must be re-derived from the files rather than carried
+forward.* In Cycle 35 an audit found that a prior cycle's source-ledger header and handoff had
+asserted a set of artifacts — the sources S-210 … S-218, the "Cycle 33 sources" and "Cycle 33 gap
+verdicts" blocks, the candidate IDEA-016, the specification V-011, the bounded negative R-014, the
+parkings P-012 and P-013 and a formal G-25 verdict — that had **never existed in any file and appear
+in no commit in the repository's history**; a note in that same header asserted that the missing
+blocks were "the executed record". The register's candidates were not damaged, but its *claims* were,
+and a claim that cannot be checked is worse than no claim. The identifiers **IDEA-016, S-210 … S-219,
+V-011, G-26 and P-013 are therefore reserved and unused**: they are left unused on purpose so that a
+later reconstruction of that missing work cannot collide with new work. The standing practice that
+follows: (i) re-derive the state of the register from the files at the **start** of every cycle,
+before generating anything; (ii) where a prior claim turns out to be unwritten, either **execute** it
+if it is a research question, or **record it as unwritten** — never reconstruct a document by
+guessing; and (iii) a *bounded negative* is a legitimate outcome, and an *unwritten artifact* is not
+a result.
 
 **One standing condition added in Cycle 13 (after R-011), and it is the most important entry in
 this guard.** *Before a candidate is written, its nearest published test must be re-read in the
@@ -738,3 +803,90 @@ advice):
 - **Outcome:** bounded negative. No new candidate met the register's bar (published decision-time state, dated price-insensitive flow, unclaimed sign, no published result showing the effect).
 - **Rationale:** examined multiple potential families (e.g., treasury refunding announcements, CDS index roll dates, corporate bond maturity walls, SPAC combination deadlines, FTSE/index rebalancing effects beyond those already covered). None possessed a clear signed pre-decision state that differs meaningfully from existing known baselines. Most were either already covered by existing literature/baselines or failed the "price-insensitive flow with unclaimed sign" criterion.
 - **Decision:** log bounded negative (R-015). No new dossier created. No score change.
+
+### R-014 — Crypto token-unlock schedule as a dated, price-insensitive supply flow (Cycle 35 family screen — bounded negative; written for real)
+- **Why this entry exists.** The Cycle-33 source-ledger header and the Cycle-34 handoff both asserted
+  that a crypto-unlock family screen had been executed and logged as **R-014**. It had not: no entry,
+  no verdict and no source existed in any artifact. Cycle 35 executed the screen and wrote the result.
+- **Screen conducted.** Token unlock schedules — project, team, foundation and investor allocations
+  whose vesting cliffs expire on published dates — as a **dated, pre-announced, price-insensitive supply
+  flow** with an unclaimed sign and a state that is published before the event.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale.**
+  1. **The channel is already documented, not unclaimed.** The register's own corpus holds the
+     Cycle-13 unlock event study (S-170): across more than 16,000 unlock events, roughly 90 % were
+     followed by negative price pressure, prices typically begin declining about 30 days *before* the
+     unlock, team unlocks were the most disruptive, and the move stabilises within roughly two weeks
+     after. A dated supply whose price effect is already published, in a signed direction, with a
+     published pre-event window, is a baseline by the register's rule ("a candidate that merely
+     repackages a known idea is not a candidate"). Cycle 35's screen reproduced that verdict and added
+     nothing that could un-claim it.
+  2. **The state is commercial, not regulated.** Unlock schedules are compiled and distributed by
+     third-party trackers, not by the issuer, an exchange or a regulator. The register's data rule
+     requires a published, reproducible state from a primary source; a vendor's calendar is a
+     commercial dataset whose coverage, revision policy and definitions are not auditable, and the
+     register's own standing condition (added in Cycle 30 for IDEA-010) is that a candidate whose
+     differentiating state is *commercial* is retained only with an explicit validation precondition
+     and may not be re-specified around an unvalidated proxy.
+  3. **The obligor population is anonymous and the flow cannot be sized in advance.** The recipients
+     of an unlock are wallet addresses, and their intent to sell is not observable; no pre-event
+     measure of "scheduled supply about to be absorbed" can be constructed that is not a restatement of
+     the schedule itself.
+  4. **Venue risk is inherited and unresolved.** The register's surviving crypto candidate
+     (IDEA-009 PERP-FUND, 60.0) already carries an unresolved crypto-venue risk condition; a second
+     crypto family would inherit that operational risk without adding a signed, published state.
+- **Decision:** bounded negative (R-014). The token-unlock channel is recorded in the known-baseline
+  set; no dossier was created; no IDEA identifier was consumed; no score changed.
+
+### R-016 — The EU CBAM certificate purchase obligation as a dated, mandatory compliance flow (Cycle 35 family screen — bounded negative)
+- **Screen conducted.** The EU Carbon Border Adjustment Mechanism's **mandatory certificate purchase
+  obligation** — importers of CBAM goods (iron and steel, aluminium, cement, fertilisers, electricity
+  and hydrogen) must hold certificates for a share of embedded emissions at each quarter end from 2027
+  and must surrender them by 30 September each year, the annual deadline having been moved once, from
+  31 May (Regulation (EU) 2025/2083, in force 20 October 2025) — as a dated, mandatory, price-insensitive
+  flow with a published pre-deadline signed state. The family was screened because it is the closest
+  thing the register has not yet covered to the register's own **compliance-deadline concession**
+  template, and because IDEA-013 (EU ETS) and IDEA-014 (RIN) are both parked or retired — so the
+  template needed a *third* market with a *different regulator* (the European Commission) and a
+  *different obligor population* (importers rather than fuel producers) before the template could be
+  declared exhausted.
+- **Outcome: bounded negative. No new candidate; the family is a baseline with a dated re-screen
+  condition.**
+- **Rationale — five independent reasons, any one of which is sufficient.**
+  1. **The flow is not into a tradable market and the concession is not harvestable.** The certificate
+     price is a *published deterministic formula* — the weighted average of EUA auction clearing
+     prices (S-227) — and the certificate is sold only by the Commission to authorised declarants on
+     the common central platform and can be used only to discharge the CBAM obligation. A third party
+     cannot buy the certificate, so no participant can capture a concession; and the declarant
+     receives a certificate, not an allowance, so certificate sales do not consume EUAs and create no
+     EUA demand.
+  2. **The would-be sign-determining "state" is a definition, not a state.** Because the certificate
+     price is a *lagged average* of EUA auction prices, any gap between the certificate price and the
+     spot EUA price is an artefact of the formula. Declarants can time purchases within the window
+     (weekly prices from 2027, sales from 1 February 2027), so the gap is arbitraged by the obligor
+     rather than being a price. There is no state that decides the sign of a harvestable effect.
+  3. **The obligation is near zero by construction in the near term.** The share of embedded emissions
+     that generates a certificate obligation is the complement of the free-allocation factor: **2.5 % in
+     2026**, 5 % in 2027, 10 % in 2028, 22.5 % in 2029, 48.5 % in 2030 and 100 % only from 2034
+     (S-229; the Directive's "CBAM factor" is the *retention* factor — 97.5 % in 2026 — and the
+     obligation share is its complement; the two conventions must not be confused). This is the same
+     "near zero by construction" structure the register already closed against IDEA-014's RIN state
+     (G-20), so the near-term flow is immaterial against EU allowance turnover.
+  4. **The constraint is real but captive.** An authorised declarant that fails to hold the required
+     certificates risks loss of its authorised-declarant status for serious or repeated infringement
+     (S-230), so the family does pass the register's "participant and constraint" test. The party that
+     would capture any concession is that obligor, not a participant the register could act as.
+  5. **The macro channel is an already-published baseline.** CBAM's effect on EU carbon prices, on
+     trade and on competitiveness is a large and growing published and policy literature, including the
+     Commission's own materials and the European Parliament's briefing at S-229. A candidate claiming
+     "CBAM moves EUA prices" would be presenting a published baseline.
+- **Dated re-screen condition (so the negative is not permanent).** Re-screen the family when **both**
+  hold: (i) the obligation share has grown materially — the 2029–2030 step to 48.5 % of embedded
+  emissions (S-229); and (ii) the weekly pricing regime has been running long enough for the
+  **pre-deadline hedging behaviour of authorised declarants in the EUA market** to be observable, i.e.
+  published evidence of *how* declarants hedge a certificate obligation priced off EUAs and with what
+  timing. That residue — obligor behaviour, not a regulatory-calendar fact — is the only part of the
+  family that could carry a sign.
+- **Decision:** bounded negative (R-016). The CBAM certificate family is recorded in the
+  known-baseline set with the dated re-screen condition above; no dossier was created; no IDEA
+  identifier was consumed; no score changed.
