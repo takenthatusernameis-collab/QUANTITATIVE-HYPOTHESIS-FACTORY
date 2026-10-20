@@ -3850,3 +3850,19 @@ URL: https://ww2.arb.ca.gov/sites/default/files/2021-02/ct_reg_unofficial.pdf
   **not** resolve IDEA-004: the register does not permit re-specifying around an unvalidated proxy.
   It opens **G-18**: validate a return-correlation crowding proxy against a holdings-based crowding
   measure (S-026).
+
+### S-175 — Armstrong, C. S., Barth, M. E., Jagolinzer, A. D. and Riedl, E. J. (2010)
+"Market Reaction to the Adoption of IFRS in Europe." *The Accounting Review* 85(1): 31–61.
+DOI: https://doi.org/10.2308/accr.2010.85.1.31
+- **Type:** Prior empirical result (author-reported).
+- **Supports:** Around EU IFRS adoption (2005), positive abnormal returns for firms with lower pre-adoption information quality and in countries with stronger enforcement; the reaction is consistent with expected reduction in information asymmetry. Adoption dates were known in advance (IAS regulation).
+- **Caveats:** Sample concentrated in first-time EU IFRS adopters around 2005; largely pre-2010 period. Small number of adoption events.
+- **Verification:** DOI checked (The Accounting Review).
+
+### S-176 — Beuselinck, C., Joos, P., Khurana, I. K. and Van der Meulen, S. (2009)
+"Mandatory IFRS Reporting and Stock Price Informativeness." Working paper / earlier version cited in literature; published version appears in later work.
+DOI: (varies; register cites the mechanism)
+- **Type:** Prior empirical result (author-reported).
+- **Supports:** IFRS adoption associated with increased earnings comparability/informativeness in some samples; effects concentrated in firms/countries with stronger enforcement and lower pre-adoption comparability.
+- **Caveats:** Evidence mixed across samples/methods; many studies focus on 2005 EU adoption (pre-2010). Post-2010 evidence needs to be checked.
+- **Verification:** Metadata noted from standard references in the dossier.

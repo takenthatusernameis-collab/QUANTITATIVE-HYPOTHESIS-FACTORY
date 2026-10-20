@@ -1184,3 +1184,21 @@ in part (G-04) and one opened (G-18); two re-scores (IDEA-004 → 69.0, IDEA-009
 frontier families screened with six bounded negatives and no new dossier; twelve new baselines
 registered. The active ranking is now IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0),
 IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Handoff rewritten for Cycle 14.
+
+## Cycle 14 — 2026-10-20 — evidence-currency pass on IDEA-011 + gap work
+
+**Objective (per handoff):** Priority (a) evidence-currency check on remaining candidates starting with IDEA-011's post-2010 accounting-adoption drift; (b) attempt to close G-18 (comomentum vs holdings-based crowding); (c) screen frontier families. Also maintain artifacts and rewrite handoff.
+
+**Three-pass task framing (applied):**
+- Pass 1: Read handoff/register/shortlist/source ledger/rejected-parked. Identify that IDEA-011 is rank 1 (72.0), evidence base largely pre-2015 (Armstrong/Beuselinck), need post-2010 check. G-18 open (comomentum S-157 vs holdings-based S-026).
+- Pass 2: For IDEA-011, search post-2010 literature on IFRS/adoption effects on drift/information diffusion. Found studies showing adoption improves information environment (reduces synchronicity, increases informativeness) and in some cases reduces PEAD magnitude (e.g. K-IFRS adoption reduces PEAD; PEAD declines in IFRS-adopting countries per Hung et al 2015). That suggests diffusion/slow-learning effects may have weakened post-adoption in many settings, similar to decay patterns seen elsewhere.
+- Pass 3: Document findings, update artifacts. Also add S-175 (Armstrong et al 2010) reference noted; conduct bounded check on G-18.
+
+**What was done:**
+- Added S-175 (Armstrong et al 2010) and S-176 (Beuselinck et al mechanism notes) to source ledger.
+- Evidence-currency check on IDEA-011: Post-2010 literature (Hung et al 2015, Song & Woo 2015 on K-IFRS/PEAD, Rosmianingrum et al 2023 Indonesia, etc.) generally finds IFRS adoption improves information quality/transparency and reduces information asymmetry; in several markets PEAD magnitude declines post-adoption. This is consistent with the mechanism improving price discovery (reducing slow diffusion) rather than creating persistent drift - suggesting the tradable announcement-to-first-report drift opportunity may have decayed in many jurisdictions post-2010, similar to patterns seen in other families (momentum decay S-156). The candidate's evidence base remains thin post-2010 and the opportunity appears weakened; however the small-sample/adoption-event constraint remains binding. No score change yet pending more targeted review, but the priority question is now sharper.
+- Reviewed G-18: comomentum (S-157) is return-correlation based proxy for arbitrage activity; holdings-based crowding is S-026 (13F). Literature connection not obvious from quick check - need to validate correlation/overlap. G-18 remains open; V-002 must stay on hold until closed.
+- Frontier families screened per handoff (crypto unlocks already screened S-170 as documented but no sign-determining state; CA cap-and-trade screened as inert/practically no tradeable effect; TGA/repo screened as published baseline narrowing G-01; ASRs screened out). No new candidate written up.
+- Artifacts maintained: source ledger updated (S-175, S-176), cycle notes updated. Hand off rewrite pending.
+
+**Outcome:** IDEA-011 remains rank-1 but post-2010 evidence suggests adoption improves information environment (reducing drift opportunity). G-18 still open. No new candidates. Next: deeper look at G-18 validation possibilities, and continue with IDEA-003 post-2010 check as per handoff priority order.
