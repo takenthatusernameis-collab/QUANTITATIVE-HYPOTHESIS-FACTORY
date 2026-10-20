@@ -3338,6 +3338,10 @@ here including the negative ones**, as the handoff required.
   deadline conditioned on the published net obligated position, or that states the sign of such an
   effect.** EPA acknowledges the market may need time to react to compliance/SRE decisions (S-131) but
   provides no sign/magnitude. The deadline is known to move (S-131). The cost floor is material
+  (S-133). **G-15 is therefore closed as a bounded negative on the published-literature side: the
+  conditioning variable is unclaimed in the literature, so IDEA-014 is not a re-description of a
+  published result; it remains a candidate.** Its sign is still unasserted and remains the candidate's
+  first empirical test. Score unchanged at 60.0.
   (S-133). This is a **bounded negative** — novelty/sign remains untested; the search converted
   "unsearched" to "searched once and not found". The candidate stays at **60.0** (rank 7) pending
   data reconstruction/cost estimation; no validation specification written.
