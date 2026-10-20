@@ -338,6 +338,20 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
 - **The family screened.** Scheduled monthly/quarterly options expirations (OPEX) that force dealer gamma/charm hedging flows, creating predictable intraday pressure that a third-party could harvest.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
 - **Rationale:**
+  1. **Published baseline** — dealer hedging around options expiries and pinning effects are documented in literature; the flow is known.
+  2. **Anticipated/hedged** — market participants anticipate expiries; hedging is part of dealer mechanics, not an unclaimed concession from a third-party with clean edge.
+  3. **No unclaimed sign** — no clearly unclaimed sign survives strict bar; effects are studied as market microstructure phenomena.
+- **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score changed.
+
+### R-030 — Information-mandate timing with third-party flow / exchange rule changes creating targeted concessions (Cycle 50 family screen — bounded negative)
+
+- **The family screened.** Narrow cases where regulatory/information mandates create deadline-driven third-party flow with potential concessions (e.g. certain SEC filing deadlines creating forced flows, or exchange rule changes creating temporary concessions).
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale:**
+  1. **Published baselines** — many filing deadlines have anticipation effects documented; exchange rule changes are typically anticipated or have published effects.
+  2. **Third-party concession unclear** — mechanisms where third-party can harvest concessions are often not clearly unclaimed separate from published baselines; forced flows may be absorbed or anticipated.
+  3. **No unclaimed sign with clean mechanism** — does not meet the bar (published decision-time state + unclaimed sign + no published baseline + feasible clean test).
+- **Decision:** bounded negative (R-030). No dossier created; no IDEA identifier consumed; no score changed.
   1. **Published baseline** — OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented; intraday pinning and expiration-week dynamics are published and sized.
   2. **Anticipated** — expiry calendars are published years in advance; all participants pre-position; no unclaimed sign survives.
   3. **No third-party concession** — the constrained flow is the dealer's own hedging response to its book, not a price-insensitive third-party forced flow creating a harvestable concession to an arbitrageur.
