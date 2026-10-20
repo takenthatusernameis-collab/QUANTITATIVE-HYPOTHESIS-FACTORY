@@ -3482,6 +3482,10 @@ re-scored to 68.0, enters the top three, and receives V-010
   changed from "open" to "**exhausted without a re-probe**", which is a change in the register's knowledge
   about the *route*, not about the candidate's merit.
 
+#### Cycle 69 block — IDEA-010 · evidence-currency re-read (2025–2026); adds published intermediary-risk channel and quantifies AP-capital effect
+- **New source S-323 (Dinger et al. 2025, FoFI):** Corporate bond ETFs exhibit **lower liquidity risk but higher intermediary risk** than underlying bond portfolios; ETFs are more exposed to intermediation supply shocks, bonds to demand shocks. Using an **AP-capital factor**, a **one-standard-deviation deterioration in active AP balance sheets raises ETF–NAV differentials by nearly 10% of a standard deviation**. Structure is highly concentrated: **~30 registered APs**, only **~4 active per year**, top-3 typically primary broker-dealers handling **~95% of creation/redemption volume**. The paper documents an **intermediary-risk premium** for ETFs (average expected excess return 3.5% vs 2.0% for underlying portfolios) with realized returns nearly identical (negative alpha ~ -1.4%, insignificant).
+- **Effect on dossier:** Strengthens the *state's* sign-determining power (AP capital) and adds a published **intermediary-risk premium** baseline the candidate must beat; concentration numbers reinforce fragility/capacity constraints already noted. No score change (68.0), rank 3 unchanged. G-30 remains exhausted (no public AP mapping exists). V-010 remains non-executable. Hard-stop flags unchanged.
+
 ---
 
 ---

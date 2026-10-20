@@ -8627,3 +8627,12 @@ IDEA-010 (68.0, rank 3), IDEA-009 (53.0), IDEA-014 (52.0)**, with the tie at 69.
 falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five rejected.
 New identifiers consumed: **S-310 … S-322** and **R-046**. **V-008 was amended, not re-created.** No `IDEA-` or `G-`
 identifier was consumed or opened. **Next free identifiers: IDEA-017, S-323, V-012, G-34, R-047, P-014.**
+
+### S-323 — Dinger, J., Müller, M., Rzeźnik, A. and Uhrig-Homburg, M. (2025)
+"Same Same But Different: The Risk Profile of Corporate Bond ETFs."
+FoFI 2026 Conference Paper (Karlsruhe Institute of Technology / Schulich School of Business / Lancaster), December 2025.
+- **Type:** Conference working paper; not peer-reviewed at time of entry.
+- **Supports (for IDEA-010):** corporate bond ETFs exhibit **lower liquidity risk but higher intermediary risk** than their underlying bond portfolios; exposure differs systematically (ETFs more exposed to intermediation supply shocks, underlying bonds more exposed to demand shocks). Using an AP-capital factor, a **one-standard-deviation deterioration in active AP balance sheets raises ETF–NAV differentials by nearly 10% of a standard deviation**. The arbitrage structure is concentrated: "e corporate bond ETF has roughly 30 registered APs, only about four are active in a given year, and three of these are typically primary broker-dealers... On average, the top three APs handle 95% of the total creation and redemption volume."
+- **Why it matters for IDEA-010:** adds a published **intermediary-risk premium** dimension (the candidate's dossier did not carry it as fully specified) and quantifies the AP-capital channel the candidate relies on, with numbers consistent with the mechanism. Also documents extreme concentration (top-3 ~95%, ~4 active of ~30) reinforcing fragility.
+- **Caveats:** conference paper/preprint; results author-reported. PDF text-extracted via pypdf from FoFI site; full econometric details not line-quoted beyond the summary above.
+- **Verification:** Retrieved directly from http://wp.lancs.ac.uk/fofi2026/files/2026/03/FoFI-2026-108-Marcel-Mueller.pdf (2026-10-20); text-extracted with pypdf; Crossref/DOI not located as of entry time (treat as conference preprint). Verification: **direct fetch + text extraction**.
