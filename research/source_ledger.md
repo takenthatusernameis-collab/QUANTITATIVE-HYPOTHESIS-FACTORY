@@ -1,4 +1,38 @@
-# SOURCE LEDGER — CYCLES 1–75
+# SOURCE LEDGER — CYCLES 1–76
+
+Cycle 76 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
+and **no new validation specification**, opened **one gap (G-34)** and closed **no gap**, and **changed no
+score**; the active ranking is unchanged in order: **IDEA-011 (69.0,
+rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (63.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**.
+The cycle's substantive work was the operation Cycle 75 handed on and could not: **S-331 was line-verified**
+(the author-hosted PDF fetched directly, HTTP 200, 978,520 bytes, 63 pages, text extracted with `pypdf` — the
+Cycle-75 extraction failure was a **tooling gap, not a document defect**), which removed the register's stated
+precondition, and **IDEA-010's trigger-based prior-art re-read was then executed**. The verdict: the published
+result is a **neighbour of the candidate's mechanism, not the candidate's own relation** — it establishes that
+the *executor* and its constraints decide whether a flow is price-moving, and that a flow executed by a
+specialised intermediary with spare capacity has "statistically insignificant and economically negligible price
+impact" — which supports the candidate's existence premise in general form and simultaneously supplies a
+**rival explanation** for the candidate's effect. **Two new hard-stop flags** were attached to IDEA-010 and
+**gap G-34 was opened** with a pre-registered kill condition (no published transient/mechanical decomposition of
+a corporate-bond ETF discount and no decision-time discriminating state ⇒ the residual is **unmeasurable as
+specified** and the candidate must be re-classified, not re-specified); **G-34 does not unblock V-010**, which
+**remains non-executable** because G-29 and G-30 stand, and **G-30 was not re-probed**. A **verification pass
+over IDEA-010's load-bearing published neighbours** produced a second upgrade — **S-195** (Pan & Zeng) is now
+**partly line-verified** from the ESRB working-paper PDF, with a **quotation-provenance correction** (three
+strings the entry had quoted are the **SSRN 2019 revision's** wording, not the December 2017 ESRB version's) —
+and that upgrade yielded two further published findings that were invisible while the source was index-rendered:
+a **published competitor conditioner** of the same ETF-arbitrage relation (market volatility, bond-market
+illiquidity, trading costs, *available at decision time* where the candidate's own state is not) and a
+**published sign-reversal mechanism** ("ETF arbitrage may go in the opposite direction than what would be
+implied by the initial relative mispricing"); the first is written to the known-baseline table as **row 83**.
+**S-194** gained a note recording a documented **earlier working-paper version** (University of Chile WP 519,
+2021) that states the result with **AP leverage** rather than regulatory capital ratios; the working paper was
+**not** retrieved and the passage is index-rendered and **not relied on**. The cycle also made **five
+state-integrity repairs**, the first of which was material: the **durable handoff was two cycles stale** (it
+carried the Cycle-73 banner and the Cycle-72 body while the artifacts were at Cycle 75) and was rewritten from
+the files. The register now holds **S-001 … S-209** and **S-220 … S-331** — **321 verified sources**; the
+identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-332, V-012, G-35,
+R-048, P-014.**
 
 Cycle 75 (2026-10-20) added **four new source identifiers and four new source entries — S-328, S-329, S-330,
 S-331** — minted **no new candidate** and **no new validation specification**, and **changed one score**:
@@ -4603,6 +4637,23 @@ DOI: https://doi.org/10.1016/j.jbankfin.2025.107499
 - **Verification:** OpenAlex API fetched directly (DOI, title, author, journal *Journal of Banking &
   Finance* 179, article 107499, 2025) and the abstract and quoted figures were read via the
   search-index rendering of the publisher's ScienceDirect record.
+- **Cycle-76 note on a related earlier version (recorded, not relied on).** The published result has a
+  **documented earlier working-paper version with a different state variable**: "Does the Diversity and
+  Solvency of Authorized Participants Matter for Bond ETF Arbitrage? Evidence from the Dash for Cash
+  Episode", Claudio E. Raddatz K., University of Chile Department of Economics Working Paper wp519
+  (2021), listed in RePEc under `udc:wpaper:wp519`. Its abstract states that "high AP **leverage** played
+  a significant role in weakening this arbitrage during the dash-for-cash episode", with "the strength of
+  the arbitrage relationship linking price signals to primary market activity weakened by 77 percent in
+  ETFs related to more leveraged APs versus 64 percent for ETFs linked to less leveraged APs", and it
+  notes that "AP leverage constraints operated in parallel to constraints faced by lead-market makers
+  in secondary ETF markets, which were more closely related to regulatory capital limits". **The
+  working-paper PDF was not retrieved in Cycle 76** (the RePEc record was fetched directly, HTTP 200;
+  the publisher's own download endpoint and the University of Chile publication page both failed — the
+  latter returning HTTP 404), so the passage above is **index-rendered** and **is not relied on for any
+  claim**; it is recorded because it bears on the register's assessment of the candidate's *state*: the
+  published relation has now been stated twice with **two different state variables** (leverage in the
+  2021 version, regulatory capital ratios in the 2025 published version), which is a fact about the
+  *published* strength of the relation, not about the candidate's residual.
 
 ### S-195 — Pan, K. and Zeng, Y. (2017; working-paper versions to 2019) — *corrects the register's citation*
 "ETF Arbitrage under Liquidity Mismatch." ESRB Working Paper No. 59 (December 2017); NBER/LTAP
@@ -4631,6 +4682,47 @@ DOI: https://doi.org/10.2139/ssrn.2895478 · PDF: https://www.esrb.europa.eu/pub
   authors, title, abstract, keywords, dates, DOI) and of the authors' hosted PDFs (Harvard scholar
   repository, NBER conference repository); the substantive quotations above were read from those
   renderings. No publisher version was located, so the entry is recorded as a working paper.
+  **— Partly superseded in Cycle 76: the ESRB PDF was fetched directly and text-extracted, so the December 2017
+  version's own passages are now line-verified; see the Cycle-76 upgrade bullet below. The SSRN 2019 revision's
+  wording remains index-rendered.**
+- **Cycle-76 verification upgrade — the entry is now partly line-verified, and one quotation-provenance
+  correction is recorded.** The **ESRB working-paper PDF itself was fetched directly (HTTP 200, 1,504,861
+  bytes, 74 pages) and text-extracted on 20 October 2026**; the title page ("Working Paper Series No 59 /
+  December 2017 · ETF arbitrage under liquidity mismatch · by Kevin Pan, Yao Zeng") is **line-verified**,
+  and the following passages are now **line-verified from the December 2017 ESRB version**:
+  (i) the abstract's core claim — "we identify a conﬂict between APs' dual roles as bond dealers and as
+  ETF arbitrageurs. When this conﬂict is small, liquidity mismatch reduces the arbitrage capacity of
+  ETFs; as the conﬂict increases, an inventory management motive arises that may even distort ETF
+  arbitrage, leading to large relative mispricing"; (ii) the empirical magnitude and its conditioner —
+  "An increase of 1% in the ETF premium generates an increase in AP arbitrage by 50 basis points; however,
+  as market volatility rises, holding xed the ETF premium, AP arbitrage declines: a one standard
+  deviation increase in market volatility generates a 10% decline in AP arbitrage. Moreover, the decrease
+  in arbitrage sensitivity is asymmetrically larger when the ETF premium is negative"; (iii) the general
+  conditioner list — "the sensitivity of ETF arbitrage by APs is declining in market volatility, bond
+  market illiquidity and costs of trade"; (iv) the sign-reversal mechanism — "ETF arbitrage may go in the
+  opposite direction than what would be implied by the initial relative mispricing"; and (v) the
+  provenance of the proprietary data — "we obtain a proprietary version of TRACE, which is a dataset of
+  all secondary market corporate bond transactions, with dealer identiers from FINRA" and the two ETF
+  sponsors' AP lists "which constitute our data sample, represents on average 83% of the total passive
+  corporate bond ETF assets under management".
+  **Quotation-provenance correction (no claim, magnitude, verdict or identifier changes):** the three
+  strings quoted in the "Supports" bullet above — "APs are also bond dealers and they use their own
+  balance sheet in both roles", "bond market illiquidity limits ETF arbitrage" and "large bond flow
+  shocks to AP balance sheets also limit ETF arbitrage, leading to persistent relative mispricings" —
+  are **not** the wording of the December 2017 ESRB version (whose corresponding sentences read as
+  quoted in (i) and (iii) above). They are the wording of the **SSRN revision (last revised 30 March
+  2019)**, which remains **index-rendered**. The entry's own text is therefore now annotated rather
+  than silently rewritten: the *substance* of all three statements is line-verified in the 2017 version
+  (the dual-role conflict, the illiquidity limit on arbitrage, and the flow-shock limit), but the
+  exact 2019 wording is still index-rendered. **No register verdict rests on the wording of those three
+  strings.**
+- **Cycle-76 new consequence for IDEA-010 (a published competitor conditioner).** The line-verified
+  passage in (iii) is a **published conditioner of the same ETF-arbitrage relation the candidate
+  conditions on — market volatility, bond-market illiquidity and trading costs** — and it is *available
+  at decision time* in the candidate's universe, whereas the candidate's own state (the AP's regulatory
+  capital ratio) is **not** attachable to a corporate-bond ETF from public filings (G-29, G-30). The
+  published competitor conditioner is recorded as a new baseline row (**row 83**) and as a new hard-stop
+  flag on IDEA-010.
 
 ### S-196 — Shim, J. and Todorov, K. (2022)
 "ETFs, illiquid assets, and fire sales." BIS Working Papers No. 975 (June 2022).
@@ -9302,7 +9394,56 @@ paper (23 February 2026). Hosted copy: https://hkujcesgri.hku.hk/wp-content/uplo
   and are therefore **index-rendered**. Before the next cycle acts on this source, it must be **line-verified**
   from a retrievable text copy (or from a published version); the register's rule that a source may not be used
   as a *verification* basis on an index-rendered rendering alone applies, which is why IDEA-010's re-read is
-  handed on rather than executed here.
+  handed on rather than executed here. **— Superseded in Cycle 76: the text layer was extracted on a second
+  direct fetch and the entry is now line-verified; see the Cycle-76 upgrade bullet below. The Cycle-75
+  precondition is discharged and IDEA-010's re-read was executed in Cycle 76.**
+- **Cycle-76 verification upgrade — the entry is now LINE-VERIFIED (direct fetch plus text extraction), and
+  the re-read it blocked was executed in the same cycle.** The Cycle-75 extraction failure was a **tooling
+  gap, not a document defect**: the same author-hosted PDF
+  (`https://hkujcesgri.hku.hk/wp-content/uploads/2026/04/Same-Dollar-Different-Impact.pdf`, HTTP 200,
+  978,520 bytes, **63 pages**) was fetched directly on 20 October 2026 and its text layer was extracted with
+  `pypdf` — the same method the register already used for S-323 in Cycle 75 — and the extraction is clean
+  and complete. The entry's label moves from **index-rendered** to **line-verified (author-hosted PDF,
+  direct fetch + text extraction)**, and the passages the entry relied on are now **quoted from the document
+  itself**:
+  - **Abstract (line-verified):** "Mutual fund flows generate substantial price impact, amplify fragility, and
+    trigger fire sales. We document a stark contrast for separate accounts—the dominant investment vehicle
+    for institutional investors: separate account flows generate essentially no price impact, fragility, or
+    fire-sale risk. This pattern holds within mutual fund–separate account twins managed under identical
+    strategies by same managers. Using trade-level data from a major transition manager, we show that these
+    specialized intermediaries that execute institutional capital allocations significantly reduce trading
+    costs and dampen price impact. Our findings reveal large heterogeneity in how investor demand transmits
+    to prices—not all flows are equally price-moving."
+  - **The mutual-fund contrast and the reversal (line-verified, Section 4):** "when the aggregate mutual fund
+    sector buys 1% of a stock's shares outstanding in response to flows, the stock experiences a 1.64%
+    contemporaneous price run-up (t-statistic = 5.80), followed by a significant reversal"; and, of the
+    separate accounts, "the flow-induced price impact of separate accounts is economically negligible and
+    statistically insignificant across different specifications."
+  - **The transition-manager channel (line-verified, Section 6.2):** "we find that these trades executed by the
+    transition manager generate statistically insignificant and economically negligible price impact";
+    "Relative to mutual funds, we find that these specialized intermediaries reduce trading costs by 80% to
+    90% and significantly suppress the price dislocations associated with institutional capital allocation";
+    and "transaction costs for transition programs are only about 10%–20% of those borne by mutual funds."
+  - **The state of the world the paper concludes (line-verified, Section 1):** "the price impact of investor
+    demand depends critically on institutional structure"; and the measurement warning — "13F-based estimations
+    pool retail-oriented mutual funds with institutional investment vehicles, potentially obscuring substantial
+    differences in how demand shocks translate into price impact."
+  - **Data (line-verified):** "quarterly holdings of U.S. equity separate accounts spanning from 2001 to 2024";
+    "1,787 distinct transition programs executed between 2013 and 2021"; "The average transition program
+    involves $248 million in traded value of U.S. public equities, spans 578 individual trades, and covers
+    237 distinct stocks. Transitions are typically executed over a short horizon: 31.45% of programs are
+    completed within a single day, and 60.16% are completed within five days."
+  - **Domain limits confirmed in the document itself (line-verified):** the paper's object is **US equities**
+    and the **mutual-fund versus separate-account** comparison; the strings "ETF", "exchange-traded" and
+    "corporate bond" occur **nowhere** in the extracted text except in the reference list, so the transfer to
+    a **corporate-bond ETF's creation/redemption channel** is an **inference by the register, not a result of
+    the paper** — exactly as the Caveats bullet above already stated.
+  - **The date on the document is 23 February 2026** (title page: "Shiyang Huang, Ruiqing Hu, Yang Song,
+    Hong Xiang · February 23, 2026"), matching the entry's record. The **SSRN record** (DOI
+    10.2139/ssrn.6266398, posted 9 March 2026, last revised 3 September 2026, 76 pages) and the **AFA 2026
+    programme listing** (28 February 2026) were also seen in the index; those remain index-rendered and are
+    not relied on. **The entry is now usable as a verification basis**, which is the condition Cycle 75
+    imposed before the IDEA-010 re-read could be executed.
 
 ## Cycle 75 gap verdicts
 
@@ -9366,3 +9507,123 @@ created, amended or withdrawn except the V-002 note. The register holds **321 ve
 Cycle 75 (307 entries in the standard `### S-NNN` heading form plus ten bold inline entries — S-281 … S-290 —
 plus the four added here; the S-281 … S-290 formatting observation from the Cycle-72 repair block still stands
 and is unchanged).
+
+## Cycle 76 sources (2026-10-20) — **no new source identifier**; two verification upgrades and one related-version note
+
+Cycle 76 executed the operation Cycle 75 handed on and did **not** consume a new `S-` identifier: the
+handed-on work was *verification*, and verification that succeeds **upgrades existing entries** rather
+than minting new ones (the Cycle-72 and Cycle-74 precedent). The cycle also ran a **verification pass over
+the load-bearing published neighbours of the re-read candidate**, which produced a second upgrade. Counts are
+therefore unchanged at **321 verified sources**; **next free identifier remains S-332**.
+
+### Cycle-76 upgrade 1 — S-331 (Huang, Hu, Song & Xiang 2026) moves from *index-rendered* to **line-verified**
+
+- **What changed.** The Cycle-75 extraction failure was a **tooling gap, not a document defect**. The same
+  author-hosted PDF was fetched directly (HTTP 200, 978,520 bytes, 63 pages) and its text layer extracted
+  cleanly with `pypdf` — the method the register already used for S-323 in Cycle 75. The entry's
+  verification label is therefore upgraded, and the entry's passages are now **quoted from the document**
+  rather than from a search-index rendering. The full quotation set, the data description, and the
+  document-confirmed domain limits are set out in the entry itself.
+- **What it enables.** This was the register's stated precondition ("before the next cycle acts on this
+  source, it must be line-verified"), so the **IDEA-010 re-read it blocked was executed in the same cycle**
+  (see the Cycle-76 gap-verdict block and the IDEA-010 dossier block).
+- **What it does not change.** The paper's object is **US equities** and the **mutual-fund versus
+  separate-account** comparison; the strings "ETF", "exchange-traded" and "corporate bond" occur nowhere in
+  the extracted text outside the reference list. The transfer to a corporate-bond ETF's creation/redemption
+  channel remains **the register's inference, not a result of the paper**.
+
+### Cycle-76 upgrade 2 — S-195 (Pan & Zeng) is now **partly line-verified**, with a quotation-provenance correction
+
+- **What changed.** The **ESRB Working Paper No. 59 PDF was fetched directly (HTTP 200, 1,504,861 bytes,
+  74 pages) and text-extracted**; the title page, the abstract, the empirical magnitudes, the general
+  conditioner list, the sign-reversal mechanism and the proprietary-data provenance are now **line-verified
+  from the December 2017 version**. The three strings the entry had quoted from the **SSRN 2019 revision**
+  are **not** that version's wording; the entry now says so explicitly, and the *substance* of all three
+  statements is line-verified in the 2017 version in different words. **No register verdict rests on the
+  wording of the three strings**, and no claim, magnitude, verdict or identifier changed.
+- **What it enables.** Two findings that bear directly on IDEA-010 and were not visible while the entry was
+  index-rendered: (i) the published **competitor conditioner** of the same ETF-arbitrage relation —
+  "the sensitivity of ETF arbitrage by APs is declining in market volatility, bond market illiquidity and
+  costs of trade" — which is **available at decision time** in the candidate's universe while the candidate's
+  own state is not (G-29, G-30); and (ii) the published **sign-reversal mechanism** — "ETF arbitrage may go in
+  the opposite direction than what would be implied by the initial relative mispricing" — which is a published
+  instance of the exact risk the candidate's rule faces. (i) is written to the known-baseline table as
+  **row 83**; (ii) is a new hard-stop flag on IDEA-010.
+
+### Cycle-76 note — S-194 (Raddatz 2025) has a documented earlier working-paper version with a *different* state
+
+- The **published** result is stated with **AP regulatory capital ratios**; the **2021 University of Chile
+  working-paper version** (wp519) states it with **AP leverage**. The working-paper PDF was **not retrieved**
+  in Cycle 76 (the RePEc record was fetched directly, HTTP 200; the University of Chile publication page
+  returned HTTP 404), so the passage is **index-rendered and not relied on**. It is recorded because it is a
+  fact about the *published* strength of the relation the candidate leans on: the relation has been published
+  twice, with two different state variables.
+
+## Cycle 76 gap verdicts
+
+Cycle 76's verdicts are recorded here in the file's standard form. **No score changed** (IDEA-010 stays at
+68.0, rank 2) and **one gap was opened** (**G-34**); no gap was closed.
+
+| Gap / limb | Candidate | Cycle-76 verdict | Effect |
+| --- | --- | --- | --- |
+| **IDEA-010 prior-art re-read** (trigger-based: a published result touching the candidate's flow-impact premise — S-331 — which Cycle 75 registered but could not act on because the source was index-rendered) | IDEA-010 | **Executed, and the trigger does not change the score.** S-331 was line-verified (upgrade 1 above), which removed the register's stated precondition. The published result is a **neighbour of the candidate's mechanism, not the candidate's own relation**: it establishes that the *executor* and its constraints decide whether a flow is price-moving, and that a flow executed by a **specialised intermediary with spare capacity** has negligible price impact — which is *consistent* with IDEA-010's conditional claim (the AP is capacity-constrained **in** the candidate's conditioning state) and simultaneously supplies a **rival explanation** for the candidate's effect (the ETF–NAV widening may be a *mechanical* consequence of intermediated creation/redemption pricing rather than a temporary dislocation a liquidity supplier can monetise). S-195's line-verified passages add a **published competitor conditioner** (market volatility, bond-market illiquidity, trading costs — available at decision time where the candidate's own state is not) and a **published sign-reversal mechanism**. **Two new hard-stop flags** were attached. The register's "evidence-currency sweep is complete for this generation" claim is **restored for IDEA-010**. | **No score change** (68.0, rank 2). Rubric unchanged: mechanism 4, evidence 4, novelty 1, falsifiability 4, resilience 3, data 4. |
+| **G-34 — NEWLY OPENED**: the discriminator between a *temporary dislocation* and a *mechanical pricing* reading of the corporate-bond ETF–NAV discount | IDEA-010 | **Opened with a pre-registered decision rule and a kill condition.** Question: is there published work that (a) decomposes a corporate-bond ETF's ETF–NAV discount into a **transient** (price-pressure, mean-reverting) component and a **mechanical** (AP intermediation, basket composition, creation/redemption mechanics) component, and (b) identifies a **published, decision-time** state that discriminates between the two **in the corporate-bond ETF universe** and **without** the ETF→AP mapping that G-29/G-30 established is unavailable? **Kill condition:** if neither the decomposition nor a decision-time discriminating state is published, IDEA-010's residual is **unmeasurable as specified** (the same classification the register applied to IDEA-004 in Cycle 75) and the candidate must be **re-classified — downgraded or parked — rather than re-specified** around a weaker state. **This gap does not unblock V-010**, which remains non-executable because G-29 and G-30 stand; its purpose is to decide IDEA-010's *classification*, not to unlock a validation. | **G-34 OPENED.** No score change; no `V-` identifier consumed; V-010 remains **non-executable**. |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** The crowding-measure search was **not** re-run; the unfreezing condition is unchanged in wording. | No change (63.0, rank 3). |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not re-probed.** G-30 remains **exhausted**; no statutory filing was re-run and no published crowding proxy was substituted. The Cycle-76 re-read is a *prior-art* re-read, not a route search. | No change; V-010 remains **non-executable**. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands. | No change (69.0, rank 1). |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action. |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains **inconclusive** — neither a positive finding nor a refutation. | No change (52.0, rank 5). |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Not re-opened.** The Cycle-73 bounded negative stands. | No change; IDEA-015 stays parked (P-011). |
+| **G-12, G-13, G-14, G-15, G-16, G-20, G-23, G-24, G-25, G-27, G-29** | various | **Closed or dated; not re-run.** G-14 remains dated 29 March 2029; G-23/G-27/G-29 remain closed as recorded. | No action. |
+
+**Cycle-76 identifier and ranking record.** No candidate was created and **no score changed**. The active
+ranking is unchanged in order: **IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (63.0, rank 3),
+IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**. The register's shape is unchanged: five active dossiers,
+five parked, five rejected. **New identifiers consumed: G-34 only** (one gap opened; no `S-`, no `IDEA-`, no
+`V-` and no `R-` identifier consumed). **Next free identifiers: IDEA-017, S-332, V-012, G-35, R-048, P-014.**
+
+## Cycle 76 state-integrity repairs
+
+**Repair 1 — the durable handoff was two cycles stale, and it was the register's only durable pointer; it has
+been rewritten.** `research/next_agent_handoff.md` still carried the **Cycle-73** banner and the **Cycle-72**
+body (including the Cycle-73 task list and the Cycle-72 "drift closed" block) while the artifacts were at
+**Cycle 75 complete** — the Cycle-74 and Cycle-75 wrap-ups had updated the cycle log, the ledger, the
+register, the shortlist, the rejected log and the validation file, but the handoff itself was never
+rewritten. The register's own rule is that the handoff is the durable pointer for the next agent, so a
+two-cycle-old pointer is a material defect, not a cosmetic one. The handoff has been **rewritten from the
+files** (counts, identifiers, open gaps, frozen and dated items re-derived) and now carries a fresh, verbatim
+initial task message for **Cycle 77**. The stale copy was not left in place and no part of the Cycle-73
+content was carried forward as if it were current.
+
+**Repair 2 — the shortlist's per-candidate rubric bullets for four active candidates did not match the
+maintained table (lossless; the table was always the authority).** The table is the register's authority on
+scores, and the per-candidate bullets are the rationale that sits underneath it. For **IDEA-009** the bullets
+still read mechanism 4, evidence 2, novelty 2 and falsifiability 4 (the pre-Cycle-66 values) while the table
+reads 3, 3, 1 and 3; for **IDEA-010** they read evidence 3, novelty 2 and data 3 while the table reads 4, 1
+and 4; for **IDEA-011** the data bullet read 5 while the table reads 4; for **IDEA-014** the mechanism bullet
+read 4 and the falsifiability and resilience bullets read 3 while the table reads 3, 2 and 2. Every bullet was
+**corrected to the table's value and annotated with the cycle that moved it**; where a bullet's prose
+reflected the older value, the prose was corrected to the reasoning recorded in the register's own
+re-score block for that cycle. **No score, rubric value, rank, hard-stop flag or verdict changed**, and the
+totals are unchanged: 69.0, 68.0, 63.0, 53.0, 52.0.
+
+**Repair 3 — IDEA-010's dossier change notes had no entry for the Cycle-69 block, and the version marker still
+read 1.1.** The dossier body carried a Cycle-69 block (the evidence-currency re-read that added S-323) while
+the change notes stopped at Cycle 52, so the dossier's own header understated its history. The version marker
+is set to **1.2**, a backfilled Cycle-69 note and a Cycle-76 note are added, and **no existing change note was
+altered**.
+
+**Repair 4 — a quotation-provenance correction in S-195 (recorded in the entry).** Three strings quoted in the
+entry's "Supports" bullet are the wording of the **SSRN 2019 revision** (still index-rendered) and are not
+the wording of the **December 2017 ESRB version** now line-verified. The entry now states which version each
+string comes from, and records that the *substance* of all three statements is line-verified in the 2017
+version in different words. **No claim, magnitude, verdict or identifier changed**, and no register verdict
+rests on the wording of the three strings.
+
+**Cycle-76 identifier and ranking record.** **No `S-` identifier consumed** (two verification upgrades and
+one related-version note only); **no `IDEA-` identifier consumed**; **no `V-` identifier consumed** (V-010
+received a Cycle-76 note and remains non-executable); **no `R-` identifier consumed**; **one `G-` identifier
+consumed (G-34, opened)**. One known-baseline row was added (row 83) and one existing row (row 82) was
+annotated. The register holds **321 verified sources** at the end of Cycle 76 (307 entries in the standard
+`### S-NNN` heading form plus ten bold inline entries — S-281 … S-290 — plus the four added in Cycle 75; the
+S-281 … S-290 formatting observation from the Cycle-72 repair block still stands and is unchanged).

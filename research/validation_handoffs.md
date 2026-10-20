@@ -1,9 +1,28 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–75
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–76
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
+
+**Cycle 76 update — one specification noted, none amended in substance, none added, none withdrawn.**
+Cycle 76 executed the operation Cycle 75 handed on: **S-331 was line-verified** (the author-hosted PDF
+fetched directly, HTTP 200, 978,520 bytes, 63 pages, text extracted with `pypdf`; the Cycle-75 extraction
+failure was a **tooling gap, not a document defect**), which removed the register's stated precondition, and
+**IDEA-010's trigger-based prior-art re-read was then executed**. The published result is a **neighbour of the
+candidate's mechanism, not the candidate's own relation**, so **IDEA-010 keeps 68.0 at rank 2** and the
+specification is **not re-specified**; **V-010 receives a Cycle-76 note** that adds two **mandatory controls**
+for any future execution — a pre-registered discriminator against the published **intermediary-attenuation**
+account (S-331) and a report of the candidate's incremental content against the published **competitor
+conditioner** of the same relation (market volatility, bond-market illiquidity, trading costs — S-195, now
+line-verified) — and that records the published **sign-reversal mechanism** as a live failure mode. **Gap G-34
+was opened** with a kill condition (no published transient/mechanical decomposition and no decision-time
+discriminating state ⇒ the residual is **unmeasurable as specified** and the candidate must be re-classified,
+not re-specified); **G-34 does not unblock V-010**, which **remains non-executable** because G-29 and G-30
+stand, and G-30 was **not** re-probed. The executable set is unchanged in membership: **V-008, V-009 and V-010**
+are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58** amendments — **not amended
+again in Cycle 76**), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain
+withdrawn**, and **V-003 is never-to-execute**. **No `V-` identifier was consumed or opened in Cycle 76.**
 
 **Cycle 75 update — one specification noted, none amended in substance, none added, none withdrawn.**
 Cycle 75 ran a **trigger-based** prior-art re-read of IDEA-004, opened by a new published neighbour the
@@ -2347,3 +2366,49 @@ narrower, more specialised candidate rather than a general edge.
      nothing and must not report that as a missing disclosure.
   6. The verdict remains **"untested"** where the counts are too small, and the candidate's status is
      **untested, not dead**: what Cycle 40 closed is a *route*, not the candidate.
+
+### Cycle-76 note (not an amendment — the specification's executability is unchanged) — the trigger-based re-read
+that Cycle 75 handed on was executed, and it adds two mandatory controls and one open question
+- **What changed.** Cycle 75 registered **S-331** as a published neighbour touching the candidate's
+  flow-impact premise and **handed the re-read on**, because S-331 was index-rendered and the register's rule
+  forbids using an index-rendered source as a verification basis. Cycle 76 **line-verified S-331** (the
+  author-hosted PDF fetched directly, HTTP 200, 978,520 bytes, 63 pages, text extracted with `pypdf` — the
+  Cycle-75 extraction failure was a **tooling gap, not a document defect**) and **executed the re-read**. The
+  published result is a **neighbour of the candidate's mechanism, not the candidate's own relation**, so
+  **IDEA-010 keeps 68.0 at rank 2 and this specification's content is not re-specified**; but two things are
+  added to the specification's *content* for any future execution, and one question is opened.
+- **Mandatory control 1 — the intermediary-attenuation account (S-331).** S-331 establishes that "the price
+  impact of investor demand depends critically on institutional structure": a flow executed by a specialised
+  intermediary with spare capacity has "statistically insignificant and economically negligible price
+  impact", while a mutual-fund flow moved prices by 1.64 % per 1 % of shares outstanding with a significant
+  subsequent reversal. The candidate's long leg is an ETF creation/redemption flow executed by an authorised
+  participant — a specialised intermediary. **If V-010 is ever executed, the validator must pre-register a
+  discriminator** that separates the *transient* reading of the ETF–NAV widening (a temporary price-pressure
+  dislocation a liquidity supplier can monetise) from the *mechanical* reading (a consequence of intermediated
+  creation/redemption pricing and basket composition — S-196). This is a **new mandatory rival-exclusion
+  result**, to sit beside the existing three (S-196, S-197, S-199) and to be reported even if it explains the
+  effect.
+- **Mandatory control 2 — the published competitor conditioner (S-195, now line-verified).** The same paper
+  that supplies the candidate's mechanism states that "the sensitivity of ETF arbitrage by APs is declining in
+  market volatility, bond market illiquidity and costs of trade" (a one-standard-deviation increase in market
+  volatility generates a 10 % decline in AP arbitrage; the decline is larger when the ETF premium is negative).
+  Because this conditioner is **available at decision time** in the candidate's universe while the candidate's
+  own state is not (G-29, G-30), **any future execution must report the candidate's incremental content
+  against this published conditioner**, and must not present the candidate as uniquely state-conditioned.
+- **The published sign-reversal mechanism is now part of the risk statement.** S-195 also publishes that "ETF
+  arbitrage may go in the opposite direction than what would be implied by the initial relative
+  mispricing" — the entity the rule supplies liquidity to may trade *against* the mispricing it is meant to
+  correct. The specification's pass/fail language must treat that as a live failure mode and not only as a
+  cost or capacity issue.
+- **Gap G-34 is opened, and it does not unblock this specification.** G-34 asks whether published work
+  decomposes a corporate-bond ETF's ETF–NAV discount into a **transient** and a **mechanical** component and
+  identifies a **published, decision-time** state that discriminates between the two **without** the ETF→AP
+  mapping. **Kill condition:** if neither the decomposition nor a decision-time discriminating state is
+  published, the candidate's residual is **unmeasurable as specified** and the candidate must be
+  **re-classified (downgraded or parked), not re-specified** around a weaker state. **V-010 remains
+  non-executable** against the corporate-bond ETF universe, because G-29 and G-30 stand; G-30 was **not**
+  re-probed in Cycle 76, no statutory filing was re-run and no published crowding proxy was substituted.
+- **What is unchanged.** The specification's structure, the 1–10 session horizon, the cross-sectional
+  re-anchoring, the effective-sample denominators, the three pre-existing rival controls, the monthly
+  dispersion-proxy robustness check (S-200) and the "untested, not dead" verdict are **all unchanged**. This
+  is a **note**, not an amendment: no re-specification is written, and no `V-` identifier is consumed.

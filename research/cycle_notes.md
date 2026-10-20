@@ -1566,3 +1566,115 @@ an unclaimed sign with a published decision-time state.
    identifiers: **IDEA-017, S-332, V-012, G-34, R-048, P-014**.
 8. **Wrap up.** Handoff rewritten; a fresh, self-contained initial task message for Cycle 76 written; counts
    and identifiers re-derived from the files.
+
+## Cycle 76 — 2026-10-20
+
+Theory-only cycle. The durable handoff was read first, and reading it revealed a **state-integrity defect
+that had to be repaired before anything else**: the handoff still carried the **Cycle-73 banner and the
+Cycle-72 body** while every other artifact was at **Cycle 75 complete** — the Cycle-74 and Cycle-75
+wrap-ups had updated the cycle log, the ledger, the register, the shortlist, the rejected log and the
+validation file, but **the handoff itself was never rewritten**. Because the handoff is the register's only
+durable pointer, the cycle's task list was therefore reconstructed from the **files** (not from the stale
+pointer) before any research was done. No tests, no data acquisition, no strategy or signal implementation,
+no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** (1) Repair the durable handoff and re-derive the true state from the files. (2) Execute
+the operation Cycle 75 handed on and could not: **line-verify S-331** and, if verified, run **IDEA-010's
+trigger-based prior-art re-read**. (3) Run a **verification pass over IDEA-010's load-bearing published
+neighbours** (S-194, S-195, S-323, S-200) so that the candidate carrying the register's second-highest score
+rests on line-verified sources rather than on index renderings. (4) Maintain the frozen, exhausted and dated
+items exactly as they stand; re-search nothing. (5) Housekeeping: lossless only. (6) Wrap up with a rewritten
+handoff and a fresh initial task message.
+
+**Pass 2 — Critique.** Three objections, and the frame was revised against all of them. (i) *The re-read must
+not be a general prior-art sweep*: the register's rule is that a candidate is re-read **on a trigger**, and the
+trigger is the specific published result Cycle 75 registered — so the re-read is bounded to S-331's content
+and to the sources the candidate already leans on, and no new family search is smuggled in under its cover.
+(ii) *The re-read must not re-run a closed route*: G-30 is exhausted, so no statutory filing may be re-run
+and no published crowding proxy may be substituted; the re-read is a prior-art operation, not a route search.
+(iii) *A verification upgrade is not a new source*: the register's precedent (S-316 in Cycle 72, S-317 in
+Cycle 74) is that a source whose verification status improves is **amended in place**, so the cycle must not
+mint an identifier for work that is an upgrade. And a fourth, added after the first read of the files: (iv)
+*the handoff repair cannot be cosmetic* — the pointer must be rebuilt from the files, and the repair must be
+recorded where the register's repairs live.
+
+**Pass 3 — Revise.** Execute as specified, with the re-read's decision rule fixed **before** the reading:
+if the verified S-331 publishes the candidate's own measurable relation, re-score on the published-content
+rule; if it publishes only a *neighbour* of the mechanism, attach hard-stop flags and change no dimension; if
+verification fails, hand the re-read on again unchanged and record the failure. Pre-registered outcome
+recorded in the ledger's Cycle-76 block: **the trigger changes no score** — which is what the reading then
+returned.
+
+### Outcomes
+
+1. **The durable handoff was two cycles stale, and it was repaired (Repair 1).** `next_agent_handoff.md` carried
+   the Cycle-73 banner and the Cycle-72 body, including the Cycle-73 priority list and the Cycle-72
+   "drift closed" block, while the artifacts were at Cycle 75. It has been **rewritten from the files** — counts,
+   identifiers, ranking, open gaps, frozen and dated items re-derived — and now carries a fresh, verbatim
+   initial task message for Cycle 77. The stale content was not carried forward as if it were current, and
+   the repair is recorded in the ledger's Cycle-76 repair block.
+2. **S-331 was line-verified, and the Cycle-75 extraction failure was a tooling gap, not a document defect
+   (the cycle's first research operation).** The same author-hosted PDF
+   (`hkujcesgri.hku.hk/.../Same-Dollar-Different-Impact.pdf`, HTTP 200, 978,520 bytes, **63 pages**) was fetched
+   directly and its text layer extracted cleanly with `pypdf` — the method the register already used for
+   S-323 in Cycle 75. The entry's label moved from **index-rendered** to **line-verified**, and the ledger now
+   quotes the document itself: the abstract's mutual-fund/separate-account contrast; "a 1.64 % contemporaneous
+   price run-up (t-statistic = 5.80), followed by a significant reversal" for mutual-fund flows; "statistically
+   insignificant and economically negligible price impact" and an 80–90 % cost reduction for
+   transition-manager-executed allocations; "transaction costs for transition programs are only about
+   10 %–20 % of those borne by mutual funds"; "the price impact of investor demand depends critically on
+   institutional structure"; and the 13F-pooling measurement warning. The document also **confirms the domain
+   limit**: "ETF", "exchange-traded" and "corporate bond" appear nowhere in the extracted text outside the
+   reference list, so the transfer to a corporate-bond ETF's creation/redemption channel is the register's
+   **inference, not a result of the paper**.
+3. **IDEA-010's trigger-based prior-art re-read was executed (the cycle's second research operation).** The
+   published result is a **neighbour of the candidate's mechanism, not the candidate's own relation**: it
+   supports the candidate's existence premise in general form (the executor's constraints, not the dollar,
+   decide whether a flow is price-moving) and simultaneously supplies a **rival explanation** for the
+   candidate's effect (a flow executed by a specialised intermediary with spare capacity moves prices little,
+   so the ETF–NAV widening may be a mechanical consequence of intermediated pricing rather than a transient
+   dislocation). **No score change: 68.0, rank 2 unchanged**, rubric unchanged (mechanism 4, evidence 4,
+   novelty 1, falsifiability 4, resilience 3, data 4). **Two new hard-stop flags** were attached, and the
+   register's "evidence-currency sweep complete for this generation" claim is **restored** for IDEA-010, so it
+   stands for all five active candidates again, subject to the standing trigger rule.
+4. **A verification pass over IDEA-010's load-bearing neighbours ran alongside the re-read (the cycle's third
+   operation), and it changed what the register knows.** **S-195** (Pan & Zeng, ESRB WP 59) was fetched
+   directly (HTTP 200, 1,504,861 bytes, 74 pages) and text-extracted: it is now **partly line-verified**, and
+   the reading produced two findings that were invisible while the source was index-rendered — a **published
+   competitor conditioner** of the same ETF-arbitrage relation ("the sensitivity of ETF arbitrage by APs is
+   declining in market volatility, bond market illiquidity and costs of trade") and a **published
+   sign-reversal mechanism** ("ETF arbitrage may go in the opposite direction than what would be implied by
+   the initial relative mispricing"). The pass also produced a **quotation-provenance correction (Repair 4)**:
+   three strings the ledger had quoted for S-195 are the **SSRN 2019 revision's** wording, not the December 2017
+   ESRB version's; the *substance* of all three is line-verified in the 2017 version in different words, and
+   no register verdict rests on the wording. **S-194** gained a note: the published result has a documented
+   **earlier working-paper version** (University of Chile WP 519, 2021) that states it with **AP leverage**
+   rather than regulatory capital ratios; the working paper was **not** retrieved (the RePEc record was fetched
+   directly; the University of Chile page returned HTTP 404), so the passage is index-rendered and **not relied
+   on**.
+5. **Gap G-34 was opened, with a pre-registered kill condition.** Is there published work that decomposes a
+   corporate-bond ETF's ETF–NAV discount into a **transient** and a **mechanical** component *and* identifies a
+   **published, decision-time** state that discriminates between the two in the candidate's universe without the
+   ETF→AP mapping? **Kill condition:** if neither exists, the candidate's residual is **unmeasurable as
+   specified** and IDEA-010 must be **re-classified, not re-specified**. **G-34 does not unblock V-010**, which
+   remains non-executable because G-29 and G-30 stand; its purpose is to decide the candidate's
+   *classification*. **V-010 received a Cycle-76 note** (not an amendment) recording the two mandatory controls
+   and the sign-reversal failure mode for any future execution.
+6. **State-integrity repairs.** (i) The handoff (above). (ii) The shortlist's **per-candidate rubric bullets for
+   IDEA-009, IDEA-010, IDEA-011 and IDEA-014 had drifted from the maintained table** — the table being the
+   register's authority — and every affected bullet was corrected to the table's value, annotated with the cycle
+   that moved it, and, where the prose reflected the older value, re-reasoned from the register's own re-score
+   blocks; **no score, rank, hard-stop flag or verdict changed**. (iii) IDEA-010's dossier **change notes had no
+   entry for the Cycle-69 block** and the version marker still read 1.1; the marker is now **1.2** with a
+   backfilled Cycle-69 note and a Cycle-76 note, and no existing note was altered. (iv) S-195's quotation
+   provenance (above). (v) The evidence-currency claim (outcome 3).
+7. **Counts and identifiers.** 15 dossiers, **321** verified sources (S-001 … S-209 and S-220 … S-331), 10
+   validation specs, **47** rejections (R-001 … R-047), 12 parking records (11 active), **83-row**
+   known-baseline table. Active ranking: **IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004
+   (63.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**. Open gaps: G-21, G-28 (frozen
+   structural), G-30 (exhausted), **G-34 (opened in Cycle 76)**. New identifiers consumed: **G-34** only.
+   Next free identifiers: **IDEA-017, S-332, V-012, G-35, R-048, P-014**.
+8. **Wrap up.** Handoff rewritten; a fresh, self-contained initial task message for Cycle 77 written; counts
+   and identifiers re-derived from the files.

@@ -4,7 +4,22 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 75 complete** (Cycle 75 added **four new source identifiers and four new source entries —
+Last updated: **Cycle 76 complete** (Cycle 76 added **no new source identifier and no new source entry**,
+minted **no new candidate** and **no new validation specification**, opened **one gap (G-34)** and closed
+**no gap**, and changed **no score**; its substantive work was the operation Cycle 75 handed on —
+**line-verifying S-331 and then executing IDEA-010's trigger-based prior-art re-read** — plus a
+**verification pass over IDEA-010's load-bearing published neighbours**, which upgraded **S-195** to
+partly line-verified with a **quotation-provenance correction** and recorded a documented earlier
+working-paper version of **S-194** carrying a *different* state variable. The re-read found the published
+result to be a **neighbour of the candidate's mechanism, not the candidate's own relation**: it supports
+the candidate's existence premise in general form and simultaneously supplies a **rival explanation** for
+the candidate's effect; **two new hard-stop flags** were attached to IDEA-010 and **gap G-34 was opened**
+with a pre-registered kill condition, while **V-010 remains non-executable** and **G-30 was not
+re-probed**. The cycle also carried out **five state-integrity repairs**, the first of which was
+material: the **durable handoff was two cycles stale** — it carried the Cycle-73 banner and the Cycle-72
+body while the artifacts were at Cycle 75 — and was rewritten from the files. The register's
+"evidence-currency sweep is complete for this generation" claim is **restored** for all five active
+candidates, subject to the standing trigger rule.) Earlier history: **Cycle 75 complete** (Cycle 75 added **four new source identifiers and four new source entries —
 S-328 … S-331** — minted **no new candidate** and **no new validation specification**, opened **no gap** and
 closed **no gap**, and changed **one score**: **IDEA-004 was re-scored 66.0 → 63.0 (novelty 2 → 1)**, rank 3
 unchanged, after a **trigger-based prior-art re-read** opened by a new published neighbour the register had not
@@ -3320,7 +3335,7 @@ reversal after costs, and does it add anything to the published funding arbitrag
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
 
 - **ID / short name:** IDEA-010 / CREDIT-ETF
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.1
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 6 — re-scored 68.0 → 65.0:** the mechanism's core (AP inventory and balance-sheet
   constraints driving ETF–NAV dislocations) is published institutionally (S-123), so novelty falls
@@ -3343,6 +3358,26 @@ reversal after costs, and does it add anything to the published funding arbitrag
   against the corporate-bond ETF universe. The Cycle-52 R-032 screen added a sixth hard-stop condition:
   **the state used must not be a public real-time by-product of the flow it is supposed to predict**
   (S-260, S-261). The state remains **annual** (9–14 months stale at any decision date).
+  **Cycle 69 — no score change (68.0), rank 3 unchanged** *(note backfilled in Cycle 76; the Cycle-69
+  block was written to the dossier body in that cycle but the change notes were not updated, so the
+  dossier's own header understated its history — a state-integrity repair recorded in the ledger's
+  Cycle-76 repair block)*: an evidence-currency re-read added **S-323** (Dinger et al. 2025, FoFI) —
+  corporate bond ETFs carry **lower liquidity risk but higher intermediary risk** than their underlying
+  bond portfolios, a **one-standard-deviation deterioration in active AP balance sheets raises ETF–NAV
+  differentials by nearly 10 % of a standard deviation**, ~30 registered APs of which only ~4 are active
+  in a year with the top three handling ~95 % of creation/redemption volume, and an **intermediary-risk
+  premium** (average expected excess return 3.5 % versus 2.0 % for the underlying portfolios, with
+  realised returns nearly identical). V-010 remained non-executable and G-30 remained exhausted.
+  **v1.2 (Cycle 76) — the trigger-based re-read Cycle 75 handed on was executed; no score change (68.0),
+  rank 2 unchanged.** **S-331 was line-verified** (the Cycle-75 extraction failure was a tooling gap, not
+  a document defect), which removed the register's stated precondition, and the re-read was run: the
+  published result is a **neighbour of the candidate's mechanism, not the candidate's own relation**, and
+  it supplies a **rival explanation** for the candidate's effect; **S-195 was line-verified** and yields a
+  **published competitor conditioner** (market volatility, bond-market illiquidity, trading costs —
+  available at decision time where the candidate's own state is not) and a **published sign-reversal
+  mechanism**. **Two new hard-stop flags** were attached and **gap G-34 was opened** with a kill condition.
+  V-010 received a Cycle-76 note and **remains non-executable**; G-30 was **not** re-probed; the
+  register's "evidence currency complete for this generation" claim is **restored** for this candidate.
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 
@@ -3752,6 +3787,96 @@ re-scored to 68.0, enters the top three, and receives V-010
 #### Cycle 69 block — IDEA-010 · evidence-currency re-read (2025–2026); adds published intermediary-risk channel and quantifies AP-capital effect
 - **New source S-323 (Dinger et al. 2025, FoFI):** Corporate bond ETFs exhibit **lower liquidity risk but higher intermediary risk** than underlying bond portfolios; ETFs are more exposed to intermediation supply shocks, bonds to demand shocks. Using an **AP-capital factor**, a **one-standard-deviation deterioration in active AP balance sheets raises ETF–NAV differentials by nearly 10% of a standard deviation**. Structure is highly concentrated: **~30 registered APs**, only **~4 active per year**, top-3 typically primary broker-dealers handling **~95% of creation/redemption volume**. The paper documents an **intermediary-risk premium** for ETFs (average expected excess return 3.5% vs 2.0% for underlying portfolios) with realized returns nearly identical (negative alpha ~ -1.4%, insignificant).
 - **Effect on dossier:** Strengthens the *state's* sign-determining power (AP capital) and adds a published **intermediary-risk premium** baseline the candidate must beat; concentration numbers reinforce fragility/capacity constraints already noted. No score change (68.0), rank 3 unchanged. G-30 remains exhausted (no public AP mapping exists). V-010 remains non-executable. Hard-stop flags unchanged.
+
+#### Cycle 76 block — IDEA-010 · the handed-on trigger-based re-read is executed (S-331 line-verified); no score change (68.0), rank 2 unchanged; two new hard-stop flags; gap G-34 opened
+- **What this cycle did.** Cycle 75 registered a **trigger** for this candidate — a published result that
+  touches the candidate's flow-impact premise (S-331) — and **handed the re-read on** because S-331 was
+  index-rendered and the register's rule forbids using an index-rendered source as a verification basis.
+  Cycle 76 removed that precondition: **S-331 was line-verified** (the author-hosted PDF fetched directly,
+  HTTP 200, 978,520 bytes, 63 pages, text extracted with `pypdf` — the same method already used for S-323
+  in Cycle 75; the Cycle-75 failure was a **tooling gap, not a document defect**), and the re-read was
+  then executed. The cycle also ran a **verification pass over this candidate's load-bearing published
+  neighbours**, which upgraded **S-195** (Pan & Zeng) to partly line-verified and produced a
+  **quotation-provenance correction** (recorded in the ledger), and recorded a documented **earlier
+  working-paper version of S-194** with a *different* state variable.
+- **What S-331 publishes, and it is now quotable from the document.** "Mutual fund flows generate
+  substantial price impact, amplify fragility, and trigger fire sales. We document a stark contrast for
+  separate accounts—the dominant investment vehicle for institutional investors: separate account flows
+  generate essentially no price impact, fragility, or fire-sale risk." For the mutual-fund sector: "when
+  the aggregate mutual fund sector buys 1% of a stock's shares outstanding in response to flows, the stock
+  experiences a 1.64% contemporaneous price run-up (t-statistic = 5.80), followed by a significant
+  reversal". For the intermediated channel: "we find that these trades executed by the transition manager
+  generate statistically insignificant and economically negligible price impact"; "these specialized
+  intermediaries reduce trading costs by 80% to 90%"; "transaction costs for transition programs are only
+  about 10%–20% of those borne by mutual funds". And the principle the candidate turns on: "the price
+  impact of investor demand depends critically on institutional structure". **Domain limit, confirmed in the
+  document itself:** the paper's object is **US equities** and the **mutual-fund versus separate-account**
+  comparison — the strings "ETF", "exchange-traded" and "corporate bond" occur nowhere in the extracted
+  text outside the reference list — so the transfer to a **corporate-bond ETF's creation/redemption
+  channel is the register's inference, not a result of the paper**.
+- **What the re-read concluded — the trigger does not change the score, but it changes the candidate's
+  standing.** The published result is a **neighbour of the candidate's mechanism, not the candidate's own
+  relation**: it establishes that the *executor* and its constraints decide whether a flow is price-moving,
+  and that a flow routed through a specialised intermediary **with spare capacity** has negligible price
+  impact. Read against the candidate, that is **two-sided**, and both sides are recorded:
+  1. **Supportive of the candidate's existence premise, in a different asset class and vehicle.** The
+     candidate's claim is that a creation/redemption flow is price-moving *more* when the AP — itself a
+     specialised intermediary — is balance-sheet constrained. S-331's published principle is that the
+     executor's constraints, not the dollar, decide the impact, which is the candidate's logic in general
+     form. This is **family-level support**, which by the register's standing rule (Cycle 35/52) does not
+     move a rubric dimension.
+  2. **A rival explanation for the candidate's effect.** If a flow executed by a specialised intermediary
+     moves prices little, then the ETF–NAV widening observed under AP stress need not be a *temporary
+     price-pressure dislocation* that a liquidity supplier can monetise; it may be a **mechanical
+     consequence of intermediated creation/redemption pricing** — the same family as the published
+     fractional-basket account (S-196). The candidate's payoff depends on the *transient* reading, so this
+     is a competing account of the candidate's own outcome, and the candidate now has to pre-register a
+     discriminator against it.
+- **What S-195 adds once it is line-verified (two findings that were invisible while index-rendered).**
+  (i) **A published competitor conditioner of the same relation**: "the sensitivity of ETF arbitrage by
+  APs is declining in market volatility, bond market illiquidity and costs of trade", with the empirical
+  form "a one standard deviation increase in market volatility generates a 10% decline in AP arbitrage" and
+  the asymmetry "the decrease in arbitrage sensitivity is asymmetrically larger when the ETF premium is
+  negative". This conditioner is **available at decision time** in the candidate's universe, whereas the
+  candidate's own state (the AP's regulatory capital ratio) is **not** attachable to a corporate-bond ETF
+  from public filings (G-29, G-30) — so the published competitor is *reachable* and the candidate's
+  differentiator is not. It is written to the known-baseline table as **row 83**.
+  (ii) **A published sign-reversal mechanism**: "ETF arbitrage may go in the opposite direction than what
+  would be implied by the initial relative mispricing", i.e. a published instance of the exact risk the
+  candidate's rule faces — that the entity the rule supplies liquidity to may trade *against* the
+  mispricing it is meant to correct.
+- **Two new hard-stop flags.**
+  1. *The candidate may not present the ETF–NAV widening as a price-pressure effect without pre-registering
+  a discriminator against the published intermediary-attenuation account (S-331) and the published
+  mechanical-pricing account (S-196); the transient reading must be separated from the mechanical one
+  before any claim on the concession is made.*
+  2. *The candidate may not be presented as uniquely state-conditioned: a published competitor conditioner
+  of the same arbitrage relation — market volatility, bond-market illiquidity and trading costs (S-195) — is
+  available at decision time, while the candidate's own AP-capital state is not attachable in the candidate's
+  universe (G-29, G-30).*
+- **Gap G-34 opened, with a pre-registered kill condition.** Is there published work that (a) decomposes a
+  corporate-bond ETF's ETF–NAV discount into a **transient** (price-pressure, mean-reverting) component and
+  a **mechanical** (AP intermediation, basket composition, creation/redemption mechanics) component, and
+  (b) identifies a **published, decision-time** state that discriminates between the two **in the corporate-
+  bond ETF universe** and **without** the ETF→AP mapping that G-29/G-30 established is unavailable? **Kill
+  condition:** if neither the decomposition nor a decision-time discriminating state is published, the
+  candidate's residual is **unmeasurable as specified** — the same classification the register applied to
+  IDEA-004 in Cycle 75 — and IDEA-010 must be **re-classified (downgraded or parked), not re-specified**
+  around a weaker state. **G-34 does not unblock V-010**, which remains non-executable while G-29 and G-30
+  stand; its purpose is to decide the candidate's *classification*, not to unlock a validation.
+- **What was not done, deliberately.** G-30 was **not** re-probed (no statutory filing re-run, no published
+  crowding proxy substituted); the crowding-measure literature was not searched; the frozen and dated items
+  (G-28, G-21, G-30, IDEA-014's limb, G-32 limb (c), G-33's 2027 Q3 re-check, P-010's 2029 date) were
+  maintained; and no `S-`, `V-` or `R-` identifier was consumed. The register's "evidence-currency sweep
+  of the five active candidates is complete for this generation" claim is **restored** for IDEA-010, so it
+  stands for all five again — subject to the standing trigger rule.
+- **Score: 68.0, unchanged. Rank 2, unchanged.** Rubric unchanged: mechanism 4, evidence 4, novelty 1,
+  falsifiability 4, resilience 3, data 4. **The trigger is a published neighbour of the mechanism, not the
+  candidate's own relation**, so the novelty floor (1) cannot fall further, the evidence reading does not
+  move on family-level support, and neither the falsifiability nor the resilience dimension moves on a
+  result that adds a *rival* account of the candidate's outcome — the falsifiability gain (a named
+  discriminator now exists to pre-register) and the resilience risk (the transient reading may be wrong) are
+  opposite-signed and roughly offsetting, so neither is recorded as a change.
 
 ---
 
