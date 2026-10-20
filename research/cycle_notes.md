@@ -1224,3 +1224,13 @@ IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Handoff rewritten for Cycle 1
 - Artifacts maintained: source ledger, idea_register dossiers, ranked_shortlist, next_agent_handoff (Cycle 15), cycle_notes.
 
 **Outcome:** G-18 bounded negative (V-002 stays frozen); IDEA-011 remains rank 1 (72.0) with post-2010 decay evidence documented; IDEA-003 remains rank 2 (71.0) with gate reinforced; no new candidates. Active ranking unchanged: IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0), IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Next cycle: re-score/park decision on IDEA-011 given decay evidence; run G-13/G-12 on evidence-changed candidates; confirm V-002 frozen.
+
+## Cycle 16 — 2026-10-20 — re-score / park decision on IDEA-011; G-13/G-12 recorded
+
+**Objective (per handoff):** (a) re-score / park decision on IDEA-011 given completed post-2010 decay evidence; run G-13 and G-12 on evidence-changed candidates (IDEA-011, IDEA-003) and record both verdicts; re-read nearest published test in post-2010 sample before scoring; (b) confirm V-002 remains frozen; (c) frontier screens / new candidates only if a genuine new mechanism family surfaces.
+
+- Pass 1: Read handoff/register/shortlist/source ledger/rejected-parked. Confirmed IDEA-011 rank 1 (72.0), IDEA-003 rank 2 (71.0); G-18 bounded negative; V-002 frozen.
+- Pass 2: Re-read post-2010 evidence (S-178 Hung–Li–Wang 2015 RFS; S-179 Song–Woo 2015 K-IFRS; S-175/S-176 pre-2010 base). Decay evidence indicates IFRS-style adoption improves information environment and shrinks PEAD magnitude — evidence against a persistent, tradable announcement-to-first-report drift post-2010, analogous to momentum decay (S-156); effects concentrate in strong-enforcement countries. Decision: re-score IDEA-011 72.0 → 69.0. G-13 PASS (adoption calendars published years ahead). G-12 PASS on existence limb; size limb narrowed (drift existence depends on information-quality state, but magnitude decays post-adoption). IDEA-003: G-13 PASS, G-12 PASS on sign limb; score unchanged 71.0 (S-177 reinforces gate framing).
+- Pass 3: V-002 confirmed frozen (G-18 bounded negative, not a closure); no new candidates added.
+
+**Outcome:** IDEA-011 re-scored to 69.0 (tied with IDEA-004); IDEA-003 unchanged 71.0 (rank 2); V-002 frozen; no new candidates. Active ranking: IDEA-003 (71.0), IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Next: resolve IDEA-011/IDEA-004 tie; confirm parking decision; maintain artifacts.
