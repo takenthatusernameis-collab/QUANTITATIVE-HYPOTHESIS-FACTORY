@@ -1,4 +1,27 @@
-# SOURCE LEDGER — CYCLES 1–88
+# SOURCE LEDGER — CYCLES 1–91
+
+**Cycle 91 (2026-10-20) added six new source entries (S-350 … S-355), minted no new candidate and no new
+validation specification, opened no gap, closed no gap and changed no score.** The cycle's first operation
+was a **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
+`rejected_and_parked.md` under the identifier **R-041**, which Cycle 61 had already consumed for the
+published-count/queue-state template (D) screen (baseline row 70). The duplicate was repaired by re-issuing
+the Cycle-90 record under a fresh identifier (**R-051**), and the Cycle-90 screen's **line-verified grounds
+were supplied in this cycle** because the Cycle-90 record had rested on **no source at all** — it asserted
+a "well-documented" premium without naming a document. The cycle's second operation was **one bounded,
+pre-registered screen of a genuinely new mechanism family** — the **freight-derivative contract-pricing
+family** (the Baltic dry-bulk FFA forward curve, the INE's SCFIS (Europe service) futures and the published
+container spot indices) — which returned a **bounded negative (R-052)** on five independent reasons and was
+written to the known-baseline table as **row 89**. The cycle's third operation was **lossless housekeeping
+with a rubric-arithmetic re-run (clean)** and the correction of the register's own source count, which the
+Cycle-90 handoff had overstated as "343 verified sources (S-001 … S-350)": the ledger in fact held **339**
+registered entries (329 standard `### S-NNN` entries plus ten bold inline entries, S-281 … S-290) at the end
+of Cycle 88, and **S-350 was never registered** — it appeared only inside "next free identifiers" statements.
+The register now holds **345 verified sources** (S-001 … S-209, S-220 … S-355), with S-210 … S-219 reserved
+and unused. **Next free identifiers: IDEA-017, S-356, V-012, G-37, R-053, P-015.**
+
+*Cycles 89 and 90 added no source entry, no gap verdict and no candidate; their records are in
+`cycle_notes.md` (Cycle 90) and in the handoff (Cycle 89). The Cycle-90 screen's *record* — but no source —
+is the subject of the Cycle-91 repair described above.*
 
 **Cycle 88 (2026-10-20) added thirteen new source entries (S-337 … S-349), minted no new candidate and no
 new validation specification, opened no gap, closed no gap and changed no score.** The cycle's first
@@ -10880,3 +10903,280 @@ known-baseline row was added (**row 87**). The register holds **339 verified sou
 88. **No score changed and no rank changed**: the active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004
 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a
 terminal 55.0. **Next free identifiers: IDEA-017, S-350, V-012, G-37, R-051, P-015.**
+
+### S-350 — Moutzouris, I. C. and Nomikos, N. (2019), "The formation of forward freight agreement rates in dry bulk shipping: Spot rates, risk premia, and heterogeneous expectations", *Journal of Futures Markets* 39(8): 1008–1031
+
+- **Type:** **Peer-reviewed journal article — the accepted version**, self-archived by the authors in the
+  City Research Online institutional repository (City, University of London); the publisher's version of
+  record is behind a paywall.
+- **URL:** `https://openaccess.city.ac.uk/id/eprint/20713/7/Nomikos%20and%20Moutzouris%20The%20Formation%20of%20FFA%20Rates%20in%20Dry%20Bulk%20Shipping.%20Risk%20Premia%20and%20Heterogeneous%20Expectations.pdf`
+  (landing record `https://openaccess.city.ac.uk/id/eprint/20713/`; DOI `10.1002/fut.21980`,
+  **Crossref-verified**: title, journal, volume, issue, pages and the 2018-12-14 publication date).
+- **Supports:** the **published account of how the FFA forward rate is formed** — "We illustrate that the
+  bulk of basis volatility can be attributed to expectations about future physical market conditions rather
+  than expectations about future risk premia. However, there exists significant predictability of risk premia
+  by both price-based signals and economic variables … we argue that the average investor should hold
+  “near-rational” but slightly contrarian beliefs"; the **published decomposition** ("we argue that FFA basis
+  moves mainly due to expectations about future changes in the spot prices because the latter can be
+  predicted – up to a certain degree – by market agents at time *t* through the shipping supply and demand
+  mechanism"); the **published risk-premium stylised facts** ("the 1- and 2-month risk premia are positively
+  autocorrelated and their autocorrelation increases with contract maturity which indicates the existence of
+  a momentum effect", and "risk premia and spot growth rates are negatively correlated"); the **published
+  data construction** ("monthly observations of spot prices, settlement rates, and FFA rates for the BCI 4TC
+  and BPI 4TC contracts with 1- and 2-month maturities from **January 2007 to September 2016**, obtained
+  from The Baltic Exchange"); the **published liquidity state** ("We have also incorporated trading activity
+  variables to examine whether liquidity in the FFA market can forecast either future market conditions
+  and/or future risk premia. Our dataset is obtained from the **London Clearing House (LCH)** … trading
+  volume is positively correlated with current market conditions"); and the **published candidate
+  explanations for the premium** (the "roll yield", the risk premium, and a "liquidity premium" demanded by
+  short physical hedgers).
+- **Why it matters:** R-052's **reasons 1 and 2** — the freight family's headline (a *published*, structured
+  FFA risk premium with a *published* decomposition) and the published conditioner of what survives it
+  (price-based signals and economic variables) are **in the literature**, so a candidate in this family
+  would re-present published work, and the unclaimed remainder is a *magnitude*, not a sign.
+- **Caveats:** this is the **accepted version**, not the publisher's typeset version of record (the
+  repository says so on its face: "This version of the publication may differ from the final published
+  version"); the sample is **monthly, dry bulk, January 2007 – September 2016**; the paper is an
+  **asset-pricing study of the forward rate**, not a trading-cost study, so the premium it reports is a
+  modelled pre-cost premium; the "significant predictability of risk premia by both price-based signals and
+  economic variables" is the authors' own result and is **not** a claim that the residual is tradeable.
+- **Verification:** **line-verified.** Fetched directly from the repository (HTTP 200; 671,628 bytes;
+  40 pages); text layer extracted with PyMuPDF: **105,501 characters**. The landing record was fetched
+  directly (HTTP 200) to establish provenance, and the bibliographic metadata was verified against
+  Crossref. The publisher's own PDF route returns **HTTP 403** (see the honest-negatives table).
+
+### S-351 — Nomikos, N. K. and Doctor, K. (2013), "Economic significance of market timing rules in the Forward Freight Agreement markets", *Transportation Research Part E: Logistics and Transportation Review* 52: 77–93
+
+- **Type:** **Peer-reviewed journal article — the accepted version**, self-archived by the authors in the
+  City Research Online institutional repository; the publisher's version of record is paywalled.
+- **URL:** `https://openaccess.city.ac.uk/id/eprint/7525/1/Market%20Timing%20FFA%20Nomikos%20%26%20Doctor.pdf`
+  (landing record `https://openaccess.city.ac.uk/id/eprint/7525/`; DOI `10.1016/j.tre.2012.11.009`,
+  **Crossref-verified**: title, journal, volume, pages and the June 2013 issue).
+- **Supports:** the **published definition and market structure of the instrument** — "FFA are cash-settled
+  forward contracts that trade the value of expected freight rates, the underlying asset being one of the
+  freight indices published by the Baltic Exchange"; the **published cost structure** — "Trades are primarily
+  carried out through brokers in the OTC market and are therefore subject to 'friction' in terms of the speed
+  of execution, liquidity and transaction costs, which may significantly affect profitability"; the
+  **published existence of the family's effect, with its sign** — "We find that in spite of robustness
+  checks, trading rules do outperform the buy-and-hold benchmark in general" and, in the conclusion,
+  "certain technical trading rules consistently outperform the benchmark in the FFA markets **even after
+  accounting for transaction costs and order delays induced by thin trading**"; the **published caveats the
+  authors themselves raise** — "We also explore the possibility that **illiquidity and a small sample size**
+  may impact the results of the tests and therefore offer an intuitive approach to mitigate their effects";
+  the **published regime-dependence** of the result (a robustness check that removes "the market crash
+  period … from the 1 April, 2008 to 24 December, 2008" from the short-only scenario, after which "the
+  p-values are larger than before"); and the **published contract mix** ("Capesize contracts account for
+  44.2 % of the market share in 2011 with Panamax contracts at 39.4 % and Supramax and Handysize at a mere
+  14.6 % and 1.9 % respectively", from Baltic Exchange data).
+- **Why it matters:** R-052's **reasons 2, 3 and 5** — the *trade* in this family is already published with
+  published results and published caveats, the cost floor is published in the instrument's own structure, and
+  the published result is regime-dependent and small-sample.
+- **Caveats:** the **accepted version** (the repository states that peer review, editing and copy-editing
+  may not be reflected); the sample is the paper's own and ends in the 2010–2012 period, so the result
+  describes a **younger, thinner** FFA market — the authors say so themselves, describing the market as one
+  whose "inefficiencies may indeed yield economically significant results in the interim period as markets
+  mature"; the paper studies **technical trading rules**, not a state-conditioned rule; its performance
+  statements are **the authors' reported results**, not an independent reproduction.
+- **Verification:** **line-verified.** Fetched directly from the repository (HTTP 200; 1,189,267 bytes;
+  37 pages); text layer extracted with PyMuPDF: **94,862 characters**. The landing record was fetched
+  directly (HTTP 200) for provenance, and the metadata was verified against Crossref.
+
+### S-352 — Shanghai International Energy Exchange (INE) / Shanghai Futures Exchange, "Containerized Freight Index(Europe service) Futures Trading Handbook 2023 Edition"
+
+- **Type:** **Venue documentation** — the exchange's own product handbook for its listed containerized-freight
+  futures (product symbol EC), served from the SHFE/INE server.
+- **URL:** `https://www.shfe.cn/eng/Market/Futures/index_f/ec_f/ProductManual/202308/P020250411646736858153.pdf`
+- **Supports:** the **venue's own contract specification** for the exchange-traded leg of the family — the
+  contract multiplier is "**50 Yuan per index point**"; the minimum price fluctuation is "**0.1 index
+  points**"; the listed contracts are "**February, April, June, August, October, and December**"; the
+  trading hours are "9:00–11:30 a.m., 1:30–3:00 p.m., and other trading hours prescribed by Shanghai
+  International Energy Exchange (INE)"; the daily price limit is "**Within ±10% of the settlement price of
+  the preceding trading day**"; the minimum trading margin is "**12% of contract value**" as of listing,
+  rising to "**20%**" from the seventh trading day before the last trading day and "**30%**" from the second
+  trading day before the last trading day; the settlement type is "**Cash settlement**"; and the
+  **settlement arithmetic** — the final settlement price
+  is "the arithmetic mean value of the three containerized freight index (Europe service) values published by
+  the SSE on the last trading day of the contract and on the first and second index publication days before
+  the last trading day", which the handbook states as the formula **PT = P1 + P2 + P3** over three. The
+  handbook also states the underlying-index design — the SCFIS
+  (Europe service) is compiled by the Shanghai Shipping Exchange from **settled rates**.
+- **Why it matters:** R-052's **reason 4** — the cost floor and the structure of the exchange-traded leg of
+  the family are documented by the venue itself: a 12%-to-30% margin ladder, a ±10% daily price limit, a
+  **weekly** index and a cash settlement that averages three weekly index prints, on a contract with only
+  **six listed months per year**.
+- **Caveats:** the handbook states on its face that it is "**for reference use only**"; it is the **2023
+  edition**, so the current specification was not independently re-checked against a later edition; the
+  venue's **live** product pages also render market data (open interest, volumes, last prices) — those
+  elements were **deliberately not recorded, used or quoted** here, in keeping with this repository's
+  theory-only scope and with the precedent set in Cycle 88 for the CME live page.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 6,129,168 bytes; 54 pages); text layer
+  extracted with PyMuPDF: **60,284 characters**. The host's own `ine.cn` copy of the same document
+  (`https://www.ine.cn/upload/20230817/1692263354066.pdf`) was attempted and **failed** on two attempts
+  (connection reset); the `shfe.com.cn` copy of the same path returned **HTTP 404** (see the
+  honest-negatives table).
+
+### S-353 — Braun, A. and Kousky, C. (2021), "Catastrophe Bonds" (Wharton Impact, the Perry World House)
+
+- **Type:** **Educational/technical primer** from a university impact laboratory — **not peer-reviewed**, and
+  used only where a primary or official document was not obtained.
+- **URL:** `https://impact.wharton.upenn.edu/wp-content/uploads/2023/08/Cat-Bond-Primer-July-2021.pdf`
+- **Supports:** the **published mechanics of the CAT-bond instrument** — the SPV/collateral structure and
+  the premium's economic character: "The SPV invests the investors' principal in highly-rated and liquid
+  collateral securities … catastrophe bonds are essentially floating rate notes that exhibit minimal interest
+  rate risk. In addition to the floating returns, **catastrophe bonds compensate investors for bearing the
+  disaster risk with premium payments from the sponsor**"; the **published model dependence of the premium** —
+  "Issuance of a catastrophe bond typically requires engaging a specialized modeling firm to quantify the
+  catastrophe risk. The risk modeler will estimate the probability that the conditions for the payout would
+  be met over the term of the bond (probability of first loss). The modeling firm also provides an estimate
+  of the expected loss for investors … **Such a model-based approach to risk assessment is needed, since
+  historical data on the most extreme natural disasters are typically too scarce for a reliable estimation of
+  the outer tail of the loss distribution**"; the **four trigger types** (indemnity, industry loss,
+  parametric, modelled loss) with their consequences — "**Indemnity triggers typically involve a relatively
+  lengthy payout process, since loss reporting and verification must be accomplished before the release of
+  funds. Nonetheless, the indemnity trigger is by far the most widely used trigger type in today's catastrophe
+  bond market**"; "INDUSTRY LOSS TRIGGERS require aggregate losses experienced by the industry to exceed a
+  predetermined value. The determination that the trigger has been met is usually done by an independent
+  third-party, such as Property Claims Services (PCS)"; and the **published opacity/moral-hazard point** —
+  "For investors, indemnity triggers can be relatively opaque, since they do not have direct access to
+  information on the sponsor's insurance portfolio. This raises a moral hazard concern."
+- **Why it matters:** R-051's **reasons 2, 3 and 4** — the premium's expected-loss benchmark is a *model
+  output*, the sign-determining condition is resolved by third parties over a **lengthy, published** process,
+  and the market's most-used trigger type is the slowest and the most opaque.
+- **Caveats:** **not peer-reviewed**; the market-size and issuance figures in the primer are attributed by
+  the authors to **Artemis.bm** and are **not** independently verified here, so they are not used for any
+  reason; the primer is a **2021** document and describes the market as of that date; the trigger taxonomy
+  it gives is used as a *structural* description, not as evidence of any current market statistic.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 1,217,466 bytes; 10 pages); text layer
+  extracted with PyMuPDF: **21,989 characters**.
+
+### S-354 — Ando, S., Fu, C., Roch, F. and Wiriadinata, U. (2022), "Sovereign Climate Debt Instruments: An Overview of the Green and Catastrophe Bond Markets", IMF Staff Climate Note 2022/004
+
+- **Type:** **International-organization staff note** (IMF Staff Climate Notes — "aims to quickly disseminate
+  succinct IMF analysis on critical economic issues"; **not peer-reviewed**), used for the market's published
+  structure and its published premium accounting.
+- **URL:** `https://www.imf.org/en/-/media/files/publications/staff-climate-notes/2022/english/clnea2022004.pdf`
+- **Supports:** the **published premium as a measured baseline with a published magnitude** — "**Empirically,
+  the cedents pay more than they receive in expectation.** According to Artemis, from which only the
+  aggregated data of private and public catastrophe bonds is available, **the investors' average return to
+  catastrophe bond in coupon is around 2 to 4 times the expected loss**" and "**Whether the positive spread
+  is expensive depends on the benchmark to compare**"; the **published spread behaviour at events** —
+  "Difiore, Drui, and Ware (2021) note that **risk spreads have widened materially following major
+  catastrophes in the past**, such as 2006 following a US hurricane and 2012 following earthquakes in Japan
+  and New Zealand"; the **published market shallowness and cost barrier** — "While green and catastrophe
+  bonds have gained significant popularity, **their markets remain fairly shallow at the sovereign level**",
+  and "the note discusses **significant barriers to the scale up of the catastrophe bond market: high
+  transaction costs, the requirement of complicated underlying catastrophe models, and a narrow investor base
+  (which could in turn be a consequence of the previous two factors)**"; and the **published model dependence
+  and term structure** — "**The typical maturity is three to five years**, so the long-term impact of climate
+  change risks may not be fully reflected", with the modeler "calculat[ing] the actual loss after catastrophe
+  events".
+- **Why it matters:** R-051's **reasons 1, 2 and 5** — the risk premium is a *documented, quantified*
+  baseline (coupon ≈ 2–4× expected loss), the spread-widening episodes are **published, dated, retrospective
+  events** rather than a decision-time state, and the market's shallowness and transaction costs are the
+  documented barrier.
+- **Caveats:** an **IMF staff note**, not a peer-reviewed article, and **sovereign-catastrophe-bond**
+  focused; its premium statistics are **aggregated private-and-public data reported by Artemis** and are
+  used here as the register's *published baseline*, not as a verified measurement; the "2 to 4 times the
+  expected loss" figure is the note's own summary of a third-party dataset and is **not** independently
+  recomputed here.
+- **Verification:** **line-verified.** Fetched directly with a declared browser user-agent and referer
+  (HTTP 200; 2,375,165 bytes; 28 pages); text layer extracted with PyMuPDF: **64,551 characters**. The same
+  host returned **HTTP 403** for the April-2020 GFSR online box on every route tried (see the
+  honest-negatives table).
+
+### S-355 — Supreme Court of Bermuda, Commercial Court, 2020: No. 369, *Aeolus Re Ltd (in respect of its Keystone PF Segregated Account) v CS ILS SICAV-SIF (in respect of Credit Suisse (Lux) Iris Balanced Fund) et al* [2022] SC (Bda) 30 Com, judgment of 6 May 2022
+
+- **Type:** **Primary legal material** — a published judgment of the Supreme Court of Bermuda (Commercial
+  Court) on a catastrophe-swap transaction, hosted by the Government of Bermuda.
+- **URL:** `https://www.gov.bm/files/media-library/20260514/c6f48cd9-final_judgment_2020_no._369_civ._aeolus_re_ltd_v_cs_ils_sicav_sif_et_al_with_citation.pdf`
+- **Supports:** the **published resolution architecture of an industry-loss trigger**, in the court's own
+  words — "a **Development Period** applied, namely a further time period in which to monitor whether the
+  estimated insured loss developed sufficiently in order to trigger a payment under the Swaps. By clause
+  9(f) of the Swap Confirmations, **the Development Period End Date was 18 months after the Risk Period End
+  Date** (i.e. 30 June 2020) if the loss estimate for Typhoon Jebi was less than 80 % of the Trigger Amount
+  (i.e. less than US$10 billion) by that date"; the **published definition of the sign-determining
+  quantity** — "A Trigger Event was defined as a Covered Event where the Reference Amount was equal to or in
+  excess of the Trigger Amount … a Reference Amount was defined as the **Estimated Market Loss** for the
+  applicable Covered Territory" (aggregated by PCS and PERILS); and the **published "reporting disruption"
+  clause** — the loss size "was either **not yet known** or was reported by the agreed report publisher at an
+  amount which was not large enough to trigger the payment obligation".
+- **Why it matters:** R-051's **reason 3** — the condition that decides whether the instrument pays is
+  (i) a third-party **estimate**, not an observable, and (ii) resolved over a **published development period
+  of up to 18 months after the risk period**, so the sign-determining state is not a decision-time variable
+  at all. This is a primary legal document, not a market commentary.
+- **Caveats:** the judgment concerns **one specific 2018-risking swap** and its own documentation; the
+  18-month development period is a clause of that transaction, and the judgment is not a market-wide survey
+  of trigger design. It is used to document the **architecture** of an industry-loss trigger (a documented
+  development period and a third-party loss estimate), not to claim a market-wide average lag. The court
+  record also concerns the "Reporting Disruption" provision, whose facts are not the register's concern.
+- **Verification:** **line-verified.** Fetched directly from the Government of Bermuda's own media library
+  (HTTP 200; 1,088,939 bytes; 56 pages); text layer extracted with PyMuPDF: **110,849 characters**.
+
+## Cycle 91 honest negatives
+
+| Route | What was tried | Failure mode | Verdict |
+| --- | --- | --- | --- |
+| **Ko & Chang (2024), MPM 51(5): 717–744** (the "Physical-Paper Hypothesis" paper) | `tandfonline.com/doi/pdf/…?download=true` with a browser user-agent and full browser headers; `tandfonline.com/doi/full/…` via a second client; the `tandfonline.com/doi/pdf/…` route without the download flag | **HTTP 403** on every route. The article is published open access (CC BY) and OpenAlex and Semantic Scholar both report an open-access PDF at the same T&F URL | **Honest negative — index-rendered neighbour only.** The article's **abstract** (including the definition of the Physical-Paper Hypothesis and the Shock-Diversity Hypothesis) was read through a search index and is **not** used as a verification basis for any reason in R-052. The register's own claim about it is limited to the bibliographic record, verified against Crossref |
+| **Kavussanos, Visvikis & Menachof (2004), *Review of Derivatives Research* 7(3): 241–266** (the "unbiasedness hypothesis" paper) | `link.springer.com/content/pdf/10.1007/s11147-004-4811-7.pdf`, with and without a browser user-agent | The Springer host returns a **JavaScript client-challenge page** (3,038 bytes) instead of the PDF on every attempt | **Honest negative — index-rendered neighbour only.** Its published result is **not** used as a verification basis for any reason in R-052; the unbiasedness and efficiency material that R-052 relies on is carried by S-350 and S-351, both line-verified |
+| **Alizadeh, Kappou, Tsouknidis & Visvikis (2015), TR(E) 76: 58–75** (the liquidity-premium paper) | The publisher's article route; the **ICMA Centre Discussion Paper `icma-dp2014-15`** working-paper route on two guessed institutional URLs; the RePEc record | The publisher's body is paywalled; both guessed working-paper URLs failed (**HTTP 404** and a connection failure) | **Honest negative.** The liquidity/transaction-cost ground in R-052 is carried instead by the **line-verified** OTC-friction passage in S-351 |
+| **Wiley (JFM) and Taylor & Francis (MPM, Applied Economics) publisher routes** | `onlinelibrary.wiley.com/doi/pdfdirect/…`; `tandfonline.com/doi/pdf/…` and `/doi/full/…` | **HTTP 403** on every route | **Honest negative.** The register's freight evidence rests on the **author-archived accepted versions** (S-350, S-351), each fetched directly, and on the **venue handbook** (S-352) |
+| **Baltic Exchange's own FFA and forward-curve pages** | `balticexchange.com/en/FFAS.html`; `/en/data-services/freight-derivatives-/Baltic-Forward-Assessments.html`; `/en/data-services/market-information0/dry-services.html`; and the same dry-services URL through the Internet Archive | Every route returns a **1,873-byte bot-challenge page** ("Challenge Validation"); the Internet Archive copy returns a **"Just a moment…"** interstitial | **Honest negative.** The venue's own description of the FFA market is therefore **not** used; the market structure quoted in R-052 is taken from the **line-verified** peer-reviewed description in S-351, and the exchange-traded leg from the venue's own handbook (S-352) |
+| **Freightos FBX container index page** | `fbx.freightos.com` | A **JavaScript interstitial** ("One moment, please…") | **Honest negative.** The FBX index is **not** used as a verification basis; the container spot-index leg of the screen rests on the SCFIS (Europe service) underlying and its publication rules as documented in S-352 |
+| **FIA global volume survey** | `fia.org/resources/annual-volume-survey` and two variant paths | **HTTP 404** on every path tried | **Honest negative.** The volume claims that a partial draft of the Cycle-91 baseline row had attached to the **FIA** are therefore **not** asserted anywhere in the register; the exchange-traded leg's liquidity is described from the venue's own contract specification and margin ladder (S-352) instead |
+| **IMF GFSR April 2020, Online Box 5.1 ("Insuring against Climate Change Physical Risk: The Role of Catastrophe Bond Markets")** | `imf.org/-/media/files/publications/gfsr/2020/april/english/onlinebox51.pdf`, with a browser user-agent, a referer and full browser headers | **HTTP 403** on every route; a second client returned the same | **Honest negative.** The premium's published magnitude in R-051 is carried by the **line-verified** IMF Staff Climate Note (S-354) instead |
+| **OECD, "Fostering Catastrophe Bond Markets in Asia and the Pacific" (2024)** | `oecd.org/en/publications/…/full-report/component-6.html` | **HTTP 403** | **Honest negative.** The OECD trigger taxonomy is **not** used; the trigger architecture quoted in R-051 comes from S-353 and the primary legal record in S-355 |
+
+## Cycle 91 state-integrity repairs
+
+1. **A duplicate rejection identifier was repaired and the mis-numbered record was re-issued.** The
+   Cycle-90 cat-bond screen had been written into `rejected_and_parked.md` under the identifier **R-041**,
+   which **Cycle 61** had already consumed for the published-count/queue-state template (D) screen (baseline
+   row 70). The file therefore held **51 headings but only 50 distinct identifiers**. Following the
+   register's standing discipline — a consumed identifier is written for real under its original number and a
+   **fresh** one is minted, as with **R-017** in Cycle 37 and **R-025** in Cycle 51 — the Cycle-61 entry
+   **stands at R-041** and the Cycle-90 screen is **re-issued as R-051**, with the mis-numbering explained in
+   the record itself. The Cycle-90 cycle-log block is annotated in place rather than erased, and no verdict,
+   baseline-row count or score changed by the re-issue.
+2. **The Cycle-90 record's missing evidence base was supplied.** The Cycle-90 cat-bond record rested on
+   **no source at all** — it described the premium as "well-documented" without naming a document, and it
+   therefore did not meet the register's own standard that a bounded negative must rest on line-verified
+   material. Cycle 91 rewrote the record in the standard five-reason form and supplied **three
+   line-verified sources** for it (S-353, S-354, S-355). The verdict is unchanged; the *evidence* under it is
+   no longer absent.
+3. **A partially written, unverified baseline row was corrected rather than inherited.** An earlier session
+   of this same cycle had drafted a freight-derivative baseline row that (i) attributed the
+   physical-market-leadership result to "Gong & Lu 2024", whereas the paper is **Ko & Chang (2024)**
+   (*Maritime Policy & Management* 51(5): 717–744, Crossref-verified); (ii) attributed the liquidity/
+   transaction-cost result to "Kavussos et al., *Transportation Research Part E*, 2015", whereas the paper
+   is **Alizadeh, Kappou, Tsouknidis & Visvikis (2015)**, TR(E) 76: 58–75, which this cycle **could not
+   obtain** and therefore does not assert; (iii) attributed the basis decomposition to "Wiley Futures 2019",
+   where "Wiley" is the **publisher**, not an author — the paper is **Moutzouris & Nomikos (2019)**,
+   *Journal of Futures Markets* 39(8): 1008–1031; (iv) attributed the unbiasedness result to "Kavussanos &
+   Nomikos 2003; Drouillis & Kizys, *Maritime Policy & Management* 2015", whereas the paper behind the
+   result is **Kavussanos, Visvikis & Menachof (2004)**, *Review of Derivatives Research* 7(3): 241–266,
+   which was **not obtainable** this cycle; (v) asserted a **volume** comparison attributed to the FIA that
+   could not be verified on any route; and (vi) quoted **live open-interest figures** rendered on the
+   exchange's own market page. The row was rewritten to the register's standard: the three mis-attributions
+   were corrected, the two unverified attributions were replaced with the verified ones, the unverified
+   volume claim was **removed**, and the live market data was **deliberately not captured**.
+4. **The register's source count was re-derived from the files and corrected.** The Cycle-90 handoff
+   asserted "343 verified sources (S-001 … S-350)" and that the Malkiel & Xu (2005) location had been
+   "already registered" as **S-350**. Re-derivation from the file shows **339** registered entries at the
+   end of Cycle 88 (329 standard `### S-NNN` entries plus ten bold inline entries, S-281 … S-290) and **no
+   S-350 entry at all** — the identifier appeared only inside "next free identifiers" statements. Cycle 91
+   adds **six** entries (S-350 … S-355), giving **345**, and the header, the identifier record and the handoff
+   now state the same figure.
+5. **No market data was captured.** The exchange's live product page renders open interest, volumes and
+   last prices for the container-freight futures. Those elements were **not recorded, used or quoted**, in
+   keeping with this repository's theory-only scope and with the Cycle-88 precedent for the CME live page.
+   The register's freight evidence is a **contract specification**, a **settlement rule** and **published
+   research findings** — not a market-data series.
+
+**Cycle-91 identifier and ranking record.** **Six `S-` identifiers consumed (S-350 … S-355)**; **no
+`IDEA-` identifier consumed**; **no `V-` identifier consumed**; **two `R-` identifiers consumed (R-051 and
+R-052)**; **no `P-` identifier consumed**; **no `G-` identifier consumed**; **no gap opened and none
+closed**. **Two** known-baseline rows were written (**rows 88 and 89**). The register holds **345 verified
+sources** at the end of Cycle 91. **No score changed and no rank changed**: the active ranking remains
+**IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with
+IDEA-010 parked (P-014) at a terminal 55.0. **Next free identifiers: IDEA-017, S-356, V-012, G-37, R-053,
+P-015.**

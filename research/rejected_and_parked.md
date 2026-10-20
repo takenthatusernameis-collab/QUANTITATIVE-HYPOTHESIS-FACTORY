@@ -5,11 +5,36 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 88 complete, 2026-10-20. **51 rejections (R-001 … R-051), 13 parking records of
-which 12 remain active (P-001 … P-012 and **P-014**, with **P-004 closed** by R-038), 88-row
-known-baseline table.** Cycle 88 added **one rejection (R-050), no parking record and one baseline row
-(row 87)**, and it **opened no gap and closed no gap**; its substantive work was a **bounded,
-pre-registered screen of the closed-end-fund / BDC traded price-to-NAV discount family** — listed vehicles
+Last updated: **Cycle 91 complete, 2026-10-20. 52 rejections (R-001 … R-052), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 89-row known-baseline
+table.** Cycle 91 added **two rejections (R-051, R-052), no parking record and two baseline rows (rows 88
+and 89)**, and it **opened no gap and closed no gap**. Its two substantive operations were: (1) a
+**state-integrity repair** of the Cycle-90 screen's record, which had been written under an identifier
+that **Cycle 61 had already consumed**; and (2) **one bounded, pre-registered screen of a genuinely new
+mechanism family** — the **freight-derivative contract-pricing family** (the Baltic dry-bulk FFA forward
+curve, the INE's SCFIS (Europe service) container-freight futures and the published container spot
+indices) — a family **absent from the known-baseline table and from every earlier screen** (the state-first
+templates A–I (R-039 … R-046) and the mechanism-first family screens R-047 … R-051) — which returned a
+**bounded negative
+(R-052)** on five independent reasons, each tied to a line-verified passage. *(State-integrity repair,
+Cycle 91: the Cycle-90 screen's own record was written under the identifier **R-041**, which Cycle 61 had
+already consumed for the published-count/queue-state template (D) screen, baseline row 70. Per the
+register's standing discipline — a consumed identifier is written for real under its original number and a
+fresh one is minted, as with R-017 in Cycle 37 and R-025 in Cycle 51 — the Cycle-61 entry stands at R-041
+and the Cycle-90 screen is re-issued as **R-051**. The re-issue also supplies the **line-verified
+grounds** that the Cycle-90 record lacked: that record rested on **no source at all** and described the
+premium as "well-documented" without naming a document. No verdict, baseline row count or score changed by
+the re-issue.)* Earlier history: Cycle 90 added **one rejection (the catastrophe-bond / ILS family screen,
+written under R-041 and re-issued in Cycle 91 as R-051), no parking record and one baseline row (row 88)**,
+and it **opened no gap and closed no gap**; its substantive work was a **bounded, pre-registered screen of
+the catastrophe-bond / insurance-linked-securities family** — privately placed bonds whose coupons pay a
+spread above a modelled expected loss, with trigger-based structures and delayed settlement — which
+returned a **bounded negative** on G-12/G-13 grounds (no published decision-time state changes the sign or
+existence of a tradeable edge after costs; the risk premium is a documented baseline; structural factors
+bind). Earlier history: Cycle 88 added **one rejection (R-050), no parking
+record and one baseline row (row 87)**, and it **opened no gap and closed no gap**; its substantive
+work was a **bounded, pre-registered screen of the closed-end-fund / BDC traded price-to-NAV discount
+family** — listed vehicles
 that issue a fixed share count, offer **no continuous creation/redemption**, and therefore trade at a
 persistent discount or premium to a published net asset value — a family **absent from the known-baseline
 table** and from every earlier screen (the state-first templates A–I and the mechanism-first families
@@ -1675,6 +1700,8 @@ to baselines.
 | **Fixed income cash: Treasury auction price pressure, the cash-futures basis trade, quarter-end window dressing and repo specialness (added in Cycle 80)** | **Published, as a bounded-negative mechanism-first family screen (R-048) — institutional mechanisms in U.S. Treasury cash, repo, futures and the auction cycle rather than a published state.** S-330 documents that yields rise in the hours before a Treasury auction and reverse afterward, sized at 0.7–1.2 bps intraday and 2–5 bps over ten days, strengthening when dealer risk-bearing capacity is tight (line-verified). The Treasury cash-futures basis trade is a published leveraged convergence arbitrage (Barth & Kahn, OFR Working Paper 21-01; Glicoes, Iorio, Monin & Petrasek, Fed Notes 2024-03-08; CFTC MRAC report), quarter-end window dressing's 3–9 bps quarter-end yield move and 4.9 bps per 1 percent-of-market-value inflow elasticity are published (R-047; S-329 index-rendered SSRN abstract), and repo specialness's on-the-run premium and its auction-cycle seasonality are published (D'Amico & Pancost 2018, FEDS WP 2018-21). **This is a baseline and a rediscovery guard:** the sign, window and magnitude of each instance are published, so each headline is claimed in the literature; and the state that determines the size — dealer risk-bearing capacity (quarterly and lagged), money-market-fund holdings (two-month lag), episodic repo specialness — is not published at decision time, so each instance fails G-12's sign-and-existence limb and the decision-time-state bar. No unclaimed sign-determining state was identified for the fixed income cash venue. |
 | **Weather-derivative contract pricing: the HDD/CDD temperature-premium family (added in Cycle 87)** | **Published, as a bounded-negative mechanism-first family screen (R-049) — exchange-traded contracts written on a city's heating- and cooling-degree-day indices, the options on them, and the seasonal strips.** The **sign** of the premium is published: contracts are "priced near their actuarially fair value" in normal times, and "contract prices one-month before maturity fall by 2.2%" in the financial crisis, "equivalent to an annualized weather risk premium of 26%", with the declines "greatest for high margin and high total risk contracts" and larger when the TED spread and the VIX rise (S-332, Weagley 2019, *The Review of Financial Studies* 32(6): 2456–2497, DOI 10.1093/rfs/hhy098 — **line-verified from the working-paper version**, the published body being paywalled; S-334, the dissertation lineage, **line-verified**, which also reports that the **normal-time** average premium is "less than 2% per year and is statistically insignificant" and that the crisis premium reaches 30 % per year). The **option leg** is published as well: implied volatilities of weather derivatives are "substantially greater than the realized volatilities for all cities in our sample", a weather variance risk premium of **0.29 on average** (S-333, Bae et al., SSRN 4572123, with the conference version of 29 August 2024 **line-verified**). The **market structure** is published: energy and utility companies buy and short the local temperature futures as hedgers, financial institutions supply the liquidity, and the venue is "**relatively illiquid**" with "**Bid-ask spreads are large**" and many deals "conducted off exchange and submitted as block trades"; markets typically open 1–3 weeks before the contract month (the median market is opened 39 days before maturity) and "open interest does not change on 85% of trading days"; the market's notional value fell "from $32 billion to $15 billion" and monthly-futures open interest fell 40 % between the third and fourth quarter of 2008 (S-332, S-334). The venue is **not dead** — average open interest for January–September 2023 was four times 2022's and twelve times 2019's (S-336, FORRS 2024 factsheet, **line-verified**). **This is a baseline and a rediscovery guard:** the sign, the window and the conditioner are published, so the headline is claimed; what survives is a **magnitude** whose conditioner is not published at decision time; the field's own published sample has to **discard every quote with zero or missing open interest** (S-333); and the published record **contests the premise** (S-335, Chincarini 2011, *Journal of Futures Markets* 31(1): 1–33 — **line-verified in Cycle 88**: the published abstract states that "generally the market seems very efficient despite its lack of liquidity", and the published premia are "0.47% and insignificant" for HDD in 1999–2004 against a CDD premium of "5.76%" that **changes sign** between the two sub-periods). Any future candidate in this family must name the published premium it is differentiating from, must state which of the two published magnitudes (the futures premium or the option-leg WVRP) it claims, and must show that its own conditioner is observable at decision time. **The venue's current listing status, contract specifications and settlement basis were verified in Cycle 88** (S-344 … S-348), which closes R-049's condition (d) without re-opening the family. |
 | **Closed-end-fund / BDC traded price-to-NAV discount: a structural, no-creation/no-redemption discount family (added in Cycle 88)** | **Published, as a bounded-negative mechanism-first family screen (R-050) — listed closed-end funds and listed business development companies, i.e. vehicles that issue a fixed share count, offer no continuous creation/redemption, and therefore trade at a persistent discount or premium to a published net asset value.** The **headline and its magnitude are published**: a closed-end fund "usually trade[s] at a discount to NAV", and the discount is a model-derived quantity that "results from a trade-off between the liquidity benefits of investing in the CEF and the fees charged by the fund's managers" (S-337, Cherkes–Sagi–Stanton, **line-verified**); BDCs "tend to trade at a mid single-digit discount in the long run (x̄_MCW = −4.6%)" with a high cross-sectional standard deviation of 11.9 % (S-341, a **non-peer-reviewed** undergraduate thesis, used only as a secondary magnitude source), and the listed-BDC index returns "8.63% per annum based on market values and 9.41% based on NAVs" (S-340, Suhonen, *Financial Analysts Journal* 80(1), **line-verified from the publisher's version of record**). The **sign-changing state is published** — the discount widens "except during times of market stress when the discount can widen substantially" (2020) (S-340) — and so are the **dated episodes**: before the May 2014 index exclusion "BDCs' shares were traded at 5%–10% above their NAVs on average", and the exclusion "pushing BDCs' shares to be traded at a discount for nearly 3 years thereafter" (S-339, Davydiuk–Marchuk–Rosen, *RFS* 37(4), **line-verified**). The **trade itself is published, with a published sign**: "discounts are negatively correlated with future abnormal returns. Those who buy high discount CEFs thinking that they are bargains will have the numbers against them; the apparent undervaluation of the assets is only a delusion" (S-338, **line-verified**, a student working paper), and BDCs with a greater price-to-NAV premium outperform those with a larger discount "by all return metrics" (S-340). The **arbitrage is structurally blocked and the blocking is published law**: CEFs "are not subject to large-scale creation or redemption of shares" (S-337); BDCs may sell below NAV only with shareholder approval (S-339; 15 U.S.C. § 80a-62) and a BDC with that approval must repurchase "25 percent of those securities … in each of the 4 calendar quarters" at NAV (S-342, **line-verified**), while a closed-end company's own repurchase is bounded by the 90 %-distribution condition and by a price rule (S-343, 17 CFR 270.23c-1, **line-verified**). The **decision-time state is stale**: the NAVs "are unknown on such dates and will only be published in the financial reporting of the BDC several weeks after the NAV date" (S-340). **This is a baseline and a rediscovery guard:** the sign, the magnitude, the episodes, the trade and the structural blockers are all published, so any candidate must name the published effect it differentiates from, must answer the published negative result rather than assume it away, and must show a discount-closing mechanism that the statutory repurchase route and the below-NAV issuance constraint have not already provided. |
+| **Catastrophe bonds and insurance-linked securities (ILS): a modelled risk premium with a delayed, illiquid secondary market (added in Cycle 90; re-issued as R-051 in Cycle 91)** | **Published, as a bounded-negative mechanism-first family screen (R-051) — privately placed bonds whose coupons pay a spread above a modelled expected loss, with trigger-based structures (indemnity, industry loss, parametric, modelled loss) and settlement often delayed until the triggering event is verified.** The **premium is published as a baseline, with a magnitude**: "Empirically, the cedents pay more than they receive in expectation … the investors' average return to catastrophe bond in coupon is around 2 to 4 times the expected loss", and the published comparison is benchmark-relative — "Whether the positive spread is expensive depends on the benchmark to compare" (S-354, IMF Staff Climate Note 2022/004, **line-verified**). The **spread's own behaviour is published and retrospective**: "risk spreads have widened materially following major catastrophes in the past, such as 2006 following a US hurricane and 2012 following earthquakes in Japan and New Zealand" (S-354). The **sign-determining condition is not determinable ex ante**: the loss is a third-party *estimate* and the resolution architecture is documented in a primary legal record — "a Development Period applied, namely a further time period in which to monitor whether the estimated insured loss developed sufficiently in order to trigger a payment … the Development Period End Date was 18 months after the Risk Period End Date" (S-355, Supreme Court of Bermuda, [2022] SC (Bda) 30 Com) — while the market's most-used trigger type is the slowest, "Indemnity triggers typically involve a relatively lengthy payout process, since loss reporting and verification must be accomplished before the release of funds" (S-353, Wharton Impact Cat Bond Primer, **line-verified**). The **premium's benchmark is a model output and the data do not exist**: "The modeling firm also provides an estimate of the expected loss for investors … historical data on the most extreme natural disasters are typically too scarce for a reliable estimation of the outer tail of the loss distribution" (S-353). The **market structure binds**: "their markets remain fairly shallow", and the barriers are published — "high transaction costs, the requirement of complicated underlying catastrophe models, and a narrow investor base" (S-354). **This is a baseline and a rediscovery guard:** the premium is documented and quantified, the state that moves it is a retrospective event, the sign condition is not knowable before the decision, the benchmark is a private model output, and the market is shallow and costly. Any future candidate in this family must name the published premium it differentiates from and must show a published, decision-time, tradeable state — with verifiable history and low-latency availability — that changes the sign or existence of CAT bond returns after costs in a sample with sufficient liquidity. |
+| **Freight-derivative contract pricing: the dry-bulk FFA forward curve and the container-freight futures family (added in Cycle 91)** | **Published, as a bounded-negative mechanism-first family screen (R-052) — the Baltic Exchange's dry-bulk Forward Freight Agreement forward curve (Capesize, Panamax, Supramax, Handysize routes), the container-freight futures listed on the Shanghai International Energy Exchange (SCFIS (Europe service): multiplier CNY 50 per index point; six listed months — February, April, June, August, October, December; daily price limit within ±10% of the preceding settlement; minimum trading margin 12% of contract value, rising to 20% and then 30% near expiry; cash settlement on the arithmetic mean of three weekly SCFIS prints) (S-352, the venue's own 2023 handbook, **line-verified**), and the published container spot indices against which those contracts settle.** The **premium's formation and decomposition are published**: "the bulk of basis volatility can be attributed to expectations about future physical market conditions rather than expectations about future risk premia", with "significant predictability of risk premia by both price-based signals and economic variables" and a published account of "near-rational" but slightly contrarian beliefs, on monthly Baltic data for January 2007 – September 2016 (S-350, Moutzouris & Nomikos 2019, *Journal of Futures Markets* 39(8), accepted version, **line-verified**). The **trade itself is published, with published results and published caveats**: "trading rules do outperform the buy-and-hold benchmark in general" and certain technical rules "consistently outperform the benchmark in the FFA markets even after accounting for transaction costs and order delays induced by thin trading", with the authors' own caveats of "illiquidity and a small sample size" (S-351, Nomikos & Doctor 2013, *Transportation Research Part E* 52, accepted version, **line-verified**). The **cost floor and the market's structure bind**: FFA are "cash-settled forward contracts … the underlying asset being one of the freight indices published by the Baltic Exchange", and "Trades are primarily carried out through brokers in the OTC market and are therefore subject to 'friction' in terms of the speed of execution, liquidity and transaction costs, which may significantly affect profitability" (S-351). The **sign-or-existence limb is not met**: the forward curve is published at decision time and already carries the information, and the published conditioners are literature-standard and lagged (S-350). The **sample and the regime are adverse**: monthly data ending in 2016 (S-350) and a published robustness check that removes 1 April – 24 December 2008, with the published framing of the edge as a "younger market" result expected to decay as the market matures (S-351). **This is a baseline and a rediscovery guard:** the premium, its decomposition, the trade and its caveats are all published, so a candidate here would re-present published work and must answer it explicitly — including the published result's own stated weaknesses of illiquidity, thin trading, order delays and sample size. |
 ---
 
 ## Rediscovery guard
@@ -2509,10 +2536,240 @@ exhausted *state-kind* screen programme and remains available to future cycles.
 **Decision:** **bounded negative (R-050).** The closed-end-fund / BDC price-to-NAV discount family is recorded in the known-baseline table (**row 87**); no dossier was created; no `IDEA-` identifier was consumed; **seven `S-` identifiers were consumed (S-337 … S-343)**; no score changed; no validation specification was added; and **no new gap is opened**, because the reasons are independent of data availability — the family failed on the *already-published-headline* limb (reason 1), the *sign-and-existence* limb (reason 2), the *structurally-blocked-arbitrage* limb (reason 3), the *cost-floor* limb (reason 4) and the *decision-time-observability-and-sample* limb (reason 5). The screen's product is a **rediscovery guard** (row 87) and a fourth registered precedent that the *mechanism-first* operation can be run on a genuinely new family; it is also the register's first screen of a family in which the **discount is permanent by design** rather than a mechanical widening, which is the structural mirror of the parked IDEA-010 residual.
 
 
-### R-041 — Catastrophe bonds (insurance-linked securities): risk-premium baseline with illiquid secondary market (Cycle 90 family screen — bounded negative)
+## R-051 — Catastrophe bonds and insurance-linked securities (ILS): a modelled risk premium with a delayed, illiquid market (Cycle 90 family screen — bounded negative; **re-issued in Cycle 91**, and supplied with line-verified grounds)
 
-- **Family screened.** Catastrophe bonds (CAT bonds) and related insurance-linked securities with trigger-based structures (indemnity, parametric, index/industry loss) paying spreads above expected loss, traded in private placement with limited secondary market liquidity.
-- **Decision-time state / observability.** Expected loss estimates are model-based and updated, but a published decision-time state that discriminates a harvestable edge after costs is not clearly established; trigger resolution is often delayed (months/years), limiting clean ex-ante tradability of any sign-determining condition.
-- **Published baseline.** The risk premium above expected loss is a well-documented feature of CAT bond markets; pricing reflects modelled risk, trigger type, and reinsurance cycle conditions. Secondary market liquidity is limited and transaction costs are non-trivial.
-- **Outcome: bounded negative. No new candidate.** Fails G-12/G-13 as a source of an unclaimed edge that changes sign/existence at decision time after costs; structural factors (illiquidity, long resolution lags, model dependence) bind. No `S-` identifiers consumed; no dossier created.
-- **Dated re-screen condition.** Re-screen only if a published, decision-time, tradeable state (with verifiable history and low-latency availability) is shown to change the sign/existence of CAT bond returns after costs in a sample with sufficient liquidity, or if a structural change materially improves secondary market observability/transaction costs.
+**Identifier note (state-integrity repair, Cycle 91).** This screen was executed in Cycle 90 and its record
+was written into this file under the identifier **R-041** — an identifier **Cycle 61 had already
+consumed** for the published-count/queue-state template (D) screen (baseline row 70), so the file briefly
+held **51 headings but only 50 distinct identifiers**. Following the register's standing discipline — a
+consumed identifier is written for real under its original number and a **fresh** one is minted, as with
+**R-017** in Cycle 37 and **R-025** in Cycle 51 — the Cycle-61 entry **stands at R-041** and this screen is
+re-issued as **R-051**. The **verdict is unchanged**; what Cycle 91 changed is the **evidence under it**:
+the Cycle-90 record rested on **no source at all** — it described the premium as "well-documented" without
+naming a document — and so it did not meet the register's own standard that a bounded negative must rest on
+line-verified material. The five reasons below are therefore stated afresh against **three
+line-verified sources** (S-353, S-354, S-355). **No verdict, baseline row count or score changed by the
+re-issue.**
+
+**What was screened.** **Catastrophe bonds (CAT bonds) and related insurance-linked securities** —
+privately placed bonds whose coupons pay a spread above a modelled expected loss, with trigger-based
+structures (indemnity, industry loss, parametric, modelled loss) and settlement that is often delayed
+until the triggering event is verified.
+
+**Why the family was worth screening now.** The family is **absent from the known-baseline table** and from
+every earlier screen (the state-first templates A–I, R-039 … R-046, and the mechanism-first family screens
+R-047 … R-050), and it
+was named in the Cycle-89 handoff as a family to screen. Its shape is the register's recurring
+**premium-and-structure** shape: a compensation paid by one side of a bilateral market for bearing a
+risk that the other side can model.
+
+**Sources.** **S-353** (Braun & Kousky, "Catastrophe Bonds", Wharton Impact, July 2021 — **line-verified**;
+an educational primer, **not peer-reviewed**, and used only for the instrument's published mechanics); **S-354**
+(Ando, Fu, Roch & Wiriadinata, "Sovereign Climate Debt Instruments: An Overview of the Green and Catastrophe
+Bond Markets", IMF Staff Climate Note 2022/004 — **line-verified**; an IMF staff note, **not peer-reviewed**,
+and used for the published premium accounting and the market's published barriers); **S-355** (Supreme Court
+of Bermuda, Commercial Court, 2020: No. 369, *Aeolus Re Ltd v CS ILS SICAV-SIF et al*, [2022] SC (Bda) 30 Com
+— **line-verified**; a **primary legal document** on an industry-loss trigger's resolution architecture). The
+Cycle-90 record's own unsupported assertions are **not** carried forward: no document is cited here that was
+not fetched and text-extracted in Cycle 91.
+
+**Reason 1 — the premium is a published, quantified baseline, so the headline is claimed.** The spread above
+expected loss is documented **with a magnitude**: "Empirically, the cedents pay more than they receive in
+expectation. According to Artemis … **the investors' average return to catastrophe bond in coupon is around
+2 to 4 times the expected loss**", and the published comparison is explicitly benchmark-relative — "**Whether
+the positive spread is expensive depends on the benchmark to compare**" (S-354). A candidate in this family
+would be re-presenting a documented premium at a published multiple of expected loss — a baseline, not a
+discovery.
+
+**Reason 2 — the state that moves the spread is a published, *retrospective* event, not a decision-time
+variable.** The published account of the spread's own variation is event-driven and backward-looking:
+"**risk spreads have widened materially following major catastrophes in the past**, such as 2006 following a
+US hurricane and 2012 following earthquakes in Japan and New Zealand" (S-354). The spread-widening
+episodes are dated events whose effect is measured *after* the fact; nothing in the published record offers a
+state that is known *before* the decision and that flips the sign or the existence of an unclaimed effect
+(S-353's account of the four trigger types adds no such state). The family therefore fails the register's
+standing **G-13** test (is the state published *before* the decision?) on the published record's own
+terms.
+
+**Reason 3 — the sign-determining quantity is a third-party *estimate*, resolved over a long published
+development period, so the condition is not determinable ex ante.** The instrument pays when the
+*estimated* loss crosses a trigger, and the resolution architecture is documented in a primary legal
+record: the loss "size was either **not yet known** or was reported by the agreed report publisher at an
+amount which was not large enough to trigger the payment obligation", in which case "**a Development Period
+applied**, namely a further time period in which to monitor whether the estimated insured loss developed
+sufficiently in order to trigger a payment … By clause 9(f) of the Swap Confirmations, **the Development
+Period End Date was 18 months after the Risk Period End Date**" (S-355). The market's most-used trigger type
+is also the slowest: "**Indemnity triggers typically involve a relatively lengthy payout process, since loss
+reporting and verification must be accomplished before the release of funds. Nonetheless, the indemnity
+trigger is by far the most widely used trigger type in today's catastrophe bond market**" (S-353). The
+sign-determining condition is thus not observable at decision time at all — it is settled months to years
+later by third parties.
+
+**Reason 4 — the premium's benchmark is a model output, and the data that would improve it are published as
+scarce.** "Issuance of a catastrophe bond typically requires engaging a **specialized modeling firm** to
+quantify the catastrophe risk. The risk modeler will estimate the probability that the conditions for the
+payout would be met over the term of the bond … The modeling firm also provides an estimate of the expected
+loss for investors … **Such a model-based approach to risk assessment is needed, since historical data on the
+most extreme natural disasters are typically too scarce for a reliable estimation of the outer tail of the
+loss distribution**" (S-353); the IMF note names the same thing as a market barrier — "**the requirement of
+complicated underlying catastrophe models**" (S-354). The quantity that sets the premium is therefore a
+**private, revisable model estimate**, not a published decision-time series, and the published record
+states that the underlying data do not exist in sufficient depth.
+
+**Reason 5 — the cost floor and the market's shallowness bind, and the information asymmetry is published.**
+"While green and catastrophe bonds have gained significant popularity, **their markets remain fairly
+shallow** at the sovereign level", and the note records "**significant barriers to the scale up of the
+catastrophe bond market: high transaction costs**, the requirement of complicated underlying catastrophe
+models, and **a narrow investor base**" (S-354); the investor base itself is narrow and specialised (S-353).
+The published information asymmetry compounds the cost floor: "For investors, indemnity triggers can be
+**relatively opaque**, since they do not have direct access to information on the sponsor's insurance
+portfolio. This raises a moral hazard concern" (S-353). A premium of the published size, in a market of
+this depth, with this opacity, does not clear a cost-and-information floor.
+
+**Dated re-screen condition.** Re-screen only if (a) a **published, decision-time** state is shown to
+determine the **sign or the existence** (not merely the magnitude) of a CAT-bond return after costs, and that
+state is neither a lagged publication nor a private model output; (b) the **published premium account** is
+answered rather than assumed away (the "2 to 4 times the expected loss" figure and the benchmark-relative
+question, S-354); (c) a **settlement architecture** with a materially shorter, published and observable
+determination of the trigger is documented, so that the sign-determining condition becomes knowable before
+the decision (against the 18-month development period of S-355 and the indemnity process of S-353); and (d) a
+**liquidity and cost record** is obtained from a document that can be fetched and text-extracted — the
+Cycle-91 route attempts for the venue-level and market-volume documents failed and are recorded as honest
+negatives, so the market's depth and cost remain **documented but not measured** here.
+
+**Decision:** **bounded negative (R-051).** The catastrophe-bond / ILS family is recorded in the
+known-baseline table (**row 88**); no dossier was created; no `IDEA-` identifier was consumed; **three `S-`
+identifiers were consumed (S-353 … S-355)** in this re-issue, none in Cycle 90; no score changed; no
+validation specification was added; and **no new gap is opened**, because the reasons are independent of
+data availability — the family failed on the *already-published-premium* limb (reason 1), the
+*retrospective-state* limb (reason 2), the *unresolvable-sign-condition* limb (reason 3), the
+*model-dependence* limb (reason 4) and the *cost-and-shallow-market* limb (reason 5). The screen's product
+is a **rediscovery guard** (row 88) and a registered precedent that the **premium-and-structure** family
+shape can be screened to the same standard as the others.
+
+## R-052 — Freight-derivative contract pricing: the dry-bulk FFA forward curve and the container-freight futures family (Cycle 91 family screen — bounded negative)
+
+**What was screened.** The register's **sixth mechanism-first family screen** (after R-047 in Cycle 75,
+R-048 in Cycle 80, R-049 in Cycle 87, R-050 in Cycle 88 and R-051 in Cycle 90): the
+**freight-derivative contract-pricing family** — the published forward curve of the Baltic Exchange's **dry-bulk Forward Freight Agreements**
+(Capesize, Panamax, Supramax and Handysize time-charter and voyage routes), the **container-freight
+futures listed on the Shanghai International Energy Exchange** (the SCFIS (Europe service) contract), and
+the **published container spot indices** (the SSE's SCFI/SCFIS family) against which those contracts settle.
+The family's shape is a **risk premium embedded in a forward price**: a charterer or shipper who is long
+physical freight exposure pays a forward rate above the expected future spot to the counterparty who takes
+the risk, and the forward curve is also the market's information-bearing price for future physical
+conditions.
+
+**Why the family was worth screening now.** The family is **absent from the known-baseline table** and from
+every earlier screen (the state-first templates A–I, R-039 … R-046, and the mechanism-first family screens
+R-047 … R-051): no row
+covers freight, shipping, FFA, Baltic assessments or container-freight futures, and the whole file
+contains no prior mention of the family outside the register's own new material. It was named in the
+Cycle-89 and Cycle-90 handoffs among the absent families, and it is a **neighbour rather than a
+re-presentation** of what the register already holds: the commodity rows concern exchange-traded futures
+and their inventory states, while this family's distinguishing mechanism is that the **forward contract
+itself is the price of a non-storable service**, is **brokered over the counter**, and settles against a
+**published assessment** rather than a deliverable. The screen ran against a **pre-registered decision rule**
+with five independent grounds, and was **stopped** as soon as five grounds were established rather than
+padded out.
+
+**Sources.** **S-350** (Moutzouris & Nomikos, 2019, *Journal of Futures Markets* 39(8): 1008–1031, DOI
+10.1002/fut.21980 — **line-verified from the authors' accepted version** in the City Research Online
+repository; the publisher's version is paywalled and was **not** obtained); **S-351** (Nomikos & Doctor,
+2013, *Transportation Research Part E* 52: 77–93, DOI 10.1016/j.tre.2012.11.009 — **line-verified from the
+authors' accepted version** in the same repository; the publisher's version is paywalled and was **not**
+obtained); **S-352** (Shanghai International Energy Exchange, "Containerized Freight Index (Europe service)
+Futures Trading Handbook, 2023 Edition" — **line-verified from the venue's own handbook**). **Three
+neighbours were sought and not obtained**, and are **not** used as a verification basis for any reason
+below: **Ko & Chang (2024)**, *Maritime Policy & Management* 51(5): 717–744 (the "Physical-Paper
+Hypothesis" paper; every route returned **HTTP 403**), **Kavussanos, Visvikis & Menachof (2004)**, *Review of
+Derivatives Research* 7(3): 241–266 (the unbiasedness paper; the host returned a JavaScript challenge), and
+**Alizadeh, Kappou, Tsouknidis & Visvikis (2015)**, *Transportation Research Part E* 76: 58–75 (the
+liquidity-premium paper; the publisher's body is paywalled and the working-paper route returned **HTTP
+404**). Their bibliographic records were verified against Crossref, and each failure is recorded as an
+honest negative in the source ledger.
+
+**Reason 1 — the family's headline is published, and so is its decomposition.** The formation of the FFA
+rate is a published research question with a published answer: "We illustrate that **the bulk of basis
+volatility can be attributed to expectations about future physical market conditions rather than
+expectations about future risk premia**", and the residual is equally published — "**there exists
+significant predictability of risk premia by both price-based signals and economic variables**", explained
+by a framework in which "the average investor should hold “near-rational” but slightly contrarian beliefs"
+(S-350). The premium's structure, its published stylised facts ("the 1- and 2-month risk premia are
+positively autocorrelated and their autocorrelation increases with contract maturity which indicates the
+existence of a momentum effect"; "risk premia and spot growth rates are negatively correlated") and its
+published candidate explanations (roll yield, risk premium, and a "liquidity premium" demanded by short
+physical hedgers) are all in the literature (S-350). A candidate in this family would re-present a
+published effect with a published decomposition — a baseline, not a discovery.
+
+**Reason 2 — the trade itself is published, with published results *and* published caveats.** The first
+rigorous study of trading rules in this market is published: "**We find that in spite of robustness checks,
+trading rules do outperform the buy-and-hold benchmark in general**", and the conclusion states that
+"certain technical trading rules **consistently outperform the benchmark in the FFA markets even after
+accounting for transaction costs and order delays induced by thin trading**" (S-351). A candidate here must
+therefore answer a *published result*, not an absence of one. Worse for novelty, the published authors name
+the caveats themselves: "We also explore the possibility that **illiquidity and a small sample size may
+impact the results** of the tests and therefore offer an intuitive approach to mitigate their effects"
+(S-351) — a candidate must beat a published result whose own stated weaknesses are illiquidity, thin
+trading, order delays and sample size.
+
+**Reason 3 — the cost floor and the market's own structure bind, and the exchange-traded leg carries a
+documented margin ladder.** The instrument is a **brokered, over-the-counter** contract: "**Trades are
+primarily carried out through brokers in the OTC market and are therefore subject to 'friction' in terms of
+the speed of execution, liquidity and transaction costs, which may significantly affect profitability**"
+(S-351), and it is a "**cash-settled** forward contract" of the kind that "trade[s] the value of expected
+freight rates, the underlying asset being one of the freight indices published by the Baltic Exchange"
+(S-351) — so the
+"price" a rule must beat is a **brokered quote against a published assessment**, not an exchange order book.
+The exchange-traded container leg is documented by the venue itself and is a *different* instrument with its
+own published costs: the contract multiplier is "**50 Yuan per index point**", the "**Daily Price Limit**" is
+"**Within ±10% of the settlement price of the preceding trading day**", the "**Minimum Trading Margin**" is
+"**12% of contract value**" as of listing, rising to "**20%**" from the seventh trading day before the
+last trading day and "**30%**" from the second trading day before it, settlement is by **cash settlement**,
+and only **six contract months are listed per year** (S-352).
+
+**Reason 4 — the decision-time state is a published price that already carries the information, and the
+published evidence says the premium's conditioner is public.** The forward curve is published, and the
+published decomposition says it is driven by expectations about future *physical* market conditions and that
+the residual risk premia are predictable from **price-based signals and economic variables** (S-350) — i.e.
+the conditioner of what survives is already in the literature, and the *published* spot, settlement and FFA
+series are monthly observations from January 2007 to September 2016 (S-350). What a candidate could still
+claim is a **magnitude** inside a published effect, not a sign; and the state that would have to be observed
+at decision time to claim more is either already inside the published forward price or is a **lagged**
+publication — the published volume state comes from clearing-house data (S-350), not from a real-time
+feed. The register's standing test (G-12, the *sign or the existence* limb) is not met.
+
+**Reason 5 — the effective sample and the regime dependence are adverse, and the published result is
+explicitly a "younger market" result.** The published evidence base is **monthly** and ends in 2016
+(January 2007 – September 2016, S-350), and the 2013 study's own robustness check removes "**the market
+crash period … from the 1 April, 2008 to 24 December, 2008**" from the short-only scenario, after which
+"the p-values are larger than before and as such **not sensitive to this turbulent period**" (S-351). The
+published authors also characterise the market's profitability as a stage-specific property: the
+inefficiencies "**may indeed yield economically significant results in the interim period as markets mature
+and trading opportunities [are arbitraged away]**" (S-351). A candidate in this family would be claiming a
+magnitude in a regime whose trigger is a violent freight cycle, inside a market whose published edge the
+published authors themselves expect to decay as it matures.
+
+**Dated re-screen condition.** Re-screen only if (a) a **published, decision-time** state is shown to
+determine the **sign or the existence** (not merely the magnitude) of a freight-derivative return after
+costs, and that state is neither already embedded in the published forward curve nor a lagged publication;
+(b) the **published trading-rule result** (S-351) and the **published premium decomposition** (S-350) are
+**answered rather than assumed away**, with the answer not resting on the same published sample; (c) a
+**cost and liquidity record** is obtained from documents that can be fetched and text-extracted — the
+Cycle-91 attempts on the venue's own FFA pages, on the exchange's live market data and on the
+liquidity-premium paper all failed and are recorded as honest negatives, so the family's cost structure
+remains **documented but not measured** here; and (d) the **current contract specifications, settlement
+basis and listing status** of the exchange-traded leg are re-verified from a document that can be fetched
+and text-extracted — S-352 is the **2023 edition**, so a later edition governs in the event of any
+difference.
+
+**Decision:** **bounded negative (R-052).** The freight-derivative contract-pricing family is recorded in
+the known-baseline table (**row 89**); no dossier was created; no `IDEA-` identifier was consumed; **three
+`S-` identifiers were consumed (S-350 … S-352)**; no score changed; no validation specification was added;
+and **no new gap is opened**, because the reasons are independent of data availability — the family failed on
+the *already-published-headline* limb (reason 1), the *published-trade* limb (reason 2), the *cost-floor-and-
+structure* limb (reason 3), the *sign-and-existence* limb (reason 4) and the *sample-and-regime* limb
+(reason 5). The screen's product is a **rediscovery guard** (row 89) and a fifth registered precedent that
+the *mechanism-first* operation can be run on a genuinely new family; it is also the register's first
+screen of a family in which the **forward contract is the price of a non-storable service** and the
+"quote" is brokered rather than exchanged.

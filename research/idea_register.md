@@ -4,7 +4,33 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 88 complete** (Cycle 88 added **thirteen new source identifiers and thirteen new
+Last updated: **Cycle 91 complete** (Cycle 91 added **six new source identifiers and six new source
+entries (S-350 … S-355)**, minted **no new candidate** and **no new validation specification**, opened
+**no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a
+**state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
+`rejected_and_parked.md` under the identifier **R-041**, which **Cycle 61 had already consumed** for the
+published-count/queue-state template (D) screen (baseline row 70), so the file briefly held **51 headings
+but only 50 distinct identifiers**. The Cycle-61 entry **stands at R-041** and the Cycle-90 screen is
+**re-issued as R-051** — the discipline used for R-017 in Cycle 37 and R-025 in Cycle 51 — with the
+**line-verified grounds supplied now**, because that record had rested on **no source at all** and therefore
+did not meet this register's standard for a bounded negative. The cycle's second operation was a **bounded,
+pre-registered screen of a genuinely new mechanism family** — the **freight-derivative contract-pricing
+family** (the Baltic dry-bulk FFA forward curve, the INE's SCFIS (Europe service) container-freight
+futures, and the published container spot indices), a family **absent from the known-baseline table** and
+from every earlier screen (the state-first templates A–I, R-039 … R-046, and the mechanism-first family
+screens R-047 … R-051) —
+which returned a **bounded negative (R-052)** on five independent reasons: the **premium and its
+decomposition are published**; the **trade itself is published, with published results and published
+caveats**; the **cost floor and the market's structure bind**; the **sign-or-existence limb is not met**;
+and the **sample and the regime are adverse**. The cycle's third operation was **lossless housekeeping with
+a rubric-arithmetic re-run (clean)**, the **correction of a partially written, unverified baseline row**
+(three mis-attributed papers corrected, an unverifiable volume claim removed, and live market data
+deliberately not captured), and the correction of the register's **own source count**: the Cycle-90
+handoff's "343 verified sources (S-001 … S-350)" was wrong — the ledger held **339** at the end of Cycle
+88 and **S-350 was never registered**, only named in a "next free identifiers" statement. The register now
+holds **345 verified sources** (S-001 … S-209, S-220 … S-355; S-210 … S-219 reserved and unused).
+**No score, rank, tie-break, hard-stop flag or specification changed.** Earlier history: **Cycle 88
+complete** (Cycle 88 added **thirteen new source identifiers and thirteen new
 source entries (S-337 … S-349)**, minted **no new candidate** and **no new validation specification**,
 opened **no gap**, closed **no gap** and changed **no score**). The cycle's substantive work was a
 **bounded, pre-registered screen of a genuinely new mechanism family** — the **closed-end-fund / BDC

@@ -1,5 +1,28 @@
-# RANKED SHORTLIST — CYCLES 1–88
+# RANKED SHORTLIST — CYCLES 1–91
 
+**Cycle-91 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 91's first
+operation was a **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
+`rejected_and_parked.md` under the identifier **R-041**, which **Cycle 61 had already consumed** for the
+published-count/queue-state template (D) screen (baseline row 70), so the file briefly held 51 headings but
+only 50 distinct identifiers. The Cycle-61 entry **stands at R-041** and the Cycle-90 screen is
+**re-issued as R-051**, with the **line-verified grounds supplied now** — that record had rested on **no
+source at all**, so it did not meet this register's standard for a bounded negative. Cycle 91's second
+operation was a **bounded, pre-registered screen of a genuinely new mechanism family** — the
+**freight-derivative contract-pricing family** (the Baltic dry-bulk FFA forward curve, the INE's SCFIS
+(Europe service) container-freight futures, and the published container spot indices), a family **absent
+from the known-baseline table** and from every earlier screen (the state-first templates A–I and the
+mechanism-first family screens R-047 … R-051) — which returned a **bounded negative (R-052)** on five independent
+reasons: the **premium and its decomposition are published** (S-350); the **trade itself is published, with
+published results and published caveats** (S-351); the **cost floor and the market's own structure bind**,
+including the exchange-traded leg's 12%→30% margin ladder, ±10% daily price limit and cash settlement on
+the mean of three weekly index prints (S-351, S-352); the **sign-or-existence limb is not met** (S-350); and
+the **sample and the regime are adverse** (S-350, S-351). Cycle 91's third operation was **lossless
+housekeeping with a rubric-arithmetic re-run (clean)**, the correction of a **partially written, unverified
+baseline row** and the correction of the register's **own source count** (the Cycle-90 handoff's "343
+verified sources (S-001 … S-350)" was wrong; the ledger held **339** at the end of Cycle 88 and **S-350 was
+never registered**). The register now holds **345 verified sources** and a **89-row known-baseline table**.
+**No score, rank, tie-break, hard-stop flag, gap or specification changed.** Earlier history:
 **Cycle-88 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 88's substantive
 work was a **bounded, pre-registered screen of a genuinely new mechanism family** — the

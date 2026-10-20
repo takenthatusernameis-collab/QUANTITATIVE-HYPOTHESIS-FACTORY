@@ -2221,3 +2221,165 @@ Theory-only cycle executing priorities from Cycle 89 handoff. No tests, no data 
 4. **Wrap-up.** Handoff rewritten with re-derived counts and fresh initial task message for Cycle 91.
 
 **Identifiers consumed in Cycle 90:** R-041, baseline row 88. **Next free identifiers:** IDEA-017, S-351, V-012, G-37, R-052, P-015.
+
+### Cycle-91 state-integrity annotation (added in place; the Cycle-90 text above is preserved verbatim)
+
+1. **The Cycle-90 screen's record was written under an identifier that Cycle 61 had already consumed.** The
+   Cycle-90 block says "**R-041 added** to `rejected_and_parked.md`", and the record itself was written into
+   that file under the heading `### R-041 — Catastrophe bonds …`. **R-041 was already taken** by Cycle 61's
+   published-count/queue-state template (D) screen (baseline row 70), so the file briefly held **51 headings
+   but only 50 distinct identifiers**. The Cycle-61 entry stands at R-041; the Cycle-90 screen is re-issued
+   as **R-051** in Cycle 91, following the register's standing discipline (as with R-017 in Cycle 37 and
+   R-025 in Cycle 51). **No verdict changed.**
+2. **The Cycle-90 record rested on no source at all.** Its text says "No sources fetched; theory-only screen
+   logged" and its own "Published baseline" bullet asserts that the premium is "well-documented" without
+   naming a document — which does not meet the register's standard that a bounded negative rest on
+   line-verified material. Cycle 91 rewrote the record in the standard five-reason form and supplied **three
+   line-verified sources** (S-353, S-354, S-355).
+3. **The Cycle-90 counts were wrong.** The block states "sources 343 unique (S-001–350 range covered)" and
+   "rejections 51 (R-001–R-051)" and gives "Next free identifiers: … S-351 … R-052". Re-derivation from the
+   files shows **339** registered sources at the end of Cycle 88 (329 standard entries plus ten bold inline
+   entries, S-281 … S-290) and **no S-350 entry at all** — the identifier appeared only inside "next free
+   identifiers" statements — and **50** rejections. The Cycle-90 block's figures are left as written and
+   corrected here; the file headers and the Cycle-91 handoff carry the re-derived figures.
+
+---
+
+## Cycle 91 — 2026-10-20
+
+Theory-only cycle executing the priorities from the Cycle-90 handoff. No tests, no data acquisition, no
+strategy or signal implementation, no performance or risk metrics, no workflow or infrastructure edits, no
+modification of the canonical prompt, no trading. Every quotation below is from a document fetched in this
+cycle and text-extracted in this cycle, except where a route failure is stated.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-90 handoff's priorities in order: (1) maintain the frozen, exhausted
+and dated items as they stand — G-21, G-28, G-30, G-32 limb (c) and G-33, G-14, IDEA-014's inconclusive
+existence limb, P-010, P-011 and P-014; (2) run **one** bounded, pre-registered screen of a genuinely new
+mechanism family from the named absent families, skipping the slot rather than padding it; (3) run the
+lossless housekeeping and the rubric-arithmetic re-run, reporting the result in the cycle log; (4) rewrite
+the handoff with re-derived counts and a fresh, self-contained initial task message. A fifth operation was
+added in the drafting pass and confirmed in the critique: the **state-integrity repair of the Cycle-90
+record**, because re-deriving the state of the artifact set at the start of the cycle — the register's own
+standing practice — turned up a duplicate identifier and a record with no evidence under it.
+
+**Pass 2 — Critique.** Three things had to be settled before anything was written. (i) *Which family takes
+the slot?* The named absent families were interval funds / private-credit interval funds, electricity
+derivatives, freight derivatives and municipal bonds, with the CEF premium side and cat bonds already
+handled. **Freight derivatives** was chosen because the family is **absent from the 89-row known-baseline
+table and from every earlier screen** (no row covers freight, shipping, FFA or container-freight futures),
+because it is a **neighbour rather than a re-presentation** of what the register already holds — the
+distinguishing mechanism is that the forward contract is the price of a **non-storable service**, is
+**brokered over the counter** and settles against a **published assessment** — and because its decisive
+material is obtainable in fetchable, text-extractable form: two peer-reviewed papers' **author-archived
+accepted versions** and the **exchange's own contract handbook**. (ii) *Could the negative rest on verified
+documents?* The most quotable papers — the "Physical-Paper Hypothesis" paper (Ko & Chang 2024), the
+unbiasedness paper (Kavussanos, Visvikis & Menachof 2004) and the liquidity-premium paper (Alizadeh,
+Kappou, Tsouknidis & Visvikis 2015) — were each **blocked** (HTTP 403, a JavaScript challenge, and a
+paywall plus a 404 respectively), so the rule was applied literally: those three are **index-rendered
+neighbours only**, they are **not** used as a verification basis for any reason, and each failure is
+recorded as an honest negative. The same rule was applied to the **venue's own FFA pages** (bot challenge on
+every route) and to the **live market data** on the exchange's product page, which was **deliberately not
+captured** on the Cycle-88 precedent. (iii) *What about the Cycle-90 record?* A bounded negative that rests
+on no source does not meet the register's own standard, and the cycle-90 text itself says "No sources
+fetched". The critique was that the honest repair is **not** to delete the record and **not** to leave it
+unevidenced, but to **re-issue it under a fresh identifier and supply the line-verified grounds now** —
+which is what Cycle 91 did, with three new sources for that family alone. Housekeeping had to stay
+lossless: nothing may be moved, relabelled or renumbered to tidy a file, the two new baseline rows were
+written in identifier order (row 88 = R-051, row 89 = R-052), and every count in every header was
+**re-derived from the files** rather than carried forward — which is how the Cycle-90 handoff's claim of
+"343 verified sources (S-001 … S-350)" was found to be wrong.
+
+**Pass 3 — Revise.** Repair the duplicate identifier first, then run the freight-derivative screen against
+the pre-registered rule, stopping at five independent reasons; write the **R-051** and **R-052** records in
+the register's standard form; write the two **known-baseline rows**; register the **six new sources
+(S-350 … S-355)** with their verification labels and caveats; record the **honest negatives** and the
+**state-integrity repairs**; re-run the rubric arithmetic; and rewrite the handoff for Cycle 92.
+
+### Outcomes
+
+1. **State-integrity repair — the duplicate R-041 and the missing evidence under the Cycle-90 record.** The
+   Cycle-90 cat-bond screen had been written into `rejected_and_parked.md` under the identifier **R-041**,
+   which **Cycle 61 had already consumed** (published-count/queue-state template (D), baseline row 70); the
+   file held 51 headings and 50 distinct identifiers. The Cycle-61 entry **stands at R-041**; the Cycle-90
+   screen is **re-issued as R-051** (the discipline used for R-017 in Cycle 37 and R-025 in Cycle 51), and
+   the Cycle-90 cycle-log block is **annotated in place rather than erased**. The re-issue also **supplied
+   the grounds the record lacked**: the Cycle-90 record cited **no document at all** — it called the premium
+   "well-documented" and closed the screen on that basis — so it is now restated as five independent reasons,
+   each tied to a line-verified passage, and its "Published baseline" bullet is replaced by a sourced one.
+   **No verdict, no baseline-row count, no score and no rank changed by the re-issue.**
+
+2. **New mechanism family screen — the freight-derivative contract-pricing family — BOUNDED NEGATIVE
+   (R-052).** The family (the Baltic Exchange's dry-bulk FFA forward curve; the SCFIS (Europe service)
+   container-freight futures listed on the Shanghai International Energy Exchange; and the published
+   container spot indices against which those contracts settle) was confirmed **absent from the known-baseline
+   table and from every earlier screen**, and was screened against a pre-registered decision rule with
+   **five independent reasons**: (i) **the premium and its decomposition are published** — "the bulk of basis
+   volatility can be attributed to expectations about future physical market conditions rather than
+   expectations about future risk premia", with "significant predictability of risk premia by both price-based
+   signals and economic variables" (S-350); (ii) **the trade itself is published, with published results and
+   published caveats** — "trading rules do outperform the buy-and-hold benchmark in general", "even after
+   accounting for transaction costs and order delays induced by thin trading", with the authors' own caveat
+   of "illiquidity and a small sample size" (S-351); (iii) **the cost floor and the market's own structure
+   bind** — brokered OTC execution "subject to 'friction' in terms of the speed of execution, liquidity and
+   transaction costs" (S-351), and an exchange-traded leg whose own venue handbook specifies a 12%→20%→30%
+   margin ladder, a ±10% daily price limit, six listed months and cash settlement on the mean of three
+   weekly index prints (S-352); (iv) **the sign-or-existence limb is not met** — the forward curve is
+   published at decision time and already carries the information, and the published conditioners are
+   literature-standard and lagged (S-350); and (v) **the sample and the regime are adverse** — monthly data
+   ending in 2016 (S-350) and a published robustness check that removes 1 April – 24 December 2008, with the
+   published framing of the edge as a "younger market" result (S-351). The family was written to the
+   known-baseline table as **row 89**; no dossier was created; no `IDEA-` identifier was consumed; no gap
+   was opened.
+
+3. **Six sources registered: S-350 … S-355.** **S-350** (Moutzouris & Nomikos 2019, *Journal of Futures
+   Markets* 39(8): 1008–1031 — Crossref-verified metadata, **line-verified from the authors' accepted
+   version** in the City Research Online repository; the publisher's version of record is paywalled and was
+   **not** obtained); **S-351** (Nomikos & Doctor 2013, *Transportation Research Part E* 52: 77–93 —
+   Crossref-verified metadata, **line-verified from the authors' accepted version** in the same repository);
+   **S-352** (the INE/SHFE *Containerized Freight Index (Europe service) Futures Trading Handbook, 2023
+   Edition* — **line-verified from the venue's own handbook**); **S-353** (Braun & Kousky, "Catastrophe Bonds",
+   Wharton Impact, July 2021 — **line-verified**; an educational primer, **not peer-reviewed**, used only for
+   the instrument's published mechanics); **S-354** (Ando, Fu, Roch & Wiriadinata, IMF Staff Climate Note
+   2022/004 — **line-verified**; a staff note, **not peer-reviewed**); **S-355** (Supreme Court of Bermuda,
+   Commercial Court, 2020: No. 369, *Aeolus Re Ltd v CS ILS SICAV-SIF et al*, [2022] SC (Bda) 30 Com —
+   **line-verified**; a **primary legal document**). **Eight honest negatives** are recorded in the ledger:
+   the T&F, Wiley, Springer, IMF-GFSR, OECD, Baltic-Exchange, Freightos and FIA routes, and the
+   working-paper route for the liquidity-premium paper. Three papers were sought as **neighbours** and are
+   **not** used as a verification basis for anything: **Ko & Chang (2024)**, *Maritime Policy & Management*
+   51(5): 717–744; **Kavussanos, Visvikis & Menachof (2004)**, *Review of Derivatives Research* 7(3): 241–266;
+   and **Alizadeh, Kappou, Tsouknidis & Visvikis (2015)**, *Transportation Research Part E* 76: 58–75.
+
+4. **A partially written, unverified baseline row was corrected rather than inherited.** A draft row for
+   the freight family had mis-attributed three published results ("Gong & Lu 2024" for the paper that is
+   **Ko & Chang (2024)**; "Kavussos et al., *Transportation Research Part E*, 2015" for the paper that is
+   **Alizadeh, Kappou, Tsouknidis & Visvikis (2015)**; "Wiley Futures 2019", where "Wiley" is the
+   **publisher** and not an author — the paper is **Moutzouris & Nomikos (2019)**), had attributed the
+   unbiasedness result to two papers that do not carry it, had asserted an **FIA volume comparison** that
+   could not be verified on any route, and had quoted **live open-interest figures** rendered on the
+   exchange's own market page. The row was rewritten to the register's standard: the mis-attributions were
+   corrected, the two unverified attributions were replaced with the verified ones, the volume claim was
+   **removed**, and the live market data was **deliberately not captured**.
+
+5. **Housekeeping (lossless) and the rubric-arithmetic re-run — clean.** Re-ran the check across all four
+   active candidates and the parked IDEA-010: **IDEA-011 4/3/3/4/2/5 = 69.0** (rank 1), **IDEA-004
+   4/4/1/3/3/3 = 63.0** (rank 2), **IDEA-009 3/3/1/3/2/4 = 53.0** (rank 3), **IDEA-014 3/2/3/2/2/4 = 52.0**
+   (rank 4), **IDEA-010 (terminal) 4/4/1/2/2/2 = 55.0** (parked, P-014, unranked) — every total equals the
+   register's own rule (weights 25/20/15/15/15/10; per-point values 5.0 / 4.0 / 3.0 / 3.0 / 3.0 / 2.0):
+   345 → 69.0; 315 → 63.0; 265 → 53.0; 260 → 52.0; 275 → 55.0. **No score, no rank, no tie-break, no
+   hard-stop flag changed.** Counts re-derived from the artifact files and written into the headers: **52
+   rejections (R-001 … R-052)**, **89-row known-baseline table**, **345 verified sources** (S-001 … S-209,
+   S-220 … S-355; S-210 … S-219 reserved and unused), 15 dossiers (4 active, 6 parked, 5 rejected), 10
+   specifications (8 not executable), 13 parking records of which 12 remain active, gaps **G-01 … G-36**.
+
+6. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 91 banner,
+   re-derived counts and identifiers, the frozen/exhausted/dated items restated, the honest negatives and
+   the Cycle-91 state-integrity repairs carried forward, and a fresh, self-contained initial task message for
+   the next agent.
+
+**No score changed.** Active ranking unchanged: **IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009
+53.0 (rank 3), IDEA-014 52.0 (rank 4)**; IDEA-010 parked (P-014) at a terminal 55.0, unranked. **No gap
+opened and none closed. No `IDEA-`, `V-`, `G-` or `P-` identifier consumed. Two `R-` identifiers consumed
+(R-051, R-052), six `S-` identifiers consumed (S-350 … S-355), two known-baseline rows added (rows 88, 89).
+Next free identifiers: IDEA-017, S-356, V-012, G-37, R-053, P-015.**
