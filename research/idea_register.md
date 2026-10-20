@@ -3335,7 +3335,7 @@ reversal after costs, and does it add anything to the published funding arbitrag
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
 
 - **ID / short name:** IDEA-010 / CREDIT-ETF
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.2
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** **parked (P-014, Cycle 78)** · **Version:** 1.2 (terminal)
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 6 — re-scored 68.0 → 65.0:** the mechanism's core (AP inventory and balance-sheet
   constraints driving ETF–NAV dislocations) is published institutionally (S-123), so novelty falls
