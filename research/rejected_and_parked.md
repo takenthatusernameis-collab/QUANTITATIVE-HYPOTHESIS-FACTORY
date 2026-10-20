@@ -1950,3 +1950,20 @@ advice):
 **Dated re-screen condition:** Re-screen only if a continuously published, decision-time count/queue state shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions.
 
 **Decision:** **bounded negative (R-041).** The published-count/queue-state family is recorded in the known-baseline table (**row 70**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**.
+
+---
+
+## R-042 — Published reserve/availability/headroom state at decision date (template E) — bounded negative
+
+**Family screened.** Published reserve/availability/headroom state at decision date: margin cushion/buffer, available capacity/headroom, position-limit headroom, inventory availability. Screened against literature with strict bar (published decision-time state, sign-determining not just magnitude, unclaimed sign, no published baseline, feasible clean test; Cycle-52 third test).
+
+**Reasons (independent):**
+1. **Published baseline levels, not unclaimed sign-determiners:** Reserve/headroom levels are widely published as baseline indicators; the literature treats them as state variables that condition effects (e.g. margin constraints) rather than as unclaimed edges where the count/level itself produces a new, unclaimed sign-determining effect distinct from published baselines.
+2. **Fails G-12 (sign/existence):** Conditioning on reserve/availability changes magnitude in published work more often than it changes the sign or existence of an effect in an unclaimed way. No instance was identified where a published reserve/headroom threshold clearly flips existence of a known effect without the sign already being claimed.
+3. **State form / G-13 risk:** Many reserve/availability measures are either fixed schedule-level figures or published with a lag relative to the decision; to be usable as decision-time state the measure must be published before the decision at the needed cadence. Continuously published, decision-time headroom meeting the bar is uncommon as a general template.
+4. **Anticipation/competition:** Where reserve/headroom is public and widely observed, market participants anticipate binding thresholds; effects are competed away or already embedded in prices.
+5. **No feasible clean test with unclaimed mechanism:** No candidate mechanism passes the strict bar for this family.
+
+**Dated re-screen condition:** Re-screen only if a continuously published, decision-time reserve/availability/headroom state shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions.
+
+**Decision:** **bounded negative (R-042).** The published-reserve/availability/headroom family is recorded in the known-baseline table (**row 71**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**.
