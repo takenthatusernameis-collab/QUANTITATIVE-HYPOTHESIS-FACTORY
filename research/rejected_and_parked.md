@@ -5,13 +5,13 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 45 complete, 2026-10-20. **24 rejections (R-001 … R-025), 12 parkings
+Last updated: Cycle 46 complete, 2026-10-20. **25 rejections (R-001 … R-026), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
 constraint family — bounded negative). Cycle 45 added **R-025** (the tax/settlement-mandate switch family — bounded
-negative). Cycle 40 also
+negative). Cycle 46 added **R-026** (the exchange fee/schedule change family — bounded negative). Cycle 40 also
 **merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
@@ -299,17 +299,17 @@ negative). Cycle 40 also
   4. **Effective sample small** — rule changes are discrete events with limited degrees of freedom; no unclaimed sign identified.
 - **Decision:** bounded negative (R-024). No dossier created; no IDEA identifier consumed; no score changed.
 
-### R-025 — Tax/settlement-mandate switch (Cycle 45 family screen — bounded negative)
+### R-026 — Exchange fee/schedule change creating temporary concession (Cycle 46 family screen — bounded negative)
 
-- **The family screened.** A mandate changing tax or settlement obligations with a published effective date (e.g., changes to securities settlement cycle mandates).
-- **Instances considered.** T+1 transition and related settlement mandate changes.
+- **The family screened.** Exchange rule changes affecting fee schedules or trading hours/auctions with published effective dates creating temporary asymmetries (e.g., exchange fee changes affecting market makers).
+- **Instances considered.** Exchange fee schedule changes announced with published effective dates.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
 - **Rationale — four independent reasons:**
-  1. **Published in advance** — mandates are announced with effective dates (satisfies G-13).
-  2. **No unclaimed sign** — T+1 transition effects are published (S-113/S-114/S-115 show improved liquidity and reduced volatility), so the sign is claimed.
-  3. **Broad market structure change** — affects all participants; not creating a targeted third-party concession flow harvestable in a clean trade.
-  4. **Effective sample limited** — mandate changes are rare, discrete events.
-- **Decision:** bounded negative (R-025). No dossier created; no IDEA identifier consumed; no score changed.
+  1. **Published in advance / anticipated** — changes are announced with effective dates (satisfies G-13); market participants anticipate and adjust.
+  2. **Broad-based cost change** — affects all participants broadly rather than creating third-party forced flow to a specific concession.
+  3. **Published baseline** — fee changes are cost/risk controls with known effects; no unclaimed sign identified.
+  4. **Effective sample limited** — discrete rule changes with limited degrees of freedom; no clean harvestable third-party concession mechanism.
+- **Decision:** bounded negative (R-026). No dossier created; no IDEA identifier consumed; no score changed.
 
 
 ## Parked (not rejected; blocked on a specific question)
