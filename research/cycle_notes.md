@@ -242,3 +242,23 @@ Theory-only cycle executing the priorities from the Cycle-47 handoff. No tests, 
 3. **G-21 (IDEA-011) and IDEA-014 state-free limb** — null and inconclusive maintained.
 4. **New mechanism family screen — IPO lock-up expirations (R-028).** Bounded negative: published baseline, discretionary flow, anticipated, no unclaimed sign. No candidate, no dossier, no score change.
 5. **No score changed.** Active ranking unchanged. New identifier consumed: R-028. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-029, P-014. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from files; handoff rewritten for Cycle 49.
+
+---
+
+## Cycle 49 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-48 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) G-30 confirm exhaustion, no re-probe; (2) G-28 keep frozen; (3) G-21 and IDEA-014 maintain verdicts; (4) one new mechanism family screen (scheduled options-expiry dealer-hedging flow), log as R-029; (5) wrap up.
+
+**Pass 2 — Critique.** OPEX dealer-hedging is a published, anticipated family; expect bounded negative on published baseline and third-party-concession test. Screen against literature first.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+1. **G-30 (IDEA-010)** — routes outside statutory prospectus remain exhausted (not found). Confirmed. V-010 non-executable.
+2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. Null recorded.
+3. **G-21 (IDEA-011) and IDEA-014 state-free limb** — null and inconclusive maintained.
+4. **New mechanism family screen — scheduled options-expiry (OPEX) dealer-hedging flow (R-029).** Bounded negative: published baseline, anticipated, no third-party concession mechanism, limited effective sample. No candidate, no dossier, no score change.
+5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-029. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-030, P-014. All artifacts updated; handoff rewritten for Cycle 50.

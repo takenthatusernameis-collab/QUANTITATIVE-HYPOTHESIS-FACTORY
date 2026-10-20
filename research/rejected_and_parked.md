@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 48 complete, 2026-10-20. **27 rejections (R-001 … R-028), 12 parkings
+Last updated: Cycle 49 complete, 2026-10-20. **28 rejections (R-001 … R-029), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
@@ -332,6 +332,17 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
   2. **Discretionary flow** — insiders/affiliates choose whether and when to sell (subject to insider trading rules), so flow is not fully price-insensitive/non-discretionary; announcement is in prospectus but execution is discretionary.
   3. **Anticipation and costs** — effects are anticipated and widely studied; no unclaimed sign survives strict bar for a harvestable third-party concession.
 - **Decision:** bounded negative (R-028). No dossier created; no IDEA identifier consumed; no score changed.
+
+### R-029 — Scheduled options-expiry (OPEX) dealer-hedging flow as a harvestable concession (Cycle 49 family screen — bounded negative)
+
+- **The family screened.** Scheduled monthly/quarterly options expirations (OPEX) that force dealer gamma/charm hedging flows, creating predictable intraday pressure that a third-party could harvest.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale:**
+  1. **Published baseline** — OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented; intraday pinning and expiration-week dynamics are published and sized.
+  2. **Anticipated** — expiry calendars are published years in advance; all participants pre-position; no unclaimed sign survives.
+  3. **No third-party concession** — the constrained flow is the dealer's own hedging response to its book, not a price-insensitive third-party forced flow creating a harvestable concession to an arbitrageur.
+  4. **Effective sample limited** — discrete monthly/quarterly events with high anticipation; no clean securities×dates design with an unclaimed sign.
+- **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score changed.
 
 ## Parked (not rejected; blocked on a specific question)
 
