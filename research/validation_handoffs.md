@@ -105,17 +105,21 @@ withdrawn**.
 
 ---
 
-**Cycle 58 update — no specification withdrawn, none added, none amended.** No candidate entered or
+**Cycle 58 update — no specification withdrawn, none added, one amended (V-009).** No candidate entered or
 left the **top three** and no score changed, so the executable set is unchanged in membership:
-**V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52 and Cycle-56 amendments
-below), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**,
-and **V-003 is never-to-execute**. **G-30 remains exhausted** (all four sub-routes closed; no new route;
+**V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58**
+amendments below), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain
+withdrawn**, and **V-003 is never-to-execute**. **G-30 remains exhausted** (all four sub-routes closed; no new route;
 **no statutory filing re-run**), so **V-010 remains non-executable against the corporate-bond ETF
 universe** and must not be executed against a substituted crowding proxy. **G-28 and V-002 remain
 frozen** — the null was re-derived once more and this cycle reached a *structural* reason for it: every
 published position-disclosure source is security-level and single-sided, so no published measure can
 represent a convergence crowd, which is defined by a pair of positions (S-291, S-296, S-242, S-026,
-S-222, S-157 each measure a different crowd). **IDEA-014's state-free existence limb remains
+S-222, S-157 each measure a different crowd). **G-04, the proxy-validity kill condition that V-002 was
+originally frozen pending, was closed in the candidate's favour** — every crowding construct the register
+holds has already been validated against a published *outcome*, so the comomentum-versus-holdings
+cross-validation the specification was waiting for will never arrive because it was never needed; the
+freeze is now carried entirely by G-28's identity limb. **IDEA-014's state-free existence limb remains
 inconclusive** and no specification may be written for it. The substantive change this cycle is **not**
 to a specification: **IDEA-002 (FUNDSTATE) was rejected (R-038)** after G-01 was executed and closed as
 a negative, and **no specification had ever been issued for it** (it was parked, P-004, precisely
@@ -123,7 +127,11 @@ because G-01 was open), so **nothing is withdrawn** — the parking entry P-004 
 Cycle-58 family screen — **contractual barrier hedging** (the published knock-out level of an
 autocallable or structured note and the issuer's hedging discontinuity), logged as **R-037** — is a
 bounded negative and creates no validation specification; its reasons are independent of data
-availability, so no gap is opened. No new `V-` identifier was consumed in Cycle 58.
+availability, so no gap is opened. **V-009 is amended, not re-created**: the comparability break is now
+**bounded to presentation** (IFRS 18 changes no recognition, measurement, cash flow or balance sheet —
+S-281, S-285), and the claim must be pre-registered as a **transition-window** effect, because the
+published steady-state comparability evidence runs the other way (S-294, S-295). No new `V-` identifier was
+consumed in Cycle 58.
 
 ---
 
@@ -558,6 +566,29 @@ candidate's own universe at this candidate's cadence, or a published validation 
 against an outcome; the published crowding neighbours (S-026, S-157, S-222, and now S-241, S-242,
 S-243) may not be substituted, because they measure a different crowd. No score change; no
 re-specification is written while the candidate is frozen.
+
+**Cycle 58 note — V-002 remains frozen, and the freeze now rests on a *structural* reason rather than a
+search-based one.** Cycle 58 executed the **G-04 proxy-validity kill condition** and closed it **in the
+candidate's favour**: every crowding construct the register holds has already been validated against a
+*published outcome* — the holdings-based Days-ADV construct against crash and tail risk (S-026, S-222),
+the correlation-based comomentum construct against arbitrage activity and returns (S-157), and, newly
+registered this cycle, the position-based arbitrage-activity measures (S-291: abnormal hedge-fund
+holdings, abnormal short interest and their net combination), the short-interest arbitrage-capital measure
+(S-242) and the ownership-dispersion construct (S-296). **The cross-validation this specification was
+originally frozen pending will never arrive because it was never needed** — each construct had been
+validated against an *outcome* from the start.
+**What this changes for the frozen specification.** The freeze is now carried *entirely* by **G-28's
+identity limb**, and Cycle 58 strengthened the unfreezing condition rather than relaxing it: **every
+published position-disclosure source is security-level and single-sided** — because each is built from
+*disclosed aggregate positions in securities* — **while a convergence crowd is defined by a pair of
+positions** (long one leg, short the other). The same disclosed long holding may be a convergence leg or
+a directional bet, and the short leg is either invisible or contaminated by unrelated shorting. The
+absence is therefore a property of the available sources, not of the register's searching, and a future
+unfreezing must supply a measure that is itself **pair-level and netted** — or a published validation of a
+construction against an outcome — and, per the Cycle-52 addition, one that is **not** a public real-time
+by-product of the crowd's own trading. The published crowding neighbours (S-026, S-157, S-222, S-241,
+S-242, S-243, S-291, S-296) **may not be substituted**, because each measures a different crowd. No score
+change; no re-specification is written while the candidate is frozen.
 
 ---
 
@@ -1509,6 +1540,79 @@ change the hypothesis, the universe, the outcome or the cost model.
    cost model, the execution assumptions, the guardrails, the separation rule and the kill criteria are
    **unchanged**. The anti-peeking requirement now also covers the Cycle-56 pre-registrations, including the
    G-33 reporting requirement.
+
+### Cycle-58 amendment (binding) — the comparability break is **bounded to presentation**, and the claim must be pre-registered as a **transition-window** effect
+
+Cycle 58 executed the **G-21** question and read two further facts out of the G-33 documents themselves.
+Both change what a validator may build, so this is an amendment rather than a note. The hypothesis, the
+event universe, the cost model, the guardrails, the separation rule and the kill criteria are **unchanged**.
+
+1. **The comparability break is bounded to *presentation* — and it is not confined to the statement of
+   profit or loss.** Two issuers' own words settle the first half of it: Standard Life's interim report
+   states that "IFRS 18 does not change the recognition or measurement of assets, liabilities, income or
+   expenses" (**S-285**), and Repsol's states that the standard "will not have an impact on the Group's
+   income, cash flows or financial position" (**S-281**). **IFRS 18 changes no recognition, no measurement
+   and no reported amount.** The second half is settled by the same documents' wording on scope, and it
+   corrects an over-narrow statement made earlier in this cycle: Repsol's note says the standard "will
+   introduce new presentation criteria (mainly with respect to the income statement **and statement of
+   cash flows and, to a lesser extent, the balance sheet**)"; the criteria for presenting certain items
+   apply "both in the income statement … and in the statement of cash flows (most notably dividends received
+   from investees within investing cash flows)"; and "operating income" becomes "the new starting point for
+   preparing the statement of cash flows" (S-281). The Tadawul index rendering says the same of the
+   reconciliation's starting point and adds that goodwill must be presented as a separate line (S-286,
+   index-rendered, not line-verified). **A validator's rule is therefore:**
+   - **MAY NOT** attribute drift to a **measurement** change, to a **recognition** change, or to any change
+     in a **reported amount** (income, cash flow or financial position), on the strength of an IFRS 18
+     adoption — none exists (S-281, S-285).
+   - **MAY NOT** confine the attribution to the **profit or loss statement**. The break also reaches the
+     **statement of cash flows** (new starting point: operating income; operating/investing
+     reclassification) and, to a lesser extent, the **balance sheet** (goodwill as a separate line), plus
+     the aggregation, disaggregation and management-performance-measure disclosures in the notes.
+   - **MUST** treat the break as a **presentation** break wherever it is measured, and **MUST** quantify it
+     at whichever of the three primary statements it is measured on, rather than inferring its size from the
+     profit or loss statement alone.
+   The narrowing still **reduces the search space** the validator is asked to attribute, and it is a narrowing
+   read out of the primary issuer documents rather than assumed. **Correction notice (Cycle 58, Repair 8):
+   an earlier version of this amendment stated that the break ran over the profit or loss statement "and
+   over nothing else — no cash-flow, no balance-sheet, no measurement change". The measurement limb was
+   right; the cash-flow and balance-sheet limbs were wrong and are corrected here. A validator working from
+   the superseded wording would have wrongly excluded cash-flow and balance-sheet surfaces.**
+2. **The claim must be pre-registered as a transition-window effect, and steady-state comparability results
+   may not be used as support.** The field's largest comparability study (S-294) measures the **level** of
+   information quality *after* comparability has improved — earnings quality, liquidity, analyst forecast
+   accuracy and agreement — and its design is a **first-time-adopter** design by construction; the nearest
+   published outcome family (S-295) is likewise first-time-adopter. The published steady-state evidence
+   therefore runs **the other way** from the candidate's claim. A validator must, **before the holdout is
+   opened**, pre-register that the hypothesis under test is a **transition-window** effect — drift between
+   the adoption announcement and the first full post-adoption reporting period — and must report the
+   steady-state comparability outcome as a **descriptive control**, not as evidence for the claim. This is
+   the same discipline the Cycle-52 amendment imposed on the enforcement and linguistic-distance controls:
+   a published conditioner may not be presented as the candidate's own.
+3. **The G-21 comparator is confirmed unused by the field, which changes what a null would mean.** The
+   first-time-versus-second-time-adopter comparison on drift is still unrun after three cycles of checking
+   (Cycles 37, 52 and 58), and Cycle 58 established the stronger form: the discriminator is not merely
+   unrun but **unused by the field's largest study**, whose design *is* first-time-adopter by construction.
+   A validator must therefore treat the comparator as a **contribution**, not a replication, and must
+   report the comparator's own power and the reason it was not run in the published literature — a null in a
+   design that no one has run before is **not** evidence that the mechanism is absent.
+4. **A second independent confirmation of the EU endorsement date, and no change to the dated windows.**
+   Airbus SE's H1 2026 financial statements state that "IFRS 18 has been endorsed by the EU on 13 February
+   2026" (**S-283**), matching S-268, so G-32 limb (a)'s closure rests on two independent primary
+   confirmations. The event and outcome windows fixed by the Cycle-56 amendment (the **2027 interim** cycle
+   carries the first IFRS 18 reports; the 2026 interim and annual reports carry the pre-adoption impact
+   disclosures) are **unchanged**, and the **G-33 dependency** of arm A is **unchanged** — arm A still
+   cannot be reported as a result unless the validator states the quantification rate and cross-issuer
+   comparability of the disclosed expected effect, and reports "untested" where the state cannot be
+   constructed for a material share of the sample. (On the Cycle-57 evidence, the quantification rate in the
+   six-issuer sample was **0 of 6**, so on current evidence arm A is **not** runnable; this amendment does
+   not change that, and no validator should be encouraged to attempt it against the published disclosures.)
+5. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's
+   score (69.0, rank 1) is **unchanged**, on the Cycle-35/52 precedent: the Cycle-58 sources support the
+   *mechanism* and *bound its scope*, and sharpen what the *literature has not done*, but they do not
+   support the *directional drift claim*. The frozen hypothesis below is unchanged in its wording. The
+   anti-peeking requirement now also covers the two pre-registrations above: the transition-window
+   pre-registration and the presentation-surface attribution must both be fixed before the holdout is
+   opened, and any change to them must be logged with a date and a reason.
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
 years in advance and the affected firms are knowable ex ante. The market incorporates the

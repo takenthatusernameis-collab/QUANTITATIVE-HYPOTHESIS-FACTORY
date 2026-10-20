@@ -23,12 +23,12 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-291`; `S-210 … S-219` are **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-310`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and amended), rejections are `R-0NN` (next free: `R-037`), parkings are `P-0NN` (next
+   is written and amended), rejections are `R-0NN` (next free: `R-039`), parkings are `P-0NN` (next
    free: `P-014`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-34`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 58`).
+   (next: `Cycle 59`).
    A reserved identifier is one that a prior cycle claimed in writing but never wrote into an
    artifact; it is left unused on purpose so that a later reconstruction of that work cannot collide
    with a new one.
@@ -39,7 +39,13 @@ defined by the canonical mission prompt, which is **not** to be modified:
    own site) before it enters the ledger: identifiers supplied by a search or research agent have
    been found wrong, and one registered working paper carries a fabricated bibliography. Record
    whether a document was **fetched directly** or read only through a **search index**, and never
-   present an index-rendered quotation as a directly parsed document.
+   present an index-rendered quotation as a directly parsed document. **A quotation that cannot be
+   re-checked by extracting the document's text layer is not yet a quotation** — extract it, or
+   record the entry as index-rendered and unattributed. **A failed retrieval must be recorded as a
+   failed retrieval**: mark the entry NOT VERIFIED, list the routes tried and their failure modes, label
+   the wording as index-rendered, and restate the corpus's verification status (how many items are
+   line-verified versus index-confirmed). Never let a "fetched directly" verification line stand on a
+   document that was in fact unreachable.
 4. **Never invent a citation.** Every external claim in a dossier points to an `S-0NN` entry in the
    source ledger, and every ledger entry records how it was verified. If a claim cannot be sourced,
    mark it as an unresolved conjecture in the dossier.

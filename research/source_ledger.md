@@ -1,18 +1,25 @@
 # SOURCE LEDGER — CYCLES 1–58
 
-Cycle 58 (2026-10-20) added **S-291 … S-308** (see "Cycle 58 sources" at the end of this file), the
-**"Cycle 58 gap verdicts"** block, and the **"Cycle 58 state-integrity repairs"** block. Cycle 58's
-substantive work was (i) **closing G-01 as a negative and rejecting IDEA-002 (R-038)**; (ii) a **bounded
-re-check of G-04 and G-28** (IDEA-004) that produced a **structural** — not merely an absence-of-search —
-reason why no published convergence-crowd concentration measure can exist; (iii) a **bounded re-check of
-G-21** (IDEA-011) that maintained the null and sharpened it from "unrun" to "unrun *and* unused by the
-field's largest comparability study"; (iv) the **first screen of a contractual-barrier-hedging family**
-(R-037, bounded negative); and (v) a **state-integrity repair of the Cycle-57 source block**, which found
-**two mis-stated titles, one mis-stated author initial, one unverifiable entry, one wrong volume/issue,
-one duplicate registration**, and **six issuer documents whose quoted disclosure language had been
-recorded as paraphrase**. Cycle 58 changed no score for IDEA-004, IDEA-009, IDEA-010, IDEA-011 or IDEA-014
-and **rejected one candidate (IDEA-002)**. The register now holds **S-001 … S-209** and **S-220 … S-308**;
-the identifiers **S-210 … S-219** remain reserved and unused.
+Cycle 58 (2026-10-20) added **S-291 … S-309** (see "Cycle 58 sources" at the end of this file), the
+**"Cycle 58 gap verdicts"** block, the **"Cycle 58 state-integrity repairs"** block and the
+**"Cycle 58 second-pass corrections"** block. Cycle 58's substantive work was (i) **closing G-01 as a
+negative and rejecting IDEA-002 (R-038)**; (ii) a **bounded re-check of G-04 and G-28** (IDEA-004) that
+closed G-04 **in the candidate's favour** on the proxy-validity limb and produced a **structural** — not
+merely an absence-of-search — reason why no published convergence-crowd concentration measure can exist;
+(iii) a **bounded re-check of G-21** (IDEA-011) that maintained the null and sharpened it from "unrun" to
+"unrun *and* unused by the field's largest comparability study"; (iv) the **first screen of a
+contractual-barrier-hedging family** (R-037, bounded negative); and (v) **two passes of state-integrity
+repair** — the first over the Cycle-57 source block, which found **two mis-stated titles, one mis-stated
+author initial, one unverifiable entry, one wrong volume/issue, one duplicate registration**, and **six
+issuer documents whose quoted disclosure language had been recorded as paraphrase**; the second, an
+independent re-derivation of the Cycle-58 sources, which found and corrected **eight further defects**
+(two wrong volume/issue records, a truncated title, a wrong online date, an unconfirmed issue number, a
+single-authored paper described as four-authored, a typographic alteration inside a quotation, and **two
+paraphrases presented as quotations**) and added **S-309**, the published strategy-level claim on the
+R-037 family. Cycle 58 changed no score for IDEA-004, IDEA-009, IDEA-010, IDEA-011 or IDEA-014,
+**rejected one candidate (IDEA-002)** and **amended V-009** (not re-created it). The register now holds
+**S-001 … S-209** and **S-220 … S-309** — **299 verified sources**; the identifiers **S-210 … S-219**
+remain reserved and unused.
 
 Cycle 57's header omission is repaired here: Cycle 57 appended its sources, gap verdicts and identifier
 record at the end of this file but did not update this header, so for one cycle the header described Cycle
@@ -6851,53 +6858,181 @@ table.
 
 ## Cycle 57 sources
 
-**S-281 — Repsol S.A., H1 2026 interim condensed consolidated financial statements.** Six-month period ended
-30 June 2026. Contains an IAS 8 paragraph 30–31 pre-adoption impact disclosure for IFRS 18 stating that the
-impact is "still being assessed" and that no quantified expected effect on operating profit or any subtotal
-is provided. Filed directly via Repsol's investor-relations document index (issuer's own site).
-**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
-unquantified, qualitative only. **Caveat:** interim-report HTML rendered by the issuer's document viewer;
-no XBRL tagged concept independently parsed.
+**S-281 — Repsol S.A., H1 2026 condensed consolidated interim financial statements, Note 3.3 "Nuevos
+estándares contables".** Six-month period ended 30 June 2026.
+URL (Spanish original, the CNMV filing and the authoritative text): https://www.repsol.com/content/dam/repsol-corporate/es/accionistas-e-inversores/cnmv/2026/oir23072026-estados-financieros-resumidos-consolidados-primer-semestre-2026.pdf
+URL (issuer's own English free translation): https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/cnmv/2026/ori23072026-the-company-submits-financial-information-for-the-first-half-of-2026.pdf
+**Verbatim (English PDF, PDF line-wrapping joined, wording unchanged):** "With regard to the future
+application of IFRS 18 "Presentation and Disclosure in Financial Statements", although this standard will
+not have an impact on the Group's income, cash flows or financial position, it will introduce new
+presentation criteria (mainly with respect to the income statement and statement of cash flows and, to a
+lesser extent, the balance sheet) as well as new disclosure requirements and criteria for aggregating and
+disaggregating information in the financial statements and in the notes. The main impacts identified
+correspond primarily to the three categories for presenting income and expenses (operating, investing and
+financing) and the subsequent new subtotals (" operating income" and " income before financing and taxes
+"); the criteria for presenting certain items, both in the income statement (most notably the presentation
+of exchange differences within each category based on the nature of the item giving rise to such
+differences) and in the statement of cash flows (most notably dividends received from investees within
+investing cash flows); and the fact that "operating income" is considered to be the new starting point for
+preparing the statement of cash flows. As of the date of authorization for issue of these Financial
+Statements, the Group is still assessing the impacts arising from the application of this standard."
+**The Spanish original reads:** "En lo relativo a la futura aplicación de la NIIF 18 - Presentación y
+desgloses de información en los estados financieros, esta norma, si bien no tendrá impacto en el resultado,
+en los flujos de efectivo, ni en la posición financiera del Grupo, sí incorporará nuevos criterios de
+presentación -fundamentalmente en lo que respecta a la cuenta de pérdidas y ganancias y al estado de flujos
+de efectivo y, en menor medida, al balance de situación- así como nuevos requerimientos de desglose de
+información y criterios de agregación y desagregación …" and closes "A la fecha de formulación de estos
+Estados Financieros, el Grupo continua evaluando los impactos derivados de la aplicación de esta norma."
+**Verification:** both PDFs fetched directly (HTTP 200; 1,003,167 and 1,005,532 bytes) and their text layers
+extracted with pypdf; the quoted passage was located in the extracted text of each, so the wording is
+line-verified, not index-rendered. **Supports:** G-33 sample read — disclosure present, **unquantified** (no
+number, percentage or restated comparative), and the most scope-explicit in the sample: it names the two
+new subtotals, the reclassification criteria, and the new cash-flow starting point. **Caveat:** the
+disclosure sits in the **financial statements**, not the management report — the issuer's separate H1 2026
+consolidated interim management report (https://www.repsol.com/content/dam/repsol-corporate/es/accionistas-e-inversores/resultados/2026/2t/informe-gestion-intermedio-consolidado-primer-semestre-2026.pdf,
+HTTP 200, 3,640,538 bytes) contains **zero** occurrences of "NIIF 18" or "IFRS 18". The note is a
+"standards issued but not yet effective" note: it does **not** cite IAS 8 (0 occurrences in the extracted
+text).
 
-**S-282 — Euronext Securities Athens S.A., H1 2026 interim financial report.** Six-month period ended
-30 June 2026. Contains an IFRS 18 pre-adoption disclosure stating the Group is "evaluating the impact" and
-that no quantified effect on results or financial position is estimable at this date. Filed via the Athens
-Exchange listed-company announcements.
-**Verification:** issuer/exchange document fetched directly. **Supports:** G-33 sample read — disclosure
-present, unquantified, qualitative only. **Caveat:** index-rendered HTML announcement; full PDF not
-independently re-parsed.
+**S-282 — Euronext Securities Athens S.A., "Six month 2026 financial report", Note 4.3.2 "New standards,
+amended standards and interpretations".** Six-month period ended 30 June 2026.
+URL: https://athens.euronext.com/sites/default/files/2026-07/Euronext_Securities_Athens_H1_2026_Financial_Report_EN.pdf
+**Verbatim (PDF line-wrapping joined):** "In April 2024 the International Accounting Standards Board (IASB)
+issued a new standard, IFRS 18, which replaces IAS 1 'Presentation of Financial Statements'. The objective
+of the Standard is to improve how information is communicated in an entity's financial statements,
+particularly in the statement of profit or loss and in its notes to the financial statements. Specifically,
+the Standard will improve the quality of financial reporting due to a) the requirement of defined subtotals
+in the statement of profit or loss, b) the requirement of the disclosure about management-defined performance
+measures and c) the new principles for aggregation and disaggregation of information. The Company will
+examine the impact of the Standard on its Financial Statements. The above have been adopted by the European
+Union with effective date of 01.01.2027."
+**Verification:** the PDF was fetched directly (HTTP 200, 609,123 bytes, 34 pp) and its text layer extracted
+with pypdf; the quoted passage was located in the extracted text, so the wording is line-verified.
+**Supports:** G-33 sample read — disclosure present, unquantified, qualitative; describes what IFRS 18
+requires and says the Company will assess the impact, but makes **no** recognition/measurement statement and
+**no** cash-flow or financial-position statement, and names no specific affected subtotal. **Caveat:** the
+issuer is **Euronext Securities Athens S.A.** (formerly Hellenic Central Securities Depository S.A. –
+ATHECSD), which is a **different issuer** from Euronext Athens Holding S.A.; a similarly titled "Condensed
+Consolidated Interim Financial Statements and Interim Consolidated Directors' Report for the six-month period
+ended 30 June 2026" at https://direct.euronext.com/api/PublicAnnouncements/RISDocument/ANN156031.pdf is a
+**different (Spanish) issuer** and is **not** this document. The note is a "not yet applied / not yet adopted
+by the EU" note: it does **not** cite IAS 8 (0 occurrences in the extracted text) and states an EU *effective
+date* (01.01.2027), not an endorsement date.
 
-**S-283 — Airbus SE, H1 2026 interim condensed consolidated financial statements.** Six-month period ended
-30 June 2026. Contains an IAS 8.30(b) disclosure stating that the expected impact of IFRS 18 "will be
-examined" and that no quantitative impact on operating profit or adjusted EBIT is disclosed. Filed via
-Airbus's investor-relations document archive.
-**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
-unquantified, qualitative only. **Caveat:** interim-report HTML; XBRL tagged concepts not independently
-parsed.
+**S-283 — Airbus SE, "First half-year 2026 Financial Report" — Unaudited Condensed Interim IFRS
+Consolidated Financial Statements, Note 2 "Accounting Policies".** Six-month period ended 30 June 2026.
+URL: https://mediaassets.airbus.com/pm_38_922_922515-962uvvlfu8.pdf
+**Verbatim (PDF line-wrapping joined; the PDF's own letter-spacing artifacts preserved):** "In April 2024,
+the IASB issued IFRS 18 'Presentation and Disclosure in Financial Statements', effective for annual periods
+beginning on or after 1 January 2027. IFRS 18 has been endorsed by the EU on 13 February 2026. The Company
+is currently analysing the potential impacts of this new standard on its IFRS Consolidated Financial
+Statements."
+**Verification:** the PDF was fetched directly (HTTP 200, 394,113 bytes, 25 pp) and its text layer extracted
+with pypdf; the quoted passage was located in the extracted text, so the wording is line-verified.
+**Supports:** G-33 sample read — disclosure present, unquantified, qualitative; and the **only** document in
+the sample that states the EU endorsement date, corroborating S-268. **Caveat:** the adjacent sentence in
+Note 2 — "The implementation of new or amended standards has no material impact on the Unaudited Condensed
+Interim IFRS Consolidated Financial Statements as of 30 June 2026." — refers to standards **already
+effective** and must **not** be read as a statement about IFRS 18. The IFRS 18 sentence itself makes no
+recognition/measurement, cash-flow or subtotal-scope statement, and the note does not cite IAS 8 (0
+occurrences in the extracted text).
 
-**S-284 — Haleon plc, Q2 2026 interim results / half-year report.** Period ended 30 June 2026. Contains an
-IFRS 18 pre-adoption disclosure stating the assessment "remains ongoing" and that no quantified expected
-change in operating profit or adjusted operating profit is provided. Filed via Haleon's investor-relations
-document archive.
-**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
-unquantified, qualitative only. **Caveat:** interim-results HTML; no XBRL tagged concept independently
-parsed.
+**S-284 — Haleon plc, "2026 Half year results — Six months ended 30 June 2026 (unaudited)", Note 1 "Basis of
+preparation and significant accounting policies", sub-heading "Recent accounting developments".** Period
+ended 30 June 2026.
+URL (RNS-published PDF, primary): http://www.rns-pdf.londonstockexchange.com/rns/4443O_1-2026-7-29.pdf
+URL (the same results statement as Form 6-K Exhibit 99.2): https://www.sec.gov/Archives/edgar/data/1900304/000165495426007001/a1bi_h12026releasev31.pdf
+URL (Form 6-K exhibit in HTML): https://www.sec.gov/Archives/edgar/data/1900304/000110465926088450/hln-20260630xex99d1.htm
+**Verbatim (RNS-published version, PDF line-wrapping joined):** "IFRS 18 'Presentation and Disclosure in
+Financial Statements' will replace IAS 1 ' Presentation of Financial Statements' and applies for annual and
+interim reporting periods beginning on or after 1 January 2027. As described in the Annual Report and Form
+20-F 2025, the Group continues to assess the impact of IFRS 18, with initial system and process changes
+underway, while further work to finalise the financial statement presentation and disclosure is ongoing"
+**Verification:** the issuer's own copy (https://www.haleon.com/content/dam/haleon/corporate/documents/investors/results/hy-2026/hy26-statement.pdf.downloadasset.pdf)
+returned **HTTP 403** from this environment under every header combination tried; the **RNS-published PDF**
+and the **SEC Form 6-K Exhibit 99.2 PDF** were both fetched directly (HTTP 200; 1,190,232 and 1,212,073
+bytes, 44 pp each) and their text layers extracted with pypdf; the quoted passage was located in the
+extracted text, so the wording is line-verified. **Supports:** G-33 sample read — disclosure present,
+unquantified, qualitative; Haleon names **no** affected subtotal and makes no recognition/measurement
+statement. **Caveat — document variant:** the SEC EX-99.2 PDF is a *different rendering* of the same results
+statement and **omits the first sentence** of the quoted passage (its "Recent accounting developments" begins
+directly with "As described in the Annual Report and Form 20-F 2025, …"); it also omits the "six Operating
+Units" description in the segment note. The RNS version is the fuller text and is the one quoted here. The
+disclosure does not cite IAS 8 (0 occurrences in the extracted text) and gives **no** EU or UK endorsement
+date for IFRS 18.
 
-**S-285 — Standard Life plc, H1 2026 interim report.** Six-month period ended 30 June 2026. Contains an
-IFRS 18 pre-adoption disclosure stating the impact is "under assessment" and that no quantified expected
-effect on operating profit or IFRS 18 subtotals is disclosed. Filed via Standard Life's investor-relations
-document archive.
-**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
-unquantified, qualitative only. **Caveat:** interim-report HTML; XBRL tagged concepts not independently
-parsed.
+**S-285 — Standard Life plc, "Interim Financial Report 2026", Note 1 "Basis of preparation".** Six-month
+period ended 30 June 2026.
+URL: https://www.standardlifeplc.com/dam/Global-blueprint/Geo-UK/plc-temp/interim-report-hyr26.pdf
+**Verbatim (PDF line-wrapping joined):** "IFRS 18 Presentation and Disclosure in Financial Statements becomes
+effective for accounting periods beginning on or after 1 January 2027 and will replace IAS 1 Presentation of
+Financial Statements. The standard introduces new requirements relating to the presentation and disclosure of
+financial performance, including specified categories and subtotals within the income statement, disclosures
+relating to management-defined performance measures and enhanced aggregation and disaggregation requirements.
+IFRS 18 does not change the recognition or measurement of assets, liabilities, income or expenses." … "The
+Group continues to assess the impact of IFRS 18 and progress implementation activities. During the period,
+the Group has further developed its IFRS 18 methodology, assessed key presentation judgements, and undertaken
+detailed mapping of income statement balances and disclosures. Based on work performed to date, IFRS 18 is
+expected to primarily affect the presentation and disclosure of financial information rather than the Group's
+reported profit, net assets or equity. The assessment remains ongoing and the Group will provide further
+information as implementation progresses."
+**Verification:** the PDF was fetched directly (HTTP 200, 17,251,850 bytes, 77 pp) and its text layer
+extracted with pypdf; both quoted passages were located in the extracted text, so the wording is
+line-verified. **Supports:** G-33 sample read — disclosure present, unquantified, qualitative; the only
+issuer in the sample stating that recognition and measurement are unchanged. **Caveat:** the same note refers
+to the "UK Endorsement Board ('UKEB')" **only in respect of** the IFRS 9/7 amendments and Annual Improvements
+Volume 11 effective 1 January 2026 — **no** endorsement date is given for IFRS 18, and no EU endorsement date
+appears. The note does not cite IAS 8 (0 occurrences in the extracted text). The same document is filed with
+the FCA National Storage Mechanism at https://data.fca.org.uk/artefacts/NSM/DirectUpload/NI-000151258/NI-000151258.pdf
+(not separately fetched).
 
-**S-286 — Saudi Tadawul Group Holding Co., H1 2026 interim condensed consolidated financial statements.**
-Six-month period ended 30 June 2026. Contains an IFRS 18 pre-adoption disclosure stating the Group "is
-evaluating the potential impact" and that no quantified expected change in operating profit or any other
-subtotal is provided. Filed via the Tadawul listed-company announcements.
-**Verification:** issuer/exchange document fetched directly. **Supports:** G-33 sample read — disclosure
-present, unquantified, qualitative only. **Caveat:** announcement HTML; full interim PDF not independently
-re-parsed.
+**S-286 — Saudi Tadawul Group Holding Co., H1 2026 condensed consolidated interim financial statements, Note 4
+"NEW STANDARDS AND AMANDMENTS ISSUED", 4(a) "IFRS 18 Presentation and Disclosure in Financial Statements".**
+Six-month period ended 30 June 2026. **⚠ NOT VERIFIED AT SOURCE — the document could not be retrieved from
+this environment, and the Cycle-57 entry's claim that it was "fetched directly" is corrected below.**
+URL (issuer, attempted): https://www.tadawulgroup.sa/wps/wcm/connect/313d5db5-56d8-4c36-beaf-aebb5d9130f9/STG+Q2+2026+Investor+Bulletin+%26+signed+FS+-+English+-+V.F.pdf?CVID=p-xXr-8&MOD=AJPERES → **HTTP 403**
+URL (regulatory repository, attempted): https://www.saudiexchange.sa/Resources/fsPdf/18473_2583_2026-07-26_21-13-50_en.pdf → **HTTP 403**
+**Verification:** **NOT VERIFIED.** The document was **not** fetched. Every retrieval route tried from this
+environment failed: direct fetch of the issuer PDF and of the issuer's investor-relations pages (HTTP 403,
+Akamai "Access Denied"); the Saudi Exchange regulatory-repository mirror (HTTP 403); the alternate issuer
+bundle URL; the Wayback Machine (availability API returned an empty `archived_snapshots` object, then a 504
+and a bot-block page); the `r.jina.ai` reader proxy (HTTP 200 but an empty body — the target is a hidden
+iframe); the Argaam company page (HTTP 404); and assorted CORS proxies (522/408/401/429). **Text was
+obtained only from index renderings** — the search provider's live-crawl extraction of the issuer's own PDF,
+and a financialfilings.com rendering of the Saudi Exchange filing (https://financialfilings.com/filings/saudi-tadawul-group-holding-co/interim-quarterly-report/2026/49501964/).
+Those renderings carry visible extraction artifacts (dropped words, doubled full stops, e.g. "total assets..",
+"Management- defined performance measures"), so the wording below is **index-rendered, not line-verified
+against the PDF**, and is labelled as such wherever it is used.
+**Index-rendered wording (not line-verified):** "In April 2024, the International Accounting Standards Board
+("IASB") issued IFRS 18 "Presentation and Disclosure in Financial Statements", which replaces IAS 1
+"Presentation of Financial Statements" and becomes effective for annual reporting periods beginning on or
+after 1 January 2027." … "The standard is expected to result in changes to the presentation of certain line
+items and subtotals in the statement of profit or loss namely operating, investing, financing,
+zakat/income tax." … "Currently goodwill is included under intangible assets. Under IFRS 18, goodwill has to
+be presented as a separate line from other intangible assets and will not result in any change in total
+non-current assets and total assets.." … "The Group currently uses profit for the year / period before Zakat
+as a starting point of the reconciliation to cash flows from operating activities. Certain adjusting items
+included in the reconciliation will change as a result of the new starting point." … "Group's assessment
+remains ongoing and further refinements to the expected impact may arise as implementation activities progress
+and additional industry and regulatory guidance becomes available."
+**Supports:** G-33 sample read — disclosure present, unquantified, qualitative; on the index rendering it is
+also the most **subtotal-specific** in the sample, naming the operating-profit and non-operating-profit
+subtotals, the goodwill line and the cash-flow starting point. **Caveat:** this is the **only** one of the six
+issuers whose document could not be independently read, so the G-33 corpus is **5 of 6 line-verified** and 6 of
+6 index-confirmed. Because the Saudi issuer is the sample's **only non-EU leg**, the corpus's cross-
+jurisdiction comparability (3 EU, 2 UK, 1 Saudi Arabia) is **not** independently established, and the
+"no quantified expected effect anywhere in the sample" finding cannot be extended to a non-EU jurisdiction on
+verified evidence. No endorsement date for IFRS 18 appears; the note gives only "becomes effective for annual
+reporting periods beginning on or after 1 January 2027" and, in Note 2.1, that the statements are prepared
+"as endorsed in the Kingdom of Saudi Arabia". The index rendering contains no IAS 8 reference, but this cannot
+be confirmed against the PDF.
+> **CORRECTED — Cycle 58 (Repair 8).** The Cycle-57 entry for this source read: *"Contains an IFRS 18
+> pre-adoption disclosure stating the Group 'is evaluating the potential impact' … Filed via the Tadawul
+> listed-company announcements. **Verification:** issuer/exchange document fetched directly."* **That
+> verification line was false.** The document was never fetched; it is behind an Akamai bot-protection layer
+> that returned HTTP 403 on every route tried from this environment. The quoted phrase was also a paraphrase
+> rather than the issuer's words. The entry above replaces both, and **no claim in the register that rests on
+> a line-verified reading of this document may be stated as verified.**
 
 **S-287 — Lu, X., et al. (2023). "Night minus day: The informational role of overnight trading." Journal of
 Financial Economics.** DOI: 10.1016/j.jfineco.2023.03.002. Metadata-verified via Crossref REST API.
@@ -6924,6 +7059,16 @@ after-hours price discovery and the close-to-open information impoundment.
 **Verification:** metadata-verified via institutional repository; title and author confirmed. Flagged as a
 working paper, not peer-reviewed. **Supports:** R-036 screen — after-hours price discovery is published
 prior art; the stale-price window is a documented channel with an information-driven sign.
+> **STRUCK FROM THE EVIDENTIARY BASIS — Cycle 58 state-integrity repair, Repair 4.** The Cycle-58
+> verification of this entry found that the work carries **no DOI, no stable URL and no index record**,
+> and a Crossref bibliographic search on the title and author returned **no matching work**. An entry that
+> cannot be verified must not be presented as a verified citation, so **S-290 is marked unverifiable and
+> its support is removed**. The two functions it carried in the R-036 screen are taken over by **S-287**
+> (corrected), **S-288** (corrected) and **S-305** (Barclay & Hendershott 2003, *RFS* 16(4): 1041–1073),
+> which documents that after-hours price discovery is concentrated in a small subset of stocks and that
+> the after-hours transaction price leads the next open. **The R-036 verdict is unchanged** — each of its
+> five reasons still rests on at least one verified source — and the R-036 entry in
+> `rejected_and_parked.md` has been corrected to cite the verified sources only.
 
 ---
 
@@ -6939,6 +7084,25 @@ partition, with the event-count hard stop **unrelieved**. No score change (69.0,
 S-281 … S-286. G-33's dated re-check in 2027 Q3 stands, but the pre-adoption route is foreclosed unless
 the limb (a) re-open condition is met (jurisdiction publishes an IFRS 18 application date differing from
 1 January 2027 **and** applies IFRS 18 as an increment to an existing IFRS basis).
+
+> **CORRECTED — Cycle 58 (Repair 8). Three defects in the block above, none of which changes the verdict.**
+> (i) **The five phrases in quotation marks were paraphrases, not the issuers' words**, and they were
+> attributed to the sample collectively rather than to the issuers that actually used them. The verbatim
+> language is now recorded per issuer in S-281 … S-286 and summarised in the Cycle-58 document record
+> below. The phrases were also mis-assigned: "will examine the impact" is **Euronext Securities Athens**'s
+> wording, not Airbus's; "the assessment remains ongoing" is **Standard Life**'s, not Haleon's; Airbus's
+> actual wording is "The Company is currently analysing the potential impacts of this new standard"; and
+> Haleon's is "the Group continues to assess the impact of IFRS 18, with initial system and process changes
+> underway". (ii) **The corpus is 5 of 6 line-verified, not 6 of 6.** The Saudi Tadawul document was never
+> fetched (HTTP 403 on every route; see S-286) and its text comes from index renderings only, so the
+> cross-jurisdiction comparability of the sample is not independently established.
+> (iii) **None of the six disclosures is framed as an IAS 8 paragraph 30–31 impact disclosure.** The string
+> "IAS 8" occurs **zero** times in the extracted text of all five fetched documents, and does not appear in
+> the Tadawul index rendering. What the register found is *standards issued but not yet effective* notes and
+> *recent accounting developments* notes — which is precisely the register's own hypothesis, namely that
+> the pre-adoption impact disclosure is **unquantified**, and it strengthens the closure rather than
+> weakening it. The **kill condition stands at 6/6 (index-confirmed) and 5/6 (line-verified)**, the
+> prospective arm A remains foreclosed, and no score changes.
 
 **G-32 limb (c) — annual re-read, null.** The 2024–2027 IFRS 18 pre-adoption literature was re-read; no
 claim of the IFRS 18 drift sign was located. Limb (c) remains open on this literature question; the next
@@ -6966,7 +7130,7 @@ identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused i
 
 ---
 
-## Cycle 58 sources (S-291 … S-305)
+## Cycle 58 sources (S-291 … S-309)
 
 All entries below were located by the Cycle-58 searches and **verified by the cycle itself**. Where the
 verification method was the Crossref REST API, the DOI, title, authors, container title, year, volume,
@@ -6975,10 +7139,20 @@ quoted passage was read in the document itself. **No identifier, title, author o
 supplied by a search agent without being re-read by the cycle** — the register's standing rule, given that
 identifiers supplied by a research agent have previously been found wrong.
 
+**Second verification pass, later in Cycle 58.** Every entry in this block was then re-derived
+**independently** against Crossref and, for the four primary documents, against a fresh download of the
+document with its text layer extracted and searched. That pass found **eight defects**, all now corrected
+in place below and itemised in the **"Cycle 58 second-pass corrections"** block at the end of this file:
+two wrong volume/issue records (S-288, S-289), a truncated title (S-292), a wrong online date (S-291), an
+unconfirmed issue number (S-295), a **paraphrase presented as a quotation** (S-299), a typographic
+alteration inside a quotation (S-303) and another paraphrase presented as a quotation (S-304). **No
+verdict, no gap closure and no score changed as a result** — but the evidentiary record of the cycle's
+one rejection (R-038) and one family screen (R-037) was made exact.
+
 ### S-291 — Chen, Y., Da, D. and Huang, D. (2019)
 "Arbitrage Trading: The Long and the Short of It." *The Review of Financial Studies* 32(4): 1608–1646.
 DOI: https://doi.org/10.1093/rfs/hhy097
-- **Type:** Prior empirical result (author-reported; first published online 28 November 2018, print issue
+- **Type:** Prior empirical result (author-reported; first published online 29 August 2018, print issue
   April 2019).
 - **Supports (for G-04 / G-28):** a **published, position-based measure of arbitrage activity at the
   security level** — abnormal hedge-fund holdings (AHF), abnormal short interest (ASR) and their net
@@ -6987,14 +7161,18 @@ DOI: https://doi.org/10.1093/rfs/hhy097
 - **Caveats:** the measure is **security-level and single-sided**; the crowding it detects is anomaly- and
   stock-level, not a paired, netted convergence crowd, and it inherits 13F's reporting lag.
 - **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
-  pages, issued date).
+  pages, issued date 2018-08-29 and print date 2019-04-01).
+- **Second-pass correction (Cycle 58):** the first version of this entry recorded the online date as
+  "28 November 2018". The Crossref record gives **29 August 2018** as both the issued and the
+  published-online date (and the print issue date is 1 April 2019). The correction is a date only; the
+  entry's substance is unaffected.
 - **Why it is new to the ledger:** the Cycle-35 G-18 gap-verdict reasoning already *cited* "Chen–Da–
   Huang (2019) net arbitrage trading" as an external claim, but **no S-identifier existed for it**. The
   claim was therefore sitting in the register without a ledger entry, in breach of the rule that every
   external claim points to a source entry. This entry closes that defect.
 
 ### S-292 — Coval, J. and Stafford, E. (2007)
-"Asset fire sales." *Journal of Financial Economics* 86(2): 479–512.
+"Asset fire sales (and purchases) in equity markets." *Journal of Financial Economics* 86(2): 479–512.
 DOI: https://doi.org/10.1016/j.jfineco.2006.09.007
 - **Type:** Prior empirical result (author-reported).
 - **Supports (for G-01 / IDEA-002):** the published, peer-reviewed form of the **funding-state → flow
@@ -7007,6 +7185,10 @@ DOI: https://doi.org/10.1016/j.jfineco.2006.09.007
   phenomenon rather than a persistent slope asymmetry.
 - **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
   year); abstract read from the publisher/index rendering.
+- **Second-pass correction (Cycle 58):** the first version of this entry recorded the title as
+  "Asset fire sales." The published title is **"Asset fire sales (and purchases) in equity markets"**
+  (Crossref title field, and the ScienceDirect record for the same DOI). The truncated title would have
+  made the entry unmatchable against the publisher's own listing; the substantive claim is unaffected.
 
 ### S-293 — Huang, S., Hu, R., Song, Y. and Xiang, H. (2026)
 "Same Dollar, Different Impact: Investor Flows are Not Equally Price-Moving." SSRN working paper 6266398
@@ -7039,9 +7221,14 @@ DOI: https://doi.org/10.1111/1911-3846.12229
   among its outcomes**. It therefore neither supports nor refutes the candidate's directional drift claim,
   while establishing that the discriminator the candidate needs (first-time versus second-time adopters of
   the same standard) is *unused* in the field's largest such study.
-- **Verification:** Crossref REST API (DOI, title, author, container title, volume, issue, pages, year).
-  **Correction to a research-agent report:** the source was reported with a different author surname;
-  the Crossref record gives **Neel, M.**, and the cycle verified this before registering it.
+- **Verification:** Crossref REST API (DOI, title, all four authors, container title, volume, issue,
+  pages, year). **Correction to a research-agent report:** the source was reported with a different author
+  surname; the Crossref record gives **Neel, M.**, and the cycle verified this before registering it.
+- **Second-pass verification (Cycle 58):** re-derived independently. The Crossref record carries
+  **one author** (Neel, Michael), volume **34**, issue **1**, pages **658–690**, published online
+  23 June 2016 and in print 1 March 2017. The entry as written is confirmed; only the phrase "all four
+  authors" in the verification line was wrong — the paper is **single-authored** — and it is corrected
+  here. The entry's substance is unaffected.
 - **Note on sample figures:** the cycle did **not** obtain the paper's abstract or its sample counts, so
   no figure from it (number of adopters, number of countries, magnitudes) is asserted anywhere in the
   register.
@@ -7059,6 +7246,10 @@ DOI: https://doi.org/10.1016/j.irfa.2011.05.006
   second-time adopters.
 - **Verification:** Crossref REST API (DOI, title, all four authors, container title, volume, issue,
   pages, year).
+- **Second-pass correction (Cycle 58):** the Crossref record for this DOI carries **no issue number**.
+  The volume (21) and the pagination (56–63) are confirmed, and the record's issue date is January 2012,
+  consistent with the entry's issue 1 — but the issue itself is therefore recorded as **not carried by
+  the Crossref record** rather than as verified. The entry's substance is unaffected.
 
 ### S-296 — Greenwood, R. and Thesmar, D. (2011)
 "Stock price fragility." *Journal of Financial Economics* 102(3): 471–490.
@@ -7110,15 +7301,24 @@ URL: https://www.bis.org/publ/qtrpdf/r_qt2403x.htm
 Research* 27(3): 259–303.
 DOI: https://doi.org/10.1007/s11147-024-09206-z
 - **Type:** Prior method paper (peer-reviewed).
-- **Supports (for the R-037 screen):** the published academic statement that for autocallable products
-  "the delta of an autocallable product can vary rapidly near the barriers, making delta hedging costly
-  to implement", and that the standard remedy is **payoff modification and barrier shifting** — i.e. the
-  *discontinuity* the R-037 screen proposed to trade is a known object that the industry **engineers
-  away** by construction.
+- **Supports (for the R-037 screen):** the published academic statement that an autocallable's delta
+  **becomes too large near the barriers**, so that the industry applies **payoff modification and barrier
+  shifting** to cope with it — i.e. the *discontinuity* the R-037 screen proposed to trade is a known
+  object that the industry **engineers away** by construction. The publisher-deposited abstract reads: "To
+  address the problem that the product's delta can become too large near the barriers, we apply payoff
+  modification and barrier shifting techniques."
 - **Caveats:** the paper is a pricing-and-hedging-method paper; it does not measure any market impact of
   the discontinuity, and it contains no evidence about the underlying's price behaviour near a barrier.
 - **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
   pages, year); content read from the publisher's open-access page.
+- **Second-pass correction (Cycle 58):** the first version of this entry presented the sentence "the delta
+  of an autocallable product can vary rapidly near the barriers, making delta hedging costly to
+  implement" as a **quotation from the source**. It is a **paraphrase**; the publisher-deposited abstract
+  says the product's delta "can become too large near the barriers", and the *hedging-cost* language is
+  the cycle's inference, not the source's. The quotation is replaced above by the source's own wording.
+  The same paraphrase was repeated in the R-037 entry and in the known-baseline table and was corrected in
+  both places. **The screen's verdict is unaffected** — the reason it supports is that the *remedy* is
+  published, and the remedy is stated verbatim in the abstract.
 
 ### S-300 — Fang, W. (2026)
 "China's Autocallable Cycle: Dealer Hedging Flows, Market Impact, and Lessons for Japan's Structured-Note
@@ -7148,16 +7348,25 @@ URL: https://www.esma.europa.eu/sites/default/files/trv_2018_2-structured_retail
 - **Type:** Regulator publication (primary).
 - **Supports (for the R-037 screen):** the **published market-structure record** for European retail
   structured products: the regulator's database covers "around 60 different products" per reporting
-  country since 2006 and reports, per product, "the barrier level, the volume issued, the minimum return,
-  the offer date, strike date and expiry date"; payoff-type shares are published (for France in 2017:
-  autocallables 29 %, protected trackers 43 %, uncapped calls 13 %, capped calls 4 %); and the box records
-  that **auto-callable sales volumes have declined sharply** in Germany after 2011 and that the Italian
-  market "appears to have witnessed a collapse in sales volumes overall".
+  country since 2006 and reports, per product, "the volume issued, the minimum return, the offer date,
+  strike date and expiry date" (the database also carries a "barrier level" variable); payoff-type shares
+  are published (Chart V.10, "Shares of sales volumes in France in 2017, selected payoff types": capped
+  calls 4 %, auto-callables 29 %, protected trackers 43 %, uncapped calls 13 %, other 11 %); and the box
+  records that sales volumes of products such as capped calls and auto-callables "have declined sharply"
+  in Germany after 2011 and that, following 2011, the Italian retail market for structured products
+  "appears to have witnessed a collapse in sales volumes overall".
 - **Caveats:** the database reports **volume issued**, not **outstanding notional**, and aggregates by
   country and payoff type, so it cannot supply the barrier-level and maturity-level concentration the
   monitoring framework in S-300 requires; and the 2018 vintage predates the 2023–2025 rise in
   yield-enhancing issuance discussed in S-298.
 - **Verification:** direct fetch of the box's own PDF; quoted passages read in the document.
+- **Second-pass verification (Cycle 58):** the document was downloaded again and its text layer extracted
+  and searched, because a first-pass reading of a scanned-looking box could not be re-checked. All five
+  quoted passages were located in the extracted text, with the exact wording reproduced above; the
+  "declined sharply" sentence is the document's ("sales volumes of products such as capped calls and
+  auto-callables have declined sharply"), the Italian sentence is the document's ("the Italian retail
+  market for structured products appears to have witnessed a collapse in sales volumes overall"), and the
+  France shares are read from Chart V.10's own caption and labels. **The entry's substance is confirmed.**
 
 ### S-302 — European Securities and Markets Authority (2022)
 PRIIPs Q&A (Joint Committee report **JC 2017 49**), autocallable-products and KID-content sections, last
@@ -7181,15 +7390,22 @@ Quanto with Memory Effect … due 11.09.2028 (ISIN IT0005730483)", official list
 URL: https://www.borsaitaliana.it/secder-listing/2026-04074-OFFICIAL_LISTING_DOCUMENTATION-MjAyNi0wNDA3NE9GRklDSUFMX0xJU1RJTkdfRE9DVU1FTlRBVElPTm51bGwxNzg4NzYyMTE1ODYy.pdf
 - **Type:** Primary legal document (exchange listing documentation).
 - **Supports (for the R-037 screen):** a **worked primary instance** of the screen's state: the final
-  terms publish the contractual barrier level ("Barrier Level: The Barrier Level is equal to 60 % of the
-  Initial Reference Value of the relevant Underlying"), the barrier-event determination periods, and the
-  issuer's standard hedging language ("The Issuer may enter into hedging arrangements with market
-  counterparties in connection with the issue of the Securities in order to hedge its exposure") — the
-  latter showing that the *hedging* itself is **discretionary and unpublished**, while the *barrier* is
-  published.
+  terms publish the contractual barrier level ("Barrier Level: The Barrier Level is equal to 60% of the
+  Initial Reference Value of the relevant Underlying"), the barrier-event determination period
+  ("Barrier Event Determination Period(s): 7 September 2028"), and the issuer's standard hedging language
+  ("The Issuer may enter into hedging arrangements with market counterparties in connection with the issue
+  of the Securities in order to hedge its exposure") — the latter showing that the *hedging* itself is
+  **discretionary and unpublished**, while the *barrier* is published.
 - **Caveats:** one instrument; an equity-index-linked certificate rather than a single-name autocallable;
   and the document publishes terms, not the issuer's hedge or the note's outstanding notional.
 - **Verification:** direct fetch of the listing document; quoted passages read in the document.
+- **Second-pass verification (Cycle 58):** the document was downloaded again and its text layer extracted
+  and searched. All three quoted passages were located in the extracted text. The barrier sentence appears
+  **twice** in the document — once in the "Product Terms" summary ("Barrier Level: The Barrier Level is
+  equal to 60% of the Initial Reference Value of the relevant Underlying. Lower Barrier Level: Not
+  applicable. Upper Barrier Level: Not applicable.") and once in the Barrier Event description — and the
+  first version of this entry rendered the number as "60 %", with a space that the document does not
+  have; the wording is now reproduced exactly. **The entry's substance is confirmed.**
 
 ### S-304 — StructuredRetailProducts.com (2025)
 *Structured Products Insights*, Special Edition, April 2025 ("Market impact" section; China snowball
@@ -7200,16 +7416,29 @@ URL: https://files.structuredretailproducts.com/files/SRPInsights%2027%20final%2
   episodes).
 - **Supports (for the R-037 screen):** practitioner accounts of the *dealer flow* the screen proposed to
   trade — "You buy the futures as you approach the barriers, but then the problem is once you hit the
-  knock-in, the barrier disappears, and your delta reverts back … you need to sell a lot of those futures
-  you bought … This can cause selling pressure on the downside" — and of dealers' **barrier shift**
-  ("moving the knock-in level model basis lower to reduce the amount of futures they have to buy"); the
-  documented February 2025 Chinese market moves, in which "brokers' hedging activities may have
-  exacerbated market selling pressure"; and **Cboe's published dissent** from the BIS conclusion (S-298),
-  which is itself evidence that the dealer-hedging channel's magnitude is contested.
+  knock-in, the barrier disappears, and your delta reverts back … In that case, you need to sell a lot of
+  those futures you bought in order to hedge the barrier because you don't need them anymore. This can
+  cause selling pressure on the downside" — and of dealers' **barrier shift** ("moving the knock-in level
+  model basis lower to reduce the amount of futures they have to buy to hedge"); the documented
+  February 2025 Chinese market moves, in which the industry "has caused concern … over whether brokerage
+  houses' hedging activities may have exacerbated market selling pressure"; and **Cboe's published dissent**
+  from the BIS conclusion (S-298) — reported in this issue's "Q&A: Cboe VIX" section, where Cboe's head of
+  derivatives market intelligence states that "macro fundamentals – which impact all asset classes – are
+  driving volatility lower, rather than anything equity-specific", and the section is captioned "Cboe:
+  VIX downward trend not triggered by vol-selling strategies" — which is itself evidence that the
+  dealer-hedging channel's magnitude is contested.
 - **Caveats:** trade press, anonymous attribution ("an investment banker", "a trader"), and
   jurisdiction-specific (Chinese and Japanese retail markets); the quoted descriptions are of *practice*,
   not of measured effects.
 - **Verification:** direct fetch of the document; quoted passages read in the document.
+- **Second-pass verification (Cycle 58):** the document was downloaded again and its text layer extracted
+  and searched. The two barrier passages were located **verbatim** in the China-snowball section, with the
+  attribution ("a senior equity derivatives research manager at a European investment bank"; "added the
+  investment banker") confirmed as the document's own, and the elision in the first version of this entry
+  is faithful to the source. The first version, however, presented the passage "brokers' hedging
+  activities may have exacerbated market selling pressure" as a **quotation**; the document's actual
+  wording is "whether **brokerage houses'** hedging activities may have **exacerbated market selling
+  pressure**", and it is reproduced in that form above. **The entry's substance is confirmed.**
 
 ### S-305 — Barclay, M. and Hendershott, T. (2003)
 "Price discovery and trading after hours." *The Review of Financial Studies* 16(4): 1041–1073.
@@ -7230,9 +7459,15 @@ DOI: https://doi.org/10.1093/rfs/hhg030
 "Liquidation Cascade and Anticipatory Trading: Evidence from the Structured Equity Product Market."
 *The Review of Asset Pricing Studies* 13(1): 53–98 (first published online 4 April 2022).
 DOI: https://doi.org/10.1093/rapstu/raac010
-- **Type:** Prior empirical result (author-reported; peer-reviewed). An earlier working-paper version with a
-  different title — "Liquidation Cascade and Hedging Front-Running: Evidence from the Structured Equity
-  Product Market" (SSRN 3719988, 2020) — is the same project.
+- **Type:** Prior empirical result (author-reported; peer-reviewed). An earlier working-paper version of the
+  same project is posted on SSRN under abstract id **3719988**; the working-paper version is recorded in
+  secondary listings under the title "Liquidation Cascade and Hedging Front-Running: Evidence from the
+  Structured Equity Product Market". **Second-pass caveat (Cycle 58):** SSRN's abstract page returned an
+  automated-access block (HTTP 403) in this cycle, so the working-paper **title** could not be confirmed
+  from the source itself; what *was* confirmed is that the record at abstract id 3719988 carries the same
+  abstract's opening sentence ("We show that structured equity derivatives can cause significant price
+  pressure of the underlying stock upon an event of dramatic payoff change") and the same project. The
+  published article is the citation the screen relies on, and it is verified.
 - **Supports (for the R-037 screen):** the **decisive prior art on the screened family**. From the
   publisher-deposited abstract: "We show that structured equity derivatives can cause significant price
   pressure of the underlying stock upon an event of dramatic payoff change. Moreover, one event causes
@@ -7279,6 +7514,42 @@ DOI: https://doi.org/10.1111/1467-9965.00035
   the hedging of issued retail notes and not any price effect in the underlying.
 - **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
   pages, year).
+- **Why it is new to the ledger:** it was located in the Cycle-58 second-pass sweep of the R-037 family
+  and is the **published claim that the screened family has already been turned into a tradeable
+  strategy** — the last piece of the screen's "not an unclaimed mechanism" case, and the only source the
+  register holds on the *volatility-surface* expression of dealer hedging of retail structured products.
+
+### S-309 — Barthe, E. (2024)
+"Do Retail Structured Products Distort Equity Volatilities?" SSRN working paper 5049552
+(doi:10.2139/ssrn.5049552), written 4 December 2024, posted 16 December 2024.
+- **Type:** Working paper (preprint; **not peer-reviewed**; no journal version was located).
+- **Supports (for the R-037 screen):** the published, *strategy-level* claim on the screened family.
+  From the publisher-deposited abstract: "I investigate how the hedging activity of structured products
+  affects equity volatilities … When a new retail structured product is issued (autocallable, barrier
+  reverse convertible, reverse convertible etc.), it creates a net supply of gamma. The rehedging activity
+  of banks compresses the realised volatility of those underlyings. The volumes are large enough to have
+  a significant impact on the volatility surfaces of the most popular underlyings. That phenomenon gives
+  birth to profitable trading strategies in dispersion format."
+- **Why it matters for the screen.** (i) It states the family-level effect with the **sign the register's
+  screen was testing** — dealer rehedging of retail structured products *compresses* realised volatility
+  and shifts the volatility surface, which is a **damping** concession (the same sign as S-298), not a
+  directional price concession in the underlying. (ii) It says the effect has **already been converted into
+  a strategy** — "profitable trading strategies in dispersion format" — so the family is not merely
+  published, it is *claimed as tradeable*, which is the register's "known baseline" test in its sharpest
+  form. (iii) It therefore removes the last plausible residual for a candidate in the family: the
+  direction (damping), the mechanism (gamma supply and bank rehedging), the venue (retail structured
+  products), the instrument (single-name and index underlyings) and the trade expression (dispersion) are
+  all claimed in the literature.
+- **Caveats:** it is a **preprint**, the abstract was read from the Crossref/SSRN deposited abstract and
+  the **full text was not read**, so nothing is asserted here beyond the abstract; the "profitable trading
+  strategies" claim is the **author's own claim** and is not an independently reproduced result; and the
+  paper's own framing is about *volatility* effects and dispersion trades rather than about the
+  underlying's price path through a barrier, so it is a **near-neighbour** of the R-037 screen rather than
+  a direct hit on it.
+- **Verification:** Crossref REST API (DOI, title, author, type "posted-content", year 2024, and the
+  publisher-deposited abstract). The SSRN landing page itself refused automated access in this cycle, so
+  the abstract was read from the Crossref deposit rather than from the SSRN page; the write/posted dates
+  were read from the SSRN search-index record and are recorded as such.
 
 ---
 
@@ -7301,11 +7572,14 @@ stands on a corrected citation.
 ### Repair 2 — S-288's title was the pre-publication working-paper title
 The entry recorded "Camilleri, M., & Green, R. (2014). Non-synchronous trading." The work is real, but the
 **published** 2014 article is **Camilleri, S. J. and Green, C. J. (2014), "Stock market predictability",
-*Studies in Economics and Finance* 30(1): 7–31, DOI 10.1108/SEF-06-2012-0070**; "An Analysis of the
+*Studies in Economics and Finance* 31(4): 354–370, DOI 10.1108/SEF-06-2012-0070**; "An Analysis of the
 Impacts of Non-Synchronous Trading on Predictability: Evidence from the National Stock Exchange, India"
 was the earlier working-paper title (SSRN 739344, 2005). The register's screen rationale used the
 non-synchronous-trading framing, which the published paper's own earlier title supports, so the screen's
 reason stands — but the citation now names the article that exists.
+**Second-pass correction (Cycle 58):** this repair's own volume/issue/pages were wrong — it gave
+"30(1): 7–31" — and the Crossref record for the DOI gives **31(4): 354–370**. The repair is corrected
+here so that the file does not carry an unverified record of its own repair.
 
 ### Repair 3 — S-289's title was a shorthand for a two-session paper
 The entry recorded "Challet, D., & Gourianov, A. (2018). Opening auctions. hal-01702726." The HAL record
@@ -7313,6 +7587,9 @@ resolves to **Challet, D. and Gourianov, N. (2018), "Dynamical regularities of U
 closing auctions", *Market Microstructure and Liquidity* 5(1), DOI 10.1142/S2382626619500011** (produced
 2018, published 2019). The paper covers opening **and closing** auctions. The screen's third reason — that
 the opening call auction absorbs the imbalance — rests on this paper and is unchanged.
+**Second-pass correction (Cycle 58):** this repair's own volume/issue/pages were wrong — it gave
+"5(1)" — and the Crossref record for the DOI gives **4(01n02): 1950001**, issued March 2018 with an
+online date of 18 August 2019. The repair is corrected here for the same reason as Repair 2.
 
 ### Repair 4 — S-290 is unverifiable and is removed from the evidentiary basis
 "Hendershott, T. *After-hours price discovery* (UC Berkeley Haas working paper)" carries **no DOI, no
@@ -7349,14 +7626,39 @@ this repair.**
 The Cycle-57 gap-verdict block presented five short phrases in quotation marks — "still assessing",
 "evaluating", "will examine impact", "assessment remains ongoing" — as the issuers' words. They are
 paraphrases. The documents themselves also carried **no URLs**, which the ledger's format requires. The
-verbatim language, the URL for each document, and the character of each disclosure are now recorded in
-the **Cycle 58 gap-verdict block** below. Two refinements to the Cycle-57 description follow from reading
+verbatim language, the URL for each document, and the character of each disclosure are now recorded in the
+**Cycle 58 gap-verdict block** below. Two refinements to the Cycle-57 description follow from reading
 the documents: **one issuer asserts a qualitative no-impact conclusion** (Repsol: IFRS 18 "will not have
 an impact on the Group's income, cash flows or financial position") and **one issuer's disclosure is
 qualitative but specific** about which subtotals and lines are affected (Tadawul: the standard "will
 impact the operating profit subtotal", and goodwill moves to a separate line with no change in total
 assets). Neither supplies a number. **The G-33 kill condition — quantified expected effect present in
 0 of 6 — is unchanged, and the closure of IDEA-011's prospective arm A stands.**
+
+> **REPAIRED — Cycle 58, second pass. The paragraph above was written before the documents were read and
+> contains two errors, both corrected here.**
+> **Error 1 — the Tadawul claim is index-rendered, not verified.** The sentence describing Tadawul's
+> disclosure as "qualitative but specific" quotes the issuer as saying the standard "will impact the
+> operating profit subtotal" and that "goodwill moves to a separate line with no change in total assets".
+> The Tadawul document **could not be retrieved from this environment** — every route returned HTTP 403 or
+> an empty body (see S-286 for the full failure list) — so that wording comes from an **index rendering**,
+> not from the PDF, and it carries visible extraction artifacts ("total assets.."). **The claim is not
+> withdrawn, but it is downgraded to index-rendered and must never be presented as a verified quotation.**
+> The Repsol claim in the same paragraph *is* verified: it was read from the issuer's own PDF and its text
+> layer, in both the Spanish original and the English free translation.
+> **Error 2 — the Cycle-57 block understated the size of the comparability break.** Reading the same
+> documents showed that the *presentation* break is **not confined to the statement of profit or loss**:
+> Repsol states that the new presentation criteria apply "(mainly with respect to the income statement and
+> statement of cash flows and, to a lesser extent, the balance sheet)", that "operating income" becomes
+> "the new starting point for preparing the statement of cash flows", and — in the statement of cash flows
+> — that dividends received from investees move within investing cash flows; the Tadawul index rendering
+> says the same thing about the reconciliation's starting point and adds that goodwill must be presented
+> as a separate line. The Cycle-58 gap-verdict block, the IDEA-011 dossier, the shortlist row and the V-009
+> amendment have all been corrected on this point. **The correction does not change any verdict, gap closure
+> or score**: what the documents establish is that IFRS 18 changes **no recognition, no measurement and no
+> reported amount** (which is what the candidate's narrowing rests on), while changing the **presentation**
+> across three statements. The narrowing therefore stands; its *enumerated scope* was wrong and is now
+> stated correctly.
 
 ---
 
@@ -7442,20 +7744,80 @@ independent reasons.
   claim is a transition-window effect**, because the published steady-state evidence runs the other way.
 - **G-32 limb (c) is not re-read this cycle** (it is annual and the next re-read is due in 2027) and
   limb (a)'s re-open condition is unchanged. **No score change (69.0, rank 1).**
-- **Two new facts about the candidate's mechanism scope**, read from the G-33 documents themselves:
-  (i) **IFRS 18 is presentation-only.** Standard Life's interim report states that "IFRS 18 does not
-  change the recognition or measurement of assets, liabilities, income or expenses" (S-285), and Repsol's
-  states that the standard "will not have an impact on the Group's income, cash flows or financial
-  position" (S-281). The comparability break the candidate's clock is about is therefore **bounded**: it
-  runs over the statement of profit or loss's new subtotals, the aggregation and disaggregation changes
-  and the management-performance-measure disclosures, and over **nothing else** — no cash-flow, no
-  balance-sheet, no measurement change. This *sharpens* the candidate's rule and is recorded as a
-  narrowing **in the candidate's favour**, but under the Cycle-35/52 precedent it does not move a score,
-  because it bounds the mechanism rather than supporting the directional drift claim.
-  (ii) **The EU endorsement date is corroborated by an independent primary issuer document**: Airbus
-  SE's H1 2026 financial statements state that "IFRS 18 has been endorsed by the EU on 13 February 2026"
-  (S-283), matching S-268. G-32 limb (a)'s closure therefore now rests on two independent primary
-  confirmations rather than one.
+   - **Two new facts about the candidate's mechanism scope**, read from the G-33 documents themselves:
+   (i) **IFRS 18 changes no recognition, no measurement and no reported amount — but it changes
+   presentation across three statements, not one.** Standard Life's interim report states that "IFRS 18 does
+   not change the recognition or measurement of assets, liabilities, income or expenses" (S-285), and
+   Repsol's states that the standard "will not have an impact on the Group's income, cash flows or financial
+   position" (S-281). **This is the part that bounds the candidate's mechanism**: the comparability break
+   the candidate's clock is about is *substantive-neutral* — it does not create an economic difference, it
+   creates a presentation difference. **But it is not confined to the statement of profit or loss.**
+   Repsol's own words: the standard "will introduce new presentation criteria (mainly with respect to the
+   income statement **and statement of cash flows and, to a lesser extent, the balance sheet**)"; the affected
+   items are "the three categories for presenting income and expenses (operating, investing and financing) and
+   the subsequent new subtotals (" operating income" and " income before financing and taxes ")"; the
+   criteria for presenting certain items apply "both in the income statement (most notably the presentation of
+   exchange differences within each category based on the nature of the item giving rise to such differences)
+   and in the statement of cash flows (most notably dividends received from investees within investing cash
+   flows)"; and "operating income" becomes "the new starting point for preparing the statement of cash
+   flows". The Tadawul index rendering says the same of the cash-flow reconciliation's starting point and
+   adds that goodwill must be presented as a separate line (S-286, index-rendered). **Corrected scope
+   statement:** the break runs over (a) the statement of profit or loss's new categories, subtotals and
+   reclassification criteria; (b) the **statement of cash flows**, whose starting point becomes operating
+   income and whose investing/operating split changes; (c) the **balance sheet**, to a lesser extent, in the
+   presentation of goodwill as a separate line; (d) the aggregation, disaggregation and management-
+   performance-measure disclosures; and (e) **nothing that changes recognition, measurement or any reported
+   amount**. This *sharpens* the candidate's rule and is recorded as a narrowing **in the candidate's
+   favour** — the break is a presentation break, not an economic one — but under the Cycle-35/52 precedent
+   it does not move a score, because it bounds the mechanism rather than supporting the directional drift
+   claim. **A first version of this entry stated that the break ran "over nothing else — no cash-flow, no
+   balance-sheet, no measurement change"; the first two limbs were wrong and are corrected here.** The
+   measurement limb was right.
+   (ii) **The EU endorsement date is corroborated by an independent primary issuer document**: Airbus
+   SE's H1 2026 financial statements state that "IFRS 18 has been endorsed by the EU on 13 February 2026"
+   (S-283), matching S-268. G-32 limb (a)'s closure therefore now rests on two independent primary
+   confirmations rather than one.
+
+**Repair 8's document record — the six G-33 interim reports, as read.** This is the record the Cycle-57
+gap-verdict block promised: for each of the six issuers, the document actually read, where it was read
+from, and what it says. **The full entries, with URLs and the complete verbatim passages, are in
+S-281 … S-286; the table below is the summary and is the basis for the two scope facts above.**
+
+| Issuer (jurisdiction) | Document read | Read how | IFRS 18 disclosure: what it says | Quantified effect | Affects recognition/measurement or reported amounts? | Scope of the presentation change | EU endorsement date |
+|---|---|---|---|---|---|---|---|
+| Repsol S.A. (ES) | H1 2026 condensed consolidated interim financial statements, Note 3.3 | PDF fetched directly, ES + EN, text extracted | "will not have an impact on the Group's income, cash flows or financial position" … "the Group is still assessing the impacts" | **No** | **No** — expressly unchanged | P&L categories and two new subtotals; **cash-flow** starting point becomes operating income; **balance sheet** to a lesser extent; new disaggregation criteria | No (EU effective date only, 01/01/2027) |
+| Euronext Securities Athens S.A. (GR) | "Six month 2026 financial report", Note 4.3.2 | PDF fetched directly, text extracted | Describes IFRS 18's three requirements; "The Company will examine the impact of the Standard on its Financial Statements." | **No** | **No statement either way** | P&L subtotals, MPM disclosures, aggregation/disaggregation (generic) | No (EU effective date only, 01.01.2027) |
+| Airbus SE (FR) | H1 2026 Unaudited Condensed Interim IFRS Consolidated Financial Statements, Note 2 | PDF fetched directly, text extracted | "IFRS 18 has been endorsed by the EU on 13 February 2026. The Company is currently analysing the potential impacts of this new standard" | **No** | **No statement either way** | **None identified** | **Yes — 13 February 2026** |
+| Haleon plc (UK) | "2026 Half year results", Note 1 "Recent accounting developments" | RNS PDF + SEC 6-K Ex-99.2 fetched directly, text extracted | "the Group continues to assess the impact of IFRS 18, with initial system and process changes underway, while further work to finalise the financial statement presentation and disclosure is ongoing" | **No** | **No statement either way** | **None identified** | No |
+| Standard Life plc (UK) | "Interim Financial Report 2026", Note 1 | PDF fetched directly, text extracted | "IFRS 18 does not change the recognition or measurement of assets, liabilities, income or expenses." … "expected to primarily affect the presentation and disclosure of financial information rather than the Group's reported profit, net assets or equity" | **No** | **No** — expressly unchanged | Income-statement categories and subtotals, MPM disclosures, enhanced aggregation/disaggregation | No (UKEB endorsement cited only for IFRS 9/7 amendments, not IFRS 18) |
+| Saudi Tadawul Group Holding Co. (SA) | H1 2026 condensed consolidated interim financial statements, Note 4(a) | **NOT FETCHED — HTTP 403 on every route; index rendering only** | Names the affected subtotals (operating profit, non-operating profit), the goodwill line, and the cash-flow reconciliation's starting point; "Group's assessment remains ongoing" | **No** | **No statement** — and the goodwill line is expressly a presentation change with "no change in total non-current assets and total assets" | P&L line items and subtotals; **balance sheet** (goodwill as a separate line); **cash-flow** starting point; MPMs; aggregation/disaggregation | No |
+
+**What the record establishes.**
+- **Disclosure present 6/6; quantified expected effect 0/6.** No number, no percentage, no restated
+  prior-period comparative appears in any of the six disclosures. The kill condition therefore holds.
+- **The corpus is 5 of 6 line-verified, 6 of 6 index-confirmed**, and the sample's only non-EU leg is the
+  unverified one, so the cross-jurisdiction comparability of the corpus is **not** independently
+  established (S-286).
+- **The disclosures are not IAS 8 paragraph 30–31 impact disclosures.** The string "IAS 8" occurs **zero**
+  times in the extracted text of all five fetched documents and does not appear in the Tadawul index
+  rendering. What the register found are *standards issued but not yet effective* notes and *recent
+  accounting developments* notes. This is a **direct confirmation** of the register's hypothesis — the
+  ESMA-expected (S-267) firm-level quantified pre-adoption impact disclosure is **not** what issuers
+  publish — and it **strengthens** G-33's closure.
+- **The comparability break's scope is wider than the profit or loss statement** but is *substantive-
+  neutral**: no recognition, no measurement, no change to any reported amount (S-281, S-285). The
+  presentation break spans the income statement, the **statement of cash flows** (new starting point:
+  operating income; investing/operating reclassification) and, to a lesser extent, the **balance sheet**
+  (goodwill as a separate line), plus aggregation, disaggregation and management-performance-measure
+  disclosures. **The candidate's narrowing survives; its enumerated scope does not.** The G-21 verdict, the
+  IDEA-011 dossier, the shortlist row and the V-009 amendment have all been corrected on this point.
+- **A route that was considered and is closed.** Because the presentation break now has a *post-adoption*
+  observable — the restated comparatives in the first IFRS 18 reporting period — it was checked whether
+  this revives the candidate's arm A. It does not: that observable exists only **after** the transition
+  window has closed, so it cannot measure the size of the break *during* the window, which is what the
+  candidate conditions on; and G-32 limb (a)'s closure (one mandatory application date, IFRS 18 applied as a
+  single package) still forecloses the group A/group B partition. **No new gap is opened.**
+
 
 **G-30 — CONFIRMED EXHAUSTED, NO RE-PROBE (IDEA-010, CREDIT-ETF).**
 Per the Cycle-57 handoff's instruction, **no re-probe of statutory filings was run**: the route question
@@ -7504,7 +7866,125 @@ active table. The register's shape changes by one: **five active dossiers (three
 (IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015) and five rejected (IDEA-001, IDEA-002, IDEA-006,
 IDEA-007, IDEA-012)** — IDEA-002 moved from parked to rejected, so the parked count fell from six to
 five and the rejected count rose from four to five, while the active count is unchanged. New
-identifiers consumed: sources **S-291 … S-308**, rejections **R-037** and **R-038**. No
-`IDEA-` identifier was consumed, no `V-` identifier was consumed, and no `G-` identifier was opened.
-**Next free identifiers:** **IDEA-017, S-309, V-012, G-34, R-039, P-014**. The reserved-and-unused
+identifiers consumed: sources **S-291 … S-309**, rejections **R-037** and **R-038**. No
+`IDEA-` identifier was consumed, no `V-` identifier was consumed as a *new* specification, and no `G-`
+identifier was opened; **V-009 was amended, not re-created** (the comparability break is bounded to
+presentation — no recognition, measurement or reported-amount change — and the claim must be pre-registered
+as a transition-window effect).
+**Next free identifiers:** **IDEA-017, S-310, V-012, G-34, R-039, P-014**. The reserved-and-unused
 identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 58 second-pass corrections
+
+The Cycle-58 block above was **verified a second time, independently**, before the handoff was
+written: every DOI-bearing entry was re-derived against the Crossref REST API, and the four primary
+documents (S-301, S-302, S-303, S-304) were downloaded again and their **text layers extracted and
+searched**, because a reading that cannot be re-checked by extraction is a reading that the next agent
+cannot audit. **Eight defects were found and corrected in place in that pass; a further six were found
+when Repair 8's document retrieval was completed (items 9–14 below). No verdict, no gap closure and no
+score changed.**
+
+1. **S-288 — wrong volume, issue and pages.** The Cycle-58 repair itself gave *Studies in Economics and
+   Finance* "30(1): 7–31"; the Crossref record gives **31(4): 354–370**. Corrected in the entry *and* in
+   the repair that claimed to have fixed it.
+2. **S-289 — wrong volume, issue and pages.** The repair gave *Market Microstructure and Liquidity*
+   "5(1)"; the Crossref record gives **4(01n02): 1950001**, issued March 2018, online 18 August 2019.
+   Corrected in both places.
+3. **S-291 — wrong online date.** "28 November 2018" → **29 August 2018** (Crossref issued and
+   published-online dates; print issue April 2019).
+4. **S-292 — truncated title.** "Asset fire sales." → **"Asset fire sales (and purchases) in equity
+   markets."** The truncated form would have been unmatchable against the publisher's own listing.
+5. **S-294 — wrong authorship in the verification line.** The entry's verification line said "all four
+   authors"; the paper is **single-authored** (Neel, Michael). The record itself was correct.
+6. **S-295 — unconfirmed issue.** The Crossref record carries **no issue number** for
+   *International Review of Financial Analysis* 21, 56–63; the issue is recorded as unverified rather
+   than verified.
+7. **S-299 — a paraphrase presented as a quotation.** The entry quoted "the delta of an autocallable
+   product can vary rapidly near the barriers, making delta hedging costly to implement" as the source's
+   words. The publisher-deposited abstract says the product's delta "can become too large near the
+   barriers" and that the authors "apply payoff modification and barrier shifting techniques". The
+   quotation was replaced with the source's wording in **three** places — the ledger entry, the R-037
+   entry in `rejected_and_parked.md`, and the known-baseline table row — because the register's rule is
+   that an index-rendered or reworded passage may not be presented as a directly parsed one.
+8. **S-303 and S-304 — two further wording defects.** S-303's barrier sentence was rendered "60 % of the
+   Initial Reference Value"; the document reads **"60% of the Initial Reference Value"**, and the
+   determination period ("7 September 2028") is now recorded as well. S-304's "brokers' hedging activities
+   may have exacerbated market selling pressure" was a reworded quotation; the document reads **"whether
+   brokerage houses' hedging activities may have exacerbated market selling pressure"**.
+
+**What the second pass confirmed, verbatim, from the primary documents.** S-301: "around 60 different
+products"; "the volume issued, the minimum return, the offer date, strike date and expiry date"; Chart
+V.10's France-2017 shares (capped calls 4 %, auto-callables 29 %, protected trackers 43 %, uncapped calls
+13 %, other 11 %); "have declined sharply" (Germany); "appears to have witnessed a collapse in sales
+volumes overall" (Italy). S-302: "any other relevant features such as a strike, barrier or guarantee",
+in the autocallables section last updated 14 November 2022. S-303: "Barrier Level: The Barrier Level is
+equal to 60% of the Initial Reference Value of the relevant Underlying"; "The Issuer may enter into hedging
+arrangements with market counterparties in connection with the issue of the Securities in order to hedge
+its exposure". S-304: "You buy the futures as you approach the barriers, but then the problem is once you
+hit the knock-in, the barrier disappears, and your delta reverts back"; "moving the knock-in level model
+basis lower to reduce the amount of futures they have to buy to hedge"; and Cboe's dissent from the BIS
+conclusion, in this issue's "Q&A: Cboe VIX" section.
+
+**One source added.** **S-309** (Barthe 2024) was located during the second pass and registered: it is
+the published, strategy-level claim on the R-037 family — dealer rehedging of retail structured products
+compresses realised volatility and "gives birth to profitable trading strategies in dispersion format" —
+and therefore strengthens the screen's verdict rather than altering it.
+
+**Repair 8 completed — the six G-33 interim reports were retrieved, read and recorded.** The Cycle-57
+block had left Repair 8 as an open promise: the five disclosure phrases in the gap-verdict were
+paraphrases presented as quotations, the six ledger entries carried no URLs, and the documents themselves
+had not been independently read. All six were then retrieved (five directly; one not at all) and the
+ledger was corrected in place. **Six further defects were found and corrected; no verdict, no gap closure
+and no score changed.**
+
+9. **S-281 … S-286 — the disclosure language was paraphrase, and the phrases were mis-assigned.** Each
+   entry now carries the issuer's verbatim wording, the document's URL, and the verification method
+   actually used. "will examine the impact" is **Euronext Securities Athens**'s wording, not Airbus's;
+   "the assessment remains ongoing" is **Standard Life**'s, not Haleon's; Airbus's actual wording is "The
+   Company is currently analysing the potential impacts of this new standard"; Haleon's is "the Group
+   continues to assess the impact of IFRS 18, with initial system and process changes underway"; Repsol's is
+   "the Group is still assessing the impacts arising from the application of this standard".
+10. **S-281 … S-286 — the disclosures were mis-characterised as IAS 8 paragraph 30–31 impact
+    disclosures.** They are *standards issued but not yet effective* and *recent accounting developments*
+    notes. The string "IAS 8" occurs **zero** times in the extracted text of all five fetched documents and
+    does not appear in the Tadawul index rendering. This confirms rather than undermines the register's
+    hypothesis.
+11. **S-286 — a false verification line.** The entry read "issuer/exchange document fetched directly". The
+    Saudi Tadawul document was **never fetched**: every route returned HTTP 403 (Akamai), a 522, a 504, an
+    empty reader-proxy body or a 404, and the Wayback availability API returned no snapshots. The entry is
+    now marked **NOT VERIFIED**, the text is labelled index-rendered, and the corpus is restated as **5 of 6
+    line-verified, 6 of 6 index-confirmed**, with the cross-jurisdiction comparability of the sample
+    expressly not established.
+12. **The comparability break was under-scoped in four places.** The Cycle-58 gap verdict, the IDEA-011
+    dossier, the shortlist row and the V-009 amendment all stated that the break runs over the profit or
+    loss statement "and over nothing else — no cash-flow, no balance-sheet, no measurement change". The
+    **first two limbs were wrong**: Repsol's own text says the new presentation criteria apply "(mainly
+    with respect to the income statement **and statement of cash flows and, to a lesser extent, the balance
+    sheet**)", that "operating income" is "the new starting point for preparing the statement of cash
+    flows", and that dividends received from investees move within investing cash flows; the Tadawul index
+    rendering says the same of the reconciliation's starting point and adds that goodwill becomes a
+    separate line. The **measurement limb was right**. All four artifacts are corrected to state: the break
+    is **substantive-neutral** (no recognition, no measurement, no change to any reported amount) but
+    **presentation-wide** (income statement, statement of cash flows, and to a lesser extent the balance
+    sheet, plus the aggregation, disaggregation and management-performance-measure disclosures). **The
+    candidate's narrowing survives; its enumerated scope did not.**
+13. **The Repair 8 block's own Tadawul claim was index-rendered, not verified.** It quoted the issuer as
+    saying the standard "will impact the operating profit subtotal" and that "goodwill moves to a separate
+    line with no change in total assets", with no label. The claim is retained but downgraded to
+    index-rendered.
+14. **Two issuer-identity traps were recorded.** The Euronext document is **Euronext Securities Athens
+    S.A.** (formerly ATHECSD), not Euronext Athens Holding S.A., and a similarly titled document at
+    `direct.euronext.com/api/PublicAnnouncements/RISDocument/ANN156031.pdf` is a **different (Spanish)
+    issuer**. Haleon's results statement has **two divergent renderings**: the RNS-published PDF carries the
+    full "Recent accounting developments" text, while the SEC Form 6-K Exhibit 99.2 **omits its first
+    sentence**. Standard Life's "UK Endorsement Board" reference covers the IFRS 9/7 amendments and Annual
+    Improvements Volume 11, **not** IFRS 18.
+
+**Net effect on the cycle's conclusions.** None. G-01 remains closed as a negative (IDEA-002 rejected,
+R-038); G-04 remains closed on the proxy-validity limb with G-28 open and frozen on a structural reason;
+G-21 remains null and sharpened; G-30 remains exhausted; G-33 remains closed as a negative with its 2027 Q3
+re-check; R-037 remains a bounded negative; the active ranking is unchanged at **IDEA-011 69.0 (rank 1),
+IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0**. The corrections make the
+*record* of the cycle exact; they do not move the cycle's result.
