@@ -1,6 +1,18 @@
 # CYCLE NOTES
 
-## Cycle 41 — 2026-10-20
+## Cycle 44 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-43 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-30 (IDEA-010) — all routes outside the statutory prospectus remain exhausted (not found).** Re-checked sponsor-published participant lists (iShares, Vanguard, PGIM, T. Rowe Price, State Street/SPDR, Fidelity) and exchange listing rule filings (Nasdaq Rule 5704, NYSE Arca SR filings) for any requirement that an ETF publish the identities of its authorised participants. Result: no such requirement; no route found. Regulatory route closed (Cycle 41); sponsor-published lists not found (Cycle 42); non-US issuers not found (Cycle 42); exchange listing rules no public disclosure requirement (Cycle 43). All sub-routes closed. V-010 remains non-executable against the corporate-bond ETF universe. No re-derivation triggered.
+2. **G-27/G-30 counts** — unchanged from Cycle 40: 6,131 X-17A-5 documents / 2,419 distinct filers (lower bound); 10-Q 1,151 / 66; 10-K 737 / 96; FR Y-9C not indexed by EDGAR full-text search; private-AP capital state annual (9–14 months stale). No new route produced.
+3. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located; null recorded.
+4. **G-21 (IDEA-011) and IDEA-014's state-free limb** — recorded null and inconclusive verdicts maintained; no new source.
+5. **New mechanism family screen — capacity/inventory-switch constraint (R-024).** Screened a rule that changes the *quantity* a participant may supply (regulatory ownership/capacity limits, e.g., the 50/5/10 fund concentration rule and its index-provider analogues). Bounded negative: the effect is published (concentration constraints push index providers to cap mega-cap weights, S-247-class finding), the constrained flow is the obligor's own (fund/index provider), the switch is published in advance so any reaction is anticipatory, and the effective sample is the number of rule changes rather than securities × dates. No unclaimed sign; no candidate, no dossier, no score change.
+6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-024. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-025, P-014.
+
+---
+
 Theory-only cycle executing the six priorities from the Cycle-40 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 
 ### Outcomes

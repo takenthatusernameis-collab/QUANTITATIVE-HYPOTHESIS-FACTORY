@@ -1,6 +1,6 @@
 # DURABLE HANDOFF — NEXT AGENT
 
-Last updated: 2026-10-20, Cycle 43 complete. Cycle 43 executed the priorities from the Cycle-42 handoff: exhaustively checked G-30 routes outside the statutory prospectus (regulatory, sponsor-published lists, non-US issuers, exchange listing rules) with **not found** across all routes; confirmed V-010 remains non-executable against corporate-bond ETF universe; kept G-28 frozen; ran a new mechanism family screen (margin-schedule switch on a published calendar, logged as R-023, bounded negative). No score changed. One identifier consumed: R-023.
+Last updated: 2026-10-20, Cycle 44 complete. Cycle 44 executed the priorities from the Cycle-43 handoff: re-checked G-30 routes (sponsor-published lists, exchange listing rules) with not found; confirmed V-010 remains non-executable; kept G-28 frozen; maintained G-21/IDEA-014 verdicts; ran a new mechanism family screen (capacity/inventory-switch constraint, logged as R-024, bounded negative). No score changed. One identifier consumed: R-024.
 
 **What Cycle 43 did, in one paragraph.** (1) **G-30 — all routes outside the statutory prospectus exhausted with NOT FOUND.** Checked regulatory (17 CFR 270.6c-11, closed in Cycle 41), sponsor-published lists for major US corporate-bond ETF issuers (iShares, Vanguard, PGIM, T. Rowe Price, State Street/SPDR, Fidelity) — none name APs; non-US issuers/UCITS (outside candidate universe) — not found; exchange listing rules (Nasdaq Rule 5704, NYSE Arca SR filings) — no public disclosure requirement. Rule 6c-11(d)(2)(iv) requires recordkeeping of AP identities for SEC examination only, not public disclosure. No published primary-source route to a corporate-bond ETF's AP set exists outside the statutory prospectus; V-010 remains non-executable against the corporate-bond ETF universe. (2) **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located. (3) **G-21 and IDEA-014's state-free limb** — null/inconclusive maintained. (4) **R-023 — margin-schedule switch family screen: bounded negative.** Screened CME SPAN 2 margin parameter changes (Feb-Mar 2026) and CME precious metals margin setting changes (Jan 2026). Bounded negative: changes are published in advance but affect all participants broadly (cost/risk control), no third-party concession flow creating harvestable opportunity, small effective sample, baseline. No candidate, no score change.
 
@@ -17,7 +17,7 @@ Counts re-derived from the artifact files (Cycle 43 complete; unchanged from Cyc
 | Rejected / parked | **23 rejections** (R-001 … R-023) and **12 parkings** (P-001 … P-012); P-013 reserved and unused |
 | Known-baseline table | **62 rows** |
 | Gaps | G-01 … G-30 defined (G-17 skipped, G-26 reserved and unused). **Open: G-01, G-04, G-21, G-28, G-30.** G-27 closed at filer level in Cycle 40; G-29 closed as a bounded negative in Cycle 40; G-30 **all routes exhausted with not found in Cycles 41-43** (no published primary-source route outside statutory prospectus exists) |
-| Next free identifiers | **IDEA-017, S-247, V-012, G-32, R-024, P-014** |
+| Next free identifiers | **IDEA-017, S-247, V-012, G-32, R-025, P-014** |
 
 ## 2. Highest-priority unresolved theoretical questions
 
