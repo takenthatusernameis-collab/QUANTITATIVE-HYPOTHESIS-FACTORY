@@ -1116,3 +1116,25 @@ Theory-only cycle executing the Cycle-62 handoff priorities. No tests, no data a
 5. **G-32 limb (c), G-33 re-check** — dated 2027 Q3; future obligations only.
 6. **New state-kind screen — Template (F): published constraint breach / non-compliance events at decision date.** Screened state-first with G-12 first against literature. Published breach events exist as institutional event series but are third-party disclosure obligations rather than constrained flows conceding an edge; they are lagged, security-specific and already embedded in price formation; conditioning changes magnitude more often than sign/existence in an unclaimed way; the effective sample is the number of breaches, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. Bounded negative (R-043); added to known-baseline table (row 72). No candidate created, no score changed, no gap opened.
 7. **Wrap up.** Counts re-derived: 43 rejections (R-001…R-043), 72 known-baseline rows. Next free identifiers: IDEA-017, S-310, V-012, G-34, R-044, P-014.
+
+## Cycle 64 — 2026-10-20
+
+Theory-only cycle executing the Cycle-63 handoff priorities. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) G-28/G-21/G-30/IDEA-014/G-32-G-33 — maintain as specified, no re-runs/searches. (2) New state-kind screen — test another state kind (template G: published constraint waiver/amendment events), apply strict bar with G-12 first, screen literature-first, log bounded negatives as R-044, add to known-baseline table. Operation must remain state-first. (3) Wrap up — update artifacts, re-derive counts/identifiers, write fresh verbatim initial task message for Cycle 65, ensure screen decision line and known-baseline row in same pass.
+
+**Pass 2 — Critique.** Template G: published constraint waiver/amendment events (covenant waivers, position-limit amendments, margin-requirement amendments, regulatory forbearance notices, contractually published renegotiation outcomes). Event publication is a third-party disclosure obligation rather than a constrained flow conceding an edge; published waiver/amendment events are lagged, security- or issuer-specific and already embedded in price formation; conditioning changes terms or sizing (magnitude) rather than sign/existence; the effective sample is the number of waivers/amendments, not securities × dates; anticipation/competition through CDS/borrow pricing washes out any residual. Literature suggests no unclaimed sign-determining instance meeting G-12 for a general family.
+
+**Pass 3 — Revise.** Screen Template G with strict bar. Log bounded negative (R-044), add to known-baseline table (row 73). No candidate created, no score changed, no gap opened.
+
+### Outcomes
+
+1. **G-28 (IDEA-004)** — confirm-only; structural null, search exhausted. V-002 frozen. No re-run.
+2. **G-21 (IDEA-011)** — hand off to validation; no re-search. V-009 not amended.
+3. **G-30 (IDEA-010)** — confirmed exhausted; V-010 non-executable.
+4. **IDEA-014** — no effort without new source; inconclusive, no gap.
+5. **G-32 limb (c), G-33 re-check** — dated 2027 Q3; future obligations only.
+6. **New state-kind screen — Template (G): published constraint waiver/amendment events at decision date.** Screened state-first with G-12 first against literature. Published waiver/amendment events exist as institutional event series but are third-party disclosure obligations rather than constrained flows conceding an edge; they are lagged, security- or issuer-specific and already embedded in price formation; conditioning changes terms or sizing (magnitude) rather than sign/existence in any unclaimed way; the effective sample is the number of waivers/amendments, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. Bounded negative (R-044); added to known-baseline table (row 73). No candidate created, no score changed, no gap opened.
+7. **Wrap up.** Counts re-derived: 44 rejections (R-001…R-044), 73 known-baseline rows. Next free identifiers: IDEA-017, S-310, V-012, G-34, R-045, P-014.
