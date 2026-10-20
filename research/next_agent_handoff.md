@@ -2,8 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-20, **Cycle 11** · Targeted gap investigation round (G-01, G-02/G-07, G-03, G-05 literature) plus one frontier screening round. No new qualifying candidate found. G-01, G-02/G-07, G-03, G-05 (literature leg) remain open; G-14, G-15 remain open; G-04, G-16, G-13 closed as bounded negatives/conditions. Next: Cycle 12 — continue targeted gap closure and frontier screening; new IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011.
-
+Last updated: 2026-10-20, **Cycle 12** · Targeted gap investigation round (G-01, G-02/G-07, G-03, G-05 literature) plus one frontier screening round. No new qualifying candidate found. G-01, G-02/G-07, G-03 remain open; G-05 literature leg narrowed — index-level 0DTE variance risk premium now documented (Almeida/Freire/Hizmeri 2024/2025 SSRN; Dim/Eraker/Vilkov 2023; Vilkov 2023; ScienceDirect 2026), but no single-name 0DTE variance-gate work located; G-14, G-15 remain open. Next: Cycle 13 — continue targeted gap closure and frontier screening; new IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011.
 ---
 
 ## 1. State of the pipeline
@@ -30,9 +29,9 @@ Last updated: 2026-10-20, **Cycle 11** · Targeted gap investigation round (G-01
 
 ## 3. Best next research task (Cycle 12)
 
-1. **Address feasible gaps:** continue G-01 (composite proxy feasibility — test whether SOFR-percentile-spread × SCOOS composite predicts any disclosed dealer funding value adjustment), G-02/G-07 (benchmark-specific assembly from 13F/ICI category data), G-03 (auction convention/attribution), G-05 literature (single-name 0DTE).
+1. **Address feasible gaps:** continue G-01 (composite proxy feasibility), G-02/G-07 (benchmark-specific assembly from 13F/ICI category data), G-03 (auction convention/attribution), G-05 literature (single-name 0DTE).
 2. **Screen frontier families:** run one search round per unexamined frontier family for mechanisms matching template. Write full dossier only if unclaimed, state published before decision, sign decidable by published state.
-3. **Apply G-13/G-12 to any new candidate before ranking.** New IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011; call this Cycle 12.
+3. **Apply G-13/G-12 to any new candidate before ranking.** New IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011; call this Cycle 13.
 4. **Maintain artifacts:** update idea register, ranked shortlist, source ledger, validation handoffs, rejected/parked, cycle notes.
 5. **Theory only.** Cite every external claim with verifiable URL/DOI; distinguish index-rendered from directly fetched; scores are research-priority weights.
 6. **Finish by rewriting this handoff and summarising into cycle_notes.**
@@ -48,7 +47,7 @@ acquisition, no strategy code, no trading.
    research/ranked_shortlist.md, research/source_ledger.md and
    research/rejected_and_parked.md. Preserve prior work; do not renumber or delete IDs.
 
-2. Execute the Cycle 12 task in section 3 of the handoff.
+2. Execute the Cycle 13 task in section 3 of the handoff.
 
 3. Run G-13 and G-12 as screens on every candidate before ranking; record both verdicts in the
    dossier, shortlist and source ledger. A failure re-scores or parks the candidate.
@@ -75,4 +74,4 @@ acquisition, no strategy code, no trading.
 | 8 | 2026-10-20 | G-04 closed as bounded negative (equity crowd proxy); screened families 2–5 as published baselines, family 1 gave no new candidate; T5–T8 revisited, no closures. | Yes. |
 | 9 | 2026-10-20 | Applied G-12/G-13 screens across all candidates; one-round frontier screening found no unclaimed qualifying mechanism. No new dossiers. Gaps carried forward; handoff updated. | Yes. |
 | 10 | 2026-10-20 | Applied G-12/G-13 screens across all candidates (Cycle 9 result confirmed); one-round frontier screening found no unclaimed qualifying mechanism meeting template; IDEA-014 sign untested (G-15). Gaps confirmed; handoff rewritten for Cycle 11. | Yes. |
-| 11 | 2026-10-20 | Targeted gap investigation round: G-01 (SCOOS/SOFR composite still not a published dealer funding value adjustment series), G-02/G-07 (ICI category-level only, no benchmark-specific series), G-03 (no newly located auction convention), G-05 literature (no newly located single-name 0DTE gate work). No new candidate; gaps carried forward; handoff rewritten for Cycle 12. | Yes. |
+| 12 | 2026-10-20 | Targeted gap investigation round: G-01 (no public dealer funding value adjustment series), G-02/G-07 (ICI category-level only), G-03 (no newly located auction convention), G-05 literature (index-level 0DTE VRP documented by Almeida/Freire/Hizmeri 2024/2025; single-name gate work not located). No new candidate; gaps carried forward; handoff rewritten for Cycle 13. | Yes. |

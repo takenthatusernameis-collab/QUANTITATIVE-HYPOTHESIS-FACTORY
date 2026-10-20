@@ -1004,3 +1004,28 @@ Findings:
 ### Cycle 9 outcome
 
 No new dossiers added (new IDs remain IDEA-015, S-146, V-010, G-18, R-011, P-011 unused). Applied G-12/G-13 screens to all candidates; statuses unchanged. Existing gaps confirmed. Updated cycle_notes as required.
+
+---
+
+## Cycle 12 — targeted gap investigation (2026-10-20)
+
+**Pass 1 — draft.** Objective: execute Cycle 12 task (section 3 of handoff): close feasible gaps (G-01, G-02/G-07, G-03, G-05 literature) and run one frontier screening round. New IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011.
+
+**Pass 2 — critique.** Apply G-13/G-12 screens to all candidates before ranking; record verdicts. Cite every external claim with verifiable URL/DOI; distinguish index-rendered from directly fetched. Theory only.
+
+**Pass 3 — revise.** Execute searches, document findings, update artifacts.
+
+### Gap investigation findings (Cycle 12)
+
+- **G-01 (dealer funding-state proxy):** SCOOS (Fed, quarterly, qualitative net-percentage survey) remains the only public dealer-funding-terms series; SOFR percentile spreads (NY Fed, daily) measure repo market, not dealer funding value adjustments. No continuous public series of dealer funding value adjustments located. Composite (SOFR-percentile-spread × SCOOS) not validated against disclosed dealer funding costs. Gap remains open; IDEA-002 stays parked (P-004).
+- **G-02/G-07 (benchmark-specific passive-asset series):** ICI publishes category-level aggregates (indexed mutual funds + ETFs, domestic equity) but no benchmark-specific (e.g. S&P 500) tracked-asset series. 13F filings are quarterly and 45-day lagged; assembly from 13F/ICI category data remains possible but unvalidated as a benchmark-specific series. Gap remains open; IDEA-001 flow-scaling limb still rests on estimated quantity.
+- **G-03 (closing-auction convention/attribution):** S&P DJI methodology (S&P US Indices Methodology, 2026-07-07) confirms quarterly reconstitution effective after close of third Friday, share freeze in preceding week, announcements published after close; but no newly located documentation of index funds' effective-close trading convention or attribution of auction volume to index funds vs. arbitrageurs. Gap remains open.
+- **G-05 (single-name 0DTE literature leg):** Index-level 0DTE variance risk premium now documented: Almeida/Freire/Hizmeri (2024, SSRN abstract 4701401; 2025 FMA) — high VRP driven by upside risk compensation, negatively predicts market returns; Dim/Eraker/Vilkov (2023, SSRN 4692190) — 0DTE trading, gamma risk, volatility propagation; Vilkov (2023) — 0DTE trading rules; ScienceDirect (2026) — 0DTE SPX option pricing review citing Almeida 2025, Bandi 2026, Khalil 2024 (intraday VRP predictive content). Dew-Becker & Giglio (Chicago Fed WP 2025-17) — decline of VRP, alpha contribution shrunk. No peer-reviewed work located establishing whether the *single-name* variance-gate channel is documented. Literature leg remains open, narrowed.
+
+### Frontier screening (Cycle 12)
+
+One search round across unexamined frontier families for mechanisms matching template (published state before decision, sign decidable by published state). No unclaimed mechanism meeting all three criteria located. No new dossiers. New IDs IDEA-015, S-146, V-010, G-18, R-011, P-011 remain unused.
+
+### Cycle 12 outcome
+
+No new dossiers added. G-01, G-02/G-07, G-03 remain open; G-05 literature leg narrowed (index-level 0DTE VRP documented; single-name gate work still not located). G-14, G-15 remain open. G-13/G-12 screens re-applied: no status changes. Handoff rewritten for Cycle 13.
