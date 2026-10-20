@@ -1,4 +1,30 @@
-# RANKED SHORTLIST — CYCLES 1–85
+# RANKED SHORTLIST — CYCLES 1–87
+
+**Cycle-87 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 87's substantive
+work was a **bounded, pre-registered screen of a genuinely new mechanism family** — the
+**weather-derivative contract-pricing family** (CME HDD/CDD temperature futures, options and seasonal
+strips) — a family **absent from the known-baseline table** and from every earlier screen (the state-first
+templates A–I and the mechanism-first families R-039 … R-048). The screen ran against a **pre-registered
+decision rule** and returned a **bounded negative (R-049)** on five independent reasons: the family's
+**sign is already published** (contracts are "priced near their actuarially fair value" in normal times,
+the normal-time premium is "less than 2% per year and is statistically insignificant", the crisis premium
+is 26 % annualised and the option leg's weather variance risk premium averages 0.29 — S-332, S-333, S-334);
+what survives is a **magnitude** whose **conditioner is not published at decision time**; the published
+record **contests the premise** (S-335); the **cost floor and the venue's own structure** bind (the venue
+is "relatively illiquid", "Bid-ask spreads are large", and "open interest does not change on 85% of trading
+days" — S-332, S-334); and the **effective sample and the regime dependence** are adverse (the field's own
+published sample discards every quote with zero or missing open interest, S-333, and the crisis premium is
+a 1999–2009 regime rather than a standing condition). **Five sources were registered (S-332 … S-336)** and
+the family was written to the known-baseline table as **row 86**. Cycle 87's second operation was
+**lossless housekeeping with a rubric-arithmetic re-run (clean)** and **four record-integrity repairs**:
+the **removal of a duplicated Cycle-86 block in the cycle log** that had displaced the Cycle-36 heading;
+the **correction of a stale venue list in cross-cutting note 4** below; the **writing of G-36's closure
+into the artifact set** (decided in Cycle 86 but recorded only in the handoff and the cycle log); and the
+**annotation of the shortlist's own unverifiable Cycle-31 retrospective sentence**, which claims an
+energy/weather screen that no `R-` entry, no cycle-log block and no baseline row attests. **No score, no
+rank, no tie-break, no hard-stop flag, no gap and no specification changed**, and **no `IDEA-`, `V-` or `G-`
+identifier was consumed**. **Next free identifiers: IDEA-017, S-337, V-012, G-37, R-050, P-015.**
 
 **Cycle-85 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 85's substantive work
@@ -732,6 +758,15 @@ shock?" — and probed G-19 and G-16 **without closing them**. The tie at 69.0 w
 (energy/weather) was screened with a bounded negative. No new validation specification; V-010 remained
 free. *Cycle 31's two sources (S-188, S-189) were minted in the cycle notes but never written into the
 source ledger; Cycle 32 repairs that.*
+> **ANNOTATED — Cycle 87 (record integrity; the sentence is left in place).** The clause "One family
+> (energy/weather) was screened with a bounded negative" **cannot be verified against the artifact set**:
+> no `R-` entry names an energy or weather family, the cycle log holds **no Cycle-31 block**, and the
+> known-baseline table holds **no such row**. The sentence is **preserved, not re-litigated** — prior work
+> is not deleted on a suspicion — but it is recorded here as unverifiable, and the **weather-derivative
+> family is therefore treated in Cycle 87 as absent from the known-baseline table** and screened for real
+> (R-049). If the Cycle-31 screen was in fact executed, its record was never written — the mirror image of
+> the register's own rule that *an unwritten artifact is not a result*. **Do not cite this sentence as
+> evidence that the weather family was previously screened.**
 
 **Cycle-32 rank changes.** The active ranking moves for the first time since Cycle 16. Three scores
 change: **IDEA-003 71.0 → 66.0** (G-19 closed against its sign claim — mechanism 4 → 3, evidence
@@ -2223,8 +2258,14 @@ risk for the backtest.
    operation applied to the remaining candidates, in particular IDEA-011's post-2010 evidence base,
    and (b) new mechanism families in *venues not yet used* — the register now covers listed US
    equities, index options, crypto perpetuals, corporate-bond ETFs, US biofuel credits and
-   accounting adoption, and nothing in commodity futures, FX, fixed income cash, energy or
-   weather. **Cycle 30 adds a family but not a venue**: IDEA-015 is listed US equities again, reached
+   accounting adoption. **Corrected in place in Cycle 87 (lossless).** This sentence originally read
+   "and nothing in commodity futures, FX, fixed income cash, energy or weather", which was true of the
+   register's *candidates* but is no longer true of its *screens*: commodity futures and FX were screened
+   in **Cycle 2** (both candidates since rejected), fixed-income cash was screened in **Cycle 80 (R-048)**,
+   and the weather-derivative family was screened in **Cycle 87 (R-049)**. The register still holds **no
+   commodity-futures candidate, no FX candidate and no weather-derivative candidate**, so the standing
+   instruction is unchanged: it is still a **venue** instruction, not another state variable in listed US
+   equities. **Cycle 30 adds a family but not a venue**: IDEA-015 is listed US equities again, reached
    through corporate disclosure law rather than through a market operator, a regulator or an exchange,
    so the register's *venue* diversity is unchanged. The standing instruction to the next cycle is
    therefore still a **venue** instruction, not another state variable in listed US equities.

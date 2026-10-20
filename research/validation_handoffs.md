@@ -1,4 +1,17 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–85
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–87
+
+**Cycle 87 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 87's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —
+the **weather-derivative contract-pricing family** (CME HDD/CDD temperature futures, options and seasonal
+strips) — which produced a **bounded negative (R-049)** and **no candidate**, so **no specification was
+required and none was written**. The cycle's second operation was **lossless housekeeping with a
+rubric-arithmetic re-run (clean)** and four record-integrity repairs, of which the consequential one was
+**G-36's closure**: the closure was decided in Cycle 86 but existed only in the handoff and the cycle log,
+so it is now written into IDEA-011's dossier, the register's header, the shortlist and the source ledger.
+**G-36's closure changes nothing in this file** — it does not block V-009, does not re-open G-21 and does
+not amend any specification, and V-009 is **not** amended in Cycle 87. **V-008 and V-009 remain the only
+executable specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 …
+V-007 remain not executable.** **No `V-` identifier was consumed.** **Nothing in this file was executed.**
 
 **Cycle 85 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 85's substantive work was a **rubric-arithmetic audit of the whole register** and a **verification

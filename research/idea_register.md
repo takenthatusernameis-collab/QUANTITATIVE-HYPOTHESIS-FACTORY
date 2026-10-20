@@ -4,7 +4,32 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 85 complete** (Cycle 85 added **no new source identifier and no new source entry**,
+Last updated: **Cycle 87 complete** (Cycle 87 added **five new source identifiers and five new source
+entries (S-332 … S-336)**, minted **no new candidate** and **no new validation specification**, opened
+**no gap**, closed **one gap (G-36)** and changed **no score**). The cycle's substantive work was a
+**bounded, pre-registered screen of a genuinely new mechanism family** — the **weather-derivative
+contract-pricing family** (CME HDD/CDD temperature futures, options and seasonal strips), a family
+**absent from the known-baseline table** and from every earlier screen (the state-first templates A–I and
+the mechanism-first families R-039 … R-048). The screen ran against a **pre-registered decision rule** and
+returned a **bounded negative (R-049)** on five independent reasons: the family's **sign is already
+published**; what survives is a **magnitude** whose **conditioner is not published at decision time**; the
+published record **contests the premise**; the **cost floor and the venue's own structure** bind; and the
+**effective sample and the regime dependence** are adverse. The cycle's second operation was **lossless
+housekeeping with a rubric-arithmetic re-run (clean)** and **four record-integrity repairs**, of which the
+consequential one was **G-36's closure**: the closure was decided in Cycle 86 but existed only in the
+handoff and the cycle log, so it is now **written into IDEA-011's dossier and into this header** and the
+artifact set now carries the claim it makes. The other three repairs were the **removal of a duplicated
+Cycle-86 block in the cycle log** that had displaced the Cycle-36 heading, the **correction of a stale
+venue list in the shortlist's cross-cutting note 4**, and the **annotation of an unverifiable retrospective
+sentence in the shortlist's Cycle-31 note**. **No score, rank, tie-break, hard-stop flag or specification
+changed.** Earlier history: **Cycle 86 complete** (Cycle 86 added **no new source identifier and no new
+source entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**,
+closed **one gap (G-36 — as an honest negative)** and changed **no score**). Its substantive work was to
+maintain the frozen, exhausted and dated items as they stand, to close G-36 via the only open route (a
+contemporaneous record from outside this repository and outside the local session archive naming the
+dimension the Cycle-16 re-score moved — none was found), and to **skip** the new-mechanism-family screen
+slot rather than pad it, per the register's own pre-registered rule. The Cycle-86 closure was written into
+the artifact set in Cycle 87. Earlier history: **Cycle 85 complete** (Cycle 85 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **one gap (G-36)** and closed
 **no gap**, and changed **no score**). The cycle's substantive work was a **rubric-arithmetic audit of the
 whole register** — every dimension statement in every artifact was checked against the register's own rule
@@ -4797,6 +4822,38 @@ IFRS basis.
       validation specification was created, amended or withdrawn, no gap was closed, and the cycle's
       other work — the verification pass and the lossless housekeeping — is recorded separately in
       `cycle_notes.md` and in `source_ledger.md`.
+
+  - **Cycle 87 (2026-10-20) — G-36 CLOSED as an honest negative and written into the artifact set; the
+    reconstruction stands; no profile, total, rank, tie-break, flag, gap or specification changes.**
+    - **The question.** G-36 asked whether any contemporaneous artifact — inside this repository's
+      history or outside it — names the dimension the Cycle-16 re-score moved. It was **narrow, dated and
+      non-blocking** by construction.
+    - **The route that was open.** The three in-environment routes were already exhausted and
+      documented in the Cycle-85 block above: the full git history of the shortlist table row (which
+      carries the Cycle-16 rationale and the total but never the dimension name), the local session
+      archive (twelve sessions, the earliest being Cycle 78's, so the Cycle-16 working session is not
+      present), and the per-candidate rubric bullets (written in Cycles 4–6, before the re-score, and
+      never updated for it). The only genuinely open route was therefore a record from **outside** this
+      repository **and** outside the local session archive.
+    - **The verdict.** That route was executed in **Cycle 86** and returned **no such record**. The
+      closure was written into the Cycle-86 handoff and cycle log but not into any artifact, which left
+      the register asserting a closure it did not carry; **Cycle 87 writes it into the artifact set** —
+      this block, the register's header, the shortlist and the source ledger. **G-36 therefore closes as
+      an honest negative**, in the same form as the register's other honest negatives: route stated,
+      failure stated, reconstruction stands.
+    - **What stands.** The **reconstruction stands**: the Cycle-16 re-score moved **resilience 3 → 2**
+      (weight 15, worth −3.0), and the *data* cell in the shortlist table was the one mis-edited
+      (5 → 4) at that commit. The corrected profile is **mechanism 4, evidence 3, novelty 3,
+      falsifiability 4, resilience 2, data 5 = 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = 69.0**. **No
+      profile change, no total change, no rank change (still 1), no tie-break change, no hard-stop flag
+      change, no gap change and no validation-specification change** follows from the closure. G-36
+      **does not block V-009** and **does not re-open G-21**; V-009 remains the executable
+      specification, unamended, and the candidate remains blocked on the group A/group B partition with
+      the event-count hard stop unrelieved.
+    - **What would reopen it.** Only a contemporaneous record naming a dimension *other than*
+      resilience would force the profile and the total to be re-derived and the Cycle-85 correction
+      withdrawn. Absent such a record the reconstruction is the register's best evidence, and no further
+      search is warranted. **Do not re-open G-36 on a fixed clock and do not re-derive the profile.**
 
 ---
 

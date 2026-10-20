@@ -1,4 +1,34 @@
-# SOURCE LEDGER — CYCLES 1–85
+# SOURCE LEDGER — CYCLES 1–87
+
+**Cycle 87 (2026-10-20) added five new source entries (S-332 … S-336), minted no new candidate and no new
+validation specification, opened no gap, closed one gap (G-36 — an honest negative decided in Cycle 86 and
+written into the artifact set in this cycle) and changed no score.** The cycle's first operation was the
+**new-mechanism-family screen** of the **weather-derivative contract-pricing family** — CME HDD/CDD
+temperature futures, options and seasonal strips — which is **absent from the known-baseline table** and
+from every earlier screen (the state-first templates A–I and the mechanism-first families R-039 … R-048).
+The screen ran against a **pre-registered decision rule** and returned a **bounded negative (R-049)** on five
+independent reasons: the family's **sign is already published**; what survives is a **magnitude** whose
+conditioner is **not published at decision time**; the published record **contests the premise**; the
+**cost floor and the venue's own structure** bind; and the **effective sample and the regime dependence**
+are adverse. The cycle's second operation was **lossless housekeeping with a rubric-arithmetic re-run**
+(clean) and the repair of **four record-integrity defects** found in the artifact set (a duplicated Cycle-86
+log block that had displaced the Cycle-36 heading; a stale venue list in the shortlist's cross-cutting
+note 4; the absence of any artifact-level record of G-36's closure; and an unverifiable retrospective
+sentence in the shortlist's Cycle-31 note). The register now holds **326 verified sources** (S-001 … S-209,
+S-220 … S-336), with S-210 … S-219 reserved and unused. **Next free identifiers: IDEA-017, S-337, V-012,
+G-37, R-050, P-015.**
+> **Cycle-87 wrap-up completed in a later session of the same cycle (2026-10-20).** The screen and the five
+> source entries were executed and written in an earlier session of this cycle; the wrap-up — the **R-049
+> record** in `rejected_and_parked.md`, the **G-36 closure** in IDEA-011's dossier and the register's
+> header, the **Cycle-87 ranking note** in `ranked_shortlist.md`, the **Cycle-87 note** in
+> `validation_handoffs.md`, the **four record-integrity repairs** listed above, the **Cycle-87 log entry**
+> in `cycle_notes.md` and the rewritten handoff — was completed in a later session. The repairs are now
+> **genuinely performed**, not merely asserted: the duplicated Cycle-86 block has been removed from the
+> head of the cycle log and the `## Cycle 36 — 2026-10-20` heading restored; the shortlist's cross-cutting
+> note 4 venue list has been corrected in place; G-36's closure is carried by IDEA-011's dossier and the
+> register's header; and the shortlist's Cycle-31 retrospective sentence is annotated as unverifiable
+> against the artifact set. **No score, rank, tie-break, flag, gap or specification changed**, and the
+> four honest negatives below are unchanged.
 
 **Cycle 85 (2026-10-20) added no new source identifier and no new source entry, minted no new candidate and
 no new validation specification, opened one gap (G-36) and closed no gap, and changed no score.** The
@@ -10134,3 +10164,267 @@ so **G-37** is the next free gap identifier. **No score changed** and
 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a terminal 55.0. The register
 still holds **321 verified sources** (S-001 … S-209 and S-220 … S-331), with S-210 … S-219 reserved and
 unused. **Next free identifiers: IDEA-017, S-332, V-012, G-37, R-049, P-015.**
+
+## Cycle 87 sources (2026-10-20)
+
+Five sources were registered by the Cycle-87 screen of the **weather-derivative contract-pricing family**
+(HDD/CDD temperature futures, options and seasonal strips on the CME). Three are **line-verified** from
+documents fetched directly, one is **bibliographically verified with an unverified body** (an honest
+negative), and one is an institutional factsheet used for venue context only.
+
+### S-332 — Weagley, D. (2019)
+
+"Financial Sector Stress and Risk Sharing: Evidence from the Weather Derivatives Market." *The Review of
+Financial Studies* **32**(6): 2456–2497. DOI 10.1093/rfs/hhy098. Published online 30 August 2018; print
+June 2019. Working-paper lineage: "Financial Sector Stress and Asset Prices: Evidence from the Weather
+Derivatives Market", 6 August 2015 (SSRN 2640352, DOI 10.2139/ssrn.2640352).
+
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article**.
+- **Supports:** the **published sign** of the weather-derivative premium and the **published conditioner**;
+  the venue's market structure; and the crisis regime. From the working-paper version: "In normal times,
+  contracts are priced near their actuarially fair value. During the recent financial crisis, contract
+  prices one-month before maturity fall by 2.2%. This discount is equivalent to an annualized weather risk
+  premium of 26%. Contract prices decline with increases in the TED spread and the VIX and the declines are
+  greatest for high margin and high total risk contracts." On the venue: "The introduction of contracts is
+  correlated with proxies for hedging demand, such as a city's population (energy usage) and the region's
+  crop production. Although the CME temperature futures market has seen tremendous growth, it is relatively
+  illiquid. Bid-ask spreads are large and many deals are conducted off exchange and submitted as block
+  trades. Markets typically open in the 1-3 weeks before the contract month (the median market is opened 39
+  days before maturity) and participants rarely change their positions. After a market is initially opened,
+  open interest does not change on 85% of trading days. Open interest decreases on less than 5% of trading
+  days." On the crisis regime: "If hedging demand is driving the decrease in prices, greater quantities of
+  risk would be hedged during the crisis. However, this is not the case. The notional value of the weather
+  derivatives market decreased by over 50% from $32 billion to $15 billion during the crisis. Similarly,
+  open interest in the monthly futures market fell by 40% between the third and fourth quarter of 2008."
+- **Why it matters:** this entry is the screen's **reason 1** (the family's sign is already published, with
+  its sign-determining state — financial-sector stress — a *published* series) and its **reason 4** (the
+  venue's cost floor and structure are published facts, not the register's inference). A candidate in this
+  family would be re-presenting a published effect and would have to condition on a state that is already
+  in the literature.
+- **Caveats:** the **published article's body was not read** — the OUP full text is paywalled and the direct
+  article route returned HTTP 403 on 20 October 2026 — so **every passage quoted above is the
+  working-paper version's wording**, and the working paper's **26 %** annualised crisis figure differs from
+  the dissertation version's **30 %** (S-334) and from the published article's own abstract, which may
+  phrase the crisis result differently; the paper's object is the 1999–2008/09 sample, so the market
+  structure it describes is **historical** and the venue's current listing status was **not** verified in
+  this cycle (see the honest negatives below).
+- **Verification:** the **Crossref REST work record for DOI 10.1093/rfs/hhy098** was fetched directly
+  (HTTP 200) and confirms the title, the author, the container title, volume **32**, issue **6**, pages
+  **2456–2497**, published-print **1 June 2019**, published-online **30 August 2018**, publisher Oxford
+  University Press, ISSNs 0893-9454 / 1465-7368. The **working-paper version** was fetched directly
+  (HTTP 200, 961,998 bytes, 62 pages) and its text layer extracted (135,050 characters); every passage
+  quoted above is **line-verified from that version**. The published article's body is paywalled — recorded
+  as a limitation on the entry, not concealed.
+
+### S-333 — Bae, J. W., Jacobs, K., Jeon, Y., Szaura, S. and Zurita, V. (2023; conference version 2024)
+
+"Weather Volatility Risk Premium." SSRN working paper **4572123**, posted 2023, DOI
+10.2139/ssrn.4572123. **Conference version:** "Weather Variance Risk Premia", Joon Woo Bae, Yoontae Jeon,
+Stephen Szaura and Virgilio Zurita, 29 August 2024 (CAPORIN / CREST copy).
+
+- **Type:** Prior empirical result (author-reported), **working paper — not peer-reviewed** in either version.
+- **Supports:** the **published option-leg premium**; the contract mechanics; the **published flow
+  structure**; and the field's own published liquidity filter. "Implied volatilities of weather derivatives
+  are substantially greater than the realized volatilities for all cities in our sample, reflecting the
+  positive price associated with the hedging against weather volatility risk. The resulting monthly weather
+  variance risk premia is 0.29 on average with standard deviation of 0.22 and ranges from 0.04 (10th
+  percentile) to 0.61 (90th percentile)." On the mechanics: "The contract price quotes are in units of $20,
+  hence the payoffs of the HDD (CDD) indices are 20×HDD(i,t) (20×CDD(i,t))"; the payoff is the average
+  daily temperature at the city's airport weather station, and the index measures the extra amount of
+  heating (cooling) needed to keep the temperature above (below) 65 °F. On the flow: "the main purchasers of
+  weather derivatives are energy and utility companies whereas the liquidity suppliers are financial
+  institutions. Energy and utility companies take a short position in the temperature futures in order to
+  hedge their risk exposure to changes in local temperature." On the sample's liquidity filter: "We remove
+  option implied volatilities that are either (i) missing, (ii) equal to zero, or (iii) greater than 100%.
+  Additionally, we remove futures and options quotes in which open interest is either zero or missing." The
+  sample is eight U.S. cities (CME codes for, among others, DFW, LAS, MSP, LGA, SAC); the seasonal-strip
+  futures and options data set spans **January 2006 to December 2019**; "the average days to maturity
+  (d2mat) of the contracts is very similar across all contracts ranging from 92 to 112 days. The average
+  open interest ranges from 706 to 1,153 units"; and "the traded volume of seasonal strips are order of
+  magnitude larger than individual monthly derivative contracts for this reason." All option contracts are
+  European-style, written on the futures, with implied volatility computed under Black (1976).
+- **Why it matters:** the screen's **reason 1** (the option leg's premium is published, with its own
+  measure, its own dispersion and its own city cross-section) and its **reason 4** — the field's own
+  researchers had to **discard every quote with zero or missing open interest**, which is a *published*
+  statement of the venue's liquidity, not the register's inference. It also publishes the **clientele
+  structure** the screen's mechanism argument depends on: energy and utility companies short; financial
+  institutions supply liquidity.
+- **Caveats:** working paper, **not peer-reviewed**; the version read is the **conference version** (four
+  authors, 29 August 2024, titled "Weather Variance Risk Premia") while the SSRN posting (five authors
+  including Kris Jacobs, posted 2023) is titled "Weather Volatility Risk Premium" — the measure is WVRP in
+  both, and the register's quoted wording is the conference version's; the paper's own question is whether
+  WVRP predicts local credit spreads and equity variance premia, **not** whether the premium is tradable,
+  and its price data come from a third-party replication of Schlenker and Taylor's data; the sample ends
+  in 2019, so the venue's post-2019 behaviour is not covered.
+- **Verification:** the SSRN record was verified through the **Crossref REST work record for DOI
+  10.2139/ssrn.4572123** (HTTP 200), which returns the title "Weather Volatility Risk Premium", the
+  five-author list (Joon Woo Bae; Kris Jacobs; Yoontae Jeon; Stephen Szaura; Virgilio Zurita, with ORCIDs
+  for Jeon and Szaura), the posting year 2023, and the publisher-deposited abstract; the **SSRN landing
+  page itself was index-rendered only**. The **conference version** (CAPORIN / CREST copy) was fetched
+  directly (HTTP 200, 471,005 bytes, 51 pages) and its text layer extracted (104,320 characters) — every
+  passage quoted above is **line-verified from that version**.
+
+### S-334 — Weagley, D. (2014)
+
+"Essays on the Weather Derivatives Market." PhD dissertation, University of Michigan (Rackham Graduate
+School), 2014. Deep Blue handle 2027.42/108993.
+
+- **Type:** Prior empirical result (author-reported), **doctoral dissertation — not peer-reviewed as a
+  journal article**. Its first essay is the working-paper lineage of S-332; its second essay is an
+  unrelated and separately interesting finding.
+- **Supports:** the **normal-time null** — "The average risk premium across all contracts over the entire
+  period is less than 2% per year and is statistically insignificant. This is consistent with idiosyncratic
+  risk not being priced during normal times. During the financial crisis, estimated average risk premiums
+  rise to a statistically significant 30% per year." — the market-structure facts in the same terms as
+  S-332 ("it is relatively illiquid. Bid-ask spreads are large and many deals are conducted off exchange
+  and submitted as block trades. Markets typically open in the 3 weeks before the contract month, the
+  median market is opened 39 days before maturity, and participants rarely change their positions. After a
+  market is initially opened, open interest does not change on 85% of trading days"), and the crisis
+  collapse ("The notional value of the entire weather derivatives market decreased by over 50% from $32
+  billion to $15 billion during the crisis. Similarly, open interest in the monthly futures market fell by
+  40% between the third and fourth quarter of 2008."). **Essay 2, a separate published finding:** "We argue
+  that temperature-based financial markets generate additional scrutiny of the temperature data measured by
+  the NWS, which in turn motivates the agency to minimize measurement errors. Consistent with this idea,
+  stations with higher economic interests in weather derivatives see greater improvement in measurement
+  accuracy."
+- **Why it matters:** the register's clearest statement that the family's **normal-time premium is a null**
+  (the screen's **reason 3**), which is a stronger ground for the negative than "no published work exists".
+  Essay 2 contributes a **published, previously unrecorded** structural fact about this venue: the
+  settlement index's own measurement error is a documented, market-induced risk, and the market's own
+  presence changes the data quality. Any future candidate in this family must carry it.
+- **Caveats:** dissertation, **not peer-reviewed**; essay 1 duplicates S-332's content in an **earlier
+  version** (30 % annualised crisis premium against the working paper's 26 %), so a *published* figure must
+  be cited from the published article and not from the dissertation; essay 2 is about **data quality**, not
+  about returns, and is not evidence about any premium; both essays describe a 1999–2009 sample.
+- **Verification:** the **Deep Blue content PDF** was fetched directly (HTTP 200, 2,349,974 bytes, 138
+  pages) and its text layer extracted (226,163 characters) — every passage quoted above is
+  **line-verified**. A second Deep Blue route (the `/bitstreams/…/download` path) returned **HTTP 403**
+  (5,783-byte error body) to this environment on 20 October 2026; the content-API route worked. The failure
+  is a **route** failure, not a document defect, and is recorded as an honest negative below.
+
+### S-335 — Chincarini, L. B. (2011)
+
+"No Chills or Burns from Temperature Surprises: An Empirical Analysis of the Weather Derivatives Market."
+*Journal of Futures Markets* **31**(1): 1–33. DOI 10.1002/fut.20463. January 2011. (An SSRN version of the
+same title exists: DOI 10.2139/ssrn.1340761.)
+
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** — but **the body was
+  not verified in this cycle** (see Verification).
+- **Supports:** the register's summary of the **published verdict on this family**: the weather-derivatives
+  market is characterised in the published record as **efficient despite its illiquidity**, and the
+  temperature-forward premia are reported as **statistically insignificant and sign-flipping** rather than
+  as a stable premium.
+- **Why it matters:** the screen's **reason 3** — the family's premise is **contested in the published
+  literature**, so a future candidate here would have to answer a *published null*, not merely an absence
+  of published work. This is a stronger reason against a candidate than "nothing has been published".
+- **Caveats:** **the document body is unverified in this cycle.** The author-hosted PDF was fetched
+  directly but **no text layer could be extracted**, so **no passage from the document is quoted as directly
+  parsed**; the wording above is an **index-rendered** summary of the paper's findings and **must be
+  re-verified** from a text-extractable copy (or from the journal version) before any future candidate in
+  this family leans on it as a *primary* premise. The register's rule is explicit that an index-rendered
+  rendering may not serve as a verification basis; this entry is therefore registered as a **neighbour with
+  an unverified body**. The screen's reason 3 does not rest on this entry alone — it is also carried by the
+  line-verified material in S-332 and S-334.
+- **Verification:** **honest negative.** Bibliographic metadata verified through the **Crossref REST work
+  record for DOI 10.1002/fut.20463** (HTTP 200): title, author "Ludwig Chincarini", *Journal of Futures
+  Markets*, volume **31**, issue **1**, pages **1–33**, published **January 2011**; a second Crossref
+  record (DOI 10.2139/ssrn.1340761) carries an SSRN version of the same title. The author-hosted PDF was
+  fetched directly (HTTP 200; 33 pages; 216,178 bytes) but **no text could be extracted**: `pypdf` returned
+  **0 characters** and PyMuPDF returned **0 characters**, with "fontTools is required to fully parse the
+  encoding of a CFF Type1 font" and "Error -3 while decompressing data" diagnostics. The document's findings
+  are therefore **index-rendered only** and are **not quoted**.
+
+### S-336 — FORRS (2024)
+
+"Energy Market and Weather Derivatives." Factsheet in the **#WeatherwiseEnergy** series. FORRS
+(Risikoberatung), Munich — www.forrs.de. **February 2024** (PDF creation timestamp 27 February 2024).
+
+- **Type:** Institutional research factsheet (a risk-consulting firm's client note) — **not peer-reviewed**,
+  and not a study.
+- **Supports:** the venue's **recent scale** and its **settlement basis**: "The average open interest in
+  weather futures and options for 2023 (January – September) was four times higher compared to 2022 and
+  twelve times compared to 2019"; that "weather derivatives were traded as over-the-counter (OTC)
+  contracts and were soon traded on exchanges as well. Online platforms allow for trading of OTC contracts
+  and derivatives with a variety of underlying weather parameters. Trades are often available with a variety
+  of maturity dates and are settled using grid point data from weather models or weather station
+  observations"; and the market's relative size: "the weather derivatives market is approximately ten times
+  smaller compared to crude oil."
+- **Why it matters:** it establishes that the venue is **not dead** — the open-interest series has grown
+  sharply since 2019 — so the screen's conclusion is *not* "the market disappeared"; it is that the
+  premium's **sign is published** while its **conditioner is not observable at decision time**, which is a
+  different and stronger ground. It also documents the **settlement basis** (weather-model grid points or
+  station observations) that any future candidate in this venue would have to price.
+- **Caveats:** client-facing factsheet, **not peer-reviewed**; it is a **secondary** rendering of CME data
+  (its figure is captioned "Adapted from CME Group") and it carries no source list for its own arithmetic;
+  the 4× / 12× figures are the factsheet's own comparison of the CME open-interest series, **not** a
+  published study of the market; used here for **venue context only**, not as evidence about any premium.
+- **Verification:** the PDF was fetched directly (HTTP 200, 301,975 bytes, 3 pages) and its text layer
+  extracted (4,814 characters) — every passage quoted above is **line-verified**. The document itself
+  prints no date on the page; the date recorded here is the PDF's own creation timestamp.
+
+### Cycle 87 honest negatives — four routes that did not resolve, recorded as negatives, not as debts
+
+| Source | Route tried and result | Status |
+| --- | --- | --- |
+| **The venue's own documentation (CME Group weather pages)** | `https://www.cmegroup.com/markets/weather/hdd/atlanta-hdd-dec-seasonal-strip.html` and `https://www.cmegroup.com/openmarkets/energy/2024/Weather-Derivatives-Grow-as-Risks-Intensify.html` both returned **HTTP 403** to a direct fetch on 20 October 2026 | **Honest negative.** **No venue page is quoted or relied on anywhere in the register.** The venue's structure is taken from the line-verified literature (S-332, S-333, S-334) and the venue's *current* listing status **could not be verified**; that is carried as an explicit open item in R-049's re-screen condition rather than assumed either way |
+| **S-335 (Chincarini 2011)** | The author-hosted PDF was fetched directly but **no text layer could be extracted** (`pypdf` 0 characters, PyMuPDF 0 characters) | **Honest negative** — the entry is a **neighbour with an unverified body**, index-rendered only, and is not used as a verification basis for any reason in R-049 |
+| **S-334 (Deep Blue route)** | The `/bitstreams/…/download` route returned **HTTP 403** (5,783-byte error body) with a browser user-agent; the content-API route returned **HTTP 200** | **Honest negative on the first route only** — a route failure, not a document defect; the document was read from the content route and is line-verified |
+| **S-332 (OUP article body)** | The published article's full text is **paywalled**; the direct article route returned **HTTP 403** | **Honest negative** — the published article's own wording is **not quoted**; the working-paper version is line-verified and the version difference is stated on the entry |
+
+## Cycle 87 gap verdicts
+
+Cycle 87's verdicts are recorded here in the file's standard form. **No score changed**, **no gap was
+opened**, and **one gap was closed with effect**: G-36, decided in Cycle 86 and **written into the artifact
+set in this cycle** so that the artifacts no longer assert a closure they do not carry.
+
+| Gap / limb | Candidate | Cycle-87 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-36 — the contemporaneous record naming the dimension the Cycle-16 re-score moved** | IDEA-011 | **CLOSED AS AN HONEST NEGATIVE.** No contemporaneous record from outside this repository and outside the local session archive names the dimension; the three in-environment routes remain exhausted and documented (full git history; the local session archive, whose earliest session is Cycle 78's; the per-candidate rubric bullets, which pre-date the re-score). The reconstruction stands: the Cycle-16 re-score moved **resilience 3 → 2**, and the *data* cell was the one mis-edited (5 → 4) at that commit. **Written into the artifacts in Cycle 87**: the closure is now carried by IDEA-011's dossier and by the register's header, so the artifact set matches the claim | **No profile, total, rank, tie-break, flag or specification change. G-36 does not block V-009 and does not re-open G-21** |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** The crowding-measure search was not re-run; the frozen null and its unfreezing condition are unchanged | No change (63.0, rank 2) |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands; **V-009 is not amended** | No change (69.0, rank 1) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not re-probed.** G-30 remains exhausted; no published crowding proxy may be substituted | No change (parked, P-014, terminal 55.0) |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only** | No action |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains **inconclusive** — neither a positive finding nor a refutation | No change (52.0, rank 4) |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Not re-opened.** The Cycle-73 bounded negative stands | No change |
+| **G-14** | various | **Dated 29 March 2029** | No action |
+| **G-12, G-13, G-15, G-16, G-20, G-23, G-24, G-25, G-27, G-34, G-35** | various | **Closed or dated; not re-run** | No action |
+
+## Cycle 87 state-integrity repairs
+
+1. **The cycle log carried the Cycle-86 record twice, and the duplicate had displaced the Cycle-36
+   heading.** `cycle_notes.md` held a **byte-identical copy** of the Cycle-86 block at the **head** of the
+   file, where it had overwritten the `## Cycle 36 — 2026-10-20` heading — leaving the Cycle-36 record
+   unheaded and the newest cycle's record out of chronological order. **Repair:** the head copy is removed,
+   the `## Cycle 36 — 2026-10-20` heading is restored in its place, and the correctly placed tail copy of
+   the Cycle-86 record is kept. **No cycle's content was altered, added or lost**: the Cycle-86 record
+   removed from the head is byte-identical to the one retained at the tail, and the Cycle-36 record is
+   byte-identical to the previous checkpoint's.
+2. **The shortlist's cross-cutting note 4 carried a stale venue list.** It stated that the register covers
+   "listed US equities, index options, crypto perpetuals, corporate-bond ETFs, US biofuel credits and
+   accounting adoption, and nothing in commodity futures, FX, fixed income cash, energy or weather".
+   Fixed income cash was screened in **Cycle 80 (R-048)** and weather derivatives are screened in **Cycle 87
+   (R-049)**; commodity futures and FX were screened in **Cycle 2** (both candidates since rejected). The
+   list is **corrected in place**, with the history preserved and the standing instruction unchanged.
+3. **G-36's closure existed only in the handoff and the cycle log.** Under the register's own standing
+   condition — *no artifact may be described as written, executed, verified or complete anywhere in this
+   register until the agent has checked that it is present in the artifact set* — the closure is now written
+   into **IDEA-011's dossier** and into the register's header, so the artifact set and the claim agree.
+4. **The shortlist's Cycle-31 retrospective sentence is unverifiable against the artifact set.** The
+   Cycle-31 note says "One family (energy/weather) was screened with a bounded negative", but **no `R-`
+   entry names an energy or weather family**, the cycle log holds **no Cycle-31 block**, and the
+   known-baseline table holds **no such row**. The sentence is **left in place** (prior work is preserved
+   and is not re-litigated) and is recorded here as **unverifiable against the artifact set**; the
+   weather-derivative family is therefore screened in Cycle 87 as **absent from the known-baseline table**.
+   If the Cycle-31 screen was in fact executed, its record was never written — the mirror image of the
+   register's own rule that *an unwritten artifact is not a result*.
+
+**Cycle-87 identifier and ranking record.** **Five `S-` identifiers consumed (S-332 … S-336)**; **no `IDEA-`
+identifier consumed**; **no `V-` identifier consumed**; **one `R-` identifier consumed (R-049)**; **no `P-`
+identifier consumed**; **no `G-` identifier consumed** (G-36 was consumed and closed in Cycle 86 and its
+closure was written into the artifacts in this cycle). One known-baseline row was added (**row 86**). The
+register holds **326 verified sources** at the end of Cycle 87 (316 entries in the standard `### S-NNN`
+heading form plus ten bold inline entries — S-281 … S-290 — the S-281 … S-290 formatting observation from
+the Cycle-72 repair block still stands and is unchanged). **No score changed** and **no rank changed**: the
+active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014
+(52.0, rank 4)**, with IDEA-010 parked (P-014) at a terminal 55.0. **Next free identifiers: IDEA-017, S-337,
+V-012, G-37, R-050, P-015.**
