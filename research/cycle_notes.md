@@ -137,3 +137,35 @@ Theory-only cycle executing the five priorities from the handoff. No tests, data
 4. IDEA-014 state-free existence limb: One bounded search for published evidence that RFS compliance deadline moves prices at all. RIN market structure is documented (obligations codified 40 CFR 80.1405 S-128, deadlines published S-129; deadline moved by rule S-131), but no clear published evidence of a price effect specifically tied to the compliance deadline itself (separate from RIN supply/demand fundamentals) was located in bounded search. **Conclusion: bounded inconclusive** — no published evidence found that the deadline per se moves prices; the state-free existence limb remains unconfirmed.
 
 5. New family screen (non-compliance-deadline template): Compliance-deadline template exhausted (EU ETS parked, RIN conditional retired, CBAM bounded negative R-016). Screened ex-dividend date mechanics as alternative template. Ex-dividend effects are well-documented in literature (price drop ~ dividend amount, tax effects), but these are mechanical pricing adjustments and the premium/edge is not a novel unclaimed mechanism distinct from published baselines. No unclaimed state-dependent mechanism survives strict bar. **Bounded negative logged (R-017-style)** — ex-dividend family is a published baseline with no unclaimed mechanism.
+
+
+---
+## Cycle 43 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-42 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-30 (IDEA-010) — routes outside the statutory prospectus exhausted with NOT FOUND.** Checked regulatory (17 CFR 270.6c-11 — no public disclosure requirement for AP identities, closed Cycle 41), sponsor-published lists (iShares, Vanguard, PGIM, T. Rowe Price, State Street/SPDR, Fidelity — all use generic language, no AP names), non-US issuers (no US-listed corporate-bond ETF with published AP set), and exchange listing rules (Nasdaq Rule 5704, NYSE Arca rules, SR filings — no requirement to publicly disclose AP identities; Rule 6c-11(d)(2)(iv) requires recordkeeping only). All plausible routes exhausted with not found verdicts. No published primary-source route exists outside the statutory prospectus. V-010 remains non-executable against the corporate-bond ETF universe.
+
+2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located.
+
+3. **G-21 (IDEA-011) and IDEA-014's state-free limb** — null and inconclusive verdicts maintained; no new source.
+
+4. **New mechanism family screen — margin-schedule switch (R-023).** Screened CME SPAN 2 margin parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates) and CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional). Bounded negative: changes are published in advance (G-13 passes) but affect all participants broadly as cost/risk controls, not a third-party forced flow creating a harvestable concession; constrained response is margin calls/liquidation; effective sample is small number of changes; known baseline. No candidate, no dossier, no score change.
+
+5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-023. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-024, P-014.
+
+
+---
+## Cycle 43 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-42 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-30 (IDEA-010) — routes outside the statutory prospectus exhausted with NOT FOUND.** Checked regulatory (17 CFR 270.6c-11 — no public disclosure requirement for AP identities, closed Cycle 41), sponsor-published lists for major US corporate-bond ETF issuers (iShares, Vanguard, PGIM, T. Rowe Price, State Street/SPDR, Fidelity — all use generic language, no AP names), non-US issuers (no US-listed corporate-bond ETF with published AP set), and exchange listing rules (Nasdaq Rule 5704, NYSE Arca rules, SR filings — no requirement to publicly disclose AP identities; Rule 6c-11(d)(2)(iv) requires recordkeeping only). All plausible routes exhausted with not found verdicts. No published primary-source route exists outside the statutory prospectus. V-010 remains non-executable against the corporate-bond ETF universe.
+
+2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located.
+
+3. **G-21 (IDEA-011) and IDEA-014's state-free limb** — null and inconclusive verdicts maintained; no new source.
+
+4. **New mechanism family screen — margin-schedule switch (R-023).** Screened CME SPAN 2 margin parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates) and CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional). Bounded negative: changes are published in advance (G-13 passes) but affect all participants broadly as cost/risk controls, no third-party concession flow creating harvestable opportunity, small effective sample, baseline. No candidate, no dossier, no score change.
+
+5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-023. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-024, P-014.

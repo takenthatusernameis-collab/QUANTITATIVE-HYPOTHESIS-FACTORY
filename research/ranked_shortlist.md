@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–42
+# RANKED SHORTLIST — CYCLES 1–43
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base

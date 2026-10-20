@@ -5,21 +5,12 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 42 complete, 2026-10-20. **22 rejections (R-001 … R-022), 12 parkings
+Last updated: Cycle 43 complete, 2026-10-20. **23 rejections (R-001 … R-023), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
-screen — bounded negative: no published decision-time binding state, the switch is published in advance so
-any flow is anticipated, the constrained flow is the obligor's own, and the effective sample is the number
-of switches). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative: the
-post-amendment effect is already a published positive result in the literature, so the sign a candidate
-would claim is claimed; the switch is published in advance so any reaction is anticipatory; and the
-effective sample is the number of amendments, not securities × dates). Cycle 42 added **R-022** (the
-benchmark-methodology-change family — bounded negative: the change is published in advance so any flow is
-anticipated; the reconstitution effect has collapsed per S-146/S-147; the constrained flow is the index
-fund's own per S-151; and the effective sample is the number of methodology changes). Cycle 40 also
-**merged the duplicate R-019** — the file had carried two different entries under one identifier — and added
-three known-baseline rows (the crypto/commodity AP-naming practice, the short-interest branch of the
-crowding literature, and the eligibility-switch family). The log's own counts are re-derived from the file
-on every cycle; see the state-integrity note at the end.
+screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
+Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
+(the margin-schedule switch family — bounded negative: changes are published in advance but affect all participants broadly as cost/risk controls, no third-party concession flow, small effective sample). Cycle 40 also
+**merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
 
@@ -281,7 +272,35 @@ on every cycle; see the state-integrity note at the end.
 - **Dated re-screen condition.** Re-screen only if (i) a provider announces a methodology change that creates a *large*, *dated*, *third-party* forced-flow obligation with a **published list of affected securities** and a **published effective date**; or (ii) a published study identifies a residual that survives the anticipation objection for a *benchmark methodology* change (as distinct from the published reconstitution literature).
 - **Decision:** bounded negative (R-022). The benchmark-methodology-change family is recorded in the known-baseline set; no dossier was created; no `IDEA-` identifier was consumed; no score changed.
 
+
+### R-023 — Margin-schedule switch (venue rule changes margin requirements on a published calendar) (Cycle 43 family screen — bounded negative)
+
+- **The family screened.** A switch where a venue/clearinghouse changes margin requirements (initial/maintenance, SPAN parameters) on a published calendar/effective date.
+- **Instances run.** CME SPAN 2 framework parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates), CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional).
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons, any one of which is sufficient:**
+  1. **Published in advance** — changes are announced via notices with effective dates, satisfying G-13.
+  2. **No third-party concession flow** — margin changes affect all participants with positions; the constrained response is typically margin calls/liquidation by participants themselves or their clearing firms, not a forced flow by one party creating a concession to another third-party arbitrageur.
+  3. **Broad-based cost change, not targeted opportunity** — affects entire product classes/risk profiles; no published list of affected securities with exploitable cross-section creating an unclaimed sign.
+  4. **Effective sample is small** — discrete rule changes with limited degrees of freedom; margin effects are known as costs/risk controls.
+- **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
+
+
 ---
+
+
+### R-023 — Margin-schedule switch (venue rule changes margin requirements on a published calendar) (Cycle 43 family screen — bounded negative)
+
+- **The family screened.** A switch where a venue/clearinghouse changes margin requirements (initial/maintenance, SPAN parameters) on a published calendar/effective date.
+- **Instances run.** CME SPAN 2 framework parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates), CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional).
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons, any one of which is sufficient:**
+  1. **Published in advance** — changes are announced via notices with effective dates, satisfying G-13.
+  2. **No third-party concession flow** — margin changes affect all participants with positions; the constrained response is typically margin calls/liquidation by participants themselves or their clearing firms, not a forced flow by one party creating a concession to another third-party arbitrageur.
+  3. **Broad-based cost change, not targeted opportunity** — affects entire product classes/risk profiles; no published list of affected securities with exploitable cross-section creating an unclaimed sign.
+  4. **Effective sample is small** — discrete rule changes with limited degrees of freedom; margin effects are known as costs/risk controls.
+- **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
+
 
 ## Parked (not rejected; blocked on a specific question)
 
