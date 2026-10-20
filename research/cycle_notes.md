@@ -1383,3 +1383,32 @@ headings**; all ten are present with full text, so the source count is unaffecte
 bold-form = **317**), and the defect is one of heading form only; it was recorded, not rewritten. The ledger's
 own header was brought up to date (Cycles 1–72, 317 verified sources, next free identifiers). No rejection or
 parking record's verdict, rule or content changed, and no source content or verification label changed.
+
+---
+
+## Cycle 73 — 2026-10-20
+Theory-only cycle executing the Cycle-72 handoff priorities. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) maintain frozen/exhausted/dated items; (2) execute the P-011 unblocking check (G-21's IDEA-015 limb) — bounded literature re-read of 2025–2026 Rule 10b5-1 / issuer-plan literature against the registered two-part question (remaining scheduled supply state from Item 408(a) + Form 4; price effect attached to execution window rather than adoption window); (3) close the three SSRN debts by non-SSRN routes; (4) housekeeping lossless only; (5) wrap up.
+
+**Pass 2 — Critique.** Must not re-open closed routes. Pre-register decision rule: published positive → re-score and admit; published null on execution-window price pressure → reject; nothing published → stays parked.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+
+1. **P-011 unblocking check (IDEA-015 PLAN-SUPPLY) — nothing published; candidate stays parked.** A bounded literature re-read of 2025–2026 Rule 10b5-1 literature (Wharton Kim/Kim/Rajgopal 2025 on the 2022 amendment's price-efficiency effects; Stanford dissertation on strategic disclosure timing under 10b5-1 plans; Verity study of 158,000 insider sales; SEC staff guidance on Item 408(a) disclosures) found **no published work** that (a) constructs a security-level remaining-scheduled-supply state from Item 408(a) quarterly tables and Form 4 filings, or (b) documents a price effect attached to the execution window of a disclosed Rule 10b5-1 schedule rather than the adoption window. The Wharton paper tests price efficiency of affected firms, not remaining supply; the Stanford dissertation models disclosure strategy; the Verity study documents abnormal returns on insider selling. None constructs the registered state. Per the pre-registered decision rule: nothing published → the candidate stays parked with its evidence-first condition. No dossier, no gap, no score change, no validation specification (V-010 stays closed). IDEA-015 remains parked.
+
+2. **Frozen/exhausted/dated items maintained.** G-28 (IDEA-004) frozen structural; G-21 (IDEA-011) handed to validation; G-30 (IDEA-010) exhausted confirm-only; IDEA-014 state-free existence limb inconclusive; G-32 limb (c) and G-33 re-check dated 2027 Q3; P-010's G-14 dated 2029-03-29. No re-runs, no re-searches, no new gaps on these.
+
+3. **SSRN debts (S-310, S-317, S-318) — unchanged, still index-rendered.** Non-SSRN routes (ORCID works lists, preprint mirrors, journal versions) were not reachable within this cycle's bounded pass; the debts remain open with honest labels (authorship Crossref- and OpenAlex-confirmed; abstracts index-rendered; no body text quoted). No new source minted.
+
+4. **No new state kind proposed; screen slot skipped.** No candidate, no dossier, no R- identifier consumed.
+
+5. **Housekeeping, lossless only.** No restructuring performed; the two recorded drifts (rejected_and_parked.md ordering; S-281…S-290 bold-form entries) remain recorded, not rewritten. IDEA-009's shortlist heading still shows its older Cycle-66 score — noted, not silently corrected.
+
+6. **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5). Counts unchanged: 15 dossiers, 317 verified sources, 10 validation specs, 46 rejections, 12 parking records (11 active), 78-row known-baseline table. Next free identifiers unchanged: IDEA-017, S-328, V-012, G-34, R-047, P-014. Open gaps: G-21, G-28 (frozen structural), G-30 (exhausted).
+
+7. **Wrap up.** Handoff rewritten; fresh verbatim initial task message for Cycle 74 written. Counts and identifiers re-derived from the files.
