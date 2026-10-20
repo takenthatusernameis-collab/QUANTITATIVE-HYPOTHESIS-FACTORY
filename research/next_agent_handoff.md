@@ -1,6 +1,6 @@
 # DURABLE HANDOFF — NEXT AGENT
 
-Last updated: 2026-10-20, **Cycle 35**. Cycle 35 executed the five Cycle-35 priorities and, before
+Last updated: 2026-10-20, **Cycle 36**. Cycle 36 executed the five Cycle-36 priorities: G-27 (IDEA-010) reported as "untested" (broker-dealer capital ratios not publicly available at firm level; BHC arm runnable via FR Y-9C); G-28 (IDEA-004) specified the convergence/arbitrage-crowd measure and found it unconstructible from published data; G-21 (IDEA-011) recorded a null on the first- vs second-adopter drift search; IDEA-014's state-free existence limb retained after a bounded inconclusive search; one new family screen logged as a bounded negative. No score changed; no new sources minted.
 them, a **state-integrity repair** of the register. Key outcomes:
 
 - **State-integrity repair (new this cycle).** The Cycle-33 source-ledger header and the Cycle-34

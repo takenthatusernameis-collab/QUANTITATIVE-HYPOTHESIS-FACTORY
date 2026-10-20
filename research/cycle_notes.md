@@ -954,3 +954,9 @@ added**, **V-003 marked never-to-execute**. No new IDEA identifier and no new V-
    the next screen should look for a different template.
 6. **Re-derive the state of the register from the files at the start of the cycle** (the new standing
    rule), and keep the reserved identifier ranges intact.
+
+---
+
+## Cycle 36 — 2026-10-20 — G-27/G-28/G-21 probes, IDEA-014 existence limb, one family screen
+
+Cycle 36 executed the five priorities in handoff section 3. G-27: broker-dealer capital ratios are not publicly available at firm level in timely form (FOCUS Part II non-public; only annual Part III), so the IDEA-010 cross-sectional contrast is runnable only on the BHC arm; verdict "untested", not a kill. G-28: the convergence/arbitrage-crowd position-concentration measure is specified and is unconstructible from published data. G-21: no located study runs the first- vs second-adopter drift comparison; recorded as a null on the search. IDEA-014 limb: bounded search inconclusive, limb retained at 52.0. One new family screen: bounded negative. No score changed; no new sources minted; reserved identifiers intact.
