@@ -4,12 +4,10 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 59 complete** (Cycle 59 executed the register's remaining highest-value
-*state-availability* questions and **settled all of them, without creating a candidate and without changing
-a score**. (i) **G-28 (IDEA-004)** was re-checked against the *structural* question — is there a published
-**pair-level, netted** position source, i.e. one that publishes a participant's longs *and* shorts, or a net
-position, at a granularity at which a two-legged crowd is visible? — and the answer is **no, for a
-structural reason**: every published position-disclosure source is **security-level and single-sided**
+Last updated: **Cycle 63 complete** (Cycle 63 executed the register's state-kind screen template F —
+published constraint breach / non-compliance events — as a bounded negative R-043, wrote it to the
+known-baseline table as row 72, settled all maintained gaps without creating a candidate, and changed no
+score).
 (13F is long-only and aggregated; 13D/13G are beneficial-ownership disclosures; FINRA short interest is an
 issue-level aggregate with no firm-level breakdown; CFTC category tables are aggregates), while a
 convergence crowd is defined by a **pair** of positions, so no such source can represent it. **V-002 stays

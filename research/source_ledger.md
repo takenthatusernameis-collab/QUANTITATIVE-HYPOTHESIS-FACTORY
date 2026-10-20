@@ -1,19 +1,65 @@
-# SOURCE LEDGER — CYCLES 1–59
+# SOURCE LEDGER — CYCLES 1–63
+
+Cycle 63 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
+substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation,
+V-009 not amended), G-30 (exhausted, V-010 non-executable), IDEA-014 (inconclusive, no gap),
+G-32 limb (c) and G-33 re-check (dated 2027 Q3) with no re-runs**, and **one new state-kind screen**
+— the **published constraint breach / non-compliance events** family (margin violations, position-limit
+breaches, enforcement actions, covenant breaches; template F) — logged as a **bounded negative (R-043)**
+on five independent reasons, with **no `S-` identifier consumed**. Cycle 63 also produced the **"Cycle 63
+gap verdicts"** block at the end of this file. **No score changed, no candidate was created, no `V-`
+specification was created, amended or withdrawn, and no `G-` identifier was opened.** The register now
+holds **S-001 … S-209** and **S-220 … S-309** — **299 verified sources**; the identifiers **S-210 … S-219**
+remain reserved and unused. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-044, P-014.**
+
+Cycle 62 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
+substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation), G-30
+(exhausted), IDEA-014 (inconclusive), G-32 limb (c) and G-33 re-check (both 2027 Q3)**, and **one new
+state-kind screen** — the **published reserve/availability/headroom state** family (margin cushion/buffer,
+available capacity/headroom, position-limit headroom, inventory availability; template E) — logged as a
+**bounded negative (R-042)** on five independent reasons, with **no `S-` identifier consumed**. Cycle 62
+also produced the **"Cycle 62 gap verdicts"** block at the end of this file. **No score changed, no
+candidate was created, no `V-` specification was created, amended or withdrawn, and no `G-` identifier
+was opened.** The register now holds **S-001 … S-209** and **S-220 … S-309** — **299 verified sources**;
+the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-310,
+V-012, G-34, R-043, P-014.**
+
+Cycle 61 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
+substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation), G-30
+(exhausted), IDEA-014 (inconclusive), G-32 limb (c) and G-33 re-check (both 2027 Q3)**, and **one new
+state-kind screen** — the **published count or queue state at decision date** family (template D) —
+logged as a **bounded negative (R-041)** on five independent reasons, with **no `S-` identifier
+consumed**. Cycle 61 also produced the **"Cycle 61 gap verdicts"** block at the end of this file.
+**No score changed, no candidate was created, no `V-` specification was created, amended or withdrawn,
+and no `G-` identifier was opened.** The register now holds **S-001 … S-209** and **S-220 … S-309** —
+**299 verified sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free
+identifiers: IDEA-017, S-310, V-012, G-34, R-042, P-014.**
+
+Cycle 60 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
+substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation), G-30
+(exhausted), IDEA-014 (inconclusive), G-32 limb (c) and G-33 re-check (both 2027 Q3)**, and **one new
+state-kind screen** — the **published fee or toll** family (clearing/processing, registration/tender,
+depositary/conversion charges; fee/toll state-kind) — logged as a **bounded negative (R-040)** on five
+independent reasons, with **no `S-` identifier consumed**. Cycle 60 also produced the **"Cycle 60 gap
+verdicts"** block at the end of this file. **No score changed, no candidate was created, no `V-`
+specification was created, amended or withdrawn, and no `G-` identifier was opened.** The register now
+holds **S-001 … S-209** and **S-220 … S-309** — **299 verified sources**; the identifiers **S-210 … S-219**
+remain reserved and unused. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-041, P-014.**
 
 Cycle 59 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
-substantive work was a **bounded re-check of G-28's structural question** (which produced no source, because
-the answer is a property of the available source *classes*), a **hand-off of G-21 to validation**, a
-**confirmation that G-30 is exhausted**, a **maintained inconclusive** verdict on IDEA-014's state-free
+substantive work was a **bounded re-check of G-28's structural question** (which produced no source,
+because the answer is a property of the available source *classes*), a **hand-off of G-21 to validation**,
+a **confirmation that G-30 is exhausted**, a **maintained inconclusive** verdict on IDEA-014's state-free
 existence limb, the **recording of two future obligations** (G-32 limb (c) and G-33's re-check, both 2027
 Q3), and the register's **second state-first family screen** — the **published price of a constraint**
 (repo specialness, securities-lending fee curves, CDS financing spreads, standing-repo award rates) —
 logged as a **bounded negative (R-039)** on five independent reasons, with **S-041** (SOFR/BGCR/TGCR) and
 **S-042** (repo operations and primary-dealer statistics) as the only sources consulted and **no `S-`
-identifier consumed**. Cycle 59 also produced the **"Cycle 59 gap verdicts"** block at the end of this file.
-**No score changed, no candidate was created, no `V-` specification was created, amended or withdrawn, and
-no `G-` identifier was opened.** The register now holds **S-001 … S-209** and **S-220 … S-309** — **299
-verified sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers:
-IDEA-017, S-310, V-012, G-34, R-041, P-014.**
+identifier consumed**. Cycle 59 also produced the **"Cycle 59 gap verdicts"** block at the end of this
+file. **No score changed, no candidate was created, no `V-` specification was created, amended or
+withdrawn, and no `G-` identifier was opened.** The register now holds **S-001 … S-209** and **S-220 …
+S-309** — **299 verified sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next
+free identifiers: IDEA-017, S-310, V-012, G-34, R-041, P-014.**
 
 **Cycle 59's wrap-up was completed in a later session** and is recorded in `cycle_notes.md` under "Cycle-59
 wrap-up completion". That repair changed **no verdict, no gap closure and no score**: it wrote the
@@ -8054,3 +8100,93 @@ IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0**. 
 **Reasons:** see R-039. No unclaimed mechanism passed the strict bar; public rates are indicators rather than clean sign-determining decision-time states; securities-lending fee data is fragmented and largely proprietary; G-12's sign-and-existence limb was not met.
 
 **Identifiers and score:** R-039 consumed; **no `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened**; no score changed; no candidate created; the family was added to the known-baseline table as **row 68** at the Cycle-59 wrap-up.
+
+---
+
+## Cycle 60 gap verdicts
+
+Cycle 60's verdicts are recorded here in the file's standard form, because Cycle 60's own wrap-up wrote
+only the R-040 screen entry and left the cycle's other verdicts in cycle_notes.md. **No verdict, no gap
+closure and no score changed when this block was written** — the verdicts below are the ones Cycle 60
+reached; what was missing was their location, not their content.
+
+| Gap / limb | Candidate | Cycle-60 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null.** No pair-level, netted position source exists (13F is long-only and aggregated without pair-level netting; 13D/13G are beneficial-ownership disclosures, not systematic pair-level crowd disclosure; FINRA short interest is an issue-level aggregate; CFTC category tables are aggregates). Every published position-disclosure source is security-level and single-sided; a convergence crowd is defined by a pair of positions. | **G-28 remains OPEN and FROZEN.** No new gap opened. **V-002 remains frozen.** Unfreezing still requires a published pair-level, netted measure, or a published validation of a construction against an outcome, that is not a public real-time by-product of the crowd's own trading. No score change (69.0, rank 2). |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Null maintained; hand-off to validation, not to further literature search.** The comparison is unrun and unused; the field's largest comparability study (S-294) is a first-time-adopter design by construction and does not inventory drift, and the nearest published outcome family (S-295) is likewise first-time-adopter. | **No literature re-search.** The comparator is actionable inside V-009 (amended in Cycle 58), and the claim is a contribution, not a replication. Cannot be run inside the IFRS 18 window (G-32 limb (a) closed). No score change (69.0, rank 1). |
+| **G-30** — the ETF → authorised-participant mapping and the coverage count | IDEA-010 | **Confirmed exhausted; no re-probe.** All four routes outside the statutory prospectus remain closed: no regulatory requirement to publish AP identities (Cycle 41), no sponsor-published AP lists (Cycle 42), no non-US issuer route (Cycle 42), no exchange-listing requirement (Cycle 43). | **V-010 remains non-executable** against the corporate-bond ETF universe. No published crowding proxy may be substituted for the AP set. No score change (68.0, rank 3). |
+| **IDEA-014's state-free existence limb** — does the US Renewable Fuel Standard compliance deadline move prices at all? | IDEA-014 | **No effort without a new source.** No source bearing on the limb was located. The limb remains inconclusive and is neither a positive finding nor a refutation. | **No gap opened** on the limb. IDEA-014 stays at 52.0; P-011 stands. |
+| **G-32 limb (c)** — the annual re-read of the 2024–2027 IFRS 18 pre-adoption literature | IDEA-011 | **Not due.** The limb was last read in Cycle 57 (null). Dated 2027 Q3. | **Future obligation only.** No action in this cycle. |
+| **G-33's re-check** — is the pre-adoption impact disclosure quantifiable and comparable at firm level once the 2026 interim-report tranche is fully public? | IDEA-011 | **Not due — dated 2027 Q3**, and the sample read must not be run again from scratch: the six interim reports have now been read (S-281 … S-286; 5 of 6 line-verified, 6 of 6 index-confirmed, the Saudi Tadawul document behind an Akamai layer returning HTTP 403 on every route). | **Future obligation only.** No action in this cycle; no gap opened. |
+
+**Cycle-60 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0,
+rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five
+rejected. New identifiers consumed: **R-040** only. No `S-`, `V-`, `IDEA-` or `G-` identifier was consumed
+or opened. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-041, P-014.**
+
+---
+
+## Cycle 61 gap verdicts
+
+Cycle 61's verdicts are recorded here in the file's standard form. **No verdict, no gap closure and no
+score changed** — the verdicts below are the ones Cycle 61 reached and recorded in `cycle_notes.md`;
+what was missing was their location, not their content.
+
+| Gap / limb | Candidate | Cycle-61 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Confirm-only; structural null, search exhausted.** | **G-28 remains OPEN and FROZEN.** V-002 frozen. No re-run. No score change. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **New state-kind screen — Template (D): published count or queue state at decision date** | — | **Bounded negative (R-041); added to known-baseline table as row 70.** No candidate created, no score changed, no gap opened. | R-040 consumed (Cycle 60); R-041 consumed (Cycle 61). No `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened. |
+
+**Cycle-61 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged. New identifiers consumed: **R-041** only. Next free identifiers:
+**IDEA-017, S-310, V-012, G-34, R-042, P-014.**
+
+---
+
+## Cycle 62 gap verdicts
+
+Cycle 62's verdicts are recorded here in the file's standard form. **No verdict, no gap closure and no
+score changed** — the verdicts below are the ones Cycle 62 reached and recorded in `cycle_notes.md`;
+what was missing was their location, not their content.
+
+| Gap / limb | Candidate | Cycle-62 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Confirm-only; structural null, search exhausted.** V-002 frozen. No re-run. | **G-28 remains OPEN and FROZEN.** No score change. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **New state-kind screen — Template (E): published reserve/availability/headroom state at decision date** | — | **Bounded negative (R-042); added to known-baseline table as row 71.** No candidate created, no score changed, no gap opened. | R-042 consumed (Cycle 62). No `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened. |
+
+**Cycle-62 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged. New identifiers consumed: **R-042** only. Next free identifiers:
+**IDEA-017, S-310, V-012, G-34, R-043, P-014.**
+
+---
+
+## Cycle 63 gap verdicts
+
+Cycle 63's verdicts are recorded here in the file's standard form. **No verdict, no gap closure and no
+score changed** — the verdicts below are the ones Cycle 63 reached; what was missing was their location,
+not their content.
+
+| Gap / limb | Candidate | Cycle-63 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null.** No re-run/search. V-002 frozen. | **G-28 remains OPEN and FROZEN.** No score change. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **New state-kind screen — Template (F): published constraint breach / non-compliance events at decision date** | — | **Bounded negative (R-043); added to known-baseline table as row 72.** Screened state-first with G-12 first. No candidate created, no score changed, no gap opened. | R-043 consumed (Cycle 63). No `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened. |
+
+**Cycle-63 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0,
+rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3). New identifiers consumed: **R-043** only. No `S-`, `V-`, `IDEA-` or `G-`
+identifier was consumed or opened. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-044, P-014.**

@@ -1,6 +1,6 @@
-# RANKED SHORTLIST — CYCLES 1–59
+# RANKED SHORTLIST — CYCLES 1–63
 
-**Cycle-59 ranking. No score changed for any active candidate.** The order remains **IDEA-011 (69.0,
+**Cycle-63 ranking. No score changed for any active candidate.** The order remains **IDEA-011 (69.0,
 rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the
 tie at 69.0 broken in IDEA-011's favour on falsifiability (4 versus 3), exactly as in Cycles 35, 37, 52
 and 56. Cycle 59 was a **settling cycle: it closed no gap and opened none, created no candidate and changed
