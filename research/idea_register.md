@@ -704,12 +704,17 @@ closed against the single-name extension.**
   69.5% of listed equities trading options by end-2025. The tail-concentration warning therefore
   *strengthens*: a single-name extension would have been thin even if it had been unclaimed.
 - **Effect on the dossier: no score change (71.0).** G-05's closure removes an open question and
-  adds contradictory evidence against a *variant*, not against the candidate. Rank changes only
-  because IDEA-001 was rejected (rank 3 → rank 2).
+adds contradictory evidence against a *variant*, not against the candidate. Rank changes only
+because IDEA-001 was rejected (rank 3 → rank 2).
+
+**Cycle 14 (continued) / Cycle 15 evidence-currency pass — VRP decline and state-gate viability.** S-177 (Dew-Becker & Giglio 2025, Chicago Fed WP 2025-17, September 2025): equity index options historically displayed sharply negative returns and CAPM alphas, but over the past ~15 years option alphas have become indistinguishable from zero; synthetic options never had negative alpha over the last 100 years, indicating equity investors never required high compensation for market downturns; an intermediary-based model explains both patterns, including the recent decline in the variance risk premium. Read against IDEA-003: the *unconditional* variance harvest has weakened to near-zero in recent years, while the aggregate VRP as a published object is unaffected. This strengthens (rather than weakens) the candidate's core claim — that harvestability is state-contingent and that the gate, not the premium's existence, is the load-bearing element.
+- Gate design (unchanged, still viable): G-13 PASS (gate computed from the live listed option surface; no publication lag); G-12 PASS on the sign limb (a crash-imminent state flips harvestability, so an unconditional harvest has a negative-expectation branch); G-05 literature half closed against the single-name extension (S-153/S-154) while the aggregate version is untouched; post-2010 structural context (S-169: 0DTE at 28% of options volume by 2025) strengthens the tail-concentration warning.
+- **Score: 71.0, unchanged; rank 2, unchanged.** No re-score; the S-177 finding is consistent with the state-gate framing already scored. The concrete next question remains: in a pre-specified ex-ante gate, does the crash-state-gated variance harvest dominate the unconditioned harvest on a risk-adjusted basis, and does the gate need information beyond the option surface itself?
 
 ---
 
 ## IDEA-004 — SLOWCAP-COND: capacity-conditional convergence trades under slow-moving capital
+
 
 - **ID / short name:** IDEA-004 / SLOWCAP-COND
 - **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.0
@@ -2312,6 +2317,14 @@ narrowed.**
   documented in the post-2010 sample (the literature of record, Armstrong/Beuselinck et al., is
   largely pre-2015) — a search that has never been run for this candidate and that is the mirror
   image of what killed IDEA-001.
+
+**Cycle 14 (continued) / Cycle 15 evidence-currency pass — post-2010 IFRS/adoption drift.** The post-2010 evidence base was searched for the first time (mirroring the check that killed IDEA-001). Located evidence:
+- S-178 (Hung, Li & Wang 2014/2015, RFS 28(4): 1242–1277): PEAD declines after an exogenous improvement in non-US firms' financial reporting quality; the decrease is more pronounced where reporting quality improved most, where institutional holdings are higher, limits-to-arbitrage are lower, and enforcement is stronger; driven by greater reporting changes, increased analyst forecast accuracy, institutional ownership and liquidity. Supports the mispricing/slow-diffusion reading: better information environment → smaller drift.
+- S-179 (Song & Woo 2015, K-IFRS, DOI 10.31203/aepa.2015.12.4.006): KRX-listed firms 2006–2013; K-IFRS adoption had a noticeable negative effect on PEAD size; under-reaction decreased; PEAD decreased for firms without analysts' forecasts and with positive unexpected earnings.
+- S-175 (Armstrong et al 2010) and S-176 (Beuselinck et al 2009): largely pre-2010 (2005 EU IFRS adoption); establish increased information content/comparability and reduced synchronicity, concentrated in strong-enforcement countries and low pre-adoption quality firms.
+- Read as a set, the post-2010 literature indicates IFRS-style adoption improves the information environment and shrinks PEAD magnitude in several settings — consistent with slow-diffusion drift weakening post-adoption, analogous to momentum's documented decay (S-156). This is evidence *against* a persistent, tradable announcement-to-first-report drift in the post-2010 sample, but the literature does not isolate the candidate's exact dated two-legged trade, and the adoption-event sample remains small (hard-stop unchanged).
+- **Score: 72.0, unchanged; rank 1, unchanged.** No re-score pending a more targeted post-2010 sample comparison; the post-2010 check is now complete and sharpens (rather than reverses) the prior assessment. The binding constraint remains the small, non-independent adoption-event sample.
+- Enforcement regimes: S-178 and S-175/S-176 both find effects concentrated in strong-enforcement countries, so enforcement is a relevant regime condition for any future specification (already in the dossier's observables/target scope).
 
 ---
 

@@ -3866,3 +3866,31 @@ DOI: (varies; register cites the mechanism)
 - **Supports:** IFRS adoption associated with increased earnings comparability/informativeness in some samples; effects concentrated in firms/countries with stronger enforcement and lower pre-adoption comparability.
 - **Caveats:** Evidence mixed across samples/methods; many studies focus on 2005 EU adoption (pre-2010). Post-2010 evidence needs to be checked.
 - **Verification:** Metadata noted from standard references in the dossier.
+
+### S-177 — Dew-Becker, I. and Giglio, S. (2025)
+"The Decline of the Variance Risk Premium: Evidence from Traded and Synthetic Options." Chicago Fed Working Paper No. 2025-17, September 2025.
+URL: https://www.chicagofed.org/publications/working-papers/2025/2025-17
+- **Type:** Prior empirical result (author-reported), working paper — not peer-reviewed.
+- **Supports (for IDEA-003):** equity index options historically displayed sharply negative returns and CAPM alphas, but over the past ~15 years option alphas have become indistinguishable from zero; synthetic options never had negative alpha over the last 100 years, indicating equity investors never required high compensation for market downturns. An intermediary-based model explains both patterns, including the recent decline in the variance risk premium. Consistent with IDEA-003's state-gate framing: the unconditional harvest has weakened, so the gate on *when* to harvest is the load-bearing claim.
+- **Caveats:** working paper; documents the decline in traded-option alphas but does not itself specify or test a gate; the aggregate VRP as a published object is unaffected (only harvestability is questioned).
+- **Verification:** Chicago Fed Working Papers landing page fetched directly (title, authors, WP number, date, abstract confirmed).
+
+### S-178 — Hung, M., Li, X. and Wang, S. (2014 / published 2015)
+"Post-Earnings-Announcement Drift in Global Markets: Evidence from an Information Shock." *The Review of Financial Studies* 28(4): 1242–1277.
+DOI: https://doi.org/10.1093/rfs/hhu062 · working-paper version: SSRN 2269909
+URL: https://academic.oup.com/rfs/article-abstract/28/4/1242/1928671
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-011 post-2010 evidence):** PEAD declines after an exogenous improvement in non-US firms' financial reporting quality; the decrease is more pronounced among firms with fewer concurrent earnings announcements, higher institutional holdings, lower limits-to-arbitrage, and in countries with stronger enforcement; driven by firms with greater reporting changes, increased analyst forecast accuracy, institutional ownership and liquidity. Supports the mispricing/slow-diffusion reading of PEAD: better information environment → smaller drift.
+- **Caveats:** sample centered on the information-shock event rather than a sequence of adoption dates; does not isolate a dated two-legged announcement-to-first-report trade; pre-2010-adjacent (2005 EU IFRS-adjacent settings appear in the broader literature).
+- **Verification:** SSRN abstract and Oxford Academic landing page read via search index; DOI, volume, issue and pages confirmed.
+
+### S-179 — Song, J. and Woo, Y.-S. (2015)
+"The Effects of K-IFRS Adoption on the Magnitude of Post Earnings Announcement Drift." DOI: https://doi.org/10.31203/aepa.2015.12.4.006 · Published 2015-12-30.
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for IDEA-011 post-2010 evidence):** analysis of KRX-listed firms 2006–2013 finds K-IFRS adoption had a noticeable negative effect on the size of PEAD; under-reaction of investors decreased due to adoption; PEAD decreased for firms without analysts' earnings forecasts and with positive unexpected earnings. Consistent with adoption improving information quality and shrinking slow-diffusion drift.
+- **Caveats:** single jurisdiction (Korea), sample 2006–2013; whole-firm sample did not show an outstanding effect, result concentrated in sub-samples (positive unexpected earnings; no-analyst-forecast firms).
+- **Verification:** DOI landing page read via search index; title, authors, date and abstract confirmed.
+
+## Cycle 14 (continued) gap verdicts
+
+- **G-18 — BOUNDED NEGATIVE (no validated substitute; V-002 stays frozen).** G-18 asks whether a return-correlation crowding measure (comomentum, S-157: Lou & Polk 2021, RFS 35(6): 3272–3302) is a valid substitute for a holdings-based crowding measure (S-026: Brown, Howard & Lundblad 2021, RFS 35(7): 3231–3271, built from 13F-style hedge fund holdings with up-to-a-quarter reporting lag). S-157 shows comomentum is *correlated with* existing arbitrage-activity proxies, including institutional ownership of the winner decile (13F-based) and Chen–Da–Huang (2019) net arbitrage trading (abnormal hedge fund holdings minus abnormal short interest), and that comomentum forecasts momentum returns, volatility and skewness. But S-157 never tests whether comomentum is a valid *substitute* for the holdings-based measure, and no head-to-head validation of correlation-based vs holdings-based crowding was located in a bounded search across thirteen cycles. The closest comparison is a factor-crowding study (Dell, "Crowding and Factor Returns", SSRN 3803954) which finds its direct position-based crowding measure remains significant while the Lou–Polk correlation-based proxy adds little incremental predictive power once position-based crowding is included — i.e. the holdings-based measure subsumes rather than is replaced by the correlation-based proxy. Conclusion: comomentum is decision-time and free (S-157) but is **not a validated substitute** for S-026's holdings-based crowding. IDEA-004 must not be re-specified around an unvalidated proxy (register method). **V-002 (IDEA-004) remains frozen pending G-18 closure.** If a direct validation/comparison paper is located in a future cycle, G-18 can be reopened; otherwise it stands as a bounded negative.

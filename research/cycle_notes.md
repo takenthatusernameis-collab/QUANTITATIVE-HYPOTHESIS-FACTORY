@@ -1204,3 +1204,23 @@ IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Handoff rewritten for Cycle 1
 - Artifacts maintained: source ledger updated (S-175, S-176, S-177 noted), cycle notes updated. Hand off rewrite completed.
 
 **Outcome:** IDEA-011 remains rank-1 but post-2010 evidence suggests adoption improves information environment (reducing drift opportunity). IDEA-003 baseline harvest weakened per recent literature; gate condition more important. G-18 still open. No new candidates. Next: deeper look at G-18 validation possibilities.
+
+## Cycle 15 — 2026-10-20 — G-18 bounded negative; IDEA-011 post-2010 check complete; IDEA-003 gate review complete
+
+**Objective (per handoff):** (a) close or bound G-18 (comomentum S-157 vs holdings-based crowding S-026); (b) deeper post-2010 evidence-currency check on IDEA-011 (PEAD magnitude around IFRS/adoption, enforcement regimes); (c) review implications of Dew-Becker & Giglio (2025 WP 2025-17, S-177) for IDEA-003 state-gate; maintain artifacts and rewrite handoff.
+
+**Three-pass task framing (applied):**
+- Pass 1: Read handoff/register/shortlist/source ledger/rejected-parked. Confirmed IDEA-011 rank 1 (72.0), IDEA-003 rank 2 (71.0); G-18 open; V-002 frozen pending G-18.
+- Pass 2: Searched G-18 literature and post-2010 IFRS/adoption PEAD evidence; located S-177 (Dew-Becker & Giglio 2025-17), S-178 (Hung–Li–Wang 2015 RFS), S-179 (Song–Woo 2015 K-IFRS).
+- Pass 3: Documented findings, updated artifacts, rewrote handoff for Cycle 15.
+
+**What was done:**
+- Added S-177 (Dew-Becker & Giglio 2025, Chicago Fed WP 2025-17: traded-option alphas declined to near zero over ~15 years; synthetic options never negative alpha over 100 years; aggregate VRP unaffected), S-178 (Hung–Li–Wang 2015, RFS 28(4): 1242–1277: PEAD declines after reporting-quality improvement, stronger where enforcement/institutional holdings higher and limits-to-arbitrage lower), S-179 (Song–Woo 2015, K-IFRS: adoption reduced PEAD size) to source ledger (S-001…S-179).
+- G-18: BOUNDED NEGATIVE. S-157 (comomentum) is correlated with holdings-based proxies (13F ownership, Chen–Da–Huang NAT) but never tests substitutability; no head-to-head validation of correlation-based vs holdings-based crowding located across thirteen cycles. Closest comparison (Dell "Crowding and Factor Returns", SSRN 3803954) finds the position-based measure subsumes the correlation-based proxy. Comomentum is decision-time and free but NOT a validated substitute for S-026. V-002 (IDEA-004) stays frozen; IDEA-004 not re-specified around an unvalidated proxy. G-18 stands as bounded negative, not closed as a validation.
+- IDEA-011 post-2010 check COMPLETE: post-2010 literature indicates IFRS-style adoption improves information environment and shrinks PEAD magnitude — evidence *against* a persistent post-2010 announcement-to-first-report drift, analogous to momentum decay (S-156). Score unchanged 72.0, rank 1; hard-stop (small, non-independent adoption-event sample) unchanged. Enforcement regimes: effects concentrated in strong-enforcement countries (S-178, S-175/S-176).
+- IDEA-003 state-gate review COMPLETE: S-177 VRP decline consistent with and reinforcing the state-gate framing (harvestability, not the premium's existence, is the claim); gate viable (G-13 PASS, G-12 PASS sign limb, G-05 closed against single-name extension, aggregate untouched). Score unchanged 71.0, rank 2.
+- IDEA-010/014: no new evidence to change status (G-16/G-15 open). No new candidate written up.
+- Ranked shortlist updated: IDEA-011 and IDEA-003 hard-stop flags annotated with completed post-2010 checks; no score changes.
+- Artifacts maintained: source ledger, idea_register dossiers, ranked_shortlist, next_agent_handoff (Cycle 15), cycle_notes.
+
+**Outcome:** G-18 bounded negative (V-002 stays frozen); IDEA-011 remains rank 1 (72.0) with post-2010 decay evidence documented; IDEA-003 remains rank 2 (71.0) with gate reinforced; no new candidates. Active ranking unchanged: IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0), IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Next cycle: re-score/park decision on IDEA-011 given decay evidence; run G-13/G-12 on evidence-changed candidates; confirm V-002 frozen.
