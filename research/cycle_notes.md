@@ -1412,3 +1412,157 @@ Theory-only cycle executing the Cycle-72 handoff priorities. No tests, no data a
 6. **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5). Counts unchanged: 15 dossiers, 317 verified sources, 10 validation specs, 46 rejections, 12 parking records (11 active), 78-row known-baseline table. Next free identifiers unchanged: IDEA-017, S-328, V-012, G-34, R-047, P-014. Open gaps: G-21, G-28 (frozen structural), G-30 (exhausted).
 
 7. **Wrap up.** Handoff rewritten; fresh verbatim initial task message for Cycle 74 written. Counts and identifiers re-derived from the files.
+
+## Cycle 74 — 2026-10-20
+
+Theory-only cycle executing the Cycle-73 handoff priorities. **Executed in the previous session; its artifacts
+were written to the working tree, but its cycle-log entry, its source-ledger verdict blocks and its handoff were
+not written before that session ended.** The session that followed verified the work, completed the missing
+wrap-up, and recorded the provenance here. No tests, no data acquisition, no strategy or signal implementation,
+no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) maintain frozen/exhausted/dated items; (2) the P-011
+unblocking check (already executed in Cycle 73); (3) close the three SSRN verification debts (S-310, S-317,
+S-318) through non-SSRN routes; (4) a screen slot, only if a genuinely new state kind or mechanism family was
+proposed — else skip; (5) housekeeping, lossless only; (6) wrap up.
+
+**Pass 2 — Critique.** The screen slot must not be padded: the register's state-kind screen programme was
+recorded as exhausted in Cycle 66, and seven consecutive screens had produced the same bounded negative, so the
+slot is better spent on evidence operations. The debt closure must be honest: a route that does not resolve
+must be recorded as an exhausted route, not as a new attempt dressed up as progress.
+
+**Pass 3 — Revise.** Execute as specified; skip the screen slot rather than run a low-value screen.
+
+### Outcomes
+
+1. **The three Cycle-66 verification debts (S-310, S-317, S-318) — closed by non-SSRN routes: one upgrade and
+   two honest negatives.** **S-317** was **upgraded to line-verified (author-hosted page)**: Chen Yang's CUHK
+   SEEM staff page (`https://www1.se.cuhk.edu.hk/~cyang/`, fetched directly, HTTP 200) prints the abstract
+   in full, and it matches the ledger entry verbatim. **S-310's** four named non-SSRN routes are all exhausted
+   (the author is independently affiliated with no institutional repository; no arXiv/RePEc mirror; no journal
+   version; Semantic Scholar HTTP 429 after HTTP 404 in Cycle 72) — closed as an honest negative with the label
+   unchanged. **S-318's** four named routes are likewise exhausted (EPFL Infoscience is bibliographic only; the
+   arXiv record under this author pair is S-316, a *different* paper; no journal version; Semantic Scholar
+   HTTP 429) — closed as an honest negative with the label unchanged. No body text was quoted from any of the
+   three.
+2. **The P-011 unblocking check was executed in Cycle 73** and found nothing published against the registered
+   two-part question, so **IDEA-015 stays parked** with no dossier, gap, score or specification created.
+3. **Frozen, exhausted and dated items maintained.** G-28 (IDEA-004) frozen structural; G-21 (IDEA-011) handed
+   to validation; G-30 (IDEA-010) exhausted, confirm-only; IDEA-014's state-free existence limb inconclusive;
+   G-32 limb (c) and the G-33 re-check dated 2027 Q3; P-010's G-14 dated 2029-03-29. No re-runs, no
+   re-searches, no new gaps.
+4. **No new state kind and no new mechanism family was proposed, so the screen slot was skipped** — the
+   cycle's own pre-registered rule, not an omission. No candidate, no dossier, no `R-` identifier consumed.
+5. **Housekeeping, lossless only.** The ordering and heading format of `rejected_and_parked.md` and
+   `source_ledger.md` were **confirmed as intended and left unchanged**; the two recorded presentation drifts
+   (repair 7 — the file's ordering of R-012/R-013 inside the Parked section; repair 8 — the ten bold-inline
+   source entries S-281 … S-290) were re-confirmed rather than silently restructured.
+6. **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 (69.0, rank 1), IDEA-010
+   (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5). Counts
+   unchanged: 15 dossiers, 317 verified sources, 10 validation specs, 46 rejections, 12 parking records
+   (11 active), 78-row known-baseline table. Open gaps: G-21, G-28 (frozen structural), G-30 (exhausted).
+7. **Wrap-up completed and verified in the following session.** This cycle's missing blocks were written: the
+   **Cycle-74 gap-verdict block** and **Cycle-74 state-integrity repair block** in the source ledger (both
+   appended in the ledger's standard form), this cycle-note entry, and the handoff rewrite. **One lossless
+   repair was carried out as part of the completion:** S-317's entry-level Caveats and Verification bullets
+   still stated that the abstract was index-rendered after the Cycle-74 upgrade, so the entry contradicted
+   itself; the two bullets were corrected to state the current position (abstract line-verified, full text not
+   retrieved). No claim, magnitude, verdict or identifier changed.
+
+## Cycle 75 — 2026-10-20
+
+Theory-only cycle. It **completed and verified the Cycle-74 wrap-up** and then executed two research
+operations. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no
+modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** With P-011 exhausted (Cycle 73) and the verification debts closed (Cycle 74), the register's
+remaining levers are (i) an **evidence operation on an active candidate**, and (ii) the **mechanism-first search**
+that the Cycle-73 handoff named as the fallback. Draft: run one **trigger-based** prior-art re-read of the
+active candidate whose published-neighbour inventory is most exposed, and run **one mechanism-first family
+screen** on a family defined by an institutional mechanism rather than by a published state, with a
+pre-registered decision rule (published effect → baseline and rediscovery guard; unclaimed sign plus a
+published decision-time state plus a decidable sign → candidate; no published decision-time state → bounded
+negative with a dated re-screen condition).
+
+**Pass 2 — Critique.** Risks checked before the searches: (a) *rediscovering a screened family* — the screen
+must be a family the register has not run, and the result must be compared against the 78-row baseline table
+and the nine closed screen templates; (b) *landing on a published baseline* — the register rejects only when a
+published result **shows the candidate's effect**, so a published effect is a baseline, not a candidate;
+(c) *re-tuning an active candidate* — a re-read is only permitted on a **trigger** (a new published neighbour,
+a venue-rule change, a new asset class, or a published result touching a hard-stop flag), and it must not
+re-run a frozen gap's search; (d) *novelty inflation in either direction* — a second re-read of a candidate
+that was re-scored in the previous cycle must show a **measurable** change in the published neighbourhood,
+not merely a fifth paper in the same family; (e) *weak verification* — a source that cannot be read directly
+may be registered with an honest label but may not be the basis of a verdict, and the decision rule must
+pre-commit to that.
+
+**Pass 3 — Revise.** Execute both operations; pre-commit that the IDEA-010 re-read triggered by an index-rendered
+source is **handed on, not executed**, and that no candidate is created unless the mechanism-first screen finds
+an unclaimed sign with a published decision-time state.
+
+### Outcomes
+
+1. **A new published neighbour was found for IDEA-004, and it changed the candidate's score.** The trigger
+   search located **S-328** (Wang, Z. 2026, "Residual Supply and the Price of Risk Absorption",
+   arXiv:2605.30672, preprint) — **line-verified** from the arXiv abstract page and the full HTML rendering
+   (HTTP 200). It publishes a market-clearing model of residual-supply pricing, a **published, constructible
+   security-level capacity state** (13F investor-base thickness, CRSP liquidity, aggregate mutual-fund stress),
+   the **state-scaled premium** (roughly doubling when absorption capacity is tight) and an **identification
+   argument** against mechanical reversal; its own keyword list includes "slow-moving capital", the candidate's
+   mechanism keyword. That is the **fourth** published neighbour in the candidate's own conditional structure
+   (after S-325, S-326, S-327).
+2. **IDEA-004 re-scored 66.0 → 63.0 (novelty 2 → 1 only), rank 3 unchanged.** Mechanism (4), evidence (4),
+   falsifiability (3), resilience (3) and data (3) are unchanged. The reasoning: the candidate's *measurable*
+   content is now published in every part — the two-sided crowding gate (S-325), the slow-capital mechanism and
+   the flow state (S-326), the crowding-measure inventory and the identification constraint (S-327), and the
+   capacity-scaled premium with a published state and a published identification design (S-328) — while what
+   remains unclaimed is a formulation difference (pairs rather than a factor strategy) plus the **pair-level,
+   netted convergence-crowd identity**, which G-28 records as *not constructible from published data*. The
+   residual is therefore **unmeasurable rather than unclaimed**, which is a materially weaker position and the
+   reason for the novelty cut. The candidate is **not parked and not rejected**, because nothing published
+   shows the candidate's own effect. **Four new hard-stop flags** were attached, and the standing prohibition on
+   substituting a published crowding or capacity proxy now covers S-328.
+3. **G-28 remains open and frozen, and its structural null is strengthened for a fifth time.** S-328's state is
+   security-level and measures *risk absorbers*, not the position concentration of a *paired convergence crowd*;
+   the crowding-measure search was **not** re-run, and the unfreezing condition is unchanged in wording.
+   **V-002 remains frozen** and received a Cycle-75 note (extended rediscovery guard; the published
+   identification design a future execution would have to engage; the published flow-pressure risk-absorption
+   premium as a **rival explanation**; a marginal-content requirement). No re-specification was written; no
+   `V-` identifier was consumed.
+4. **The register's first mechanism-first family screen since Cycle 13 was run, and closed as a bounded
+   negative (R-047).** The family is *reporting-date balance-sheet window dressing into public safe assets* —
+   an institutional mechanism, not a published state. **S-329** (Sun & Tian 2026, SSRN 6913784, *When Banks
+   Retreat*, abstract index-rendered) publishes the sign, the window and the size: short-maturity Treasury yields
+   fall 3–9 bps at quarter-ends, with a 4.9 bps elasticity per 1 % of bill market value. **S-330** (Fleming,
+   Liu & Nguyen 2026, NY Fed Staff Report 1188, **line-verified**) publishes the auction-channel instance: yields
+   rise in the hours before an auction and reverse afterwards, strengthening when dealers face tighter
+   risk-bearing constraints. Five independent reasons closed the family: the sign and window are published; the
+   size-determining conditioner is not published at decision time; the published elasticity is a *size* relation
+   and fails G-12's sign/existence limb; the family adds no new *kind* of obligation to the register's existing
+   flow-concession baselines; and the published design is not reproducible from public data. No dossier, no
+   `IDEA-` identifier, no gap opened; **four baseline rows (79 … 82)** were written as rediscovery guards.
+5. **A second trigger was registered and handed on, not executed.** **S-331** (Huang, Hu, Song & Xiang 2026,
+   "Same Dollar, Different Impact") publishes that the **execution channel**, not the dollar, decides whether
+   an institutional flow is price-moving — a published result that bears on **IDEA-010's** flow-impact premise.
+   The hosted PDF was fetched but its text layer could not be extracted, so the source is **index-rendered** and
+   cannot serve as a verification basis; the IDEA-010 re-read is therefore **handed to the next cycle** with the
+   instruction to line-verify it first. **The register's "evidence-currency sweep is complete for this
+   generation" claim was withdrawn for IDEA-010** rather than left standing.
+6. **Two state-integrity repairs were carried out.** (i) The shortlist's per-candidate **rubric bullets** for
+   IDEA-004 still read "Substantive novelty (3/5)" while the maintained table and the Cycle-72 block said
+   2/5 — the bullet was corrected to the current value and to state the Cycle-75 change, and the correction is
+   recorded in the ledger's Cycle-75 repair block. (ii) The register's *screen-programme* wording was narrowed:
+   the *state-kind* exhaustion finding is untouched, but the **mechanism-first** operation is a distinct
+   operation that had not been run since Cycle 13, and R-047 says so explicitly.
+7. **Counts and identifiers.** 15 dossiers, **321** verified sources (S-001 … S-209 and S-220 … S-331),
+   10 validation specs, **47** rejections (R-001 … R-047), 12 parking records (11 active), **82-row**
+   known-baseline table. Active ranking: **IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004
+   (63.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**. Open gaps: G-21, G-28 (frozen
+   structural), G-30 (exhausted). New identifiers consumed: **S-328 … S-331**, **R-047**. Next free
+   identifiers: **IDEA-017, S-332, V-012, G-34, R-048, P-014**.
+8. **Wrap up.** Handoff rewritten; a fresh, self-contained initial task message for Cycle 76 written; counts
+   and identifiers re-derived from the files.

@@ -1,9 +1,40 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–72
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–75
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
+
+**Cycle 75 update — one specification noted, none amended in substance, none added, none withdrawn.**
+Cycle 75 ran a **trigger-based** prior-art re-read of IDEA-004, opened by a new published neighbour the
+register had not seen (**S-328**, Wang 2026, arXiv:2605.30672, preprint), and **re-scored the candidate
+66.0 → 63.0 (novelty 2 → 1)**. **V-002 remains frozen** and receives a **Cycle-75 note** recording the
+extended rediscovery guard, a published identification design that any future execution would have to engage, a
+published rival explanation (the flow-pressure risk-absorption premium) that any future execution would have to
+separate from, and a marginal-content requirement; **no re-specification is written while the candidate is
+frozen**. IDEA-004's rank is unchanged at **rank 3**, so the executable set is unchanged in membership:
+**V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58**
+amendments — **not amended again in Cycle 75**), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005,
+V-006 and V-007 remain withdrawn**, and **V-003 is never-to-execute**. **No `V-` identifier was consumed or
+opened in Cycle 75.** Cycle 75's second operation — the mechanism-first family screen (R-047) — produced a
+bounded negative and **no specification**. **The register's evidence currency for IDEA-010 is now open**
+(**S-331**), but that re-read is handed to the next cycle, and **S-331 is index-rendered** and must be
+line-verified before it is used as a verification basis; **V-010 remains non-executable**.
+
+**Cycle 74 update — no specification withdrawn, none added, none amended, none frozen or unfrozen.**
+No candidate entered or left the **top three** and no score changed, so the executable set is unchanged in
+membership: **V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52, Cycle-56 and
+**Cycle-58** amendments — **not amended again in Cycle 74**), **V-002 remains frozen** pending G-28,
+**V-001, V-004, V-005, V-006 and V-007 remain withdrawn**, and **V-003 is never-to-execute**. **No `V-`
+identifier was consumed or opened in Cycle 74.** What Cycle 74 changed is not a specification but the
+*verification status of the evidence base the specifications lean on*, and it changed it in one direction only:
+**S-317's abstract is now line-verified from an author-hosted page** (Chen Yang's CUHK staff page, fetched
+directly, HTTP 200), so the Cycle-66 SSRN debt on that entry is closed as resolved; **S-310 and S-318's four
+named non-SSRN routes are all exhausted** (no institutional repository / no arXiv-RePEc mirror / no journal
+version / Semantic Scholar HTTP 429 after HTTP 404), so their debts are closed as honest negatives with their
+labels unchanged. No specification must be re-read or re-anchored as a result: the register never quoted
+body text from any of the three, so nothing a validator was told to build changes. **V-002's freeze, G-28's
+structural null and the prohibition on substituting a published crowding proxy are untouched.**
 
 **Cycle 72 update — one specification noted, none amended in substance, none added, none withdrawn.**
 Cycle 72 ran the register's prior-art re-read of IDEA-004 and found published prior art on that
@@ -726,6 +757,43 @@ falls from rank 2 to **rank 3**, **G-28 remains open and frozen** with its unfre
 in wording — a published **pair-level, netted** measure of the convergence crowd's position concentration,
 or a published validation of a construction against an outcome, that is not a public real-time by-product
 of the crowd's own trading — and **no re-specification is written while the candidate is frozen**.
+
+**Cycle 75 note — V-002 remains frozen; the rediscovery guard is extended a fourth time, a published
+identification design and a published rival explanation are added, and the candidate is re-scored 66.0 → 63.0
+(novelty 2 → 1).** Cycle 75 executed a **trigger-based** prior-art re-read of IDEA-004 — permitted by the
+register's rule that an active candidate is re-read on a trigger, here a **new published neighbour** the
+register had not seen — and located **S-328** (Wang, Z. 2026, "Residual Supply and the Price of Risk
+Absorption", arXiv:2605.30672, preprint, abstract and HTML rendering **line-verified**). Three things follow
+for this specification, and **none of them unfreezes it**.
+1. **The published-neighbour inventory is extended again, and the prohibition is extended with it.** The
+   candidate may no longer present **"a premium that scales with the capacity of the capital that arbitrages
+   or absorbs"** as unclaimed: **S-328** publishes a market-clearing model of residual-supply pricing in
+   which a flow-induced imbalance is priced against the cost of absorbing it, with the premium "roughly
+   doubles when market-wide absorption capacity is tight, and concentrates in stocks with thin investor bases
+   and limited trading capacity — precisely the cross section in which clearing the imbalance should be most
+   costly, and a pattern that mechanical return reversal does not generate". It also publishes a **published,
+   constructible security-level capacity state** (13F investor-base thickness, CRSP liquidity, aggregate
+   mutual-fund stress), so the *observability* of a crowding/capacity state is published as well. That state
+   measures the capacity of **risk absorbers**, not the position concentration of a **paired convergence
+   crowd**, so it **may not be substituted** for the candidate's state, and the standing prohibition now
+   covers **S-328** as well as S-026, S-157, S-222, S-241, S-242, S-243, S-291, S-296, S-325, S-326, S-327.
+2. **A published identification design and a published rival explanation are attached to any future
+   execution.** Any future execution must engage the published identification design for capacity-scaled
+   premia (how a crowding/scarcity-conditioned premium is separated from mechanical return reversal) and must
+   **pre-register how it separates the candidate's convergence return from the published flow-pressure
+   risk-absorption premium** (**S-328**), which is a rival explanation for the same pattern. A validator may
+   not use the published capacity state as the candidate's state.
+3. **A marginal-content requirement is added.** Any future execution must **state the marginal content of the
+   pair-netted identity** over a published security-level state, or the candidate must be reclassified as a
+   known baseline. A null on an *unconditional* convergence rule remains **not** a kill; the candidate's own
+   kill condition (a monotone negative relation) is unchanged.
+**What does not change:** the candidate's score is re-scored **66.0 → 63.0** on the novelty dimension only
+(its *measurable* content is now published in every part, and the unclaimed remainder is the identity limb
+that G-28 records as not constructible — so the remainder is **unmeasurable rather than unclaimed**), its rank
+is unchanged at **rank 3**, **G-28 remains open and frozen** with its unfreezing condition unchanged in
+wording and its structural null strengthened against a **fifth** published measure family, **the
+crowding-measure search is not re-run**, and **no re-specification is written while the candidate is frozen**.
+**No `V-` identifier was consumed; no specification was added, amended in substance, or withdrawn.**
 
 ---
 

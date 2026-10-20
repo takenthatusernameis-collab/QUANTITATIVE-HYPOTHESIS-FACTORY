@@ -1,4 +1,47 @@
-# SOURCE LEDGER — CYCLES 1–72
+# SOURCE LEDGER — CYCLES 1–75
+
+Cycle 75 (2026-10-20) added **four new source identifiers and four new source entries — S-328, S-329, S-330,
+S-331** — minted **no new candidate** and **no new validation specification**, and **changed one score**:
+**IDEA-004 was re-scored 66.0 → 63.0 (novelty 2 → 1 only), rank 3 unchanged**, after a **trigger-based
+prior-art re-read** opened by a new published neighbour the register had not seen (**S-328**, Wang 2026,
+arXiv:2605.30672, "Residual Supply and the Price of Risk Absorption"), which publishes the *state-scaled
+premium* form of the candidate's conditioning (absorption-capacity scarcity), a **published, constructible
+security-level capacity state** (13F investor-base thickness, CRSP liquidity, aggregate mutual-fund stress) and
+a **published identification argument** that the pattern is not mechanical reversal. The cycle's second research
+operation was the register's first **mechanism-first family screen since Cycle 13** — the *reporting-date
+balance-sheet window dressing into public safe assets* family — logged as a **bounded negative (R-047)** on two
+independent grounds: the sign and the window are **published** (S-329: short-maturity Treasury yields fall
+3–9 bps at quarter-ends; S-330: yields rise in the hours before a Treasury auction and reverse afterwards), and
+the *size* of the redeployment that drives the effect is **not published at decision time** (it depends on
+non-US banks' private balance-sheet positions and on money-market-fund holdings published only with a
+two-month lag), so no state-conditioned instance can pass the register's decision-time-state bar. Two
+additional published neighbours were registered as baselines and as **triggers for the next cycle**: **S-331**
+(Huang, Hu, Song & Xiang 2026, "Same Dollar, Different Impact") publishes that the *execution channel*
+decides whether an institutional flow is price-moving, which bears directly on IDEA-010's flow-impact premise
+and is the next cycle's first evidence operation; and **S-329/S-330** extend the register's Treasury-market
+baseline coverage. **No `G-` identifier was opened and no gap was closed**; **V-002 remains frozen** with a
+Cycle-75 note and **V-010 remains non-executable**. The register now holds **S-001 … S-209** and
+**S-220 … S-331** — **321 verified sources**; the identifiers **S-210 … S-219** remain reserved and unused.
+**Next free identifiers: IDEA-017, S-332, V-012, G-34, R-048, P-014.**
+
+Cycle 74 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
+and **no new validation specification**, and changed **no score**. Its substantive work was (i) executing the
+Cycle-73 handoff's second priority — **closing the three remaining Cycle-66 verification debts (S-310, S-317,
+S-318) by non-SSRN routes**, as named in the handoff; and (ii) the lossless housekeeping the handoff asked for
+(confirming the intended ordering and heading format of `rejected_and_parked.md` and this file). The debt work
+produced **one upgrade and two honest negatives**: **S-317's abstract is now line-verified from an author-hosted
+page** (Chen Yang's CUHK staff page, fetched directly, HTTP 200 — the abstract quoted in the entry matches it
+verbatim), so that entry's label moves from "index-rendered" to "line-verified (author-hosted page)"; **S-310's
+four named non-SSRN routes are all exhausted** (no institutional repository — the author is independently
+affiliated; no arXiv/RePEc mirror; no journal version; Semantic Scholar HTTP 429 after HTTP 404 in Cycle 72),
+so its debt is closed as an honest negative with the label unchanged; and **S-318's four named non-SSRN routes
+are all exhausted** (EPFL Infoscience is bibliographic only with no abstract or PDF; no arXiv/RePEc mirror —
+the arXiv record under this author pair is S-316, a *different* paper; no journal version; Semantic Scholar
+HTTP 429), so its debt is likewise closed as an honest negative with the label unchanged. **No `G-` identifier
+was opened and no gap was closed**; no new state kind was proposed and the screen slot was skipped. The register
+continues to hold **S-001 … S-209** and **S-220 … S-327** — **317 verified sources**; the identifiers
+**S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-328, V-012, G-34, R-047,
+P-014.**
 
 Cycle 72 (2026-10-20) added **three new source identifiers and three new source entries — S-325, S-326,
 S-327** — and minted **no new candidate** and **no new validation specification**, but it **did change one
@@ -7709,6 +7752,28 @@ document unless the entry says so.**
   **Net effect: the authorship and bibliographic identity of this work are now independently
   Crossref- and OpenAlex-confirmed, but the abstract wording remains index-rendered and no body text
   is quoted.**
+- **Cycle-74 non-SSRN routes — all four named routes now exhausted for this entry; the debt is closed as
+  an honest negative, and the label is unchanged.** The Cycle-72 handoff named four non-SSRN routes.
+  All four were tried on 20 October 2026:
+  1. **Author-hosted copy via the author's ORCID works list — not possible.** OpenAlex confirms the
+     authorship as **"Helvin Shek" (ORCID 0009-0006-1508-0375, affiliation "Independent")**. The author
+     has **no institutional repository**, and an independent researcher with no university affiliation has
+     no author-hosted preprint page to fetch. This route is **closed as unavailable**, not as a failed
+     search: there is no host to query.
+  2. **Preprint mirror (arXiv / RePEc / institutional repositories).** A targeted search for an arXiv or
+     RePEc version of this exact title returned **none**. No mirror exists.
+  3. **Journal version.** The work is a single-author preprint posted 26 September 2026 with **no journal
+     record** in any journal the register can reach; the S-316 precedent (this author pair's work reaching
+     *Mathematical Finance*) does not apply to a different author. No journal version exists.
+  4. **Semantic Scholar Graph API.** Returns **HTTP 429 (rate-limited)** on both attempts this cycle
+     (a `{"message": "Too Many Requests. Please wait and try again or apply for a key for higher rate
+     limits."}` payload), after the Cycle-72 attempt had returned HTTP 404 for the SSRN DOI. No abstract
+     was retrieved.
+  **Net effect: the abstract wording remains index-rendered, no body text is quoted, and the entry's
+  substantive use is unchanged.** The authorship remains independently Crossref- and OpenAlex-confirmed.
+  **The Cycle-66 SSRN debt on this entry is closed as an honest negative** — the debt was *retrievability of a
+  line-verified copy*, and four named non-SSRN routes have now been tried and failed, so the label is final
+  rather than merely open. The entry is not presented as a full-text reading anywhere in the register.
 
 ### S-311 — Shek, H. (2026)
 "Limits to Coordination: Funding Drag in Crypto Perpetual Funding Rates." SSRN working paper 7529458
@@ -7923,13 +7988,14 @@ arXiv: https://arxiv.org/abs/2310.11771
   a discovery of it; and (ii) the **clamp** — the venue's published function parameter — is a first-order driver
   of that deviation, so a funding-rate-level rule is conditioned on a state that is partly *degenerate by
   construction*.
-- **Caveats:** preprint; the abstract is index-rendered here, so the bounds' functional form and the empirical
-  sample are not verifiable from this entry.
+- **Caveats:** preprint; the **abstract** is line-verified from the author-hosted page (Cycle 74), but the bounds' functional form and the empirical sample are still not verifiable from this entry, because the full text was not retrieved.
 - **Verification:** Crossref REST API (DOI, all three authors and their affiliations as given in the record,
   year 2025, type "posted-content") — **the DOI is now independently Crossref-confirmed** (Cycle 67;
   31 references, posted 2025, indexed 2026-08-18, is-referenced-by-count 1). The SSRN landing page
-  returned **HTTP 403** to a direct fetch; the abstract wording is **index-rendered**. *Cycle-66 debt
-  closed: the entry previously recorded only a Crossref metadata check without stating that the DOI
+  returned **HTTP 403** to a direct fetch; the abstract wording was **index-rendered** at that time, and
+  is **line-verified from an author-hosted page** since Cycle 74 (see the Cycle-74 note at the end of this
+  entry); the full text remains unretrieved, so **no body text is quoted**.
+  *Cycle-66 debt closed: the entry previously recorded only a Crossref metadata check without stating that the DOI
   itself had been resolved.*
 - **Cycle-72 re-attempt — the debt remains open and the label is unchanged.** On 20 October 2026 the
   SSRN PDF delivery endpoint
@@ -7945,6 +8011,29 @@ arXiv: https://arxiv.org/abs/2310.11771
   Systems Engineering and Management)** — an independent confirmation of the three-author attribution
   and its institutional provenance. OpenAlex returns **`abstract_inverted_index: null`**, so the
   abstract wording above **remains index-rendered** and no body text is quoted.
+- **Cycle-74 non-SSRN route — DEBT CLOSED: the abstract is now line-verified from an author-hosted page.**
+  The non-SSRN route named in the Cycle-72 handoff (an author-hosted copy) was found and **fetched directly
+  (HTTP 200)**: **Chen Yang's own CUHK SEEM staff page**
+  (`https://www1.se.cuhk.edu.hk/~cyang/`, retrieved 20 October 2026) carries this paper under *Selected
+  Publications → FinTech* as **"Arbitrage in Perpetual Contracts (with Min Dai and Linfeng Li). submitted.
+  Updated: September 2025. [Abstract|SSRN]"** and prints the abstract **in full, verbatim**:
+  > "Perpetual contracts, designed to track the underlying price through a funding swap mechanism, have gained
+  > significant popularity in cryptocurrency markets. However, observed price discrepancies between perpetual
+  > contracts and the underlying asset cannot be explained solely by transaction fees. By examining the impact of
+  > the clamping function inherent in the funding swap mechanism -- an overlooked aspect in existing literature --
+  > we derive model-free no-arbitrage bounds for perpetual contracts. Our findings reveal that these bounds persist
+  > as intervals even without transaction fees, due to the clamping function. Empirical analysis using two years of
+  > Binance data supports the validity of our proposed bounds."
+
+  This is an **author-hosted, non-SSRN, directly parsed source**: the page was fetched and its text layer read,
+  and the abstract wording above matches it character for character. The page also independently confirms the
+  **three-author attribution and ordering** (Dai, Li, Yang), the **"submitted" status** (still not published in a
+  journal as of the page's last update, September 2025), and the **SSRN handle**. **Consequence: the verification
+  label for this entry is upgraded from "index-rendered" to "line-verified (author-hosted page)" for the abstract
+  wording**, and the Cycle-66/Cycle-72 SSRN debt on this entry is **closed as resolved**. No body text beyond the
+  abstract is available from this route, so nothing in the entry is presented as a full-text reading. The SSRN
+  landing page and PDF endpoint still return HTTP 403; that route is now moot for this entry rather than an open
+  debt.
 
 ### S-318 — Hugonnier, J. and Jermann, U. (2025)
 "Perpetual Futures Pricing with Stochastic Rates and Clamp." SSRN working paper 5481866. DOI:
@@ -7987,6 +8076,32 @@ https://doi.org/10.2139/ssrn.5481866
   artefact** — so the caveat now stands as a confirmed posting-duplication, and **which posting is the
   canonical one remains not established**. Both records return **`abstract_inverted_index: null`**, so
   the abstract wording above **remains index-rendered** and no body text is quoted.
+- **Cycle-74 non-SSRN routes — all four named routes now exhausted for this entry; the debt is closed
+  as an honest negative, and the label is unchanged.** The Cycle-72 handoff named four non-SSRN routes.
+  All four were tried on 20 October 2026:
+  1. **Author-hosted copy via the authors' own institutional repositories — EPFL Infoscience.** Fetched
+     directly (HTTP 200) at both the entity page
+     (`https://infoscience.epfl.ch/entities/publication/4b4fb4e2-d5c1-4203-ba79-f23bdb679c44`) and the
+     handle page (`https://infoscience.epfl.ch/handle/20.500.14299/259660`). The record is **bibliographic
+     only**: type "preprint", DOI 10.2139/ssrn.5481866, authors Hugonnier (EPFL) and Jermann (UPenn),
+     date issued 2025, publisher "Elsevier BV", EPFL unit SFI-JH, "Available on Infoscience 18 February
+     2026" — and it exposes **no abstract and no PDF link**. This is an author-institution record, not a
+     full-text mirror, so it cannot upgrade the abstract label.
+  2. **Preprint mirror (arXiv / RePEc).** A targeted search for an arXiv or RePEc version of *this exact
+     title* returned **none**: the arXiv record that does surface under this author pair
+     (arXiv:2310.11771) is **S-316**, a *different paper* ("Perpetual Futures Pricing", three authors,
+     Ackerer, Hugonnier, Jermann), whose own reference list cites this work as SSRN 5481866. RePEc likewise
+     carries only the S-316 journal version. No mirror exists.
+  3. **Journal version.** The S-316 precedent (this author pair's work reaching *Mathematical Finance*) does
+     **not** generalise to this entry: a search of the journal literature finds no record of this title in
+     any journal. The work remains a preprint.
+  4. **Semantic Scholar Graph API.** Returns **HTTP 429 (rate-limited)** on every attempt in this cycle,
+     after the Cycle-72 attempt had returned HTTP 404 for the S-310 DOI. No abstract was retrieved.
+  **Net effect: the abstract wording remains index-rendered, no body text is quoted, and the entry's
+  substantive use is unchanged.** The duplicate-title caveat is unchanged. **The Cycle-66 SSRN debt on
+  this entry is closed as an honest negative** — the debt was *retrievability of a line-verified copy*, and
+  four named non-SSRN routes have now been tried and failed, so the label is final rather than merely
+  open. The entry is not presented as a full-text reading anywhere in the register.
 
 ### S-319 — Jansen, S. (2026)
 "Crypto Perpetuals Funding." Case study for *Machine Learning for Trading* (3rd edition).
@@ -9004,3 +9119,250 @@ added for IDEA-011's re-read). **All ten are present with full text, so the sour
 into heading-plus-body entries in a file of this size is a reformatting operation with real loss risk; the
 observation is recorded so the next agent can normalise it as an explicitly lossless edit (or record it as
 accepted). **No source content, verification label, verdict or identifier changed.**
+
+## Cycle 74 gap verdicts
+
+Cycle 74's verdicts are recorded here in the file's standard form. **No score changed**, **no gap was closed
+and no gap was opened**; the cycle's substantive work was verification and housekeeping, not candidate design.
+Cycle 74 was executed in the previous session; its artifacts were written to the working tree but its
+cycle-log entry and handoff were not written before the session ended, so this block, the repair block below
+and the cycle-note entry were completed and verified in the session that followed.
+
+| Gap / limb | Candidate | Cycle-74 verdict | Effect |
+| --- | --- | --- | --- |
+| **The three Cycle-66 verification debts (S-310, S-317, S-318)** | IDEA-009 | **Closed by the non-SSRN routes named in the Cycle-73 handoff: one upgrade and two honest negatives.** S-317's abstract is now **line-verified from an author-hosted page** (Chen Yang's CUHK staff page, fetched directly, HTTP 200, abstract matching verbatim) — the entry's label moves from "index-rendered" to "line-verified (author-hosted page)". S-310's four named routes are all exhausted (no institutional repository — the author is independently affiliated; no arXiv/RePEc mirror; no journal version; Semantic Scholar HTTP 429 after HTTP 404 in Cycle 72). S-318's four named routes are all exhausted (EPFL Infoscience is bibliographic only; no arXiv/RePEc mirror — the arXiv record under this author pair is S-316, a *different* paper; no journal version; Semantic Scholar HTTP 429). | **No score change.** One verification label upgraded, two debts closed as honest negatives with labels unchanged. |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** No re-run of the crowding-measure search; G-28 remains open and frozen. | No change (66.0, rank 3). |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands. | No change (69.0, rank 1). |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not touched.** G-30 remains exhausted; V-010 remains non-executable. | No change (68.0, rank 2). |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action. |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains inconclusive. | No change (52.0, rank 5). |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Closed as a bounded negative in Cycle 73** — the 2025–2026 Rule 10b5-1 literature re-read found no published work documenting the claim that the *plan-supply* disclosure window predicts issuer sales, and the parked status is unchanged. Not re-opened in Cycle 74. | No change; IDEA-015 stays parked (P-011). |
+| **New state-kind screen** | — | **Not run, by the cycle's own pre-registered rule.** No genuinely new state kind was proposed, so the screen slot was skipped rather than padded. | No `R-`, `S-`, `V-`, `IDEA-` or `G-` identifier consumed by a screen. |
+
+**Cycle-74 identifier and ranking record.** No candidate was created. **No score changed**; the active ranking
+is unchanged: **IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (66.0, rank 3), IDEA-009 (53.0,
+rank 4), IDEA-014 (52.0, rank 5)**. The register's shape is unchanged: five active dossiers, five parked, five
+rejected. **No `S-`, `V-`, `IDEA-`, `G-`, `R-` or `P-` identifier was consumed.** **Next free identifiers:
+IDEA-017, S-328, V-012, G-34, R-047, P-014.**
+
+## Cycle 74 state-integrity repairs
+
+**Repair 1 — S-317's entry-level verification label was upgraded, but the entry's own Caveats and Verification
+bullets were left stating that the abstract is index-rendered (lossless correction).** The Cycle-74 debt work
+appended a new note to S-317 recording the author-hosted line verification, and the ledger header paragraph
+recorded the label change, but the entry's *original* Caveats bullet still read "the abstract is index-rendered
+here", and its *original* Verification bullet still ended "the abstract wording is **index-rendered**". The
+entry therefore contradicted itself. The two bullets were corrected to state the current position: the
+**abstract** is line-verified from the author-hosted page, the **full text remains unretrieved**, and no body
+text is quoted. No claim, magnitude, verdict or identifier changed; the correction only removes the
+contradiction.
+
+**Repair 2 — the intended ordering of `rejected_and_parked.md` was confirmed, and the one deviation was
+recorded rather than silently restructured.** The file's deviation — **R-012 and R-013 sit inside the "Parked"
+section while R-014 onward follow the "Rediscovery guard" heading** — is confirmed as *intended* by the
+register's own cross-references, which cite R-012 and R-013 as park records. No restructure was performed, and
+no content changed. The Cycle-75 handoff records the same convention so the next agent does not "fix" it.
+
+**Cycle-74 identifier and ranking record.** No source identifier was consumed, no score changed, no gap moved.
+The register holds **317 verified sources** at the end of Cycle 74.
+
+## Cycle 75 sources (2026-10-20)
+
+### S-328 — Wang, Z. (2026)
+"Residual Supply and the Price of Risk Absorption." arXiv:2605.30672 (preprint, 29 May 2026).
+URL: https://arxiv.org/abs/2605.30672
+- **Type:** Prior theoretical and empirical result (author-reported), arXiv preprint; **not peer-reviewed**.
+- **Supports (for IDEA-004 — this is the cycle's trigger source):** the *state-scaled-premium* form of the
+  candidate's conditioning, and a **published, constructible capacity state**. The abstract states, verbatim:
+  "We develop a market-clearing model of residual supply pricing, where forced-sale pressure predicts actual fund
+  selling, contemporaneous price declines, and positive returns over the following one to six months. The premium
+  roughly doubles when market-wide absorption capacity is tight, and concentrates in stocks with thin investor
+  bases and limited trading capacity — precisely the cross section in which clearing the imbalance should be most
+  costly, and a pattern that mechanical return reversal does not generate." The paper's own keyword list includes
+  **"slow-moving capital"**, and the state it uses is published and constructible: **13F ownership data to measure
+  the thickness of the natural investor base, CRSP liquidity variables and aggregate mutual-fund stress to measure
+  absorption capacity**.
+- **Why it matters for IDEA-004:** three of the candidate's four published-neighbour legs are now covered in the
+  literature the register holds. (i) The **conditional structure** — a premium that varies with the scarcity of
+  the capital that absorbs an imbalance, roughly doubling when absorption capacity is tight — is published with a
+  **published state**, so the candidate may no longer present "a premium that scales with the capacity of the
+  arbitrage capital" as unclaimed. (ii) The **observability** claim is published: a crowding/capacity state that
+  is *not* pair-level can be constructed from public data (13F, CRSP, fund-flow stress), which removes the
+  candidate's implicit position that its state is unobservable *as such* — what remains unavailable is only the
+  *pair-netted* identity. (iii) The **identification** question the candidate must answer is now a published
+  methodological problem with a published answer for a neighbouring object, so any future execution of the
+  candidate's rule must engage the published identification design rather than assert its own.
+- **Caveats:** preprint, not peer-reviewed; the published object is a **cross-sectional flow-pressure premium in
+  single stocks**, not a **convergence-pair** trade, so it is a structural analogue and not a test of the
+  candidate's rule; the published state is **security-level**, so it is **not** the candidate's pair-level netted
+  convergence crowd and **may not be substituted** for it; the reported magnitudes (65 basis points per month
+  cross-sectionally, 217 basis points over six months) are large relative to the candidate's cost budget and are
+  not comparable to a market-neutral pair's payoff; and the mechanism is a **market-clearing** account of
+  *residual supply*, not a claim about *slow arbitrage capital correcting a mispricing*, so it is a **rival
+  explanation** for any convergence-return pattern the candidate might observe.
+- **Verification:** the arXiv abstract page (`https://arxiv.org/abs/2605.30672`) and the full HTML rendering
+  (`https://arxiv.org/html/2605.30672v1`) were **fetched directly (HTTP 200)** on 20 October 2026; the title,
+  author, date and abstract quoted above are **line-verified from the abstract page**, and the state construction
+  (13F investor-base thickness, CRSP liquidity, aggregate mutual-fund stress) and the "slow-moving capital"
+  keyword are **line-verified from the HTML rendering**. No arXiv version other than v1 was read, and no body
+  claim beyond these passages is quoted.
+
+### S-329 — Sun, J. and Tian, Y. (2026)
+"When Banks Retreat: The Demand for Public Safe Assets." SSRN working paper 6913784 (date written 10 May 2026;
+posted 3 July 2026; last revised 15 October 2026; 107 pages). Earlier title: "Private Money, Public Debt:
+Quarter-End Price Pressure in Treasury Bills."
+- **Type:** Prior empirical result (author-reported), SSRN working paper; **not peer-reviewed**.
+- **Supports (for the R-047 screen):** the **sign, the window and the magnitude** of a reporting-date
+  balance-sheet flow into Treasury bills are published. The abstract states, verbatim: "This paper shows that
+  quarter-end bank window dressing shifts institutional demand from private to public safe assets. Around
+  regulatory reporting dates, Non-U.S. banks reduce borrowing from U.S. money market funds; constrained to hold
+  short-term, high-quality assets, the funds redeploy the displaced cash into Treasury bills. As a result,
+  short-maturity U.S. Treasury yields fall by 3–9 basis points at quarter-ends. Using a network shift-share design
+  that exploits predetermined fund–bank relationships and cross-sectional variation in Treasury bill holdings
+  across funds, we causally estimate that money market fund demand inflows equal to 1 percent of Treasury bill
+  market value lower yield spreads by 4.9 basis points."
+- **Why it matters for the register:** it is a **new instance of the register's flow-concession template in a new
+  market** (Treasury bills), with a **published sign and a published magnitude**, and it therefore closes the
+  family as a baseline rather than opening a candidate — see **R-047**. It also sharpens *why* no candidate can
+  be built on the family: the flow that drives the effect is generated by **non-US banks' private reporting-date
+  balance-sheet positions**, and the redeployment is observed only through money-market-fund holdings that are
+  published with a lag, so the *size* of the effect is not observable at decision time even though its sign and
+  window are.
+- **Caveats:** working paper, not peer-reviewed; the identification uses a **network shift-share design** whose
+  inputs (predetermined fund–bank relationships) are **not public data**, so the design is not reproducible by an
+  outside party; the effect is dated to a **quarter-end window of a few days** in the most liquid short-duration
+  instrument in the world, where a 3–9 basis point move is small relative to funding, roll and execution costs
+  of a market-neutral position; and the paper's own policy framing (stabilising bill yields, informing the ON RRP
+  facility) shows the effect is treated as a *policy-relevant market-clearing quantity*, not as an unclaimed
+  tradable edge.
+- **Verification:** the SSRN landing page returned **HTTP 403** to a direct fetch in this cycle, as it did in
+  earlier cycles. The title, the date-written and revision dates, the page count and the abstract were obtained
+  from the **search-index rendering of the SSRN record**, and the **earlier title** was independently confirmed
+  from the **AFA 2026 conference programme listing** and from the authors' own job-market post (the same
+  abstract text appears in the index rendering of the author's summary of the paper). The abstract wording is
+  therefore **index-rendered**, not line-verified, and **no body text is quoted**. The authors' affiliations
+  (Northwestern University Kellogg; London School of Economics) are as given in the indexed record.
+
+### S-330 — Fleming, M. J., Liu, W. and Nguyen, G. (2026)
+"Intraday Price Pressure and Order Flow Around U.S. Treasury Auctions." Federal Reserve Bank of New York Staff
+Report 1188 (March 2026; revised July 2026). DOI: https://doi.org/10.59576/sr.1188
+- **Type:** Prior empirical result (author-reported), central-bank staff working paper; **not peer-reviewed**.
+- **Supports (for the R-047 screen and for the register's Treasury baseline):** the **auction-window price
+  pressure** and its **dealer-intermediation** conditioner are published. The staff-report page states,
+  verbatim: "We examine intraday price pressure in the U.S. Treasury market around auctions. We find yields rise
+  in the hours before an auction and reverse afterward. This pressure strengthens when dealers face tighter
+  risk-bearing constraints, consistent with a model in which dealers' balance sheets absorb inventory risk."
+  The page's suggested citation reads: "Fleming, Michael J., Wenqian Liu, and Garphil Nguyen. Intraday Price
+  Pressure and Order Flow Around U.S. Treasury Auctions. Federal Reserve Bank of New York Staff Report No. 1188.
+  New York, NY: Federal Reserve Bank of New York, March 2026, revised July 2026."
+- **Why it matters for the register:** it is a **second, independent published instance** of the same
+  institutional mechanism family screened in R-047 — a **dated, non-discretionary, price-insensitive flow
+  obligation** in the same market — and it adds a **published conditioner** (dealers' risk-bearing constraints)
+  that is not published in real time. Together with S-329 it closes the family twice over: once on
+  "the sign and window are published" and once on "the size-determining conditioner is not published at decision
+  time".
+- **Caveats:** staff report, not peer-reviewed; the auction window is **hours**, and the published pressure is a
+  same-day reversal that requires intraday execution in the most liquid government-bond market; the
+  risk-bearing-constraint conditioner is **not published in real time** (dealer balance-sheet capacity is
+  quarterly and lagged), which is the same decision-time defect that disqualifies a candidate in this family;
+  and the pre-auction price pattern is partly the mechanical consequence of **duration-concession conventions**,
+  so a large part of the measured effect is an institutional artefact rather than a risk premium.
+- **Verification:** the New York Fed staff-report page (`https://www.newyorkfed.org/research/staff_reports/sr1188.html`)
+  was **fetched directly (HTTP 200)** on 20 October 2026; the title, the abstract wording quoted above and the
+  suggested citation are **line-verified from that page**, and the DOI `10.59576/sr.1188` is given on it. The
+  report body was not read.
+
+### S-331 — Huang, S., Hu, R., Song, Y. and Xiang, H. (2026)
+"Same Dollar, Different Impact: Investor Flows are Not Equally Price-Moving." Hong Kong University working
+paper (23 February 2026). Hosted copy: https://hkujcesgri.hku.hk/wp-content/uploads/2026/04/Same-Dollar-Different-Impact.pdf
+- **Type:** Prior empirical result (author-reported), working paper; **not peer-reviewed**.
+- **Supports (for the register's flow-impact baselines, and as a **trigger** for IDEA-010's next re-read):** the
+  **execution channel** decides whether an institutional flow is price-moving. The indexed abstract states, in
+  the part this cycle relies on, that **mutual funds' and separate accounts' flows have markedly different
+  price impacts**, that "flows executed by specialized intermediaries — transition managers executing
+  institutional capital allocations — reduce trading costs by 80–90 % with negligible price impact", and that
+  the evidence indicates "the same dollar committed to the same stock through different vehicles moves prices
+  very differently".
+- **Why it matters for IDEA-010:** it is a **published result that bears on the candidate's core premise** — that
+  an institutional flow into a security exerts price pressure. If the impact of a flow depends principally on
+  *who executes it*, then the candidate's flow-impact channel needs an explicit statement of the execution
+  channel through which a corporate-bond ETF's creations and redemptions are executed, and the published finding
+  is a **rival explanation** that a flow routed through a specialised intermediary may move prices little or
+  not at all. The register's rule says an active candidate is re-read **on a trigger**, and a published result
+  that touches a candidate's mechanism is such a trigger, so IDEA-010's evidence currency is **no longer "complete
+  for this generation"**; the re-read is handed to the next cycle rather than run here.
+- **Caveats:** working paper, not peer-reviewed; the result is about **equities** and about **mutual funds
+  versus separate accounts** (a US retirement-market structure), so its transfer to a **corporate-bond ETF's
+  creation/redemption channel** is an inference, not a result; the 80–90 % cost reduction and the "negligible
+  price impact" wording are the paper's own characterisations; and the register has **not** verified the paper's
+  body, the universe, the sample or the identification.
+- **Verification:** the hosted PDF was **fetched directly on 20 October 2026**, but the file is a binary PDF whose
+  text layer could not be extracted in this cycle, so **no passage from the document is quoted as directly
+  parsed**. The abstract and the passages relied on here are taken from a **search-index rendering of the PDF**
+  and are therefore **index-rendered**. Before the next cycle acts on this source, it must be **line-verified**
+  from a retrievable text copy (or from a published version); the register's rule that a source may not be used
+  as a *verification* basis on an index-rendered rendering alone applies, which is why IDEA-010's re-read is
+  handed on rather than executed here.
+
+## Cycle 75 gap verdicts
+
+Cycle 75's verdicts are recorded here in the file's standard form. **One score changed** (IDEA-004,
+66.0 → 63.0) and **one validation specification received a note** (V-002, which remains frozen); **no gap
+was closed and no gap was opened.**
+
+| Gap / limb | Candidate | Cycle-75 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null; the null is strengthened by a fifth published measure family.** No re-run of the crowding-measure search: the new source (S-328) publishes a **security-level absorption-capacity state** (13F investor-base thickness, CRSP liquidity, aggregate mutual-fund stress) — again aggregate and security-level, not pair-level and netted, so it cannot represent a convergence crowd and **may not be substituted** for the candidate's state. V-002 stays frozen. | **G-28 remains OPEN and FROZEN.** **Score 66.0 → 63.0** (novelty 2 → 1); **rank 3 unchanged**. |
+| **IDEA-004 prior-art re-read** (trigger-based: a new published neighbour, S-328, that the register had not seen) | IDEA-004 | **Re-scored 66.0 → 63.0 (novelty 2 → 1; mechanism, evidence, falsifiability, resilience and data unchanged)** and **reclassified further as a formulation-level variant of published crowding- and capacity-scaled premia**. The candidate's *conditional structure* (a premium that scales with the capacity of the capital that arbitrages or absorbs) is now published with a published state and a published identification argument (S-328), on top of the already-published two-sided crowding gate (S-325), slow-capital mechanism and flow state (S-326), and crowding-measure inventory with an identification constraint (S-327). The unclaimed remainder is now **exactly the component G-28 says cannot be constructed** — the pair-level, netted convergence-crowd identity — plus a formulation difference (pairs rather than a factor strategy). **New hard-stop flags** are attached and **V-002 remains frozen with a Cycle-75 note**; no re-specification is written and no re-search of the crowding-measure literature was run. | **Score 66.0 → 63.0**; **rank 3 unchanged** (below IDEA-011 at 69.0 and IDEA-010 at 68.0). **No gap opened** — the residual is the frozen identity limb. |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not re-read; the evidence currency is now open.** A published result that touches the candidate's flow-impact premise was registered (S-331: the execution channel, not the dollar, decides whether a flow moves prices). The re-read is **handed to the next cycle** rather than run here, because S-331 is index-rendered and must be line-verified first. G-30 remains exhausted and V-010 remains non-executable. | **No score change** (68.0, rank 2). **Evidence currency for IDEA-010 is now open** and the handoff names the re-read as the next cycle's first evidence operation. |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands. | No change (69.0, rank 1). |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action. |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains inconclusive. | No change (52.0, rank 5). |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Not re-opened.** The Cycle-73 bounded negative stands. | No change; IDEA-015 stays parked (P-011). |
+| **Mechanism-first family screen** — reporting-date balance-sheet window dressing into public safe assets | — | **Run and closed as a bounded negative (R-047).** The register's first mechanism-first screen since Cycle 13: a family defined by an *institutional mechanism* (a statutory/regulatory reporting-date balance-sheet obligation) rather than by a published state. Two independent grounds: the **sign and the window are published** (S-329: 3–9 bps at quarter-ends; S-330: yields rise before an auction and reverse afterwards), and the **size-determining conditioner is not published at decision time** (non-US banks' private reporting positions; lagged fund holdings; quarterly dealer balance sheets). | **No candidate created**; no `IDEA-` identifier consumed; **R-047** consumed; two **known-baseline rows added** (rows 79 and 80) as rediscovery guards. |
+
+**Cycle-75 identifier and ranking record.** No candidate was created. **One score changed** (IDEA-004,
+66.0 → 63.0); no other score moved. The active ranking is unchanged in order: **IDEA-011 (69.0, rank 1),
+IDEA-010 (68.0, rank 2), IDEA-004 (63.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**. The
+register's shape is unchanged: five active dossiers, five parked, five rejected. New identifiers consumed:
+**S-328 … S-331** and **R-047**. **V-002 was noted, not re-created and not unfrozen.** No `IDEA-` or `G-`
+identifier was consumed or opened; no `V-` identifier was created. **Next free identifiers: IDEA-017, S-332,
+V-012, G-34, R-048, P-014.**
+
+## Cycle 75 state-integrity repairs
+
+**Repair 1 — the handoff's claim that "the evidence-currency sweep of the five active candidates is complete for
+this generation" is now false for IDEA-010, and the claim was corrected rather than left standing.** The
+register's re-read rule is that an active candidate is re-read **on a trigger** — a new published neighbour, a
+venue-rule change, a new asset class, or a published result that touches one of the candidate's hard-stop
+flags. Cycle 75 registered such a result for IDEA-010 (S-331: the execution channel, not the dollar, decides
+whether an institutional flow moves prices, which bears on the candidate's flow-impact premise). The sweep
+claim is therefore withdrawn for IDEA-010 and the re-read is named as the next cycle's first evidence
+operation, with the instruction that S-331 must be line-verified before it is acted on. No score changed; no
+dossier content was rewritten; the state of the register is now described accurately.
+
+**Repair 2 — the register's "screen programme" wording was narrowed to match what the register actually
+holds.** The register's records describe the *state-kind screen programme* (templates A–I) as exhausted for
+candidate production, which remains true; but Cycle 75 established that a **mechanism-first** screen — a family
+defined by an institutional mechanism rather than by a published state — is a distinct operation that had not
+been run since Cycle 13, and that it is *not* covered by the state-kind exhaustion finding. The R-047 record and
+this note carry the distinction, so the next agent does not read "the screen programme is exhausted" as
+"no screen of any kind may be run again".
+
+**Repair 3 — three stale per-candidate headings in `ranked_shortlist.md` were corrected to the maintained
+table's scores and ranks (lossless).** The register's own rule, carried in the Cycle-73 handoff, is that "where
+a candidate's score changes, update its `ranked_shortlist.md` per-candidate heading as well as the maintained
+table". The maintained table and the Cycle-75 re-read had done that for IDEA-004, but three headings had been
+left at their Cycle-13 values: **IDEA-010** ("Rank 4 — IDEA-010 CREDIT-ETF (65.0)", table 68.0, rank 2),
+**IDEA-011** ("Rank 1 — IDEA-011 ACCTCLOCK (72.0)", table 69.0) and **IDEA-014** ("Rank 6 — IDEA-014 RIN-DEADLINE
+(60.0)", table 52.0, rank 5). Each heading was corrected and the correction annotated in place ("heading
+corrected in Cycle 75, which had still shown the Cycle-13 score"). **No score, rubric value, flag, rank order
+or verdict changed** — the headings now agree with the maintained table, which was always the authority. IDEA-009's
+heading was already current (53.0, rank 4) and was not touched.
+
+**Cycle-75 identifier and ranking record.** Four source identifiers consumed (**S-328 … S-331**) and one
+rejection identifier (**R-047**); one score changed (IDEA-004, 66.0 → 63.0); no gap moved; no specification was
+created, amended or withdrawn except the V-002 note. The register holds **321 verified sources** at the end of
+Cycle 75 (307 entries in the standard `### S-NNN` heading form plus ten bold inline entries — S-281 … S-290 —
+plus the four added here; the S-281 … S-290 formatting observation from the Cycle-72 repair block still stands
+and is unchanged).

@@ -4,8 +4,36 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 66 complete** (Cycle 66 executed the register's **prior-art re-read of IDEA-009** — the one
-active candidate whose published-neighbour inventory was still the thinnest — against literature the register had
+Last updated: **Cycle 75 complete** (Cycle 75 added **four new source identifiers and four new source entries —
+S-328 … S-331** — minted **no new candidate** and **no new validation specification**, opened **no gap** and
+closed **no gap**, and changed **one score**: **IDEA-004 was re-scored 66.0 → 63.0 (novelty 2 → 1)**, rank 3
+unchanged, after a **trigger-based prior-art re-read** opened by a new published neighbour the register had not
+seen (**S-328**, Wang 2026, arXiv:2605.30672 — a published market-clearing account of residual-supply pricing, a
+**published, constructible security-level capacity state**, a state-scaled premium and an identification argument
+against mechanical reversal). Cycle 75's other operation was the register's **first mechanism-first family screen
+since Cycle 13** — the *reporting-date balance-sheet window dressing into public safe assets* family — closed as a
+**bounded negative (R-047)** on five independent reasons, with its sources registered as baseline rows 79 and 80
+and two further published neighbours (S-328, S-331) as rows 81 and 82. **G-28 remains open and frozen** with its
+structural null strengthened against a **fifth** published measure family; **V-002 remains frozen** with a
+Cycle-75 note; **V-010 remains non-executable**; and **IDEA-010's evidence currency is now open** because
+**S-331** publishes that the execution channel, not the dollar, decides whether an institutional flow is
+price-moving — a re-read handed to the next cycle, because S-331 is index-rendered and must be line-verified
+first. **The register's "evidence-currency sweep is complete for this generation" claim is therefore withdrawn
+for IDEA-010** and restated for the other four active candidates.) Earlier history: **Cycle 74 complete** (Cycle
+74 added **no new source identifier and no new source entry**,
+minted **no new candidate** and **no new validation specification**, opened **no gap** and closed **no gap**,
+and changed **no score**; its substantive work was closing the three remaining Cycle-66 verification debts
+— S-310, S-317, S-318 — through non-SSRN routes, which produced **one upgrade and two honest negatives**:
+**S-317's abstract is now line-verified from an author-hosted page** (Chen Yang's CUHK SEEM staff page, fetched
+directly, HTTP 200), while **S-310's and S-318's four named non-SSRN routes are all exhausted** (no
+institutional repository / no arXiv-RePEc mirror / no journal version / Semantic Scholar HTTP 429 after HTTP
+404 in Cycle 72), so both debts are closed as honest negatives with their labels unchanged. It also confirmed
+the intended ordering and heading format of `rejected_and_parked.md` and `source_ledger.md` and left both
+unchanged, with the two recorded presentation drifts re-confirmed rather than silently restructured. The
+P-011 unblocking check for IDEA-015 had already been executed in Cycle 73 and found nothing published against
+the registered two-part question, so IDEA-015 stays parked with no dossier, gap, score or specification
+created.) Earlier history: **Cycle 66 complete** (Cycle 66 executed the register's **prior-art re-read of
+IDEA-009** — the one
 not yet seen, **re-scored that candidate 60.0 → 53.0**, reclassified it as an **incremental variant of published
 conditional funding-reversal work**, and **amended V-008** without re-creating it; it also ran the register's
 state-kind screen template I — the **published clamp/cap band of a continuously published state** — as a bounded
@@ -1139,6 +1167,25 @@ re-specified as a tail-management claim
   crowding measures are aggregate and security- or strategy-level, so none is the pair-level, netted
   convergence-crowd measure the candidate needs. **Three new hard-stop flags** are attached (below).
   **V-002 remains frozen** and receives a Cycle-72 note. No gap opened.
+  **v1.4 — Cycle 75: trigger-based prior-art re-read opened by a new published neighbour; RE-SCORED
+  66.0 → 63.0 (novelty 2 → 1) and rank 3 unchanged.** The trigger was **S-328** (Wang 2026,
+  arXiv:2605.30672, "Residual Supply and the Price of Risk Absorption"), a preprint the register had not seen:
+  it publishes a market-clearing model in which a flow-induced imbalance is priced against the *cost of
+  absorbing it*, on a **published, constructible security-level state** (13F investor-base thickness, CRSP
+  liquidity, aggregate mutual-fund stress), with the **state-scaled premium** (the premium "roughly doubles
+  when market-wide absorption capacity is tight") and an **identification argument** that the pattern is not
+  mechanical reversal. That is the **fourth** published neighbour in the candidate's own conditional structure
+  (after S-325, S-326 and S-327), and it closes the last *measurable* gap in the candidate's favour. **Only
+  novelty moves (2 → 1)**: mechanism, evidence, falsifiability, resilience and data are unchanged. The
+  unclaimed remainder is now a **formulation** difference (pairs rather than a factor strategy) plus the
+  **pair-level, netted convergence-crowd identity** — which is precisely the component **G-28 records as not
+  constructible from published data** — so the remainder is no longer a *measurable* claim. **The candidate is
+  not parked and not rejected**, because nothing published shows the candidate's own effect. **G-28 stays open
+  and frozen**, and its structural null is *strengthened* by a **fifth** published measure family (S-328's
+  absorption-capacity state is security-level, not pair-level and netted, so it cannot represent a convergence
+  crowd and may not be substituted for the candidate's state). **Four new hard-stop flags** are attached
+  (below). **V-002 remains frozen** and receives a Cycle-75 note. No gap opened; the crowding-measure search
+  was not re-run.
 
 **One-sentence hypothesis.** Because arbitrage capital is slow to arrive and exits in
 synchronisation, a convergence trade's expected return and its crash risk are both functions of
@@ -1186,6 +1233,18 @@ from fundamental value (S-019, S-024).
   inventory and an identification constraint on any within-date crowding design. **Correction to the
   Cycle-30 note below:** the statement that "the non-monotone, sign-flipping gate remains unclaimed" is
   **no longer true** — it is claimed in S-325 for a different arbitrage strategy.
+  **Cycle 75 — the inventory is extended a fourth time, and the residual is now unmeasurable rather than
+  merely unclaimed.** **S-328** (Wang 2026, arXiv:2605.30672) publishes the *state-scaled-premium* form of
+  the candidate's conditioning — a premium that varies with the market's capacity to absorb an imbalance,
+  roughly doubling when that capacity is tight, measured on a **published, constructible security-level
+  state** (13F investor-base thickness, CRSP liquidity, aggregate mutual-fund stress) and identified as not
+  mechanical reversal. So the candidate may no longer present "a premium that scales with the capacity of the
+  capital that arbitrages" as unclaimed, nor treat the *observability* of a crowding/capacity state as an open
+  question: what is missing is only the **pair-level, netted** identity, which G-28 records as not
+  constructible from published data. **Correction to the Cycle-72 statement above:** the description of the
+  residual as "a formulation, market, crowd and state-definition difference" is now incomplete — the
+  *state-definition* part of the residual is no longer open, because a published state-definition exists and
+  is prohibited as a substitute; the residual is the *formulation* difference and the identity limb alone.
 - *What is already known:* deviations persist; arbitragers are synchronised; crowding is a risk
   factor; crowding is measurable with slow, stale data.
 - *Substantive differentiator claimed here:* a *trade specification* in which the crowd-depth state
@@ -1284,7 +1343,12 @@ characteristics [S-025]. **Cycle 72 additions to the "reported by others" column
 mechanism with a published sign and a published flow measure [S-326]; a published two-sided
 crowding-conditioning of an arbitrage strategy's profit in the same asset class [S-325]; and a published
 crowding-state construction together with an identification constraint on within-date crowding designs
-[S-327]. Unresolved: the timely observability of crowd depth (G-04), the **identity** of the crowd the
+[S-327]. **Cycle 75 additions to the "reported by others" column:** a published market-clearing account in
+which a flow-induced imbalance is priced against the cost of absorbing it, on a **published, constructible
+security-level capacity state**, with the state-scaled premium and a published identification argument against
+mechanical reversal [S-328]; and — as a **rival explanation** for any convergence-return pattern this
+candidate might observe — a published flow-pressure risk-absorption premium [S-328]. Unresolved: the timely
+observability of crowd depth (G-04), the **identity** of the crowd the
 state must represent (G-28), and the direction of the conditioning (prediction 1) *in this candidate's
 own universe*.
 
@@ -1300,7 +1364,12 @@ timely proxy for crowd depth be validated against a holdings-based measure? **Cy
 next question, given that the first half is now published elsewhere:** *given that the two-sided
 crowding gate is published for beta arbitrage (S-325), what would have to be true for a **convergence-
 crowd** version of it to be a distinct finding rather than a re-run — and can the aggregate-crowding
-effect be identified at all within the candidate's own design (S-327, Proposition 3.18)?*
+effect be identified at all within the candidate's own design (S-327, Proposition 3.18)?* **Cycle 75
+restatement of the next question, given that the state-scaled-premium form of the claim is also now
+published (S-328):** *the question is no longer "is the conditioning published?" — it is — but **"what is
+the marginal content of the pair-level, netted identity over a published security-level capacity state, and
+can the candidate's return be separated from the published flow-pressure risk-absorption premium, which is
+a rival explanation for the same pattern (S-328)?"***
 
 **Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
 - **G-13 — the state is published before the decision: PASS, but only on a quarterly-anchored
@@ -1755,6 +1824,77 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
   written while the candidate is frozen.**
 - **No gap opened.** The residual is (a) the frozen identity limb G-28, and (b) a validation-design
   question about identification — both are recorded, neither is a search question.
+
+#### Cycle 75 block — IDEA-004 · trigger-based prior-art re-read against a new published neighbour; **re-scored 66.0 → 63.0 (novelty 2 → 1), rank 3 unchanged**; G-28 frozen and structurally strengthened for a fifth time; V-002 noted, not unfrozen
+
+- **What Cycle 75 ran, and why it was permitted.** The register's rule is that an active candidate is
+  **re-read on a trigger** and not on a fixed clock, and the trigger is a **new published neighbour** the
+  register had not seen. Cycle 75's trigger was **S-328** — Wang, Z. (2026), *"Residual Supply and the Price
+  of Risk Absorption"*, arXiv:2605.30672 (29 May 2026), a preprint. The abstract page and the full HTML
+  rendering were fetched directly (HTTP 200), so the abstract and the state construction are
+  **line-verified** (see the source ledger). No crowding-measure search was re-run, no gap was opened, and no
+  re-specification was written.
+- **What S-328 publishes, and why it lands on the candidate's differentiator.** (i) A **market-clearing model
+  of residual-supply pricing**: "We develop a market-clearing model of residual supply pricing, where
+  forced-sale pressure predicts actual fund selling, contemporaneous price declines, and positive returns over
+  the following one to six months." (ii) A **state-scaled premium**: "The premium roughly doubles when
+  market-wide absorption capacity is tight, and concentrates in stocks with thin investor bases and limited
+  trading capacity — precisely the cross section in which clearing the imbalance should be most costly, and a
+  pattern that mechanical return reversal does not generate." (iii) A **published, constructible state**:
+  13F ownership data measure the thickness of the natural investor base, while CRSP liquidity variables and
+  aggregate mutual-fund stress measure absorption capacity. (iv) A **"slow-moving capital"** framing, which is
+  the candidate's own mechanism keyword. So the *shape* of the candidate's conditioning — a premium that varies
+  with the capacity of the capital that arbitrages or absorbs, conditioned on a measurable scarcity of that
+  capacity — is now **published with a state, a magnitude and an identification argument**, and the
+  *observability* of a crowding/capacity state is published as well.
+- **Effect on G-28 — the freeze is maintained and the structural null is *strengthened* for a fifth time.**
+  S-328's state is **security-level** (13F investor-base thickness, CRSP liquidity, aggregate fund stress) and
+  measures the capacity of *risk absorbers*, not the position concentration of a *paired convergence crowd*.
+  The Cycle-59 structural statement is undisturbed: published position-disclosure and holdings sources are
+  security-level and single-sided, while a convergence crowd is a **pair** of positions. The null now stands
+  against **five** published measure families (holdings-based, comovement/short-interest, flow-based,
+  borrow-based, capacity-scarcity). **G-28 stays open and frozen; the crowding-measure search is not to be
+  re-run; the standing prohibition on substituting any published crowding or capacity proxy is reaffirmed and
+  extended to S-328.**
+- **New hard-stop flags — four.**
+  1. The candidate may **not** substitute a published security-level absorption-capacity or crowding state
+     (S-328, S-325, S-326, S-327) for the pair-level, netted convergence-crowd identity; doing so would make
+     the candidate a **repackaging of published crowding- and capacity-scaled premia**.
+  2. The candidate may **not** present *"a premium that scales with the capacity of the capital that
+     arbitrages or absorbs"* as unclaimed — it is published (S-328).
+  3. Any future execution must **engage the published identification design** for capacity-scaled premia and
+     must **pre-register how it separates its convergence return from the published flow-pressure
+     risk-absorption premium** (S-328), which is a **rival explanation** for the same pattern.
+  4. The candidate must **state the marginal content of the pair-netted identity** over a published
+     security-level state, or be reclassified as a known baseline.
+- **Score: 66.0 → 63.0. Rank 3 unchanged** (still behind IDEA-011 at 69.0 and IDEA-010 at 68.0, still ahead
+  of IDEA-009 at 53.0). **Mechanism 4 → 4** (S-328 supports the slow-capital channel and adds a formal
+  market-clearing account of it, but the candidate's *joint* crowd-depth conditioning of a convergence trade
+  remains an unresolved conjecture). **Evidence 4 → 4** (the new source is evidence about a *different* trade
+  and a *different* crowd; the Cycle-35/52 precedent applies — family-level support does not move the
+  evidence dimension — and the new source is a preprint). **Novelty 2 → 1** (the *measurable* content of the
+  claim is now published in every part: the two-sided gate, the slow-capital mechanism, the flow state, the
+  crowding-measure inventory with its identification constraint, and now the capacity-scaled premium with a
+  published state; what remains is a formulation difference plus the identity limb, and the identity limb is
+  the part G-28 says cannot be built, so the remainder is no longer a measurable claim — the IDEA-009
+  precedent, where a published rule in the same family took novelty from 2 to 1, applies directly).
+  **Falsifiability 3 → 3** (S-328 sharpens the benchmark a validator must beat and supplies a rival
+  explanation to control for, but the binding constraint is still the identity of the state). **Resilience
+  3 → 3** and **Data 3 → 3** (unchanged; the published capacity state does not change the candidate's cost,
+  capacity or data position, and it may not be substituted for the candidate's own state).
+- **Why the candidate is not parked and not rejected.** The register rejects only when a published result
+  **shows the candidate's own effect**. Nothing published shows that a *pair-level, netted* two-sided
+  convergence-crowd gate exists, that it is tradeable, or that it beats the published capacity-scaled
+  premium. The candidate therefore stays active, with the residual recorded honestly as **unmeasurable rather
+  than unclaimed** — a distinction the register had not previously drawn for this dossier, and the reason the
+  next cycle's marginal discovery act should be a **new mechanism family** rather than another read of
+  SLOWCAP-COND.
+- **Effect on V-002.** **Remains frozen.** A **Cycle-75 note** is added recording (i) the extended
+  rediscovery guard (now including S-328), (ii) the published identification design that any future execution
+  would have to engage, and (iii) the published rival explanation that a future execution would have to
+  separate from. **No re-specification is written while the candidate is frozen.**
+- **No gap opened.** The residual is (a) the frozen identity limb G-28, and (b) a validation-design question
+  about identification and rival explanation — both are recorded, neither is a search question.
 
 ---
 

@@ -5,8 +5,19 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 72 complete, 2026-10-20. **46 rejections (R-001 … R-046), 12 parking records of
-which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 78-row known-baseline table.**
+Last updated: Cycle 75 complete, 2026-10-20. **47 rejections (R-001 … R-047), 12 parking records of
+which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 82-row known-baseline table.**
+Cycle 75 added **one rejection (R-047)** and **four baseline rows (rows 79 … 82)** and **no parking record**.
+Its two research operations were (i) a **trigger-based prior-art re-read of IDEA-004**, opened by a new
+published neighbour the register had not seen (**S-328**, Wang 2026, arXiv:2605.30672) — the candidate was
+**re-scored 66.0 → 63.0 (novelty 2 → 1)** and four new hard-stop flags were attached, and **G-28's structural
+null was strengthened for a fifth time** — and (ii) the register's **first mechanism-first family screen since
+Cycle 13**, the *reporting-date balance-sheet window dressing into public safe assets* family, closed as a
+**bounded negative (R-047)** on five independent reasons, with its sources (**S-329**, **S-330**) registered as
+baseline rows 79 and 80. Rows 81 and 82 record the two further published neighbours found in the same cycle
+(the capacity-scarcity premium, S-328; the execution-channel result, S-331), the second of which is a
+**trigger for IDEA-010's next re-read**. **No candidate was created, no `G-` identifier was opened and no gap
+was closed.** Earlier history:
 Cycle 72 added **two** baseline rows (**row 77** and **row 78**): the **published two-sided
 crowding-conditioned arbitrage result** (S-325) and the **published flow-based slow-arbitrage state with
 its crowding-measure inventory and identification constraint** (S-326, S-327), so that the rediscovery guard
@@ -1454,6 +1465,10 @@ to baselines.
 | **Crypto perpetual funding-extreme reversal as a published, direction-conditional effect (added in Cycle 66)** | **Published, as direct tests of the hypothesis (S-310, S-320, S-319) and as a systematic review of the family (S-312).** The reversal after an extreme funding rate is published **as conditional on the market's direction**: across 274 extreme events on BTC, ETH and SOL from 2021 to 2026, events on up days reverted by +1.88 % over the next 24 hours while events on down days **continued** by −1.74 % (S-310; author-reported, not peer-reviewed); the unconditional form is a near-null (slope −0.668, R² 0.00109, F 0.388 on 357 df, with reversals reported only at the extremes, S-320; author-reported industry research); the nearest published out-of-sample test of the premise collapsed (validation Sharpe +0.80 → holdout −1.17, "viable only with explicit regime detection", S-319; book case study, not peer-reviewed); and the correction speed is published as **realised-volatility-conditioned** (median 27.0 h against 3.0 h; S-311). **This is a baseline and a rediscovery guard: IDEA-009 must always be described as an incremental variant of published conditional funding-reversal work, never as a discovery of the funding-level reversal, and its unconditional form may not be presented as unclaimed.** |
 | **Crowding-conditioned arbitrage profits: the two-sided crowding gate on an arbitrage strategy (added in Cycle 72)** | **Published, peer-reviewed (S-325).** The *shape* of the crowding conditioning that IDEA-004 claims as its differentiator — that the direction of the conditioning on an arbitrage strategy's profit is **two-sided rather than monotone** — is published: "In times of low arbitrage activity, the beta-arbitrage strategy exhibits delayed correction, taking up to three years for abnormal returns to be realized. In contrast, when arbitrage activity is high, prices overshoot and then revert in the long run", with a positive-feedback channel through firm leverage (Huang, Liu, Lou & Polk 2024, *Management Science* 70(8): 5367–5385). The crowding state is a return-comovement measure of the strategy's legs, built on the construct in S-157. **This is a baseline and a rediscovery guard for IDEA-004:** the candidate may no longer present a two-sided crowding gate as unclaimed, and the Cycle-30 note in that dossier asserting the opposite is corrected. The published trade family, universe and crowd are *not* the candidate's, and the published measure is **not** a position-concentration measure of a paired convergence crowd, so **G-28's structural null is untouched** and the published crowding measure **may not be substituted** for the candidate's own state. |
 | **Slow-moving arbitrage capital measured from fund flows (added in Cycle 72)** | **Published, peer-reviewed (S-326), with a published design and identification literature alongside it (S-327).** Persistent aggregate capital flows to hedge and mutual funds predict monthly factor returns with an out-of-sample R² reaching 6.6 %, while transient flows "display no such power despite being more predictable", and the mechanism is active fund managers' capital constraints (Dong, Kang & Peress 2025, *Review of Financial Studies* 38(10): 2936–2987). The newest published crowding work (Rodríguez Domínguez & Noguer i Alonso 2026, arXiv:2608.08405) states the full published inventory by which deployed arbitrage capital has been inferred — short interest, return comovement, institutional holdings, and persistent fund flows — records that those measures "rest on different primitives … and they have rarely been benchmarked against one another", publishes a **borrow-rate-derived crowding state** and a crowding-decay calibration (q̂ = 0.280 for four non-overlapping momentum strategies, 0.269 for all thirteen), and establishes that "aggregate crowding is not identified from within-date variation by any estimator" (Proposition 3.18). **This is a baseline and a rediscovery guard for IDEA-004:** the slow-capital mechanism and the fund-flow state of the strategy complex may no longer be presented as unexploited, and any future crowding-conditioned rule must pre-register how the aggregate-crowding effect is identified. The flow state is aggregate and strategy-level, so it is **not** the candidate's pair-level, netted convergence crowd and **may not be substituted** for it. |
+| **Quarter-end bank window dressing shifts money-market-fund demand into Treasury bills (added in Cycle 75)** | **Published, as a bounded-negative family screen (R-047) — the register's first mechanism-first screen, a family defined by an institutional mechanism rather than by a published state.** Quarter-end bank window dressing moves institutional demand from private to public safe assets: "Around regulatory reporting dates, Non-U.S. banks reduce borrowing from U.S. money market funds; constrained to hold short-term, high-quality assets, the funds redeploy the displaced cash into Treasury bills. As a result, short-maturity U.S. Treasury yields fall by 3–9 basis points at quarter-ends", with a network shift-share estimate that inflows equal to 1 percent of Treasury-bill market value lower yield spreads by 4.9 basis points (Sun & Tian 2026, SSRN working paper 6913784, *When Banks Retreat: The Demand for Public Safe Assets*; abstract **index-rendered**, not line-verified). **This is a baseline and a rediscovery guard:** the sign, the window and the size of the effect are published, so the family's headline is claimed in the literature; and the *state* that would determine the size is not published at decision time, because it depends on non-US banks' private reporting-date balance-sheet positions and on money-market-fund holdings published only with a lag. |
+| **Intraday price pressure around U.S. Treasury auctions and the dealer risk-bearing conditioner (added in Cycle 75)** | **Published (S-330), as the second instance that closes R-047's family.** "We examine intraday price pressure in the U.S. Treasury market around auctions. We find yields rise in the hours before an auction and reverse afterward. This pressure strengthens when dealers face tighter risk-bearing constraints, consistent with a model in which dealers' balance sheets absorb inventory risk" (Fleming, Liu & Nguyen 2026, Federal Reserve Bank of New York Staff Report 1188, March 2026, revised July 2026, DOI 10.59576/sr.1188; **line-verified** from the staff-report page). **This is a baseline and a rediscovery guard:** a dated, non-discretionary, price-insensitive flow obligation in the same market already has a published price effect, and its size-determining conditioner — dealers' risk-bearing capacity — is itself quarterly and lagged, so it is not observable at decision time either. |
+| **The price of residual supply: a capacity-scarcity state and a state-scaled premium (added in Cycle 75)** | **Published, as a preprint (S-328), and the trigger for IDEA-004's Cycle-75 re-read.** A market-clearing model of residual-supply pricing in which "forced-sale pressure predicts actual fund selling, contemporaneous price declines, and positive returns over the following one to six months", with the premium "roughly doubles when market-wide absorption capacity is tight, and concentrates in stocks with thin investor bases and limited trading capacity — precisely the cross section in which clearing the imbalance should be most costly, and a pattern that mechanical return reversal does not generate" (Wang 2026, arXiv:2605.30672; **line-verified**). The state is **published and constructible** — 13F ownership for the thickness of the natural investor base, CRSP liquidity and aggregate mutual-fund stress for absorption capacity — and the paper's own keyword list includes **"slow-moving capital"**. **This is a baseline and a rediscovery guard for IDEA-004:** a premium that scales with the capacity of the capital that arbitrages or absorbs may no longer be presented as unclaimed; the published state is **security-level** and measures *risk absorbers*, so it is **not** the candidate's pair-level netted convergence crowd and **may not be substituted** for it; and the published flow-pressure risk-absorption premium is a **rival explanation** that any future test of the candidate's convergence return must separate from. |
+| **Flow price impact depends on the execution channel, not on the dollar (added in Cycle 75)** | **Published, as a working paper (S-331, index-rendered — the hosted PDF was fetched but its text layer could not be extracted, so it must be line-verified before it is used as a verification basis).** The same dollar committed to the same stock through different vehicles moves prices very differently: institutional capital allocations executed by specialised intermediaries (transition managers) reduce trading costs by 80–90 % with negligible price impact, while mutual-fund flows move prices (Huang, Hu, Song & Xiang 2026, "Same Dollar, Different Impact", HKU working paper, 23 February 2026). **This is a baseline and a rediscovery guard for the register's flow-impact family, and a trigger for IDEA-010:** a candidate that claims an institutional flow exerts price pressure must state the **execution channel** through which the flow reaches the market, and must engage the finding that a flow routed through a specialised intermediary may move prices little or not at all. |
 ---
 
 ## Rediscovery guard
@@ -2137,3 +2152,83 @@ because the reasons are independent of data availability — the family failed o
 (reason 2) and on the *already-published-state* limb (reason 1), not on a missing series. A **second** known-baseline
 row (**row 76**) was added in the same cycle for the **crypto perpetual funding-extreme reversal family**, so that
 the rediscovery guard records the published conditional result that IDEA-009 is now an incremental variant of.
+
+## R-047 — Reporting-date balance-sheet window dressing into public safe assets (mechanism-first family) — bounded negative
+
+**What was screened.** The register's first **mechanism-first** family screen since Cycle 13: a family defined
+by an **institutional mechanism** rather than by a published state. The mechanism is a **statutory or
+regulatory reporting-date balance-sheet obligation** that forces a participant to rebalance a dated, largely
+price-insensitive flow: at a reporting date, non-US banks reduce their borrowing from US money market funds
+because of reporting and regulatory considerations, the money-market funds, constrained to hold short-term
+high-quality assets, redeploy the displaced cash into Treasury bills, and short-maturity US Treasury yields
+fall. The same institutional shape appears in the Treasury auction channel, where dealer balance sheets absorb
+inventory risk around auction dates.
+
+**Why the family was worth screening now.** The register's *state-kind* screen programme (templates A–I) has
+been recorded as exhausted for candidate production since Cycle 66, and the Cycle-73 handoff named a
+**mechanism-first search** as the fallback once the P-011 check was exhausted — which it was, in Cycle 73. A
+mechanism-first screen is a *different* operation from a state-kind screen and had not been run since Cycle 13.
+
+**Sources.** **S-329** (Sun, J. and Tian, Y. 2026, "When Banks Retreat: The Demand for Public Safe Assets",
+SSRN working paper 6913784, posted 3 July 2026, last revised 15 October 2026; earlier title "Private Money,
+Public Debt: Quarter-End Price Pressure in Treasury Bills"; abstract **index-rendered** — the SSRN landing page
+returned HTTP 403 to a direct fetch) and **S-330** (Fleming, M. J., Liu, W. and Nguyen, G. 2026, "Intraday
+Price Pressure and Order Flow Around U.S. Treasury Auctions", Federal Reserve Bank of New York Staff Report
+1188, March 2026, revised July 2026, DOI 10.59576/sr.1188; **line-verified** from the staff-report page).
+
+**Reason 1 — the sign and the window are already published, so the family's headline is claimed.** The
+published result states the mechanism, the window and the sign together: "quarter-end bank window dressing
+shifts institutional demand from private to public safe assets. Around regulatory reporting dates, Non-U.S.
+banks reduce borrowing from U.S. money market funds; constrained to hold short-term, high-quality assets, the
+funds redeploy the displaced cash into Treasury bills. As a result, short-maturity U.S. Treasury yields fall
+by 3–9 basis points at quarter-ends." A candidate in this family would be re-presenting a published effect,
+which the register treats as a baseline, not as a discovery.
+
+**Reason 2 — the state that determines the *size* of the effect is not published at decision time.** The
+redeployment is generated by **non-US banks' private reporting-date balance-sheet positions**, which no outside
+party can observe; the observable proxies are money-market-fund portfolio holdings, published on the
+**N-MFP monthly cycle with a two-month lag**, and the dealer balance-sheet capacity that conditions the
+auction channel, published **quarterly and lagged** (S-330's own conditioner: "This pressure strengthens when
+dealers face tighter risk-bearing constraints"). So a state-conditioned instance of this family fails the
+register's decision-time-state bar (G-13) and the Cycle-52 third test — the state may not be a public
+real-time by-product of the constrained flow's own trading.
+
+**Reason 3 — the published elasticity is a size statement, not a sign statement, so the family fails G-12 on
+the binding limb.** The published estimate is that "money market fund demand inflows equal to 1 percent of
+Treasury bill market value lower yield spreads by 4.9 basis points". That is a *magnitude* relation, and the
+register's screen bar requires a published state that changes the **sign or the existence** of an effect, not
+merely its size. The 3–9 basis-point quarter-end move is likewise a size, and the sign is fixed in the
+published work.
+
+**Reason 4 — the family adds no new *kind* of obligation to the register's existing baseline set.** The
+register already holds the flow-concession template in several forms: liquidity provision around predictable
+large trades, sovereign issuance calendars, the EU-ETS surrender-deadline concession (IDEA-013) and the US
+Renewable Fuel Standard compliance-deadline concession (IDEA-014). The reporting-date instance is again a
+dated, non-discretionary, largely price-insensitive flow whose obligor is not the party that benefits — the
+S-151 analogue, already a standing reason in this log — and it fails the same limb for the same reason.
+
+**Reason 5 — the published estimate is not reproducible or contestable from public data, and the effect is
+framed by its authors as a policy quantity.** The published design is a "network shift-share design that
+exploits predetermined fund–bank relationships", and those relationships are **not public data**, so an
+outside party can neither re-run nor contest the estimate; and the paper's own use of the estimates is
+"to quantify the additional public safe asset provision needed to stabilize Treasury bill yields at
+quarter-ends and to inform policy recommendations for the existing ON RRP facility" — a market-clearing and
+policy framing, not an unclaimed tradable edge. A candidate that cannot identify its own effect is not a
+candidate.
+
+**Dated re-screen condition.** Re-screen only if (a) a **published, decision-time** state determines the
+**sign or the existence** (not merely the magnitude) of a reporting-date or auction-window concession in a
+market where the flow is not already claimed; (b) that state is **not** a public real-time by-product of the
+flow's own trading and **not** a deterministic function of an already-published price; (c) the published
+magnitude is materially larger than the 3–9 basis points documented, or the effect is shown to persist after
+the concession is competed away; and (d) the literature shows an **unclaimed** sign-determining effect
+conditioned on the state rather than on the flow it produces.
+
+**Decision:** **bounded negative (R-047).** The reporting-date window-dressing family is recorded in the
+known-baseline table (**rows 79 and 80**); no dossier was created; no `IDEA-` identifier was consumed; the
+screen registered its own sources (**S-329**, **S-330**) and consumed no further identifier; no score changed;
+no validation specification was added; and **no new gap is opened**, because the reasons are independent of
+data availability — the family failed on the *already-published-effect* limb (reason 1) and on the
+*sign-and-existence* limb (reason 3), not on a missing series. The screen's *product* is a **rediscovery
+guard** (rows 79–82) and a **registered precedent** that the *mechanism-first* operation is distinct from the
+exhausted *state-kind* screen programme and remains available to future cycles.
