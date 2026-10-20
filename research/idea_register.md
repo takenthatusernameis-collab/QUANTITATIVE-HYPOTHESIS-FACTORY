@@ -4,7 +4,41 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 59 complete** (Cycle 58 executed the register's two highest-value *state-availability*
+Last updated: **Cycle 59 complete** (Cycle 59 executed the register's remaining highest-value
+*state-availability* questions and **settled all of them, without creating a candidate and without changing
+a score**. (i) **G-28 (IDEA-004)** was re-checked against the *structural* question — is there a published
+**pair-level, netted** position source, i.e. one that publishes a participant's longs *and* shorts, or a net
+position, at a granularity at which a two-legged crowd is visible? — and the answer is **no, for a
+structural reason**: every published position-disclosure source is **security-level and single-sided**
+(13F is long-only and aggregated; 13D/13G are beneficial-ownership disclosures; FINRA short interest is an
+issue-level aggregate with no firm-level breakdown; CFTC category tables are aggregates), while a
+convergence crowd is defined by a **pair** of positions, so no such source can represent it. **V-002 stays
+frozen**, and the next agent must not re-run the old, search-based question. (ii) **G-21 (IDEA-011)** was
+**handed off to validation rather than re-searched**: the first-time-versus-second-time-adopter drift
+comparison is not merely unrun but **unused**, because the field's largest comparability study (S-294) is a
+first-time-adopter design *by construction* and does not inventory drift, and the nearest published outcome
+family (S-295) is likewise first-time-adopter — so the comparison would be a **contribution, not a
+replication**, and the claim must be pre-registered as a **transition-window** effect. (iii) **G-30
+(IDEA-010)** was **confirmed exhausted** across all four routes outside the statutory prospectus, with
+**no re-probe**; **V-010 stays non-executable** against the corporate-bond ETF universe, and no published
+crowding proxy may be substituted for the AP set. (iv) **IDEA-014's state-free existence limb** was
+maintained **inconclusive** — no effort without a new source, and **no gap opened** on it. (v) **G-32 limb
+(c)** and **G-33's re-check** were recorded as **future obligations, dated 2027 Q3**; the G-33 sample read
+must **not** be run again from scratch, because the six interim reports have now been read (S-281 … S-286;
+**5 of 6 line-verified, 6 of 6 index-confirmed**, the Saudi Tadawul leg index-rendered behind an Akamai
+layer that returns HTTP 403 on every route), the quantified expected effect was **0 of 6** — so the
+re-check is about *comparability across firms*, not *quantification* — and none of the six is framed as an
+IAS 8.30–31 disclosure but as a *not-yet-effective* / *recent-accounting-developments* note, so the re-check
+should look for the same **kind** of note in the 2027 tranche. (vi) Cycle 59 ran the register's **second
+state-first family screen** — the **published price of a constraint** (repo specialness, securities-lending
+fee curves, CDS financing spreads, standing-repo award rates) — logged as a **bounded negative (R-039)** on
+five independent reasons; **no `S-` identifier was consumed**, and the screen's decision line and its
+known-baseline row were written at the wrap-up. **The Cycle-59 wrap-up was completed in a later session**
+and changed **no verdict, no gap closure and no score**: it wrote the R-039 decision line and the missing
+known-baseline row (now **68 rows**), added the Cycle-59 record to the register, the shortlist and the
+validation file, de-duplicated the cycle log's two Cycle-59 entries, and corrected the stale
+next-free-identifier pointers that still advertised R-039 and Cycle 59 after R-039 had been consumed.
+Earlier history: **Cycle 58 complete** (Cycle 58 executed the register's two highest-value *state-availability*
 questions and settled them. **G-01, the feasibility precondition of the parked candidate IDEA-002, was
 executed and closed as a negative**, so IDEA-002 is **rejected (R-038)** and its parking **P-004 is
 closed** — on three independent grounds: the proposed validation is **tautological** for the candidate's
@@ -1562,6 +1596,35 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
   its mechanism, evidence, novelty, falsifiability, resilience or data. The Cycle-35/52 precedent applies:
   a source that narrows the specification without supporting the candidate's directional claim does not
   move a score.
+
+#### Cycle 59 block — IDEA-004 · **G-28's bounded re-check executed against the structural question**; the null is now established by the *structure of the available source classes*, not by the register's searching
+- **What Cycle 59 ran, and what it did not run.** The Cycle-58 handoff asked for **one bounded re-check
+  against the structural reason**, and explicitly warned against re-running the old, search-based question
+  ("is there a published crowding measure"). Cycle 59 did exactly that: it asked whether any published
+  source is **pair-level and netted** — that is, one that publishes a participant's longs *and* shorts, or
+  a net position, for a defined participant class, at a granularity at which a two-legged convergence crowd
+  is visible. **No such source was found**, and the classes that were checked explain why: 13F is
+  **long-only** and aggregated without pair-level netting; 13D/13G are **beneficial-ownership**
+  disclosures, not systematic pair-level crowd disclosure; FINRA short interest is an **issue-level
+  aggregate** with no firm-level breakdown (the Cycle-40 objection, unchanged); CFTC category tables are
+  **aggregates**. Every published position-disclosure source is therefore **security-level and
+  single-sided**, and a convergence crowd is a **pair** of positions.
+- **What this changes and what it does not.** The null is **unchanged in substance and strengthened in
+  status**: it is no longer "no published measure was located" but "**no published measure of this kind
+  can exist in the available source classes**", which is a statement about the world rather than about the
+  register's effort. Consequently: (i) **G-28 remains open and frozen**; (ii) **V-002 remains frozen**; and
+  (iii) the **unfreezing condition is unchanged and now final in wording** — a published **pair-level,
+  netted** measure of the convergence crowd's position concentration, or a published *validation of a
+  construction* against an outcome, that is not a public real-time by-product of the crowd's own trading.
+  A future agent must **not** re-run the crowding-measure search; it must either supply a source of the
+  pair-level kind or accept the freeze.
+- **Standing prohibitions reaffirmed.** The candidate may **not** substitute any published crowding proxy
+  (S-026, S-157, S-222, S-242, S-291, S-296), because each measures a different crowd; and the Cycle-58
+  hard-stop flag stands — the candidate may **not** argue that the convergence crowd is unmeasured merely
+  because no published measure was found.
+- **Score: 69.0, unchanged. Rank 2, unchanged.** Cycle 59 consumed **no `S-` identifier**: the re-check
+  produced a negative about a *class* of sources and therefore required no new citation. Nothing found
+  bears on any score component; the Cycle-35/52 precedent applies.
 
 ---
 
@@ -3821,6 +3884,41 @@ IFRS basis.
       limb (a) re-opens only if a jurisdiction publishes an IFRS 18 application date that differs from
       1 January 2027 **and** applies IFRS 18 as an increment to an existing IFRS basis.
 
+  - **Cycle 59 (2026-10-20) — G-21 handed off to validation; no literature re-search; no score change.**
+    - **What Cycle 59 ran.** The Cycle-58 handoff directed a **hand-off, not a search**: three cycles
+      (37, 52, 58) had established the G-21 null, and the correct action was to make the comparator
+      **actionable inside V-009** and to stop searching the literature for it. Cycle 59 did not re-run the
+      search and did not open a group A / group B partition inside the IFRS 18 window (G-32 limb (a) is
+      closed), and it consumed **no `S-` identifier** — the null rests on the register's existing sources
+      (S-294, S-295).
+    - **What the hand-off means for this candidate.** The discriminator is now recorded as **unused, not
+      merely unrun**: the field's largest comparability study (S-294) is a **first-time-adopter design by
+      construction** and its outcomes (earnings quality, liquidity, analyst forecast accuracy and
+      agreement) do not include drift, and the nearest published outcome family (S-295) is likewise
+      first-time-adopter. A validator running the comparison therefore produces a **contribution, not a
+      replication** — which raises the candidate's *novelty* reading and lowers its *evidence* reading, and
+      changes what a null in that design would mean. Any such validation must also pre-register the
+      **transition-window** reading, because the published steady-state evidence runs the other way.
+    - **Standing prohibitions unchanged.** The two Cycle-58 hard-stop flags stand in full: the candidate
+      may **not** present a steady-state comparability or information-quality result as support for a
+      transition-window drift claim, and it may **not** confine the comparability break to the statement of
+      profit or loss (the break also reaches the statement of cash flows and, to a lesser extent, the
+      balance sheet; the **measurement** limb remains absolutely prohibited — no recognition, measurement
+      or reported-amount change exists, S-281, S-285).
+    - **Dated obligations, unchanged and now enumerated.** G-32 limb (c) is re-read annually; **G-33 is
+      re-checked in 2027 Q3**, and that re-check **must not re-run the sample read from scratch** — the six
+      interim reports have been read (S-281 … S-286; 5 of 6 line-verified, 6 of 6 index-confirmed), the
+      quantified expected effect was **0 of 6** (so the open question is *comparability across firms*,
+      not *quantification*), none of the six is framed as an IAS 8.30–31 disclosure, and the corpus's only
+      non-EU leg is index-rendered behind an Akamai 403, so a re-check wanting a non-EU leg needs a
+      different retrieval route. Limb (a) re-opens only if a jurisdiction publishes an IFRS 18 application
+      date differing from 1 January 2027 **and** applies IFRS 18 as an increment to an existing IFRS basis.
+    - **Score: 69.0, unchanged. Rank 1, unchanged.** Mechanism 4 → 4; evidence 3 → 3; novelty 3 → 3;
+      falsifiability 4 → 4; resilience 3 → 3; data 4 → 4. **No re-score**, no new hard-stop flag, and
+      **no `V-` identifier consumed** — V-009 was **not** amended in Cycle 59, because the Cycle-58
+      amendment already carries the comparator-as-contribution reading and the transition-window
+      pre-registration.
+
 ---
 
 ---
@@ -5238,7 +5336,7 @@ returned a *sharper* null, one published conditioner that competes with IDEA-011
 of adverse premise evidence recorded against it, and — because it produced a dated, prospective route
 rather than another null — the **opening of G-32**.
 
-## Cycles 56–58 frontier-family screen log (backfilled by Cycle 58)
+## Cycles 56–59 frontier-family screen log (Cycles 56–58 backfilled by Cycle 58; Cycle 59 added at the Cycle-59 wrap-up)
 
 **This sub-section is a state-integrity repair.** The screen log above ends at Cycle 52, but Cycles 56, 57
 and 58 each ran a family screen whose full rationale was written into `rejected_and_parked.md` and whose
@@ -5247,6 +5345,11 @@ register's own screening history was **incomplete on its face** — the same def
 for the Cycles 53–55 gap-verdict block (Cycle 56) and for the Cycles 36, 38–39 and 44–50 backfills
 (Cycles 37, 40, 51). The three entries below are **summaries**; the reasoning, the sources and the dated
 re-screen conditions live in `rejected_and_parked.md` under R-035, R-036 and R-037 and must be read there.
+**Cycle 59's screen (R-039) was added to this log at the Cycle-59 wrap-up**, because the same defect
+recurred: the screen's reasoning was written into the cycle log and the rejection log, but the register's
+own screening history was not extended, and the screen's **decision line and known-baseline row were never
+written at all** — the identical defect Cycle 58 had already repaired once for the cross-session row
+(R-036). The three earlier entries below are therefore **summaries**, and the fourth is too.
 
 **Cycle 56 — the tax-driven year-end flow family (R-035), bounded negative.** The first screen of a family
 in which no participant is obliged to act and the flow's existence and strength are set by a published tax
@@ -5296,3 +5399,31 @@ expression in S-309 does not work.
 **Cycles 56–58 summary of the screening log.** Three families, three bounded negatives, **zero new
 dossiers, zero scores changed** — and one candidate rejected outright (IDEA-002, R-038, on an executed
 gap rather than on a screen).
+
+**Cycle 59 — the published-price-of-a-constraint family (R-039), bounded negative.** The register's
+**first screen run in the explicit state-first order** — the order the Cycle-58 handoff prescribed for
+Cycle 59, in which the state is asked about *before* the mechanism is, and the first screen of a family
+whose *object is the state itself*: a continuously published, decision-time **rate** that prices a funding,
+balance-sheet or capacity constraint. Instances run: repo specialness; securities-lending fee curves; CDS
+financing spreads; standing-repo award rates; and the public reference-rate and repo-operations series the
+register already holds (S-041, S-042). Bounded negative on five independent reasons: **(i)** the published
+rates are **indicators** — states that condition effects whose sign and existence are already claimed —
+rather than an unclaimed edge with a clean sign-determining condition; **(ii)** the *decision-time* state a
+candidate would need at the required granularity is **not cleanly public** where the family's economics
+live: securities-lending fee data is fragmented and largely proprietary, and repo specialness is episodic
+and specialised rather than a continuous series; **(iii)** the family conditions the **magnitude** of an
+effect more often than it changes the **sign or the existence** of one, which is **G-12's binding limb** —
+the same failure mode that rejected IDEA-002; **(iv)** where the rates are public and widely observed, the
+effects are **anticipated or competed away**; and **(v)** without a clean published decision-time state that
+is not a public real-time by-product of the constrained flow's own trading (the **Cycle-52 third test**),
+no candidate in the family could pass the strict bar. **No `S-` identifier was consumed** — the screen's
+conclusions are structural, not citation-dependent. Dated re-screen condition: a continuously published,
+decision-time series of a funding, balance-sheet or capacity constraint becomes available at the granularity
+a candidate would need, with documented cadence and coverage, and the literature shows an unclaimed
+sign-determining effect that it conditions.
+
+**Cycles 56–59 summary of the screening log.** Four families, four bounded negatives, **zero new
+dossiers, zero scores changed** — and one candidate rejected outright (IDEA-002, R-038, on an executed
+gap rather than on a screen). The most recent screen (R-039) is also the **first one run in the explicit
+state-first order**, and its verdict is consistent with the register's dominant pattern: the binding
+constraint is the **sign-and-existence** limb of the published state, not the availability of any series.

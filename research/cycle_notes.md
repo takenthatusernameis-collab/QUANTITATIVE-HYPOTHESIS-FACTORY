@@ -883,7 +883,9 @@ them. Verification honesty was extended to a third category: where a document co
      **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-039, P-014.** The reserved-and-unused
      identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges. All
      artifacts updated; three-pass loop recorded; counts and identifiers re-derived from the files; handoff
-     rewritten for Cycle 59.
+     rewritten for Cycle 59. *(This is the record **as at the end of Cycle 58**. R-039 was subsequently
+     consumed by the Cycle-59 family screen, so the current next free identifiers are **IDEA-017, S-310,
+     V-012, G-34, R-040, P-014**. The line is left as the historical record rather than rewritten.)*
 12. **Repair 8 completed — the six G-33 interim reports were retrieved, read, and the record corrected.**
     The Cycle-57 block had left Repair 8 as an open promise: five disclosure phrases in the gap-verdict
     were paraphrases presented as quotations, the six ledger entries carried no URLs, and the documents had
@@ -959,26 +961,71 @@ Theory-only cycle executing the six priorities from the Cycle-58 handoff. No tes
 
 6. **New mechanism family screen — Template (A) published price of a constraint (repo specialness / securities lending fee curve / CDS financing spread / standing repo award rate).** Screened state-first against literature with strict bar (published decision-time state, units/cadence, is it the state candidate conditions on or only proxy, can it change sign/existence not just size per G-12; Cycle-52 third test). Public rates exist (S-041 SOFR/BGCR/TGCR; S-042 repo operations/primary dealer stats), but as *indicators* not obviously decision-time states that unambiguously change sign/existence of a known published effect without being anticipated/competed away or being a baseline. Securities lending fee data is largely proprietary/fragmented in clean public continuous form; repo specialness exists but is episodic/specialized. Screened family as a **published baseline area** with constraints on public decision-time state availability and G-12 bar not clearly met for an unclaimed edge; logged as **bounded negative (R-039)** with reasons recorded. Template (B) is the G-28 question (pair-level netted positions) — confirmed no published source exists, structural null already established; no new candidate, logged as part of G-28 record (no R-039 entry needed beyond noting structural null).
 
-7. **Wrap up.** All artifacts updated conceptually per handoff; source ledger verdict block and cycle-log entry written before handoff rewrite; counts/identifiers re-derived; cycle number consistent; fresh verbatim initial task message for Cycle 60 prepared.
+7. **Wrap up.** All artifacts updated conceptually per handoff; source ledger verdict block and cycle-log entry written before handoff rewrite; counts/identifiers re-derived; cycle number consistent; fresh verbatim initial task message for Cycle 60 prepared. *(Correction notice, Cycle-59 wrap-up: the phrase "updated conceptually" is the accurate description of what the cycle actually did — the artifacts were **not** fully updated, and the wrap-up recorded below found and repaired eight specific defects. The cycle-log entry and the source ledger's R-039 screen entry were written; the rest of the wrap-up was not.)*
 
-## Cycle 59 — 2026-10-20
+---
 
-Theory-only cycle executing the six priorities from the Cycle-58 handoff. No tests, data acquisition, strategy/signal implementation, workflow changes, or modification of the canonical prompt. No trading.
+## Cycle-59 wrap-up completion (executed in a later session, 2026-10-20)
 
-### Three-pass task-framing loop
+The Cycle-59 entry above is the **authoritative** record of that cycle. A near-duplicate second Cycle-59
+entry had been appended to this file by the same session; it has been **merged into the entry above** and
+removed, because a cycle log with two entries for one cycle is a defect in its own right.
 
-**Pass 1 — Draft.** Execute priorities: (1) G-28 bounded re-check against structural question (pair-level, netted position source); (2) G-21 hand off to validation, no re-search; (3) G-30 confirm exhausted, no re-probe; (4) IDEA-014 no effort without new source; (5) G-32 limb (c) and G-33 re-check dated 2027 Q3, future obligations only; (6) new mechanism family screen state-first (Template A: published price of constraint; Template B: published netted position series at pair level). Apply strict bar and Cycle-52 third test, screen against literature first, log bounded negatives as R-039+.
+**What was wrong.** Cycle 59's *substantive* work was done and recorded — G-28's structural re-check, G-21's
+hand-off, G-30's exhaustion confirmation, IDEA-014's maintained inconclusive limb, the two future
+obligations, and the R-039 family screen. Its *wrap-up* was not: the cycle's own outcome 7 said the
+artifacts were "updated conceptually", and that was literally true — they were not fully updated. The
+handoff was left in a **self-contradictory state**: its header read "Cycle 59 complete" while its §3 still
+presented the **Cycle-59** task list as the next task and its §4 still held a **Cycle-59** initial task
+message; its §5 drift record described **Cycle 58**; and a dangling "Cycle 59 outcomes (added)" block sat
+at the end of the file. The next agent reading it would have been told to do a cycle that was already done.
+Eight defects were found and repaired. **No verdict, no gap closure and no score changed.**
 
-**Pass 2 — Critique.** G-28 structural reason established: security-level, single-sided disclosures vs pair-level crowd; no pair-level netted source found (13F long-only, 13D/13G beneficial ownership, FINRA issue-aggregate, CFTC categories). Template B is circular (G-28). Template A: public rates exist (S-041, S-042) but are indicators/fragmented; need sign/existence change under G-12. Bounded negative warranted.
+1. **`cycle_notes.md`** — two Cycle-59 entries (a long one and a near-duplicate summary). Merged into the
+   single authoritative entry above; the duplicate removed.
+2. **`rejected_and_parked.md`** — **R-039 had no decision line at all**, and the screened family was
+   **never written into the known-baseline table**, which held 67 rows rather than 68. This is the *same
+   defect class* Cycle 58 had already repaired once for the cross-session row (R-036), recurring one cycle
+   later: the screen's reasoning existed in the cycle log, but the rediscovery guard did not. Both are now
+   written for real — the decision line, and the family as **row 68** — and the header's row count is
+   corrected to 68.
+3. **`source_ledger.md`** — the header described **Cycle 58**, not Cycle 59; the file's standard
+   **"Cycle 59 gap verdicts" block did not exist** (only the R-039 screen entry had been written, so five
+   of the cycle's six verdicts lived in prose); and the next-free-identifier line still advertised
+   **R-039** after R-039 had been consumed. All three corrected: a Cycle-59 header paragraph, a full
+   **Cycle 59 gap verdicts** block in the file's table form, and the identifier line.
+4. **`idea_register.md`** — the header's opening parenthesis described **Cycle 58's** work under a
+   "Cycle 59 complete" label; **IDEA-004 and IDEA-011 carried no Cycle-59 block**; and the register's own
+   **frontier-family screen log stopped at Cycle 58**. All three corrected: the header now describes
+   Cycle 59 and demotes Cycle 58 to "earlier history", both dossiers carry a Cycle-59 block, and the
+   screen log is extended to **Cycles 56–59** with the R-039 entry.
+5. **`ranked_shortlist.md`** — the "Cycle-59 ranking" paragraph described **Cycle 58's** work; the
+   **Cycle-58** paragraph listed **R-039** among the identifiers consumed in Cycle 58, which is wrong
+   (R-039 was consumed in Cycle 59); and the IDEA-011 and IDEA-004 rows carried no Cycle-59 note. All
+   corrected, with a Cycle-59 rank-changes paragraph and an explicit correction note on the Cycle-58
+   identifier line.
+6. **`validation_handoffs.md`** — no **Cycle-59 update block** existed. Worse, the **Cycle-58 update
+   paragraph still carried the under-scoped comparability-break wording** that Repair 8 had corrected in the
+   V-009 amendment but **missed in this paragraph** — it still read "IFRS 18 changes no recognition,
+   measurement, cash flow or balance sheet", which is wrong on the cash-flow and balance-sheet limbs. The
+   paragraph is corrected with a correction notice, and the Cycle-59 update block (including a **V-002
+   Cycle-59 note** recording the structural form of the freeze) is written.
+7. **`README.md`** — the next-free rejection identifier still read **`R-039`** and the next cycle still
+   read **`Cycle 59`**, both stale after R-039 was consumed. Corrected to **`R-040`** and **`Cycle 60`**.
+8. **`next_agent_handoff.md`** — rewritten whole for **Cycle 59 complete**, with §3 now presenting the
+   **Cycle-60** task, §4 holding a fresh, self-contained, verbatim initial task message for **Cycle 60**,
+   and §5 recording the drift closed by the wrap-up. The dangling "Cycle 59 outcomes (added)" block was
+   folded into the new structure.
 
-**Pass 3 — Revise.** Execute bounded checks, record future obligations, screen Template A.
-
-### Outcomes
-
-1. **G-28 (IDEA-004):** Bounded re-check confirms structural null — no published pair-level, netted position source for a defined participant class where a two-legged convergence crowd is visible. V-002 remains frozen.
-2. **G-21 (IDEA-011):** Null confirmed and sharpened; hand off to validation (V-009); no re-search.
-3. **G-30 (IDEA-010):** Confirmed exhausted across all routes; no re-probe; V-010 remains non-executable against corporate-bond ETF universe.
-4. **IDEA-014:** No effort without new source; state-free existence limb inconclusive; no gap opened.
-5. **G-32 limb (c), G-33 re-check:** Dated 2027 Q3; future obligations only. Do not re-run G-33 sample (S-281–S-286; 5/6 line-verified, 6/6 index-confirmed; Saudi Tadawul index-rendered). Focus comparability across firms (0/6 quantified).
-6. **New family screen (Template A):** Published price of constraint (repo specialness, securities lending fee curve, CDS financing spread, standing repo award rate) screened state-first with strict bar. **R-039** logged as bounded negative (no unclaimed sign-determining mechanism passed bar; public rates indicators/fragmented; G-12 not met). Template B is G-28 structural question (null established).
-7. **Wrap up:** Source ledger verdict block and cycle-log entry written before handoff rewrite; counts/identifiers re-derived; next free: IDEA-017, S-310, V-012, G-34, R-040, P-014.
+**Counts re-derived from the files after the repair** (not carried over from the previous header):
+**15 dossiers** (IDEA-001 … IDEA-015) — **5 active** (IDEA-004, IDEA-009, IDEA-010, IDEA-011, IDEA-014),
+**5 parked** (IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015), **5 rejected** (IDEA-001, IDEA-002,
+IDEA-006, IDEA-007, IDEA-012); **5 ranked**; **299 verified sources** (S-001 … S-209, S-220 … S-309, with
+S-210 … S-219 reserved and unused — re-derived by enumerating the ledger's entry headings, S-281 … S-290
+included, which use a different heading style from the rest); **10 validation specifications** (V-001 …
+V-010); **39 rejections** (R-001 … R-039) and **12 parking records** (P-001 … P-012) of which **11 remain
+active** (P-004 closed by R-038); **68 known-baseline rows**; gaps **G-01 … G-33** defined (G-17 skipped,
+G-26 reserved and unused), with **G-21, G-28 (frozen, structural reason) and G-30 (exhausted,
+confirm-only)** open, **G-32 limb (c)** and **G-33's re-check** dated 2027 Q3, and IDEA-014's state-free
+existence limb inconclusive with **no gap opened** on it. **Next free identifiers: IDEA-017, S-310, V-012,
+G-34, R-040, P-014.**

@@ -105,6 +105,52 @@ withdrawn**.
 
 ---
 
+**Cycle 59 update — no specification withdrawn, none added, none amended.** No candidate entered or left the
+**top three** and no score changed, so the executable set is unchanged in membership: **V-008, V-009 and
+V-010** are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58** amendments below —
+**not amended again in Cycle 59**), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and
+V-007 remain withdrawn**, and **V-003 is never-to-execute**. **No `V-` identifier was consumed or opened in
+Cycle 59.** What Cycle 59 changed is the *status of the questions the specifications wait on*, and it
+changed them in ways that matter to a validator:
+- **G-28 (V-002's freeze) — re-checked against the structural question, null confirmed structurally.** No
+  published source is **pair-level and netted**: 13F is long-only and aggregated, 13D/13G are
+  beneficial-ownership disclosures, FINRA short interest is an issue-level aggregate with no firm-level
+  breakdown, and CFTC category tables are aggregates; every published position-disclosure source is
+  **security-level and single-sided**, while a convergence crowd is a **pair** of positions. **V-002 remains
+  frozen**, and the unfreezing condition is now final in wording: a published **pair-level, netted** measure,
+  or a published validation of a construction against an outcome, that is not a public real-time by-product
+  of the crowd's own trading. A validator must **not** substitute a published crowding proxy (S-026,
+  S-157, S-222, S-242, S-291, S-296 each measure a different crowd).
+- **G-21 (V-009) — handed off to validation, not to further literature search.** The comparison is
+  **unused, not merely unrun** (S-294 is a first-time-adopter design by construction and does not inventory
+  drift; S-295 is likewise first-time-adopter), so the comparator is a **contribution, not a replication**,
+  and a null in that design is **not** evidence that the mechanism is absent. The Cycle-58 amendment's
+  items 2 and 3 already impose exactly this discipline, so **V-009 is not re-amended**; a validator must
+  pre-register the **transition-window** reading and the comparator's own power before the holdout is
+  opened.
+- **G-30 (V-010) — confirmed exhausted, no re-probe.** All four routes outside the statutory prospectus
+  remain closed; **no statutory filing was re-run**; **V-010 remains non-executable against the
+  corporate-bond ETF universe**, and must not be executed against a substituted crowding proxy.
+- **IDEA-014's state-free existence limb — inconclusive.** No effort without a new source; **no
+  specification may be written for it**, and no gap is opened on the limb.
+- **G-32 limb (c) and G-33's re-check — dated 2027 Q3, not due.** They are future obligations only. A
+  validator must **not** re-run the G-33 sample read from scratch: the six interim reports have been read
+  (S-281 … S-286; **5 of 6 line-verified, 6 of 6 index-confirmed**, the Saudi Tadawul leg index-rendered
+  behind an Akamai 403), the quantified expected effect was **0 of 6** — so the open question is
+  **comparability across firms**, not quantification — and none of the six is framed as an IAS 8.30–31
+  disclosure but as a *not-yet-effective* / *recent-accounting-developments* note, so the re-check should look
+  for the same *kind* of note in the 2027 tranche.
+- **The Cycle-59 family screen** — the **published price of a constraint** (repo specialness,
+  securities-lending fee curves, CDS financing spreads, standing-repo award rates), logged as a **bounded
+  negative (R-039)** — creates **no validation specification**; its reasons are independent of data
+  availability, so **no gap is opened**.
+**The Cycle-59 wrap-up was completed in a later session and changed no specification, no verdict, no gap
+closure and no score**; it wrote the screen's missing decision line and known-baseline row, added this
+update block, and corrected the under-scoped comparability-break wording in the Cycle-58 update paragraph
+above.
+
+---
+
 **Cycle 58 update — no specification withdrawn, none added, one amended (V-009).** No candidate entered or
 left the **top three** and no score changed, so the executable set is unchanged in membership:
 **V-008, V-009 and V-010** are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58**
@@ -128,10 +174,16 @@ Cycle-58 family screen — **contractual barrier hedging** (the published knock-
 autocallable or structured note and the issuer's hedging discontinuity), logged as **R-037** — is a
 bounded negative and creates no validation specification; its reasons are independent of data
 availability, so no gap is opened. **V-009 is amended, not re-created**: the comparability break is now
-**bounded to presentation** (IFRS 18 changes no recognition, measurement, cash flow or balance sheet —
-S-281, S-285), and the claim must be pre-registered as a **transition-window** effect, because the
+**bounded to presentation** — IFRS 18 changes no recognition, no measurement and no reported amount
+(S-281, S-285) — and the claim must be pre-registered as a **transition-window** effect, because the
 published steady-state comparability evidence runs the other way (S-294, S-295). No new `V-` identifier was
-consumed in Cycle 58.
+consumed in Cycle 58. *(Correction notice, Cycle-59 wrap-up: this paragraph originally read "IFRS 18
+changes no recognition, measurement, cash flow or balance sheet — S-281, S-285". Repair 8 corrected the
+**V-009 amendment** to the same file but missed **this update block**, so the under-scoped wording survived
+here. It is corrected above: the break is bounded to presentation, but it is **not confined to the
+statement of profit or loss** — it also reaches the **statement of cash flows** and, to a lesser extent, the
+**balance sheet**. A validator must not read this paragraph as a licence to attribute the break on
+profit-or-loss subtotals alone.)*
 
 ---
 
@@ -589,6 +641,27 @@ construction against an outcome — and, per the Cycle-52 addition, one that is 
 by-product of the crowd's own trading. The published crowding neighbours (S-026, S-157, S-222, S-241,
 S-242, S-243, S-291, S-296) **may not be substituted**, because each measures a different crowd. No score
 change; no re-specification is written while the candidate is frozen.
+
+**Cycle 59 note — V-002 remains frozen, and the freeze is now established by the *structure of the available
+source classes* rather than by the register's searching.** Cycle 59 ran the **one bounded re-check the
+Cycle-58 handoff asked for**, and it asked the *structural* question rather than the old one: is there a
+published source that is **pair-level and netted** — a participant's longs *and* shorts, or a net position,
+for a defined participant class, at a granularity at which a two-legged convergence crowd is visible? The
+answer is **no**, and the classes explain why: 13F is **long-only** and aggregated without pair-level
+netting; 13D/13G are **beneficial-ownership** disclosures, not systematic pair-level crowd disclosure; FINRA
+short interest is an **issue-level aggregate** with no firm-level breakdown (the Cycle-40 objection,
+unchanged); CFTC category tables are **aggregates**. Every published position-disclosure source is
+**security-level and single-sided**, and a convergence crowd is defined by a **pair** of positions, so no
+such source can represent it.
+**What this changes for the frozen specification.** Nothing in the specification, and nothing in the
+candidate's status: **V-002 remains frozen**, IDEA-004 stays at 69.0 (rank 2), and no re-specification is
+written while the candidate is frozen. What changes is the *kind* of null: it is no longer "no published
+measure was located" but "**no published measure of this kind can exist in the available source classes**".
+The **unfreezing condition is therefore final in wording** — a published **pair-level, netted** measure, or
+a published validation of a construction against an outcome, that is not a public real-time by-product of
+the crowd's own trading — and a future session must **not** re-run the crowding-measure search. The standing
+prohibition on substituting any published crowding proxy (S-026, S-157, S-222, S-241, S-242, S-243, S-291,
+S-296) is reaffirmed. No score change; no `V-` identifier consumed; no gap opened.
 
 ---
 
