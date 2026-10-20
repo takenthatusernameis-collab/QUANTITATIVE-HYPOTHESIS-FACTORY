@@ -125,7 +125,7 @@ executed against a corporate-bond ETF state until G-30 produces a route); V-002 
 never-to-execute; V-001, V-004–V-007 withdrawn. 20 rejections (R-001 … R-020), 12 parkings (P-001 …
 P-012; P-013 reserved), 62 baseline rows. Gaps G-01 … G-30; open G-01, G-04, G-21, G-28, G-30;
 G-27 closed at filer level in Cycle 40 and G-29 closed as a bounded negative in Cycle 40. Next free
-identifiers: **IDEA-017, S-245, V-012, G-31, R-021, P-014**. This cycle is **Cycle 41**.
+identifiers: **IDEA-017, S-246, V-012, G-32, R-022, P-014**. This cycle is **Cycle 42**.
 
 **What Cycle 40 established, so you do not repeat it.** G-29 is **closed** on the statutory-filing
 route: the register's trade-press lead was verified from the primary document (S-239 — the iShares
