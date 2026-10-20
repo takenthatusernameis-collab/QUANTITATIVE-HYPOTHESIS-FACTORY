@@ -1229,3 +1229,29 @@ Theory-only cycle executing the Cycle-69 handoff priorities. No tests, no data a
 6. **Cycle-66 verification debts** — S-311 verification upgraded to Crossref-deposited abstract. S-310, S-317, S-318 remain blocked at SSRN HTTP 403; labels kept honest as index-rendered. S-313 corrected in Cycle 66; no further action.
 
 7. **Wrap up.** Counts re-derived from the files: **46 rejections (R-001 … R-046)**, 12 parking records of which 11 remain active, **76 known-baseline rows**, **314 verified sources (S-001 … S-209 and S-220 … S-324)** with S-210 … S-219 reserved and unused, five active dossiers, five parked, five rejected. Next free identifiers: **IDEA-017, S-325, V-012, G-34, R-047, P-014**.
+
+## Cycle 71 — 2026-10-20
+
+Theory-only cycle executing the five priorities from the Cycle-70 handoff. No tests, data acquisition, strategy code, workflow changes, or modifications to the canonical prompt.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) maintain frozen/exhausted/dated items (G-28 frozen; G-21 handed to validation; G-30 exhausted; IDEA-014 inconclusive; G-32 limb (c), G-33 re-check 2027 Q3). (2) Continue evidence-currency sweep — prior-art re-read of IDEA-011 (rank 1, 69.0, last re-read Cycle 52) against literature not yet seen; look for published work that conditions the candidate's effect on a second variable, tests its sign claim, or changes the baseline. (3) Close Cycle-66 verification debts where direct route exists. (4) No new state kind proposed — skip screen. (5) Wrap up.
+
+**Pass 2 — Critique.** Bounded sweep only; do not manufacture citations. Where a publisher blocks a fetch, record verification method honestly. No score change absent a genuine, verified finding.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained.** G-28 (IDEA-004) remains frozen structural; G-21 (IDEA-011) stays handed off to validation (contribution, not replication; transition-window pre-registered); G-30 (IDEA-010) remains exhausted, confirm-only; IDEA-014 state-free existence limb remains inconclusive, no new source, no gap; G-32 limb (c) and G-33 re-check remain dated 2027 Q3, not re-run.
+
+2. **Evidence-currency sweep — IDEA-011.** Bounded search of 2025–2026 literature on IFRS adoption and post-earnings-announcement drift returned no new published work that conditions IDEA-011's effect on a second variable, tests its sign claim, or changes its baseline beyond sources already in the ledger (S-252 … S-266, S-281 … S-286, S-310 … S-322). No new S- identifier consumed; no score change (69.0, rank 1); no gap opened. The null/transition-window pre-registration stands.
+
+3. **Cycle-66 verification debts.** S-310/S-317/S-318 remain index-rendered behind SSRN HTTP 403 (labels kept honest); S-312 journal DOI unconfirmed; S-322 abstract not retrieved. No direct route available this cycle; labels unchanged.
+
+4. **No new state kind proposed.** Screen slot skipped; no screen run.
+
+5. **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 53.0 (rank 4), IDEA-014 52.0 (rank 5). Next free identifiers unchanged: IDEA-017, S-325, V-012, G-34, R-047, P-014.
+
+6. **Wrap up.** Handoff rewritten; fresh verbatim initial task message for Cycle 72 written. Counts re-derived: 15 dossiers, 314 verified sources, 10 validation specs, 46 rejections, 12 parking records (11 active), 76-row known-baseline table, open gaps G-21/G-28/G-30, dated G-32 limb (c)/G-33 re-check (2027 Q3).
