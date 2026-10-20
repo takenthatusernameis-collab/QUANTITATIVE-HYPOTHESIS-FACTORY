@@ -6,7 +6,7 @@ must not be presented as one. Items are re-openable only with a **new mechanism*
 wording or a new parameter.
 
 Last updated: Cycle 59 complete, 2026-10-20. **40 rejections (R-001 … R-040), 12 parking records of
-which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 69-row known-baseline table.**
+which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 70-row known-baseline table.**
 Cycle 59 added **R-039** (the **published-price-of-a-constraint** family — repo specialness, securities-
 lending fee curves, CDS financing spreads, standing-repo award rates — bounded negative, the register's
 **first screen of a *published-price-of-a-constraint* family** and the first screen run in the explicit
@@ -1938,3 +1938,15 @@ advice):
 **Dated re-screen condition:** Re-screen only if a continuously published, decision-time fee/toll schedule shows a threshold that varies by published state (not fixed schedule alone) with documented cadence/coverage, and the literature shows an unclaimed sign-determining effect it conditions.
 
 **Decision:** **bounded negative (R-040).** The published-fee-or-toll family is recorded in the known-baseline table (**row 69**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**, because reasons are independent of data availability in the sense that no unclaimed sign-determining instance was found and the form fails G-12.
+
+---
+
+## R-041 — Published count or queue state at decision date (template D) — bounded negative
+
+**Family screened.** Published count or queue state at decision date: backlog, pending-registration, outstanding-notional/capacity, outstanding orders/pipeline. First in-depth screen of template (D).
+
+**Screened state-first against the register's literature base.** Published counts/queues (exchange order-book depth, regulator pending-registration counts, outstanding-notional/capacity, pipeline/backlog) exist in many markets, but the published count at a decision date is a baseline *level* already embedded in published baselines; to change sign/existence (G-12) rather than just size, an unclaimed sign-determining instance would need a published threshold that flips whether the action is worthwhile, with the count published *before* the decision and not already claimed. Strict bar not met for a general family: (i) published counts are baseline levels, widely known and already embedded in price formation; (ii) the count alone does not constitute an unclaimed sign-determiner (fails G-12); (iii) decision-time *variation* that would flip existence is not clearly published as a continuous, decision-time state at the granularity needed (G-13 trap risk, cf. EU ETS TNAC-style late/publication); (iv) any claimed threshold is anticipated or already treated as a friction/baseline; (v) strict bar not satisfied (no unclaimed sign-determining state meeting Cycle-52 third test for a general family).
+
+**Dated re-screen condition:** Re-screen only if a continuously published, decision-time count/queue state shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions.
+
+**Decision:** **bounded negative (R-041).** The published-count/queue-state family is recorded in the known-baseline table (**row 70**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**.

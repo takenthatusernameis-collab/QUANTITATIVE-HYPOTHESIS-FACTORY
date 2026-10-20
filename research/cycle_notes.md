@@ -1056,3 +1056,19 @@ Theory-only cycle executing the six priorities from the Cycle-59 handoff. No tes
 7. **Wrap up.** All artifacts updated in this pass: cycle log extended with Cycle 60, rejected_and_parked.md updated with R-040 and row 69 added to known-baseline table, next free identifiers updated (R-041), cycle_notes count logic reflected. Re-derived counts from files as per rules.
 
 **No candidate created; no score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifiers consumed: **R-040**. Next free identifiers: **IDEA-017, S-310, V-012, G-34, R-041, P-014**. The reserved-and-unused identifiers IDEA-016, S-210 … S-219, V-011, G-26 and P-013 remain unused.
+
+---
+
+## Cycle 61 — 2026-10-20
+
+Theory-only cycle executing the Cycle-60 handoff priorities. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+
+1. **G-28 (IDEA-004)** — confirm-only; structural null, search exhausted. V-002 frozen. No re-run.
+2. **G-21 (IDEA-011)** — hand off to validation; no re-search. V-009 not amended.
+3. **G-30 (IDEA-010)** — confirmed exhausted; V-010 non-executable.
+4. **IDEA-014** — no effort without new source; inconclusive, no gap.
+5. **G-32 limb (c), G-33 re-check** — dated 2027 Q3; future obligations only.
+6. **New state-kind screen — Template (D): published count or queue state at decision date.** Bounded negative (R-041); added to known-baseline table (row 70). No candidate created, no score changed, no gap opened.
+7. **Wrap up.** Counts re-derived: 41 rejections (R-001…R-041), 70 known-baseline rows. Next free identifiers: IDEA-017, S-310, V-012, G-34, R-042, P-014.
