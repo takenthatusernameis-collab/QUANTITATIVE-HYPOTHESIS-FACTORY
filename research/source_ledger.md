@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–42
+# SOURCE LEDGER — CYCLES 1–43
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -5677,34 +5677,12 @@ No published convergence-crowd concentration measure located; null recorded.
 
 ### The Cycle-42 benchmark-methodology-change family screen — logged as **R-022**.
 The screen, its instances and its four reasons are recorded in `rejected_and_parked.md` under **R-022**. The S&P DJI methodology changes (S-246) and FTSE Russell index notices provide the instances.
-### The Cycle-43 margin-schedule-switch family screen — logged as **R-023**
-The screen, its instances and its four reasons are recorded in `rejected_and_parked.md` under **R-023**. CME margin changes (SPAN 2 parameter changes, precious metals margin setting changes) provide the instances.
 
 
 ### Cycle-42 ranking and identifier record.
 - **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
 - **New identifiers consumed in Cycle 42:** source **S-246** (S&P DJI methodology; FTSE Russell index notices); rejection **R-022** (the benchmark-methodology-change family screen). No `IDEA-` identifier, no `V-` identifier and no `G-` identifier were consumed.
 - **Next free identifiers:** **IDEA-017, S-247, V-012, G-32, R-023, P-014**. The reserved-and-unused identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
-
-### Cycle-43 gap verdicts (2026-10-20)
-
-### G-30 — **all routes exhausted with NOT FOUND** (IDEA-010)
-**Verdict.** All plausible routes outside the statutory prospectus checked and exhausted: regulatory (17 CFR 270.6c-11, no public disclosure), sponsor-published lists for major US corporate-bond ETF issuers (none name APs), non-US issuers (no US-listed corporate-bond ETF with published AP set), exchange listing rules (no requirement to publish AP identities publicly). Rule 6c-11(d)(2)(iv) requires recordkeeping only. No published primary-source route to a corporate-bond ETF's AP set exists outside the statutory prospectus. V-010 remains non-executable against the corporate-bond ETF universe.
-
-### G-28 (IDEA-004) — remains frozen; V-002 frozen
-No published convergence-crowd concentration measure located.
-
-### G-21 (IDEA-011) and IDEA-014's state-free limb — unchanged
-Null and inconclusive verdicts maintained.
-
-### The Cycle-43 margin-schedule-switch family screen — logged as **R-023**
-The screen, its instances and its four reasons are recorded in `rejected_and_parked.md` under **R-023**.
-
-### Cycle-43 ranking and identifier record
-- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
-- **New identifiers consumed in Cycle 43:** rejection **R-023** (the margin-schedule-switch family screen). No `IDEA-`, `S-`, `V-`, or `G-` identifiers were consumed.
-- **Next free identifiers:** **IDEA-017, S-247, V-012, G-32, R-024, P-014**. The reserved-and-unused identifiers remain as before.
-
 
 ### Cycle-43 gap verdicts (2026-10-20)
 
