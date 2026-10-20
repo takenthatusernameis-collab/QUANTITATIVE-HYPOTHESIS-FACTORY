@@ -951,3 +951,10 @@ priority, not a success probability.
   identifier added this cycle was re-derived from the Federal Register API, the eCFR renderer, the
   issuing institution's own page, or Crossref before use; the phantom-citation and
   fabricated-bibliography findings from earlier cycles remain standing warnings.
+
+### Cycle 8 — bounded-negative closures and handoff update (2026-10-20)
+
+- **Primary (a): G-04 closed as bounded negative (literature side).** Bounded search found no freely available, decision-time public crowd-depth proxy for U.S. equities. 13F-based measures are 45-day lagged/stale for the required timing in practical terms and proxy validity is unprovable with public data; borrow depth/exit capacity remain broker-gated. Publication cadence is feasible on a quarterly-anchored rule but validity is the binding unclosable gap; IDEA-004 remains rank 2 constrained by this gap. Recorded in `research/source_ledger.md`.
+- **Secondary (b): Five frontier families screened (one round each).** Families 2–5 identified as published baselines (sovereign issuance calendars, fast-payment rails, sovereign bond index inclusion, physical-delivery calendars) with sources recorded. Family 1 (rule 10b5-1 cooling-off / statutory date-bound obligations) did not yield an unclaimed mechanism matching the template beyond what led to IDEA-014; existing findings logged. No new dossier written.
+- **Tertiary (c): T5–T8 revisited.** T5 (closing-auction volume/attribution) remains partial; T6 (dealer FVA proxy) remains open (IDEA-002 parked); T7 literature leg for single-name 0DTE remains open; T8 (benchmark-specific passive-asset series) remains open. No closures.
+- **Handoff rewritten.** `research/next_agent_handoff.md` updated for Cycle 9 with corrected gap status (G-04 and G-16 closed as bounded negatives). Prior superseded handoff content summarized here.
