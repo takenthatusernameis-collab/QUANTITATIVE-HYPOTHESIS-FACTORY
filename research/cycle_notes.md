@@ -1,6 +1,31 @@
 # CYCLE NOTES
 
-## Cycle 36 — 2026-10-20
+## Cycle 86 — 2026-10-20
+Theory-only cycle executing the five priorities from the Cycle-85 handoff. No tests, data acquisition, strategy or signal implementation, workflow changes, modification of the canonical prompt, or trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) maintain frozen/exhausted/dated items as they stand; (2) close or maintain G-36 via the only open route (a contemporaneous record from outside this repository and outside the local session archive naming the dimension the Cycle-16 re-score moved); (3) one bounded, pre-registered screen for a genuinely new mechanism family, skipping the slot if none surfaces; (4) lossless housekeeping with a re-run of the rubric-arithmetic check; (5) wrap up with a rewritten handoff and a fresh initial task message.
+
+**Pass 2 — Critique.** The G-36 route is external by definition: the three in-environment routes (full git history, local session archive of twelve sessions earliest Cycle 78, per-candidate rubric bullets) are already exhausted and documented, so no further in-repository search is meaningful and the closure must be recorded as an honest negative rather than as another search. For the screen slot, the register's pre-registered rule is that a padded screen is worse than none; with the mechanism-first families R-039…R-048 and the state-first templates A–I already run, no genuinely new family surfaced in this cycle, so the slot is skipped rather than padded. Housekeeping is limited to re-verifying arithmetic (already clean from Cycle 85) and confirming counts; no record moves.
+
+**Pass 3 — Revise.** Record findings precisely as above; close G-36 as an honest negative; skip the screen slot; report the rubric-arithmetic check clean; rewrite the handoff for Cycle 87.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained as they stand.** G-28 (frozen structural null), G-21 (handed to validation; no re-search; V-009 not amended), G-30 (exhausted; not re-probed), G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014 all unchanged. No re-read triggered on a fixed clock.
+
+2. **G-36 — closed as an honest negative.** The only genuinely open route was a contemporaneous record from outside this repository and outside the local session archive naming the dimension the Cycle-16 re-score moved. No such record was located in this cycle; the three in-environment routes remain exhausted and documented (full git history carries the Cycle-16 rationale and total but never the dimension name; the local session archive holds only twelve sessions, the earliest being Cycle 78's, so the Cycle-16 working session is not present; the per-candidate rubric bullets pre-date the re-score and were never updated for it). The reconstruction therefore stands as the register's best evidence: resilience 3 → 2, with the data cell in the shortlist table mis-edited at that commit. **No profile change, no total change, no rank change, no tie-break change, no flag change, no specification change.** G-36 does not block V-009, does not re-open G-21, and changes no ranking. G-36 closes as a negative in the same form as the other honest negatives: route stated, failure stated, reconstruction stands.
+
+3. **New mechanism family screen slot — skipped, not padded.** No genuinely new mechanism family surfaced that is not already in the known-baseline table (R-039…R-048 and the state-first templates A–I are exhausted, and the mechanism-first families through R-048 are recorded). Per the register's pre-registered rule, the slot is skipped rather than padded. No `R-` identifier consumed, no candidate, no dossier, no score change.
+
+4. **Housekeeping (lossless).** Re-ran the rubric-arithmetic check across all four active candidates and the parked IDEA-010: IDEA-011 4/3/3/4/2/5 = 69.0 (rank 1); IDEA-004 63.0 (rank 2); IDEA-009 53.0 (rank 3); IDEA-014 52.0 (rank 4); IDEA-010 terminal 55.0 (parked, P-014). All dimension statements satisfy the register's weighted-total rule (Σ cell × weight / 5, weights 25/20/15/15/15/10; per-point values 5.0/4.0/3.0/3.0/3.0/2.0). Result: clean. Shortlist rubric bullets, dossier change notes and version markers, verification labels and baseline row numbering left in step with the files; no record moved, relabelled, renumbered or re-scoped.
+
+5. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 86 banner, re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 87.
+
+**No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts: 15 dossiers (4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 48 rejections (R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-36 with open gaps **G-21, G-28 (frozen), G-30 (exhausted)**; G-34, G-35, **G-36** closed. New identifiers consumed: **none**. Next free identifiers: **IDEA-017, S-332, V-012, G-37, R-049, P-015**.
+---
+
 Theory-only cycle executing the five priorities from the handoff. No tests, data acquisition, strategy code, workflow changes, or modifications to the canonical prompt.
 
 ### Three-pass task-framing loop
@@ -2119,3 +2144,28 @@ message for Cycle 86. Record the cycle.
 (R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-36 with open G-21, G-28 (frozen), G-30
 (exhausted), **G-36 (new, non-blocking)**; G-34, G-35 closed. New identifiers consumed: **G-36** only. Next
 free identifiers: **IDEA-017, S-332, V-012, G-37, R-049, P-015**.
+
+## Cycle 86 — 2026-10-20
+Theory-only cycle executing the five priorities from the Cycle-85 handoff. No tests, data acquisition, strategy or signal implementation, workflow changes, modification of the canonical prompt, or trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) maintain frozen/exhausted/dated items as they stand; (2) close or maintain G-36 via the only open route (a contemporaneous record from outside this repository and outside the local session archive naming the dimension the Cycle-16 re-score moved); (3) one bounded, pre-registered screen for a genuinely new mechanism family, skipping the slot if none surfaces; (4) lossless housekeeping with a re-run of the rubric-arithmetic check; (5) wrap up with a rewritten handoff and a fresh initial task message.
+
+**Pass 2 — Critique.** The G-36 route is external by definition: the three in-environment routes (full git history, local session archive of twelve sessions earliest Cycle 78, per-candidate rubric bullets) are already exhausted and documented, so no further in-repository search is meaningful and the closure must be recorded as an honest negative rather than as another search. For the screen slot, the register's pre-registered rule is that a padded screen is worse than none; with the mechanism-first families R-039…R-048 and the state-first templates A–I already run, no genuinely new family surfaced in this cycle, so the slot is skipped rather than padded. Housekeeping is limited to re-verifying arithmetic (already clean from Cycle 85) and confirming counts; no record moves.
+
+**Pass 3 — Revise.** Record findings precisely as above; close G-36 as an honest negative; skip the screen slot; report the rubric-arithmetic check clean; rewrite the handoff for Cycle 87.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained as they stand.** G-28 (frozen structural null), G-21 (handed to validation; no re-search; V-009 not amended), G-30 (exhausted; not re-probed), G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014 all unchanged. No re-read triggered on a fixed clock.
+
+2. **G-36 — closed as an honest negative.** The only genuinely open route was a contemporaneous record from outside this repository and outside the local session archive naming the dimension the Cycle-16 re-score moved. No such record was located in this cycle; the three in-environment routes remain exhausted and documented (full git history carries the Cycle-16 rationale and total but never the dimension name; the local session archive holds only twelve sessions, the earliest being Cycle 78's, so the Cycle-16 working session is not present; the per-candidate rubric bullets pre-date the re-score and were never updated for it). The reconstruction therefore stands as the register's best evidence: resilience 3 → 2, with the data cell in the shortlist table mis-edited at that commit. **No profile change, no total change, no rank change, no tie-break change, no flag change, no specification change.** G-36 does not block V-009, does not re-open G-21, and changes no ranking. G-36 closes as a negative in the same form as the other honest negatives: route stated, failure stated, reconstruction stands.
+
+3. **New mechanism family screen slot — skipped, not padded.** No genuinely new mechanism family surfaced that is not already in the known-baseline table (R-039…R-048 and the state-first templates A–I are exhausted, and the mechanism-first families through R-048 are recorded). Per the register's pre-registered rule, the slot is skipped rather than padded. No `R-` identifier consumed, no candidate, no dossier, no score change.
+
+4. **Housekeeping (lossless).** Re-ran the rubric-arithmetic check across all four active candidates and the parked IDEA-010: IDEA-011 4/3/3/4/2/5 = 69.0 (rank 1); IDEA-004 63.0 (rank 2); IDEA-009 53.0 (rank 3); IDEA-014 52.0 (rank 4); IDEA-010 terminal 55.0 (parked, P-014). All dimension statements satisfy the register's weighted-total rule (Σ cell × weight / 5, weights 25/20/15/15/15/10; per-point values 5.0/4.0/3.0/3.0/3.0/2.0). Result: clean. Shortlist rubric bullets, dossier change notes and version markers, verification labels and baseline row numbering left in step with the files; no record moved, relabelled, renumbered or re-scoped.
+
+5. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 86 banner, re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 87.
+
+**No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts: 15 dossiers (4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 48 rejections (R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-36 with open gaps **G-21, G-28 (frozen), G-30 (exhausted)**; G-34, G-35, **G-36** closed. New identifiers consumed: **none**. Next free identifiers: **IDEA-017, S-332, V-012, G-37, R-049, P-015**.
