@@ -5,10 +5,18 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 5 complete, 2026-10-19. **10 rejections (R-001 … R-010), 8 parkings
-(P-001 … P-008), 28-row known-baseline table.** Cycle 5 added R-009 (IDEA-006), R-010 (IDEA-012)
+Last updated: Cycle 6 complete, 2026-10-20. **10 rejections (R-001 … R-010), 10 parkings
+(P-001 … P-010), 34-row known-baseline table.** Cycle 5 added R-009 (IDEA-006), R-010 (IDEA-012)
 and P-008 (IDEA-013), and added seven baseline rows, so that the settlement-window family, the
 margin-schedule family and the ETF-primary-market family are not re-presented as discoveries.
+**Cycle 6 added P-009 (IDEA-005, parked on G-12) and P-010 (IDEA-008, parked on G-13 with a
+dated 2029 unblocking condition), and added seven baseline rows** covering the four screened
+frontier families that are published (sovereign index inclusion, sovereign issuance calendars,
+fast-payment rails, physical-delivery calendars), the EU ETS instance of the compliance-deadline
+template, and the RIN price-formation literature — so that none of them is re-presented as a
+discovery. **No new rejection was needed in Cycle 6**: the two candidates that failed a screen
+were parked rather than rejected, because in both cases nothing published *shows* the candidate's
+effect (the rule that produces R-007, R-009 and R-010).
 
 ---
 
@@ -363,6 +371,74 @@ margin-schedule family and the ETF-primary-market family are not re-presented as
   candidate. The dossier remains in `idea_register.md` because the reasoning is worth preserving;
   the candidate is not in the active ranking and has no validation specification.
 
+### P-009 — IDEA-005 ROLLCOND: the scheduled commodity-index roll as a size-conditional liquidity demand — *parked in Cycle 6 on G-12, not rejected*
+- **Why parked rather than retained or rejected:** the candidate was **retained through five cycles**
+  on the strength of one idea — that the published aggregate null is a *composition effect*, and
+  that the concession survives only where the passive share of open interest is high and contract
+  depth is thin. The Cycle-6 G-12 screen was applied to it and the screen **failed**. The
+  candidate's own formulation is an *existence* claim, which is what G-12 asks for, but G-12 asks
+  what the candidate *demonstrates*, and the demonstration runs the other way on three independent
+  counts. (i) The **closest published test of the candidate's own state variable** — the CFTC
+  Index Traders' share of open interest, conditioned on *commodity returns during roll periods* —
+  reports **no significant effect** (S-099); the published work on the trader-type channel
+  conditions *rate of convergence* rather than the nearby-to-deferred spread concession (S-098).
+  (ii) The **aggregate effect the joint claim would rescue is documented as decayed**: the roll's
+  impact on the nearby-versus-deferred spread "disappears in the 2012–2019 subperiod" (S-033), with
+  index-trader positions not predicting near-contract excess returns (S-037) and commodity index
+  rolls found to have "little futures price impact" (S-036). (iii) G-06 closed as a **bounded
+  negative finding**: no located paper conditions the joint state on the concession, so the
+  differentiator is untested rather than supported.
+- **Why this is a parking and not a rejection:** the register's rule is to reject when a published
+  result **shows the candidate's effect** (R-007, R-009, R-010). S-099 shows a **null**; nothing
+  published claims what IDEA-005 claims. The joint state is untested, not refuted, and the
+  reconciling composition argument is a legitimate hypothesis. So the candidate is parked with its
+  reasoning intact, and its falsifiable question preserved.
+- **Unblocking questions (both required, and neither is a search):** (i) a published or constructible
+  test of the **joint** state — passive share **×** contract depth — against the nearby-to-deferred
+  spread concession; and (ii) evidence that the concession **survives 2012–present** in the thin,
+  high-passive-share contracts. Until both are met, IDEA-005 must not be presented as a candidate,
+  must not be given a validation specification (**V-004 is withdrawn**), and must not be
+  re-specified around a weaker proxy — the joint state already requires an input (contract depth)
+  that is real-time observable but is not a published downloadable series, which is why the data
+  dimension was cut from 5 to 4.
+- **Score and standing:** priority score **60/100** (down from 72) — evidence 3 → 2, novelty 3 → 2,
+  falsifiability 4 → 3, data 5 → 4; mechanism 4 and resilience 3 unchanged. Below every retained
+  candidate. The dossier remains in `idea_register.md`; the candidate is not in the active ranking.
+
+### P-010 — IDEA-008 SECURITY-LEND: borrow constraints, recall-driven forced covering — *parked in Cycle 6 on G-13, with a dated unblocking condition*
+- **Why parked rather than retained or rejected:** this is a **calendar** failure, not an evidence
+  failure, and the distinction matters. The candidate's mechanism is documented (borrow constraints
+  as limits to arbitrage, S-083; recall risk as a real cost of shorting, S-084) and its core
+  specification is not a re-description of published work, so it is not a rejection. But the state
+  the candidate names — **securities-lending fees and borrow availability** — is not published to
+  the public on any usable calendar. The Commission granted a temporary exemption "from compliance
+  with Rule 10c-1a **with respect to the reporting date until September 28, 2028, and with respect
+  to the dissemination date until March 29, 2029**" (S-126), so the earliest date on which a
+  borrow-cost state can be public is **29 March 2029**; the July 2025 order had set the
+  corresponding dates two years earlier, so the public-availability date has already been pushed
+  back once. The fallback state does not rescue the candidate: the short-interest file is **twice a
+  month**, must be reported "by 6 p.m. Eastern Time on the second business day after the reporting
+  settlement date", and is published on the later date in FINRA's own schedule — in the worked
+  examples on that page a 14 November settlement is published on 25 November, and a 2 December
+  settlement on 15 December (S-127) — so it is a *stale* state rather than a decision-time one, and
+  it measures positions rather than borrow cost. The event itself, the recall, is not published at
+  all and must be inferred.
+- **G-12 note:** the screen would have passed — the forced-covering spike exists only when the
+  borrow constraint binds, so the state conditions the *existence* of the effect rather than its
+  size. The failure is G-13 alone, and it is recorded as such so that a future session does not
+  re-litigate the mechanism.
+- **Unblocking question (dated):** **on or after 29 March 2029**, re-read the Rule 10c-1a
+  dissemination data — the RNSA's public reporting of Rule 10c-1a information, including loan-rate
+  terms — and test whether a public, dated, security-level borrow-cost series exists whose
+  *publication date precedes a decision date*. Only then re-open the candidate (new gap **G-14**).
+  The related aggregate short-position regime (Rule 13f-2 / Form SHO) has its own dated start —
+  "until January 2, 2028" (S-126) — but it measures **positions**, not borrow cost, and must not be
+  substituted for it: re-specifying around a different measure is exactly what the state-proxy note
+  forbids.
+- **Score and standing:** priority score **63/100** (down from 65) — data 3 → 2 only; mechanism 4,
+  evidence 3, novelty 3, falsifiability 3 and resilience 3 unchanged. **V-007 (IDEA-008) is
+  withdrawn.** The dossier remains in `idea_register.md`; the candidate is not in the active ranking.
+
 ---
 
 ## Known baselines (reference set, not candidates)
@@ -390,6 +466,12 @@ to baselines.
 | Funding-currency / global-liquidity channel and FX carry crashes | **Literature read in Cycle 2 and closed in Cycle 5** (S-052 … S-073, S-095 … S-097). The *aggregate* funding-constraint-state → carry-return relation is a published, peer-reviewed, positive baseline (S-055); the dollar-funding-liquidity → dollar-forecast relation is published in working-paper form (S-052) and peer-reviewed form (S-053); the crash mechanism, CIP deviations, hedging demand and the global-liquidity driver are documented in the central-bank and peer-reviewed literature (S-056 … S-060, S-069, S-072). **The aggregate versions were rejected as R-006, and the cross-sectional version was rejected as R-008 in Cycle 5.** The whole family — aggregate, cross-sectional, and the publication-timing variant — is now a baseline, not a candidate. |
 | Cross-currency basis as a priced cross-section of currency risk premia | **Published and positive** (S-064, a preprint; G10 currencies 1999–2025). "Currencies with higher dollar funding pressure (higher unconditional level of basis) earn higher expected excess returns"; a high-minus-low basis factor is reported to earn 4–4.5% annually and to subsume carry and other factors. Any FX candidate in this family must be a **new mechanism**, not a new state variable (R-008, G-12). |
 | Intermediary specialization, safe-asset scarcity and the cross-section of CIP bases | **Published, peer-reviewed** (S-095, *Journal of Finance* 2026; NBER WP 32707; FEDS 2024-061). Three forces are documented — foreign safe asset scarcity, market power and segmentation of banks by market, and concentration of demand — and their pass-through to prices is quantified (of the order of 7–18 basis points per standard deviation). The state is **confidential supervisory data**, so it is not reproducible from public sources; this is the strongest argument that the family needs a new mechanism rather than a new proxy. |
+| **Sovereign bond index inclusion and exclusion** | **Published, peer-reviewed — screened in Cycle 6 as frontier family 4.** Inclusion-driven flows into local-currency sovereign debt indices are a published causal object: sovereign yields fall and the domestic currency appreciates (S-137, *Journal of International Economics* 2021), and rebalancing flows move prices, deepen the market and appreciate the currency with placebo tests around the event (S-138, *Journal of Financial Economics* 2019). The institutional scale and the correlated-yield consequences are documented by the IMF (S-139). The equity-reconstitution analogue is IDEA-001's territory. **No candidate in this family is available without a new mechanism.** |
+| **Sovereign issuance calendars (US Treasury quarterly refunding)** | **Published — screened in Cycle 6 as frontier family 2.** The refunding announcement is an issuer-run, published, recurring event (S-143), and its price consequences are already the subject of published work: a paper decomposing "debt supply shocks using Treasury auction announcements" (S-142) and a paper on "pre-refunding announcement gains" in Treasuries (S-144). The announcement is also a *news* event whose surprise component requires expectations that are not published, so the residual is not a state-conditioned concession at all. **No candidate in this family.** |
+| **Fast-payment rails and the liquidity-demand channel** | **Published mechanism, no candidate structure — screened in Cycle 6 as frontier family 3.** Instant payments raise banks' liquidity demand because they remove the ability to delay and net payment flows (S-140), and 24/7 settlement is modelled as inducing a precautionary demand for central bank balances with upward pressure on the overnight rate (S-141). The family's decision-time object is a rail's *adoption curve*, not a dated obligation: there is no date-bound, price-insensitive flow to capture, and the effect is a level shift in reserve demand that is repriced as it is learned. **No candidate in this family.** |
+| **Physical-delivery calendars and the inventory channel in commodity futures** | **Published mechanics — screened in Cycle 6 as frontier family 5.** The inventory-and-convenience-yield channel that makes a delivery calendar a price determinant is already in this ledger (S-038, S-039); the roll mechanics that generate the delivery-month pattern are peer reviewed (S-145, alongside S-032, S-033, S-034, S-036); and the *published* state the family would need — exchange warehouse stocks and delivery calendars — is the same published-inventory channel already in this table. **No candidate in this family.** |
+| **Statutory compliance-deadline concessions: the EU ETS instance** | **Published — the template's baseline, and the reason the US RFS instance is a separate candidate.** The EU ETS surrender-month premium is documented: April returns "averaging more than 10% in Aprils" (S-101). Any candidate in this family must be a **different market with a different regulator and a different obligor population**, and must state how its state decides the *sign* of the effect — the published EU ETS instance has no such state. That is exactly what IDEA-014 does in the US Renewable Fuel Standard. |
+| **RIN price formation and pass-through (US biofuel credits)** | **Published — the market object, not the candidate.** The RIN price and its pass-through into wholesale and retail fuels are studied in the peer-reviewed literature (S-134, S-135), and the market's quality, liquidity and transaction costs are documented (S-133). A candidate in this family must be about something the published price literature does not state — the *compliance-deadline* effect, and the state that decides its sign. |
 | Dealer balance-sheet constraints as a priced currency-funding spread | **Published, peer-reviewed** (S-096): dealers affected by the U.K. leverage-ratio framework charge about 20 basis points per annum more for synthetic dollar funding. Dealer-level and counterparty-identified, so the state is proprietary. |
 | Intermediary leverage as a stochastic discount factor for the cross-section of returns | **Published, peer-reviewed** (S-097). The canonical intermediary-state asset-pricing baseline (R² of 77% on size, book-to-market, momentum and bond portfolios). Any funding-state candidate in any asset class must be measured against it. |
 | Trader type and the rate of spot–futures convergence in commodity futures | **Published, peer-reviewed** (S-098): "There is strong evidence that speculators (commodity index traders) increase (reduce) the rate of convergence between spot and futures markets." This is a *component* of IDEA-005's differentiator, not the differentiator itself. |
@@ -406,10 +488,10 @@ to baselines.
 
 ## Rediscovery guard
 
-Before adding any candidate, check it against (a) the thirteen dossiers in `idea_register.md`,
-(b) the baseline table above, and (c) the nine validation hand-offs in `validation_handoffs.md`
-(two of which — V-005 and V-006 — are **withdrawn**, their candidates having been rejected in
-Cycle 5). If the candidate differs from a baseline only in parameterisation, in label, or in the
+Before adding any candidate, check it against (a) the fourteen dossiers in `idea_register.md`,
+(b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (four of
+which — V-004, V-005, V-006 and V-007 — are **withdrawn**, their candidates having been rejected
+or parked). If the candidate differs from a baseline only in parameterisation, in label, or in the
 time frame, it is a variant and belongs in this log with the baseline named, not in the register. A
 candidate that differs from a baseline only in the *state variable* it is conditioned on must still
 show that the state variable is observable at decision time — and must show that the conditioning
@@ -431,3 +513,25 @@ advice):
    IDEA-012 set for themselves and the rule that closed both of them (R-009, R-010). A residual
    survives only if it is (a) genuinely untested, (b) testable with the data that exist, and
    (c) large enough to survive the cost structure of the venue in which it would be traded.
+
+**Cycle 6 — the two screens are now applied to every candidate, and a fourth condition was added.**
+
+4. **G-13 and G-12 are run as a screen on every active candidate before it is ranked**, and their
+   results are recorded per candidate in `idea_register.md` and summarised in the source ledger's
+   "Cycle-6 verdicts" block. In Cycle 6 the screen **parked two candidates** (IDEA-005 on G-12,
+   IDEA-008 on G-13) and re-scored one (IDEA-010, 68.0 → 65.0). A candidate that fails either
+   screen is re-scored or parked; it is not left in the active ranking with the failure noted.
+5. **New standing condition — a failed G-13 with a *dated* future publication calendar is a
+   parking with an unblocking date, not a rejection** (IDEA-008: the lending-rate state is not
+   publicly disseminated until 29 March 2029 — S-126 — so the candidate is parked as P-010 with the
+   unblocking condition recorded as gap G-14). The complementary case is recorded too: a G-12
+   failure where the *closest published test of the candidate's own state variable is null* is a
+   parking, not a rejection, because nothing published shows the candidate's effect (IDEA-005:
+   S-099). **A rejection still requires a published result that shows the effect** — that remains
+   the rule that produced R-007, R-009 and R-010.
+6. **New standing condition — a candidate that differs from a published baseline only by a state
+   variable, and whose differentiating state is *commercial*, is retained only with an explicit
+   validation precondition** (IDEA-010: the published substitutes for AP balance-sheet stress are
+   different constructs and have not been validated against a dealer-balance-sheet measure, gap
+   G-16). Re-specifying around an unvalidated proxy is not permitted, and no validation
+   specification may be written for such a candidate until the validation is done.

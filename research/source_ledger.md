@@ -27,6 +27,22 @@ usable as a *decision-time* variable, or only as an explanatory decomposition? (
 the EU ETS aggregate balance is published in late May/June of the following year — S-121 — and was
   therefore unavailable at the pre-2023 surrender deadline). The register now holds **S-001 … S-125**.
 
+Cycle 6 (2026-10-20) added "Cycle 6 additions" (**S-126 … S-145**) and the **"Cycle-6 verdicts"**
+block, which supersedes earlier text on the same questions for current-state purposes while leaving
+the cycle-by-cycle gap text in place. Cycle 6's decisive findings: (i) the two standing general
+questions, **G-13** (is the state published *before* the decision?) and **G-12** (can a published
+state change the *sign* or *existence* of an effect, or only its measurement quality?), were applied
+as **screening conditions to every active candidate**, and the screen produced **two parkings**
+(IDEA-005 as P-009, IDEA-008 as P-010) and **four re-scores**; (ii) the five frontier families
+named in the Cycle-5 handoff were screened, one search round each, and **every verdict is
+registered including the four negative ones** — families 2, 3, 4 and 5 are **published baselines**
+(S-137 … S-145), while family 1 produced **one new candidate, IDEA-014 (RIN-DEADLINE)**, whose
+state is published in advance by regulation (S-128, S-129, S-130, S-131); and (iii) three new gaps
+were opened: **G-14** (a public borrow-cost series — the dated unblocking condition for IDEA-008,
+not before 29 March 2029, per S-126), **G-15** (the RIN compliance-deadline price pattern, the
+first empirical test for IDEA-014) and **G-16** (a validated public proxy for dealer balance-sheet
+stress, the precondition for IDEA-010). The register now holds **S-001 … S-145**.
+
 Status vocabulary used in dossiers:
 - **Primary theory** — model or formal argument supporting the mechanism.
 - **Prior empirical result (author-reported)** — the authors' own reported evidence. Not reproduced here.
@@ -2760,5 +2776,567 @@ could not close G-03. Verdicts are recorded here so the negative results survive
   date* of that state relative to the *decision date*; a state published after the decision can
   support an explanatory decomposition but never a decision-time rule. This is now a screening
   condition in the candidate template and in the state-proxy note.
+
+---
+
+## Cycle 6 additions (S-126 … S-145)
+
+Added 2026-10-20 in the Cycle-6 **G-13 / G-12 screening pass** and the **frontier-family screen**.
+Same verification standard as every other entry: metadata was checked against the publisher's own
+record, the Federal Register API, the eCFR renderer, the issuing institution's page, or Crossref
+before use, and the "Verification" line records *how the entry was confirmed*, not whether the cited
+result is correct. **Negative verdicts are registered with the same care as positive ones** — the
+five frontier families screened in Cycle 6 produced one new candidate and four *baseline* rows,
+and each negative verdict is recorded here with the sources that establish it.
+
+Two entries are **primary regulatory texts read directly** (S-128, S-129); three are **Federal
+Register documents** read through the FR API and, where a quote was needed, through the document's
+own raw text (S-126, S-130, S-131); three are **venue/regulator/institution documentation** (S-127,
+S-136, S-143); three are **institutional or industry reports** and are labelled as such (S-132,
+S-133, S-140); the rest are peer-reviewed articles, working papers or preprints, each labelled.
+
+### S-126 — U.S. Securities and Exchange Commission (2025) — the Rule 10c-1a and Rule 13f-2 exemptive orders
+Release No. 34-104303, "Order Granting Temporary Exemptive Relief, Pursuant to Sections 13(f)(3) and
+36(a)(1) of the Securities Exchange Act of 1934 From Compliance With Rule 13f-2 and Form SHO, and
+Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934 From Certain Aspects of Rule
+10c-1a", adopted 3 December 2025, published at **90 FR 56813** (8 December 2025), FR Doc
+2025-22158.
+https://www.federalregister.gov/documents/2025/12/08/2025-22158/order-granting-temporary-exemptive-relief-pursuant-to-sections-13f3-and-36a1-of-the-securities
+Predecessor order: Release No. 34-103560, "Order Granting Temporary Exemptive Relief, Pursuant to
+Section 36(a)(1) of the Securities Exchange Act of 1934, From Certain Aspects of Rule 10c-1a",
+**90 FR 36087** (31 July 2025), FR Doc 2025-14459.
+- **Type:** Regulator order (**institutional**; not peer reviewed).
+- **Supports:** the **decisive dated fact for IDEA-008's parking condition (P-010)** and the
+  verification of the Cycle-6 G-13 verdict on the securities-lending state. Verbatim from the
+  December 2025 order: "the Commission is providing a temporary exemption, pursuant to Sections
+  13(f)(3) and 36(a)(1) of the Exchange Act, from compliance with Rule 13f-2 and Form SHO reporting
+  **until January 2, 2028**. Additionally, the Commission is providing a temporary exemption, pursuant
+  to Section 36(a)(1) of the Exchange Act, from compliance with Rule 10c-1a **with respect to the
+  reporting date until September 28, 2028, and with respect to the dissemination date until March 29,
+  2029**." The July 2025 order had set the corresponding dates at "the reporting date until September
+  28, 2026, and the requirement in Rules 10c-1a(g) and (h)(3) for the RNSA to publicly report
+  Rule 10c-1a information ('dissemination date'), until March 29, 2027" — i.e. **the December 2025
+  order extended the public-availability date of the securities-lending rate data by two years.**
+  The order also records what the rules require: Rule 10c-1a "requires, among other things, that any
+  covered person who agrees to a covered securities loan on behalf of itself or another person must
+  report, within certain time periods, certain information to a registered national securities
+  association ('RNSA')", and that in respect of Form SHO "The Commission will publish, on an
+  aggregated basis, certain information regarding each equity security reported by institutional
+  investment managers on Form SHO and filed with the Commission via the EDGAR system."
+- **Caveats:** the order is a *temporary* exemption, so both dates can move again; it is not a
+  commitment that the data will exist on those dates, only that the compliance obligation is
+  suspended until then. It says nothing about *granularity*, *coverage* or *latency* of the eventual
+  securities-lending rate data. It is used only for **publication timing**, never as evidence about
+  prices.
+- **Verification:** both documents were located through the Federal Register API (document numbers
+  2025-22158 and 2025-14459, titles, citations 90 FR 56813 and 90 FR 36087, publication dates,
+  agency, type "Notice"), and the December 2025 document's **raw text** was fetched and read; every
+  quoted sentence above is verbatim from that raw text, including the January 2, 2028 / September 28,
+  2028 / March 29, 2029 dates and the July 2025 predecessor dates.
+
+### S-127 — Financial Industry Regulatory Authority (FINRA) — the short-interest reporting and publication schedule
+"Short Interest Reporting", FINRA Regulatory Filing Systems.
+https://www.finra.org/filing-reporting/regulatory-filing-systems/short-interest
+- **Type:** **Venue/regulator documentation** (self-regulatory organisation; not peer reviewed).
+- **Supports:** the **publication-timing limb of the G-13 verdict on IDEA-008's fallback state**.
+  Verbatim: "FINRA requires firms to report short interest positions in all customer and proprietary
+  accounts in all equity securities **twice a month**. All short interest positions must be reported
+  by 6 p.m. Eastern Time on the **second business day after the reporting settlement date**
+  designated by FINRA." The same page publishes a dated schedule with three columns — *Settlement
+  Date*, *Due Date* and *Publication Date* — for 2025 and 2026 (worked example from the page:
+  settlement 14 November, report due 18 November, **published 25 November**; settlement 2 December,
+  due 9 December, **published 15 December**; settlement 27 January 2026, due 30 January,
+  **published 30 January**).
+- **Caveats:** the *rule* is that firms must **report** by the second business day after the
+  settlement date; the *publication* lag is visible only in FINRA's own schedule table, which is
+  therefore the citable fact — the ~7–8 business-day figure is an inference from that schedule, not
+  a stated rule. The page also documents a 24-month window of daily volume and open-interest data
+  for the *aggregate* short-interest series, which is a different object from the settlement-date
+  short-interest file.
+- **Verification:** the page was fetched directly and read in this cycle; the quoted sentences and
+  the schedule columns were returned in the fetched text, including the 2025 and 2026 settlement /
+  due / publication date tables.
+
+### S-128 — 40 CFR 80.1405 — "What are the Renewable Fuel Standards?" (the codified annual volume standards)
+Electronic Code of Federal Regulations, Title 40, Part 80, Subpart M, § 80.1405.
+https://www.law.cornell.edu/cfr/text/40/80.1405 (text read from the Cornell LII rendering of the
+eCFR)
+- **Type:** **Primary regulatory text** (read directly).
+- **Supports:** the **decision-time publication of the RFS obligation's size** — the load-bearing
+  G-13 fact for the new candidate IDEA-014. The section carries a codified table of the annual
+  percentage standards for every compliance year, including the two future years: 2026 — cellulosic
+  biofuel 0.79%, biomass-based diesel 5.24%, advanced biofuel 6.42%, **total renewable fuel 15.50%**;
+  2027 — 0.84%, 5.37%, 6.61%, **15.78%**. The amendatory history records the most recent
+  amendment as "**91 FR 16487, Apr. 1, 2026**", i.e. the 2026 and 2027 standards are **already
+  codified**, not merely proposed. Paragraph (c) states that "For the 2026 and 2027 compliance years,
+  EPA will calculate the annual renewable fuel percentage standards" on a separately defined basis.
+- **Caveats:** the table gives **percentage standards**; the corresponding *volume* requirements
+  (which are what an obligated party must satisfy) depend on EPA's projection of gasoline and diesel
+  volumes and on the small-refinery-exemption reallocations, and are set in the annual rule (S-130),
+  not in this section. No price, volume or performance statistic is drawn from this entry; it is used
+  only for **what is published, and when**.
+- **Verification:** the section was fetched and read in this cycle; the 2010–2027 standards table, the
+  paragraph (c) text and the full amendatory history (down to "[91 FR 16487, Apr. 1, 2026]") were
+  returned in the fetched text.
+
+### S-129 — 40 CFR 80.1451 — "What are the reporting requirements under the RFS program?" (the compliance deadlines)
+Electronic Code of Federal Regulations, Title 40, Part 80, Subpart M, § 80.1451.
+https://www.ecfr.gov/current/title-40/part-80/section-80.1451 (text read from the eCFR renderer
+API, `content/enhanced/current/title-40?chapter=I&subchapter=C&part=80&subpart=M&section=80.1451`)
+- **Type:** **Primary regulatory text** (read directly).
+- **Supports:** **the dated obligation and its publication calendar** for IDEA-014 — the decisive
+  G-13 fact. Verbatim from paragraph (f): "(f)(1) Annual compliance reports — (i) Obligated parties.
+  (A) Except as specified in paragraphs (f)(1)(i)(B) and (C) of this section, obligated parties must
+  submit annual compliance reports by whichever of the following dates is latest: (1) **March 31 of
+  the subsequent calendar year**. (2) The next quarterly reporting deadline under paragraph (f)(2)
+  of this section after the date the subsequent compliance year's renewable fuel standards become
+  effective in § 80.1405(a). (3) The next quarterly reporting deadline under paragraph (f)(2) of this
+  section after the date the annual compliance reporting deadline for the prior compliance year."
+  And: "(f)(1)(iii) **Deadline publication.** The annual compliance reporting deadline will be
+  calculated in accordance with paragraph (f)(1)(i) of this section and **published on EPA's
+  website**." The quarterly table is also codified: Quarter 1 (January 1–March 31) → June 1;
+  Quarter 2 (April 1–June 30) → September 1; Quarter 3 (July 1–September 30) → December 1;
+  Quarter 4 (October 1–December 31) → March 31. Paragraph (f)(4) sets a **monthly** reporting
+  schedule for certain parties.
+- **Caveats:** this is a *reporting* requirement, and the RIN-retirement obligation is enforced
+  through the reports and through the general compliance provisions; the "latest of" construction
+  means the operative deadline for a given compliance year is a *function of when the next year's
+  standards become effective*, so it is **not** a fixed calendar date and must be re-derived from
+  the current text at each cycle. Quarterly reporting deadlines are **information deadlines, not
+  purchase obligations** — a distinction that matters for any candidate built on them.
+- **Verification:** the section was fetched directly through the eCFR renderer API and read; the
+  quoted paragraph (f)(1)(i)(A), (f)(1)(iii) and (f)(2) text, and the quarterly deadline table, were
+  returned verbatim in the fetched text.
+
+### S-130 — U.S. Environmental Protection Agency (2026) — the Set 2 rule for the 2026 and 2027 standards
+"Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025
+Cellulosic Biofuel Volume Requirement, and Other Changes", **final rule**, published at **91 FR
+16388** (1 April 2026), FR Doc 2026-06275.
+https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-rfs-program-standards-for-2026-and-2027-partial-waiver-of-2025-cellulosic
+- **Type:** Regulator rule (**primary legal instrument**; not peer reviewed).
+- **Supports:** the **publication, in advance, of the obligation's size** — the G-13 fact for
+  IDEA-014. Verbatim from the abstract: "Under the Clean Air Act (CAA), the U.S. Environmental
+  Protection Agency (EPA) is required to determine the applicable volume requirements for the
+  Renewable Fuel Standard (RFS) for years after those specified in the statute. The EPA is
+  establishing the applicable volumes and percentage standards for 2026 and 2027 for cellulosic
+  biofuel, biomass-based diesel (BBD), advanced biofuel, and total renewable fuel. The EPA is also
+  partially waiving the 2025 cellulosic biofuel volume requirement and revising the associated
+  percentage standard due to a shortfall in cellulosic biofuel production."
+- **Caveats:** a *rule*, not a price study; it is used for what it publishes and when. The
+  small-refinery-exemption provisions it interacts with are **revised repeatedly** — see S-131 and
+  the October 2026 proposed reallocation, which is a live source of obligation-size uncertainty.
+- **Verification:** located through the Federal Register API (document number 2026-06275, type "Rule",
+  citation 91 FR 16388, publication date 1 April 2026, agency, full title and abstract), and
+  cross-checked against the amendatory history of 40 CFR 80.1405 (S-128), which records the
+  corresponding amendment at "91 FR 16487, Apr. 1, 2026" — i.e. the two independent records agree
+  on date and document.
+
+### S-131 — U.S. Environmental Protection Agency (2026) — the extension of the 2025 RFS compliance reporting deadline
+"Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline", **final
+rule**, published at **91 FR 56780** (4 September 2026), FR Doc 2026-18132.
+https://www.federalregister.gov/documents/2026/09/04/2026-18132/renewable-fuel-standard-rfs-program-extension-of-2025-compliance-reporting-deadline
+- **Type:** Regulator rule (**primary legal instrument**; not peer reviewed).
+- **Supports:** **three things at once** for IDEA-014 — (i) that the operative deadline moves and
+  moves *in advance*, (ii) EPA's own published view that the RIN market reacts to compliance news,
+  and (iii) the next dated obligation. Verbatim from the abstract: "The U.S. Environmental Protection
+  Agency (EPA) is extending the Renewable Fuel Standard (RFS) compliance reporting deadline for the
+  2025 compliance year **from September 1, 2026, to October 1, 2026**." Verbatim from the rule: "For
+  the 2025 compliance year, this deadline was originally established as September 1, 2026, which is
+  the next quarterly reporting deadline after the 2026 RFS standards became effective. … In this
+  final rule, we are extending the 2025 RFS compliance reporting deadline to October 1, 2026, for the
+  reasons discussed herein." And: "Absent this EPA action to extend the 2025 RFS compliance
+  reporting deadline, all obligated parties — including small refineries — would be required to
+  comply with their 2025 RVOs by September 1, 2026. The EPA finds that there is **insufficient time
+  for small refineries, and other obligated parties, to adjust their compliance strategies, and for
+  the RIN market to react to these SRE decisions**, prior to the otherwise imminent 2025 RFS
+  compliance reporting deadline of September 1, 2026." The rule also states: "this extension will not
+  affect the 2025 attestation engagement deadline (June 1, 2027) or the **2026 compliance reporting
+  deadline (March 31, 2027)**."
+- **Caveats:** a *rule*, not a price study. Its central use is as a **dated, published institutional
+  record**; the "RIN market to react" sentence is EPA characterising a market it regulates and is
+  evidence of the *institutional recognition* of a reaction, not of its sign or magnitude. The
+  September 1, 2026 date was itself set by the "latest of" construction in S-129, so the deadline
+  calendar is a *derived* quantity that a rule-maker can and does move.
+- **Verification:** located through the Federal Register API (document number 2026-18132, type "Rule",
+  citation 91 FR 56780, publication date 4 September 2026, title, abstract) **and** the document's
+  **raw text** was fetched and read; every quoted sentence is verbatim from that raw text, including
+  the two deadline dates, the "insufficient time … for the RIN market to react" passage and the
+  March 31, 2027 next-deadline sentence.
+
+### S-132 — U.S. Environmental Protection Agency — "RIN Trades and Price Information" (the published RIN price series)
+https://www.epa.gov/fuels-registration-reporting-and-compliance-help/rin-trades-and-price-information
+- **Type:** **Regulator data publication** (institutional; not peer reviewed).
+- **Supports:** the **existence and cadence of a public RIN price series** — the data-availability
+  limb for IDEA-014. Verbatim: "The RIN Price chart below shows historical, weekly,
+  **volume-weighted average RIN price data for separated RINs by transfer date**. The datasets are
+  from the standard trade transactions in the **EPA Moderated Transaction System** and specific to
+  RINs starting from year 2010." The page publishes the filters applied to the series (for example
+  "D3 RIN Price – Min. Price: $0.05 & Max. Price: $3.50", "Any RIN with transfer date after
+  December 31, 2019" excluded).
+- **Caveats:** this is a **lagged weekly volume-weighted average of cash transactions in EPA's own
+  moderation system**, not an exchange price and not an executable quote; the page's own filters
+  truncate the series (RINs with transfer dates after 31 December 2019 are excluded), so the series
+  is **not a continuous history** and its vintage coverage changes over time. It cannot be used as
+  a tradeable price; it can be used as the *publicly published* record of where RIN prices were.
+- **Verification:** the page was located through the search index and its text — the price-series
+  description, the transfer-date and EMTS wording and the filter list — was returned in the index
+  rendering in this cycle. The page's own text is the source of every quoted phrase.
+
+### S-133 — NERA Consulting (2018) — "Ethanol RIN Market Analysis and Potential Reforms"
+White paper, October 2018 (hosted copy).
+https://www.fuelingusjobs.com/library/public/Study/-2018-10-18-NERA-White-Paper-on-the-RIN-Market-Final.pdf
+- **Type:** **Industry / consultancy report** — *not* peer reviewed, and published by an interested
+  party (an ethanol-industry advocacy site hosts the copy). Registered as **market-quality
+  evidence**, the register's normal status for such a document, and used for **cost-floor and
+  liquidity constraints only**.
+- **Supports:** the **cost and liquidity objection to any RIN-based concession** — the central
+  obstacle recorded against IDEA-014. Verbatim: "NERA found that RINs are generally five to ten
+  times more volatile than similar energy commodities like oil, ethanol, and natural gas futures,
+  (2) are generally only about one tenth as liquid as comparable commodity futures, (3) have
+  estimated economic transaction costs that peak five times higher than oil, ethanol, and natural gas
+  futures, and (4) frequently transact at prices that defy rational pricing expectations." And:
+  "All three major price sources in the RIN market (EPA, Argus, and OPIS) show that RIN markets
+  violated a fundamental economic expectation on dozens of weeks by **pricing RINs closer to
+  expiration above RINs with longer useful lives**. This outcome is an inefficient result … akin to
+  choosing between otherwise identical flight vouchers at different expiration dates and paying more
+  for the voucher that expires sooner." The report also fixes the compliance calendar in a footnote:
+  "The compliance deadline for each compliance year is commonly the end of March of the subsequent
+  calendar year. For example, the RFS 2017 Annual Compliance Deadline was March 31, 2018."
+- **Caveats:** an advocacy-hosted white paper by a consultancy whose client had a position in the
+  debate; the market-quality findings are directionally corroborated by the peer-reviewed RIN price
+  literature (S-134, S-135) but the specific multiples are the consultancy's own estimates and are
+  **not** independently reproduced. It is used to set a **cost floor and a prior**, not as a result
+  about prices.
+- **Verification:** the PDF was located through the search index and its text was returned in the
+  index rendering in this cycle; the quoted passages on volatility, liquidity, transaction costs and
+  negative time value, and the footnote fixing the March compliance deadline, were read in that
+  text. The document itself was not downloaded and parsed as a binary file.
+
+### S-134 — Lade, G. E., Lin, C.-Y. C. and Smith, A. D. (2015) — "Ex Post Costs and Renewable Identification Number (RIN) Prices under the Renewable Fuel Standard"
+Resources for the Future Discussion Paper **15-22** (August 2015); SSRN 2622701 (20 September 2015).
+https://doi.org/10.2139/ssrn.2622701 ; https://media.rff.org/documents/RFF-DP-15-22.pdf
+- **Type:** Prior research (discussion paper; **not** peer reviewed at this version).
+- **Supports:** that the **RIN price is a studied object with its own literature**, i.e. the family
+  is not unexplored. The paper's subject is the interaction between RIN prices, the blending
+  mandate and the ex-post cost of the RFS, and it reports the market's response to the EPA's 2013
+  rulemaking: "August 2013 the EPA released its 2013 final rule … Immediately following the
+  announcement, prices began as dramatic a fall as their initial rise".
+- **Caveats:** a discussion paper; the object is the *price level and the ex-post cost of the
+  programme*, not the compliance-deadline pattern; it is used to establish that the price is studied
+  and that the 2013 rule announcement moved it, not to support any claim about a deadline effect.
+- **Verification:** the Crossref record was fetched directly (title, all three authors, SSRN
+  identifier, posting date, DOI, type "posted-content"); the RFF discussion-paper PDF was located
+  through the search index and its abstract text returned in the index rendering.
+
+### S-135 — Knittel, C. R., Meiselman, B. S. and Stock, J. H. (2017) — "The Pass-Through of RIN Prices to Wholesale and Retail Fuels under the Renewable Fuel Standard"
+*Journal of the Association of Environmental and Resource Economists* **5**(3): 653–674
+(December 2017); earlier version NBER Working Paper **21343** (July 2015).
+DOI https://doi.org/10.1086/692071 ; https://doi.org/10.3386/w21343
+- **Type:** Prior empirical result (author-reported); **peer-reviewed journal article**.
+- **Supports:** that the **RIN price transmits to refined-fuel prices**, i.e. the credit has an
+  economically measurable price that is studied in the peer-reviewed literature, and therefore that a
+  "RIN price concession" is not a hypothetical object.
+- **Caveats:** the object is *pass-through to fuel prices*, not the compliance-deadline pattern and
+  not the sign of the deadline effect. It establishes only that the RIN price is a real, studied,
+  economically meaningful price. Author-reported results; not reproduced here.
+- **Verification:** the Crossref records for both the journal article and the NBER working paper were
+  fetched directly (title, three authors, container, volume 5, issue 3, pages 653–674, print date
+  December 2017, DOI, ISSN; and the NBER report with its DOI).
+
+### S-136 — ICE Futures U.S. — "D6 RIN 2025 Vintage Futures" (product 83048048) — the RIN futures venue
+https://www.ice.com/products/83048048/D6-RIN-2025-Vintage-Futures
+- **Type:** **Venue documentation** (exchange product specification; not peer reviewed).
+- **Supports:** the **tradeability and settlement of the RIN claim** for IDEA-014. Verbatim:
+  "A monthly physically delivered D6 (Ethanol) Renewable Identification Numbers (RINs) Futures
+  contract. Each RIN is a credit as determined by the Environmental Protection Agency (EPA) under the
+  Renewable Fuels Standard (RFS) program, identified by information specified in accordance with
+  40 CFR 80.1425 ('RINs')." Market specifications, verbatim: "Settlement Method: Physical Delivered";
+  "Contract Size: 50,000 RINs"; "Trading Price Quotation: One hundredth of one cent ($0.0001) per
+  RIN"; "Listing Cycle: Up to 36 consecutive months"; "In respect of final settlement, the price
+  will be a price in USD and cents per RIN based on the Daily Settlement Price determined by the
+  Exchange on the Last Trading Day." Deliverables, verbatim: "The deliverable instruments are
+  separated D6 RINs equal to the contract size **delivered through the EPA Moderated Transaction
+  System**, having a vintage corresponding to the specified vintage of the futures contract."
+- **Caveats:** a product page; it carries **no volume, open-interest or liquidity statistic**, and
+  the register does not infer any. The page is for the **2025 vintage**; a 2027-vintage contract is
+  separately listed (product 83048035), so a *vintage cross-section* exists at the venue, but the
+  depth of that cross-section is not established here. CME Group separately lists D4 and D6 RIN
+  (OPIS) futures and average-price options (initial-listing notice SER-9383R, June 2024), so the
+  venue is not single-sourced — that fact is noted, not relied upon.
+- **Verification:** the ICE product page was fetched directly and read in this cycle; the quoted
+  description, market specifications, listing cycle and deliverable-instrument text were returned
+  in the fetched text. The CME listing was located through the search index (CME Group notice
+  SER-9383R and contract-specification page titles), and is registered as *noted*, not as read.
+
+### S-137 — Broner, F., Martín, A., Pandolfi, L. and Williams, T. (2021) — "Winners and losers from sovereign debt inflows"
+*Journal of International Economics* **143**: 103446 (May 2021).
+DOI https://doi.org/10.1016/j.jinteco.2021.103446 (earlier versions: NBER 27772; SSRN 3510264 / 3687927)
+- **Type:** Prior empirical result (author-reported); **peer-reviewed journal article**.
+- **Supports:** the **frontier-family screen verdict for family 4 (sovereign bond index
+  inclusion)** — the effect is published, and published *peer reviewed*. Verbatim from the abstract:
+  "To deal with the endogeneity between capital inflows and economic activity, we focus on capital
+  inflows driven by countries' inclusions into well-known local currency sovereign debt market
+  indexes. These events convey little information about the future economic prospects of countries
+  but induce large capital flows from institutional investors tracking the indexes. We show that
+  inclusion-driven flows significantly reduce government bond yields and appreciate the domestic
+  currency."
+- **Caveats:** the object is **firm** returns around inclusion announcements (the paper's headline
+  is about who gains and who loses), with the sovereign yield and exchange-rate effects as the
+  mechanism; the events are **six country-level inclusions** in the WGBI and GBI-EM, announced and
+  then phased in. It is a baseline for the family, not a residual to be harvested. Author-reported
+  results; not reproduced here.
+- **Verification:** the Crossref record was fetched directly (title, four authors, container
+  "Journal of International Economics", volume 143, article number 103446, print date May 2021, DOI,
+  deposited abstract), together with the NBER and SSRN working-paper versions.
+
+### S-138 — Pandolfi, L. and Williams, T. (2019) — "Capital flows and sovereign debt markets: Evidence from index rebalancings"
+*Journal of Financial Economics* **143**(1) (May 2019).
+DOI https://doi.org/10.1016/j.jfineco.2018.10.008
+- **Type:** Prior empirical result (author-reported); **peer-reviewed journal article**.
+- **Supports:** the **second, and closest, published baseline for family 4** — it is the paper that
+  makes the family's *mechanism* a measurable, published object: it constructs a "Flows Implied by
+  Rebalancings" measure and reports the price, liquidity and exchange-rate consequences of
+  informationless rebalancing flows, with placebo tests on the days before the rebalancing.
+- **Caveats:** the rebalancing flows are *monthly* index events in emerging-market local-currency
+  government bond indices; the identification is the same "informationless flow" logic that IDEA-001
+  uses for equity reconstitution, so the family is published in its strongest form. It is a baseline
+  against which any sovereign-index candidate must be measured. Author-reported results.
+- **Verification:** the Crossref record was fetched directly (title, two authors, container "Journal
+  of Financial Economics", volume 143, issue 1, print date May 2019, DOI, deposited abstract); the
+  working-paper PDF of the same project (Pandolfi and Williams, "Capital Flows and Sovereign Debt
+  Markets") was located through the search index and its summary tables returned in the index
+  rendering.
+
+### S-139 — Arslanalp, S., Drakopoulos, D., Goel, R. and Koepke, R. (2020) — "Benchmark-Driven Investments in Emerging Market Bond Markets: Taking Stock"
+International Monetary Fund Working Paper **WP/20/192** (September 2020).
+https://www.imf.org/-/media/files/publications/wp/2020/english/wpiea2020192-print-pdf.pdf
+- **Type:** **International organisation working paper** (institutional; not peer reviewed).
+- **Supports:** the **institutional framing** for the family-4 verdict: benchmark-driven flows are
+  large, measurable and now documented. Verbatim from the abstract: "the amount of assets
+  benchmarked against widely followed EM local-currency bond indices have risen fivefold since the
+  mid-2000s to around $300 billion. Our review suggests that the benefits of index membership may
+  be tempered by portfolio outflow risks for some countries." And on the price consequences:
+  "we find that the 3-month correlation of the country yields with the overall J.P. Morgan GBI-EM
+  yield increases significantly from 16 percent to 53 percent after inclusion events."
+- **Caveats:** a **review and descriptive assessment** by an international organisation, not a
+  causal study of the inclusion announcement; used for scale and framing, not as a price-effect
+  estimate.
+- **Verification:** the IMF PDF was located through the search index and its text returned in the
+  index rendering in this cycle; the abstract and the quoted correlation figure were read in that
+  text. The document was not downloaded as a binary file.
+
+### S-140 — Barbone Gonzalez, R., Ma, Y. and Zeng, Y. (Banco Central do Brasil) — "The Effect of Instant Payments on the Banking System"
+Banco Central do Brasil Working Paper **619**.
+https://www.bcb.gov.br/content/publicacoes/WorkingPaperSeries/WP619.pdf
+- **Type:** **Central-bank working paper** (institutional; not peer reviewed).
+- **Supports:** the **frontier-family screen verdict for family 3 (fast-payment rails)** — the
+  mechanism is published. Verbatim from the abstract: "We show that instant payments may have the
+  unintended consequences of **increasing the banking sector's demand for liquidity**. Using
+  administrative banking data and transaction-level payment data from Brazil's Pix, one of the most
+  widely adopted instant payment systems, we find that banks increased their liquid asset holdings
+  after the adoption of instant payments. We establish the causal relationship by constructing a
+  novel instrument based on passive payment timeouts. … These findings bear important financial
+  stability implications in light of the global surge in adopting instant payment systems, e.g.
+  FedNow in the US."
+- **Caveats:** the object is **bank balance-sheet liquidity holdings** in Brazil, not a price; the
+  paper's own framing says the results "bear important financial stability implications", not that
+  any security is mispriced. The PDF was located through the search index and its abstract returned
+  in the index rendering; the binary file was downloaded in this cycle but its text could not be
+  parsed by the available tooling, so only the index rendering was read.
+- **Verification:** the search index returned the PDF, the working-paper series, the number (619),
+  the title and the three authors, together with the abstract quoted above. Flagged here as
+  **partially verified** (abstract read through the index rendering; full text not parsed), rather
+  than presented as fully checked.
+
+### S-141 — Witmer, J. (2020) — "Monetary policy implementation and payment system modernization"
+Bank of Canada Staff Working Paper **2020-26**.
+https://www.bankofcanada.ca/wp-content/uploads/2020/06/swp2020-26.pdf
+- **Type:** **Central-bank working paper** (institutional; not peer reviewed).
+- **Supports:** the **price channel** in the family-3 screen — that a 24/7 settlement regime has a
+  modelled effect on reserve demand and on overnight rates. Verbatim from the abstract: "24/7
+  payment settlement may impact the demand for central bank reserves and thus could have an effect on
+  monetary policy implementation. … We show that 24/7 payment settlement induces a **precautionary
+  demand for central bank balances**. Absent any changes or response by the central bank, this will
+  put **upward pressure on the overnight interest rate** in a standard corridor system of monetary
+  policy implementation."
+- **Caveats:** a **model**, calibrated, not an event study; the object is the Canadian corridor
+  framework and the *level* of reserve demand, not a dated concession. It establishes that the
+  mechanism has been modelled and stated, which is what the family-3 verdict needs; it is not a
+  price measurement.
+- **Verification:** the Bank of Canada PDF was located through the search index and its text — title,
+  author, working-paper number, abstract, JEL codes — returned in the index rendering in this cycle;
+  the abstract was read there. The binary file was not parsed directly.
+
+### S-142 — Pal, U. and Utso, M. (2024) — "Deconstructing Debt Supply Shocks Using Treasury Auction Announcements"
+SSRN working paper **4794463** (2024).
+DOI https://doi.org/10.2139/ssrn.4794463
+- **Type:** **Preprint** (not peer reviewed) — labelled as such.
+- **Supports:** the **frontier-family screen verdict for family 2 (sovereign issuance calendars)**:
+  the announcement-effect question is already the subject of published work. The paper's title states
+  the object: Treasury **auction announcements** as the identifying moment of a **debt supply
+  shock**, decomposed into its components.
+- **Caveats:** a preprint; registered as evidence that the *question* has been published, not as a
+  reliable estimate of any coefficient. No number from it is used.
+- **Verification:** the Crossref record was fetched directly (title, two authors, posting year,
+  DOI, type "posted-content").
+
+### S-143 — U.S. Department of the Treasury — "Quarterly Refunding" (the quarterly refunding process)
+https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding
+- **Type:** **Official institution documentation** (the issuer's own process page; not peer
+  reviewed).
+- **Supports:** the **existence, cadence and institutional shape** of the quarterly refunding
+  announcement, which is the decision-time published event in the family-2 screen. Verbatim:
+  "Quarterly Refunding Process — A summary of the Treasury Quarterly Refunding process. Most Recent
+  Quarterly Refunding Documents — Treasury releases a variety of documents and data relating to
+  Treasury borrowing and debt management policy **each quarter**. Find them here. Quarterly Refunding
+  Webcasts — Each quarter, Treasury provides a live web stream of its presentation of the quarterly
+  refunding statement and questions and answers with the press." The page also documents the
+  quarterly consultation with the Treasury Borrowing Advisory Committee and with primary dealers.
+- **Caveats:** the page does **not** state the four months of the year, does not state the
+  announcement time, and does not itself contain any auction-size table — those live in the
+  quarterly documents it links to. It is registered for the *existence and quarterly cadence* of a
+  published, issuer-run announcement, which is the only thing the family-2 verdict needs; **no
+  date, time or size is asserted from it.**
+- **Verification:** the page was fetched directly and read in this cycle; the quoted passages were
+  returned in the fetched text.
+
+### S-144 — Wang, C. and Zhao, K. (2024) — "Pre-Refunding Announcement Gains in U.S. Treasurys"
+OSF Preprints / SSRN, DOI **10.31235/osf.io/xucf8** (first posted 21 March 2024; revised 17 July
+2025 under DOI 10.31235/osf.io/xucf8_v2).
+- **Type:** **Preprint** (not peer reviewed) — labelled as such.
+- **Supports:** the **second, closer published statement** for the family-2 screen: the *pre-
+  refunding announcement window itself* has been published on as a distinct object, i.e. the
+  announcement-window returns in Treasuries are already the subject of a paper.
+- **Caveats:** a preprint; the register does not use any coefficient, sign or sample from it. It is
+  registered to record that the specific sub-question has been published.
+- **Verification:** the Crossref records for both the original (10.31235/osf.io/xucf8) and the
+  revised (10.31235/osf.io/xucf8_v2) version were fetched directly (title, two authors, posting and
+  revision dates, DOI, type "posted-content").
+
+### S-145 — Taylor, N. (2016) — "Roll strategy efficiency in commodity futures markets"
+*Journal of Commodity Markets* **21**: 68–86 (March 2016).
+DOI https://doi.org/10.1016/j.jcomm.2015.12.001
+- **Type:** Prior empirical result (author-reported); **peer-reviewed journal article**.
+- **Supports:** the **frontier-family screen verdict for family 5 (physical-delivery calendars)** —
+  the roll/delivery mechanics of commodity futures are a studied, peer-reviewed object. The paper
+  analyses the efficiency of roll strategies across commodity futures markets.
+- **Caveats:** the object is the *roll strategy's* efficiency, not the delivery-month price pattern
+  itself, and not the inventory channel (which is already registered at S-038 and S-039). Used only
+  to establish that the family's mechanics are published.
+- **Verification:** the Crossref record was fetched directly (title, author, container "Journal of
+  Commodity Markets", volume 21, print date March 2016, DOI, ISSN).
+
+---
+
+## Cycle-6 verdicts — the G-13 / G-12 screen applied, and the five frontier families
+
+These are the **current-state** verdicts, in the same style and with the same standing as the
+Cycle-5 verdicts block: they supersede any earlier text on the same questions for current-state
+purposes and leave the cycle-by-cycle gap text in place at the end of this file.
+
+### Cycle-6 verdict on G-13 (publication timing) and G-12 (sign or existence) — applied to every active candidate
+
+The Cycle-5 closure left two general questions standing (G-13: is the state published **before** the
+decision? G-12: can a published state change the **sign** or **existence** of an effect, or only its
+measurement quality?). Cycle 6 applied both as **screening conditions to every active candidate**,
+and the results are recorded candidate-by-candidate in `idea_register.md`. The ledger's own entries
+supply the institutional facts the screen turned on. The summary:
+
+| Candidate | G-13 (state published before the decision) | G-12 (conditioning changes sign or existence) | Cycle-6 outcome |
+|---|---|---|---|
+| IDEA-001 RECON-FLOW | **Pass** — the announcement is published before the effective close | **Pass on the existence limb only** — the side asymmetry (additions yield a harvestable spread, deletions do not); the flow-scaling limb conditions *size* only | Retained, re-scored, novelty stays 2/5 |
+| IDEA-003 VRP-STATE | **Pass** — the gate is computed from live exchange-quoted option surfaces | **Pass** — the gate flips the *sign* of the premium's harvestability | Retained, unchanged |
+| IDEA-004 SLOWCAP-COND | **Pass, conditionally** — the 13F-based crowd state is published on EDGAR within 45 days of each quarter end, so a quarterly-anchored rule is decision-time feasible; the binding constraint is proxy *validity* (G-04), not timing | **Pass** — a non-monotone conditioning implies a sign flip | Retained, re-scored |
+| IDEA-005 ROLLCONCESS | **Pass** — COT is published before the roll window | **Fail** — the closest published test of its own state variable is null (S-099) and the family's post-2012 aggregate result is null (S-033); no located work supports the joint state | **Parked (P-009)** |
+| IDEA-008 SECURITY-LEND | **Fail** — the named state (lending fee / borrow availability) is not publicly disseminated until **29 March 2029** at the earliest (S-126); the short-interest fallback is twice-monthly with a ~7–8 business-day publication lag (S-127) | **Pass in principle** (the event exists only when the constraint binds) — moot once G-13 fails | **Parked (P-010)** |
+| IDEA-009 PERP-FUND | **Pass** — the venue publishes the funding rate for each period with zero lag | **Pass** — the level of the funding rate determines the *sign* of the position | Retained, unchanged |
+| IDEA-010 CREDIT-ETF | **Partial** — the flow leg (shares outstanding) is published daily; the differentiating state (AP balance-sheet stress) is commercial | **Pass on the existence limb**, but the joint state is unpublished | Retained, re-scored down to 65.0 |
+| IDEA-011 ACCTCLOCK | **Pass** — adoption calendars are regulator-published years ahead | **Pass** — the drift's existence depends on the information-quality state | Retained, re-scored |
+| IDEA-014 RIN-DEADLINE (new) | **Pass** — the obligation's size is codified in 40 CFR 80.1405 (S-128) and set by rule months in advance (S-130); the deadline itself is "published on EPA's website" by regulation (S-129); the deadline moves only by published rule (S-131) | **Pass** — the *sign* of the deadline effect is determined by the published net obligated position, and the effect exists only when that constraint binds | New candidate, 60.0 |
+
+### The five frontier families — screen verdicts (one search round each; all verdicts registered)
+
+The Cycle-5 handoff named five mechanism families that had not been screened. Each was screened in
+Cycle 6 against the published literature, one search round each, and **every verdict is registered
+here including the negative ones**, as the handoff required.
+
+- **Family 1 — statutory, date-bound obligations outside the EU ETS (the IDEA-013 template in a
+  different market). VERDICT: MECHANISM FAMILY UNCLAIMED IN THIS FORM; ONE NEW CANDIDATE WRITTEN
+  UP (IDEA-014).** The template — a price-insensitive, date-bound purchase obligation whose
+  concession is paid by the obligated party — is published for the EU ETS (S-101: surrender-month
+  returns "averaging more than 10% in Aprils"), so that version is a baseline. The **US Renewable
+  Fuel Standard** is the same template with a different regulator, a different obligor population
+  and, decisively, **a state that is published before the decision**: the obligation's size is
+  codified in advance (S-128, S-130), the deadline is a published, derived quantity (S-129), and
+  the deadline has already been moved once by published rule (S-131) — a fact that is itself a
+  warning to any rule built on it. The RIN price is a studied, peer-reviewed object (S-134, S-135),
+  it has a *published* price series (S-132) and a *tradeable* futures venue (S-136). No located
+  work presents a **state-conditioned compliance-deadline concession** in this market. The
+  controlling negative is cost and liquidity: the RIN market is documented as roughly one-tenth as
+  liquid as comparable commodity futures, with transaction costs peaking at five times theirs, and
+  as pricing near-expiry vintages *above* longer-lived ones (S-133). **This is a bounded negative:
+  one search round was run, and the residual is precisely specified in G-15.**
+- **Family 2 — sovereign issuance calendars (US Treasury quarterly refunding). VERDICT: PUBLISHED —
+  BASELINE.** The quarterly refunding announcement is an issuer-run, published, recurring event
+  (S-143), and its price consequences are already the subject of published work: a paper
+  decomposing "debt supply shocks using Treasury auction announcements" (S-142) and a paper on
+  "pre-refunding announcement gains" in Treasuries (S-144). The announcement-window question is
+  therefore *not* a discovery, and the announcement is a **news** event whose surprise component
+  requires expectations that are not published, so the residual is not a state-conditioned
+  concession at all. No candidate.
+- **Family 3 — fast-payment rails (FedNow, UK RTP, EU TIPS). VERDICT: PUBLISHED MECHANISM, NO
+  CANDIDATE STRUCTURE — BASELINE.** The mechanism is published and documented: instant payments
+  raise banks' liquidity demand because they remove the ability to delay and net payment flows
+  (S-140), and 24/7 settlement is modelled as inducing a precautionary demand for central bank
+  balances with upward pressure on the overnight rate (S-141). But the family's decision-time
+  object is a **rail's adoption curve**, not a dated obligation: there is no date-bound,
+  price-insensitive flow to capture, and the effect is a *level* shift in reserve demand that is
+  repriced as it is learned rather than conceded. No candidate.
+- **Family 4 — sovereign bond index inclusion and exclusion. VERDICT: PUBLISHED, PEER REVIEWED —
+  BASELINE.** Inclusion-driven flows into local-currency sovereign debt indices are a published
+  causal object: sovereign yields fall and the currency appreciates (S-137), rebalancing flows move
+  prices, deepen the market and appreciate the currency with placebo tests around the event
+  (S-138), and the scale and the correlated-yield consequences are documented institutionally
+  (S-139). The equity-reconstitution analogue is IDEA-001's own territory. No candidate.
+- **Family 5 — physical-delivery calendars in commodity futures. VERDICT: PUBLISHED MECHANICS —
+  BASELINE.** The inventory-and-convenience-yield channel that makes a delivery calendar a price
+  determinant is already registered in this ledger (S-038, S-039), the roll mechanics that generate
+  the delivery-month pattern are peer reviewed (S-145 alongside S-032, S-033, S-034, S-036), and
+  the *published* state the family would need — exchange warehouse stocks and delivery calendars —
+  is the same published-inventory channel already in the baseline set. No candidate.
+
+### New gaps opened in Cycle 6
+
+- **G-14 (new) — a public borrow-cost / securities-lending-rate series.** Opened in Cycle 6 by the
+  IDEA-008 parking. The binding constraint on IDEA-008 is not that no lender reports loan rates —
+  it is that **no institution publishes them on a public schedule before 29 March 2029** (S-126).
+  Until then, the candidate cannot be specified on public data, and re-specifying it around a
+  different state (short interest, short volume, dealer-balance-sheet proxies) would be exactly
+  the substitution the register's own rules forbid, because those measures do not measure borrow
+  cost. **Unblocking condition, dated:** on or after 29 March 2029, re-read the Rule 10c-1a
+  dissemination data (the RNSA's public reporting of Rule 10c-1a information, including loan-rate
+  terms) and test whether a public, dated, security-level borrow-cost series exists with a
+  publication date that precedes a decision date; only then re-open IDEA-008. Also note that the
+  related aggregate short-position regime (Rule 13f-2 / Form SHO) has its own dated start —
+  "until January 2, 2028" (S-126) — and is a *different* measure (positions, not borrow cost).
+- **G-15 (new) — the RIN compliance-deadline price pattern.** Opened in Cycle 6 by the IDEA-014
+  write-up. The question is precisely: **does the published weekly volume-weighted-average RIN
+  price series (S-132) show a systematic difference between the pre-deadline and post-deadline
+  windows, and is the sign of that difference predicted by the published net obligated position
+  (published RVO minus published RIN generation)?** Three things are needed and none is available
+  in this repository: (i) the price series itself, by RIN type, around the statutory deadlines
+  (S-129), including the two *moved* deadlines in 2026 (S-131); (ii) the net obligated position
+  state, which requires EPA's published generation data reconciled against the codified standards
+  (S-128, S-130) and the small-refinery exemptions; (iii) a cost estimate for the venue, against
+  the published market-quality evidence (S-133). **The sign is not asserted anywhere in IDEA-014** —
+  it is the candidate's first empirical test, and it is why the candidate is scored at 60.0 and not
+  higher.
+- **G-16 (new) — a public, validated proxy for dealer balance-sheet stress in credit.** Opened in
+  Cycle 6 by the IDEA-010 re-score. IDEA-010's *differentiating* state is AP balance-sheet stress,
+  which is commercial; the published substitutes (the Federal Reserve's standing repo facility
+  take-up, TRACE dealer-position and interdealer-spread measures) are *different constructs* and
+  have not been validated against any dealer-balance-sheet measure. The register does not permit
+  re-specifying around an unvalidated proxy, so IDEA-010 is retained **only** with the condition
+  that this validation is performed before any specification is written.
 
 ---

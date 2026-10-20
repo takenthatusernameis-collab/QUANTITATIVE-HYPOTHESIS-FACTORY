@@ -4,9 +4,11 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 5 complete** (the Cycle-5 gap-closure and originality pass), 2026-10-19. The
+Last updated: **Cycle 6 complete** (the G-13 / G-12 screening pass and the five-frontier-family
+screen), 2026-10-20. The
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
-**Closure passes: five candidates have now been demoted by their own literature.** IDEA-007 was
+**Closure passes: six candidates have now been demoted — five by their own literature and one by a
+publication calendar.** IDEA-007 was
 narrowed to v1.1 after the funding-currency corpus was read — its aggregate version is a published
 baseline (S-055, rejected as R-006) and the dossier then claimed only the cross-sectional and
 publication-timing residual — and in Cycle 5 that residual was closed against it as well: the
@@ -39,6 +41,25 @@ the premium on the aggregate surplus (so the candidate is not a re-description o
 but the published model already implies the conditional structure, the published sample contains a
 high-surplus year in which the effect persisted, and the decision-time form of the candidate has
 only three observations.
+**Cycle-6 gap closures and screens (this cycle).** The two standing general questions were applied
+as **screening conditions to every active candidate**: **G-13** (is the state published *before* the
+decision?) and **G-12** (does the conditioning change the *sign or the existence* of the effect,
+rather than only its size?). Every candidate's dossier below now carries an explicit
+**"Cycle 6 screen"** block recording both verdicts and what they do to the dossier. Two candidates
+were **parked** — **IDEA-005 (P-009)** because the closest published test of its own state variable
+is null (S-099) and the family's post-2012 aggregate result is null (S-033), so its conditioning
+cannot be shown to change the sign or the existence of the effect; and **IDEA-008 (P-010)** because
+its own named state — securities-lending fees and availability — is not publicly disseminated
+before **29 March 2029** (S-126), so it fails G-13 on a dated, institutional ground rather than a
+judgement. **One candidate was re-scored — IDEA-010, 68.0 → 65.0** (its mechanism's core is published
+institutionally, S-123) — and four were re-checked with **no score change**: IDEA-001, whose G-12
+narrowing is priced into the existing novelty score, IDEA-011, IDEA-003 and IDEA-009. **One new candidate was
+written up: IDEA-014 RIN-DEADLINE** (the US Renewable Fuel Standard's compliance-deadline
+obligation), the only one of the five frontier families that survived the screen with an unclaimed
+mechanism *and* a state that is published before the decision (the obligation's size is codified at
+40 CFR 80.1405 — S-128; the deadline is published by regulation — S-129; the deadline has already
+been moved once by published rule — S-131). Its sign is **not** asserted: the sign is its first
+empirical test (G-15), which is why it enters at 60.0 and not higher.
 
 ---
 
@@ -233,6 +254,33 @@ rank 1 of 7 (rank 1 of 4 at Cycle 1; score and rank unchanged at Cycle 2). **Con
 question:** does the announcement-to-effective drift scale with the
 required passive flow (a quantitative, publicly checkable prediction), and is the post-effective
 reversal statistically separable from awareness and information-leakage explanations?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS.** The state the rule conditions on is
+  the *reconstitution announcement*, which publishes the event type, the weight change and the
+  effective date, and is published before the effective close the rule trades (S-029). The event
+  schedule carries no look-ahead. Two qualifications, both already on the record: the *scale* of the
+  passive flow requirement (weight change × assets tracking) is not published by any institution —
+  it is the product of a published index weight (S-029) and an industry estimate of tracked assets
+  (S-040) — so the **flow-scaling** limb rests on an estimated, not a published, quantity; and the
+  premise that a same-close auction absorbs the flow is not publicly guaranteed (G-03). Neither is
+  a publication-timing defect.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS on the existence
+  limb, FAIL on the size limb.** This is the screen's most useful result for this candidate. The
+  **flow-scaling** claim ("the drift scales with the required passive flow") conditions the *size*
+  of a published effect and would not survive G-12 by itself — it would be a baseline
+  re-description with an extra regressor. The candidate survives only on two claims that do pass:
+  (i) the **side asymmetry** — additions produce a harvestable concession while deletions do not, so
+  the effect's *existence as a tradeable spread* differs across event types, where the published
+  literature attributes the asymmetry to investor awareness rather than to flow and capacity
+  (S-003); and (ii) the **existence of the second leg** — a non-zero fraction of the leg-1 move
+  reverses within 1–20 sessions, which is a separately dated and separately tradeable effect rather
+  than a larger version of leg 1.
+- **Effect on the dossier: no score change (76.0).** The G-12 outcome is already priced — novelty
+  is 2/5, the lowest in the register, because the underlying effect is forty years old and
+  published. The screen makes the dossier's "differentiated specification" line precise: **the
+  differentiator is the asymmetry and the second leg, not the scaling.** A validation that measured
+  only the drift's magnitude would not test what the candidate claims.
 
 ---
 
@@ -513,6 +561,26 @@ question:** in a pre-specified ex-ante gate, does the crash-state-gated variance
 the unconditioned harvest on a risk-adjusted basis, and does the gate need any information beyond
 the option surface itself?
 
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS.** The gate is computed from the *live
+  listed option surface*: option quotes are disseminated continuously by the exchanges and are the
+  same object the premium is measured from, so the state is available at the decision by
+  construction, with no publication lag, no filing calendar and no revision. The screen raises no
+  question here, and it removes none: this candidate was never exposed to the failure mode that
+  closed IDEA-013 (a state published *after* the deadline it informs).
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS, on the sign limb
+  in particular.** The candidate's claim is not that the premium is bigger when crashes are
+  imminent — it is that the premium's *harvestability* flips: a state that signals an imminent
+  crash is one in which short-volatility exposure is uncompensated and the premium collapses, so a
+  rule that harvests the premium *unconditionally* has a negative-expectation branch. The gate
+  therefore changes the **sign** of the expected return of the harvest, which is the strongest form
+  of the G-12 test. It is also an existence claim in the register's own terms: the premium is only
+  *present as a tradeable* in the states the gate admits.
+- **Effect on the dossier: no score change (71.0).** Both tests pass cleanly and the candidate is
+  unchanged. Note the residual, unchanged from Cycle 5: the *literature* half of G-05 is still open
+  (no located work establishes whether the single-name version of the same gate is already
+  documented), and the tail-concentration warning stands.
+
 ---
 
 ## IDEA-004 — SLOWCAP-COND: capacity-conditional convergence trades under slow-moving capital
@@ -663,12 +731,38 @@ unchanged). **Concrete next question:** is
 the relation between convergence returns and crowd depth non-monotone as predicted, and can a
 timely proxy for crowd depth be validated against a holdings-based measure?
 
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS, but only on a quarterly-anchored
+  rule.** This screen **resolves a question the Cycle-5 handoff left open** for this candidate. The
+  crowd state is built from institutional holdings filings, and those filings are **published**
+  documents with a **statutory cadence**: a Form 13F must be filed within 45 days of the end of the
+  calendar quarter and is filed to EDGAR, so the *components* of the crowd measure are public
+  before the start of the following quarter. A rule anchored to a quarter boundary can therefore
+  use everything filed up to its decision date. The screen's finding is narrower than it looks,
+  and the dossier's "reporting lag is a design constraint" line must be read with it: the
+  **daily-frequency** proxies (short interest, option open interest, analyst targets) are *not*
+  decision-time crowd measures at all, and the rule cannot be run at daily frequency on a
+  holdings-based state. The binding constraint on this candidate is therefore **not** timing and
+  **not** publication — it is the **proxy's validity** (G-04, prediction 4). That is a different
+  and, on the evidence, a better-posed question than the one the Cycle-5 draft assumed.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS, on the sign limb.**
+  The candidate's own kill condition says it: if the relation is "monotone and negative
+  throughout", the candidate collapses into "avoid crowded trades" and is a known baseline. A
+  *non-monotone* relation means the conditioning **flips the sign** of the trade's expected return
+  — moderate crowding supports the convergence trade, extreme crowding inverts it into a momentum
+  trade. That is a sign claim, not a size claim, and it is the strongest form of G-12.
+- **Effect on the dossier: no score change (74.0).** Both tests pass. One *design* consequence is
+  recorded and must be carried into any validation specification: the decision calendar is now
+  fixed at **filing dates**, so V-002's rebalancing windows must be re-anchored from any daily or
+  monthly grid to the 45-day filing cadence, and the proxy must be assembled point-in-time from
+  filings published up to the decision date.
+
 ---
 
 ## IDEA-005 — ROLLCOND: the scheduled commodity-index roll as a size-conditional liquidity demand, and the state that decides whether the concession survives
 
 - **ID / short name:** IDEA-005 / ROLLCOND
-- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 2 · **Status:** **parked (P-009)** · **Version:** 1.0
 - **Change notes:** v1.0 — first dossier. The underlying event (a scheduled passive roll) is
   documented, and the *headline* trade (front-running the roll) is documented as having decayed.
   The candidate is the **state-conditioned, provider-side** specification: the concession is
@@ -932,6 +1026,50 @@ of writing. **Concrete next question:** is the roll-period concession in the nea
 spread a function of the passive share of open interest and of contract depth, and does it survive
 in 2012–present in the thin, high-passive-share contracts where the published aggregate null
 (S-033) says it should not exist?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence). — AND PARKING.**
+- **G-13 — the state is published before the decision: PASS.** The COT reports are published
+  (S-030, S-031) on a weekly cadence ahead of the roll window, and the roll calendar is fixed by
+  the index provider (S-029). There is no publication-timing defect.
+- **G-12 — the conditioning changes the sign or the existence of the effect: FAIL, on the
+  available evidence.** The candidate's own formulation is a *state-conditioned existence* claim
+  ("the concession survives only where passive share is high and depth is thin"), and on its face
+  that is an existence claim, not a size claim. But G-12 is a screen on what the candidate
+  *demonstrates*, not on how it is worded, and here the demonstration runs the other way: the
+  closest published test of the candidate's **own state variable** — the CFTC Index Traders' share
+  of open interest, conditioned on *commodity returns during roll periods* — reports **no
+  significant effect** (S-099), and the published work on the trader-type channel shows the
+  conditioning running on *rate of convergence* rather than on the nearby-to-deferred concession
+  (S-098). G-06 closed as a **bounded negative finding**: no located paper conditions the joint
+  state (passive share × depth) on the spread concession. So the joint claim is untested, its
+  nearest partial test is null, and the **aggregate** effect the joint claim is supposed to rescue
+  is itself documented as decayed: the roll's impact on the nearby-versus-deferred spread
+  "disappears in the 2012–2019 subperiod" (S-033), with index-trader positions not predicting
+  near-contract excess returns (S-037, S-036).
+- **Parking decision (P-009), and why it is a parking and not a rejection.** IDEA-005 is **not** a
+  re-description of published work — no located paper claims what it claims, and the register's
+  rule "reject rather than narrow" applies when a published result *shows the candidate's effect*,
+  which is not the case here (S-099 finds a null, not the effect). But it is also no longer
+  *actionable*: its own state's closest published test is null, the effect it would condition has
+  been documented as decayed in the modern sample, and the joint state requires contract depth,
+  which is real-time observable but is not a published, downloadable series — so the candidate
+  would have to be built on an unpublished input to be tested at all. Parking preserves the
+  falsifiable question and the two unblocking conditions, and stops the candidate being presented
+  as a discovery.
+- **Score: 72.0 → 60.0.** Evidence **3 → 2** (the closest published test of its own state variable
+  is null — S-099 — and the aggregate result is null post-2012 — S-033, S-037, S-036). Novelty
+  **3 → 2** (the joint state is unclaimed, but the claim now rests on a null rather than on an
+  open question). Falsifiability **4 → 3** (a modern test would face a likely-null base effect, and
+  the joint state needs a non-published depth input). Data **5 → 4** (the COT component is
+  published; contract depth is real-time observable but not a published downloadable series).
+  Mechanism 4 and resilience 3 unchanged.
+- **Unblocking conditions, both required.** (i) A published or constructible test of the **joint**
+  state — passive share **×** depth — against the nearby-to-deferred spread concession, which would
+  either revive or close the candidate; and (ii) evidence that the concession **survives
+  2012–present** in the thin, high-passive-share contracts, which is the specific reconciliation
+  the candidate offers against S-033. Until both are met, IDEA-005 must not be presented as a
+  candidate, must not be given a validation specification, and must not be re-specified around a
+  weaker proxy.
 
 ---
 
@@ -1376,8 +1514,11 @@ S-097) establish the general intermediary-state → cross-section-of-returns mec
 ## IDEA-008 — SECURITY-LEND: borrow constraints, recall-driven forced covering, and the short-interest state
 
 - **ID / short name:** IDEA-008 / SECURITY-LEND
-- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** **parked (P-010)** · **Version:** 1.0
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+  **Cycle 6 — parked (P-010):** the candidate's own named state is not publicly disseminated
+  before 29 March 2029 (S-126), so it fails the G-13 publication-timing screen; the unblocking
+  condition is dated and is recorded as gap G-14.
 
 **One-sentence hypothesis.** When a stock's borrow becomes expensive or scarce and lenders recall
 loaned shares, short sellers are forced to cover involuntarily; the resulting buying pressure
@@ -1558,6 +1699,48 @@ built on them: **low-to-moderate** — the event is rare, the recall itself is n
 the news confounder is severe. Priority score **66/100**; rank **4 of 9** at the time of writing.
 **Concrete next question:** does a securities-lending fee spike or a sharp short-interest increase
 predict a temporary price increase that decays within a week, on no-news days, after costs?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence). — AND PARKING.**
+- **G-13 — the state is published before the decision: FAIL, on a dated institutional ground.**
+  This is the clearest G-13 failure the screen produced, because it is not a judgement but a
+  calendar. The candidate's own named state is **securities-lending fees and borrow
+  availability**, and the documents that will first publish loan-rate terms to the public are the
+  SEC's Rule 10c-1a reporting regime. The Commission's December 2025 order grants a temporary
+  exemption "from compliance with Rule 10c-1a **with respect to the reporting date until September
+  28, 2028, and with respect to the dissemination date until March 29, 2029**" (S-126) — so the
+  earliest date on which a borrow-cost state can be public is **29 March 2029**. The July 2025
+  order had set the corresponding dates two years earlier, so the public-availability date for the
+  lending-fee state has already been pushed back once (S-126). The obvious fallback states do not
+  rescue the candidate: the short-interest file is **twice a month**, must be reported "by 6 p.m.
+  Eastern Time on the second business day after the reporting settlement date", and is then
+  **published** on the later date in FINRA's own schedule — in the worked examples on that page,
+  a 14 November settlement is published on 25 November and a 2 December settlement on 15 December
+  (S-127) — so it is a *stale* state, not a decision-time one, and it measures positions rather
+  than borrow cost. The event itself, the recall, is not published at all.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS in principle** —
+  the forced-covering spike exists only when the borrow constraint binds, so the state conditions
+  the *existence* of the effect rather than its size. The screen records the pass but it is moot:
+  a state that cannot be observed before the decision cannot condition a decision-time rule, and
+  the register's state-proxy note is explicit that re-specifying around a different measure is not
+  permitted.
+- **Parking decision (P-010), with a dated unblocking condition.** IDEA-008 is **parked**, not
+  rejected: the mechanism (borrow constraints, recall risk, forced covering) is documented
+  (S-083, S-084), the candidate's core is not a re-description of published work, and the blocker
+  is a **publication calendar with a known end date**. The unblocking condition is: **on or after
+  29 March 2029**, re-read the Rule 10c-1a dissemination data (the RNSA's public reporting of
+  Rule 10c-1a information, including loan-rate terms) and test whether a public, dated,
+  security-level borrow-cost series exists whose publication date precedes a decision date; only
+  then re-open the candidate (gap **G-14**). The related aggregate short-position regime
+  (Rule 13f-2 / Form SHO) has its own dated start — "until January 2, 2028" (S-126) — but it
+  measures positions, not borrow cost, and must not be substituted for it.
+- **Score: 65.0 → 63.0.** Data **3 → 2** (the candidate's own named state is not publicly
+  disseminated before 29 March 2029 — S-126; the short-interest fallback is twice-monthly with a
+  ~7–8 business-day publication lag — S-127; the recall event must be inferred). Mechanism 4,
+  evidence 3, novelty 3, falsifiability 3 and resilience 3 unchanged — the rare-event sample
+  condition, the news-confound condition and the venue/recall-inference problem all remain.
+- **Consequence for validation.** **V-007 (IDEA-008) is withdrawn** — its stated precondition
+  ("short interest and lending fees are public") is false for the lending-fee leg on the
+  regulatory calendar, and its data plan cannot be executed on published data before 2029.
 
 ---
 
@@ -1752,6 +1935,26 @@ writing. **Concrete next question:** does an extreme funding rate (top/bottom de
 trailing distribution) predict a futures-spot basis reversal within 1–3 funding periods, after
 costs and after controlling for momentum?
 
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS.** The funding rate is published by the
+  venue for each funding period, and the rate that has just been settled — the one a rule would
+  condition on — is the venue's own record of the previous period's state, with **zero lag**. The
+  candidate is the register's cleanest G-13 case: there is no filing calendar, no revision and no
+  publication-versus-decision ordering question at all.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS, on the sign
+  limb.** The claim is not that the funding rate predicts a *bigger* move — it is that the funding
+  rate identifies which side of the book is crowded and therefore which way the basis should
+  revert: "the side opposite the funding-rate crowd". High funding means crowded longs, so the
+  expected basis move is *down*; low funding means crowded shorts, so it is *up*. The level of the
+  state therefore determines the **sign** of the position, which is exactly what G-12 asks for. The
+  published funding-rate arbitrage (S-086, S-087) is a baseline for the *mechanism*; the candidate's
+  residual is the sign-keyed reversal specification, not the arbitrage.
+- **Effect on the dossier: no score change (63.0).** Both tests pass. The unchanged warnings are
+  the momentum confound (the candidate must separate reversal from continuation, and the published
+  work shows past returns already predict basis deviations with a high explanatory share — S-086),
+  the venue-transferability condition, and crypto venue risk. The screen removes none of them, and
+  removes nothing from the evidence base either.
+
 ---
 
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
@@ -1759,6 +1962,11 @@ costs and after controlling for momentum?
 - **ID / short name:** IDEA-010 / CREDIT-ETF
 - **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** candidate · **Version:** 1.0
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+  **Cycle 6 — re-scored 68.0 → 65.0:** the mechanism's core (AP inventory and balance-sheet
+  constraints driving ETF–NAV dislocations) is published institutionally (S-123), so novelty falls
+  3 → 2; G-13 passes only partially, because the *differentiating* state is commercial and the
+  published substitutes are unvalidated (gap G-16). Retained, not shortlisted; no validation
+  specification until G-16 is closed.
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 
@@ -1787,6 +1995,38 @@ costs and after controlling for momentum?
 **Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate predicts an edge only when dealer balance-sheet capacity is constrained; in normal times the ETF–NAV basis is narrow and the edge is absent. Tail: a credit stress event widens spreads permanently (fundamental re-pricing, not temporary discount), and the position is long illiquid bonds into a falling market. Crash behaviour: in a dealer balance-sheet crisis (e.g. March 2020), the basis can blow out and not mean-revert within the holding window; the AP may stop making markets entirely. Hidden beta: the position is long corporate credit and short ETF shares — it loads on credit spread duration and on the dollar (for USD-denominated bonds), and can carry event risk from issuer-specific news. Correlated risks: all bond ETFs in the same credit tier share the same dealer-capacity state, so the book is a single credit-cycle bet.
 
 **Remaining uncertainty / confidence.** Confidence that AP balance-sheet constraints widen ETF–NAV discounts: **moderate** (Pan & Zeng 2019 documents the mechanism; dealer capacity is documented by Eisfeldt et al. 2024). Confidence that a tradeable two-legged rule can be built on published AP-stress proxies: **low-to-moderate** — AP-level data is commercial, the discount mean-reversion is unproven at the daily frequency, and the cost floor in thin bond markets is binding. Priority score **68/100**; rank TBD. **Concrete next question:** does the ETF–NAV discount in corporate-bond ETFs widen predictably when published AP-stress proxies are high and ETF flows are negative, and does it mean-revert within 1–10 sessions after costs?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PARTIAL PASS, and the partial pass is
+  decisive for the score.** The *flow* leg is clean: ETF shares outstanding are published daily by
+  the sponsor, and creation/redemption baskets are published daily by the sponsor, so the flow
+  state is a decision-time published quantity. The *differentiating* leg — **AP balance-sheet
+  stress** — is not published by any institution in the form the dossier specifies (AP-level
+  balance-sheet data is commercial). The dossier's own Observables line already substitutes
+  *proxies* for the AP state (dealer positions, interdealer price dispersion, SRF take-up); those
+  proxies are computable from published data (TRACE-based measures; the Federal Reserve's standing
+  repo facility usage), but they are **different constructs** and have not been validated against
+  any dealer- or AP-balance-sheet measure. Under the register's own rule, re-specifying around an
+  unvalidated proxy is not permitted, so the candidate is retained only with an explicit
+  precondition — gap **G-16**: validate the published proxy set against a dealer-balance-sheet
+  measure *before* any specification is written.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS on the existence
+  limb, but the mechanism's core is already published.** Prediction (3) is an existence claim —
+  "the effect is absent when AP capacity is ample" — and prediction (1) is a joint conditioning
+  claim, so the candidate passes G-12 in form. But the *mechanism* it conditions is not new:
+  the FCA's own study documents the connection between ETF mispricing and AP inventory (S-123),
+  which is already in the register's **baseline** table, and the baseline table's own note records
+  that the FCA had to use a regulator's MiFID II database to see AP inventory at all. So the
+  candidate's residual is the *joint state plus a trade specification*, not a new mechanism.
+- **Score: 68.0 → 65.0.** Novelty **3 → 2** — the mechanism's core (AP inventory and balance-sheet
+  constraints driving ETF–NAV dislocations) is published institutionally (S-123), which is what a
+  novelty score of 3 was implicitly denying. Mechanism 4, evidence 3, falsifiability 4, resilience 3
+  and data 3 unchanged. The unchanged hard-stop flags are the **cost-overwhelm condition** (the
+  spread is crossed twice, in thin bond markets, and the discount *is* the edge) and the
+  **AP-data-commercial condition**.
+- **Effect on the dossier: retained as a candidate at rank 5, with two preconditions.** No
+  validation specification is to be written until G-16 is closed; and the "Originality" line is
+  re-stated as a refinement of a published institutional baseline rather than as a new mechanism.
 
 ---
 
@@ -1825,6 +2065,25 @@ costs and after controlling for momentum?
 **Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate predicts an edge only around mandated adoption events; outside adoption windows there is no signal. Tail: the fundamental anchor can break if the adoption itself is delayed, watered down, or accompanied by other reforms — the trade becomes a directional loss unrelated to information diffusion. Crash behaviour: a market-wide crash during the adoption window confounds the diffusion drift with broad re-pricing; the exclusion rule (no concurrent macro shocks) must be applied before any result is read. Hidden beta: the long/short book loads on size, value, and momentum factors; low-information-quality firms tend to be smaller and less liquid. Correlated risks: all firms in one adoption jurisdiction share the same event date; a single jurisdiction-level shock dominates many firm-level results.
 
 **Remaining uncertainty / confidence.** Confidence that accounting-standards adoption changes information quality and is dated in advance: **high** (Armstrong et al. 2010; Beuselinck et al. 2009). Confidence that a tradeable two-legged rule can be built on pre-announced adoption calendars: **moderate** — the state is public, the dates are known, but the drift is slow and the sample of adoption events is small (a handful of jurisdictions). Priority score **64/100**; rank TBD. **Concrete next question:** do firms with low pre-adoption information quality show a predictable drift from the adoption announcement to the first full reporting cycle under the new standard, with partial reversal afterward, after costs?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS, and comfortably.** The adoption
+  calendars are published by the regulator years in advance, and the dossier's state — pre-adoption
+  information quality, enforcement regime, analyst following, foreign ownership — is computed from
+  filings that existed *before* the announcement. This is the register's oldest and best-posed
+  G-13 case: the decision date, the event date and the state are all fixed and public long before
+  any position is taken. There is no publication-versus-decision ordering to check.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS on the existence
+  limb.** Prediction (4) is explicit: "high pre-adoption quality firms show a smaller, possibly
+  negative, drift" — i.e. the *drift's existence* is conditioned on the information-quality
+  state, and its sign may flip across the state. The published literature (Armstrong et al. 2010;
+  Beuselinck et al. 2009) establishes the *information-content* effect of adoption; it does not
+  claim a tradable announcement-to-first-report drift, so the candidate is not a re-description of
+  published work and the conditioning is not a size condition.
+- **Effect on the dossier: no score change (72.0).** Both tests pass. The unchanged hard-stop flag
+  is the **adoption-event-sample-small condition**: the number of independent adoption events is
+  small, and the cross-section within a jurisdiction is not independent, so the effective sample is
+  the binding constraint on this candidate — not its state, not its timing, and not its originality.
 
 ---
 
@@ -2266,6 +2525,188 @@ than parked.
 
 ---
 
+## IDEA-014 — RIN-DEADLINE: the US Renewable Fuel Standard's compliance-deadline obligation, and the published net position that decides its sign
+
+- **ID / short name:** IDEA-014 / RIN-DEADLINE
+- **Date added:** 2026-10-20 · **Cycle:** 6 · **Status:** candidate · **Version:** 1.0
+- **Change notes:** v1.0 — initial dossier. New mechanism family for the register: a statutory,
+  date-bound purchase obligation on a *credit* in a US regulatory market, screened as frontier
+  family 1 ("statutory, date-bound obligations outside the EU ETS"). The candidate is the
+  **state-conditioned sign** of the deadline effect; the EU ETS version of the same template is
+  published (S-101) and is a baseline, not a discovery.
+
+**One-sentence hypothesis.** Obligated parties under the US Renewable Fuel Standard must retire
+Renewable Identification Numbers (RINs) against their annual renewable volume obligations by a
+statutory, published compliance deadline; because the obligation is not price-sensitive, because
+its size is fixed in advance by published regulation, and because the industry is either a net
+buyer or a net seller of RINs depending on published generation against published obligations, the
+*sign* of the deadline effect is determined by a state that is published **before** the decision —
+so the concession is paid by the obligated party into the deadline and reverts after it.
+
+**Plain-language description.** The US Renewable Fuel Standard forces refiners and importers to
+blend a specified volume of renewable fuel each year, and they meet that obligation by retiring
+"RINs" — tradable credits issued by the EPA for each gallon of qualifying renewable fuel. EPA
+sets each year's volumes in a rule published months ahead, and the annual compliance report (and
+the RIN retirement it evidences) is due on a deadline that the regulation itself fixes and
+publishes. In the last weeks before that deadline, any obligated party that has not yet covered
+its obligation must either buy RINs (if it generated too few) or sell them (if it generated too
+many) — and it must do so on a schedule that is not price-sensitive. If the published generation
+data say the industry is short, the deadline creates forced *buying*, the RIN price is pushed up
+into the deadline, and the forced buyer pays a premium that is expected to unwind afterwards. If
+the published data say the industry is long, the sign reverses. Which of those two worlds you are
+in is **published before you have to take a position** — which is the property this candidate is
+built on.
+
+**Mechanism.** A price-insensitive, date-bound flow (here: a regulated party's obligation to
+retire credits by a statutory deadline) meets a credit whose price is set by a small, specialist
+market. The template is published in another venue — the EU ETS surrender-month premium
+(S-101: surrender-month returns "averaging more than 10% in Aprils") — so the mechanism is borrowed
+and is not claimed as new. The RIN price itself is a studied object in the peer-reviewed
+literature (S-134 on RIN prices and the ex-post cost of the programme; S-135 on RIN-price
+pass-through into refined fuels). What makes this instance different is not the mechanism but the
+**calendar and the state**: the obligation's size is codified in advance (S-128), the deadline is
+published by regulation (S-129), and the direction of the obligated flow is computable from
+published standards and published generation data.
+
+**Expected return source.** Compensation for supplying (or, in the net-long state, demanding)
+liquidity to a forced, dated, price-insensitive participant at the compliance deadline; the
+concession is expected to revert after the deadline as the obligation is satisfied and the
+forced flow ends.
+
+**Originality.** The EU ETS instance of this template is published (S-101) and is in the register's
+baseline set. Within the US RIN market, **no located work states the compliance-deadline effect
+with its sign determined by the published net obligated position**. What is published is: the price
+and its pass-through (S-134, S-135); the market's quality, liquidity and transaction costs, and
+the documented tendency to price near-expiry vintages *above* longer-lived ones (S-133); and EPA's
+own published acknowledgement that market participants need time "to adjust their compliance
+strategies … and for the RIN market to react" to exemption decisions before the deadline (S-131).
+The last is an institutional statement that the market reacts to compliance news — with no sign
+and no magnitude. Differentiator: a **two-sided, state-conditioned deadline claim** in a market
+where the sign is an empirical question, plus a tradeable futures venue (S-136) and a published
+price series (S-132). Honest classification: informed synthesis of a published mechanism template
+in an unclaimed instance, with the sign untested.
+
+**Target scope.** US RFS D3–D6 RIN vintages; compliance years 2010–2025 (with 2026 and 2027
+partially observable); annual decision windows centred on the published compliance deadline;
+cross-section across RIN types and across the net-position state; holding 1–10 sessions into and
+out of the deadline.
+
+**Observables (decision time).** The annual percentage standards, codified and including two
+future years (40 CFR 80.1405 — S-128); the annual rule setting the applicable volumes and its
+effective date (S-130); the **published** annual compliance reporting deadline (40 CFR 80.1451(f)
+— S-129) and any published extension of it (S-131); EPA's published RIN generation data by fuel
+type and D code (weekly, lagged); EPA's published weekly volume-weighted-average RIN prices by
+transfer date (S-132); small-refinery-exemption decisions and reallocations (published; S-131
+shows they move deadlines); ICE D6 RIN vintage futures and the CME D4/D6 (OPIS) futures (S-136).
+
+**Falsifiable predictions and rejection conditions.**
+1. *The sign follows the published net position.* In compliance years where published generation
+   falls short of the published obligation net of carryover and exemptions, the obligated party is
+   a net buyer: the relevant vintage's price rises into the deadline and falls back after it. In
+   years where it is long, the sign reverses. **Kill:** the pre-deadline/post-deadline difference
+   has the same sign in both kinds of year — i.e. the published state does not determine the sign.
+   This is the candidate's core test and it is two-sided.
+2. *It is a deadline effect, not a level effect.* The pre/post-deadline difference is larger for
+   vintages that expire at the deadline than for vintages that do not, in the same week.
+   **Kill:** no difference by expiry vintage.
+3. *Magnitude follows the obligation, not the market.* The size of the move scales with the
+   published obligation shortfall relative to published generation, not with RIN market turnover.
+   **Kill:** no relation to the shortfall.
+4. *The moved deadline is a test, not an exception.* The 2025 compliance deadline moved from
+   1 September 2026 to 1 October 2026 by published rule (S-131); the 2026 deadline is 31 March 2027
+   (S-129, S-131). A date that moves at short notice is a *stronger* test than a fixed one, and a
+   **no-response result around either date is informative in both directions** — it would weaken
+   the deadline mechanism rather than merely fail to support it.
+5. *Cost floor.* The gross pre/post-deadline difference must exceed the round-trip cost in the venue
+   actually used. **Kill:** the difference is smaller than the cost. Given the published
+   market-quality evidence (S-133), this is the most likely kill.
+
+**Confounders.** The "blend wall" and vintage-specific scarcity (a D6 can be scarce for reasons
+unrelated to the deadline); EPA rule changes and waivers, including the partial waiver of the 2025
+cellulosic requirement in the same rule that set the 2026–27 standards (S-130); small-refinery
+exemptions and reallocations, which move the deadline and the obligation (S-131); the carryover
+mechanism, which changes the net position; the market's documented opacity and squeeze history
+(2013), which can dominate any deadline effect; seasonal ethanol and diesel price moves; and the
+filters and truncation in the published price series itself (S-132), which can manufacture
+artefactual level shifts in the very series the test would use.
+
+**Data requirements.** (Specification only — nothing is acquired or processed here.) EPA's
+published weekly RIN price series by D code and transfer date (S-132); EPA's published RIN
+generation data by fuel type (weekly, lagged); the codified standards (S-128); the annual rules and
+their effective dates (S-130); the published compliance deadlines and any extensions (S-129,
+S-131); ICE and CME futures prices and open interest for the vintages (S-136). Feasibility:
+**medium** — every *input* is published, but the published price series is a lagged weekly
+volume-weighted average from EPA's own moderation system with published filters and truncation,
+the generation data's lag leaves the last weeks of the compliance year unpublished before the
+deadline, and the venue's liquidity is not documented in the public record.
+
+**Theory/evidence status.**
+- *Conceptual rationale:* supported by analogy to a published mechanism in another venue (S-101)
+  and to the general literature on price-insensitive, dated flows; the RIN credit has a studied,
+  economically measurable price (S-134, S-135).
+- *Mechanism supported by sources:* yes for the participant, the constraint, the dated obligation
+  and — decisively — the **publication calendar** (S-128, S-129, S-130, S-131). The
+  state-conditioned sign claim is an unresolved conjecture.
+- *Prior empirical support reported by others:* for the components only. **No located work states
+  the deadline effect with the sign determined by the published net obligated position.**
+- *Unresolved:* the sign and size of the deadline effect (gap **G-15**) and the cost floor (S-133).
+
+**Constraints.** Cost/liquidity: the published market-quality evidence runs against the candidate —
+roughly one-tenth the liquidity of comparable commodity futures and transaction costs peaking at
+five times theirs (S-133) — and the futures venue's own liquidity is undocumented publicly
+(S-136), so the cost model must be justified independently rather than assumed. Capacity: bounded
+by the size of the obligated party's net requirement and by venue depth, and the other participants
+who supply the same liquidity see the same published state. Financing/margin: in the net-short
+industry state the trade is *short* a credit with a documented squeeze history (2013), and margin
+is set on a thin market. Venue/operational: the futures are physically delivered into EPA's
+Moderated Transaction System (S-136), so exit depends on EMTS processing and on the delivery
+calendar. Shorting constraints: the position's sign is short precisely in the states most likely
+to squeeze. Model risk: the state requires a *net* obligated position, reconstructed from published
+generation, published obligations, carryover and exemptions; an error in that reconstruction flips
+the sign of the trade.
+
+**Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the effect exists only
+near compliance deadlines, and the net-position state that carries it changes slowly. Tail: the
+2013 RIN squeeze is the tail case, and deadline concentration multiplies it. Crash behaviour: a
+regulatory shock — a waiver, an exemption wave, a reallocation — can remove the obligation after
+the fact, and EPA has moved deadlines at short notice (S-131). Hidden beta: a long RIN position is
+a long biofuel-policy position; a policy change that reduces the obligation removes the state and
+the signal together. Correlated risks: all RIN types share one obligation and one deadline, so the
+book is a single policy bet.
+
+**Remaining uncertainty / confidence.** Confidence that the obligation, its size, the deadline and
+the state inputs are all **published before the decision**: **high** (S-128, S-129, S-130, S-131)
+— this is the candidate's defining property and the exact property IDEA-013 lacked. Confidence that
+a harvestable concession survives the cost floor: **low-to-moderate**, because the published
+market-quality evidence is directly against it (S-133). Confidence that the sign is state-determined:
+**unverified — this is the candidate's first empirical test** (G-15). Priority score **60/100**;
+rank 7 of 7. **Concrete next question:** does the published weekly RIN price series show a
+systematic pre-deadline/post-deadline difference whose sign follows the published net obligated
+position, and is that difference larger than the venue's round-trip cost?
+
+**Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
+- **G-13 — the state is published before the decision: PASS, and this is the candidate's defining
+  property.** Three independent regulatory facts carry it: the obligation's **size** is codified in
+  the CFR for two future years (40 CFR 80.1405: 2026 total renewable fuel standard 15.50%, 2027
+  15.78%; amended 91 FR 16487, 1 April 2026 — S-128); the **deadline** is not merely knowable but
+  *published by regulation* — "The annual compliance reporting deadline will be calculated in
+  accordance with paragraph (f)(1)(i) of this section and published on EPA's website" (40 CFR
+  80.1451(f)(1)(iii) — S-129); and where the deadline has moved, it moved **by published rule**
+  (the 2025 deadline moved from 1 September 2026 to 1 October 2026 — S-131), with the next deadline
+  stated in the same instrument (31 March 2027). This is the candidate IDEA-013 could not be.
+- **G-12 — the conditioning changes the sign or the existence of the effect: PASS on the sign
+  limb.** The published EU ETS instance of this template (S-101) has no such state: the candidate's
+  claim is that the deadline effect is **two-sided** — a net-buyer state produces a rise into the
+  deadline and a fall after it, a net-seller state the reverse — so the published state determines
+  the sign of the trade, and the claim is falsifiable in both directions. That is a sign claim, not
+  a size claim, and it is what makes the candidate more than a re-description of S-101.
+- **Effect on the dossier: new candidate at 60.0, status `candidate` (retained, not shortlisted).**
+  The two conditions it must clear before it can be validated are already named: **G-15** (does the
+  published price series show the state-determined pre/post-deadline difference, and is it larger
+  than the cost) and the cost floor from S-133. No validation specification is written in Cycle 6.
+
+---
+
 ## State-proxy methodological note (closing section)
 
 **Purpose.** This note answers the question deferred by Cycles 1 and 2: how to choose, build and
@@ -2276,12 +2717,25 @@ depends on a latent state.
 **1. The state-proxy problem is largely a venue-selection problem.**
 IDEA-002 (equities, funding state) is parked because no public funding-state proxy exists
 (G-01); IDEA-007 (FX, dollar funding state) works because the BIS publishes the state on a known
-calendar (S-052, S-054). IDEA-004 (equities, crowd depth) is blocked because the crowd proxy is
-quarterly-stale (G-04); IDEA-005 (futures, passive share) works because the CFTC publishes Index
-Trader positions weekly (S-030). IDEA-008 (securities lending, borrow cost) works because short
-interest and lending fees are published; IDEA-009 (crypto perpetuals, funding rate) works because
-the exchange publishes the funding rate every few hours. The pattern is deterministic: *do not
-hunt for a proxy; hunt for a venue where the state is already published by an institution.*
+calendar (S-052, S-054). IDEA-004 (equities, crowd depth) is now resolved on *timing* — the
+13F-based crowd state is published on EDGAR within 45 days of each quarter end, so a
+quarter-anchored rule is decision-time feasible — and its binding constraint is **proxy
+validity** (G-04), not staleness; the Cycle-5 characterisation of it as "quarterly-stale" was
+wrong about which question it was blocked on. IDEA-005 (futures, passive share) passed on timing
+(CFTC publishes Index Trader positions weekly — S-030) but was **parked in Cycle 6 (P-009)** on
+G-12, because its own state's closest published test is null (S-099) and the aggregate effect it
+would condition is documented as decayed (S-033) — a different failure, and a reminder that a
+*published* state is a feasibility property, not a source of novelty. IDEA-008 (securities
+lending, borrow cost) **no longer works**: the register's Cycle-3 assessment that "short interest
+and lending fees are published" was wrong about the lending-fee leg, and the Cycle-6 screen
+established that the lending-rate data are not publicly disseminated before **29 March 2029**
+(S-126) while the short-interest file is twice-monthly and published roughly seven to eight
+business days after its settlement date (S-127); IDEA-008 is **parked (P-010)** with a dated
+unblocking condition (G-14). IDEA-009 (crypto perpetuals, funding rate) works because the
+exchange publishes the funding rate every few hours. The pattern is deterministic: *do not hunt for
+a proxy; hunt for a venue where the state is already published by an institution* — and, added in
+Cycle 6, *check the publication calendar of the state against the decision calendar before
+assuming the venue qualifies*.
 
 **2. How to choose a state proxy.**
 A state proxy must satisfy all five conditions:
@@ -2304,8 +2758,20 @@ A state proxy must satisfy all five conditions:
    a technicality: in the EU ETS the aggregate compliance balance is published in late May or June
    of the year *after* the emissions year (S-121), so under the pre-2023 April deadline it was
    published *after* the deadline, and the decision-time form of IDEA-013 begins only with the 2023
-   compliance year. **Every candidate must now record, for each observation, the publication date of
-   the state relative to the decision date.**
+compliance year. **Every candidate must now record, for each observation, the publication date of
+    the state relative to the decision date.**
+    Cycle 6 applied condition (e) as a *screening test* to every active candidate and to the one
+    new candidate, and the results are in each dossier's "Cycle 6 screen" block. Two outcomes are
+    worth carrying forward as method: (i) **a published state can satisfy (e) even when it is
+    assembled rather than published as an index** — IDEA-004's crowd state is built from filings
+    that are individually published on a statutory cadence, and IDEA-014's net obligated position
+    is an assembly of published standards, published generation data and published exemption
+    decisions; what matters is that *every input* is published before the decision and that the
+    assembly rule is fixed in advance; and (ii) **a state can fail (e) on a dated, institutional
+    ground rather than a judgement** — IDEA-008 fails because the regulation that will publish the
+    lending rates does not begin public dissemination until 29 March 2029 (S-126), and the
+    register now treats a *dated* future publication calendar as a parking condition with an
+    unblocking date rather than as a permanent rejection.
 
 **3. How to build it without look-ahead.**
 - Use only vintages available at the decision timestamp; if the series is revised, state whether
@@ -2333,14 +2799,27 @@ The honest answer is "no public proxy exists" when:
 - the fast version of the state must be constructed from paid vendor quotes (IDEA-007's
   cross-currency basis, G-10);
 - the validator cannot confirm access to the required proprietary data (IDEA-006's intraday fix
-  data).
+  data);
+- **the state will not be publicly published until a known future date** — added in Cycle 6 for
+  IDEA-008: the SEC's Rule 10c-1a loan-rate data are not publicly disseminated until **29 March
+  2029** at the earliest (S-126), so on the present calendar the binding constraint is not
+  published by any institution. This case is **parked with a dated unblocking condition** (P-010,
+  G-14), not rejected, because the blocker has a known end date;
+- **the candidate's own state variable has a published null and the effect it would condition is
+  documented as decayed** — added in Cycle 6 for IDEA-005 (P-009, G-06/S-099/S-033). This case is
+  also parked rather than rejected, because the joint claim is untested rather than refuted; but it
+  must not be presented as a discovery and it must not be re-specified around a weaker proxy.
 In each case, park the candidate. Re-specifying around a weaker proxy converts a good idea into a
 disguised baseline. Change venue, not proxy.
 
 **6. Candidates governed by this note.**
-IDEA-002 (parked, P-004, G-01), IDEA-004 (G-04), IDEA-005 (S-030, public — passes), IDEA-007
-(S-054, public — passes), IDEA-008 (short interest/lending fees, public — passes), IDEA-009
-(funding rate, published by venue — passes), IDEA-013 (published state, but **fails condition (e)**
-for the pre-2023 regime — parked, P-008).
+IDEA-002 (parked, P-004, G-01), IDEA-004 (passes (e) on a filing-anchored rule; blocked on G-04
+proxy validity), IDEA-005 (S-030, public — passes (e); **parked (P-009)** on G-12), IDEA-007
+(S-054, public — passes), IDEA-008 (**fails (e)** — lending rates not public before 29 March 2029,
+S-126; **parked (P-010)**, G-14), IDEA-009 (funding rate, published by venue — passes), IDEA-010
+(partial: the flow leg passes, the AP-stress leg is commercial and unvalidated — G-16), IDEA-013
+(published state, but **fails condition (e)** for the pre-2023 regime — parked, P-008), IDEA-014
+(passes (e) — the obligation's size is codified (S-128), the deadline is published by regulation
+(S-129) and moves only by published rule (S-131)).
 
 ---

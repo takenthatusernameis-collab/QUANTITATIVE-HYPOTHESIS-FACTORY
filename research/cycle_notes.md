@@ -747,3 +747,207 @@ priority, not a success probability.
   identifier added this cycle was re-derived from Crossref, the publisher's own record, the issuing
   institution or the primary document before use; the phantom-citation and fabricated-bibliography
   findings from earlier cycles remain standing warnings.
+
+---
+
+## Cycle 6 — the G-13 / G-12 screen and the five frontier families, 2026-10-20
+
+**Cycle objective.** The Cycle-5 handoff left two standing general questions and a secondary
+programme. *Primary:* apply **G-13** (is the state published *before* the decision?) and **G-12**
+(does the conditioning change the *sign or the existence* of the effect, rather than only its
+size?) to every active candidate, and re-score or park whatever failed. *Secondary:* screen the
+five mechanism families the handoff named as the frontier — statutory date-bound obligations
+outside the EU ETS, sovereign issuance calendars, fast-payment rails, sovereign bond index
+inclusion, and physical-delivery calendars in commodity futures — one search round each, recording
+**every** verdict including the negative ones, and writing a full dossier only for a family whose
+mechanism is unclaimed *and* whose state is published before the decision. *Tertiary:* attempt
+T5–T8 and record whatever could not be closed as new source gaps.
+
+### Three-pass task-framing loop (required before generation)
+
+**Pass 1 — draft.** Objective: run the two standing screens across the whole active register; run
+one bounded literature round on each of the five frontier families and record the verdicts; write
+one dossier if a family earns it; re-rank; update every artifact; rewrite the handoff. Key
+uncertainty: whether the two screens, which had been stated as principles since Cycle 5, would
+actually *remove* candidates — that is, whether the register's own active set had been passing a
+test it had never been subjected to, or whether the screens were doing no work and would change
+nothing.
+
+**Pass 2 — framing.** Cycle 1 covered scheduled non-price-sensitive flows in listed US equities;
+Cycle 2 added commodity futures and two FX candidates; Cycle 3 added securities-lending equities
+and crypto perpetuals and wrote the state-proxy note; Cycle 4 added corporate-bond ETFs,
+accounting-standards adoption and FX settlement; Cycle 5 added an EU-allowances candidate,
+rejected three and parked one. At the start of Cycle 6 the register held thirteen candidates, of
+which eight were active. The framing that governed this cycle was deliberately *narrow*: the
+highest-value work was not a new mechanism family but **running the two standing screens across
+the existing register**, because a screen that has never been applied to a candidate is a
+principle rather than a check, and the register had grown six candidates since the screens were
+written. The secondary programme (the five families) was run in parallel, one search round each,
+because the handoff had already pre-registered what a negative verdict looks like: a baseline row
+in the known-baseline table, not a candidate.
+
+**Pass 3 — scope.** In scope: literature reading and verification, dossier maintenance, gap
+verdicts, re-ranking, validation-specification status, artifact consistency, and the handoff. Out
+of scope (absolute, and honoured): backtests, simulations, parameter sweeps, significance testing,
+performance or risk metrics, market-data acquisition or processing, strategy or signal
+implementation, executable research infrastructure, job or workflow launches, changes to workflow
+files or tests, credentials or infrastructure, work in other repositories, and any trading. The
+canonical mission prompt was not modified. No candidate was tested; every score is a research
+priority, not a success probability.
+
+### What was actually done
+
+- **The two screens were run on every active candidate, and they removed two.** The screen was
+  applied candidate by candidate, and each verdict is recorded in the candidate's dossier, in the
+  ranked shortlist and in the source ledger's "Cycle-6 verdicts" block, so the reasoning survives.
+  - **IDEA-005 ROLLCOND — parked (P-009) on G-12.** Its own formulation is an *existence* claim,
+    which is what G-12 asks for; but the screen asks what the candidate *demonstrates*, and the
+    closest published test of its **own state variable** — the CFTC Index Traders' share of open
+    interest conditioned on commodity returns during roll periods — reports **no significant
+    effect** (S-099), the trader-type literature conditions convergence *speed* rather than the
+    nearby-to-deferred concession (S-098), the aggregate effect the joint state would rescue is
+    documented as decayed after 2012 (S-033, S-037, S-036), and G-06 closed as a bounded negative
+    finding. It is **parked rather than rejected** because nothing published *shows* the
+    candidate's effect; two unblocking conditions are recorded, both required. Score 72.0 → 60.0.
+  - **IDEA-008 SECURITY-LEND — parked (P-010) on G-13, with a dated unblocking condition.** The
+    failure is a calendar, not a judgement: the SEC's December 2025 order exempts Rule 10c-1a
+    compliance "with respect to the reporting date until September 28, 2028, and with respect to
+    the dissemination date until March 29, 2029" (S-126), so the earliest public availability of a
+    borrow-cost state is **29 March 2029**; the short-interest fallback is twice-monthly and
+    published roughly seven to eight business days after its settlement date (S-127). The
+    register's Cycle-3 belief that "lending fees are published" was wrong about the calendar.
+    Score 65.0 → 63.0; new gap **G-14** records the dated unblocking condition.
+  - **IDEA-010 CREDIT-ETF — re-scored 68.0 → 65.0.** Its mechanism's core (AP inventory and
+    balance-sheet constraints driving ETF–NAV dislocations) is published institutionally at S-123,
+    so novelty falls 3 → 2; G-13 passes only partially because the differentiating state is
+    commercial, and the published substitutes are unvalidated — new gap **G-16**.
+  - **IDEA-001, IDEA-003, IDEA-004, IDEA-009 and IDEA-011 passed both screens with no score
+    change**, but two of the passes were not costless and are recorded. IDEA-001's G-12 pass holds
+    **only on the existence limb** (the side asymmetry and the second leg); the flow-scaling limb
+    conditions size only, and V-001 is amended accordingly. IDEA-004's G-13 pass **resolves** the
+    question the Cycle-5 handoff had left open: the 13F-based crowd state is published on EDGAR
+    within 45 days of each quarter end, so a filing-anchored rule is decision-time feasible, the
+    binding constraint is proxy *validity* (G-04) and not timing — and V-002 is amended to re-anchor
+    its rebalance grid to the filing cadence.
+- **The five frontier families were screened, one search round each, and every verdict is
+  registered — including the four negative ones.** Families 2 (sovereign issuance calendars), 3
+  (fast-payment rails), 4 (sovereign bond index inclusion) and 5 (physical-delivery calendars) are
+  **published baselines** and are now rows in the known-baseline table with the sources that
+  establish them: S-137, S-138, S-139 (sovereign index inclusion, peer reviewed in *JIE* and
+  *JFE*), S-142, S-143, S-144 (issuance calendars), S-140, S-141 (fast payments), S-145 alongside
+  S-038, S-039 (delivery calendars).
+- **Family 1 produced the cycle's one new candidate: IDEA-014 RIN-DEADLINE (60.0, status
+  `candidate`).** The template — a price-insensitive, date-bound obligation whose concession is paid
+  by the obligated party — is published for the EU ETS (S-101), so that version is a baseline. The
+  **US Renewable Fuel Standard** is the same template with a different regulator, a different
+  obligor population, and a state that is published *before* the decision: the obligation's size is
+  codified for two future years in 40 CFR 80.1405 (S-128), the deadline is **published by
+  regulation** — "The annual compliance reporting deadline will be calculated in accordance with
+  paragraph (f)(1)(i) of this section and published on EPA's website" (40 CFR 80.1451(f)(1)(iii),
+  S-129) — and the deadline has already been moved once by published rule (the 2025 deadline moved
+  from 1 September 2026 to 1 October 2026, with the next stated as 31 March 2027; S-131). The RIN
+  price is a studied object (S-134, S-135), with a published weekly price series (S-132) and a
+  physically delivered futures venue (S-136). **The sign of the deadline effect is not asserted
+  anywhere**: it is the candidate's first empirical test (gap **G-15**), and the published
+  market-quality evidence runs against the candidate on cost (S-133), which is why it enters at
+  60.0 and not higher.
+- **T5–T8 were revisited and none was closable.** T5: closing-auction **volume** statistics are
+  published by the venues (S-100), so the aggregate participation question is answerable, but the
+  per-security long history is commercial and the *attribution* question is not answerable from
+  aggregate volume. T6: unchanged — no published continuous dealer FVA series exists, IDEA-002
+  stays parked. T7: the *data* leg is closed (single-name 0DTE is constructible from public OCC
+  data) and only the *literature* leg remains open. T8: unchanged — no benchmark-specific
+  aggregate passive-asset series exists. **No new task was added.**
+- **The re-rank, the artifacts and the validation specifications were updated.** The active
+  ranking is now seven candidates: IDEA-001 (76.0), IDEA-004 (74.0), IDEA-011 (72.0), IDEA-003
+  (71.0), IDEA-010 (65.0), IDEA-009 (63.0), IDEA-014 (60.0). Four candidates are parked
+  (IDEA-002, IDEA-005, IDEA-008, IDEA-013) and three are rejected (IDEA-006, IDEA-007, IDEA-012).
+  The top three are unchanged, so **no new validation specification was required**; **V-004 and
+  V-007 are withdrawn** with their candidates, and **V-001 and V-002 are amended** with the
+  binding consequences of the two screens. The executable set is V-001, V-002, V-003, V-008, V-009.
+
+### Artifact history (Cycle 6)
+
+- `research/source_ledger.md` — **Cycle 6 additions (S-126 … S-145)** written: the SEC Rule 10c-1a
+  and Rule 13f-2 exemptive orders (S-126), FINRA's short-interest publication schedule (S-127),
+  two **primary regulatory texts read directly** (40 CFR 80.1405, S-128, and 40 CFR 80.1451,
+  S-129), three **Federal Register documents** (the Set 2 rule, S-130; the 2025 deadline
+  extension, S-131), EPA's published RIN price series (S-132), the NERA market-quality white paper
+  (S-133), the peer-reviewed RIN price literature (S-134, S-135), the ICE RIN futures specification
+  (S-136), the sovereign-index and issuance-calendar literature (S-137 … S-144) and the roll
+  mechanics (S-145). A **"Cycle-6 verdicts"** block was added: the per-candidate G-13/G-12
+  verdict table, the five family-screen verdicts including all four negative ones, and the three
+  new gaps **G-14, G-15, G-16**. The header was rewritten for Cycles 1–6.
+- `research/idea_register.md` — header rewritten for Cycle 6; **a "Cycle 6 screen" block added to
+  every active candidate's dossier**, with the G-13 and G-12 verdicts and their consequences for
+  the dossier; IDEA-005's status changed to parked (P-009) with its score, unblocking conditions
+  and the reason it is a parking rather than a rejection; IDEA-008's status changed to parked
+  (P-010) with the dated 2029 unblocking condition; IDEA-010 re-scored with the mechanism's
+  published core recorded; **the IDEA-014 RIN-DEADLINE dossier written in full** (60.0,
+  `candidate`); the state-proxy methodological note rewritten — its "venue-selection" paragraph
+  corrected on two points (IDEA-008's publication calendar and IDEA-004's timing), a new
+  condition-(e) paragraph added on what Cycle 6 taught, and two new parking cases added to
+  section 5, with the governed-candidate list updated.
+- `research/rejected_and_parked.md` — **P-009** and **P-010** added in full, each with the
+  evidence, the reason it is a parking rather than a rejection, and its unblocking conditions;
+  **seven baseline rows** added for the screened families; the rediscovery guard extended with two
+  new standing conditions (a dated future publication calendar is a parking with a date; a
+  commercial differentiating state is retained only with an explicit validation precondition); the
+  header counts corrected.
+- `research/ranked_shortlist.md` — header rewritten for Cycles 1–6; the table rebuilt with the new
+  ranking, the enlarged parked table and the withdrawn table; Cycle-6 rank changes recorded; every
+  candidate section given a **Cycle-6 re-check** paragraph; section headers re-labelled for the new
+  ranks; a new section added for IDEA-014; the cross-cutting notes rewritten (the venue-selection
+  note corrected, the decision-time note extended with two further instances, and the
+  narrowness, tail-risk, diversification and open-gaps notes updated).
+- `research/validation_handoffs.md` — header rewritten for Cycles 1–6; **V-004 and V-007 marked
+  withdrawn with reasons**; **V-001 and V-002 amended** with the binding consequences of the two
+  screens; the executable set restated.
+- `research/next_agent_handoff.md` — rewritten.
+- `research/cycle_notes.md` — this entry.
+
+### Deviations and honest limits
+
+- **The register shrank by two and grew by one.** The handoff asked for two to three new dossiers;
+  Cycle 6 produced one. The reason is recorded rather than papered over: the primary task was to
+  run the two standing screens across the active register, and the screens removed two candidates
+  and re-scored a third; the secondary task was one search round per frontier family, and four of
+  the five families are published. **A cycle that removes candidates by applying a test is not a
+  failed cycle**, but it is a smaller register, and the next cycle's marginal value is again in
+  *new mechanism families* rather than in re-ranking what is here.
+- **IDEA-014's sign is not asserted, and its cost floor is documented against it.** The published
+  market-quality evidence (S-133 — roughly one-tenth the liquidity of comparable commodity
+  futures, transaction costs peaking at five times theirs, and a documented tendency to price
+  near-expiry vintages above longer-lived ones) is the strongest single piece of evidence against
+  the new candidate, and it is a *white paper by a consultancy with a client position*, not a
+  peer-reviewed result. It is registered as market-quality evidence, used for a cost floor and a
+  prior only, and the register's other RIN sources (S-134, S-135) are peer-reviewed but do not
+  speak to the cost structure or to the deadline effect.
+- **The novelty check on family 1 is one search round.** The verdict "no located work presents a
+  state-conditioned compliance-deadline concession in the US RIN market" is a **bounded negative**,
+  not an exhaustive search, and it is logged as gap **G-15** together with the precise question. The
+  other four family verdicts carry the same caveat, and each names the sources that establish it.
+- **Two of the twenty new sources are index-rendered rather than directly parsed** (the IMF working
+  paper S-139 and the Banco Central do Brasil working paper S-140; the Bank of Canada paper S-141
+  was also index-rendered). They are used for mechanism-framing and scale claims only, never as the
+  sole support for an economic claim, and each entry says so. **The load-bearing sources of this
+  cycle were read directly**: the two CFR sections, the three Federal Register documents (two of
+  them in their own raw text), FINRA's schedule page and the ICE product page.
+- **A web-search provider rate limit truncated one line of work.** The general search provider
+  rate-limited partway through the cycle; the remainder of the work was done through the Crossref
+  API, the Federal Register API, the eCFR renderer API and direct page fetches, which are not
+  rate-limited in the same way. One consequence is recorded: the Fed's FOMC memorandum on the
+  refunding statement could not be parsed locally (no text-extraction tooling was available for its
+  font encoding) and was therefore **not registered**; the family-2 verdict rests on the two
+  published preprints instead.
+- **The G-13 screen changed one candidate's characterisation and one candidate's status, and the
+  change to IDEA-004 is a correction rather than a new finding.** The register had described
+  IDEA-004's proxy as "quarterly-stale"; the screen showed the *publication* is timely on the
+  filing cadence and the open question is proxy *validity*. The screen also showed that the
+  register's Cycle-3 assessment of IDEA-008 ("lending fees are published") was wrong about the
+  calendar. Both corrections are recorded in the dossiers, in the shortlist and in the
+  state-proxy note.
+- **No candidate has been tested; no number in any dossier is a performance estimate.** Every
+  identifier added this cycle was re-derived from the Federal Register API, the eCFR renderer, the
+  issuing institution's own page, or Crossref before use; the phantom-citation and
+  fabricated-bibliography findings from earlier cycles remain standing warnings.

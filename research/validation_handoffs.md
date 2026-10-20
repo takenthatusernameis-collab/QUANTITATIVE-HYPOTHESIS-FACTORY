@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–5
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–6
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -21,7 +21,8 @@ recall event must be inferred). **V-008 is executable as specified** (funding ra
 by the venue with zero lag); the binding constraint is venue risk, not data access. **V-009 is
 executable as specified** (adoption calendars are regulator-published years in advance; all inputs
 are public); the binding constraint is the small sample of adoption events and the concurrent
-macro confound.
+macro confound. **Superseded in Cycle 6: V-007 was withdrawn — see the Cycle-6 update below, which
+corrects the "lending fees are public" premise.**
 
 **Cycle 5 update — two specifications withdrawn, none added.** The Cycle-5 G-10 closure rejected
 IDEA-007 (**R-008**) and the Cycle-5 G-11 closure rejected IDEA-006 (**R-009**) and IDEA-012
@@ -34,9 +35,39 @@ has no specification and should not be given one before its dated unblocking con
 executable set is therefore **V-001, V-002, V-003, V-004, V-007, V-008, V-009**, with **V-005 and
 V-006 withdrawn**.
 
+**Cycle 6 update — two specifications withdrawn, none added, one amended.** The Cycle-6 G-13/G-12
+screen **parked** IDEA-005 (**P-009**) and IDEA-008 (**P-010**), so **V-004 and V-007 are
+WITHDRAWN** and must not be executed: V-004's candidate fails G-12 (the closest published test of
+its own state variable is null — S-099 — and the family result is null post-2012 — S-033), and
+V-007's candidate fails G-13 (the securities-lending rate state is not publicly disseminated
+before **29 March 2029** — S-126 — so the specification's data plan cannot be executed on public
+data). **No new specification was required**, because the top three are unchanged — IDEA-001
+(76.0), IDEA-004 (74.0) and IDEA-011 (72.0) — and all three already have specifications
+(V-001, V-002, V-009). The executable set is therefore **V-001, V-002, V-003, V-008, V-009**, with
+**V-004, V-005, V-006 and V-007 withdrawn**. Two specifications carry **Cycle-6 amendments**:
+**V-001** must test the *side asymmetry* and the *second leg* separately, because the G-12 screen
+established that the flow-scaling limb conditions only the size of a published effect; and
+**V-002** must re-anchor its rebalancing grid to the 45-day holdings-filing cadence, because the
+G-13 screen established that the crowd state is published on that cadence. IDEA-010 gained no
+specification and must not be given one until gap **G-16** is closed; **IDEA-014 (new in Cycle 6)
+has no specification and must not be given one** until gap **G-15** — the RIN compliance-deadline
+price pattern — is closed.
+
 ---
 
 ## V-001 — RECON-FLOW (IDEA-001)
+
+**Cycle-6 amendment (G-12 narrowing — binding).** The Cycle-6 G-12 screen established that the
+candidate's **flow-scaling** limb conditions only the *size* of a published effect and does not
+by itself survive the rediscovery guard, while the **side asymmetry** (additions yield a harvestable
+concession, deletions do not) and the **existence of the second leg** (a non-zero fraction of the
+leg-1 move reverses within 1–20 sessions) are the claims that do survive it. **The primary outcome
+of this specification must therefore be stated as two separate tests — the asymmetry (does the
+announced-to-effective price reaction differ in sign or in harvestability between additions and
+deletions?) and the reversal leg (is there a separately dated, separately tradeable reversal?) —
+and the flow-scaling prediction must be reported as a secondary magnitude result, not as the
+candidate's claim.** A result that establishes only that the drift is larger when the passive flow
+is larger has not tested IDEA-001.
 
 ### Frozen hypothesis
 Index-provider reconstitution creates a scheduled, deadline-driven passive demand shock. The part
@@ -138,6 +169,21 @@ a follow-up cycle.
 ---
 
 ## V-002 — SLOWCAP-COND (IDEA-004)
+
+**Cycle-6 amendment (G-13 resolution — binding).** The Cycle-6 G-13 screen established that the
+crowd state built from institutional holdings filings **is** published before the decision: a Form
+13F must be filed within 45 days of the end of the calendar quarter and is filed to EDGAR, so a
+rule anchored to a quarter boundary can use everything filed up to its decision date. Two changes
+follow, and both are binding on this specification. (i) **The rebalance grid must be re-anchored
+from daily or monthly to the filing cadence**: the decision dates are the 13F filing dates, and the
+crowd proxy must be assembled **point-in-time** from filings published on or before the decision
+date — no backfill, no use of a filing that had not yet been made. (ii) **The daily-frequency
+proxies (short interest, option open interest, analyst targets) must not be used as the crowd
+state**; they may be used only as additional conditioning variables with their own lags. The
+binding constraint on this candidate remains **proxy validity** (G-04) — the proxy must still be
+validated against a holdings-based measure such as S-026, and if that validation fails the
+candidate is untestable as specified and must be reported as such rather than re-specified on the
+fly.
 
 ### Frozen hypothesis
 Because arbitrage capital is slow to arrive and exits in synchronisation, the expected return of a
@@ -327,7 +373,24 @@ point to a state-conditional allocation problem rather than a new premium.
 
 ---
 
-## V-004 — ROLLCOND (IDEA-005) — *required by the Cycle-2 top-three rule*
+## V-004 — ROLLCOND (IDEA-005) — **WITHDRAWN in Cycle 6 — do not execute**
+
+**Status: withdrawn.** The candidate was **parked (P-009)** in Cycle 6 after the G-12 screen was
+applied to it. The screen asks what the candidate *demonstrates*, and the demonstration runs the
+other way on three counts: the closest published test of the candidate's **own state variable** —
+the CFTC Index Traders' share of open interest conditioned on commodity returns during roll
+periods — reports **no significant effect** (S-099); the published work on the trader-type channel
+conditions *rate of convergence* rather than the nearby-to-deferred concession (S-098); and the
+aggregate effect the candidate's joint state would rescue is documented as decayed, with the
+roll's impact on the nearby-versus-deferred spread "disappears in the 2012–2019 subperiod" (S-033)
+and index-trader positions not predicting near-contract excess returns (S-037, S-036). G-06 closed
+as a bounded negative finding: no located paper conditions the joint state on the concession. The
+specification below is retained **only** so that the reasoning is not re-derived. **No validator
+should execute it as a candidate test.** If it is run at all, it is a *reproduction check* of the
+published nulls (S-033, S-099), never a discovery, and its result must be reported as such. The
+candidate's unblocking conditions are recorded in `rejected_and_parked.md` under **P-009**: a
+published or constructible test of the **joint** state (passive share × contract depth), and
+evidence that the concession survives 2012–present in the thin, high-passive-share contracts.
 
 ### Frozen hypothesis
 The scheduled monthly roll of commodity index trackers creates a price concession in the expiring
@@ -722,7 +785,24 @@ different label.
 
 ---
 
-## V-007 — SECURITY-LEND (IDEA-008)
+## V-007 — SECURITY-LEND (IDEA-008) — **WITHDRAWN in Cycle 6 — do not execute**
+
+**Status: withdrawn.** The candidate was **parked (P-010)** in Cycle 6 after the G-13 screen was
+applied to it, and the failure is a **publication calendar**, not a judgement. The specification
+below assumes that "short interest and lending fees are public"; the second half of that
+assumption is false on the present regulatory calendar. The Commission granted a temporary
+exemption "from compliance with Rule 10c-1a **with respect to the reporting date until September
+28, 2028, and with respect to the dissemination date until March 29, 2029**" (S-126), so the
+earliest date on which a borrow-cost state can be public is **29 March 2029**. The short-interest
+file is twice monthly and is published roughly seven to eight business days after its settlement
+date (S-127), which makes it a *stale* state rather than a decision-time one, and the recall event
+itself is not published at all. The specification below is retained **only** so that the reasoning
+is not re-derived. **No validator should execute it as a candidate test** — there is no published
+borrow-cost series to execute it on. The unblocking condition is **dated**: on or after 29 March
+2029, re-read the Rule 10c-1a dissemination data and test whether a public, dated, security-level
+borrow-cost series exists whose publication date precedes a decision date (gap **G-14**). The
+related aggregate short-position regime (Rule 13f-2 / Form SHO) begins no earlier than 2 January
+2028 (S-126) but measures positions, not borrow cost, and must not be substituted for it.
 
 ### Frozen hypothesis
 When a stock's borrow becomes expensive or scarce and lenders recall loaned shares, short sellers
