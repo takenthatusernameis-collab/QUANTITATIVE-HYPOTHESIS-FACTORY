@@ -412,7 +412,7 @@ future obligations **dated 2027 Q3**; and the register's **first state-first fam
 **published price of a constraint** — was logged as a **bounded negative (R-039)**. New identifiers
 consumed: **R-039 only** — **no `S-`, `V-`, `IDEA-` or `G-` identifier** was consumed or opened, and the
 screen's decision line and its known-baseline row were written at the Cycle-59 wrap-up. Next free:
-**IDEA-017, S-310, V-012, G-34, R-040, P-014**. **The Cycle-59 wrap-up was completed in a later session and
+**IDEA-017, S-310, V-012, G-34, R-041, P-014**. **The Cycle-59 wrap-up was completed in a later session and
 changed no verdict, no gap closure and no score.**
 
 **Cycle-58 rank changes.** The active ranking loses **one** parked candidate and gains **none**: IDEA-002

@@ -13,7 +13,7 @@ identifier consumed**. Cycle 59 also produced the **"Cycle 59 gap verdicts"** bl
 **No score changed, no candidate was created, no `V-` specification was created, amended or withdrawn, and
 no `G-` identifier was opened.** The register now holds **S-001 … S-209** and **S-220 … S-309** — **299
 verified sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers:
-IDEA-017, S-310, V-012, G-34, R-040, P-014.**
+IDEA-017, S-310, V-012, G-34, R-041, P-014.**
 
 **Cycle 59's wrap-up was completed in a later session** and is recorded in `cycle_notes.md` under "Cycle-59
 wrap-up completion". That repair changed **no verdict, no gap closure and no score**: it wrote the
@@ -7893,7 +7893,7 @@ identifiers consumed: sources **S-291 … S-309**, rejections **R-037** and **R-
 identifier was opened; **V-009 was amended, not re-created** (the comparability break is bounded to
 presentation — no recognition, measurement or reported-amount change — and the claim must be pre-registered
 as a transition-window effect).
-**Next free identifiers:** **IDEA-017, S-310, V-012, G-34, R-040, P-014**. The reserved-and-unused
+**Next free identifiers:** **IDEA-017, S-310, V-012, G-34, R-041, P-014**. The reserved-and-unused
 identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges. *(This
 line originally read **R-039**; it was corrected at the Cycle-59 wrap-up, when R-039 was consumed by the
 family screen. The correction is to a live pointer only — it changes no verdict, no gap closure and no
@@ -7924,7 +7924,7 @@ IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's fa
 (three shortlisted), five parked (IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015) and five rejected
 (IDEA-001, IDEA-002, IDEA-006, IDEA-007, IDEA-012)**. New identifiers consumed: **R-039** only. No `S-`,
 `V-`, `IDEA-` or `G-` identifier was consumed or opened.
-**Next free identifiers: IDEA-017, S-310, V-012, G-34, R-040, P-014.** The reserved-and-unused identifiers
+**Next free identifiers: IDEA-017, S-310, V-012, G-34, R-041, P-014.** The reserved-and-unused identifiers
 **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
 
 ---

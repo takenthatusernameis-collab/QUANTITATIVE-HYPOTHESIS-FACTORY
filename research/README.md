@@ -25,7 +25,7 @@ defined by the canonical mission prompt, which is **not** to be modified:
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
    unused**),    sources are `S-0NN` (next free: `S-310`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and amended), rejections are `R-0NN` (next free: `R-040`), parkings are `P-0NN` (next
+   is written and amended), rejections are `R-0NN` (next free: `R-041`), parkings are `P-0NN` (next
    free: `P-014`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-34`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
    (next: `Cycle 60`).
