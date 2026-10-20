@@ -27,7 +27,7 @@ usable as a *decision-time* variable, or only as an explanatory decomposition? (
 the EU ETS aggregate balance is published in late May/June of the following year — S-121 — and was
   therefore unavailable at the pre-2023 surrender deadline). The register now holds **S-001 … S-125**.
 
-Cycle 6 (2026-10-20) added "Cycle 6 additions" (**S-126 … S-145**) and the **"Cycle-6 verdicts"**
+Cycle 6 (2026-10-20) added "Cycle 6 additions" (**S-126 … S-145**) and the **"Cycle-6 verdicts"** block. Cycle 14 added **S-175** (Armstrong et al 2010, IFRS adoption and information quality, already in literature) and **S-176** (Beuselinck et al / IFRS adoption and earnings/PEAD context) and registered Dew-Becker & Giglio (Chicago Fed WP 2025-17, S-177 candidate for IDEA-003 followup) as relevant to VRP decline; also noted Hung et al 2015 and Song & Woo 2015 on K-IFRS/PEAD showing improved information environment post-adoption consistent with weaker drift. Cycle 14 (continued).
 block, which supersedes earlier text on the same questions for current-state purposes while leaving
 the cycle-by-cycle gap text in place. Cycle 6's decisive findings: (i) the two standing general
 questions, **G-13** (is the state published *before* the decision?) and **G-12** (can a published
