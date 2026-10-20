@@ -3331,6 +3331,16 @@ here including the negative ones**, as the handoff required.
   the published market-quality evidence (S-133). **The sign is not asserted anywhere in IDEA-014** —
   it is the candidate's first empirical test, and it is why the candidate is scored at 60.0 and not
   higher.
+
+  **Cycle 7 (bounded search verdict):** A bounded literature/search round (peer-reviewed RIN literature
+  S-134, S-135; market-quality S-133; EPA regulatory texts S-128–S-131; EPA price/generation pages
+  S-132) found **no published work that identifies a price pattern around the RFS compliance-reporting
+  deadline conditioned on the published net obligated position, or that states the sign of such an
+  effect.** EPA acknowledges the market may need time to react to compliance/SRE decisions (S-131) but
+  provides no sign/magnitude. The deadline is known to move (S-131). The cost floor is material
+  (S-133). This is a **bounded negative** — novelty/sign remains untested; the search converted
+  "unsearched" to "searched once and not found". The candidate stays at **60.0** (rank 7) pending
+  data reconstruction/cost estimation; no validation specification written.
 - **G-16 (new) — a public, validated proxy for dealer balance-sheet stress in credit.** Opened in
   Cycle 6 by the IDEA-010 re-score. IDEA-010's *differentiating* state is AP balance-sheet stress,
   which is commercial; the published substitutes (the Federal Reserve's standing repo facility
