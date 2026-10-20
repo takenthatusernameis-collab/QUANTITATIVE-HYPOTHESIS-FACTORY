@@ -203,6 +203,15 @@ adverse evidence against one of its two rival readings of the published evidence
 a dated, prospective route rather than another null — **opened G-32**. The amendment changes what a
 validator may treat as the candidate's state and what it must control for; it does not change the
 hypothesis, the universe or the outcome.
+- **Cycle-53 update (limb b — identification).** For G-32 limb (b), the validator must show that the
+  **firm-level** information-quality conditioning retains identifying power **within a single standard** (IFRS
+  18), and is not absorbed by the two published country-level conditioners: **enforcement (S-221)** and
+  **linguistic distance (S-252)**. Both are **mandatory controls**. The treatment must not be identified off
+  jurisdiction membership alone; the firm-level state must have explanatory power conditional on both
+  country-level controls. **Fail condition:** if firm-level conditioning becomes insignificant once
+  enforcement and linguistic distance are included, or if identification collapses to country-level
+  membership, the candidate fails the identification test. The pre-registered claim must state which of the
+  two rival readings it adopts (*discontinuity-at-adoption* vs *comparability-as-driver*, S-253).
 
 ---
 

@@ -6029,6 +6029,14 @@ URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdic
   this cycle (a bulk read of a directory is not performed in this repository).
 - **Verification:** page fetched directly; the quoted statements about the 170 profiles and the three
   status filters were read in the fetched document.
+- **Cycle 53 note (limb a):** Read the jurisdiction profiles index and sampled profiles (EU, UK, Australia,
+  Canada). Profiles record general IFRS status (required/permitted) and list 170 jurisdictions but do not
+  enumerate IFRS 18-specific adoption dates or explicitly partition jurisdictions into first-time IFRS 18
+  adopters vs second-time adopters with non-overlapping, pre-registered dates. IFRS 18 effective date is
+  1 January 2027 (S-255); some jurisdictions have endorsed/adopted it for 2027, but no partition table is
+  present in the profiles as inspected. Limb (a) verdict: negative as specified; a published IFRS 18
+  jurisdiction adoption calendar distinguishing first-time vs second-time adopters with non-overlapping dates
+  would be needed.
 
 ### S-255 — IFRS Foundation (standard-setter), "IFRS 18 Presentation and Disclosure in Financial Statements"
 URL: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/

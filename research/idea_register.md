@@ -3394,12 +3394,26 @@ re-scored to 68.0, enters the top three, and receives V-010
   IFRS Foundation's jurisdiction profiles, with **170 jurisdictions** filterable by "required for domestic
   public companies" versus "permitted but not required" (S-254). **G-32** is opened with three limbs, each
   with a stated answer route:
-  - **(a) the calendar limb — closable now, and it is a *reading* task, not a data-processing task.** Read
-    the published jurisdiction profiles jurisdiction by jurisdiction and determine whether they identify a
-    **group A (first-time IFRS 18 adopters)** and a **group B (second-time adopters — jurisdictions already
-    reporting under IFRS-equivalent standards)** with **non-overlapping, pre-registered** IFRS 18 adoption
-    dates. The register has not enumerated the profiles; a bulk directory read is not performed in this
-    repository, so this is the concrete next act and it is explicitly a *reading* task.
+   - **(a) the calendar limb — closable now, and it is a *reading* task, not a data-processing task.** Read
+     the published jurisdiction profiles jurisdiction by jurisdiction and determine whether they identify a
+     **group A (first-time IFRS 18 adopters)** and a **group B (second-time adopters — jurisdictions already
+     reporting under IFRS-equivalent standards)** with **non-overlapping, pre-registered** IFRS 18 adoption
+     dates. The register has not enumerated the profiles; a bulk directory read is not performed in this
+     repository, so this is the concrete next act and it is explicitly a *reading* task.
+   **Cycle 53 (this cycle) — G-32 limb (a) executed as a reading task.** Read the IFRS Foundation
+   jurisdiction profiles index and sampled jurisdiction profiles (EU, UK, Australia, Canada) via the published
+   pages. The profiles state general IFRS adoption status (required/permitted) and list 170 jurisdictions
+   (S-254), but **do not enumerate IFRS 18-specific adoption dates or explicitly partition jurisdictions into
+   first-time IFRS 18 adopters vs second-time adopters** in the pages read. The standard's effective date is
+   published (1 January 2027, S-255) and some jurisdictions have endorsed/adopted it (e.g. EU endorsed via
+   Commission regulation for 2027 application; UK adopted for 2027), but the profiles do not present a
+   pre-registered partition with non-overlapping dates for IFRS 18 as of the pages inspected. **Verdict (limb
+   a): negative as specified.** The profiles as read do not support the clean group A/group B partition with
+   non-overlapping, pre-registered IFRS 18 adoption dates. What would be needed instead: a published
+   jurisdiction-level adoption calendar for IFRS 18 (endorsement dates and mandatory application dates by
+   jurisdiction) that explicitly distinguishes first-time IFRS adopters adopting IFRS via IFRS 18 from
+   jurisdictions already applying IFRS that are transitioning to IFRS 18; absent such a table, the
+   partition cannot be constructed from the current profiles alone. This is a legitimate negative outcome.
   - **(b) the identification limb.** Does the candidate's **firm-level** information-quality conditioning
     retain identifying power *within a single standard*, i.e. is the treatment not absorbed by the two
     published country-level conditioners (S-221, S-252)? No past event could pose this cleanly, because in
