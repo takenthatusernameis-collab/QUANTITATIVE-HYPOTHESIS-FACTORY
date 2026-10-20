@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–13
+# RANKED SHORTLIST — CYCLES 1–30
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base
@@ -55,21 +55,52 @@ price-computable crowding proxy now exists, S-157, which opens **G-18**). Six fr
 screened; **no new candidate** survived. The active ranking now holds six candidates, three of them
 shortlisted.
 
+**Cycle 30 ended a twelve-cycle run of no-op monitoring passes (Cycles 18–29) by doing the one
+operation the register's own cross-cutting notes name as its highest-value act — re-reading an
+existing candidate against literature it had not yet seen — and by screening one new mechanism
+family. The results were: (i) **IDEA-003 VRP-STATE — no score change (71.0), but a material
+narrowing**: state-conditioned variance-premium harvesting is a *published* strategy family
+(S-180: conditioned strategies beat buy-and-hold and naive short-vol after costs), and a 2026
+preprint frames the premium in the candidate's own vocabulary as a crash-conditional tail premium
+that is "not harvestable carry" (S-181) — so the candidate is reclassified as an **incremental
+variant of published conditional-VRP work**, and, more importantly, the two published constructions of
+the premium use **different conventions** (expected premium vs implied-minus-subsequently-realised),
+which the dossier's "the premium collapses" prediction did not state. **V-003 has been amended to
+fix the convention ex ante** (a null on the ex-post convention is explicitly *not* a kill), and a new
+gap **G-19** records the residual. (ii) **IDEA-004 SLOWCAP-COND — no score change (69.0)**: the
+newest peer-reviewed 13F-based crowding work (S-186) shows the holdings-based crowding *construction*
+is now an active published object, but it associates crowding with prices, comovement and
+fragility — not with a return-predictive rule — so **G-18 stands as a restated bounded negative** and
+**V-002 stays frozen**. (iii) **IDEA-014 RIN-DEADLINE — no score change (60.0)**: the EPA's 16 October
+2026 proposed rule (S-184) shows the deadline's movement is **rule-determined** (a published
+automatic-extension mechanism) and that the **realised** sign-determining state is published only
+*after* the deadline it informs, so the sign test must run on the *projected* position; **G-15 is
+sharpened and G-20 opened**. (iv) **One new family screened and one new candidate entered, parked:
+IDEA-015 PLAN-SUPPLY (61.0, P-011)** — pre-announced, non-discretionary insider supply under Rule
+10b5-1 plans, whose state is published by *corporate disclosure law* (Item 408(a) quarterly tables
+and Form 4 plan disclosures, S-182, S-183); it is parked because the nearest published price effect
+is attached to plan *adoption* around earnings, not to the execution of a disclosed schedule
+(**G-21**). (v) **One family screen produced a bounded negative: R-012**, the statutory payment-date
+liquidity-drain family. **No score changed, no candidate was rejected, and the top three remain
+IDEA-003 (71.0), IDEA-011 (69.0) and IDEA-004 (69.0)** — so **no new validation specification is
+opened** and V-010 remains free.
+
 ---
 
 ## Table
 
-*Cycle-13 ranking. The "Cycle-12 rank" column is the previous active ranking; "Rank change" states
-the movement.*
+*Cycle-13 ranking, with Cycle-30 flags added. **No score and no rank changed in Cycle 30**, so the
+ordering below is unchanged; the "Cycle-12 rank" column is the previous active ranking and "Rank
+change" states the movement.*
 
 | Rank | ID | Short name | Mechanism 25 | Evidence 20 | Novelty 15 | Falsifiability 15 | Resilience 15 | Data 10 | **Total /100** | Cycle-12 rank | Rank change | Hard-stop flags |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | IDEA-003 | VRP-STATE | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **71.0** | 4 | ↑ 3 | none; tail-concentration warning; **G-05 CLOSED on the literature side against the single-name extension (S-153, S-154) — aggregate version untouched; S-177 (Dew-Becker & Giglio 2025 WP 2025-17): traded-option alphas declined to near zero over ~15 years, consistent with and reinforcing the state-gate framing (harvestability, not the premium's existence, is the claim); gate remains viable** |
+| 1 | IDEA-003 | VRP-STATE | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **71.0** | 4 | ↑ 3 | none; tail-concentration warning; **G-05 CLOSED on the literature side against the single-name extension (S-153, S-154) — aggregate version untouched; S-177 (Dew-Becker & Giglio 2025 WP 2025-17): traded-option alphas declined to near zero over ~15 years, consistent with and reinforcing the state-gate framing (harvestability, not the premium's existence, is the claim); gate remains viable; Cycle 30: state-conditioned VRP harvesting is a published strategy family (S-180) and the premium is published in the candidate's own vocabulary as crash-conditional and "not harvestable carry" (S-181) — reclassified as an incremental variant of published conditional-VRP work; the two published premium conventions differ (expected premium vs implied-minus-realised), so the "premium collapses" prediction is now convention-explicit and **V-003 is amended** (a null on the ex-post convention is not a kill); new gap **G-19**; no score change** |
 | 2 | IDEA-011 | ACCTCLOCK | 4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **69.0** (down from 72.0) | 1 | ↓ 1 | adoption-event-sample-small condition (unchanged); **Cycle 16 re-score (72.0 → 69.0): post-2010 decay evidence (S-178, S-179) indicates IFRS-style adoption improves information environment and shrinks PEAD magnitude; enforcement-regime concentration narrows tradable drift (analogous to momentum decay S-156). G-12 existence limb PASS, size limb narrowed. Retained pending tie resolution.** |
-| 3 | IDEA-004 | SLOWCAP-COND | **4 → 20.0** (down from 5) | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **69.0** (down from 74.0) | 2 | ↓ 1 | proxy-validity kill condition (G-04) — publication timing resolved (filing-anchored rule), validity not; **new in Cycle 13: the base effect's persistence is weakened by published decay evidence (S-156)** |
+| 3 | IDEA-004 | SLOWCAP-COND | **4 → 20.0** (down from 5) | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **69.0** (down from 74.0) | 2 | ↓ 1 | proxy-validity kill condition (G-04) — publication timing resolved (filing-anchored rule), validity not; **new in Cycle 13: the base effect's persistence is weakened by published decay evidence (S-156)**; **Cycle 30: the newest peer-reviewed 13F-based crowding work (S-186) makes the holdings-based construction an active published object but associates crowding with prices, comovement and fragility rather than with a return-predictive rule — G-18 restated as a bounded negative, not closed; V-002 remains frozen; no score change** |
 | 4 | IDEA-010 | CREDIT-ETF | 4 → 20.0 | 3 → 12.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 3 → 6.0 | **65.0** | 5 | ↑ 1 | cost-overwhelm condition (bond liquidity); AP-data-commercial condition (S-123); **G-16 precondition: validate the published proxy set before any specification** |
 | 5 | IDEA-009 | PERP-FUND | 4 → 20.0 | 2 → 8.0 | **2 → 6.0** (down from 3) | 4 → 12.0 | 2 → 6.0 | 4 → 8.0 | **60.0** (down from 63.0) | 6 | ↑ 1 | crypto venue risk; momentum-confound condition; venue-transferability condition; **novelty now reflects published mechanism and mean-reversion evidence (S-158, S-159)** |
-| 6 | IDEA-014 | RIN-DEADLINE | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 3 → 9.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | 7 | ↑ 1 | cost-overwhelm condition (published market-quality evidence, S-133); sign-unknown condition (G-15 — the candidate's first test); squeeze-risk condition (short side); small-sample condition |
+| 6 | IDEA-014 | RIN-DEADLINE | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 3 → 9.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | 7 | ↑ 1 | cost-overwhelm condition (published market-quality evidence, S-133); sign-unknown condition (G-15 — the candidate's first test); squeeze-risk condition (short side); small-sample condition; **Cycle 30: the deadline's movement is rule-determined (published automatic-extension mechanism) and the *realised* sign-determining state publishes only after the deadline it informs, so the sign test must run on the *projected* position — G-15 sharpened, new gap G-20; no score change** |
 
 **Parked — not in the active ranking.**
 
@@ -79,6 +110,7 @@ the movement.*
 | IDEA-002 | FUNDSTATE | **63.0** | parked | feasibility kill condition (G-01) — **parked, P-004**; tied with IDEA-009 but not ranked because its precondition is open |
 | IDEA-005 | ROLLCOND | **60.0** | parked | **G-12 — the closest published test of its own state variable is null (S-099) and the family's aggregate result is null post-2012 (S-033, S-037) — parked, P-009** |
 | IDEA-013 | EU-ETSCOMP | **58.0** | parked | decision-time sample (G-13) and model-implied conditional structure — **parked, P-008** |
+| IDEA-015 | PLAN-SUPPLY | **61.0** | parked | **new in Cycle 30** — pre-announced, non-discretionary insider supply under Rule 10b5-1 plans; the state is published (Item 408(a) quarterly tables, Form 4 plan disclosures, S-182/S-183) but the nearest published price effect is attached to plan *adoption* around earnings, not to the execution of a disclosed schedule — **parked, P-011, unblocking condition G-21** |
 
 **Withdrawn — rejected, retained here only so the scores are not re-derived.**
 
@@ -110,6 +142,20 @@ from a daily or monthly grid to the 45-day filing cadence of the holdings state 
 finding), and — new in Cycle 13 — **it must not be executed until G-18 is closed**, because the
 only *timely* crowding proxy found (S-157) has never been validated against the holdings-based
 measure the specification is frozen on.
+
+**Cycle-30 rank changes.** The active ranking is **unchanged**: no score moved, no candidate was
+rejected, and the top three are still **IDEA-003 (71.0), IDEA-011 (69.0) and IDEA-004 (69.0)** — so
+**no new validation specification is opened and V-010 remains free**. The register's *shape* changes
+by one: **IDEA-015 PLAN-SUPPLY (61.0) enters the parked table as P-011**, so the register now holds
+six active dossiers (three shortlisted), **five** parked (IDEA-002, IDEA-005, IDEA-008, IDEA-013,
+IDEA-015) and four rejected (IDEA-001, IDEA-006, IDEA-007, IDEA-012). Note what a parked score of
+61.0 means next to active candidates at 60.0: if G-21 closes favourably and the candidate is
+re-scored, it would enter the active ranking between IDEA-010 (65.0) and IDEA-009 (60.0). It is not
+ranked now because its precondition is open — an evidence question, not a date, which is the
+IDEA-005-style parking rather than the IDEA-008-style one.
+**One specification is amended rather than withdrawn: V-003 (IDEA-003)** now fixes the variance
+premium's measurement convention ex ante, following S-180 and S-181 (see `validation_handoffs.md`).
+**V-002 remains frozen** pending G-18, which Cycle 30 restated rather than closed.
 
 **Cycle-6 rank changes (superseded by the Cycle-13 table above, retained for the audit trail).** The active ranking loses **two** candidates and gains **one**: IDEA-005
 (previous rank 3, 72.0) and IDEA-008 (previous rank 7, 65.0) are **parked** (P-009 and P-010)
@@ -1239,7 +1285,9 @@ risk for the backtest.
 4. **The register has narrowed, and the narrowing was earned — twice.** After Cycle 13 the active
    ranking is **six** candidates: IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0), IDEA-010
    (65.0), IDEA-009 (60.0), IDEA-014 (60.0); **four** are parked (IDEA-002, IDEA-005, IDEA-008,
-   IDEA-013) and **four** are rejected (IDEA-001, IDEA-006, IDEA-007, IDEA-012). The register holds
+   IDEA-013) and **four** are rejected (IDEA-001, IDEA-006, IDEA-007, IDEA-012). **Cycle 30 changed
+   the shape by one**: **five** are parked (IDEA-015 joins at 61.0, P-011) and the active ranking is
+   unchanged at six, three of them shortlisted. The register holds
    **no FX candidate**, **no commodity-futures candidate**, **no settlement-window candidate** and,
    new in Cycle 13, **no index-reconstitution candidate**. The two standing screens are now doing
    real work rather than sitting as principles — Cycle 6's G-12/G-13 pass parked two candidates, and
@@ -1251,7 +1299,10 @@ risk for the backtest.
    and (b) new mechanism families in *venues not yet used* — the register now covers listed US
    equities, index options, crypto perpetuals, corporate-bond ETFs, US biofuel credits and
    accounting adoption, and nothing in commodity futures, FX, fixed income cash, energy or
-   weather.
+   weather. **Cycle 30 adds a family but not a venue**: IDEA-015 is listed US equities again, reached
+   through corporate disclosure law rather than through a market operator, a regulator or an exchange,
+   so the register's *venue* diversity is unchanged. The standing instruction to the next cycle is
+   therefore still a **venue** instruction, not another state variable in listed US equities.
 5. **Tail concentration is the register's main unhedged risk.** IDEA-003's payoff is concentrated in
    a few events; ~~IDEA-001's leg 2~~ is gone (the candidate was rejected in Cycle 13, R-011);
    IDEA-004's left tail is a
@@ -1305,6 +1356,23 @@ risk for the backtest.
    before 29 March 2029), **G-15** (the RIN compliance-deadline price pattern — IDEA-014's first
    test), **G-16** (a validated public proxy for dealer balance-sheet stress — IDEA-010's
    precondition).
+
+**Cycle-30 gap update.** **G-18 is RESTATED, not closed** — the newest peer-reviewed 13F-crowding
+work (S-186) makes the holdings-based construction an active published object but associates
+crowding with prices, comovement and fragility rather than with a return-predictive rule, and
+nothing located in this cycle validates a contemporaneous proxy against it. **G-19 is NEW**
+(IDEA-003): is there published work that states the *expected*-premium convention explicitly and
+tests the crash-state sign of that quantity — S-180 extracts the premium from variance-swap quotes
+with a horizon distinction (closest to the expected convention), S-181 uses the ex-post convention,
+and the candidate's own quantity is stated by neither. **G-20 is NEW** (IDEA-014): is the
+*projected* net obligated position a sufficient sign-determining state, or does projection error
+swamp it — the projection has already been revised once, from the Set 2 Rule's projection to a 770
+million RIN relief (S-184), and the realised position publishes only after the deadline it informs.
+**G-21 is NEW** (IDEA-015): is there published work that constructs a security-level *remaining
+scheduled supply* state from Item 408(a) and Form 4 filings and documents a price effect attached
+to the *execution* window rather than the adoption window (S-182, S-183)? **G-15 is SHARPENED**
+rather than closed: the RIN sign test must now be run on the *projected* net obligated position, with
+the realised position as a post-hoc control only.
 9. **Bounded tasks T5–T8 status (updated in Cycle 13).** T5 (G-03/G-08 closing-auction
    concentration): **CLOSED** — the convention question (G-03) is answered and documented (S-149,
    S-150, S-148), and the aggregate participation question is answerable from published venue
@@ -1324,3 +1392,28 @@ risk for the backtest.
    data engineering, and the only consumer of the gap (IDEA-001) was rejected in the same cycle.
    **None of T5–T8 remains open; G-18 is the only gap opened in Cycle 13**, and it is the one gap
    that could plausibly unblock a top-three candidate (IDEA-004).
+10. **A published effect can be true and the register's version of it false, because the quantity is
+    convention-dependent (new in Cycle 30).** IDEA-003's gate claims that in an imminent-crash state
+    the variance risk premium "collapses" and short-volatility exposure becomes uncompensated. The
+    2026 preprint that frames the premium as crash-conditional and "not harvestable carry" (S-181)
+    is not a refutation of that claim — it measures the premium as implied minus *subsequently
+    realized* volatility, which mechanically **widens** in stress because fear over-prices volatility
+    that then mean-reverts, whereas the candidate's claim is about the **expected** premium. The two
+    quantities can move in opposite directions in the same state, so a candidate whose prediction is
+    stated in convention-free language is **untestable in principle**, and a null obtained under one
+    convention does not kill a claim made under the other. This is now a standing requirement, added
+    to the two existing screens: **every future dossier that conditions on a measured spread or
+    premium must state the measurement convention ex ante, and every validation specification must
+    fix it before the holdout is opened.** V-003 has been amended accordingly in Cycle 30.
+11. **A new class of decision-time state: publication by corporate disclosure law (new in Cycle 30).**
+    IDEA-015's state is published not by a market operator, a regulator or an exchange, but by
+    **the issuer and the insider under securities law** — Item 408(a) quarterly tables in the
+    10-Q/10-K, and Form 4 reports of individual plan sales with the plan's adoption date and,
+    sometimes, its remaining capacity (S-182, S-187). Two features make this class attractive for
+    future screening: the state is **mandatory and standardised** (no vendor discretion, no
+    publication discretion) and its **cadence is statutory**. Two features make it unattractive: the
+    state is **coarse** (aggregate maximum size and window, not an execution schedule) and the
+    **reconciliation** of individual Form 4 sales to individual plans is not always disclosed, so the
+    state must be constructed rather than read. A future cycle that wants a new *venue* should look
+    for this class — mandatory, standardised, statutorily cadenced disclosure — rather than another
+    published market series.

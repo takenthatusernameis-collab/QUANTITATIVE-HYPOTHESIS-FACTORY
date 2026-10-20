@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–13
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–30
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -70,6 +70,24 @@ found in thirteen cycles (S-157, comomentum) has never been validated against th
 crowding measure (S-026) that the specification is frozen on, and re-specifying around an
 unvalidated proxy is forbidden by the register's own method. V-002's existing Cycle-6 amendment
 (re-anchor the rebalancing grid to the 45-day filing cadence) stands.
+
+**Cycle 30 update — no specification withdrawn, none added, one amended.** The Cycle-30 prior-art and
+convention audit produced **no change to the ranking**, so the top three are still IDEA-003 (71.0),
+IDEA-011 (69.0) and IDEA-004 (69.0) and **no new specification is required — V-010 remains free**.
+**V-003 (IDEA-003) carries a Cycle-30 amendment**: the variance risk premium's *measurement
+convention* is now fixed ex ante. The candidate's claim is about the **expected** premium
+(model-free implied variance minus the physical conditional expectation of variance); the published
+literature contains at least two constructions that measure a different quantity (S-180 extracts the
+premium from variance-swap quotes with a horizon distinction; S-181 measures implied minus
+*subsequently realized* variance), and the two can move in opposite directions in the same state. The
+amendment therefore (i) names the convention in the frozen rules, (ii) states that a null or a
+positive result on the **ex-post** convention is **not a kill**, and (iii) adds an ablation that
+reports both conventions side by side as a descriptive control. **V-002 (IDEA-004) remains frozen**
+— G-18 was *restated*, not closed, in Cycle 30 (the newest peer-reviewed 13F-crowding work,
+S-186, makes the holdings-based construction an active published object but associates crowding with
+prices, comovement and fragility rather than with a return-predictive rule), and the Cycle-6
+re-anchoring amendment stands. **V-008 (IDEA-009)** and **V-009 (IDEA-011)** are unchanged. No
+specification may be written for **IDEA-015** while it is parked (P-011, G-21).
 
 ---
 
@@ -306,6 +324,17 @@ rather than a new edge.
 
 ## V-003 — VRP-STATE (IDEA-003)
 
+**Cycle-30 design amendment (specification only; not executed here).** Cycle 30 found that the two
+published constructions of the variance risk premium use **different measurement conventions** and
+can move in opposite directions in the same state: S-181 measures the premium as option-implied minus
+**subsequently realized** variance (an ex-post convention, which mechanically widens in stress because
+fear over-prices volatility that then mean-reverts), while S-180 extracts it from variance-swap quotes
+with a maturity/horizon distinction (closer to an expected-premium convention). The candidate's claim
+is about the **expected** premium. The amendment below therefore does three things: (1) it fixes the
+convention ex ante; (2) it makes an ex-post null explicitly **not** a kill; and (3) it adds a
+descriptive control that reports the ex-post premium's regime behaviour. It is a specification
+amendment, not an execution, and it does not change the candidate's score (71.0) or rank.
+
 ### Frozen hypothesis
 The variance risk premium is compensation for absorbing crash risk. A strategy harvesting it
 therefore earns a negatively skewed payoff and should only be run in states where the crash is not
@@ -315,6 +344,16 @@ imminent; the gate must be computable ex ante from the option surface alone.
 - Premium: model-free implied variance (or a variance-swap rate synthesised from listed options,
   S-012) minus realized variance, with realized variance used only for post hoc measurement, never
   as an input to the gate.
+- **Convention (fixed ex ante in Cycle 30, mandatory).** The candidate's premium is the **expected**
+  premium: model-free implied variance minus the *physical* conditional expectation of variance over
+  the same horizon — i.e. the quantity a risk-neutral holder would be paid relative to what the
+  realised distribution says will happen, conditional on the state. The **ex-post** premium
+  (implied minus *subsequently realised* variance, the convention used by S-181) is **not** the
+  candidate's quantity: it is retained only as a descriptive control, and a null, or a positive
+  result, on the ex-post convention is **not a kill of the candidate**. The validator must record,
+  in the training-window documentation and again in the holdout report, which convention each
+  reported number uses. Any statement of the form "the premium collapses" is invalid unless it names
+  the convention.
 - Gate: option-implied crash-risk measures, with thresholds pre-registered from the training
   window only.
 - The harvest is a variance-shortening position; position construction (direct variance, or a
@@ -331,6 +370,11 @@ imminent; the gate must be computable ex ante from the option surface alone.
 4. Whether the harvest is accessed via OTC variance swaps (counterparty and documentation risk) or
    via listed options (replication error, spreads).
 5. The margin and financing treatment of a short-variance position.
+6. **The estimator of the physical conditional expectation of variance** used in the expected-premium
+   definition above: the horizon, the conditioning set, the estimator, and its sampling error, all
+   fixed on the training window; and the mapping from the option surface's risk-neutral implied
+   distribution to that expectation. The validator must state how the two conventions are reconciled
+   in one table so that a reader can see which quantity any reported number refers to.
 
 ### Target universe, time frame, sampling frequency
 - Universe: a pre-specified index option surface; the single-name extension is a separate,
@@ -380,7 +424,10 @@ size.
 - Ablations: (a) remove the gate; (b) replace the implied crash measure with a simpler implied
   volatility threshold; (c) replace realized variance with close-to-close variance to expose
   measurement noise; (d) test the harvest on the single-name surface where the insurance demand
-  channel is stronger (S-014) and where G-05 is most relevant.
+  channel is stronger (S-014) and where G-05 is most relevant; **(e) recompute the premium under the
+  ex-post convention (implied minus subsequently realized) as a descriptive control and report both
+  conventions side by side — the ex-post result is not a pass/fail input and must not be used to
+  select the gate**.
 
 ### Pass / fail / uncertain
 - **Pass:** the gated harvest dominates the unconditioned harvest on the pre-specified risk-adjusted
@@ -388,14 +435,18 @@ size.
   holdout.
 - **Fail:** the gate adds nothing; the harvest does not survive costs; the premium's predictive
   power has decayed to nothing in the modern sample; the single-name channel has been arbitraged
-  away.
+  away. **A null on the ex-post convention alone is not a fail** (Cycle-30 amendment): the
+  candidate's claim is about the expected premium, and a negative or positive ex-post premium is a
+  statement about a different quantity.
 - **Uncertain:** the option history is too short or too survivorship-biased to answer the question
   — report the descriptive premium and its state structure without concluding.
 
 ### Kill criteria and follow-up justification
 Kill if the unconditioned harvest is already optimal, or if the premium is not present in the
 modern sample. Justify follow-up research if the gate works only in specific regimes, which would
-point to a state-conditional allocation problem rather than a new premium.
+point to a state-conditional allocation problem rather than a new premium. **Do not kill on the basis
+of the ex-post premium's sign or absence** — that is the quantity S-181 measures, and the candidate's
+claim is about the expected premium (Cycle-30 amendment).
 
 ---
 

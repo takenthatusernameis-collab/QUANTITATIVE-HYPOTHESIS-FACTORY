@@ -22,11 +22,14 @@ defined by the canonical mission prompt, which is **not** to be modified:
 
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
-3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-015`), sources are `S-0NN` (next free:
-   `S-175`), validation specs are `V-0NN` (next free: `V-010`), rejections are `R-0NN` (next
-   free: `R-012`), parkings are `P-0NN` (next free: `P-011`), source gaps are `G-NN` (next:
-   `G-19`), and cycles are `Cycle N` (next: `Cycle 14`).
+3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-016`), sources are `S-0NN` (next free:
+   `S-188`), validation specs are `V-0NN` (next free: `V-010`), rejections are `R-0NN` (next
+   free: `R-013`), parkings are `P-0NN` (next free: `P-012`), source gaps are `G-NN` (next:
+   `G-22`; `G-17` was skipped by the sequence and has never been used), and cycles are `Cycle N`
+   (next: `Cycle 31`).
    Reuse an existing source ID rather than duplicating a citation; extend the "supports" note instead.
+   **The ID ranges quoted in the repository's `AGENTS.md` are historical** (they stop at IDEA-012 and
+   S-094); the authoritative next-free IDs are the ones in item 3 above and in `next_agent_handoff.md`.
    **Re-derive every identifier yourself** (publisher, Crossref, arXiv, NBER or the institution's
    own site) before it enters the ledger: identifiers supplied by a search or research agent have
    been found wrong, and one registered working paper carries a fabricated bibliography. Record

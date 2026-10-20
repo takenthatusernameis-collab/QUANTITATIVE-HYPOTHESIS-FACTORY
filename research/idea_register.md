@@ -4,8 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 13 complete** (the index-reconstitution literature verdict, four gap
-closures, two re-scores and six frontier-family screens), 2026-10-20. The
+Last updated: **Cycle 30 complete** (the IDEA-003 prior-art and measurement-convention audit, the IDEA-004 G-18 restatement against the newest 13F-crowding literature, the IDEA-014 state-publication audit, one new mechanism family screened and one new candidate entered parked as IDEA-015), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycle 30's own changes are recorded in each dossier's "Cycle 30" block and in `cycle_notes.md`.* The
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
 **Closure passes: seven candidates have now been demoted — six by their own literature and one by a
 publication calendar.** IDEA-007 was
@@ -95,6 +94,30 @@ supply event that has never been used), and the perpetual-funding family (publis
 which the screen produced rejections and closures rather than candidates. The register now holds six
 active dossiers (IDEA-003, IDEA-004, IDEA-009, IDEA-010, IDEA-011, IDEA-014), of which three are
 shortlisted.
+
+**Cycle 30 (this cycle) — three evidence operations and one family screen, no score change.** After
+twelve consecutive monitoring passes (Cycles 18–29) that changed nothing, this cycle did what the
+register's own cross-cutting note identifies as its highest-value act — re-read existing candidates
+against literature the register had not yet seen — and screened one new mechanism family.
+**IDEA-003 (71.0, unchanged):** state-conditioned variance-premium harvesting is a **published
+strategy family** (S-180) and the premium-as-tail-premium framing is published in the candidate's own
+vocabulary (S-181), so the candidate is reclassified as an **incremental variant of published
+conditional-VRP work**; more importantly, the two published constructions of the premium use
+**different measurement conventions** (S-180 closest to the expected-premium convention; S-181
+ex-post), so the candidate's "the premium collapses" prediction is now written convention-explicitly,
+**V-003 is amended** (an ex-post null is *not* a kill) and **G-19** is opened. **IDEA-004 (69.0,
+unchanged):** the newest peer-reviewed 13F-crowding work (S-186) shows the holdings-based construction
+is an active published object but associates crowding with prices, comovement and **fragility** rather
+than with a return-predictive rule, so **G-18 is restated, not closed** and **V-002 stays frozen**.
+**IDEA-014 (60.0, unchanged):** the deadline's movement is **rule-determined** and the *realised*
+sign-determining state publishes only *after* the deadline it informs (S-184, S-185), so **G-15 is
+sharpened** and **G-20** opened. **One new family screened; one new dossier written, parked: IDEA-015
+PLAN-SUPPLY (61.0, P-011, G-21)** — pre-announced, non-discretionary insider supply whose state is
+published by **corporate disclosure law** (S-182, S-183), parked because the nearest published price
+effect attaches to plan *adoption* around earnings rather than to the execution of a disclosed
+schedule. **One bounded negative: R-012** (the statutory payment-date liquidity-drain family). The
+register now holds six active dossiers (three shortlisted), **five** parked and four rejected, and
+**fifteen** dossiers in total.
 
 ---
 
@@ -711,6 +734,61 @@ because IDEA-001 was rejected (rank 3 → rank 2).
 - Gate design (unchanged, still viable): G-13 PASS (gate computed from the live listed option surface; no publication lag); G-12 PASS on the sign limb (a crash-imminent state flips harvestability, so an unconditional harvest has a negative-expectation branch); G-05 literature half closed against the single-name extension (S-153/S-154) while the aggregate version is untouched; post-2010 structural context (S-169: 0DTE at 28% of options volume by 2025) strengthens the tail-concentration warning.
 - **Score: 71.0, unchanged; rank 2, unchanged.** No re-score; the S-177 finding is consistent with the state-gate framing already scored. The concrete next question remains: in a pre-specified ex-ante gate, does the crash-state-gated variance harvest dominate the unconditioned harvest on a risk-adjusted basis, and does the gate need information beyond the option surface itself?
 
+**Cycle 30 prior-art and convention audit — the gate is now a published strategy family; the premium's measurement convention must be fixed ex ante; no score change (71.0), but a new specification requirement and a new gap.**
+- **Prior art for the gate (S-180).** The register had assumed that "harvest the variance risk premium only
+  in states where crash risk is not imminent" was an unclaimed formulation. It is not. Konstantinidi and
+  Skiadopoulos (*Journal of Banking & Finance* 2016) publish that the premium's time variation is
+  predictable from decision-time state variables and that **volatility-trading strategies conditioned on
+  those states outperform buy-and-hold and the naive short-volatility strategy even after transaction
+  costs**, with the best specification conditioning on trading activity and with the premium widening
+  when broker-dealer funding conditions deteriorate. So *state-conditioned variance-premium harvesting is
+  a published strategy family*, and the candidate's differentiator shrinks accordingly: what remains
+  unclaimed is (i) the **state** — an option-surface-implied imminent-crash signal rather than trading
+  activity or dealer funding — and (ii) the **sign** claim, that the premium's *harvestability* flips
+  rather than merely its size.
+- **A published contrary claim, and the convention it exposes (S-181).** A 2026 preprint characterises the
+  variance risk premium as "a downside, crash-conditional risk premium, compensation for a systematic
+  tail rather than harvestable carry", states that the regime-average premium "stays positive through
+  every crisis and widens in high-stress and high-credit-spread states", and concludes that the harvest
+  "retains an irreducible left tail" even voltargeted and overlaid. Read against this dossier, two things
+  follow, and the second is the important one.
+  - *First, prior art again, this time on the candidate's own interpretation.* The premium-as-tail-
+    compensation reading and the entry-timing risk are now published in the candidate's own vocabulary.
+    This is consistent with the dossier's S-015/S-016 chain and therefore **supports the mechanism**
+    rather than undermining it; it is recorded as prior art, not as a contradiction.
+  - *Second, a convention conflict that the dossier did not specify.* The preprint measures the premium as
+    option-implied minus **subsequently realized** volatility (an ex-post convention). Under that
+    convention the premium mechanically **widens** in stress, because fear over-prices volatility that then
+    mean-reverts. IDEA-003's gate claims something different: that in an imminent-crash state the
+    **expected** premium — model-free implied variance minus the *physical* conditional expectation of
+    variance — goes negative, so short-volatility exposure is uncompensated. The two quantities can move
+    in **opposite directions in the same state**, so "the premium collapses" is not a claim until the
+    convention is named. The dossier's prediction 3 ("the premium and the option-implied crash state
+    co-move such that harvesting is least attractive exactly when the premium is highest") and its kill
+    condition are stated in convention-free language and must be re-stated.
+- **Effect on the dossier: no score change (71.0), one new specification requirement, one new gap.**
+  - The scores do not move: the mechanism score stays at 4/5 (the new work *supports* the interpretation
+    and adds the published family), the novelty score stays at 2/5 (the candidate is now explicitly an
+    **incremental variant of published conditional-VRP work** — its residual is a state construction and a
+    sign claim, which is the same classification the register already gives IDEA-009 and IDEA-010), the
+    evidence score stays at 4/5 (the support is stronger but the candidate's own claim is still untested),
+    falsifiability stays at 4/5 and resilience stays at 3/5 (the published "irreducible left tail" finding
+    reinforces the tail-concentration warning that was already priced, and S-177's decay finding is not
+    double-counted).
+  - **New specification requirement (P0, added to V-003 in Cycle 30).** Any test of this candidate must fix
+    the premium's measurement convention *ex ante*: the claim is about the **expected** premium, and a null
+    on the **ex-post** convention (implied minus subsequently realized) is **not** a kill of the candidate.
+    V-003 has been amended accordingly, with the ex-post premium retained as a descriptive control.
+  - **New gap G-19.** Is there published work that states the expected-premium convention explicitly and
+    tests the crash-state *sign* of that quantity? S-180 extracts the premium from variance-swap quotes
+    with a maturity/horizon distinction, which is closer to the expected-premium convention than the
+    ex-post one, and S-181 uses the ex-post one; no work located in this cycle states the candidate's own
+    quantity and tests its sign in crash-imminent states. Until G-19 is closed, the candidate's novelty
+    remains "a narrow, unclaimed residual", which is what its 2/5 already says.
+  - The tail-concentration warning and the open literature half of G-05 (single-name extension, closed
+    against the candidate) are unchanged. **V-002 remains frozen** for IDEA-004; V-003 is amended, not
+    withdrawn.
+
 ---
 
 ## IDEA-004 — SLOWCAP-COND: capacity-conditional convergence trades under slow-moving capital
@@ -927,6 +1005,49 @@ candidate.**
   3/5 (the non-monotone, sign-flipping gate remains unclaimed; S-157 changes the *measurement*
   question, not the novelty question), evidence stays at 4/5, and the data dimension stays at 3/5
   until G-18 is closed.
+
+**Cycle 30 G-18 / G-04 advance — the newest holdings-based crowding work makes the state constructible
+and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.**
+- **What was searched, and how the question was reframed.** G-18 asks whether a decision-time, public,
+  price-computable crowding measure (comomentum, S-157) is a valid **substitute** for the holdings-based
+  measure this candidate is frozen on (S-026). Thirteen prior cycles answered that question by looking
+  for a *head-to-head validation paper* and found none. This cycle asked a different, more useful
+  question: **is there published work that constructs a decision-time, filing-resolved, holdings-based
+  crowding measure, and what does the current literature say about using crowding to predict returns?**
+  That framing reaches the same gap from the other side and produced an answer worth recording.
+- **Finding 1 — the state is an active, published construction (S-186).** The newest peer-reviewed
+  holdings-based crowding work (Hu & Shen, *Finance Research Letters*, 8 October 2026) measures **manager
+  crowding directly from 13F holdings** for the largest portfolios over 2013Q2–2025Q4, and reports that
+  common positions, correlated institutional trading and shared ownership are "associated with prices,
+  comovement, and fragility". Two consequences for this dossier. (i) The construction that IDEA-004's
+  **G-04 proxy-validity kill condition** refers to is no longer an open methodological question: a
+  current, peer-reviewed, 13F-based crowding measure exists, which makes "validate the proxy against
+  the holdings-based measure" a well-specified job rather than an undefined one. (ii) The newest work
+  associates crowding with **prices, comovement and fragility** — *not* with a return-predictive
+  trading rule — which is the same place the register's own bounded negative put it (S-172: crowding
+  predicts tail risk rather than average returns; crowding-based factor selection fails out of sample).
+- **Finding 2 — the two constructs are complements, not substitutes.** The literature treats a
+  holdings-based crowding measure and a return-correlation crowding measure as *different objects with
+  different information content*: the holdings-based measure is stale by construction (13F filings carry
+  up to a quarter's reporting lag), while the return-correlation measure is contemporaneous but requires
+  price history and assumes the correlation structure is informative about arbitrage positions. Nothing
+  located in this cycle validates comomentum against the holdings-based measure. **G-18 therefore stands
+  as a bounded negative, restated rather than closed** — the second consecutive cycle in which the
+  register could not close it, which is itself the honest state of the question.
+- **Effect on the dossier: no score change (69.0).** Mechanism 4/5 (the chain is intact, and the
+  crowding state is now better documented as a construct); evidence 4/5 (the state's constructibility
+  is *strengthened* by S-186, but the candidate's own two-sided conditioning still has no supporting
+  empirical work); novelty 3/5 (unchanged — the differentiator is still the non-monotone *direction* of
+  the conditioning, which the newest crowding work does not claim); falsifiability 3/5 (unchanged — the
+  crowd proxy remains lagged and noisy); resilience 3/5 and data 3/5 (unchanged — the *validity* of the
+  proxy, not its availability, is the binding constraint). **V-002 remains frozen** and must not be
+  executed: re-specifying IDEA-004 around comomentum without a validation against the holdings-based
+  measure would violate the register's state-proxy method.
+- **What this cycle did *not* do.** It did not close G-18, did not re-score the candidate, and did not
+  license a new proxy. The change is in the *description of the obstacle*: it is no longer "is a
+  holdings-based crowding measure constructible?" but "does any published work validate a contemporaneous
+  proxy against it, and does the two-sided conditioning survive in a modern sample in which crowding is
+  associated with fragility rather than with average returns?"
 
 ---
 
@@ -1677,8 +1798,16 @@ S-097) establish the general intermediary-state → cross-section-of-returns mec
 - **Cycle-2 common exposure:** IDEA-005, IDEA-006 and IDEA-007 are all non-equity candidates, and
   two of them (IDEA-006, IDEA-007) are FX positions that will load on the dollar and on the
   funding-coinage factor, and both can be short the funding currency. The register now has
-  *market* diversification but a *factor* concentration in the dollar; that concentration should
-  be stated in any portfolio-level discussion.
+  *market* diversification but a *factor* concentration in the dollar; that concentration should be
+  stated in any portfolio-level discussion.
+- **IDEA-015 (parked) shares IDEA-013's and IDEA-014's mechanism and IDEA-008's constraint.** All
+  three of those candidates are "a dated, price-insensitive institutional flow buys a liquidity
+  concession"; IDEA-015's flow is scheduled by a *legal safe harbour* rather than by a regulator's
+  quota, so it is the third instance of the register's core template and a check on the template's
+  generality. Its short leg also depends on **borrow cost**, so it inherits IDEA-008's constraint and
+  the register's standing gap **G-14** (a public borrow-cost series is dated, not before 29 March
+  2029): if borrow cost cannot be observed at decision time, IDEA-015's cost floor cannot be
+  evaluated — which is a second, independent reason to keep it parked.
 
 ---
 
@@ -2966,6 +3095,247 @@ position, and is that difference larger than the venue's round-trip cost?
   IDEA-001's rejection and the re-scores of IDEA-004 and IDEA-009). **G-15 remains open** and no
   validation specification is written.
 
+**Cycle 30 G-15 advance — the deadline's movement is rule-determined, and the sign-determining state
+exists before the deadline only in *projected* form; no score change (60.0); G-15 sharpened into G-20.**
+- **What was searched.** G-15 asks whether the published RIN price series shows a state-determined
+  pre/post-deadline difference. This cycle did not look for a price pattern — that is a validation
+  question and is out of scope here — but for the **state's publication status before the deadline**,
+  because that determines whether a two-sided sign test can be run at all.
+- **Finding 1 — the deadline's movement is rule-determined (S-184).** The EPA's 16 October 2026 proposed
+  rule states the **automatic extension mechanism** at 40 CFR 80.1451(f)(1)(i)(C): if the EPA neither
+  finalises nor withdraws the proposed revision to the 2026 RFS standards within 12 months of its
+  publication, the next quarterly reporting deadline moves. The candidate's prediction 4 ("a moved
+  deadline is a test, not an exception") therefore rests on a **rule** rather than on discretion, which
+  strengthens the design, and it creates a **second dated test event** — the 2026 compliance year,
+  currently 31 March 2027 — whose trigger is published rather than discretionary.
+- **Finding 2 — the sign-determining state is only *projected* before the deadline (S-184, S-185).** For
+  the 2025 compliance year the EPA *projected* an exempted Renewable Volume Obligation of **990 million
+  RINs**; the proposed rule states that the relief leaves obligated parties with obligations **770 million
+  RINs fewer** than the EPA projected in the Set 2 Rule; and the rule states explicitly that **"reported
+  2025 exempted fuel volumes will not be available until after the 2025 compliance reporting deadline of
+  October 1, 2026"**. The *realised* net obligated position — the state that decides the sign — is
+  therefore published **after** the deadline it informs, while the *projected* position is published
+  before it. EPA's public data estate does publish the obligation side as a **named data category**
+  ("Renewable Volume Obligations"), monthly generation and volume-production files on roughly a
+  one-month lag, and a participant-level **RIN Holdings** report by balance year and balance quarter
+  (S-185) — so a *projected* state is constructible in principle, but it is an inference from published
+  projections and holdings, not a published net-obligated-position series.
+- **Effect on the dossier: no score change (60.0); G-15 stays open but is now a precise question; one
+  new gap.**
+  - **G-15 (sharpened, still open):** does the published RIN price series show a state-determined
+    pre/post-deadline difference, *conditional on the projected* net obligated position? The projection
+    is the only pre-deadline state, so the two-sided sign test must be run on it, and the realised
+    position is a post-hoc control, never an input.
+  - **New gap G-20:** is the *projected* net obligated position a sufficient sign-determining state, or
+    does projection error swamp it? The projection has already been revised once — from the Set 2 Rule's
+    projection to the 770 million RIN relief — and if the revision band exceeds the state that decides
+    the sign, the candidate's sign test is not runnable and the candidate must be re-specified or parked.
+  - Scores unchanged: mechanism 4/5; evidence 2/5 (no published price-pattern work located; the new
+    sources are legal and institutional, not empirical); novelty 3/5; falsifiability 3/5 (the
+    rule-determined deadline strengthens the design, but the **cost floor** (S-133) remains the binding
+    kill condition and the sign test now carries a projection-error caveat); resilience 2/5 (unchanged —
+    squeeze risk on the short side); data 4/5 (unchanged — the obligation side is published in principle,
+    but the realised state is post-deadline, which is a constraint the dossier already carried).
+  - **No validation specification is written.** V-008 stays withdrawn and the candidate remains at the
+    bottom of the ranking, unchanged in score and rank.
+
+---
+
+## IDEA-015 — PLAN-SUPPLY: pre-announced, non-discretionary insider supply as a dated, published, price-insensitive shock
+
+- **ID / short name:** IDEA-015 / PLAN-SUPPLY
+- **Date added:** 2026-10-20 · **Cycle:** 30 · **Status:** **parked (P-011)** · **Version:** 1.0
+- **Change notes:** v1.0 — new dossier, entered as a *screened family* result of Cycle 30. The
+  register's first candidate whose decision-time state is published by **corporate disclosure law**
+  rather than by a market operator, a regulator or an exchange. Entered parked because the nearest
+  published evidence is about a *different event* (plan adoption around earnings, S-183) and the
+  effect's size is most likely below the cost floor for most names.
+
+**One-sentence hypothesis.** Officers and directors who sell under a Rule 10b5-1 plan sell on a
+schedule they chose months earlier and cannot revise without resetting a regulatory cooling-off
+period; because the plan's adoption, duration and maximum aggregate size are disclosed quarterly and
+the remaining capacity is reported on Form 4, a security's *future scheduled insider supply* is a
+published, decision-time state — and the price pressure that supply creates is a dated concession.
+
+**Plain-language description.** An executive who wants to sell shares signs a plan months in
+advance: the plan fixes roughly how much, over what window, and usually at what prices. Since
+December 2022 the SEC has required the company to publish the plan's adoption date, its duration and
+its maximum aggregate size every quarter, and the insider's Form 4 reports each sale with a
+"10b5-1 plan" box and the plan's adoption date — sometimes with the shares the plan still has left.
+The seller cannot change course mid-window without restarting a 90-day cooling-off period. So the
+market can *see* the supply coming. The candidate's question is whether seeing it is worth anything.
+
+**Mechanism (causal chain).**
+1. *Rule and safe harbour.* Rule 10b5-1(c) offers an affirmative defence to a trade made under a
+   plan adopted while the insider is not in possession of material non-public information, which
+   specifies the amount, the price or price range and the timing, and over which the insider
+   exercises no subsequent influence; the 2022 amendments extend the defence, impose a mandatory
+   cooling-off period (the later of 90 days after adoption and two business days after the filing of
+   the 10-Q/10-K covering the quarter of adoption), bar overlapping plans, and require plans to be
+   adopted and operated in good faith (S-182).
+2. *The flow is scheduled and non-discretionary.* A plan's amount and timing are fixed in advance and
+   the insider cannot accelerate into a price move without invalidating the safe harbour and
+   restarting the cooling-off period (S-182). This is the register's recurring "dated,
+   price-insensitive, knowable-in-advance" structure, with the difference that the participant's
+   constraint is a *legal safe harbour* rather than a regulatory quota or an index rule.
+3. *The state is published.* Item 408(a) of Regulation S-K requires quarterly disclosure in the
+   10-Q/10-K of trading arrangements, their adoption and termination dates, their duration and the
+   **aggregate number of securities to be sold or purchased**; Form 4 reports each plan sale within
+   two business days with the plan checkbox and the plan's adoption date, and in at least some
+   filings the plan's **remaining** capacity (S-182, S-187).
+4. *Expected price pressure.* Scheduled supply arrives against finite liquidity; liquidity providers
+   who know the schedule can pre-position, so the concession is paid before or during the execution
+   window rather than at a fixed instant.
+5. *Reversal.* When the plan's capacity is exhausted or its window closes, the scheduled supply stops
+   and the price pressure unwinds — unless a new plan rolls in.
+6. *Hence the claim.* Scheduled insider supply is a dated, published, price-insensitive supply shock
+   whose price pressure is predictable from the published schedule.
+
+**Expected return source.** A liquidity concession paid by informed liquidity providers to
+pre-position ahead of scheduled, non-discretionary supply that the market can see but cannot
+accelerate away; the return is the pre-window price pressure (or its absence) net of borrow and
+execution costs.
+
+**Originality.**
+- *Closest known work:* the insider-trading literature and the buyback/insider-purchase effect
+  rejected as a known baseline in R-005; the SEC's own adopting release and economic analysis
+  (S-182) and its 2022 proposed release (S-183), whose literature review records that a study of
+  Form 144 data on plan trades (January 2016 – May 2020) documents plan-based selling behaviour, and
+  that work by Hugon and Lee on plans and strategic trading around earnings announcements finds
+  abnormal returns of roughly **−2% to −3%** for plans that execute a sale in the window between a
+  plan's adoption and that quarter's earnings announcement, **no price drop** after the earnings
+  announcement, and no such effect where the cooling-off period exceeded 60 days.
+- *What is already known:* (i) insider transactions predict returns — a known baseline (R-005);
+  (ii) plan-based sales dominate the modern insider-selling population (S-187, a vendor statistic,
+  unaudited); (iii) **plan timing has published price effects attached to the *adoption* window and
+  to information events, not to the mechanical execution of a disclosed schedule** (S-183); (iv) the
+  rule, the disclosure regime and the cooling-off period are published law (S-182).
+- *Substantive differentiator claimed here:* the **state** — a security's *remaining scheduled
+  insider supply*, disclosed quarterly under Item 408(a) and updated on Form 4 — used as a
+  decision-time gate on a supply-pressure trade, with the trade's direction determined by whether the
+  remaining supply is being executed into strength or weakness. This is not R-005's "insider buys →
+  returns" channel (different participant constraint: no discretion, a fixed maximum size, a
+  published schedule) and it is not S-183's "plan adoption is strategically timed" channel (different
+  event: execution, not adoption).
+- *Honest classification:* **an incremental variant of a documented family with a new, published state
+  variable.** The family is a known baseline; what is claimed as new is the scheduled-supply state
+  and the trade built on it.
+- *Confidence in the comparison:* **low-to-moderate.** The plan literature is recent, the located
+  price-effect evidence concerns a different event, and no paper was located that constructs a
+  "remaining scheduled supply" state.
+
+**Target scope.** US-listed equities with a Section 16 officer or director; small- and mid-cap names
+in which scheduled insider sales are a non-trivial share of median daily dollar volume; horizons from
+days (pre-window positioning) to weeks (the window itself); exclude sell-to-cover sales tied to
+vesting and tax withholding, which are mechanically linked to compensation events rather than being
+scheduled discretionary supply.
+
+**Observables.** Item 408(a) quarterly tables (adoption date, termination date, duration, aggregate
+maximum shares, plan or not, from 10-Q/10-K); Form 4 filings (plan checkbox, plan adoption date,
+transaction date, size, price, and where reported, remaining plan capacity); daily prices and
+volumes; short interest and borrow cost for the short leg; a pre-specified liquidity benchmark
+(trailing median dollar volume) to scale the supply.
+
+**Rule sketch (descriptive, non-executable).** Each quarter, parse Item 408(a) tables to build, per
+security, the set of live plans with adoption date, duration and maximum aggregate size; subtract the
+plan sales already reported on Form 4 to obtain remaining scheduled supply; scale by trailing median
+dollar volume to obtain a supply-to-liquidity ratio; where remaining scheduled supply exceeds a
+pre-registered threshold relative to liquidity and the price has not already moved, take the short
+leg in expectation of pressure from the scheduled supply, with a pre-registered exit at the plan's
+window end or when remaining capacity is exhausted.
+
+**Persistence argument.** The 10b5-1 plan is the default legal route for insider sales, because the
+affirmative defence is available only for pre-arranged trades (S-182); the 2022 amendments make the
+plan *more* central, not less. Plan-based sales are a structural feature of US equity supply,
+refreshed each quarter as compensation vests and each filing cycle produces new plans, so the
+pressure is repeated rather than one-off.
+
+**Constraints and capacity.** Scheduled insider sales are a small fraction of market volume for most
+names, so the effect is plausibly above the cost floor only in smaller names — which are also the
+most expensive to borrow and the least liquid. The trade consumes exactly the liquidity it prices, and
+informed liquidity providers compete for the same concession.
+
+**Regime sensitivity.** The effect should be strongest when the security is small relative to the
+plan size, when the plan's window is short and front-loaded, when the tape is rising (plan sales are
+usually market or limit orders that execute more readily into strength), and when the window is not
+coincident with an information event. It should be weakest around earnings announcements, where plan
+sales cluster with information events (S-183) and the sign is confounded.
+
+**Falsifiable predictions and kill conditions.**
+1. *Cross-sectional:* securities with the largest remaining scheduled supply relative to liquidity have
+   more negative abnormal returns over the pre-window period than matched securities. **Kill:** no
+   cross-sectional difference, or the wrong sign.
+2. *Within-name:* the abnormal return into the plan's window end is negative and reverses after the
+   window closes. **Kill:** no reversal.
+3. *Dose-response:* the effect scales with the remaining supply-to-liquidity ratio, not with plan
+   existence.
+4. *Exogeneity:* the effect survives controls for earnings-announcement dates, index rebalances and
+   overlapping plan windows, and is stronger for plans whose windows are *not* near earnings (S-183).
+5. *Cost floor:* the gross concession must exceed round-trip cost including borrow on the short leg.
+6. *Decay:* if the effect is competed away it should shrink over calendar time; a stable effect over a
+   decade would itself be evidence against the mechanism.
+
+**Confounders and rival explanations.** (i) Earnings and information events: plan sales cluster around
+earnings, so the price move is information rather than supply. (ii) The adoption-timing channel
+(S-183): abnormal returns attach to the *adoption* window, so a rule keyed to execution must exclude
+adoption windows. (iii) Insider *buys*, which carry the opposite sign and are discretionary.
+(iv) Compensation events: sell-to-cover sales tied to vesting are mechanically linked to the vesting
+date and are not evidence of scheduled discretionary supply. (v) Option-expiry and index-rebalance
+collisions. (vi) Vendor-constructed datasets with survivorship and plan-classification error.
+
+**Data requirements and feasibility for a future independent validation.** EDGAR filings (10-Q/10-K
+Item 408(a) tables; Form 4 XML), daily prices and volumes, short interest. Feasibility:
+**medium-low** — every input is public, but a security-level panel with a reliable plan-by-plan
+capacity reconciliation must be built from thousands of filings, and which plan a given Form 4 sale
+draws on is not always disclosed.
+
+**Theory/evidence status.** Conceptual rationale: supported for the *rule* and the *publication* of the
+state (S-182, S-183); **unsupported** for the price-pressure link, for which no published work was
+located in this cycle. Mechanism supported by sources: partially — the flow's scheduled,
+non-discretionary character is documented; the price effect is not. Prior empirical support reported
+by others: for plan-timing price effects around adoption (S-183, as characterised by the SEC); for
+insider-trading informativeness generally (a known baseline, R-005). Unresolved: whether the
+*execution* window carries a distinct, tradeable price effect once information events are excluded.
+
+**Remaining uncertainty / confidence.** Confidence in the mechanism: moderate (the rule and the
+disclosure are certain; the price link is conjectural). Confidence that the state is decision-time:
+high (quarterly Item 408(a) plus Form 4 updates). Confidence that the effect survives costs: low.
+Priority score **61/100** — mechanism, causal coherence and persistence **4 → 20.0**; evidence
+quality and independence **2 → 8.0**; substantive novelty **3 → 9.0**; falsifiability **4 → 12.0**;
+resilience to costs, crowding and decay **2 → 6.0**; data availability **3 → 6.0**.
+**Status parked (P-011), not ranked** — a parked candidate is not in the ranking because its
+precondition is open; if G-21 closes in the candidate's favour it would enter between IDEA-010
+(65.0) and IDEA-009 (60.0).
+
+**Cycle 30 screen (G-13 publication timing; G-12 sign or existence) — G-13 PASS, G-12 PASS on the
+existence limb; parked (P-011) on evidence.**
+- **G-13 — PASS.** The state is published by the issuer (Item 408(a), quarterly, in the 10-Q/10-K)
+  and by the insider (Form 4, within two business days of the trade), both before or at the time of
+  the supply they describe, so a rule can be run on public information. This is the register's
+  cleanest *legal-disclosure* instance of a decision-time state.
+- **G-12 — PASS on the existence limb.** The claim is that the effect exists only where scheduled
+  supply is large relative to liquidity, so the state conditions the *existence* of a tradeable
+  concession rather than merely its size.
+- **Why parked rather than retained.** The register rejects only when a published result *shows* the
+  candidate's effect, and nothing published shows this effect — so the candidate is not rejected. But
+  the register also does not promote a candidate whose nearest published evidence concerns a
+  different event (plan *adoption* around earnings, S-183) and whose magnitude is most likely below
+  the cost floor for most names. It therefore enters as **parked (P-011)** with one unblocking
+  condition, **G-21**: is there published work that (a) constructs a security-level *remaining
+  scheduled supply* state from Item 408(a) and Form 4 filings, and (b) documents a price effect
+  attached to the *execution* window rather than the adoption window? If yes and the effect is
+  positive, the candidate is re-scored and enters the ranking; if the answer is a published null on
+  execution-window price pressure, the candidate is rejected; if nothing is published, it stays
+  parked with an evidence-first condition. **No validation specification is written**; V-010 is not
+  opened.
+
+**Role in the portfolio.** The register's first candidate in a *pre-announced, non-discretionary
+insider supply* family, and the first whose state is published by corporate disclosure law rather
+than by a market operator, a regulator or an exchange. The economics are ordinary
+liquidity-provision economics; the register's claim is only that the *schedule* is unusually well
+published — which is exactly the kind of claim that must be earned with a price-effect literature
+this cycle did not find.
+
 ---
 
 ## State-proxy methodological note (closing section)
@@ -3081,7 +3451,23 @@ S-126; **parked (P-010)**, G-14), IDEA-009 (funding rate, published by venue —
 (partial: the flow leg passes, the AP-stress leg is commercial and unvalidated — G-16), IDEA-013
 (published state, but **fails condition (e)** for the pre-2023 regime — parked, P-008), IDEA-014
 (passes (e) — the obligation's size is codified (S-128), the deadline is published by regulation
-(S-129) and moves only by published rule (S-131)).
+(S-129) and moves only by published rule (S-131)), IDEA-015 (passes (e) — the state is published by
+**disclosure law**: Item 408(a) quarterly tables and Form 4 plan disclosures (S-182, S-187);
+**parked (P-011)** on evidence, G-21).
+
+**7. A fourth kind of state publisher, added in Cycle 30: securities-law disclosure.**
+The register's venue pattern has been "a market operator, a regulator or a settlement utility
+publishes the state" (condition (e) above). IDEA-015 is the first candidate whose state is published
+by **corporate disclosure law** instead — the issuer must file the plan's material terms quarterly,
+and the insider must file each plan sale within two business days (S-182, S-187). This class has
+two properties that the other publishers do not: the state is **mandatory and standardised** (no
+vendor discretion, no publication discretion) and its **cadence is statutory**. It also has two
+limitations: the state is **coarse** (an aggregate maximum size and a window, not an execution
+schedule) and the **reconciliation** of individual Form 4 sales to individual plans is not always
+disclosed, so the state must be *constructed* rather than read. The register's methodological
+conclusion is unchanged — a state must still be published *before* the decision, and it must still be
+valid for the quantity being conditioned — but a future cycle looking for a new venue should look
+for this class of publisher first, and should expect to pay for the construction step.
 
 ---
 

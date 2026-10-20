@@ -420,3 +420,94 @@ has been tested. It explicitly requires source-gap labelling rather than gap-fil
 - No new dossiers or sources added.
 - No tests, data acquisition, or code.
 - No modifications to canonical prompt.
+
+---
+
+## Cycle 30 — 2026-10-20 — Prior-art and convention audit (IDEA-003), crowding-state closure attempt (IDEA-004), RIN state audit (IDEA-014), one new family screen (10b5-1 plan supply)
+
+**Cycle objective.** Cycles 18–29 were twelve consecutive tie-monitor passes that changed no score,
+no source and no dossier. The mission prompt forbids exactly that: "Continue searching for new
+substantive mechanisms rather than repeatedly tuning a candidate that has already been described",
+and the register's own cross-cutting note 4 names the highest-value operation as "re-reading an
+existing candidate against newer literature". Cycle 30 therefore did three evidence operations on
+the three most consequential active candidates, screened one new mechanism family, and recorded one
+bounded negative. Nothing was executed, tested or downloaded.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Draft task: (a) *IDEA-003* — the register's rank-1 candidate — is the one whose
+novelty rests on the least-verified claim ("the gate"). Search the conditional-VRP-harvesting
+literature (2024–2026) and the premium-measurement literature for (i) any published strategy that
+conditions variance-premium harvesting on a decision-time state, and (ii) any published statement of
+what the "premium" is measured against. (b) *IDEA-004* — re-run G-18 with a different framing than
+the thirteen prior "find a validation paper" searches: ask instead whether published work constructs
+a *decision-time, filing-resolved, holdings-based* crowding measure and what it says about return
+prediction. (c) *IDEA-014* — establish whether the sign-determining state (the net obligated
+position) is published *before* the compliance deadline, since that decides whether G-15's two-sided
+sign test is runnable at all. (d) Screen one new mechanism family with a published decision-time
+state and a date-bound, price-insensitive flow.
+
+**Pass 2 — Critique.** Pass 1 risks three specific errors. (i) Searching for "a paper validating
+comomentum against holdings-based crowding" for a fourteenth time is a null operation; the framing
+must change. (ii) Any IDEA-003 literature hit could be read as either *support* (the mechanism is
+real) or *contradiction* (the gate is published), and the register's rule requires the difference to
+be resolved by reading what the paper actually measures, not by its title. (iii) A new family must
+clear the register's own bar — a published decision-time state, a dated price-insensitive flow, a
+sign-determining state, and no published result already showing the effect — or it must be logged as
+a bounded negative rather than dressed up as a candidate.
+
+**Pass 3 — Revise.** Revised task: (a) read the two IDEA-003 sources *for their measurement
+convention* and, if the convention matters (it does), amend the candidate's specification rather than
+re-score it; (b) keep the G-18 search but reframe it as a *state-construction* question and accept a
+restated bounded negative as a legitimate outcome; (c) for IDEA-014 ask the *publication-status*
+question, not the price-pattern question, and treat "the state exists only in projected form" as a
+legitimate finding; (d) for the new family, prefer a family whose state is published by **law**
+rather than by a market operator, and require that any candidate it produces enters **parked** with
+an explicit unblocking condition unless the price-effect literature supports it.
+
+### Outcome
+
+- **IDEA-003 VRP-STATE — no score change (71.0), material narrowing.** Two new sources: S-180
+  (Konstantinidi & Skiadopoulos, *Journal of Banking & Finance* 2016, Crossref-verified) publishes
+  that state-conditioned volatility-trading strategies beat buy-and-hold and naive short-vol after
+  costs — so "gate the variance-premium harvest on a state" is a **published strategy family**, and
+  the candidate is reclassified as an **incremental variant** of published conditional-VRP work.
+  S-181 (a 2026 SSRN preprint) frames the premium in the candidate's own vocabulary as a
+  crash-conditional tail premium that is "not harvestable carry". Critically, S-181 measures the
+  premium as implied minus **subsequently realised** variance, whereas the candidate claims the
+  **expected** premium collapses in crash-imminent states; the two quantities can move in opposite
+  directions in the same state. **V-003 was amended** to fix the convention ex ante and to state that
+  an ex-post null is **not** a kill; **G-19** opened for the residual.
+- **IDEA-004 SLOWCAP-COND — no score change (69.0).** S-186 (Hu & Shen, *Finance Research Letters*,
+  8 October 2026, OpenAlex-verified) shows the holdings-based crowding construction is now an active
+  published object (13F holdings, 2013Q2–2025Q4) and associates crowding with prices, comovement and
+  **fragility**, not with a return-predictive rule. G-18 is **restated, not closed**; V-002 stays
+  frozen.
+- **IDEA-014 RIN-DEADLINE — no score change (60.0).** S-184 (EPA proposed rule, 91 FR 65699,
+  16 October 2026, Federal Register API verified) establishes that the compliance deadline's
+  movement is **rule-determined** (an automatic extension mechanism) and that the **realised** state
+  publishes only *after* the deadline it informs, while the projected state publishes before it.
+  S-185 records EPA's published data categories, including "Renewable Volume Obligations" and the
+  participant-level RIN Holdings report. G-15 sharpened; **G-20** opened.
+- **New family screened; one new candidate entered, parked.** IDEA-015 **PLAN-SUPPLY** (61.0,
+  P-011): pre-announced, non-discretionary insider supply under Rule 10b5-1 plans, whose state is
+  published by **corporate disclosure law** (Item 408(a) quarterly tables; Form 4 plan disclosures;
+  S-182 the 2022 final rule, 87 FR 80362; S-183 the 2022 proposed release, 87 FR 8686). Parked
+  because the nearest published price effect attaches to plan *adoption* around earnings, not to the
+  execution of a disclosed schedule. **G-21** opened.
+- **One bounded negative.** R-012: the statutory payment-date liquidity-drain family (US corporate
+  estimated tax dates) — funding-market manifestation published (S-160, S-161, S-162), no surprise
+  component, no published decision-time state isolating the payment due.
+- **Artifacts updated:** `source_ledger.md` (S-180 … S-187), `idea_register.md` (three Cycle-30
+  blocks, one new dossier), `ranked_shortlist.md` (table flags, parked table, cross-cutting notes 10
+  and 11), `validation_handoffs.md` (V-003 amendment), `rejected_and_parked.md` (R-012, P-011, five
+  baseline rows), `cycle_notes.md` (this entry), `next_agent_handoff.md` (rewritten for Cycle 31).
+
+### What this cycle did not do
+
+- No score changed, no candidate was rejected, no validation specification was executed.
+- **No new validation specification was written** — the top three are unchanged, so V-010 stays free.
+- No backtest, simulation, parameter sweep, data download, strategy code, test or workflow edit.
+- No modification to the canonical prompt.
+- Trade-press figures for the 2026 tax-date drain were deliberately **not** recorded, because they
+  could not be verified in this cycle; the family screen rests on the register's own ledger entries.

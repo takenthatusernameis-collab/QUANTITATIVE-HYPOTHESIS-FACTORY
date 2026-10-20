@@ -3894,3 +3894,212 @@ URL: https://academic.oup.com/rfs/article-abstract/28/4/1242/1928671
 ## Cycle 14 (continued) gap verdicts
 
 - **G-18 — BOUNDED NEGATIVE (no validated substitute; V-002 stays frozen).** G-18 asks whether a return-correlation crowding measure (comomentum, S-157: Lou & Polk 2021, RFS 35(6): 3272–3302) is a valid substitute for a holdings-based crowding measure (S-026: Brown, Howard & Lundblad 2021, RFS 35(7): 3231–3271, built from 13F-style hedge fund holdings with up-to-a-quarter reporting lag). S-157 shows comomentum is *correlated with* existing arbitrage-activity proxies, including institutional ownership of the winner decile (13F-based) and Chen–Da–Huang (2019) net arbitrage trading (abnormal hedge fund holdings minus abnormal short interest), and that comomentum forecasts momentum returns, volatility and skewness. But S-157 never tests whether comomentum is a valid *substitute* for the holdings-based measure, and no head-to-head validation of correlation-based vs holdings-based crowding was located in a bounded search across thirteen cycles. The closest comparison is a factor-crowding study (Dell, "Crowding and Factor Returns", SSRN 3803954) which finds its direct position-based crowding measure remains significant while the Lou–Polk correlation-based proxy adds little incremental predictive power once position-based crowding is included — i.e. the holdings-based measure subsumes rather than is replaced by the correlation-based proxy. Conclusion: comomentum is decision-time and free (S-157) but is **not a validated substitute** for S-026's holdings-based crowding. IDEA-004 must not be re-specified around an unvalidated proxy (register method). **V-002 (IDEA-004) remains frozen pending G-18 closure.** If a direct validation/comparison paper is located in a future cycle, G-18 can be reopened; otherwise it stands as a bounded negative.
+
+## Cycle 30 sources (2026-10-20)
+
+### S-180 — Konstantinidi, E. and Skiadopoulos, G. (2016)
+"How does the market variance risk premium vary over time? Evidence from S&P 500 variance swap
+investment returns." *Journal of Banking & Finance* 62: 62–75.
+DOI: https://doi.org/10.1016/j.jbankfin.2015.10.006 · working-paper version: SSRN 2502822
+(https://doi.org/10.2139/ssrn.2502822, 2014).
+- **Type:** Prior empirical result (author-reported), peer-reviewed.
+- **Supports (for IDEA-003):** the variance risk premium's time variation is predictable from
+  decision-time state variables, and **volatility-trading strategies that condition on those states
+  outperform both buy-and-hold and the naive short-volatility strategy even after transaction
+  costs**; the best-performing specification conditions on trading activity; and broker-dealers
+  command a larger premium when trading conditions (their funding) deteriorate, extending the
+  broker-dealer funding result of Adrian and Shin. For the register this is **prior art for the
+  state-conditioned harvest**: "gate the variance-risk-premium harvest on a decision-time state" is
+  a published *strategy family*, not an unclaimed idea. IDEA-003's residual is therefore narrowed to
+  (i) the *state* — an option-surface-implied imminent-crash signal rather than trading activity —
+  and (ii) the *sign* claim (the premium's harvestability, not merely its size, flips).
+- **Caveats:** the paper measures the premium from **variance-swap quotes**, not from listed
+  options, and the conditioning variable is trading activity rather than crash risk; it predates the
+  modern option market structure (0DTE and retail flow, S-169) and therefore predates S-177's
+  finding that traded-option alphas have decayed to approximately zero; it does not test a
+  crash-state gate.
+- **Verification:** **Crossref API fetched directly** — title, both authors (Eirini Konstantinidi,
+  George Skiadopoulos), journal (*Journal of Banking & Finance*), volume 62, pages 62–75, issue date
+  2016-01, DOI 10.1016/j.jbankfin.2015.10.006, Elsevier BV, ISSN 0378-4266, and the Elsevier PII
+  S0378426615002836 all confirmed in the response. The working-paper identifier (SSRN 2502822,
+  DOI 10.2139/ssrn.2502822) was returned by the same Crossref query in a separate row and is
+  recorded on that basis. The quoted findings come from search-index excerpts of the published
+  abstract and article text (including the working-paper version); the Crossref reference list also
+  shows the paper citing Adrian and Shin's "Liquidity and leverage" (*Journal of Financial
+  Intermediation* 19: 418), which is consistent with the funding-conditions claim above.
+
+### S-181 — Ahmed, S. (2026)
+"The Variance Risk Premium Across Markets and Regimes: A Downside, Crash-Conditional Risk Premium,
+Not Harvestable Carry." SSRN working paper 7046559, dated 3 June 2026.
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7046559
+- **Type:** Preprint (author-reported), **not peer reviewed**.
+- **Supports (for IDEA-003 — both as prior art and as a convention warning):** the paper characterises
+  the variance risk premium as "a downside, crash-conditional risk premium, compensation for a
+  systematic tail rather than harvestable carry"; states that the premium "is crash-conditional only
+  in an entry-timing sense (selling volatility into a jump loses)"; states that "the regime-average
+  premium stays positive through every crisis and widens in high-stress and high-credit-spread
+  states, when fear over-prices the volatility that subsequently mean-reverts"; and concludes that
+  the premium is not harvestable carry because "even voltargeted and overlaid it retains an
+  irreducible left tail". In register terms: **(a) the *interpretation* the candidate is built on —
+  the premium as compensation for a tail, and the harvest's entry timing as the binding risk — is
+  now published in the candidate's own vocabulary; (b) the published *sign* in crash-adjacent states
+  is the opposite of the candidate's naive reading, because the paper measures the premium ex post;
+  and (c) the residual left tail is documented against the harvest.**
+- **Caveats:** a single-author preprint with no refereeing and author-reported magnitudes (an
+  annualised Sharpe above six in a calm year; a cross-sectional information coefficient up to 0.84);
+  **its premium is defined as option-implied minus *subsequently realized* volatility**, an
+  ex-post convention, whereas IDEA-003's gate claim is about the *expected* premium (model-free
+  implied minus the physical conditional expectation of variance) — the two conventions can move in
+  opposite directions in the same state, which is precisely why the candidate's specification must
+  now name its convention; the underlying datasets are the author's own assembled files, not
+  independently reproduced here.
+- **Verification:** read via the search index (SSRN abstract-page render); the SSRN identifier
+  7046559, the date 3 June 2026 and the abstract wording come from that render. The SSRN page
+  itself was not fetched directly in this cycle, so the entry is **index-rendered, not
+  independently verified**.
+
+### S-182 — U.S. Securities and Exchange Commission (2022)
+"Insider Trading Arrangements and Related Disclosures." **Final rule**, published at **87 FR 80362**
+(29 December 2022), FR Doc 2022-27675.
+URL: https://www.federalregister.gov/documents/2022/12/29/2022-27675/insider-trading-arrangements-and-related-disclosures
+- **Type:** Regulator final rule (**primary legal instrument**; not peer reviewed).
+- **Supports (for IDEA-015):** the amendments to Rule 10b5-1 and the new **Item 408(a) of
+  Regulation S-K** require issuers to disclose, **quarterly** in Form 10-Q/10-K, the adoption,
+  modification and termination of trading arrangements by directors and officers and the **material
+  terms**, including the date of adoption or termination, the **duration** of the plan and the
+  **aggregate number of securities to be sold or purchased** under it; the final rule also imposes a
+  **mandatory cooling-off period** for officer and director plans (the later of 90 days after
+  adoption and two business days after the filing of the 10-Q/10-K covering the quarter of
+  adoption), requires that most plan modifications restart the cooling-off period, bars the
+  affirmative defence where multiple or overlapping plans are used, requires plans to be adopted and
+  operated in good faith, and adds a **Form 4 checkbox** identifying a plan trade together with the
+  plan's adoption date. The register's use: this is the **published, decision-time state** for
+  pre-announced, price-insensitive insider supply — a dated schedule with a disclosed maximum size,
+  available before the trades it describes.
+- **Caveats:** a legal instrument, not evidence of any price effect; the disclosure regime has a
+  compliance phase-in, so the pre-amendment record is not comparable; the item discloses the
+  *maximum* aggregate amount and the plan's window, not the realised execution schedule.
+- **Verification:** **Federal Register API fetched directly** — title, citation 87 FR 80362,
+  publication date 2022-12-29, document number 2022-27675, type "Rule" and agency SEC all
+  confirmed. The substantive content of the amendments was read from law-firm summaries of the same
+  release (Paul Weiss; Freshfields) via the search index.
+
+### S-183 — U.S. Securities and Exchange Commission (2022)
+"Rule 10b5-1 and Insider Trading." **Proposed rule**, published at **87 FR 8686** (15 February
+2022), FR Doc 2022-01140.
+URL: https://www.federalregister.gov/documents/2022/02/15/2022-01140/rule-10b5-1-and-insider-trading
+- **Type:** Regulator proposed rule (primary legal instrument; contains the economic analysis and the
+  agency's own account of the academic literature).
+- **Supports (for IDEA-015 — prior art):** the release's literature review records that a study of
+  Form 144 data on insider trades under Rule 10b5-1 plans over January 2016 – May 2020 documents
+  the behaviour of plan-based sales, and that work by **Hugon and Lee** on "SEC Rule 10b5-1 Plans
+  and Strategic Trade around Earnings Announcements" finds abnormal returns of roughly **−2% to
+  −3%** for plans that execute a sale in the window between the plan's adoption and that quarter's
+  earnings announcement, **no price drop** following sales after the earnings announcement, and no
+  such effect for plans with a cooling-off period longer than 60 days. For the register this is
+  prior art in the family: **plan timing has published price effects**, and the published effect is
+  attached to *strategic adoption around information events*, not to the mechanical execution of a
+  disclosed schedule.
+- **Caveats:** the release's literature summary is a regulator's characterisation of work it
+  cites; the Hugon and Lee study was **not retrieved directly** in this cycle and is cited only as
+  characterised in the release; the quoted passage was read from a law-firm-hosted copy of the
+  release PDF via the search index, not from the Federal Register text itself.
+- **Verification:** **Federal Register API fetched directly** — title, citation 87 FR 8686,
+  publication date 2022-02-15, document number 2022-01140, type "Proposed Rule", agency SEC
+  confirmed.
+
+### S-184 — U.S. Environmental Protection Agency (2026)
+"Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions."
+**Proposed rule**, published at **91 FR 65699** (16 October 2026), FR Doc 2026-21155.
+URL: https://www.federalregister.gov/documents/2026/10/16/2026-21155/renewable-fuel-standard-rfs-program-reallocation-of-additional-2025-small-refinery-exemptions
+- **Type:** Regulator proposed rule (primary legal instrument; not peer reviewed).
+- **Supports (for IDEA-014, gaps G-15 and G-20):** (i) the **automatic extension mechanism** at
+  40 CFR 80.1451(f)(1)(i)(C) is stated in the rule: if the EPA neither finalises nor withdraws the
+  proposed revision to the 2026 RFS standards within 12 months of publication, the **next quarterly
+  reporting deadline** moves — so the operative compliance deadline is rule-determined rather than
+  discretionary, which is a stronger basis for the candidate's prediction that a moved deadline is a
+  test rather than an exception; (ii) for the 2025 compliance year the EPA **projected** that small
+  refinery exemptions would result in an exempted Renewable Volume Obligation of **990 million
+  RINs**, with about **700 million RINs** included in the 2027 SRE reallocation volume, and states
+  that the relief leaves obligated parties with obligations **770 million RINs fewer** than the EPA
+  projected in the Set 2 Rule; and (iii) the rule states that **"reported 2025 exempted fuel volumes
+  will not be available until after the 2025 compliance reporting deadline of October 1, 2026"** —
+  i.e. the **realised** sign-determining state is published only *after* the deadline it informs,
+  while the **projected** state is published before it.
+- **Caveats:** a proposed rule, not final; the 990 million and 770 million RIN figures are EPA
+  projections and estimates that have already been revised once against the Set 2 Rule; the quoted
+  passages were read via the search index from the public-inspection PDF of the rule
+  (public-inspection.federalregister.gov), not from the Federal Register text.
+- **Verification:** **Federal Register API fetched directly** — title, citation 91 FR 65699,
+  publication date 2026-10-16, document number 2026-21155, type "Proposed Rule", agency
+  Environmental Protection Agency confirmed.
+
+### S-185 — U.S. Environmental Protection Agency
+"Public Data for the Renewable Fuel Standard" and "Available RINs" (regulator data pages).
+URLs: https://www.epa.gov/fuels-registration-reporting-and-compliance-help/public-data-renewable-fuel-standard
+· https://www.epa.gov/fuels-registration-reporting-and-compliance-help/available-rins
+- **Type:** Regulator data publication (institutional; not peer reviewed).
+- **Supports (for IDEA-014, gaps G-13/G-15/G-20):** EPA's public RFS data estate publishes, as
+  **named data categories**, RINs Generated, Available RINs, RIN Trades and Price, RIN Use, Small
+  Refinery Exemptions and **Renewable Volume Obligations**; monthly generation and
+  volume-production files are published per month (the 2026 file list runs one file per month, with
+  September 2026 already posted in October 2026, i.e. a lag of roughly one month); the **RIN
+  Holdings** report summarises RINs held by balance year and balance quarter from RIN year 2010,
+  split by refiner, importer, exporter and RIN originator; and the price series is a weekly
+  volume-weighted average of cash transactions in EPA's own moderation system, updated monthly.
+  The register's use: the **obligation side** of IDEA-014's state is a named, published EPA data
+  category, and a participant-level holdings report exists — which is what makes a *projected* net
+  position constructible before the deadline.
+- **Caveats:** read via the search index (the EPA pages refused direct fetches in this cycle);
+  the "Renewable Volume Obligations" category is *named* on the public-data page but the page does
+  not state the publication lag of the obligation series, which is exactly the quantity IDEA-014
+  needs; holdings by participant type are not the same thing as an obligated party's deficit, and the
+  RIN Holdings report is not, on its face, a net-obligated-position series.
+- **Verification:** search-index render of the two EPA pages, including the dated monthly file
+  lists. **Not fetched directly.**
+
+### S-186 — Hu, L. and Shen, Y. (2026)
+"Diversified but crowded: Evidence from 13F holdings." *Finance Research Letters* 113: 110885,
+published 8 October 2026.
+DOI: https://doi.org/10.1016/j.frl.2026.110885
+- **Type:** Prior empirical result (author-reported), peer-reviewed journal article.
+- **Supports (for IDEA-004, gaps G-04 and G-18):** the newest holdings-based crowding work measures
+  **manager crowding from 13F holdings** for the largest portfolios over 2013Q2–2025Q4 and reports
+  that "common positions, correlated institutional trading, and shared ownership have been
+  associated with prices, comovement, and fragility". Two things follow for the register. First, the
+  holdings-based crowding construct is an **active, published research object**, so IDEA-004's state
+  is not exotic and its construction is no longer an open methodological question. Second, the
+  association this newest work documents is with **prices, comovement and fragility** — *not* with a
+  return-predictive trading rule — and the paper does **not** validate comomentum against the
+  holdings-based measure, so G-18's bounded negative is reconfirmed against the current literature
+  rather than merely left open.
+- **Caveats:** the abstract was read via the search index and **OpenAlex holds no abstract for the
+  record** (abstract_inverted_index is null); the sample description and the quoted sentence
+  (13F holdings, the largest portfolios, 2013Q2–2025Q4, crowding associated with prices, comovement
+  and fragility) are therefore **index-rendered, not independently verified**; the paper's outcome
+  variables are the author's; the authors' affiliations (Columbia Computer Science; Florida State
+  University Mathematics) indicate a network-science construction, so the return-prediction question
+  IDEA-004 asks is not the question this paper answers — OpenAlex's own topic tagging for the record
+  is *Financial Markets and Investment Strategies* with keywords on institutional investors, portfolio
+  diversification and portfolio concentration, and no abstract to check against.
+- **Verification:** **OpenAlex API fetched directly** (work W7220981499) — DOI, journal (*Finance
+  Research Letters*), volume 113, article number 110885, publication date 2026-10-08, both authors
+  with affiliations and ORCIDs, keywords, and the absence of an abstract in the record. The publisher
+  page refused a direct fetch (HTTP 403), so the quoted sentence is index-rendered.
+
+### S-187 — EdgarHawk (2026)
+"Insider Transactions — Real-Time SEC Form 4 Tracker" (commercial data aggregator).
+URL: https://edgarhawk.com/insider-transactions
+- **Type:** Commercial data aggregator (**secondary, vendor-produced, unaudited**).
+- **Supports (for IDEA-015, magnitude context only):** the aggregator reports, for 16 October 2026,
+  389 Form 4 filings, of which 78 of 101 dispositions (≈77%) were flagged as Rule 10b5-1 plan
+  trades — i.e. in the modern record the large majority of insider *sales* are non-discretionary
+  plan sales, which is the population the candidate's mechanism requires. Individual filings on the
+  same page show Form 4 footnotes reporting plan adoption dates and, in at least one case, a
+  **remaining share count under the plan** ("1,792 remaining shares available to be sold and
+  terminates automatically on July 3, 2026").
+- **Caveats:** vendor statistics with no published methodology and no audit; the sample is a single
+  day; the Form 4 examples were read via the search index and the SEC's own document server refused
+  direct fetches in this cycle, so the "remaining shares" footnote is **index-rendered and not
+  independently verified**; nothing here is evidence of a price effect.
+- **Verification:** search-index render only.

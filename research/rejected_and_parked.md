@@ -493,6 +493,74 @@ effect (the rule that produces R-007, R-009 and R-010).
 
 ---
 
+### R-012 — "Statutory payment-date liquidity drains" as a dated, price-insensitive cross-asset flow (Cycle 30 family screen — bounded negative)
+
+- **The family screened.** Recurring statutory payment dates that move cash from the private sector
+  into the Treasury on a known calendar: US corporate estimated income-tax payments (the four
+  instalment dates set by statute for calendar-year large corporations), payroll-tax deposit dates,
+  and the EU/UK provisional-tax dates. The template is the register's own "dated, price-insensitive
+  institutional flow" template with the *state* being the size of the payment due.
+- **Why no candidate.**
+  1. *The funding-market manifestation is published.* Treasury cash drains are an identified driver of
+     short-term funding-market stress: an IMF working paper quantifies repo-spread swings around
+     debt-ceiling episodes (S-160), and the Federal Reserve's own notes model repo-rate sensitivity
+     to Treasury issuance through the SOMA, the ON RRP facility and the TGA, using the public
+     **TGCR − IORB** spread as the decision-time stress measure (S-161, S-162). A candidate in this
+     family would therefore be re-presenting a published channel, and the register already files the
+     TGA channel as both a baseline and a **cost model**.
+  2. *There is no surprise to price.* The payment dates are fixed by statute years in advance, so the
+     flow is known rather than anticipated; the register's own note on sovereign issuance calendars
+     makes the same point — the announcement is a *news* event whose surprise component requires
+     expectations that are not published (S-142, S-144). A known-date flow can still carry a
+     concession, but only if the *size* or the *timing* of the flow is uncertain, and here both are
+     published.
+  3. *No published decision-time state isolates the payment due.* Aggregate corporate tax receipts
+     are published monthly with a lag, the corporate sector's cash position is published quarterly,
+     and neither identifies the payment that is *due* at a given decision date, nor separates the
+     non-withheld corporate tax (which drains the banking system) from withheld tax (which does not).
+     A candidate built on this family would have to construct that state rather than read it, which
+     is the state-proxy problem the register has already learned to treat as a blocking condition.
+  4. *Confounders of the first order.* Corporate earnings seasons sit near the same calendar dates,
+     and the flow is second-order relative to daily turnover in every asset class the register
+     covers.
+- **Verdict: bounded negative — no candidate.** The family's funding-market channel is published
+  (S-160, S-161, S-162); the cross-asset extension fails on state construction and on surprise. **No
+  external claim is asserted beyond the ledger entries cited above**: the tax-date magnitudes reported
+  in trade press during 2026 were *not* verified in this cycle and are therefore deliberately not
+  recorded here.
+- **Rediscovery guard.** Any future candidate in this family must (i) name the published TGA → repo
+  channel as the funding-market manifestation rather than as a discovery, (ii) construct a
+  decision-time state that isolates the payment due at the decision date and separates non-withheld
+  from withheld tax, and (iii) show a concession that survives the earnings-season and macro-release
+  confounders. Until then the family is a baseline.
+
+### P-011 — IDEA-015 PLAN-SUPPLY: pre-announced, non-discretionary insider supply — *parked in Cycle 30 on evidence (G-21), not rejected*
+
+- **What the candidate is.** A trade keyed to a security's *remaining scheduled insider supply* under
+  Rule 10b5-1 plans: the plan's adoption date, duration and maximum aggregate size are disclosed
+  quarterly in the issuer's Form 10-Q/10-K under Item 408(a), and individual plan sales are reported
+  on Form 4 within two business days with the plan's adoption date and, sometimes, the plan's
+  remaining capacity (S-182, S-187). The supply is scheduled, non-discretionary and price-insensitive
+  because the insider cannot accelerate out of a plan without restarting the regulatory cooling-off
+  period, so the state is a *legal*, statutorily cadenced, published object — the register's first
+  instance of that class (see the shortlist's cross-cutting note 11).
+- **Why it is parked and not rejected.** The register rejects only when a published result *shows* the
+  candidate's effect, and nothing published shows it: the nearest published price evidence attaches to
+  plan **adoption** around earnings announcements — abnormal returns of roughly −2% to −3% for plans
+  executing a sale in the window between adoption and that quarter's earnings announcement, no price
+  drop after the announcement, and no effect where the cooling-off period exceeded 60 days (S-183, as
+  characterised by the SEC) — not to the **execution** of a disclosed schedule. The candidate is
+  therefore parked on an *evidence* question, with the register's IDEA-005-style treatment.
+- **Unblocking condition — G-21.** Is there published work that (a) constructs a security-level
+  *remaining scheduled supply* state from Item 408(a) and Form 4 filings, and (b) documents a price
+  effect attached to the *execution* window rather than the adoption window? A positive published
+  result → re-score and admit to the active ranking (it would enter between IDEA-010 at 65.0 and
+  IDEA-009 at 60.0). A published null on execution-window price pressure → reject. Nothing published
+  → the candidate stays parked with an evidence-first condition.
+- **What it must not do.** It must not be re-specified around an easier state (plan *existence*
+  rather than remaining capacity), must not use sell-to-cover sales tied to vesting and tax
+  withholding, and must not be given a validation specification while parked. **V-010 is not opened.**
+
 ## Known baselines (reference set, not candidates)
 
 These are recorded so that future sessions do not re-present them as discoveries and so that new
@@ -547,6 +615,10 @@ to baselines.
 | **Accelerated share repurchases (added in Cycle 13)** | **Published, peer-reviewed** (S-166, Erickson, Fang & Howe, *JFE* 2011; S-167, Guéant, Pu & Royer, *IJTAF* 2015: the ASR is an Asian option with Bermudan exercise dates and the intermediary's problem is optimal execution with market impact). **This is a baseline**: the mechanism, the pricing and the announcement effects are published, and the discount is private-contract data. |
 | **Crypto token unlock schedules and their price effects (added in Cycle 13)** | **Published by an interested party, not peer-reviewed** (S-170: a market maker's study of more than 16,000 unlock events reports roughly 90% followed by negative price pressure, with the decline typically starting about 30 days before the unlock and stabilising within about two weeks after, and team unlocks the most disruptive). **This is a baseline and a rediscovery guard**: the schedule is published and the sign and window are already stated publicly, and there is no published state that says whether recipients will sell. |
 | **The closing-auction passive execution convention (added in Cycle 13)** | **Documented institutionally and published** (S-149, the index manager's own statement that index funds and ETFs are structurally incentivised to execute in the closing auction because NAVs are struck on closing prices, with Market-on-Close orders dominant; S-150, closing-auction volume at roughly 4–10% of ADV, lower price impact than in the continuous market, and a significant association with passive creation/redemption activity; S-148, passive rebalancing executed at the closing price on reconstitution day). **This is a baseline and a cost note**: the convention is settled, so any candidate that needs a *different* execution convention must justify why the passive does not trade at the close. |
+| **State-conditioned variance risk premium harvesting (added in Cycle 30)** | **Published, peer-reviewed** (S-180, Konstantinidi & Skiadopoulos, *Journal of Banking & Finance* 2016): the variance risk premium's time variation is predictable from decision-time state variables, and volatility-trading strategies that condition on those states **outperform buy-and-hold and the naive short-volatility strategy even after transaction costs**. **This is a baseline**: IDEA-003 must always be described as an incremental variant of published conditional-VRP work whose residual is the *state construction* and the *sign* claim, never as a discovery of state-conditioned harvesting. |
+| **The variance risk premium as a crash-conditional tail premium, and the premium's measurement convention (added in Cycle 30)** | **Published as a preprint, author-reported** (S-181): the premium is characterised as "a downside, crash-conditional risk premium, compensation for a systematic tail rather than harvestable carry", with the regime-average premium positive in every crisis and widening in high-stress and high-credit-spread states, and an "irreducible left tail" even voltargeted and overlaid. **This is a baseline and a convention warning**: that paper measures the premium as implied minus *subsequently realized* variance, while the candidate's claim is about the *expected* premium, and the two can move in opposite directions in the same state. Any future candidate or specification that conditions on a measured premium must name its convention ex ante. |
+| **10b5-1 plans: the rule, the disclosure regime and the plan-timing price effects (added in Cycle 30)** | **Published law plus a regulator's own literature review** (S-182, the SEC's 2022 final rule, 87 FR 80362 — Item 408(a) quarterly disclosure, the mandatory cooling-off period, the Form 4 plan checkbox and the ban on overlapping plans; S-183, the SEC's 2022 proposed release, 87 FR 8686 — the agency's account of the academic evidence that plan **adoption** around earnings announcements carries abnormal returns of roughly −2% to −3% while sales after the announcement do not). **This is a baseline and a rediscovery guard for IDEA-015**: the rule and the state are published law, and the nearest published price effect is attached to the adoption window, not to the execution of a disclosed schedule. |
+| **Statutory payment-date Treasury cash drains in the funding market (added in Cycle 30)** | **Published** (S-160, S-161, S-162 — the TGA → repo-spread channel, with the public **TGCR − IORB** spread as the decision-time stress measure). **This is a baseline and a cost model**; the register's family screen in Cycle 30 produced the bounded negative **R-012** on the cross-asset extension, because the payment dates are known by statute and no published state isolates the payment due at the decision date. |
 
 ---
 
