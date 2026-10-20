@@ -1,4 +1,23 @@
-# SOURCE LEDGER — CYCLES 1–87
+# SOURCE LEDGER — CYCLES 1–88
+
+**Cycle 88 (2026-10-20) added thirteen new source entries (S-337 … S-349), minted no new candidate and no
+new validation specification, opened no gap, closed no gap and changed no score.** The cycle's first
+operation was the **closure of the three verification debts left by the Cycle-87 screen** — all three are
+now closed, and two of them close on *upgraded* line-verified evidence rather than on an honest negative:
+**S-335's body is now line-verified** (the author-hosted copy of the **published typeset article** extracts
+86,239 characters across 33 of 33 pages with PyMuPDF; the Cycle-87 failure was an *extractor* failure, not a
+document defect), and **S-332's published-version wording is now partly line-verified** (the **published
+abstract** is verified verbatim from the RePEc record, and the article's own **Internet Appendix** is
+fetched and text-extracted as **S-349**; the published *body* remains paywalled and is recorded as a
+remaining limitation, not as a closed debt). The **venue's current listing status, contract specifications
+and settlement basis** are now **verified** from four documents (**S-344 … S-348**), which closes
+**R-049's re-screen condition (d)**. The cycle's second operation was **one bounded, pre-registered screen
+of a genuinely new mechanism family** — the **closed-end-fund / BDC traded price-to-NAV discount family** —
+which returned a **bounded negative (R-050)** on five independent reasons and was written to the
+known-baseline table as **row 87**. The cycle's third operation was **lossless housekeeping with a
+rubric-arithmetic re-run (clean)**. The register now holds **339 verified sources** (S-001 … S-209,
+S-220 … S-349), with S-210 … S-219 reserved and unused. **Next free identifiers: IDEA-017, S-350, V-012,
+G-37, R-051, P-015.**
 
 **Cycle 87 (2026-10-20) added five new source entries (S-332 … S-336), minted no new candidate and no new
 validation specification, opened no gap, closed one gap (G-36 — an honest negative decided in Cycle 86 and
@@ -10201,20 +10220,35 @@ Derivatives Market", 6 August 2015 (SSRN 2640352, DOI 10.2139/ssrn.2640352).
   venue's cost floor and structure are published facts, not the register's inference). A candidate in this
   family would be re-presenting a published effect and would have to condition on a state that is already
   in the literature.
-- **Caveats:** the **published article's body was not read** — the OUP full text is paywalled and the direct
-  article route returned HTTP 403 on 20 October 2026 — so **every passage quoted above is the
-  working-paper version's wording**, and the working paper's **26 %** annualised crisis figure differs from
-  the dissertation version's **30 %** (S-334) and from the published article's own abstract, which may
-  phrase the crisis result differently; the paper's object is the 1999–2008/09 sample, so the market
-  structure it describes is **historical** and the venue's current listing status was **not** verified in
-  this cycle (see the honest negatives below).
+- **Caveats:** the **published article's body has still not been read** — the OUP full text is paywalled; the
+  direct article route returned HTTP 403 on 20 October 2026, the text-extraction route returned OUP's
+  bot-verification page, and **OpenAlex and Unpaywall both report the article as closed with no
+  repository copy** — so **every passage quoted above is still the working-paper version's wording**, and
+  the working paper's **26 %** annualised crisis figure differs from the dissertation version's **30 %**
+  (S-334). **What *is* now verified in the published version** (Cycle 88): the **published abstract**, which
+  is quoted from the RePEc record in the entry's verification note and which carries the published version's
+  own headline wording; and the article's **Internet Appendix** (S-349), fetched and text-extracted. The
+  paper's object is the 1999–2008/09 sample, so the market structure it describes is **historical** and the
+  venue's current listing status is now separately verified (S-344 … S-348).
 - **Verification:** the **Crossref REST work record for DOI 10.1093/rfs/hhy098** was fetched directly
   (HTTP 200) and confirms the title, the author, the container title, volume **32**, issue **6**, pages
   **2456–2497**, published-print **1 June 2019**, published-online **30 August 2018**, publisher Oxford
   University Press, ISSNs 0893-9454 / 1465-7368. The **working-paper version** was fetched directly
   (HTTP 200, 961,998 bytes, 62 pages) and its text layer extracted (135,050 characters); every passage
-  quoted above is **line-verified from that version**. The published article's body is paywalled — recorded
-  as a limitation on the entry, not concealed.
+  quoted above is **line-verified from that version**. **Cycle-88 upgrade:** the **published abstract** was
+  verified verbatim from the **RePEc record** for the published article
+  (`https://ideas.repec.org/a/oup/rfinst/v32y2019i6p2456-2497..html`, fetched directly, HTTP 200) — "I
+  examine the effect of financial sector stress on risk sharing in a novel setting: the CME's weather
+  derivatives market. The structure of the market allows me to disentangle price movements due to
+  financial sector stress from price movements due to fundamentals. **Contracts, which are typically priced
+  near their actuarially fair value, experience significant price declines during periods of financial
+  sector stress. Contracts with greater margin requirements and total risk are the most affected.** The
+  results provide causal evidence of the effect of financial sector stress on the pricing of exchange-traded
+  financial contracts and risk sharing in the economy. Received July 21, 2017; editorial decision July 22,
+  2018 by Editor Philip Strahan." The **Internet Appendix** was fetched from the author's own publication
+  page (`danielweagley.com/research` → Google Drive file `108HT_MboCvEw0WW8Wh8sPPJjcvtoZUd4`, HTTP 200,
+  316,303 bytes) and is registered as **S-349**. The published article's **body** remains paywalled —
+  recorded as a limitation on the entry, not concealed.
 
 ### S-333 — Bae, J. W., Jacobs, K., Jeon, Y., Szaura, S. and Zurita, V. (2023; conference version 2024)
 
@@ -10308,31 +10342,53 @@ School), 2014. Deep Blue handle 2027.42/108993.
 *Journal of Futures Markets* **31**(1): 1–33. DOI 10.1002/fut.20463. January 2011. (An SSRN version of the
 same title exists: DOI 10.2139/ssrn.1340761.)
 
-- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** — but **the body was
-  not verified in this cycle** (see Verification).
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** — **line-verified in
+  Cycle 88** (the body is now extracted from the published typeset article; see Verification).
 - **Supports:** the register's summary of the **published verdict on this family**: the weather-derivatives
   market is characterised in the published record as **efficient despite its illiquidity**, and the
   temperature-forward premia are reported as **statistically insignificant and sign-flipping** rather than
-  as a stable premium.
+  as a stable premium. **The published abstract's own wording:** "This article examines the efficiency of the
+  weather futures market traded on the CME in both HDD and CDD futures contracts in 18 cities across the
+  United States. Efficiency is examined in three ways. First, by comparing the market's implied forecasts
+  for the weather against other forecasts. Second, by looking at whether market's overreact or under-react
+  to temperature surprises. Third, by looking at weather derivative patterns across cities. **We find that
+  generally the market seems very efficient despite its lack of liquidity. We also find risk premia that
+  seem to vary across cities and over time.**" **The published premium results (line-verified):** "The
+  premium for HDD is 0.47% and insignificant for the most liquid cities from 1999 to 2004. The CDD premium
+  is 5.76% and significantly different than zero. … Dallas has an insignificant premium and New York is
+  actually significantly negative. … In the latter period (2005–2008), the HDD premia is positive and
+  significant and the CDD premia are negative and significant for the top five cities. **Thus, the CDD
+  average premia for the top five cities actually changes sign from the 1999–2004 period to the 2005–2008
+  period.** … This inconsistency in the realized forward premia might be due to a different mix of hedgers
+  across markets and across time. … it is hard to find a consistent value." **The published conclusion:**
+  "one fails to reject the hypothesis that this market trades very efficiently."
 - **Why it matters:** the screen's **reason 3** — the family's premise is **contested in the published
   literature**, so a future candidate here would have to answer a *published null*, not merely an absence
-  of published work. This is a stronger reason against a candidate than "nothing has been published".
-- **Caveats:** **the document body is unverified in this cycle.** The author-hosted PDF was fetched
-  directly but **no text layer could be extracted**, so **no passage from the document is quoted as directly
-  parsed**; the wording above is an **index-rendered** summary of the paper's findings and **must be
-  re-verified** from a text-extractable copy (or from the journal version) before any future candidate in
-  this family leans on it as a *primary* premise. The register's rule is explicit that an index-rendered
-  rendering may not serve as a verification basis; this entry is therefore registered as a **neighbour with
-  an unverified body**. The screen's reason 3 does not rest on this entry alone — it is also carried by the
-  line-verified material in S-332 and S-334.
-- **Verification:** **honest negative.** Bibliographic metadata verified through the **Crossref REST work
-  record for DOI 10.1002/fut.20463** (HTTP 200): title, author "Ludwig Chincarini", *Journal of Futures
-  Markets*, volume **31**, issue **1**, pages **1–33**, published **January 2011**; a second Crossref
-  record (DOI 10.2139/ssrn.1340761) carries an SSRN version of the same title. The author-hosted PDF was
-  fetched directly (HTTP 200; 33 pages; 216,178 bytes) but **no text could be extracted**: `pypdf` returned
-  **0 characters** and PyMuPDF returned **0 characters**, with "fontTools is required to fully parse the
-  encoding of a CFF Type1 font" and "Error -3 while decompressing data" diagnostics. The document's findings
-  are therefore **index-rendered only** and are **not quoted**.
+  of published work. This is a stronger reason against a candidate than "nothing has been published". In
+  Cycle 88 this entry moved from a **neighbour with an unverified body** to a **line-verified** basis, which
+  **strengthens R-049's reason 3** with the published article's own wording and its own published premia
+  table.
+- **Caveats:** the document is the **published typeset article** hosted on the author's own site, not the
+  publisher's copy of record; the text layer uses **typographic ligatures** (for example "ﬁ" for "fi"), so
+  a naive string search for the plain-ASCII form of a phrase will not match — the register's own quoted
+  passages above are reproduced with the ligature normalised. The paper's own sample is **1999–2008**, and
+  its market-structure description is therefore **historical**; the venue's current listing status, contract
+  specifications and settlement basis are verified separately (S-344 … S-348).
+- **Verification:** **line-verified (Cycle 88).** Bibliographic metadata verified through the **Crossref REST
+  work record for DOI 10.1002/fut.20463** (HTTP 200): title, author "Ludwig Chincarini", *Journal of Futures
+  Markets*, volume **31**, issue **1**, pages **1–33**, published **January 2011**; a second Crossref record
+  (DOI 10.2139/ssrn.1340761) carries an SSRN version of the same title. The **published typeset article**
+  was fetched directly from the author's own site (`https://ludwigbc.com/pubs/pub13.pdf`, HTTP 200, 33
+  pages, 216,178 bytes) and its text layer extracted with **PyMuPDF 1.28.5 / pymupdf 2.0**
+  (`page.get_text("text")` over every page): **86,239 characters, 33 of 33 pages carrying text**. The
+  document's own front matter identifies it as the published article: "The Journal of Futures Markets, Vol.
+  31, No. 1, 1–33 (2011) © 2010 Wiley Periodicals, Inc. Published online April 1, 2010 … DOI: 10.1002/
+  fut.20463", with "Received August 2009; Accepted February 2010". **Correction to the Cycle-87 record:** the
+  Cycle-87 entry stated that "the author-hosted PDF was fetched directly but no text layer could be
+  extracted" and that "`pypdf` returned **0 characters** and PyMuPDF returned **0 characters**". That
+  extraction failed in Cycle 87, but the document is **not** defective: the same file extracts cleanly today.
+  The Cycle-87 failure is therefore recorded as a **route failure that has since been resolved**, and the
+  entry is upgraded in place from "neighbour with an unverified body" to **line-verified**.
 
 ### S-336 — FORRS (2024)
 
@@ -10428,3 +10484,399 @@ the Cycle-72 repair block still stands and is unchanged). **No score changed** a
 active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014
 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a terminal 55.0. **Next free identifiers: IDEA-017, S-337,
 V-012, G-37, R-050, P-015.**
+
+---
+
+## Cycle 88 (2026-10-20) — verification-debt closures and one bounded family screen
+
+### S-337 — Cherkes, Sagi & Stanton, "A Liquidity-Based Theory of Closed-End Funds"
+
+- **Type:** Prior theory and empirical result (author-reported), **working-paper version** (the draft is dated
+  "May 30, 2007"; the authors are at Columbia University and the Haas School of Business).
+- **URL:** `https://faculty.haas.berkeley.edu/stanton/pdf/CEF.pdf`
+- **Supports:** the **structural** reason a closed-end fund's traded price can sit away from its net asset
+  value at all: "**Unlike other organizational forms, such as open-end funds (OEFs) and exchange-traded funds
+  (ETFs), CEFs are not subject to large-scale creation or redemption of shares**, allowing them to better
+  manage their trading in illiquid securities"; and the **published rational account of the discount** — "the
+  observed behavior of the CEF discount, which results from a **trade-off between the liquidity benefits of
+  investing in the CEF and the fees charged by the fund's managers** … the model explains why IPOs occur in
+  waves in certain sectors at a time, why funds are issued at a premium to net asset value (NAV), and why
+  they later usually trade at a discount", with the empirical finding "which, overall, provides more support
+  for a liquidity-based model than for an alternative sentiment-based explanation."
+- **Why it matters:** this is the **mechanism-first** statement of the family screened in Cycle 88
+  (R-050). It supplies the family two published facts that a candidate could not re-derive: the **absence of
+  a creation/redemption mechanism**, and a **published rational explanation** of the discount that does not
+  require the discount to be an exploitable mispricing.
+- **Caveats:** the retrieved document is the **2007 working-paper version**; no published version was
+  verified in this cycle, so any figure taken from it is a working-paper figure. The paper's own claim is
+  about the **existence and formation** of the discount, not about its tradability.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 378,396 bytes; 49 pages); text layer
+  extracted with PyMuPDF (`page.get_text("text")` over every page): **107,124 characters**.
+
+### S-338 — Chen & Tour, "The Discount Delusion: The Swedish Closed-End Fund Premium Puzzle"
+
+- **Type:** Prior empirical result (author-reported), **student working paper** (dated 2013-05-15; written
+  under the guidance of a tutor at the Stockholm School of Economics, Arc/HHS research archive).
+- **URL:** `http://arc.hhs.se/download.aspx?MediumId=1926`
+- **Supports:** a **published negative result for the family's headline trade** — "we find that **discounts
+  are negatively correlated with future abnormal returns. Those who buy high discount CEFs thinking that they
+  are bargains will have the numbers against them; the apparent undervaluation of the assets is only a
+  delusion**"; and the sample's shape — "**daily observations of 11 Swedish CEF discounts from January 2000-
+  December 2012** that has been continually constructed by professionals", contrasted with "the often
+  quarterly data that researchers have used in the past."
+- **Why it matters:** R-050's **reason 2** — the family's *sign* is published, and the published sign of the
+  apparent bargain trade is **negative**. A candidate in this family would be re-presenting a published
+  result with a published sign.
+- **Caveats:** **not peer-reviewed** — a student working paper, and the register treats it accordingly; the
+  venue is **Swedish** CEFs, not the US listing venue, so it is evidence about the *family* and not about
+  the US BDC sub-family; 11 funds over 13 years is a **small effective sample**, which is itself part of
+  R-050's reason 5.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 3,143,315 bytes; 83 pages); text layer
+  extracted with PyMuPDF: **173,970 characters**.
+
+### S-339 — Davydiuk, Marchuk & Rosen, "Market Discipline in the Direct Lending Space"
+
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** — *The Review of
+  Financial Studies*, volume **37**, issue **4**, pages **1190–1264** (2024).
+- **URL:** `https://par.nsf.gov/servlets/purl/10649283` (the **published version**, deposited in the U.S.
+  National Science Foundation's public-access repository).
+- **Supports:** the **published, dated regime episodes** of the family and the **structural constraint** on
+  the listed BDC's ability to act on its own discount — "BDCs often issue equity shares through so-called
+  'shelf offerings', even though they operate as closed-end investment companies. **BDCs can access capital
+  markets this way without any restrictions only when their shares are traded at a premium to net asset
+  value (NAV). For below-NAV issuances, BDCs need to seek an approval from their existing shareholders**";
+  and the **episode magnitudes** — "prior to the index exclusion event **BDCs' shares were traded at 5%–10%
+  above their NAVs on average**. Absent the SEC decision to exempt BDCs from the AFFE rule, in May 2014 the
+  Cliffwater BDC index approaches its NAV level, **subsequently pushing BDCs' shares to be traded at a
+  discount for nearly 3 years thereafter**."
+- **Why it matters:** R-050's **reasons 2 and 5** — the discount's *size and duration* are published
+  episode outcomes with **dated triggers** (the May 2014 index-exclusion decision), and the vehicle's own
+  balance sheet cannot act against a discount without a shareholder vote. The family is therefore
+  **episodic and rule-bound**, not a standing mispricing.
+- **Caveats:** the identification strategy is a **2014 event** on the *funding* side of the balance sheet;
+  the paper's object is market discipline and capital structure, not the discount as a tradeable edge, and it
+  does not test a buy-the-discount rule. The 5%–10% premium figure is quoted by the authors from the
+  Cliffwater report.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 1,302,909 bytes; 75 pages); text layer
+  extracted with PyMuPDF: **231,436 characters**.
+
+### S-340 — Suhonen, "Direct Lending Returns"
+
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** — *Financial Analysts
+  Journal*, volume **80**, issue **1**, pages **57–83** (2024); the retrieved document is the **publisher's
+  version of record** ("Document Version: Publisher's PDF, also known as Version of record … Licence: CC
+  BY"), obtained from the Aalto University research portal (open-access deposit).
+- **URL:** `https://aaltodoc.aalto.fi/server/api/core/bitstreams/2039d5fd-46db-4e24-b8f3-5c736070c829/content`
+  (record: `https://aaltodoc.aalto.fi/items/81f3a02b-45a3-4465-95e3-1e8444ba06c3`).
+- **Supports:** the **published magnitude, direction and decision-time structure** of the listed-BDC discount —
+  "BDC industry total returns at market capitalization-weighted index level in December, 2009, to June, 2022,
+  were **8.63% per annum based on market values and 9.41% based on NAVs, the difference reflecting mainly the
+  deepening discount to NAV in traded BDC prices over the first six months of 2022**"; "the broad BDC market
+  to **generally trade close to the NAV, except during times of market stress when the discount can widen
+  substantially**—best illustrated by performance during the 2020 pandemic"; the **decision-time
+  observability** of the true state — "the NAVs of the BDCs underlying the index are **unknown on such dates
+  and will only be published in the financial reporting of the BDC several weeks after the NAV date**"; the
+  **cross-sectional sign** — "BDCs with **greater price-to-NAV premium (or smaller discount) outperforming
+  those with a smaller premium (larger discount) by all return metrics**"; the **structural constraints** —
+  "BDCs that elect to be taxed as regulated investment companies **must distribute at least 90% of investment
+  income** to shareholders annually … and BDCs are **not allowed to issue shares to the public below NAV
+  without annual shareholder approval**"; and the **sample** — "I construct a sample of **47 listed BDCs over
+  the period December, 2009, to June, 2022**, with around $110 billion of aggregate invested assets as of
+  year-end 2021."
+- **Why it matters:** R-050's **reasons 2, 3 and 5** in one source: the discount's *sign* and *size* are
+  published, the *state* that moves it is published (market stress), the **decision-time state is stale by
+  weeks**, and the vehicle's own balance sheet is rule-bound.
+- **Caveats:** the article's object is **BDC performance**, not the discount as a tradeable edge; the discount
+  statements are descriptive and cross-sectional; the NAV-lag passage is the author's own methodological
+  convention rather than a claim that the discount is unobservable in principle. No published version of the
+  *article's* text on the discount was checked against a second rendering, so quotations are from the
+  version of record only.
+- **Verification:** **line-verified.** Obtained through the Aalto DSpace REST API (item and ORIGINAL bundle
+  resolved by API, then the bitstream fetched directly; HTTP 200; 1,576,439 bytes; 29 pages); text layer
+  extracted with PyMuPDF: **104,392 characters**. The publisher's own site (tandfonline.com) returned
+  HTTP 403 to a direct fetch and a bot-verification page to the text-extraction route; the publisher's
+  **version of record** was nevertheless obtained from the author's institutional repository.
+
+### S-341 — Fenaroli, "The Closed-End Fund Puzzle: New Evidence From Business Development Companies"
+
+- **Type:** Prior empirical result (author-reported), **undergraduate thesis** (Harvard College, 2019) —
+  **not peer-reviewed**.
+- **URL:** `https://dash.harvard.edu/server/api/core/bitstreams/a6db94e0-45f6-4319-bcd9-3c65a3dd725d/content`
+- **Supports:** the **magnitude and dispersion** of the listed-BDC discount — "BDCs tend to **trade at a mid
+  single-digit discount in the long run (x̄_MCW = −4.6%)**, supporting the presence of the persistent
+  discount feature of the CEF puzzle in the BDC data. Similarly, the BDC data corroborates the presence of
+  significant fluctuations in premium within funds, as the **mean premium standard deviation is relatively high
+  (σ_i(x_i,t) = 11.9%)**"; the four published "tenets" of the CEF puzzle it tests; and the behavioural
+  reading — "**price-driven fluctuations in BDC discounts, empirical independence between observed discounts
+  and commonly cited neoclassical determinants of discounts**, and a relationship between proxy noise trader
+  prevalence and sentiment-dominant discount behavior."
+- **Why it matters:** a **secondary** magnitude source for the listed-BDC sub-family, used to state the
+  discount's size and dispersion where the peer-reviewed source (S-340) states direction rather than level.
+- **Caveats:** **an undergraduate thesis, not peer-reviewed** — used only as a *secondary/neighbour* source
+  and never as the primary basis for any reason in R-050; the 11-year sample and the fund universe are the
+  author's own construction; the "tenets" are quoted from Lee, Shleifer and Thaler (1990), which this
+  register has not verified in its own right.
+- **Verification:** **line-verified.** Fetched directly from the Harvard DASH core bitstream (HTTP 200;
+  792,173 bytes; 57 pages); text layer extracted with PyMuPDF: **96,497 characters**.
+
+### S-342 — 15 U.S.C. § 80a-60 (Investment Company Act § 61(a), as amended)
+
+- **Type:** **Primary statutory material** (United States Code), fetched from the Cornell Law School Legal
+  Information Institute.
+- **URL:** `https://www.law.cornell.edu/uscode/text/15/80a-60`
+- **Supports:** the **published, rule-bound partial arbitrage** built into the listed BDC's own structure: a
+  BDC that has obtained shareholder approval to issue shares below net asset value must give the approving
+  shareholders "the opportunity (which may include a tender offer) to sell the securities held by that
+  shareholder as of that applicable approval date, **with 25 percent of those securities to be repurchased in
+  each of the 4 calendar quarters following** the calendar quarter in which that applicable approval date
+  takes place"; the same section conditions below-NAV issuance on majority shareholder approval, on a
+  required majority of the directors, and on a good-faith determination that "the price of the securities to
+  be sold is not less than a price which closely approximates the market value of those securities, less any
+  distributing commission or discount."
+- **Why it matters:** R-050's **reason 3** — the family already contains a **published, statutory,
+  quarterly repurchase mechanism at net asset value**, tied to a specific shareholder cohort and a specific
+  approval date. A candidate in this family would be re-presenting a published mechanism rather than
+  discovering one.
+- **Caveats:** the text is the **current consolidated statute** as served by the LII; the section has been
+  amended (Pub. L. 115-141, § 802(b)(2), 2018) and the repurchase condition attaches to shareholders who
+  approved below-NAV issuance — it is **not** a general, unconditional BDC tender-offer mandate, and this
+  entry does not claim that it is. The screen states the mechanism exactly as the statute states it.
+- **Verification:** **line-verified.** Fetched directly (HTTP 200; 68,755 bytes of HTML); tag-stripped text
+  retained for quotation: **13,528 characters**.
+
+### S-343 — 17 CFR 270.23c-1 ("Repurchase of securities by closed-end companies")
+
+- **Type:** **Primary regulatory material** (Code of Federal Regulations, Investment Company Act of 1940
+  rule), fetched from the Electronic Code of Federal Regulations (eCFR) as currently in force.
+- **URL:** `https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.23c-1` (retrieved through
+  the eCFR content API).
+- **Supports:** the **conditions under which a closed-end company may buy its own shares** — "A registered
+  closed-end company may purchase for cash a security of which it is the issuer, subject to the following
+  conditions: … (2) If the security is a stock not entitled to cumulative dividends, **at least 90 percent
+  of the net income of the issuer for the last preceding fiscal year … was distributed to its shareholders
+  during such fiscal year or within 60 days after the close of such fiscal year** … (6) **The purchase is
+  made at a price not above the market value, if any, or the asset value of such security, whichever is
+  lower**, at the time of such purchase."
+- **Why it matters:** the **statutory/regulatory floor** under the family: the closed-end vehicle's own
+  buyback capacity is bounded by a distribution requirement and by a price rule, so even a discount-closing
+  mechanism must operate inside a published rule rather than freely.
+- **Caveats:** this rule constrains a closed-end company's repurchases; it is **not** itself a mechanism that
+  closes a discount, and the screen does not claim that it is. The eCFR "current" text is as of the fetch
+  date.
+- **Verification:** **line-verified.** Fetched directly from the eCFR renderer API (HTTP 200; 30,430 bytes of
+  HTML); tag-stripped text retained for quotation: **3,982 characters**.
+
+### S-344 — CME Group, "Weather Futures and Options" fact card
+
+- **Type:** **Venue documentation** (the exchange's own product fact card), dated by the renderer at
+  **28 August 2023**.
+- **URL:** `https://www.cmegroup.com/trading/weather/files/weather-fact-card.pdf`
+- **Supports:** the **venue's own current statement of the complex's scope and settlement arithmetic** — the
+  products are "index-based products geared to average seasonal and monthly weather in **18 cities around the
+  world – 13 in the U.S., four in Europe, and one in Asia**"; the listed cities are **Atlanta, Boston,
+  Burbank, Chicago, Cincinnati, Dallas, Houston, Las Vegas, Minneapolis, New York, Philadelphia, Portland,
+  Sacramento** (North America), **Amsterdam, Essen, London, Paris** (Europe) and **Tokyo** (Asia); and the
+  settlement arithmetic — "**Value at settlement for Weather contracts is determined by multiplying the
+  cumulative HDD or CDD by the contract's tick size of $20**", with the worked example "the cumulative
+  monthly HDD would equal 310 … The final value of our example Weather futures contract would equal $6,200
+  (310 index points multiplied by $20)".
+- **Why it matters:** part of the **closure of R-049's re-screen condition (d)** — the venue's **current
+  listing scope** and the **cash value of the index** are now documented from the venue itself.
+- **Caveats:** a **fact card is documentation collateral, not the rulebook**; where the two differ, the
+  rulebook text (S-347) governs. The venue's own URLs return **HTTP 403** to a direct fetch from this
+  environment, so the document was obtained through a **third-party text-extraction proxy** rendering the
+  venue's own URL (see Verification); the content is the venue's own text and the route is recorded here
+  rather than concealed.
+- **Verification:** **line-verified with a recorded route caveat.** The venue URL was first fetched
+  directly and returned **HTTP 403**; the document was then obtained through a text-extraction proxy
+  rendering the same venue URL (HTTP 200; 6,900 characters of extracted text). Every quotation above is
+  from the rendered venue document.
+
+### S-345 — CME Group, weather brochure (WT-124)
+
+- **Type:** **Venue documentation** (the exchange's own weather-products brochure).
+- **URL:** `https://www.cmegroup.com/trading/weather/files/WT-124_WeatherBrochure_r11.pdf`
+- **Supports:** the venue's **daily settlement procedure and the settlement basis** — "**32 Weather futures
+  and options will be settled at 15:15 CT daily**, unless an early close occurs on CME Globex"; the
+  no-trade fallback — "the settlement will revert to the previous day's settlement, unless the contract is
+  'in period.' **If the contract is 'in period,' the settlement will be calculated by adding the actual
+  observed heating or cooling degree days to date to the 10-year average of HDDs or CDDs for the remainder
+  of the period**"; the settlement source — "**All of our Weather contracts are settled in cash. The U.S.,
+  Canada, Europe and Pacific Rim Weather contracts are settled by the final index value recorded by the MDA
+  EarthSat** … **MDA EarthSat works with temperature data provided by the National Climate Data Center
+  (NCDC) for all of our U.S. contracts**", with the Australian contracts settled by **Speedwell Weather**; and
+  the block-trade structure — "**The minimum size for these block trades is 20 contracts, and they must be
+  reported to CME Group within 15 minutes after execution**."
+- **Why it matters:** the **settlement-basis** half of the closure of R-049's condition (d): how the daily
+  mark is made, from which data provider, and on what fallback rule.
+- **Caveats:** the brochure is **undated in its file name** and is marketing/education collateral; its
+  settlement description is consistent with the rulebook text in S-347, which governs in the event of any
+  difference. Obtained through the same proxy route as S-344 (the venue's own URL returns HTTP 403 to a
+  direct fetch).
+- **Verification:** **line-verified with a recorded route caveat.** Direct fetch of the venue URL returned
+  **HTTP 403**; the document was obtained through a text-extraction proxy rendering the venue URL (HTTP
+  200; 52,298 characters of extracted text). Every quotation above is from the rendered venue document.
+
+### S-346 — CME Group CFTC rule filing 23-177 (4 of 24), 4 May 2023
+
+- **Type:** **Venue regulatory filing** (the exchange's own self-certification filing with the CFTC under
+  § 40.6(a)), including the rulebook chapters and fees filed as exhibits.
+- **URL:** `https://www.cmegroup.com/content/dam/cmegroup/market-regulation/rule-filings/2023/5/23-177_4.pdf`
+- **Supports:** the **venue's own dated listing record** — "**Filing Date (mm/dd/yy): 05/04/23. Filing
+  Description: Initial Listing of Twenty-Four (24) U.S. (Boston, Burbank, Houston and Philadelphia) Weather
+  Futures Contracts**"; the listing table with contract titles, commodity codes and rulebook chapters (for
+  example "CME Degree Days Index Futures – BOSTON HDD 403 HW", "CME Seasonal Strip Degree Days Index Futures
+  – BOSTON HDD DEC 405 HWZ"); the amended chapters — "The following existing CME product chapters will be
+  amended to include Boston, Burbank, Houston, and Philadelphia: **Chapter 403 CME Degree Days Index Futures**
+  and **Chapter 405 CME Seasonal Strip Degree Days Index Futures**"; and the effective date — "for trading on
+  the CME Globex electronic platform … and for submission for clearing via CME ClearPort … **effective on
+  Sunday, May 21, 2023 for trade date Monday, May 22, 2023**."
+- **Why it matters:** the **current-listing-status** half of the closure of R-049's condition (d): the
+  venue's own filing record shows which contracts were added, when, and under which rulebook chapters.
+- **Caveats:** a **2023 filing**, so it establishes the venue's listing record as of that date; the *live*
+  status is corroborated separately by S-348 (rendered 20 October 2026). The filing's exhibits contain the
+  rulebook text, which is registered separately and more reliably from the regulator-hosted copy (S-347).
+- **Verification:** **line-verified with a recorded route caveat.** Direct fetch of the venue URL returned
+  **HTTP 403**; the filing was obtained through a text-extraction proxy rendering the venue URL (HTTP 200;
+  40,657 characters of extracted text).
+
+### S-347 — CME Rulebook Chapter 403 (Degree Days Index Futures) and Chapter 405 (Seasonal Strip Degree Days Index Futures), as filed with the CFTC
+
+- **Type:** **Primary venue rulebook text**, in the form in which the exchange filed it with the **U.S.
+  Commodity Futures Trading Commission** (self-certification submission **19-386**, filed 6 November 2019;
+  the filing contains the full text of both chapters).
+- **URL:** `https://www.cftc.gov/filings/ptc/ptc110719cmedcm013.pdf`
+- **Supports:** the **contract specifications and final settlement basis** — the trading unit
+  "**shall be U.S. dollars $20 times the Index**"; the minimum price fluctuation "shall be one (1) index
+  point, **U.S. dollars $20 per index point**"; the termination of trading rule ("on the **second Exchange
+  Business Day following the last day of the contract month**"); the final settlement price, "determined by
+  reference to the **CME Degree Days Index** … as reported by **MDA Information Systems**"; the listed
+  cities and their reference weather stations; and the strip contract's settlement, which is the sum of its
+  component monthly contracts.
+- **Why it matters:** the **specification and settlement** half of the closure of R-049's condition (d).
+  This is the text a future candidate in the family would have to reason about, and it is now available in
+  a **regulator-hosted, directly fetched, text-extractable** form.
+- **Caveats:** the filing is the **2019** text of the two chapters; the exchange's 2023 filing (S-346)
+  amends Chapters 403 and 405 to add four cities, so the filed text here is the **pre-amendment** text and
+  the amendment is recorded in S-346. Where the two differ, the exchange's current rulebook governs.
+- **Verification:** **line-verified.** Fetched directly from **cftc.gov** (HTTP 200; 534,648 bytes; 28
+  pages); text layer extracted with PyMuPDF: **70,816 characters**.
+
+### S-348 — CME Group, "Weather Products" market page (live)
+
+- **Type:** **Venue documentation** (the exchange's own live product page), rendered **20 October 2026**.
+- **URL:** `https://www.cmegroup.com/markets/weather.html`
+- **Supports:** the **venue's current, live listing status** — "Transfer risk associated with adverse weather
+  events with **index-based products geared to average seasonal and monthly weather in 18 cities globally**";
+  the product and execution structure — the page carries **Futures** and **Options** tabs for the complex,
+  and "**Trade any Weather contract on CME Direct or Trayport, providing real-time price data across CME
+  Globex and CME ClearPort**"; the named participant channel, with three weather brokers listed (BGC, Snapper
+  Creek and TP ICAP); and a training module offered for the complex.
+- **Why it matters:** the **"is it still live, and where does it trade"** half of the closure of R-049's
+  condition (d) — the complex is listed and trading as of the render date, with named execution channels and
+  intermediaries.
+- **Caveats:** the page also renders **market data** (block-trade prices, volumes and open interest). In
+  keeping with this repository's **theory-only scope**, **no market-data element was recorded, used or
+  quoted**, and only the venue-structure facts above are relied on. The page is a **live** document, so the
+  listing status is asserted **as of 20 October 2026**; the venue's own URL returns **HTTP 403** to a direct
+  fetch and the content was obtained through a text-extraction proxy (see Verification).
+- **Verification:** **line-verified with a recorded route caveat.** Direct fetch of the venue URL returned
+  **HTTP 403**; the page was obtained through a text-extraction proxy rendering the venue URL (HTTP 200;
+  32,427 characters of extracted text).
+
+### S-349 — Weagley, "Internet Appendix" to "Financial Sector Stress and Risk Sharing: Evidence from the Weather Derivatives Market"
+
+- **Type:** **Supplementary material to a peer-reviewed journal article** — the *published article's own*
+  Internet Appendix, as deposited by the author on his own publication page (the published article states
+  that the appendix is available next to the final published paper online).
+- **URL:** the author's publication page `https://www.danielweagley.com/research` → Google Drive file
+  `108HT_MboCvEw0WW8Wh8sPPJjcvtoZUd4` (the author's "Published Version" link points to the paywalled OUP
+  article at `https://academic.oup.com/rfs/article-abstract/32/6/2456/5087740`).
+- **Supports:** the **published-article-level** material that the paywalled body would otherwise carry — the
+  four **published measures of financial-sector stress** used in the article (a financial-crisis indicator,
+  the **TED spread**, the change in the **VIX**, and a capital measure); the **end-user hedging position**
+  finding ("I provide evidence that the **net hedging position of end users is short** in the monthly futures
+  market due to the large presence of energy companies"); the **expected-index estimation** and the
+  **systematic-risk** appendices; and the published appendix tables of stress-equation estimates.
+- **Why it matters:** it converts part of the Cycle-87 debt on **S-332** from an unverified published
+  version into **published-version material that is line-verified**, and it documents the **hedging-demand
+  side** of the family's published mechanism — a point that matters to any future candidate in the family,
+  because the published account of the 2008 crisis episode runs through **energy-utility hedging demand**,
+  not through a directional temperature premium.
+- **Caveats:** this is the **appendix**, not the article's body; the article's own body remains paywalled
+  (see S-332's verification note) and the headline crisis figures quoted in the register still come from the
+  working-paper version. The appendix is an author deposit of the article's supplementary material and was
+  **not** checked against the publisher's own copy of the appendix.
+- **Verification:** **line-verified.** Fetched directly from the author's Google Drive file (HTTP 200;
+  316,303 bytes; 21 pages); text layer extracted with PyMuPDF: **44,589 characters**. The author's
+  publication page was fetched directly (HTTP 200) to establish the link provenance.
+
+## Cycle 88 honest negatives
+
+| Route | What was tried | Failure mode | Verdict |
+| --- | --- | --- | --- |
+| **The published body of S-332 (Weagley 2019, RFS)** | Direct OUP article route; text-extraction route; OpenAlex (`api.openalex.org/works/doi:10.1093/rfs/hhy098`); Unpaywall (`api.unpaywall.org/v2/10.1093/rfs/hhy098`) | OUP returns **HTTP 403** to a direct fetch and a **bot-verification page** to the extraction route; OpenAlex reports `open_access: false` with **no repository location**; Unpaywall reports `oa_status: closed` with **no `oa_locations`** | **Partially closed, not closed.** The **published abstract** is now verified verbatim from the RePEc record and the **published Internet Appendix** is line-verified (S-349), but the **body is still paywalled**; every passage quoted under S-332 remains the working-paper version's wording, and the 26 % figure remains a working-paper figure |
+| **Crossref abstract for DOI 10.1093/rfs/hhy098** | Crossref REST work record | The publisher deposited **no abstract** in the Crossref record | **Honest negative** — the published abstract was taken from the **RePEc** record instead, which reproduces the publisher's abstract text |
+| **EFMA 2009 working-paper version of S-335 (Chincarini 2011)** | `efmaefm.org` PDF route, with and without a browser user-agent, retried three times; Internet Archive availability API for the same URL | The EFMA host returns **HTTP 503** on every attempt; the Internet Archive reports **no snapshot** for that URL | **Honest negative** — the working-paper version was not obtained. It is **not needed**: the **published typeset article** was obtained and line-verified in full, so this route failure cost the register nothing |
+| **S-335 body (Cycle-87 debt)** | The author-hosted PDF fetched directly and extracted with PyMuPDF | **None — resolved.** The same file that extracted 0 characters in Cycle 87 extracted **86,239 characters across 33 of 33 pages** in Cycle 88 | **Closed.** The Cycle-87 failure was an **extractor failure, not a document defect**; the correction is recorded in S-335's verification note, including the typographic-ligature caveat that makes naive ASCII string matching fail |
+| **Malkiel & Xu, "The Persistence and Predictability of Closed-End Fund Discounts"** | `stat.wharton.upenn.edu` (direct, and via the extraction proxy); `www-stat.wharton.upenn.edu`; CiteSeerX download route; NBER working-paper route `w9318` | The Wharton host **times out** on direct fetch and returns **HTTP 404** on the `www-stat` variant; CiteSeerX **refuses the connection**; NBER `w9318` is a **different paper** (a trade-history paper) and is **not** this paper | **Honest negative — the paper is an index-rendered neighbour only.** It is **not** used as a verification basis for any claim in R-050; the persistence and level of the closed-end-fund discount are instead carried by S-337, S-338, S-340 and S-341, all line-verified |
+| **Suhonen (FAJ 2024) at the publisher** | `tandfonline.com` direct full-text route; extraction proxy on the same URL | The publisher returns **HTTP 403** to a direct fetch and a **"Just a moment…"** bot page to the extraction route | **Route failure, source obtained.** The **publisher's version of record** was obtained from the author's institutional repository (S-340) and is line-verified there |
+| **The SEC's BDC modernisation final rule PDF** | `sec.gov/files/rules/final/2020/ic-34063.pdf` and `sec.gov/rules/final/2020/ic-34063.htm`, with a declared user-agent | The host returns **HTTP 404** for both paths (the release number/path combination is wrong); a second guessed path also returned 404 | **Honest negative** — the rule text was **not** used. The statutory and regulatory anchors relied on in R-050 are **15 U.S.C. § 80a-60** (S-342) and **17 CFR 270.23c-1** (S-343), both fetched directly |
+| **CME's own web routes (all)** | Direct fetch of the fact card, the brochure, the rule filing and the market page, with a browser user-agent | **HTTP 403** on every CME URL, including the PDF routes | **Route caveat recorded, not concealed.** The four venue documents (S-344 … S-348) were obtained through a **third-party text-extraction proxy rendering the venue's own URLs**; each entry states the route, and the **regulator-hosted** rulebook text (S-347) was fetched directly from **cftc.gov** |
+| **The Cycle-87 CME rulebook-chapter URL guess** | `cmegroup.com/rulebook/CME/II/3/3.html`, `…/305.pdf`, `…/303.pdf` | All returned **HTTP 404** | **Honest negative** — superseded by the correct route (the CFTC-hosted filing, S-347) |
+
+## Cycle 88 gap verdicts
+
+Cycle 88's verdicts are recorded here in the file's standard form. **No score changed**, **no gap was
+opened**, and **no gap was closed**; the cycle's three verification debts were debts in the *ledger's
+verification status*, not registered gaps, and their closure is recorded above.
+
+| Gap / limb | Candidate | Cycle-88 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** The crowding-measure search was not re-run; the frozen null and its unfreezing condition are unchanged | No change (63.0, rank 2) |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands; **V-009 is not amended** | No change (69.0, rank 1) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not re-probed.** G-30 remains exhausted; no published crowding proxy may be substituted | No change (parked, P-014, terminal 55.0) |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only** | No action |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains **inconclusive** — neither a positive finding nor a refutation | No change (52.0, rank 4) |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Not re-opened.** The Cycle-73 bounded negative stands | No change |
+| **G-14** | various | **Dated 29 March 2029** | No action |
+| **G-12, G-13, G-15, G-16, G-20, G-23, G-24, G-25, G-27, G-34, G-35, G-36** | various | **Closed or dated; not re-run** | No action |
+
+## Cycle 88 state-integrity repairs
+
+1. **The register's headline count of verified sources was recomputed and corrected in the header.** The
+   Cycle-87 identifier record counted **326 verified sources** (316 standard `### S-NNN` entries plus ten
+   bold inline entries, S-281 … S-290). Cycle 88 adds **thirteen** standard entries (S-337 … S-349), giving
+   **339**; the header now states the same figure and the same composition note, so the count in the header
+   and the count in the identifier record agree. **No entry was renumbered, rewritten or removed.**
+2. **The `S-335` entry's verification status was corrected in place — from "unverified" to "line-verified" —
+   and the correction is explained rather than silently overwritten.** The Cycle-87 entry asserted that the
+   document's text layer could not be extracted; in Cycle 88 the same file extracts cleanly, so the entry
+   now states both the earlier failure and the current success, and records the **typographic-ligature**
+   caveat that explains why a naive string search for a plain-ASCII phrase returns nothing on a
+   correctly extracted document. The earlier "honest negative" was **accurate when written** and is retained
+   as history rather than rewritten.
+3. **The `S-332` entry's caveats were corrected in place to match the new evidence.** The entry previously
+   said the published wording "may" differ from the working paper and that the venue's current listing
+   status "was not verified in this cycle"; it now records the **published abstract as verified**, the
+   **Internet Appendix as a separate source (S-349)**, the **body as still paywalled**, and the venue's
+   current listing status as verified elsewhere (S-344 … S-348). **The 26 % working-paper figure was not
+   upgraded, and the entry says so.**
+4. **A route caveat was attached to every venue document rather than left implicit.** Four CME documents
+   (S-344 … S-348) were obtained through a third-party text-extraction proxy because the venue's own URLs
+   return HTTP 403 to a direct fetch from this environment; each entry states the direct-fetch failure, the
+   proxy route, and the fact that the content is the venue's own text. The **regulator-hosted** copy of the
+   same rulebook chapters (S-347) was fetched directly, so the load-bearing specification text does not rest
+   on the proxy route.
+5. **Market data rendered inside a venue document was deliberately not captured.** The live CME page (S-348)
+   renders block-trade prices, volumes and open interest. Those elements were **not recorded, used or
+   quoted**, in keeping with this repository's theory-only scope; the entry says so on its face, so no later
+   session mistakes the ledger for a market-data source.
+
+**Cycle-88 identifier and ranking record.** **Thirteen `S-` identifiers consumed (S-337 … S-349)**; **no
+`IDEA-` identifier consumed**; **no `V-` identifier consumed**; **one `R-` identifier consumed (R-050)**; **no
+`P-` identifier consumed**; **no `G-` identifier consumed**; **no gap opened and none closed**. One
+known-baseline row was added (**row 87**). The register holds **339 verified sources** at the end of Cycle
+88. **No score changed and no rank changed**: the active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004
+(63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a
+terminal 55.0. **Next free identifiers: IDEA-017, S-350, V-012, G-37, R-051, P-015.**

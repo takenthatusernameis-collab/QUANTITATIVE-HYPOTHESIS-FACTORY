@@ -1,4 +1,20 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–87
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–88
+
+**Cycle 88 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 88's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —
+the **closed-end-fund / BDC traded price-to-NAV discount family** (listed vehicles with a fixed share count
+and no continuous creation/redemption) — which produced a **bounded negative (R-050)** and **no candidate**,
+so **no specification was required and none was written**. The cycle's second operation was the **closure of
+the three verification debts left by Cycle 87**, and **none of the three closures touches a specification**:
+**S-335's body** became line-verified (the Cycle-87 extraction failure was an *extractor* failure, not a
+document defect), **S-332's published abstract and the article's own Internet Appendix (S-349)** became
+line-verified while the published *body* remains paywalled and is recorded as a limitation, and the **CME
+weather venue's current listing status, contract specifications and settlement basis** were verified
+(S-344 … S-348), which **closes R-049's re-screen condition (d) without re-opening that family** — its
+conditions (a) and (c) remain unfulfilled, so nothing in the weather-derivative family becomes specifiable.
+**V-008 and V-009 remain the only executable specifications; V-002 remains frozen; V-010 remains marked
+never-to-execute; V-001, V-003 … V-007 remain not executable.** **No `V-` identifier was consumed.**
+**Nothing in this file was executed.**
 
 **Cycle 87 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 87's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —

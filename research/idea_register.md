@@ -4,8 +4,28 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 87 complete** (Cycle 87 added **five new source identifiers and five new source
-entries (S-332 … S-336)**, minted **no new candidate** and **no new validation specification**, opened
+Last updated: **Cycle 88 complete** (Cycle 88 added **thirteen new source identifiers and thirteen new
+source entries (S-337 … S-349)**, minted **no new candidate** and **no new validation specification**,
+opened **no gap**, closed **no gap** and changed **no score**). The cycle's substantive work was a
+**bounded, pre-registered screen of a genuinely new mechanism family** — the **closed-end-fund / BDC
+traded price-to-NAV discount family** (listed vehicles with a fixed share count and no continuous
+creation/redemption), a family **absent from the known-baseline table** and from every earlier screen
+(the state-first templates A–I and the mechanism-first families R-039 … R-049), and the structural **mirror
+image** of the parked IDEA-010 residual. The screen ran against a **pre-registered decision rule** and
+returned a **bounded negative (R-050)** on five independent reasons: the family's **headline and magnitude
+are already published**; the **sign-changing state and the trade itself are published, with a published
+(negative) sign**; the **arbitrage is structurally blocked and the blocking is published law**; the **cost
+floor binds and the published result already says the trade does not clear it**; and the **decision-time
+state is stale** while the sample is small and regime-dependent. The cycle's second operation was the
+**closure of the three verification debts left by Cycle 87**: **S-335's body is now line-verified** (the
+Cycle-87 extraction failure was an *extractor* failure, not a document defect), **S-332's published abstract
+and the article's own Internet Appendix (S-349) are now line-verified** while the published *body* remains
+paywalled and is recorded as a limitation rather than concealed, and the **CME weather venue's current
+listing status, contract specifications and settlement basis are verified** (S-344 … S-348) — which
+**closes R-049's re-screen condition (d) without re-opening that family**. The cycle's third operation was
+**lossless housekeeping with a rubric-arithmetic re-run (clean)**. **No score, rank, tie-break, hard-stop
+flag or specification changed.** Earlier history: **Cycle 87 complete** (Cycle 87 added **five new source identifiers and five new
+source entries (S-332 … S-336)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **one gap (G-36)** and changed **no score**). The cycle's substantive work was a
 **bounded, pre-registered screen of a genuinely new mechanism family** — the **weather-derivative
 contract-pricing family** (CME HDD/CDD temperature futures, options and seasonal strips), a family
@@ -3491,6 +3511,21 @@ reversal after costs, and does it add anything to the published funding arbitrag
   stand against the candidate and the mechanical reading cannot be excluded). **V-010 is marked
   never-to-execute.** The candidate is unranked; its mechanism is a **known baseline** (S-194, S-195,
   S-196, S-198, S-323) and the rediscovery guard now names it.
+  **Cycle 88 — no score change (55.0 terminal, parked), no status change, V-010 remains
+  never-to-execute.** A **neighbour family** was screened and written to the known-baseline table as
+  **row 87**: the **closed-end-fund / BDC traded price-to-NAV discount family** — listed vehicles with a
+  fixed share count and **no continuous creation/redemption** (R-050). It is recorded here because it is
+  the **structural mirror** of this candidate's residual, and the two must not be confused: an ETF's
+  NAV gap is a **mechanical widening** inside a vehicle that *has* a creation/redemption mechanism, so a
+  published, decision-time state might in principle discriminate its transient from its mechanical part,
+  whereas a closed-end fund's or a BDC's discount is **permanent by design** — the vehicle has no
+  creation/redemption route, the discount is a published trade-off between the liquidity benefit and the
+  manager's fees (S-337), and a BDC's below-NAV issuance needs shareholder approval and carries a
+  statutory quarterly repurchase offer at NAV (S-339, S-342). **Row 87 is therefore a rediscovery guard,
+  not a re-specification of IDEA-010**, and it neither re-opens this candidate nor changes its terminal
+  score, its status or V-010's never-to-execute marking. The published account of the ETF–NAV gap's
+  *mechanical* component (S-196, S-198) and of the closed-end discount's *permanent* component are
+  different mechanisms and are not interchangeable evidence.
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 

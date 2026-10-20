@@ -1,4 +1,42 @@
-# RANKED SHORTLIST — CYCLES 1–87
+# RANKED SHORTLIST — CYCLES 1–88
+
+**Cycle-88 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 88's substantive
+work was a **bounded, pre-registered screen of a genuinely new mechanism family** — the
+**closed-end-fund / BDC traded price-to-NAV discount family** (listed vehicles with a fixed share count and
+**no continuous creation/redemption**) — a family **absent from the known-baseline table** and from every
+earlier screen (the state-first templates A–I and the mechanism-first families R-039 … R-049), and the
+structural **mirror image** of the parked IDEA-010 residual (which concerns a vehicle that *does* have a
+creation/redemption mechanism). The screen ran against a **pre-registered decision rule** and returned a
+**bounded negative (R-050)** on five independent reasons: the family's **headline and magnitude are already
+published** (a closed-end fund "usually trade[s] at a discount to NAV" and the discount is a model-derived
+trade-off between the liquidity benefit and the manager's fees — S-337; BDCs "tend to trade at a mid
+single-digit discount in the long run (x̄_MCW = −4.6%)" — S-341, a non-peer-reviewed secondary source; the
+listed-BDC index returned "8.63% per annum based on market values and 9.41% based on NAVs" — S-340); the
+**sign-changing state and the trade are published with a published sign** (the discount widens in market
+stress and in dated episodes — 5 %–10 % premiums before the May 2014 index exclusion and a "discount for
+nearly 3 years" after it, S-339 — and "discounts are negatively correlated with future abnormal returns …
+the apparent undervaluation of the assets is only a delusion", S-338, with "greater price-to-NAV premium (or
+smaller discount) outperform[ing] … by all return metrics" in the listed-BDC cross-section, S-340); the
+**arbitrage is structurally blocked and the blocking is published law** (CEFs "are not subject to large-scale
+creation or redemption of shares", S-337; a BDC's below-NAV issuance needs shareholder approval, S-339, and
+that approval carries a statutory quarterly repurchase offer of "25 percent of those securities … in each of
+the 4 calendar quarters" at NAV, S-342; a closed-end company's own buyback is bounded by the
+90 %-distribution condition and a price rule, S-343); the **cost floor binds and the published result
+already says the trade does not clear it** (S-338, S-340); and the **decision-time state is stale while the
+sample is small and regime-dependent** (the NAVs "are unknown on such dates and will only be published in
+the financial reporting of the BDC several weeks after the NAV date", S-340; 47 BDCs over 2009–2022, S-340,
+and 11 Swedish funds over 2000–2012, S-338). **Seven sources were registered (S-337 … S-343)** and the
+family was written to the known-baseline table as **row 87**. Cycle 88's second operation was the
+**closure of the three verification debts left by Cycle 87** — **S-335's body is now line-verified** (the
+Cycle-87 extraction failure was an *extractor* failure, not a document defect), **S-332's published abstract
+and the article's own Internet Appendix (S-349) are now line-verified** while the published *body* remains
+paywalled and is recorded as a limitation, and the **CME weather venue's current listing status, contract
+specifications and settlement basis are verified** (S-344 … S-348) — which **closes R-049's re-screen
+condition (d) without re-opening that family**, because its conditions (a) and (c) remain unfulfilled. The
+cycle's third operation was **lossless housekeeping with a rubric-arithmetic re-run (clean)**. **No score, no
+rank, no tie-break, no hard-stop flag, no gap and no specification changed**, and **no `IDEA-`, `V-` or `G-`
+identifier was consumed**. **Next free identifiers: IDEA-017, S-350, V-012, G-37, R-051, P-015.**
 
 **Cycle-87 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 87's substantive
