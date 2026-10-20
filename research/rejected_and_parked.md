@@ -5,24 +5,12 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 37 complete, 2026-10-20. **18 rejections (R-001 … R-018), 12 parkings
-(P-001 … P-012), 59-row known-baseline table.** Cycle 5 added R-009 (IDEA-006), R-010 (IDEA-012)
-and P-008 (IDEA-013), and added seven baseline rows, so that the settlement-window family, the
-margin-schedule family and the ETF-primary-market family are not re-presented as discoveries.
-**Cycle 6 added P-009 (IDEA-005, parked on G-12) and P-010 (IDEA-008, parked on G-13 with a
-dated 2029 unblocking condition), and added seven baseline rows** covering the four screened
-frontier families that are published (sovereign index inclusion, sovereign issuance calendars,
-fast-payment rails, physical-delivery calendars), the EU ETS instance of the compliance-deadline
-template, and the RIN price-formation literature — so that none of them is re-presented as a
-discovery. **No new rejection was needed in Cycle 6**: the two candidates that failed a screen
-were parked rather than rejected, because in both cases nothing published *shows* the candidate's
-effect (the rule that produces R-007, R-009 and R-010). **Cycle 35 added R-014 (the crypto
-token-unlock family screen, written for real) and R-016 (the EU CBAM certificate family screen),
-and Cycle 36 recorded an ex-dividend family screen that was never written. Cycle 37 wrote that
-screen as R-017 for real, added R-018 (the Rule 201 short-sale price-test family screen), and
-added two baseline rows — the ex-dividend date-mechanics family and the Rule 201 circuit-breaker
-family.** The log's own counts are re-derived from the file on every cycle; see the state-integrity
-note at the end.
+Last updated: Cycle 38 complete, 2026-10-20. **19 rejections (R-001 … R-019), 12 parkings
+(P-001 … P-012), 59-row known-baseline table.** Cycle 38 added **R-019** (Rule 10b-18 buyback
+repurchase cap — bounded negative: issuer cap, not third-party deadline-driven flow creating
+harvestable concession; remaining capacity published monthly/lagged; price-sensitive buybacks
+literature-dense). The log's own counts are re-derived from the file on every cycle; see the
+state-integrity note at the end.
 
 ---
 
@@ -995,3 +983,13 @@ advice):
   that the price effects do not reverse after the restriction is lifted.
 - **Decision:** bounded negative (R-018). The Rule 201 family is recorded in the known-baseline set;
   no dossier was created; no `IDEA-` identifier was consumed; no score changed.
+
+### R-019 — Rule 10b-18 buyback repurchase cap as a rate-limited price-insensitive demand (Cycle 38 family screen — bounded negative)
+
+- **Template:** Rule 10b-18 provides a safe harbor for issuer repurchases; the daily volume limit is **25% of the average daily trading volume** over the four preceding weeks (a rate limit, not a deadline). The state could be remaining repurchase capacity.
+- **Why no candidate.**
+  1. **Issuer's own flow, not third-party.** The flow is the issuer repurchasing its own shares (price-sensitive, discretionary within constraints), not a third-party deadline-driven flow creating a concession that others can harvest in the register's template.
+  2. **Literature-dense and price-sensitive.** Buyback literature is extensive and the effect is generally framed as signaling/price support rather than an unclaimed concession to a third-party liquidity provider at a dated deadline.
+  3. **State is lagged/periodic.** Remaining capacity is not a clean, always-available decision-time state published in a way that fits the register's bar; repurchase activity is reported in **monthly** repurchase tables in 10-Q/10-K with lags, and the binding constraint is the rate cap applied to ADTV (itself a moving average).
+  4. **No unclaimed sign/structure.** The template does not produce the unclaimed dated price-insensitive flow the register screens for; G-12 fails.
+- **Verdict:** bounded negative — no candidate. No new source added to ledger (none located that meets the bar). Rediscovery guard: any candidate would need a third-party participant/constraint (not issuer repurchase) and a clean decision-time published state.

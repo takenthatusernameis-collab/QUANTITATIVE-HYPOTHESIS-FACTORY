@@ -136,25 +136,19 @@ specification, **V-010**, is written in this cycle.
 
 ## Table
 
-*Cycle-37 ranking. **No score changed.** The order is **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
+*Cycle-38 ranking. **No score changed.** The order remains **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
 (68.0), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
 falsifiability (4 versus 3); IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002 (63.0) remain parked.
-Cycle 37 changed the *state of knowledge* on the top three and the *flags* attached to them, but no
-component of any score. (i) **IDEA-010: G-27 closed in the candidate's favour** — Cycle 36's claim
-that broker-dealer firm-level regulatory capital is not publicly available is withdrawn as incorrect,
-because Form X-17A-5 is a public EDGAR form type and the net-capital figures of private, non-listed
-authorised participants are in publicly indexed filings (S-231 … S-234); the state was already scored
-as public *in principle*, so the data score stays at 4 and the total stays at 68.0, while **G-29 is
-opened** for the ETF → authorised-participant mapping and the coverage count that now bounds the
-effective sample. (ii) **IDEA-004: G-28 confirmed open and sharpened** — the one constructible
-convergence-crowd route (13F holdings-matching) is named with the four reasons it fails; no score
-change. (iii) **IDEA-011: G-21 confirmed null** — the first-adopter/second-adopter drift comparison
-is still untested by any published work and is now written down so it can be handed over; no score
-change. (iv) Two mechanism families were screened and bounded negative: **R-017** (the Cycle-36
-ex-dividend screen, written for real) and **R-018** (the Rule 201 short-sale price-test circuit
-breaker — a genuinely different template from the compliance-deadline family, and a published,
-peer-reviewed effect, S-236 … S-238). "Prior rank" is the Cycle-32 active ranking; "Rank change"
-states the movement.*
+Cycle 38 executed the priorities: (i) **IDEA-010 (G-29):** inspected corporate-bond ETF prospectuses/SAIs
+(AGG, ISTB) which disclose AP concentration risk generically but do **not** name authorised participants;
+EDGAR searches found no named AP sets in bond ETF filings. **Coverage count 0/inspected** → (ETF, AP)
+cells with public capital ratio = 0 from this route. **Verdict:** not specifiable from public bond ETF
+filings — untested, not dead. Do not substitute a published crowding proxy. G-27/G-29 bounded by this
+finding; V-010 executable only if a specifiable route emerges. (ii) **G-28 (IDEA-004)** remains frozen
+(holdings-matching route with four objections). (iii) **G-21 (IDEA-011)** confirmed null. (iv) **IDEA-014**
+state-free limb remains inconclusive. (v) Screened **(A) Rule 10b-18** daily repurchase cap as
+rate-limited template → **bounded negative R-019** (issuer cap, not third-party deadline-driven flow;
+remaining capacity published monthly/lagged). "Prior rank" is the Cycle-32 active ranking.*
 
 *Cycle-35 ranking. **No score changed.** The active ranking loses one candidate and gains none:
 **IDEA-003 is parked (P-012)** after G-22 was executed and closed against it — no published work
