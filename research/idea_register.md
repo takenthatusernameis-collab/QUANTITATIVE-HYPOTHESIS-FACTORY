@@ -470,12 +470,20 @@ reversal statistically separable from awareness and information-leakage explanat
 ## IDEA-002 — FUNDSTATE: intermediary funding cost as a state variable for flow-driven price impact
 
 - **ID / short name:** IDEA-002 / FUNDSTATE
-- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** parked (P-004, feasibility precondition G-01 open) · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** **rejected (R-038, Cycle 58)** — was parked (P-004, feasibility precondition G-01 open) · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. The components are well established; the *combination*
   (funding state × order-flow impact asymmetry) is the candidate. **Status field corrected in Cycle
-  37** — it still read "shortlisted" although the candidate has been parked as P-004 since Cycle 5
+  37** — it still read "shortlisted" although the candidate had been parked as P-004 since Cycle 5
   (G-01: no public continuous dealer funding-value-adjustment series); the ranked shortlist already
-  recorded it as parked.
+  recorded it as parked. **v1.1 — Cycle 58: the candidate is REJECTED (R-038).** G-01 was executed and
+  closed as a negative on three independent grounds (the proposed validation is tautological for the
+  candidate's own conditioning variable; the disclosed-dealer-FVA target is annual, thin,
+  non-comparable and not multi-year; and the state the candidate actually needs — dealer-specific
+  balance-sheet capacity — is not publicly measurable, while every public ingredient is market-wide and
+  therefore conditions only the *size* of an effect whose sign and existence are published). The
+  candidate's own dossier (prediction 4) and its own parking entry (P-004) both prescribed rejection
+  rather than re-specification in that case, and both were followed. Score withdrawn; the dossier below
+  is retained as the historical record.
 
 **One-sentence hypothesis.** When intermediary funding costs are high and dealers' balance sheets
 are constrained, flow-driven price impact is larger and more persistent than when funding is cheap,

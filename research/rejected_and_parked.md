@@ -5,8 +5,16 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 57 complete, 2026-10-20. **36 rejections (R-001 … R-036), 12 parkings
-(P-001 … P-012), 66-row known-baseline table.** Cycle 54 added **R-033** (the regulatory filing/venue deadline
+Last updated: Cycle 58 complete, 2026-10-20. **38 rejections (R-001 … R-038), 12 parking records of
+which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 67-row known-baseline table.**
+Cycle 58 added **R-037** (the contractual-barrier-hedging family — the published knock-out level and the
+issuer's hedging discontinuity — bounded negative, the register's first screen of a *contractual-barrier*
+family) and **R-038** (the **rejection of IDEA-002 FUNDSTATE**, whose parking P-004 was closed), and
+**repaired a state-integrity defect left by Cycle 57**: R-036's decision line asserted that the
+cross-session price-formation family had been added to the known-baseline table "as row 66" and the
+header claimed a 66-row table, but the table held **65 rows** and contained **no cross-session row** —
+the row was never written. Cycle 58 **wrote it for real** (row 66) and added the new contractual-barrier
+family as **row 67**. Earlier history: Cycle 54 added **R-033** (the regulatory filing/venue deadline
 cluster family — bounded negative) and Cycle 55 added **R-034** (the prediction-market settlement-manipulation /
 circuit-breaker price-discovery family — bounded negative); **neither cycle updated this header**, so the counts
 below were stale for two cycles and are corrected here against the file. Cycle 56 added **R-035** (the
@@ -14,8 +22,8 @@ tax-driven year-end flow family — year-end capital-loss harvesting under loss 
 institutional window dressing — bounded negative, the register's first screen of a *tax-incentive flow* family)
 and added that family to the known-baseline table. Cycle 57 added **R-036** (the cross-session price-formation
 family — the stale-price window between a closed session and the next open — bounded negative, the register's
-first screen of a *cross-session price-formation* family) and added that family to the known-baseline table as
-row 66. Earlier history: Cycle 40 added **R-020** (the eligibility-switch family
+first screen of a *cross-session price-formation* family) and claimed to add that family to the
+known-baseline table as row 66 — a claim that was not true until Cycle 58 executed it. Earlier history: Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
@@ -34,8 +42,8 @@ so the baseline count was right and the rejection count was not). Cycle 52 added
 price-band / market-wide-circuit-breaker family — bounded negative, the register's first screen of a
 *market-interruption* family) and **upgraded seven terse entries** — R-023, R-024, R-026, R-027, R-028, R-029 and
 R-030 — from two-to-four-line rationales to the register's standard five-reason form with an explicit
-G-13 / G-12 / S-151-analogue argument and a **dated re-screen condition**, so that each negative now states the
-specific structural change that would reopen it. No verdict changed. Cycle 40
+G-13 / G-12 / S-151-analogue argument and a **dated re-screen condition**, so that each negative now states
+the specific structural change that would reopen it. No verdict changed. Cycle 40
 also **merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
@@ -880,7 +888,7 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
 - **Unblocking question:** a provider whose announcement and effective-date conventions are stable
   and publicly documented, plus a passive-asset series for that benchmark.
 
-### P-004 — FUNDSTATE (IDEA-002) — *parked pending feasibility evidence*
+### P-004 — FUNDSTATE (IDEA-002) — *parking CLOSED in Cycle 58; the candidate is rejected (R-038)*
 - **Why parked:** the mechanism is credible and the components are well evidenced, but the
   candidate depends on a public, defensible funding-state proxy (source gap G-01) that has not
   been established. Proceeding without it would mean silently substituting a weaker proxy, which
@@ -888,6 +896,17 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
 - **Unblocking question:** can a proxy be constructed that demonstrably predicts disclosed dealer
   funding value adjustments over a multi-year sample? If not, this candidate should be rejected
   rather than re-specified.
+- **CLOSED — Cycle 58 (R-038).** The unblocking question was executed and the answer was **no**, so the
+  entry's own stated consequence applies and **IDEA-002 is rejected**: a dealer's disclosed funding value
+  adjustment is computed from its own funding curve, so a funding-cost proxy "predicting" it is an
+  accounting identity rather than a validity test; the disclosed-FVA target is annual, thin,
+  non-comparable and materially different in definition across the handful of disclosing dealers, and no
+  multi-year public series exists; and the state the candidate actually needs — dealer-specific
+  balance-sheet capacity — is not measurable from any public source, while every public ingredient is
+  market-wide and therefore conditions only the *size* of an effect whose sign and existence are already
+  published (S-009, S-292, S-293, S-297). The full rationale, the reusable baselines and the dated
+  re-open condition are in **R-038**. **This parking entry is now a closed record, not an open one; the
+  identifier P-004 is consumed.**
 
 ### P-005 — CFTC "Index Traders" (CIT) positions as a standalone positioning signal
 - **Why parked:** the CFTC publishes, for free and weekly, a contract-level measure of the
@@ -1375,6 +1394,8 @@ to baselines.
 | **Closing-price formation: randomised closes and real-time closing-auction imbalance publication (added in Cycle 51)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-031, Cycle 51) — the register's first screen of a *price-formation* family.** The published record: the LSE's call-market opening and closing auctions and their price-discovery and trading-cost properties (S-247), the market-quality effects of introducing the LSE closing call auction (S-248), the Korea Exchange's conditional random end — a randomised end-of-auction mechanism reported to improve price discovery and stabilise the close, with the benefit attenuating under high-volatility conditions (S-249), and the closing auction's *lower* price impact relative to the continuous market for all stocks except Nasdaq micro-caps (S-150, with S-149 on the passive-incentive mechanism). The primary rule text: NYSE's Closing Auction Imbalance Information (Continuous Book Clearing Price, Imbalance Reference Price, paired/unpaired quantity) is disseminated on the exchange's proprietary feed from ten minutes before the close and updated at least every second, and the exchange's stated purpose for publishing it is to attract "offsetting orders" and "additional contra-side interest, thereby decreasing volatility" (S-251, 89 FR 19370–19374, Release No. 34-99719; approval order 34-100327), with NYSE's 2022 amendment (87 FR 56099) making the DMM's price selection "more transparent and deterministic" — so the US close is not randomised. The settlement channel does not propagate: the Eurex FTSE 100 Index Future settles on the EDSP intraday auction and on a 17:30 CET volume-weighted average, both determined after the cash close is known (S-250). **This is a baseline and a rediscovery guard:** a randomised close is a symmetric draw with no sign-determining state, a single-price auction cannot express the compensation for the draw in the price, and the exchange designs the imbalance publication to attract offsetting interest. Any candidate in this family must state which venue, which instrument settles on the randomised close, and what published state determines the sign. |
 | **Venue-imposed trading halts, price bands and market-wide circuit breakers (added in Cycle 52)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-032, Cycle 52) — the register's first screen of a *market-interruption* family.** The published record on the market-wide breaker: state-conditioned behaviour is claimed and sized — volatility rises drastically as the market approaches the trigger, returns take on increasing negative skewness, expected returns and volume rise as the trigger approaches, sized at 17.5 bps of normalised daily volatility per 1 % closer and roughly double inside 2 % (S-256); the post-halt state of the world is measured — returns stabilise, trading costs fall, selling pressure resolves and prices become more informative after the resumption (S-258); the individual-stock variant is equally studied — LULD "curbs short term volatility without delaying the price discovery process", with a magnet effect near the band and reduced HFT activity after the halt (S-262) — and the family has a thirty-year survey literature with its own methodological disputes and its reported "lack of statistical power" (S-257). The primary rule text: the US market-wide thresholds of 7 % / 13 % / 20 % of the previous S&P 500 close and the 15-minute level-1 halt (S-266), the Limit Up–Limit Down price bands, the 15-second Limit State, the five-minute Trading Pause and the reopening auction (S-260, S-259), and the EU regime's "Guidelines on calibration of circuit breakers **and publication of trading halts**" with annual reporting of thresholds, durations and resumption mechanics to the competent authority and on to ESMA (S-261, S-263, S-264). **This is a baseline and a rediscovery guard:** the trigger state is public and real-time — the SIPs "republish the current price bands every 30 seconds" (S-260) — so there is nothing to discover; a market-wide trigger is a state common to every security, making the trade beta rather than an edge; an individual-stock halt is triggered by that stock's own news, so the identification is inseparable from the information event (the R-018 objection); the concession is competed away inside the reopening auction, in which the venue's own Designated Sponsors are obliged to quote (S-263); and the cost floor is hostile — the tradeable window is seconds wide, in the least liquid names (84 % of halted ETPs small-cap, only 8 S&P 500 constituents halted, on the SEC's own statistics for 24 August 2015 — S-259) and with realised volatility 194 % higher annualised in the first minute after a level-1 halt and wider spreads for about five minutes (S-266). **Dated re-screen condition:** re-open only if (i) a venue introduces an in-force, pre-published, *persistent* **reopening-auction rule difference** (a price collar or matching rule) with published evidence that it produces persistent dispersion in reopening prices rather than a one-day observation — the SEC's own staff note on NYSE Arca's 24 August 2015 collars is the narrow residual this family leaves and is recorded as such, not as a candidate (S-259); or (ii) an exchange publishes a **mandatory participation requirement in its reopening auction for a non-market-maker class** (S-263); or (iii) the US thresholds or LULD parameters change materially, or the EU publication-of-trading-halts requirement is withdrawn (S-260, S-261, S-266). |
 | **Tax-driven year-end flows: capital-loss harvesting and the paired window dressing (added in Cycle 56)** | **Published, peer-reviewed plus primary tax-authority material, and a bounded-negative family screen (R-035, Cycle 56) — the register's first screen of a *tax-incentive flow* family.** The published record: the mechanism is canonical and its sign is stated (S-274: realising a capital loss before year-end "can accelerate the tax benefits of the loss by as much as twelve months", with the strength of the turn-of-the-year return pattern depending on whether the law encouraged early realisation; S-275, the canonical account of tax-motivated trading by individual investors); the **rule-dated natural experiments have already been run** — the US rule history (S-274), the Swedish five-year carry-forward change whose value is measured at 75 percent of expected lottery proceeds (S-276), and the Japanese 2003 capital-gains-tax reduction (S-279, a working paper); and the family also carries a published **null** (S-278: six Swedish tax regimes, "no support for either of the proposed hypotheses"). The primary rule text: the US limitation on using net capital losses against ordinary income (S-273: the lesser of $3,000 or the total net loss, with the remainder carried forward). **This is a baseline and a rediscovery guard:** no participant is *obliged* to act, so the flow is set by a tax rule rather than by a dated obligation; the sign-determining state (which investors realise which losses) is private tax-lot data, so any cross-sectional condition is a construction; the constrained flow is the seller's own, so there is no third-party concession (the S-151 analogue), and the paired institutional leg is published as well (S-277). **Dated re-screen condition:** re-screen only if a jurisdiction with thin tax-loss-selling literature publishes a loss carry-forward regime change with an effective date and a published expected-flow measure, or if tax-lot-level flow data become publicly disseminated. |
+| **Cross-session price formation: the stale-price window between a closed session and the next open (added in Cycle 57; the row was written for real in Cycle 58)** | **Published, peer-reviewed, and a bounded-negative family screen (R-036) — the register's first screen of a *cross-session price-formation* family.** The published record: overnight news impounding into the next open is documented, peer-reviewed prior art — Lu, Malliaris & Qin (S-287) on night-minus-day return predictability and heterogeneous liquidity providers; Camilleri & Green (S-288) on stock market predictability and non-synchronous trading; Barclay & Hendershott (S-305) on after-hours price discovery and trading, which finds that after-hours price discovery is concentrated in a small subset of stocks; and Challet & Gourianov (S-289) on the opening-and-closing auction dynamics that absorb the imbalance. **This is a baseline and a rediscovery guard:** the close-to-open move is an information impoundment, so a candidate claiming a stale-price concession would be claiming a sign the literature already explains; the sign-determining state (overnight news) arrives *after* the decision time, so the sign cannot be conditioned on; the venue's own opening call auction supplies the intermediation at the restart; and the tradeable window is minutes wide, in the thinnest after-hours liquidity, with wider spreads outside regular hours. **Dated re-screen condition:** re-open only if a venue introduces a scheduled, pre-published cross-session trading mechanism that creates a decision-time state with a sign determinable before the next open, or if a published study identifies a residual close-to-open price effect that survives the information-impoundment explanation and is sign-determinable before the open. |
+| **Contractual barrier hedging: the published knock-out level and the issuer's hedging discontinuity (added in Cycle 58)** | **Published, peer-reviewed, plus primary regulator and exchange-listing documentation, and a bounded-negative family screen (R-037) — the register's first screen of a *contractual-barrier* family.** The mechanism, its sign and its magnitude are published prior art: Auh & Cho (S-306, *The Review of Asset Pricing Studies*) find that "structured equity derivatives can cause significant price pressure of the underlying stock upon an event of dramatic payoff change", that "a single event accounts for a −6.4 % return on the event day", that one event "increases the probability of a subsequent event by 21.3 %", and that "traders try to liquidate ahead of each other"; Lim & Choi (S-307) document the delta discontinuity at the knock-in level in Korean retail ELS; Cui, Li & Zhang (S-299) document that an autocallable's delta "can vary rapidly near the barriers, making delta hedging costly to implement". The discontinuity is **removed by design**: the barrier shift is the standard remedy (S-308, S-299) and dealers shift the knock-in basis "to reduce the amount of futures they have to buy" (S-304). The published record on the state and the market: the barrier level **is** published before the decision — in the PRIIPs KID (S-302) and in exchange listing documentation (S-303) — but the issuer's hedge is expressly discretionary and unpublished ("The Issuer may enter into hedging arrangements with market counterparties … in order to hedge its exposure"); the regulator publishes per-product barrier levels, offer dates and **volume issued**, not outstanding notional or barrier-level concentration, and records that auto-callable sales volumes have declined sharply in Germany after 2011 and collapsed in Italy (S-301); the dealer-hedging channel is itself a published central-bank argument and is publicly disputed (S-298, S-304); and the most direct working-paper claim of the family states that three of its four required variables are not publicly measurable and that its event-window results are "consistency results, not causal identification" (S-300). **This is a baseline and a rediscovery guard:** any candidate in this family must start from S-306 and must explain what remains; the register's own screen records that the effect is documented, anticipated, engineered away and unmeasurable in magnitude. |
 
 ---
 
@@ -1682,3 +1703,169 @@ advice):
 - **What is *not* the reason.** The state is arguably public (session times, holiday calendars are published), so G-13's publication test is technically met — but it is simultaneously useless: the sign-determining state (overnight news) is not public at decision time. The screen was run against the literature before any conclusion was reached.
 - **Dated re-screen condition.** Re-open this family only if (i) a venue introduces a **scheduled, pre-published cross-session trading mechanism** that creates a decision-time state with a sign determinable before the next open; or (ii) a published study identifies a residual close-to-open price effect that survives the information-impoundment explanation and is sign-determinable before the open. Absent either, this family stays closed.
 - **Decision:** bounded negative (R-036). The cross-session price-formation family is recorded in the known-baseline set (row 66); no dossier was created; no `IDEA-` identifier was consumed; no score changed; no validation specification was added.
+
+---
+
+### R-037 — Contractual barrier hedging: the published knock-out level and the issuer's hedging discontinuity (Cycle 58 family screen — bounded negative)
+
+- **The family screened.** The **contractual barrier** in retail structured products: an autocallable, a
+  barrier reverse auto, a knock-in / knock-out structured note or an ELS whose **knock-out or knock-in
+  level is published** in the term sheet, the Key Information Document or the exchange listing
+  documentation, and whose passage through the underlying's price **changes the issuer's or the dealer's
+  hedging discontinuously** — the note's payoff switches off or on, the hedge is unwound or re-delta'd,
+  and the underlying is bought or sold in a burst. The candidate the screen asks about is the one the
+  register's own template wants: a **published, decision-time state** (the barrier level) whose passage
+  forces a **discontinuous, price-insensitive hedge adjustment** by a constrained participant, producing a
+  harvestable concession in the underlying. This is the register's first screen of a **contractual-barrier
+  family**; the known-baseline table held no row for it, and every family closed in R-014–R-036 covered an
+  obligation, a switch, a supply schedule, an expiry-driven flow, a price rule, a market interruption, a
+  settlement mechanism, a cross-session window or an incentive flow rather than a **contractual payoff
+  discontinuity**.
+- **Instances screened.** (i) **Down-and-in knock-out** structures (barrier reverse autos, ELS) — the
+  issuer is short a payoff that is dormant until the barrier is breached, so the breach forces a large
+  *sale* of the underlying; (ii) **up-and-out / auto-call** structures — the issuer's short call-like
+  position collapses at the barrier, forcing a *purchase* of the underlying; (iii) the **European** retail
+  structured-product market, where the regulator publishes market structure (S-301) and the barrier level
+  is published pre-trade in the KID (S-302) and in listing documentation (S-303); (iv) the **Korean**
+  retail ELS market, where the same mechanism has been studied directly; (v) the **Chinese** retail
+  autocallable ("snowball") market, where the most recent working paper claims the family explicitly
+  (S-300); and (vi) the **barrier-option hedging literature** itself, which is where the discontinuity
+  was first described and where the industry's remedy was published (S-299, S-307, S-308).
+- **Why no candidate.**
+  1. **The mechanism, its sign and its magnitude are published prior art — in a peer-reviewed journal, with
+     numbers.** S-306 (Auh & Cho, *The Review of Asset Pricing Studies*) documents, from the
+     publisher-deposited abstract: "structured equity derivatives can cause significant price pressure of
+     the underlying stock upon an event of dramatic payoff change"; "one event causes another: the event
+     cascade amplifies the magnitude of the impact"; "a single event accounts for a −6.4 % return on the
+     event day, and it increases the probability of a subsequent event by 21.3 %"; and "traders try to
+     liquidate ahead of each other". S-307 documents the delta discontinuity itself at the knock-in level
+     in retail ELS, and S-299 documents that an autocallable's delta "can vary rapidly near the
+     barriers, making delta hedging costly to implement". The candidate's causal chain — published
+     contractual barrier → discontinuous issuer hedge adjustment → price effect in the underlying — is
+     therefore **not an unclaimed mechanism**; it is a documented one with a quantified event-day effect.
+     A candidate built on it would be a *trade specification* on published work, which the register's
+     ranking rubric scores as novelty 1–2, not as a discovery.
+  2. **The published evidence says the flow is anticipated, which forecloses the register's concession
+     template.** S-306's central behavioural finding is *anticipatory liquidation* — participants liquidate
+     ahead of each other because the effect is expected — and the cascade finding means the event is
+     partly self-fulfilling. S-304 records the dealer-side equivalent: dealers "shift the knock-in level
+     model basis lower to reduce the amount of futures they have to buy", i.e. the hedging response is
+     arranged *before* the level is reached. S-298 records that the dealer-hedging-of-structured-products
+     channel is itself a **public, central-bank-published argument**, and S-304 records that its magnitude
+     is publicly **disputed** by the exchange. A level that is published in advance, whose consequence is
+     documented, and around which participants demonstrably pre-position is precisely the case the
+     register's screens reject (the R-018 pattern: the flow is anticipated before the decision, so there
+     is no concession left to harvest *at* the event).
+  3. **The discontinuity is a modelling convention that the industry removes by design.** The delta jump
+     at a barrier is documented (S-307, S-299, S-308) — but the *standard remedy* is the **barrier shift**
+     and payoff modification, applied precisely to smooth that jump: S-308 publishes the correction
+     exp(±βσ√Δt) with β ≈ 0.5826 and shows that the discontinuity is worst when the underlying is close to
+     the barrier, which is the reason the shift is applied; S-304 records practitioners using the shift
+     "to reduce the amount of futures they have to buy"; S-299 records the same remedy for autocallables.
+     So the premise "barrier passage changes the issuer's hedging discontinuously" describes a state that
+     a risk manager has already engineered away. What survives of it is a *modelled* jump, which is a
+     modelling artefact and a hedging-cost problem rather than an observable flow.
+  4. **The state that sets the magnitude is not publicly measurable, and where it has been estimated the
+     estimate is small, conditional and explicitly non-causal.** S-300 — the paper that claims the family
+     most directly — specifies that the monitoring framework needs **outstanding notional × barrier
+     concentration × maturity concentration × local dealer gamma**, and states that in the market it
+     proposes to extend the framework to, "only one of the four variables is currently measurable from
+     public disclosure". Its flow magnitudes are **hypothetical** ("hypothetical one-way flows of RMB 5–10bn
+     per 100 index points", "small relative to stress-window turnover"), and only a concentrated near-dated
+     cohort would be "microstructurally meaningful if executed in a short window"; its event-window
+     results are stated by the author to be "consistency results, not causal identification". S-301 shows
+     what the regulator *does* publish — per-product barrier levels, offer dates, strike dates, expiry
+     dates and **volume issued**, aggregated by country and payoff type — and **not** outstanding notional
+     or barrier-level concentration; and it records that auto-callable sales volumes have **declined
+     sharply** in Germany after 2011 and that the Italian market saw "a collapse in sales volumes overall".
+     S-302 shows that the KID publishes the barrier and the performance scenarios pre-trade, but says
+     nothing about the issuer's hedge; S-303 shows the listing document publishes the barrier level and
+     the issuer's standard, discretionary hedging language ("The Issuer may enter into hedging
+     arrangements with market counterparties in connection with the issue of the Securities in order to
+     hedge its exposure") — the *hedge* is explicitly discretionary and unpublished.
+  5. **The tradeable expression is hostile on cost and on event risk.** The flow the screen wants is a
+     *dealer's* hedge adjustment executed as part of a continuous hedging programme, not an atomic dated
+     flow; in S-306's published sample the event day is itself a −6.4 % move, so the position's own risk
+     on the day it is harvesting is dominated by the very event; and the securities with the densest
+     barrier-linked issuance are frequently the smaller and wider-spread names, where the register's
+     standing data-and-cost rule bites hardest. A "state-conditioned size effect" that is published,
+     anticipated, of unmeasurable magnitude and priced into a wide-spread underlying is a known baseline
+     with an unvalidatable state overlay — the register's parking pattern, and here worse, because the
+     evidence is affirmative rather than merely absent.
+- **What is *not* the reason.** The barrier level **is** published before the decision — in the KID
+  (S-302), in the exchange listing documentation (S-303) and, in Korea, in the ELS terms — so **G-13's
+  publication limb passes**, and the screen was run against the literature before any conclusion was
+  reached. Nor is the verdict based on the absence of a US/EU study: a **peer-reviewed** study of the same
+  mechanism exists (S-306), and its Korean setting is a venue, not a mechanism. The verdict rests on
+  affirmative evidence: prior art with magnitudes, documented anticipation, a documented industry remedy
+  that removes the premise, and an unmeasurable magnitude.
+- **Dated re-screen condition.** Re-open this family only if (i) a **peer-reviewed** study of a US or EU
+  retail structured-note market keys the *published* barrier level to a measurable underlying price effect
+  as a decision-time state (none was located; S-306 is the Korean analogue); or (ii) a **published
+  source** of outstanding autocallable notional by barrier level and maturity in a major jurisdiction
+  appears — the one variable S-300 says is missing; or (iii) a published study shows that the effect is
+  **not** anticipated in a specific venue, or that the barrier shift is not applied in practice there.
+- **Decision:** bounded negative (R-037). The contractual-barrier-hedging family is recorded in the
+  known-baseline table (row 67); no dossier was created; no `IDEA-` identifier was consumed; no score
+  changed; no validation specification was added; **and no new gap is opened**, because every reason above
+  is independent of data availability.
+
+---
+
+### R-038 — FUNDSTATE (IDEA-002) — rejected: the funding-state proxy cannot be validated, and the candidate's state is not attachable to its own cross-section (Cycle 58)
+
+- **What was closed.** **G-01**, IDEA-002's feasibility precondition and the reason the candidate has been
+  parked as **P-004** since Cycle 5. The question was whether a public, defensible funding-state proxy can
+  be constructed that demonstrably predicts disclosed dealer funding value adjustments over a multi-year
+  sample. P-004's own entry states the consequence in advance: "If not, this candidate should be rejected
+  rather than re-specified." IDEA-002's own prediction 4 states the same: the proxy "must be validated
+  against disclosed dealer funding costs; if the proxy carries no information about them, the candidate is
+  untestable and **must be dropped** rather than re-specified."
+- **Why the answer is no — three independent reasons.**
+  1. **The proposed validation is tautological for the candidate's own claim.** A dealer's funding value
+     adjustment is *computed from its own funding curve* (S-010, S-155). A funding-cost proxy that
+     "predicts" a disclosed FVA is therefore an accounting identity, not evidence that the proxy measures
+     what IDEA-002 actually conditions on — **dealer-specific balance-sheet capacity**. S-297 shows the
+     field is not even settled on the sign of the construct (whether FVA is a cost or a benefit of
+     intermediation is an open argument), so the target is not unambiguously signed in the first place.
+  2. **The target is thin, non-comparable and not multi-year.** Dealer FVAs are disclosed as annual,
+     point-in-time amounts, by a small number of disclosing dealers, at materially different levels of
+     materiality and under differing definitions; no continuous public series exists (S-155's caveat, which
+     this cycle re-confirmed rather than contradicted); and the published tabulation of dealer FVA
+     disclosures is a short window rather than a multi-year series. A validation over "a multi-year sample"
+     is not constructible from published dealer disclosure at all.
+  3. **The state the candidate needs is dealer-specific; every public ingredient is market-wide.** The
+     public ingredients are market funding-cost series; the closest *dealer-specific* public measures are
+     the Federal Reserve's quarterly Senior Credit Officer Opinion Survey (qualitative net percentages) and
+     the NY Fed's daily SOFR statistics (S-155). A market-wide composite cannot measure one dealer's
+     balance-sheet capacity; and with a market-wide state the conditioning changes only the **size** of an
+     effect — failing G-12's sign-and-existence limb — while the relation it would condition is published
+     (S-009) and its nearest published empirical form is a **seller-side** funding-state → flow impact →
+     reversal result (S-292, S-293): the published way to condition flow impact on a funding state uses
+     the *seller's* redemption pressure, not the intermediary's funding cost. S-297 adds the
+     practitioner-level view that FVA belongs in fair value, which is IDEA-002's own premise, already
+     documented.
+- **Why this is a rejection and not a re-specification.** A market-wide funding composite would satisfy
+  G-13's publication test but would (i) make the state common to every security, so the trade becomes a
+  market-beta position rather than a stock-selection edge; (ii) condition only the *size* of an effect
+  whose existence and sign are published (S-009, S-292, S-293) — the register's "baseline re-description
+  with an extra regressor" pattern; and (iii) be collinear with the candidate's *own named rival
+  conditioner*, contemporaneous volatility and depth, which the dossier lists as the kill condition for
+  prediction 1 — a public funding composite is inseparable from volatility in stress, so the conditioning
+  is not identified. Re-specifying around a weaker proxy is exactly what IDEA-002's dossier, its parking
+  entry and the Cycle-57 handoff all forbid. **The candidate is therefore rejected on its own stated
+  terms.**
+- **What the register keeps.** The reusable components are filed as baselines: the dealer funding-value
+  adjustment as a debt-overhang cost priced into dealer quotations (S-010, S-155, S-297); the
+  state-dependence of market liquidity on funding constraints (S-009); the published *seller-side*
+  funding-state → flow price impact and reversal relation (S-292, S-293); and the fund-liquidity and
+  cross-sectional-arbitrage constructs (S-291).
+- **Dated re-open condition.** Re-open only with a **new mechanism** — not a better wording and not a new
+  proxy. Two specific triggers would qualify: (i) a **public, continuous, multi-year, dealer-level funding
+  state** becomes available (for example a supervisory or regulator-published dealer funding-cost series),
+  which would make G-01's validation constructible for the first time; or (ii) a published study
+  demonstrates that the *intermediary's* funding state — as opposed to the seller's — conditions the
+  flow-impact slope, which would supply the evidence G-01 was designed to look for.
+- **Decision:** **rejected (R-038).** Score withdrawn (63.0). No `V-` specification was ever issued for
+  IDEA-002, so none is withdrawn. **P-004 is closed.** The register now holds four active dossiers, five
+  parked and five rejected.

@@ -1,4 +1,23 @@
-# SOURCE LEDGER — CYCLES 1–56
+# SOURCE LEDGER — CYCLES 1–58
+
+Cycle 58 (2026-10-20) added **S-291 … S-308** (see "Cycle 58 sources" at the end of this file), the
+**"Cycle 58 gap verdicts"** block, and the **"Cycle 58 state-integrity repairs"** block. Cycle 58's
+substantive work was (i) **closing G-01 as a negative and rejecting IDEA-002 (R-038)**; (ii) a **bounded
+re-check of G-04 and G-28** (IDEA-004) that produced a **structural** — not merely an absence-of-search —
+reason why no published convergence-crowd concentration measure can exist; (iii) a **bounded re-check of
+G-21** (IDEA-011) that maintained the null and sharpened it from "unrun" to "unrun *and* unused by the
+field's largest comparability study"; (iv) the **first screen of a contractual-barrier-hedging family**
+(R-037, bounded negative); and (v) a **state-integrity repair of the Cycle-57 source block**, which found
+**two mis-stated titles, one mis-stated author initial, one unverifiable entry, one wrong volume/issue,
+one duplicate registration**, and **six issuer documents whose quoted disclosure language had been
+recorded as paraphrase**. Cycle 58 changed no score for IDEA-004, IDEA-009, IDEA-010, IDEA-011 or IDEA-014
+and **rejected one candidate (IDEA-002)**. The register now holds **S-001 … S-209** and **S-220 … S-308**;
+the identifiers **S-210 … S-219** remain reserved and unused.
+
+Cycle 57's header omission is repaired here: Cycle 57 appended its sources, gap verdicts and identifier
+record at the end of this file but did not update this header, so for one cycle the header described Cycle
+56 while the file's tail described Cycle 57. The header now describes Cycle 58, and the Cycle-57 block
+remains in place at the end of the file.
 
 Cycle 56 (2026-10-20) added **S-267 … S-280** (see "Cycle 56 sources" at the end of this file), the
 **backfilled "Cycles 53–55 gap verdicts" block** (none of those three cycles wrote a verdict block into
@@ -6943,4 +6962,547 @@ ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-0
 IDEA-009 (60.0), IDEA-014 (52.0)**. New identifiers consumed: sources **S-281 … S-290**, rejection
 **R-036**. No `IDEA-` identifier was consumed and no `V-` identifier was consumed as a new specification.
 **Next free identifiers:** **IDEA-017, S-291, V-012, G-34, R-037, P-014**. The reserved-and-unused
+identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 58 sources (S-291 … S-305)
+
+All entries below were located by the Cycle-58 searches and **verified by the cycle itself**. Where the
+verification method was the Crossref REST API, the DOI, title, authors, container title, year, volume,
+issue and pages were all read from the API response. Where the method was a direct document fetch, the
+quoted passage was read in the document itself. **No identifier, title, author or DOI in this block was
+supplied by a search agent without being re-read by the cycle** — the register's standing rule, given that
+identifiers supplied by a research agent have previously been found wrong.
+
+### S-291 — Chen, Y., Da, D. and Huang, D. (2019)
+"Arbitrage Trading: The Long and the Short of It." *The Review of Financial Studies* 32(4): 1608–1646.
+DOI: https://doi.org/10.1093/rfs/hhy097
+- **Type:** Prior empirical result (author-reported; first published online 28 November 2018, print issue
+  April 2019).
+- **Supports (for G-04 / G-28):** a **published, position-based measure of arbitrage activity at the
+  security level** — abnormal hedge-fund holdings (AHF), abnormal short interest (ASR) and their net
+  combination (AHFSR) — that separates hedging and negative-hedging demand from the arbitrage activity
+  it accompanies.
+- **Caveats:** the measure is **security-level and single-sided**; the crowding it detects is anomaly- and
+  stock-level, not a paired, netted convergence crowd, and it inherits 13F's reporting lag.
+- **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
+  pages, issued date).
+- **Why it is new to the ledger:** the Cycle-35 G-18 gap-verdict reasoning already *cited* "Chen–Da–
+  Huang (2019) net arbitrage trading" as an external claim, but **no S-identifier existed for it**. The
+  claim was therefore sitting in the register without a ledger entry, in breach of the rule that every
+  external claim points to a source entry. This entry closes that defect.
+
+### S-292 — Coval, J. and Stafford, E. (2007)
+"Asset fire sales." *Journal of Financial Economics* 86(2): 479–512.
+DOI: https://doi.org/10.1016/j.jfineco.2006.09.007
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for G-01 / IDEA-002):** the published, peer-reviewed form of the **funding-state → flow
+  price impact → reversal** relation, on the *seller's* side: hedge funds facing large redemptions sell
+  their common holdings, the resulting price pressure is measurable, and the subsequent reversal is also
+  measurable; investors trading against the constrained sellers earn significant returns for supplying
+  liquidity.
+- **Caveats:** the conditioning state is the **seller's redemption pressure**, not the *intermediary's*
+  funding cost; the setting is US mutual funds in 1998–2004; and the effect is a temporary price-pressure
+  phenomenon rather than a persistent slope asymmetry.
+- **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
+  year); abstract read from the publisher/index rendering.
+
+### S-293 — Huang, S., Hu, R., Song, Y. and Xiang, H. (2026)
+"Same Dollar, Different Impact: Investor Flows are Not Equally Price-Moving." SSRN working paper 6266398
+(doi:10.2139/ssrn.6266398).
+- **Type:** Working paper (preprint; a journal version was located at the Journal of Financial Planning's
+  site but its pagination and editorial status were **not** independently verified, so it is registered
+  here as a preprint).
+- **Supports (for G-01 / IDEA-002):** published evidence that **flow price impact is heterogeneous in the
+  investor's funding state** — the same dollar of flow moves the price more for one investor type than for
+  another — and that the heterogeneity is a function of the seller's redemption/redemption-pressure state.
+- **Caveats:** the state is the *seller's* funding state, so it supports the *mechanism* of a
+  funding-state-conditioned flow-impact relation while leaving IDEA-002's *intermediary*-side
+  conditioning untouched; it is a preprint; and the direction of the published relation is that the
+  *funding-constrained* flow is the more price-moving one.
+- **Verification:** Crossref REST API (DOI, title, all four authors, container title "Journal of
+  Financial Planning", year, type "posted-content"); abstract read from the journal's own page and from
+  the preprint's abstract.
+
+### S-294 — Neel, M. (2017)
+"Accounting Comparability and Economic Outcomes of Mandatory IFRS Adoption." *Contemporary Accounting
+Research* 34(1): 658–690.
+DOI: https://doi.org/10.1111/1911-3846.12229
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for G-21 / IDEA-011):** the field's large peer-reviewed comparability study, on a
+  **first-time-adopter** design by construction (mandatory IFRS adoption is, for the adopting
+  jurisdictions, an adoption *of IFRS for the first time*). It links comparability improvements to
+  changes in earnings quality, liquidity, **analyst forecast accuracy and forecast agreement**.
+- **Caveats:** its outcomes are *levels* after comparability has improved; it does **not** measure the
+  *transition* window that IDEA-011's drift claim concerns; and **post-earnings-announcement drift is not
+  among its outcomes**. It therefore neither supports nor refutes the candidate's directional drift claim,
+  while establishing that the discriminator the candidate needs (first-time versus second-time adopters of
+  the same standard) is *unused* in the field's largest such study.
+- **Verification:** Crossref REST API (DOI, title, author, container title, volume, issue, pages, year).
+  **Correction to a research-agent report:** the source was reported with a different author surname;
+  the Crossref record gives **Neel, M.**, and the cycle verified this before registering it.
+- **Note on sample figures:** the cycle did **not** obtain the paper's abstract or its sample counts, so
+  no figure from it (number of adopters, number of countries, magnitudes) is asserted anywhere in the
+  register.
+
+### S-295 — Jiao, T., Koning, M., Mertens, G. and Roosenboom, P. (2012)
+"Mandatory IFRS adoption and its impact on analysts' forecasts." *International Review of Financial
+Analysis* 21(1): 56–63.
+DOI: https://doi.org/10.1016/j.irfa.2011.05.006
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for G-21 / IDEA-011):** the published literature measures the **analyst-information**
+  consequences of mandatory IFRS adoption (forecast accuracy and dispersion), which is the closest
+  published *outcome* family to the candidate's information-environment claim.
+- **Caveats:** a **first-time-adopter** design (mandatory adoption); the outcomes are forecast properties
+  rather than post-earnings-announcement drift; and the study does **not** compare first-time with
+  second-time adopters.
+- **Verification:** Crossref REST API (DOI, title, all four authors, container title, volume, issue,
+  pages, year).
+
+### S-296 — Greenwood, R. and Thesmar, D. (2011)
+"Stock price fragility." *Journal of Financial Economics* 102(3): 471–490.
+DOI: https://doi.org/10.1016/j.jfineco.2011.06.003
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for G-28):** a **published ownership-concentration → price-fragility** construct: the
+  dispersion of ownership across holders predicts how a security responds to a flow shock. It is the
+  register's third published *concentration* neighbour (with S-291 and S-242).
+- **Caveats:** the concentration it measures is the dispersion of **single-name ownership**, which is a
+  *directional* holder base, not the *paired, netted* position of a convergence crowd; the state is
+  slow and stale.
+- **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
+  year).
+
+### S-297 — Hull, J. C. and White, A. (2014)
+"Valuing Derivatives: Funding Value Adjustments and Fair Value." *Financial Analysts Journal* 70(3):
+46–56.
+DOI: https://doi.org/10.2469/faj.v70.n3.3
+- **Type:** Practitioner-scholarship survey (peer-reviewed journal; authors' own view).
+- **Supports (for G-01 / IDEA-002):** the published case that **funding value adjustments belong in fair
+  value** — i.e. that a dealer's funding cost is a real, priced component of the quotes it makes, which
+  is the premise IDEA-002's mechanism rests on.
+- **Caveats:** it is an argument about accounting and pricing practice, not an empirical estimate of the
+  size or variation of dealer FVAs; and it disagrees with S-010's shareholder-interest framing, so the
+  field's *substantive* debate is open on whether FVA is a cost or a benefit of dealer intermediation.
+- **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
+  year). **Correction to a research-agent report:** the DOI was reported as `10.2469/faj.v70.n3.5`; the
+  Crossref record gives **`10.2469/faj.v70.n3.3`**, which is the entry registered here.
+
+### S-298 — Todorov, K. and Vilkov, G. (2024)
+"What could explain the recent drop in VIX?" *BIS Quarterly Review*, March 2024, Box B1.
+URL: https://www.bis.org/publ/qtrpdf/r_qt2403x.htm
+- **Type:** Central-bank research box (peer-reviewed internally; published in the BIS Quarterly Review).
+- **Supports (for the R-037 screen):** a **central-bank publication** stating that "option dealers
+  effectively dampen volatility when they hedge structured products" and that "dealers act in a
+  contrarian way, effectively dampening the price movements of the underlying asset" — i.e. the
+  *dealer-hedging-of-structured-products* channel is already claimed in the literature, and the sign it
+  claims is **damping**, not a barrier-passage concession.
+- **Caveats:** the box's mechanism is the *continuous dynamic hedging* of yield-enhancing products, not
+  the *barrier discontinuity* the R-037 screen screened; its evidence is a co-movement argument ("the
+  meteoric rise in yield-enhancing structured products linked to the S&P 500 over the last two years has
+  gone hand in hand with the drop of VIX over the same period"), not an identification; and the claim was
+  **publicly disputed** by Cboe (S-304).
+- **Verification:** direct fetch of the BIS Quarterly Review box page; quoted passages read in the
+  document.
+
+### S-299 — Cui, Y., Li, L. and Zhang, G. (2024)
+"Pricing and hedging autocallable products by Markov chain approximation." *Review of Derivatives
+Research* 27(3): 259–303.
+DOI: https://doi.org/10.1007/s11147-024-09206-z
+- **Type:** Prior method paper (peer-reviewed).
+- **Supports (for the R-037 screen):** the published academic statement that for autocallable products
+  "the delta of an autocallable product can vary rapidly near the barriers, making delta hedging costly
+  to implement", and that the standard remedy is **payoff modification and barrier shifting** — i.e. the
+  *discontinuity* the R-037 screen proposed to trade is a known object that the industry **engineers
+  away** by construction.
+- **Caveats:** the paper is a pricing-and-hedging-method paper; it does not measure any market impact of
+  the discontinuity, and it contains no evidence about the underlying's price behaviour near a barrier.
+- **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
+  pages, year); content read from the publisher's open-access page.
+
+### S-300 — Fang, W. (2026)
+"China's Autocallable Cycle: Dealer Hedging Flows, Market Impact, and Lessons for Japan's Structured-Note
+Market." SSRN working paper 7346463 (doi:10.2139/ssrn.7346463), written 24 August 2026, posted
+28 August 2026.
+- **Type:** Working paper (preprint; not peer-reviewed; author's declaration of a prior industry role).
+- **Supports (for the R-037 screen):** the **most direct prior-art hit on the screened family**. The paper
+  claims that Chinese autocallable ("snowball") notes "generated predictable, state-dependent dealer
+  hedging flows around their knock-in and knock-out barriers", reconstructs the January 2024 knock-in
+  episode from the hedging side, finds that "the economically relevant quantity is the hedge released
+  across the barrier region rather than a pointwise delta at the contractual barrier", reports
+  event-window regressions showing basis widening and activity increases in the CSI 500/1000 futures
+  families "significantly exceeding the CSI 300/SSE 50 controls", and proposes a monitoring framework of
+  **outstanding notional × barrier concentration × maturity concentration × local dealer gamma**.
+- **Caveats, stated by the author:** the event-window results are "consistency results, not causal
+  identification"; the flow magnitudes are **hypothetical** ("hypothetical one-way flows of RMB 5–10bn per
+  100 index points"), and the paper's own transferability analysis states that **"only one of the four
+  variables is currently measurable from public disclosure"** for the Japanese market it proposes to
+  extend the framework to.
+- **Verification:** direct fetch of the preprint's abstract page (title, author, dates, abstract,
+  DOI, declaration); the paper's full text was **not** read, so nothing is asserted beyond its abstract.
+
+### S-301 — European Securities and Markets Authority (2018)
+*Report on Trends, Risks and Vulnerabilities No. 2, 2018*, box "Structured Retail Products: the EU
+market."
+URL: https://www.esma.europa.eu/sites/default/files/trv_2018_2-structured_retail_products_the_eu_market.pdf
+- **Type:** Regulator publication (primary).
+- **Supports (for the R-037 screen):** the **published market-structure record** for European retail
+  structured products: the regulator's database covers "around 60 different products" per reporting
+  country since 2006 and reports, per product, "the barrier level, the volume issued, the minimum return,
+  the offer date, strike date and expiry date"; payoff-type shares are published (for France in 2017:
+  autocallables 29 %, protected trackers 43 %, uncapped calls 13 %, capped calls 4 %); and the box records
+  that **auto-callable sales volumes have declined sharply** in Germany after 2011 and that the Italian
+  market "appears to have witnessed a collapse in sales volumes overall".
+- **Caveats:** the database reports **volume issued**, not **outstanding notional**, and aggregates by
+  country and payoff type, so it cannot supply the barrier-level and maturity-level concentration the
+  monitoring framework in S-300 requires; and the 2018 vintage predates the 2023–2025 rise in
+  yield-enhancing issuance discussed in S-298.
+- **Verification:** direct fetch of the box's own PDF; quoted passages read in the document.
+
+### S-302 — European Securities and Markets Authority (2022)
+PRIIPs Q&A (Joint Committee report **JC 2017 49**), autocallable-products and KID-content sections, last
+updated 14 November 2022.
+URL: https://www.esma.europa.eu/sites/default/files/library/jc_2017_49_jc_priips_qa.pdf
+- **Type:** Regulator guidance (primary).
+- **Supports (for the R-037 screen):** the **published requirement** that a PRIIPs Key Information
+  Document carries the product's barrier and performance scenarios — the KID must indicate "any other
+  relevant features such as a strike, barrier or guarantee", and for autocallables the performance
+  scenario table must be presented on the two specified assumptions (called at the first possible date;
+  reached maturity).
+- **Caveats:** a KID is published at issue, so it establishes that a barrier level is **published before
+  the note trades**; it does not establish that the *issuer's* hedging is published, nor which notes are
+  outstanding at which barrier.
+- **Verification:** direct fetch of the Q&A PDF; quoted passages read in the document.
+
+### S-303 — Intesa Sanpaolo S.p.A. (2026)
+"Final Terms, 10 September 2026 — Standard Long Autocallable Barrier Digital Plus Worst of Certificates
+Quanto with Memory Effect … due 11.09.2028 (ISIN IT0005730483)", official listing documentation
+(Borsa Italiana, announcement 2026-04074).
+URL: https://www.borsaitaliana.it/secder-listing/2026-04074-OFFICIAL_LISTING_DOCUMENTATION-MjAyNi0wNDA3NE9GRklDSUFMX0xJU1RJTkdfRE9DVU1FTlRBVElPTm51bGwxNzg4NzYyMTE1ODYy.pdf
+- **Type:** Primary legal document (exchange listing documentation).
+- **Supports (for the R-037 screen):** a **worked primary instance** of the screen's state: the final
+  terms publish the contractual barrier level ("Barrier Level: The Barrier Level is equal to 60 % of the
+  Initial Reference Value of the relevant Underlying"), the barrier-event determination periods, and the
+  issuer's standard hedging language ("The Issuer may enter into hedging arrangements with market
+  counterparties in connection with the issue of the Securities in order to hedge its exposure") — the
+  latter showing that the *hedging* itself is **discretionary and unpublished**, while the *barrier* is
+  published.
+- **Caveats:** one instrument; an equity-index-linked certificate rather than a single-name autocallable;
+  and the document publishes terms, not the issuer's hedge or the note's outstanding notional.
+- **Verification:** direct fetch of the listing document; quoted passages read in the document.
+
+### S-304 — StructuredRetailProducts.com (2025)
+*Structured Products Insights*, Special Edition, April 2025 ("Market impact" section; China snowball
+section).
+URL: https://files.structuredretailproducts.com/files/SRPInsights%2027%20final%20712025.pdf
+- **Type:** Trade press / practitioner commentary (**not** peer-reviewed; registered because it is the
+  source of two specific, attributable practitioner statements and of the documented 2024–2025 Chinese
+  episodes).
+- **Supports (for the R-037 screen):** practitioner accounts of the *dealer flow* the screen proposed to
+  trade — "You buy the futures as you approach the barriers, but then the problem is once you hit the
+  knock-in, the barrier disappears, and your delta reverts back … you need to sell a lot of those futures
+  you bought … This can cause selling pressure on the downside" — and of dealers' **barrier shift**
+  ("moving the knock-in level model basis lower to reduce the amount of futures they have to buy"); the
+  documented February 2025 Chinese market moves, in which "brokers' hedging activities may have
+  exacerbated market selling pressure"; and **Cboe's published dissent** from the BIS conclusion (S-298),
+  which is itself evidence that the dealer-hedging channel's magnitude is contested.
+- **Caveats:** trade press, anonymous attribution ("an investment banker", "a trader"), and
+  jurisdiction-specific (Chinese and Japanese retail markets); the quoted descriptions are of *practice*,
+  not of measured effects.
+- **Verification:** direct fetch of the document; quoted passages read in the document.
+
+### S-305 — Barclay, M. and Hendershott, T. (2003)
+"Price discovery and trading after hours." *The Review of Financial Studies* 16(4): 1041–1073.
+DOI: https://doi.org/10.1093/rfs/hhg030
+- **Type:** Prior empirical result (author-reported).
+- **Supports (for the R-036 screen, replacing the unverifiable S-290):** the canonical peer-reviewed
+  treatment of after-hours trading: after-hours **price discovery is concentrated in a small subset of
+  stocks**, and for those stocks the after-hours transaction price **leads the next open**. This supports
+  both of the limbs the R-036 screen rested on S-290 for — that after-hours price formation is a
+  documented channel, and that the after-hours session is **thin and concentrated**, so the round-trip cost
+  of trading in it is high.
+- **Caveats:** it is a market-structure and price-discovery result, not a cost estimate; and it does not
+  measure the profitability of any stale-price strategy.
+- **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
+  year).
+
+### S-306 — Auh, J. K. and Cho, W. (2023)
+"Liquidation Cascade and Anticipatory Trading: Evidence from the Structured Equity Product Market."
+*The Review of Asset Pricing Studies* 13(1): 53–98 (first published online 4 April 2022).
+DOI: https://doi.org/10.1093/rapstu/raac010
+- **Type:** Prior empirical result (author-reported; peer-reviewed). An earlier working-paper version with a
+  different title — "Liquidation Cascade and Hedging Front-Running: Evidence from the Structured Equity
+  Product Market" (SSRN 3719988, 2020) — is the same project.
+- **Supports (for the R-037 screen):** the **decisive prior art on the screened family**. From the
+  publisher-deposited abstract: "We show that structured equity derivatives can cause significant price
+  pressure of the underlying stock upon an event of dramatic payoff change. Moreover, one event causes
+  another: the event cascade amplifies the magnitude of the impact. We find that a single event accounts
+  for a −6.4 % return on the event day, and it increases the probability of a subsequent event by 21.3 %.
+  Given the negative price impact, traders try to liquidate ahead of each other, exacerbating the degree
+  of price pressure. Our results uncover the chain-reaction and (mis)coordination mechanism in complex
+  derivatives markets that can provoke substantial price shocks."
+- **Caveats:** the setting is the **Korean retail equity-linked securities (ELS)** market, 2006–2017, and
+  the events are knock-in events on single stocks; it is not a US or EU retail structured-note study, and
+  it does not condition on a *published* barrier level as a decision-time variable; and the −6.4 % event
+  figure is an unconditional event-day mean, not a tradeable excess return.
+- **Verification:** Crossref REST API, including the **publisher-deposited abstract** (DOI, title, both
+  authors with affiliations, container title, volume, issue, pages, online date). The publisher's full
+  text was **not** read (the article page refused automated access), so nothing is asserted beyond the
+  deposited abstract and the metadata.
+
+### S-307 — Lim, H. and Choi, Y. (2015)
+"Knock-In and Stocks Market Effect Due to ELS Issuance and Hedging." *Journal of Derivatives and
+Quantitative Studies* 23(2): 289–321.
+DOI: https://doi.org/10.1108/jdqs-02-2015-b0006
+- **Type:** Prior empirical and modelling result (peer-reviewed; open access).
+- **Supports (for the R-037 screen):** the published **delta discontinuity at the knock-in level** in the
+  retail ELS/autocallable market — for auto-call step-down structures the issuer's delta rises
+  continuously as the underlying approaches the knock-in level, and on touching it the down-and-out leg
+  disappears and the hedger must rapidly reduce or reverse its delta — together with the published
+  discussion of *pin risk* in the knock-in/knock-out region and of leverage-related delta limits under
+  continuous-hedging assumptions.
+- **Caveats:** a Korean ELS setting; and its subject is the *hedging* discontinuity and its risk
+  management, not a tradeable return around the barrier.
+- **Verification:** Crossref REST API (DOI, title, both authors, container title, volume, issue, pages,
+  publication date).
+
+### S-308 — Broadie, M., Glasserman, P. and Kou, S. G. (1997)
+"A Continuity Correction for Discrete Barrier Options." *Mathematical Finance* 7(4): 325–349.
+DOI: https://doi.org/10.1111/1467-9965.00035
+- **Type:** Prior method paper (peer-reviewed; the canonical barrier-option reference).
+- **Supports (for the R-037 screen):** the published basis for the **barrier shift** that the industry
+  applies to smooth the very discontinuity the screen proposed to trade — the correction
+  exp(±βσ√Δt) with β ≈ 0.5826 for discretely monitored barriers, and the documented deterioration of
+  barrier and delta approximations as the underlying nears the barrier. The discontinuity is therefore a
+  known, quantified, *corrected-for* modelling artefact rather than an unmodelled market fact.
+- **Caveats:** it concerns option pricing and delta approximation for discretely monitored barriers, not
+  the hedging of issued retail notes and not any price effect in the underlying.
+- **Verification:** Crossref REST API (DOI, title, all three authors, container title, volume, issue,
+  pages, year).
+
+---
+
+## Cycle 58 state-integrity repairs
+
+Cycle 58 verified the Cycle-57 source block entry by entry, because that block supports **G-33's
+kill condition**, which is the closure of the register's rank-1 candidate's only live arm, and because
+**R-036's five reasons cite it**. The verification found eight defects. **No verdict changed**; the
+evidentiary base of R-036 was repaired and G-33's record was made exact.
+
+### Repair 1 — S-287's title and author initial were wrong
+The entry recorded: "Lu, X., et al. (2023). 'Night minus day: The informational role of overnight
+trading.' *Journal of Financial Economics*." The DOI 10.1016/j.jfineco.2023.03.002 resolves to **Lu, Z.,
+Malliaris, S. and Qin, Z. (2023), "Heterogeneous liquidity providers and night-minus-day return
+predictability", *Journal of Financial Economics* 148(3): 175–200**. The **title was wrong**, the **author
+initial was wrong** ("X." for "Z."), and the venue and year were right. The paper's content *is* on point
+for the R-036 screen (it is about night-minus-day return predictability), so the screen's first reason
+stands on a corrected citation.
+
+### Repair 2 — S-288's title was the pre-publication working-paper title
+The entry recorded "Camilleri, M., & Green, R. (2014). Non-synchronous trading." The work is real, but the
+**published** 2014 article is **Camilleri, S. J. and Green, C. J. (2014), "Stock market predictability",
+*Studies in Economics and Finance* 30(1): 7–31, DOI 10.1108/SEF-06-2012-0070**; "An Analysis of the
+Impacts of Non-Synchronous Trading on Predictability: Evidence from the National Stock Exchange, India"
+was the earlier working-paper title (SSRN 739344, 2005). The register's screen rationale used the
+non-synchronous-trading framing, which the published paper's own earlier title supports, so the screen's
+reason stands — but the citation now names the article that exists.
+
+### Repair 3 — S-289's title was a shorthand for a two-session paper
+The entry recorded "Challet, D., & Gourianov, A. (2018). Opening auctions. hal-01702726." The HAL record
+resolves to **Challet, D. and Gourianov, N. (2018), "Dynamical regularities of US equities opening and
+closing auctions", *Market Microstructure and Liquidity* 5(1), DOI 10.1142/S2382626619500011** (produced
+2018, published 2019). The paper covers opening **and closing** auctions. The screen's third reason — that
+the opening call auction absorbs the imbalance — rests on this paper and is unchanged.
+
+### Repair 4 — S-290 is unverifiable and is removed from the evidentiary basis
+"Hendershott, T. *After-hours price discovery* (UC Berkeley Haas working paper)" carries **no DOI, no
+stable URL and no index record**; a Crossref bibliographic search on the title and author returned **no
+matching work**. Under the register's rules an entry that cannot be verified must not be presented as a
+verified citation. **S-290 is therefore marked unverifiable and struck from the evidentiary basis of the
+R-036 screen.** Its two functions are taken over as follows:
+- "the mechanism is published prior art" → **S-287** (corrected), **S-288** (corrected) and **S-305**;
+- "after-hours liquidity is thin, so the cost floor is hostile" → **S-305**, which documents that
+  after-hours price discovery is concentrated in a small subset of stocks and that the after-hours
+  session is correspondingly thin.
+**The R-036 verdict is unchanged**, because each of its five reasons still rests on at least one verified
+source; but the record now says so explicitly rather than resting on an unlocatable working paper.
+
+### Repair 5 — S-026's volume and issue were wrong
+The entry recorded "*The Review of Financial Studies* 34(7)". The correct record is **35(7): 3231–3271**
+(DOI 10.1093/rfs/hhab107 confirmed; title confirmed as "Crowded Trades and Tail Risk"). Note that the
+Cycle-32 gap-verdict block in this file already used "35(7): 3231–3271" — the error was confined to the
+entry.
+
+### Repair 6 — S-157's issue number was wrong
+The entry recorded "*RFS* 35(6): 3272–3302". The correct record is **35(7): 3272–3302** (DOI
+10.1093/rfs/hhab117 confirmed). Volume and pages were right; the issue was not.
+
+### Repair 7 — S-010 and S-155 are the same paper
+**S-010** and **S-155** are both Andersen, Duffie & Song, "Funding Value Adjustments", *Journal of Finance*
+74(1): 145–192 (DOI 10.1111/jofi.12739; NBER WP 23680). The register's rule is to **reuse an existing
+source ID** rather than duplicate a citation, extending the "supports" note instead. S-155 is retained
+(so that the G-01 cross-references do not break) but is **flagged as a re-registration of S-010**, and the
+G-01-specific reasoning it carries is now attached to S-010 as well. **No new identifier is consumed for
+this repair.**
+
+### Repair 8 — S-281 … S-286: the quoted disclosure language was paraphrase, not quotation, and the documents had no URLs
+The Cycle-57 gap-verdict block presented five short phrases in quotation marks — "still assessing",
+"evaluating", "will examine impact", "assessment remains ongoing" — as the issuers' words. They are
+paraphrases. The documents themselves also carried **no URLs**, which the ledger's format requires. The
+verbatim language, the URL for each document, and the character of each disclosure are now recorded in
+the **Cycle 58 gap-verdict block** below. Two refinements to the Cycle-57 description follow from reading
+the documents: **one issuer asserts a qualitative no-impact conclusion** (Repsol: IFRS 18 "will not have
+an impact on the Group's income, cash flows or financial position") and **one issuer's disclosure is
+qualitative but specific** about which subtotals and lines are affected (Tadawul: the standard "will
+impact the operating profit subtotal", and goodwill moves to a separate line with no change in total
+assets). Neither supplies a number. **The G-33 kill condition — quantified expected effect present in
+0 of 6 — is unchanged, and the closure of IDEA-011's prospective arm A stands.**
+
+---
+
+## Cycle 58 gap verdicts
+
+**G-01 — CLOSED AS A NEGATIVE (IDEA-002, FUNDSTATE). The candidate is rejected (R-038).**
+The question the register set was whether a public, defensible funding-state proxy can be constructed that
+demonstrably predicts disclosed dealer funding value adjustments over a multi-year sample. It cannot,
+and — more importantly — the question cannot be answered in a way that bears on the candidate, for three
+independent reasons.
+1. **The proposed validation is tautological for the candidate's own claim.** A dealer's funding value
+   adjustment is *computed from its own funding curve* (S-010, S-155); a funding-cost proxy that
+   "predicts" it is therefore an accounting identity, not evidence that the proxy measures the thing
+   IDEA-002 actually conditions on — **dealer-specific balance-sheet capacity**. S-297 records the same
+   point from the other side: whether FVA is a cost or a benefit of intermediation is itself an open
+   debate, so the target is not even unambiguously signed.
+2. **The target is thin, non-comparable and not multi-year.** Dealer FVAs are disclosed as annual,
+   point-in-time amounts, by a handful of disclosing dealers, at materially different levels of
+   materiality and under differing definitions; no continuous public series exists (S-155's caveat, which
+   this cycle re-confirmed rather than contradicted); and the published tabulation is a short window
+   rather than a multi-year series. A validation sample over "a multi-year sample" is not constructible
+   from published dealer disclosure.
+3. **The state the candidate needs is dealer-specific, while every public ingredient is market-wide.**
+   The public ingredients are market funding-cost series; the closest *dealer-specific* public measures
+   are the Federal Reserve's quarterly Senior Credit Officer Opinion Survey (qualitative net percentages)
+   and the NY Fed's daily SOFR statistics (S-155). A market-wide composite cannot measure a single
+   dealer's balance-sheet capacity, and with a market-wide state the conditioning changes only the
+   *size* of an effect — failing G-12's sign-and-existence limb — while the relation it would condition is
+   published (S-009) and its nearest published empirical form is a *seller-side* funding-state → flow
+   impact → reversal result (S-292, S-293).
+   The register's own files also record the closest published prior art for the *sign* of a
+   funding-state-conditioned flow effect, and it is the **seller's** funding state (S-292, S-293), not
+   the intermediary's.
+   **Therefore IDEA-002 is rejected rather than re-specified** — which is exactly what its own dossier
+   (prediction 4: "must be dropped rather than re-specified") and its own parking entry (P-004: "If not,
+   this candidate should be rejected rather than re-specified") prescribed. Score withdrawn. No `V-`
+   specification was ever issued for IDEA-002, so none is withdrawn.
+
+**G-04 — CLOSED IN THE CANDIDATE'S FAVOUR on the proxy-validity limb; G-28 CONFIRMED OPEN AND FROZEN
+(IDEA-004, SLOWCAP-COND).**
+- **G-04's validity limb is satisfied.** The question was whether the crowding proxy the candidate would
+  use is valid against a published outcome. It is: each crowding construct the register holds has been
+  validated against a published outcome — the holdings-based Days-ADV crowding construct against
+  crash/tail risk (S-026, S-222), the correlation-based comomentum construct against arbitrage activity
+  and returns (S-157) — so the register never needed the comomentum-versus-holdings validation it had
+  originally required. **G-04 is closed on that limb.**
+- **What remains is the identity limb, and it is registered as G-28 (frozen).** The candidate's state
+  must be a position-concentration measure of **the convergence crowd in the candidate's own universe**,
+  and no published measure of that crowd was located. **This cycle reached a structural, not merely a
+  search-based, reason for the null**, which is the new content: every published crowding, arbitrage-
+  activity and concentration construct the register now holds is **security-level and single-sided** —
+  abnormal hedge-fund holdings and abnormal short interest (S-291), short-interest-implied arbitrage
+  capital (S-242), ownership dispersion (S-296), the holdings-based Days-ADV crowding measure (S-026,
+  S-222), and correlation-implied comomentum (S-157) — because each is built from *disclosed aggregate
+  positions* in securities. **A convergence crowd is defined by a pair of positions**: long one leg, short
+  the other. A single-sided, security-level measure cannot represent it, because the same disclosed long
+  holding may be a convergence leg or a directional bet, and the short leg is either invisible or
+  contaminated by unrelated shorting. So the absence is a property of the available position-disclosure
+  sources, not of the register's searching — which is a stronger and more durable null than "nothing
+  was found".
+- **Consequence.** IDEA-004 stays at **69.0, rank 2**; **V-002 stays frozen**; the candidate may not
+  substitute any published crowding proxy, because each measures a different crowd (the standing
+  prohibition from Cycles 35, 37, 40, 52 and 56).
+
+**G-21 — CONFIRMED NULL AND SHARPENED (IDEA-011, ACCTCLOCK).**
+- **The null holds and is now stated in a stronger form.** No published study compares first-time with
+  second-time adopters of the same standard on any market outcome, including post-earnings-announcement
+  drift. Three cycles have now established this (Cycles 37, 52 and 58).
+- **The discriminator is not merely unrun — it is unused by the field's largest comparability study.**
+  S-294 is a large peer-reviewed study whose design is a **first-time-adopter** design *by construction*
+  (mandatory IFRS adoption is, for the adopting jurisdictions, adoption of IFRS for the first time), and
+  its outcomes include **analyst forecast accuracy and forecast agreement** — but **not**
+  post-earnings-announcement drift. The nearest published *outcome* family to the candidate's
+  information-environment claim is likewise a first-time-adopter study (S-295). A study that ran the
+  first-time-versus-second-time contrast on drift would therefore be a genuine contribution rather than a
+  replication, which raises rather than lowers the candidate's novelty — and lowers its evidence
+  dimension, because the field's own evidence base does not contain the comparison.
+- **The direction of the published evidence does not resolve the candidate's premise.** S-294 concerns the
+  *level* of information quality after comparability improves (more accurate forecasts, better agreement);
+  IDEA-011's claim concerns a *transition* window between the adoption announcement and the first full
+  reporting cycle. The two are not the same object, so S-294 neither supports nor refutes the candidate's
+  directional drift claim — but it does impose a requirement: **the candidate must pre-register that its
+  claim is a transition-window effect**, because the published steady-state evidence runs the other way.
+- **G-32 limb (c) is not re-read this cycle** (it is annual and the next re-read is due in 2027) and
+  limb (a)'s re-open condition is unchanged. **No score change (69.0, rank 1).**
+- **Two new facts about the candidate's mechanism scope**, read from the G-33 documents themselves:
+  (i) **IFRS 18 is presentation-only.** Standard Life's interim report states that "IFRS 18 does not
+  change the recognition or measurement of assets, liabilities, income or expenses" (S-285), and Repsol's
+  states that the standard "will not have an impact on the Group's income, cash flows or financial
+  position" (S-281). The comparability break the candidate's clock is about is therefore **bounded**: it
+  runs over the statement of profit or loss's new subtotals, the aggregation and disaggregation changes
+  and the management-performance-measure disclosures, and over **nothing else** — no cash-flow, no
+  balance-sheet, no measurement change. This *sharpens* the candidate's rule and is recorded as a
+  narrowing **in the candidate's favour**, but under the Cycle-35/52 precedent it does not move a score,
+  because it bounds the mechanism rather than supporting the directional drift claim.
+  (ii) **The EU endorsement date is corroborated by an independent primary issuer document**: Airbus
+  SE's H1 2026 financial statements state that "IFRS 18 has been endorsed by the EU on 13 February 2026"
+  (S-283), matching S-268. G-32 limb (a)'s closure therefore now rests on two independent primary
+  confirmations rather than one.
+
+**G-30 — CONFIRMED EXHAUSTED, NO RE-PROBE (IDEA-010, CREDIT-ETF).**
+Per the Cycle-57 handoff's instruction, **no re-probe of statutory filings was run**: the route question
+(is there a published primary-source route *outside* the statutory prospectus to a corporate-bond ETF's
+authorised-participant set?) is closed as exhausted on the Cycle-40 document-level search, which returned
+**0 corporate-bond ETFs with a published AP set, 0 (ETF, AP) cells and 0 (ETF, AP, episode) cells**
+across 591 bond-worded filings, five documents in four filers, and the two sponsor product pages. **No
+published crowding proxy may be substituted** (S-026, S-157, S-222, S-242, S-291, S-296 each measure a
+different crowd). **V-010 remains non-executable** against the corporate-bond ETF universe. IDEA-010 stays
+at 68.0, rank 3. No new gap is opened.
+
+**IDEA-014 — NO EFFORT WITHOUT A NEW SOURCE; STATE-FREE LIMB UNCHANGED.**
+No new source bearing on the US Renewable Fuel Standard compliance deadline was identified in this cycle's
+searches, which were directed at the crowding, dealer-funding and adopter-comparability literatures. The
+state-free existence limb therefore remains **inconclusive** and must not be described as either a
+positive finding or a refutation. IDEA-014 stays at 52.0; P-011 stands; no gap is opened.
+
+**R-037 — CONTRACTUAL BARRIER HEDGING FAMILY SCREEN, BOUNDED NEGATIVE.**
+Screened as one family, against the literature, before any conclusion: the published knock-out / barrier
+level in the term sheet or Key Information Document of an autocallable, barrier reverse auto or knock-out
+structured note, and the *discontinuity in the issuer's or dealer's hedging* when the underlying trades
+through it. The full five-reason rationale, the known-baseline row and the dated re-screen condition are
+in `rejected_and_parked.md` under **R-037**. No dossier was created; no `IDEA-` identifier was consumed;
+no score changed; no validation specification was added. **No new gap is opened**, because the screen's
+reasons are **independent of any data availability** — the mechanism, its sign and its anticipation are
+already published (S-306, S-307, S-299), the discontinuity is removed by standard practice (S-308, S-299,
+S-304), and the magnitude is unmeasurable and, where estimated, small and conditional (S-300, S-301,
+S-302) — so a better state would not revive the family.
+**Note on how this block was written.** The first pass at this verdict rested on S-298, S-300 and S-304 and
+argued that "the published state does not determine the sign". A broader literature sweep then located
+**S-306**, a peer-reviewed study of the *same* mechanism in the Korean retail ELS market with a quantified
+event-day effect (−6.4 %) and an explicit finding of **anticipatory trading**, and with it **S-307** and
+**S-308**. The screen's first reason therefore became *stronger* — the mechanism and the sign are
+published prior art with magnitudes, not merely asserted — while the "state does not determine the sign"
+sub-argument was **withdrawn**: the published *payoff structure* does fix the direction of the hedge
+adjustment at a given barrier (a down-and-in knock-out requires the issuer to sell the underlying on
+breach; an up-and-out call barrier requires it to buy), so what survives is not a sign ambiguity but the
+stronger objections that the effect is *anticipated* (S-306), *engineered away* (S-308, S-299, S-304) and
+*unmeasurable* (S-300, S-301, S-302). The verdict is unchanged; its basis is corrected.
+
+**Cycle-58 ranking and identifier record.** No candidate was created. **One candidate was rejected
+(IDEA-002, R-038).** No score changed for any other candidate. The active ranking is now
+**IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0),
+IDEA-014 (52.0)** — unchanged in order and level, because IDEA-002 was parked and therefore never in the
+active table. The register's shape changes by one: **four active dossiers (two shortlisted), five parked
+(IDEA-003, IDEA-005, IDEA-008, IDEA-013, IDEA-015), five rejected (IDEA-001, IDEA-002, IDEA-006, IDEA-007,
+IDEA-012)**. New identifiers consumed: sources **S-291 … S-308**, rejections **R-037** and **R-038**. No
+`IDEA-` identifier was consumed, no `V-` identifier was consumed, and no `G-` identifier was opened.
+**Next free identifiers:** **IDEA-017, S-309, V-012, G-34, R-039, P-014**. The reserved-and-unused
 identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
