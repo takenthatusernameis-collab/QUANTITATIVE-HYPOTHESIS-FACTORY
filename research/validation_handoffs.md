@@ -1,9 +1,20 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–59
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–66
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
+
+**Cycle 66 update — one specification amended, none added, none withdrawn.** Cycle 66 ran the register's
+prior-art re-read of IDEA-009 and found **direct published tests of that candidate's own prediction** (S-310,
+S-319, S-320), a published volatility-conditioning of the correction horizon (S-311) and the published
+clamp/cap and venue-rule record (S-317, S-318, S-321). **V-008 was therefore amended, not re-created**: the
+direction-conditioned form becomes the **primary specification**, the unconditional form becomes a mandatory
+ablation whose null is **explicitly not a kill**, the exit horizon must be **conditioned on realised
+volatility**, the state definition must **exclude the clamp region** and record the venue's published clamp and
+cap, and the published tests become **mandatory external benchmarks**. IDEA-009 was re-scored **60.0 → 53.0**;
+it stays an active candidate at rank 4 of 5, so the specification remains open and executable. **No new
+specification was written** (no candidate entered the top three) and **none was withdrawn**.
 
 Cycle 1 provided three specifications, in shortlist order: V-001 (IDEA-001), V-002 (IDEA-004),
 V-003 (IDEA-003). IDEA-002 was never specified for validation: it was parked (P-004) on feasibility
@@ -1380,12 +1391,88 @@ candidate rather than a general edge.
 
 ## V-008 — PERP-FUND (IDEA-009)
 
+### Cycle-66 amendment (binding) — the direction-conditioned form becomes the primary specification, the fixed exit is conditioned on realised volatility, and the published tests become mandatory external benchmarks
+
+Cycle 66 ran the register's **prior-art re-read of IDEA-009** against literature it had not yet seen, and the read
+produced four published results that bear directly on what this specification may treat as the candidate's state,
+sign, horizon and benchmark (S-310, S-311, S-313, S-319, S-320). **This specification is amended, not re-created.**
+The frozen hypothesis, the event universe, the outcome and the cost model are **unchanged in substance**; the
+**state definition, the primary specification, the exit horizon, the controls, the pre-registration and the
+pass standard** are amended. The sections **"State variable", "Exit", "Ambiguities 2, 3 and 4", "Pre-specified
+primary outcome and guardrails", "Baselines, separation and controls", "Stress cases, regime slices, ablations",
+"Pass / fail / uncertain" and "Kill criteria and follow-up justification"** are read as amended by this block;
+every other section stands as written.
+
+1. **The primary specification becomes the direction-conditioned form.** The published evidence says the reversal
+   after a funding-rate extreme is **conditional on the direction of the market move**: across 274 extreme events
+   on BTC, ETH and SOL from 2021 to 2026, events on **up days reverted by +1.88 % over the next 24 hours** while
+   events on **down days continued by −1.74 %**, a gap the author reports as significant (block-bootstrap 95 % CI
+   [2.60, 4.67]) and stable around seven exogenous market-wide shocks (sign test p = 0.00781) (S-310). The
+   unconditional form is therefore a **published baseline** (S-310, and S-320's near-null: slope −0.668,
+   R² = 0.00109, F = 0.388 on 357 df, with reversals reported only "in the most extreme cases"), and the
+   candidate's residual is the *implementation* of the rule, not its discovery. The validator must run the
+   **direction-conditioned rule as the primary specification** — take the side opposite the funding crowd **only
+   when the preceding price move was in the crowd's direction** — with the unconditional rule reported as a
+   **mandatory ablation**, not as the headline. The direction condition is decision-time observable (the sign of
+   the price move over the preceding funding window) and is published by the venue with zero lag.
+2. **A null on the unconditional form is NOT a kill** (the Cycle-30 / V-003 convention-amendment precedent). If
+   the unconditional rule shows no reversal while the direction-conditioned rule does, the candidate is **not**
+   dead: the unconditional form is a published baseline (S-310, S-320) and the register's literature-closure rule
+   requires the candidate to be described relative to it, never as a discovery of it.
+3. **The exit horizon must be conditioned on realised volatility.** The published correction after a funding-rate
+   extreme is **dominated by realised volatility**: across 1,696 events on 18 Binance perpetuals, high-volatility
+   events took a median of 27.0 hours to correct against 3.0 hours for low-volatility events (log-rank
+   χ² = 147.25, p < 0.0001; HR = 0.5935 for a one-standard-deviation rise in realised volatility), with correction
+   time spanning 11.53 to 122.62 hours (S-311). The fixed "1–3 funding periods" horizon may be retained as a
+   **reported variant**, but the **primary horizon specification must be volatility-conditioned and
+   pre-registered**, and a null under the fixed horizon alone is **not** a kill.
+4. **The state definition must exclude the clamp region and must record the venue's published clamp and cap.**
+   The realised funding rate is a **clamped, path-dependent** quantity: in most exchanges the funding fee is the
+   average of the past eight hours' premium rather than the current spot price (S-315); persistent futures-spot
+   discrepancies cannot be explained by transaction fees alone and the **clamping function** is a key driver, with
+   model-free no-arbitrage bounds (S-317); the futures-to-spot ratio is **bimodal at higher frequencies because of
+   the inaction region induced by the clamp**, and clamping strength relates to funding-rate volatility
+   **non-monotonically** (S-318); and the venue's own rulebook publishes both the clamp factor and an eight-hour
+   cap of 600 % × (initial margin − maintenance margin) — 12 % for BTC-USD on dYdX — with **governance able to
+   change the clamp factor, the cap, the sampling interval and the impact notional** (S-321). The percentile
+   ("top/bottom decile") must therefore be computed on **clamp-excluded** observations, and the clamp band, the cap
+   and the sampling parameters must be **recorded per venue** for every venue in scope. A percentile computed on
+   clamped observations is a contaminated state.
+5. **Mandatory external benchmarks.** The validator must report the candidate against the published results it
+   must **beat or explain**, each labelled as *author-reported and not reproduced by the register*: S-310 (274
+   extreme events, direction-conditioned, 2021–2026, BTC/ETH/SOL); S-320 (BitMEX, 2 November 2022 – 22 February
+   2023; slope −0.668, R² 0.00109, F = 0.388, 357 df; index-price variant R² 0.0168; reversals only at the
+   extremes; mean reversion "not immediately" after a high negative rate); S-319 (19 Binance perpetuals on an
+   8-hour cadence, 44 features, HAC-adjusted information coefficients, Benjamini–Hochberg FDR, two cross-validation
+   folds; validation Sharpe +0.80 collapsing to −1.17 in holdout, −247 % decay, "viable only with explicit regime
+   detection"); S-311 (the volatility-conditioned correction speed); and S-313 (cross-venue microstructure and
+   spread timing).
+6. **The cost model must state which side of the settlement the entry is placed on.** Published cross-venue evidence
+   (9.1 million hourly funding-rate observations, 26 exchanges, 812 symbols) reports that **intraday spreads peak
+   approximately two hours after standard settlement times** and are linked to the settlement mechanics (S-313).
+   The cost model must therefore specify the entry's position relative to the settlement and justify it; a rule that
+   enters immediately after the settlement it is keyed to faces the widest spreads.
+7. **The momentum confound is upgraded from a rival to a head-to-head control.** Because past returns predict basis
+   deviations (S-086) and the published conditional result conditions on the market's direction (S-310), ablation
+   (d) becomes mandatory and is a **head-to-head test against the direction condition alone**: the candidate must
+   show that its funding-*level* state adds something over the direction condition, not merely that it beats an
+   unconditional trade.
+8. **Pass standard and reporting.** The candidate now passes only if it (i) survives on the **direction-conditioned
+   primary specification** with a **volatility-conditioned horizon**, (ii) **explains or beats** the published
+   conditional result it is an implementation of (S-310), (iii) survives the published cost facts (S-313, S-319's
+   cost model), and (iv) is reported as an **incremental variant of published conditional funding-reversal work**,
+   never as a discovery of the funding-level reversal. Ranking consequence recorded in the register: IDEA-009 is
+   re-scored **60.0 → 53.0** at Cycle 66 and the specification remains open and executable.
+
 ### Frozen hypothesis
 The perpetual-futures funding rate is settled every few hours and published by the exchange; it
 measures the crowded-leverage state directly. A rule that takes the side opposite to the
 funding-rate crowd — short when the funding rate is high and positive (longs paying shorts),
 long when it is low or negative (shorts paying longs) — captures a mean-reversion premium in the
-futures-spot basis that decays as the crowd unwinds.
+futures-spot basis that decays as the crowd unwinds. *(Amended at Cycle 66: the published evidence
+makes the reversal conditional on the market's direction, so the frozen hypothesis is now tested in
+its direction-conditioned form, with the unconditional form retained as a baseline — see the
+amendment above.)*
 
 ### Frozen conceptual rules
 - **Event universe:** crypto perpetual futures on major exchanges for liquid underlyings (BTC,

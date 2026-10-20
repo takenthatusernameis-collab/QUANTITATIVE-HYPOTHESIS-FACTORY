@@ -5,8 +5,19 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 65 complete, 2026-10-20. **45 rejections (R-001 … R-045), 12 parking records of
-which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 74-row known-baseline table.**
+Last updated: Cycle 66 complete, 2026-10-20. **46 rejections (R-001 … R-046), 12 parking records of
+which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 76-row known-baseline table.**
+Cycle 66 added **R-046** (the **published clamp/cap band of a continuously published state** family — template I,
+bounded negative, the register's first screen of a *published bound on a state's own functional form*) as **row 75**,
+and added a **second** baseline row (**row 76**) for the **crypto perpetual funding-extreme reversal family**, so
+that the rediscovery guard records the published conditional result (S-310, S-319, S-320) of which IDEA-009 is now
+an incremental variant. Cycle 66's other substantive work was the register's **prior-art re-read of IDEA-009**,
+which re-scored that candidate **60.0 → 53.0** and amended **V-008**; **no candidate was created and no `G-`
+identifier was opened.** The **screen programme is now recorded as exhausted as a source of new candidates**: seven
+consecutive template screens (R-040 … R-046) have each produced the same five-reason bounded negative, so the
+marginal yield of an eighth template is very likely negative, and the screen slot is better spent on evidence
+operations (candidate re-reads) — which is what Cycle 66 did, and it produced the cycle's only change to a
+candidate. Earlier history:
 Cycle 59 added **R-039** (the **published-price-of-a-constraint** family — repo specialness, securities-
 lending fee curves, CDS financing spreads, standing-repo award rates — bounded negative, the register's
 **first screen of a *published-price-of-a-constraint* family** and the first screen run in the explicit
@@ -1428,6 +1439,8 @@ to baselines.
 | **Published constraint breach / non-compliance events at decision date (added in Cycle 63)** | **Published constraint breach / non-compliance events exist as institutional event series (margin violations, position-limit breaches, enforcement actions, covenant breaches), but bounded-negative family screen (R-043) — the register's first screen of template (F).** Event publication is a third-party obligation to disclose rather than a constrained flow from which the screen extracts a concession; published breach events are lagged, security-specific and already embedded in price formation (an enforcement action or breach disclosure is itself price-moving information); to change sign/existence (G-12) rather than just size, an unclaimed sign-determining instance would need a published threshold that flips whether an action is worthwhile, published *before* the decision and not already claimed — no such general-family instance was identified; the effective sample is the number of breaches, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. **Dated re-screen condition:** re-screen only if a continuously published, decision-time breach/non-compliance event series shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
 | **Published constraint waiver/amendment events at decision date (added in Cycle 64)** | **Published constraint waiver/amendment events exist as institutional event series (covenant waivers, position-limit amendments, margin-requirement amendments, regulatory forbearance notices, contractually published renegotiation outcomes), but bounded-negative family screen (R-044) — the register's first screen of template (G).** Event publication is a third-party disclosure obligation rather than a constrained flow conceding an edge; published waiver/amendment events are lagged, security- or issuer-specific and already embedded in price formation; conditioning changes terms or sizing (magnitude) rather than sign/existence in any unclaimed way; the effective sample is the number of waivers/amendments, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. **Dated re-screen condition:** re-screen only if a continuously published, decision-time waiver/amendment event series shows a threshold that varies by published state with documented cadence/coverage, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
 | **Published regulatory change-of-law state at decision date (added in Cycle 65)** | **Changes of law or regulation with published effective dates exist as institutional series, but bounded-negative family screen (R-045) — the register's first screen of template (H).** A change of law is published in advance and anticipated; it changes terms and magnitude far more often than sign or existence in an unclaimed way; the constrained party adjusts for its own account, so there is no third-party concession flow to harvest (the S-151 analogue); the effective sample is the number of changes of law, not securities × dates; and anticipation/competition through CDS/borrow pricing washes out any residual. No unclaimed sign-determining instance meeting G-12 was identified for the general family. **Dated re-screen condition:** re-screen only if a change of law creates a dated, price-insensitive, non-discretionary flow executed by a participant other than the obligor, with a **published list of affected securities** and an **unclaimed sign**, published *before* the decision, and the literature shows an unclaimed sign-determining effect it conditions. |
+| **Published clamp/cap band of a continuously published state at decision date (added in Cycle 66)** | **Published clamps, caps, floors and bands exist and are visible in real time, but bounded-negative family screen (R-046) — the register's first screen of template (I).** The band is a **published function parameter of the state it bounds**, so its crossing is a deterministic function of an already-published price: conditioning on the band adds no information beyond that price, and it re-describes the state's level rather than supplying a new one. It **fails G-12 as an edge** — a bound changes the magnitude and tail distribution of a state, not the sign of an unclaimed effect (the published work treats the clamp as an *inaction region* in which the state carries no information, S-317, S-318). The band's real role is as a **filter**, not an edge: that is how the register now uses it in IDEA-009's amended specification (V-008, Cycle 66 amendment) and how the published literature uses it, so a published bound used to clean another candidate's state is a baseline, not an unclaimed edge. The parameter is **governance-adjustable and venue-specific** (dYdX publishes that governance may change the clamp factor, the premium-vote clamp factor, the sampling interval and the impact notional, S-321), so the state is not stable across regimes and does not transfer across venues without restatement. The effective sample is the number of band exits, and those episodes are already the sample used by the published work (S-310, S-311, S-319). **Dated re-screen condition:** re-screen only if a continuously published state has a published bound that changes the **sign or existence** of an effect (not merely its magnitude), where the bound is **not** a deterministic function of an already-published price, where the parameter is stable or its changes are published in advance with a dated effect, and where the literature shows an unclaimed sign-determining effect conditioned on the *bound* rather than on the state it bounds. |
+| **Crypto perpetual funding-extreme reversal as a published, direction-conditional effect (added in Cycle 66)** | **Published, as direct tests of the hypothesis (S-310, S-320, S-319) and as a systematic review of the family (S-312).** The reversal after an extreme funding rate is published **as conditional on the market's direction**: across 274 extreme events on BTC, ETH and SOL from 2021 to 2026, events on up days reverted by +1.88 % over the next 24 hours while events on down days **continued** by −1.74 % (S-310; author-reported, not peer-reviewed); the unconditional form is a near-null (slope −0.668, R² 0.00109, F 0.388 on 357 df, with reversals reported only at the extremes, S-320; author-reported industry research); the nearest published out-of-sample test of the premise collapsed (validation Sharpe +0.80 → holdout −1.17, "viable only with explicit regime detection", S-319; book case study, not peer-reviewed); and the correction speed is published as **realised-volatility-conditioned** (median 27.0 h against 3.0 h; S-311). **This is a baseline and a rediscovery guard: IDEA-009 must always be described as an incremental variant of published conditional funding-reversal work, never as a discovery of the funding-level reversal, and its unconditional form may not be presented as unclaimed.** |
 ---
 
 ## Rediscovery guard
@@ -2043,3 +2056,71 @@ advice):
 **Dated re-screen condition:** Re-screen only if a change of law creates a dated, price-insensitive, non-discretionary flow executed by a participant other than the obligor, with a **published list of affected securities** and an **unclaimed sign** that the literature shows is sign-determining and not already claimed.
 
 **Decision:** **bounded negative (R-045).** The published regulatory change-of-law state family is recorded in the known-baseline table (**row 74**); no dossier was created; no `IDEA-` identifier was consumed; no `S-` identifier was consumed; no score changed; no validation specification was added; and **no new gap is opened**, because the reasons are independent of data availability — no unclaimed sign-determining instance meeting G-12 was found for this family.
+
+---
+
+## R-046 — Published clamp/cap band of a continuously published state at decision date (template I) — bounded negative
+
+**Family screened (state-first):** A published **clamp, cap, floor or band** — the parameter that bounds a
+continuously published state, so that the state is *uninformative by construction* over a published interval — where
+the bound is published by the venue or issuer before the decision date and is observable in real time. The family is
+genuinely new in kind relative to templates A–H: those were states about *constraints, obligations, prices, counts,
+reserves, breaches, waivers and changes of law*, whereas this is a **published bound on a state's own functional
+form**. The instance that surfaced the family is the perpetual-futures funding clamp and cap (S-086's Binance
+clamp parameters; S-321's dYdX eight-hour cap of 600 % × (initial margin − maintenance margin) and its
+governance-adjustable clamp factor; the published clamp analyses in S-317 and S-318). Screened state-first with
+**G-12 first**, against the strict bar (published decision-time state, sign-determining not just magnitude, unclaimed
+sign, no published baseline, feasible clean test; Cycle-52 third test). **This is the register's first screen of
+template (I).**
+
+**Reasons (independent):**
+
+1. **The band is a published function parameter, so its crossing is a deterministic function of an already-published
+   price.** A clamp binds when the premium or gap crosses a published threshold; the premium is itself a
+   continuously published, zero-lag state. Conditioning on "the band has been crossed" therefore adds **no
+   information beyond that published price** — it re-describes the state's level rather than supplying a new state.
+   The register's own state-first rule requires a candidate to condition on a state that is not a by-product of a
+   state already published, and a bound on that price fails it.
+
+2. **Fails G-12 (sign/existence) as an edge.** A published bound changes the *magnitude and tail distribution* of a
+   state, not the sign or the existence of an unclaimed effect. The published work treats the clamp as an **inaction
+   region** in which the state carries no information about the crowd: persistent futures-spot discrepancies cannot
+   be explained by transaction fees alone and the clamping function is a key driver (S-317); the futures-to-spot
+   ratio is **bimodal at higher frequencies because of the inaction region**, and clamping strength relates to
+   funding-rate volatility **non-monotonically** (S-318). None of that creates an unclaimed sign — it creates a
+   published characterisation of a state's distribution.
+
+3. **The band's real use is as a filter, not an edge — and that role is already published and already used.** A
+   published bound used to *clean* another candidate's state is a baseline, not a discovery. That is precisely how
+   the register now uses it: **V-008's Cycle-66 amendment** requires IDEA-009's percentile state to be computed on
+   **clamp-excluded** observations and requires the venue's published clamp and cap to be recorded per venue (S-086,
+   S-317, S-318, S-321). A state kind that earns its place as a **modifier of another candidate's state** is a
+   contribution to that candidate, and is recorded as such — it is not an edge in its own right.
+
+4. **The parameter is governance-adjustable and venue-specific, so the state is not stable.** dYdX's own published
+   documentation states that governance can adjust the **funding-rate clamp factor**, the premium-vote clamp factor,
+   the minimum number of votes per premium sample, the epoch/funding interval and the liquidity tier (S-321), and
+   the clamp and cap structure is an implementation detail that differs by venue (S-086, S-321). A rule keyed to a
+   band is therefore not portable across venues without restatement and can change without a market event — the
+   same instability the register already recorded for the funding cadence in IDEA-009's own timing hazards.
+
+5. **The effective sample is the number of band exits, and the published work already uses those episodes.** A clamp
+   exit is episodic, not a cross-sectional state; the published empirical work on this family is already conditioned
+   on such episodes (S-310's 274 extreme events; S-311's 1,696 events; S-319's 19 contracts on an 8-hour cadence).
+   A candidate built on band exits would compete for the same small sample against work that has already used it,
+   and it would have to beat a published result rather than merely differ from one.
+
+**Dated re-screen condition:** Re-screen only if a continuously published state has a published bound that changes
+the **sign or the existence** of an effect (not merely its magnitude), where the bound is **not** a deterministic
+function of an already-published price, where the parameter is stable or its changes are themselves published in
+advance with a dated effect, and where the literature shows an unclaimed sign-determining effect conditioned on the
+*bound* rather than on the state it bounds.
+
+**Decision:** **bounded negative (R-046).** The published clamp/cap-band family is recorded in the known-baseline
+table (**row 75**); no dossier was created; no `IDEA-` identifier was consumed; **no `S-` identifier was consumed by
+the screen itself** — the sources it cites (S-317, S-318, S-321, S-086) were registered earlier in the same cycle by
+the IDEA-009 prior-art re-read; no score changed; no validation specification was added; and **no new gap is opened**,
+because the reasons are independent of data availability — the family failed on the *sign-and-existence* limb
+(reason 2) and on the *already-published-state* limb (reason 1), not on a missing series. A **second** known-baseline
+row (**row 76**) was added in the same cycle for the **crypto perpetual funding-extreme reversal family**, so that
+the rediscovery guard records the published conditional result that IDEA-009 is now an incremental variant of.

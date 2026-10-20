@@ -4,10 +4,15 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 65 complete** (Cycle 65 executed the register's state-kind screen template H —
-published regulatory change-of-law states at decision date — as a bounded negative R-045, wrote it to the
-known-baseline table as row 72, settled all maintained gaps without creating a candidate, and changed no
-score).
+Last updated: **Cycle 66 complete** (Cycle 66 executed the register's **prior-art re-read of IDEA-009** — the one
+active candidate whose published-neighbour inventory was still the thinnest — against literature the register had
+not yet seen, **re-scored that candidate 60.0 → 53.0**, reclassified it as an **incremental variant of published
+conditional funding-reversal work**, and **amended V-008** without re-creating it; it also ran the register's
+state-kind screen template I — the **published clamp/cap band of a continuously published state** — as a bounded
+negative R-046, wrote it to the known-baseline table as **row 75**, and settled all maintained gaps without
+creating a candidate). *(Correction notice, Cycle 66: the Cycle-65 header said the R-045 family was written to the
+known-baseline table "as row 72"; the table's own numbering puts that family at **row 74** — row 72 is R-043's
+family. The Cycle-65 wording was wrong; the table was right.)*
 (13F is long-only and aggregated; 13D/13G are beneficial-ownership disclosures; FINRA short interest is an
 issue-level aggregate with no firm-level breakdown; CFTC category tables are aggregates), while a
 convergence crowd is defined by a **pair** of positions, so no such source can represent it. **V-002 stays
@@ -2622,7 +2627,7 @@ predict a temporary price increase that decays within a week, on no-news days, a
 ## IDEA-009 — PERP-FUND: the perpetual-futures funding rate as a daily-settled, published funding state
 
 - **ID / short name:** IDEA-009 / PERP-FUND
-- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.1
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 52 — no score change (60.0), rank 4 of 5 unchanged.** A bounded check for 2025–2026 work on
   perpetual-futures funding rates, drawdown mean-reversion and the leveraged-unwind channel found
@@ -2633,6 +2638,21 @@ predict a temporary price increase that decays within a week, on no-news days, a
   **crypto venue risk**) are unchanged. The R-032 screen contributed only a **cost-model** fact: published
   venue-interruption events concentrate the tradeable opportunity in the least liquid names, at the widest
   spreads and the highest realised volatility (S-259, S-266).
+  **v1.1 (Cycle 66) — re-scored 60.0 → 53.0; reclassified as an incremental variant of published
+  conditional funding-reversal work; V-008 amended, not re-created.** The register's prior-art re-read
+  of this candidate against literature it had not yet since Cycle 13 located **direct published tests of
+  the candidate's own prediction** (S-310, S-320), a published near-null of the unconditional form
+  (S-320), a published out-of-sample failure of the premise (S-319), a published volatility-conditioning
+  of the correction horizon (S-311), a systematic review of the family (S-312), peer-reviewed
+  cross-venue microstructure work (S-313) and the published pricing, clamp and venue-rule record
+  (S-315 … S-318, S-321) — **13 new sources in total (S-310 … S-322)**. The candidate's *unconditional*
+  sign claim is contradicted in the published evidence for one of its two directions (on down days an
+  extreme funding rate is followed by **continuation**, not reversal), and the published *conditional*
+  form is stronger than the candidate's own; the candidate's state is **clamped and path-dependent**; and
+  the state it uses as a percentile must be computed on clamp-excluded observations. Scores moved as
+  follows: mechanism 4 → 3, evidence 2 → 3, novelty 2 → 1, falsifiability 4 → 3; resilience and data
+  availability unchanged. **Rank unchanged (4 of 5). No gap opened** — the residual is a validation
+  question, carried by the amended V-008.
 
 **One-sentence hypothesis.** The perpetual-futures funding rate is settled every few hours and
 published by the exchange; because it measures the crowded-leverage state directly, a rule that
@@ -2698,16 +2718,25 @@ crowd, net of execution costs, funding costs, and liquidation-spike risk.
   level as a state variable; (ii) the state is published by the exchange every few hours with
   zero lag, which is the venue-selection ideal; and (iii) the holding horizon is a few funding
   periods (intraday to multi-day), not the perpetual arbitrage's indefinite hold.
-- *Honest classification:* **mechanism documented in parts, candidate specification new.** The
-  funding-rate mechanism and the funding-rate arbitrage are published; the joint specification —
-  taking the side opposite the funding-rate crowd as a reversal trade keyed to the funding-rate
-  *level* (not the basis) — is not a known baseline in the register or in the located literature.
-  The venue risk (crypto) is real and is stated honestly.
+- *Honest classification:* **mechanism documented in parts, candidate specification new** *(the Cycle-3
+  classification)* — **reclassified at Cycle 66 as an incremental variant of published conditional
+  funding-reversal work.** The funding-rate mechanism and the funding-rate arbitrage are published;
+  the joint specification — taking the side opposite the funding-rate crowd as a reversal trade keyed to
+  the funding-rate *level* (not the basis) — is not a known baseline in the register or in the located
+  literature. The venue risk (crypto) is real and is stated honestly. **Cycle 66 correction:** the
+  located literature has since been shown to contain *direct published tests of the candidate's own
+  prediction* (S-310, S-320) and a *stronger, conditional* form of the same idea (S-310: the reversal
+  appears on days when the market moved with the crowd, and is replaced by **continuation** on days when
+  it moved against it). What remains unclaimed is a **formulation difference** — a dated, single-asset,
+  decile-keyed implementation — not a mechanism difference, and the register scores it as such.
 - *Confidence in the comparison:* moderate-to-low. S-086 was verified via arXiv (2212.06888);
-  S-087 via the Wharton/arXiv PDF; S-088 via SSRN. The funding-rate literature base is thinner
-  than the equity short-sale literature, and the crypto venue carries venue-specific risks
-  (custody, exchange risk, 24/7 trading). The claim that no published work tests the
-  funding-rate-level reversal as a tradeable rule is a search result, not a proof.
+  S-087 via the Wharton/arXiv PDF; S-088 via SSRN. **Cycle 66: the comparison is now far better
+  grounded and no more favourable.** The family now carries a **systematic review** (S-312),
+  peer-reviewed microstructure work (S-313), a **published venue rulebook** (S-321) and the published
+  pricing-and-clamp record (S-315 … S-318). The dossier's own claim that no published work tests the
+  funding-rate-level reversal as a tradeable rule is **false as written**: published work tests it
+  (S-310, S-320) and publishes a conditional version of it (S-310). The venue risk of crypto remains
+  unquantified here.
 
 **Target scope.** Crypto perpetual futures on major exchanges (Binance, Bybit, OKX, etc.) for
 liquid underlyings (BTC, ETH and a small set of large altcoins); holding horizon one to several
@@ -2719,13 +2748,23 @@ exchange outage or severe congestion; exclude underlyings with thin perpetual or
   the state variable, with zero lag.
 - The futures-spot basis (perpetual price minus spot price) — the object that mean-reverts.
 - Funding-rate extremes: the funding rate relative to its own history (e.g. top/bottom decile)
-  — the entry signal.
+  — the entry signal. **Cycle 66 amendment:** this percentile-based state is **contaminated by the
+  venue's published clamp**, and the realised funding rate is a **path-dependent moving average** of the
+  premium rather than an instantaneous reading of the crowd (S-315, S-317, S-318, S-321). The percentile
+  must therefore be computed on clamp-excluded observations, and the venue's published clamp band and
+  funding cap must be treated as part of the state definition, not as a footnote to it.
 - Open interest and volume in the perpetual — the size of the crowded position.
 - *Timing hazards to flag for the validator:* funding rates can clamp at a minimum (e.g. 0.01%
   per period in S-086), so small rates are not informative; the exchange can change the funding
   cadence or clamp rules; crypto markets trade 24/7 so the "session" concept does not apply;
   and exchange-specific funding-rate implementations differ (clamp regions, calculation methods),
-  so results are not transferable across venues without restatement.
+  so results are not transferable across venues without restatement. **Cycle 66 additions:** the
+  venue's clamp factor, funding cap, sampling interval and impact notional are **governance-adjustable
+  parameters** (S-321), so the state is not stable across regimes without a re-specification; the
+  correction after a funding extreme is **realised-volatility-conditioned** (S-311: median 27.0 hours
+  in high-volatility episodes against 3.0 hours in low-volatility ones); and **spreads peak about two
+  hours after standard settlement times** (S-313), which is where the candidate's cost floor is worst
+  relative to the window it trades.
 
 **Rule sketch (descriptive, non-executable).** For each underlying in scope, at each funding
 settlement: read the published funding rate; if the rate is in the top decile of its own trailing
@@ -2810,14 +2849,21 @@ separated from momentum, and venue risk is real).
 - *Unresolved:* whether the funding-rate level predicts a reversal after costs, whether the effect
   transfers across venues, and whether crypto venue risk is manageable.
 
-**Remaining uncertainty / confidence.** Confidence that the funding rate is published, settled
-every few hours, and measures the crowded-leverage state: **high** (exchange documentation and
-academic work). Confidence that a tradeable reversal rule can be built on it: **moderate** — the
-mechanism is real but the literature base is thin, momentum is a severe confound, and crypto
-venue risk is unquantified here. Priority score **62/100**; rank **7 of 9** at the time of
-writing. **Concrete next question:** does an extreme funding rate (top/bottom decile of its own
-trailing distribution) predict a futures-spot basis reversal within 1–3 funding periods, after
-costs and after controlling for momentum?
+**Remaining uncertainty / confidence.** *(Updated at Cycle 66.)* Confidence that the funding rate is
+published, settled every few hours, and measures the crowded-leverage state: **high** (exchange
+documentation and academic work). Confidence that a tradeable reversal rule can be built on it:
+**moderate-to-low** — the mechanism is real and the venue-selection rule is met (the state is published
+by the venue itself with zero lag), but **the published evidence now contradicts the candidate's
+unconditional sign claim** (S-310, S-320), the correction speed is published as
+**realised-volatility-conditioned** (S-311), the state is a **clamped, path-dependent** quantity
+(S-315, S-317, S-318, S-321), and the nearest published out-of-sample test of the premise **collapsed**
+(S-319). Priority score **53/100**; rank **4 of 5** in the active set (behind IDEA-011 and IDEA-004 at
+69.0 and IDEA-010 at 68.0, ahead of IDEA-014 at 52.0). **Concrete next question:** *does the
+direction-conditioned, volatility-conditioned reversal — take the side opposite the funding crowd only
+when the preceding price move was in the crowd's direction, hold for a horizon set by realised
+volatility, and enter only outside the venue's published clamp band — predict a futures-spot basis
+reversal after costs, and does it add anything to the published funding arbitrage?* That is a
+**validation** question, and V-008 (as amended in Cycle 66) is its vehicle.
 
 **Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
 - **G-13 — the state is published before the decision: PASS.** The funding rate is published by the
@@ -2901,6 +2947,106 @@ costs and after controlling for momentum?
   published sources rather than from assumption.
 - **Score: 60.0, unchanged.** No source bearing on any score component. The novelty dimension remains
   at 2 (published neighbours S-158, S-159); falsifiability remains at 4; the two warnings are unchanged.
+
+#### Cycle 66 block — IDEA-009 · prior-art re-read against literature the register had not yet seen; re-scored 60.0 → 53.0; reclassified as an incremental variant of published conditional funding-reversal work; V-008 amended
+
+- **What Cycle 66 did for this candidate.** The register's own named highest-value act — *re-read an existing
+  candidate against literature it had not yet seen* — applied to the one active candidate whose published-neighbour
+  inventory was still the thinnest (**S-158, S-159 only**, unchanged since Cycle 13, with the Cycle-52 check and
+  the Cycles 41–51 passes confirming that no source bore on the candidate). Thirteen new sources were registered
+  (**S-310 … S-322**); five were fetched directly and text-extracted (S-315, S-316, S-319, S-320 and the venue
+  rulebook S-321), and the remainder are Crossref-verified with index-rendered abstracts, because SSRN, MDPI and
+  ScienceDirect refused automated access (HTTP 403) in this cycle.
+- **The finding that changes the candidate — the candidate's own prediction now has published direct tests, and
+  they do not support the unconditional form.**
+  - **S-310 (Shek 2026, SSRN preprint, author-reported, not peer-reviewed)** — 274 funding-rate extreme events
+    across BTC, ETH and SOL, 2021–2026: events on **up days revert by +1.88 % over the next 24 hours**, while
+    events on **down days continue by −1.74 %**; the +3.62 pp gap is reported significant (block-bootstrap 95 % CI
+    [2.60, 4.67]) and stable around seven exogenous market-wide shocks (sign test p = 0.00781; pooled +6.47 pp,
+    95 % CI [4.45, 8.86]), consistent across 12 year-by-direction cells and 13 coins. **The published reversal is
+    conditional on the direction of the market move; on down days the extreme funding rate is followed by
+    continuation, not reversal.** The published conditional form is *stronger* than the candidate's formulation,
+    and it proposes "conditional arbitrage capacity" as a state variable in the limits-to-arbitrage framework.
+  - **S-320 (Das 2023, Brave New Coin — industry research, not peer-reviewed)** — the regression of the next
+    period's price on the funding rate published at T0, on BitMEX data from 2 November 2022 to 22 February 2023,
+    gives **slope −0.668, R² = 0.00109, F = 0.388 on 357 degrees of freedom**, with the index-price variant at
+    **R² = 0.0168**. The author's conclusion: no strong general relationship, **but "in the most extreme cases when
+    funding payments are set to be high, there are market reversals"** — and mean reversion "did occur but not
+    immediately after a high negative funding rate rounds". This is a near-null for the general form and support
+    confined to the extreme tail, which is exactly the candidate's decile-extreme design.
+- **The second finding — the exit rule is not the published structure of the correction.** **S-311 (Shek 2026b,
+  SSRN preprint)**: across 1,696 events on 18 Binance perpetuals, the speed of parity restoration after a
+  funding-rate extreme is **dominated by realised volatility** — median **27.0 hours** to correct in
+  high-volatility events against **3.0 hours** in low-volatility ones (log-rank χ² = 147.25, p < 0.0001; HR =
+  0.5935 for a one-standard-deviation rise in realised volatility; correction time spanning 11.53–122.62 hours),
+  present both before and after the FTX collapse. The candidate's frozen 1–3 funding-period exit (8–24 hours) is
+  therefore a rule that works in low-volatility episodes and systematically misses in high-volatility ones.
+- **The third finding — the state is degenerate by construction over a published interval.** The funding rate is
+  not an instantaneous reading of the crowd: it is a **clamped, path-dependent** function of the premium. S-086
+  gives Binance's published clamp (κ = 1, γ = 0.05 %, ι = 0.01 %); **S-315** establishes that in most exchanges
+  the funding fee is the **average of the past eight hours' premium** rather than the current spot price, so the
+  realised rate is inherently path-dependent; **S-317** shows that persistent futures-spot discrepancies
+  **cannot be explained by transaction fees alone** and that the **clamping function** is a key driver, with
+  model-free no-arbitrage bounds; **S-318** shows the futures-to-spot ratio is **bimodal at higher frequencies,
+  explained by the inaction region induced by the clamp**, and that the relation between clamping strength and
+  funding-rate volatility is **non-monotonic**; and **S-321** (dYdX's own rulebook) publishes the eight-hour
+  **cap** (600 % × (initial margin − maintenance margin); 12 % for BTC-USD) and shows that governance can change
+  the clamp factor, the cap, the sampling interval and the impact notional. Two consequences: the candidate's
+  "top/bottom decile of its own trailing distribution" is a **construction contaminated by the clamp**, and — since
+  clamping strength does not move funding-rate volatility monotonically — a percentile-based state is not stable
+  even in principle.
+- **Supporting and contextual evidence now on file.** **S-312** (systematic review, peer-reviewed journal version):
+  the family carries a PRISMA-aligned review covering January 2021 – April 2026 (24 studies), whose most developed
+  streams are pricing/no-arbitrage and leverage/liquidation, in which direct evidence on classic behavioural
+  constructs remains sparse, and whose named frontier is funding-rule design, spot spillovers, stress transmission
+  and exchange-architecture comparison. **S-314** (NBER WP 30796): the funding rate is used as a market-wide proxy
+  for speculative demand (R² = 0.56 against stablecoin lending rates) and is **not** principally exchange-specific
+  (Binance and FTX funding rates reported similar and highly correlated) — the strongest *supporting* evidence the
+  venue-transferability condition has received, and simultaneously a sharpening of the momentum confound.
+  **S-313** (peer-reviewed, MDPI): across 9.1 million hourly funding-rate observations on 26 exchanges and 812
+  symbols, **spreads peak approximately two hours after standard settlement times** (a cost-model fact for the
+  candidate's decision window), the market evolves through **gradual drift with no discrete regime shifts** (a
+  caution against discrete regime labels), and IGARCH volatility behaviour appears in only 24.5 % of windows.
+  **S-315** and **S-316** fix the published no-arbitrage benchmark for the deviation the candidate trades.
+  **S-319** (Jansen, *Machine Learning for Trading* case study — book, not peer-reviewed) is the nearest published
+  out-of-sample failure of the premise: "Validation Sharpe +0.80 collapses to -1.17 in holdout (-247 % decay).
+  The 2024-2025 crypto bull run reversed the cross-sectional funding patterns. Verdict: Reframe — viable only
+  with explicit regime detection." **S-322** is a peer-reviewed cost-side reference on order-flow toxicity and
+  price-impact persistence in crypto perpetual futures (title-level citation only; abstract not retrieved, and no
+  number from it is used anywhere).
+- **Reclassification.** Following the Cycle-30 precedent set for IDEA-003, the candidate is **reclassified as an
+  incremental variant of published conditional funding-reversal work** and not as a discovery of a funding-level
+  reversal. What remains unclaimed after this re-read is a **formulation difference only** — a dated, single-asset,
+  decile-keyed implementation of a rule whose economic content is published and whose sign is published as
+  *conditional*.
+- **What survives.** The candidate's *state* remains the register's cleanest G-13 case (published by the venue,
+  zero lag, no filing calendar and no revision question), and **G-12 still passes on the sign limb in the
+  direction-conditioned form**, because the published evidence says the sign of the basis move after a funding
+  extreme depends on whether the market moved with or against the crowd (S-310) — and that is a decision-time
+  observable (the sign of the preceding price move).
+- **Score: 60.0 → 53.0** (mechanism 4 → 3; evidence 2 → 3; novelty 2 → 1; falsifiability 4 → 3; resilience 2
+  unchanged; data 4 unchanged). *Mechanism falls* because the candidate's central unconditional sign claim is
+  contradicted in the published evidence for one of its two directions — the Cycle-32 IDEA-003 precedent applies.
+  *Evidence rises* because the family's evidence base is no longer thin: it now carries two direct tests, a
+  systematic review, peer-reviewed microstructure work and the published pricing record, and **contradictory
+  evidence is recorded rather than absent** — a better-grounded candidate is a higher research priority even when
+  the evidence is unfavourable. *Novelty falls to its floor* because the residual is now a formulation difference
+  from published work in a stronger form. *Falsifiability falls* because one of the five predictions is now
+  largely pre-answered by published tests and the exit rule must be re-specified conditionally. **Resilience and
+  data availability are unchanged.** The two unchanged warnings — the **momentum confound** and **crypto venue
+  risk** — are now sharper rather than weaker: the momentum confound has become the **published** conditioning
+  variable (S-310), and the published out-of-sample failure of the premise is a **regime** failure (S-319).
+- **V-008 was amended, not re-created.** The amendment makes the direction-conditioned specification primary,
+  pre-registers that a null on the *unconditional* form is **not** a kill (the Cycle-30 / V-003 convention
+  precedent), conditions the exit horizon on realised volatility, requires the published tests (S-310, S-319,
+  S-320) to be used as external benchmarks, and adds the published spread-timing cost fact (S-313) and the clamp
+  filter (S-317, S-318, S-321) to the state definition.
+- **No gap is opened.** The candidate's remaining question — does the direction-conditioned,
+  volatility-conditioned, published-state rule survive costs out of sample, and does it add anything to the
+  published funding arbitrage — is a **validation** question, not a search question, and the amended V-008 is its
+  vehicle. **No `G-` identifier was consumed.**
+- **Score: 53.0, rank 4 of 5** (behind IDEA-011 and IDEA-004 at 69.0 and IDEA-010 at 68.0, ahead of IDEA-014 at
+  52.0). The ranking order is unchanged.
 
 ---
 
@@ -5425,3 +5571,42 @@ dossiers, zero scores changed** — and one candidate rejected outright (IDEA-00
 gap rather than on a screen). The most recent screen (R-039) is also the **first one run in the explicit
 state-first order**, and its verdict is consistent with the register's dominant pattern: the binding
 constraint is the **sign-and-existence** limb of the published state, not the availability of any series.
+
+---
+
+## Cycles 60–66 frontier-family screen log (2026-10-20)
+
+**This sub-section closes an artifact gap in the register itself.** The screen log above ended at Cycle 59, but
+Cycles 60 to 65 each ran a state-kind screen whose full rationale was written into `rejected_and_parked.md` and
+whose verdicts were recorded in the source ledger's gap-verdict blocks. The register's own screen log was therefore
+**stale by six cycles** — the same class of defect the Cycle-58 state-integrity repairs addressed for the source
+ledger. The entries below are written now, for real, from the recorded verdicts; **no verdict was changed and no
+screen was re-run**.
+
+| Cycle | Template | Family screened | Verdict | Identifier |
+| --- | --- | --- | --- | --- |
+| 60 | **C** | Published fee or toll that prices a third party's dated flow | Bounded negative (friction, not an unclaimed sign-determiner; the fee is a cost, not a state) | R-040 |
+| 61 | **D** | Published count or queue state at decision date | Bounded negative (a published level is a baseline; no unclaimed threshold flips existence) | R-041 |
+| 62 | **E** | Published reserve/availability/headroom state at decision date | Bounded negative (conditions magnitude more often than sign or existence) | R-042 |
+| 63 | **F** | Published constraint breach / non-compliance events at decision date | Bounded negative (a disclosure obligation, lagged, already price-moving when published) | R-043 |
+| 64 | **G** | Published constraint waiver/amendment events at decision date | Bounded negative (changes terms and size, not sign; the effective sample is the number of waivers) | R-044 |
+| 65 | **H** | Published regulatory change-of-law state at decision date | Bounded negative (published in advance, anticipated; no third-party concession flow) | R-045 |
+| 66 | **I** | **Published clamp/cap band of a continuously published state** (the "inaction region" kind) | Bounded negative (the band is a published *function parameter*; its crossing is a deterministic function of an already-published price, so it adds no unclaimed sign; its real use is as a **filter** on another candidate's state, not as an edge) | R-046 |
+
+Template **B** (the pair-level netted position) was not screened as a family; it was settled as **G-28's structural
+null** — the level of disclosure does not permit the position-level identity to be constructed — and it is recorded
+in the ledger's Cycle-13 gap-verdict block.
+
+**Cycle 66 summary of the screening log.** Seven families (templates C to I), seven bounded negatives, **zero new
+dossiers**; one *candidate* was changed, but not by a screen — by the register's prior-art re-read of IDEA-009,
+which re-scored it 60.0 → 53.0 and reclassified it as an incremental variant of published conditional
+funding-reversal work (S-310, S-311, S-319, S-320, S-312). The screens' verdicts remain consistent with the
+register's dominant pattern: the binding constraint is the **sign-and-existence** limb of the published state, not
+the availability of any series. **The register's own conclusion about the screening programme is now recorded,
+because it is decision-relevant for the next cycle:** seven consecutive template screens have each produced the same
+five-reason bounded negative, so the *marginal yield of an eighth template is very likely negative*. The template
+programme is therefore treated as **exhausted as a source of new candidates**, and the screen slot is better spent
+on **evidence operations** — re-reads of existing candidates against literature the register has not yet seen, which
+is what Cycle 66 did and which produced the cycle's only change to a candidate. This is a *programme* judgement,
+not a rule: a genuinely new state kind, materially different from templates A–I, may still be screened, and it must
+pass the strict bar (sign/existence first) before any dossier is written.

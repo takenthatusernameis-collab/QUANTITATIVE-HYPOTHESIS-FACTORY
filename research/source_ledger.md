@@ -1,4 +1,18 @@
-# SOURCE LEDGER — CYCLES 1–63
+# SOURCE LEDGER — CYCLES 1–66
+
+Cycle 66 (2026-10-20) added **thirteen new source identifiers and thirteen new source entries — S-310 … S-322** —
+and minted **no new candidate** and **no new validation specification**, but it **did change one score**: **IDEA-009
+was re-scored 60.0 → 53.0** and reclassified as an **incremental variant of published conditional funding-reversal
+work**. Its substantive work was (i) the register's **prior-art re-read of IDEA-009** — the one active candidate
+whose published-neighbour inventory was still the thinnest (S-158, S-159 only) and which had not been re-read
+against literature it had not yet seen since Cycle 13 — which located **direct published tests of the candidate's
+own prediction** (S-310, S-311, S-319, S-320) plus a **systematic review of the family** (S-312) and the published
+**pricing, clamp and venue-rule** record (S-315, S-316, S-317, S-318, S-321); and (ii) **one new state-kind
+screen** — the **published clamp/cap band of a continuously published state** (template I) — logged as a **bounded
+negative (R-046)** on five independent reasons. **V-008 was amended, not re-created.** **No `G-` identifier was
+opened and no gap was closed.** The register now holds **S-001 … S-209** and **S-220 … S-322** — **312 verified
+sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-323,
+V-012, G-34, R-047, P-014.**
 
 Cycle 65 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
 substantive work was **maintaining G-28 (frozen structural null), G-21 (handed off to validation,
@@ -7620,6 +7634,319 @@ DOI: https://doi.org/10.1111/1467-9965.00035
 
 ---
 
+## Cycle 66 sources (2026-10-20)
+
+Cycle 66 ran the register's **prior-art re-read of IDEA-009** — the one active candidate whose published-neighbour
+inventory was still the thinnest (S-158 and S-159 only) and which had not been re-read against literature it had
+not yet seen since Cycle 13 — and screened **state-kind template (I)**. Thirteen new source entries are minted
+below: **S-310 … S-322**. **Five were fetched directly and text-extracted** (S-315, S-316, S-319, S-320 and the
+venue documentation S-321); the remainder are verified by **Crossref metadata**, with **index-rendered** abstracts
+in the SSRN and repository cases (S-310, S-311, S-312, S-317, S-318) because those landing pages refused automated
+access (HTTP 403), **index-confirmed** wording in S-314 (the NBER PDF was fetched directly and its text layer was
+present in the returned stream, but the quoted statistics also appear in the index-rendered highlights and are
+recorded at that weaker status), a **publisher-deposited abstract** in S-313, and a **bibliographic record only** in
+S-322 because its abstract was not retrievable. **No wording in this block is presented as a directly parsed
+document unless the entry says so.**
+
+### S-310 — Shek, H. (2026)
+"Conditional Arbitrage Capacity: Evidence from Crypto Perpetual Funding Rates." SSRN working paper 7520320
+(posted 26 September 2026). DOI: https://doi.org/10.2139/ssrn.7520320
+- **Type:** Prior empirical result (author-reported), SSRN preprint; single author; **not peer-reviewed**.
+- **Supports (for IDEA-009):** a **direct published test of the candidate's own prediction 1**, on 274
+  funding-rate extreme events across BTC, ETH and SOL from 2021 to 2026: events on **up days revert by +1.88 %
+  over the next 24 hours**, while events on **down days continue by −1.74 %**; the gap of +3.62 percentage
+  points is reported significant (block-bootstrap 95 % CI [2.60, 4.67]) and economically large, and +3.59 pp
+  net of funding; the asymmetry is reported stable around seven exogenous market-wide shocks (positive in all
+  seven, sign test p = 0.00781; pooled +6.47 pp, 95 % CI [4.45, 8.86]) and consistent across 12 year-by-direction
+  cells and 13 coins.
+- **Why it matters for IDEA-009:** this is the **nearest published test of the candidate's own hypothesis**, and it
+  says the reversal is **conditional on market direction**. The candidate's *unconditional* sign claim (short when
+  funding is high and positive, long when it is low or negative) is therefore contradicted in the published
+  evidence for one of its two directions, and the published *conditional* form is stronger than the candidate's
+  own formulation. The author proposes "conditional arbitrage capacity" as a state variable in the
+  limits-to-arbitrage framework.
+- **Caveats:** single-author preprint, results are the author's own and are not reproduced here; the events are
+  *extremes*, not deciles, and the sample is three coins; "up day" and "down day" are not defined in the
+  index-rendered abstract, so the state construction is not verifiable from this entry.
+- **Verification:** Crossref REST API (DOI, title, author, year 2026, type "posted-content"). The SSRN landing
+  page returned **HTTP 403** to a direct fetch in this cycle, so the abstract wording above is **index-rendered**,
+  not line-verified.
+
+### S-311 — Shek, H. (2026)
+"Limits to Coordination: Funding Drag in Crypto Perpetual Funding Rates." SSRN working paper 7529458
+(posted 29 September 2026). DOI: https://doi.org/10.2139/ssrn.7529458
+- **Type:** Prior empirical result (author-reported), SSRN preprint; single author; **not peer-reviewed**.
+- **Supports (for IDEA-009):** the **speed of parity restoration after a funding-rate extreme is dominated by
+  realised volatility**. Across 1,696 events on 18 Binance perpetual contracts, high-volatility events take a
+  median of 27.0 hours to correct against 3.0 hours for low-volatility events (log-rank χ² = 147.25,
+  p < 0.0001); a one-standard-deviation rise in realised volatility lowers the hazard of correction by about
+  41 % (HR = 0.5935); a placebo on volatility-matched non-event hours finds only extreme events are slow to
+  correct (27.0 h against 10.0 h); a recursive-partitioning tree puts the strongest heterogeneity at the ratio
+  vol24/vol168, with correction time spanning 11.53 to 122.62 hours; and the effect is present both before and
+  after the FTX collapse (HR 0.570 versus 0.702).
+- **Why it matters for IDEA-009:** the candidate's frozen exit rule (V-008: hold 1–3 funding periods) is **not**
+  the published structure of the correction. A fixed 8–24 hour horizon is, on this evidence, a rule that works
+  in low-volatility episodes and misses in high-volatility ones — so the exit must be specified conditionally, or
+  the test must pre-register that a fixed-horizon null is not a kill.
+- **Caveats:** single-author preprint, author-reported, not reproduced here; the entry is index-rendered, so the
+  hazard-ratio and survival-timing definitions are not verifiable from this record.
+- **Verification:** SSRN record read through the search index (title, author, date, abstract); the DOI is as
+  printed on that record and was **not** independently confirmed through Crossref in this cycle. Direct fetch of
+  the SSRN landing page: **HTTP 403**.
+
+### S-312 — Neubert, M., Rams, W., Gruhn, P. and Lötscher, M. (2026)
+"Behavioral Finance in Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review."
+*International Journal of Banking, Finance and Information Technology* 4(2): 117–136 (journal version);
+preprint versions SSRN 6639558 (24 April 2026) and SSRN 6658879 (28 August 2026).
+DOI (preprint): https://doi.org/10.2139/ssrn.6658879
+- **Type:** Systematic literature review (author-reported synthesis), **peer-reviewed journal article** plus two
+  preprint versions; the journal record was read only through an index rendering.
+- **Supports (for IDEA-009 and for the register's own coverage of this family):** the perpetual-futures
+  literature is now large enough to carry a **PRISMA 2020-aligned systematic review** covering January 2021 to
+  April 2026 and separating 13 direct perpetual-futures studies from 6 adjacent behavioural studies (24 studies in
+  total, described as 16 peer-reviewed publications and 8 working papers). The review reports that pricing and
+  no-arbitrage, together with leverage and liquidation, are the most developed streams; that funding-rate carry
+  and arbitrage behaviour are documented; that **direct evidence on classic behavioural constructs (fear of
+  missing out, overconfidence, disposition effects, learning) remains sparse in perpetual-specific settings**; and
+  that the next research frontier it names is funding-rule design, spot-market spillovers, stress transmission and
+  exchange-architecture comparison. It also records, attributed to a working paper of Zhang's, that a linear
+  funding rule induces mean reversion in the basis while **feedback strength, update intervals, caps and
+  clamp-style rules alter basis volatility and funding tails**.
+- **Why it matters:** this is the canonical published map of the family IDEA-009 sits in, and it is the reason
+  the register's old framing of IDEA-009's evidence base as "thin" is obsolete.
+- **Caveats:** the journal version's volume, issue and page numbers are as printed in the index rendering; the
+  underlying studies are the authors' synthesis and are not independently checked here; the review is itself
+  single-labor (four authors) and its inclusion criteria are described but not re-run.
+- **Verification:** Crossref REST API (two SSRN DOIs, three of four authors, year 2026, type "posted-content");
+  the journal citation and the review's findings were read from an **index rendering** of the article (publisher
+  and repository pages returned HTTP 403 to direct fetch). **The journal DOI was not independently confirmed.**
+
+### S-313 — Zhivkov, P., Todorov, V. and Georgiev, S. (2026)
+"Temporal Dynamics of Market Microstructure in Cryptocurrency Perpetual Futures: Econometric Evidence from
+Centralized and Decentralized Exchanges." *International Journal of Financial Studies* 14(5): 103 (MDPI;
+ISSN 2227-7072), published 23 April 2026 (received 11 March 2026, revised 10 April 2026, accepted 15 April
+2026). DOI: https://doi.org/10.3390/ijfs14050103
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article** (MDPI, open access,
+  CC-BY).
+- **Supports (for IDEA-009):** an econometric study of 9.1 million hourly funding-rate observations across 26
+  exchanges and 812 symbols (14 November 2025 to 13 January 2026) in 53 overlapping seven-day rolling windows,
+  using GARCH(1,1), Bai–Perron structural-break detection, CUSUM stability testing and Granger causality in
+  bivariate VAR frameworks. It reports that the two-tiered market structure documented in a static snapshot
+  (centralised venues tightly integrated, decentralised venues fragmented) **persists qualitatively but varies
+  substantially in magnitude, with the integration gap ranging from −0.041 to 0.222**; that **structural-break
+  tests detect no discrete regime shifts, the market evolving through gradual drift**; that **near-integrated
+  (IGARCH) volatility behaviour appears in only 24.5 % of windows**, concentrated in specific periods; that
+  **mid-tier exchanges lead the largest venue (Binance) more frequently than the reverse**, challenging a
+  size-based price-discovery hierarchy; and that **intraday spread patterns are statistically significant and
+  linked to funding-rate settlement mechanics, with spreads peaking approximately two hours after standard
+  settlement times**.
+- **Why it matters for IDEA-009:** the spread-timing result is a **cost-model fact** for any rule that trades
+  around a funding settlement — the candidate's cost floor is worst shortly after the settlement it is keyed
+  to — and the "gradual drift, no discrete regime shifts" result is a caution against regime-switching state
+  constructions built on discrete regime labels.
+- **Caveats:** a two-month window is short for a market-structure claim; the findings are author-reported; the
+  companion static study the authors extend (Zhivkov 2026, *Mathematics* 14(2), DOI 10.3390/math14020346) was
+  not read.
+- **Verification:** Crossref REST API verified — DOI 10.3390/ijfs14050103, title, all three authors and their
+  affiliations, container *International Journal of Financial Studies*, volume 14, issue 5, article 103,
+  published-online 23 April 2026, and the **full abstract as deposited by the publisher**, which is the source
+  of every finding quoted above. The publisher's own page and PDF endpoint returned **HTTP 403** to a direct
+  fetch, so the article body was not read; the abstract is Crossref-deposited rather than index-rendered.
+  *Cycle-66 correction (made before the cycle closed): an earlier draft of this entry attributed the article
+  to the* Journal of Risk and Financial Management *and carried the DOI 10.3390/jrfm14050103, which returned
+  **HTTP 404** on a direct Crossref lookup — the 404 was the signal that the journal attribution was wrong.
+  The correct journal is the* International Journal of Financial Studies *and the correct DOI is
+  10.3390/ijfs14050103.*
+
+### S-314 — Gorton, G., Klee, E., Ross, C. P., Ross, S. J. and Vardoulakis, A. (2026)
+"Leverage and Stablecoin Pegs." NBER Working Paper 30796.
+URL: https://www.nber.org/system/files/working_papers/w30796/w30796.pdf
+- **Type:** Prior empirical and theoretical result (author-reported), NBER working paper.
+- **Supports (for IDEA-009):** the **perpetual-futures funding rate is used as a proxy for speculative demand**
+  for leveraged crypto positions, on the argument that no other liquid product offers comparable leverage; the
+  funding rate is reported strongly positively related to stablecoin lending rates (regression coefficient 0.24,
+  R² = 0.56); BTC and ETH funding rates are reported tightly linked (correlation 0.84); and **Binance and FTX
+  funding rates are reported similar and highly correlated, so funding rates are not principally capturing
+  exchange-specific factors** — a direct input to the candidate's venue-transferability condition.
+- **Why it matters for IDEA-009:** it is published evidence that the candidate's state is a **market-wide**
+  measure of speculative demand rather than a venue artefact, which is the strongest *supporting* evidence the
+  candidate's venue-transferability condition has received; and it also makes the funding rate a *macro* state,
+  which sharpens the momentum confound.
+- **Caveats:** working paper, author-reported; the funding-rate/lending-rate relation is a reduced-form
+  correlation and not a structural estimate of speculative demand.
+- **Verification:** the NBER PDF was **fetched directly** in this cycle; the returned payload was a binary PDF
+  stream in which the readable text layer of the funding-rate passage was present. The quoted statistics were
+  also present in the index-rendered highlights, so they are recorded as **index-confirmed rather than
+  line-verified**; the NBER landing page was not fetched separately.
+
+### S-315 — Kim, J. and Park, H. (2025)
+"Designing funding rates for perpetual futures in cryptocurrency markets." arXiv:2506.08573
+(submitted 10 June 2025; q-fin.MF; q-fin.PR).
+arXiv: https://arxiv.org/abs/2506.08573
+- **Type:** Prior theoretical result (author-reported), arXiv preprint; **not peer-reviewed**.
+- **Supports (for IDEA-009):** a mathematical-finance treatment of the funding mechanism. It reports that funding
+  mechanisms can be **designed** so that the perpetual price stays aligned with its target value; that **replicating
+  portfolios** exist for perpetual futures; and — the point that bears directly on the candidate's state — that
+  **path-dependent funding rates are the practical case, because in most exchanges the funding fee is the average
+  of values over the past 8 hours rather than the current spot price**, so the realised funding rate is inherently
+  path-dependent. Existence and uniqueness results are obtained with path-dependent infinite-horizon BSDEs.
+- **Why it matters for IDEA-009:** the candidate's state variable is the *realised* funding rate, which is
+  therefore a **moving average of the premium index over the preceding window**, not an instantaneous measure of
+  the crowd. That is a measurement property of the state that the candidate's dossier does not currently record.
+- **Caveats:** preprint; the paper is about pricing and design, not about the return predictability of the
+  funding level.
+- **Verification:** **arXiv abstract page fetched directly and read** — title, both authors, submission date
+  (10 June 2025), subject classes, DOI 10.48550/arXiv.2506.08573 and the full abstract were confirmed from the
+  arXiv record. The body text was read only through the arXiv HTML rendering surfaced by the search index.
+
+### S-316 — Ackerer, D., Hugonnier, J. and Jermann, U. (2023; rev. 2024)
+"Perpetual Futures Pricing." arXiv:2310.11771 (v1 18 October 2023; v2 4 September 2024; q-fin.PR).
+arXiv: https://arxiv.org/abs/2310.11771
+- **Type:** Prior theoretical result (author-reported), arXiv preprint; **not peer-reviewed**.
+- **Supports (for IDEA-009 and for the R-046 screen):** explicit no-arbitrage prices for **linear, inverse and
+  quantos** perpetual contracts in discrete and continuous time; the result that the futures price is the
+  risk-neutral expectation of the spot **sampled at a random time that reflects the intensity of the price
+  anchoring**; and the identification of **funding specifications that guarantee the coincidence of futures and
+  spot prices**, with replication by dynamic trading in primitive securities.
+- **Why it matters:** this is a **different paper from S-087** (Jermann, Phelps and Zhang, "Perpetual Futures
+  Pricing", Wharton working paper) — the register now holds both, with distinct authorship and identifiers — and
+  it fixes the published no-arbitrage benchmark against which the futures-spot deviation that IDEA-009 trades is
+  measured.
+- **Caveats:** preprint; the paper prices the contract and does not test any return-predictive rule.
+- **Verification:** **arXiv abstract page fetched directly and read** — title, all three authors, both version
+  dates, subject class, DOI 10.48550/arXiv.2310.11771 and the full abstract were confirmed from the arXiv record.
+
+### S-317 — Dai, M., Li, L. and Yang, C. (2025)
+"Arbitrage in Perpetual Contracts." SSRN working paper 5262988 (first posted 21 May 2025; revised
+11 September 2025). DOI: https://doi.org/10.2139/ssrn.5262988
+- **Type:** Prior theoretical and empirical result (author-reported), SSRN preprint; **not peer-reviewed**.
+- **Supports (for IDEA-009 and for the R-046 screen):** the report that **persistent price discrepancies between
+  perpetual contracts and their underlying assets cannot be explained by transaction fees alone**, and that the
+  **clamping function embedded in the funding-swap mechanism** is a key factor — described by the authors as an
+  aspect "largely overlooked in prior literature". The paper derives **model-free no-arbitrage bounds** for
+  perpetual futures prices and reports empirical confirmation of the bounds on two years of Binance data.
+- **Why it matters for IDEA-009:** it establishes, as published work, that (i) the deviation IDEA-009 trades has a
+  **published arbitrage benchmark**, so the candidate is a trade specification on a published relation rather than
+  a discovery of it; and (ii) the **clamp** — the venue's published function parameter — is a first-order driver
+  of that deviation, so a funding-rate-level rule is conditioned on a state that is partly *degenerate by
+  construction*.
+- **Caveats:** preprint; the abstract is index-rendered here, so the bounds' functional form and the empirical
+  sample are not verifiable from this entry.
+- **Verification:** Crossref REST API (DOI, all three authors and their affiliations as given in the record, year
+  2025, type "posted-content"). The SSRN landing page returned **HTTP 403** to a direct fetch; the abstract
+  wording is **index-rendered**.
+
+### S-318 — Hugonnier, J. and Jermann, U. (2025)
+"Perpetual Futures Pricing with Stochastic Rates and Clamp." SSRN working paper 5481866. DOI:
+https://doi.org/10.2139/ssrn.5481866
+- **Type:** Prior theoretical and empirical result (author-reported), SSRN preprint; **not peer-reviewed**.
+- **Supports (for IDEA-009 and for the R-046 screen):** a no-arbitrage model of perpetual-futures prices with a
+  **clamp function** and stochastic interest rates, driven by decentralised-finance interest rates; the model is
+  reported to reproduce the salient fluctuations in futures-to-spot ratios; **at higher frequencies those ratios
+  are reported to exhibit a bimodal distribution, which the model explains through the inaction region induced by
+  the clamp**; and **the relation between clamping strength and funding-rate volatility is reported to be
+  non-monotonic**. The closed-form solution is for constant interest rates, solution multiplicity is shown to be
+  possible, and an algorithm verifying uniqueness is presented.
+- **Why it matters for IDEA-009:** the *inaction region* is the mechanism by which the candidate's state carries
+  no information about the crowd over a published interval, and the **non-monotonicity** means that a stronger
+  clamp does not simply reduce funding-rate volatility — so a rule keyed to the funding rate's own trailing
+  distribution is not a stable state even in principle.
+- **Caveats:** preprint; **Crossref returns two SSRN DOIs carrying this identical title (5481866 and 5610430)**, so
+  which posting is the canonical one is **not** established; the abstract is index-rendered.
+- **Verification:** Crossref REST API (DOI, both authors, year 2025, type "posted-content"). The SSRN landing page
+  returned **HTTP 403** to a direct fetch; the abstract wording is **index-rendered**.
+
+### S-319 — Jansen, S. (2026)
+"Crypto Perpetuals Funding." Case study for *Machine Learning for Trading* (3rd edition).
+URL: https://www.ml4trading.io/case-studies/crypto-funding-arbitrage/
+- **Type:** Prior empirical result (author-reported), **book case study with public notebooks — not peer-reviewed**.
+- **Supports (for IDEA-009):** an author-reported, cost-aware, walk-forward test of funding-rate mean-reversion
+  across 19 Binance perpetual contracts on an 8-hour cadence (rebalances at 00:00/08:00/16:00 UTC), with 44
+  features, HAC-adjusted information coefficients, Benjamini–Hochberg false-discovery correction, a two-tier
+  maker/taker cost model and **two** cross-validation folds (2-year training, 1-year validation). Its stated
+  synthesis is, in the author's words, "**the book's clearest negative result. Validation Sharpe +0.80 collapses
+  to -1.17 in holdout (-247% decay). The 2024-2025 crypto bull run reversed the cross-sectional funding
+  patterns. Verdict: Reframe -- viable only with explicit regime detection.**" The case study also records that
+  the funding rate is used as a **feature, not a label** ("the question is whether extremes predict subsequent
+  price moves"); that linear models produce negative information coefficients, i.e. the signal is genuinely
+  non-linear; that positive Sharpe coexists with negative CAGR under 8-hour rebalancing; that the universe is
+  "the smallest cross-section in the book" with "intentionally limited statistical power"; and that the study is
+  an ML feature study rather than a test of a pre-specified trading rule.
+- **Why it matters for IDEA-009:** this is the **nearest published out-of-sample failure** of the funding-rate
+  mean-reversion premise, and it identifies **regime dependence** as the reason — which is the same condition the
+  published conditional result (S-310) makes structural.
+- **Caveats:** not peer-reviewed; the author's own results; a different construction (cross-sectional ML, 44
+  features, two folds) from the candidate's dated single-asset decile rule, so it is **near-neighbour evidence,
+  not a test of the candidate's specification**.
+- **Verification:** the case-study page was **fetched directly and text-extracted** — the quoted verdict line, the
+  universe and cadence, the fold structure and the cost-model description were all read from the returned page.
+
+### S-320 — Das, A. (2023)
+"Testing the Theory: Is the Perpetual Swap funding rate predictive?" Brave New Coin, 1 March 2023.
+URL: https://bravenewcoin.com/insights/testing-theory-is-perpetual-swap-funding-rate-predictive
+- **Type:** Prior empirical result (author-reported), **industry research outlet — not peer-reviewed**.
+- **Supports (for IDEA-009):** a published test of BitMEX's 2017 hypothesis that more extreme funding-rate values
+  predict the next funding-period return, on BitMEX funding data from 2 November 2022 to 22 February 2023. The
+  article records that funding was generally within ±0.05 %, that it fell to −0.2 % in November 2022 with
+  z-scores up to 8 standard deviations, and that the regression of log(price at T1 / price at T0) on the funding
+  rate published at T0 gives **slope −0.668, R² = 0.00109, F = 0.388 on 357 degrees of freedom**, with the
+  index-price variant giving **R² = 0.0168**. Its stated conclusion is that "it does not appear that there is a
+  strong relationship between funding rate and price", but that "in the most extreme cases when funding payments
+  are set to be high, there are market reversals"; it also records that mean reversion "did occur but not
+  immediately after a high negative funding rate rounds", and that the bearishness of the FTX collapse dominated
+  the funding signal.
+- **Why it matters for IDEA-009:** this is the **closest published test of the candidate's own prediction 1**,
+  and it is a near-null for the general form while reporting reversals **only at the extremes** — which is
+  simultaneously the strongest published support for the candidate's decile-extreme design and the strongest
+  published evidence against its unconditional version.
+- **Caveats:** not peer-reviewed; a short, crisis-dominated sample (three months, one venue); the author states
+  that the underlying spreadsheets are available on request; the reported R² and slope are the author's.
+- **Verification:** the article was **fetched directly and text-extracted** — the date, author, sample window,
+  the regression table (slope, intercept, standard errors, R², F, degrees of freedom) and the conclusions were all
+  read from the returned page.
+
+### S-321 — dYdX (venue rulebook, undated page; read 20 October 2026)
+"Funding" documentation. URL: https://docs.dydx.xyz/concepts/trading/funding
+- **Type:** **Primary venue documentation** (the venue publishes its own funding rule).
+- **Supports (for IDEA-009 and for the R-046 screen):** the venue's published funding specification. The premium
+  component is computed from the impact bid and impact ask prices against the index price, with the impact
+  notional set as 500 USDC divided by the initial-margin fraction; the premium is a time-weighted average of 60
+  one-minute premiums over the preceding hour; the funding rate is the premium component divided by eight plus a
+  fixed interest-rate component; funding is charged **hourly** on the platform. The document also publishes the
+  **cap**: "The 8-hour rate cap is calculated by 600% * (Initial Margin - Maintenance Margin)", with the tier table
+  (large-cap 5 %/3 %, mid-cap 10 %/5 %, long-tail 20 %/10 %), so the BTC-USD eight-hour rate is capped at
+  600 % × (5 % − 3 %) = 12 %. And it publishes that **governance can adjust the funding parameters** — the
+  funding-rate clamp factor, the premium-vote clamp factor, the minimum number of votes per premium sample, the
+  epoch/funding interval and sampling interval, and the liquidity tier (impact notional).
+- **Why it matters:** this is the register's cleanest *venue-published* instance of the **clamp/cap as a
+  published function parameter of a continuously published state**, and it shows that the parameter is
+  **governance-adjustable** — i.e. the state is not stable across regimes without a re-specification.
+- **Caveats:** an undated documentation page (read on 20 October 2026); it is one venue's specification and the
+  register does not generalise from it to other venues; the documentation is descriptive of the rule, not evidence
+  of any price effect.
+- **Verification:** the page was **fetched directly and text-extracted** — the funding formula, the cap formula and
+  tier table, the hourly settlement and the governance-adjustable parameter list were all read from the returned
+  page.
+
+### S-322 — Rajendran, S. and Singaravelu, D. (2026)
+"Order-flow toxicity in cryptocurrency perpetual futures: Order flow signals, price-impact persistence, and the
+limits of volatility-based metrics." *International Review of Economics & Finance* 112: 105876
+(DOI: https://doi.org/10.1016/j.iref.2026.105876; December 2026).
+- **Type:** Prior empirical result (author-reported), **peer-reviewed journal article**.
+- **Supports:** at the **title level only**, that order-flow signals and **price-impact persistence** in
+  cryptocurrency perpetual futures are studied in the peer-reviewed literature, and that **volatility-based metrics
+  have documented limits** as market-quality measures.
+- **Why it matters for IDEA-009:** price-impact persistence is the cost-model quantity a reversal rule in this
+  family must beat; a peer-reviewed study of it in the same venue class is a relevant cost-side reference for
+  V-008's cost assumptions.
+- **Caveats:** **the abstract and body were not retrieved** (the publisher's page returned HTTP 403 to a direct
+  fetch), so only the bibliographic record and the title-level claim are recorded; no number, sign or result from
+  this paper is used anywhere in this register.
+- **Verification:** Crossref REST API (DOI, both authors with ORCIDs, journal, volume 112, article 105876,
+  December 2026, type "journal-article"). The publisher landing page was **not** reachable in this cycle.
+
+---
+
 ## Cycle 58 state-integrity repairs
 
 Cycle 58 verified the Cycle-57 source block entry by entry, because that block supports **G-33's
@@ -8211,3 +8538,27 @@ rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA
 falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five
 rejected. New identifiers consumed: **R-045** only. No `S-`, `V-`, `IDEA-` or `G-` identifier was consumed
 or opened. **Next free identifiers: IDEA-017, S-310, V-012, G-34, R-046, P-014.**
+
+---
+
+## Cycle 66 gap verdicts
+
+Cycle 66's verdicts are recorded here in the file's standard form. **One score changed** (IDEA-009, 60.0 → 53.0)
+and **one validation specification was amended** (V-008); **no gap was closed and no gap was opened.**
+
+| Gap / limb | Candidate | Cycle-66 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null.** No re-run/search. V-002 frozen. | **G-28 remains OPEN and FROZEN.** No score change. (69.0, rank 2.) |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** No re-probe. | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **No effort without new source; inconclusive, no gap.** | **No gap opened.** IDEA-014 stays at 52.0. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+| **IDEA-009 prior-art re-read** (the register's named highest-value act, applied to the active candidate with the thinnest published-neighbour inventory) | IDEA-009 | **Re-scored 60.0 → 53.0** (mechanism 4→3, evidence 2→3, novelty 2→1, falsifiability 4→3; resilience and data unchanged) and **reclassified as an incremental variant of published conditional funding-reversal work**. The published evidence contradicts the candidate's *unconditional* sign claim (S-310: reversal on up days, **continuation** on down days; S-320: a near-null regression, R² = 0.00109, with reversals only at the extremes) and shows the correction speed to be **realised-volatility-conditioned** (S-311: median 27.0 h high-volatility against 3.0 h low-volatility). **V-008 amended, not re-created.** | **Score 60.0 → 53.0**; rank unchanged (4 of 5). **No gap opened** — the candidate's remaining question is a validation question, not a search question. |
+| **New state-kind screen — Template (I): published clamp/cap band of a continuously published state at decision date** | — | **Bounded negative (R-046); added to the known-baseline table as row 75.** Screened state-first with G-12 first, against the register's literature base and the new Cycle-66 sources (S-317, S-318, S-321). No candidate created, no gap opened. | R-046 consumed (Cycle 66). No `S-`, `V-`, `IDEA-` or `G-` identifier consumed or opened by the screen. |
+
+**Cycle-66 identifier and ranking record.** No candidate was created. **One score changed** (IDEA-009, 60.0 → 53.0);
+no other score moved. The active ranking is unchanged in order: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2),
+IDEA-010 (68.0, rank 3), IDEA-009 (53.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five rejected.
+New identifiers consumed: **S-310 … S-322** and **R-046**. **V-008 was amended, not re-created.** No `IDEA-` or `G-`
+identifier was consumed or opened. **Next free identifiers: IDEA-017, S-323, V-012, G-34, R-047, P-014.**
