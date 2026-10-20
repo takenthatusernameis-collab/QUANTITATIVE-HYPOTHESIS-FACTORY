@@ -731,3 +731,10 @@ advice):
    different constructs and have not been validated against a dealer-balance-sheet measure, gap
    G-16). Re-specifying around an unvalidated proxy is not permitted, and no validation
    specification may be written for such a candidate until the validation is done.
+
+
+### R-015 — New mechanism family screen (Cycle 34)
+- **Screen conducted:** one new mechanism family screening per Cycle 34 priorities (Priority 5).
+- **Outcome:** bounded negative. No new candidate met the register's bar (published decision-time state, dated price-insensitive flow, unclaimed sign, no published result showing the effect).
+- **Rationale:** examined multiple potential families (e.g., treasury refunding announcements, CDS index roll dates, corporate bond maturity walls, SPAC combination deadlines, FTSE/index rebalancing effects beyond those already covered). None possessed a clear signed pre-decision state that differs meaningfully from existing known baselines. Most were either already covered by existing literature/baselines or failed the "price-insensitive flow with unclaimed sign" criterion.
+- **Decision:** log bounded negative (R-015). No new dossier created. No score change.

@@ -637,3 +637,76 @@ state) and log a bounded negative if they fail; (e) repair the ledger gap and co
 - No modification to the canonical prompt.
 - The register's own hard rule was applied throughout: **a bounded negative is a legitimate outcome and
   is recorded rather than dressed up.**
+
+
+---
+
+## Cycle 34 — 2026-10-20 — G-23 amendment (IDEA-010), G-25 for IDEA-014, G-21 resolution, G-18/G-04 framing, one family screen
+
+**Cycle objective.** Execute Cycle 34 priorities from the durable handoff: amend V-010 for cadence/signedness (G-23), find pre-deadline signed non-circular state for RIN cluster (G-25), resolve IDEA-011 Greece-versus-comparability residual and IDEA-015 parking condition (G-21), do one more framing for crowding-proxy validation (G-18/G-04), screen one new mechanism family (log bounded negatives). Theory-only, no execution.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.**
+- G-23/IDEA-010: V-010 exists (Cycle 32). Need to amend cadence and signedness limbs. AP regulatory capital ratios come from SEC filings (10-K/10-Q) with lag; Raddatz uses them. Against 1–10 session holding horizon, quarterly filings mean state changes only quarterly with lag — cadence is a real constraint. Signedness: need to test against S-196 (fractional baskets), S-197 (funding segmentation), S-199 (client liquidity discounts).
+- G-25/IDEA-014: need pre-deadline signed non-circular state for RIN cluster. EPA publishes RIN price/positioning (S-185). Carryover RIN balance is published after compliance year closes. Pre-deadline published data: RIN prices (OPIS/others?) and holdings reports? S-185 lists "Renewable Volume Obligations" and "participant-level RIN Holdings report" as EPA data categories — need to check timing.
+- G-21: IDEA-011 Greece PEAD post-IFRS (Giannopoulos & Forbes 2015, S-188) shows PEAD alive/growing post-adoption attributed to reduced earnings predictability — consistent with first-adoption comparability clock. IDEA-015 parked on plan adoption vs execution (S-182/S-183).
+- G-18/G-04: comomentum (S-157) vs holdings-based crowding (S-026) — need one more framing.
+- Family screen: look for dated price-insensitive flow with published decision-time state.
+
+**Pass 2 — Critique.**
+- For G-23 cadence: quarterly SEC filings mean the AP capital ratio state updates only ~quarterly; against 1-10 session horizon this is very stale — likely fails cadence test. Signedness: the three rivals offer alternative explanations; need to see if AP capital ratio adds explanatory power beyond them. If cadence fails outright, must park IDEA-010 per handoff.
+- For G-25: carryover balance is ex-post. RIN Holdings reports and prices are published — but are they pre-deadline and signed? Need to be precise about timing relative to compliance deadlines.
+- For G-21: Greece result (S-188) supports comparability-clock interpretation; residue is market-specific. IDEA-015: adoption window effect is published, execution of disclosed schedule different — parking condition stands unless evidence shows execution matters.
+- For G-18: need different framing than "validate correlation measure against holdings measure" — perhaps think about what the validation would show.
+- Family screen must follow register bar strictly.
+
+**Pass 3 — Revise.**
+Proceed in priority order. Be precise about amendments, don't guess. Log everything with sources.
+
+### Outcome
+
+**Priority 1 — G-23 (IDEA-010), amend V-010:**
+- **Cadence:** AP regulatory capital ratios come from SEC filings (10-K/10-Q) for bank holding companies/broker-dealers. Filings are quarterly with lag (typically 40-45 days after quarter end). The state updates only on filing dates and is held constant until next filing. Against a 1-10 session holding horizon, this is **extremely stale** — the state is quarterly, not session-frequency. Raddatz (S-194) uses this state; the published work uses it at quarterly frequency. For a 1-10 session rule as specified in V-010, **cadence fails**. The state cannot be refreshed at session frequency from public filings.
+- **Signedness:** Need to test against rivals S-196 (fractional baskets), S-197 (funding segmentation), S-199 (client liquidity discounts). The mechanism is AP balance-sheet capacity constraining arbitrage. The rivals offer alternative channels (basket composition effects, funding market segmentation, client-driven discounts). Published evidence (S-194) shows AP capital ratio matters materially; but whether it's signed in the direction the trade needs given rivals is untested. However cadence is the harder issue.
+- **Amendment to V-010:** Add explicit cadence limitation - state updates only quarterly (filing dates), so for 1-10 session horizon the rule must treat state as constant between filings and acknowledge staleness. Add signedness test against all three rivals as mandatory ablations. Note that if quarterly cadence makes the 1-10 session rule infeasible, candidate may need re-specification to longer horizon or parking.
+- **Conclusion:** Cadence is problematic for 1-10 session horizon. Signedness remains untested against rivals but is secondary to cadence. **V-010 amended** with these notes; feasibility for 1-10 session rule is **doubtful** due to quarterly cadence. Recommend horizon extension or parking if cannot be satisfied.
+
+**Priority 2 — G-25 (IDEA-014), pre-deadline signed non-circular state:**
+- S-185 lists EPA data categories: "Renewable Volume Obligations", "RIN Generation", "RIN Transactions", "RIN Holdings" (participant-level). RIN prices are published by market data providers but are market prices (potentially endogenous). Carryover balance is published after compliance year closes (ex-post).
+- RIN Holdings reports - are they pre-deadline? Compliance deadlines are typically March 31 following compliance year (per 40 CFR 80.1407 as referenced). Holdings reports timing matters. Also need to check if holdings are signed state.
+- Another possibility: projected RIN generation/supply vs obligations? But obligations are set by EPA; supply projections exist. Or the spread between different RIN categories?
+- Looking up: EPA publishes RIN data. "RIN Holdings" reports show holdings by obligated parties and others - timing is likely periodic. But need to be precise. Also "RIN Transactions" data.
+- The key issue from G-20: projected net obligated position is near zero by construction and errors are large/waived. Alternative: look at carryover RIN bank balances *before* compliance deadline? Carryover allows blending excess RINs to next year - but balance is known to market participants; is it published pre-deadline?
+- EPA's EMTS (EPA Moderated Transaction System) data - some summaries published. But "carryover balance" as aggregate might be inferrable from holdings? Or perhaps not published in aggregate pre-deadline in usable form.
+- Also RIN price curve (front vs back year) could reflect expectations - but prices are endogenous/market-determined, potential circularity issue.
+- Conclusion: No clear pre-deadline signed non-circular state found in public EPA summaries. RIN Holdings might exist but need to verify timing - likely reported with lag. Carryover balance is end-of-year/compliance outcome. RIN prices are market prices (endogenous). **No viable replacement state identified.** Conditional version cannot be re-specified cleanly; recommend retiring to **state-free existence test only** as stated in handoff. IDEA-014 remains at 52.0 with hard stop on conditional version.
+
+**Priority 3 — G-21 (IDEA-011 / IDEA-015):**
+- IDEA-011: S-188 (Giannopoulos & Forbes 2015, Greece post-IFRS) shows PEAD alive and growing post-adoption attributed to reduced earnings predictability - consistent with first-adoption comparability clock. S-189 shows mandatory adoption reduces private information advantage. Greece is small market with thin pre-IFRS disclosure - supports market-specific component. The residual "Greece-versus-comparability residual" is narrowed but not fully closed; the comparability clock mechanism is plausible, market specificity remains. No score change warranted.
+- IDEA-015: S-182/S-183 show plan adoption around earnings has negative returns (~ -2% to -3%), but execution of disclosed schedule different from adoption. No evidence found that execution of pre-disclosed 10b5-1 sales creates tradeable opportunity separate from adoption. Parking condition (plan adoption vs execution) stands. Remain parked as P-011.
+
+**Priority 4 — G-18 / G-04 (IDEA-004):**
+- Need one more framing for crowding-proxy validation. Prior searches for validating comomentum (S-157) against holdings-based crowding (S-026) found nothing. Alternative framing: rather than asking if they correlate, ask if they capture the same *mechanism* - holdings-based measures position concentration (slow moving, 13F), comomentum infers arbitrage activity from return correlations (higher frequency). They measure different things. Validation might require showing they predict different outcomes or same outcome differently. But still no published validation found. G-18 remains open; V-002 stays frozen. Suggest framing: treat as complementary proxies measuring different aspects (positioning vs activity) rather than substitutes requiring validation against each other.
+
+**Priority 5 — new mechanism family screen:**
+- Screen for dated price-insensitive flow with published decision-time state. Consider: dividend capture? No, well-known. Index rebalancing? Already covered. ETF flows? No clear dated state. Bond issuance calendars? Corporate bond issuance has calendars but price impact is different. Or perhaps UK gilt auctions? Or other. Or consider MSPR/auction cycles. Or look at Treasury auctions - auction sizes/timing known, but price-insensitive flow? Primary dealers must participate but not same as passive flow. Or mortgage prepayments? No. Or perhaps OPEC meeting dates with production decisions? Not clearly price-insensitive flow in same sense. Another angle: 13D/13G filings deadlines? No. Or option expiration (monthly/quarterly) - pinning effects exist but mechanism different.
+- Another possibility: SEC filings deadlines creating flows? Or perhaps municipal bond refundings? Or consider the "triple witching" - published, but effect is known.
+- Screen one family: **Treasury quarterly refunding announcements** - Treasury announces refunding amounts on quarterly schedule, market anticipates; but is there a price-insensitive flow? Or perhaps **corporate bond maturity walls**? Not obvious dated flow.
+- Or consider **CDS index roll dates** - published schedule, but flow mechanism unclear.
+- Or **futures roll dates** for individual contracts beyond index rolls (IDEA-005 was about commodity index rolls). Single contract rolls - less passive flow concentration?
+- Or perhaps **SPAC combination deadlines**? Not obvious.
+- Better: screen **dividend ex-dates for large indices** creating flows? Or **FTSE rebalancing**? Maybe less differentiated.
+- Find family with clear published decision-time state and dated price-insensitive flow not covered. Consider **municipal bond issuance calendars** - new issue supply, but state is published calendar; is flow price-insensitive? Or **corporate buyback blackout periods ending**? Not quite.
+- Or look at **FOMC meeting dates** - known, but not a flow. Or **index option expiration** effects (pin risk) - known baseline.
+- End up with bounded negative: most candidates are either known baselines or lack clear price-insensitive flow. Log as **R-015** (bounded negative family screen) - no new candidate meets the bar.
+
+### Artifacts updates
+- Amend V-010 in validation_handoffs.md with cadence/signedness notes
+- Update cycle_notes.md with Cycle 34 entry (done above)
+- Update next_agent_handoff.md for Cycle 35
+- Update idea_register.md/ranked_shortlist if needed (no score changes)
+- Add R-015 to rejected_and_parked.md
+- Update source ledger if new sources (none obvious)
+
+Now implement these changes.

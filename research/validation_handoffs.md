@@ -1271,9 +1271,13 @@ ETF from SEC regulatory filings, measures **APs' regulatory capital ratios**, an
 — not equity/assets, cash/assets, total assets or activity concentration — governs ETF arbitrage
 intensity and ETF premia, materially so during the March 2020 dash-for-cash. The mechanism is published
 (S-195), and three published rival explanations now stand against the candidate's interpretation
-(S-196 fractional baskets, S-197 funding segmentation, S-199 client-sourced liquidity discounts).
+(S-196 fractional baskets, S-197 funding segmentation, S-199 client liquidity discounts).
 **What remains open is registered as gap G-23** (cadence, and signedness of the state). This document
 is a *specification*: no data were acquired, no test was run, and no result is reported or implied.
+
+**Cycle 34 amendment (G-23 — cadence and signedness).**
+- **Cadence (binding limitation):** AP regulatory capital ratios are taken from SEC filings (Form 10-K/10-Q) for bank holding companies and broker-dealers, with a filing lag (typically 40-45 days after quarter end). The state updates **only on filing dates** and must be held constant until the next filing. For a 1-10 session holding horizon as specified, the state is **quarterly at best** and is stale relative to the trading horizon — this is a material feasibility constraint. The validator must report the fraction of trading days covered by a single state reading and explicitly acknowledge staleness. If the 1-10 session rule proves infeasible due to cadence, the horizon must be extended or the candidate reconsidered for parking.
+- **Signedness (mandatory test):** The state must be tested for signedness against the three published rivals: S-196 (fractional baskets), S-197 (funding segmentation), S-199 (client liquidity discounts). The joint condition (weak AP capital ratios AND net redemption flow) remains required; ablations must include (a) state alone, (b) flow alone, (c) joint, and (d) each rival explanation controlled for separately. The candidate is a trade specification and cost-floor test on a published relation, not a discovery of the relation.
 
 ### Frozen hypothesis
 When corporate-bond ETF redemptions meet an authorized-participant set whose regulatory capital ratios
