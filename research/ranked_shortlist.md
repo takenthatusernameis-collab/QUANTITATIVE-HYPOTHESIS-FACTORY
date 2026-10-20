@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–6
+# RANKED SHORTLIST — CYCLES 1–13
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base
@@ -36,38 +36,82 @@ new candidate: IDEA-014 RIN-DEADLINE** at 60.0. Two new gaps were opened with th
 IDEA-008). The scores are unchanged for every candidate except IDEA-005, IDEA-008 and IDEA-010;
 the reasons are recorded under each candidate and in `idea_register.md`.
 
+**Cycle 13 applied the same two standing questions to every active candidate and then read the
+register's own top candidate against the 2024–2026 literature it had not yet seen. The result is the
+first rank-1 rejection in the register's history: IDEA-001 RECON-FLOW is rejected (R-011)** — the
+S&P 500 index effect has collapsed to approximately zero in the modern sample and there is a
+published null on the flow-scaling differentiator (S-146), the front-running is published as
+competitive liquidity provision that shifts price pressure away from the effective date (S-147), and
+the passive-flow counterparty is the issuing firm (S-151). Two gaps closed *in the candidate's
+favour* in the same cycle — **G-03** (the effective-close convention is documented, S-149/S-150) and
+**G-02/G-07** (a published method for estimating benchmark-specific tracked assets exists, S-148) —
+so the rejection rests on evidence, not on a technicality. **Two re-scores:** IDEA-004 74.0 → 69.0
+(published, mechanistically explained decay of the base effect, S-156; bounded negative on
+crowding-conditioned average returns, S-172) and IDEA-009 63.0 → 60.0 (the mechanism and its
+mean-reversion are published independently, S-158/S-159). **One gap closed against a variant**
+(G-05's literature half: single-name variance risk premia are published as frequently zero or of the
+opposite sign, S-153/S-154) and **one gap reopened in part** (G-04: a decision-time, public,
+price-computable crowding proxy now exists, S-157, which opens **G-18**). Six frontier families were
+screened; **no new candidate** survived. The active ranking now holds six candidates, three of them
+shortlisted.
+
 ---
 
 ## Table
 
-| Rank | ID | Short name | Mechanism 25 | Evidence 20 | Novelty 15 | Falsifiability 15 | Resilience 15 | Data 10 | **Total /100** | Cycle-5 rank | Hard-stop flags |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | IDEA-001 | RECON-FLOW | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 5 → 15.0 | 3 → 9.0 | 5 → 10.0 | **76.0** | 1 (unchanged) | none; premise assumptions unverified (G-03, G-07); **G-12 narrows the differentiator to the side asymmetry and the second leg — the flow-scaling limb conditions size only** |
-| 2 | IDEA-004 | SLOWCAP-COND | 5 → 25.0 | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **74.0** | 2 (unchanged) | none; proxy-validity kill condition (G-04) — **publication timing is now resolved (filing-anchored rule); validity is not** |
-| 3 | IDEA-011 | ACCTCLOCK | 4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 5 → 10.0 | **72.0** | 3 (unchanged) | adoption-event-sample-small condition |
-| 4 | IDEA-003 | VRP-STATE | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **71.0** | 5 (up 1) | none; tail-concentration warning; G-05 partially open (literature leg only — the data leg is closed) |
-| 5 | IDEA-010 | CREDIT-ETF | 4 → 20.0 | 3 → 12.0 | **2 → 6.0** | 4 → 12.0 | 3 → 9.0 | 3 → 6.0 | **65.0** (down from 68.0) | 6 (up 1) | cost-overwhelm condition (bond liquidity); AP-data-commercial condition (the same constraint the FCA's own study had to solve with regulatory data, S-123); **G-16 precondition: validate the published proxy set before any specification** |
-| 6 | IDEA-009 | PERP-FUND | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 4 → 12.0 | 2 → 6.0 | 4 → 8.0 | **63.0** | 8 (up 2) | crypto venue risk; momentum-confound condition; venue-transferability condition |
-| 7 | IDEA-014 | RIN-DEADLINE | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 3 → 9.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | new in Cycle 6 | cost-overwhelm condition (published market-quality evidence, S-133); **sign-unknown condition (G-15 — the candidate's first test)**; squeeze-risk condition (short side); small-sample condition |
+*Cycle-13 ranking. The "Cycle-12 rank" column is the previous active ranking; "Rank change" states
+the movement.*
+
+| Rank | ID | Short name | Mechanism 25 | Evidence 20 | Novelty 15 | Falsifiability 15 | Resilience 15 | Data 10 | **Total /100** | Cycle-12 rank | Rank change | Hard-stop flags |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | IDEA-011 | ACCTCLOCK | 4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 5 → 10.0 | **72.0** | 3 | ↑ 2 | adoption-event-sample-small condition (unchanged); **new in Cycle 13: the post-2010 evidence base of the accounting-adoption drift has never been searched — that is now the candidate's first test** |
+| 2 | IDEA-003 | VRP-STATE | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **71.0** | 4 | ↑ 2 | none; tail-concentration warning; **G-05 is now CLOSED on the literature side, against the single-name extension (S-153, S-154) — the aggregate version is untouched** |
+| 3 | IDEA-004 | SLOWCAP-COND | **4 → 20.0** (down from 5) | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **69.0** (down from 74.0) | 2 | ↓ 1 | proxy-validity kill condition (G-04) — publication timing resolved (filing-anchored rule), validity not; **new in Cycle 13: the base effect's persistence is weakened by published decay evidence (S-156)** |
+| 4 | IDEA-010 | CREDIT-ETF | 4 → 20.0 | 3 → 12.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 3 → 6.0 | **65.0** | 5 | ↑ 1 | cost-overwhelm condition (bond liquidity); AP-data-commercial condition (S-123); **G-16 precondition: validate the published proxy set before any specification** |
+| 5 | IDEA-009 | PERP-FUND | 4 → 20.0 | 2 → 8.0 | **2 → 6.0** (down from 3) | 4 → 12.0 | 2 → 6.0 | 4 → 8.0 | **60.0** (down from 63.0) | 6 | ↑ 1 | crypto venue risk; momentum-confound condition; venue-transferability condition; **novelty now reflects published mechanism and mean-reversion evidence (S-158, S-159)** |
+| 6 | IDEA-014 | RIN-DEADLINE | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 3 → 9.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | 7 | ↑ 1 | cost-overwhelm condition (published market-quality evidence, S-133); sign-unknown condition (G-15 — the candidate's first test); squeeze-risk condition (short side); small-sample condition |
 
 **Parked — not in the active ranking.**
 
-| ID | Short name | Total /100 | Cycle-5 rank | Why parked |
+| ID | Short name | Total /100 | Cycle-12 rank | Why parked |
 | --- | --- | --- | --- | --- |
-| IDEA-008 | SECURITY-LEND | **63.0** (down from 65.0) | 7 | **G-13 — the candidate's own named state is not publicly disseminated before 29 March 2029** (S-126); the short-interest fallback is twice-monthly with a ~7–8 business-day publication lag (S-127) — **parked, P-010, with a dated unblocking condition (G-14)** |
-| IDEA-002 | FUNDSTATE | **63.0** | 10 | feasibility kill condition (G-01) — **parked, P-004**; tied with IDEA-009 but not ranked because its precondition is open |
-| IDEA-005 | ROLLCOND | **60.0** (down from 72.0) | 3 | **G-12 — the closest published test of its own state variable is null (S-099) and the family's aggregate result is null post-2012 (S-033, S-037), so the conditioning cannot be shown to change the sign or the existence of the effect — parked, P-009** |
-| IDEA-013 | EU-ETSCOMP | **58.0** (down from 70.0) | new in Cycle 5 | decision-time sample (G-13) and model-implied conditional structure — **parked, P-008** |
+| IDEA-008 | SECURITY-LEND | **63.0** | parked | **G-13 — the candidate's own named state is not publicly disseminated before 29 March 2029** (S-126) — **parked, P-010, with a dated unblocking condition (G-14)** |
+| IDEA-002 | FUNDSTATE | **63.0** | parked | feasibility kill condition (G-01) — **parked, P-004**; tied with IDEA-009 but not ranked because its precondition is open |
+| IDEA-005 | ROLLCOND | **60.0** | parked | **G-12 — the closest published test of its own state variable is null (S-099) and the family's aggregate result is null post-2012 (S-033, S-037) — parked, P-009** |
+| IDEA-013 | EU-ETSCOMP | **58.0** | parked | decision-time sample (G-13) and model-implied conditional structure — **parked, P-008** |
 
-**Withdrawn in Cycle 5 — rejected, retained here only so the scores are not re-derived.**
+**Withdrawn — rejected, retained here only so the scores are not re-derived.**
 
-| ID | Short name | Total /100 | Cycle-4 rank | Outcome |
+| ID | Short name | Total /100 | Cycle-12 rank | Outcome |
 | --- | --- | --- | --- | --- |
-| IDEA-007 | FUNDSTATE-FX | 64.0 | 8 | **rejected (R-008)** — the cross-sectional funding-state → currency-return claim is a published, positive result (S-064) |
-| IDEA-006 | FIXCLOCK | 59.0 | 11 | **rejected (R-009)** — G-11 closed against it: a settlement deadline cluster is a published price determinant (S-112) |
-| IDEA-012 | CLS-CLOSE | 56.0 | 12 | **rejected (R-010)** — G-11 closed against it: the settlement-side cluster is published, and the target window is documented as a cost (S-117 … S-120) |
+| IDEA-001 | RECON-FLOW | 76.0 | **1** | **rejected (R-011), Cycle 13** — the index effect has collapsed to ≈0 in the modern sample and the flow-scaling differentiator has a published null (S-146); the front-running is published as competitive anticipatory liquidity provision (S-147); the passive-flow counterparty is the issuer (S-151) |
+| IDEA-007 | FUNDSTATE-FX | 64.0 | withdrawn | **rejected (R-008)** — the cross-sectional funding-state → currency-return claim is a published, positive result (S-064) |
+| IDEA-006 | FIXCLOCK | 59.0 | withdrawn | **rejected (R-009)** — G-11 closed against it: a settlement deadline cluster is a published price determinant (S-112) |
+| IDEA-012 | CLS-CLOSE | 56.0 | withdrawn | **rejected (R-010)** — G-11 closed against it: the settlement-side cluster is published, and the target window is documented as a cost (S-117 … S-120) |
 
-**Cycle-6 rank changes.** The active ranking loses **two** candidates and gains **one**: IDEA-005
+**Cycle-13 rank changes.** The active ranking loses **one** candidate and gains **none**: IDEA-001
+(previous rank 1, 76.0) is **rejected** after the register read the 2024–2026 reconstitution
+literature, and two candidates are re-scored down (IDEA-004 74.0 → 69.0, IDEA-009 63.0 → 60.0). The
+new order is IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0), IDEA-010 (65.0), IDEA-009 (60.0),
+IDEA-014 (60.0). The tie at 60.0 is broken in IDEA-009's favour on falsifiability (4 vs 3); IDEA-014
+carries the more falsifiable *sign* test (G-15) but the lower falsifiability score, and both sit at
+the bottom of the ranking. **No candidate was added**, so the register's shape is now: six active
+dossiers (three shortlisted), four parked, four rejected — and **no FX candidate, no commodity
+futures candidate, no settlement-window candidate and now no index-reconstitution candidate**.
+
+**Top three and the validation-specification rule.** The top three are now **IDEA-011 (72.0),
+IDEA-003 (71.0) and IDEA-004 (69.0)**. All three already have validation specifications — V-009
+(IDEA-011), V-003 (IDEA-003) and V-002 (IDEA-004) — so **Cycle 13 required no new specification**,
+and no new V-number is opened. One specification is **withdrawn** because its candidate is now
+rejected: **V-001 (IDEA-001)**. The executable set is therefore **V-002, V-003, V-008, V-009**, with
+**V-001, V-004, V-005, V-006 and V-007 withdrawn**. See `validation_handoffs.md`. One specification
+still needs a **design amendment rather than withdrawal**: **V-002 (IDEA-004)** must be re-anchored
+from a daily or monthly grid to the 45-day filing cadence of the holdings state (Cycle-6 G-13
+finding), and — new in Cycle 13 — **it must not be executed until G-18 is closed**, because the
+only *timely* crowding proxy found (S-157) has never been validated against the holdings-based
+measure the specification is frozen on.
+
+**Cycle-6 rank changes (superseded by the Cycle-13 table above, retained for the audit trail).** The active ranking loses **two** candidates and gains **one**: IDEA-005
 (previous rank 3, 72.0) and IDEA-008 (previous rank 7, 65.0) are **parked** (P-009 and P-010)
 after the G-13 / G-12 screen was applied to every active candidate, and **IDEA-014 RIN-DEADLINE**
 enters at rank 7 with 60.0 as the only candidate produced by the five-frontier-family screen.
@@ -113,7 +157,36 @@ Cycle 3 adds G-11 partially closed and two new candidates above it.
 
 ---
 
-## Rank 1 — IDEA-001 RECON-FLOW (76.0) — *Cycle-1 rank 1, unchanged*
+## Withdrawn — IDEA-001 RECON-FLOW (76.0 at rejection) — *Cycle-13 rejection (R-011); Cycle-1 rank 1*
+
+**Cycle-13 verdict — REJECTED.** The dossier below is preserved unaltered as the audit trail; the
+decision is in `rejected_and_parked.md` (R-011) and the summary is here. Three published results
+close the candidate:
+1. **The effect has collapsed (S-146, *Journal of Finance* 2025).** The S&P 500 addition abnormal
+   return has fallen from 7.4% in the 1990s to **less than 1% over the past decade**; deletions
+   average 0.1% between 2010 and 2020; the average inclusion effect in 2020 was **−3 basis points**.
+   There is no concession of tradeable size left in the modern sample — the thing the candidate
+   harvests no longer exists at a measurable magnitude.
+2. **The differentiator has a published null (S-146).** "There is no apparent relationship between
+   net purchases [by index trackers] and the index inclusion effect, for either additions or
+   deletions." The candidate's stated differentiator was that the announcement-to-effective drift
+   *scales with the required passive flow*. That is now a published negative.
+3. **The mechanism is published and points elsewhere (S-147, with S-151).** Speculators act as
+   *anticipatory liquidity providers* around reconstitution; their pre-positioning "shifts price
+   pressure away from the reconstitution date"; "apparent front-running reflects competitive
+   liquidity provision and benefits index investors"; short interest **rises on implementation dates
+   and falls afterwards** as speculators cover. The candidate's chain required the concession to be
+   paid *between the announcement and the effective close* and to persist until the arbitrageur
+   unwinds. The published structure is anticipation *before* the event and unwinding *after* it —
+   and S-151 explains why nothing is left to harvest: the counterparty to a passive fund's demand is
+   **the issuing firm itself**, and most demand-side institutions trade in the same direction as
+   index funds, so there is no arbitrageur paying a concession to capture.
+**Two gaps closed in the candidate's favour in the same cycle, which is the point of the ordering:**
+G-03 (the effective-close convention is documented by the index manager itself, S-149, and by
+peer-reviewed work, S-150) and G-02/G-07 (a published method for estimating benchmark-specific
+tracked assets exists, S-148). The candidate therefore died on **evidence**, not on an unresolved
+premise — and the two gap closures are retained as reusable research assets for the register.
+Its validation specification **V-001 is withdrawn**.
 
 - **Mechanism, causal coherence, persistence (4/5):** The causal chain from provider rules (S-008)
   to scheduled non-price-sensitive demand to a liquidity concession to a partial reversal is
@@ -173,13 +246,17 @@ the reversal separately.
 
 ---
 
-## Rank 2 — IDEA-004 SLOWCAP-COND (74.0) — *Cycle-1 rank 2, unchanged*
+## Rank 3 — IDEA-004 SLOWCAP-COND (69.0) — *Cycle-1 rank 2; Cycle-13 rank 3, down from 74.0*
 
-- **Mechanism, causal coherence, persistence (5/5):** The deepest theoretical backing in the
+- **Mechanism, causal coherence, persistence (4/5, down from 5/5):** The deepest theoretical backing in the
   register: a coherent chain from equilibrium slow capital (S-017, S-018, S-019) through mandates
   and reputation (S-020, S-021) to flow-driven momentum/reversal (S-024) and synchronised exits
-  (S-022, S-023), with a measurable crowding proxy already in the literature (S-026). The 5 is
-  for the mechanism; the *conditioning* is separately scored below.
+  (S-022, S-023), with a measurable crowding proxy already in the literature (S-026). The 5 was
+  for the mechanism; the *conditioning* is separately scored below. **Cycle 13 reduces this to 4**:
+  the chain is intact, but its *persistence* in the modern sample is now contradicted by published
+  evidence — the momentum factor's returns fell from 0.92% to 0.16% per month after mid-2002, with
+  an identified mechanism (S-156), and crowding-based factor selection has failed an out-of-sample
+  test (S-172, preprint).
 - **Quality and independence of supporting evidence (4/5):** Independent theory groups (Shin and
   co-authors; He–Xiong; Duffie; Kondor; Abreu–Brunnermeier) and independent empirics (S-025, S-026,
   S-024). Not 5 because the specific two-sided conditioning has no supporting empirical work
@@ -195,6 +272,25 @@ the reversal separately.
   the anchor failing, which the rule does not hedge.
 - **Data availability, simplicity, reproducibility (3/5):** Prices and the anchor are easy; the
   crowd proxy is the bottleneck (G-04).
+
+**Cycle-13 re-check — G-13 PASS (filing-anchored), G-12 PASS on the sign limb; re-scored 74.0 →
+69.0.** The score falls on **persistence**, not on mechanism, novelty or test design. Published
+evidence now shows that the family whose returns the candidate harvests has decayed sharply and for
+an identified reason: the momentum factor's returns dropped from 0.92% per month (January 1987 –
+June 2002) to 0.16% per month afterwards, attributed to the discontinuation of positive-feedback
+trading in analyst ratings after the mid-2002 Morningstar reform (S-156). This matters directly,
+because IDEA-004's own dossier lists momentum as a *rival explanation* for its convergence returns
+— the confounder it must separate out has itself become much weaker, and the candidate's expected
+payoff shrinks with it. A 2025 preprint adds a bounded negative on the *average-return* branch of
+the crowding conditioning (crowding predicts tail risk rather than average returns; crowding-based
+factor selection fails out-of-sample, S-172) — preprint weight is low and its title has already
+changed between versions, which is itself a warning the register has recorded elsewhere (S-152).
+**The cycle's constructive output for this candidate is a proxy, not a score:** the Cycle-8 closure of
+G-04 was right that no *holdings-based* timely proxy exists, but a **decision-time, public,
+price-computable** crowding measure does exist — comomentum infers arbitrage activity from return
+correlations (S-157) — and it has never been validated against the holdings-based measure (S-026).
+That opens **G-18**; it does not license a re-specification, so V-002 stays frozen and must not be
+executed until G-18 is closed.
 
 **Cycle-2 re-check.** No score change. Cycle 2 found what a *timely, public* crowd-depth proxy
 looks like — the CFTC's weekly "Index Traders" positions (S-030, S-031), which is exactly the
@@ -307,7 +403,7 @@ condition bit: the disagreement was resolved against the candidate.**
 
 ---
 
-## Rank 4 — IDEA-003 VRP-STATE (71.0) — *Cycle-1 rank 3; Cycle-6 rank 4*
+## Rank 2 — IDEA-003 VRP-STATE (71.0) — *Cycle-1 rank 3; Cycle-13 rank 2*
 
 - **Mechanism, causal coherence, persistence (4/5):** Insurance demand → skewed premium → state
   gate is a coherent, well-anchored chain (S-016, S-014, S-012, S-013, S-015). The gate itself is
@@ -351,6 +447,21 @@ imminent but that its *harvestability* flips, because a state signalling an immi
 in which short-volatility exposure is uncompensated and the premium collapses. The unchanged
 residuals are the tail-concentration warning and the open *literature* half of G-05 (the data
 half is closed).
+
+**Cycle-13 re-check — G-13 PASS, G-12 PASS on the sign limb; no score change; G-05's literature
+half CLOSED against the single-name extension.** The nearest published tests of single-name variance
+risk premia are unambiguous: individual equity options do **not** embed a negative variance risk
+premium — single-stock variance risk premia are frequently zero or of the **opposite** sign to the
+index premium, single-stock variance swap returns are insignificant, and what single-name options
+price is *correlation* risk (S-153: Driessen, Maenhout & Vilkov, *JF* 2009; S-154: Carr & Wu, *RFS*
+2009, where the negative premium is a large-index phenomenon). The candidate's retained *aggregate*
+version is untouched by this; the single-name extension is now **foreclosed** and must not be
+proposed as new. The structural context is confirmed by the regulator's own market-structure data
+(0DTE at 28% of options volume in 2025, concentrated in index products and a handful of single
+names; roughly 69.5% of listed equities trading options by end-2025 — S-169), which *strengthens*
+the tail-concentration warning: a single-name version would have been thin even if it had been
+unclaimed. Score unchanged at 71.0; the rank moves from 4 to 2 only because IDEA-001 was rejected
+and IDEA-004 re-scored down.
 
 ---
 
@@ -480,7 +591,7 @@ candidate, but a weakly novel one with a narrow residual.
 
 ---
 
-## Rank 6 — IDEA-009 PERP-FUND (63.0) — *new in Cycle 3; Cycle-6 rank 6*
+## Rank 5 — IDEA-009 PERP-FUND (60.0) — *new in Cycle 3; Cycle-13 rank 5, down from 63.0*
 
 - **Mechanism, causal coherence, persistence (4/5):** The causal chain from the exchange-published
   funding rate to the crowded-leverage state to the forced unwind and basis mean reversion is
@@ -494,10 +605,16 @@ candidate, but a weakly novel one with a narrow residual.
   author-reported results not reproduced here. Not 3 because the *joint* reversal specification
   has no supporting empirical work located in this cycle, and several sources are pending
   re-verification of identifiers.
-- **Substantive novelty (3/5):** The funding-rate mechanism and the funding-rate arbitrage are
-  published (S-086, S-087). What is claimed is new: taking the side opposite the funding-rate
-  crowd as a reversal trade keyed to the funding-rate *level* (not the basis), with a pre-specified
-  exit after a few funding periods. Modest but defensible novelty.
+- **Substantive novelty (2/5, down from 3/5):** The funding-rate mechanism and the funding-rate
+  arbitrage are published (S-086, S-087), and **Cycle 13 adds two independent published works that
+  cover the candidate's own claim**: perpetual-futures drawdowns quickly mean-revert while quarterly
+  drawdowns persist, a higher funding rate attenuates the perpetual price's sensitivity to demand
+  shocks, and the funding rate's information content is attributed to imbalanced leveraged positions
+  vulnerable to subsequent unwinding (S-158); funding rates provide incremental forecasting
+  information about spot volatility through exactly that channel (S-159). What remains unclaimed is
+  narrower than the dossier assumed: a *dated, signed, exit-specified* rule keyed to the funding
+  **level** rather than to a basis deviation — a formulation difference, not a mechanism difference,
+  and the register scores it as such.
 - **Clarity of falsifiable predictions and feasibility of a clean test (4/5):** The predictions
   are sharp (reversal, state scaling, funding-carry contribution, venue transferability, cost
   floor), the state is published with zero lag every funding period, and observations are
@@ -512,6 +629,18 @@ candidate, but a weakly novel one with a narrow residual.
   Venue risk is the constraint, not data availability.
 
 **Cycle-3 re-check.** New candidate; no prior rank.
+
+**Cycle-13 re-check — G-13 PASS (still the register's cleanest case), G-12 PASS on the sign limb;
+re-scored 63.0 → 60.0 on novelty.** The candidate's screens are untouched: the funding rate is
+published by the venue for each funding period, so the state has zero lag, and the *level* of the
+state determines the *sign* of the position. The score falls because the family's mechanism and its
+mean-reversion result are now published outside the register (S-158, S-159), leaving only a
+formulation difference as the candidate's residual. The two binding warnings are unchanged: the
+momentum confound (the published work shows past returns already predict basis deviations with a
+high explanatory share, S-086) and crypto venue risk — and the newly published evidence sharpens
+the first, because a higher funding rate is now *documented* to attenuate price sensitivity to
+demand shocks, which is another way of saying that the signal may be partly a damped, mechanical
+relationship rather than an exploitable reversal.
 
 **Key uncertainties that could change the rank.** If momentum feedback explains the apparent
 reversal (high funding rates coincide with upward momentum that continues), the candidate is
@@ -776,7 +905,7 @@ the clock that no fix paper covers.
 
 ---
 
-## Rank 5 — IDEA-010 CREDIT-ETF (65.0) — *new in Cycle 4; Cycle-6 rank 5, down from 68.0*
+## Rank 4 — IDEA-010 CREDIT-ETF (65.0) — *new in Cycle 4; Cycle-13 rank 4*
 
 - **Mechanism, causal coherence, persistence (4/5):** The AP balance-sheet constraint channel is
   documented (Pan & Zeng 2019; Eisfeldt et al. 2024), and the state (ETF flow, AP stress proxies)
@@ -834,7 +963,7 @@ a venue where the state (ETF flow) is published daily but the AP-level constrain
 
 ---
 
-## Rank 3 — IDEA-011 ACCTCLOCK (72.0) — *new in Cycle 4; Cycle-6 rank 3*
+## Rank 1 — IDEA-011 ACCTCLOCK (72.0) — *new in Cycle 4; Cycle-13 rank 1*
 
 - **Mechanism, causal coherence, persistence (4/5):** The accounting-standards adoption channel is
   well documented (Armstrong et al. 2010; Beuselinck et al. 2009), and the adoption dates are
@@ -886,6 +1015,21 @@ The unchanged binding constraint is the **adoption-event-sample-small condition*
 independent adoption events is small and the cross-section within a jurisdiction is not
 independent. That — not the state, not the timing, not the originality — is what limits this
 candidate.
+
+**Cycle-13 re-check — G-13 PASS, G-12 PASS on the existence limb; no score change; rank 3 → 1.**
+Nothing found in Cycle 13 bears on this candidate: the screens are untouched, and no new evidence
+was located about the accounting-adoption drift. The rank change is entirely an artefact of
+IDEA-001's rejection (R-011) and IDEA-004's re-score (74.0 → 69.0). The candidate is now the
+register's rank-1 item **with an unchanged evidence base and an unchanged hard-stop flag**, which
+makes it the candidate whose next step is least specified. Two observations are recorded for the
+next cycle. First, the *mirror image* of the check that killed IDEA-001 has never been run for this
+candidate: the literature of record (Armstrong et al. 2010; Beuselinck et al. 2009) is largely
+pre-2015, and nobody has checked whether the announcement-to-first-report drift survives the
+post-2010 sample — if the drift has decayed the way the momentum factor did (S-156), the candidate
+is a historical curiosity, and if it has not, that is a materially stronger evidence base than the
+3/5 currently scored. Second, the binding constraint is sample size, so the *only* way to improve
+the candidate's prospects is to widen the event set (more jurisdictions, more adoption types, or a
+pooled cross-jurisdiction design) — which is a specification question, not a literature question.
 
 ---
 
@@ -964,7 +1108,7 @@ unblocking event is dated: see P-008.
 
 ---
 
-## Rank 7 — IDEA-014 RIN-DEADLINE (60.0) — *new in Cycle 6; the frontier-family screen's only survivor*
+## Rank 6 — IDEA-014 RIN-DEADLINE (60.0) — *new in Cycle 6; Cycle-13 rank 6*
 
 - **Mechanism, causal coherence, persistence (4/5):** The chain — a price-insensitive, statutory,
   date-bound obligation on a credit with a published price — is explicit, and each link is
@@ -1092,16 +1236,25 @@ risk for the backtest.
    instance** (the EU ETS surrender-month premium, S-101, applied to a different market with a
    different regulator and a state that decides the sign). If a future cycle adds a candidate whose
    only claim is "a known effect with a new name", it belongs in `rejected_and_parked.md`.
-4. **The register has narrowed, and the narrowing was earned.** After Cycle 6 the active ranking is
-   seven candidates: IDEA-001 (76.0), IDEA-004 (74.0), IDEA-011 (72.0), IDEA-003 (71.0), IDEA-010
-   (65.0), IDEA-009 (63.0), IDEA-014 (60.0); **four** are parked (IDEA-002, IDEA-005, IDEA-008,
-   IDEA-013) and three are rejected (IDEA-006, IDEA-007, IDEA-012). The register holds **no FX
-   candidate** and **no candidate in a settlement-window mechanism**. Two of the four Cycle-6
-   screens *failed* — the two standing general questions G-12 and G-13 are now doing real work
-   rather than sitting as principles — and the next cycle's marginal value is therefore highest in
-   *new mechanism families*, not in re-ranking what is here.
+4. **The register has narrowed, and the narrowing was earned — twice.** After Cycle 13 the active
+   ranking is **six** candidates: IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0), IDEA-010
+   (65.0), IDEA-009 (60.0), IDEA-014 (60.0); **four** are parked (IDEA-002, IDEA-005, IDEA-008,
+   IDEA-013) and **four** are rejected (IDEA-001, IDEA-006, IDEA-007, IDEA-012). The register holds
+   **no FX candidate**, **no commodity-futures candidate**, **no settlement-window candidate** and,
+   new in Cycle 13, **no index-reconstitution candidate**. The two standing screens are now doing
+   real work rather than sitting as principles — Cycle 6's G-12/G-13 pass parked two candidates, and
+   Cycle 13's application of them to a candidate whose *premises* had been quietly wrong (the
+   effective-close convention, the passive-asset scale) killed the rank-1 candidate: **the register's
+   most valuable single act was re-reading an existing candidate against newer literature, not
+   generating a new one.** The next cycle's marginal value is therefore highest in (a) the same
+   operation applied to the remaining candidates, in particular IDEA-011's post-2010 evidence base,
+   and (b) new mechanism families in *venues not yet used* — the register now covers listed US
+   equities, index options, crypto perpetuals, corporate-bond ETFs, US biofuel credits and
+   accounting adoption, and nothing in commodity futures, FX, fixed income cash, energy or
+   weather.
 5. **Tail concentration is the register's main unhedged risk.** IDEA-003's payoff is concentrated in
-   a few events; IDEA-001's leg 2 is exposed to announcement-window news; IDEA-004's left tail is a
+   a few events; ~~IDEA-001's leg 2~~ is gone (the candidate was rejected in Cycle 13, R-011);
+   IDEA-004's left tail is a
    broken anchor; IDEA-008's dominant failure mode is a recall driven by fundamental news (a
    directional loss, not a liquidity event); IDEA-009's worst case is a crypto deleveraging spike that
    gaps through the pre-scheduled exit; IDEA-010's worst case is a credit stress event that widens
@@ -1117,44 +1270,57 @@ risk for the backtest.
    and FX settlement (IDEA-012, rejected); Cycle 5 added an EU-allowances candidate (IDEA-013,
    parked); **Cycle 6 added a US biofuel-credit candidate (IDEA-014) and, with IDEA-005 and
    IDEA-008 parked, removed the commodity-futures leg from the active book entirely.** The remaining
-   book is therefore equity-heavy (four candidates: IDEA-001, IDEA-003, IDEA-004, IDEA-011), with
+   book is therefore equity-heavy (three candidates: IDEA-003, IDEA-004, IDEA-011 — IDEA-001 was
+   removed in Cycle 13), with
    credit (IDEA-010), crypto (IDEA-009) and a regulatory credit (IDEA-014) on the side. The
    register's net dollar, credit and crypto exposures are portfolio concerns that no single dossier
    owns.
 7. **No candidate has been tested.** Nothing in this register is evidence that any of these
    hypotheses works, and no number here is a performance estimate.
 8. **The originality gaps on the Cycle-2/3/4 candidates have been addressed as far as literature
-   search can take them, and the Cycle-5 and Cycle-6 passes closed four of them.** G-10 is **CLOSED
-   against IDEA-007** (R-008) and G-11 is **CLOSED against IDEA-006 and IDEA-012** (R-009, R-010).
-   G-06 (IDEA-005) is **closed as a bounded negative finding** with contradicting evidence now
-   recorded (S-098, S-099): the published literature conditions spot–futures convergence on *trader
-   type*, and the closest published test of IDEA-005's own state variable (CIT market share) reports
-   no significant effect — **and in Cycle 6 that closed G-12 against the candidate as well, which
-   parked it (P-009)**. G-09 (IDEA-006) is closed. **Cycle 6 applied G-12 and G-13 as screens to
-   every active candidate**: G-13 passed for IDEA-001, IDEA-003, IDEA-004 (conditionally, on a
-   filing-anchored rule), IDEA-009, IDEA-011 and IDEA-014, and **failed for IDEA-008** (S-126);
-   G-12 passed for every retained candidate, but on IDEA-001 only on the *existence* limb. **Still
-   open and worth the next cycle's attention: G-01** (a public funding-state proxy — IDEA-002's
-   feasibility kill condition), **G-02/G-07** (a benchmark-specific passive-asset series),
-   **G-03** (the trading convention behind the effective close), **G-04** (the crowd-depth proxy
-   for IDEA-004), **G-05** (the single-name 0DTE literature), **G-14** (a public borrow-cost
-   series — dated, not before 29 March 2029), **G-15** (the RIN compliance-deadline price pattern
-   — IDEA-014's first test) and **G-16** (a validated public proxy for dealer balance-sheet stress
-   — IDEA-010's precondition).
-9. **Bounded tasks T5–T8 status (updated in Cycle 6).** T5 (G-03/G-08 closing-auction
-   concentration): **closed as far as it can be** — closing-auction **volume** statistics are
-   published by the venues (S-100: NYSE's auction statistics and Cboe's date-addressable
-   market-share file with an "Exclude Auctions" control), so the *aggregate* participation question
-   is answerable; what is not located is a free, long-history, **per-security** auction-volume
-   series, which remains a commercial product, and the *attribution* question (how much of the
-   auction is passive) is not answerable from aggregate volume at all. T6 (G-01 composite funding
-   spec): SOFR (S-041) and standing-repo/primary-dealer data (S-042) verified as public
-   ingredients, but no published continuous dealer FVA series exists; IDEA-002 stays parked. T7
-   (G-05 single-name side): the **data** question is closed — the single-name 0DTE series is
-   constructible from public OCC data (S-100) — and only the **literature** question is open: no
-   located work establishes whether the single-name version of the gate is already documented, so
-   G-05 remains open on single names. T8 (G-07 benchmark-specific passive-asset series): individual
-   ETF assets are public (S-092 context: Vanguard VOO, iShares CSPX, SPY fact sheets) but no
-   aggregate benchmark-specific series for all S&P 500 trackers exists; ICI's series (S-040) is
-   category-level only. **None of T5–T8 was closable in Cycle 6 and no new task was added; the
-   Cycle-6 effort went to the G-12/G-13 screen and the frontier-family screen instead.**
+   search can take them, and the Cycle-5, Cycle-6 and Cycle-13 passes closed eight of them.** G-10
+   is **CLOSED against IDEA-007** (R-008) and G-11 is **CLOSED against IDEA-006 and IDEA-012**
+   (R-009, R-010). G-06 (IDEA-005) is **closed as a bounded negative finding** with contradicting
+   evidence now recorded (S-098, S-099): the published literature conditions spot–futures
+   convergence on *trader type*, and the closest published test of IDEA-005's own state variable
+   (CIT market share) reports no significant effect — **and in Cycle 6 that closed G-12 against the
+   candidate as well, which parked it (P-009)**. G-09 (IDEA-006) is closed. **Cycle 6 applied G-12
+   and G-13 as screens to every active candidate**: G-13 passed for IDEA-001, IDEA-003, IDEA-004
+   (conditionally, on a filing-anchored rule), IDEA-009, IDEA-011 and IDEA-014, and **failed for
+   IDEA-008** (S-126); G-12 passed for every retained candidate, but on IDEA-001 only on the
+   *existence* limb. **Cycle 13 closed three more and opened one.** **G-02/G-07 are CLOSED as
+   construction questions**: a published method for estimating benchmark-specific tracked assets now
+   exists (S-148 infers the AUM tracking each of five named indices from reconstitution-day closing
+   volume, 2000–2021), so the question is no longer "is this estimable?" but "is the underlying
+   per-security auction history available?". **G-03 is CLOSED**: the effective-close convention is
+   documented by the index manager itself (S-149) and by peer-reviewed work (S-150, S-148). **G-05's
+   literature half is CLOSED against IDEA-003's single-name extension** (S-153, S-154) — the
+   aggregate version is unaffected. **G-18 is NEW**: validate a return-correlation crowding proxy
+   (S-157, comomentum) against a holdings-based crowding measure (S-026) — this is what would
+   unblock IDEA-004's proxy-validity condition (G-04), and it must be closed *before* V-002 is
+   executed. **Still open and worth the next cycle's attention: G-01** (a public dealer funding-state
+   proxy — narrowed in Cycle 13 to a dealer-level FVA series, with the funding-state family itself
+   now published, S-160–S-162), **G-04** (the crowd-depth proxy for IDEA-004 — now with a named
+   candidate proxy and an open validation, G-18), **G-14** (a public borrow-cost series — dated, not
+   before 29 March 2029), **G-15** (the RIN compliance-deadline price pattern — IDEA-014's first
+   test), **G-16** (a validated public proxy for dealer balance-sheet stress — IDEA-010's
+   precondition).
+9. **Bounded tasks T5–T8 status (updated in Cycle 13).** T5 (G-03/G-08 closing-auction
+   concentration): **CLOSED** — the convention question (G-03) is answered and documented (S-149,
+   S-150, S-148), and the aggregate participation question is answerable from published venue
+   statistics (S-100: NYSE auction statistics and Cboe's date-addressable market-share file with an
+   "Exclude Auctions" control); what remains is only the long-history *per-security* auction-volume
+   series, which is a commercial product, and the *attribution* question, which cannot be answered
+   from aggregate volume at all. T6 (G-01 composite funding spec): SOFR (S-041) and
+   standing-repo/primary-dealer data (S-042) verified as public ingredients, but **Cycle 13
+   re-confirmed the bounded negative with a sharper target** — the construct is peer-reviewed
+   (S-155) and the funding-state family is published (S-160–S-162, including the public TGCR − IORB
+   measure), but no published continuous *dealer-level* FVA series exists and none is likely to;
+   IDEA-002 stays parked. T7 (G-05 single-name side): **CLOSED on both halves** — the data question
+   was closed in Cycle 2 (the single-name 0DTE series is constructible from public OCC data, S-100)
+   and the literature question is closed in Cycle 13 **against** the single-name extension (S-153,
+   S-154). T8 (G-07 benchmark-specific passive-asset series): **CLOSED as a construction question**
+   — a published method and published estimates exist (S-148); the remaining obstacle is
+   data engineering, and the only consumer of the gap (IDEA-001) was rejected in the same cycle.
+   **None of T5–T8 remains open; G-18 is the only gap opened in Cycle 13**, and it is the one gap
+   that could plausibly unblock a top-three candidate (IDEA-004).

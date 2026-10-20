@@ -339,6 +339,58 @@ effect (the rule that produces R-007, R-009 and R-010).
   cut-off extensions) are recorded as baselines and may be useful as *costs* in the design of
   unrelated candidates that must trade in or around that window.
 
+### R-011 — IDEA-001 RECON-FLOW: announcement-timed, flow-scaled reconstitution pressure with a post-effective reversal leg — *Cycle 13, evidence closure*
+
+- **What was claimed:** that an index provider's reconstitution creates a scheduled, deadline-driven,
+  price-insensitive demand shock; that the price concession paid to the counterparty is partly
+  reversed after the passive flow has been executed; that the announcement-to-effective drift
+  *scales with the required passive flow*; and that the asymmetry between additions and deletions is
+  a flow-and-capacity effect rather than an awareness effect. The candidate entered the register as
+  the rank-1 item at 76.0 and had a validation specification (V-001) for six cycles.
+- **Why rejected:** three published results close it, and they close different limbs.
+  1. **The base effect has disappeared.** Greenwood & Sammon (S-146, *Journal of Finance* 2025)
+     document that the abnormal return associated with an S&P 500 addition has fallen from an
+     average of **7.4% in the 1990s to less than 1% over the past decade**, that deletions average
+     **0.1% between 2010 and 2020**, and that the average inclusion effect in 2020 was **−3 basis
+     points**. A concession of approximately zero is not a concession that can be harvested; the
+     candidate's leg 1 has no effect left to trade, and its side-asymmetry claim has no economic
+     content in the modern sample.
+  2. **The differentiator has a published null.** The same paper finds "no apparent relationship
+     between net purchases [by index trackers] and the index inclusion effect, for either additions
+     or deletions". The candidate's stated differentiator — that the drift scales with the required
+     passive flow — is not merely unclaimed; it is contradicted.
+  3. **The mechanism is published, and it points at a different window.** Pegoraro, Sammon & Shim
+     (S-147) model speculators as *anticipatory liquidity providers* whose pre-positioning "shifts
+     price pressure away from the reconstitution date"; they report that short interest **rises on
+     implementation dates and falls afterwards** as speculators cover, that trading costs decline as
+     speculator competition rises, and that "apparent front-running reflects competitive liquidity
+     provision and benefits index investors". The candidate's chain required the concession to be
+     paid *between the announcement and the effective close* and to persist until the arbitrageur
+     unwound; the published structure is anticipation *before* the event and unwinding *after* it.
+     Sammon & Shim (S-151) supply the reason: the counterparty to a passive fund's demand is **the
+     issuing firm itself**, and most demand-side institutions trade in the same direction as index
+     funds, so there is no arbitrageur paying a concession to capture.
+- **The rejection is *not* a data or premise failure.** Two gaps closed **in the candidate's
+  favour** in the same cycle, and the register records them because they are reusable research
+  assets: **G-03** — the index funds' effective-close convention is now documented by the index
+  manager itself (S-149: index funds and ETFs are "structurally incentivized to execute trades at
+  the closing auction" because official NAVs are struck on closing prices, with Market-on-Close
+  orders "the dominant mechanism for end-of-day execution") and by peer-reviewed work (S-150 on
+  closing-auction volume share, price impact and passive attribution; S-148 on execution at the
+  closing price on reconstitution day); and **G-02/G-07** — a **published construction method** for
+  benchmark-specific tracked assets now exists (S-148 infers the AUM tracking each of five named
+  indices from reconstitution-day closing volume, 2000–2021), so the flow-scaling limb no longer
+  rests on an industry estimate. The candidate died on evidence, not on an unresolved technicality.
+- **What would have rescued it (and is now foreclosed):** a specification whose timing is the
+  *announcement-to-implementation* window rather than the announcement-to-effective-close window, and
+  which trades *against* the anticipatory flow rather than with it. That structure is exactly what
+  S-147 publishes, and a second 2026 preprint (S-171) models it again as a differential game. It is
+  therefore a **published baseline**, not an unclaimed candidate.
+- **Standing:** priority score **76.0 withdrawn**; V-001 **withdrawn**; the dossier is retained in
+  `idea_register.md` (v2.0, terminal) for the audit trail; the reusable outputs are filed as
+  baselines ("the disappearing index effect", "anticipatory liquidity provision at reconstitution",
+  "benchmark-specific passive-asset estimation from reconstitution-day volume").
+
 ### P-008 — IDEA-013 EU-ETSCOMP: the surrender-deadline concession in the EU ETS — *parked, not rejected*
 - **Why parked rather than retained or rejected:** the required full-text check on the published work
   (S-101) was performed in Cycle 5 and came out *against* the candidate in three specific ways.
@@ -483,19 +535,44 @@ to baselines.
 | Exchange-published maintenance-margin schedules as a liquidity and volatility determinant | **Published** (S-122): margin increases cause hedgers and speculators to reduce open positions and produce "funding liquidity spillovers that affect price impact for all contracts", but "I do not find a significant effect of margin changes on the futures price level", while "realized variance increases by 50% on average on the day of a margin increase". The margin schedule is published by the venue and its setting rule is published too ("2.5 times the daily standard deviation of returns"). **This is a baseline**: the family is studied, and its published effect is on liquidity and volatility, not on the price level. |
 | ETF primary-market arbitrage and AP inventory as a driver of ETF mispricing | **Published, institutionally** (S-123): with a regulatory dataset covering the primary and secondary market transactions of 128 ETFs from 2018 to 2022, the FCA finds "a connection between mispricing … and AP's inventory", with "excess AP inventory … widen[ing] discounts". **This is a baseline**, and its dataset is proprietary — the same AP-level data constraint that blocks IDEA-010. |
 | Spot-crypto-ETF flow as a channel into the underlying market | **Published, institutionally and as a preprint** (S-124, S-125): the Fed finds crypto ETPs "track NAV less-closely than other ETPs and ETFs" and that the premium reflects segmentation and arbitrage difficulty; the preprint finds that the ETF channels large, uninformed demand into the spot market, "making it busier but shallower", with volume rising "only within U.S. trading hours, when ETF and Authorized Participant activity is concentrated". **This is a baseline**: the creation-flow channel is published, with a *liquidity-deterioration* sign and a published intraday timing pattern. |
+| **The disappearing index effect (added in Cycle 13)** | **Published, peer-reviewed** (S-146, *Journal of Finance* 2025). The S&P 500 inclusion effect has collapsed: additions below 1% over the past decade (7.4% in the 1990s), deletions 0.1% between 2010 and 2020, an average inclusion effect of −3 basis points in 2020, and "no apparent relationship between net purchases [by index trackers] and the index inclusion effect, for either additions or deletions". **Any future candidate in the index-reconstitution family must start from this paper and must explain what is left**; the magnitudes are version-dependent between the working-paper and journal versions, so the version must be cited. |
+| **Anticipatory liquidity provision at reconstitution (added in Cycle 13)** | **Published as a model and as a documented structure** (S-147, working paper; S-171, preprint; S-151, peer-reviewed). Speculators pre-position, which shifts price pressure away from the effective date; short interest rises on implementation dates and falls afterwards; "apparent front-running reflects competitive liquidity provision and benefits index investors"; and the counterparty to passive demand is the issuing firm. **This is a baseline**: a candidate that trades the pre-announcement anticipation or the post-implementation unwind of reconstitution is presenting published work. |
+| **Benchmark-specific passive-asset estimation from reconstitution-day volume (added in Cycle 13)** | **Published, peer-reviewed** (S-148, *Journal of Financial Economics* 2024): the passive ownership share was 33.3% in 2021, roughly double the index-fund-only figure, and the AUM tracking each of the Russell 1000, Russell 2000, S&P 500, S&P MidCap 400 and Nasdaq 100 is inferred from reconstitution-day closing volume for 2000–2021. **This is a method note, not a candidate**: it closes G-02/G-07 as construction questions. |
+| **Single-name variance risk premia are frequently zero or positive (added in Cycle 13)** | **Published, peer-reviewed** (S-153, Driessen, Maenhout & Vilkov, *JF* 2009; S-154, Carr & Wu, *RFS* 2009): individual equity options do not embed a negative variance risk premium, single-stock variance swap returns are insignificant, and the negative premium is a large-index phenomenon with correlation risk doing the pricing work. **This forecloses the single-name extension of IDEA-003**; the aggregate version is a baseline (S-014, S-093, S-094) and IDEA-003 must always be described as a state-conditioned refinement of it. |
+| **Factor-profitability decay and the crowding/alpha relation (added in Cycle 13)** | **Published, peer-reviewed for the decay** (S-156, *JFQA* 2023: the momentum factor's returns fell from 0.92% to 0.16% per month after mid-2002, with an identified mechanism) and **preprint for the crowding result** (S-172: crowding-based factor selection fails out-of-sample; crowding predicts tail risk rather than average returns). **This is a baseline for any crowding-conditioned candidate**: the base effect must be shown to survive, and the preprint's title has already changed between versions, so the version must be cited. |
+| **Crowding inferred from return correlations — "comomentum" (added in Cycle 13)** | **Published, peer-reviewed** (S-157, Lou & Polk, *RFS* 2021): arbitrage-activity intensity is inferable from return correlations, so it is computable from public prices at decision time. **This is a baseline and the object of the new gap G-18**: it is a *different construct* from the holdings-based position-concentration measure (S-026), and the two have never been validated against each other. |
+| **Perpetual-futures funding, drawdown mean reversion and the unwind channel (added in Cycle 13)** | **Published** (S-158, working paper: perpetual drawdowns quickly mean-revert while quarterly drawdowns persist, and a higher funding rate attenuates price sensitivity to demand shocks; S-159, *Journal of Empirical Finance* 2026: funding rates have incremental forecasting power for spot volatility because they capture imbalanced leveraged positions vulnerable to subsequent unwinding). **This is a baseline**: IDEA-009's mechanism and mean-reversion are published, and its residual is a dated, signed, exit-specified rule keyed to the funding *level*. |
+| **Treasury General Account flows and repo-market stress (added in Cycle 13)** | **Published** (S-160, IMF working paper: TGA flows can create large swings in the repo spread; S-161, S-162, Federal Reserve FEDS Notes: repo-rate sensitivity to Treasury issuance through the SOMA, the ON RRP facility and the TGA, with the public **TGCR − IORB** spread as the decision-time stress measure). **This is a baseline and a cost model**: the funding-state family is published, and what remains open in G-01 is specifically a *dealer-level* funding-value-adjustment series (construct: S-155). |
+| **California cap-and-trade price collars, reserve sales and surrender obligations (added in Cycle 13)** | **Published and institutionally documented** (S-163, Bushnell on the price-collar design and the reserve's never having been used; S-164, CARB's Reserve Sale Notice and Annual APCR Notice, including the codified 60%-of-tier trigger, the published tier prices and quantities, the ~30-day notices and the Appendix C schedule; S-174, 17 CCR §§ 95856/95857/95913 — the 1 November, 5:00 p.m. Pacific surrender deadline and the four-times untimely-surrender penalty; S-165, CRS R48314 on prices and compliance; S-168, *AER* 2019 on the collar's design; S-173, CBO 2010 on reserve mechanics). **This is a baseline and a template**: the state is published, the obligation is punitive, and yet the price-insensitive demand is satisfied in advance and the reserve never opens — which is why no candidate emerged from the screen and why the register's own cap-and-trade candidates must state how their state makes the deadline demand *tight*. |
+| **Accelerated share repurchases (added in Cycle 13)** | **Published, peer-reviewed** (S-166, Erickson, Fang & Howe, *JFE* 2011; S-167, Guéant, Pu & Royer, *IJTAF* 2015: the ASR is an Asian option with Bermudan exercise dates and the intermediary's problem is optimal execution with market impact). **This is a baseline**: the mechanism, the pricing and the announcement effects are published, and the discount is private-contract data. |
+| **Crypto token unlock schedules and their price effects (added in Cycle 13)** | **Published by an interested party, not peer-reviewed** (S-170: a market maker's study of more than 16,000 unlock events reports roughly 90% followed by negative price pressure, with the decline typically starting about 30 days before the unlock and stabilising within about two weeks after, and team unlocks the most disruptive). **This is a baseline and a rediscovery guard**: the schedule is published and the sign and window are already stated publicly, and there is no published state that says whether recipients will sell. |
+| **The closing-auction passive execution convention (added in Cycle 13)** | **Documented institutionally and published** (S-149, the index manager's own statement that index funds and ETFs are structurally incentivised to execute in the closing auction because NAVs are struck on closing prices, with Market-on-Close orders dominant; S-150, closing-auction volume at roughly 4–10% of ADV, lower price impact than in the continuous market, and a significant association with passive creation/redemption activity; S-148, passive rebalancing executed at the closing price on reconstitution day). **This is a baseline and a cost note**: the convention is settled, so any candidate that needs a *different* execution convention must justify why the passive does not trade at the close. |
 
 ---
 
 ## Rediscovery guard
 
 Before adding any candidate, check it against (a) the fourteen dossiers in `idea_register.md`,
-(b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (four of
-which — V-004, V-005, V-006 and V-007 — are **withdrawn**, their candidates having been rejected
-or parked). If the candidate differs from a baseline only in parameterisation, in label, or in the
-time frame, it is a variant and belongs in this log with the baseline named, not in the register. A
-candidate that differs from a baseline only in the *state variable* it is conditioned on must still
-show that the state variable is observable at decision time — and must show that the conditioning
-changes the *sign* or the *existence* of the effect, not merely its size.
+(b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (five of
+which — V-001, V-004, V-005, V-006 and V-007 — are **withdrawn**, their candidates having been
+rejected or parked). If the candidate differs from a baseline only in parameterisation, in label, or
+in the time frame, it is a variant and belongs in this log with the baseline named, not in the
+register. A candidate that differs from a baseline only in the *state variable* it is conditioned
+on must still show that the state variable is observable at decision time — and must show that the
+conditioning changes the *sign* or the *existence* of the effect, not merely its size.
+
+**One standing condition added in Cycle 13 (after R-011), and it is the most important entry in
+this guard.** *Before a candidate is written, its nearest published test must be re-read in the
+post-2010 sample.* The register's rank-1 candidate survived six cycles of screening because its
+literature had been read only up to 2023; the 2025 *Journal of Finance* paper (S-146) then showed
+that the effect it trades had collapsed to approximately zero and that its stated differentiator
+had a published null. The failure was not in the screening logic — G-13 and G-12 were applied
+correctly — but in the *age of the evidence base*. Therefore: (i) every candidate must carry a
+**dated evidence-currency check**, and (ii) a candidate whose base effect is documented as decayed
+(S-146, S-156, S-033) must show that the *conditioned* effect survives where the base has not, or
+be parked. The register also now keeps two version-drift warnings on file (S-152, whose published
+and working-paper versions carry opposite signs, and S-172, whose title changed between versions):
+**a number quoted from a working paper must be cited with its version.**
 
 **Three standing screening conditions added in Cycle 5** (they are now part of the guard, not
 advice):

@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–6
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–13
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -53,11 +53,37 @@ specification and must not be given one until gap **G-16** is closed; **IDEA-014
 has no specification and must not be given one** until gap **G-15** — the RIN compliance-deadline
 price pattern — is closed.
 
+**Cycle 13 update — one specification withdrawn, none added, one frozen pending a new gap.** The
+Cycle-13 evidence closure **rejected IDEA-001 (R-011)**: the S&P 500 index effect has collapsed to
+approximately zero in the modern sample (additions below 1% over the past decade, about −3 basis
+points in 2020), the candidate's flow-scaling differentiator has a **published null**, and the
+mechanism is published as anticipatory liquidity provision that shifts price pressure away from the
+effective date (S-146, S-147, S-151). **V-001 is therefore WITHDRAWN and must not be executed** —
+including its Cycle-6 amendment, which is now moot. **No new specification was required**, because
+the top three are now IDEA-011 (72.0), IDEA-003 (71.0) and IDEA-004 (69.0) and all three already
+have specifications (V-009, V-003, V-002); the top-three *membership* changed only in that IDEA-001
+left it and IDEA-011 and IDEA-003 took its place, and both were already specified. The executable
+set is therefore **V-002, V-003, V-008, V-009**, with **V-001, V-004, V-005, V-006 and V-007
+withdrawn**. One specification now carries a **binding hold**: **V-002 (IDEA-004) must not be
+executed until the new gap G-18 is closed** — the only *timely, decision-time* crowding proxy
+found in thirteen cycles (S-157, comomentum) has never been validated against the holdings-based
+crowding measure (S-026) that the specification is frozen on, and re-specifying around an
+unvalidated proxy is forbidden by the register's own method. V-002's existing Cycle-6 amendment
+(re-anchor the rebalancing grid to the 45-day filing cadence) stands.
+
 ---
 
-## V-001 — RECON-FLOW (IDEA-001)
+## V-001 — RECON-FLOW (IDEA-001) — **WITHDRAWN in Cycle 13 (candidate rejected, R-011)**
 
-**Cycle-6 amendment (G-12 narrowing — binding).** The Cycle-6 G-12 screen established that the
+**Cycle-13 withdrawal (binding).** IDEA-001 was rejected in Cycle 13 on published evidence: the
+index-inclusion effect the specification would have measured has collapsed to approximately zero in
+the modern sample (additions below 1% over the past decade, an average inclusion effect of about
+−3 basis points in 2020), the flow-scaling prediction has a published null, and the front-running
+structure is published as competitive anticipatory liquidity provision (S-146, S-147, S-151).
+**This specification must not be executed in any form, including the Cycle-6 amendment below.**
+The text of the specification is retained unchanged for the audit trail.
+
+**Cycle-6 amendment (G-12 narrowing — superseded by the withdrawal above, retained for the record).** The Cycle-6 G-12 screen established that the
 candidate's **flow-scaling** limb conditions only the *size* of a published effect and does not
 by itself survive the rediscovery guard, while the **side asymmetry** (additions yield a harvestable
 concession, deletions do not) and the **existence of the second leg** (a non-zero fraction of the

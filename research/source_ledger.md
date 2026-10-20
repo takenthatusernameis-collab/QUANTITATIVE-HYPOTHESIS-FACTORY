@@ -3358,4 +3358,495 @@ here including the negative ones**, as the handoff required.
 ## Cycle 8 — primary gaps (bounded-negative closures, 2026-10-20)
 
 - **G-16 — closed as bounded negative (literature side).** Web research confirms no freely available, decision-time public proxy for dealer balance-sheet stress in credit: dealer balance-sheet data remain proprietary/non-public, and published substitutes (standing repo facility take-up; TRACE dealer-position and interdealer-spread measures) are different constructs that have not been validated against any dealer-balance-sheet measure. IDEA-010's precondition therefore remains unmet; IDEA-010 stays retained only on the condition that a validated proxy is later found, and no validation specification is written. (Consistent with the prior handoff's stated finding; the search provider rate-limited during this cycle, so this is a bounded negative, not an exhaustive search.)
-- **G-04 — IDEA-004 crowd-depth proxy validity: closed as bounded negative (literature side).** A bounded search confirms no freely available, decision-time public crowd-depth series exists for U.S. equities. The 13F-based crowding measures (S-026, and subsequent commercial implementations) are published with the 45-day filing lag and are stale for intraday/multi-day decision timing in the sense required; borrow depth and true exit capacity remain broker-gated/proprietary and are not published. The publication cadence is feasible on a quarterly-anchored rule (filing cadence), so the binding constraint is proxy *validity*, not timeliness. IDEA-004 (rank 2) therefore remains constrained by this unclosable data gap (parked in effect on this precondition); no new public proxy was identified.
+- **G-04 — IDEA-004 crowd-depth proxy validity: closed as bounded negative (literature side).** A bounded search confirms no freely available, decision-time public crowd-depth series exists for U.S. equities. The 13F-based crowding measures (S-026, and subsequent commercial implementations) are published with the 45-day filing lag and are stale for intraday/multi-day   decision timing in the sense required; borrow depth and true exit capacity remain broker-gated/proprietary and are not published. The publication cadence is feasible on a quarterly-anchored rule (filing cadence), so the binding constraint is proxy *validity*, not timeliness. IDEA-004 (rank 2) therefore remains constrained by this unclosable data gap (parked in effect on this precondition); no new public proxy was identified.
+
+---
+
+## Cycle 13 additions (S-146 … S-174) — the index-reconstitution corpus, the single-name variance-premium literature, the crowding proxies, and six frontier screens
+
+Cycle 13's centre of gravity is the published 2024–2026 literature on index reconstitution. Four
+entries (S-146, S-147, S-148, S-151) together determine the fate of the register's rank-1 candidate,
+IDEA-001. The remainder close or bound the open gaps and record the frontier screens.
+
+### S-146 — Greenwood, R. and Sammon, M. (2025)
+"The Disappearing Index Effect." *The Journal of Finance* 80(2): 657–698.
+DOI: https://doi.org/10.1111/jofi.13410 · working-paper version: NBER Working Paper No. 30748
+(December 2022), DOI https://doi.org/10.3386/w30748
+- **Type:** Prior empirical result (peer-reviewed), with a published working-paper version.
+- **Supports:** the S&P 500 *index effect* has collapsed. The abnormal return associated with an
+  addition has fallen from an average of 7.4% in the 1990s to **less than 1% over the past decade**;
+  deletions, which had large negative abnormal returns in the 1980s–1990s, average **0.1% between
+  2010 and 2020**. The working-paper version of the same study reports the same collapse on a slightly
+  different vintage of numbers (3.4% in the 1980s, 7.6% in the 1990s, **0.8%** over the past decade;
+  deletions **−0.6%** for 2010–2020) — the *magnitudes are version-dependent, the collapse is not*.
+  The working paper also states that "there is no apparent relationship between net purchases
+  [by index trackers] and the index inclusion effect, for either additions or deletions", and reports
+  an average inclusion effect in 2020 of **−3 basis points**.
+- **Caveats:** the paper's "index effect" is the cumulative market-adjusted return from the last
+  trading day before the announcement to the first trading day after implementation, decomposed into
+  an announcement return and an implementation return — i.e. the same window IDEA-001 leg 1 trades.
+  The working-paper text was read through the HBS-hosted PDF via the search index; the published
+  abstract was read on the Wiley landing page via the search index; the NBER abstract was fetched
+  directly.
+- **Verification:** NBER working-paper page fetched directly (title, authors, abstract, December 2022
+  issue date, DOI, and the "Published Versions" line pointing to JF 80(2) 657–698); Wiley and HBS
+  landing pages read via the search index; DOI and journal metadata verified through the Crossref
+  REST API.
+
+### S-147 — Pegoraro, L., Sammon, M. and Shim, J. (2026)
+"Optimal Index-Linked Rebalancing with Anticipatory Trading." Working paper, May 2026 draft
+(SSRN 6772502).
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502
+- **Type:** Primary theory + prior empirical result (author-reported), **working paper — not
+  peer-reviewed**.
+- **Supports:** the mechanism that explains S-146. Speculators act as *anticipatory liquidity
+  providers* around reconstitution: they pre-position before the effective date, which "shifts price
+  pressure away from the reconstitution date"; "apparent front-running reflects competitive liquidity
+  provision and benefits index investors"; trading costs decline as speculator competition rises;
+  short interest **rises on implementation dates and falls afterwards** as speculators cover; the
+  authors estimate that avoidable rebalancing costs borne by index-linked investors are small.
+- **Caveats:** working paper; the principal application is the S&P 500; the specific empirical
+  magnitudes quoted for implementation-day effects were read through the author's summary page and a
+  2026 arXiv preprint that cites them, not from the paper's own tables.
+- **Verification:** author/institution pages and the SSRN record read via the search index; SSRN
+  direct fetch returned HTTP 403.
+
+### S-148 — Chinco, A. and Sammon, M. (2024)
+"The passive ownership share is double what you think it is." *Journal of Financial Economics* 157:
+103860.
+DOI: https://doi.org/10.1016/j.jfineco.2024.103860
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** (i) the passive ownership share of U.S. equities was **33.3% in 2021**, roughly double
+  the 16% figure implied by index-fund ownership alone; (ii) a **construction method** for
+  benchmark-specific tracked assets: for each index, the AUM tracking it is inferred from
+  reconstitution-day closing volume, for the Russell 1000, Russell 2000, S&P 500, S&P MidCap 400 and
+  Nasdaq 100, over 2000–2021; (iii) passive rebalancing "gets executed at the closing price on
+  reconstitution day". This is the published answer to the register's G-02/G-07 question (how one
+  might estimate the size of index-linked assets for a *specific* benchmark) and part of the answer
+  to G-03.
+- **Caveats:** the published estimates are annual point estimates for five indices through 2021, not
+  a downloadable daily series; the underlying input is per-security closing-auction volume, whose
+  long history is commercial; the paper is about the *size* of passive assets, not about price
+  effects of reconstitution.
+- **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
+  volume and article number verified through the Crossref REST API.
+
+### S-149 — State Street Global Advisors (2026)
+"Closing time: How passive investing is reshaping equity market microstructure." SSGA Investment
+Management Insights, 23 January 2026.
+URL: https://www.ssga.com/au/en_gb/institutional/insights/how-passive-investing-reshaping-microstructure
+- **Type:** Institutional research / marketing communication from the index manager itself
+  (**interested party**).
+- **Supports:** the effective-close convention directly, in the index manager's own words: "Index
+  funds and ETFs are structurally incentivized to execute trades at the closing auction because
+  official net asset values (NAVs) are calculated using closing prices, and any deviation can result
+  in tracking error. Consequently, Market-on-Close (MOC) orders have become the dominant mechanism
+  for end-of-day execution." Also: the US closing auction was **15.39% of daily volume in December
+  2025** versus 8.40% in January 2018; developed-Europe 34.82%; Asia ex-Japan 16.78%.
+- **Caveats:** an interested party describing its own practice; not an independent measurement of
+  where passive funds actually trade; no rule text, no audit.
+- **Verification:** page fetched directly (full text read, including the quoted sentence and the
+  volume-allocation table).
+
+### S-150 — Goyal, A., Jegadeesh, N. and Wu, Y. (2026)
+"Price Impact in Closing Auctions, Opening Auctions, and Continuous Markets: A Benchmark for Cost of
+Trading on Anomalies." *Journal of Financial and Quantitative Analysis* 61(6): 2620–2655.
+DOI: https://doi.org/10.1017/S0022109026102592
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** closing-auction volume has risen from roughly 4% to roughly 10% of ADV (average
+  7.10%, median 5.34%); **price impact is lower in the closing auction than in the continuous
+  market** for all stocks except Nasdaq micro-caps; closing-auction volume is significantly associated
+  with the creation/redemption activity of passive index funds; Friday and triple-witching spikes are
+  larger; the closing auction attracts relatively uninformed traders.
+- **Caveats:** the passive-attribution result is an association with creation/redemption activity, not
+  an identification of index-fund order flow; the price-impact comparison is about *continuous-market
+  trades*, not about reconstitution events.
+- **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
+  volume, issue and pages verified through the Crossref REST API.
+
+### S-151 — Sammon, M. and Shim, J. (2026)
+"Who Clears the Market When Passive Investors Trade?" *The Review of Financial Studies* 39(10):
+3330–3377.
+DOI: https://doi.org/10.1093/rfs/hhag032
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the counterparty to a passive fund's demand is **the issuing firm itself** (firms are
+  the primary sellers who clear index-fund buying), and most demand-side institutions trade *in the
+  same direction* as index funds — i.e. passive demand is not offset by an opposing arbitrageur who
+  would pay away the concession. This is the structural argument that the price concession at
+  reconstitution is not naturally competed away, and it is the strongest published evidence *for*
+  IDEA-001's persistence thesis.
+- **Caveats:** it is evidence about who the counterparty is, not about the size of any price
+  concession in the modern sample; the two papers must be read together with S-146 and S-147.
+- **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
+  volume, issue and pages verified through the Crossref REST API.
+
+### S-152 — Sammon, M. and Shim, J. (2026)
+"Index rebalancing and stock market composition: Do indexes time the market?" *Journal of Financial
+Economics* 177: 104229.
+DOI: https://doi.org/10.1016/j.jfineco.2025.104229 · earlier working-paper version: SSRN 5080459
+("Index Rebalancing and Stock Market Composition: Do Index Funds Incur Adverse Selection Costs?")
+- **Type:** Prior empirical result (peer-reviewed), with a sign-flipped working-paper version.
+- **Supports:** a *value-weighted composition* channel (issuance, buybacks and IPOs changing index
+  weights) distinct from S&P 500 reconstitution: index funds' long-short rebalancing portfolios earn
+  about **4.61% annualised** in the published version, with a rebalancing drag of 46–69 basis points.
+- **Caveats:** the working-paper version reports **−4.67%** annualised — the *sign flips between
+  versions*, a direct warning to the register about relying on a single pre-publication number; the
+  mechanism is composition-driven, not reconstitution-driven.
+- **Verification:** DOI and journal metadata verified through the Crossref REST API (title and
+  bibliography query); abstracts read via the search index.
+
+### S-153 — Driessen, J., Maenhout, P. J. and Vilkov, G. (2009)
+"The Price of Correlation Risk: Evidence from Equity Options." *The Journal of Finance* 64(3):
+1377–1406.
+DOI: https://doi.org/10.1111/j.1540-6261.2009.01467.x
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (as a bounded negative for IDEA-003's single-name version):** individual equity options
+  do **not** embed a negative variance risk premium — single-stock variance risk premia are
+  frequently zero or of the *opposite* sign to the index-level premium, and single-stock variance
+  swap returns are insignificant; what individual options price is *correlation* risk.
+- **Caveats:** 2009 sample (pre-2010), so it is evidence about the *sign* of the single-name
+  premium, not about its current magnitude; it is an option-pricing result, not a trading-strategy
+  result.
+- **Verification:** Wiley landing page (title, authors, abstract) read via the search index; DOI,
+  volume, issue and pages verified through the Crossref REST API.
+
+### S-154 — Carr, P. and Wu, L. (2009)
+"Variance Risk Premia." *The Review of Financial Studies* 22(3): 1311–1341.
+DOI: https://doi.org/10.1093/rfs/hhn038
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (as a bounded negative for IDEA-003's single-name version):** variance risk premia on
+  individual stocks are frequently zero or positive; the negative premium is a large-index phenomenon
+  (the S&P 100 carries a negative premium), and individual-stock returns do not load on a variance
+  risk premium factor.
+- **Caveats:** as S-153 — a pricing result on an older sample; it does not test a gated trading rule.
+- **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages, publication
+  date) plus the journal landing page via the search index.
+
+### S-155 — Andersen, L., Duffie, D. and Song, Y. (2019)
+"Funding Value Adjustments." *The Journal of Finance* 74(1): 145–192.
+DOI: https://doi.org/10.1111/jofi.12739 · working-paper version: NBER Working Paper No. 23680
+- **Type:** Primary theory (peer-reviewed).
+- **Supports (for G-01):** the *construct* behind the register's dealer funding-state gap is
+  well-defined and peer-reviewed: a dealer's funding value adjustment is a debt-overhang cost to its
+  shareholders, and dealer quotations adjust for FVAs in order to align with shareholder interests.
+- **Caveats:** the paper is a theory of FVAs; it does not publish a continuous, public FVA series,
+  and no such series exists — the closest published dealer-funding-terms measures are the Federal
+  Reserve's quarterly **Senior Credit Officer Opinion Survey** (qualitative net percentages) and the
+  NY Fed's daily SOFR and SOFR percentile-spread statistics.
+- **Verification:** Wiley landing page and NBER working-paper PDF read via the search index; DOI,
+  volume, issue and pages verified through the Crossref REST API.
+
+### S-156 — Ben-David, I., Li, J. and Rossi, A. (2023)
+"Discontinued Positive Feedback Trading and the Decline of Return Predictability." *Journal of
+Financial and Quantitative Analysis* 59(7): 3062–3100.
+DOI: https://doi.org/10.1017/S0022109023000959 · working-paper version: NBER Working Paper No. 28624
+("Discontinued Positive Feedback Trading and the Decline of Momentum Profitability")
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-004):** the momentum factor's returns fell from **0.92% per month** (January
+  1987 – June 2002) to **0.16% per month** afterwards, with an identified mechanism (positive-feedback
+  trading in analyst ratings ended after the mid-2002 Morningstar rating reform); factor-momentum
+  strategies show the same decline. Published evidence that the *base effect* which IDEA-004's
+  crowding gate is supposed to condition has decayed sharply and for a documented reason.
+- **Caveats:** the subject is cross-sectional equity momentum, which IDEA-004's own dossier lists as
+  a *rival explanation* for its convergence returns rather than as its base effect; the post-reform
+  return is small but still positive.
+- **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the NBER
+  working-paper text via the search index.
+
+### S-157 — Lou, D. and Polk, C. (2021)
+"Comomentum: Inferring Arbitrage Activity from Return Correlations." *The Review of Financial Studies*
+35(6): 3272–3302.
+DOI: https://doi.org/10.1093/rfs/hhab117 · working-paper version: NBER Working Paper No. 9664
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-004, prediction 4, and for the new gap G-18):** crowding/arbitrage-activity
+  intensity is inferred from *return correlations* — a measure computable from public price data
+  alone, i.e. **decision-time and free**, unlike the 13F-based holdings measure (S-026). This is the
+  first candidate for a *timely* crowd-depth proxy found in thirteen cycles of the register.
+- **Caveats:** it is a proxy for arbitrage activity, not for the *position concentration* of
+  arbitrage capital that S-026 measures; whether it is a valid substitute for the holdings-based
+  measure has never been tested in this register — that is exactly what G-18 is opened for.
+- **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the
+  journal landing page via the search index.
+
+### S-158 — Gornall, G., Xiao, Y. and Rinaldi, M. (2025)
+"Perpetual Futures and Basis Risk: Evidence from Cryptocurrency." Working paper, May 2025
+(SSRN 5036933); paper presented at the AEA 2026 Annual Meeting programme.
+URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5036933
+- **Type:** Primary theory + prior empirical result (author-reported), **working paper — not
+  peer-reviewed**.
+- **Supports (for IDEA-009):** the mechanism behind the funding-rate channel is now published
+  outside the register: perpetual futures track spot more tightly because continuous funding payments
+  discipline the basis; a higher funding rate *attenuates* the sensitivity of the perpetual price to
+  demand shocks; and perpetual-futures drawdowns **quickly mean-revert** while quarterly drawdowns
+  persist.
+- **Caveats:** working paper; the drawdown mean-reversion result is about basis deviations, not about
+  a signed, dated funding-level trading rule.
+- **Verification:** AEA conference programme pages and the authors' CFTC comment letter read via the
+  search index; SSRN direct fetch not performed (HTTP 403 on the ID landing page).
+
+### S-159 — "Perpetual futures as predictors of Bitcoin volatility" (2026)
+*Journal of Empirical Finance* 89: 101779.
+DOI: https://doi.org/10.1016/j.jempfin.2026.101779
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-009):** funding rates provide **incremental predictive information** for spot
+  *volatility* at daily, weekly and monthly horizons; the interpretation is that funding rates
+  capture imbalanced leveraged positions that are vulnerable to subsequent unwinding.
+- **Caveats:** the return *direction* is not the tested object — the paper forecasts volatility, not
+  returns, and does not test a signed reversal rule.
+- **Verification:** Crossref REST API (title, journal, volume, article number, publication date) plus
+  the publisher landing page via the search index.
+
+### S-160 — Dao, M., Tan, B. J. and Zhou, J. (2025)
+"Repo Market Volatility and the U.S. Debt Ceiling." IMF Working Paper, June 2025.
+DOI: https://doi.org/10.5089/9798229015219.001
+- **Type:** Prior empirical result (author-reported), working paper.
+- **Supports:** Treasury General Account flows are an identified driver of short-term funding-market
+  stress: TGA flows triggered by the debt-ceiling mechanism "can create large swings in the repo
+  spread" and distort the supply of repo funding, with a projected 20–30 basis point repo-spread
+  fluctuation around a debt-ceiling lift-off.
+- **Caveats:** working paper; the identification is around debt-ceiling episodes, not a general
+  trading rule; the register's G-01 question (a *dealer* FVA proxy) is not answered.
+- **Verification:** Crossref REST API (title, authors, IMF Working Papers series, year) plus the IMF
+  working-paper landing page via the search index.
+
+### S-161 — Board of Governors of the Federal Reserve System (2025)
+"The Repo Rate Sensitivity to Treasury Issuance and Quantitative Tightening." FEDS Notes, 12 February
+2025.
+URL: https://www.federalreserve.gov/econres/notes/Feds-notes/repo-rate-sensitivity-to-treasury-issuance-and-quantitative-tightening-20250212.html
+- **Type:** Central-bank research note (staff analysis, not peer-reviewed).
+- **Supports:** the published mechanism set for funding-market sensitivity — repo-rate sensitivity to
+  Treasury issuance rises as the Fed's balance sheet shrinks, with the SOMA, the ON RRP facility and
+  the TGA named as the channels; dealer balance-sheet costs are explicitly modelled.
+- **Caveats:** a note, not a refereed paper; its subject is *sensitivity*, not a trading rule.
+- **Verification:** landing page read via the search index; the note's own page and PDF are public.
+
+### S-162 — Board of Governors of the Federal Reserve System (2026)
+"Repo Markets and the Fed's Balance Sheet: Implications for Monetary Policy Implementation." FEDS
+Notes, 26 August 2026.
+URL: https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-the-feds-balance-sheet-implications-for-monetary-policy-implementation-20260826.html
+- **Type:** Central-bank research note (staff analysis).
+- **Supports:** the TGCR − IORB spread is the published, decision-time measure of funding-market
+  pressure (both series are public and daily); the note quantifies the effect of net Treasury
+  issuance on that spread as a function of the liquidity level, and documents the September 2019
+  episode in which SOFR rose above 280 basis points.
+- **Caveats:** not peer-reviewed; descriptive of the monetary-policy implementation channel.
+- **Verification:** landing page read via the search index.
+
+### S-163 — Bushnell, J. B. (2017)
+"Carbon Pricing and Revenue Uncertainty in California." Author-hosted manuscript, National Tax
+Journal layout (University of California, Davis).
+URL: https://bushnell.ucdavis.edu/uploads/7/6/9/5/76951361/a00_bushnell_02.pdf
+- **Type:** Prior empirical/institutional result (author-reported); **final journal metadata not
+  confirmed** (the Crossref record returned by the title query is a different Bushnell NTJ article).
+- **Supports (for the Cycle-13 California screen):** the California price-collar design, and the key
+  fact that the Allowance Price Containment Reserve **"has not been called into use"** through 2017,
+  with allowance prices at or near the auction floor for most of the programme's life.
+- **Caveats:** the manuscript's page header reads "National Tax Journal"; the article number and
+  issue could not be verified through Crossref in this cycle, so the citation is to the
+  author-hosted version.
+- **Verification:** PDF read via the search index; Crossref title query for the exact title returned
+  an unrelated record.
+
+### S-164 — California Air Resources Board (2018)
+"Reserve Sale Notice — Sale of Greenhouse Gas Allowances from the Allowance Price Containment Reserve
+on October 2, 2018" (issued 31 August 2018) and "2018 Annual Allowance Price Containment Reserve
+Notice" (issued 1 December 2017).
+URLs: https://ww2.arb.ca.gov/sites/default/files/cap-and-trade/reservesale/oct-2018/notice.pdf ·
+https://ww2.arb.ca.gov/sites/default/files/cap-and-trade/reservesale/2018_reserve_sale_apcr_notice.pdf
+- **Type:** Primary regulatory source (the regulator's own published notices).
+- **Supports (the published-state inventory for the California screen):** a Reserve sale is offered
+  **only if the Current Auction held in the preceding quarter settled at or above 60% of the lowest
+  Reserve tier price**, except for the sale immediately preceding the 1 November compliance
+  obligation instrument surrender deadline, which is held "without regard to the settlement price";
+  Reserve sales are scheduled in **Appendix C of the Cap-and-Trade Regulation**; notices are posted
+  approximately 30 days before each sale; the tier prices and the allowances allocated to each tier
+  are published annually in an annual notice.
+- **Caveats:** these are 2018 documents; the tier prices and quantities are re-published every year
+  and the schedule can be revised by the Executive Officer; the notice states the *offer*, not
+  whether any allowances are actually taken up; the specific 2018 tier prices and quantities were
+  read through the search index and could not be re-verified by direct fetch (the CARB PDF returned
+  an empty response on a second attempt), so **no numeric tier price is asserted anywhere in the
+  register**.
+- **Verification:** both PDFs read via the search index; both are public CARB documents; a direct
+  re-fetch of the annual notice returned a zero-byte response, which is recorded as an unverified
+  detail rather than passed on as fact.
+
+### S-165 — Congressional Research Service (2024)
+"The California Cap-and-Trade Program: Overview and Considerations for Congress." R48314, 18
+December 2024.
+URL: https://www.congress.gov/crs_external_products/R/PDF/R48314/R48314.2.pdf
+- **Type:** Government research report.
+- **Supports:** programme design and published state: 48 auctions held by November 2024; prices from a
+  $10 floor (2013) to nearly $42 (February 2024), $37 (May 2024) and $32 (November 2024); the
+  1 November surrender deadline; the AB 398 "hard" price ceiling with price ceiling units; offset
+  limits stepping down from 8% to 4% (2021–2025) and 6% (2026–2030).
+- **Caveats:** a secondary summary for Congress; the underlying auction data are CARB's.
+- **Verification:** PDF and congress.gov landing page read via the search index.
+
+### S-166 — Erickson, Z., Fang, T. and Howe, K. (2011)
+"Accelerated share repurchases." *Journal of Financial Economics* 101(1): 69–89.
+DOI: https://doi.org/10.1016/j.jfineco.2011.02.004
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the accelerated-share-repurchase family is documented: ASRs are credible commitments
+  to repurchase immediately, the intermediary borrows the shares and covers over a specified period,
+  and the *choice* to use an ASR is significantly related to share-price variability and illiquidity,
+  with announcement effects.
+- **Caveats:** the ASR *discount* and the intermediary's execution are private; the disclosure of
+  volumes and dates is quarterly (10-Q), so a decision-time state is weak.
+- **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the
+  publisher landing page via the search index.
+
+### S-167 — Guéant, O., Pu, J. and Royer, G. (2015)
+"Accelerated Share Repurchase: Pricing and Execution Strategy." *International Journal of Theoretical
+and Applied Finance* 18(2): 1550019.
+DOI: https://doi.org/10.1142/S0219024915500193
+- **Type:** Primary theory (peer-reviewed).
+- **Supports:** the ASR contract's payoff is an Asian-type option with Bermudan-style exercise dates,
+  and the intermediary's problem is an optimal-execution problem with temporary and permanent market
+  impact; the ASR "discount" is the market price of that optionality.
+- **Caveats:** a pricing model; the resulting signal is private-contract data, not a published series.
+- **Verification:** Crossref REST API (title, authors, journal, volume, article number) plus the
+  publisher landing page and the arXiv working-paper version via the search index.
+
+### S-168 — Borenstein, S., Bushnell, J., Wolak, F. A. and Zaragoza-Watkins, M. (2019)
+"Expecting the Unexpected: Emissions Uncertainty and Environmental Market Design." *American Economic
+Review* 109(11): 3953–3977.
+DOI: https://doi.org/10.1257/aer.20161218 · working-paper version: NBER Working Paper No. 20999
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the California market's price collar is a designed, frequently-binding device: with
+  inelastic abatement supply, the allowance price is likely to sit at either the floor or high enough
+  to trigger the Allowance Price Containment Reserve, and the probability of the intermediate range is
+  low; the register's initial Allowance Price Containment Reserve allocation was of the order of 120
+  million allowances at three fixed tier prices (the allocation size is index-rendered; the tier
+  prices are not asserted here).
+- **Caveats:** a design/estimation study on an older vintage of the programme; it does not price the
+  effect of any individual reserve sale; the allocation figure was read through the search index.
+- **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the NBER
+  working-paper text via the search index.
+
+### S-169 — U.S. Securities and Exchange Commission (2026)
+"Roundtable on Options Market Structure — Supporting Data" (staff presentation material, April 2026).
+URL: https://www.sec.gov/files/roundtable-options-market-structure.pdf
+- **Type:** Regulator staff material (presentation data, not a refereed study).
+- **Supports (for G-05):** 0DTE options reached **28% of total options volume** by 2025 (19.6% in
+  2022), concentrated in index products and a small set of single names (TSLA, NVDA, AAPL among the
+  leaders); by the end of 2025 roughly **69.5% of listed equities** had options trading, and
+  single-name 0DTE volume is concentrated in a small number of underlyings.
+- **Caveats:** staff presentation material — descriptive counts, not tests; a direct fetch returned
+  HTTP 403, so the figures were read through the search index.
+- **Verification:** URL and figures read via the search index; SEC direct fetch returned HTTP 403.
+
+### S-170 — Keyrock (2026) — token-unlock event study (market-maker research, quoted in a public
+unlock-calendar service)
+"Market maker Keyrock analysed more than 16,000 unlock events and found that roughly 90 percent were
+followed by negative price pressure, regardless of the event's size or recipient type… prices
+typically start declining about 30 days before an unlock… team unlocks were the most disruptive".
+URL: https://www.datawallet.com/token-unlock-calendar
+- **Type:** Vendor / market-maker research reported by a commercial data service
+  (**interested party, not peer-reviewed, not independently verifiable**).
+- **Supports (for the Cycle-13 token-unlock screen):** the token-unlock channel is *documented*, not
+  unclaimed: the sign (down into the unlock), the pre-event drift window, the recipient-type
+  heterogeneity, and the absorption horizon are all stated publicly.
+- **Caveats:** interested party; no method, sample or data made available; not reproducible from the
+  citation.
+- **Verification:** page read via the search index.
+
+### S-171 — Fiechtner, L.-B. and Blanchet, J. (2026)
+"Strategic Index Reconstitution: Differential Games, Closed-Loop Equilibria and Mean-Field ..."
+arXiv:2609.15901 (14 September 2026).
+URL: https://arxiv.org/abs/2609.15901
+- **Type:** Preprint (not peer-reviewed).
+- **Supports:** a second, independent 2026 model of *anticipatory trading around index
+  reconstitution*, built on S-147's anticipatory-liquidity framing; it quotes the S&P 500
+  implementation-day statistics used in S-147 (turnover near 20% of shares outstanding with an
+  average abnormal return of about −0.09% for additions from outside the index family).
+- **Caveats:** preprint; the implementation-day numbers are cited from S-147 rather than recomputed
+  here.
+- **Verification:** arXiv API record fetched directly (identifier, title, authors, submission date).
+
+### S-172 — Lee, C. (2025)
+"Return-Decay Residuals and Tail-Risk Forecasting: Timing Artifacts, Conditional Inference, ..."
+arXiv:2512.11913 (11 December 2025; earlier versions were titled "Not All Factors Crowd Equally:
+Modeling, Measuring, and Trading on Alpha Decay").
+URL: https://arxiv.org/abs/2512.11913
+- **Type:** Preprint (not peer-reviewed).
+- **Supports (for IDEA-004):** out-of-sample 2001–2024 evidence that **crowding-based factor
+  selection fails to generate alpha** (Sharpe 0.22 against a 0.39 factor-momentum benchmark), that
+  crowding predicts *tail risk* rather than average returns, and that cross-sectional factor timing
+  does not work; the momentum factor is estimated to earn ~2% annualised today against ~10% in the
+  1990s.
+- **Caveats:** preprint; **the title changed between versions** — a concrete instance of version drift
+  in the citation record, and a caution for the register's own rule about pre-publication numbers
+  (compare S-152). The substantive figures quoted above are from the *earlier* version's abstract,
+  read through the search index; the v3 title and metadata were confirmed directly through the arXiv
+  API, but the v3 abstract text itself was not parsed here, so **the numbers are attributed to the
+  earlier version and are used only as a bounded negative, never as a load-bearing citation**.
+- **Verification:** arXiv API record fetched directly (identifier, v3 title, author, submission date);
+  earlier-version abstract read via the search index.
+
+### S-173 — Congressional Budget Office (2010)
+"Managing Allowance Prices in a Cap-and-Trade Program." CBO study, November 2010.
+URL: https://www.govinfo.gov/content/pkg/GOVPUB-Y10-PURL-gpo824/pdf/GOVPUB-Y10-PURL-gpo824.pdf
+- **Type:** Government research study.
+- **Supports:** the design economics of allowance reserves and price collars — a reserve of
+  supplemental allowances released at a pre-set access price dampens allowance prices; a reserve
+  built by withholding allowances tightens the cap — i.e. the theory of the mechanism IDEA-013 /
+  IDEA-014 and the California screen share.
+- **Caveats:** a design study on a hypothetical programme, not an evaluation of any actual reserve
+  sale.
+- **Verification:** PDF read via the search index; govinfo copy is public.
+
+### S-174 — California Code of Regulations, title 17, §§ 95856, 95857, 95913
+"The Cap-and-Trade Regulation" (unofficial electronic version published by CARB), including the
+deadline for surrender of annual compliance obligations (§ 95856), untimely surrender of compliance
+instruments (§ 95857) and sale of allowances from the Allowance Price Containment Reserve (§ 95913).
+URL: https://ww2.arb.ca.gov/sites/default/files/2021-02/ct_reg_unofficial.pdf
+- **Type:** Primary legal source (codified regulation).
+- **Supports:** the California deadline is a *published statutory obligation*: annual compliance
+  obligations must be fulfilled **by 1 November, 5:00 p.m. Pacific**; failure triggers an **untimely
+  surrender obligation of four times** the outstanding obligation (§ 95857) — a punitive,
+  price-inelastic requirement; and the reserve-sale trigger is codified, not discretionary.
+- **Caveats:** an "unofficial electronic version"; the official text is the OAL edition; the
+  regulation is amended over time (August 2026 amendments defer Independent Merchant Refinery
+  obligations, per a secondary law-firm summary).
+- **Verification:** PDF read via the search index; CARB-hosted document.
+
+### Cycle-13 gap verdicts
+
+- **G-02 / G-07 — CLOSED (method and published estimates exist; no downloadable series).** S-148
+  publishes both a *construction method* for benchmark-specific tracked assets (inferred from
+  reconstitution-day closing volume, for five named indices, 2000–2021) and the resulting estimates.
+  The register's standing question — "is a benchmark-specific tracked-asset series constructible?" —
+  is therefore answered *yes, and it has been done*: the remaining obstacle is data engineering
+  (long-history per-security closing-auction volume is commercial), not theory. **The gap is closed
+  as a construction question.** It was the only consumer, IDEA-001, which was rejected in Cycle 13 on
+  independent grounds (see R-011); the gap is retained as a reusable method note, not as an open
+  blocker.
+- **G-03 — CLOSED.** The index funds' effective-close convention is now documented from two
+  independent directions: the index manager itself (S-149: index funds and ETFs are "structurally
+  incentivized to execute trades at the closing auction" because NAVs are struck on closing prices,
+  with MOC orders dominant) and the peer-reviewed literature (S-150 on closing-auction volume share,
+  price impact and passive attribution; S-148 on execution at the closing price on reconstitution
+  day). The premise that index funds no longer trade at the effective close is therefore **false as
+  stated** — the register's Cycle-5 question ("do index funds still trade at the effective close?")
+  is answered yes, and the answer is published. Its only consumer, IDEA-001, was rejected.
+- **G-05 — CLOSED against the single-name version of IDEA-003 (literature side).** The nearest
+  published tests of *single-name* variance risk premia (S-153, S-154) find the single-name premium
+  frequently zero or of the opposite sign to the index premium, with correlation risk doing the
+  pricing work. IDEA-003's retained (aggregate) version is unaffected; its *single-name extension is
+  now foreclosed* and must not be proposed as new. The *data* side of G-05 was already closed in
+  Cycle 2, and S-169 confirms the structural change (0DTE at 28% of volume, concentrated in index
+  products and a handful of single names).
+- **G-01 — STILL OPEN, bounded negative re-confirmed with a sharper target.** S-155 establishes what
+  a dealer FVA *is* (peer-reviewed); S-160–S-162 establish that the *funding-state* family is
+  published (TGA flows → repo spreads; TGCR − IORB as the public decision-time measure). No public,
+  continuous, dealer-level funding-value-adjustment series exists and none is likely to: the
+  published dealer-funding-terms measures remain the quarterly, qualitative SCOOS and the daily SOFR
+  percentile spreads. **G-01 stays open**, now stated as: *can any published, decision-time series
+  proxy a dealer's marginal funding cost closely enough to condition a cross-sectional trade?*
+- **G-04 — REOPENED IN PART (new proxy identified).** The Cycle-8 closure was right that no
+  *holdings-based* timely proxy exists, but S-157 (Lou–Polk "comomentum") shows that an
+  *inferred* crowding measure can be computed from public price data at decision time. This does
+  **not** resolve IDEA-004: the register does not permit re-specifying around an unvalidated proxy.
+  It opens **G-18**: validate a return-correlation crowding proxy against a holdings-based crowding
+  measure (S-026).

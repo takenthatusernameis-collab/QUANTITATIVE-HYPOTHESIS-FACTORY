@@ -1029,3 +1029,158 @@ One search round across unexamined frontier families for mechanisms matching tem
 ### Cycle 12 outcome
 
 No new dossiers added. G-01, G-02/G-07, G-03 remain open; G-05 literature leg narrowed (index-level 0DTE VRP documented; single-name gate work still not located). G-14, G-15 remain open. G-13/G-12 screens re-applied: no status changes. Handoff rewritten for Cycle 13.
+
+---
+
+## Cycle 13 — evidence-currency pass on the register's own top candidate, and six frontier screens (2026-10-20)
+
+**Pass 1 — draft.** Objective, taken from the Cycle-12 handoff: (a) close the feasible gaps —
+G-01 (composite dealer funding proxy), G-02/G-07 (benchmark-specific tracked assets), G-03
+(effective-close convention and attribution), G-05 (single-name 0DTE literature leg); (b) run one
+search round per unexamined frontier family for a mechanism matching the template (a
+price-insensitive, date-bound obligation with a published state before the decision whose content
+decides the sign), writing a full dossier only if the mechanism is unclaimed, the state is published
+before the decision, the sign is decidable from that state, and the venue is feasible; (c) apply
+G-13/G-12 to any new candidate before ranking. New IDs start at IDEA-015, S-146, V-010, G-18,
+R-011, P-011.
+
+**Pass 2 — critique.** Two objections to my own draft plan were recorded before searching. First,
+the plan was written as if the gaps were the primary object; the register's *own* ranking was not
+in the plan at all, and the rank-1 candidate had not been re-read against literature published since
+2023 — which is exactly the failure mode that has just killed a *different* candidate family in
+other research programmes. Second, the "new frontier family" instruction needed a sharper filter
+after the Cycle-10 and Cycle-12 dry runs: a family that merely *sounds* like the template is not
+enough; the family must contain a state whose **content decides the sign**, and the family must
+survive the practical question of whether the price-insensitive flow is *actually binding at the
+moment it is dated*. I therefore added to the plan a standing question for every family screened:
+*is the obligation tight when it falls due, and who is on the other side of it?* That question is
+what disqualified California, and it would have disqualified a dozen plausible-sounding candidates
+before this.
+
+**Pass 3 — revise.** Execute the searches; record every claim with a source; distinguish
+index-rendered from directly fetched; update every artifact; theory only, no tests, no data.
+
+### What was actually done
+
+1. **The rank-1 candidate was re-read against the 2024–2026 literature, and it died.** IDEA-001
+   RECON-FLOW (76.0) was killed by three published results: the index effect has collapsed to
+   approximately zero in the modern sample (S-146, *Journal of Finance* 2025: additions below 1%
+   over the past decade, deletions 0.1% for 2010–2020, an average inclusion effect of −3 basis
+   points in 2020); the flow-scaling differentiator has a **published null** (same paper: no
+   apparent relationship between net purchases by index trackers and the inclusion effect); and the
+   mechanism is published as *anticipatory liquidity provision* that shifts price pressure away from
+   the effective date, with short interest rising into implementation and falling afterwards
+   (S-147), because the counterparty to passive demand is the issuing firm itself (S-151). Recorded
+   as **R-011**; **V-001 withdrawn**. This is the register's first rank-1 rejection, and it is the
+   single most important outcome of the cycle.
+2. **Two gaps closed *in that candidate's favour* in the same cycle**, which is why the rejection is
+   an evidence rejection rather than a technicality: **G-03** (the index manager states in its own
+   research that index funds and ETFs are structurally incentivised to execute in the closing
+   auction, with MOC orders dominant — S-149; corroborated by peer-reviewed work on closing-auction
+   volume share, price impact and passive attribution — S-150) and **G-02/G-07** (a published
+   method now exists for inferring the AUM tracking each of five named indices from
+   reconstitution-day closing volume, 2000–2021 — S-148).
+3. **One gap closed against a variant:** the **G-05** literature leg, closed *against* IDEA-003's
+   single-name extension (S-153, S-154 — single-name variance risk premia are frequently zero or of
+   the opposite sign to the index premium, with correlation risk doing the pricing). The aggregate
+   version of IDEA-003 survives untouched at 71.0.
+4. **One gap reopened in part:** **G-04**, because a decision-time, public, price-computable
+   crowding measure exists (S-157, comomentum) and has never been validated against the
+   holdings-based measure the register uses. This opens **G-18** rather than licensing a
+   re-specification, and it puts **V-002 on hold** until it is closed.
+5. **Two re-scores:** IDEA-004 74.0 → 69.0 (published, mechanistically explained decay of the base
+   effect — S-156 — plus a bounded negative on crowding-conditioned average returns, S-172, preprint;
+   the score falls on persistence, not on mechanism or test design) and IDEA-009 63.0 → 60.0 (the
+   funding-rate mechanism and its mean-reversion are now published independently — S-158, S-159).
+6. **Six frontier families screened; no new dossier.** Crypto token unlocks (documented by an
+   interested party, S-170); California Cap-and-Invest's surrender deadline (documented, and the
+   price-insensitive demand is satisfied in advance); California Cap-and-Invest's Allowance Price
+   Containment Reserve sale (a published, state-triggered, date-bound supply event with a codified
+   trigger, published tier prices, published notices and a published schedule — **and it has never
+   been used**, S-163, with the regulation at S-164 and S-174); the Treasury General Account → repo
+   channel (published, S-160–S-162); accelerated share repurchases (published, S-166, S-167); and
+   the perpetual-funding family (published, S-158, S-159). The California reserve-sale screen is
+   the cycle's most instructive negative: it is the cleanest *template* found in thirteen cycles of
+   screening and it fails on the practical question — a supply valve that never opens cannot carry a
+   price effect.
+7. **G-01 re-confirmed as open, with a sharper statement:** the construct is peer-reviewed
+   (S-155) and the funding-state family is published with a public decision-time measure (TGCR −
+   IORB, S-162), but no public, continuous, *dealer-level* funding-value-adjustment series exists and
+   none is likely to. IDEA-002 stays parked (P-004).
+8. **IDEA-011's post-2010 evidence base was flagged, not searched** — the mirror image of the check
+   that killed IDEA-001 has never been run for the accounting-adoption drift, whose literature of
+   record is largely pre-2015. That is the highest-value single task for the next cycle.
+
+### G-13 / G-12 screen results (Cycle 13)
+
+- IDEA-001 (RECON-FLOW): G-13 PASS (and its two qualifications — the effective-close premise and
+  the flow-scale quantity — were both closed in the candidate's favour, S-149/S-148/S-150).
+  **G-12 FAIL on every limb** (published null on the differentiator, published collapse of the
+  effect, published mechanism pointing at a different window) → **rejected, R-011**.
+- IDEA-003 (VRP-STATE): G-13 PASS (live option surface). G-12 PASS (the gate flips the
+  *harvestability*, i.e. the sign, of the harvest). No score change (71.0); G-05's single-name
+  extension foreclosed.
+- IDEA-004 (SLOWCAP-COND): G-13 PASS on a filing-anchored rule. G-12 PASS on the sign limb.
+  Re-scored 74.0 → 69.0 on persistence; V-002 held until G-18 closes.
+- IDEA-009 (PERP-FUND): G-13 PASS (venue-published funding rate, zero lag). G-12 PASS on the sign
+  limb. Re-scored 63.0 → 60.0 on novelty (S-158, S-159).
+- IDEA-010 (CREDIT-ETF): G-13 PARTIAL PASS (flow leg public; AP-stress leg commercial). G-12 PASS
+  on the existence limb. No score change (65.0); G-16 narrowed, still open.
+- IDEA-011 (ACCTCLOCK): G-13 PASS, comfortably. G-12 PASS on the existence limb. No score change
+  (72.0); rank 3 → 1 by artefact of other candidates' removal.
+- IDEA-014 (RIN-DEADLINE): G-13 PASS (obligation codified, deadline published by regulation, moves
+  only by published rule). G-12 PASS on the sign limb. No score change (60.0); G-15 still open.
+- Parked and rejected candidates: unchanged (IDEA-002 P-004, IDEA-005 P-009, IDEA-008 P-010,
+  IDEA-013 P-008; IDEA-006 R-009, IDEA-007 R-008, IDEA-012 R-010).
+
+### Artifact history (Cycle 13)
+
+- `source_ledger.md` — added **S-146 … S-174** (29 entries) and a **Cycle-13 gap-verdicts block**
+  (G-01 re-confirmed; G-02/G-07 and G-03 closed; G-04 reopened in part; G-05 closed against the
+  single-name variant).
+- `idea_register.md` — IDEA-001 v2.0 marked rejected (dossier preserved); Cycle-13 screen blocks on
+  IDEA-003, IDEA-004, IDEA-009, IDEA-010, IDEA-011, IDEA-014; a register-header summary; and a new
+  **Cycle-13 frontier-family screen log** (six families, six bounded negatives).
+- `ranked_shortlist.md` — title and header updated; the ranking table rewritten for six candidates;
+  the withdrawn table now carries IDEA-001; Cycle-13 rank-change and validation-rule paragraphs;
+  Cycle-13 re-check blocks for IDEA-001 (withdrawal verdict), IDEA-003, IDEA-004, IDEA-009,
+  IDEA-011; cross-cutting notes 4, 8 and 9 updated (including the new G-18 and the closure of T5–T8).
+- `rejected_and_parked.md` — **R-011** written; **twelve new baseline rows**; the rediscovery guard
+  extended with the **evidence-currency condition** and the version-drift warning.
+- `validation_handoffs.md` — header updated; **V-001 withdrawn** (with the amendment marked moot);
+  the Cycle-13 update paragraph records that no new specification was required and that V-002 is on
+  hold pending G-18.
+- `cycle_notes.md` — this entry.
+- `next_agent_handoff.md` — rewritten for Cycle 14.
+
+### Deviations and honest limits
+
+- **No new candidate was written, and no new ID was consumed** — IDEA-015, S-175, V-010, G-19,
+  R-012 and P-011 all remain unused. Three consecutive cycles have produced no new dossier; the
+  register's discovery rate is zero and its closure rate is not. That is the honest state of the
+  pipeline and the next cycle must say so plainly rather than manufacture a candidate to fill a
+  slot.
+- **Several sources were read through the search index rather than fetched directly**, because the
+  publisher blocked direct fetches (the SEC roundtable PDF returned HTTP 403; the SSRN landing pages
+  for S-147 and S-158 returned HTTP 403) or because the item is a working paper whose publisher
+  pages are paywalled. Those entries say so explicitly, and their load-bearing numbers are either
+  confirmed by a directly fetched abstract (S-146 via the NBER page; S-171 and S-172 via the arXiv
+  API) or corroborated by a second independent peer-reviewed source.
+- **Two pre-publication numbers were deliberately not used as decisive evidence** (S-152's
+  sign-flipped versions, S-158's mean-reversion estimates). The register's rule on version drift is
+  now stated explicitly in the rediscovery guard.
+- **The peer-review status of every source is recorded**, and two of the cycle's most useful
+  findings rest on *working papers* (S-147, S-158) or *preprints* (S-171, S-172); the decisions
+  were made so that no candidate's status depends on an unrefereed result alone: R-011 rests on the
+  peer-reviewed S-146 and S-151, and IDEA-004's re-score rests on the peer-reviewed S-156.
+- **No backtest, simulation, data acquisition, metric, or executable artefact was produced**, in
+  line with the repository's theory-only scope.
+
+### Cycle 13 outcome
+
+One rank-1 candidate rejected on published evidence (IDEA-001, R-011; V-001 withdrawn); three gaps
+closed (G-02/G-07, G-03, and G-05's literature half — the last against a variant); one gap reopened
+in part (G-04) and one opened (G-18); two re-scores (IDEA-004 → 69.0, IDEA-009 → 60.0); six
+frontier families screened with six bounded negatives and no new dossier; twelve new baselines
+registered. The active ranking is now IDEA-011 (72.0), IDEA-003 (71.0), IDEA-004 (69.0),
+IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Handoff rewritten for Cycle 14.
