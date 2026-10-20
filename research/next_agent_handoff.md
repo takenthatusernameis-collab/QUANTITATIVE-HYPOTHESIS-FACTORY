@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-19, **Cycle 5 complete** · G-10 and G-11 closed (three candidates rejected: R-008, R-009, R-010), IDEA-013 parked (P-008), G-12 and G-13 opened as the register's two standing screening questions; the active ranking is eight candidates and the frontier is new mechanism families
+Last updated: 2026-10-20, **Cycle 6 in progress** · Primary task begun: IDEA-005 reconciled with S-098/S-099 (fails G-12 → parked as baseline re-description, P-009 pending); G-13 timing table drafted for 8 candidates; remaining: G-12 for IDEA-001/003/004/008/009/010/011, five-family frontier screen, T5–T8, re-rank, V-010+
 
 ---
 
@@ -132,6 +132,20 @@ top-three candidate (V-010 onward), log rejections and parkings, and rewrite thi
 **Do not** spend effort on IDEA-013 before 2029, and do not re-open G-10, G-11 or G-06 without a new
 mechanism.
 
+## 4b. Cycle 6 progress (this session)
+
+- **IDEA-005 (ROLLCOND) settled.** State variable: CIT market share from CFTC COT/DCOT. COT is published Friday 3:30pm ET on the prior Tuesday's positions (3-business-day lag), so it is published before the monthly roll decision calendar — G-13 passes for availability. However, S-099 (Maréchal 2021, J. Futures Markets) conditions commodity returns during roll periods on CIT market share and reports **no significant effect**; S-098 (trader-type conditioning of spot–futures convergence) is the closer published test of the state. IDEA-005 therefore **fails G-12** (state conditioning does not change sign/existence of the effect) and is to be **parked (P-009)** as a baseline re-description; the roll concession itself is absent in the published test. Do not re-specify around a weaker proxy.
+- **G-13 timing table (draft)** for the eight active candidates:
+  - IDEA-001: S&P announcement published after close, before effective close → passes.
+  - IDEA-003: option-implied crash measures from the listed surface → real-time → passes.
+  - IDEA-004: crowd depth from lagged institutional holdings → published with lag; G-04 still open; decision-time usability unverified.
+  - IDEA-005: COT weekly, 3-day lag, before monthly roll → passes availability; fails G-12 (above).
+  - IDEA-008: FINRA short interest published 7 business days after settlement; borrow fees have no public source (SEC Rule 10c-1a exempt until 2029) → lending-fee state fails G-13 unless vendor data; must be re-scored or parked.
+  - IDEA-009: venue funding rate published real-time by the venue → passes.
+  - IDEA-010: adoption calendars published in advance → passes.
+  - IDEA-011: adoption calendars published in advance → passes.
+- **Remaining Cycle 6 work:** G-12 for IDEA-001, IDEA-003, IDEA-004, IDEA-008, IDEA-009, IDEA-010, IDEA-011; frontier screen of the five families in section 3; T5–T8; re-rank; V-010+ for any new top-three; log rejections/parkings; rewrite handoff.
+
 ## 5. Operating rules for the next session
 
 1. Read this file first, then register, shortlist, source ledger, rejected/parked.
@@ -170,20 +184,11 @@ trading.
 
 2. Execute the best next research task in section 4 of the handoff, in this
    order.
-   (a) PRIMARY: apply the register's two standing screening questions to each
-       of the eight active candidates (IDEA-001, IDEA-003, IDEA-004, IDEA-005,
-       IDEA-008, IDEA-009, IDEA-010, IDEA-011):
-       (i) G-13 - for every observation, record the PUBLICATION DATE of the
-           state relative to the DECISION DATE; a state published after the
-           decision can support an explanatory decomposition but never a
-           decision-time rule; and
-       (ii) G-12 - test whether conditioning on the state changes the SIGN or
-           the EXISTENCE of the effect, rather than only its size; a candidate
-           that fails this is a baseline re-description and belongs in
-           rejected_and_parked.md.
-       Settle IDEA-005 first: it is the only active candidate with published
-       evidence against it (S-098 conditions convergence on trader type;
-       S-099 reports no significant effect for the CIT market share).
+    (a) PRIMARY (partly done in Cycle 6 first pass): IDEA-005 is settled — it fails G-12
+        and is parked (P-009); apply G-13 and G-12 to the remaining seven active candidates
+        (IDEA-001, IDEA-003, IDEA-004, IDEA-008, IDEA-009, IDEA-010, IDEA-011). IDEA-008's
+        lending-fee state already fails G-13 on public data (borrow fees not public until 2029)
+        and must be re-scored or parked.
    (b) SECONDARY: screen the five mechanism families in section 3 of the
        handoff against the published literature, one search each, recording
        every verdict in the source ledger - including the negative verdicts -
