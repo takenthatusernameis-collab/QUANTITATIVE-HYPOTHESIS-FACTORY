@@ -1234,3 +1234,11 @@ IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Handoff rewritten for Cycle 1
 - Pass 3: V-002 confirmed frozen (G-18 bounded negative, not a closure); no new candidates added.
 
 **Outcome:** IDEA-011 re-scored to 69.0 (tied with IDEA-004); IDEA-003 unchanged 71.0 (rank 2); V-002 frozen; no new candidates. Active ranking: IDEA-003 (71.0), IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010 (65.0), IDEA-009 (60.0), IDEA-014 (60.0). Next: resolve IDEA-011/IDEA-004 tie; confirm parking decision; maintain artifacts.
+
+## Cycle 17 (2026-10-20)
+
+- Pass 1: Read handoff/register/shortlist/source ledger/rejected-parked. Confirmed tie at 69.0 (IDEA-011, IDEA-004), V-002 frozen, G-18 bounded negative.
+- Pass 2: Re-read nearest published test in post-2010 sample (Hung, Li & Wang 2014/2015 RFS; S-178): PEAD declines after IFRS information shock, decrease more pronounced in strong-enforcement countries, driven by firms with greater reporting changes and higher analyst forecast accuracy/institutional ownership/liquidity. Confirms prior re-score; decay is conditional on information-quality improvement, not a null existence limb. Enforcement-regime concentration is a scope condition, not a rejection — drift survives in weak-enforcement/low-information-quality states. Decision: retain IDEA-011 at 69.0 (no parking P-011); tie with IDEA-004 remains under fixed rubric; IDEA-004 retains rank 3 on originality/mechanism clarity, IDEA-011 rank 4 pending validation of enforcement-regime scope. V-002 confirmed frozen (G-18 bounded negative, not closure); no re-specification around comomentum (S-157).
+- Pass 3: No genuine new mechanism family surfaced; no new candidate. IDs unchanged (IDEA-015, S-180, V-010, G-19, R-012, P-011 remain available).
+
+**Outcome:** Cycle 17 complete. IDEA-011 retained at 69.0 (rank 4), IDEA-004 69.0 (rank 3), IDEA-003 71.0 (rank 2). V-002 frozen. No new candidates/parkings. Next: resolve tie via rubric re-read of nearest published test; maintain gap work G-01/G-04/G-16.

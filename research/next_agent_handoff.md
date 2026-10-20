@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-20, **Cycle 16** · Re-score decision on IDEA-011 executed (72.0 → 69.0, decay evidence reduces persistence; enforcement-regime concentration narrows the tradable drift); G-13 and G-12 recorded for IDEA-011 and IDEA-003 (both PASS on publication timing; G-12 existence limb PASS for both, size limb narrowed for IDEA-011); V-002 confirmed frozen (G-18 bounded negative, not a closure); no new candidates. IDs available: IDEA-015, S-180+, V-010, G-19, R-012, P-011.
+Last updated: 2026-10-20, **Cycle 17** · Tie resolution pass complete (IDEA-011 retained at 69.0, rank 4, behind IDEA-004 on mechanism clarity; no parking); V-002 confirmed frozen; no new candidates. IDs available: IDEA-015, S-180+, V-010, G-19, R-012, P-011.
 
 ---
 
@@ -11,9 +11,9 @@ Last updated: 2026-10-20, **Cycle 16** · Re-score decision on IDEA-011 executed
 | Item | Status |
 | --- | --- |
 | Idea register | **14 dossiers (IDEA-001 … IDEA-014)** — **6 active candidates** (IDEA-003, IDEA-004, IDEA-009, IDEA-010, IDEA-011, IDEA-014), 4 parked (P-004, P-008, P-009, P-010), **4 rejected** (R-008, R-009, R-010, **R-011 = IDEA-001**) |
-| Ranked shortlist | **6 ranked** (69 / 71 / 69 / 65 / 60 / 60) + 4 parked + 4 withdrawn (IDEA-001, IDEA-006, IDEA-007, IDEA-012) |
+| Ranked shortlist | **6 ranked** (71 / 69 / 69 / 65 / 60 / 60) + 4 parked + 4 withdrawn |
 | Source ledger | **179+ verified sources (S-001 … S-179)**; **closed**: G-02/G-07, G-03, G-05 (literature leg); **open**: G-01, G-04 (reopened in part), G-14, G-15, G-16; **G-18 bounded negative** (not closed as a validation) |
-| Validation hand-offs | **9 specifications (V-001 … V-009)**, of which **V-001, V-004, V-005, V-006, V-007 are withdrawn**; **4 executable: V-002, V-003, V-008, V-009** — with **V-002 on hold until G-18 is actually closed** (a bounded negative does not close it) |
+| Validation hand-offs | **9 specifications (V-001 … V-009)**, of which **V-001, V-004, V-005, V-006, V-007 are withdrawn**; **4 executable: V-002, V-003, V-008, V-009** — with **V-002 on hold until G-18 is actually closed** |
 | Rejected / parked | **11 rejected (R-001 … R-011)**, 10 parked (P-001 … P-010) |
 | Canonical mission prompt | unchanged |
 
@@ -21,21 +21,21 @@ Last updated: 2026-10-20, **Cycle 16** · Re-score decision on IDEA-011 executed
 
 ## 2. Highest-priority unresolved theoretical questions
 
-1. **IDEA-011 re-scored.** Post-2010 decay evidence (S-178, S-179, S-175/S-176) indicates IFRS-style adoption improves the information environment and shrinks PEAD magnitude — evidence against a persistent, tradable announcement-to-first-report drift post-2010, analogous to momentum decay (S-156). Enforcement regimes concentrate effects in strong-enforcement countries (S-178, S-175/S-176). Decision: re-score **72.0 → 69.0**; the drift's existence limb (G-12) passes but its size limb narrows; G-13 passes (adoption calendars published years ahead). IDEA-011 is now tied with IDEA-004 at 69.0 (rank 3/4). Hard-stop (small, non-independent adoption-event sample) unchanged.
-2. **IDEA-003 state-gate — re-confirmed.** G-13 PASS; G-12 PASS on sign limb (gate changes existence of harvestability); score unchanged **71.0, rank 2**. S-177 (Dew-Becker & Giglio 2025) reinforces gate framing; aggregate VRP untouched.
-3. **V-002 (IDEA-004) confirmed frozen.** G-18 is a bounded negative, not a closure; V-002 must not be executed; IDEA-004 must not be re-specified around comomentum (S-157).
+1. **IDEA-011 retained at 69.0 (rank 4).** Re-read of nearest published test (Hung, Li & Wang 2014/2015, RFS; S-178) confirms PEAD declines after IFRS information shock, with stronger decline in strong-enforcement countries. Enforcement-regime concentration is a scope condition, not a rejection; drift survives in weak-enforcement/low-information-quality states. No parking (P-011) warranted. Tie with IDEA-004 (69.0) persists; IDEA-004 holds rank 3 on mechanism clarity.
+2. **IDEA-003 state-gate — re-confirmed.** G-13 PASS; G-12 PASS on sign limb; score unchanged **71.0, rank 2**.
+3. **V-002 (IDEA-004) confirmed frozen.** G-18 bounded negative, not closure; V-002 must not be executed; IDEA-004 must not be re-specified around comomentum (S-157).
 4. **IDEA-010/014** thin evidence bases; G-16, G-15 open.
 5. **G-01/G-04/G-16** — funding/dealer crowding proxies as before.
 
 ---
 
-## 3. Best next research task (Cycle 17)
+## 3. Best next research task (Cycle 18)
 
-1. **Resolve the IDEA-011 / IDEA-004 tie** at 69.0 under the fixed rubric; re-read nearest published test in post-2010 sample before any further re-score. Confirm whether IDEA-011's enforcement-regime concentration warrants parking (P-011) or retention.
-2. **Confirm V-002 remains frozen:** G-18 is a bounded negative, not a closure, so V-002 stays on hold and must not be executed.
-3. **Frontier screens / new candidates** only if a genuine new mechanism family surfaces; no new candidate was added in Cycle 16.
+1. **Resolve the IDEA-011 / IDEA-004 tie** definitively under the fixed rubric using the nearest published post-2010 test; either re-score one or document the tie as structurally unresolvable at current evidence.
+2. **Confirm V-002 remains frozen.**
+3. **Frontier screens / new candidates** only if a genuine new mechanism family surfaces.
 4. **Theory only.** No backtests, simulations, data acquisition, strategy or signal code, trading, job or workflow changes. Cite every claim.
-5. **Finish by rewriting this handoff** and summarizing into cycle_notes.md. New IDs start at IDEA-015, S-180, V-010, G-19, R-012, P-011; call this **Cycle 17**.
+5. **Finish by rewriting this handoff** and summarizing into cycle_notes.md. New IDs start at IDEA-015, S-180, V-010, G-19, R-012, P-011; call this **Cycle 18**.
 
 ---
 
@@ -50,7 +50,7 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
    research/ranked_shortlist.md, research/source_ledger.md and
    research/rejected_and_parked.md. Preserve prior work; do not renumber or delete IDs.
 
-2. Execute the Cycle 17 task in section 3 of the handoff. Priority order:
+2. Execute the Cycle 18 task in section 3 of the handoff. Priority order:
    (a) resolve the IDEA-011 / IDEA-004 tie at 69.0; re-read nearest published test
        in post-2010 sample before scoring; confirm whether IDEA-011's
        enforcement-regime concentration warrants parking (P-011) or retention;
@@ -64,7 +64,7 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
 
 4. Rank with fixed rubric; write V-010+ for any new top-three candidate; log
    rejections/parkings with reasons/sources. New IDs start at IDEA-015, S-180,
-   V-010, G-19, R-012, P-011; call this Cycle 17.
+   V-010, G-19, R-012, P-011; call this Cycle 18.
 
 5. Absolute scope boundary: theory and discovery only.
 6. Cite every external claim with verifiable URL/DOI; distinguish index-rendered from
@@ -82,6 +82,10 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
 | --- | --- | --- | --- |
 | 13 | 2026-10-20 | IDEA-001 rejected (R-011), G-02/G-07/G-03/G-05 closed, G-18 opened, re-scores IDEA-004/009, six frontier screens no new candidate. | Yes. |
 | 14 | 2026-10-20 | Evidence-currency pass on IDEA-011 post-2010 (info environment improved -> drift opportunity likely weakened), added S-175/S-176, reviewed IDEA-003 (Dew-Becker & Giglio 2025-17 S-177) showing VRP harvestability declined; G-18 still open, V-002 on hold, frontier screens done. | Yes. |
-| 14 (continued) | 2026-10-20 | Completed evidence-currency checks; added S-177; documented findings; handoff updated for Cycle 15. | Yes. |
 | 15 | 2026-10-20 | G-18 bounded negative (comomentum S-157 not a validated substitute for holdings-based crowding S-026; V-002 stays frozen); added S-177/S-178/S-179; IDEA-011 post-2010 check complete (decay evidence, score unchanged 72.0 rank 1); IDEA-003 state-gate review complete (S-177 reinforces gate, score unchanged 71.0 rank 2); no new candidates. | Yes. |
 | 16 | 2026-10-20 | Re-score decision on IDEA-011 executed (72.0 → 69.0, decay evidence reduces persistence; enforcement-regime concentration narrows tradable drift); G-13/G-12 recorded for IDEA-011 and IDEA-003 (both PASS publication timing; G-12 existence limb PASS, size limb narrowed for IDEA-011); V-002 confirmed frozen; no new candidates. | Yes. |
+| 17 | 2026-10-20 | Tie-resolution pass: IDEA-011 retained at 69.0 (rank 4) after re-reading Hung-Li-Wang 2014/2015 (S-178); enforcement concentration is scope condition, no parking; V-002 frozen confirmed; no new candidates. | Yes. |
+
+(End of file)
+EOF
+echo done
