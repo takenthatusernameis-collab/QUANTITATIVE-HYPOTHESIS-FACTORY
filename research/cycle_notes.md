@@ -1835,3 +1835,23 @@ retrieval is **recorded as a failed retrieval**, never as a quotation.
    S-332, V-012, G-36, R-048, P-015.**
 8. **Wrap up.** Handoff rewritten from the files with a fresh, self-contained initial task message for
    Cycle 79; counts and identifiers re-derived from the files.
+
+## Cycle 79 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-78 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) continue verification pass on S-133, S-134, S-135, S-178, S-179, S-325, S-326 via pypdf; (2) trigger-based prior-art re-read of IDEA-009; (3) one mechanism-first family screen in fixed income cash; (4) maintain frozen/exhausted/dated items; (5) housekeeping lossless only; (6) wrap up.
+
+**Pass 2 — Critique.** The verification pass requires network retrieval of the underlying PDFs; in this environment no network route to those documents is available, so each attempted retrieval must be recorded as a failed retrieval (NOT VERIFIED, routes tried, wording stays index-rendered) rather than as an upgrade. The IDEA-009 re-read and the fixed-income screen likewise require new sources that are not available here; both are carried forward as open tasks rather than executed on stale material. No new source, candidate, gap, score or specification is created.
+
+**Pass 3 — Revise.** Record the failed retrievals honestly, leave all counts and identifiers unchanged, maintain frozen/exhausted/dated items, and rewrite the handoff with a fresh self-contained initial task message for Cycle 80.
+
+### Outcomes
+1. **Verification pass — NOT EXECUTED (retrieval unavailable).** S-133, S-134, S-135, S-178, S-179, S-325, S-326 remain index-rendered; no pypdf upgrade performed; no quotation presented as directly parsed. Each stays labelled per its existing verification tag; no new identifier consumed.
+2. **IDEA-009 prior-art re-read — DEFERRED.** No new source read; candidate stays at 53.0, rank 3; re-read remains the register's oldest among active candidates.
+3. **Mechanism-first family screen (fixed income cash) — NOT EXECUTED.** No screen run; no bounded negative logged; no candidate created.
+4. **Frozen/exhausted/dated items maintained as they stand:** G-28 (frozen), G-21 (handed to validation), G-30 (exhausted), G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029), IDEA-014 inconclusive limb, P-010, P-011, P-014.
+5. **Housekeeping — none required beyond the handoff rewrite.** Counts and identifiers re-derived from files and unchanged.
+
+**No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts unchanged: 15 dossiers (4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 47 rejections, 13 parkings (12 active), 84-row baseline; gaps G-01 … G-35 with open G-21, G-28 (frozen), G-30 (exhausted); G-34, G-35 closed. Next free identifiers unchanged: IDEA-017, S-332, V-012, G-36, R-048, P-015.
