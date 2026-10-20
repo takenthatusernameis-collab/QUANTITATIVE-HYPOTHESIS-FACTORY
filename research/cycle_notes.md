@@ -13,6 +13,27 @@ Theory-only cycle executing the six priorities from the Cycle-43 handoff. No tes
 
 ---
 
+## Cycle 45 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-44 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) G-30 — confirm all routes outside statutory prospectus remain exhausted (not found); (2) G-27/G-30 counts unchanged if no route found; (3) G-28 keep frozen; (4) G-21 and IDEA-014 state-free limb keep recorded null/inconclusive; (5) one new mechanism family screen genuinely different from closed families (compliance-deadline, eligibility-switch, disclosure-mandate-switch, benchmark-methodology-change, margin-schedule-switch, capacity/inventory-switch); candidate template: tax/settlement-mandate switch; (6) wrap up with updated artifacts and fresh handoff for Cycle 46.
+
+**Pass 2 — Critique.** Must not re-open closed routes. Tax/settlement-mandate switch: need published decision-time state, unclaimed sign, no published baseline, feasible clean test. Examples: changes to settlement cycle mandates (T+1 transition effects already published per S-113/S-114/S-115), tax withholding changes with published effective dates — likely baseline or anticipated. Must screen against literature first, log bounded negative fully.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+1. **G-30 (IDEA-010) — all routes outside the statutory prospectus remain exhausted (not found).** Reconfirmed: regulatory closed (Cycle 41), sponsor-published lists not found (Cycle 42), non-US issuers not found (Cycle 42), exchange listing rules no public disclosure requirement (Cycle 43). No new route identified. V-010 remains non-executable against the corporate-bond ETF universe.
+2. **G-27/G-30 counts** — unchanged from Cycle 40: 6,131 X-17A-5 documents / 2,419 distinct filers (lower bound); 10-Q 1,151 / 66; 10-K 737 / 96; FR Y-9C not indexed by EDGAR full-text search; private-AP capital state annual (9–14 months stale).
+3. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located; null recorded.
+4. **G-21 (IDEA-011) and IDEA-014's state-free limb** — recorded null and inconclusive verdicts maintained; no new source.
+5. **New mechanism family screen — tax/settlement-mandate switch (R-025).** Screened mandates changing tax/settlement obligations with published effective dates (e.g., securities settlement cycle changes). T+1 transition effects are published (S-113/S-114/S-115 show improved liquidity/volatility) so sign claimed; settlement mandates affect market structure broadly, constrained party is market participants generally not creating third-party concession flow to harvest; effective sample limited to mandate changes. Bounded negative: no unclaimed sign, published baseline exists, no clean harvestable concession mechanism. No candidate, no dossier, no score change.
+6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-025. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-026, P-014. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from files; handoff rewritten for Cycle 46.
+
+---
+
 Theory-only cycle executing the six priorities from the Cycle-40 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 
 ### Outcomes

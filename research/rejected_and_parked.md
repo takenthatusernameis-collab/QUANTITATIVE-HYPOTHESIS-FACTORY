@@ -5,11 +5,13 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 43 complete, 2026-10-20. **23 rejections (R-001 … R-023), 12 parkings
+Last updated: Cycle 45 complete, 2026-10-20. **24 rejections (R-001 … R-025), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
-(the margin-schedule switch family — bounded negative: changes are published in advance but affect all participants broadly as cost/risk controls, no third-party concession flow, small effective sample). Cycle 40 also
+(the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
+constraint family — bounded negative). Cycle 45 added **R-025** (the tax/settlement-mandate switch family — bounded
+negative). Cycle 40 also
 **merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
@@ -284,6 +286,30 @@ Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded ne
   3. **Broad-based cost change, not targeted opportunity** — affects entire product classes/risk profiles; no published list of affected securities with exploitable cross-section creating an unclaimed sign.
   4. **Effective sample is small** — discrete rule changes with limited degrees of freedom; margin effects are known as costs/risk controls.
 - **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
+
+### R-024 — Capacity/inventory-switch constraint (a rule that changes the *quantity* a participant may supply) (Cycle 44 family screen — bounded negative)
+
+- **The family screened.** A regulatory or index-provider rule that changes the quantity a participant may supply (capacity/inventory constraint switch) with a published effective date (e.g., ownership concentration limits, fund caps, index provider weight caps).
+- **Instances considered.** Regulatory concentration rules and index provider constraints capping mega-cap weights.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons:**
+  1. **Published in advance** — rule changes are announced before effective date (satisfies G-13).
+  2. **Constrained party is the obligor** — the fund/index provider that must comply is the constrained participant; the flow is their own response, not a third-party forced flow creating a harvestable concession to another arbitrageur (S-151 analogue).
+  3. **Published baseline** — concentration constraints are documented effects; the response is anticipatory and published.
+  4. **Effective sample small** — rule changes are discrete events with limited degrees of freedom; no unclaimed sign identified.
+- **Decision:** bounded negative (R-024). No dossier created; no IDEA identifier consumed; no score changed.
+
+### R-025 — Tax/settlement-mandate switch (Cycle 45 family screen — bounded negative)
+
+- **The family screened.** A mandate changing tax or settlement obligations with a published effective date (e.g., changes to securities settlement cycle mandates).
+- **Instances considered.** T+1 transition and related settlement mandate changes.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons:**
+  1. **Published in advance** — mandates are announced with effective dates (satisfies G-13).
+  2. **No unclaimed sign** — T+1 transition effects are published (S-113/S-114/S-115 show improved liquidity and reduced volatility), so the sign is claimed.
+  3. **Broad market structure change** — affects all participants; not creating a targeted third-party concession flow harvestable in a clean trade.
+  4. **Effective sample limited** — mandate changes are rare, discrete events.
+- **Decision:** bounded negative (R-025). No dossier created; no IDEA identifier consumed; no score changed.
 
 
 ## Parked (not rejected; blocked on a specific question)
