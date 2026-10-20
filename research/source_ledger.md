@@ -27,6 +27,13 @@ usable as a *decision-time* variable, or only as an explanatory decomposition? (
 the EU ETS aggregate balance is published in late May/June of the following year — S-121 — and was
   therefore unavailable at the pre-2023 surrender deadline). The register now holds **S-001 … S-125**.
 
+Cycle 33 (2026-10-20) added **S-210 … S-217** (see "Cycle 33 sources" at the end of this file) and the
+**"Cycle 33 gap verdicts"** block, which closes **G-22** (against IDEA-003, parking it as P-012),
+**G-23** (in IDEA-010's favour on cadence; signedness partially open), **G-24** (in IDEA-014's
+favour — a replacement state exists in the RGGI CO₂ allowance market, producing new candidate
+**IDEA-016 RGGI-COMPLIANCE**), and opens **G-25** (IDEA-016's own price-effect test). G-21 and
+G-18/G-04 remain open. The register now holds **S-001 … S-217**.
+
 Cycle 32 (2026-10-20) added **S-188 … S-209** (see "Cycle 32 sources" at the end of this file) and the
 **"Cycle 32 gap verdicts"** block, which closes **G-19** (against IDEA-003's sign claim), **G-16** (in
 IDEA-010's favour, on a reformulated validation target) and **G-20** (against IDEA-014's state as
