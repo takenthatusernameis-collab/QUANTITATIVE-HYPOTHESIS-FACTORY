@@ -6412,7 +6412,7 @@ family was added to the known-baseline table.
   and the venue-halt family corpus); gap **G-32** (the prospective IFRS-18 adoption window); rejection
   **R-032** (the venue-halt family screen). No `IDEA-` and no `V-` identifier was consumed as a *new*
   specification; **V-009 was amended** (Cycle 52), not re-created.
-- **Next free identifiers:** **IDEA-017, S-267, V-012, G-33, R-033, P-014**. The reserved-and-unused
+- **Next free identifiers:** **IDEA-017, S-281, V-012, G-34, R-036, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
 
 ---
