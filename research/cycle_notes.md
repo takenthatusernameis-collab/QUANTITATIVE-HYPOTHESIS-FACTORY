@@ -112,5 +112,33 @@ has been tested. It explicitly requires source-gap labelling rather than gap-fil
 
 ---
 
+## Cycle 19 — 2026-10-20 — Tie monitor / V-002 freeze confirmation
+
+**Cycle objective.** Execute Cycle 19 task from handoff section 3: (a) note IDEA-011/IDEA-004 tie (both 69.0) remains structurally unresolvable at current evidence; do not arbitrarily break; (b) confirm V-002 remains frozen (G-18 bounded negative); (c) frontier screens only if genuine new mechanism family surfaces.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Re-read tie documentation (Cycle 18): IDEA-011 retained 69.0 rank 4, IDEA-004 retained 69.0 rank 3. Review post-2010 decay evidence: S-178/S-179 for IDEA-011 (PEAD shrinks with better info environment), S-156/S-172 for IDEA-004 (momentum decay, crowding-based selection fails out-of-sample). Assess whether any new evidence has surfaced since Cycle 18 that could differentially affect either candidate.
+
+**Pass 2 — Critique.** No new evidence has surfaced. Relative strengths (IDEA-004 stronger evidence; IDEA-011 stronger falsifiability and data availability) still balance. Tie remains structurally unresolvable at current evidence; do not re-score to force resolution. V-002: G-18 remains bounded negative (comomentum S-157 not validated against holdings-based crowding S-026); V-002 stays frozen and must not be executed. No genuine new mechanism family has surfaced; no frontier screens conducted.
+
+**Pass 3 — Revise.** Confirm tie documented as structurally unresolvable. Confirm V-002 frozen. Preserve tie documentation. No new candidates, no new sources, no re-scoring. Update handoff and write initial task for next agent.
+
+### Outcome
+
+- **Tie:** IDEA-011 remains 69.0 (rank 4), IDEA-004 remains 69.0 (rank 3). Structurally unresolvable at current evidence; no arbitrary break.
+- **V-002 status:** Confirmed frozen — G-18 bounded negative, not closure.
+- **Frontier screens:** None (no genuine new mechanism family surfaced).
+- **Artifacts updated:** `next_agent_handoff.md` rewritten (now Cycle 19), `cycle_notes.md` updated with Cycle 19.
+
+### What this cycle did not do
+
+- No re-scoring to break tie.
+- No new dossiers or sources added.
+- No tests, data acquisition, or code.
+- No modifications to canonical prompt.
+
+---
+
 ## Cycle 2 — new mechanism families, 2026-10-19
 [... remainder of existing cycle notes preserved ...]
