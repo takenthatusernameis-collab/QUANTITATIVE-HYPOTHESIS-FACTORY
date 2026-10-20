@@ -1,4 +1,17 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–78
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–85
+
+**Cycle 85 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 85's substantive work was a **rubric-arithmetic audit of the whole register** and a **verification
+pass**, and **neither touched any validation specification**. The audit found one record defect — IDEA-011's
+recorded rubric profile summed to 70.0 while its recorded total was 69.0 — and the repair corrected the
+*profile* to the one that sums to the recorded 69.0 (mechanism 4, evidence 3, novelty 3, falsifiability 4,
+resilience 2, data 5), leaving the **total, the rank, the tie-break, every hard-stop flag and V-009
+unchanged**; the residual documentary question is registered as gap **G-36**, which is **non-blocking** and
+**does not re-open V-009**. The verification pass upgraded ten ledger entries to line-verified, re-verified
+two, and recorded five honest negatives; **no verification upgrade changed any specification's content, and
+no specification was executed, amended or withdrawn**. **V-008 and V-009 remain the only executable
+specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007 remain
+not executable.** No `V-` identifier was consumed.
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this

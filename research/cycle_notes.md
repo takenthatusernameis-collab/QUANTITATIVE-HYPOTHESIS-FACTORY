@@ -1961,3 +1961,161 @@ Theory-only cycle executing the priorities from the Cycle 83 handoff. No tests, 
 4. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with Cycle 84 banner, re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 85.
 
 **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts unchanged: 15 dossiers (4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 48 rejections (R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-35 with open G-21, G-28 (frozen), G-30 (exhausted); G-34, G-35 closed. Next free identifiers unchanged: IDEA-017, S-332, V-012, G-36, R-049, P-015.
+
+## Cycle 85 — 2026-10-20
+
+Theory-only cycle executing the priorities from the Cycle 84 handoff. No tests, no data acquisition, no
+strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute in order: (1) maintain frozen/exhausted/dated items (G-28 frozen; G-21 handed to
+validation, no re-search, V-009 not amended; G-30 exhausted, not re-probed; G-32 limb (c) and G-33 2027 Q3;
+G-14 29 March 2029; IDEA-014 inconclusive limb; P-010, P-011, P-014); (2) housekeeping, lossless only;
+(3) normalise known drift only if lossless (R-012/R-013 placement; S-281…S-290 bold inline; IDEA-002 and
+IDEA-006 shortlist appearances); (4) add a **bounded verification pass** over the entries the ledger still
+records as index-rendered or unretrieved, because the register's own "evidence-currency sweep is complete
+for this generation" claim is only as good as its provenance; (5) wrap up — rewrite handoff with a fresh
+self-contained initial task message, re-derive counts/identifiers, record cycle.
+
+**Pass 2 — Critique.** Two objections to the draft. (i) *The verification pass is not a "priority" the
+Cycle-84 handoff asked for*, and the register's own discipline is that a cycle executes the handed-on
+priorities rather than improvising new ones. The objection does not survive: the handoff's priority 1 was
+"maintain … verification labels honest", and the register's standing rule is that an unverified entry may not
+be presented as verified — so a bounded pass that upgrades provenance, records negatives, and changes no
+score, no flag and no specification is *within* the handed-on priority, not outside it. The pass was
+therefore kept, bounded to **provenance**, and explicitly barred from re-scoring anything. (ii) *The drift
+normalisation question has been carried unresolved for four cycles and is being carried by inertia.* R-012
+and R-013 are `R-` records that sit in the "Parked" section; S-281 … S-290 are bold inline entries in the
+ledger; IDEA-002 and IDEA-006 appear twice in the shortlist. The critique: doing nothing for four cycles
+is itself a decision, and the useful resolution is not to move records (which risks semantics and
+cross-references) but to make the existing placement **legible**, so that a reader counting parkings counts
+`P-` identifiers and a reader counting rejections counts `R-` identifiers. That is lossless, and it is what
+was done.
+
+**Pass 3 — Revise.** Maintain all frozen items unchanged. Apply no record-moving normalisation; add
+legibility notes only (one at the head of the "Rejected" section and one at the head of the "Parked"
+section of `rejected_and_parked.md`, each naming R-012 and R-013 and explaining that the counts are by
+identifier). Add the bounded verification pass, with the rule that **an upgrade is an amendment in place,
+no new `S-` identifier is minted, a line-verified passage about the candidate's own relation is a re-score
+trigger, a line-verified passage about a neighbour is not, and a retrieval failure is an honest negative**.
+Add a **register-wide rubric-arithmetic audit** to the cycle's work — checking every dimension statement
+against the register's own weighted-total rule — because the register's scores are the artefact a reader
+trusts most and a silent arithmetic inconsistency in the top-ranked candidate is the most consequential
+defect class available. Rewrite the handoff with a Cycle 85 banner and a fresh self-contained initial task
+message for Cycle 86. Record the cycle.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained as they stand.** G-28 (frozen structural null), G-21 (handed to
+   validation; no re-search; V-009 not amended), G-30 (exhausted; not re-probed), G-32 limb (c) and G-33
+   (2027 Q3), G-14 (29 March 2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014 all
+   unchanged. No re-read was triggered on a fixed clock.
+
+2. **Register-wide rubric-arithmetic audit — one defect found, one record repair made, no score changed.**
+   Every dimension statement in every artifact was checked against the register's own rule
+   (`Weighted total = Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10). **IDEA-011 was the only
+   dossier whose recorded profile disagreed with its recorded total**: the profile recorded from Cycle 35
+   onward (mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 3, data 4) sums to **70.0**,
+   while **69.0** is the total recorded for that candidate in every artifact since Cycle 16. Every other
+   dossier passes, and so do the register's other eight re-scores (IDEA-003 C32, IDEA-004 C13/C72/C75,
+   IDEA-009 C66, IDEA-010 C6/C78, IDEA-014 C58) — in each of those the dimension named in the prose is the
+   dimension whose cell moved, and the total equals the computed sum. **The score was not changed.** The
+   reconstruction, from the repository's own history rather than from judgement, established that the
+   Cycle-16 re-score moved the **resilience** dimension **3 → 2** (weight 15, −3.0) and that the *data* cell
+   in the shortlist table was **mis-edited at that commit** (5 → 4); the mis-edit was then copied into every
+   per-dimension breakdown from Cycle 35 onward, which is how the inconsistency entered the prose. Five
+   independent constraints fix the answer: the pre-Cycle-16 table row (4/3/3/4/3/5 = 72.0); the Cycle-16
+   commit's single-cell diff; the recorded **−3.0** magnitude, reachable only on a weight-15 dimension; the
+   re-score's own contemporaneous rationale in the Cycle-16 handoff (*"decay evidence reduces persistence;
+   enforcement-regime concentration narrows the tradable drift"*); and the **falsifiability 4-versus-3**
+   tie-break that resolved the IDEA-011/IDEA-004 tie — which also excludes falsifiability and novelty as the
+   moved dimension, since both are contradicted by the register's own unchanged bullets. The **rejected
+   alternative** is recorded for audit: reading the Cycle-16 edit literally (data 5 → 4) would make the true
+   total 70.0, but that reading requires the recorded 69.0, the tie-resolution work the register performed on
+   it (Cycles 17, 18 and 29) and the
+   falsifiability tie-break all to be wrong, and it cannot produce −3.0 from a weight-10 dimension. **The
+   profile is corrected to 4/3/3/4/2/5 = 69.0**; the current-state surfaces (the shortlist table row, the
+   per-candidate rubric bullets, the shortlist's rubric section, the dossier's change notes) are corrected in
+   place, and the **historical** per-dimension breakdowns (Cycles 35, 37, 52, 56, 58, 59) are **not silently
+   rewritten** — each carries a dated correction notice stating that the two levels are wrong and that the
+   "unchanged" claims, the scores, the ranks and the reasoning all stand. The Cycle-76 alignment of the
+   candidate's data bullet (5/5 → 4/5, made to match the mis-edited cell) is **reversed** with the Cycle-76
+   note retained and marked superseded. **No total, rank, tie-break, hard-stop flag, gap, specification or
+   research priority changed**, and after the repair **every dimension statement in the register satisfies
+   the register's own rule**.
+
+3. **Gap G-36 opened — narrow, dated and non-blocking.** The Cycle-16 per-dimension record **was never
+   written** (verified file by file and against the full git history), so the identity of the moved dimension
+   is a **forced inference** rather than a quotation. G-36 asks: *is there any contemporaneous artifact,
+   inside this repository's history or outside it, that names the dimension the Cycle-16 re-score moved?* If
+   such a record is found and it names a dimension other than resilience, the profile **and** the total must
+   both be re-derived and the correction withdrawn; if no such record exists, the reconstruction stands as the
+   register's best evidence and G-36 closes as a negative. **G-36 does not block V-009, does not re-open
+   G-21, and does not change any ranking.** G-36 was announced as "next free" in the Cycle-78 record and is
+   now exercised by a real gap, so **G-37** is the next free gap identifier.
+
+4. **Bounded verification pass — ten upgrades, two re-verifications, five honest negatives, no re-score.**
+   **Upgraded in place, no `S-` identifier minted:** **S-310** (Crossref-deposited abstract fetched directly,
+   HTTP 200 — every figure confirmed; the "up day"/"down day" caveat stands); **S-312** (Crossref-deposited
+   abstract fetched directly — the 13-direct/6-adjacent split confirmed, and the entry's own stale
+   **"24 studies (16 + 8)"** count corrected to the Cycle-67 count of **22 (15 + 7)**, with the same
+   correction carried into IDEA-009's dossier); **S-259** (both SEC documents fetched directly with a
+   compliant User-Agent — 797,300 and 9,105,990 bytes — all quoted passages confirmed); **S-260** (Plan site
+   and the surviving Nasdaq FAQ PDF fetched directly); **S-261** (both ESMA PDFs fetched directly);
+   **S-267** (the ESMA-hosted PDF fetched directly — **two quotation-fidelity corrections**: an IAS 8
+   paraphrase presented as a quotation, and a dropped word in the timing phrase); **S-272** (the taxonomy
+   guidance fetched directly, confirming the "Early Application of IFRS 18" entry point); **S-163** (the
+   author-hosted PDF fetched directly, with a **title correction** to "Great Expectations: Carbon Pricing and
+   Revenue Uncertainty in California"); **S-173** (the govinfo PDF fetched directly); and **S-325**, whose
+   accepted-version text layer **was** extracted this time (602,160 bytes, 47 pages, 104,386 characters),
+   **correcting the Cycle-78 "not extractable" note** and confirming, among other passages, the paper's own
+   statement that it does "not observe their short positions in the high-beta decile". **Re-verified:**
+   **S-317** (author-hosted page, HTTP 200 — the label stands) and **S-318** (the EPFL record is still
+   bibliographic only — the Cycle-74 honest negative is re-confirmed, not overturned). **Honest negatives
+   recorded:** **S-271** (HTTP 000, connection failure), **S-132 / S-185 / S-203** (HTTP 000, host-level
+   failure), **S-264** (MDPI HTTP 403), **S-266** (EFMA HTTP 503) and **S-174** (HTTP 202 with a zero-byte
+   body). **No verification upgrade changed any score, any rank, any hard-stop flag or any specification**,
+   because the upgrades are provenance and not new evidence about any candidate's effect; the S-325 finding
+   is a **neighbour** for IDEA-004, and it is published corroboration of the objection already recorded
+   against the frozen G-28.
+
+5. **Housekeeping (lossless).** The `rejected_and_parked.md` header counters were corrected (**47 → 48**
+   rejections, **84 → 85** baseline rows) with the correction stated in the header itself; the
+   `research/README.md` next-free pointers were corrected (**R-048 → R-049**, **G-36 → G-37**, **Cycle 79 →
+   Cycle 86**); the artifact titles and preambles were brought up to date (the register, the shortlist, the
+   ledger and the validation file all now read **CYCLES 1–85** and carry a Cycle-85 preamble, and the
+   register's and the parked log's "Last updated" lines were rewritten from the files); the shortlist's
+   rubric section now states the rule as an **applied** rule rather than only as a formula, with the
+   per-point values, so the audit is re-runnable by the next agent; and the shortlist rubric bullets were
+   re-checked against the maintained table for all four active candidates (all consistent, and all sums
+   equal to their recorded totals). **One further formatting defect was found and repaired:** a stray blank
+   line inside the **known-baseline table** in `rejected_and_parked.md` was splitting that table into two
+   markdown tables — the second of which had no header row and would therefore have rendered as a
+   headerless fragment. The blank line was removed, restoring the table as **one** table of **85 data
+   rows**, which is the count the header and R-048's "row 85" both already stated. **No row was added,
+   removed, renumbered or re-worded.**
+
+6. **Drift assessment (lossless-only).** **R-012 / R-013** — left in place, with the resolution that the
+   useful fix is *legibility* rather than movement: a note at the head of the "Rejected" section and a note
+   at the head of the "Parked" section of `rejected_and_parked.md` now each name the two records and state
+   that the counts are by **identifier** (`R-` for rejections, `P-` for parkings), so no reader double-counts
+   and no record is moved. **S-281 … S-290** — left as they are; the ledger already documents the formatting
+   choice (ten bold inline entries against 311 `### S-NNN` headings), and re-bolding them would flatten a
+   distinction the ledger has explained, so it is recorded as a **standing, accepted** formatting difference
+   rather than an open drift. **IDEA-002 / IDEA-006** — left as they are: they appear in the shortlist as
+   **historical cross-references of rejected candidates**, not as live duplicates, and the shortlist's
+   "Known Baseline" and "Rejected and Parked" sections are where a reader should find them. **No record was
+   moved, relabelled, renumbered or re-scoped.**
+
+7. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 85 banner,
+   re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 86. The
+   Cycle-84 handoff carried the **Cycle-84 banner with the Cycle-83 body** — an off-by-one in the banner —
+   and it is corrected.
+
+**No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009
+53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts: 15 dossiers
+(4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 48 rejections
+(R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-36 with open G-21, G-28 (frozen), G-30
+(exhausted), **G-36 (new, non-blocking)**; G-34, G-35 closed. New identifiers consumed: **G-36** only. Next
+free identifiers: **IDEA-017, S-332, V-012, G-37, R-049, P-015**.

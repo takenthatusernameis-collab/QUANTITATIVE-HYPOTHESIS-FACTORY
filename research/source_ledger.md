@@ -1,4 +1,20 @@
-# SOURCE LEDGER — CYCLES 1–78
+# SOURCE LEDGER — CYCLES 1–85
+
+**Cycle 85 (2026-10-20) added no new source identifier and no new source entry, minted no new candidate and
+no new validation specification, opened one gap (G-36) and closed no gap, and changed no score.** The
+cycle's first operation was a **rubric-arithmetic audit of the whole register**: every dimension statement
+in every artifact was checked against the register's own rule (`Weighted total = Σ (dimension score ×
+weight) / 5`), and **IDEA-011 was the only dossier whose recorded profile disagreed with its recorded
+total** — the profile recorded from Cycle 35 onward sums to 70.0, while 69.0 is the total recorded for that
+candidate in every artifact since Cycle 16. The defect was traced to a mis-targeted cell edit at the
+Cycle-16 commit and to the per-dimension record for that re-score never having been written; the profile is
+**corrected to 4/3/3/4/2/5 = 69.0** and the **total, the rank and the tie-break are unchanged** — a record
+repair, not a re-score. The cycle's second operation was the **verification pass** recorded at the end of
+this file: **ten entries upgraded in place** to line-verified, **two re-verified**, **five honest negatives
+recorded**, one stale study count corrected and two quotation-fidelity defects corrected. **No `S-`,
+`IDEA-`, `V-`, `R-` or `P-` identifier was consumed.** The register still holds **321 verified sources**
+(S-001 … S-209 and S-220 … S-331), with S-210 … S-219 reserved and unused. **Next free identifiers:
+IDEA-017, S-332, V-012, G-37, R-049, P-015.**
 
 Cycle 78 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
 and **no new validation specification**, opened **no gap** and closed **one gap (G-35)**, and **changed one
@@ -4050,8 +4066,10 @@ URL: https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-th
 - **Verification:** landing page read via the search index.
 
 ### S-163 — Bushnell, J. B. (2017)
-"Carbon Pricing and Revenue Uncertainty in California." Author-hosted manuscript, National Tax
-Journal layout (University of California, Davis).
+"Great Expectations: Carbon Pricing and Revenue Uncertainty in California." Author-hosted manuscript,
+National Tax Journal layout (University of California, Davis). *[Title corrected in Cycle 85: the
+document's own title page reads "Great Expectations: Carbon Pricing and Revenue Uncertainty in
+California"; the entry previously carried the bare subtitle only.]*
 URL: https://bushnell.ucdavis.edu/uploads/7/6/9/5/76951361/a00_bushnell_02.pdf
 - **Type:** Prior empirical/institutional result (author-reported); **final journal metadata not
   confirmed** (the Crossref record returned by the title query is a different Bushnell NTJ article).
@@ -4063,6 +4081,19 @@ URL: https://bushnell.ucdavis.edu/uploads/7/6/9/5/76951361/a00_bushnell_02.pdf
   author-hosted version.
 - **Verification:** PDF read via the search index; Crossref title query for the exact title returned
   an unrelated record.
+- **Cycle-85 verification — UPGRADE, with a title correction.** The author-hosted PDF was fetched directly
+  on 20 October 2026 from the URL above — **HTTP 200, 505,667 bytes** — and its text layer was extracted
+  and read, so the entry's load-bearing sentence is now **line-verified in the document itself**: the
+  Allowance Price Containment Reserve **"has not been called into use"**, with allowance prices at or near
+  the auction floor for most of the programme's life. The verification label moves from **"index-rendered"**
+  to **"line-verified (author-hosted PDF fetched directly and text extracted)"**. **Title correction.** The
+  document's own title page reads **"Great Expectations: Carbon Pricing and Revenue Uncertainty in
+  California"**, not the bare *"Carbon Pricing and Revenue Uncertainty in California"* that this entry has
+  carried; the correction is applied to the heading above. **The entry's caveats are unchanged** — the
+  manuscript's page header still reads "National Tax Journal" and the article number and issue still
+  **could not be verified through Crossref** (the title query returns an unrelated Bushnell NTJ article), so
+  the citation remains to the author-hosted version. **No re-score and no hard-stop change follow** — this
+  is provenance plus a title correction, not new evidence.
 
 ### S-164 — California Air Resources Board (2018)
 "Reserve Sale Notice — Sale of Greenhouse Gas Allowances from the Allowance Price Containment Reserve
@@ -4212,6 +4243,15 @@ URL: https://www.govinfo.gov/content/pkg/GOVPUB-Y10-PURL-gpo824/pdf/GOVPUB-Y10-P
 - **Caveats:** a design study on a hypothetical programme, not an evaluation of any actual reserve
   sale.
 - **Verification:** PDF read via the search index; govinfo copy is public.
+- **Cycle-85 verification — UPGRADE: the govinfo PDF is now fetched directly and line-verified.** Fetched
+  on 20 October 2026 from the URL above — **HTTP 200, 1,846,136 bytes, 32 pages** — with the text layer
+  extracted and read, so the design economics this entry summarises (a reserve of supplemental allowances
+  released at a pre-set access price dampens allowance prices; a reserve built by withholding allowances
+  tightens the cap) are now confirmed in the document itself. The verification label moves from
+  **"index-rendered"** to **"line-verified (govinfo PDF fetched directly and text extracted)"**. **The
+  entry's caveat is unchanged and remains the substantive point**: this is a **design study on a
+  hypothetical programme, not an evaluation of any actual reserve sale**. **No re-score and no hard-stop
+  change follow** — this is provenance, not new evidence.
 
 ### S-174 — California Code of Regulations, title 17, §§ 95856, 95857, 95913
 "The Cap-and-Trade Regulation" (unofficial electronic version published by CARB), including the
@@ -6568,6 +6608,28 @@ https://www.sec.gov/marketstructure/research/equity_market_volatility.pdf
 - **Verification:** **both SEC documents returned HTTP 403 to a direct fetch in this session** and were read
   through the search index; the quoted passages are therefore index-rendered, and the register does not
   present them as directly parsed documents.
+- **Cycle-85 verification — UPGRADE: both SEC documents are now fetched directly and line-verified; the
+  403 is explained and no longer binding.** The SEC requires a compliant User-Agent, and with one
+  (`QUANTITATIVE-HYPOTHESIS-FACTORY research verification research@example.org`) both documents were
+  fetched directly on 20 October 2026:
+  (a) `https://www.sec.gov/dera/staff-papers/white-papers/dera-luld-white-paper.pdf` — **HTTP 200,
+  797,300 bytes, 55 pages**, text layer extracted; and
+  (b) `https://www.sec.gov/marketstructure/research/equity_market_volatility.pdf` — **HTTP 200, 9,105,990
+  bytes, 88 pages**, text layer extracted.
+  **Every passage quoted in this entry is now confirmed in the documents themselves**: the **Limit State**
+  and the **15 seconds**; the **five-minute Trading Pause** and the **reopening auction** ("Trading reopens
+  with an auction similar to the opening auction at the beginning of that day"); **"most of the Trading
+  Pauses in both tiers result from 'SRO-defined liquidity gaps'"**; **"following a Trading Pause, prices
+  revert back to within the price bands in place prior to the Trading Pause"**; the **1,278 LULD trading
+  halts** of 24 August 2015, of which **1,058 in 327 ETPs and 220 in 144 non-ETPs**, with **84 % of ETPs**
+  small capitalisation, and only **8 S&P 500** and **2 NASDAQ-100** constituents halting; and the **NYSE
+  Arca** reopening-auction collar finding (price collars applied, prices "substantially less dispersed" than
+  on other primary listing exchanges, and "left many unexecuted order imbalances"). The verification label
+  for this entry moves from **"index-rendered"** to **"line-verified (both PDFs fetched directly and text
+  extracted)"**. **The entry's caveats are unchanged** — these remain the regulator's own descriptive
+  statistics on a single day, not a causal test, and the cross-venue collar difference is the SEC's
+  published observation and not a discovery the register may claim. **No re-score and no hard-stop change
+  follow**, because the upgrade is provenance, not new evidence about any candidate's effect.
 
 ### S-260 — The Limit Up–Limit Down Plan (plan documentation) and Nasdaq Trader, "Limit Up-Limit Down" FAQ
 URLs: https://www.luldplan.com/ and
@@ -6592,6 +6654,22 @@ https://www.nasdaqtrader.com/content/MarketRegulation/LULD_FAQ.pdf
   so the parameter tables must be re-read at the date of any future use.
 - **Verification:** the `luldplan.com` content and the Nasdaq FAQ PDF were read through the search index;
   the retired Nasdaq URL was fetched directly and its "Page Not Available" response recorded.
+- **Cycle-85 verification — UPGRADE: both surviving documents are now fetched directly and line-verified.**
+  On 20 October 2026: `https://www.luldplan.com/` returned **HTTP 200, 30,771 bytes**, and the **surviving
+  Nasdaq FAQ PDF** `https://www.nasdaqtrader.com/content/MarketRegulation/LULD_FAQ.pdf` returned **HTTP 200,
+  189,203 bytes** with its text layer extracted. The passages this entry leans on are confirmed in the
+  documents themselves: the five-minute average-reference-price band rule ("set at a percentage level above and
+  below the average reference price of a security over the preceding five-minute period"), the two-SIP
+  calculation and dissemination of the Lower and Upper Price Bands, the Tier 1 / Tier 2 composition, the
+  15-second Limit State and the five-minute Trading Pause, the band parameters (5 % / 10 % / 20 % / the
+  lesser of $0.15 or 75 % / doubling in the last 25 minutes), the reference-price rule (arithmetic mean of
+  eligible reported transactions over the preceding five minutes, updated only when at least 1 % away), and —
+  the decisive fact for the Cycle-52 screen — **"Both SIPs will republish the current price bands every 30
+  seconds"**. The verification label moves from **"index-rendered"** to **"line-verified (Plan site and
+  Nasdaq FAQ PDF fetched directly)"**. **The entry's caveats stand unchanged**: the retired Nasdaq Trader
+  address still returns "Page Not Available", the Plan's parameters are periodically amended (e.g. the
+  elimination of double-wide bands in 2020), and the parameter tables must be re-read at the date of any
+  future use. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-261 — European Securities and Markets Authority (ESMA), MiFID II circuit-breaker guidelines and supervisory briefing
 (a) **"Guidelines on calibration of circuit breakers and publication of trading halts under MiFID II"**,
@@ -6619,6 +6697,25 @@ and https://www.esma.europa.eu/sites/default/files/2023-10/ESMA74-2134169708-697
 - **Verification:** both ESMA PDFs were read through the search index; the EUR-Lex text of Commission
   Delegated Regulation (EU) 2017/589 was requested but returned an empty document body to the fetch and
   was therefore **not** used as a source.
+- **Cycle-85 verification — UPGRADE: both ESMA PDFs are now fetched directly and their text layers
+  extracted.** On 20 October 2026: the guidelines PDF
+  (`https://www.esma.europa.eu/sites/default/files/library/esma70-872942901-63_guidelines_on_the_calibration_of_of_circuit_breakers.pdf`)
+  returned **HTTP 200, 281,383 bytes**, and the supervisory briefing
+  (`https://www.esma.europa.eu/sites/default/files/2023-10/ESMA74-2134169708-6975_Supervisory_Briefing_Circuit_Breakers.pdf`)
+  returned **HTTP 200, 755,905 bytes**; both were parsed and their text layers read. The entry's quoted
+  material — the instrument's title ("Guidelines on calibration of circuit breakers **and publication of
+  trading halts** under MiFID II"), the briefing's "at least one of the two types of circuit breaker"
+  enumeration, the static-versus-dynamic reference-price distinction, and the Final Report's list of the
+  parameters national competent authorities must obtain from venues and pass to ESMA at least annually
+  ("thresholds", the "frequency of updates", the "duration of the halts … including the randomisation
+  parameters", and the resumption mechanism "where the resumption of the market occurs through an auction
+  process … (e.g. duration, randomised or not, etc.)") — is confirmed in the documents themselves. The
+  verification label moves from **"index-rendered"** to **"line-verified (both PDFs fetched directly and
+  text extracted)"**. **The entry's caveats are unchanged**: the EU regime is implemented through national
+  competent authorities, the guidelines are supervisory expectations on venues rather than a self-executing
+  rule for a participant, and the register's own universe is US-listed, so the regime is a **comparator**
+  for the Cycle-52 screen rather than a tradeable venue for it. **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence.
 
 ### S-262 — Lin, Y. and Swan, P. L. (2017)
 "Limit Up Limit Down, Exchange Access Fee and High Frequency Trading Around Price Limits."
@@ -6826,7 +6923,8 @@ URL: https://www.esma.europa.eu/sites/default/files/2026-02/ESMA32-193237008-918
 - **Type:** Primary regulator material (supervisory expectation statement, February 2026).
 - **Supports:** the register's Cycle-56 re-specification of IDEA-011 rests on the fact that the
   **pre-adoption impact disclosure is required by the standard-setter itself**, not by a local rule.
-  The statement "draws attention to the requirements in IAS 8 paragraphs 30 and 31" for the disclosure of
+  The statement **"draws issuers' attention to requirements in paragraphs 30 and 31 of IAS 8"** for the
+  disclosure of
   the nature of an impending change in accounting policies where a new IFRS has been issued but is not
   yet effective, and notes that paragraph 30(b) requires disclosure of "known or reasonably estimable
   information relevant to assessing the possible impact that application of the new IFRS will have on the
@@ -6837,7 +6935,7 @@ URL: https://www.esma.europa.eu/sites/default/files/2026-02/ESMA32-193237008-918
   the assessment of whether the issuer performs 'specified main business activities', and details on
   measures that are expected to meet the definition of an MPM". It also records that issuers are
   "encouraged to include the (expected) change in 2026 operating profit or loss and/or in other subtotals",
-  that the expected effects are to be disclosed "as soon as available" (an issuer that finalises its
+  that the expected effects are to be disclosed **"as soon as it becomes available"** (an issuer that finalises its
   assessment in H1 2026 should disclose in the interim statements for the period ending 30 June 2026),
   and that IFRS 18 is to be applied in **interim** financial statements in the year of initial
   application — so the first IFRS 18 reporting cycle is the **2027 interim** reports, not the 2028
@@ -6852,6 +6950,40 @@ URL: https://www.esma.europa.eu/sites/default/files/2026-02/ESMA32-193237008-918
   ESMA PDF (Consob, FMA Austria, CySEC) as rendered by the search index, and corroborated by EFRAG's
   IFRS 18 endorsement-status summary. The ESMA-hosted PDF returned binary content to a direct fetch, so
   this entry is **index-rendered, not directly parsed**, and is labelled as such.
+- **Cycle-85 verification — UPGRADE: the ESMA-hosted PDF is now fetched directly and line-verified, and two
+  quotation-fidelity defects are corrected.** The document was fetched directly on 20 October 2026 from
+  `https://www.esma.europa.eu/sites/default/files/2026-02/ESMA32-193237008-9180_Public_Statement_IFRS_18.pdf`
+  — **HTTP 200, 390,994 bytes, 10 pages** — and its text layer was extracted and read. **Two corrections
+  are carried out here, and both are quotation-fidelity corrections, not changes of substance:**
+  1. **The IAS 8 reference was a paraphrase presented as a quotation.** This entry quoted the statement as
+     *"draws attention to the requirements in IAS 8 paragraphs 30 and 31"*. The document's actual words are
+     **"ESMA draws issuers' attention to requirements in paragraphs 30 and 31 of IAS 8 according to which a
+     disclosure of the nature of an impending change or changes in accounting policies needs to be provided
+     when an issuer has yet to implement a new IFRS that has been issued but is not yet effective."** The
+     quotation is corrected above, and the same correction is carried into IDEA-011's Cycle-56 block in
+     `idea_register.md`, which quoted the same paraphrase.
+  2. **A dropped word in the timing phrase.** The entry quoted the expected-effects timing as *"as soon as
+     available"*; the document reads **"ESMA expects that information on the anticipated effects resulting
+     from the application of IFRS 18 is provided by issuers as soon as it becomes available."** Corrected
+     above.
+  **Everything else is confirmed verbatim**: the paragraph 30(b) wording ("known or reasonably estimable
+  information relevant to assessing the possible impact that application of the new IFRS will have on the
+  issuer's financial statements in the period of initial application"), the expectation that "expected
+  material effects from the application of IFRS 18 should be disclosed in issuers' interim and annual
+  financial reports for periods ending before 1 January 2027", the "in a gradual and efficient manner"
+  qualifier, the "encouraged to include the (expected) change in 2026 operating profit or loss and/or in
+  other subtotals resulting from the application of IFRS 18 requirements" passage, and the coverage list
+  ("a description of changes in the structure of the issuer's statement of profit or loss, information on
+  the assessment of whether the issuer performs 'specified main business activities', and details on
+  measures that are expected to meet the definition of an MPM"). The verification label moves from
+  **"index-rendered"** to **"line-verified (ESMA-hosted PDF fetched directly and text extracted)"**.
+  **The entry's caveats are unchanged** — the mandated disclosure is qualitative, the quantified expected
+  change is only encouraged, the state's measurability at firm level is not established by this document
+  (that is G-33), ESMA is a European supervisor whose expectation statement does not bind issuers outside
+  its jurisdiction, and the statement establishes no price effect. **No re-score, no hard-stop change and no
+  new hard-stop flag** for IDEA-011 follow: the two corrections are to the register's *quotation* of the
+  source, not to the source's content, and the Cycle-56 argument that the disclosure is required by the
+  standard-setter itself is **strengthened**, not weakened, by a direct read.
 
 ### S-268 — European Commission (2026), Commission Regulation (EU) 2026/338 of 13 February 2026 amending Regulation (EU) 2023/1803 as regards International Financial Reporting Standards (IFRS 18)
 URL: https://eur-lex.europa.eu/eli/reg/2026/338/oj/eng
@@ -6929,6 +7061,15 @@ URL: https://www.ifrs.org/content/dam/ifrs/standards/taxonomy/2026/guidance-on-u
   impact disclosure, which remains **G-33**.
 - **Verification:** the guidance was read as rendered by the search index; the PDF returned binary content
   to a direct fetch — **index-rendered, not directly parsed**.
+- **Cycle-85 verification — UPGRADE: the PDF is now fetched directly and line-verified.** Fetched on
+  20 October 2026 from the same URL — **HTTP 200, 159,671 bytes** — with the text layer extracted; the
+  **"Early Application of IFRS 18"** entry point this entry relies on is **confirmed in the document
+  itself**, together with the surrounding taxonomy guidance. The verification label moves from
+  **"index-rendered"** to **"line-verified (PDF fetched directly and text extracted)"**. **The entry's
+  caveats are unchanged and are the substantive point**: an entry point's existence says the population is
+  *taggable*, **not** that any issuer uses it or that early adoption is widespread, and the guidance does
+  not address the content of the IAS 8.30(b) impact disclosure, which remains **G-33**. **No re-score and
+  no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-273 — US Internal Revenue Service, "Topic no. 409, Capital gains and losses" (page last reviewed or updated 24 September 2026)
 URL: https://www.irs.gov/taxtopics/tc409
@@ -8003,6 +8144,32 @@ document unless the entry says so.**
   **The Cycle-66 SSRN debt on this entry is closed as an honest negative** — the debt was *retrievability of a
   line-verified copy*, and four named non-SSRN routes have now been tried and failed, so the label is final
   rather than merely open. The entry is not presented as a full-text reading anywhere in the register.
+- **Cycle-85 verification — UPGRADE: the abstract is now read from the Crossref-deposited record, fetched
+  directly (HTTP 200, 2,865 bytes); every figure quoted above is confirmed word-for-word.** The route that
+  had never been tried is the one the register already used for the DOI itself: the **Crossref REST API
+  work record** for the DOI, `https://api.crossref.org/works/10.2139/ssrn.7520320`, fetched directly on
+  20 October 2026 with **HTTP 200** and a **2,865-byte** payload. It carries the publisher-deposited
+  **abstract** (as opposed to an index rendering of a landing page), and the deposited text reproduces the
+  entry's figures exactly: "Using **274 funding-rate extreme events** across **BTC, ETH, and SOL** from
+  2021 to 2026, I find that events on **up days revert by +1.88%** over the next **24 hours**, while
+  events on **down days continue by-1.74%**. The gap of **+3.62 percentage points** is statistically
+  significant (block bootstrap **95% CI [2.60, 4.67]**) and economically large. Net of funding, the gap is
+  **+3.59 percentage points**. The pattern is stable around **seven exogenous market-wide shocks**: within
+  **±30-day** windows, the gap is positive in all seven cases (sign test **p = 0.00781**) and the pooled
+  estimate is **+6.47 percentage points** (95% CI [4.45, 8.86]). The asymmetry is consistent across **12
+  year-by-direction cells** and **13 coins**."
+  **What this changes, and what it does not.** The verification label moves from **"index-rendered"** to
+  **"Crossref-deposited abstract, fetched directly"** — the abstract text is now read from the depositor's
+  own record rather than from a search index or a landing-page rendering, and every number in this entry
+  is confirmed. **The entry's substantive use is unchanged**: this is still an author-reported preprint
+  abstract, **not** a line-verified reading of the paper's body, and the caveat that carried the most
+  analytical weight stands — **"up day" and "down day" are not defined in the deposited abstract either**,
+  so the state construction remains **not verifiable from this entry**. The Cycle-66 debt, which was
+  closed in Cycle 74 as an honest negative on the *retrievability of a line-verified copy*, stays closed;
+  the Cycle-85 fetch upgrades the **abstract's** provenance without reopening it. **No re-score, no hard-stop
+  change, and no new hard-stop flag** for IDEA-009 follow from this upgrade: the Cycle-66 re-read already
+  priced the paper as a *published conditional* result, and a better provenance label is not new evidence
+  about the candidate's effect.
 
 ### S-311 — Shek, H. (2026)
 "Limits to Coordination: Funding Drag in Crypto Perpetual Funding Rates." SSRN working paper 7529458
@@ -8061,9 +8228,12 @@ DOI (preprint): https://doi.org/10.2139/ssrn.6658879
   preprint versions; the journal record was read only through an index rendering.
 - **Supports (for IDEA-009 and for the register's own coverage of this family):** the perpetual-futures
   literature is now large enough to carry a **PRISMA 2020-aligned systematic review** covering January 2021 to
-  April 2026 and separating 13 direct perpetual-futures studies from 6 adjacent behavioural studies (24 studies in
-  total, described as 16 peer-reviewed publications and 8 working papers). The review reports that pricing and
-  no-arbitrage, together with leverage and liquidation, are the most developed streams; that funding-rate carry
+  April 2026 and separating **13 direct perpetual-futures studies from 6 adjacent behavioural studies**
+  (**22 substantive studies in total — 15 peer-reviewed + 7 working papers — of which 13 are direct and 6
+  are adjacent, the remaining three being the review's own methodological framing**; *the "24 studies (16
+  peer-reviewed + 8 working papers)" figure that stood here until Cycle 85 was the **superseded Cycle-66
+  count**, corrected in Cycle 67 and not carried into this bullet — corrected here*). The review reports that
+  pricing and no-arbitrage, together with leverage and liquidation, are the most developed streams; that funding-rate carry
   and arbitrage behaviour are documented; that **direct evidence on classic behavioural constructs (fear of
   missing out, overconfidence, disposition effects, learning) remains sparse in perpetual-specific settings**; and
   that the next research frontier it names is funding-rule design, spot-market spillovers, stress transmission and
@@ -8095,6 +8265,38 @@ DOI (preprint): https://doi.org/10.2139/ssrn.6658879
   DOI**, the article is citable through its preprints, and the journal's own website could not be
   fetched (HTTP 403 in Cycles 66 and 67). **No wording in this entry is presented as read from the
   journal version.**
+- **Cycle-85 verification — UPGRADE of the abstract's provenance (deposited record read directly), and a
+  correction of a stale figure that this entry's own "Supports" bullet was still carrying.** The route
+  tried is the same one that produced the DOI itself: the **Crossref REST API work record** for the
+  behavioural preprint DOI, `https://api.crossref.org/works/10.2139/ssrn.6658879`, fetched directly on
+  20 October 2026 — **HTTP 200**, **16,169 bytes** — carrying the publisher-deposited **abstract** of
+  *Behavioral Finance in Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review*.
+  **What the deposited abstract confirms.** The **13 direct / 6 adjacent** split is stated verbatim: *"The
+  synthesis separates **13 direct perpetual-futures studies from 6 adjacent behavioral studies** that inform
+  interpretation."* It also confirms the **PRISMA 2020-aligned constrained systematic review** of
+  *accessible repositories, publisher pages, and citation trails* for studies **"published or posted from
+  January 2021 to April 2026"**; the finding that *"direct evidence on classic behavioral constructs such as
+  fear of missing out, overconfidence, disposition effects, and learning **remains sparse** in
+  perpetual-specific settings"*; the three conclusions — perpetuals are behaviourally distinctive because
+  funding fees, leverage, mark-to-market margining and auto-liquidation create a high-frequency feedback
+  system between prices and trader positions; perpetual contracts **increase spot-market trading volume but
+  worsen adverse-selection conditions** when informed trading rises around funding windows; and **exchange
+  design matters** because inverse, linear, quanto, oracle-priced and VAMM-based contracts expose traders to
+  different incentives and liquidation dynamics; and the four named gaps (trader-level identification,
+  CEX-DEX comparisons using comparable data, contract-type heterogeneity, and causal tests of
+  leverage-rule changes). **What the deposited abstract does not contain.** It states **no total** and **no
+  peer-review split**: neither the superseded **"24 studies (16 peer-reviewed + 8 working papers)"** nor the
+  Cycle-67 **"22 substantive studies (15 peer-reviewed + 7 working papers)"** appears in it. So the
+  13/6 split is now confirmed at the highest available provenance, while the **total and the peer-review
+  split remain on the Cycle-67 read of the SSRN abstract pages** and are **not** confirmed by this route.
+  **Correction carried out.** The **"Supports" bullet above still carried the superseded Cycle-66 count
+  ("24 studies in total, described as 16 peer-reviewed publications and 8 working papers")** — a
+  downstream propagation defect that the Cycle-67 correction had not reached. It is corrected there, and
+  the one other place in the register that repeated it (IDEA-009's dossier) is corrected with it. **Effect
+  on the dossier: none.** The Cycle-66 re-read priced this review as a *published systematic review* of the
+  family, and the figure's purpose — the family is large, and internally fragmented — is unaffected by
+  which of the three totals is used. **No re-score, no hard-stop change, and no new hard-stop flag** for
+  IDEA-009 follow from this upgrade or from this correction.
 
 ### S-313 — Zhivkov, P., Todorov, V. and Georgiev, S. (2026)
 "Temporal Dynamics of Market Microstructure in Cryptocurrency Perpetual Futures: Econometric Evidence from
@@ -8263,6 +8465,18 @@ arXiv: https://arxiv.org/abs/2310.11771
   abstract is available from this route, so nothing in the entry is presented as a full-text reading. The SSRN
   landing page and PDF endpoint still return HTTP 403; that route is now moot for this entry rather than an open
   debt.
+- **Cycle-85 re-verification — the label stands, re-checked directly.** The same author-hosted route was
+  fetched again on 20 October 2026 — `https://www1.se.cuhk.edu.hk/~cyang/`, **HTTP 200, 57,972 bytes** — and
+  the page still carries the paper under *Selected Publications → FinTech* with the abstract printed **in
+  full and unchanged**, and still prints the "submitted … Updated: September 2025" status, the three-author
+  attribution and ordering (Dai, Li, Yang) and the SSRN handle. The entry's verification label therefore
+  **remains "line-verified (author-hosted page)" for the abstract wording**, the Cycle-66/Cycle-72 SSRN debt
+  **remains closed as resolved**, and **no body text is quoted** — the full text is still not available from
+  any route the register can reach, so the caveat on the bounds' functional form and the empirical sample
+  **stands unchanged**. **No re-score, no hard-stop change and no new hard-stop flag** for IDEA-009 follow
+  from a re-verification.
+
+### S-319 — Jansen, S. (2026)
 
 ### S-318 — Hugonnier, J. and Jermann, U. (2025)
 "Perpetual Futures Pricing with Stochastic Rates and Clamp." SSRN working paper 5481866. DOI:
@@ -8331,8 +8545,17 @@ https://doi.org/10.2139/ssrn.5481866
   this entry is closed as an honest negative** — the debt was *retrievability of a line-verified copy*, and
   four named non-SSRN routes have now been tried and failed, so the label is final rather than merely
   open. The entry is not presented as a full-text reading anywhere in the register.
-
-### S-319 — Jansen, S. (2026)
+- **Cycle-85 re-verification of the EPFL route — the Cycle-74 negative is re-confirmed, not overturned.**
+  The two EPFL Infoscience URLs named in the Cycle-74 note were fetched again on 20 October 2026: the
+  **entity page** (`https://infoscience.epfl.ch/entities/publication/4b4fb4e2-d5c1-4203-ba79-f23bdb679c44`)
+  returned **HTTP 200 with a 632,900-byte** document, and the page still exposes **bibliographic metadata
+  only — no abstract and no PDF link**. The **handle page** likewise carries the same bibliographic record
+  without a full-text object. The Crossref work record for the DOI carries **no deposited abstract**
+  either, and the Semantic Scholar route remains unusable. **Consequence: the Cycle-74 honest negative is
+  re-confirmed; the verification label for this entry remains "index-rendered" for the abstract wording, no
+  body text is quoted, the duplicate-title caveat (two SSRN DOIs, 5481866 and 5610430, with no canonical
+  posting established) is unchanged, and the entry is still not presented as a full-text reading anywhere
+  in the register.** **No re-score, no hard-stop change and no new hard-stop flag** for IDEA-009 follow.
 "Crypto Perpetuals Funding." Case study for *Machine Learning for Trading* (3rd edition).
 URL: https://www.ml4trading.io/case-studies/crypto-funding-arbitrage/
 - **Type:** Prior empirical result (author-reported), **book case study with public notebooks — not peer-reviewed**.
@@ -9170,6 +9393,37 @@ DOI: https://doi.org/10.1287/mnsc.2023.4929
   this cycle (accepted-version record). The accepted-version PDF at LSE Research Online was retrieved directly,
   but its text layer could not be extracted in this cycle, so **no body text is quoted** and the working-paper
   passages are recorded as **index-rendered only**.
+- **Cycle-85 verification — UPGRADE: the accepted version's body text is now extracted and line-verified
+  (47 pages, 104,386 characters); the Cycle-78 "text layer not extractable" note is corrected.** The
+  accepted-version PDF was fetched directly again on 20 October 2026 from LSE Research Online
+  (`https://researchonline.lse.ac.uk/id/eprint/120807/1/bOOM.pdf`) — **HTTP 200, 602,160 bytes, 47 pages** —
+  and the text layer **was** extracted this time (the earlier failure was a tooling problem, not a property
+  of the file). The passages the register leans on are now confirmed **from the paper's own text**, with the
+  extraction artefacts noted in brackets: (i) the crowding measure is the excess-return-comovement measure
+  of Lou and Polk — *"we exploit the novel measure of arbitrage activity in troduced by Lou and Polk ( 2022)"*
+  [the PDF's spacing artefact], and *"Lou and Polk's innovation is to measure the outcome of the arbitrage
+  process, namely, the correlated price impacts that can result in excess return comovement in the spirit of
+  Barberis and Shleifer (2003)"*; the paper labels the measure *"the excess return comovement, relative to a
+  benchmark asset pricing model, of beta-arbitrage stocks"*; (ii) the measure's behaviour — *"the mean of
+  [CCCC] is 0.10 varying from a low of 0.04 to a high of 0.20"*; (iii) the proxies and their limits — *"we
+  include the aggregate institutional ownership (Inst Own) of the low-beta decile — i.e., stocks in the long
+  leg of the beta strategy — based on 13F filings"*, and *"aggregate institutional ownership …, the assets
+  under management (AUM) of long-short equity hedge funds, aggregate liquidity, and the past performance of a
+  typical beta-arbitrage strategy together forecast roughly 41% of the time-series variation in [CCCC]"*,
+  and *"no one single existing proxy is sufficient for capturing time-series variation in arbitrage
+  activity"*; and (iv) the **published corroboration of G-28's objection** — *"we focus on their holdings in
+  the low-beta decile as we do not observe their short positions in the high-beta decile"*.
+  **Effect on the register.** The verification label for this entry's *body text* moves from "not
+  retrievable" to **"line-verified (accepted version, LSE eprint 120807)"**, and the entry's own caveat
+  about **version drift** is confirmed rather than relaxed — the extracted text is the **working-paper /
+  accepted-version** lineage, so the working-paper passages must still not be cited as if they were the
+  published *Management Science* article, and the published article's abstract remains the authority for the
+  article's own wording. **The candidate's own relation is still not tested by this source** (the trade
+  family is a long-low-beta / short-high-beta factor trade, not a convergence pair) and the crowding measure
+  is still **return-comovement based**, so **G-28's structural null is untouched**. This is a **neighbour**
+  for IDEA-004 and not a test of its own effect, so **no re-score, no hard-stop change and no new hard-stop
+  flag** follow; the finding in (iv) is **published support for the 13F objection already recorded against
+  G-28**, and it strengthens the frozen structural null without reopening it.
 
 ### S-326 — Dong, X., Kang, N. and Peress, J. (2025)
 "Fast and Slow Arbitrage: The Predictive Power of (Persistent) Capital Flows for Factor Returns."
@@ -9831,3 +10085,52 @@ known-baseline row was added (**row 84**). The register holds **321 verified sou
 Cycle 78 (**311** entries in the standard `### S-NNN` heading form plus **ten** bold inline entries —
 S-281 … S-290 — the S-281 … S-290 formatting observation from the Cycle-72 repair block still stands and is
 unchanged).
+
+## Cycle 85 verification pass — record-provenance upgrades, one stale-figure correction, and five honest negatives
+
+Cycle 85's substantive work was (i) the **rubric-arithmetic repair** recorded in `idea_register.md` under
+IDEA-011 and in `ranked_shortlist.md` (a **record repair, not a re-score**: no total, rank, tie-break, flag,
+gap or specification changed), (ii) this **verification pass**, and (iii) **lossless housekeeping**. The
+verification pass was run against the routes the register's own cycle log names as outstanding, and it is
+recorded here in the file's standard form: **upgrades are amendments in place, no `S-` identifier is minted,
+and every passage quoted below was read in the document it is attributed to.**
+
+| Source | Route and result | Change to the entry | Effect on the dossier |
+| --- | --- | --- | --- |
+| **S-310** | **Crossref REST work record** for `10.2139/ssrn.7520320` — **HTTP 200, 2,865 bytes**, carrying the **publisher-deposited abstract** | **UPGRADE** — "index-rendered" → **"Crossref-deposited abstract, fetched directly"**. Every figure in the entry (274 events, +1.88 % / −1.74 %, +3.62 pp, CI [2.60, 4.67], +3.59 pp net, seven shocks, p = 0.00781, +6.47 pp, 12 cells, 13 coins) confirmed word-for-word. **The caveat stands: "up day" and "down day" are still undefined in the deposited abstract**, so the state construction is still not verifiable from this entry | **No re-score.** The Cycle-66 re-read already priced the paper as a published *conditional* result; a better provenance label is not new evidence about the candidate's effect. No hard-stop change, no new flag |
+| **S-312** | **Crossref REST work record** for `10.2139/ssrn.6658879` — **HTTP 200, 16,169 bytes**, carrying the **publisher-deposited abstract** | **UPGRADE** of the abstract's provenance, **plus a correction of a stale figure**: the entry's "Supports" bullet still carried the **superseded Cycle-66 count "24 studies (16 peer-reviewed + 8 working papers)"**, which the Cycle-67 correction had replaced with **22 (15 + 7)** but which was never carried into the bullet. The deposited abstract confirms the **13 direct / 6 adjacent** split verbatim and **states no total and no peer-review split** — so the 22 (15 + 7) figure remains on the Cycle-67 read of the SSRN abstract pages, and the entry is now internally consistent | **No re-score.** The figure's purpose — the family is large and internally fragmented — is unaffected by which total is used. The one other place in the register that repeated "24 studies" (IDEA-009's dossier) is corrected with it |
+| **S-317** | Author-hosted page re-fetched — `https://www1.se.cuhk.edu.hk/~cyang/` — **HTTP 200, 57,972 bytes** | **RE-VERIFICATION.** The label **"line-verified (author-hosted page)"** stands; the abstract still prints in full and unchanged; the "submitted … Updated: September 2025" status, the three-author attribution and the SSRN handle still print. No body text is quoted | **No re-score.** Nothing changes from a re-verification |
+| **S-318** | EPFL Infoscience entity page re-fetched — **HTTP 200, 632,900 bytes** — and the handle page | **RE-VERIFICATION of the Cycle-74 honest negative.** The record is still **bibliographic only**: no abstract and no PDF link. The label **"index-rendered"** stands, the duplicate-title caveat (two SSRN DOIs, 5481866 and 5610430, no canonical posting established) is unchanged | **No re-score.** The Cycle-74 negative is re-confirmed, not overturned |
+| **S-325** | **LSE Research Online accepted version** — `https://researchonline.lse.ac.uk/id/eprint/120807/1/bOOM.pdf` — **HTTP 200, 602,160 bytes, 47 pages**, text layer extracted (**104,386 characters**) | **UPGRADE** — the Cycle-78 note "its text layer could not be extracted" is **corrected**: it is extracted and line-verified now. The crowding measure is confirmed as Lou and Polk's excess-return-comovement measure (mean **0.10**, range **0.04–0.20**); the proxy set is confirmed (13F institutional ownership of the low-beta decile, LSHF AUM, liquidity, past strategy performance, "**roughly 41 %**" of the variation) together with "**no one single existing proxy is sufficient**"; and the paper is confirmed to state "**we do not observe their short positions in the high-beta decile**" | **No re-score.** The trade family is a long-low-beta / short-high-beta factor trade, **not** a convergence pair, and the measure is still **return-comovement based**, so **G-28's structural null is untouched** and the entry remains a **neighbour**. The 13F sentence is **published support for the objection already recorded against G-28**, which strengthens the frozen null without reopening it |
+| **S-259** | Both SEC documents fetched directly **with a compliant User-Agent** — the LULD white paper (**HTTP 200, 797,300 bytes, 55 pages**) and the equity-market-volatility note (**HTTP 200, 9,105,990 bytes, 88 pages**) | **UPGRADE** — "index-rendered" → **"line-verified (both PDFs fetched directly and text extracted)"**. Every quoted passage confirmed: Limit State, 15 seconds, five-minute Trading Pause, the reopening auction, "most of the Trading Pauses in both tiers result from 'SRO-defined liquidity gaps'", the price reversion after a pause, 1,278 halts / 1,058 in 327 ETPs / 220 in 144 non-ETPs, 84 % of ETPs small-cap, 8 S&P 500 and 2 NASDAQ-100 constituents, and the NYSE Arca collar finding | **No re-score.** The entry remains the regulator's own descriptive statistics on a single day, **not a causal test**; the cross-venue collar difference is the SEC's published observation and not a discovery the register may claim |
+| **S-260** | `https://www.luldplan.com/` — **HTTP 200, 30,771 bytes**; the surviving Nasdaq FAQ PDF — **HTTP 200, 189,203 bytes**, text extracted | **UPGRADE** — "index-rendered" → **"line-verified (Plan site and Nasdaq FAQ PDF fetched directly)"**. The band rule, the two-SIP calculation and dissemination, the Tier 1 / Tier 2 composition, the 15-second Limit State and five-minute Trading Pause, the band parameters, the reference-price rule and **"Both SIPs will republish the current price bands every 30 seconds"** are all confirmed | **No re-score.** The retired Nasdaq Trader address still returns "Page Not Available", and the Plan's parameters are periodically amended, so the parameter tables must be re-read at the date of any future use |
+| **S-261** | Both ESMA PDFs fetched directly — the guidelines (**HTTP 200, 281,383 bytes**) and the supervisory briefing (**HTTP 200, 755,905 bytes**), both parsed | **UPGRADE** — "index-rendered" → **"line-verified (both PDFs fetched directly and text extracted)"**. The instrument title, the briefing's circuit-breaker enumeration, the static-versus-dynamic reference-price distinction and the Final Report's annual parameter list are all confirmed | **No re-score.** The EU regime remains a **comparator** for the Cycle-52 screen, not a tradeable venue for it, and the register's own universe is US-listed |
+| **S-267** | ESMA-hosted PDF fetched directly — **HTTP 200, 390,994 bytes, 10 pages**, text extracted | **UPGRADE** — "index-rendered" → **"line-verified (ESMA-hosted PDF fetched directly and text extracted)"** — **plus two quotation-fidelity corrections**: the IAS 8 reference was a **paraphrase presented as a quotation** (the document reads "ESMA draws issuers' attention to requirements in paragraphs 30 and 31 of IAS 8"), and the timing phrase dropped a word (the document reads "as soon as it becomes available"). Both are corrected in the entry and in IDEA-011's Cycle-56 block | **No re-score.** The corrections are to the register's *quotation* of the source, not to the source's content. The Cycle-56 argument — that the disclosure is required by the standard-setter itself — is **strengthened**, not weakened, by the direct read |
+| **S-272** | IFRS Foundation taxonomy guidance fetched directly — **HTTP 200, 159,671 bytes**, text extracted | **UPGRADE** — "index-rendered" → **"line-verified (PDF fetched directly and text extracted)"**. The **"Early Application of IFRS 18"** entry point is confirmed in the document | **No re-score.** An entry point's existence says the population is *taggable*, **not** that any issuer uses it or that early adoption is widespread; the IAS 8.30(b) content question remains **G-33** |
+| **S-163** | Author-hosted PDF fetched directly — **HTTP 200, 505,667 bytes**, text extracted | **UPGRADE** + **title correction**. The APCR **"has not been called into use"** sentence is confirmed line-for-line; the document's own title page reads **"Great Expectations: Carbon Pricing and Revenue Uncertainty in California"**, and the entry previously carried the bare subtitle only | **No re-score.** The article number and issue still **could not be verified through Crossref**, so the citation remains to the author-hosted version |
+| **S-173** | govinfo PDF fetched directly — **HTTP 200, 1,846,136 bytes, 32 pages**, text extracted | **UPGRADE** — "index-rendered" → **"line-verified (govinfo PDF fetched directly and text extracted)"**. The reserve and price-collar design economics are confirmed in the document | **No re-score.** It remains a **design study on a hypothetical programme**, not an evaluation of any actual reserve sale |
+
+### Cycle 85 honest negatives — five routes that did not resolve, recorded as negatives, not as debts
+
+These are recorded so that the next agent does not re-try them blindly, and so that no entry's label is
+softened by a failure that is being dressed as an open debt.
+
+| Source | Route tried and result | Status |
+| --- | --- | --- |
+| **S-271** (Saudi CMA early-adoption decision) | Every direct route tried on 20 October 2026 — the Saudi Capital Market Authority decision page and its PDF delivery path — returned **HTTP 000 (connection failure, no response)**. The entry is unaffected: the Cycle-56 verdict it supports was reached from the primary endorsement instruments, and S-271 is cited as a *documented instance* rather than as the load-bearing source | **Honest negative.** The entry's existing label and its use in the Cycle-56 argument are unchanged; the failure is recorded, not concealed |
+| **S-132, S-185, S-203** (US EPA pages) | All three EPA URLs returned **HTTP 000 (connection failure, no response)** on 20 October 2026 — a host-level failure, not a 403 | **Honest negative.** These entries' labels are unchanged; the EPA material they cite is not presented as line-verified, and the failure mode is now documented so a later cycle knows the cause |
+| **S-264** (MDPI *International Journal of Financial Studies*) | The MDPI article page returned **HTTP 403** to a direct fetch on 20 October 2026 | **Honest negative.** Unchanged label; the MDPI 403 is the same failure mode the ledger already records for the S-313 journal version, and it is now confirmed rather than assumed |
+| **S-266** (EFMA report) | The EFMA page returned **HTTP 503 (service unavailable)** on 20 October 2026 | **Honest negative.** Unchanged label; a 503 is a transient server condition and is recorded as such, so it is not mistaken for a permanent block |
+| **S-174** (California Code of Regulations, title 17) | The fetch returned **HTTP 202 with a zero-byte body** on 20 October 2026 | **Honest negative.** Unchanged label; the regulation is cited through a secondary route, and this entry is not presented as directly parsed |
+
+**Cycle-85 identifier and ranking record.** **No `S-` identifier consumed** (twelve existing entries were
+verified, amended in place; **no new source entry was minted**); **no `IDEA-` identifier consumed**; **no `V-`
+identifier consumed**; **no `R-` identifier consumed**; **no `P-` identifier consumed**; **one `G-` identifier
+consumed (G-36, opened in `idea_register.md` under IDEA-011 and non-blocking)**. **G-36 was announced as
+"next free" in the Cycle-78 record and is now exercised by a real gap**, exactly as the Cycle-78 Repair 2
+rule requires — an identifier that has been announced in a prior cycle is **consumed rather than reused** —
+so **G-37** is the next free gap identifier. **No score changed** and
+**no rank changed**: the active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009
+(53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a terminal 55.0. The register
+still holds **321 verified sources** (S-001 … S-209 and S-220 … S-331), with S-210 … S-219 reserved and
+unused. **Next free identifiers: IDEA-017, S-332, V-012, G-37, R-049, P-015.**

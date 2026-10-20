@@ -4,7 +4,40 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 78 complete** (Cycle 78 added **no new source identifier and no new source entry**,
+Last updated: **Cycle 85 complete** (Cycle 85 added **no new source identifier and no new source entry**,
+minted **no new candidate** and **no new validation specification**, opened **one gap (G-36)** and closed
+**no gap**, and changed **no score**). The cycle's substantive work was a **rubric-arithmetic audit of the
+whole register** — every dimension statement in every artifact was checked against the register's own rule
+(`Weighted total = Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10). **IDEA-011 was the only
+dossier whose recorded profile disagreed with its recorded total**: the profile written into the artifacts
+from Cycle 35 onward — mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 3, data 4 — sums to
+70.0, while **69.0** is the total recorded for this candidate in every artifact since Cycle 16, and the
+profile is **the only** dimension statement in the register that fails the rule. The defect was traced to a
+**mis-targeted cell edit at the Cycle-16 commit** (the *data* cell was edited 5 → 4 instead of the
+*resilience* cell 3 → 2) and to the **per-dimension record for that re-score never having been written**; it
+was reconstructed from the repository's own history — the pre-Cycle-16 table row (4/3/3/4/3/5 = 72.0), the
+Cycle-16 commit's single-cell diff, the recorded **−3.0** magnitude, the re-score's own contemporaneous
+rationale (*"enforcement-regime concentration narrows the tradable drift"*, against the rubric dimension
+"Resilience to costs, capacity, regime"), the **falsifiability 4-versus-3** tie-break that resolved the
+IDEA-011/IDEA-004 tie, and the tie-resolution work the register performed on the 69.0 (Cycles 17, 18 and 29)
+— and
+**not** by changing the score. **The profile is corrected to 4/3/3/4/2/5 = 69.0; the total, the rank (1),
+the tie-break, every hard-stop flag, every gap and V-009 are unchanged.** The residual documentary question
+is registered as **G-36** — *is there any contemporaneous artifact, inside this repository's history or
+outside it, that names the dimension the Cycle-16 re-score moved?* — which is **narrow, dated and
+non-blocking**: it does not block V-009, does not re-open G-21 and does not change any ranking. Cycle 85's
+second operation was a **verification pass** that **upgraded ten entries in place** to line-verified
+(S-259, S-260, S-261, S-267, S-272, S-163, S-173, S-310, S-312, and S-325, whose accepted-version text layer
+**was** extracted this time, correcting the Cycle-78 "not extractable" note), **re-verified two** (S-317,
+S-318) and **recorded five honest negatives** (S-271, S-132/S-185/S-203, S-264, S-266, S-174); it also
+**corrected a stale figure** — the "24 studies (16 + 8)" count in S-312's own "Supports" bullet and in
+IDEA-009's dossier, which the Cycle-67 correction had superseded with 22 (15 + 7) but which had never been
+carried forward — and **two quotation-fidelity defects** in S-267's rendering (an IAS 8 paraphrase presented
+as a quotation, and a dropped word in the timing phrase), corrected in the ledger and in IDEA-011's Cycle-56
+block. **No verification upgrade changed any score, any rank, any hard-stop flag or any specification**,
+because the upgrades are provenance, not new evidence. The cycle's third operation was **lossless
+housekeeping** and the assessment of the known drifts, both recorded in `cycle_notes.md`.)
+Earlier history: **Cycle 78 complete** (Cycle 78 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **no gap** and closed **one
 gap (G-35)**, and changed **one score**: **IDEA-010 CREDIT-ETF was parked (P-014) with a terminal score of
 55.0**, executing the pre-registered kill condition of **G-34**, whose bounded literature operation ran in
@@ -24,7 +57,8 @@ also repaired **two state-integrity defects**: the **Cycle-77 block was missing 
 the cycle log** (the work was executed and recorded in the handoff and the ledger's Cycle-77 summary, but
 never written into the dossier body or `cycle_notes.md`), and **gap G-35 was announced in the Cycle-77
 handoff but never written into any artifact** — it is registered and closed here, so **G-36** is the next
-free gap identifier.) Earlier history: **Cycle 77 complete** (Cycle 77 executed **Priority 1 (G-34)** as a
+free gap identifier (*G-36 was subsequently consumed in Cycle 85 by the new, non-blocking gap opened under
+IDEA-011; **G-37** is the next free gap identifier*).) Earlier history: **Cycle 77 complete** (Cycle 77 executed **Priority 1 (G-34)** as a
 bounded literature operation and **the kill condition fired**: no published work decomposes a corporate-bond
 ETF's ETF–NAV discount into a transient and a mechanical component, and none identifies a published,
 decision-time discriminating state in that universe without the ETF→AP mapping; per the pre-registered
@@ -3307,7 +3341,10 @@ reversal after costs, and does it add anything to the published funding arbitrag
   clamping strength does not move funding-rate volatility monotonically — a percentile-based state is not stable
   even in principle.
 - **Supporting and contextual evidence now on file.** **S-312** (systematic review, peer-reviewed journal version):
-  the family carries a PRISMA-aligned review covering January 2021 – April 2026 (24 studies), whose most developed
+  the family carries a PRISMA-aligned review covering January 2021 – April 2026 (22 substantive studies — 15
+  peer-reviewed + 7 working papers — of which 13 are direct perpetual-futures studies and 6 adjacent behavioural
+  studies, the remaining three being the review's own methodological framing; *the "(24 studies)" figure that
+  stood here until Cycle 85 was the superseded Cycle-66 count, corrected in Cycle 67 and corrected here*), whose most developed
   streams are pricing/no-arbitrage and leverage/liquidation, in which direct evidence on classic behavioural
   constructs remains sparse, and whose named frontier is funding-rule design, spot spillovers, stress transmission
   and exchange-architecture comparison. **S-314** (NBER WP 30796): the funding rate is used as a market-wide proxy
@@ -4043,7 +4080,18 @@ re-scored to 68.0, enters the top three, and receives V-010
 - **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 16 — re-scored 72.0 → 69.0** on post-2010 drift-decay evidence (S-178, S-179), with the
-  enforcement-regime concentration of the effect narrowing the tradable drift.
+  enforcement-regime concentration of the effect narrowing the tradable drift. **Corrected in Cycle 85:**
+  the re-score moved the **resilience** dimension **3 → 2** (weight 15, −3.0); the *data* cell in the
+  shortlist table was mis-edited at that commit (5 → 4) and the mis-edit was carried into every
+  per-dimension breakdown from Cycle 35 on. **The total 69.0 was always correct and did not change** —
+  see the Cycle-85 record-repair block at the end of this dossier and gap **G-36**.
+  **v1.3 (Cycle 85) — rubric-profile record repair, no score change (69.0), rank 1 unchanged.** The
+  register's own rule is `Weighted total = Σ (dimension score × weight) / 5`; the profile recorded for
+  this candidate from Cycle 35 to Cycle 84 (4/3/3/4/3/4) sums to 70.0, not to the 69.0 recorded
+  everywhere else, and it is the **only** dimension statement in the register that fails the rule.
+  The corrected profile is **mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 2,
+  data 5 = 69.0**. No dimension moved in any cycle from 17 to 84, no rank changed, no tie-break
+  changed, and no hard-stop flag, gap, validation specification or source was affected.
   **v1.2 (Cycle 56) — G-32 limb (a) closed negative as specified, with the reason established; the
   handoff's proposed re-specification rejected on a documented instance; and a different
   re-specification — prospective arm A — specified and carried into V-009.** No score change (69.0),
@@ -4192,6 +4240,13 @@ re-scored to 68.0, enters the top three, and receives V-010
   quantity), novelty 3 → 3 (unchanged), falsifiability 4 → 4 (unchanged), resilience 3 → 3 (unchanged),
   data 4 → 4 (unchanged). **Rank 1, unchanged** (tied with IDEA-004 at 69.0 and ahead of it on
   falsifiability, 4 versus 3).
+  > **CORRECTED — Cycle 85 (record repair).** The **levels** of the last two dimensions in this
+  > breakdown are wrong: the true profile is **resilience 2 → 2** and **data 5 → 5** (the profile that
+  > sums to the recorded 69.0 under the register's own rule). The **"unchanged"** claim in both
+  > dimensions stands — nothing moved in Cycle 35 — and the score, the rank and the tie-break stand.
+  > The error is a mis-edited table cell at the Cycle-16 commit, not a mis-scoring here; the reasoning
+  > and the evidence in this block are unaffected. See the Cycle-85 record-repair block at the end of
+  > this dossier.
 
 #### Cycle 37 block — IDEA-011 · G-21 CONFIRMED null, and the comparison is now written so it can be handed over rather than re-searched
 
@@ -4317,6 +4372,12 @@ re-scored to 68.0, enters the top three, and receives V-010
   falsifiability 4 → 4 (**unchanged** — and now *better specified*, since the candidate must pre-register
   which premise it claims), resilience 3 → 3 (**unchanged**), data 4 → 4 (**unchanged** — the adoption
   calendar is published, and G-32 makes the *event* prospective rather than historical). **No re-score.**
+  > **CORRECTED — Cycle 85 (record repair).** The **levels** of the last two dimensions in this
+  > breakdown are wrong: the true profile is **resilience 2 → 2** and **data 5 → 5**. Both
+  > **"unchanged"** claims stand, as do the score, the rank and the pre-registration requirement.
+  > The error originates in a mis-edited table cell at the Cycle-16 commit and was copied forward from
+  > the Cycle-35 block; it does not bear on this cycle's reasoning. See the Cycle-85 record-repair
+  > block at the end of this dossier.
   **Rank 1, unchanged** (tied with IDEA-004 at 69.0 and ahead of it on falsifiability, 4 versus 3).
 - **Hard-stop flags — one added, one sharpened.**
   - **Added:** the candidate may **not** present the state-conditioned post-adoption information effect as
@@ -4392,7 +4453,7 @@ re-scored to 68.0, enters the top three, and receives V-010
     as the firm-level state.** The register's search for a decision-time state that measures the *size of
     the comparability break* — the candidate's own premise, and the thing the candidate lacked — found one
     in the standard-setter's own requirements. ESMA's Public Statement on the Implementation of IFRS 18
-    (ESMA32-193237008-9180) "draws attention to the requirements in **IAS 8 paragraphs 30 and 31**" on
+    (ESMA32-193237008-9180) **"draws issuers' attention to requirements in paragraphs 30 and 31 of IAS 8"** on
     disclosing an impending change in accounting policy where a new IFRS has been issued but is not yet
     effective, and notes that paragraph 30(b) requires disclosure of "known or reasonably estimable
     information relevant to assessing the possible impact that application of the new IFRS will have on the
@@ -4402,7 +4463,14 @@ re-scored to 68.0, enters the top three, and receives V-010
     or loss, information on the assessment of whether the issuer performs 'specified main business
     activities', and details on measures that are expected to meet the definition of an MPM", and it
     "encourages" issuers to include "the (expected) change in 2026 operating profit or loss and/or in other
-    subtotals" (S-267). This yields a state that is **firm-level** (so it does not collide with the
+    subtotals" (S-267).
+    > **CORRECTED — Cycle 85 (quotation fidelity).** The quotation above was a **paraphrase presented as a
+    > quotation**: the statement's words are **"ESMA draws issuers' attention to requirements in paragraphs
+    > 30 and 31 of IAS 8"**, not *"draws attention to the requirements in IAS 8 paragraphs 30 and 31"*. The
+    > quotation is corrected above. The **substance is unchanged** — and it is strengthened, because the
+    > ESMA-hosted PDF was fetched directly and line-verified in Cycle 85 (S-267's verification label moves
+    > from "index-rendered" to "line-verified"). **No score, rank, flag, gap or specification changes.**
+    This yields a state that is **firm-level** (so it does not collide with the
     country-level conditioners S-221 and S-252, which become absorbed within jurisdiction), **published**,
     **dated** (it precedes application), **not real-time** (it arrives in periodic reports), and — decisively
     — it is a *direct* measure of the size of the comparability break rather than a proxy for information
@@ -4424,6 +4492,10 @@ re-scored to 68.0, enters the top three, and receives V-010
     *better specified*, because arm A has a published, dated, firm-level state and a pre-registered
     separation requirement), resilience 3 → 3, data 4 → 4 (the event is prospective and the *state* is
     published in principle, though its quantification is the open G-33). **No re-score.**
+    > **CORRECTED — Cycle 85 (record repair).** The **levels** of the last two dimensions in this
+    > breakdown are wrong: the true profile is **resilience 2 → 2** and **data 5 → 5**. Both
+    > "unchanged" readings stand, as do the score, the rank, the G-33 argument and the two hard-stop
+    > flags. See the Cycle-85 record-repair block at the end of this dossier.
   - **Hard-stop flags — one added, one sharpened.**
     - **Added:** the candidate may **not** use the group A/group B partition inside the IFRS 18 window —
       limb (a) is closed negative as specified, and a validator must not re-derive it. The only IFRS 18
@@ -4558,6 +4630,10 @@ IFRS basis.
       design structure now explains why: mandatory-adoption studies are first-time-adopter studies by
       construction); falsifiability 4 → 4 (unchanged, and *better specified*, because the candidate must
       now pre-register the transition-window reading); resilience 3 → 3; data 4 → 4. **No re-score.**
+      > **CORRECTED — Cycle 85 (record repair).** The **levels** of the last two dimensions in this
+      > breakdown are wrong: the true profile is **resilience 2 → 2** and **data 5 → 5**. Both
+      > "unchanged" readings stand, as do the score, the rank, the no-re-score finding and the new
+      > hard-stop flag. See the Cycle-85 record-repair block at the end of this dossier.
     - **New hard-stop flag — added.** The candidate may **not** present a *steady-state* comparability or
       information-quality result as support for a *transition-window* drift claim. S-294 and S-295 measure
       post-adoption levels; the candidate's claim is about the transition. Any validation must pre-register
@@ -4613,6 +4689,114 @@ IFRS basis.
       **no `V-` identifier consumed** — V-009 was **not** amended in Cycle 59, because the Cycle-58
       amendment already carries the comparator-as-contribution reading and the transition-window
       pre-registration.
+      > **CORRECTED — Cycle 85 (record repair).** The **levels** of the last two dimensions in this
+      > breakdown are wrong: the true profile is **resilience 2 → 2** and **data 5 → 5**. Both
+      > "unchanged" readings stand, as do the score, the rank and the no-`V-`-identifier finding. See
+      > the Cycle-85 record-repair block below.
+
+  - **Cycle 85 (2026-10-20) — rubric-profile record repair: the profile is corrected to the one that
+    sums to the recorded 69.0; the score, the rank, the tie-break and every flag are unchanged; and the
+    residual documentary question is registered as gap G-36.**
+    - **What was found.** A register-wide arithmetic check was run this cycle over **every** dimension
+      statement in every artifact, applying the register's own rule (`Weighted total = Σ (dimension
+      score × weight) / 5`, weights 25/20/15/15/15/10). **IDEA-011 was the only dossier whose recorded
+      profile disagrees with its recorded total.** The profile written into the artifacts from Cycle 35
+      onward — mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 3, data 4 — sums to
+      **70.0**, while **69.0** is the total recorded in every artifact for this candidate since Cycle 16.
+      Every other dossier in the register passes the check, and so do the register's other eight
+      re-scores (IDEA-003 C32, IDEA-004 C13/C72/C75, IDEA-009 C66, IDEA-010 C6/C78, IDEA-014 C58) —
+      in each of those the dimension named in the prose is the dimension whose cell moved, and the total
+      equals the computed sum.
+    - **How the record was reconstructed.** The per-dimension record for the Cycle-16 re-score was never
+      written, so the profile was reconstructed from the repository's own history, not inferred from the
+      broken table alone. The reconstruction rests on five independent pieces of evidence, all of them
+      contemporaneous:
+      1. **The table before Cycle 16.** The shortlist table row at the pre-Cycle-16 commit reads
+         `4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 5 → 10.0 | 72.0` — that is, the
+         pre-re-score profile was **mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 3,
+         data 5 = 72.0**, and the *data* cell was **5**.
+      2. **The Cycle-16 edit.** The Cycle-16 commit changed exactly one dimension cell in the table —
+         the *data* cell, 5 → 4 — and the total cell, 72.0 → 69.0, and left every other cell alone. The
+         edit and the total **contradict each other**: a data fall of one point is worth **−2.0**, which
+         gives 70.0, not 69.0.
+      3. **The recorded magnitude.** The recorded re-score is **−3.0**. Under the fixed weights only a
+         weight-15 dimension can fall by 3.0, so the moved dimension is one of **novelty,
+         falsifiability or resilience** — and the re-score's own stated rationale names the regime:
+         *"decay evidence reduces persistence; **enforcement-regime concentration narrows the tradable
+         drift**"*, against the rubric dimension **"Resilience to costs, capacity, regime"**.
+      4. **Two exclusions, both from the register's own record.** *Novelty* is excluded because the
+         candidate's per-candidate bullet **"Substantive novelty (3/5)"** was never changed and the
+         Cycle-35 block records "novelty 3 → 3"; the re-read was about the *size* of the effect, not
+         about the candidate's originality. *Falsifiability* is excluded because the tie-break that
+         resolved the IDEA-011/IDEA-004 tie at 69.0 was explicitly **"on falsifiability, 4 versus 3"** —
+         so falsifiability was 4 for this candidate and 3 for IDEA-004, and it cannot have fallen to 3.
+         *Mechanism* and *evidence* are excluded by magnitude (a mechanism point is 5.0 and an evidence
+         point is 4.0; neither can produce −3.0 without another move that the record does not show).
+      5. **The contemporaneous handoff.** The Cycle-16 handoff itself records the decision as
+         **"decay evidence reduces persistence; enforcement-regime concentration narrows the tradable
+         drift"**, records the new total as **69.0**, and makes the *next* cycle's first priority
+         **"Resolve the IDEA-011 / IDEA-004 tie at 69.0"**. Cycles 17, 18 and 29 are recorded as
+         tie-resolution passes on that 69.0, and the Cycle-35 block breaks it **in IDEA-011's favour on
+         falsifiability (4 versus 3)**. The total 69.0 is therefore not a number the register merely
+         wrote down: it is the number the register **acted on** — it is the number the tie was broken on,
+         it is the number Cycles 17, 18 and 29 spent their passes resolving, and it stood as the recorded
+         total of **both** candidates in the tie until IDEA-004's Cycle-72 re-score to 66.0 broke it by
+         score.
+      The only element of the record that contradicts all of this is the single mis-targeted **data** cell
+      in the Cycle-16 table edit — and that cell was then copied into every per-dimension breakdown from
+      Cycle 35 on, which is how the inconsistency entered the prose. The **rejected alternative** is
+      recorded for audit: reading the Cycle-16 edit literally (data 5 → 4) would make the true total
+      **70.0**, but that reading would require the recorded 69.0, the tie-resolution work (Cycles 17, 18 and 29)
+      and the falsifiability tie-break to be all wrong, and it cannot produce the recorded −3.0 from a
+      weight-10 dimension.
+    - **The corrected profile.** **Mechanism 4, evidence 3, novelty 3, falsifiability 4, resilience 2,
+      data 5 = 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = 69.0.** The total is **unchanged at 69.0**; the
+      rank is **unchanged at 1**; the tie with IDEA-004 at 69.0 and its falsifiability tie-break are
+      **unchanged**; no hard-stop flag, gap, validation specification, source, publication condition or
+      research priority is affected; and **no dimension moved in any cycle from 17 to 84**, exactly as
+      those cycles' "no score change" statements say. The candidate remains **blocked** on the
+      group A/group B partition with the event-count hard stop **unrelieved**; G-21 remains a null
+      handed to validation; V-009 remains the executable specification, unamended; and the Cycle-59
+      state is untouched.
+    - **What was corrected where, and what was left alone.** The **current-state** surfaces are corrected
+      in place: the maintained shortlist table row, the candidate's per-candidate rubric bullets, the
+      shortlist's rubric section, and this dossier's change notes. The **historical** per-dimension
+      breakdowns (Cycles 35, 37, 52, 56, 58 and 59) are **not silently rewritten**; each carries a
+      dated correction notice stating that the two levels are wrong and that the "unchanged" claims, the
+      scores, the ranks and the reasoning all stand. The Cycle-76 alignment of this candidate's data
+      bullet (which moved 5/5 → 4/5 to match the mis-edited table cell) is **reversed**, with the
+      Cycle-76 note retained and marked as superseded, because that cycle explicitly did not re-score and
+      took the table as authority.
+    - **Residual question, registered as gap G-36.** The Cycle-16 per-dimension record **was never
+      written** — verified file by file and against the full git history — so the identity of the moved
+      dimension is a **forced inference** rather than a quotation. The inference is over-determined (five
+      independent constraints, above) and its two competing readings are both excluded by the register's
+      own record, but it remains an inference. **G-36** therefore asks: *is there any contemporaneous
+      artifact — inside this repository's history or outside it — that names the dimension the Cycle-16
+      re-score moved?* It is **narrow, dated and non-blocking**: if such a record is ever found and it
+      names a dimension other than resilience, the profile and the total must both be re-derived and the
+      correction above withdrawn. If no such record exists, the reconstruction stands as the register's
+      best evidence and G-36 closes as a negative. **G-36 does not block V-009, does not re-open G-21,
+      and does not change any ranking.** **The routes already tried and exhausted, so that the next agent
+      does not re-try them.** (i) *The repository's own history*: every artifact at every commit was
+      searched, and the full git history of the shortlist table row was reconstructed commit by commit —
+      the pre-Cycle-16 row, the Cycle-16 edit, and every later version. The only contemporaneous document
+      is the **Cycle-16 handoff**, and it records the *rationale* ("decay evidence reduces persistence;
+      enforcement-regime concentration narrows the tradable drift") and the *total* (69.0), but it **never
+      names the dimension**; it also records the ranking as "6 ranked (69 / 71 / 69 / 65 / 60 / 60)" and
+      makes the tie at 69.0 the next cycle's first priority, which is the strongest possible corroboration
+      of the total. (ii) *The Cycle-16 session transcript*: the environment's local session archive holds
+      only **twelve sessions**, the earliest of which is the Cycle-78 session, so the Cycle-16 working
+      session is **not present** and this route is closed as unavailable rather than as failed. (iii) *The
+      per-candidate rubric bullets*: they were written in Cycles 4–6, before the Cycle-16 re-score, and were
+      never updated for it, so they cannot name the moved dimension either — and the Cycle-76 agent's
+      alignment of the *data* bullet to the mis-edited table cell is a **downstream** artefact of the error,
+      not independent evidence for it. **What remains open** is therefore narrow: a record from *outside*
+      this repository's history and outside the local session archive that names the dimension.
+    - **Nothing else was touched.** No candidate was created, no score changed, no source was minted, no
+      validation specification was created, amended or withdrawn, no gap was closed, and the cycle's
+      other work — the verification pass and the lossless housekeeping — is recorded separately in
+      `cycle_notes.md` and in `source_ledger.md`.
 
 ---
 
