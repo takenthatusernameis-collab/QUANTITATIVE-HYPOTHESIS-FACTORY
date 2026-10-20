@@ -1591,3 +1591,14 @@ advice):
   3. **No clean harvestable residual found.** The strict bar (published before decision, sign-determining, not public real-time by-product) was not met by any specific mechanism surfaced in the bounded screen.
 - **Dated re-screen condition.** Re-screen if a specific, published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
 - **Decision:** bounded negative (R-033). No dossier created; no IDEA- identifier consumed; no score changed.
+
+### R-034 — Prediction-market settlement manipulation / circuit-breaker price-discovery family (Cycle 55 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-033: settlement-manipulation footprints in prediction markets that settle on snapshot/average asset prices, and circuit-breaker-constrained price discovery around scheduled macro news (dynamic circuit breakers, velocity logic, price limits).
+- **Why no candidate.**
+  1. **Published, and the published remedy is the mechanism.** Settlement-footprint manipulation is documented and its remedy (switching snapshot settlement to a time-weighted average price) is shown to eliminate the footprint; the residual is a market-design finding, not an unclaimed sign-determinable price concession to a third-party liquidity provider.
+  2. **Circuit-breaker effects are published and sign-ambiguous.** Breaking-news dynamic circuit breakers create overshooting and transition distortions; the sign depends on the specific rule and news, and the effect is a real-time by-product of the intervention rather than a pre-published decision-time state with a clean harvestable residual.
+  3. **No clean decision-time state.** The sign-determining state (whether a breaker triggers, or whether settlement is snapshot vs average) is not a published, pre-decision variable a trader conditions on for a harvestable concession; it is an execution/market-design outcome.
+  4. **No unclaimed residual meeting the strict bar.** Published before decision, sign-determining, not a public real-time by-product — not met for either sub-family.
+- **Dated re-screen condition.** Re-screen if a specific published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
+- **Decision:** bounded negative (R-034). No dossier created; no IDEA- identifier consumed; no score changed.
