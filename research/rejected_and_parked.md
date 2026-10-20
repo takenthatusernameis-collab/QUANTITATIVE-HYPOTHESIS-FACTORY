@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 47 complete, 2026-10-20. **26 rejections (R-001 … R-027), 12 parkings
+Last updated: Cycle 48 complete, 2026-10-20. **27 rejections (R-001 … R-028), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
@@ -322,6 +322,16 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
   3. **No unclaimed sign** — the mechanism's effect direction is published; no residual unclaimed.
   4. **Effective sample limited** — crossings are discrete, firm-level events; not a scalable securities×dates design.
 - **Decision:** bounded negative (R-027). No dossier created; no IDEA identifier consumed; no score changed.
+
+### R-028 — IPO lock-up expirations (Cycle 48 family screen — bounded negative)
+
+- **The family screened.** Scheduled expiration of IPO lock-up agreements creating predictable insider/affiliate supply.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale:**
+  1. **Published baseline** — lock-up expirations produce predictable selling pressure; effects are documented in literature.
+  2. **Discretionary flow** — insiders/affiliates choose whether and when to sell (subject to insider trading rules), so flow is not fully price-insensitive/non-discretionary; announcement is in prospectus but execution is discretionary.
+  3. **Anticipation and costs** — effects are anticipated and widely studied; no unclaimed sign survives strict bar for a harvestable third-party concession.
+- **Decision:** bounded negative (R-028). No dossier created; no IDEA identifier consumed; no score changed.
 
 ## Parked (not rejected; blocked on a specific question)
 

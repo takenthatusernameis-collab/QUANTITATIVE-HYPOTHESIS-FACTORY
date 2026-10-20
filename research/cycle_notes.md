@@ -223,3 +223,22 @@ Theory-only cycle executing the six priorities from the Cycle-42 handoff. No tes
 4. **New mechanism family screen — margin-schedule switch (R-023).** Screened CME SPAN 2 margin parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates) and CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional). Bounded negative: changes are published in advance (G-13 passes) but affect all participants broadly as cost/risk controls, not a third-party forced flow creating a harvestable concession; constrained response is margin calls/liquidation; effective sample is small number of changes; known baseline. No candidate, no dossier, no score change.
 
 5. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-023. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-024, P-014.
+
+
+## Cycle 48 — 2026-10-20
+Theory-only cycle executing the priorities from the Cycle-47 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) G-30 confirm exhaustion, no re-probe; (2) G-28 keep frozen; (3) G-21 and IDEA-014 maintain verdicts; (4) one new family screen (IPO lock-up expirations), log as R-028; (5) wrap up.
+
+**Pass 2 — Critique.** IPO lock-up family is well-studied; lock-up expirations create predictable supply but insiders/affiliates have discretion over selling, flow not fully price-insensitive/non-discretionary, effects anticipated and widely documented. Expect bounded negative.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+1. **G-30 (IDEA-010)** — routes outside statutory prospectus remain exhausted (not found). Confirmed. V-010 non-executable.
+2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. Null recorded.
+3. **G-21 (IDEA-011) and IDEA-014 state-free limb** — null and inconclusive maintained.
+4. **New mechanism family screen — IPO lock-up expirations (R-028).** Bounded negative: published baseline, discretionary flow, anticipated, no unclaimed sign. No candidate, no dossier, no score change.
+5. **No score changed.** Active ranking unchanged. New identifier consumed: R-028. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-029, P-014. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from files; handoff rewritten for Cycle 49.

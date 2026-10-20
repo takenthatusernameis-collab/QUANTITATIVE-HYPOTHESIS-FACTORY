@@ -1,12 +1,12 @@
 # DURABLE HANDOFF — NEXT AGENT
 
-Last updated: 2026-10-20, Cycle 47 complete. Cycle 47 executed priorities: confirmed G-30 routes exhausted (not found); kept G-28 frozen; maintained G-21/IDEA-014 verdicts; ran new mechanism family screen (rating-threshold crossing / fallen-angel, logged as R-027, bounded negative). No score changed. One identifier consumed: R-027.
+Last updated: 2026-10-20, Cycle 48 complete. Cycle 48 executed priorities: confirmed G-30 routes exhausted (not found); kept G-28 frozen; maintained G-21/IDEA-014 verdicts; ran new mechanism family screen (IPO lock-up expirations, logged as R-028, bounded negative). No score changed. One identifier consumed: R-028.
 
-**What Cycle 46 did, in one paragraph.** (1) **G-30 (IDEA-010)** — all routes outside statutory prospectus exhausted with NOT FOUND (regulatory closed Cycle 41, sponsor lists not found Cycle 42, non-US issuers not found Cycle 42, exchange listing rules no public disclosure requirement Cycle 43). V-010 remains non-executable. (2) **G-28 frozen, V-002 frozen.** (3) **G-21 and IDEA-014's state-free limb** — null/inconclusive maintained. (4) **R-026 — exchange fee/schedule change creating temporary concession family:** bounded negative (published in advance, broad-based cost change, no third-party concession flow). No score change.
+**What Cycle 47 did, in one paragraph.** (1) **G-30 (IDEA-010)** — all routes outside statutory prospectus exhausted with NOT FOUND (regulatory closed Cycle 41, sponsor lists not found Cycle 42, non-US issuers not found Cycle 42, exchange listing rules no public disclosure requirement Cycle 43). V-010 remains non-executable. (2) **G-28 frozen, V-002 frozen.** (3) **G-21 and IDEA-014's state-free limb** — null/inconclusive maintained. (4) **R-027 — rating-threshold crossing / fallen angel:** bounded negative (published baseline, anticipated, constrained sellers with mandates, no unclaimed third-party concession mechanism). No score change.
 
 ## 1. State of the pipeline
 
-Counts re-derived from the artifact files (Cycle 46 complete):
+Counts re-derived from the artifact files (Cycle 48 complete):
 
 | Item | Status |
 | --- | --- |
@@ -14,10 +14,10 @@ Counts re-derived from the artifact files (Cycle 46 complete):
 | Ranked shortlist | 5 ranked — **IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0** |
 | Source ledger | **236 verified sources** (S-001 … S-209, S-220 … S-246); S-210 … S-219 reserved and unused |
 | Validation hand-offs | 10 specs (V-001 … V-010). **Executable: V-008, V-009, V-010** (V-010 amended in Cycle 40 — may not be executed against corporate-bond ETF state until G-30 produces a route). V-002 **frozen** (G-28). V-003 **never-to-execute**. Withdrawn: V-001, V-004, V-005, V-006, V-007 |
-| Rejected / parked | **26 rejections** (R-001 … R-027) and **12 parkings** (P-001 … P-012); P-013 reserved and unused |
+| Rejected / parked | **27 rejections** (R-001 … R-028) and **12 parkings** (P-001 … P-012); P-013 reserved and unused |
 | Known-baseline table | **62 rows** |
 | Gaps | G-01 … G-30 defined (G-17 skipped, G-26 reserved and unused). **Open: G-01, G-04, G-21, G-28, G-30.** G-27 closed at filer level in Cycle 40; G-29 closed as bounded negative in Cycle 40; G-30 **all routes exhausted with not found in Cycles 41-46** |
-| Next free identifiers | **IDEA-017, S-247, V-012, G-32, R-028, P-014** |
+| Next free identifiers | **IDEA-017, S-247, V-012, G-32, R-029, P-014** |
 
 ## 2. Highest-priority unresolved theoretical questions
 
@@ -28,15 +28,15 @@ Counts re-derived from the artifact files (Cycle 46 complete):
 5. **IDEA-014's state-free existence limb** — inconclusive; no effort without new source.
 6. **G-01 (IDEA-002)** — feasibility precondition for funding-state proxy; open.
 
-## 3. Best next research task (Cycle 47)
+## 3. Best next research task (Cycle 49)
 
 Execute in order:
 
 1. **G-30 (IDEA-010) — confirm exhaustion, no re-probe of statutory filings (G-29 closed).** If any genuinely new route appears in reading (unlikely), assess; otherwise record confirmation of not found and all sub-routes closed.
 2. **G-28 (IDEA-004) — keep frozen.** Only act if published convergence-crowd concentration measure found; else record null.
 3. **G-21 (IDEA-011) and IDEA-014's state-free limb** — no effort without new source.
-4. **One new mechanism family screen**, genuinely different from families already closed (R-014–R-026). Candidate templates: information-mandate timing with third-party flow (narrow), or exchange rule changes creating targeted concession. Screen against literature first, log bounded negatives as R-027+ with full rationale.
-5. **Wrap up.** Update all artifacts, keep three-pass loop in cycle log, re-derive counts/identifiers from files, rewrite handoff with next priorities and fresh initial task message for Cycle 48. Check artifacts against each other before finishing.
+4. **One new mechanism family screen**, genuinely different from families already closed (R-014–R-028). Candidate templates: information-mandate timing with third-party flow (narrow), or exchange rule changes creating targeted concession. Screen against literature first, log bounded negatives as R-029+ with full rationale.
+5. **Wrap up.** Update all artifacts, keep three-pass loop in cycle log, re-derive counts/identifiers from files, rewrite handoff with next priorities and fresh initial task message for Cycle 50. Check artifacts against each other before finishing.
 
 ## 4. Initial task message for the next agent (copy verbatim)
 
@@ -61,13 +61,13 @@ IDEA-004 69.0 rank 2, IDEA-010 68.0 rank 3, IDEA-009 60.0, IDEA-014 52.0), 6 par
 236 verified sources (S-001 … S-209, S-220 … S-246; S-210 … S-219 reserved and unused). 10 validation
 specs (V-001 … V-010): V-008, V-009, V-010 executable (V-010 amended in Cycle 40 — may not be
 executed against a corporate-bond ETF state until G-30 produces a route); V-002 frozen; V-003
-never-to-execute; V-001, V-004–V-007 withdrawn. 25 rejections (R-001 … R-027), 12 parkings (P-001 …
+never-to-execute; V-001, V-004–V-007 withdrawn. 27 rejections (R-001 … R-028), 12 parkings (P-001 …
 P-012; P-013 reserved), 62 baseline rows. Gaps G-01 … G-30; open G-01, G-04, G-21, G-28, G-30;
 G-27 closed at filer level in Cycle 40 and G-29 closed as a bounded negative in Cycle 40; G-30
 all routes exhausted with not found in Cycles 41-46. Next free identifiers: **IDEA-017, S-247,
-V-012, G-32, R-027, P-014**. This cycle is **Cycle 48**.
+V-012, G-32, R-029, P-014**. This cycle is **Cycle 49**.
 
-**What Cycles 43-46 established.** G-30 (IDEA-010): all routes outside statutory prospectus exhausted
+**What Cycles 43-48 established.** G-30 (IDEA-010): all routes outside statutory prospectus exhausted
 with NOT FOUND (regulatory 17 CFR 270.6c-11, sponsor lists for major US corporate-bond ETF issuers,
 non-US issuers/UCITS, exchange listing rules — no public disclosure requirement). No published
 primary-source route exists; V-010 non-executable against corporate-bond ETF universe; do not re-run
@@ -76,7 +76,7 @@ from 2,419 distinct filers, lower bound; annual for most private APs, quarterly 
 not indexed by EDGAR). G-28 frozen; V-002 frozen; crowding literature complete (S-026, S-157, S-222,
 S-241, S-242, S-243). G-21 null confirmed; IDEA-014 state-free limb inconclusive. Bounded negatives
 logged: R-023 (margin-schedule switch), R-024 (capacity/inventory-switch constraint), R-025
-(tax/settlement-mandate switch), R-026 (exchange fee/schedule change creating temporary concession), R-027 (rating-threshold crossing / fallen angel).
+(tax/settlement-mandate switch), R-026 (exchange fee/schedule change creating temporary concession), R-027 (rating-threshold crossing / fallen angel), R-028 (IPO lock-up expirations).
 
 **Execute these priorities in order.**
 1. **G-30 (IDEA-010)** — confirm routes outside statutory prospectus remain exhausted; no re-probe of
@@ -85,12 +85,12 @@ logged: R-023 (margin-schedule switch), R-024 (capacity/inventory-switch constra
    concentration measure found.
 3. **G-21 (IDEA-011) and IDEA-014's state-free limb** — no effort without new source; maintain recorded
    null and inconclusive verdicts.
-4. **One new mechanism family screen**, genuinely different from families closed (R-014–R-026). Apply
-strict bar (published decision-time state, unclaimed sign, no published baseline, feasible clean test);
-log bounded negatives as R-027+. Screen against literature first.
+4. **One new mechanism family screen**, genuinely different from families closed (R-014–R-028). Apply
+   strict bar (published decision-time state, unclaimed sign, no published baseline, feasible clean test);
+   log bounded negatives as R-029+. Screen against literature first.
 5. **Wrap up.** Update all artifacts, keep three-pass loop in cycle log, re-derive counts/identifiers,
    rewrite handoff with re-derived counts, next priorities, and fresh verbatim initial task message for
-   Cycle 48. **Check artifacts against each other before finishing.**
+   Cycle 49.
 
 **Standing rules.** Read handoff and register before generating anything; preserve prior work. Every
 external claim points to source-ledger entry with verification method. Re-derive all counts and
