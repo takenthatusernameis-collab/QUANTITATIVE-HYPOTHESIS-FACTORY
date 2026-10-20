@@ -2202,3 +2202,22 @@ Theory-only cycle executing the four priorities from the Cycle-87 handoff. No te
 6. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 88 banner, re-derived counts and identifiers, the frozen/exhausted/dated items restated, the three verification debts marked **closed (two) / partially closed (one)**, and a fresh, self-contained initial task message for the next agent.
 
 **No score changed.** Active ranking unchanged: **IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4)**; IDEA-010 parked (P-014) at a terminal 55.0. **No gap opened and none closed. No `IDEA-`, `V-` or `G-` identifier consumed. One `R-` identifier consumed (R-050), one `P-` identifier free (P-015), thirteen `S-` identifiers consumed (S-337 … S-349).**
+
+
+## Cycle 90 — 2026-10-20
+Theory-only cycle executing priorities from Cycle 89 handoff. No tests, no data acquisition, no strategy/signal implementation, no workflow changes, no modification of canonical prompt, no trading.
+
+### Three-pass task-framing loop
+**Pass 1 — Draft.** Execute in order: (1) maintain frozen/exhausted/dated items as they stand; (2) one bounded, pre-registered screen for a genuinely new mechanism family from the named absent families (interval funds/private-credit interval funds, CEF premium side, cat bonds, electricity derivatives, freight derivatives, municipal bonds), skipping the slot rather than padding it; (3) lossless housekeeping and a rubric-arithmetic re-run reported in the cycle log; (4) wrap up with a rewritten handoff and fresh initial task message, re-deriving every count and identifier.
+
+**Pass 2 — Critique.** Catastrophe (CAT) bonds/ILS were absent from the known-baseline table and from earlier screens; they satisfy the "genuinely new mechanism family" bar. Apply strict pre-registered decision rule (G-12/G-13, published decision-time state, sign/existence vs magnitude only, structural blockers, effective sample). Expected outcome is likely bounded negative due to illiquidity, trigger resolution lags, no published decision-time state changing sign/existence after costs.
+
+**Pass 3 — Revise.** Screen performed per rule. No sources fetched; theory-only screen logged.
+
+### Outcomes
+1. **Frozen/exhausted/dated items maintained as they stand.** G-21 handed to validation (V-009), G-28 frozen (V-002), G-30 exhausted (V-010 never-to-execute), IDEA-014 state-free limb inconclusive, IDEA-010 parked (P-014). No changes.
+2. **One bounded, pre-registered screen — catastrophe bonds (ILS), bounded negative (R-041).** Family screened: CAT bonds with trigger-based structures paying spreads above expected loss, limited secondary liquidity, delayed trigger resolution. No published decision-time state found that changes sign/existence of a tradeable edge after costs; risk premium is a documented baseline; structural factors (illiquidity, long resolution lags, model dependence) bind. **R-041 added** to `rejected_and_parked.md`; **known-baseline table row 88 added**. No `S-` identifiers consumed, no dossier created, no candidate created, no gap opened.
+3. **Lossless housekeeping and rubric-arithmetic re-run.** Counts re-derived: ideas 15 (IDEA-001–015), sources 343 unique (S-001–350 range covered), validations 10 (V-001–010), rejections 51 (R-001–R-051), parkings 13 (12 active), known-baseline 88 rows. Rubric totals unchanged (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-009 53.0 rank 3, IDEA-014 52.0). No score/rank/tie-break/flag changed.
+4. **Wrap-up.** Handoff rewritten with re-derived counts and fresh initial task message for Cycle 91.
+
+**Identifiers consumed in Cycle 90:** R-041, baseline row 88. **Next free identifiers:** IDEA-017, S-351, V-012, G-37, R-052, P-015.
