@@ -10,8 +10,8 @@ own prediction** (S-310, S-311, S-319, S-320) plus a **systematic review of the 
 **pricing, clamp and venue-rule** record (S-315, S-316, S-317, S-318, S-321); and (ii) **one new state-kind
 screen** — the **published clamp/cap band of a continuously published state** (template I) — logged as a **bounded
 negative (R-046)** on five independent reasons. **V-008 was amended, not re-created.** **No `G-` identifier was
-opened and no gap was closed.** The register now holds **S-001 … S-209** and **S-220 … S-322** — **312 verified
-sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-323,
+opened and no gap was closed.** The register now holds **S-001 … S-209** and **S-220 … S-324** — **314 verified
+sources**; the identifiers **S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-325,
 V-012, G-34, R-047, P-014.**
 
 Cycle 65 (2026-10-20) added **no new source identifier** and minted **no new source entry** — its
@@ -7694,9 +7694,10 @@ document unless the entry says so.**
   hazard-ratio and survival-timing definitions are not verifiable from this record.
 - **Verification:** Crossref REST API (DOI, title, author, year 2026, type "posted-content") — **the
   DOI is now independently Crossref-confirmed** (Cycle-67; first attempt returned HTTP 429, retry
-  succeeded). The SSRN landing page returned **HTTP 403** to a direct fetch, so the abstract wording
-  above is **index-rendered**, not line-verified. *Cycle-66 debt closed: the entry previously recorded
-  that the DOI "was not independently confirmed".*
+  succeeded). **Cycle 70: Crossref returned the full deposited abstract**, so the abstract wording above
+  is **Crossref-deposited**, not index-rendered. The SSRN landing page still returned **HTTP 403** to a
+  direct fetch, so no line-verification of the full paper text was possible. *Cycle-66 debt closed: the
+  entry previously recorded that the DOI "was not independently confirmed".*
 
 ### S-312 — Neubert, M., Rams, W., Gruhn, P. and Lötscher, M. (2026)
 "Behavioral Finance in Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review."
@@ -8628,6 +8629,28 @@ falsifiability (4 versus 3). The register's shape is unchanged: five active doss
 New identifiers consumed: **S-310 … S-322** and **R-046**. **V-008 was amended, not re-created.** No `IDEA-` or `G-`
 identifier was consumed or opened. **Next free identifiers: IDEA-017, S-323, V-012, G-34, R-047, P-014.**
 
+---
+
+## Cycle 70 gap verdicts
+
+Cycle 70's verdicts are recorded here in the file's standard form. **No score changed, no candidate was created,
+no gap was opened and no gap was closed.**
+
+| Gap / limb | Candidate | Cycle-70 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Maintained as frozen structural null.** No re-run/search. V-002 frozen. | **G-28 remains OPEN and FROZEN.** No score change. (69.0, rank 2.) |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Hand off to validation; no re-search.** V-009 not amended. | **No score change.** (69.0, rank 1.) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Confirmed exhausted; V-010 non-executable.** No re-probe. | **No score change.** (68.0, rank 3.) |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Evidence-currency sweep completed (Cycle 70).** EPA proposed rule S-324 (91 FR 65699–65711, 2026-10-16, RIN 2060-AX09) reallocates additional 2025 small-refinery exemptions under the RFS and triggers a potential automatic compliance-deadline extension under 40 CFR 80.1451(f)(1)(i)(C). No published work conditions the candidate's effect on a second variable, tests the candidate's sign claim, or changes the baseline. G-20 and G-24 conclusions stand; G-15 remains inconclusive. | **No gap opened.** IDEA-014 stays at 52.0, rank 5. |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action in this cycle. |
+
+**Cycle-70 identifier and ranking record.** No candidate was created. No score changed for any candidate.
+The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0,
+rank 3), IDEA-009 (53.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3). The register's shape is unchanged: five active dossiers, five parked, five
+rejected. New identifiers consumed: **S-324** only. No `V-`, `IDEA-` or `G-` identifier was consumed
+or opened. **Next free identifiers: IDEA-017, S-325, V-012, G-34, R-047, P-014.**
+
 ### S-323 — Dinger, J., Müller, M., Rzeźnik, A. and Uhrig-Homburg, M. (2025)
 "Same Same But Different: The Risk Profile of Corporate Bond ETFs."
 FoFI 2026 Conference Paper (Karlsruhe Institute of Technology / Schulich School of Business / Lancaster), December 2025.
@@ -8636,3 +8659,26 @@ FoFI 2026 Conference Paper (Karlsruhe Institute of Technology / Schulich School 
 - **Why it matters for IDEA-010:** adds a published **intermediary-risk premium** dimension (the candidate's dossier did not carry it as fully specified) and quantifies the AP-capital channel the candidate relies on, with numbers consistent with the mechanism. Also documents extreme concentration (top-3 ~95%, ~4 active of ~30) reinforcing fragility.
 - **Caveats:** conference paper/preprint; results author-reported. PDF text-extracted via pypdf from FoFI site; full econometric details not line-quoted beyond the summary above.
 - **Verification:** Retrieved directly from http://wp.lancs.ac.uk/fofi2026/files/2026/03/FoFI-2026-108-Marcel-Mueller.pdf (2026-10-20); text-extracted with pypdf; Crossref/DOI not located as of entry time (treat as conference preprint). Verification: **direct fetch + text extraction**.
+
+### S-324 — U.S. Environmental Protection Agency (2026)
+"Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions." Proposed
+rule. Federal Register doc. 2026-21155, 91 FR 65699–65711 (published 16 October 2026). Docket EPA-HQ-OAR-2024-0505,
+RIN 2060-AX09.
+- **Type:** Regulator proposed rule; not peer-reviewed research; government document.
+- **Supports (for IDEA-014):** the EPA's proposed rule reallocates additional 2025 small-refinery exemptions (SREs)
+  under the Renewable Fuel Standard. It confirms the Register-projected 2025 exempted RVO of 990 million RINs against
+  actual exempted volume of 1.76 billion RINs (+78% above projection), and proposes reallocating the additional
+  ~770 million RINs either equally across 2026–2027 (~1.4 billion each) or entirely to 2027 (~1.81 billion). The
+  proposal triggers the automatic compliance-deadline extension mechanism under 40 CFR 80.1451(f)(1)(i)(C): when
+  additional exempted RINs are reallocated to a future compliance year, the compliance deadline for that year is
+  extended (the 2026 deadline, currently 31 March 2027, may move).
+- **Why it matters for IDEA-014:** this is the first post-Cycle-52 source bearing on the RFS compliance-deadline
+  obligation and the RIN deadline state. It demonstrates that the agency both projects exempted volumes and then
+  reallocates them, with direct consequences for compliance deadlines. However, no published work conditions the
+  candidate's effect on a second variable, tests the candidate's sign claim, or changes the baseline. G-20 and
+  G-24 conclusions stand; G-15 remains inconclusive.
+- **Caveats:** proposed rule, not final; the deadline extension is automatic under the cited regulation but the
+  specific new deadline has not been set; market-price impacts (RIN price moves) are reported in secondary sources
+  only.
+- **Verification:** Retrieved directly from https://www.federalregister.gov/documents/2026/10/16/2026-21155/renewable-fuel-standard-rfs-program-reallocation-of-additional-2025-small-refinery-exemptions
+  (2026-10-20); full text read and key figures extracted. Verification: **direct fetch + text extraction**.

@@ -4905,6 +4905,20 @@ and takes a hard-stop flag on its sign-determining state
   resilience 2 → 2, data 4 → 4. **Rank 5, unchanged.** No validation specification is written for
   IDEA-014, and none may be written until a pre-deadline, signed state is identified.
 
+#### Cycle 70 block — IDEA-014 · evidence-currency sweep: EPA RFS proposed rule reallocates 2025 SREs; deadline-extension mechanism confirmed; no score change
+- **What Cycle 70 did.** Ran an evidence-currency sweep on IDEA-014 (RIN-DEADLINE) against 2025–2026 literature and EPA
+  rulemaking. Located one new source: **S-324** — EPA proposed rule "Renewable Fuel Standard (RFS) Program: Reallocation of
+  Additional 2025 Small Refinery Exemptions" (91 FR 65699–65711, published 2026-10-16, RIN 2060-AX09, Docket EPA-HQ-OAR-
+  2024-0505). The proposed rule reallocates additional 2025 small-refinery exemptions (actual exempted volume 1.76B RINs
+  vs Register-projected 990M, +78% above projection) either equally across 2026–2027 (~1.4B each) or entirely to 2027
+  (~1.81B), and triggers the automatic compliance-deadline extension under 40 CFR 80.1451(f)(1)(i)(C) — the 2026 deadline
+  (currently 31 March 2027) may move. Verified via direct FederalRegister.gov fetch.
+- **Assessment.** No published work conditions the candidate's effect on a second variable, tests the candidate's sign
+  claim, or changes the baseline. S-324 reinforces the G-20/G-24 conclusions (projected net position carries no sign;
+  net obligated position published only after the deadline). G-15 remains inconclusive. G-24 stays closed as bounded
+  negative; G-20 stays closed against projected state. No gap opened.
+- **Score: 52.0, unchanged.** Rank 5, unchanged. No validation specification is written or amended for IDEA-014.
+
 ---
 
 ## IDEA-015 — PLAN-SUPPLY: pre-announced, non-discretionary insider supply as a dated, published, price-insensitive shock

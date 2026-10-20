@@ -2046,3 +2046,15 @@ obligations dated **2027 Q3**, with the G-33 sample read not to be re-run from s
 question is **not a gap**: IDEA-009's residual is a **validation** question, carried by the amended V-008, and
 the register's standing rule — *a candidate that has produced no new evidence for a long time should be
 re-read, not re-declared* — was applied to it and paid out.
+
+**Cycle-70 gap update.** **No gap was opened and no gap was closed.** **G-28** (IDEA-004) is maintained as a
+frozen structural null and **V-002 stays frozen**; **G-21** (IDEA-011) is handed off to validation with no
+re-search and **V-009 is not amended**; **G-30** (IDEA-010) is confirmed exhausted with no re-probe and
+**V-010 remains non-executable**; **IDEA-014's state-free existence limb** remains inconclusive after the
+Cycle-70 evidence-currency sweep (source S-324 registered — EPA RFS proposed rule reallocating 2025 small-refinery
+exemptions; automatic compliance-deadline extension mechanism confirmed; no published work conditions the effect
+on a second variable or tests the candidate's sign claim); no gap opened and no effort spent without a new source.
+**G-32 limb (c)** and **G-33's re-check** remain future obligations dated **2027 Q3**, with the G-33 sample read not
+to be re-run from scratch. Cycle 70's work produced no score change: the ranking remains **IDEA-011 (69.0, rank 1),
+IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**, with the tie
+at 69.0 broken in IDEA-011's favour on falsifiability (4 versus 3).

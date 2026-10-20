@@ -1200,3 +1200,32 @@ Theory-only cycle executing the Cycle-65 handoff priorities. No tests, no data a
 8. **Programme judgement recorded (new in Cycle 66).** Seven consecutive template screens have produced the same five-reason bounded negative, so the **state-kind screen programme is treated as exhausted as a source of new candidates**; the screen slot is better spent on evidence operations. This is a judgement, not a rule: a genuinely new state kind may still be screened, with the strict bar and G-12 first.
 9. **Two register hygiene repairs.** (i) The register's **frontier-family screen log** ended at Cycle 59 although six further screens had been run; it is now extended, in the same file, with the Cycles 60–66 entries written **for real** from the recorded verdicts — no verdict changed and no screen re-run. (ii) The Cycle-65 header in `idea_register.md` said the R-045 family was written to the known-baseline table "as row 72"; the table's own numbering puts it at **row 74** (row 72 is R-043's family). The Cycle-65 wording was wrong and the table was right; the header now carries the correction.
 10. **Wrap up.** Counts re-derived from the files: **46 rejections (R-001 … R-046)**, 12 parking records of which 11 remain active, **76 known-baseline rows**, **312 verified sources (S-001 … S-209 and S-220 … S-322)** with S-210 … S-219 reserved and unused, five active dossiers, five parked, five rejected. Next free identifiers: **IDEA-017, S-323, V-012, G-34, R-047, P-014**.
+
+## Cycle 70 — 2026-10-20
+
+Theory-only cycle executing the Cycle-69 handoff priorities. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading. The only executable artefacts produced are the register's own research notes.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-69 handoff priorities in order: (1) maintain frozen/exhausted/dated items (G-28 frozen structural null; G-21 handed to validation; G-30 exhausted; IDEA-014 inconclusive; G-32 limb (c) and G-33 re-check dated 2027 Q3) with no re-runs or searches. (2) Continue the evidence-currency sweep — run a prior-art re-read of IDEA-014 (RIN-DEADLINE) against 2025–2026 literature and EPA rulemaking. (3) Close Cycle-66 verification debts where a direct route exists; keep verification labels honest. (4) Wrap up — update artefacts, write ledger verdict block and cycle-log entry before handoff rewrite, re-derive counts and identifiers, write a fresh verbatim initial task message for Cycle 71.
+
+**Pass 2 — Critique.** The Cycle-69 sweep had covered IDEA-010; IDEA-014 was the remaining active candidate last re-read in Cycles 30–32 with the thinnest post-2024 coverage. The sweep located one genuinely new source (S-324, an EPA proposed rule from October 2026) rather than academic literature. Because no candidate-creating evidence emerged, no screen slot was consumed — the state-kind screen programme remains exhausted (Cycle 66 judgement). The S-310/S-317/S-318 SSRN debts remain at HTTP 403 and are recorded honestly as index-rendered; S-311's verification was upgraded to Crossref-deposited abstract.
+
+**Pass 3 — Revise.** No revision needed — the sweep confirmed the existing assessment: IDEA-014 stays inconclusive at 52.0, rank 5, with no gap opened.
+
+### Verification discipline applied in this cycle
+
+- **Fetched directly and text-extracted (1):** S-324 (EPA Federal Register proposed rule 2026-21155).
+- **Crossref-deposited abstract upgrade (1):** S-311 — Crossref returned the full deposited abstract; wording upgraded from index-rendered to Crossref-deposited.
+- **Direct route blocked, labels kept honest (3):** S-310, S-317, S-318 — SSRN landing pages returned HTTP 403; abstracts remain index-rendered, not line-verified.
+
+### Outcomes
+
+1. **G-28 (IDEA-004)** — confirm-only; structural null, search exhausted. V-002 frozen. No re-run.
+2. **G-21 (IDEA-011)** — hand off to validation; no re-search. V-009 not amended.
+3. **G-30 (IDEA-010)** — confirmed exhausted; no re-probe. V-010 non-executable.
+4. **IDEA-014** — evidence-currency sweep complete; one new source registered (S-324). Inconclusive, no gap, no score change.
+5. **G-32 limb (c), G-33 re-check** — dated 2027 Q3; future obligations only; the G-33 sample read is not to be re-run from scratch.
+6. **Cycle-66 verification debts** — S-311 verification upgraded to Crossref-deposited abstract. S-310, S-317, S-318 remain blocked at SSRN HTTP 403; labels kept honest as index-rendered. S-313 corrected in Cycle 66; no further action.
+
+7. **Wrap up.** Counts re-derived from the files: **46 rejections (R-001 … R-046)**, 12 parking records of which 11 remain active, **76 known-baseline rows**, **314 verified sources (S-001 … S-209 and S-220 … S-324)** with S-210 … S-219 reserved and unused, five active dossiers, five parked, five rejected. Next free identifiers: **IDEA-017, S-325, V-012, G-34, R-047, P-014**.
