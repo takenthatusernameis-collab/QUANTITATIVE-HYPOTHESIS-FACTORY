@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–52
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–56
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -212,6 +212,23 @@ hypothesis, the universe or the outcome.
   enforcement and linguistic distance are included, or if identification collapses to country-level
   membership, the candidate fails the identification test. The pre-registered claim must state which of the
   two rival readings it adopts (*discontinuity-at-adoption* vs *comparability-as-driver*, S-253).
+
+**Cycle 56 update — no specification withdrawn, none added, one amended (V-009).** No candidate entered or
+left the top three and no score changed, so the executable set is unchanged in membership: **V-008, V-009 and
+V-010** are executable as specified (**V-009 with the Cycle-52 and Cycle-56 amendments below**), **V-002
+remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**, and **V-003 is
+never-to-execute**. **G-30 remains exhausted** (all four sub-routes closed; no new route; **no statutory
+filing re-run**), so **V-010 remains non-executable against the corporate-bond ETF universe** and must not be
+executed against a substituted crowding proxy. **G-28 and V-002 remain frozen** — the Cycle-56 bounded
+re-check located no published convergence-crowd *concentration* series; the nearest published measure of
+convergence-crowd crowding is a pairwise-comovement metric whose series is the author's proprietary
+computation over non-public data and which measures comovement rather than concentration (S-280).
+**IDEA-014's state-free existence limb remains inconclusive** and no specification may be written for it.
+The Cycle-56 family screen — **tax-driven year-end flows (capital-loss harvesting and the paired window
+dressing)**, logged as **R-035** — is a bounded negative and creates no validation specification. The
+substantive change is the **V-009 amendment below**, which closes the G-32 partition route, rejects the
+early-versus-mandatory identification, and adds **prospective arm A** with its own pre-registration
+requirements and its **G-33** dependency.
 
 ---
 
@@ -1403,6 +1420,72 @@ definition, the controls and the pre-registration** are amended.
    covers the **pre-registrations** above: the count of state-definition × exit rule × jurisdiction ×
    sub-sample combinations must include every country-level control arm examined.
 
+### Cycle-56 amendment (binding) — the G-32 partition route is closed, the early-versus-mandatory contrast is rejected, and prospective arm A is added
+
+Cycle 56 executed the register's named follow-up on this candidate: it re-read the prospective IFRS 18
+adoption window against **primary** endorsement instruments and supervisor material rather than against
+profile directories. The amendment changes **which identification this specification may use**; it does not
+change the hypothesis, the universe, the outcome or the cost model.
+
+1. **The group A/group B partition inside the IFRS 18 window is CLOSED and must not be re-derived.** The
+   published endorsement instruments converge on **one** mandatory IFRS 18 application date: the EU
+   (Commission Regulation (EU) 2026/338 of 13 February 2026 — "each company shall apply the amendment at the
+   latest as from the commencement of its first financial year starting on or after 1 January 2027",
+   **S-268**), the UK (UKEB approval 10 December 2025, project closure 30 January 2026, effective
+   1 January 2027, **S-269**) and Saudi Arabia (SOCPA adoption 26 December 2024; CMA board decision of
+   30 June 2026 making application mandatory from periods beginning on or after 1 January 2027, **S-270**,
+   **S-271**). And where a jurisdiction adopts IFRS for the first time in the IFRS 18 era, IFRS 18 arrives
+   **simultaneously** with the whole IFRS package — the Saudi endorsement practice is that the IFRSs "shall
+   be applied all at once" (**S-271**) — so the group A/group B contrast would degenerate into the historical
+   first-time-versus-second-time IFRS comparison the literature has already populated (**S-188**, **S-179**).
+   **Consequence:** a validator working an IFRS 18 instance must **not** build a group A/group B partition,
+   and must not present such a partition as pre-registered. The **only** IFRS 18 identification available to
+   this candidate is **prospective arm A** below.
+2. **Prospective arm A is added as a specified arm, with its own pre-registration.** The state is the
+   **pre-adoption impact disclosure** required by the standard-setter itself: ESMA's Public Statement on the
+   Implementation of IFRS 18 (ESMA32-193237008-9180) draws attention to **IAS 8 paragraphs 30 and 31**,
+   including paragraph 30(b)'s requirement to disclose "known or reasonably estimable information relevant to
+   assessing the possible impact that application of the new IFRS will have on the issuer's financial
+   statements in the period of initial application"; ESMA expects those disclosures "in issuers' interim and
+   annual financial reports for periods ending before 1 January 2027" and *encourages* issuers to include "the
+   (expected) change in 2026 operating profit or loss and/or in other subtotals" (**S-267**). A validator
+   running arm A must, **before the holdout is opened**, pre-register: (a) the **state construction** — the
+   disclosed expected effect, its unit (amount, percentage of operating profit, restated prior-period
+   subtotal) and its normalisation; (b) the **population** — IFRS-reporting issuers subject to IFRS 18 in the
+   jurisdiction(s) selected, with the mandatory controls of amendment 2 (enforcement **S-221**, linguistic
+   distance **S-252**) applied within jurisdiction rather than across it; (c) the **outcome** — the
+   candidate's frozen post-earnings-announcement drift measure, and the **window**, which must separate the
+   slow-diffusion clock from the adoption-announcement effect, because the state and the first IFRS 18 reports
+   arrive in the **same periodic filings**; (d) the **counting rule** — every state-definition × exit rule ×
+   jurisdiction × sub-sample combination examined must be logged with a date and a reason; and (e) the
+   **G-33 dependency** — arm A may not be reported as a result unless the validator states, from the
+   disclosures themselves, the **quantification rate** and the **cross-issuer comparability** of the
+   disclosed expected effect, and must report "untested" where the state cannot be constructed for a
+   material share of the sample.
+3. **The within-jurisdiction early-versus-mandatory contrast is REJECTED as an identification and must not
+   be run as if it identified.** The instance is documented: Saudi Arabia's CMA decision of 30 June 2026
+   permits early adoption of IFRS 18 during 2026, requires early adopters to announce their IFRS 18 financial
+   statements and the effect of early adoption on the Tadawul website, makes application mandatory from
+   periods beginning on or after 1 January 2027, and requires all listed joint-stock companies to disclose a
+   preliminary assessment of the expected IFRS 18 impact for periods beginning on or after 1 April 2026
+   (**S-270**). It does not identify, because the treatment arm is **voluntary and self-selected** and
+   mechanically correlated with the state the candidate would condition on; because the effective sample is
+   the **number of early adopters**; and because the early arm announces its IFRS 18 statements together with
+   their effect, so the diffusion clock has no window to run. (Early adopters are machine-identifiable from
+   tagged filings — the taxonomy guidance contains a dedicated "Early Application of IFRS 18" entry point,
+   **S-272** — so the rejection is about identification, not observability.)
+4. **The event and outcome windows are fixed to the first IFRS 18 *interim* reporting cycle.** ESMA expects
+   IFRS 18 to be applied in **interim** financial statements in the year of initial application (**S-267**), so
+   the first IFRS 18 reports are the **2027 interim** reports, not the 2028 annual reports; the pre-adoption
+   impact disclosures appear in the 2026 interim and annual reports. A validator must pre-register which
+   reporting cycle carries the treatment and which carries the outcome, and must not mix them.
+5. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's
+   score (69.0, rank 1) is **unchanged**: the Cycle-56 sources support the *mechanism and the state*, not the
+   *directional drift claim*, so the Cycle-35/52 precedent applies. The frozen hypothesis below is unchanged
+   in its wording, except as superseded by amendment 2 of the Cycle-52 amendment and by arm A above. The
+   cost model, the execution assumptions, the guardrails, the separation rule and the kill criteria are
+   **unchanged**. The anti-peeking requirement now also covers the Cycle-56 pre-registrations, including the
+   G-33 reporting requirement.
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
 years in advance and the affected firms are knowable ex ante. The market incorporates the

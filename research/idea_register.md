@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 52 complete** (Cycle 52 ran the register's **prior-art re-read of IDEA-011** — the
+Last updated: **Cycle 56 complete** (Cycle 56 executed the **G-32 follow-up on IDEA-011 (rank 1)** — the register's own named best next research task — by re-reading the prospective IFRS 18 adoption window against *primary* endorsement instruments and supervisor material rather than profile directories. The re-read **closed G-32 limb (a) as a negative as specified and established why**: the published endorsement instruments (S-268, S-269, S-270) converge on one mandatory IFRS 18 application date, and first-time adopters apply IFRS as a single package (S-271), so the group A/group B partition cannot be built and the candidate's binding event-count hard stop is unchanged. It **rejected** the handoff's proposed re-specification (within-jurisdiction early versus mandatory adopters) on a *documented* instance — Saudi Arabia's CMA early-adoption decision of 30 June 2026 (S-270) — because the treatment arm is voluntary, self-selected and mechanically correlated with the state the candidate would condition on. It **specified a re-specification that survives**: the pre-adoption impact disclosure required by IAS 8 paragraphs 30–31 and expected by ESMA (S-267) as a **firm-level, published, dated** measure of the size of the comparability break, recorded as **IDEA-011's prospective arm A** with a new gap **G-33** for that state's measurability. Cycle 56 also ran the register's **first tax-driven year-end flow family screen** — capital-loss harvesting under loss carry-forward rules and the paired institutional window dressing — logged as **R-035** (bounded negative, five independent reasons, dated re-screen condition) on seven metadata-verified sources (S-273 … S-279), confirmed **G-30 exhausted without a re-probe**, kept **G-28 and V-002 frozen** after a bounded re-check that found no published convergence-crowd *concentration* series (S-280), and maintained **IDEA-014's state-free existence limb inconclusive**. **No candidate was created, no score changed; V-009 was amended, not re-created.** Earlier history: **Cycle 52 complete** (Cycle 52 ran the register's **prior-art re-read of IDEA-011** — the
 rank-1 candidate — against 2025–2026 literature it had not yet seen, which is the register's own stated
 highest-value act; the re-read **maintained the G-21 null but sharpened it**, added a **published
 competing conditioner** (language distance, which flips the sign of the post-adoption information effect
@@ -3157,10 +3157,15 @@ re-scored to 68.0, enters the top three, and receives V-010
 ## IDEA-011 — ACCTCLOCK: accounting-standards adoption as a slow-information-diffusion event clock
 
 - **ID / short name:** IDEA-011 / ACCTCLOCK
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.1
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** shortlisted · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 16 — re-scored 72.0 → 69.0** on post-2010 drift-decay evidence (S-178, S-179), with the
   enforcement-regime concentration of the effect narrowing the tradable drift.
+  **v1.2 (Cycle 56) — G-32 limb (a) closed negative as specified, with the reason established; the
+  handoff's proposed re-specification rejected on a documented instance; and a different
+  re-specification — prospective arm A — specified and carried into V-009.** No score change (69.0),
+  rank 1 unchanged. The binding hard stop is **relieved inside arm A only**; the candidate's own
+  event-count hard stop is otherwise unchanged.
   **v1.1 (Cycle 35) — G-21 narrowed to a named discriminator:** the only first-adoption case in the
   candidate's direction (Greece, S-188) is attributed to a disclosure shock by its own authors; the
   other first-adoption case runs the opposite way (S-179); the published conditioner is enforcement
@@ -3443,6 +3448,113 @@ re-scored to 68.0, enters the top three, and receives V-010
   IFRS 18 pre-adoption literature annually**, and **re-run limb (a) whenever the IFRS Foundation updates its
   jurisdiction profiles** — a profile update is a dated, published event that can change the group A/group B
   partition without any new literature.
+
+- **Cycle 56 (2026-10-20) — the G-32 follow-up. Limb (a) closed negative as specified *with the reason
+  now established*; the proposed re-specification rejected on a documented instance; a different
+  re-specification specified as prospective arm A.**
+  The Cycle-52 handoff named one task: decide whether the candidate can be re-specified to use a
+  different identification — "e.g. within-jurisdiction transition timing / early adopters vs mandatory
+  adopters under same regime" — "or must remain blocked. Do not guess." Cycle 56 answered that question
+  with primary instruments rather than with profile directories, and the answer is **split**: the specific
+  re-specification the handoff suggested is **rejected**, and a different one **survives**.
+  - **Finding 1 — limb (a), the calendar limb, is CLOSED negative as specified, and the reason is now
+    known.** The register no longer asks only whether a partition table exists; it can now say why none
+    can exist in the form the candidate needs. Three verified facts:
+    (i) **Convergence.** The published endorsement instruments all point at **one** mandatory date. The EU
+    endorsed IFRS 18 by Commission Regulation (EU) 2026/338 of 13 February 2026 (Official Journal
+    publication 16 February 2026), which provides that "each company shall apply the amendment at the
+    latest as from the commencement of its first financial year starting on or after **1 January 2027**"
+    (S-268). The UK Endorsement Board approved IFRS 18 for adoption on **10 December 2025**, closed the
+    project on **30 January 2026**, and records the standard as effective for periods beginning on or
+    after **1 January 2027** (S-269). Saudi Arabia's standard-setter adopted IFRS 18 locally on
+    **26 December 2024**, and the Saudi Capital Market Authority's board decision of **30 June 2026**
+    makes application mandatory for periods beginning on or after **1 January 2027** (S-270, S-271). The
+    already-IFRS jurisdictions — group B — therefore apply IFRS 18 on **one common date**, and the
+    IFRS Foundation's profiles give *status*, not dates (S-254). A group A date could only come from a
+    jurisdiction whose **first** IFRS adoption falls after 1 January 2027; no published partition table
+    exists, and none could, in the candidate's required form, while the mandatory dates converge.
+    (ii) **Single-package adoption.** Where a jurisdiction adopts IFRS for the first time in the IFRS 18
+    era, IFRS 18 arrives *simultaneously* with the whole IFRS package: the Saudi endorsement practice is
+    that the IFRSs "shall be applied **all at once**" after endorsement — listed entities from 2017 and
+    other entities from 2018 (S-271). The group A/group B contrast then stops being a *within-standard*
+    contrast and becomes the historical first-time-versus-second-time IFRS comparison the literature has
+    already populated (S-188 Greece as a first adopter; S-179 Korea as a second adopter).
+    (iii) **Consequence.** The group A/group B partition inside the IFRS 18 window is **unavailable**, and
+    G-21's discriminator cannot be newly identified there. **The candidate's binding hard stop — the small
+    number of independent, non-overlapping adoption events — is unchanged by this cycle.**
+  - **Finding 2 — the handoff's suggested re-specification is REJECTED, on a documented instance rather
+    than a hypothetical one.** Saudi Arabia is a published, live instance of exactly the contrast the
+    handoff proposed: the CMA board decision of 30 June 2026 (S-270) **permits early adoption during
+    2026** by Tadawul-listed joint-stock companies, requires early adopters to "announce IFRS 18 financial
+    statements and the effect of early adoption on the Tadawul website", makes application **mandatory
+    from periods beginning on or after 1 January 2027**, and requires **all** listed joint-stock companies
+    to disclose "a preliminary assessment of the expected impact of the initial application of IFRS 18" in
+    their approved interim and annual financial statements for periods beginning on or after **1 April
+    2026**. That is a published within-jurisdiction transition-timing contrast — and it does **not** rescue
+    the candidate, for three reasons that are stated rather than assumed:
+    (i) the treatment arm is **voluntary and self-selected**, and the selection is *mechanically correlated*
+    with the state the candidate would condition on — a firm that expects a large IFRS 18 impact, or that
+    wants to pre-empt a comparability problem, has a reason to early-adopt — so the contrast is not
+    identified;
+    (ii) the effective sample is the **number of early adopters**, so the event-count hard stop is
+    *relocated*, not relieved;
+    (iii) the early arm announces its IFRS 18 financial statements *together with* their effect, so the
+    slow-information-diffusion clock has **no window to run** on that arm.
+    And the country-level conditioners (S-221 enforcement, S-252 linguistic distance) are constant only
+    *within* Saudi, so the cross-country comparison the candidate would want is unavailable there too. One
+    thing the rejected arm does deliver is an **observability** route: early adopters are machine-identifiable
+    from tagged filings, because the IFRS taxonomy guidance contains a dedicated "Early Application of IFRS 18"
+    entry point (S-272). The rejection is about identification, not about observability.
+  - **Finding 3 — a re-specification that SURVIVES: prospective arm A, the pre-adoption impact disclosure
+    as the firm-level state.** The register's search for a decision-time state that measures the *size of
+    the comparability break* — the candidate's own premise, and the thing the candidate lacked — found one
+    in the standard-setter's own requirements. ESMA's Public Statement on the Implementation of IFRS 18
+    (ESMA32-193237008-9180) "draws attention to the requirements in **IAS 8 paragraphs 30 and 31**" on
+    disclosing an impending change in accounting policy where a new IFRS has been issued but is not yet
+    effective, and notes that paragraph 30(b) requires disclosure of "known or reasonably estimable
+    information relevant to assessing the possible impact that application of the new IFRS will have on the
+    issuer's financial statements in the period of initial application". ESMA "expects these disclosures to
+    be provided for IFRS 18 in issuers' interim and annual financial reports for periods ending before
+    1 January 2027", covering "a description of changes in the structure of the issuer's statement of profit
+    or loss, information on the assessment of whether the issuer performs 'specified main business
+    activities', and details on measures that are expected to meet the definition of an MPM", and it
+    "encourages" issuers to include "the (expected) change in 2026 operating profit or loss and/or in other
+    subtotals" (S-267). This yields a state that is **firm-level** (so it does not collide with the
+    country-level conditioners S-221 and S-252, which become absorbed within jurisdiction), **published**,
+    **dated** (it precedes application), **not real-time** (it arrives in periodic reports), and — decisively
+    — it is a *direct* measure of the size of the comparability break rather than a proxy for information
+    quality. It also converts the identification from "few events" to "one event × many firms", which
+    **relaxes the binding hard stop inside arm A**. Two limits are recorded rather than smoothed:
+    (i) the *mandated* disclosure is **qualitative** and the quantified expected change is only
+    *encouraged*, so the state's measurability at firm level is **not established** — this is the new gap
+    **G-33**; and (ii) the state arrives in the *same* periodic reports in which the break first appears
+    (ESMA expects IFRS 18 to be applied in **interim** financial statements in the year of initial
+    application, so the first IFRS 18 reporting cycle is the **2027 interim** reports, not the 2028 annual
+    reports), so the treatment and outcome windows overlap and the specification must pre-register how the
+    slow-diffusion clock is separated from the adoption-announcement effect.
+  - **Score: 69.0, unchanged. Rank 1, unchanged.** The Cycle-56 sources support the candidate's
+    *mechanism and its state*, not its **directional drift claim** — the Cycle-35/52 precedent applies
+    again. Mechanism 4 → 4, evidence 3 → 3 (the *content* of the evidence base changed, not its quantity;
+    the candidate still has no published supporting case for a drift increase, and limb (c) of G-32 — the
+    pre-adoption-claim question — remains open), novelty 3 → 3 (the residual is still an outcome-specific
+    unrun comparison, now with a state the register did not have), falsifiability 4 → 4 (unchanged, and
+    *better specified*, because arm A has a published, dated, firm-level state and a pre-registered
+    separation requirement), resilience 3 → 3, data 4 → 4 (the event is prospective and the *state* is
+    published in principle, though its quantification is the open G-33). **No re-score.**
+  - **Hard-stop flags — one added, one sharpened.**
+    - **Added:** the candidate may **not** use the group A/group B partition inside the IFRS 18 window —
+      limb (a) is closed negative as specified, and a validator must not re-derive it. The only IFRS 18
+      identification available to the candidate is **prospective arm A** (the IAS 8.30(b)/ESMA pre-adoption
+      impact disclosure), and that arm **cannot run** until **G-33** establishes that the disclosure is
+      quantifiable and comparable at firm level.
+    - **Sharpened:** the candidate may **not** present the within-jurisdiction early-versus-mandatory
+      contrast as an identification (Finding 2) — the treatment is voluntary and self-selected, the effective
+      sample is the number of early adopters, and the early arm's clock never runs.
+  - **Dated re-check.** G-32 limb (c) is re-read annually (the 2024–2027 pre-adoption literature window);
+  **G-33 is re-checked in 2027 Q3**, after the first tranche of 2026 interim reports carrying IAS 8.30(b)
+  impact disclosures is public; limb (a) is re-opened only if a jurisdiction publishes an IFRS 18
+  application date that differs from 1 January 2027 **and** applies IFRS 18 as an increment to an existing
+  IFRS basis.
 
 ---
 

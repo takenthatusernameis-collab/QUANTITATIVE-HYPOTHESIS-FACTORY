@@ -1,4 +1,32 @@
-# SOURCE LEDGER — CYCLES 1–52
+# SOURCE LEDGER — CYCLES 1–56
+
+Cycle 56 (2026-10-20) added **S-267 … S-280** (see "Cycle 56 sources" at the end of this file), the
+**backfilled "Cycles 53–55 gap verdicts" block** (none of those three cycles wrote a verdict block into
+this file — the same state-integrity gap that the Cycle-40, Cycle-51 and Cycle-52 repairs closed) and the
+**"Cycle 56 gap verdicts"** block. Cycle 56's substantive work was a **primary-source and prior-art
+re-read of the G-32 limb** on the register's rank-1 candidate (IDEA-011), which **closed G-32 limb (a) as
+a negative as specified and established *why* the group A/group B partition cannot be built**: the
+published endorsement instruments converge on one mandatory IFRS 18 application date (S-268, S-269,
+S-270), and first-time adopters apply IFRS as a single package (S-271), so the "first-time versus
+second-time" contrast degenerates into the historical first-time-versus-second-time IFRS comparison the
+literature has already populated. Cycle 56 then **rejected** the handoff's proposed re-specification
+(within-jurisdiction early versus mandatory adoption) on a *documented* instance — Saudi Arabia's
+published CMA early-adoption decision (S-270) — because the treatment arm is voluntary, self-selected
+and mechanically correlated with the state the candidate would condition on, and because the effective
+sample is the number of early adopters; and then **specified a different re-specification that
+survives**: the **pre-adoption impact disclosure mandated by IAS 8 paragraphs 30–31 and expected by ESMA**
+(S-267) as a **firm-level, published, dated** measure of the size of the comparability break — the
+candidate's own premise measured directly, with the country-level conditioners absorbed within
+jurisdiction — which relaxes the candidate's binding hard stop and is recorded as **IDEA-011's
+prospective arm A**, with a new gap **G-33** for that state's measurability. Cycle 56 also ran the
+register's **first tax-driven year-end flow family screen** — capital-loss harvesting under loss
+carry-forward rules and the paired institutional window dressing — logged as a **bounded negative
+(R-035)** on five independent reasons (S-273 … S-279); confirmed **G-30 exhausted without a re-probe**;
+kept **G-28 and V-002 frozen** after a bounded re-check that located no published convergence-crowd
+*concentration* series (S-280 records the nearest published crowding-method paper, whose own series is
+proprietary); and maintained **IDEA-014's state-free existence limb inconclusive**. Cycle 56 changed no
+score and created no candidate; **V-009 was amended, not re-created**. The register now holds
+**S-001 … S-209** and **S-220 … S-280**; the identifiers **S-210 … S-219** remain reserved and unused.
 
 Cycle 52 (2026-10-20) added **S-252 … S-266** (see "Cycle 52 sources" at the end of this file) and the
 **"Cycle 52 gap verdicts"** block. Cycle 52's substantive work was twofold: the register's **prior-art
@@ -6385,4 +6413,417 @@ family was added to the known-baseline table.
   **R-032** (the venue-halt family screen). No `IDEA-` and no `V-` identifier was consumed as a *new*
   specification; **V-009 was amended** (Cycle 52), not re-created.
 - **Next free identifiers:** **IDEA-017, S-267, V-012, G-33, R-033, P-014**. The reserved-and-unused
+  identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 56 sources (2026-10-20)
+
+Cycle 56 added fourteen sources: six for the G-32 re-read on IDEA-011 (S-267 … S-272), seven for the
+tax-driven year-end flow family screen (S-273 … S-279), and one for the bounded G-28 re-check (S-280).
+
+### S-267 — European Securities and Markets Authority (2026), "Public Statement on the Implementation of IFRS 18" (ESMA32-193237008-9180)
+URL: https://www.esma.europa.eu/sites/default/files/2026-02/ESMA32-193237008-9180_Public_Statement_IFRS_18.pdf
+- **Type:** Primary regulator material (supervisory expectation statement, February 2026).
+- **Supports:** the register's Cycle-56 re-specification of IDEA-011 rests on the fact that the
+  **pre-adoption impact disclosure is required by the standard-setter itself**, not by a local rule.
+  The statement "draws attention to the requirements in IAS 8 paragraphs 30 and 31" for the disclosure of
+  the nature of an impending change in accounting policies where a new IFRS has been issued but is not
+  yet effective, and notes that paragraph 30(b) requires disclosure of "known or reasonably estimable
+  information relevant to assessing the possible impact that application of the new IFRS will have on the
+  issuer's financial statements in the period of initial application". ESMA "expects these disclosures to
+  be provided for IFRS 18 in issuers' interim and annual financial reports for periods ending before
+  1 January 2027", provided "in a gradual and efficient manner", and lists what they should cover:
+  "a description of changes in the structure of the issuer's statement of profit or loss, information on
+  the assessment of whether the issuer performs 'specified main business activities', and details on
+  measures that are expected to meet the definition of an MPM". It also records that issuers are
+  "encouraged to include the (expected) change in 2026 operating profit or loss and/or in other subtotals",
+  that the expected effects are to be disclosed "as soon as available" (an issuer that finalises its
+  assessment in H1 2026 should disclose in the interim statements for the period ending 30 June 2026),
+  and that IFRS 18 is to be applied in **interim** financial statements in the year of initial
+  application — so the first IFRS 18 reporting cycle is the **2027 interim** reports, not the 2028
+  annual reports.
+- **Caveats:** the *mandated* disclosure is qualitative ("known or reasonably estimable information");
+  the quantified expected operating-profit change is only **encouraged**, so the state's measurability at
+  firm level is not established by this document — that is the new gap **G-33**. ESMA is a European
+  supervisor: its expectation statement does not bind issuers outside its jurisdiction, though the
+  underlying IAS 8 requirement does. The statement is a supervisory expectation, not an enforcement
+  action, and it establishes no price effect.
+- **Verification:** the full text was read through three national competent-authority mirrors of the
+  ESMA PDF (Consob, FMA Austria, CySEC) as rendered by the search index, and corroborated by EFRAG's
+  IFRS 18 endorsement-status summary. The ESMA-hosted PDF returned binary content to a direct fetch, so
+  this entry is **index-rendered, not directly parsed**, and is labelled as such.
+
+### S-268 — European Commission (2026), Commission Regulation (EU) 2026/338 of 13 February 2026 amending Regulation (EU) 2023/1803 as regards International Financial Reporting Standards (IFRS 18)
+URL: https://eur-lex.europa.eu/eli/reg/2026/338/oj/eng
+- **Type:** Primary legislation (EU endorsement instrument).
+- **Supports:** the EU's IFRS 18 application date, which is the convergence fact that closes G-32
+  limb (a): the regulation provides that "each company shall apply the amendment at the latest as from
+  the commencement of its first financial year starting on or after 1 January 2027". The EU is an
+  already-IFRS jurisdiction (group B), so this fixes the group B application date at the standard's
+  common mandatory date and leaves no room for a non-overlapping group A date drawn from the EU.
+- **Caveats:** an endorsement instrument, not an adoption calendar for other jurisdictions; the "at the
+  latest" formulation permits earlier application; it says nothing about market effects.
+- **Verification:** the operative text was read through the EUR-Lex ELI page as rendered by the search
+  index and corroborated by EFRAG's IFRS 18 endorsement-status table (adopted 13 February 2026; Official
+  Journal publication 16 February 2026; EU effective date 1 January 2027). A direct fetch of the EUR-Lex
+  HTML returned an empty body, so this entry is **index-rendered**.
+
+### S-269 — UK Endorsement Board, "IFRS 18 Presentation and Disclosure in Financial Statements" (project page)
+URL: https://www.endorsement-board.uk/IFRS-18-Presentation-Disclosure-Financial-Statements/
+- **Type:** Primary endorsement-board material.
+- **Supports:** a second already-IFRS jurisdiction on the same mandatory date: the UK Endorsement Board
+  approved IFRS 18 for adoption on **10 December 2025**, the project closed on **30 January 2026**, and
+  the standard is effective for accounting periods beginning on or after **1 January 2027**. Together
+  with S-268 and S-270 this establishes the convergence that closes G-32 limb (a).
+- **Caveats:** an endorsement timetable, not a market-structure or price document.
+- **Verification:** page **fetched directly** 2026-10-20; the approval date, the project-closure date
+  and the effective date were read in the fetched document.
+
+### S-270 — Saudi Capital Market Authority (2026), announcement CMA_N_4083, "The Board of the Saudi Capital Market Authority approves the early adoption of IFRS 18" (published 30 June 2026)
+URL: https://cma.gov.sa/en/MediaCenter/NEWS/Pages/CMA_N_4083.aspx
+- **Type:** Primary regulator material (board decision and announcement).
+- **Supports:** the register's Cycle-56 evaluation of the handoff's proposed re-specification, on a
+  documented instance rather than a hypothetical one. The announcement states that IFRS 18 was adopted
+  locally by SOCPA on **26 December 2024**; that the CMA board decision **permits early adoption during
+  2026** by Tadawul-listed joint-stock companies, and that early adopters "shall announce IFRS 18
+  financial statements and the effect of early adoption on the Tadawul website"; that application is
+  **mandatory for financial reporting periods beginning on or after 1 January 2027**; and that **all**
+  listed joint-stock companies must disclose "a preliminary assessment of the expected impact of the
+  initial application of IFRS 18" in their approved interim and annual financial statements for periods
+  beginning on or after **1 April 2026**.
+- **Caveats:** a Saudi-market instrument; early adoption is **permissive**, so the early-adopter
+  population is self-selected and its composition is the analyst's problem, not a published fact; it
+  establishes no price effect; and the within-jurisdiction contrast it creates is available in one
+  jurisdiction only.
+- **Verification:** page **fetched directly** 2026-10-20; all four statements above were read in the
+  fetched document.
+
+### S-271 — Saudi Organisation for Certified Public Accountants (SOCPA), "SOCPA Adopts IFRS 18 for Implementation in Saudi Arabia" (adoption 26 December 2024) and the SOCPA endorsement document "International Financial Reporting Standards"
+URLs: https://socpa.org.sa/en/knowledge-center/news/news/socpa-adopts-ifrs-18-for-implementation-in-saudi-arabia/ and https://socpa.org.sa/en/knowledge-center/publications/other-publications/international-financial-reporting-standards/
+- **Type:** Primary standard-setter material (endorsement practice).
+- **Supports:** the *single-package* fact that closes the group A/group B route for the IFRS 18 window.
+  The endorsement document states that the IFRSs "shall be applied **all at once**" after endorsement —
+  listed entities from the 2017 financial year and other entities from the 2018 financial year. A
+  jurisdiction that adopts IFRS for the first time in the IFRS 18 era therefore applies IFRS 18
+  *simultaneously* with the whole IFRS package, so the "first-time versus second-time IFRS 18" contrast
+  is not a within-standard contrast at all: it collapses into the historical first-time-versus-second-time
+  IFRS comparison the literature has already populated (S-188 Greece as a first adopter; S-179 Korea as a
+  second adopter).
+- **Caveats:** "all at once" is Saudi's own adoption route; other jurisdictions may phase IFRS in
+  differently, so this is evidence about one jurisdiction's practice rather than a universal rule, and it
+  is offered as the reason the partition route is *not available*, not as a general impossibility proof.
+- **Verification:** both the news item and the endorsement-document text were read as rendered by the
+  search index — **index-rendered, not directly parsed**.
+
+### S-272 — IFRS Foundation (2026), "Guidance on use of the 2025 IFRS Accounting Taxonomy" (taxonomy guidance including the Early Application of IFRS 18 entry point)
+URL: https://www.ifrs.org/content/dam/ifrs/standards/taxonomy/2026/guidance-on-use-of-2025-ifrs-taxonomy.pdf
+- **Type:** Primary standard-setter technical guidance.
+- **Supports:** that the IFRS 18 early-adopter population is **machine-identifiable** rather than
+  inferred from announcements: the taxonomy guidance contains a dedicated "Early Application of IFRS 18"
+  entry point, so an early adopter tags its report differently. This matters because the register's
+  rejected within-jurisdiction arm (Saudi, S-270) depends on knowing who early-adopted, and because it
+  is the route by which the arm A state (S-267) could be extracted mechanically rather than by reading
+  narrative disclosures.
+- **Caveats:** an entry point's existence says the population is *taggable*, not that any issuer uses it
+  or that early adoption is widespread; the guidance does not address the content of the IAS 8.30(b)
+  impact disclosure, which remains **G-33**.
+- **Verification:** the guidance was read as rendered by the search index; the PDF returned binary content
+  to a direct fetch — **index-rendered, not directly parsed**.
+
+### S-273 — US Internal Revenue Service, "Topic no. 409, Capital gains and losses" (page last reviewed or updated 24 September 2026)
+URL: https://www.irs.gov/taxtopics/tc409
+- **Type:** Primary tax authority material.
+- **Supports:** the rule that creates the forced-realisation flow in the tax-driven year-end family:
+  "If your capital losses exceed your capital gains, the amount of the excess loss that you can claim to
+  lower your income is the lesser of **$3,000** ($1,500 if married filing separately) or your total net
+  loss shown on line 16 of Schedule D", and, if the net capital loss is larger than that limit, "you can
+  carry the loss forward to later years". A loss that cannot be used against current-year ordinary income
+  must be realised inside the tax year to be worth anything, which is what makes the year-end selling
+  flow non-discretionary in the affected margin.
+- **Caveats:** the US rule *permits* carry-over, so it induces an acceleration rather than an absolute
+  deadline; it is one jurisdiction's rule and the register's other jurisdictions differ (Sweden's
+  five-year carry-forward change is the published instance in S-276); and the rule says nothing about
+  which securities are sold, so it cannot identify a tradeable cross-section.
+- **Verification:** page **fetched directly** 2026-10-20; the $3,000 limit and the carry-over sentence
+  were read in the fetched document.
+
+### S-274 — Poterba, J. M. and Weisbenner, S. J. (2001), "Capital Gains Tax Rules, Tax-loss Trading, and Turn-of-the-year Returns", *The Journal of Finance* 56(1): 353–368
+DOI: https://doi.org/10.1111/0022-1082.00328
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** that the mechanism in the tax-driven year-end family is **published prior art with a
+  stated, rule-dependent sign**: "taxable individual investors can use realized capital losses to reduce
+  taxes on realized gains or to offset a limited amount of nongain income", so "realizing a capital loss
+  before year-end can accelerate the tax benefits of the loss by as much as twelve months"; and the paper's
+  central result is that the *tax rule itself* changes the strength of the relation between early-year
+  losses and turn-of-the-year returns ("when the tax law encouraged taxable investors who accrued
+  losses early in the year to realize their losses before year-end, the correlation between early year
+  losses and turn-of-the-year returns was weaker than when the law did not provide such an early
+  realization incentive").
+- **Caveats:** 1963–1996 sample and US rules; the object is turn-of-the-year *returns*, not a harvestable
+  third-party concession; it is a *published* sign, which is what disqualifies the family under G-12.
+- **Verification:** the full Crossref record (authors, title, journal, volume, issue, pages, publication
+  date, DOI) was retrieved from the Crossref REST API; the abstract was read in the search-index
+  rendering of the author-hosted PDF.
+
+### S-275 — Ivković, Z., Poterba, J. M. and Weisbenner, S. J. (2005), "Tax-Motivated Trading by Individual Investors", *American Economic Review* 95(5): 1605–1630
+DOI: https://doi.org/10.1257/000282805775014461
+- **Type:** Prior empirical result (peer-reviewed) — the canonical reference for the mechanism.
+- **Supports:** that tax-motivated trading by individual investors is a **published, sized, settled
+  mechanism**, not a conjecture; the register's family screen cannot present the year-end forced
+  realisation as a discovery.
+- **Caveats:** establishes the mechanism and its sign, not a trade specification or a cost floor.
+- **Verification:** the full Crossref record was retrieved from the Crossref REST API (author affiliations,
+  journal, volume, issue, pages, DOI all confirmed); the DOI also appears in the reference list of the
+  Crossref record for S-276, obtained independently.
+
+### S-276 — McKeever, D. and Rydqvist, K. (2022), "Tax-loss harvesting under uncertainty", *Journal of Banking & Finance* 140: 106528
+DOI: https://doi.org/10.1016/j.jbankfin.2022.106528
+- **Type:** Prior modelling and empirical result (peer-reviewed).
+- **Supports:** two things the screen needs. First, a formal statement that tax-loss harvesting is "like
+  an American-style put option" whose exercise is driven by the time value of the tax benefit and by
+  tax-rate uncertainty — so the family's economics are published and modelled. Second, and decisively for
+  the re-screen condition, that the **carry-forward provision is itself a published, dated policy
+  parameter with a measured effect**: "when a legislative change in Sweden allows taxpayers to carry
+  forward unused lottery bond losses five years, the term structure of drop-off ratios shifts up", and "the
+  value of the carry-forward provision is 75 percent of the expected lottery proceeds". The rule-dated
+  natural experiment the register would want has therefore already been run.
+- **Caveats:** the Swedish lottery-bond setting is not the register's instrument universe; the model is a
+  model; the carry-forward change is dated but not *prospective*.
+- **Verification:** the full Crossref record (authors, title, journal, volume, article number, DOI,
+  publication dates, reference list) was retrieved from the Crossref REST API by resolving the DOI
+  directly; the abstract and the quoted passages were read in the search-index rendering of the
+  publisher's abstract page.
+
+### S-277 — Heston, S. L., Korajczyk, R. A. and Sadka, R. (2010), "Intraday Patterns in the Cross-Section of Stock Returns", *The Journal of Finance* 65(4): 1369–1407
+DOI: https://doi.org/10.1111/j.1540-6261.2010.01573.x
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** that the **buyer side** of the year-end flow — the institutional quarter-end rebalancing
+  that produces the "window dressing" pattern in the cross-section of returns — is published prior art,
+  so a candidate claiming the year-end *pairing* of forced retail selling with institutional buying is
+  claiming published work on both legs.
+- **Caveats:** the paper's object is intraday cross-sectional patterns around institutional rebalancing,
+  not the tax-driven retail flow; it does not claim the year-end pairing as a discovery for any reader.
+- **Verification:** the Crossref REST API was queried by title and author with a journal-article filter
+  and the record retrieved; the same query also surfaced the authors' related JFE paper (Seasonality in
+  the cross-section of stock returns, JFE 87(2): 418–445, 2008), which is not separately registered here.
+
+### S-278 — Dahlquist, M. and Sellin, P. (1996), "Stochastic dominance, tax-loss selling and seasonalities in Sweden", *The European Journal of Finance* 2(1): 1–19
+DOI: https://doi.org/10.1080/135184796337571
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** two register-relevant facts. (i) The tax-loss-selling explanation of the turn-of-the-year
+  return pattern is a **published and contested** claim: the paper "find[s] no support for either of the
+  proposed hypotheses" (the tax-loss-selling hypothesis and the omitted-risk-factor hypothesis) in the
+  Swedish 1919–1994 sample — so the family's aggregate sign is claimed in the literature **and** claimed as
+  a null in at least one jurisdiction. (ii) The field has already identified and tested multiple tax
+  regimes: the paper examines "six different tax regimes where capital gains and losses are treated
+  differently" and asks whether tax-regime changes influence the effect.
+- **Caveats:** a long, dated sample in one jurisdiction; the null is regime-specific and does not
+  generalise to the US or Japan.
+- **Verification:** the Crossref REST API was queried by title/author with a journal-article filter and
+  the record retrieved; the abstract was read in the search-index rendering of the publisher's abstract
+  page.
+
+### S-279 — Takahashi, H. (2017), "Does tax-loss selling affect turn-of-the-year returns? Evidence from the 2003 capital gain tax regime change in Japan", Hosei University Discussion Paper 16-E-002 (17 February 2017)
+URL: https://www.hosei.ac.jp/application/files/7415/7655/5058/DP-16E002.pdf
+- **Type:** Working paper (discussion paper, **not peer-reviewed**) — flagged as such in every use.
+- **Supports:** that the tax-loss-selling family's natural experiment has already been run in a non-US
+  jurisdiction and that its result is **conditional on the rule**: "the capital gains tax reduction law
+  decays benefits to realize capital losses and results in lower relationships between tax-loss selling
+  and turn-of-the-year returns", with a long-short portfolio of large-loss against large-gain stocks
+  earning higher turn-of-the-year returns in the pre-tax-reduction period than in the post-reduction
+  period. A candidate in this family must therefore engage this result rather than claim the rule-date
+  variation as unclaimed.
+- **Caveats:** a discussion paper; author-reported; the 2003 Japanese reform was a *rate* reduction, not
+  a carry-forward regime change; the sample ends in December 2010.
+- **Verification:** the paper's abstract and front matter were read in the search-index rendering of the
+  Hosei University working-paper PDF — **index-rendered, not directly parsed**.
+
+### S-280 — Baltas, N. (2019), "The Impact of Crowding in Alternative Risk Premia Investing", *Financial Analysts Journal* 75(3): 89–104
+DOI: https://doi.org/10.1080/0015198X.2019.1600955
+- **Type:** Prior empirical result (peer-reviewed; practitioner-authored).
+- **Supports:** the register's bounded G-28 re-check. This is the nearest **published** measure of
+  *convergence-crowd* crowding: the paper classifies divergence and convergence premia and measures
+  crowding as the signed average pairwise correlation of factor-adjusted residual returns within the top
+  and bottom baskets (the "CoMetric"), reporting that for convergence premia "higher levels of asset
+  excess comovement that are reflective of investor synchronous flows constitute a catalyst for future
+  outperformance" and that lower comovement is associated with poor future performance. It is therefore
+  the closest published neighbour to IDEA-004's crowding state and the paper a future candidate must
+  engage.
+- **Caveats:** the crowding *series* is the author's own computation and the underlying data are not
+  public; the measure is a **comovement** measure, not a **concentration** measure; the paper is
+  authored by a systematic-strategy house and is an interested party on the crowding question.
+- **Verification:** the full Crossref record (author, title, journal, volume, issue, pages, DOI,
+  publication dates, reference list) was retrieved from the Crossref REST API by resolving the DOI
+  directly; the method and the convergence-premia result were read in the search-index rendering of the
+  article page.
+
+---
+
+## Cycles 53–55 gap verdicts (backfilled by Cycle 56 — these three cycles never had a verdict block in this file)
+
+### Cycle 53 — **G-32 limb (a) executed as a bounded reading task: negative as specified**
+The jurisdiction-profile index was read and the EU, UK, Australia and Canada profiles were inspected.
+The profiles record general IFRS *status* ("required for domestic public companies", "permitted but not
+required", "required or permitted for listings by foreign companies") and list 170 jurisdictions, but
+they do **not** enumerate IFRS 18-specific application dates and do **not** partition jurisdictions into
+first-time versus second-time IFRS 18 adopters with non-overlapping, pre-registered dates. Verdict at the
+time: **negative as specified**; a published IFRS 18 jurisdiction adoption calendar distinguishing
+first-time from second-time adopters with non-overlapping dates would be required. **Cycle 56 re-opened
+the limb with primary endorsement instruments and closed it again — this time with the reason
+established** (see the Cycle-56 block below); the Cycle-53 verdict stands as recorded.
+
+### Cycle 54 — **no gap verdict was written**
+Cycle 54 ran one mechanism family screen (the regulatory filing/venue deadline cluster), logged as
+**R-033** (bounded negative). G-28 stayed frozen, G-30 stayed exhausted, G-21 and IDEA-014's state-free
+existence limb were maintained. No gap was opened or closed.
+
+### Cycle 55 — **no gap verdict was written**
+Cycle 55 ran one mechanism family screen (prediction-market settlement manipulation and circuit-breaker
+price discovery), logged as **R-034** (bounded negative). Same maintenance verdicts as Cycle 54: G-28
+frozen, G-30 exhausted, G-21 and IDEA-014's state-free limb maintained. No gap was opened or closed.
+
+---
+
+## Cycle 56 gap verdicts (2026-10-20)
+
+### G-32 — **limb (a) CLOSED: negative as specified, and the reason is now established; limbs (b) and (c) advanced; the binding hard stop is relieved only inside a new arm** (IDEA-011)
+Cycle 52 opened G-32 with three limbs. Cycle 56 closed limb (a) and advanced limbs (b) and (c).
+
+**(a) The calendar limb — CLOSED, negative as specified, and the reason is now known.** The register no
+longer asks only whether a partition table exists; it can now say why none can exist in the form the
+candidate needs. Three verified facts:
+1. **Convergence.** The published endorsement instruments all point at one mandatory date: the EU
+   (Commission Regulation (EU) 2026/338, S-268 — "each company shall apply the amendment at the latest as
+   from the commencement of its first financial year starting on or after 1 January 2027"), the UK
+   (S-269 — approved 10 December 2025, closed 30 January 2026, effective 1 January 2027) and Saudi
+   Arabia (S-270, S-271 — adopted 26 December 2024, mandatory from periods beginning on or after
+   1 January 2027). The already-IFRS jurisdictions (group B) therefore apply IFRS 18 on **one common
+   date**, and the IFRS Foundation's profiles give *status*, not dates (S-254). A group A date could only
+   come from a jurisdiction whose *first* IFRS adoption falls after 1 January 2027, and no published
+   partition table exists — nor could one, in the form the candidate needs, while the mandatory dates
+   converge.
+2. **Single-package adoption.** Where a jurisdiction adopts IFRS for the first time in the IFRS 18 era,
+   IFRS 18 arrives *simultaneously* with the whole IFRS package (S-271: the IFRSs "shall be applied all
+   at once"). The group A/group B contrast then stops being a *within-standard* contrast and becomes the
+   historical first-time-versus-second-time IFRS comparison the literature has already populated
+   (S-188 Greece as first adopter; S-179 Korea as second adopter).
+3. **Consequence.** The group A/group B partition within IFRS 18 is **unavailable**, and G-21's
+   discriminator cannot be newly identified in the IFRS 18 window. **The candidate's binding hard stop —
+   the small number of independent, non-overlapping adoption events — is unchanged by limb (a).**
+
+**(b) The identification limb — advanced, and answered differently than the register expected.** The
+handoff's proposed re-specification — within-jurisdiction early adopters versus mandatory adopters under
+one regime — turns out to have a *documented instance* rather than a hypothetical one: Saudi Arabia's
+CMA decision of 30 June 2026 (S-270) permits early adoption during 2026, requires early adopters to
+announce their IFRS 18 financial statements and the effect of early adoption on the Tadawul website,
+makes application mandatory from periods beginning on or after 1 January 2027, and requires **all**
+listed joint-stock companies to disclose a preliminary assessment of the expected IFRS 18 impact for
+periods beginning on or after 1 April 2026. **Verdict: rejected as an identification**, on three
+grounds: (i) the treatment arm is **voluntary and self-selected**, and the selection is mechanically
+correlated with the state the candidate would condition on — a firm that expects a large IFRS 18 impact,
+or that wants to pre-empt a comparability problem, has a reason to early-adopt — so the contrast is not
+identified; (ii) the effective sample is the *number of early adopters*, so the event-count hard stop is
+relocated, not relieved; (iii) the early arm announces its IFRS 18 financial statements *together with*
+their effect, so the slow-information-diffusion clock has no window to run on that arm. The country-level
+conditioners (S-221 enforcement, S-252 linguistic distance) are constant only *within* Saudi, so the
+cross-country comparison the candidate would want is not available either. The early-adopter population is,
+however, machine-identifiable from tagged filings (S-272), so the rejection is about identification, not
+about observability.
+
+**(c) The pre-adoption-claim limb — advanced, and the route to a state the candidate did not have.**
+ESMA's Public Statement on the Implementation of IFRS 18 (S-267) establishes that the **pre-adoption
+expected-impact disclosure is required by the standard-setter itself** (IAS 8 paragraphs 30 and 31,
+including paragraph 30(b)'s "known or reasonably estimable information relevant to assessing the
+possible impact that application of the new IFRS will have on the issuer's financial statements in the
+period of initial application"), that ESMA expects it in interim and annual financial reports for
+periods ending before 1 January 2027, and that issuers are *encouraged* to include "the (expected) change
+in 2026 operating profit or loss and/or in other subtotals". It also establishes that the first IFRS 18
+reporting cycle is the **2027 interim** reports, not the 2028 annual reports. This gives the register a
+**firm-level, published, dated, pre-adoption** state that measures the *size of the comparability break*
+directly — the candidate's own premise — with the country-level conditioners absorbed within
+jurisdiction, and it converts the identification from "few events" to "one event × many firms", which
+**relaxes the binding hard stop**. Two limits are recorded rather than smoothed: the *mandated* disclosure
+is qualitative and the quantified expected change is only "encouraged" (this is the new gap **G-33**), and
+the state arrives in the same periodic reports in which the break first appears, so the treatment and
+outcome windows overlap and the specification must pre-register how the slow-diffusion clock is separated
+from the adoption-announcement effect. This is recorded as **IDEA-011's prospective arm A** and carried
+into **V-009** by the Cycle-56 amendment. No 2024–2027 pre-adoption literature claiming the IFRS 18
+drift sign was located in this cycle; limb (c) stays open on that literature question, whose dated
+re-read remains annual.
+
+### G-33 — **OPENED (Cycle 56) — is the pre-adoption impact disclosure quantifiable and comparable at firm level?** (IDEA-011, prospective arm A)
+Arm A depends on a state whose *existence* is now sourced (S-267: IAS 8.30–31 plus ESMA's expectation)
+but whose *content* is not yet established. Three sub-questions, each with a stated answer route:
+- **(a) Quantification rate.** What fraction of IFRS-reporting issuers that must apply IFRS 18 disclose a
+  *quantified* expected effect — in the 2026 interim and annual reports — and in what units (amount,
+  percentage of operating profit, a restated prior-period subtotal)? Answer route: reading a stated sample
+  of issuers' 2026 interim and annual reports and the tagged concepts behind them (S-272).
+- **(b) Comparability.** Is the disclosed expected effect comparable across issuers — the same definition
+  of "operating profit" before and after IFRS 18, the same statement, the same currency, the same period?
+  ESMA's statement describes the expected content (structure of the statement of profit or loss, the
+  "specified main business activities" assessment, the MPM measures), which is the template a validator
+  would apply (S-267). Answer route: the tagged disclosures themselves.
+- **(c) Ex-ante availability and lag.** Is the disclosure available *before* the trade's decision date and
+  at what frequency — what is the publication lag from the reporting period end to the disclosure, and
+  does the interim-report filing calendar in the relevant jurisdictions put it before the first IFRS 18
+  report? Answer route: the statutory interim filing deadlines, which differ by jurisdiction.
+- **Dated re-check:** the first IFRS 18 interim reports (periods beginning on or after 1 January 2027) are
+  published during 2027; the first *pre-adoption* impact disclosures appear from mid-2026 (periods
+  beginning on or after 1 April 2026 in Saudi, S-270; periods ending before 1 January 2027 in the EU,
+  S-267). **Re-check G-33 in 2027 Q3, after the first tranche of 2026 interim reports carrying IAS 8.30(b)
+  impact disclosures is public.**
+- **Kill condition:** if the disclosure is unquantified, or defined inconsistently across issuers, in the
+  large majority of the sample, arm A has no usable state, and the candidate returns to its pre-Cycle-56
+  position — blocked on the group A/group B partition, with the event-count hard stop unrelieved.
+
+### G-28 — **remains frozen; null recorded** (IDEA-004); V-002 frozen
+A bounded Cycle-56 re-check was run for a published convergence-crowd **concentration** measure. What was
+located does not meet the register's bar: the nearest published measure of convergence-crowd crowding is
+the pairwise-comovement "CoMetric" (S-280), whose *series* is the author's proprietary computation over
+non-public data, and which measures comovement rather than capital concentration; the surrounding
+literature the register already holds measures a different crowd in every case (S-026, S-157, S-222,
+S-241, S-242, S-243); and the practitioner crowding diagnostics that surfaced are proprietary models,
+vendor spread-compression rankings and commentary, not published, reproducible series. **G-28 stays frozen
+and V-002 stays frozen.** The FINRA twice-monthly short-interest route remains a lead with objections
+(per-issue aggregate with no firm-level breakdown; contamination of the short leg; short interest already
+published prior art).
+
+### G-30 — **exhausted confirmed, no re-probe** (IDEA-010)
+All routes outside the statutory prospectus remain exhausted (not found), as re-confirmed across Cycles
+41–56: regulatory route closed in Cycle 41 (17 CFR 270.6c-11 imposes no public disclosure requirement for
+AP identities), sponsor-published lists not found in Cycle 42, non-US issuers not found in Cycle 42, and
+exchange listing rules with no public-disclosure requirement in Cycle 43. No new route was identified and
+no re-probe of statutory filings was performed. **V-010 remains non-executable against the corporate-bond
+ETF universe.**
+
+### IDEA-014's state-free existence limb — **inconclusive maintained**
+No new source was identified on whether the US Renewable Fuel Standard compliance deadline moves prices at
+all. The limb remains neither a positive finding nor a refutation and must not be described as either.
+IDEA-014 stays at 52.0; P-011 stands; no gap is opened on this limb.
+
+### The Cycle-56 tax-driven year-end flow family screen — logged as **R-035**
+Year-end capital-loss harvesting under loss carry-forward rules, and the paired institutional
+window-dressing flow, were screened as one family — the register's first screen of a **tax-incentive
+flow** family, in which no participant is *obliged* to act and the flow's existence and strength are set
+by a tax rule rather than by an obligation, a switch or a venue rule. Verdict: **bounded negative** on
+five independent reasons — the mechanism is published prior art with a rule-dependent sign and with a
+published null in at least one jurisdiction (S-274, S-275, S-278); the sign-determining state (which
+investors realise which losses) is private tax-lot data, so any cross-sectional condition would be a
+construction rather than a published series; the constrained flow is the seller's own tax obligation, so
+there is no third-party concession to harvest; the buyer side is published prior art as well (S-277); and
+the rule-dated natural experiment the family would need has already been run in the literature
+(S-276, S-279, S-274). The screen, its instances, its five reasons and its dated re-screen condition are
+recorded in `rejected_and_parked.md` under **R-035**, and the family was added to the known-baseline
+table.
+
+### Cycle-56 ranking and identifier record
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0,
+  rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**. The
+  Cycle-56 sources support the *mechanism and the state* for IDEA-011, not the *directional drift claim*,
+  so the Cycle-35/52 precedent applies and the score stands.
+- **New identifiers consumed in Cycle 56:** sources **S-267 … S-280**; gap **G-33**; rejection **R-035**.
+  No `IDEA-` identifier was consumed and no `V-` identifier was consumed as a *new* specification;
+  **V-009 was amended** (Cycle 56), not re-created.
+- **Next free identifiers:** **IDEA-017, S-281, V-012, G-34, R-036, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

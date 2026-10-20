@@ -5,8 +5,14 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 52 complete, 2026-10-20. **32 rejections (R-001 … R-032), 12 parkings
-(P-001 … P-012), 64-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
+Last updated: Cycle 56 complete, 2026-10-20. **35 rejections (R-001 … R-035), 12 parkings
+(P-001 … P-012), 65-row known-baseline table.** Cycle 54 added **R-033** (the regulatory filing/venue deadline
+cluster family — bounded negative) and Cycle 55 added **R-034** (the prediction-market settlement-manipulation /
+circuit-breaker price-discovery family — bounded negative); **neither cycle updated this header**, so the counts
+below were stale for two cycles and are corrected here against the file. Cycle 56 added **R-035** (the
+tax-driven year-end flow family — year-end capital-loss harvesting under loss carry-forward rules and the paired
+institutional window dressing — bounded negative, the register's first screen of a *tax-incentive flow* family)
+and added that family to the known-baseline table. Earlier history: Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
@@ -765,6 +771,82 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
   dossier was created; no `IDEA-` identifier was consumed; no score changed; no validation specification was
   added.
 
+### R-033 — Regulatory filing/venue deadline cluster (Cycle 54 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-032: regulatory filing deadlines, short-sale/position reporting deadlines, and exchange-imposed submission cutoffs that create time-concentrated order flow or constraints.
+- **Why no candidate.**
+  1. **Published/expected flows dominate.** Many filing deadlines produce predictable flows, but the price effects are often documented as information-driven or as well-known baseline effects rather than an unclaimed, sign-determinizable concession to a third-party liquidity provider.
+  2. **State availability varies.** Some deadlines are published in advance, but the sign-determining state (who is constrained and in which direction) is often ambiguous or the flow is not price-insensitive in the required form.
+  3. **No clean harvestable residual found.** The strict bar (published before decision, sign-determining, not public real-time by-product) was not met by any specific mechanism surfaced in the bounded screen.
+- **Dated re-screen condition.** Re-screen if a specific, published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
+- **Decision:** bounded negative (R-033). No dossier created; no IDEA- identifier consumed; no score changed.
+
+### R-034 — Prediction-market settlement manipulation / circuit-breaker price-discovery family (Cycle 55 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-033: settlement-manipulation footprints in prediction markets that settle on snapshot/average asset prices, and circuit-breaker-constrained price discovery around scheduled macro news (dynamic circuit breakers, velocity logic, price limits).
+- **Why no candidate.**
+  1. **Published, and the published remedy is the mechanism.** Settlement-footprint manipulation is documented and its remedy (switching snapshot settlement to a time-weighted average price) is shown to eliminate the footprint; the residual is a market-design finding, not an unclaimed sign-determinable price concession to a third-party liquidity provider.
+  2. **Circuit-breaker effects are published and sign-ambiguous.** Breaking-news dynamic circuit breakers create overshooting and transition distortions; the sign depends on the specific rule and news, and the effect is a real-time by-product of the intervention rather than a pre-published decision-time state with a clean harvestable residual.
+  3. **No clean decision-time state.** The sign-determining state (whether a breaker triggers, or whether settlement is snapshot vs average) is not a published, pre-decision variable a trader conditions on for a harvestable concession; it is an execution/market-design outcome.
+  4. **No unclaimed residual meeting the strict bar.** Published before decision, sign-determining, not a public real-time by-product — not met for either sub-family.
+- **Dated re-screen condition.** Re-screen if a specific published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
+- **Decision:** bounded negative (R-034). No dossier created; no IDEA- identifier consumed; no score changed.
+### R-035 — Tax-driven year-end flow family: capital-loss harvesting and the paired window dressing (Cycle 56 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-034: year-end **capital-loss harvesting** — the
+  forced or strongly incentivised realisation of tax losses under loss carry-forward rules, which concentrates
+  *price-insensitive* selling in the last sessions of a tax year — together with the paired institutional
+  quarter/year-end rebalancing ("window dressing") often claimed to offset it. This is the register's first
+  screen of a **tax-incentive flow** family: unlike the compliance-deadline family (R-033), the payment-date
+  cluster (R-012) or the eligibility-switch family (R-020), **no participant is obliged to act**; the flow's
+  existence, direction and strength are set by a *tax rule*, and that rule is published and dated in advance.
+- **Instances screened.** The US rule (S-273: net capital losses may offset ordinary income only to the
+  lesser of **$3,000** or the total net loss, with the remainder carried forward); the Swedish carry-forward
+  change (S-276: unused lottery-bond losses carried forward for five years, the provision valued at 75 percent
+  of expected lottery proceeds); the Japanese capital-gains-tax reduction of 2003 (S-279); and the multi-regime
+  Swedish evidence (S-278: six different tax regimes between 1919 and 1994).
+- **Why no candidate.**
+  1. **The mechanism is published prior art with a stated, rule-dependent sign — and with a published null.**
+     Poterba & Weisbenner (S-274) state the mechanism and show that the *strength* of the turn-of-the-year
+     return pattern depends on whether the law "encouraged taxable investors who accrued losses early in the
+     year to realize their losses before year-end"; Ivković, Poterba & Weisbenner (S-275) is the canonical
+     account of tax-motivated trading by individual investors. Dahlquist & Sellin (S-278) test the mechanism
+     across six Swedish tax regimes and "find no support for either of the proposed hypotheses". The aggregate
+     sign a candidate would claim is therefore **claimed in the literature**, and in at least one jurisdiction
+     it is claimed as a **null** — the G-12 existence test fails on the family's headline.
+  2. **The sign-determining state is private.** The rule fixes *that* a flow exists, not *who is in it*: which
+     investors realise which losses depends on tax lots that are not published (S-273). Any cross-sectional
+     condition — by unrealised gain, by tax-loss capacity, by expected distribution — is therefore a
+     **construction**, not a published series, and G-13 is not met at firm level. (At *aggregate* level the
+     state does pass the Cycle-52 third test — the rule is published before the decision and is not a
+     real-time by-product — which is why this screen is a bounded negative on the sign and the concession
+     rather than a rule-out of the family.)
+  3. **The constrained flow is the seller's own — there is no third-party concession to harvest (the S-151
+     analogue).** The flow is a retail investor's own tax obligation; no third party's failure to perform
+     grants a concession to a third-party liquidity provider. The counterparties are discretionary buyers whose
+     identity is not published, and the *paired* institutional leg is published prior art as well: Heston,
+     Korajczyk & Sadka (S-277) document the quarter-end institutional rebalancing that produces the
+     cross-sectional "window dressing" pattern, so a candidate claiming the year-end *pairing* is claiming
+     published work on both legs.
+  4. **The rule-dated natural experiment the family would need has already been run.** The published work does
+     not merely assert the mechanism; it exploits rule changes with dates — the US rule history in S-274, the
+     Swedish five-year carry-forward change in S-276, and the Japanese 2003 capital-gains-tax reduction in
+     S-279, whose result is that the reform "decays benefits to realize capital losses and results in lower
+     relationships between tax-loss selling and turn-of-the-year returns". What is left for a candidate is a
+     **re-run** of an existing design, not an unclaimed sign.
+  5. **The tradeable window is hostile and the effect is a calendar artefact rather than a concession.** The
+     flow concentrates in the last few sessions of the tax year, where volume is elevated but spreads are wide
+     and short-sale capacity is constrained by the same year-end squeeze the candidate would trade; and the
+     well-known "December 29"-style reversal is a calendar artefact of the same flow, not an unclaimed,
+     price-insensitive concession to a third party.
+- **Dated re-screen condition.** Re-screen if (i) a jurisdiction whose tax-loss-selling literature is thin
+  publishes a change to its **loss carry-forward regime with a published effective date**, together with a
+  published expected-flow measure or a published list of affected investors; or (ii) tax-lot-level or
+  broker-level aggregate flow data become publicly disseminated on a decision-time cadence; or (iii) a
+  published, dated *flow* — as distinct from a tax rule — arises at a year-end in a jurisdiction not covered
+  by the literature above. Absent all three, this family stays closed.
+- **Decision:** bounded negative (R-035). No dossier created; no IDEA- identifier consumed; no score changed.
+
 ## Parked (not rejected; blocked on a specific question)
 
 ### P-001 — Crypto breakout momentum
@@ -1289,6 +1371,7 @@ to baselines.
 | **Eligibility switches: regulatory and provider changes in *who may hold* (added in Cycle 40)** | **Primary regulator material plus a bounded-negative family screen (R-020).** The instances are the SEC's accredited-investor and qualified-institutional-buyer definition amendment (S-244: Release 33-10824, 85 FR 64234, effective 8 December 2020; the $1 million net-worth, $200,000 income and $100 million QIB thresholds are published) and index-provider eligibility and float screens. **This is a baseline and a bounded-negative family screen (Cycle 40, R-020):** the switch is published in advance so any flow is anticipated (and the nearest published analogue finds the effect collapsed to approximately zero and shifted away from the effective date — S-146, S-147); the constrained flow is the obligor's own, so there is no third-party concession to harvest (S-151); each holder's distance to its own limit is private, so the state would be a construction; and the effective sample is the number of switches, not securities × dates. **Dated re-screen condition:** re-screen only if a change arrives with a published list of affected securities *and* a published distance-to-limit measure for each affected holder. |
 | **Closing-price formation: randomised closes and real-time closing-auction imbalance publication (added in Cycle 51)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-031, Cycle 51) — the register's first screen of a *price-formation* family.** The published record: the LSE's call-market opening and closing auctions and their price-discovery and trading-cost properties (S-247), the market-quality effects of introducing the LSE closing call auction (S-248), the Korea Exchange's conditional random end — a randomised end-of-auction mechanism reported to improve price discovery and stabilise the close, with the benefit attenuating under high-volatility conditions (S-249), and the closing auction's *lower* price impact relative to the continuous market for all stocks except Nasdaq micro-caps (S-150, with S-149 on the passive-incentive mechanism). The primary rule text: NYSE's Closing Auction Imbalance Information (Continuous Book Clearing Price, Imbalance Reference Price, paired/unpaired quantity) is disseminated on the exchange's proprietary feed from ten minutes before the close and updated at least every second, and the exchange's stated purpose for publishing it is to attract "offsetting orders" and "additional contra-side interest, thereby decreasing volatility" (S-251, 89 FR 19370–19374, Release No. 34-99719; approval order 34-100327), with NYSE's 2022 amendment (87 FR 56099) making the DMM's price selection "more transparent and deterministic" — so the US close is not randomised. The settlement channel does not propagate: the Eurex FTSE 100 Index Future settles on the EDSP intraday auction and on a 17:30 CET volume-weighted average, both determined after the cash close is known (S-250). **This is a baseline and a rediscovery guard:** a randomised close is a symmetric draw with no sign-determining state, a single-price auction cannot express the compensation for the draw in the price, and the exchange designs the imbalance publication to attract offsetting interest. Any candidate in this family must state which venue, which instrument settles on the randomised close, and what published state determines the sign. |
 | **Venue-imposed trading halts, price bands and market-wide circuit breakers (added in Cycle 52)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-032, Cycle 52) — the register's first screen of a *market-interruption* family.** The published record on the market-wide breaker: state-conditioned behaviour is claimed and sized — volatility rises drastically as the market approaches the trigger, returns take on increasing negative skewness, expected returns and volume rise as the trigger approaches, sized at 17.5 bps of normalised daily volatility per 1 % closer and roughly double inside 2 % (S-256); the post-halt state of the world is measured — returns stabilise, trading costs fall, selling pressure resolves and prices become more informative after the resumption (S-258); the individual-stock variant is equally studied — LULD "curbs short term volatility without delaying the price discovery process", with a magnet effect near the band and reduced HFT activity after the halt (S-262) — and the family has a thirty-year survey literature with its own methodological disputes and its reported "lack of statistical power" (S-257). The primary rule text: the US market-wide thresholds of 7 % / 13 % / 20 % of the previous S&P 500 close and the 15-minute level-1 halt (S-266), the Limit Up–Limit Down price bands, the 15-second Limit State, the five-minute Trading Pause and the reopening auction (S-260, S-259), and the EU regime's "Guidelines on calibration of circuit breakers **and publication of trading halts**" with annual reporting of thresholds, durations and resumption mechanics to the competent authority and on to ESMA (S-261, S-263, S-264). **This is a baseline and a rediscovery guard:** the trigger state is public and real-time — the SIPs "republish the current price bands every 30 seconds" (S-260) — so there is nothing to discover; a market-wide trigger is a state common to every security, making the trade beta rather than an edge; an individual-stock halt is triggered by that stock's own news, so the identification is inseparable from the information event (the R-018 objection); the concession is competed away inside the reopening auction, in which the venue's own Designated Sponsors are obliged to quote (S-263); and the cost floor is hostile — the tradeable window is seconds wide, in the least liquid names (84 % of halted ETPs small-cap, only 8 S&P 500 constituents halted, on the SEC's own statistics for 24 August 2015 — S-259) and with realised volatility 194 % higher annualised in the first minute after a level-1 halt and wider spreads for about five minutes (S-266). **Dated re-screen condition:** re-open only if (i) a venue introduces an in-force, pre-published, *persistent* **reopening-auction rule difference** (a price collar or matching rule) with published evidence that it produces persistent dispersion in reopening prices rather than a one-day observation — the SEC's own staff note on NYSE Arca's 24 August 2015 collars is the narrow residual this family leaves and is recorded as such, not as a candidate (S-259); or (ii) an exchange publishes a **mandatory participation requirement in its reopening auction for a non-market-maker class** (S-263); or (iii) the US thresholds or LULD parameters change materially, or the EU publication-of-trading-halts requirement is withdrawn (S-260, S-261, S-266). |
+| **Tax-driven year-end flows: capital-loss harvesting and the paired window dressing (added in Cycle 56)** | **Published, peer-reviewed plus primary tax-authority material, and a bounded-negative family screen (R-035, Cycle 56) — the register's first screen of a *tax-incentive flow* family.** The published record: the mechanism is canonical and its sign is stated (S-274: realising a capital loss before year-end "can accelerate the tax benefits of the loss by as much as twelve months", with the strength of the turn-of-the-year return pattern depending on whether the law encouraged early realisation; S-275, the canonical account of tax-motivated trading by individual investors); the **rule-dated natural experiments have already been run** — the US rule history (S-274), the Swedish five-year carry-forward change whose value is measured at 75 percent of expected lottery proceeds (S-276), and the Japanese 2003 capital-gains-tax reduction (S-279, a working paper); and the family also carries a published **null** (S-278: six Swedish tax regimes, "no support for either of the proposed hypotheses"). The primary rule text: the US limitation on using net capital losses against ordinary income (S-273: the lesser of $3,000 or the total net loss, with the remainder carried forward). **This is a baseline and a rediscovery guard:** no participant is *obliged* to act, so the flow is set by a tax rule rather than by a dated obligation; the sign-determining state (which investors realise which losses) is private tax-lot data, so any cross-sectional condition is a construction; the constrained flow is the seller's own, so there is no third-party concession (the S-151 analogue), and the paired institutional leg is published as well (S-277). **Dated re-screen condition:** re-screen only if a jurisdiction with thin tax-loss-selling literature publishes a loss carry-forward regime change with an effective date and a published expected-flow measure, or if tax-lot-level flow data become publicly disseminated. |
 
 ---
 
@@ -1580,25 +1663,3 @@ advice):
   4. **No unclaimed sign or clean separation.** Establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating from price-sensitive execution. The bar (published decision-time state, dated price-insensitive flow, unclaimed sign) is not met.
 
 - **Verdict: bounded negative — no candidate.** The family is a baseline of rate-limited supply, not the deadline-driven third-party constraint the register screens for. No 10b-18 source added in the main ledger in this cycle; the finding is recorded as a bounded negative. Two further points from the shorter duplicate entry, retained on merge: **no unclaimed sign or clean separation** — establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating them from price-sensitive execution; and the **state is periodic, not decision-time** — issuers are not required to publish remaining 10b-18 capacity intraday or even daily in a central public feed, and the 10b-18 repurchase tables in periodic reports disclose total repurchases over periods rather than a continuous remaining-capacity series.
-
-
-### R-033 — Regulatory filing/venue deadline cluster (Cycle 54 family screen — bounded negative)
-
-- **The family screened.** A different family from R-014–R-032: regulatory filing deadlines, short-sale/position reporting deadlines, and exchange-imposed submission cutoffs that create time-concentrated order flow or constraints.
-- **Why no candidate.**
-  1. **Published/expected flows dominate.** Many filing deadlines produce predictable flows, but the price effects are often documented as information-driven or as well-known baseline effects rather than an unclaimed, sign-determinizable concession to a third-party liquidity provider.
-  2. **State availability varies.** Some deadlines are published in advance, but the sign-determining state (who is constrained and in which direction) is often ambiguous or the flow is not price-insensitive in the required form.
-  3. **No clean harvestable residual found.** The strict bar (published before decision, sign-determining, not public real-time by-product) was not met by any specific mechanism surfaced in the bounded screen.
-- **Dated re-screen condition.** Re-screen if a specific, published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
-- **Decision:** bounded negative (R-033). No dossier created; no IDEA- identifier consumed; no score changed.
-
-### R-034 — Prediction-market settlement manipulation / circuit-breaker price-discovery family (Cycle 55 family screen — bounded negative)
-
-- **The family screened.** A different family from R-014–R-033: settlement-manipulation footprints in prediction markets that settle on snapshot/average asset prices, and circuit-breaker-constrained price discovery around scheduled macro news (dynamic circuit breakers, velocity logic, price limits).
-- **Why no candidate.**
-  1. **Published, and the published remedy is the mechanism.** Settlement-footprint manipulation is documented and its remedy (switching snapshot settlement to a time-weighted average price) is shown to eliminate the footprint; the residual is a market-design finding, not an unclaimed sign-determinable price concession to a third-party liquidity provider.
-  2. **Circuit-breaker effects are published and sign-ambiguous.** Breaking-news dynamic circuit breakers create overshooting and transition distortions; the sign depends on the specific rule and news, and the effect is a real-time by-product of the intervention rather than a pre-published decision-time state with a clean harvestable residual.
-  3. **No clean decision-time state.** The sign-determining state (whether a breaker triggers, or whether settlement is snapshot vs average) is not a published, pre-decision variable a trader conditions on for a harvestable concession; it is an execution/market-design outcome.
-  4. **No unclaimed residual meeting the strict bar.** Published before decision, sign-determining, not a public real-time by-product — not met for either sub-family.
-- **Dated re-screen condition.** Re-screen if a specific published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
-- **Decision:** bounded negative (R-034). No dossier created; no IDEA- identifier consumed; no score changed.
