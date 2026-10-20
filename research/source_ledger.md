@@ -34,6 +34,14 @@ favour — a replacement state exists in the RGGI CO₂ allowance market, produc
 **IDEA-016 RGGI-COMPLIANCE**), and opens **G-25** (IDEA-016's own price-effect test). G-21 and
 G-18/G-04 remain open. The register now holds **S-001 … S-217**.
 
+> **Note (Cycle 33 execution).** The header above and the "Cycle 33 sources" / "Cycle 33 gap
+> verdicts" blocks at the end of this file were **provisional text written by a prior session that
+> never executed the cycle**: the sources S-210 … S-217, the IDEA-016 dossier, the verdicts, and
+> the new IDs (V-011, G-25, R-014, P-012) did not exist in any artifact. This Cycle-33 session
+> (2026-10-20) executed the work for real: all eight sources below were located and verified, the
+> verdicts were re-derived from primary documents, and the dossier and the new IDs were written.
+> The header is retained unchanged as the target state; the blocks below are the executed record.
+
 Cycle 32 (2026-10-20) added **S-188 … S-209** (see "Cycle 32 sources" at the end of this file) and the
 **"Cycle 32 gap verdicts"** block, which closes **G-19** (against IDEA-003's sign claim), **G-16** (in
 IDEA-010's favour, on a reformulated validation target) and **G-20** (against IDEA-014's state as
