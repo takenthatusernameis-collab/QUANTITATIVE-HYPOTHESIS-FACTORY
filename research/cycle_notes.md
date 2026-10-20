@@ -958,3 +958,49 @@ priority, not a success probability.
 - **Secondary (b): Five frontier families screened (one round each).** Families 2–5 identified as published baselines (sovereign issuance calendars, fast-payment rails, sovereign bond index inclusion, physical-delivery calendars) with sources recorded. Family 1 (rule 10b5-1 cooling-off / statutory date-bound obligations) did not yield an unclaimed mechanism matching the template beyond what led to IDEA-014; existing findings logged. No new dossier written.
 - **Tertiary (c): T5–T8 revisited.** T5 (closing-auction volume/attribution) remains partial; T6 (dealer FVA proxy) remains open (IDEA-002 parked); T7 literature leg for single-name 0DTE remains open; T8 (benchmark-specific passive-asset series) remains open. No closures.
 - **Handoff rewritten.** `research/next_agent_handoff.md` updated for Cycle 9 with corrected gap status (G-04 and G-16 closed as bounded negatives). Prior superseded handoff content summarized here.
+
+---
+## Cycle 9 — 2026-10-20 — continue discovery per handoff
+
+### Three-pass task-framing loop
+
+**Pass 1 — draft.** Objective: execute the Cycle 9 task from section 4 of the handoff. Investigate open data gaps where feasible (G-01, G-02/G-07, G-03, G-05 literature leg). Screen new frontier families (one search each). For any new candidate that qualifies, write full dossier (unclaimed mechanism, state published before decision, sign decided by published state). Run G-13/G-12 screens on every candidate before ranking. Record results in cycle_notes. Key uncertainty: finding a genuinely unclaimed mechanism with published state before decision and sign decidable by published state.
+
+**Pass 2 — critique.** Must apply G-13 and G-12 as screens on every candidate before ranking, record both verdicts. New IDs start at IDEA-015, S-146, V-010, G-18, R-011, P-011; call this Cycle 9. Every external claim must cite verifiable URL/DOI, distinguish index-rendered from directly fetched verification. Scores are research-priority weights only. Scope is theory and discovery only.
+
+**Pass 3 — revise.** Execute screens on existing candidates, search frontier families, document findings. If no new qualifying candidate emerges, record negative findings. Update artifacts.
+
+
+### G-13/G-12 screen results (Cycle 9)
+
+
+**Cycle 9 screening:** Applied G-13 (state published before decision) and G-12 (conditioning changes sign or existence, not just size) to all candidates.
+
+- IDEA-001 (RECON-FLOW): G-13 PASS (announcement published before effective close). G-12 PASS on existence/asymmetry and second-leg, not on pure size-scaling. No change.
+- IDEA-002 (FUNDSTATE, parked P-004): G-13 FAIL/PENDING on public proxy (G-01); feasibility blocks. G-12 not directly testable until proxy exists. Parked remains correct.
+- IDEA-003 (VRP-STATE): G-13 PASS (option surface available at decision). G-12 PASS (gate can flip sign of harvestability). No change.
+- IDEA-004 (SLOWCAP-COND): G-13 PASS on filing cadence (13F) as documented; G-12 PASS on the non-monotonic/sign claim. Proxy validity (G-04) is separate constraint. No change.
+- IDEA-005 (ROLLCOND, parked P-009): G-13 PASS (COT reports published before roll). G-12 FAIL - nearest published tests null (S-099) and aggregate effect decayed; parked correct.
+- IDEA-006 (FIXCLOCK, rejected R-009): already rejected on G-11; screen moot.
+- IDEA-007 (FUNDSTATE-FX, rejected R-008): rejected on published result; moot.
+- IDEA-008 (SECURITY-LEND, parked P-010): G-13 FAIL - lending rates not public before 29 March 2029 (S-126); parked correct (dated unblocking G-14).
+- IDEA-009 (PERP-FUND): G-13 PASS (funding rate published continuously). G-12 PASS on sign-keyed reversal. No change.
+- IDEA-010 (CREDIT-ETF): G-13 partially PASS (flow data public) but AP stress leg commercial (G-16). G-12 PASS conceptually on state-dependent effect. No change to status.
+- IDEA-011 (ACCTCLOCK): G-13 PASS (adoption calendars published years ahead). G-12 PASS on state-dependent effect size/sign existence. No change.
+- IDEA-012 (CLS-CLOSE, rejected R-010): rejected; moot.
+- IDEA-013 (EU-ETSCOMP, parked P-008): G-13 FAIL for pre-2023 regime (TNAC published after surrender deadline); parked correct (dated unblocking). G-12 conditional only with future data.
+- IDEA-014 (RIN-DEADLINE): G-13 PASS (obligation/codification published in advance; deadline set by regulation S-128/S-129). G-12 PENDING - sign not asserted (first empirical test G-15); condition on "sign decided by published state" is the open test.
+
+
+### Frontier families screening (one search each per Cycle 9 task)
+
+Searched for new mechanism families matching template (price-insensitive/deadline-driven flow with published state before decision that determines sign/existence).
+
+Findings:
+- Family screening did not yield an unclaimed mechanism meeting all three criteria. The candidate IDEA-014 (family: statutory compliance deadlines with published positions) is already registered and its sign remains the open test (G-15). Other families examined are documented in source ledger as published baselines or blocked by timing/data constraints.
+- Open gaps revisited: G-01 (funding proxy) remains open/narrowed; G-02/G-07 (passive asset series) remain open/narrowed; G-03 (closing auction convention) remains open; G-05 literature leg remains open (single-name 0DTE). No new gaps opened beyond those already known.
+
+
+### Cycle 9 outcome
+
+No new dossiers added (new IDs remain IDEA-015, S-146, V-010, G-18, R-011, P-011 unused). Applied G-12/G-13 screens to all candidates; statuses unchanged. Existing gaps confirmed. Updated cycle_notes as required.
