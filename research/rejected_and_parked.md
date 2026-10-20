@@ -534,6 +534,49 @@ effect (the rule that produces R-007, R-009 and R-010).
   from withheld tax, and (iii) show a concession that survives the earnings-season and macro-release
   confounders. Until then the family is a baseline.
 
+### R-013 — "Debt tender offers and liability-management exercises" as a dated, price-insensitive deadline flow (Cycle 32 family screen — bounded negative)
+
+- **The family screened.** Corporate-debt tender offers and liability-management exercises: an issuer
+  offers to buy its own bonds for cash at a fixed price (or a fixed spread, or a Dutch auction) before a
+  published expiration date, with the offer document publishing the price, the amount sought and the
+  deadline. It looked like the register's best remaining template fit — a *dated*, *price-insensitive*
+  flow into a *published* deadline, with a decision-time state literally inside the offer document.
+- **Why no candidate.**
+  1. *The flow is published and quantified.* The tender price averages a **4.75%** premium (median
+     3.40%) to the pre-tender market price and **82.3%** of the issue (median 94.6%) tenders; a 1% rise
+     in the tender premium raises the tendering rate by as much as 10% (S-204). The price-insensitive
+     flow at a published deadline is a documented object, not an unclaimed mechanism.
+  2. *The deadline-cluster behaviour is published too.* **72%** of exercised-clawback issues underwent
+     renegotiation by tender, and **73.9%** of them did so *before* the clawback's published expiration
+     date (S-206). The "obligations converge on a published deadline" structure is documented.
+  3. *The price-insensitive flow is the issuer's, and it supports the price.* The issuer commits to buy
+     at a fixed premium, so price-insensitive *demand* at a published price puts a floor under the bond
+     and pulls it *toward* the offer price as expiry approaches — the opposite shape to the register's
+     cap-and-trade and compliance-deadline template (IDEA-013, IDEA-014), which requires the flow to push
+     the price *below* fair value into the deadline and revert afterwards. The structural contrast is
+     explicit: the tender is the price-known-to-the-seller repurchase route, open-market repurchase is
+     not (S-205).
+  4. *The one tradeable implication is a mechanical arbitrage, not an edge.* Buying a bond below a
+     *published* offer price and tendering it is a trade against a known price, subject only to
+     completion risk, proration and the "early bird" priority (S-208) and the guaranteed-delivery
+     mechanic (S-207). The residual after the deadline is the re-pricing of the *remaining* bonds as the
+     capital structure changes — a **credit event**, not a mechanical reversion, and therefore not the
+     register's object.
+  5. *There is no cross-issuer deadline cluster.* The tender deadline is **issuer-set**, subject to
+     regulatory minimum offering periods (S-207, S-208) rather than a single statutory date shared by a
+     population of obligors. The register's deadline-cluster template works because a *regulator* fixes
+     one date for everyone; in credit the deadlines are staggered by construction.
+- **Verdict: bounded negative — no candidate.** The family is filed as a **baseline** in the table below.
+  **One item is flagged as not independently verified:** the specific Rule 14e-1 periods and disclosure
+  duties used in this screen are index-rendered from practitioner notes (S-208, S-209); the rule text
+  itself was located at the eCFR (S-207) but the relevant paragraphs were not read in this cycle. A
+  future cycle that relies on those provisions must read the rule.
+- **Rediscovery guard.** Any future candidate in this family must (i) explain why the *issuer's* demand
+  does not simply support the bond price, (ii) identify a state that is published *before* the deadline
+  and determines the *sign* of any price effect, (iii) show that the effect is not the mechanical
+  arbitrage against the published offer price, and (iv) show that it survives the capital-structure
+  re-pricing that occurs after the deadline. Until then the family is a baseline.
+
 ### P-011 — IDEA-015 PLAN-SUPPLY: pre-announced, non-discretionary insider supply — *parked in Cycle 30 on evidence (G-21), not rejected*
 
 - **What the candidate is.** A trade keyed to a security's *remaining scheduled insider supply* under
@@ -619,12 +662,16 @@ to baselines.
 | **The variance risk premium as a crash-conditional tail premium, and the premium's measurement convention (added in Cycle 30)** | **Published as a preprint, author-reported** (S-181): the premium is characterised as "a downside, crash-conditional risk premium, compensation for a systematic tail rather than harvestable carry", with the regime-average premium positive in every crisis and widening in high-stress and high-credit-spread states, and an "irreducible left tail" even voltargeted and overlaid. **This is a baseline and a convention warning**: that paper measures the premium as implied minus *subsequently realized* variance, while the candidate's claim is about the *expected* premium, and the two can move in opposite directions in the same state. Any future candidate or specification that conditions on a measured premium must name its convention ex ante. |
 | **10b5-1 plans: the rule, the disclosure regime and the plan-timing price effects (added in Cycle 30)** | **Published law plus a regulator's own literature review** (S-182, the SEC's 2022 final rule, 87 FR 80362 — Item 408(a) quarterly disclosure, the mandatory cooling-off period, the Form 4 plan checkbox and the ban on overlapping plans; S-183, the SEC's 2022 proposed release, 87 FR 8686 — the agency's account of the academic evidence that plan **adoption** around earnings announcements carries abnormal returns of roughly −2% to −3% while sales after the announcement do not). **This is a baseline and a rediscovery guard for IDEA-015**: the rule and the state are published law, and the nearest published price effect is attached to the adoption window, not to the execution of a disclosed schedule. |
 | **Statutory payment-date Treasury cash drains in the funding market (added in Cycle 30)** | **Published** (S-160, S-161, S-162 — the TGA → repo-spread channel, with the public **TGCR − IORB** spread as the decision-time stress measure). **This is a baseline and a cost model**; the register's family screen in Cycle 30 produced the bounded negative **R-012** on the cross-asset extension, because the payment dates are known by statute and no published state isolates the payment due at the decision date. |
+| **The expected variance risk premium, its conventions, and its sign in bad states (added in Cycle 32)** | **Published, peer-reviewed, and now the register's binding constraint on IDEA-003** (S-190, *Journal of Econometrics* 2020; S-191, *Annual Review of Financial Economics* 2018; S-192, *Review of Finance* 2023; S-193, *Management Science* 2021). The expected premium (risk-neutral minus physical conditional expectation) is **positive**, and it is **higher** in bad states: "the continuous component of the VRP … is systematically positive and is higher in periods of market turmoil" (S-190); "the variance risk premium is positive … high variance risk premiums coincide with the left tail of the consumption growth distribution shifting down" (S-192). The *negative* readings of the premium in stress belong to the **naive ex-post** estimator, which "systematically becomes negative, rather than largely positive, in periods of market distress" because it ignores the latent conditional structure (S-190). The only published sign-flip in a variance-premium quantity in distress is in the **term** premium (the term structure turns upward-sloping, S-193). **This is a baseline and a rediscovery guard:** any future candidate that claims an expected-premium sign flip in a crash state must explain S-190 and S-192, and any specification must name its convention ex ante. |
+| **Authorized-participant regulatory capital ratios as the operative ETF-arbitrage state (added in Cycle 32)** | **Published, peer-reviewed** (S-194, *Journal of Banking & Finance* 2025). APs' **regulatory capital ratios, disclosed in SEC regulatory filings**, govern ETF arbitrage intensity and ETF premia; the effect is material (0.69pp vs 0.39pp decline in arbitrage intensity between 25th- and 75th-percentile APs in the March 2020 dash-for-cash) and other AP characteristics do not matter. The mechanism is S-195 (working paper, **proprietary datasets**) and the published rivals are S-196 (fractional baskets), S-197 (funding segmentation) and S-199 (client-sourced liquidity discounts). **This is a baseline and a state note:** the AP capital ratio is a *public* state that is already validated against the ETF-premium relation, so IDEA-010 must be described as a trade specification and cost-floor test on a published relation, never as a discovery of the relation. |
+| **The RFS volume requirement is calibrated to the agency's own supply projection, and projected shortfalls are waived rather than bought (added in Cycle 32)** | **Primary regulator material** (S-201, the Set 2 final rule, 91 FR 16388; S-202, 40 CFR 80.1405; S-203, the agency's 2026–2027 standards summary). The annual volume requirement is set so that the agency's **projected** supply meets it, so the projected net obligated position is near zero by construction; where the projection fell short (2025 cellulosic: 1.21 billion gallons projected against a 1.38 billion RIN requirement, "a shortfall of approximately 13 percent") the agency's response was the **waiver** of the volume requirement, not a market purchase. **This is a baseline and a state note:** the projected net obligated position is not a sign-determining state, and the realised one is published only after the deadline. Any future candidate in the RFS family must name a different pre-deadline state. |
+| **Debt tender offers and liability-management exercises: the price-insensitive flow at a published deadline (added in Cycle 32)** | **Published, peer-reviewed, plus the rule itself** (S-204, Mann & Powers, *Journal of Banking & Finance* 2006: the tender price averages a 4.75% premium to the pre-tender market price and 82.3% of the issue tenders; S-205, Levy & Shalev, *Journal of Accounting and Economics* 2016: the tender is the price-insensitive, dated repurchase route; S-206, Daniels, Díaz & Ramírez, *Journal of Corporate Finance* 2012: renegotiations cluster before a published clawback deadline; S-207, 17 CFR 240.14e-1, and S-208/S-209 for the offer mechanics). **This is a baseline and a bounded-negative family screen (Cycle 32):** the deadline-clustered, price-insensitive flow is a documented institutional pattern, and the one tradeable implication — buying a bond below a published offer price and tendering it — is a mechanical, published arbitrage rather than an edge, with the residual (the post-deadline capital-structure jump) being a credit event rather than a mechanical reversion. |
 
 ---
 
 ## Rediscovery guard
 
-Before adding any candidate, check it against (a) the fourteen dossiers in `idea_register.md`,
+Before adding any candidate, check it against (a) the fifteen dossiers in `idea_register.md`,
 (b) the baseline table above, and (c) the validation hand-offs in `validation_handoffs.md` (five of
 which — V-001, V-004, V-005, V-006 and V-007 — are **withdrawn**, their candidates having been
 rejected or parked). If the candidate differs from a baseline only in parameterisation, in label, or

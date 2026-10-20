@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–30
+# RANKED SHORTLIST — CYCLES 1–32
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base
@@ -85,22 +85,70 @@ liquidity-drain family. **No score changed, no candidate was rejected, and the t
 IDEA-003 (71.0), IDEA-011 (69.0) and IDEA-004 (69.0)** — so **no new validation specification is
 opened** and V-010 remains free.
 
+**Cycle 32 closed three pre-specification gaps in one cycle and moved three scores.** (i) **G-19 closed
+AGAINST IDEA-003's central sign claim.** The expected-premium convention is stated explicitly by three
+independent peer-reviewed sources (S-191's risk-neutral-minus-physical definition, S-190's latent
+decomposition, S-192's equilibrium treatment), and its sign in bad states has been *tested*: the
+expected premium is **positive** and, if anything, **wider** in turmoil (S-190: the continuous component
+"is systematically positive and is higher in periods of market turmoil"; S-192: "the variance risk premium
+is positive" and high premia "coincide with the left tail of the consumption growth distribution shifting
+down"). The negative readings of the premium in stress belong to the *naive ex-post* estimator, which
+"systematically becomes negative, rather than largely positive, in periods of market distress" because it
+ignores the latent conditional structure (S-190). The only published sign-flip in a variance-premium
+quantity in distress is in the **term** premium (S-193). **IDEA-003 71.0 → 66.0** (mechanism 4 → 3; the
+evidence dimension is deliberately *not* also moved, to avoid double-counting the same source), with a new
+hard-stop flag — *not a new premium edge* — a downgraded G-12 status, a re-specified hypothesis, an
+amended V-003 and a new gap **G-22**. (ii) **G-16 closed IN IDEA-010's FAVOUR, on a reformulated
+validation target.** The register's original target — disclosed dealer funding value adjustments — is
+unusable: it is annual, OTC-derivatives-specific and often immaterial, and no public series exists
+(S-155). The validation the register wanted has in fact already been done by independent researchers on a
+better target: APs' **regulatory capital ratios, disclosed in SEC regulatory filings**, are the state that
+governs ETF arbitrage intensity and premia, materially so (0.69pp vs 0.39pp decline in arbitrage intensity
+between 25th- and 75th-percentile APs in the dash-for-cash), and *other* AP balance-sheet characteristics
+do not matter (S-194). The mechanism is published (S-195, a working paper with proprietary data), and three
+published rivals now stand against the candidate's interpretation (S-196, S-197, S-199). Two published
+facts constrain the rule: the register's dispersion proxy is computed **monthly** because bonds do not
+trade daily, and aggregate dealer financial-soundness averages are documented to **fail** to capture
+intermediation capacity (S-200). **IDEA-010 65.0 → 68.0** (novelty 2 → 1 because the relation is published;
+evidence 3 → 4; data 3 → 4 because the operative state is public), it **enters the top three**, and
+**V-010 is written** — the first validation specification this candidate has ever had. (iii) **G-20 closed
+AGAINST IDEA-014's state as specified.** The projected net obligated position is near zero **by
+construction** (the RVO is calibrated to the agency's own supply projection, S-201); the only signed
+component of that projection carried a **+78% error** in the one year in which it has been measured
+(990 million RINs projected for the 2025 exempted RVO against 1,760 million actual — S-201 against the
+31 August 2026 exemption decisions in S-184), and the error is structurally one-sided because the projection
+is a three-year lagged average; where a projected shortfall did occur (2025 cellulosic, −0.17 billion
+RINs, −13%) the agency **waived** the volume requirement rather than letting the obligation bind (S-201);
+and the realised state is published only after the deadline. **IDEA-014 60.0 → 52.0** (mechanism 4 → 3,
+falsifiability 3 → 2), with a hard-stop flag on the state, retained rather than parked because its
+*existence* limb remains testable state-free, and a new gap **G-24** for a replacement state. (iv) **One
+family screened and bounded negative (R-013)**: the corporate-debt tender-offer / liability-management deadline
+family (**R-013**) — the price-insensitive flow at a published deadline is published and quantified (S-204, S-206), the
+price-insensitive flow is the *issuer's* and therefore supports the price rather than depressing it, the
+one tradeable implication is a mechanical arbitrage rather than an edge, and the deadlines are
+issuer-set rather than regulator-set, so there is no cross-issuer cluster to exploit. (v) **The Cycle-31
+ledger gap was repaired**: S-188 and S-189 (the two IDEA-011 prior-art sources minted in Cycle 31) had
+never been written into `source_ledger.md`; both are now recorded and verified. **The top three are now
+IDEA-011 (69.0), IDEA-004 (69.0) and IDEA-010 (68.0)** — IDEA-010 is new to the top three and its
+specification, **V-010**, is written in this cycle.
+
 ---
 
 ## Table
 
-*Cycle-13 ranking, with Cycle-30 flags added. **No score and no rank changed in Cycle 30**, so the
-ordering below is unchanged; the "Cycle-12 rank" column is the previous active ranking and "Rank
-change" states the movement.*
+*Cycle-32 ranking. Three scores changed: **IDEA-003 71.0 → 66.0** (G-19 closed against its sign claim),
+**IDEA-010 65.0 → 68.0** (G-16 closed in its favour on a reformulated validation target) and
+**IDEA-014 60.0 → 52.0** (G-20 closed against its state as specified). "Prior rank" is the Cycle-31
+active ranking; "Rank change" states the movement.*
 
-| Rank | ID | Short name | Mechanism 25 | Evidence 20 | Novelty 15 | Falsifiability 15 | Resilience 15 | Data 10 | **Total /100** | Cycle-12 rank | Rank change | Hard-stop flags |
+| Rank | ID | Short name | Mechanism 25 | Evidence 20 | Novelty 15 | Falsifiability 15 | Resilience 15 | Data 10 | **Total /100** | Prior rank | Rank change | Hard-stop flags |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | IDEA-003 | VRP-STATE | 4 → 20.0 | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **71.0** | 4 | ↑ 3 | none; tail-concentration warning; **G-05 CLOSED on the literature side against the single-name extension (S-153, S-154) — aggregate version untouched; S-177 (Dew-Becker & Giglio 2025 WP 2025-17): traded-option alphas declined to near zero over ~15 years, consistent with and reinforcing the state-gate framing (harvestability, not the premium's existence, is the claim); gate remains viable; Cycle 30: state-conditioned VRP harvesting is a published strategy family (S-180) and the premium is published in the candidate's own vocabulary as crash-conditional and "not harvestable carry" (S-181) — reclassified as an incremental variant of published conditional-VRP work; the two published premium conventions differ (expected premium vs implied-minus-realised), so the "premium collapses" prediction is now convention-explicit and **V-003 is amended** (a null on the ex-post convention is not a kill); new gap **G-19**; no score change** |
-| 2 | IDEA-011 | ACCTCLOCK | 4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **69.0** (down from 72.0) | 1 | ↓ 1 | adoption-event-sample-small condition (unchanged); **Cycle 16 re-score (72.0 → 69.0): post-2010 decay evidence (S-178, S-179) indicates IFRS-style adoption improves information environment and shrinks PEAD magnitude; enforcement-regime concentration narrows tradable drift (analogous to momentum decay S-156). G-12 existence limb PASS, size limb narrowed. Retained pending tie resolution.** |
-| 3 | IDEA-004 | SLOWCAP-COND | **4 → 20.0** (down from 5) | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **69.0** (down from 74.0) | 2 | ↓ 1 | proxy-validity kill condition (G-04) — publication timing resolved (filing-anchored rule), validity not; **new in Cycle 13: the base effect's persistence is weakened by published decay evidence (S-156)**; **Cycle 30: the newest peer-reviewed 13F-based crowding work (S-186) makes the holdings-based construction an active published object but associates crowding with prices, comovement and fragility rather than with a return-predictive rule — G-18 restated as a bounded negative, not closed; V-002 remains frozen; no score change** |
-| 4 | IDEA-010 | CREDIT-ETF | 4 → 20.0 | 3 → 12.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 3 → 6.0 | **65.0** | 5 | ↑ 1 | cost-overwhelm condition (bond liquidity); AP-data-commercial condition (S-123); **G-16 precondition: validate the published proxy set before any specification** |
-| 5 | IDEA-009 | PERP-FUND | 4 → 20.0 | 2 → 8.0 | **2 → 6.0** (down from 3) | 4 → 12.0 | 2 → 6.0 | 4 → 8.0 | **60.0** (down from 63.0) | 6 | ↑ 1 | crypto venue risk; momentum-confound condition; venue-transferability condition; **novelty now reflects published mechanism and mean-reversion evidence (S-158, S-159)** |
-| 6 | IDEA-014 | RIN-DEADLINE | 4 → 20.0 | 2 → 8.0 | 3 → 9.0 | 3 → 9.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | 7 | ↑ 1 | cost-overwhelm condition (published market-quality evidence, S-133); sign-unknown condition (G-15 — the candidate's first test); squeeze-risk condition (short side); small-sample condition; **Cycle 30: the deadline's movement is rule-determined (published automatic-extension mechanism) and the *realised* sign-determining state publishes only after the deadline it informs, so the sign test must run on the *projected* position — G-15 sharpened, new gap G-20; no score change** |
+| 1 | IDEA-011 | ACCTCLOCK | 4 → 20.0 | 3 → 12.0 | 3 → 9.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **69.0** | 2 | ↑ 1 | adoption-event-sample-small condition (unchanged); **Cycle 16 re-score (72.0 → 69.0): post-2010 decay evidence (S-178, S-179) indicates IFRS-style adoption improves information environment and shrinks PEAD magnitude; enforcement-regime concentration narrows tradable drift (analogous to momentum decay S-156). G-12 existence limb PASS, size limb narrowed. Retained pending tie resolution. Cycle 32: unchanged — the two Cycle-31 prior-art sources (S-188, S-189) are *partial* prior-art hits only (S-188 documents IFRS adoption **increasing** PEAD in Greece; S-189 documents mandatory adoption **reducing** private-information advantage in the UK), so the tie-break on falsifiability (4 vs 3) holds and IDEA-011 ranks first** |
+| 2 | IDEA-004 | SLOWCAP-COND | 4 → 20.0 | 4 → 16.0 | 3 → 9.0 | 3 → 9.0 | 3 → 9.0 | 3 → 6.0 | **69.0** | 3 | ↑ 1 | proxy-validity kill condition (G-04) — publication timing resolved (filing-anchored rule), validity not; **new in Cycle 13: the base effect's persistence is weakened by published decay evidence (S-156)**; **Cycle 30: the newest peer-reviewed 13F-based crowding work (S-186) makes the holdings-based construction an active published object but associates crowding with prices, comovement and fragility rather than with a return-predictive rule — G-18 restated as a bounded negative, not closed; V-002 remains frozen; Cycle 32: no score change — no Cycle 32 source validates a correlation-based crowding measure against a holdings-based one, so G-21 stays open and V-002 stays frozen** |
+| 3 | IDEA-010 | CREDIT-ETF | 4 → 20.0 | **4 → 16.0** (up from 3) | **1 → 3.0** (down from 2) | 4 → 12.0 | 3 → 9.0 | **4 → 8.0** (up from 3) | **68.0** (up from 65.0) | 4 | ↑ 1 | cost-overwhelm condition (bond liquidity); **Cycle 32: G-16 CLOSED IN FAVOUR on a reformulated validation target — the register's original target (disclosed dealer FVAs) is unusable (annual, OTC-derivatives-specific, often immaterial; S-155), and Raddatz (S-194) has already performed the validation on the right target: APs' **regulatory capital ratios, disclosed in SEC regulatory filings**, are the state that governs ETF arbitrage intensity and premia (0.69pp vs 0.39pp), while other AP balance-sheet characteristics do not matter; the mechanism is published (S-195, a working paper with proprietary data), and three rivals are published (S-196 fractional baskets, S-197 funding segmentation, S-199 client liquidity discounts). New hard-stop flags: *the state-to-premium relation is published — the candidate is a trade specification and cost-floor test, never a discovery of the relation*; the published dispersion proxy is **monthly** (S-200) against a 1–10 session rule, and aggregate dealer financial-soundness averages are documented to **fail** as capacity proxies (S-200). **V-010 written**; new gap **G-23** (cadence and signedness of the state)** |
+| 4 | IDEA-003 | VRP-STATE | **3 → 15.0** (down from 4) | 4 → 16.0 | 2 → 6.0 | 4 → 12.0 | 3 → 9.0 | 4 → 8.0 | **66.0** (down from 71.0) | 1 | ↓ 3 | none; tail-concentration warning; **G-05 CLOSED on the literature side against the single-name extension (S-153, S-154); S-177 (Dew-Becker & Giglio 2025 WP 2025-17): traded-option alphas declined to near zero over ~15 years; Cycle 30: reclassified as an incremental variant of published conditional-VRP work (S-180) and the two published premium conventions differ, so **V-003 was amended**; new gap **G-19**. Cycle 32: G-19 CLOSED AGAINST THE SIGN CLAIM — the expected-premium convention is stated explicitly by three independent peer-reviewed sources (S-190, S-191, S-192) and its sign in bad states has been tested: the expected premium is **positive** and **higher** in turmoil (S-190: "systematically positive and is higher in periods of market turmoil"; S-192: high premia coincide with a worse consumption left tail); the negative stress readings belong to the naive ex-post estimator (S-190). New hard-stop flag: *the candidate must not be presented as a new premium edge — its residual is the state construction inside a published family (S-180)*. G-12 downgraded (the conditioning now changes neither the sign nor the existence of the compensation). V-003 amended (Cycle-32 amendment); new gap **G-22*** |
+| 5 | IDEA-009 | PERP-FUND | 4 → 20.0 | 2 → 8.0 | 2 → 6.0 | 4 → 12.0 | 2 → 6.0 | 4 → 8.0 | **60.0** | 5 | — | crypto venue risk; momentum-confound condition; venue-transferability condition; **novelty now reflects published mechanism and mean-reversion evidence (S-158, S-159); Cycle 32: no score change — no Cycle 32 source bears on the perpetual-futures funding state** |
+| 6 | IDEA-014 | RIN-DEADLINE | **3 → 15.0** (down from 4) | 2 → 8.0 | 3 → 9.0 | **2 → 6.0** (down from 3) | 2 → 6.0 | 4 → 8.0 | **52.0** (down from 60.0) | 6 | — | cost-overwhelm condition (published market-quality evidence, S-133); sign-unknown condition (G-15 — the candidate's first test); squeeze-risk condition (short side); small-sample condition; **Cycle 32: G-20 CLOSED AGAINST THE STATE AS SPECIFIED — the projected net obligated position is near zero *by construction* (the RVO is calibrated to the agency's own supply projection, S-201); the only signed component of that projection carried a **+78% error** in the one year measured (990 million RINs projected for 2025 vs 1,760 million actual, S-201/S-184); where a projected shortfall did occur (2025 cellulosic, −0.17 billion RINs, −13%) the agency **waived** the volume requirement rather than letting it bind (S-201); and the realised state publishes only after the deadline. New hard-stop flag: *the sign-determining state as specified requires look-ahead information or is uninformative by construction — the candidate must not be specified or presented as a top opportunity until a replacement state is found*. Retained (not parked) because the existence limb of G-15 is testable state-free; new gap **G-24*** |
 
 **Parked — not in the active ranking.**
 
@@ -157,7 +205,40 @@ IDEA-005-style parking rather than the IDEA-008-style one.
 premium's measurement convention ex ante, following S-180 and S-181 (see `validation_handoffs.md`).
 **V-002 remains frozen** pending G-18, which Cycle 30 restated rather than closed.
 
-**Cycle-6 rank changes (superseded by the Cycle-13 table above, retained for the audit trail).** The active ranking loses **two** candidates and gains **one**: IDEA-005
+**Cycle-31 rank changes (no-op on scores; recorded here for the audit trail).** No score and no rank
+changed. Cycle 31 ran a prior-art pass on IDEA-011 that located a published case of IFRS adoption
+*enhancing* post-adoption drift (the Greece result, now S-188) and a published reduction of
+private-information advantage from comparability (S-189) — so IDEA-011 is not a pure known baseline, but
+the residual narrows to "is the effect a first-adoption comparability clock or a small-market disclosure
+shock?" — and probed G-19 and G-16 **without closing them**. The tie at 69.0 was preserved. One family
+(energy/weather) was screened with a bounded negative. No new validation specification; V-010 remained
+free. *Cycle 31's two sources (S-188, S-189) were minted in the cycle notes but never written into the
+source ledger; Cycle 32 repairs that.*
+
+**Cycle-32 rank changes.** The active ranking moves for the first time since Cycle 16. Three scores
+change: **IDEA-003 71.0 → 66.0** (G-19 closed against its sign claim — mechanism 4 → 3, evidence
+deliberately held at 4 to avoid double-counting), **IDEA-010 65.0 → 68.0** (G-16 closed in its favour —
+novelty 2 → 1, evidence 3 → 4, data 3 → 4), and **IDEA-014 60.0 → 52.0** (G-20 closed against its state
+as specified — mechanism 4 → 3, falsifiability 3 → 2). The new order is **IDEA-011 (69.0), IDEA-004
+(69.0), IDEA-010 (68.0), IDEA-003 (66.0), IDEA-009 (60.0), IDEA-014 (52.0)**. The tie at 69.0 is broken
+in IDEA-011's favour on falsifiability (4 vs 3), as in Cycles 16 and 31. IDEA-003 falls from rank 1 to
+rank 4 because its central claim is now contradicted under its own convention; IDEA-014 falls from rank 6
+to rank 6 at a much lower score (the order at the bottom is unchanged, the level is not). The register's
+*shape* is unchanged: six active dossiers (three shortlisted), five parked, four rejected.
+
+**Top three and the validation-specification rule (Cycle 32).** The top three are now **IDEA-011 (69.0),
+IDEA-004 (69.0) and IDEA-010 (68.0)**. IDEA-010 is **new to the top three**, so under the register's rule
+**a new validation specification is required — and is permitted, because G-16 is closed in IDEA-010's
+favour**: **V-010 is written in this cycle**. IDEA-003's fall out of the top three does **not** withdraw
+V-003: the candidate remains active at rank 4, and its specification is **amended** (Cycle-32 amendment)
+to match the re-specified, tail-management claim. The executable set is therefore **V-002 (frozen),
+V-003 (amended), V-008, V-009, V-010**, with **V-001, V-004, V-005, V-006 and V-007 withdrawn**.
+(IDEA-014 RIN-DEADLINE has never had a specification — V-008 belongs to IDEA-009 PERP-FUND, which remains
+active and executable — and none may be written for IDEA-014 until G-24 is closed.)
+**V-002 remains frozen** pending G-18/G-21, which Cycle 32 leaves open: no Cycle 32 source validates a
+correlation-based crowding measure against a holdings-based measure.
+
+
 (previous rank 3, 72.0) and IDEA-008 (previous rank 7, 65.0) are **parked** (P-009 and P-010)
 after the G-13 / G-12 screen was applied to every active candidate, and **IDEA-014 RIN-DEADLINE**
 enters at rank 7 with 60.0 as the only candidate produced by the five-frontier-family screen.

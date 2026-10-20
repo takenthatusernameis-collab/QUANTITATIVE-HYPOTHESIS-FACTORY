@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 30 complete** (the IDEA-003 prior-art and measurement-convention audit, the IDEA-004 G-18 restatement against the newest 13F-crowding literature, the IDEA-014 state-publication audit, one new mechanism family screened and one new candidate entered parked as IDEA-015), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycle 30's own changes are recorded in each dossier's "Cycle 30" block and in `cycle_notes.md`.* The
+Last updated: **Cycle 32 complete** (three pre-specification gaps closed — G-19 against IDEA-003's sign claim, G-16 in IDEA-010's favour on a reformulated validation target, G-20 against IDEA-014's state as specified — two candidates re-scored down and one up, a new validation specification written for IDEA-010, one new mechanism family screened and bounded negative), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–32's own changes are recorded in each dossier's "Cycle 30"/"Cycle 31"/"Cycle 32" block and in `cycle_notes.md`.* The
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
 **Closure passes: seven candidates have now been demoted — six by their own literature and one by a
 publication calendar.** IDEA-007 was
@@ -788,6 +788,95 @@ because IDEA-001 was rejected (rank 3 → rank 2).
   - The tail-concentration warning and the open literature half of G-05 (single-name extension, closed
     against the candidate) are unchanged. **V-002 remains frozen** for IDEA-004; V-003 is amended, not
     withdrawn.
+
+### Cycle 32 (2026-10-20) — G-19 closed against the sign claim; the candidate is re-scored to 66.0 and
+re-specified as a tail-management claim
+
+- **The gap is closed, and it closes against the candidate.** G-19 asked whether any published work
+  states the *expected*-premium convention explicitly **and** tests its sign in crash-imminent states.
+  Four new ledger entries answer both halves, and the answer is not neutral.
+  - **The convention is stated explicitly and in its own notation.** Zhou's Annual Review (S-191) defines
+    "VRP_t ≡ E^Q_t(Var_{t,t+1}) − E^P_t(Var_{t,t+1})" and states the measurement problem (the
+    risk-neutral expectation is replaced by VIX²; the physical expectation is replaced either by a
+    discretised realisation or by a filtered/model-based conditional expectation). Rombouts, Stentoft &
+    Violante (S-190) define the premium as "the difference between the risk neutral and physical
+    expectations of an asset's total return variation" and build a latent decomposition of it.
+    Bekaert, Engstrom & Ermolov (S-192) treat it as an equilibrium quantity. This is exactly the
+    convention the Cycle-30 amendment fixed for V-003.
+  - **The sign in bad states has been tested under that convention, and it is positive.** Rombouts et al.
+    report that the literature's standard ex-post estimator "systematically becomes negative, rather than
+    largely positive, in periods of market distress" — and that this is a *measurement* artefact of
+    ignoring the latent conditional structure; their own latent decomposition finds the continuous
+    component "systematically positive and **higher** in periods of market turmoil". Bekaert et al.
+    report that "the variance risk premium is positive and shows only moderate persistence" and that
+    "**high** variance risk premiums coincide with the left tail of the consumption growth distribution
+    shifting down". The closest published sign-flip in a variance-premium quantity in distress is in the
+    **term** premium — the variance-premium term structure turns upward-sloping in distress (S-193) — not
+    in the level of the expected premium.
+- **What this does to the candidate's own prediction and kill condition.** The dossier's prediction 3
+  ("the premium and the option-implied crash state co-move such that harvesting is least attractive exactly
+  when the premium is highest") carries the kill condition "the premium is highest in states where
+  crashes are *less* likely". The published expected-premium evidence puts the premium **highest in the
+  states where crashes are more likely**, and keeps it positive there. So:
+  - the candidate's *framing* claim — that in a crash-imminent state the **expected** premium collapses
+    and short-volatility is therefore uncompensated there — is **contradicted** under the candidate's own
+    convention. This is not "untested"; it is pointed the other way by two independent peer-reviewed
+    sources;
+  - what the evidence *does* support is that the **realised** payoff of a short-volatility harvest is
+    catastrophically left-tailed in crash states (S-190's ex-post finding, S-177's decay of the
+    unconditional harvest, S-181's "irreducible left tail"). The gate is therefore a **tail-management**
+    rule, not a premium-sign rule.
+- **Restated hypothesis (the candidate, re-specified).** *The variance risk premium is large, positive and
+  persistent in all states, including crash-imminent ones — so it is compensation that is *earned* ex ante
+  but realised with an irreducible left tail. A variance harvest should therefore be gated on an
+  option-surface-implied imminent-crash measure not because the premium's sign flips there, but because
+  the realisation is catastrophic there; the gate changes the trade's state exposure and tail, not the
+  sign of its expected compensation.*
+- **Effect on the dossier: score 71.0 → 66.0; G-12 downgraded; a hard-stop flag; V-003 amended.**
+  - **Mechanism 4 → 3.** The dossier's causal chain ran "crash risk → skewed insurance demand → the
+    premium is compensation for crash risk → therefore the harvest must be gated, and the premium
+    collapses in crash-imminent states". The last link is broken by S-190/S-192: the expected premium does
+    not collapse in crash-imminent states, it widens. The register's own "state-proxy methodological note"
+    treats the state and the sign it determines as part of the mechanism, so the broken link is a mechanism
+    defect, not only a wording defect. *(A reader who regards the "gate removes the worst states"
+    rationale as the mechanism and treats the sign claim as an aside could hold the score at 71.0; that
+    reading is recorded here and is not the register's, because it would leave a contradicted claim
+    carrying the candidate's rank.)*
+  - **Evidence 4 → 4 (held, deliberately).** The premium's *existence, size, persistence and tail* are
+    supported by independent, high-quality sources (S-012, S-013, S-014, S-015, S-016, S-177, S-180,
+    S-181) and nothing in Cycle 32 weakens them. The new evidence contradicts one *link*, and the
+    register prices that link in the mechanism dimension. **This is deliberately not double-counted**
+    (the Cycle-30 precedent: the "irreducible left tail" finding was not double-counted either). If a
+    future cycle judges that contradictory evidence must also move the evidence dimension, the candidate's
+    score would be 62.0 instead of 66.0 and its rank would fall to fifth; that range is recorded here
+    rather than hidden.
+  - **Novelty 2 → 2 (held).** The novelty floor was already reached in Cycle 30. G-19's closure removes the
+    candidate's *sign* residual, so what is left is the **state construction** (an option-surface-implied
+    imminent-crash measure rather than trading activity or dealer funding) — the same narrow residual the
+    2/5 already describes, and now a residual against a published family (S-180) rather than against open
+    space.
+  - **Falsifiability 4 → 4, resilience 3 → 3, data 4 → 4.** The candidate is *more* precisely testable after
+    re-specification (the risk-adjusted gated-versus-unconditioned comparison is already V-003's primary
+    outcome), and the cost-overwhelm kill condition is unchanged.
+  - **G-12 status downgraded.** The Cycle-30 G-12 pass was recorded as "PASS on the sign limb". Under the
+    published evidence the conditioning changes **neither the sign nor the existence** of the premium's
+    compensation — the premium is positive in admitted *and* gated-out states. On the register's letter,
+    that is a **G-12 failure** (the claim becomes a distribution claim). On the register's *purpose* — which
+    is to catch a baseline re-description with an extra regressor — the gate is **not** cosmetic: it changes
+    which states the trade is exposed to and therefore the shape of the payoff distribution, and that
+    distribution claim is itself published (S-190, S-177, S-181). Both statements are recorded; the
+    candidate is **not** parked, because the register rejects or parks only when a published result shows
+    the *effect* absent, and no published result shows that a gated harvest underperforms the
+    unconditioned one.
+  - **Hard-stop flag attached:** *the candidate must not be presented as a new premium edge.* Its differentiator
+    is now a state construction on a published premium, inside a published family (S-180).
+  - **New gap G-22.** Does any published work establish that an **option-surface-implied imminent-crash
+    measure** adds risk-adjusted value to a variance harvest **beyond** the published state-conditioned
+    volatility-trading family? If not, the candidate is a known baseline and must be parked.
+  - **V-003 is amended (Cycle-32 amendment), not withdrawn:** the premium's *level and sign* become
+    descriptive controls under both conventions, the published expectation (premium positive and wider in
+    bad states) is registered as a prior, and the frozen primary outcome is the risk-adjusted difference
+    between the gated and the unconditioned harvest.
 
 ---
 
@@ -2371,6 +2460,81 @@ narrowed.**
   IDEA-001's rejection and IDEA-004's re-score). No validation specification is written, exactly as
   G-16 requires.
 
+### Cycle 32 (2026-10-20) — G-16 closed in favour on a reformulated validation target; the candidate is
+re-scored to 68.0, enters the top three, and receives V-010
+
+- **The gap closes, and it closes better than the register framed it.** G-16 asked whether the public
+  dealer-stress proxy set could be *validated against disclosed dealer funding value adjustments*. Cycle
+  32 shows that the register had picked the **wrong validation target**, and that the validation it
+  wanted has in fact already been done — by independent researchers, on a better target, on exactly the
+  link the candidate claims.
+  - **The FVA target is unusable, for reasons the register's own ledger already contains.** S-155 records
+    that a dealer's funding value adjustment is a peer-reviewed construct but that "the paper is a theory
+    of FVAs; it does not publish a continuous, public FVA series, and no such series exists". Disclosed
+    dealer FVAs are OTC-derivatives-specific, disclosed quarterly or annually, and frequently immaterial
+    at the firms that disclose them. A *daily* public proxy cannot meaningfully be validated against a
+    quantity that is published once a year and measures something else. **G-16's original framing was
+    wrong; the register says so rather than leaving a gap open on a bad premise.**
+  - **The right target is already published and it is public.** Raddatz (S-194) links each US corporate-bond
+    ETF to its authorized participants "using U.S. SEC regulatory filings", connects the APs to their
+    financial statements, and measures **APs' regulatory capital ratios**. The finding is that the AP
+    capital ratio *is* the operative state: ETFs linked to APs at the 25th percentile of regulatory capital
+    ratios saw a **0.69 percentage-point decline in arbitrage intensity** during the March 2020
+    dash-for-cash, against **0.39 percentage points** for 75th-percentile APs, and "other AP
+    characteristics, such as equity-to-assets ratios, cash-to-assets ratios, total assets, or AP activity
+    concentration, **do not play a significant role**". This is a *published, independent validation of a
+    disclosed state against the ETF-premium/arbitrage relation* — i.e. exactly the exercise G-16 demanded,
+    performed with a better construct than the register proposed, and it exonerates the candidate's
+    proposed proxy set by showing which AP characteristics do and do not matter.
+  - **The register's own proxy set is narrowed by two further published facts.** The dispersion proxy the
+    register's dossier leans on (Eisfeldt, Herskovic & Liu 2024 = S-200) is a *monthly* measure —
+    "given the infrequent trading of bonds, calculating interdealer price dispersion daily is not
+    feasible" — which conflicts with a 1–10 session holding rule; and the same paper finds that
+    "equity-weighted averages of dealer-level financial soundness **fail** to capture effects from
+    interdealer frictions", so an aggregate dealer-balance-sheet (FR Y-9C-style) leverage proxy is
+    published but *invalid* for this purpose. A public aggregate dealer-inventory proxy does exist and has
+    been used to infer AP inventories: FR 2004 primary dealer activity disclosures (S-198).
+  - **Three published rival explanations now stand against the candidate's interpretation**, and they are
+    a direct consequence of G-16 closing: (i) **fractional baskets** — an ETF–NAV gap can arise from
+    basket composition with no AP balance-sheet constraint involved (S-196); (ii) **funding segmentation** —
+    arbitrage spreads respond to idiosyncratic balance-sheet shocks and intermediaries specialise, so the
+    funding source rather than the AP's bond-inventory capacity may drive the spread (S-197); and
+    (iii) **client-sourced liquidity discounts** — dealers pay relationship discounts to investors who
+    supply liquidity, which is a published market structure of the same "concession for liquidity"
+    shape the candidate claims (S-199).
+  - **A citation correction.** The register's "Pan & Zeng 2019" is the SSRN revision of a **working
+    paper** (S-195: ESRB Working Paper No. 59, December 2017, SSRN 2895478). Its empirical datasets are
+    **proprietary** — proprietary AP lists from two ETF sponsors covering ~83% of passive corporate-bond
+    ETF assets, a proprietary TRACE build with dealer identifiers, and proprietary creation/redemption
+    baskets. That is the empirical provenance of the register's belief that "AP-level data is commercial":
+    the *published evidence* is proprietary-based even though the *state construct* is publicly
+    reconstructable (S-194).
+- **Effect on the dossier: score 65.0 → 68.0; rank 4 → 3; G-16 CLOSED; V-010 written.**
+  - **G-16 — CLOSED IN FAVOUR.** The precondition "a validated, public, decision-time proxy for dealer
+    balance-sheet stress" is met by published work; the validation target is the AP's filing-disclosed
+    regulatory capital ratio. The register's own rule ("no validation specification is to be written
+    until G-16 is closed") is therefore satisfied, and **V-010 is written in this cycle**.
+  - **Novelty 2 → 1.** The state-to-premium relation that constitutes the candidate's differentiator is
+    now published (S-194 identifies the state; S-195 supplies the mechanism), the mechanism's core was
+    already published in Cycle 6, and the family is published three more times over (S-196, S-197, S-199).
+    The candidate's residual is the *trade specification and the cost floor* — the same "incremental
+    variant" classification the register already applies to IDEA-009 and IDEA-003. A novelty score of 1/5
+    is the floor and is recorded as such.
+  - **Evidence 3 → 4.** Five independent sources now bear on the mechanism and the state (S-194, S-195,
+    S-196, S-197, S-198, S-199, S-200), including one peer-reviewed identification of the state (S-194).
+  - **Data 3 → 4.** The register's recorded blocker was that "AP-level data is commercial". The *state* is
+    not commercial: it is disclosed in SEC regulatory filings. What remains is a **bespoke ETF↔AP mapping**
+    from filings, a **filing lag** (quarterly reports against a 1–10 session rule), and a mapping that
+    covers only the APs that file. The dimension is raised, not maximised, and the residual costs are
+    recorded here and in G-23.
+  - **Mechanism 4 → 4, falsifiability 4 → 4, resilience 3 → 3 (unchanged).** The mechanism is unchanged
+    and is now *published*, which raises the bar for the candidate's claim rather than lowering it; the
+    cost-overwhelm kill condition (thin bond markets, two legs, ETF and bond) is unchanged and is now
+    harder to beat, because the published family already trades the same spread.
+  - **New gap G-23.** (i) Is the filing-disclosed AP regulatory capital ratio usable at the cadence the
+    candidate's rule requires, and (ii) is it a **signed** state rather than only a moderator, given the
+    three published rival explanations and the monthly frequency of the published dispersion proxy?
+
 ---
 
 ---
@@ -3136,8 +3300,82 @@ exists before the deadline only in *projected* form; no score change (60.0); G-1
     kill condition and the sign test now carries a projection-error caveat); resilience 2/5 (unchanged —
     squeeze risk on the short side); data 4/5 (unchanged — the obligation side is published in principle,
     but the realised state is post-deadline, which is a constraint the dossier already carried).
-  - **No validation specification is written.** V-008 stays withdrawn and the candidate remains at the
+  - **No validation specification is written.** IDEA-014 has never had a validation specification, and
+    none may be written for it until G-24 is closed. *(Cross-reference corrected in Cycle 32: the Cycle-30
+    text of this line read "V-008 stays withdrawn", which was wrong — V-008 belongs to IDEA-009 PERP-FUND,
+    which is active and executable. IDEA-014 has no V-number at all.)* The candidate remains at the
     bottom of the ranking, unchanged in score and rank.
+
+### Cycle 32 (2026-10-20) — G-20 closed against the state as specified; the candidate is re-scored to 52.0
+and takes a hard-stop flag on its sign-determining state
+
+- **The gap is closed, and the answer is that the projection error does swamp the state.** G-20 asked
+  whether the *projected* net obligated position is a sufficient sign-determining state. It is not, and
+  the register can now say so quantitatively rather than as a worry.
+  - **The projected net position is near zero by construction.** The Set 2 final rule (S-201) sets the
+    volume requirement against the agency's own supply projection — its statutory factor analysis works
+    from the "Analyzed Volumes" and states that "the total quantity of renewable fuel we project will be
+    supplied to the U.S. to meet these volume requirements". So the *projected* net obligated position —
+    the quantity the candidate wants to read the sign from — is a small residual of two large projections
+    that the agency has already made consistent.
+  - **The one signed component of that projection has been measured, and the error is +78%.** The EPA
+    projected a 2025 exempted RVO of **990 million RINs** in the Set 2 Rule (S-201); the actual 2025
+    exempted RVO, from the 31 August 2026 small-refinery-exemption decisions recorded in S-184, is
+    **1,760 million RINs**. **Projection error: +770 million RINs, +78%** (underlying fuel volume: 7.55
+    billion gallons projected against 13.38 billion actual, **+5.83 billion gallons, +77%**). The error is
+    *structurally* one-sided: the projection is "a three-year average of the actual exempted fuel volumes
+    from 2022 through 2024" (S-201) — a lagged average of past decisions, not a forecast of this year's
+    exemption wave, which the EPA decided in a single batch on 31 August 2026.
+  - **The scale makes the swamp concrete.** The 2026 and 2027 total applicable volumes are **26.81** and
+    **27.02 billion RINs**, with SRE reallocation volumes of **0.99** and **1.04 billion RINs** (S-203). A
+    770-million-RIN projection error is **78% of the entire annual SRE reallocation volume** that the
+    agency itself treated as material enough to revise the standards; and it is roughly **2.9% of the
+    total applicable volume**, i.e. of the same order as the net position a projection error of that
+    size would have to resolve.
+  - **A projected shortfall is institutionally absorbed, not expressed as a binding market obligation.**
+    The one category where a projected shortfall actually occurred is instructive: for 2025 cellulosic the
+    EPA projected 1.21 billion gallons against a 1.38 billion RIN requirement — "a shortfall of
+    approximately 13 percent" — and the response was "implementation of the **cellulosic waiver
+    authority** for 2025" (S-201), i.e. the obligation was waived, not bought. The RFS's architecture
+    (waiver authority, SRE reallocation, carryover RINs) buffers mismatches between obligation and
+    supply; a shortage state is not allowed to express itself as a forced market purchase.
+  - **The realised state is published only after the deadline** (S-184: "reported 2025 exempted fuel
+    volumes will not be available until after the 2025 compliance reporting deadline of October 1,
+    2026"), so the *realised* net position is unusable as a decision-time state, and the *projected* one
+    does not determine the sign.
+- **Effect on the dossier: score 60.0 → 52.0; G-20 CLOSED against the state; a hard-stop flag; G-24
+  opened; the candidate's testable core is restated.**
+  - **Mechanism 4 → 3.** The chain "negative net obligated position → forced deadline-bound, price-
+    insensitive buying → a concession the deadline rents" has a broken first link: the projected position
+    is calibrated to zero, and where a projected shortfall does occur the obligation is waived rather
+    than bought. The deadline-cluster *existence* claim (a statutory deadline concentrates a compliance
+    flow) is untouched; the *state-determined sign* link is not.
+  - **Falsifiability 3 → 2.** Prediction 2 of the dossier ("the published net obligated position
+    determines the sign") is now known to be untestable as stated, not merely untested: the projected
+    position does not determine the sign, and its only signed component carried a +78% error in the one
+    year in which it has been measured. One of three predictions is dead as written.
+  - **Evidence 2 → 2 (unchanged), novelty 3 → 3 (unchanged), resilience 2 → 2 (unchanged), data 4 → 4
+    (unchanged).** The new sources are regulatory documents, not price-pattern evidence, so the
+    evidence dimension does not move — the register records this rather than inflating it with
+    institutional material. The *inputs* are public; what fails is the informational content of the
+    state, which is priced in the mechanism and falsifiability dimensions.
+  - **Hard-stop flag attached:** *the sign-determining state as specified requires look-ahead information
+    (the realised position) or is uninformative by construction (the projected position); the candidate
+    must not be specified, ranked as a state-conditioned candidate, or presented as a top opportunity
+    until a replacement state is found.*
+  - **The candidate is retained, not parked**, because its **existence** limb remains testable without any
+    state: G-15's first half — does the published weekly RIN price series show a systematic pre-deadline /
+    post-deadline difference at all, and is it larger than the venue's round-trip cost (S-133)? — is a
+    state-free test of the deadline-cluster's existence and size. What is suspended is the *conditional*
+    version. *(A reader who prefers to park the candidate outright can do so without loss: the register's
+    own rule would then apply — a parked candidate keeps its score but sits outside the ranking and
+    writes no specification. The register does not park it because parking would discard a testable
+    existence claim that the register has no other candidate covering.)*
+  - **New gap G-24.** Is there a published, **pre-deadline**, **signed** state for the RIN deadline
+    cluster that is **not** the outcome itself — for example the carryover-RIN balance, or the
+    pre-deadline RIN price and positioning (S-185) — such that the test can be run without look-ahead and
+    without circularity? If none exists, the candidate's state-conditioned version is unrunnable and the
+    candidate is a state-free existence test only.
 
 ---
 
@@ -3539,3 +3777,45 @@ re-screen it from scratch.
 The productive part of the cycle was not a new family but a *re-reading of the register's own top
 candidate against the newest literature*, which is where the register found both its first-cycle
 rejection of a rank-1 idea and the two most useful closures (G-03, G-02/G-07) it has ever had.
+
+## Cycle 32 frontier-family screen log (2026-10-20)
+
+One family was screened, one search round, with the standing rules applied: write a dossier only if the
+mechanism is unclaimed, the state is published *before* the decision, the sign (or existence) is
+decidable from the published state, and the venue is feasible.
+
+1. **Corporate-debt tender offers and liability-management exercises — SCREENED OUT (bounded negative;
+   filed as a baseline).** The family looked like the register's best remaining template fit: a *dated*,
+   *price-insensitive* flow into a *published* deadline, with a decision-time state that is literally in
+   the offer document (the offer price, the expiry date and time, the amount sought). Five findings kill
+   it, and the last two are the register's own criteria rather than new facts.
+   - **The flow is published and quantified** (S-204): the tender price averages a **4.75%** premium
+     (median 3.40%) to the pre-tender market price, and **82.3%** of the issue (median 94.6%) tenders;
+     a 1% rise in the tender premium raises the tendering rate by as much as 10%. The price-insensitive
+     flow at a published deadline is a *documented, quantified* object, not an unclaimed mechanism.
+   - **The deadline-cluster behaviour is published too** (S-206): **72%** of exercised-clawback issues
+     underwent renegotiation by tender, and **73.9%** of them did so *before* the clawback's published
+     expiration date. The "many obligations converge on one published deadline" structure is documented.
+   - **The price-insensitive flow is the *issuer's*, and it supports the price rather than depressing
+     it.** In a tender the issuer commits to buy at a fixed premium; that is price-insensitive
+     *demand* at a published price, so the deadline puts a **floor** under the bond and pulls it *toward*
+     the offer price as expiry approaches — the opposite shape to the register's cap-and-trade and
+     compliance-deadline template (IDEA-013, IDEA-014), which requires the flow to push the price
+     *below* fair value into the deadline and revert afterwards. (S-205 makes the structural contrast
+     explicit: the tender is the price-known-to-the-seller route; open-market repurchase is not.)
+   - **The one tradeable implication is a mechanical arbitrage rather than an edge**: buying a bond below
+     a *published* offer price and tendering it is a trade against a known price, subject only to
+     completion risk, proration/priority (the "early bird" step-down, S-208) and the guaranteed-delivery
+     mechanic (S-207). The only residual after the deadline is the re-pricing of the *remaining* bonds
+     as the capital structure changes — a **credit event**, not a mechanical reversion, and therefore not
+     the register's object.
+   - **There is no cross-issuer deadline cluster to exploit.** The tender deadline is **issuer-set**, with
+     regulatory minimum offering periods (S-207, S-208) rather than a single statutory date shared by a
+     population of obligors. The register's deadline-cluster template (EU ETS surrender, RFS compliance)
+     works precisely because a *regulator* fixes one date for everyone; in credit, the deadlines are
+     staggered by construction, so there is no cluster, and the family is the structural opposite of the
+     register's best-documented deadline families.
+   - **Verdict: bounded negative, no dossier — logged as R-013.** Filed in `rejected_and_parked.md` as
+     a baseline so that a later cycle does not re-screen it. The one item left unverified is noted there as well: the specific
+     Rule 14e-1 periods used in this screen are index-rendered from practitioner notes (S-208, S-209) and
+     were not read against the rule text in this cycle (S-207).

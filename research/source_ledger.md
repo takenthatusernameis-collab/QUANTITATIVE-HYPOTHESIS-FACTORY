@@ -27,6 +27,13 @@ usable as a *decision-time* variable, or only as an explanatory decomposition? (
 the EU ETS aggregate balance is published in late May/June of the following year — S-121 — and was
   therefore unavailable at the pre-2023 surrender deadline). The register now holds **S-001 … S-125**.
 
+Cycle 32 (2026-10-20) added **S-188 … S-209** (see "Cycle 32 sources" at the end of this file) and the
+**"Cycle 32 gap verdicts"** block, which closes **G-19** (against IDEA-003's sign claim), **G-16** (in
+IDEA-010's favour, on a reformulated validation target) and **G-20** (against IDEA-014's state as
+specified), and opens **G-22, G-23, G-24**. Cycle 32 also **repairs the Cycle-31 ledger gap**: S-188 and
+S-189 were minted in Cycle 31 but never written into this ledger. The register now holds
+**S-001 … S-209**.
+
 Cycle 6 (2026-10-20) added "Cycle 6 additions" (**S-126 … S-145**) and the **"Cycle-6 verdicts"** block. Cycle 14 added **S-175** (Armstrong et al 2010, IFRS adoption and information quality, already in literature) and **S-176** (Beuselinck et al / IFRS adoption and earnings/PEAD context) and registered Dew-Becker & Giglio (Chicago Fed WP 2025-17, S-177 candidate for IDEA-003 followup) as relevant to VRP decline; also noted Hung et al 2015 and Song & Woo 2015 on K-IFRS/PEAD showing improved information environment post-adoption consistent with weaker drift. Cycle 14 (continued).
 block, which supersedes earlier text on the same questions for current-state purposes while leaving
 the cycle-by-cycle gap text in place. Cycle 6's decisive findings: (i) the two standing general
@@ -4103,3 +4110,557 @@ URL: https://edgarhawk.com/insider-transactions
   direct fetches in this cycle, so the "remaining shares" footnote is **index-rendered and not
   independently verified**; nothing here is evidence of a price effect.
 - **Verification:** search-index render only.
+
+---
+
+## Cycle 32 sources (2026-10-20)
+
+Cycle 32's sources fall into four blocks: (i) the two entries minted in Cycle 31 but never written
+into this ledger (S-188, S-189 — the ledger repair); (ii) the expected-premium corpus that closes
+**G-19** for IDEA-003 (S-190 … S-193); (iii) the dealer-balance-sheet and ETF-arbitrage corpus that
+closes **G-16** for IDEA-010 (S-194 … S-200); (iv) the EPA rule corpus that closes **G-20** for
+IDEA-014 (S-201 … S-203); and (v) the corporate-debt tender-offer corpus for this cycle's new-venue
+family screen (S-204 … S-209).
+
+### S-188 — Forbes, W.P. and Giannopoulos, G. (2015) — *repaired Cycle-31 entry*
+"Post-Earnings Announcement Drift in Greece." *Review of Pacific Basin Financial Markets and Policies*
+18(3): 1550019.
+DOI: https://doi.org/10.1142/S0219091515500198
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-011, as a partial prior-art hit):** in the Greek market, 2000–2006 earnings
+  announcements (announcement years 2001–2007), "PEAD [is] alive and well, and of growing importance
+  in our Greek sample", and the authors attribute it to IFRS adoption: "It may be the adoption of
+  international financial reporting standards (IFRS) has served to reduce earnings predictability in
+  Greece and thus enhance PEAD in the Athens stock exchange (ASE) market." This is a published case in
+  which **IFRS adoption *increases* rather than shrinks** post-adoption drift — directionally the
+  candidate's effect, and the opposite of the candidate's stated hypothesis.
+- **Caveats:** the result is market-specific (Greece: a small market with a code-law accounting
+  regime, thin pre-IFRS disclosure and high individual-investor participation) and the mechanism the
+  paper offers is a *reduction in the intensity of accounting conservatism and increased earnings
+  volatility* under fair-value accounting — a disclosure-environment shock, not necessarily the
+  candidate's comparability clock. It is a single-market study; it does not test a trading rule.
+- **Verification:** OpenAlex API fetched directly (DOI, journal, volume, issue, article number, both
+  authors, publication year 2015); the abstract and the quoted sentence were read via the search
+  index rendering of the publisher page (10.1142/S0219091515500198); a longer author-revision
+  discussion of the mechanism was read via the search-index rendering of the authors' ResearchGate
+  copy of the revised manuscript.
+
+### S-189 — Brochet, F., Jagolinzer, A.D. and Riedl, E.J. (2012) — *repaired Cycle-31 entry*
+"Mandatory IFRS Adoption and Financial Statement Comparability." *Contemporary Accounting Research*
+30(4): 1373–1400.
+DOI: https://doi.org/10.1111/1911-3846.12002 · working-paper version: Harvard Business School
+Working Paper 11-109.
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for IDEA-011, as a partial prior-art hit):** UK firms, whose domestic standards were
+  already close to IFRS, are used to isolate the *comparability* channel from information quality.
+  "Abnormal returns to insider purchases — used to proxy for private information — are reduced
+  following IFRS adoption"; the working-paper version quantifies the insider-purchase abnormal return
+  decline at **4.2%** in six-month windows and the analyst-recommendation-upgrade decline at **2.9%**,
+  robust across sub-samples isolating the comparability effect. **Mandatory IFRS adoption reduces
+  insiders' ability to exploit private information** — consistent with the candidate's own
+  comparability channel.
+- **Caveats:** the *direction* of the drift implied by reduced private-information advantage is the
+  opposite of the candidate's hypothesis (a better public information set should *reduce* drift, and
+  this paper is evidence for that); it is a UK-firm study, and it measures information asymmetry
+  rather than post-adoption drift. It is a mechanism-consistency citation, not a replication of the
+  candidate's claim.
+- **Verification:** OpenAlex API fetched directly (DOI, journal, volume, issue, pages, three authors,
+  2012); the abstract and the quantified 4.2%/2.9% figures were read via the search-index rendering
+  of the HBS working-paper PDF (hbs.edu/ris/Publication Files/11-109).
+
+### S-190 — Rombouts, J.V.K., Stentoft, L. and Violante, F. (2020)
+"Dynamics of variance risk premia: A new model for disentangling the price of risk." *Journal of
+Econometrics* 217(2): 312–334.
+DOI: https://doi.org/10.1016/j.jeconom.2019.12.006 (first published online December 2019; issue
+dated 2020)
+- **Type:** Primary theory plus estimation (peer-reviewed).
+- **Supports (for G-19, decisively, and in two directions):**
+  (i) *The expected-premium convention is stated explicitly.* The variance risk premium is defined as
+  "the difference between the risk neutral and physical expectations of an asset's total return
+  variation", i.e. Π_t = E^Q[Σ_{t,t+1}] − E^P[Σ_{t,t+1}] — exactly the register's IDEA-003
+  convention.
+  (ii) *The sign in distress states has been tested under that convention.* The paper's central
+  methodological finding is that the "vast majority of the literature estimates the VRP period-by-period
+  using ex-post realisations ignoring its latent nature and temporal dependence", and that "such
+  practice leads to a VRP that is too volatile and **systematically becomes negative, rather than
+  largely positive, in periods of market distress**." The paper's own latent decomposition then
+  reports that the continuous component of the VRP "is characterised by level and variance shifts,
+  strong persistence, **is systematically positive and is higher in periods of market turmoil**".
+  (iii) The paper does not impose sign constraints on the jump component.
+- **Caveats:** the latent premium is a *model-based* conditional expectation (realized-volatility
+  processes plus regime switching), not a raw filtered conditional expectation; the estimate is
+  conditional on the model; and the paper prices the *equity* variance risk premium, not a
+  single-name or option-surface-implied quantity. It is a decomposition of a published premium, not
+  a test of a gated trading rule.
+- **Verification:** Crossref REST API fetched directly (DOI, title, three authors, journal, volume,
+  issue, pages, publication date 2020-02) and OpenAlex API fetched directly (work record, journal
+  *Journal of Econometrics* 217(2), pp. 312–334, online-first year 2019); the abstract and the quoted
+  passages were read via the search-index rendering of the publisher and SSRN records.
+
+### S-191 — Zhou, J. (2018)
+"Variance Risk Premia, Asset Predictability Puzzles, and Macroeconomic Uncertainty." *Annual Review of
+Financial Economics* 10: 481–497.
+DOI: https://doi.org/10.1146/annurev-financial-110217-022737 · earlier working-paper version: Federal
+Reserve Bank of St. Louis FEDS 2010-014, "Variance Risk Premia, Asset Predictability Puzzles, and
+Macroeconomic Uncertainty."
+URL (working paper): https://www.stlouisfed.org/research/publications/wp/2010-014
+- **Type:** Review article (peer-reviewed), with a verified working-paper version.
+- **Supports (for G-19):** the expected-premium convention is defined in the review's own notation:
+  "The variance risk premium is defined as the difference between the ex-ante risk neutral expectation
+  of the future return variance and the objective or statistical expectation of the return variance
+  over the [t, t+1] time interval, VRP_t ≡ E^Q_t(Var_{t,t+1}) − E^P_t(Var_{t,t+1})", and the review
+  states the *measurement* problem explicitly: the risk-neutral expectation "is typically replaced by
+  the CBOE implied variance or VIX²" and the physical expectation is replaced either by a discretised
+  realisation or by a filtered/model-based conditional expectation. The review is the standard
+  reference for the distinction between the two conventions that G-19 asked about.
+- **Caveats:** a review, not a new empirical test of the sign in crash-imminent states; the review's
+  empirical content is on the *predictability* of asset returns from the premium, not on a
+  state-conditional sign. It does not test an option-surface-implied crash state.
+- **Verification:** Crossref REST API fetched directly (DOI, title, author, journal, volume, pages,
+  2018); the definition and the measurement-problem passage were read via the search-index rendering
+  of the Federal Reserve working-paper PDF (federalreserve.gov FEDS 2010-014). The Annual Reviews
+  publisher page returned HTTP 403 to a direct fetch, so the review's own text is index-rendered and
+  the definition is quoted from the verified working-paper version.
+
+### S-192 — Bekaert, G., Engstrom, B. and Ermolov, M. (2023)
+"Variance Risk Premium in Equilibrium Models." *The Review of Finance* 27(6): 1977–2014.
+DOI: https://doi.org/10.1093/rof/rfad005 · working-paper version: NBER Working Paper No. 27108
+(October 2020), DOI https://doi.org/10.3386/w27108
+- **Type:** Primary theory (peer-reviewed).
+- **Supports (for G-19, and the single most direct statement on the sign of the *expected* premium in
+  bad states):** "The equity variance risk premium is the expected compensation earned for selling
+  variance risk in equity markets. **The variance risk premium is positive and shows only moderate
+  persistence. High variance risk premiums coincide with the left tail of the consumption growth
+  distribution shifting down.**" The expected premium is therefore (a) positive and (b) *larger* in
+  states where the consumption left tail is worse — i.e. in bad, crash-prone states the expected
+  premium widens rather than collapses.
+- **Caveats:** an equilibrium model of the *equity* variance risk premium; the "bad state" is a
+  consumption-tail state, not an option-surface-implied imminent-crash state, so the identification is
+  at the level of state co-movement rather than at the level of the candidate's specific gate. It
+  makes no claim about a gated trading rule.
+- **Verification:** Crossref REST API fetched directly (DOI, title, three authors, journal
+  *Review of Finance*, volume 27, issue 6, pages 1977–2014, 2023) with the abstract retrieved in the
+  same record; the NBER working-paper identification was confirmed in the search index.
+
+### S-193 — Gruber, M., Tebaldi, E. and Trojani, A. (2021)
+"The Price of the Smile and Variance Risk Premia." *Management Science* 67(7): 4056–4074.
+DOI: https://doi.org/10.1287/mnsc.2020.3689
+- **Type:** Primary theory plus estimation (peer-reviewed).
+- **Supports (for G-19, as the closest published sign-flip in a variance-premium quantity in bad
+  states):** the published abstract states that "the more persistent volatility factor and the
+  skewness factor support a downward sloping term structure of variance risk premia in normal times,
+  whereas **the most transient volatility factor accounts for an upward sloping term structure in
+  periods of distress**". The earlier working-paper version of the same paper states that the estimated
+  variance risk premia are "highly time-varying and unambiguously negative" on the Carr–Wu sign
+  convention (i.e. unambiguously *positive* compensation) across the sample, while "the variance term
+  premium may change sign".
+- **Caveats:** the sign-flip is in the **term** premium (the slope of the variance-premium term
+  structure), not in the *level* of the expected premium; the working-paper text is index-rendered
+  rather than read from a publisher PDF in this cycle. It is the closest published analogue of a
+  "variance-premium quantity changes sign in distress", and it is recorded here so that the register
+  does not overstate the novelty of that observation.
+- **Verification:** Crossref REST API fetched directly (DOI, title, three authors, journal
+  *Management Science*, volume 67, issue 7, pages 4056–4074, 2021-04-01) with the published abstract
+  retrieved in the same record; the working-paper variant of the abstract was read via the search-index
+  rendering of the author-hosted PDF (unibocconi).
+
+### S-194 — Raddatz, C.E. (2025)
+"Authorized participants' regulatory constraints and limits to ETF arbitrage during market turmoil:
+Evidence from the dash-for-cash episode." *Journal of Banking & Finance* 179: 107499.
+DOI: https://doi.org/10.1016/j.jbankfin.2025.107499
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for G-16, and it is the decisive citation for that gap):** the paper builds a dataset
+  linking each US corporate-bond ETF to its authorized participants "using U.S. SEC regulatory
+  filings", connects the APs to their financial statements, and measures **APs' regulatory capital
+  ratios** — a *disclosed, filing-based* state. The finding is that APs' regulatory capital ratios
+  conditioned the ETF arbitrage relationship during the March 2020 dash-for-cash: ETFs linked to APs
+  at the 25th percentile of regulatory capital ratios saw a **0.69 percentage-point decline in
+  arbitrage intensity**, against **0.39 percentage points** for ETFs linked to 75th-percentile APs;
+  and "other AP characteristics, such as equity-to-assets ratios, cash-to-assets ratios, total assets,
+  or AP activity concentration, do not play a significant role."
+- **Caveats:** the outcome variables are the *elasticity of ETF arbitrage intensity* and ETF premia,
+  not the level of the ETF–NAV discount and not a trading return; the episode is a single
+  market-stress window; the AP capital ratios are quarterly-filed and therefore lagged, and the
+  ETF↔AP mapping requires a bespoke construction from filings. It identifies the state; it does not
+  test the candidate's two-legged rule.
+- **Verification:** OpenAlex API fetched directly (DOI, title, author, journal *Journal of Banking &
+  Finance* 179, article 107499, 2025) and the abstract and quoted figures were read via the
+  search-index rendering of the publisher's ScienceDirect record.
+
+### S-195 — Pan, K. and Zeng, Y. (2017; working-paper versions to 2019) — *corrects the register's citation*
+"ETF Arbitrage under Liquidity Mismatch." ESRB Working Paper No. 59 (December 2017); NBER/LTAP
+conference version (June 2017); SSRN working-paper version (SSRN 2895478, posted 8 January 2017, last
+revised 30 March 2019).
+DOI: https://doi.org/10.2139/ssrn.2895478 · PDF: https://www.esrb.europa.eu/pub/pdf/wp/esrb.wp59.en.pdf
+- **Type:** Primary theory plus empirical result (**working paper, not peer-reviewed**).
+- **Supports (for IDEA-010, and it is the source of the register's own "Pan & Zeng 2019" reference):**
+  the paper formalises the AP dual-role conflict — "APs are also bond dealers and they use their own
+  balance sheet in both roles" — and shows that "bond market illiquidity limits ETF arbitrage" and that
+  "large bond flow shocks to AP balance sheets also limit ETF arbitrage, leading to persistent relative
+  mispricings". Empirically: "An increase of 1% in the ETF premium generates an increase in AP
+  arbitrage by 50 basis points; however, as market volatility rises, holding fixed the ETF premium, AP
+  arbitrage declines"; the sensitivity decline "is asymmetrically larger when the ETF premium is
+  negative"; and when APs hold extreme bond inventory imbalances, creations and redemptions can move
+  "in the opposite direction than what would be implied by the initial relative mispricing".
+- **Caveats (material, and they bear on G-16):** the paper's datasets are **proprietary** — "novel
+  AP-level data", a "proprietary version of TRACE" with FINRA dealer identifiers, "proprietary
+  time-series data on the daily creation and redemption baskets" for each ETF, and proprietary AP lists
+  from two ETF sponsors covering "on average 83% of the total passive corporate bond ETF assets under
+  management". This is the empirical provenance of the register's belief that "AP-level data is
+  commercial"; the *published evidence* is proprietary-based even though the *state construct* is
+  publicly reconstructable (S-194). The paper is a working paper, and the register's Cycle-6 citation
+  "Pan & Zeng 2019" should be read as this SSRN revision date.
+- **Verification:** search-index render of the ESRB working-paper PDF and the SSRN record (both
+  authors, title, abstract, keywords, dates, DOI) and of the authors' hosted PDFs (Harvard scholar
+  repository, NBER conference repository); the substantive quotations above were read from those
+  renderings. No publisher version was located, so the entry is recorded as a working paper.
+
+### S-196 — Shim, J. and Todorov, K. (2022)
+"ETFs, illiquid assets, and fire sales." BIS Working Papers No. 975 (June 2022).
+URL: https://www.bis.org/publ/work975.htm · preprint version: SSRN 3886881,
+DOI https://doi.org/10.2139/ssrn.3886881
+- **Type:** Primary theory (institutional working paper).
+- **Supports (for IDEA-010, as a published rival explanation for the ETF–NAV discount):** the model has
+  "an ETF discount arises because the AP acts as a buffer between the ETF and the bond market, allowing
+  the ETF price to fall while avoiding selling bonds in quantities that would trigger a fire sale",
+  and it documents that "bond ETF baskets contain a small fraction of holdings ('fractional baskets'),
+  which contributes to persistent discrepancies between ETF price and NAV". A discount can therefore
+  arise from *basket composition*, with no AP balance-sheet constraint involved.
+- **Caveats:** a model paper; the fractional-basket mechanism is not shown to dominate the AP-capacity
+  mechanism empirically in this entry; the BIS landing page's body text was not readable in this cycle
+  (the page returned navigation chrome only on a direct fetch), so the quoted passages are
+  index-rendered from the search index.
+- **Verification:** OpenAlex API fetched directly for the SSRN record (title, two authors, DOI
+  10.2139/ssrn.3886881, 2021) and the search-index rendering of the BIS working-paper landing page
+  and PDF; the BIS working-paper number and URL are as published on bis.org.
+
+### S-197 — Siriwardane, E.N., Sunderam, A. and Wallen, J. (2025)
+"Segmented Arbitrage." *The Journal of Finance* 80(5): 2543–2590.
+DOI: https://doi.org/10.1111/jofi.13469 · working-paper version: NBER Working Paper No. 30561
+- **Type:** Primary theory plus empirical result (peer-reviewed).
+- **Supports (for IDEA-010, as a published rival explanation):** the paper documents that
+  **arbitrage spreads are sensitive to idiosyncratic balance-sheet shocks** and that
+  "balance sheets are segmented — intermediaries specialize in certain trades", so the *funding source*
+  rather than the AP's bond-inventory capacity is a first-order determinant of an arbitrage spread.
+  For IDEA-010 this is a rival explanation for any ETF–NAV gap conditioned on intermediary
+  constraints, and it supplies the register's best published template for what a *funding-segmented*
+  arbitrage spread looks like.
+- **Caveats:** the paper studies arbitrage spreads in secured/segmented funding settings, not bond-ETF
+  arbitrage directly; its proxies for funding conditions and its identification are specific to its own
+  setting and are not a substitute for a decision-time dealer-stress state for IDEA-010.
+- **Verification:** OpenAlex API fetched directly (DOI, title, three authors, journal *Journal of
+  Finance* 80(5), pp. 2543–2590, 2025) and the NBER working-paper DOI (10.3386/w30561) confirmed in
+  the same query; the abstract was read via the search-index rendering of the publisher and NBER records.
+
+### S-198 — Hempel, K., Kim, J. and Wermers, M. (2022)
+"Financial Intermediary Funding Constraints and Segmented Markets: Evidence from SMCCF ETF Purchases."
+Office of Financial Research Working Paper 22-01 (February 2022).
+URL: https://www.financialresearch.gov/working-papers/22-01
+- **Type:** Primary empirical result (institutional working paper).
+- **Supports (for G-16, and it is the register's best *public* candidate for the missing AP/dealer
+  balance-sheet state):** the authors state that "while we do not have information on AP-level
+  inventories, we can indirectly infer their corporate bond inventories from **public FR 2004
+  disclosures on aggregate primary dealer activities**", and they use that inference to measure
+  positive AP balance-sheet shocks (funding for the Federal Reserve's SMCCF bond-ETF purchases) and
+  their spillovers to ETF prices and to the underlying bonds.
+- **Caveats:** the FR 2004 inventory series is an *aggregate* measure across primary dealers, not an
+  AP-level or ETF-level measure; the inference is indirect and the paper's own events (SMCCF
+  purchases) are policy-specific, so the series is a candidate state, not a validated decision-time
+  variable for IDEA-010's daily rule.
+- **Verification:** search-index render of the OFR working-paper landing page and PDF (title, three
+  authors, report number 22-01, February 2022, and the quoted FR 2004 passage); the OFR PDF itself was
+  read through the search index in this cycle.
+
+### S-199 — Comerton-Forde, M., Ford, J., Foucault, P. and Jurkatis, T. (2025)
+"Investors as a liquidity backstop in corporate bond markets." Bank of England Staff Working Paper
+No. 1126 (April 2025).
+URL: https://www.bankofengland.co.uk/working-paper/2025/investors-as-a-liquidity-backstop-in-corporate-bond-markets
+- **Type:** Primary empirical result (institutional working paper).
+- **Supports (for IDEA-010, as a published baseline for the "concession paid to liquidity providers"
+  structure):** the paper documents that dealers pay "relationship discounts" to investors for past
+  liquidity provision — roughly two thirds of the observed dealer discount is attributed to liquidity
+  services — and that dealers' balance-sheet constraints shape corporate-bond liquidity. This is
+  published evidence that a *dealer balance-sheet constraint expressed as a concession to the
+  counterparty who supplies liquidity* is a documented market structure, which is the register's
+  closest published baseline for the type of edge IDEA-010 claims.
+- **Caveats:** the concessions documented are to *client liquidity providers* in the dealer sector, not
+  to the ETF arbitrage channel; the paper is a staff working paper, and the discount decomposition is
+  estimated at the dealer-client relationship level.
+- **Verification:** search-index render of the Bank of England working-paper landing page (report
+  number 1126, April 2025, four authors, and the quoted relationship-discount finding).
+
+### S-200 — Eisfeldt, A.L., Herskovic, B. and Liu, S. (2024)
+"Interdealer Price Dispersion and Intermediary Capacity." NBER Working Paper No. 32998 (September 2024).
+DOI: https://doi.org/10.3386/w32998
+- **Type:** Primary empirical result (working paper; the register's "Eisfeldt et al. 2024").
+- **Supports (for G-16, with two constraints on IDEA-010's state):**
+  (i) the paper's own proxy for intermediation capacity is **interdealer price dispersion** from TRACE,
+  and it is explicitly a *proxy*: dispersion measures "the negative effects of interdealer frictions and
+  risk misallocation within the dealer sector". It is validated against model-based **fair-value
+  spreads** and a "fair-value basis", not against any disclosed dealer funding value adjustment.
+  (ii) two facts bear directly on IDEA-010's feasibility: "given the infrequent trading of bonds,
+  calculating interdealer price dispersion daily is not feasible. For our baseline results, we measure
+  bond-level interdealer price dispersion using the standard deviation in all interdealer trades
+  occurring each **month**" — so the published dispersion measure is **monthly**, not daily; and the paper
+  finds that "equity-weighted averages of dealer-level financial soundness **fail** to capture effects
+  from interdealer frictions", i.e. aggregate dealer-balance-sheet averages are documented to be
+  *inferior* proxies for intermediation capacity than the dispersion measure.
+- **Caveats:** a working paper; the fair-value validation depends on a structural model and on equity
+  data; the monthly frequency of the published measure is the binding constraint for a rule with a
+  1–10 session holding horizon. It is *not* a validation of any proxy against disclosed dealer FVAs,
+  which remains an unperformed exercise (and, per S-155, is not a sensible target anyway).
+- **Verification:** OpenAlex API fetched directly (DOI, title, three authors, NBER WP 32998, 2024);
+  the quoted passages were read via the search-index rendering of the NBER working-paper record.
+
+### S-201 — U.S. Environmental Protection Agency (2026)
+"Renewable Fuel Standard Program: Reallocation of Volumes and Other Modifications" (the "Set 2 Rule").
+91 FR 16388 (April 1, 2026); Federal Register document 2026-06275.
+URL: https://www.federalregister.gov/documents/2026/04/01/2026-06275/renewable-fuel-standard-program-reallocation-of-volumes-and-other-modifications
+- **Type:** Primary regulator material (final rule).
+- **Supports (for G-20):**
+  (i) *The volume requirement is calibrated to the agency's own supply projection.* The rule's statutory
+  factor analysis uses the "Analyzed Volumes" (the agency's projected supply) and states that "the
+  total quantity of renewable fuel we project will be supplied to the U.S. to meet these volume
+  requirements (shown in Table I.A.1-2) are very similar to the quantities we projected would be supplied
+  to meet the proposed volume requirements" — i.e. the RVO is set so that the *projected* supply meets
+  it, so the *projected* net obligated position is near zero by construction.
+  (ii) *Where the projection falls short, the shortfall is institutionally absorbed, not expressed as a
+  binding market obligation.* For 2025 cellulosic: "our estimate of the number of 2025 cellulosic RINs
+  that will be produced is 1.21 billion gallons … equivalent to 1.21 billion RINs. This projected volume
+  is 0.17 billion fewer RINs than the 1.38 billion RINs needed to comply with the original 2025
+  cellulosic biofuel standard, a shortfall of approximately 13 percent. We therefore find that the
+  shortfall … triggers the need for implementation of the cellulosic waiver authority for 2025."
+  (iii) The rule's own projection of the **2025 exempted** fuel volume is **7.55 billion gallons**,
+  derived by "projecting … a three-year average of the actual exempted fuel volumes from 2022 through
+  2024" — a lagged average, not a forecast of the current year's exemption decisions.
+  (iv) The 2026 and 2027 standards include small refinery exemption (SRE) reallocation volumes of
+  **0.99 billion RINs (2026)** and **1.04 billion RINs (2027)**.
+- **Caveats:** the rule's tables are published as images in the Federal Register text version, so the
+  billion-RIN volumes in Table I.A.1-1 were read from the agency's own summary of the rule (S-203)
+  rather than from the table images; the quotations above are from the raw text version, which was
+  fetched directly from the Federal Register's document server.
+- **Verification:** the raw text of the rule was fetched directly from the Federal Register document
+  server (`/documents/full_text/text/2026/04/01/2026-06275.txt`), and the document metadata
+  (title, citation, publication date, raw-text URL) was verified through the Federal Register API.
+
+### S-202 — U.S. Code of Federal Regulations (2026)
+40 CFR 80.1405, "Renewable fuel production and renewable fuel credits" (annual renewable fuel
+standards; volume requirements; percentage-standard formulas).
+URL: https://www.ecfr.gov/current/title-40/chapter-III/subchapter-C/part-80/subpart-D/section-80.1405
+- **Type:** Primary regulator material (regulation).
+- **Supports (for G-20):** the regulation carries the annual volume requirements **in billion RINs**, the
+  percentage-standard formulas with the projected **exempted gasoline and diesel (GEi, DEi)** terms
+  inside them, and the annual **small refinery exemption reallocation** volumes. It is the standing
+  public instrument through which the sign-determining state of IDEA-014 would have to be read, and it
+  is published *before* each compliance deadline.
+- **Caveats:** the eCFR versioned API refused requests in this cycle (HTTP 406/404 on the versioner and
+  renderer endpoints, and the annual CFR XML on govinfo was not retrieved for part 80), so the
+  regulation's text was **not** read end-to-end in this cycle; the billion-RIN volumes were taken from
+  the agency's own summary (S-203) and the percentage-standard structure from the search-index
+  rendering of the eCFR section. The numbers used in the register's G-20 arithmetic are therefore
+  sourced from S-201 and S-203, not from a verified read of the regulation itself.
+- **Verification:** the eCFR section URL was reached (HTTP 200 with navigation chrome) and the
+  structure of § 80.1405 was read via the search-index rendering; direct versioned-API retrieval was
+  attempted and failed (HTTP 406/404).
+
+### S-203 — U.S. Environmental Protection Agency (2026)
+"Final Renewable Fuel Standards for 2026 and 2027." Agency rule-summary page.
+URL: https://www.epa.gov/renewable-fuel-standard-program/final-renewable-fuel-standards-2026-and-2027
+- **Type:** Primary regulator material (agency summary of the final standards).
+- **Supports (for G-20, the quantitative scale of the state):** the summary tables give the final volume
+  requirements in billion RINs for 2026 and 2027 — total renewable fuel **25.82** and **25.98** billion
+  RINs; advanced biofuel **10.82** and **10.98**; biomass-based diesel **8.86** and **8.95**; cellulosic
+  **1.36** and **1.43** — together with the SRE reallocation volumes of **0.99** and **1.04** billion RINs,
+  giving **total applicable volumes of 26.81** and **27.02** billion RINs for 2026 and 2027.
+- **Caveats:** an agency summary, not the rule text; the underlying rule's tables are images (S-201).
+- **Verification:** search-index render of the EPA rule-summary page (both tables, all volumes in
+  billion RINs, for the proposed and final standards), cross-checked against a second independent
+  rendering of the same table in the search index.
+
+### S-204 — Mann, S.V. and Powers, E.A. (2006)
+"Determinants of bond tender premiums and the percentage tendered." *Journal of Banking & Finance*
+31(3): 547–566.
+DOI: https://doi.org/10.1016/j.jbankfin.2005.12.008 · earlier working-paper version: SSRN 475561
+(7 December 2003), DOI https://doi.org/10.2139/ssrn.475561
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for this cycle's new-venue family screen):** the price-insensitive flow at a published
+  debt-tender deadline is a **published, quantified** object: "For the average (median) tender offer,
+  the tender price is 4.75 (3.40) percent greater than the pre-tender market price while the
+  percentage of bonds tendered is 82.3 (94.6) percent"; "a one percent increase in tender premium
+  increases the tendering rate by as much as 10%"; and tenders are easier to complete when bond
+  ownership is concentrated.
+- **Caveats:** the paper studies the *determinants* of the tender premium and the tendering rate, not
+  the price path of the bond into and around the tender deadline; it is an announcement-and-outcome
+  study of corporate bond tenders, not a deadline-cluster study.
+- **Verification:** OpenAlex API fetched directly (published record: title, two authors, journal
+  *Journal of Banking & Finance* 31(3), pp. 547–566, 2006, DOI) and the working-paper abstract and
+  highlights read via the search-index rendering of the SSRN record (SSRN 475561).
+
+### S-205 — Levy, H. and Shalev, R. (2016)
+"Bond repurchase objectives and the repurchase method choice." *Journal of Accounting and Economics*
+63(2–3): 385–403.
+DOI: https://doi.org/10.1016/j.jacceco.2016.09.003
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for the family screen):** documents the structural distinction the screen relies on —
+  "Unlike tender offers, open market repurchases are not … [at a price known to the seller]" — i.e. the
+  tender is the price-insensitive, dated, published-deadline repurchase route, and open-market
+  repurchase is not.
+- **Caveats:** the paper's subject is the issuer's choice of repurchase method, not the bond's
+  price behaviour around a tender deadline.
+- **Verification:** OpenAlex API fetched directly (DOI, title, two authors, journal *Journal of
+  Accounting and Economics* 63(2–3), pp. 385–403, 2016); the abstract read via the search-index
+  rendering of the publisher record.
+
+### S-206 — Daniels, K.N., Díaz, F. and Ramírez, G. (2012)
+"An empirical investigation of corporate bond clawbacks (IPOCs): Debt renegotiation and the exercise of
+clawback provisions." *Journal of Corporate Finance* 20: 14–21.
+DOI: https://doi.org/10.1016/j.jcorpfin.2012.11.001 · related working paper: "The Exercise of
+Corporate Bond Clawbacks and Debt Renegotiation: An Empirical Analysis", Kennesaw State University
+working paper (20(1), 2013).
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports (for the family screen):** documents the *deadline-cluster* behaviour directly: "72% of
+  exercised clawback issues underwent renegotiation in the form of a tender offer", "60.2% of the
+  non-exercised clawback issues and 73.9% of the exercised clawback issues went into renegotiation
+  before the expiration of the clawback provision", and "the relationship between clawback being
+  exercised and the bond issue being subject to renegotiation *before* the IPOC expiration date
+  further illustrates its strategic use". A dated, published, price-insensitive flow into a published
+  deadline is therefore a **documented** institutional pattern.
+- **Caveats:** the paper documents the *flow timing* (renegotiations clustered before a published
+  deadline), not the *price path* of the affected bonds into and out of the deadline; the setting is
+  investment-grade clawback provisions with mandatory exercise dates, not ordinary liability-management
+  exercises.
+- **Verification:** OpenAlex API fetched directly (published record: title, three authors, journal
+  *Journal of Corporate Finance* 20, pp. 14–21, 2012, DOI) and the working-paper full text read via
+  the search-index rendering of the Kennesaw State University repository PDF.
+
+### S-207 — U.S. Securities and Exchange Commission (rule)
+17 CFR 240.14e-1, "Offers to buy or redeem securities by certain issuers" (tender-offer minimum
+offering periods, change-in-consideration extension and announcement requirements).
+URL: https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.14e-1
+- **Type:** Primary regulator material (rule).
+- **Supports (for the family screen):** the rule is the source of the *rule-determined* deadline
+  structure the screen depends on: minimum offering periods, mandatory extension and public
+  announcement when the consideration or the amount sought changes, and disclosure of the number of
+  securities tendered.
+- **Caveats:** the relevant paragraphs were **not** read end-to-end in this cycle — the eCFR renderer
+  returned the section but the slice fetched in this cycle was an unrelated paragraph. The specific
+  periods and disclosure duties quoted in this cycle's screen (20 business days; 10 business days on a
+  change of consideration or amount; extension announcements stating the number of securities tendered)
+  are therefore **index-rendered from practitioner notes (S-208, S-209)** and are *not* independently
+  verified against the rule text here. A future cycle that needs them verbatim must read the rule.
+- **Verification:** the eCFR section URL was reached; the specific provisions relied upon are recorded
+  as **not independently verified** in this cycle.
+
+### S-208 — Clifford Chance (2025)
+"Managing your bond liabilities under US securities law: a guide for non-US issuers" (practitioner
+note, February 2025).
+URL: https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2025/02/managing-your-bond-liabilities-under-us-securities-law-a-guide-for-non-us-issuers.pdf
+- **Type:** Practitioner note (law-firm publication; **secondary, not a primary source**).
+- **Supports (for the family screen):** the rule-determined offer mechanics — Rule 14e-1's 20-business-day
+  minimum, the 10-business-day extension on a change in consideration, the announcement requirement on
+  extension, the "early bird" price step-down with 10 business days' notice, guaranteed delivery of
+  tenders by the close of business on the second business day after expiration, and the 1986 SEC
+  no-action relief for abbreviated investment-grade cash tenders (7–10 calendar days).
+- **Caveats:** practitioner guidance; used here only for the *mechanics* of the screen, never for a
+  market claim; the underlying rule text was not read (S-207).
+- **Verification:** search-index render of the Clifford Chance PDF (title, date, and the quoted rule
+  mechanics).
+
+### S-209 — Mayer Brown (2024)
+"Liability management" (practitioner note, April 2024).
+URL: https://www.mayerbrown.com/-/media/files/perspectives-events/events/2024/04/liability-management-apr-11-2024.pdf
+- **Type:** Practitioner note (law-firm publication; **secondary**).
+- **Supports (for the family screen):** the range of issuer repurchase routes and their price
+  mechanisms — tender at a fixed price or a fixed spread, Dutch/modified-Dutch auctions for non-US
+  holders, the "waterfall"/"any and all" structures, make-whole percentages, and the observation that
+  "typically able to purchase securities cheaper than redemption/make-whole options".
+- **Caveats:** practitioner guidance; descriptive of structures, not of price effects.
+- **Verification:** search-index render of the Mayer Brown PDF (title, date, and the quoted
+  structure/mechanics).
+
+---
+
+## Cycle 32 gap verdicts (2026-10-20)
+
+- **G-19 — CLOSED, AGAINST the candidate's sign claim (IDEA-003).** G-19 asked: "does any published
+  work state the *expected*-premium convention explicitly and test its sign in crash-imminent states?"
+  The answer is **yes, and the published sign is positive**. The expected-premium convention is stated
+  explicitly and in its own notation by at least three independent peer-reviewed sources: the
+  risk-neutral-minus-physical definition in Zhou's Annual Review (S-191), the same convention with an
+  explicit latent/physical decomposition in Rombouts, Stentoft & Violante (S-190), and the equilibrium
+  treatment in Bekaert, Engstrom & Ermolov (S-192). Its sign in bad states has been tested:
+  Rombouts et al. report that the *naive ex-post* estimator "systematically becomes negative, rather
+  than largely positive, in periods of market distress", and their latent decomposition reports that the
+  continuous component of the expected premium "is systematically positive and is higher in periods of
+  market turmoil"; Bekaert et al. report that the expected premium is "positive" and that "high variance
+  risk premiums coincide with the left tail of the consumption growth distribution shifting down". The
+  closest published sign-flip in a variance-premium quantity in distress is in the **term** premium, not
+  the level (S-193). **Consequence:** the candidate's load-bearing claim — that in a crash-imminent
+  state the *expected* premium collapses and short-volatility is uncompensated there — is **not
+  supported** under the candidate's own convention, and the published evidence points the other way
+  (the expected premium widens in bad states). What survives is a **tail/distribution** claim, not a sign
+  claim: the *realised* harvest is catastrophically left-tailed in crash states. IDEA-003 is retained,
+  re-scored **71.0 → 66.0**, its G-12 pass is downgraded to "the conditioning changes neither the sign
+  nor the existence of the premium's compensation", and a hard-stop flag is attached: the candidate
+  must not be presented as a new premium edge. **G-22 opened** for the residual.
+- **G-16 — CLOSED IN FAVOUR, ON A REFORMULATED VALIDATION TARGET (IDEA-010).** G-16 asked whether the
+  register's public dealer-stress proxy set could be validated against *disclosed dealer funding value
+  adjustments*. Two findings close the gap in a different and better way than the register framed it.
+  First, **the register's original validation target was the wrong target**: disclosed dealer FVAs are
+  OTC-derivatives-specific, annual/quarterly, often immaterial at the firms that disclose them
+  (S-155 already records that no continuous public FVA series exists), so a daily public proxy cannot
+  meaningfully be validated against them. Second, **independent published work has already performed the
+  validation the register wanted, on the right target and the right link**: Raddatz (S-194) shows that
+  **APs' regulatory capital ratios, disclosed in SEC regulatory filings**, are the state that governs
+  ETF arbitrage intensity and ETF premia, that the effect is material (0.69pp vs 0.39pp decline in
+  arbitrage intensity between 25th- and 75th-percentile APs during the dash-for-cash) and that
+  *other* AP balance-sheet characteristics (equity/assets, cash/assets, total assets, concentration) do
+  **not** matter. The published mechanism is Pan & Zeng (S-195) — with the material caveat that its
+  empirical datasets are proprietary — and the published rivals are now threefold: fractional baskets
+  (S-196), funding segmentation (S-197) and client-sourced liquidity discounts (S-199). Two published
+  facts constrain the *rule* even though they do not block the state: the register's own dispersion
+  proxy is computed **monthly** because bonds do not trade daily (S-200), and aggregate dealer
+  financial-soundness averages are documented to **fail** to capture intermediation capacity (S-200), so
+  the FR Y-9C-style aggregate leverage proxy is published but *invalid* for this purpose; a public
+  aggregate dealer-inventory proxy does exist (FR 2004 primary dealer activities, used by S-198).
+  **Consequence:** IDEA-010's blocking precondition is **met**; no validation specification was blocked
+  on it; the candidate is re-scored **65.0 → 68.0** (novelty 2 → 1 because the state-to-premium relation
+  is now published; evidence 3 → 4; data 3 → 4 because the operative state is public in SEC filings),
+  and **V-010** is written. **G-23 opened** for the residual (cadence and the rival explanations).
+- **G-20 — CLOSED AGAINST THE STATE AS SPECIFIED (IDEA-014).** G-20 asked whether the projection error
+  swamps the sign-determining state. It does, decisively, and the register can now quantify it:
+  (i) the **only** component of the pre-deadline state with a published ex-post measurement is the
+  exempted RVO, and its 2025 projection error was **+770 million RINs** (projected 990 million RINs in
+  S-201 vs actual 1,760 million RINs, EPA's 31 August 2026 SRE decisions) — **+78%** relative error, on a
+  state whose projection is itself a **three-year lagged average** of past exempted volumes (S-201), so
+  the error is structurally one-sided and cannot anticipate a wave of exemption decisions;
+  (ii) the projected net obligated position is **near zero by construction**, because the RVO is
+  calibrated to the agency's own supply projection (S-201), and where the projection does fall short the
+  shortfall is **institutionally absorbed** — the 2025 cellulosic case was a 0.17 billion RIN (13%)
+  projected shortfall that was handled by *waiving* the volume requirement (S-201) — not expressed as a
+  binding market obligation; (iii) the scale of the quantities is known: total applicable volumes of
+  **26.81** and **27.02** billion RINs for 2026 and 2027, against SRE reallocation volumes of 0.99 and
+  1.04 billion RINs (S-203) — so the measured 770-million-RIN projection error is **78% of the entire
+  annual SRE reallocation volume** that the agency itself treats as material enough to revise the
+  standards; and (iv) the *realised* state is published only after the deadline (S-184). **Consequence:**
+  the candidate's proposed sign-determining state is either unavailable before the decision or
+  uninformative by construction; the candidate is re-scored **60.0 → 55.0** and takes a **hard-stop flag
+  on the state as specified**. The candidate's *existence* claim is untouched and remains testable.
+  **G-24 opened** for the replacement-state question.
+- **G-21 — OPEN, unchanged (IDEA-004).** The crowding-proxy validation gap is not addressed by any Cycle
+  32 source: S-200 and S-187 bear on crowding constructs but neither validates a return-correlation
+  measure against a holdings-based measure. IDEA-004's rank is unchanged at 69.0 and V-002 stays frozen.
+- **G-22 (new) — IDEA-003 residual.** With G-19 closed against the sign limb, IDEA-003's remaining
+  content is the *state construction*: does any published work establish that an **option-surface-implied
+  imminent-crash measure** adds risk-adjusted value to a variance harvest **beyond** the published
+  state-conditioned volatility-trading family (S-180)? If not, the candidate is a known baseline and
+  must be parked.
+- **G-23 (new) — IDEA-010 residual.** With G-16 closed, what remains open is (i) whether the
+  filing-disclosed AP regulatory capital ratio is usable at the cadence IDEA-010's rule requires
+  (quarterly filings with a filing lag against a 1–10 session holding horizon) and (ii) whether it is a
+  **signed** state rather than only a moderator, given the three published rival explanations (S-196,
+  S-197, S-199) and the monthly frequency of the published dispersion proxy (S-200).
+- **G-24 (new) — IDEA-014 replacement state.** Is there a published, **pre-deadline**, **signed** state
+  for the RIN deadline cluster that is **not** the outcome itself — for example the carryover-RIN
+  balance, or the pre-deadline RIN price and positioning (S-185) — such that the candidate's test can
+  be run without look-ahead and without circularity?

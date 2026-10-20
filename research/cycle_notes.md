@@ -520,3 +520,120 @@ an explicit unblocking condition unless the price-effect literature supports it.
 - **New-venue family screen.** Screened the energy/weather family (no candidate entered). No published decision-time state with a dated, price-insensitive flow and an unclaimed sign; bounded negative logged (no new rejection number assigned beyond the family screen).
 - **No score or rank changed.** Top three unchanged: IDEA-003 (71.0), IDEA-011 (69.0), IDEA-004 (69.0). No new validation specification; V-010 remains free.
 - **IDs used:** S-188, S-189 (and proxy references not yet ledgered as S-numbers beyond S-189 pending verification). G-19, G-16, G-20, G-21 remain open.
+
+## Cycle 32 — 2026-10-20 — Three gap closures (G-19, G-16, G-20), three re-scores, one new specification (V-010), one family screen
+
+**Cycle objective.** Cycle 31 closed nothing (by design: it probed G-19 and G-16 without closing them,
+and screened one family). Cycle 32 takes the three probes the previous handoff named as its priorities
+and **closes all three** — one against a candidate, one in a candidate's favour, one against a
+candidate's state — and screens one new mechanism family. Nothing was executed, tested, simulated or
+downloaded; no market data were acquired or processed.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Draft task: (a) **G-19 / IDEA-003** — the register's open question is whether any
+published work states the *expected*-premium convention explicitly **and** tests its sign in
+crash-imminent states; if it does, the candidate's "the premium collapses" claim is either supported or
+contradicted, and the register must say which. (b) **G-16 / IDEA-010** — find whether any published work
+validates a *public* dealer-balance-sheet-stress proxy against a dealer-balance-sheet measure; the
+register's own framing names disclosed dealer FVAs as the target. (c) **G-20 / IDEA-014** — quantify
+whether the EPA's projection error swamps the projected net obligated position, which is the only
+pre-deadline state the candidate has. (d) Screen one new mechanism family. (e) Repair the **ledger gap**
+found while reading Cycle 31: S-188 and S-189 were minted but never written into `source_ledger.md`.
+
+**Pass 2 — Critique.** Pass 1 risks four specific errors. (i) For IDEA-003, a published statement of the
+convention does not settle the *sign*; the trap is to read "the premium turns negative in crises" from
+a paper that measures the **ex-post** premium and to treat it as support for the **expected** premium.
+The register's Cycle-30 amendment exists precisely because those two quantities move in opposite
+directions. The test must ask, for each source, *which quantity it measures* before it can be used.
+(ii) For IDEA-010, the risk is a null that is treated as a closure: Cycle 8 and Cycle 31 both closed
+G-16 as a *bounded negative* on the literature side. Before recording another bounded negative, the
+question has to be re-asked in the register's own terms — and the register's framing (validate against
+disclosed dealer FVAs) has to be checked for whether it is the right target at all. (iii) For IDEA-014,
+"the projection is wrong" is not a finding; the finding has to be a *quantity* — the projection error
+measured against the size of the state it is supposed to determine. (iv) For the family screen, the
+register's bar is a dated, price-insensitive flow with a published decision-time state; a family that
+merely *resembles* the register's template (a deadline, a fixed price, a concession) must not be
+promoted if its flow is the *issuer's* or if its deadline is not shared across obligors.
+
+**Pass 3 — Revise.** Revised task: (a) for IDEA-003, read each source for **which premium it measures**
+before using it, and treat "the expected premium is positive and wider in bad states" as a finding that
+must be recorded even though it contradicts the candidate; (b) for IDEA-010, re-ask G-16 as *"what is the
+correct validation target, and has the validation already been done?"* rather than *"find a validation
+paper for dealer FVAs"*, and accept that the honest answer may be that the register's premise was wrong;
+(c) for IDEA-014, express G-20 as an arithmetic comparison — measured projection error against the
+magnitude of the sign-determining state — using the EPA's own published numbers only; (d) for the family
+screen, apply the register's template tests (dated flow, price-insensitivity, shared deadline, published
+state) and log a bounded negative if they fail; (e) repair the ledger gap and continue the ID sequence
+(S-188, S-189 → S-209).
+
+### Outcome
+
+- **IDEA-003 VRP-STATE — G-19 CLOSED AGAINST THE SIGN CLAIM; score 71.0 → 66.0; rank 1 → 4.** The
+  expected-premium convention is stated explicitly by three independent peer-reviewed sources (S-190,
+  S-191, S-192) and its sign in bad states has been *tested*: the expected premium is **positive** and
+  **wider** in turmoil (S-190, S-192); the negative stress readings belong to the naive ex-post
+  estimator and are a measurement artefact (S-190); the only published sign-flip in a
+  variance-premium quantity in distress is in the *term* premium (S-193). The candidate's sign limb is
+  therefore contradicted under its own convention, and the candidate is re-specified as a **tail-management**
+  claim. Mechanism 4 → 3; the evidence dimension is **deliberately held at 4** to avoid double-counting
+  the same source, and the alternative scoring (62.0) is recorded in the dossier. G-12 downgraded; a
+  hard-stop flag attached; V-003 amended; new gap **G-22**.
+- **IDEA-010 CREDIT-ETF — G-16 CLOSED IN FAVOUR; score 65.0 → 68.0; rank 4 → 3; V-010 WRITTEN.** The
+  register's original validation target (disclosed dealer FVAs) is unusable (annual,
+  OTC-derivatives-specific, often immaterial; S-155) — the register says so rather than leaving a gap open
+  on a bad premise. The validation the register wanted has already been done on a better target:
+  Raddatz (S-194) shows that APs' **regulatory capital ratios, disclosed in SEC regulatory filings**,
+  govern ETF arbitrage intensity and premia, materially and specifically, while other AP balance-sheet
+  characteristics do not matter. The mechanism is published (S-195, a working paper with proprietary
+  data); three rivals are now published (S-196, S-197, S-199); and two published facts constrain the rule
+  (the dispersion proxy is **monthly**, and aggregate dealer financial-soundness averages **fail** as
+  capacity proxies — S-200). Novelty 2 → 1, evidence 3 → 4, data 3 → 4. New gap **G-23**.
+- **IDEA-014 RIN-DEADLINE — G-20 CLOSED AGAINST THE STATE AS SPECIFIED; score 60.0 → 52.0.** The
+  projected net obligated position is near zero **by construction** (the RVO is calibrated to the agency's
+  own supply projection — S-201); the only signed component of that projection carried a **+78% error**
+  in the one year measured (990 million RINs projected for the 2025 exempted RVO against 1,760 million
+  actual — S-201 against the 31 August 2026 exemption decisions recorded in S-184); the error is
+  structurally one-sided because the projection is a three-year lagged average; where a projected
+  shortfall did occur (2025 cellulosic, −0.17 billion RINs, −13%) the agency **waived** the volume
+  requirement rather than letting the obligation bind (S-201); and the realised state publishes only
+  after the deadline. Mechanism 4 → 3, falsifiability 3 → 2. Hard-stop flag on the state; **retained,
+  not parked**, because the *existence* limb of G-15 is testable state-free; new gap **G-24**.
+- **One family screened, bounded negative (**R-013**): the corporate-debt tender-offer /
+  liability-management deadline family.** The price-insensitive flow at a published deadline is published and quantified
+  (S-204: 4.75% average tender premium, 82.3% average percentage tendered; S-206: renegotiations cluster
+  before a published clawback expiry); the price-insensitive flow is the **issuer's** and therefore
+  *supports* the price rather than depressing it; the one tradeable implication is a mechanical arbitrage
+  against a published price rather than an edge; and the deadlines are **issuer-set**, so there is no
+  cross-issuer cluster — the structural opposite of the register's regulator-set deadline families. Filed
+  as a baseline; no dossier.
+- **The Cycle-31 ledger gap was repaired.** S-188 (Forbes & Giannopoulos 2015) and S-189 (Brochet,
+  Jagolinzer & Riedl 2012) were minted in Cycle 31 but never written into `source_ledger.md`; both are
+  now recorded with full metadata and verification. A cross-reference error in the IDEA-014 dossier
+  ("V-008 stays withdrawn", when V-008 belongs to IDEA-009 and IDEA-014 has never had a specification)
+  was corrected in place with a note.
+- **Ranking.** IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010 (68.0), IDEA-003 (66.0), IDEA-009 (60.0),
+  IDEA-014 (52.0). The tie at 69.0 is broken in IDEA-011's favour on falsifiability (4 vs 3). The top three
+  changed for the first time since Cycle 16, so **V-010 is required — and is permitted, because G-16 is
+  closed.**
+- **IDs used:** S-188 … S-209 (22 new entries: 2 repairs, 4 for G-19, 7 for G-16, 3 for G-20, 6 for the
+  family screen). Gaps: **G-19 CLOSED against**, **G-16 CLOSED in favour**, **G-20 CLOSED against**,
+  **G-21 OPEN (unchanged)**, **G-22 / G-23 / G-24 opened**.
+- **Artifacts updated:** `source_ledger.md` (S-188 … S-209, the Cycle-32 gap-verdict block, the header
+  count), `idea_register.md` (three Cycle-32 dossier blocks, the Cycle-32 screen log, header),
+  `ranked_shortlist.md` (the Cycle-32 table, the Cycle-31/32 rank-change sections, the top-three rule,
+  header), `validation_handoffs.md` (V-010 written, V-003 amended twice, the Cycle-32 header block),
+  `rejected_and_parked.md` (four new baseline rows, the rediscovery-guard repair), `cycle_notes.md` (this
+  entry), `next_agent_handoff.md` (rewritten for Cycle 33).
+
+### What this cycle did not do
+
+- No backtest, simulation, parameter sweep, data download, strategy or signal implementation, test,
+  workflow edit, job launch or trading of any kind.
+- **No validation specification was executed.** V-010 is a specification, not a result.
+- No market data were acquired or processed; every number in this cycle comes from published documents
+  (federal-register text, eCFR, SEC filings as described in published papers, and peer-reviewed
+  abstracts), and the register records exactly how each was verified.
+- No modification to the canonical prompt.
+- The register's own hard rule was applied throughout: **a bounded negative is a legitimate outcome and
+  is recorded rather than dressed up.**

@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–30
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–32
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -88,6 +88,19 @@ S-186, makes the holdings-based construction an active published object but asso
 prices, comovement and fragility rather than with a return-predictive rule), and the Cycle-6
 re-anchoring amendment stands. **V-008 (IDEA-009)** and **V-009 (IDEA-011)** are unchanged. No
 specification may be written for **IDEA-015** while it is parked (P-011, G-21).
+
+**Cycle 32 update — one specification added, one amended, one frozen, one candidate's specification
+barred.** The Cycle-32 evidence cycle closed three gaps and moved three scores, so the top three changed:
+they are now **IDEA-011 (69.0), IDEA-004 (69.0) and IDEA-010 (68.0)**. **IDEA-010 enters the top three
+for the first time, and — because G-16 is now closed in its favour — the register's rule requires a
+specification and permits one: V-010 is written below.** IDEA-003 falls from rank 1 to rank 4 with a
+**Cycle-32 amendment to V-003** (its sign limb is closed against it by published evidence; the surviving
+claim is a tail-management claim, and the premium's level and sign become descriptive controls under both
+conventions). IDEA-014 falls to 52.0 with its sign-determining state unusable as specified, so **no
+specification may be written for it** until the replacement-state gap G-24 is closed. **V-002 (IDEA-004)
+remains frozen** pending G-18/G-21, which Cycle 32 leaves open. The executable set is therefore **V-002
+(frozen), V-003 (amended), V-008, V-009, V-010**, with **V-001, V-004, V-005, V-006 and V-007
+withdrawn**.
 
 ---
 
@@ -324,21 +337,40 @@ rather than a new edge.
 
 ## V-003 — VRP-STATE (IDEA-003)
 
-**Cycle-30 design amendment (specification only; not executed here).** Cycle 30 found that the two
-published constructions of the variance risk premium use **different measurement conventions** and
-can move in opposite directions in the same state: S-181 measures the premium as option-implied minus
-**subsequently realized** variance (an ex-post convention, which mechanically widens in stress because
-fear over-prices volatility that then mean-reverts), while S-180 extracts it from variance-swap quotes
-with a maturity/horizon distinction (closer to an expected-premium convention). The candidate's claim
-is about the **expected** premium. The amendment below therefore does three things: (1) it fixes the
-convention ex ante; (2) it makes an ex-post null explicitly **not** a kill; and (3) it adds a
-descriptive control that reports the ex-post premium's regime behaviour. It is a specification
-amendment, not an execution, and it does not change the candidate's score (71.0) or rank.
+**Cycle-32 design amendment (specification only; not executed here).** Cycle 32 closed **G-19** — the
+question of whether any published work states the expected-premium convention explicitly *and* tests its
+sign in crash-imminent states — and the answer is yes, with a published sign of **positive**. The
+convention is stated explicitly and independently by Zhou's Annual Review (S-191: "VRP_t ≡
+E^Q_t(Var_{t,t+1}) − E^P_t(Var_{t,t+1})"), by Rombouts, Stentoft & Violante (S-190: the difference
+between the risk-neutral and physical expectations) and by Bekaert, Engstrom & Ermolov (S-192). Its sign
+in bad states has been tested: S-190 reports that the literature's naive ex-post estimator "systematically
+becomes negative, rather than largely positive, in periods of market distress" — and that this is a
+measurement artefact — while their latent decomposition finds the continuous component "systematically
+positive and is higher in periods of market turmoil"; S-192 reports the expected premium is "positive"
+and that "high variance risk premiums coincide with the left tail of the consumption growth distribution
+shifting down". The closest published sign-flip in a variance-premium quantity in distress is in the
+**term** premium (S-193). **The candidate's original sign claim — that in a crash-imminent state the
+*expected* premium collapses and short-volatility is uncompensated there — is therefore not supported;
+it is contradicted under the candidate's own convention.** The surviving claim is a **tail-management**
+claim: the expected premium is positive in every state, but the *realised* payoff of a short-volatility
+harvest is catastrophically left-tailed in crash states. The amendment therefore does four things:
+(1) it withdraws the sign limb from the frozen hypothesis and states the tail-management claim in its
+place; (2) it makes the premium's **level and sign under both conventions descriptive controls**, with
+the published expectation registered as a prior; (3) it makes the **primary outcome** the risk-adjusted
+difference between the gated and the unconditioned harvest, which was already the pre-specified primary
+outcome below, and adds a **state-exposure** outcome so that the claim cannot be reduced to "the gated
+trade lost less this quarter"; and (4) it adds a **falsification criterion**: if the gated harvest does
+not improve the pre-specified risk-adjusted measure *and* the gate's state does not concentrate the
+harvest's worst outcomes, the candidate is rejected under the register's own rule that a published
+result showing the effect absent closes the candidate. The amendment does not change the candidate's
+score (66.0) or its rank (4), and it does not authorise any execution.
 
 ### Frozen hypothesis
-The variance risk premium is compensation for absorbing crash risk. A strategy harvesting it
-therefore earns a negatively skewed payoff and should only be run in states where the crash is not
-imminent; the gate must be computable ex ante from the option surface alone.
+The variance risk premium is positive, large and persistent in all states — including crash-imminent
+ones — so it is compensation that is *earned* ex ante but realised with an irreducible left tail. A
+strategy harvesting it should therefore be **gated** on an option-surface-implied imminent-crash measure
+not because the premium's sign flips there, but because the *realisation* is catastrophic there; the gate
+changes the trade's state exposure and tail, not the sign of its expected compensation.
 
 ### Frozen conceptual rules
 - Premium: model-free implied variance (or a variance-swap rate synthesised from listed options,
@@ -354,6 +386,14 @@ imminent; the gate must be computable ex ante from the option surface alone.
   in the training-window documentation and again in the holdout report, which convention each
   reported number uses. Any statement of the form "the premium collapses" is invalid unless it names
   the convention.
+- **Cycle-32 amendment (mandatory, superseding the sign limb).** The premium's **level and sign are
+  descriptive controls in this specification, not the candidate's claim.** Under the expected
+  convention, the published prior is that the premium is positive in every state and *wider* in bad
+  states (S-190, S-192); under the ex-post convention, the published prior is that the premium
+  *narrows or turns negative* in stress (S-190, S-181). Both are registered as priors. The validator
+  must report both conventions' level and sign as **controls**, and must not present a sign flip in
+  either as the candidate's result. A test whose conclusion depends on the premium's sign in some
+  state is **invalid under this specification**.
 - Gate: option-implied crash-risk measures, with thresholds pre-registered from the training
   window only.
 - The harvest is a variance-shortening position; position construction (direct variance, or a
@@ -405,6 +445,18 @@ size.
 ### Pre-specified primary outcome and guardrails
 - Primary: the average net return of the gated harvest, and the difference between the gated and
   the unconditioned harvest on a pre-specified risk-adjusted measure.
+- **Cycle-32 amendment (mandatory).** The primary outcome is **unchanged in form and is now the
+  claim**: the risk-adjusted difference between the gated and the unconditioned harvest. Two
+  additions are binding. (i) A **state-exposure outcome** must be reported: the distribution of
+  the harvest's returns *conditional on the gate's state*, and the share of the gated harvest's
+  cumulative loss that falls in the gated-out (crash-imminent) states — without this, "the gated
+  trade lost less" could be a period effect rather than a state effect. (ii) A **falsification
+  criterion** is fixed: if the gated harvest does not improve the pre-specified risk-adjusted
+  measure **and** the gate's state does not concentrate the harvest's worst outcomes in the
+  pre-registered window, the candidate is **rejected** under the register's rule that a published
+  result showing the effect absent closes the candidate (the IDEA-001 precedent, R-011). A null on
+  the risk-adjusted difference, with the state-exposure outcome also null, is a rejection, not a
+  narrowing.
 - Guardrails: maximum drawdown, the worst single event, the worst calendar window, the worst
   single-day loss, the total loss attributable to the worst three events as a share of cumulative
   profit, turnover and roll cost, margin utilisation, and the delta/vega/gamma exposure profile.
@@ -1202,3 +1254,171 @@ Kill if the concurrent-shock confounder explains the entire drift, or if the sta
 adds nothing after costs. Justify follow-up research if the effect survives costs but is
 concentrated in a handful of events — that points to a capacity-and-selection problem and a more
 specialised candidate rather than a general edge.
+
+---
+
+## V-010 — CREDIT-ETF (IDEA-010) — *required by the Cycle-32 top-three rule* — specification only, never executed here
+
+**Why this specification exists.** IDEA-010 entered the top three for the first time in Cycle 32 (68.0,
+rank 3), and **G-16 — the precondition that blocked every specification for this candidate since
+Cycle 6 — is now closed in the candidate's favour**. The validation is therefore no longer required
+against the register's original target (disclosed dealer funding value adjustments), which Cycle 32
+showed to be unusable: a dealer's FVA is an OTC-derivatives-specific, annual/quarterly and frequently
+immaterial disclosure, and no continuous public FVA series exists (S-155). Independent published work
+has performed the validation the register wanted, on a better target and on exactly the link the
+candidate claims: Raddatz (S-194) constructs the authorized-participant set for each US corporate-bond
+ETF from SEC regulatory filings, measures **APs' regulatory capital ratios**, and shows that the ratio
+— not equity/assets, cash/assets, total assets or activity concentration — governs ETF arbitrage
+intensity and ETF premia, materially so during the March 2020 dash-for-cash. The mechanism is published
+(S-195), and three published rival explanations now stand against the candidate's interpretation
+(S-196 fractional baskets, S-197 funding segmentation, S-199 client-sourced liquidity discounts).
+**What remains open is registered as gap G-23** (cadence, and signedness of the state). This document
+is a *specification*: no data were acquired, no test was run, and no result is reported or implied.
+
+### Frozen hypothesis
+When corporate-bond ETF redemptions meet an authorized-participant set whose regulatory capital ratios
+are weak, the APs cannot absorb the delivered bonds onto their balance sheets at the speed the flow
+requires; the ETF therefore trades at a wider discount to its NAV, and the underlying bonds cheapen
+relative to the ETF. A participant who supplies the liquidity the AP cannot — long the discounted ETF
+against the underlying basket — earns the concession when the AP set's capacity recovers and the discount
+narrows. The *joint* conditioning (weak AP capital ratios **and** net redemption flow) is the claim;
+neither leg alone is.
+
+### Frozen conceptual rules
+- **State (the AP-set regulatory capital ratio), constructed exactly as in S-194 and fixed ex ante.**
+  For each ETF, the AP set is identified from the sponsor's public disclosures; for each AP, the
+  regulatory capital ratio is taken from its SEC filings (Form 10-K/10-Q capital disclosures, and the
+  equivalent for bank holding companies) at the most recent filing date; the ETF-level state is a
+  pre-registered aggregate of that set (e.g. a cap-weighted median of the set's ratios, or the set's
+  minimum — the validator must pre-register one aggregation and report the others as ablations).
+  The state enters the rule **only from the filing date forward**; no filing is used before its public
+  date.
+- **Flow leg: net creations/redemptions, from the sponsor's published daily shares outstanding.** The
+  signal is the change in shares outstanding over a pre-registered window, and its sign is defined
+  ex ante (a decrease in shares outstanding = net redemption = the adverse flow). No other flow
+  measure is allowed in the trigger.
+- **Trigger: the joint condition.** The trade is opened only when the AP-set capital ratio is in the
+  bottom tercile of its own trailing history *as of the last filing date* **and** the flow leg is
+  adverse (net redemptions). The tercile is computed on the training window only and then frozen.
+- **Leg 1 (the long leg): long the ETF.** Sized at a pre-registered fraction of the discount, or at a
+  pre-registered fixed notional; the sizing rule must be fixed on the training window.
+- **Leg 2 (the short leg): the underlying basket.** The ETF's published holdings (or its published
+  creation-basket composition) define the basket; the short must be implemented in the way the
+  validator pre-registers, and the validator must report the **shortability of the basket** as a first
+  class result, because a basket that cannot be borrowed is a *cost* result and not a *kill* of the
+  candidate — the register distinguishes the two.
+- **Exit: pre-scheduled, not state-dependent.** The position is exited at a pre-registered horizon of
+  1 to 10 sessions after entry (fixed at the training window, or a fixed grid reported separately),
+  because the candidate's claim is a *reversion within 1–10 sessions*. No discretionary exit.
+- **No look-ahead.** The ETF–NAV discount is *measured* at and after entry, never used as an input to
+  the trigger. The discount may be used for sizing only if the sizing rule is frozen in advance.
+
+### Ambiguities the validator must resolve and record
+1. The ETF universe and its AP set per ETF, with the disclosure used for each mapping, and the
+   treatment of ETFs whose AP set cannot be reconstructed (they must be dropped and the drop reported,
+   not silently imputed).
+2. The regulatory-capital-ratio definition used per AP type (broker-dealer, bank holding company,
+   asset manager) and how non-comparable capital regimes are handled.
+3. Whether the state is a level, a change, or a percentile of its own history, and how the tercile is
+   set without peeking.
+4. The NAV used for the discount (official end-of-day NAV, intraday indicative value, or a
+   reconstructed basket mark) and the resulting measurement error, including stale-bond pricing inside
+   the NAV.
+5. The short-leg implementation and its borrow cost, including the possibility that the basket cannot
+   be shorted.
+6. The treatment of corporate-action and index-rebalance days inside the holding window.
+
+### Target universe, time frame, sampling frequency
+- Universe: US-listed corporate-bond ETFs (investment-grade and high-yield) whose AP set can be
+  reconstructed from public filings, and their published underlying baskets.
+- Time frame: the full history for which the ETF's AP set, the APs' filings and daily shares
+  outstanding are all available — with the **March 2020 dash-for-cash window mandatory** in the
+  sample, because that is the episode in which the state was published to bind (S-194), and with a
+  pre- vs post-2020 split reported, because the RFS-style regulatory regimes and the ETF market have
+  both changed.
+- Sampling frequency: the **state is quarterly** (it changes only when an AP files); the **flow leg is
+  daily**; the **position is daily**. This is a real constraint and the validator must state, in the
+  results, how much of the sample is covered by a single filing.
+
+### Data fields required
+ETF daily market price, official NAV and intraday indicative value; daily shares outstanding and the
+published creation/redemption basket composition; the ETF's holdings file; AP identifiers and their SEC
+filings; TRACE bond prices and volumes for the basket and for the financing of the short leg; borrow
+availability and cost for the short leg; and ETF bid-ask spreads.
+
+### Timing, execution and survivorship
+- AP capital ratios enter only on their filing dates; the state is then held constant until the next
+  filing, which must be modelled explicitly (no retrospective revision).
+- ETF survivorship: an ETF that merges, closes or changes its index must be handled explicitly, and
+  the effect of dropping the pre-merger history must be reported.
+- AP-set survivorship: an AP that leaves the AP set must be handled, and the rule for a set that
+  changes between filings must be pre-registered.
+- Parameter and threshold choices are made on the training window only; the holdout opens once.
+
+### Cost and execution assumptions the validator must justify independently
+ETF bid-ask spreads and market impact on the long leg; the cost and feasibility of shorting the
+basket, including the financing and recall risk of a corporate-bond short; the ETF's own creation and
+redemption mechanics as an alternative implementation of leg 2 (and their costs); financing on the long
+leg; and the effect of the position size relative to the ETF's daily volume and to the basket's TRACE
+depth. The validator must state whether the trade survives these assumptions at the pre-specified size,
+and must report the **cost floor** explicitly, because a gross discount below the round-trip cost is a
+kill condition in the candidate's own terms.
+
+### Pre-specified primary outcome and guardrails
+- **Primary:** the average net return of the **joint-conditioned** trade, and its difference against
+  the **unconditioned** ETF-versus-basket basis trade over the same dates, on a pre-specified
+  risk-adjusted measure. The joint conditioning is the claim; the unconditional basis trade is the
+  baseline that the trade must beat.
+- **Mandatory ablations that are part of the primary result (not extras):** (a) the state leg alone;
+  (b) the flow leg alone; (c) the joint condition. If the joint condition does not add to the single
+  legs, the candidate is dead, and the validator must say so rather than reporting only the best leg.
+- **Rival-exclusion results, mandatory:** (i) *fractional baskets* (S-196) — does the discount persist
+  after controlling for the ETF's basket composition; (ii) *funding segmentation* (S-197) — is the
+  discount explained by a funding-segregation shock rather than by AP capacity; (iii) *client liquidity
+  discounts* (S-199) — is the bond-side cheapening a dealer relationship-discount phenomenon rather
+  than an ETF-arbiter phenomenon; and (iv) the **monthly-frequency** published dispersion proxy
+  (S-200) as a robustness check on the state.
+- Guardrails: maximum drawdown, worst single event, worst calendar window, worst single-day loss,
+  loss attributable to the worst three events as a share of cumulative profit, turnover and round-trip
+  cost, borrow recall events, and the gross-versus-net decomposition of every reported return.
+
+### Stress cases, regime slices, ablations
+- Regime slices: the March 2020 dash-for-cash window; other credit-stress episodes; high vs low
+  aggregate ETF redemption flow; periods of wide vs narrow ETF spreads; pre- vs post-2020.
+- Ablations: (a) the state replaced by the published interdealer dispersion proxy (S-200), acknowledging
+  its monthly frequency; (b) the state replaced by an aggregate dealer financial-weakness proxy, which
+  S-200 documents to be inferior — reported to show the difference, not as a candidate; (c) the flow leg
+  replaced by a market-wide ETF-flow proxy to separate ETF-specific from market-wide redemption; and
+  (d) an explicit count of every (state definition × aggregation × exit rule × universe) combination
+  examined, with every rule change logged with a date and a reason.
+
+### Pass / fail / uncertain
+- **Pass:** the joint-conditioned trade beats the unconditional basis trade on the pre-specified
+  risk-adjusted measure after justified costs; the discount widens in the conditioned state relative to
+  its own history; the discount mean-reverts within the pre-registered horizon; and the result survives
+  the three mandatory rival-exclusion controls and the monthly-proxy robustness check.
+- **Fail:** no joint conditioning (the single legs do all the work); no mean-reversion inside the
+  horizon; the gross discount below the round-trip cost in every ETF; or the effect explained by
+  fractional baskets, funding segmentation or client liquidity discounts.
+- **Uncertain:** the AP set cannot be reconstructed for enough of the sample, or the sample contains
+  too few quarters with a bottom-tercile state for inference — report the descriptive behaviour and
+  state that the candidate is untested rather than concluding.
+
+### Kill criteria and follow-up justification
+Kill if the joint conditioning adds nothing to the single legs after costs, or if the round-trip cost
+exceeds the gross discount in every selected ETF, or if the rival-exclusion controls absorb the
+effect. Justify follow-up research if the effect survives costs but is concentrated in one episode
+(2020) or in one ETF type — that points to a capacity-and-selection problem, and would motivate a
+narrower, more specialised candidate rather than a general edge.
+
+### Register notes carried into execution
+- The state is **public in principle and lagged**: quarterly filings, with a filing lag, against a
+  1–10 session holding horizon (gap **G-23**). The validator must report how many *trading days* of
+  the sample are covered by a single state reading, because that is the binding limitation of the
+  rule as specified.
+- The register's rule that "no specification is to be written until G-16 is closed" is now satisfied;
+  **G-16 is closed in the candidate's favour** and **V-010 is executable as specified**, subject to the
+  validator's own data and implementation checks.
+- The candidate is **not** a discovery of the state-to-premium relation: that relation is published
+  (S-194, S-195). What is untested is the **trade specification and the cost floor**, and the
+  validator's report must be framed accordingly.
