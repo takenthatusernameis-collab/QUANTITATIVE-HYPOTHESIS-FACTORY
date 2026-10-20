@@ -4,7 +4,36 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 76 complete** (Cycle 76 added **no new source identifier and no new source entry**,
+Last updated: **Cycle 78 complete** (Cycle 78 added **no new source identifier and no new source entry**,
+minted **no new candidate** and **no new validation specification**, opened **no gap** and closed **one
+gap (G-35)**, and changed **one score**: **IDEA-010 CREDIT-ETF was parked (P-014) with a terminal score of
+55.0**, executing the pre-registered kill condition of **G-34**, whose bounded literature operation ran in
+Cycle 77 and found that **neither a transient/mechanical decomposition of a corporate-bond ETF's ETF–NAV
+discount nor a published, decision-time state discriminating between the two exists** — so the candidate's
+residual is **unmeasurable as specified** and the candidate was **re-classified, not re-specified**. The
+parking is grounded in three register precedents: the IDEA-002 case (**the state is not attachable to the
+candidate's own cross-section** — G-29 coverage 0, G-30 exhausted), the IDEA-003 case (**a known baseline
+with an unvalidated state overlay** — the relation itself is published in S-194, S-195, S-323), and the
+register's rejection rule, which the candidate does **not** meet (no published result *shows* the
+candidate's own effect), so it is parked rather than rejected. **V-010 is marked never-to-execute.** The
+cycle's second operation was the **verification pass over IDEA-010's published neighbours**, which upgraded
+**five** index-rendered sources to line-verified in place — **S-196, S-197, S-198, S-199, S-200** — and
+produced **two date corrections** (S-196's BIS working-paper date is **November 2021**, not June 2022;
+S-199's Bank of England paper is **Staff Working Paper No. 1126, May 2025**, not April 2025). The cycle
+also repaired **two state-integrity defects**: the **Cycle-77 block was missing from this dossier and from
+the cycle log** (the work was executed and recorded in the handoff and the ledger's Cycle-77 summary, but
+never written into the dossier body or `cycle_notes.md`), and **gap G-35 was announced in the Cycle-77
+handoff but never written into any artifact** — it is registered and closed here, so **G-36** is the next
+free gap identifier.) Earlier history: **Cycle 77 complete** (Cycle 77 executed **Priority 1 (G-34)** as a
+bounded literature operation and **the kill condition fired**: no published work decomposes a corporate-bond
+ETF's ETF–NAV discount into a transient and a mechanical component, and none identifies a published,
+decision-time discriminating state in that universe without the ETF→AP mapping; per the pre-registered
+decision rule, IDEA-010's residual is **unmeasurable as specified** and the candidate must be **re-classified
+(downgraded or parked), not re-specified**. Cycle 77 also advanced the **verification pass** on the
+BIS WP 975 fractional-basket rival (S-196) and the creation-puzzle literature; S-196 remained index-rendered
+pending the SSRN 3886881 route, and the candidate's re-classification was registered as gap **G-35**. Counts
+were unchanged: 15 dossiers, 321 sources, 10 specifications, 47 rejections, 12 parking records (11 active),
+83-row baseline.) Earlier history: **Cycle 76 complete** (Cycle 76 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **one gap (G-34)** and closed
 **no gap**, and changed **no score**; its substantive work was the operation Cycle 75 handed on —
 **line-verifying S-331 and then executing IDEA-010's trigger-based prior-art re-read** — plus a
@@ -3335,7 +3364,7 @@ reversal after costs, and does it add anything to the published funding arbitrag
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
 
 - **ID / short name:** IDEA-010 / CREDIT-ETF
-- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** **parked (P-014, Cycle 78)** · **Version:** 1.2 (terminal)
+- **Date added:** 2026-10-19 · **Cycle:** 4 · **Status:** **parked (P-014, Cycle 78) — terminal** · **Version:** 1.3 (terminal)
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 6 — re-scored 68.0 → 65.0:** the mechanism's core (AP inventory and balance-sheet
   constraints driving ETF–NAV dislocations) is published institutionally (S-123), so novelty falls
@@ -3378,6 +3407,28 @@ reversal after costs, and does it add anything to the published funding arbitrag
   mechanism**. **Two new hard-stop flags** were attached and **gap G-34 was opened** with a kill condition.
   V-010 received a Cycle-76 note and **remains non-executable**; G-30 was **not** re-probed; the
   register's "evidence currency complete for this generation" claim is **restored** for this candidate.
+  **Cycle 77 — G-34 executed as a bounded literature operation; the pre-registered kill condition FIRED.**
+  No published work was located that decomposes a corporate-bond ETF's ETF–NAV discount into a transient
+  and a mechanical component, and none that identifies a published, decision-time state discriminating
+  between the two in the corporate-bond ETF universe without the ETF→AP mapping. Per the decision rule
+  registered in Cycle 76, the candidate's residual is therefore **unmeasurable as specified** and the
+  candidate is to be **re-classified (downgraded or parked), not re-specified**. No score changed in
+  Cycle 77 and the candidate's re-classification was left to the next cycle (gap **G-35**).
+  **v1.3 (Cycle 78) — the kill condition is executed: the candidate is PARKED (P-014) with a terminal
+  score of 55.0.** The decision is **park, not downgrade**, on three grounds that the register's own
+  precedents support: (i) the candidate's state is **not attachable to its own universe at all**
+  (G-29: 0 corporate-bond ETFs with a published AP set; G-30 exhausted across all four outside routes),
+  which is the register's IDEA-002 rejection-grade fact (R-038); (ii) the candidate's residual — the
+  transient-versus-mechanical discriminator — is **unmeasurable as specified** (G-34 kill condition
+  fired in Cycle 77), which is the IDEA-003/P-012 parking precedent; and (iii) no published result
+  **shows the candidate's own effect**, so the register rejects only on that ground (R-011's rule) and
+  the candidate is parked, not rejected. The terminal rubric is **mechanism 4, evidence 4, novelty 1,
+  falsifiability 2, resilience 2, data 2 = 55.0** (data 4 → 2 because the state is unattachable in the
+  candidate's universe; falsifiability 4 → 2 because neither distinguishing claim can be tested as
+  specified; resilience 3 → 2 because five published rivals and a published sign-reversal mechanism now
+  stand against the candidate and the mechanical reading cannot be excluded). **V-010 is marked
+  never-to-execute.** The candidate is unranked; its mechanism is a **known baseline** (S-194, S-195,
+  S-196, S-198, S-323) and the rediscovery guard now names it.
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 
@@ -3399,13 +3450,13 @@ reversal after costs, and does it add anything to the published funding arbitrag
 
 **Data requirements.** ETF prices/NAV, creation/redemption baskets, TRACE bond data, dealer position proxies, AP balance-sheet data. Feasibility: medium (TRACE is public; AP-level data is commercial).
 
-**Theory/evidence status.** Conceptual rationale supported (Pan & Zeng 2019; Eisfeldt et al. 2024). Joint relation unresolved conjecture. Priority score 68/100; rank TBD.
+**Theory/evidence status.** Conceptual rationale supported (Pan & Zeng 2019; Eisfeldt et al. 2024). Joint relation unresolved conjecture — **and as of Cycle 78 the joint relation is also unmeasurable as specified, because the state is not attachable to the candidate's universe (G-29/G-30) and no published discriminator separates the transient reading from the mechanical one (G-34 kill condition fired in Cycle 77)**. **Terminal score 55/100, parked (P-014), unranked.**
 
 **Constraints.** Cost/liquidity: corporate bond ETFs and their underlying bonds are less liquid than equities; the spread is crossed twice (ETF and bond); the discount itself is the edge, so transaction costs are first-order. Capacity: bounded by the size of the ETF's creation/redemption flow and by the liquidity of the underlying bonds; high-yield ETFs have the widest discounts but the thinnest underlying markets. Financing/margin: bond positions require margin; a leveraged basis trade consumes balance sheet exactly when dealer capacity is tight — the same constraint that generates the signal. Venue/operational: TRACE is public but with a lag; creation/redemption baskets are published daily by the ETF sponsor; AP-level balance-sheet data is commercial or inferred from dealer disclosures. Shorting constraints: not a borrow-constrained trade, but shorting corporate bonds is costly and recall-risk exposed.
 
 **Regime sensitivity, tail exposure, crash behavior, hidden beta.** Regime: the candidate predicts an edge only when dealer balance-sheet capacity is constrained; in normal times the ETF–NAV basis is narrow and the edge is absent. Tail: a credit stress event widens spreads permanently (fundamental re-pricing, not temporary discount), and the position is long illiquid bonds into a falling market. Crash behaviour: in a dealer balance-sheet crisis (e.g. March 2020), the basis can blow out and not mean-revert within the holding window; the AP may stop making markets entirely. Hidden beta: the position is long corporate credit and short ETF shares — it loads on credit spread duration and on the dollar (for USD-denominated bonds), and can carry event risk from issuer-specific news. Correlated risks: all bond ETFs in the same credit tier share the same dealer-capacity state, so the book is a single credit-cycle bet.
 
-**Remaining uncertainty / confidence.** Confidence that AP balance-sheet constraints widen ETF–NAV discounts: **moderate** (Pan & Zeng 2019 documents the mechanism; dealer capacity is documented by Eisfeldt et al. 2024). Confidence that a tradeable two-legged rule can be built on published AP-stress proxies: **low-to-moderate** — AP-level data is commercial, the discount mean-reversion is unproven at the daily frequency, and the cost floor in thin bond markets is binding. Priority score **68/100**; rank TBD. **Concrete next question:** does the ETF–NAV discount in corporate-bond ETFs widen predictably when published AP-stress proxies are high and ETF flows are negative, and does it mean-revert within 1–10 sessions after costs?
+**Remaining uncertainty / confidence.** Confidence that AP balance-sheet constraints widen ETF–NAV discounts: **moderate** (Pan & Zeng 2019 documents the mechanism; dealer capacity is documented by Eisfeldt et al. 2024). Confidence that a tradeable two-legged rule can be built on published AP-stress proxies: **low-to-moderate** — AP-level data is commercial, the discount mean-reversion is unproven at the daily frequency, and the cost floor in thin bond markets is binding. **As of Cycle 78 that confidence is downgraded to *low*, and for a structural reason rather than an evidentiary one: the state is not attachable to the candidate's own universe (G-29 coverage 0, G-30 exhausted) and the transient-versus-mechanical reading cannot be discriminated (G-34 kill condition fired).** Terminal score **55/100**; **parked (P-014), unranked**. **Concrete next question (now a re-admission question, not a research question):** what published work would make the candidate's state attachable to a corporate-bond ETF and its transient reading separable from the mechanical one — see the unblocking condition in `rejected_and_parked.md`, **P-014**.
 
 **Cycle 6 screen (G-13 publication timing; G-12 sign or existence).**
 - **G-13 — the state is published before the decision: PARTIAL PASS, and the partial pass is
@@ -3877,6 +3928,110 @@ re-scored to 68.0, enters the top three, and receives V-010
   result that adds a *rival* account of the candidate's outcome — the falsifiability gain (a named
   discriminator now exists to pre-register) and the resilience risk (the transient reading may be wrong) are
   opposite-signed and roughly offsetting, so neither is recorded as a change.
+
+#### Cycle 77 block — IDEA-010 · G-34 executed as a bounded literature operation; the pre-registered kill condition FIRES
+- **What was executed, and under what rule.** G-34 was opened in Cycle 76 with a two-part question and a
+  **pre-registered decision rule**: is there published work that (a) decomposes a corporate-bond ETF's
+  ETF–NAV discount into a **transient** (price-pressure, mean-reverting) component and a **mechanical**
+  (AP intermediation, basket composition, creation/redemption mechanics) component, and (b) identifies a
+  **published, decision-time** state that discriminates between the two **in the corporate-bond ETF
+  universe** and **without** the ETF→AP mapping that G-29/G-30 established is unavailable? **Kill
+  condition:** if neither the decomposition nor a decision-time discriminating state is published, the
+  candidate's residual is **unmeasurable as specified** and the candidate must be **re-classified
+  (downgraded or parked), not re-specified** around a weaker state. G-34 did **not** unblock V-010,
+  which remained non-executable because G-29 and G-30 stand.
+- **What the bounded search found.** **Nothing on either limb.** No published work decomposes a
+  corporate-bond ETF's ETF–NAV discount into a transient and a mechanical component, and no published
+  work identifies a **decision-time** state that discriminates between the two in that universe without
+  the ETF→AP mapping. What the search did instead return were the **already-registered published
+  accounts** of the candidate's outcome, each of which stands on the *mechanical* side and none of which
+  supplies a discriminator:
+  - the **fractional-basket account** (S-196), in which the discount arises from basket composition with
+    no AP constraint involved;
+  - the **intermediation-attenuation account** (S-331), in which a flow executed by a specialised
+    intermediary with spare capacity has negligible price impact, so the widening need not be a
+    transient dislocation at all;
+  - the **funding-segmentation account** (S-197), in which the *funding source* rather than the AP's
+    bond-inventory capacity drives an arbitrage spread;
+  - the **client-liquidity-discount account** (S-199), in which a concession is paid to whoever supplies
+    liquidity, whoever that is;
+  - the **competitor conditioner** (S-195), which conditions the same arbitrage relation on market
+    volatility, bond-market illiquidity and trading costs — all **reachable at decision time** where the
+    candidate's own state is not.
+- **Verdict.** **The kill condition fired.** The candidate's residual — the *transient* reading of the
+  ETF–NAV widening, on which the whole payoff depends — is **unmeasurable as specified**, and the
+  candidate's state is **not attachable to its own universe** (G-29: 0 corporate-bond ETFs with a
+  published AP set; G-30: exhausted across all four outside routes). **No score changed in Cycle 77**;
+  the candidate's **re-classification** was registered as gap **G-35** and executed in Cycle 78.
+- **What was not done, deliberately.** G-30 was **not** re-probed, no statutory filing was re-run, no
+  published crowding proxy was substituted, and no re-specification was written.
+
+#### Cycle 78 block — IDEA-010 · the kill condition is executed: the candidate is **PARKED (P-014)**, terminal score **55.0**
+- **The decision, and why it is *park* rather than *downgrade*.** The Cycle-76 decision rule offered two
+  lawful outcomes, "downgraded or parked", and the register's own precedents separate them:
+  1. **IDEA-004 (Cycle 75) — the "unmeasurable rather than unclaimed" case.** Nothing published shows the
+     candidate's own effect, and the residual is not measurable; the candidate therefore **stayed active**
+     at a reduced score, because a claim that is unmeasured but *unclaimed* is still research work.
+  2. **IDEA-003 (P-012) — the "known baseline with an unvalidated state overlay" case.** The candidate's
+     measurable content was published and its state overlay was not validated; the candidate was
+     **parked**.
+  3. **IDEA-002 (P-004 → R-038) — the "state not attachable to its own cross-section" case.** Parked in
+     Cycle 58 and **rejected** in the same cycle, because the candidate's state cannot be attached to the
+     very cross-section the claim is about.
+  IDEA-010 now satisfies **case 3** on the state limb (the ETF→AP mapping does not exist publicly for
+  any corporate-bond ETF — G-29 coverage 0, G-30 exhausted across four routes) *and* **case 2** on the
+  residual limb (the relation is published — S-194, S-195, S-323 — and the transient-versus-mechanical
+  discriminator that would make the candidate's own content measurable is not published, G-34). It does
+  **not** satisfy the rejection test, which the register applies only when a published result **shows the
+  candidate's own effect**: no published work shows that a joint AP-capacity × redemption-flow rule
+  predicts an ETF–NAV widening that mean-reverts. **The candidate is therefore parked, not rejected** —
+  unsupported and unranked, not falsified.
+- **Why not a downgrade instead.** A downgrade would keep a candidate in the active ranking whose two
+  distinguishing claims cannot be tested as specified: the *joint state conditioning* (the state is
+  unattachable in the candidate's universe) and the *transient-versus-mechanical discrimination* (no
+  published discriminator exists, and the mechanical reading cannot be excluded). Keeping it ranked would
+  price as research priority a claim that the register has just recorded as unmeasurable — which is the
+  substance of the Cycle-75 IDEA-004 distinction the Cycle-76 rule invoked, and which here resolves the
+  other way because the state limb has failed outright rather than remained an open measurement question.
+- **The terminal rubric, dimension by dimension.**
+  - **Mechanism 4 → 4.** The mechanism is published (S-195, now partly line-verified; S-323) and the
+    Cycle-76/77/78 evidence does not change it.
+  - **Evidence 4 → 4.** The published evidence family is unchanged (S-194, S-195, S-323 and the five
+    rivals). Per the standing Cycle-35/52 precedent, family-level support does not move this dimension,
+    and the decision does not rest on a new source.
+  - **Novelty 1 → 1.** Already at the floor; the candidate's measurable content was published in Cycle 32.
+  - **Falsifiability 4 → 2.** The dimension has two parts — *clarity of the predictions* (which survives:
+    the predictions are sharp and the kill conditions are explicit) and *feasibility of a clean test*
+    (which now fails in the candidate's own universe: the state cannot be attached, and the discriminator
+    does not exist). This is the register's IDEA-014 precedent — a state failure costing falsifiability
+    points — applied to a state failure of the stronger kind.
+  - **Resilience 3 → 2.** Cycle 76 declined to move resilience because the falsifiability gain (a named
+    discriminator to pre-register) roughly offset the resilience risk (the transient reading may be
+    wrong). That offset is gone: the discriminator is not merely unnamed, it is **unpublished**, so the
+    mechanical reading (S-196, S-331) cannot be excluded in advance, and the published sign-reversal
+    mechanism (S-195) stands as a live failure mode.
+  - **Data 4 → 2.** The data dimension was raised to 4 in Cycle 32 *because* the state construct is
+    publicly reconstructable from regulatory filings. That rationale is **false for the candidate's own
+    universe**: the capital state is public, but the ETF→AP mapping is not (G-29: 0 corporate-bond ETFs
+    with a published AP set; G-30: exhausted). The candidate cannot be constructed at all, which is a
+    two-point fall, not a one-point fall.
+  - **Weighted total: (4×25 + 4×20 + 1×15 + 2×15 + 2×15 + 2×10) / 5 = 275 / 5 = 55.0.** The candidate is
+    **unranked**; 55.0 is its terminal research-priority reading, not a probability of profit.
+- **Effect on the artifacts.** (i) The dossier is at **v1.3 (terminal)**, status **parked (P-014)**.
+  (ii) The parking record **P-014** is written in `rejected_and_parked.md`, with its unblocking condition
+  and its prohibitions. (iii) **V-010 is marked never-to-execute** — it was never executed here and must
+  not be executed while the candidate is parked. (iv) The shortlist entry moves to the parked section at
+  55.0. (v) The mechanism is written into the **known-baseline table** as a rediscovery guard. (vi) The
+  **Cycle-77 block above is backfilled** into this dossier: it had been executed and recorded in the
+  handoff and the ledger's Cycle-77 summary, but never written into the dossier body.
+- **The unblocking condition, in one line.** IDEA-010 could be re-admitted only if published work
+  (i) attaches a capital or capacity state to a **corporate-bond** ETF by a route that does not require
+  the ETF→AP mapping — a sponsor-published participant list, a venue or regulatory disclosure
+  requirement, a non-US issuer's prospectus, or a validated public proxy of AP/dealer capacity — **and**
+  (ii) identifies a **published, decision-time** state that separates the transient reading of the
+  ETF–NAV discount from the mechanical one, **or** publishes a null on the transient reading in that
+  universe (which would reject the candidate outright). Until then the candidate stays parked, and it
+  must **not** be re-specified around a weaker state.
 
 ---
 
@@ -5614,6 +5769,16 @@ compliance year. **Every candidate must now record, for each observation, the pu
 - The validation itself must be out of sample relative to the trading test.
 
 **5. When to park rather than re-specify.**
+*(Cycle-78 addition, at the head of this rule.)* **IDEA-010 is the register's first case of this rule
+decided by a *kill condition* rather than by a failed validation:** its state was published and validated
+(G-16 closed in the candidate's favour in Cycle 32) and its relation is published (S-194, S-195), but the
+state is **not attachable to the candidate's own cross-section** (G-29 coverage 0 corporate-bond ETFs with
+a published AP set; G-30 exhausted across four outside routes) and its residual is **unmeasurable as
+specified** (G-34's kill condition, fired in Cycle 77). That is the case the rule below already anticipated —
+"the honest answer is 'no public proxy exists'" — and the conclusion is the one this note has always
+prescribed: **park the candidate; change venue, not proxy.** The candidate is parked (P-014) at a terminal
+55.0, **not re-specified** around the published competitor conditioner (S-195) or any published crowding or
+capacity proxy.
 The honest answer is "no public proxy exists" when:
 - the binding constraint is not published by any institution (IDEA-002's equity funding state,
   G-01);
@@ -5640,7 +5805,10 @@ IDEA-002 (parked, P-004, G-01), IDEA-004 (passes (e) on a filing-anchored rule; 
 proxy validity), IDEA-005 (S-030, public — passes (e); **parked (P-009)** on G-12), IDEA-007
 (S-054, public — passes), IDEA-008 (**fails (e)** — lending rates not public before 29 March 2029,
 S-126; **parked (P-010)**, G-14), IDEA-009 (funding rate, published by venue — passes), IDEA-010
-(partial: the flow leg passes, the AP-stress leg is commercial and unvalidated — G-16), IDEA-013
+(**parked (P-014, Cycle 78)** — G-16 closed in its favour in Cycle 32, but the state turned out not to be
+attachable to the candidate's own universe (G-29 coverage 0, G-30 exhausted) and the residual unmeasurable
+(G-34 kill condition), so rule 5 below applies and the candidate was parked rather than re-specified on a
+weaker proxy), IDEA-013
 (published state, but **fails condition (e)** for the pre-2023 regime — parked, P-008), IDEA-014
 (passes (e) — the obligation's size is codified (S-128), the deadline is published by regulation
 (S-129) and moves only by published rule (S-131)), IDEA-015 (passes (e) — the state is published by

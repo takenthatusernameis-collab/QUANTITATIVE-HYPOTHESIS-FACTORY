@@ -1,9 +1,25 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–76
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–78
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
 repository. The designated validation repository must make its own data, implementation,
 accounting and result checks, and must not treat any statement here as a result.
+
+**Cycle 78 update — one specification withdrawn, none amended in substance, none added, none re-created.**
+Cycle 78 executed the **G-34 kill condition** that Cycle 77's bounded literature operation fired, and
+**IDEA-010 was parked (P-014)** with a terminal score of **55.0** (down from 68.0): the candidate's
+residual is **unmeasurable as specified**, because no published work decomposes a corporate-bond ETF's
+ETF–NAV discount into a transient and a mechanical component and no published work identifies a
+decision-time state discriminating between the two in that universe without the ETF→AP mapping. **V-010 is
+therefore marked never-to-execute** — it was never executed here and must not be executed while the
+candidate is parked; it is retained for the record only, and **no re-specification may be written around a
+weaker state**. The cycle's second operation was a **verification pass** that upgraded five index-rendered
+sources in place (S-196, S-197, S-198, S-199, S-200) and corrected two dates; none of that changes any
+specification. The executable set is unchanged in membership except for the withdrawal: **V-008 and V-009**
+are executable as specified (V-009 with the Cycle-52, Cycle-56 and **Cycle-58** amendments — **not amended
+again in Cycle 78**), **V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain
+withdrawn**, and **V-003 and V-010 are never-to-execute**. **No `V-` identifier was consumed or opened in
+Cycle 78** — V-010 is an amendment in place, not a new specification.
 
 **Cycle 76 update — one specification noted, none amended in substance, none added, none withdrawn.**
 Cycle 76 executed the operation Cycle 75 handed on: **S-331 was line-verified** (the author-hosted PDF
@@ -2040,7 +2056,25 @@ specialised candidate rather than a general edge.
 
 ---
 
-## V-010 — CREDIT-ETF (IDEA-010) — *required by the Cycle-32 top-three rule* — specification only, never executed here
+## V-010 — CREDIT-ETF (IDEA-010) — *required by the Cycle-32 top-three rule* — **NEVER TO BE EXECUTED — the candidate was parked (P-014) in Cycle 78** — specification only, never executed here
+
+**Status: never to be executed — the candidate was parked (P-014) in Cycle 78.** G-34 was executed as a
+bounded literature operation in Cycle 77 and its **pre-registered kill condition fired**: no published
+work decomposes a corporate-bond ETF's ETF–NAV discount into a **transient** and a **mechanical**
+component, and no published work identifies a **published, decision-time** state that discriminates
+between the two in the corporate-bond ETF universe without the ETF→AP mapping that G-29/G-30 established
+is unavailable. The candidate's residual is therefore **unmeasurable as specified**, and per the Cycle-76
+decision rule it was **re-classified (downgraded or parked), not re-specified** — the register chose
+**park** (see `rejected_and_parked.md`, **P-014**). Two facts bear directly on this specification's
+executability and are unchanged by the parking: **G-29** returned **0 corporate-bond ETFs with a published
+AP set** (the naming practice is confined to the crypto and commodity-trust class, S-239), and **G-30**
+is **exhausted** across all four routes outside the statutory prospectus — so the state-construction step
+of this specification **cannot be performed** in the candidate's universe, and no published crowding proxy
+may be substituted for the missing mapping. **This specification is retained for the record only and must
+not be executed.** It is not a candidate specification any more, and **no re-specification may be written
+around a weaker state while the candidate is parked**. The register's rule that "a null obtained under one
+convention is not a kill" and its "untested, not dead" verdict are **not** available here: this
+specification is blocked by the **absence of an executable state**, not by a missing test.
 
 **Why this specification exists.** IDEA-010 entered the top three for the first time in Cycle 32 (68.0,
 rank 3), and **G-16 — the precondition that blocked every specification for this candidate since
@@ -2412,3 +2446,46 @@ that Cycle 75 handed on was executed, and it adds two mandatory controls and one
   re-anchoring, the effective-sample denominators, the three pre-existing rival controls, the monthly
   dispersion-proxy robustness check (S-200) and the "untested, not dead" verdict are **all unchanged**. This
   is a **note**, not an amendment: no re-specification is written, and no `V-` identifier is consumed.
+
+
+### Cycle-78 note (not an amendment — this specification is withdrawn from execution) — the G-34 kill condition fired
+- **What changed.** The Cycle-77 bounded literature operation executed **G-34** and its **pre-registered kill
+  condition fired**: no published work decomposes a corporate-bond ETF's ETF–NAV discount into a **transient**
+  and a **mechanical** component, and none identifies a **published, decision-time** state discriminating
+  between the two in the candidate's universe without the ETF→AP mapping. The candidate's residual is
+  **unmeasurable as specified**, so per the Cycle-76 rule the candidate was **re-classified, not
+  re-specified** — and the register chose **park (P-014, terminal score 55.0)** over downgrade.
+- **Consequence for this document.** **V-010 is marked never-to-execute.** The specification's structure, the
+  1–10 session horizon, the cross-sectional re-anchoring, the effective-sample denominators, the three
+  pre-existing rival controls (S-196, S-197, S-199), the Cycle-76 mandatory controls (the S-331
+  intermediary-attenuation discriminator and the S-195 competitor-conditioner comparison), the monthly
+  dispersion-proxy robustness check (S-200) and the "untested, not dead" verdict are **unchanged as a
+  record** — but **none of them may be executed**, and **no re-specification may be written around a weaker
+  state** while the candidate is parked. The **"untested, not dead"** verdict is explicitly **not**
+  available here: this specification is blocked by the **absence of an executable state in the candidate's
+  own universe** (G-29 coverage 0; G-30 exhausted), which is a different thing from a small sample.
+- **What the Cycle-78 verification pass adds to the record (no execution authorised).** Four of the
+  specification's load-bearing neighbours were **line-verified in Cycle 78** and their wording is now quoted
+  from the documents themselves: **S-196** (BIS WP 975, fetched directly, 1.7 MB, 54 pages) — "the portfolio
+  of bonds that are exchanged for new or existing ETF shares … often represents a small fraction of ETF
+  holdings – a fact that we call 'fractional baskets'", "**ETFs with fractional baskets exhibit persistent
+  premiums and discounts**, which is related to the slow adjustment of NAV returns to ETF returns", and "an
+  ETF's authorized participants (APs) can act as a **buffer** between the ETF market and the underlying
+  illiquid assets"; **S-197** (NBER WP 30561) — "**balance sheets are segmented**—intermediaries specialize
+  in certain trades, so arbitrage spreads are sensitive to **idiosyncratic balance sheet shocks**", across
+  29 arbitrage spreads in equity, fixed-income and FX markets with an average pairwise correlation of 21 %;
+  **S-198** (OFR WP 22-01) — "while we do not have information on AP-level inventories, we can indirectly
+  infer their corporate bond inventories from **public FR 2004 disclosures** on aggregate primary dealer
+  activities"; **S-199** (BoE Staff WP 1126) — "These discounts represent **two thirds of relationship
+  discounts**"; **S-200** (NBER WP 32998) — "Given the infrequent trading of bonds, calculating interdealer
+  price dispersion daily is **not feasible**" and "Equity-weighted averages of dealer-level financial
+  soundness **fail** to capture effects from interdealer frictions". **Two of these bear directly on the
+  specification's central controls:** the **fractional-basket** account (S-196) is now *documented as
+  persistent* rather than transient, and the **SMCCF** episode (S-198) documents the AP-balance-sheet
+  channel **in the candidate's own universe** (intraday spillovers within 15 minutes; bonds with more AP
+  exposure at lower yield spreads; next-day inflows **at a price premium to NAV**) — so the mechanical
+  reading the discriminator was meant to separate is **published in the universe the specification would
+  have run in**, which is why the discriminator the Cycle-76 note demanded could not be pre-registered.
+- **Re-admission.** If the candidate is ever re-admitted under the **P-014** unblocking condition, this
+  specification must be **re-derived from scratch** against the then-current published state, not resumed
+  from this text.

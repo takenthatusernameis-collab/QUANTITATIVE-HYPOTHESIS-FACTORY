@@ -25,10 +25,10 @@ defined by the canonical mission prompt, which is **not** to be modified:
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
    unused**),    sources are `S-0NN` (next free: `S-332`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and amended), rejections are `R-0NN` (next free: `R-048`), parkings are `P-0NN` (next
-   free: `P-014`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-35`;
+   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-048`), parkings are `P-0NN` (next
+   free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-36`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 77`).
+   (next: `Cycle 79`).
    A reserved identifier is one that a prior cycle claimed in writing but never wrote into an
    artifact; it is left unused on purpose so that a later reconstruction of that work cannot collide
    with a new one.

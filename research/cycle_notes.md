@@ -1678,3 +1678,160 @@ returned.
    Next free identifiers: **IDEA-017, S-332, V-012, G-35, R-048, P-014**.
 8. **Wrap up.** Handoff rewritten; a fresh, self-contained initial task message for Cycle 77 written; counts
    and identifiers re-derived from the files.
+
+## Cycle 77 — 2026-10-20
+
+*(Backfilled in Cycle 78. The work was executed in this cycle and was recorded in the durable handoff and in
+the source ledger's Cycle-77 header section, but the block below was never written into the cycle log — the
+register's standing condition (Cycle 35) is that nothing may be described as written until it has been checked
+to be present in the artifact set. It is written here as a record of work that was genuinely performed.)*
+
+Theory-only cycle. The durable handoff was read first and the task list reconstructed from it. The cycle's
+single research operation was **Priority 1: G-34**, executed as a **bounded literature operation** — the
+two-part question registered in Cycle 76, with its kill condition. No tests, no data acquisition, no strategy
+or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** (1) Execute **G-34** as a bounded literature operation: is there published work that
+(a) decomposes a corporate-bond ETF's ETF–NAV discount into a transient and a mechanical component, and
+(b) identifies a published, decision-time state discriminating between the two in the corporate-bond ETF
+universe without the ETF→AP mapping? (2) Continue the verification pass on index-rendered sources carrying
+active-candidate evidence (S-196 via SSRN 3886881, S-197, S-198, S-199, S-200, S-133–S-135, S-178, S-179,
+S-325, S-326, S-310/S-317/S-318 abstracts), using the `pypdf` route. (3) Maintain the frozen, exhausted and
+dated items as they stand; re-search nothing. (4) Housekeeping, lossless only. (5) Wrap up with a rewritten
+handoff and a fresh initial task message.
+
+**Pass 2 — Critique.** Two objections, and the frame was revised against both. (i) *The search must be
+bounded and must not become a general family screen*: G-34 is a specific two-part question with a
+pre-registered decision rule, and the register's standing finding (Cycle 66) is that the state-kind screen
+programme is exhausted as a source of new candidates — so the operation reads the literature for the two
+named objects and stops. (ii) *The verification pass must not consume a search budget it does not have*:
+the debt list is long (fourteen entries), and the register's rule is that an upgrade is an **amendment in
+place**, not a new identifier, so the pass must prioritise the entries that carry **hard-stop flags or
+active-candidate evidence** and must record honest negatives for the ones that fail.
+
+**Pass 3 — Revise.** Execute as specified, with the decision rule fixed **before** the reading: if the
+decomposition or a decision-time discriminating state is published, the candidate is re-scored on the
+published-content rule; if neither is published, the kill condition fires and the candidate must be
+**re-classified, not re-specified**. Pre-registered outcome recorded in the ledger's Cycle-77 header: **the
+kill condition fired**.
+
+### Outcomes
+
+1. **The kill condition fired.** No published work was located that decomposes a corporate-bond ETF's
+   ETF–NAV discount into a **transient** and a **mechanical** component, and none that identifies a
+   **published, decision-time** state discriminating between the two in that universe without the ETF→AP
+   mapping. The candidate's residual is therefore **unmeasurable as specified**, and per the Cycle-76
+   pre-registered rule IDEA-010 must be **re-classified (downgraded or parked), not re-specified**.
+2. **The re-classification itself was handed on, not smuggled in.** It was registered as the decision
+   identifier **G-35** and left for the next cycle to execute, because the decision requires the parking
+   record, the specification's withdrawal and the shortlist's re-ranking to be written consistently — a
+   decision taken in one artifact and not in the others would leave the register internally inconsistent.
+   **The handoff listed G-35 as both open and next-free; that defect is repaired in Cycle 78.**
+3. **The verification pass advanced the BIS WP 975 rival (S-196) but did not close it.** The SSRN
+   3886881 route did not deliver a directly fetchable document, and the BIS landing page returned navigation
+   chrome only on a direct fetch; **S-196 remained index-rendered**. (The route that worked was the current
+   BIS landing-page PDF, found in Cycle 78.)
+4. **No score changed, no candidate was created, no `S-`, `V-`, `R-`, `P-` or `G-` identifier was
+   consumed**, and the frozen, exhausted and dated items (G-28, G-21, G-30, IDEA-014's limb, G-32 limb (c),
+   G-33's 2027 Q3 re-check, G-14's 2029 date, P-010, P-011) were maintained as they stood.
+5. **Two defects were left for the next cycle and are recorded here rather than forgotten**: the cycle log
+   itself did not receive this block, and the IDEA-010 dossier did not receive a Cycle-77 block.
+
+## Cycle 78 — 2026-10-20
+
+Theory-only cycle. The durable handoff was read first, and reading it — together with the files — revealed
+that the **previous session had begun this cycle's work and stopped after a single edit**: the IDEA-010
+dossier header read "parked (P-014, Cycle 78)" while **no parking record, no shortlist row, no specification
+status, no cycle-log block and no ledger entry** existed for it. The artifact set was therefore internally
+inconsistent at the start of this cycle, and the cycle's first task was to **re-derive the true state from the
+files** (as the register's standing condition requires) rather than from the header line. No tests, no data
+acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical
+prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** (1) **Re-derive the state of the register from the files** and repair the inconsistency
+left by the interrupted session. (2) **Execute Priority 1** — IDEA-010's re-classification under the G-34
+kill condition — and record it in the dossier, the shortlist, the parking log, the validation file and the
+ledger; close **G-35**. (3) **Execute Priority 2**, the verification pass on the index-rendered sources
+carrying hard-stop flags or active-candidate evidence, using the `pypdf` route, with upgrades as amendments
+in place and honest negatives for failed retrievals. (4) Maintain the frozen, exhausted and dated items
+exactly as they stand; re-search nothing. (5) Housekeeping, lossless only. (6) Wrap up: rewrite the handoff
+from the files with a fresh, self-contained initial task message and re-derived counts.
+
+**Pass 2 — Critique.** Four objections, and the frame was revised against all of them. (i) *The
+re-classification must not be executed as a re-specification.* The Cycle-76 rule offered two lawful outcomes
+— "downgraded or parked" — and the temptation was to treat the kill condition as a licence to re-specify the
+candidate around the **published competitor conditioner** (S-195: market volatility, bond-market illiquidity,
+trading costs), which is reachable at decision time where the candidate's own state is not. That is precisely
+what the rule forbids, and the register has already written that conditioner down as a **baseline**. The
+decision therefore had to be made *on the grounds the register can state*, not on the grounds that keep the
+candidate alive. (ii) *The choice between park and downgrade needed a rule, not a preference.* The register
+holds three precedents — IDEA-004 (unmeasurable but unclaimed → stays active), IDEA-003 (published content
+plus an unvalidated state overlay → parked) and IDEA-002 (the state not attachable to the candidate's own
+cross-section → parked, then rejected) — and the frame was written so that the decision follows from the
+precedents rather than from the writer's disposition. (iii) *A parking must not be executed as a silent
+score change.* The score move needs a per-dimension justification tied to three **distinct** established
+facts, and the rubric must be re-derived from the fixed weights rather than adjusted to a target number.
+(iv) *The verification pass must not be smuggled in as a second research operation.* G-34 was closed by a
+literature search, not by document verification; the pass is a **verification** operation on sources already
+registered, it may not open a gap, and it may not produce a new identifier.
+
+**Pass 3 — Revise.** Execute as specified, with the parking decision rule fixed **before** the writing: park
+if and only if the candidate's state is not attachable to its own universe **or** its residual is unmeasurable
+as specified, and reject only if a published result **shows the candidate's own effect**. Pre-registered
+outcome, now recorded: **park (P-014), terminal score 55.0**, because the state is unattachable (G-29/G-30)
+and the residual is unmeasurable (G-34), and because nothing published shows the candidate's own effect. The
+verification pass was then run with the rule that an upgrade is an **amendment in place** and a failed
+retrieval is **recorded as a failed retrieval**, never as a quotation.
+
+### Outcomes
+
+1. **IDEA-010 was parked (P-014) and the G-35 decision gap was closed.** The kill condition had fired in
+   Cycle 77; Cycle 78 executed the decision. The grounds are the register's own: the state is **not
+   attachable** to the candidate's universe (G-29 coverage 0 corporate-bond ETFs with a published AP set;
+   G-30 exhausted across four outside routes) — the IDEA-002 case; the candidate's measurable content is
+   **published** (S-194, S-195, S-323) — the IDEA-003 case; and the **rejection** ground is not met, because
+   no published result shows the candidate's own effect, so the candidate is **parked, not rejected**. A
+   **downgrade was considered and rejected**: it would keep in the active ranking a claim whose two
+   distinguishing parts cannot be tested as specified.
+2. **The terminal score is 55.0 (from 68.0), with the rubric re-derived from the fixed weights:**
+   mechanism 4, evidence 4, novelty 1, **falsifiability 2, resilience 2, data 2** → (100 + 80 + 15 + 30 + 30
+   + 20)/5 = 55.0. The three moving dimensions move for three distinct reasons: **data** — the Cycle-32
+   rationale (the state construct is publicly reconstructable) is false for this universe, so the candidate
+   cannot be constructed at all; **falsifiability** — the clarity of the predictions survives while the
+   feasibility of a clean test does not; **resilience** — the Cycle-76 offset is gone, because the
+   discriminator is unpublished, so the mechanical reading cannot be excluded in advance. Mechanism, evidence
+   and novelty do not move.
+3. **V-010 is marked never-to-execute**, with the reason stated: this specification is blocked by the
+   **absence of an executable state in the candidate's own universe**, not by a small sample, so the "untested,
+   not dead" verdict does not apply to it.
+4. **The verification pass upgraded five index-rendered sources in place, with no new identifier:**
+   **S-196** (BIS WP 975 — the current landing-page PDF fetched directly, HTTP 200, 1.7 MB, 54 pages, text
+   extracted with `pypdf`; the legacy `work975.pdf` URL returns a JavaScript challenge and `work975.htm`
+   301-redirects to the current landing page), **S-197** (NBER WP 30561, 60 pages), **S-198** (OFR WP 22-01,
+   75 pages — the old landing-page path now 404s), **S-199** (BoE Staff WP 1126, 62 pages) and **S-200**
+   (NBER WP 32998, 129 pages). **Two date corrections** were recorded: **S-196** is **November 2021**, not
+   June 2022, and **S-199** is **May 2025**, not April 2025.
+5. **Two of the line-verified documents bear on the parking, and the register says so.** **S-196** publishes
+   that "ETFs with fractional baskets exhibit persistent premiums and discounts"; **S-198** publishes the
+   AP-balance-sheet account in the candidate's own universe (SMCCF spillovers within 15 minutes, lower yield
+   spreads on more-exposed bonds, next-day inflows "at a price premium to NAV"). The **mechanical** account of
+   the candidate's outcome is therefore published in the candidate's universe, and no published state
+   separates it from the transient one. This is written to the known-baseline table as **row 84** and is the
+   rediscovery guard for the parked candidate.
+6. **Three state-integrity repairs.** (i) The **Cycle-77 block was missing from the dossier and from the
+   cycle log** and is backfilled in both. (ii) **G-35** was announced in the Cycle-77 handoff but written
+   into no artifact, and was listed there as both open and next-free; it is now registered and closed, and
+   **G-36** is the next free gap identifier. (iii) The **durable handoff** was left mid-cycle by the
+   interrupted session and is rewritten here from the files.
+7. **Counts and identifiers.** Fifteen dossiers — **four active** (IDEA-011 69.0, IDEA-004 63.0, IDEA-009
+   53.0, IDEA-014 52.0), **six parked**, **five rejected**; **321** verified sources (S-001 … S-209 and
+   S-220 … S-331) with S-210 … S-219 reserved and unused; **10** validation specifications (eight of them not
+   executable); **47** rejections (R-001 … R-047); **13** parking records (12 active); **84-row**
+   known-baseline table. **New identifiers consumed: P-014 and G-35.** Next free identifiers: **IDEA-017,
+   S-332, V-012, G-36, R-048, P-015.**
+8. **Wrap up.** Handoff rewritten from the files with a fresh, self-contained initial task message for
+   Cycle 79; counts and identifiers re-derived from the files.

@@ -1,4 +1,49 @@
-# SOURCE LEDGER — CYCLES 1–76
+# SOURCE LEDGER — CYCLES 1–78
+
+Cycle 78 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
+and **no new validation specification**, opened **no gap** and closed **one gap (G-35)**, and **changed one
+score**: **IDEA-010 was parked (P-014) with a terminal score of 55.0**. The cycle's first operation was the
+**execution of the G-34 kill condition** — the bounded literature operation of Cycle 77 returned **nothing on
+either limb**: no published work decomposes a corporate-bond ETF's ETF–NAV discount into a **transient** and a
+**mechanical** component, and none identifies a **published, decision-time** state discriminating between the
+two in that universe without the ETF→AP mapping. The candidate's residual is therefore **unmeasurable as
+specified**, and per the Cycle-76 pre-registered rule it was **re-classified (parked), not re-specified**; the
+parking record is **P-014** and **V-010 is marked never-to-execute**. The cycle's second operation was the
+**verification pass over IDEA-010's published neighbours**, which upgraded **five** index-rendered entries to
+**line-verified in place** — **S-196** (BIS Working Paper No. 975, fetched directly from the current BIS
+landing-page PDF route, HTTP 200, 1.7 MB, 54 pages, text extracted with `pypdf`), **S-197** (NBER Working Paper
+30561, HTTP 200, 1.3 MB, 60 pages), **S-198** (OFR Working Paper 22-01, HTTP 200, 1.3 MB, 75 pages), **S-199**
+(Bank of England Staff Working Paper No. 1126, HTTP 200, 2.0 MB, 62 pages) and **S-200** (NBER Working Paper
+32998, HTTP 200, 1.6 MB, 129 pages) — and produced **two date corrections**: **S-196's** BIS working paper is
+dated **November 2021** (both the PDF cover page and the landing page), not June 2022, and **S-199's** paper is
+**Staff Working Paper No. 1126, May 2025**, not April 2025. Two of the upgraded documents bear directly on the
+parking: **S-196** states that "**ETFs with fractional baskets exhibit persistent premiums and discounts**", and
+**S-198** publishes the AP-balance-sheet account in the candidate's own universe (SMCCF purchases produced
+intraday spillovers on overlapping ETFs, lower yield spreads on more-exposed bonds, and next-day inflows "at a
+price premium to NAV") — so the **mechanical** account of the candidate's outcome is published in the candidate's
+own universe and **no published state separates it from the transient one**. That finding is written to the
+known-baseline table as **row 84**. The cycle also made **three state-integrity repairs**: the **Cycle-77 block
+was missing from the dossier and from the cycle log** (backfilled), the **Cycle-77 handoff listed G-35 as both
+open and next-free** (the identifier is now consumed and closed, so **G-36** is next free), and the
+**durable handoff** was left mid-cycle by the interrupted Cycle-77 session and has been rewritten from the files.
+The register now holds **S-001 … S-209** and **S-220 … S-331** — **321 verified sources**; the identifiers
+**S-210 … S-219** remain reserved and unused. **Next free identifiers: IDEA-017, S-332, V-012, G-36, R-048,
+P-015.**
+
+Cycle 77 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
+and **no new validation specification**, opened **no gap** and closed **no gap**, and **changed no score**; the
+active ranking was unchanged in order: **IDEA-011 (69.0, rank 1), IDEA-010 (68.0, rank 2), IDEA-004 (63.0,
+rank 3), IDEA-009 (53.0, rank 4), IDEA-014 (52.0, rank 5)**. Cycle 77's substantive work was **Priority 1 of
+the Cycle-76 handoff: G-34, executed as a bounded literature operation**, whose **pre-registered kill condition
+fired** — no published work was found that (a) decomposes a corporate-bond ETF's ETF–NAV discount into a
+transient and a mechanical component, and (b) identifies a published, decision-time state discriminating between
+the two in the corporate-bond ETF universe without the ETF→AP mapping. Per the pre-registered decision rule,
+IDEA-010's residual is **unmeasurable as specified** and the candidate must be **re-classified (downgraded or
+parked), not re-specified**; the re-classification itself was registered as the decision identifier **G-35** and
+was executed in Cycle 78. Cycle 77 also advanced the **verification pass (Priority 2)** on the BIS WP 975
+fractional-basket rival (**S-196**) and the creation-puzzle literature; **S-196 remained index-rendered** pending
+the SSRN 3886881 route, and the route that finally worked was the **current BIS landing-page PDF** in Cycle 78.
+**Next free identifiers at the end of Cycle 77: IDEA-017, S-332, V-012, G-35, R-048, P-014.**
 
 Cycle 76 (2026-10-20) added **no new source identifier and no new source entry**, minted **no new candidate**
 and **no new validation specification**, opened **one gap (G-34)** and closed **no gap**, and **changed no
@@ -4724,10 +4769,11 @@ DOI: https://doi.org/10.2139/ssrn.2895478 · PDF: https://www.esrb.europa.eu/pub
   published competitor conditioner is recorded as a new baseline row (**row 83**) and as a new hard-stop
   flag on IDEA-010.
 
-### S-196 — Shim, J. and Todorov, K. (2022)
-"ETFs, illiquid assets, and fire sales." BIS Working Papers No. 975 (June 2022).
-URL: https://www.bis.org/publ/work975.htm · preprint version: SSRN 3886881,
-DOI https://doi.org/10.2139/ssrn.3886881
+### S-196 — Shim, J. and Todorov, K. (2021)
+"ETFs, illiquid assets, and fire sales." BIS Working Papers No. 975 (**November 2021**).
+URL: https://www.bis.org/publications/working-paper-975-etfs-illiquid-assets-and-fire-sales ·
+PDF: https://www.bis.org/publications/working-paper-975-etfs-illiquid-assets-and-fire-sales.pdf ·
+preprint version: SSRN 3886881, DOI https://doi.org/10.2139/ssrn.3886881
 - **Type:** Primary theory (institutional working paper).
 - **Supports (for IDEA-010, as a published rival explanation for the ETF–NAV discount):** the model has
   "an ETF discount arises because the AP acts as a buffer between the ETF and the bond market, allowing
@@ -4735,13 +4781,31 @@ DOI https://doi.org/10.2139/ssrn.3886881
   and it documents that "bond ETF baskets contain a small fraction of holdings ('fractional baskets'),
   which contributes to persistent discrepancies between ETF price and NAV". A discount can therefore
   arise from *basket composition*, with no AP balance-sheet constraint involved.
+- **Cycle-78 upgrade — the document's own wording, and what it settles.** The entry was **index-rendered**
+  until Cycle 78; the BIS PDF was then fetched directly (HTTP 200, 1.7 MB, **54 pages**, text extracted with
+  `pypdf`) and the quoted passages are **line-verified**. The document's own wording is: "the portfolio of
+  bonds that are exchanged for new or existing ETF shares (called creation or redemption baskets) often
+  represents a small fraction of ETF holdings – a fact that we call '**fractional baskets**'"; "**ETFs with
+  fractional baskets exhibit persistent premiums and discounts**, which is related to the slow adjustment of
+  NAV returns to ETF returns"; and "We develop a simple model to show that an ETF's authorized participants
+  (APs) can act as a **buffer** between the ETF market and the underlying illiquid assets, and help mitigate
+  fire sales." The index-rendered sentence quoted above is a **paraphrase of this content, not the paper's
+  wording**; the substance is confirmed and the wording is now given from the document. **Date correction:**
+  the working paper is dated **November 2021** (cover page and landing page; the manuscript's own first page
+  reads 14 July 2021, and the SSRN preprint is 2021) — the entry's earlier "June 2022" was wrong. **This
+  bears directly on the parking of IDEA-010 (P-014):** the paper publishes a **mechanical** account of the
+  corporate-bond ETF's ETF–NAV discount — **persistent** premiums and discounts tied to basket composition —
+  in the candidate's own universe, and no published work separates it from a **transient** reading (G-34).
 - **Caveats:** a model paper; the fractional-basket mechanism is not shown to dominate the AP-capacity
-  mechanism empirically in this entry; the BIS landing page's body text was not readable in this cycle
-  (the page returned navigation chrome only on a direct fetch), so the quoted passages are
-  index-rendered from the search index.
-- **Verification:** OpenAlex API fetched directly for the SSRN record (title, two authors, DOI
-  10.2139/ssrn.3886881, 2021) and the search-index rendering of the BIS working-paper landing page
-  and PDF; the BIS working-paper number and URL are as published on bis.org.
+  mechanism empirically in this entry; the SSRN version is a **different, still index-rendered** document
+  from the BIS working paper read here, and the register quotes the BIS version.
+- **Verification:** **line-verified in Cycle 78** — the current BIS landing page was fetched directly (HTTP
+  200; its JS shell carries the PDF link `…/working-paper-975-etfs-illiquid-assets-and-fire-sales.pdf`; the
+  legacy URL `https://www.bis.org/publ/work975.htm` now **301-redirects** to that landing page and
+  `https://www.bis.org/publ/work975.pdf` returns a JavaScript challenge rather than the PDF), and the PDF
+  was fetched directly (HTTP 200, 1.7 MB, 54 pages) with its text layer extracted by `pypdf`; the OpenAlex
+  API record for the SSRN preprint (title, two authors, DOI 10.2139/ssrn.3886881, 2021) was fetched directly
+  in an earlier cycle.
 
 ### S-197 — Siriwardane, E.N., Sunderam, A. and Wallen, J. (2025)
 "Segmented Arbitrage." *The Journal of Finance* 80(5): 2543–2590.
@@ -4754,12 +4818,26 @@ DOI: https://doi.org/10.1111/jofi.13469 · working-paper version: NBER Working P
   For IDEA-010 this is a rival explanation for any ETF–NAV gap conditioned on intermediary
   constraints, and it supplies the register's best published template for what a *funding-segmented*
   arbitrage spread looks like.
-- **Caveats:** the paper studies arbitrage spreads in secured/segmented funding settings, not bond-ETF
-  arbitrage directly; its proxies for funding conditions and its identification are specific to its own
-  setting and are not a substitute for a decision-time dealer-stress state for IDEA-010.
-- **Verification:** OpenAlex API fetched directly (DOI, title, three authors, journal *Journal of
-  Finance* 80(5), pp. 2543–2590, 2025) and the NBER working-paper DOI (10.3386/w30561) confirmed in
-  the same query; the abstract was read via the search-index rendering of the publisher and NBER records.
+- **Cycle-78 upgrade — line-verified, and the scope is wider than the entry recorded.** The NBER
+  working-paper PDF was fetched directly (HTTP 200, 1.3 MB, **60 pages**, text extracted with `pypdf`), and the
+  quoted passages are now the document's own words: "First, **funding is segmented**—certain trades rely on
+  specific funding sources, making their arbitrage spreads sensitive to localized funding shocks. Second,
+  **balance sheets are segmented**—intermediaries specialize in certain trades, so arbitrage spreads are
+  sensitive to **idiosyncratic balance sheet shocks**." The paper studies **29 arbitrage spreads across the
+  equity, fixed-income and foreign-exchange markets**, with an **average pairwise correlation of 21 %** — so
+  it is *not* confined to the secured-funding setting the entry described: it is the register's broadest
+  published statement that **arbitrage spreads are a function of the intermediary's constraint**, which is
+  exactly the family-level support (and the rival) that IDEA-010's mechanism sits in.
+- **Caveats:** the paper studies arbitrage spreads in intermediated settings, not bond-ETF arbitrage directly;
+  its proxies for funding conditions and its identification are specific to its own setting and are not a
+  substitute for a decision-time dealer-stress state for IDEA-010; the working-paper version (October 2022)
+  is the document read here, and the *Journal of Finance* version (2025) is a later publication of the same
+  work whose wording has not been separately verified.
+- **Verification:** **line-verified in Cycle 78** from the NBER working-paper PDF (HTTP 200, 1.3 MB, 60 pages,
+  text extracted with `pypdf`); OpenAlex API fetched directly in an earlier cycle (DOI, title, three authors,
+  journal *Journal of Finance* 80(5), pp. 2543–2590, 2025) and the NBER working-paper DOI (10.3386/w30561)
+  confirmed in the same query; the abstract had previously been read only through the search-index rendering of
+  the publisher and NBER records.
 
 ### S-198 — Hempel, K., Kim, J. and Wermers, M. (2022)
 "Financial Intermediary Funding Constraints and Segmented Markets: Evidence from SMCCF ETF Purchases."
@@ -4772,17 +4850,35 @@ URL: https://www.financialresearch.gov/working-papers/22-01
   disclosures on aggregate primary dealer activities**", and they use that inference to measure
   positive AP balance-sheet shocks (funding for the Federal Reserve's SMCCF bond-ETF purchases) and
   their spillovers to ETF prices and to the underlying bonds.
+- **Cycle-78 upgrade — line-verified, and the paper publishes the candidate's *universe*, not only the
+  state.** The OFR PDF was fetched directly (HTTP 200, 1.3 MB, **75 pages**, text extracted with `pypdf`) and
+  the quoted passage is the document's own: "While we do not have information on AP-level inventories, we can
+  indirectly infer their corporate bond inventories from **public FR 2004 disclosures on aggregate primary
+  dealer activities**." The document also publishes the AP-balance-sheet account **in the corporate-bond ETF
+  universe itself**: SMCCF ETF purchases "generated intraday spillover price effects on a relatively short
+  horizon (within 15 minutes) to other corporate bond ETFs with overlapping holdings"; corporate bonds with
+  more exposure to the APs of the purchased ETFs "experienced lower yield spreads (higher prices)"; and
+  "ETFs with greater overlap with SMCCF-purchased ETFs experience higher net inflows the day after closing
+  at a price premium to NAV". **This is material to the parking of IDEA-010 (P-014):** the mechanical,
+  intermediation-driven reading of the candidate's outcome is published in the candidate's own universe, and
+  the state that identifies it is a **one-off policy episode**, not a continuously published decision-time
+  state — which is the substance of the G-34 verdict.
 - **Caveats:** the FR 2004 inventory series is an *aggregate* measure across primary dealers, not an
   AP-level or ETF-level measure; the inference is indirect and the paper's own events (SMCCF
   purchases) are policy-specific, so the series is a candidate state, not a validated decision-time
-  variable for IDEA-010's daily rule.
-- **Verification:** search-index render of the OFR working-paper landing page and PDF (title, three
-  authors, report number 22-01, February 2022, and the quoted FR 2004 passage); the OFR PDF itself was
-  read through the search index in this cycle.
+  variable for IDEA-010's daily rule; the **landing page URL recorded in this entry has moved** (the old
+  `/working-papers/22-01` path now returns HTTP 404) and the document is read at its current address.
+- **Verification:** **line-verified in Cycle 78** — the OFR PDF was fetched directly (HTTP 200, 1.3 MB, 75
+  pages, text extracted with `pypdf`) at
+  `https://www.financialresearch.gov/working-papers/files/OFRwp-22-01_financial-intermediary-funding-constraints-and-segmented-markets.pdf`;
+  the entry had previously been verified only from a search-index rendering of the OFR landing page and PDF
+  (title, three authors, report number 22-01, February 2022, and the FR 2004 passage). The SSRN mirror
+  (4031881) was also attempted from a third-party mirror and returned **HTTP 403**, so the OFR copy is the
+  document relied on.
 
 ### S-199 — Comerton-Forde, M., Ford, J., Foucault, P. and Jurkatis, T. (2025)
 "Investors as a liquidity backstop in corporate bond markets." Bank of England Staff Working Paper
-No. 1126 (April 2025).
+No. 1126 (**May 2025**).
 URL: https://www.bankofengland.co.uk/working-paper/2025/investors-as-a-liquidity-backstop-in-corporate-bond-markets
 - **Type:** Primary empirical result (institutional working paper).
 - **Supports (for IDEA-010, as a published baseline for the "concession paid to liquidity providers"
@@ -4792,11 +4888,24 @@ URL: https://www.bankofengland.co.uk/working-paper/2025/investors-as-a-liquidity
   published evidence that a *dealer balance-sheet constraint expressed as a concession to the
   counterparty who supplies liquidity* is a documented market structure, which is the register's
   closest published baseline for the type of edge IDEA-010 claims.
+- **Cycle-78 upgrade — line-verified, with a date correction and two additional magnitudes.** The Bank of
+  England PDF was fetched directly (HTTP 200, 2.0 MB, **62 pages**, text extracted with `pypdf`). The
+  document's own abstract reads: "During the March 2020 Dash-for-Cash, in bonds where investors stopped
+  providing liquidity, transaction costs rose by **38%**"; "Dealers offer discounts to investors for past
+  liquidity services to maintain liquidity provider networks. These discounts represent **two thirds of
+  relationship discounts**." **Date correction:** the paper is **Staff Working Paper No. 1126, May 2025**
+  (published 16 May 2025), not April 2025 as the entry recorded. Two further magnitudes, useful to the
+  register's cost-floor argument: a client with one percentage point higher share in liquidity provision
+  "receives an additional 0.1 bps discount on all trades, including deal trades", and hedge funds "receive
+  a discount twice as large as the next closest client type".
 - **Caveats:** the concessions documented are to *client liquidity providers* in the dealer sector, not
   to the ETF arbitrage channel; the paper is a staff working paper, and the discount decomposition is
   estimated at the dealer-client relationship level.
-- **Verification:** search-index render of the Bank of England working-paper landing page (report
-  number 1126, April 2025, four authors, and the quoted relationship-discount finding).
+- **Verification:** **line-verified in Cycle 78** — the Bank of England PDF was fetched directly (HTTP 200,
+  2.0 MB, 62 pages, text extracted with `pypdf`) at
+  `https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2025/investors-as-a-liquidity-backstop-in-corporate-bond-markets.pdf`;
+  the entry had previously been verified only from a search-index rendering of the landing page (report
+  number 1126, four authors, and the quoted relationship-discount finding).
 
 ### S-200 — Eisfeldt, A.L., Herskovic, B. and Liu, S. (2024)
 "Interdealer Price Dispersion and Intermediary Capacity." NBER Working Paper No. 32998 (September 2024).
@@ -4818,8 +4927,22 @@ DOI: https://doi.org/10.3386/w32998
   data; the monthly frequency of the published measure is the binding constraint for a rule with a
   1–10 session holding horizon. It is *not* a validation of any proxy against disclosed dealer FVAs,
   which remains an unperformed exercise (and, per S-155, is not a sensible target anyway).
-- **Verification:** OpenAlex API fetched directly (DOI, title, three authors, NBER WP 32998, 2024);
-  the quoted passages were read via the search-index rendering of the NBER working-paper record.
+- **Cycle-78 upgrade — line-verified.** The NBER working-paper PDF was fetched directly (HTTP 200, 1.6 MB,
+  **129 pages**, text extracted with `pypdf`) and both quoted passages are the document's own: "Given the
+  infrequent trading of bonds, calculating interdealer price dispersion daily is **not feasible**. For our
+  baseline results, we measure bond-level interdealer price dispersion using the standard deviation in all
+  interdealer trades occurring each **month**."; and "**Equity-weighted averages of dealer-level financial
+  soundness fail to capture effects from interdealer frictions** on risk misallocation within the dealer
+  sector" (the document itself prints "soundness" as "**soundess**", a typo; the entry's quoted word is the
+  correct spelling, and the document's form is recorded here so that a future re-check matches it). The paper
+  adds that it computes dispersion **weekly** as a robustness exercise, so the monthly frequency is a
+  *baseline* choice rather than a hard limit — but it remains the **published** measure's frequency, and the
+  register's 1–10 session rule stands against it.
+- **Verification:** **line-verified in Cycle 78** — the NBER working-paper PDF was fetched directly (HTTP
+  200, 1.6 MB, 129 pages, text extracted with `pypdf`) at
+  `https://www.nber.org/system/files/working_papers/w32998/w32998.pdf`; the OpenAlex API record (DOI, title,
+  three authors, NBER WP 32998, 2024) had been fetched directly in an earlier cycle, and the quoted passages
+  had previously been read only through the search-index rendering of the NBER working-paper record.
 
 ### S-201 — U.S. Environmental Protection Agency (2026)
 "Renewable Fuel Standard Program: Reallocation of Volumes and Other Modifications" (the "Set 2 Rule").
@@ -9627,3 +9750,68 @@ consumed (G-34, opened)**. One known-baseline row was added (row 83) and one exi
 annotated. The register holds **321 verified sources** at the end of Cycle 76 (307 entries in the standard
 `### S-NNN` heading form plus ten bold inline entries — S-281 … S-290 — plus the four added in Cycle 75; the
 S-281 … S-290 formatting observation from the Cycle-72 repair block still stands and is unchanged).
+
+## Cycle 78 gap verdicts
+
+Cycle 78's verdicts are recorded here in the file's standard form. **One score changed** (IDEA-010,
+68.0 → 55.0, terminal, parked) and **one gap was closed (G-35)**; no gap was opened.
+
+| Gap / limb | Candidate | Cycle-78 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-35 — the IDEA-010 re-classification decision** | IDEA-010 | **EXECUTED AND CLOSED.** G-35 was the decision identifier registered in the Cycle-77 handoff for the execution of the **G-34** kill condition. It is now written into the artifacts and closed: the decision taken is **park** (P-014), the reasoning is recorded in the dossier's Cycle-78 block, in the shortlist entry and in the parking record, and the re-classification is **not** a re-specification. **The identifier is consumed**, so **G-36** is the next free gap identifier. | **IDEA-010 parked (P-014), terminal score 55.0, unranked; V-010 marked never-to-execute.** |
+| **G-34 — the transient-versus-mechanical discriminator for the corporate-bond ETF discount** | IDEA-010 | **CLOSED WITH ITS KILL CONDITION FIRED.** The Cycle-77 bounded literature operation returned **nothing on either limb**: no published work decomposes a corporate-bond ETF's ETF–NAV discount into a **transient** and a **mechanical** component, and none identifies a **published, decision-time** state discriminating between the two in the candidate's universe **without** the ETF→AP mapping. The candidate's residual is therefore **unmeasurable as specified** and the candidate was **re-classified, not re-specified**. Cycle 78's verification pass **strengthened the mechanical side** of this verdict rather than the transient side: **S-196** (now line-verified) publishes that "ETFs with fractional baskets exhibit persistent premiums and discounts", and **S-198** (now line-verified) publishes the AP-balance-sheet account in the candidate's own universe. | **IDEA-010 parked (P-014); no re-specification written.** |
+| **G-30 — the ETF → authorised-participant mapping** | IDEA-010 | **Not re-probed.** G-30 remains **exhausted**; no statutory filing was re-run and no published crowding proxy was substituted. The Cycle-78 verification pass is a *document-verification* pass, not a route search. | No change; **V-010 remains non-executable** and is now never-to-execute. |
+| **G-29 — the published AP set for a corporate-bond ETF** | IDEA-010 | **Not re-run.** The coverage count stands at **0 corporate-bond ETFs with a published AP set, 0 (ETF, AP) cells, 0 (ETF, AP, episode) cells**. | No change. |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** The crowding-measure search was **not** re-run; the unfreezing condition is unchanged in wording. | No change (63.0, rank 2). |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not touched.** No re-search; the null stands. | No change (69.0, rank 1). |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action. |
+| **IDEA-014's state-free existence limb** | IDEA-014 | **Not touched.** Remains **inconclusive** — neither a positive finding nor a refutation. | No change (52.0, rank 4). |
+| **P-011 / IDEA-015 PLAN-SUPPLY** | IDEA-015 (parked) | **Not re-opened.** The Cycle-73 bounded negative stands. | No change; IDEA-015 stays parked (P-011). |
+| **G-12, G-13, G-14, G-15, G-16, G-20, G-23, G-24, G-25, G-27** | various | **Closed or dated; not re-run.** G-14 remains dated 29 March 2029. | No action. |
+
+**Cycle-78 identifier and ranking record.** No candidate was created and **one score changed** (IDEA-010,
+68.0 → 55.0, terminal). The active ranking is now **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2),
+IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**. The register's shape is unchanged in size: fifteen
+dossiers — **four active**, **six parked**, **five rejected**. **New identifiers consumed: P-014** (the
+parking record) and **G-35** (the decision identifier, registered and closed). **No `S-`, `IDEA-`, `V-` or `R-`
+identifier was consumed**; five existing entries were **upgraded in place** (S-196, S-197, S-198, S-199,
+S-200). One known-baseline row was added (**row 84**). The register still holds **321 verified sources**
+(S-001 … S-209 and S-220 … S-331), with S-210 … S-219 reserved and unused. **Next free identifiers:
+IDEA-017, S-332, V-012, G-36, R-048, P-015.**
+
+## Cycle 78 state-integrity repairs
+
+**Repair 1 — the Cycle-77 block was missing from the dossier and from the cycle log.** The G-34 execution
+was real: it was recorded in the Cycle-77 handoff and summarised in the Cycle-77 section of this ledger's
+header, but **no `Cycle 77` block existed in `idea_register.md`** and **no `Cycle 77` block existed in
+`cycle_notes.md`** — the cycle log is required to carry every cycle, and the register's standing condition
+(Cycle 35) is that nothing may be described as written until it has been checked to be present in the
+artifact set. Both are **backfilled in Cycle 78** as written-for-real records of work that was executed:
+the dossier now carries a **Cycle 77 block** (what was executed, what the search returned, the verdict that
+the kill condition fired, and what was deliberately not done), and `cycle_notes.md` now carries a **Cycle 77
+block** with the three-pass task-framing loop and the cycle's outcomes.
+
+**Repair 2 — gap G-35 was announced in the Cycle-77 handoff but never written into any artifact, and the
+same handoff listed it as both open and next-free.** The Cycle-77 handoff stated "Open gaps: … G-35 (IDEA-010
+re-classification decision)" *and* "Next free: … G-35 …". **G-35 is now registered in this file's Cycle-78
+gap-verdicts table and closed**, and because the identifier was announced in a prior cycle it is
+**consumed rather than reused**: **G-36** is the next free gap identifier, consistently across the handoff,
+this ledger, the register and the shortlist.
+
+**Repair 3 — the durable handoff was left mid-cycle by an interrupted session.** The Cycle-77 session had
+already begun the Cycle-78 work: it edited a **single line** of the IDEA-010 dossier header to "parked
+(P-014, Cycle 78)", and stopped there. The artifact set was therefore internally inconsistent — a dossier
+header claiming a parking that no parking record, no shortlist row, no specification status and no log block
+recorded — while the handoff still carried the "Cycle 77 complete" banner with the Cycle-78 task
+unexecuted. Cycle 78 **completed the operation** (P-014, V-010, the shortlist row, the baseline row, the
+ledger blocks, the dossier block and the cycle-log block) and **rewrote the handoff from the files** with a
+fresh, verbatim initial task message for Cycle 79.
+
+**Cycle-78 identifier and ranking record.** **No `S-` identifier consumed** (five verification upgrades and
+two date corrections only); **no `IDEA-` identifier consumed**; **no `V-` identifier consumed** (V-010
+received a status block and a Cycle-78 note and is marked never-to-execute); **no `R-` identifier consumed**;
+**one `P-` identifier consumed (P-014)**; **one `G-` identifier consumed (G-35, registered and closed)**. One
+known-baseline row was added (**row 84**). The register holds **321 verified sources** at the end of
+Cycle 78 (**311** entries in the standard `### S-NNN` heading form plus **ten** bold inline entries —
+S-281 … S-290 — the S-281 … S-290 formatting observation from the Cycle-72 repair block still stands and is
+unchanged).
