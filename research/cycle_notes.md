@@ -133,7 +133,35 @@ has been tested. It explicitly requires source-gap labelling rather than gap-fil
 
 ### What this cycle did not do
 
-- No re-scoring to break tie (structurally unresolvable).
+- No re-scoring to break tie.
+- No new dossiers or sources added.
+- No tests, data acquisition, or code.
+- No modifications to canonical prompt.
+
+---
+
+## Cycle 22 — 2026-10-20 — Tie monitor / V-002 freeze confirmation
+
+**Cycle objective.** Execute Cycle 22 task from handoff section 3: (a) note IDEA-011/IDEA-004 tie (both 69.0, ranks 4 and 3 respectively) remains structurally unresolvable at current evidence; do not arbitrarily break it; (b) confirm V-002 remains frozen — G-18 is a bounded negative, not a closure, so V-002 stays on hold and must not be executed; (c) frontier screens / new candidates only if a genuine new mechanism family surfaces.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Re-read tie documentation (Cycles 18-21): IDEA-011 retained 69.0 rank 4, IDEA-004 retained 69.0 rank 3. Review post-2010 decay evidence: S-178/S-179 for IDEA-011 (PEAD shrinks with better info environment), S-156/S-172 for IDEA-004 (momentum decay, crowding-based selection fails out-of-sample). Assess whether any new evidence has surfaced since Cycle 21 that could differentially affect either candidate.
+
+**Pass 2 — Critique.** No new evidence has surfaced. Relative strengths (IDEA-004 stronger evidence; IDEA-011 stronger falsifiability and data availability) still balance. Tie remains structurally unresolvable at current evidence; do not re-score to force resolution. V-002: G-18 remains bounded negative (comomentum S-157 not validated against holdings-based crowding S-026); V-002 stays frozen and must not be executed. No genuine new mechanism family has surfaced; no frontier screens conducted.
+
+**Pass 3 — Revise.** Confirm tie documented as structurally unresolvable. Confirm V-002 frozen. Preserve tie documentation. No new candidates, no new sources, no re-scoring. Update handoff and write initial task for next agent.
+
+### Outcome
+
+- **Tie:** IDEA-011 remains 69.0 (rank 4), IDEA-004 remains 69.0 (rank 3). Structurally unresolvable at current evidence; no arbitrary break.
+- **V-002 status:** Confirmed frozen — G-18 bounded negative, not closure; must not be executed.
+- **Frontier screens:** None (no genuine new mechanism family surfaced).
+- **Artifacts updated:** `next_agent_handoff.md` rewritten (now Cycle 22), `cycle_notes.md` updated with Cycle 22.
+
+### What this cycle did not do
+
+- No re-scoring to break tie.
 - No new dossiers or sources added.
 - No tests, data acquisition, or code.
 - No modifications to canonical prompt.
