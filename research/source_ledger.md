@@ -7668,9 +7668,11 @@ document unless the entry says so.**
 - **Caveats:** single-author preprint, results are the author's own and are not reproduced here; the events are
   *extremes*, not deciles, and the sample is three coins; "up day" and "down day" are not defined in the
   index-rendered abstract, so the state construction is not verifiable from this entry.
-- **Verification:** Crossref REST API (DOI, title, author, year 2026, type "posted-content"). The SSRN landing
-  page returned **HTTP 403** to a direct fetch in this cycle, so the abstract wording above is **index-rendered**,
-  not line-verified.
+- **Verification:** Crossref REST API (DOI, title, author, year 2026, type "posted-content") — **the
+  DOI is now independently Crossref-confirmed** (first attempt in Cycle 67 returned HTTP 429; the
+  retry succeeded). The SSRN landing page returned **HTTP 403** to a direct fetch in this cycle, so
+  the abstract wording above is **index-rendered**, not line-verified. *Cycle-66 debt closed: the
+  entry previously recorded the DOI as "as printed on that record and not independently confirmed".*
 
 ### S-311 — Shek, H. (2026)
 "Limits to Coordination: Funding Drag in Crypto Perpetual Funding Rates." SSRN working paper 7529458
@@ -7690,15 +7692,40 @@ document unless the entry says so.**
   the test must pre-register that a fixed-horizon null is not a kill.
 - **Caveats:** single-author preprint, author-reported, not reproduced here; the entry is index-rendered, so the
   hazard-ratio and survival-timing definitions are not verifiable from this record.
-- **Verification:** SSRN record read through the search index (title, author, date, abstract); the DOI is as
-  printed on that record and was **not** independently confirmed through Crossref in this cycle. Direct fetch of
-  the SSRN landing page: **HTTP 403**.
+- **Verification:** Crossref REST API (DOI, title, author, year 2026, type "posted-content") — **the
+  DOI is now independently Crossref-confirmed** (Cycle-67; first attempt returned HTTP 429, retry
+  succeeded). The SSRN landing page returned **HTTP 403** to a direct fetch, so the abstract wording
+  above is **index-rendered**, not line-verified. *Cycle-66 debt closed: the entry previously recorded
+  that the DOI "was not independently confirmed".*
 
 ### S-312 — Neubert, M., Rams, W., Gruhn, P. and Lötscher, M. (2026)
 "Behavioral Finance in Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review."
-*International Journal of Banking, Finance and Information Technology* 4(2): 117–136 (journal version);
-preprint versions SSRN 6639558 (24 April 2026) and SSRN 6658879 (28 August 2026).
+*International Journal of Banking, Finance and Insurance Technologies* (journal version); preprint
+versions SSRN 6639558 (24 April 2026) and SSRN 6658879 (28 August 2026). **Article In Press — no
+volume, issue or page numbers.**
 DOI (preprint): https://doi.org/10.2139/ssrn.6658879
+- **Cycle-67 correction to the Cycle-66 entry.** The Cycle-66 entry attributed the journal version to
+  the *International Journal of Banking, Finance and Information Technology* 4(2): 117–136. **Both
+  halves of that attribution are wrong.** The correct journal is the **International Journal of Banking,
+  Finance and Insurance Technologies** (researchlakejournals.com), and the article is **Article In
+  Press with no volume, issue or pages**. The corrected record was obtained from the SSRN abstract
+  pages (SSRN 6639558 and SSRN 6658879), which are now **directly retrievable** (the journal's own
+  website returned HTTP 403 to a direct fetch in Cycle 66, which is what produced the wrong
+  attribution in the first place — the same failure mode as S-313's, and it is recorded as such).
+- **Cycle-67 correction to the study count.** The Cycle-66 entry recorded **24 substantive studies
+  (16 peer-reviewed + 8 working papers)**. The SSRN abstracts now read directly give **22 substantive
+  studies (15 peer-reviewed + 7 working papers)**, separated into 13 direct perpetual-futures studies
+  and 6 adjacent behavioural studies (the remaining three are the review's own methodological
+  framing). The corrected figures are used in every downstream citation of this entry.
+- **Cycle-67 addition — the review's own inventory of heterogeneity, now directly read.** The SSRN
+  abstracts report, for the studies it covers: **13 unique exchanges, 14 unique perpetual instruments,
+  12 unique data vendors, 10 unique datasets, 11 unique leverage tiers, 10 unique funding-rate
+  definitions, 10 unique correction-horizon definitions, 10 unique basis definitions, 10 unique
+  arbitrage-strategy definitions, 5 unique risk-metric definitions, 3 unique return-frequency
+  definitions and 2 unique accounting conventions.** This is the published evidence that the family
+  IDEA-009 sits in is not only large but **internally fragmented** — a fact that bears on the
+  candidate's venue-transferability condition and on the cost model (S-322's price-impact persistence
+  is one fragment of a 14-instrument, 13-exchange landscape).
 - **Type:** Systematic literature review (author-reported synthesis), **peer-reviewed journal article** plus two
   preprint versions; the journal record was read only through an index rendering.
 - **Supports (for IDEA-009 and for the register's own coverage of this family):** the perpetual-futures
@@ -7717,9 +7744,13 @@ DOI (preprint): https://doi.org/10.2139/ssrn.6658879
 - **Caveats:** the journal version's volume, issue and page numbers are as printed in the index rendering; the
   underlying studies are the authors' synthesis and are not independently checked here; the review is itself
   single-labor (four authors) and its inclusion criteria are described but not re-run.
-- **Verification:** Crossref REST API (two SSRN DOIs, three of four authors, year 2026, type "posted-content");
-  the journal citation and the review's findings were read from an **index rendering** of the article (publisher
-  and repository pages returned HTTP 403 to direct fetch). **The journal DOI was not independently confirmed.**
+- **Verification:** Crossref REST API (two SSRN DOIs, three of four authors, year 2026, type
+  "posted-content"). **Cycle-67: the journal attribution was corrected** (see above) and the
+  corrected journal name, the "Article In Press" status and the corrected study count were read
+  from the **SSRN abstract pages, which are now directly retrievable** after the journal website
+  returned HTTP 403 in Cycle 66. The journal's own website still returns HTTP 403 to a direct
+  fetch, so the journal version's body remains unread; the abstracts are **index-rendered** in the
+  sense that they were read from SSRN's rendered record rather than from a parsed document.
 
 ### S-313 — Zhivkov, P., Todorov, V. and Georgiev, S. (2026)
 "Temporal Dynamics of Market Microstructure in Cryptocurrency Perpetual Futures: Econometric Evidence from
@@ -7832,9 +7863,12 @@ arXiv: https://arxiv.org/abs/2310.11771
   construction*.
 - **Caveats:** preprint; the abstract is index-rendered here, so the bounds' functional form and the empirical
   sample are not verifiable from this entry.
-- **Verification:** Crossref REST API (DOI, all three authors and their affiliations as given in the record, year
-  2025, type "posted-content"). The SSRN landing page returned **HTTP 403** to a direct fetch; the abstract
-  wording is **index-rendered**.
+- **Verification:** Crossref REST API (DOI, all three authors and their affiliations as given in the record,
+  year 2025, type "posted-content") — **the DOI is now independently Crossref-confirmed** (Cycle 67;
+  31 references, posted 2025, indexed 2026-08-18, is-referenced-by-count 1). The SSRN landing page
+  returned **HTTP 403** to a direct fetch; the abstract wording is **index-rendered**. *Cycle-66 debt
+  closed: the entry previously recorded only a Crossref metadata check without stating that the DOI
+  itself had been resolved.*
 
 ### S-318 — Hugonnier, J. and Jermann, U. (2025)
 "Perpetual Futures Pricing with Stochastic Rates and Clamp." SSRN working paper 5481866. DOI:
@@ -7853,8 +7887,12 @@ https://doi.org/10.2139/ssrn.5481866
   distribution is not a stable state even in principle.
 - **Caveats:** preprint; **Crossref returns two SSRN DOIs carrying this identical title (5481866 and 5610430)**, so
   which posting is the canonical one is **not** established; the abstract is index-rendered.
-- **Verification:** Crossref REST API (DOI, both authors, year 2025, type "posted-content"). The SSRN landing page
-  returned **HTTP 403** to a direct fetch; the abstract wording is **index-rendered**.
+- **Verification:** Crossref REST API (DOI, both authors, year 2025, type "posted-content") — **the
+  DOI is now independently Crossref-confirmed** (Cycle 67; 8 references, posted 2025, indexed
+  2026-07-07, is-referenced-by-count 1). The SSRN landing page returned **HTTP 403** to a direct
+  fetch; the abstract wording is **index-rendered**. The duplicate-title caveat (two SSRN DOIs,
+  5481866 and 5610430) is unchanged; the canonical posting is still **not** established.
+  *Cycle-66 debt closed.*
 
 ### S-319 — Jansen, S. (2026)
 "Crypto Perpetuals Funding." Case study for *Machine Learning for Trading* (3rd edition).
@@ -7931,19 +7969,46 @@ URL: https://bravenewcoin.com/insights/testing-theory-is-perpetual-swap-funding-
 ### S-322 — Rajendran, S. and Singaravelu, D. (2026)
 "Order-flow toxicity in cryptocurrency perpetual futures: Order flow signals, price-impact persistence, and the
 limits of volatility-based metrics." *International Review of Economics & Finance* 112: 105876
-(DOI: https://doi.org/10.1016/j.iref.2026.105876; December 2026).
+(DOI: https://doi.org/10.1016/j.iref.2026.105876; published online 30 September 2026; December 2026
+issue). SSRN version: posted 19 March 2026, last revised 5 October 2026, 30 pages; earlier working
+title "Predicting Adverse Selection in High-Frequency Cryptocurrency Markets Using Gradient Boosting".
+Replication code: Zenodo DOI 10.5281/zenodo.21617203.
 - **Type:** Prior empirical result (author-reported), **peer-reviewed journal article**.
-- **Supports:** at the **title level only**, that order-flow signals and **price-impact persistence** in
-  cryptocurrency perpetual futures are studied in the peer-reviewed literature, and that **volatility-based metrics
-  have documented limits** as market-quality measures.
-- **Why it matters for IDEA-009:** price-impact persistence is the cost-model quantity a reversal rule in this
-  family must beat; a peer-reviewed study of it in the same venue class is a relevant cost-side reference for
-  V-008's cost assumptions.
-- **Caveats:** **the abstract and body were not retrieved** (the publisher's page returned HTTP 403 to a direct
-  fetch), so only the bibliographic record and the title-level claim are recorded; no number, sign or result from
-  this paper is used anywhere in this register.
-- **Verification:** Crossref REST API (DOI, both authors with ORCIDs, journal, volume 112, article 105876,
-  December 2026, type "journal-article"). The publisher landing page was **not** reachable in this cycle.
+- **Cycle-67 upgrade — the abstract is now retrieved.** The publisher's page returned HTTP 403 to a
+  direct fetch in Cycle 66, and the entry was recorded at title level only. In Cycle 67 the DOI was
+  followed through the ScienceDirect record and the **full abstract was read directly** (the
+  SSRN record and the journal's own highlights page render the same text). The findings below are
+  therefore **line-verified**, not index-rendered.
+- **Supports (for IDEA-009, cost side):** a severity-weighted **gradient-boosted detector of
+  order-flow toxicity** trained on BTC/USDT and ETH/USDT on Bybit on **~31.08 million
+  second-level observations per asset (~62.16 million combined)**, with a strict walk-forward
+  protocol and predictors constructed **exclusively from information available through the prior
+  second**. Two anchor results: (i) at the primary 1 % gate the **no-volatility** specification
+  generates an illustrative avoided-loss estimate that is **statistically distinguishable from
+  zero and replicates closely across two assets differing ~35-fold in price level**; (ii)
+  **tail-risk concentration and economic value diverge systematically** — the simple return-,
+  flow- and volatility-based learned benchmarks achieve **higher tail-risk efficiency**, so
+  "efficiency alone is an unreliable indicator of informational specificity". The authors use
+  **order-flow toxicity rather than confirmed informed trading** and interpret their TailScore as
+  a practically relevant adverse-selection **risk-ranking signal, not a direct measure of private
+  information or a realised trading strategy**.
+- **Why it matters for IDEA-009:** this is the nearest published cost-side quantification for the
+  family the candidate sits in. A funding-rate reversal rule is short volatility and long
+  adverse-selection risk; the paper's headline — that the signals which *rank* toxicity are not
+  the same signals which *avoid* its cost, and that excluding contemporaneous volatility still
+  leaves a detectable toxicity signal — is the published statement of the cost floor V-008 must
+  beat. It also supplies, for the first time in this register, a **published, walk-forward,
+  out-of-sample cost benchmark at second-level frequency in this venue class**.
+- **Caveats:** the paper's outcome is a *toxicity ranking*, not a trading return; its "illustrative
+  avoided-loss" is an estimate, not a realised P&L; the universe is two assets on one venue; and
+  the published replication archive (Zenodo) contains the processed labelled datasets and model
+  artefacts but **not** the raw Bybit order-book data, so the raw-input side is not reproducible
+  from the archive alone.
+- **Verification:** the DOI was followed to the ScienceDirect record and the **abstract was read
+  directly** in Cycle 67 (title, both authors, journal, volume, article number, publication date,
+  highlights and abstract all confirmed from the returned record). The SSRN record and the
+  journal's own highlights page render the same abstract. *Cycle-66 debt closed: the entry
+  previously recorded only a bibliographic record and stated that the abstract was not retrieved.*
 
 ---
 
