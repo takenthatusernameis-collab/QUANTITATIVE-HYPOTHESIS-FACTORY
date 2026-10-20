@@ -1580,3 +1580,14 @@ advice):
   4. **No unclaimed sign or clean separation.** Establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating from price-sensitive execution. The bar (published decision-time state, dated price-insensitive flow, unclaimed sign) is not met.
 
 - **Verdict: bounded negative — no candidate.** The family is a baseline of rate-limited supply, not the deadline-driven third-party constraint the register screens for. No 10b-18 source added in the main ledger in this cycle; the finding is recorded as a bounded negative. Two further points from the shorter duplicate entry, retained on merge: **no unclaimed sign or clean separation** — establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating them from price-sensitive execution; and the **state is periodic, not decision-time** — issuers are not required to publish remaining 10b-18 capacity intraday or even daily in a central public feed, and the 10b-18 repurchase tables in periodic reports disclose total repurchases over periods rather than a continuous remaining-capacity series.
+
+
+### R-033 — Regulatory filing/venue deadline cluster (Cycle 54 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-032: regulatory filing deadlines, short-sale/position reporting deadlines, and exchange-imposed submission cutoffs that create time-concentrated order flow or constraints.
+- **Why no candidate.**
+  1. **Published/expected flows dominate.** Many filing deadlines produce predictable flows, but the price effects are often documented as information-driven or as well-known baseline effects rather than an unclaimed, sign-determinizable concession to a third-party liquidity provider.
+  2. **State availability varies.** Some deadlines are published in advance, but the sign-determining state (who is constrained and in which direction) is often ambiguous or the flow is not price-insensitive in the required form.
+  3. **No clean harvestable residual found.** The strict bar (published before decision, sign-determining, not public real-time by-product) was not met by any specific mechanism surfaced in the bounded screen.
+- **Dated re-screen condition.** Re-screen if a specific, published rule creates a clearly price-insensitive, third-party deadline constraint with a pre-registered sign and no adequate prior literature.
+- **Decision:** bounded negative (R-033). No dossier created; no IDEA- identifier consumed; no score changed.
