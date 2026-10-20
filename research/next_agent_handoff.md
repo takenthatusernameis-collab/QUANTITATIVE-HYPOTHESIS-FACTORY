@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-20, **Cycle 28** · Tie monitor pass complete (IDEA-011 retained at 69.0, rank 4, IDEA-004 retained at 69.0, rank 3; tie remains structurally unresolvable at current evidence; no parking); V-002 confirmed frozen; no new candidates. IDs available: IDEA-015, S-180+, V-010, G-19, R-012, P-011.
+Last updated: 2026-10-20, **Cycle 29** · Tie monitor pass complete (IDEA-011 retained at 69.0, rank 4, IDEA-004 retained at 69.0, rank 3; tie remains structurally unresolvable at current evidence; no parking); V-002 confirmed frozen; no new candidates. IDs available: IDEA-015, S-180+, V-010, G-19, R-012, P-011.
 
 ---
 
@@ -29,13 +29,13 @@ Last updated: 2026-10-20, **Cycle 28** · Tie monitor pass complete (IDEA-011 re
 
 ---
 
-## 3. Best next research task (Cycle 28)
+## 3. Best next research task (Cycle 29)
 
 1. **Monitor the tie; do not break arbitrarily.** Tie between IDEA-011 and IDEA-004 remains structurally unresolvable with current evidence. Do not re-score to force resolution; preserve tie documentation. Revisit only if new post-2010 evidence surfaces for either candidate.
 2. **Confirm V-002 remains frozen.** G-18 remains bounded negative.
 3. **Frontier screens / new candidates** only if a genuine new mechanism family surfaces.
 4. **Theory only.** No backtests, simulations, data acquisition, strategy or signal code, trading, job or workflow changes. Cite every claim.
-5. **Finish by rewriting this handoff** and summarizing into cycle_notes.md. New IDs start at IDEA-015, S-180, V-010, G-19, R-012, P-011; call this **Cycle 28**.
+5. **Finish by rewriting this handoff** and summarizing into cycle_notes.md. New IDs start at IDEA-015, S-180, V-010, G-19, R-012, P-011; call this **Cycle 29**.
 
 ---
 
@@ -50,7 +50,7 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
    research/ranked_shortlist.md, research/source_ledger.md and
    research/rejected_and_parked.md. Preserve prior work; do not renumber or delete IDs.
 
-2. Execute the Cycle 28 task in section 3 of the handoff. Priority order:
+2. Execute the Cycle 29 task in section 3 of the handoff. Priority order:
    (a) note the IDEA-011/IDEA-004 tie (both 69.0, ranks 4 and 3 respectively) remains
        structurally unresolvable at current evidence; do not arbitrarily break it;
    (b) confirm V-002 remains frozen — G-18 is a bounded negative, not a closure, so
@@ -63,7 +63,7 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
 
 4. Rank with fixed rubric; write V-010+ for any new top-three candidate; log
    rejections/parkings with reasons/sources. New IDs start at IDEA-015, S-180,
-   V-010, G-19, R-012, P-011; call this Cycle 28.
+   V-010, G-19, R-012, P-011; call this Cycle 29.
 
 5. Absolute scope boundary: theory and discovery only.
 6. Cite every external claim with verifiable URL/DOI; distinguish index-rendered from
@@ -94,5 +94,6 @@ acquisition, no strategy or signal code, no trading, no job or workflow changes.
 | 26 | 2026-10-20 | Tie monitor pass: IDEA-011 retained at 69.0 (rank 4), IDEA-004 retained at 69.0 (rank 3); tie remains structurally unresolvable at current evidence; no new evidence surfaced; V-002 frozen confirmed; no new candidates. | Yes. |
 | 27 | 2026-10-20 | Tie monitor pass: IDEA-011 retained at 69.0 (rank 4), IDEA-004 retained at 69.0 (rank 3); tie remains structurally unresolvable at current evidence; no new evidence surfaced; V-002 frozen confirmed; no new candidates. | Yes. |
 | 28 | 2026-10-20 | Tie monitor pass: IDEA-011 retained at 69.0 (rank 4), IDEA-004 retained at 69.0 (rank 3); tie remains structurally unresolvable at current evidence; no new evidence surfaced; V-002 frozen confirmed; no new candidates. | Yes. |
+| 29 | 2026-10-20 | Tie monitor pass: IDEA-011 retained at 69.0 (rank 4), IDEA-004 retained at 69.0 (rank 3); tie remains structurally unresolvable at current evidence; no new evidence surfaced; V-002 frozen confirmed; no new candidates. | Yes. |
 
 (End of file)
