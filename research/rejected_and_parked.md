@@ -5,14 +5,17 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 56 complete, 2026-10-20. **35 rejections (R-001 … R-035), 12 parkings
-(P-001 … P-012), 65-row known-baseline table.** Cycle 54 added **R-033** (the regulatory filing/venue deadline
+Last updated: Cycle 57 complete, 2026-10-20. **36 rejections (R-001 … R-036), 12 parkings
+(P-001 … P-012), 66-row known-baseline table.** Cycle 54 added **R-033** (the regulatory filing/venue deadline
 cluster family — bounded negative) and Cycle 55 added **R-034** (the prediction-market settlement-manipulation /
 circuit-breaker price-discovery family — bounded negative); **neither cycle updated this header**, so the counts
 below were stale for two cycles and are corrected here against the file. Cycle 56 added **R-035** (the
 tax-driven year-end flow family — year-end capital-loss harvesting under loss carry-forward rules and the paired
 institutional window dressing — bounded negative, the register's first screen of a *tax-incentive flow* family)
-and added that family to the known-baseline table. Earlier history: Cycle 40 added **R-020** (the eligibility-switch family
+and added that family to the known-baseline table. Cycle 57 added **R-036** (the cross-session price-formation
+family — the stale-price window between a closed session and the next open — bounded negative, the register's
+first screen of a *cross-session price-formation* family) and added that family to the known-baseline table as
+row 66. Earlier history: Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
@@ -1663,3 +1666,19 @@ advice):
   4. **No unclaimed sign or clean separation.** Establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating from price-sensitive execution. The bar (published decision-time state, dated price-insensitive flow, unclaimed sign) is not met.
 
 - **Verdict: bounded negative — no candidate.** The family is a baseline of rate-limited supply, not the deadline-driven third-party constraint the register screens for. No 10b-18 source added in the main ledger in this cycle; the finding is recorded as a bounded negative. Two further points from the shorter duplicate entry, retained on merge: **no unclaimed sign or clean separation** — establishing that the cap binds on a given day and produces a concession to a third party requires identifying binding episodes from sparse public data and separating them from price-sensitive execution; and the **state is periodic, not decision-time** — issuers are not required to publish remaining 10b-18 capacity intraday or even daily in a central public feed, and the 10b-18 repurchase tables in periodic reports disclose total repurchases over periods rather than a continuous remaining-capacity series.
+
+---
+
+### R-036 — Cross-session price formation: the stale-price window between a closed session and the next open (Cycle 57 family screen — bounded negative)
+
+- **The family screened.** A different family from R-014–R-035: **cross-session price formation** — non-overlapping trading hours, scheduled market holidays, and the stale-price window between a closed session and the next open one. This is the register's first screen of a **cross-session price-formation** family. It is genuinely new in kind: every screen so far (R-012 … R-035) covered an obligation, a switch, a supply schedule, an expiry-driven flow, a price rule, a market interruption, a settlement mechanism or an incentive flow, and the known-baseline table holds no row for this family.
+- **Instances screened.** The close-to-open stale-price window across equity sessions (overnight information impounded at the next open); non-overlapping trading hours between venue sessions; and scheduled market holidays that extend the stale window. Literature instances run: Lu et al. (JFE 2023, S-287) on night-minus-day price formation; Camilleri & Green (2014, S-288) on non-synchronous trading; Challet & Gourianov (2018, S-289) on opening auctions absorbing overnight imbalance; Hendershott on after-hours price discovery (S-290).
+- **Why no candidate.**
+  1. **The mechanism is published prior art, and the sign is already claimed.** Cross-session price formation — overnight news impounding into prices at the next open — is a documented, peer-reviewed result (S-287, S-288, S-290). The sign of the close-to-open move is information-driven (it follows overnight news), so a candidate claiming a stale-price concession would be claiming a sign that the literature already explains as an information impoundment, not an unclaimed price concession to a third-party liquidity provider.
+  2. **The sign-determining state is not known at decision time.** The overnight news that determines the sign of the next open's price move arrives *between* the close and the open; at the decision time (the close), it is unknown. A trade placed into the stale window is exposed to that unknown news, so the sign cannot be conditioned on at decision time. G-13 fails at the firm/session level.
+  3. **The opening auction absorbs the imbalance.** The opening call auction (S-289) is designed to aggregate overnight order imbalances and set the opening price; the venue itself supplies the intermediation at the restart, which is exactly the structural reason there is no residual concession for an outside participant to harvest.
+  4. **No unclaimed sign meeting the strict bar.** Published before decision, sign-determining, not a public real-time by-product — not met: the sign is determined by information that arrives after the decision time, and the effect is a published price-formation channel rather than an unclaimed concession.
+  5. **The cost floor is hostile.** The stale window is narrow (minutes between close and open, or longer across holidays), spreads widen outside regular hours, and after-hours liquidity is thin (S-290). The round-trip cost of entering the stale window exceeds any residual stale-price move that is not itself an information impoundment.
+- **What is *not* the reason.** The state is arguably public (session times, holiday calendars are published), so G-13's publication test is technically met — but it is simultaneously useless: the sign-determining state (overnight news) is not public at decision time. The screen was run against the literature before any conclusion was reached.
+- **Dated re-screen condition.** Re-open this family only if (i) a venue introduces a **scheduled, pre-published cross-session trading mechanism** that creates a decision-time state with a sign determinable before the next open; or (ii) a published study identifies a residual close-to-open price effect that survives the information-impoundment explanation and is sign-determinable before the open. Absent either, this family stays closed.
+- **Decision:** bounded negative (R-036). The cross-session price-formation family is recorded in the known-baseline set (row 66); no dossier was created; no `IDEA-` identifier was consumed; no score changed; no validation specification was added.

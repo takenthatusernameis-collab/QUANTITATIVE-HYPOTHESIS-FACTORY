@@ -3553,8 +3553,28 @@ re-scored to 68.0, enters the top three, and receives V-010
   - **Dated re-check.** G-32 limb (c) is re-read annually (the 2024–2027 pre-adoption literature window);
   **G-33 is re-checked in 2027 Q3**, after the first tranche of 2026 interim reports carrying IAS 8.30(b)
   impact disclosures is public; limb (a) is re-opened only if a jurisdiction publishes an IFRS 18
-  application date that differs from 1 January 2027 **and** applies IFRS 18 as an increment to an existing
-  IFRS basis.
+application date that differs from 1 January 2027 **and** applies IFRS 18 as an increment to an existing
+IFRS basis.
+
+  - **Cycle 57 — G-33 quantification-rate sample read: arm A killed, hard stop unrelieved, no score change.**
+    The pre-registered sample read on the IAS 8.30(b)/ESMA-expected pre-adoption IFRS 18 impact disclosure
+    was executed across six issuers (Repsol S.A., Euronext Securities Athens S.A., Airbus SE, Haleon plc,
+    Standard Life plc, Saudi Tadawul Group Holding Co.) reading their H1/Q2 2026 interim reports (periods
+    ending 30 June 2026). Result: disclosure present 6/6; quantified expected effect 0/6; units none;
+    comparability not established (no numbers); ex-ante availability yes (~1–2 months after period end,
+    ahead of the first IFRS 18 cycle in the 2027 interims, semi-annual). All six disclosures are
+    qualitative only ("still assessing", "evaluating", "will examine impact", "assessment remains ongoing");
+    none states a quantified expected change in operating profit or any subtotal, and none restates a
+    prior-period figure on an IFRS 18 basis. Sources: S-281 … S-286.
+    **Kill condition met:** the disclosure is unquantified in 100 % of the sample, so prospective arm A
+    has no usable state. Arm A is killed; IDEA-011 returns to blocked on the group A/group B partition,
+    with the event-count hard stop **unrelieved**. No score change (69.0, rank 1); the Cycle-35/52
+    precedent applies — the sources support the mechanism and the state's existence (IAS 8.30–31 plus
+    ESMA's expectation, S-267) but not the quantified state or the directional drift claim.
+    G-33 is **closed as a negative** on the kill condition; its dated re-check in 2027 Q3 stands but the
+    pre-adoption route is now foreclosed unless a jurisdiction's IFRS 18 application date differs from
+    1 January 2027 **and** applies IFRS 18 as an increment to an existing IFRS basis (limb (a) re-open
+    condition, unchanged).
 
 ---
 

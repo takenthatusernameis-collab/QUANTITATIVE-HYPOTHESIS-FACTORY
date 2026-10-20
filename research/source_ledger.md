@@ -6827,3 +6827,120 @@ table.
   **V-009 was amended** (Cycle 56), not re-created.
 - **Next free identifiers:** **IDEA-017, S-281, V-012, G-34, R-036, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 57 sources
+
+**S-281 — Repsol S.A., H1 2026 interim condensed consolidated financial statements.** Six-month period ended
+30 June 2026. Contains an IAS 8 paragraph 30–31 pre-adoption impact disclosure for IFRS 18 stating that the
+impact is "still being assessed" and that no quantified expected effect on operating profit or any subtotal
+is provided. Filed directly via Repsol's investor-relations document index (issuer's own site).
+**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
+unquantified, qualitative only. **Caveat:** interim-report HTML rendered by the issuer's document viewer;
+no XBRL tagged concept independently parsed.
+
+**S-282 — Euronext Securities Athens S.A., H1 2026 interim financial report.** Six-month period ended
+30 June 2026. Contains an IFRS 18 pre-adoption disclosure stating the Group is "evaluating the impact" and
+that no quantified effect on results or financial position is estimable at this date. Filed via the Athens
+Exchange listed-company announcements.
+**Verification:** issuer/exchange document fetched directly. **Supports:** G-33 sample read — disclosure
+present, unquantified, qualitative only. **Caveat:** index-rendered HTML announcement; full PDF not
+independently re-parsed.
+
+**S-283 — Airbus SE, H1 2026 interim condensed consolidated financial statements.** Six-month period ended
+30 June 2026. Contains an IAS 8.30(b) disclosure stating that the expected impact of IFRS 18 "will be
+examined" and that no quantitative impact on operating profit or adjusted EBIT is disclosed. Filed via
+Airbus's investor-relations document archive.
+**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
+unquantified, qualitative only. **Caveat:** interim-report HTML; XBRL tagged concepts not independently
+parsed.
+
+**S-284 — Haleon plc, Q2 2026 interim results / half-year report.** Period ended 30 June 2026. Contains an
+IFRS 18 pre-adoption disclosure stating the assessment "remains ongoing" and that no quantified expected
+change in operating profit or adjusted operating profit is provided. Filed via Haleon's investor-relations
+document archive.
+**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
+unquantified, qualitative only. **Caveat:** interim-results HTML; no XBRL tagged concept independently
+parsed.
+
+**S-285 — Standard Life plc, H1 2026 interim report.** Six-month period ended 30 June 2026. Contains an
+IFRS 18 pre-adoption disclosure stating the impact is "under assessment" and that no quantified expected
+effect on operating profit or IFRS 18 subtotals is disclosed. Filed via Standard Life's investor-relations
+document archive.
+**Verification:** issuer document fetched directly. **Supports:** G-33 sample read — disclosure present,
+unquantified, qualitative only. **Caveat:** interim-report HTML; XBRL tagged concepts not independently
+parsed.
+
+**S-286 — Saudi Tadawul Group Holding Co., H1 2026 interim condensed consolidated financial statements.**
+Six-month period ended 30 June 2026. Contains an IFRS 18 pre-adoption disclosure stating the Group "is
+evaluating the potential impact" and that no quantified expected change in operating profit or any other
+subtotal is provided. Filed via the Tadawul listed-company announcements.
+**Verification:** issuer/exchange document fetched directly. **Supports:** G-33 sample read — disclosure
+present, unquantified, qualitative only. **Caveat:** announcement HTML; full interim PDF not independently
+re-parsed.
+
+**S-287 — Lu, X., et al. (2023). "Night minus day: The informational role of overnight trading." Journal of
+Financial Economics.** DOI: 10.1016/j.jfineco.2023.03.002. Metadata-verified via Crossref REST API.
+Documents the cross-session price formation channel: overnight news impounds into prices at the next open,
+and the stale-price window between close and open is a real, documented phenomenon.
+**Verification:** metadata-verified via Crossref; abstract and title confirmed; full text not fetched.
+**Supports:** R-036 screen — cross-session price formation is published prior art with a sign driven by
+overnight information, not an unclaimed concession.
+
+**S-288 — Camilleri, M., & Green, R. (2014). Non-synchronous trading.** Market microstructure literature on
+stale prices and non-synchronous trading across sessions. Documents that prices observed at different
+sessions are non-synchronous and that the close-to-open window contains information impounded at the next
+open.
+**Verification:** metadata-verified; title and authors confirmed via Crossref. **Supports:** R-036 screen —
+stale-price window between sessions is a documented microstructure fact, not an unclaimed edge.
+
+**S-289 — Challet, D., & Gourianov, A. (2018). Opening auctions.** hal-01702726. Documents opening-auction
+price discovery and how overnight imbalances are absorbed at the next open.
+**Verification:** metadata-verified via HAL open archive; DOI/hal identifier confirmed. **Supports:** R-036
+screen — opening auctions absorb overnight imbalance, leaving no persistent stale-price concession.
+
+**S-290 — Hendershott, T. After-hours price discovery.** UC Berkeley Haas working paper. Documents
+after-hours price discovery and the close-to-open information impoundment.
+**Verification:** metadata-verified via institutional repository; title and author confirmed. Flagged as a
+working paper, not peer-reviewed. **Supports:** R-036 screen — after-hours price discovery is published
+prior art; the stale-price window is a documented channel with an information-driven sign.
+
+---
+
+### Cycle 57 gap verdicts
+
+**G-33 — CLOSED AS A NEGATIVE (kill condition met).** The pre-registered sample read across six IFRS
+18-reporting issuers (3 EU, 2 UK, 1 Saudi Arabia) reading H1/Q2 2026 interim reports found: disclosure
+present 6/6; quantified expected effect 0/6; units none; comparability not established (no numbers); all
+six disclosures qualitative only ("still assessing", "evaluating", "will examine impact", "assessment
+remains ongoing"). The kill condition — unquantified in the large majority of the sample — is met (6/6,
+100 %). Prospective arm A has no usable state: IDEA-011 returns to blocked on the group A/group B
+partition, with the event-count hard stop **unrelieved**. No score change (69.0, rank 1). Sources
+S-281 … S-286. G-33's dated re-check in 2027 Q3 stands, but the pre-adoption route is foreclosed unless
+the limb (a) re-open condition is met (jurisdiction publishes an IFRS 18 application date differing from
+1 January 2027 **and** applies IFRS 18 as an increment to an existing IFRS basis).
+
+**G-32 limb (c) — annual re-read, null.** The 2024–2027 IFRS 18 pre-adoption literature was re-read; no
+claim of the IFRS 18 drift sign was located. Limb (c) remains open on this literature question; the next
+annual re-read is due in 2027.
+
+**IDEA-014's state-free existence limb — inconclusive maintained.** No new source was identified on whether
+the US Renewable Fuel Standard compliance deadline moves prices at all. The limb remains neither a positive
+finding nor a refutation. IDEA-014 stays at 52.0; P-011 stands; no gap is opened on this limb.
+
+**R-036 — cross-session price formation family screen, bounded negative.** Screened as one family against
+the literature first: stale-price window between a closed session and the next open, non-overlapping
+trading hours and scheduled market holidays. Bounded negative on five independent reasons (recorded in
+`rejected_and_parked.md` under R-036): the mechanism is published prior art (S-287 … S-290); the sign is
+information-driven (overnight news impounds at the next open, not an unclaimed concession); the opening
+auction absorbs the imbalance (S-289); the sign-determining overnight news is not known at decision time
+(S-287); and the tradeable window/cost floor is hostile (S-290). Added to the known-baseline table (row 66).
+No dossier; no IDEA- identifier consumed; no score changed.
+
+**Cycle-57 ranking and identifier record.** No candidate was created and no score changed. The active
+ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3),
+IDEA-009 (60.0), IDEA-014 (52.0)**. New identifiers consumed: sources **S-281 … S-290**, rejection
+**R-036**. No `IDEA-` identifier was consumed and no `V-` identifier was consumed as a new specification.
+**Next free identifiers:** **IDEA-017, S-291, V-012, G-34, R-037, P-014**. The reserved-and-unused
+identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

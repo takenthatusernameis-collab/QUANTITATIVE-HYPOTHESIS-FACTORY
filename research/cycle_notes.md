@@ -557,7 +557,91 @@ find. (c) The **Cycles 53–55 gap-verdict
     IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0**; IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002
     (63.0) remain parked. New identifiers consumed: **S-267 … S-280**, **G-33** and **R-035**; **no `IDEA-`
     identifier was consumed**, and **V-009 was amended rather than re-created**, so no new `V-` identifier was
-    consumed either. Next free identifiers: **IDEA-017, S-281, V-012, G-34, R-036, P-014**. The
-    reserved-and-unused identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside
-    their ranges. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from the
-    files; handoff rewritten for Cycle 57.
+consumed either. Next free identifiers: **IDEA-017, S-281, V-012, G-34, R-036, P-014**. The
+reserved-and-unused identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside
+their ranges. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from the
+files; handoff rewritten for Cycle 57.
+
+---
+
+## Cycle 57 — 2026-10-20
+
+Theory-only cycle executing the six priorities from the Cycle-56 handoff. No tests, data acquisition,
+strategy code, workflow changes, or modifications to the canonical prompt.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the six priorities in order: (1) G-33 (IDEA-011) — run the quantification-rate
+sample read on the IAS 8.30(b)/ESMA-expected pre-adoption IFRS 18 impact disclosures in the 2026 interim
+reports; pre-register a bounded sample rule, read the published issuer documents, record disclosure
+presence, quantification, unit, comparability and publication date, answer (a) quantification rate,
+(b) comparability and (c) ex-ante availability, and state the counts plainly. (2) G-28 — keep frozen,
+one bounded re-check. (3) G-30 — confirm exhausted, no re-probe. (4) IDEA-014 — no effort without a new
+source. (5) G-32 limb (c) — annual re-read of the 2024–2027 IFRS 18 pre-adoption literature. (6) one
+new mechanism family screen, genuinely different from R-014–R-035, strict bar plus the Cycle-52 third
+test, literature first, logged as R-036+.
+
+**Pass 2 — Critique.** The sample read is a reading task on published documents; no dataset is built and
+nothing is generalised beyond the sample. The kill condition is explicit (unquantified in the large
+majority of the sample → arm A killed). The R-036 screen must be literature-first and genuinely new in
+kind (cross-session price formation is not an obligation, switch, supply schedule, expiry-driven flow,
+price rule, market interruption, settlement mechanism or incentive flow).
+
+**Pass 3 — Revise.** Record findings precisely, with citations to source-ledger entries and verification
+methods. Write the ledger verdict block and cycle-log entry before rewriting the handoff. Re-derive every
+header count from the files. Keep the cycle number consistent across every handoff section.
+
+### Outcomes
+
+1. **G-33 (IDEA-011) — CLOSED AS A NEGATIVE, arm A killed.** The pre-registered sample read across six
+   issuers (Repsol S.A., Euronext Securities Athens S.A., Airbus SE, Haleon plc, Standard Life plc,
+   Saudi Tadawul Group Holding Co.; sources S-281 … S-286) reading H1/Q2 2026 interim reports found:
+   disclosure present 6/6; quantified expected effect 0/6; units none; comparability not established
+   (no numbers); ex-ante availability yes (~1–2 months after period end). All six disclosures are
+   qualitative only ("still assessing", "evaluating", "will examine impact", "assessment remains
+   ongoing"); none states a quantified expected change in operating profit or any subtotal. The kill
+   condition — unquantified in the large majority of the sample — is met at 6/6 (100 %). Prospective arm
+   A has no usable state: IDEA-011 returns to blocked on the group A/group B partition, with the
+   event-count hard stop **unrelieved**. **No score change** (69.0, rank 1); the Cycle-35/52 precedent
+   applies — the sources support the mechanism and the state's existence (IAS 8.30–31 plus ESMA's
+   expectation, S-267) but not the quantified state or the directional drift claim. G-33 is closed as a
+   negative on the kill condition; its dated re-check in 2027 Q3 stands but the pre-adoption route is
+   foreclosed unless the limb (a) re-open condition is met.
+
+2. **G-28 (IDEA-004) — kept frozen.** No published convergence-crowd *concentration* measure located;
+   V-002 stays frozen.
+
+3. **G-30 (IDEA-010) — confirmed exhausted; no re-probe.** All routes outside the statutory prospectus
+   remain closed; V-010 stays non-executable and must not be run against a substituted crowding proxy.
+
+4. **IDEA-014 — no effort without a new source.** The state-free existence limb stays inconclusive;
+   IDEA-014 stays at 52.0; P-011 stands.
+
+5. **G-32 limb (c) — annual re-read, null.** The 2024–2027 IFRS 18 pre-adoption literature was re-read;
+   no claim of the IFRS 18 drift sign was located. Limb (c) remains open; next annual re-read due in
+   2027 Q3 alongside G-33's re-check.
+
+6. **New mechanism family screen — cross-session price formation (R-036), bounded negative.** Screened
+   against the literature first (S-287 … S-290). Bounded negative on five independent reasons: the
+   mechanism is published prior art with an information-driven sign; the sign-determining overnight news
+   is not known at decision time; the opening auction absorbs the imbalance; no unclaimed sign meets the
+   strict bar; and the cost floor is hostile. Added to the known-baseline table (row 66). No dossier;
+   no IDEA- identifier consumed; no score changed.
+
+7. **Repairs and count corrections.** `rejected_and_parked.md` header re-derived (36 rejections,
+   12 parkings, 66-row known-baseline table); `README.md` next-free-identifier pointer and next-cycle
+   pointer corrected; `source_ledger.md` gained the S-281 … S-290 entries and the "Cycle 57 gap
+   verdicts" block; `ranked_shortlist.md` gained the Cycle-57 ranking paragraph; `idea_register.md`
+   gained the Cycle-57 block in the IDEA-011 dossier (arm A killed, hard stop unrelieved, no score
+   change). Verification honesty: the six issuer interim reports were fetched directly (S-281 … S-286);
+   the screen literature was metadata-verified via Crossref/HAL/institutional repositories (S-287 … S-290),
+   with S-290 flagged as a non-peer-reviewed working paper.
+
+8. **No candidate was created; no score changed.** Active ranking unchanged: **IDEA-011 69.0 (rank 1),
+   IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0**; IDEA-003 (66.0),
+   IDEA-008 (63.0) and IDEA-002 (63.0) remain parked. New identifiers consumed: sources **S-281 … S-290**,
+   rejection **R-036**; no `IDEA-` identifier consumed and no new `V-` identifier. **Next free
+   identifiers: IDEA-017, S-291, V-012, G-34, R-037, P-014.** The reserved-and-unused identifiers
+   **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges. All artifacts
+   updated; three-pass loop recorded; counts and identifiers re-derived from the files; handoff rewritten
+   for Cycle 58.

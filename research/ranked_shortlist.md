@@ -59,6 +59,23 @@ new candidate: IDEA-014 RIN-DEADLINE** at 60.0. Two new gaps were opened with th
 IDEA-008). The scores are unchanged for every candidate except IDEA-005, IDEA-008 and IDEA-010;
 the reasons are recorded under each candidate and in `idea_register.md`.
 
+**Cycle 57 — G-33 sample read kills prospective arm A; R-036 screen; no score change.** Cycle 57
+executed the pre-registered G-33 quantification-rate sample read on the IAS 8.30(b)/ESMA-expected
+pre-adoption IFRS 18 impact disclosure across six issuers (Repsol S.A., Euronext Securities Athens,
+Airbus SE, Haleon plc, Standard Life plc, Saudi Tadawul Group Holding Co.) reading their H1/Q2 2026
+interim reports (periods ending 30 June 2026). Result: disclosure present 6/6; quantified expected
+effect 0/6; units none; comparability not established (no numbers); ex-ante availability yes (~1–2
+months after period end). All six disclosures are qualitative only — "still assessing", "evaluating",
+"will examine impact", "assessment remains ongoing" — with none stating a quantified expected change
+in operating profit or any subtotal. The G-33 kill condition (unquantified in the large majority of
+the sample) is met at 6/6 (100 %), so prospective arm A is killed and IDEA-011 returns to blocked on
+the group A/group B partition with the event-count hard stop **unrelieved**. **No score change**
+(69.0, rank 1); the Cycle-35/52 precedent applies. Cycle 57 also ran one new mechanism family screen
+— cross-session price formation (the stale-price window between a closed session and the next open) —
+logged as a **bounded negative (R-036)** on five independent reasons (S-287 … S-290), and added that
+family to the known-baseline table (row 66). **No candidate was created; no score changed.**
+Next free identifiers: **IDEA-017, S-291, V-012, G-34, R-037, P-014**.
+
 **Cycle 13 applied the same two standing questions to every active candidate and then read the
 register's own top candidate against the 2024–2026 literature it had not yet seen. The result is the
 first rank-1 rejection in the register's history: IDEA-001 RECON-FLOW is rejected (R-011)** — the
