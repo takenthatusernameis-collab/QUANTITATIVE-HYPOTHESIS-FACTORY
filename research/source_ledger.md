@@ -3354,3 +3354,8 @@ here including the negative ones**, as the handoff required.
   that this validation is performed before any specification is written.
 
 ---
+
+## Cycle 8 — primary gaps (bounded-negative closures, 2026-10-20)
+
+- **G-16 — closed as bounded negative (literature side).** Web research confirms no freely available, decision-time public proxy for dealer balance-sheet stress in credit: dealer balance-sheet data remain proprietary/non-public, and published substitutes (standing repo facility take-up; TRACE dealer-position and interdealer-spread measures) are different constructs that have not been validated against any dealer-balance-sheet measure. IDEA-010's precondition therefore remains unmet; IDEA-010 stays retained only on the condition that a validated proxy is later found, and no validation specification is written. (Consistent with the prior handoff's stated finding; the search provider rate-limited during this cycle, so this is a bounded negative, not an exhaustive search.)
+- **G-04 — IDEA-004 crowd-depth proxy validity: remains open.** No new public, decision-time crowd-depth series was located; borrow depth remains broker-gated/proprietary. The publication cadence of the existing proxy is timely on the filing cadence (per the Cycle 7 correction), so the binding question is proxy *validity*, not timeliness. IDEA-004 (rank 2) remains constrained by this gap; no new candidate introduced.
