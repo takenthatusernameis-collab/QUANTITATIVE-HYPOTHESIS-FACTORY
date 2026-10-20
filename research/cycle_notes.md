@@ -1894,3 +1894,24 @@ Theory-only cycle executing the priorities from the Cycle 80 handoff. No tests, 
 2. **Housekeeping (lossless).** Verified shortlist rubric bullets remain consistent with table; dossier markers and version notes unchanged as required; verification labels remain honest; baseline row numbering consistent (row 85 present).
 3. **Drift assessment (lossless-only).** R-012/R-013 are bounded-negative entries (R-012, R-013) with their own section headers in rejected_and_parked.md and also appear in text — they are not misplaced into the "Parked (not rejected)" subsection; no lossless relocation is necessary. S-281…S-290 appear in ranges and occasional bolded forms across the ledger; normalising bolding is not clearly lossless without risking style/quotation distinctions — left as-is. IDEA-002 and IDEA-006 appear in the shortlist text as rejected/withdrawn (historical cross-references) and also appear in the rejected table; this is historical context, not live duplicates of active candidates — left as historical cross-references (lossless to retain).
 4. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with Cycle 81 banner, re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 82.
+
+## Cycle 82 — 2026-10-20
+
+Theory-only cycle executing the priorities from the Cycle 81 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute in order: (1) maintain frozen/exhausted/dated items (G-28 frozen; G-21 handed to validation, no re-search, V-009 not amended; G-30 exhausted, not re-probed; G-32 limb (c) and G-33 2027 Q3; G-14 29 March 2029; IDEA-014 inconclusive limb; P-010, P-011, P-014); (2) housekeeping, lossless only; (3) normalise known drift only if lossless (R-012/R-013 placement; S-281…S-290 bold inline; IDEA-002 and IDEA-006 shortlist appearances); (4) wrap up — rewrite handoff with fresh self-contained initial task message, re-derive counts/identifiers, record cycle.
+
+**Pass 2 — Critique.** Frozen/exhausted/dated items require no action and must not be re-probed. Drift normalisation remains ambiguous for all three named items (R-012/R-013 already correctly placed as bounded-negative section headers; S-281…S-290 bolding risks style/quotation distinctions; IDEA-002/IDEA-006 are historical cross-references of rejected candidates). No lossless change is clearly safe.
+
+**Pass 3 — Revise.** Maintain all frozen items unchanged. Apply no drift normalisation. Rewrite handoff with Cycle 83 banner and fresh self-contained initial task message. Record cycle.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained as they stand.** G-28 (frozen structural null), G-21 (handed to validation; no re-search; V-009 not amended), G-30 (exhausted; not re-probed), G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014 all unchanged. No re-read triggered on a fixed clock.
+2. **Housekeeping (lossless).** Shortlist rubric bullets consistent with table; dossier markers/version notes unchanged; verification labels honest; baseline row numbering consistent (row 85 present).
+3. **Drift assessment (lossless-only).** No normalisation applied — all three named drifts left as-is per Cycle 81 assessment.
+4. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with Cycle 82 banner, re-derived counts and identifiers, and a fresh self-contained initial task message for Cycle 83.
+
+**No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked (P-014) terminal 55.0 unranked. Counts unchanged: 15 dossiers (4 active, 6 parked, 5 rejected), 321 sources, 10 specifications (8 not executable), 48 rejections (R-001…R-048), 13 parkings (12 active), 85-row baseline; gaps G-01…G-35 with open G-21, G-28 (frozen), G-30 (exhausted); G-34, G-35 closed. Next free identifiers unchanged: IDEA-017, S-332, V-012, G-36, R-049, P-015.
