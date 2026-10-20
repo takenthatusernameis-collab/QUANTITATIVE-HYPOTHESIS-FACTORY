@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 35 complete** (G-22 **executed** and closed against IDEA-003, which is **parked (P-012)** and leaves the active ranking; G-23 closed **in IDEA-010's favour** on a re-anchored cross-sectional identification, with the 1–10 session horizon preserved and the effective sample registered as G-27; G-18 closed as a bounded negative that supersedes its own premise, G-04 restated and G-28 opened for IDEA-004; G-21 narrowed to a named first-adopter/second-adopter discriminator for IDEA-011, and IDEA-015's limb confirmed so P-011 stands; G-24 and G-25 closed as bounded negatives for IDEA-014's conditional version, the claimed RGGI replacement state having never existed; two mechanism families screened and bounded negative, R-014 and R-016; eleven new sources, S-220 … S-230; **no score changed**), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–35's own changes are recorded in each dossier's "Cycle 30"/"Cycle 31"/"Cycle 32"/"Cycle 35" block and in `cycle_notes.md`.* The
+Last updated: **Cycle 37 complete** (the decisive finding is a **correction**: Cycle 36's claim that broker-dealer firm-level regulatory capital is not publicly available is **withdrawn as incorrect** — Form X-17A-5 is a public EDGAR form type and the net-capital figures of private, non-listed authorised participants are in publicly indexed filings, S-231 … S-234 — so **G-27 is closed in IDEA-010's favour** on state availability, with per-firm cadence, document-level format and cross-regime comparability registered as the verdict's qualifications, and **G-29 opened** for the ETF → authorised-participant mapping and the coverage count that now bounds the effective sample; **G-28 confirmed open and sharpened** for IDEA-004 by naming the one constructible convergence-crowd route (13F holdings-matching) and the four reasons it fails; **G-21 confirmed null** for IDEA-011 with the first-adopter/second-adopter drift comparison written down so it can be handed over; IDEA-014's state-free existence limb confirmed inconclusive; two mechanism families screened and bounded negative — **R-017** (the Cycle-36 ex-dividend screen, written for real) and **R-018** (the Rule 201 short-sale price-test circuit breaker, a genuinely different template from the compliance-deadline family, whose effect is published and peer-reviewed, S-236 … S-238); eight new sources, S-231 … S-238; **no score changed**), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–37's own changes are recorded in each dossier's "Cycle 30"/"Cycle 31"/"Cycle 32"/"Cycle 35"/"Cycle 37" block and in `cycle_notes.md`.* The
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
 **Closure passes: seven candidates have now been demoted — six by their own literature and one by a
 publication calendar.** IDEA-007 was
@@ -451,9 +451,12 @@ reversal statistically separable from awareness and information-leakage explanat
 ## IDEA-002 — FUNDSTATE: intermediary funding cost as a state variable for flow-driven price impact
 
 - **ID / short name:** IDEA-002 / FUNDSTATE
-- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** shortlisted · **Version:** 1.0
+- **Date added:** 2026-10-19 · **Cycle:** 1 · **Status:** parked (P-004, feasibility precondition G-01 open) · **Version:** 1.0
 - **Change notes:** v1.0 — initial dossier. The components are well established; the *combination*
-  (funding state × order-flow impact asymmetry) is the candidate.
+  (funding state × order-flow impact asymmetry) is the candidate. **Status field corrected in Cycle
+  37** — it still read "shortlisted" although the candidate has been parked as P-004 since Cycle 5
+  (G-01: no public continuous dealer funding-value-adjustment series); the ranked shortlist already
+  recorded it as parked.
 
 **One-sentence hypothesis.** When intermediary funding costs are high and dealers' balance sheets
 are constrained, flow-driven price impact is larger and more persistent than when funding is cheap,
@@ -1275,6 +1278,44 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
   *definition* rather than its availability), resilience 3 → 3 (unchanged), data 3 → 3 (unchanged).
   **Rank 2, unchanged** (tied with IDEA-011 at 69.0; the tie is broken in IDEA-011's favour on
   falsifiability, 4 versus 3).
+
+#### Cycle 37 block — IDEA-004 · G-28 CONFIRMED open, and the register now says why in a way a validator can act on
+
+- **What Cycle 37 did.** It did not search for a new candidate; it took the load-bearing gap on this
+  dossier — **G-28, the convergence-crowd position-concentration measure** — and asked the question the
+  bare verdict "not constructible from published data" left open: *is there a construction route, and
+  if so why does it fail?* The verdict is unchanged (**open**), but the gap now names the route and
+  the four reasons it is insufficient, so the next agent does not have to re-derive them.
+- **The route that had not been named.** A position-concentration measure of the convergence crowd
+  could in principle be **constructed from Form 13F holdings**: a manager disclosing long holdings in
+  *both* legs of a pair, or in a merger-spread constituent and its acquirer, is by construction running
+  convergence capital, and the disclosed holdings give the positions. The published crowding
+  measures are *neighbours, not substitutes*: S-026's Days-ADV over hedge-fund holdings and S-222's
+  crowding factor measure **all** 13F institutional investors — directional positioning — and S-157's
+  comomentum measures arbitrage activity inferred from return correlations without identifying who is
+  doing it.
+- **Why the route still fails the register's bar.**
+  1. **It is a construction, not a published measure.** The register's data rule requires a published
+     state from a primary source. A register-built measure would have to be validated against an
+     outcome before it could condition a rule, and validating it requires the outcome and the
+     crowding state simultaneously.
+  2. **It captures only the visible long leg.** Form 13F reports long Section 13(f) positions only —
+     no shorts, no swaps, no credit instruments — so a convergence trade whose decisive leg is short
+     is invisible, and a manager who has hedged a leg away is indistinguishable from one who never
+     had it.
+  3. **It cannot separate convergence capital from a coincident directional holder.** A manager
+     holding both legs of a pair for reasons other than convergence is counted identically.
+  4. **It cannot support the cadence the rule needs.** The register's already-established 45-day 13F
+     filing lag makes the measure a quarter-slow, while IDEA-004's rule is re-anchored to its own
+     cadence; a state that cannot be refreshed at the rule's frequency cannot condition it.
+- **What would change the verdict.** A *published* measure of convergence-crowd position concentration
+  at the candidate's own cadence, or a published validation of the holdings-matching construction
+  against an outcome. The register must not substitute a published crowding measure (S-026, S-157,
+  S-222) for the candidate's own crowd.
+- **Effect on V-002.** **Remains frozen**, for the same reason and now with the reason written down.
+  No re-specification is written while frozen.
+- **Score: 69.0, unchanged. Rank 2, unchanged.** No new source bears on this candidate's score
+  components, and the gap's status did not change.
 
 ---
 
@@ -2742,6 +2783,62 @@ re-scored to 68.0, enters the top three, and receives V-010
   public in principle; the residual costs are now registered in G-27 rather than in G-23). **Rank 3,
   unchanged.**
 
+#### Cycle 37 block — IDEA-010 · the state-availability residual is CLOSED IN THE CANDIDATE'S FAVOUR
+
+- **What Cycle 37 did.** It executed the check that Cycle 36 declined to execute, and found that
+  **Cycle 36's central negative claim was wrong**. Cycle 36 recorded the firm-level public
+  availability of broker-dealer regulatory capital as untested, on the stated ground that FOCUS
+  reports "are not generally disseminated as regular public datasets in the same way that FR Y-9C or
+  call-report data are disseminated". That is a statement about a *dataset*, and it was used as a
+  statement about the *data*. It is false: **Form X-17A-5 is a public EDGAR form type, and the
+  net-capital figures of broker-dealers are in publicly indexed documents** (S-231, fetched directly;
+  6,131 public X-17A-5 documents contain "excess net capital").
+- **The route, precisely.** (i) **Private, non-listed APs** — Form X-17A-5 annual filings on EDGAR:
+  Citadel Securities (three CIKs; the FY2025 Institutional filing `CSIN_BS_Only_FS_2025.pdf` is
+  publicly indexed and matches "excess net capital"), Virtu Americas (FY2017–FY2025, file
+  descriptions "PUBLIC REPORT" / "PUBLIC ANNUAL REPORTS"), KCG Americas, AllianceBernstein
+  Investments (whose FY2018 document has file type **"COMP NET CAP"**), RFQ-Hub Americas, IEX
+  Services (S-231, S-232). (ii) **Listed broker-dealers** — quarterly, XBRL-tagged disclosure of net
+  capital, required net capital and excess net capital in Exchange Act periodic reports (S-233:
+  LPL Financial's Form 10-Q exhibit R27, as of 31 December 2024). (iii) **Bank APs** — FR Y-9C and
+  call reports, already in the register (S-226). (iv) **Routes that are closed**: FINRA's BrokerCheck
+  does not release firm-level net capital and FINRA publishes excess net capital only in aggregate by
+  firm-size bucket (S-234) — so a specification must use the filings, not FINRA's tables.
+- **G-27 closed in the candidate's favour on availability, with three qualifications that are part of
+  the verdict.** (a) **Cadence is firm-dependent**: annual for private broker-dealers (fiscal
+  year-end, filed February–March, so 40–90 days stale at any decision date), quarterly for listed
+  broker-dealers and bank holding companies, and quarterly for at least some private filers (S-231
+  records a period ending 30 September 2024) — the register must *measure* it per firm rather than
+  assume it. (b) **Format is document-level**: the route requires parsing per firm per year from
+  EDGAR, using the public full-text index to locate the documents; this is why the data score does
+  not move (available in principle, but not a tidy dataset). (c) **Comparability**: FOCUS net capital
+  is a liquidity-style quantity and is not commensurable with a bank holding company's risk-based
+  ratios, nor does an asset-manager AP have an equivalent — so the cross-sectional contrast must be
+  built within a comparable capital regime, or the mapping must be justified explicitly.
+- **G-29 opened — the ETF → AP-set mapping and the coverage count that now bounds the candidate.**
+  IDEA-010's identification is a *cross-sectional* contrast, so the state must be attached to an ETF
+  through the identity of the firms that arbitrage it. Two facts are needed and only one is
+  established: **which corporate-bond ETFs name their authorised participants in a public filing**
+  (trade press reported in April 2024 that the iShares Bitcoin Trust prospectus names its APs —
+  a lead, not a verified source, and deliberately not entered in the ledger as one; the
+  corporate-bond ETF summary prospectuses read in Cycle 37 disclose authorised-participant *risk*
+  generically and do **not** name them), and **how many (ETF, AP) cells have both a published AP-set
+  membership and a public capital ratio**. The register must not re-specify around a weaker proxy
+  (S-026's Days-ADV crowding, S-157's comomentum, S-222's crowding factor): those measure all 13F
+  institutions, i.e. directional positioning, not the arbitrage capital the candidate's state is.
+- **V-010 amended** (see `validation_handoffs.md`): the capital state must be reconstructed from
+  filings with the per-firm cadence measured, the comparison held within a comparable capital regime,
+  and the G-23 effective-sample report extended with the G-29 coverage count.
+- **Score: 68.0, unchanged. Rank 3, unchanged.** No score moves: the state was already scored as
+  public *in principle* (data 4/5), and the finding changes the route's *specificity*, not the
+  candidate's novelty, falsifiability or evidence. What changes is the register's knowledge: the
+  candidate is no longer blocked by a false negative, and is now blocked by a **countable** one
+  (G-29) plus the effective-sample condition already registered.
+- **Hard-stop flags added in Cycle 37.** (i) The state may not be described as a tidy public dataset;
+  it must be described as **filings**, with per-firm cadence. (ii) The cross-sectional contrast may
+  not mix capital regimes without an explicit mapping argument. (iii) The candidate may not proceed
+  until the G-29 coverage count is produced, because the effective-sample count depends on it.
+
 ---
 
 ---
@@ -2881,6 +2978,31 @@ re-scored to 68.0, enters the top three, and receives V-010
   quantity), novelty 3 → 3 (unchanged), falsifiability 4 → 4 (unchanged), resilience 3 → 3 (unchanged),
   data 4 → 4 (unchanged). **Rank 1, unchanged** (tied with IDEA-004 at 69.0 and ahead of it on
   falsifiability, 4 versus 3).
+
+#### Cycle 37 block — IDEA-011 · G-21 CONFIRMED null, and the comparison is now written so it can be handed over rather than re-searched
+
+- **What Cycle 37 did.** It searched once more for any published study that compares post-earnings-
+  announcement drift between **first-time** and **second-time** adopters of a common accounting
+  standard, and found none. G-21 therefore remains a **null**: the register holds no evidence either
+  way, and the discriminator remains **untested**, not refuted. This is the second consecutive cycle
+  in which no new evidence on this candidate has been found; the candidate is not being worked on
+  because it is exhausted, but because its residual is now fully specified.
+- **The comparison, written down exactly.** For a common accounting standard adopted by two groups of
+  jurisdictions — group A mandating it for the **first time**, group B mandating a standard the
+  jurisdiction's firms had already adopted voluntarily or under an earlier mandate — compare the
+  **post-earnings-announcement drift** (abnormal return in a fixed window after the earnings
+  announcement date) of adopting firms in group A with that of firms in group B, in the same calendar
+  window, controlling for size, industry and market. The register already holds the two things that
+  make the comparison executable at all: the published adoption calendar, and the
+  mandatory-versus-voluntary-adopter contrast in S-220 — whose outcomes are liquidity, cost of capital
+  and valuation, **not** drift, and whose voluntary arm is self-selected, which is exactly why the
+  *first-adopter versus second-adopter* comparison is the needed one.
+- **What the comparison would and would not settle.** It would settle whether a comparability clock
+  (as opposed to a generic "the numbers changed" effect) is what produces the drift increase. It
+  would **not** settle the candidate's information-quality conditioning: that is a second, orthogonal
+  requirement, and the register's own Cycle-35 hard-stop flag (enforcement concentration is published,
+  S-221) still binds.
+- **Score: 69.0, unchanged. Rank 1, unchanged.** No new source bears on any score component.
 
 ---
 

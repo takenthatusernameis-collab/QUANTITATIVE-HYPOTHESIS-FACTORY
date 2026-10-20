@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–5
+# SOURCE LEDGER — CYCLES 1–37
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -39,6 +39,24 @@ and opens **G-27** (IDEA-010's effective sample and state-frequency residual) an
 crowd-definition residual). The register now holds **S-001 … S-209** and **S-220 … S-230**; the
 identifiers **S-210 … S-219** were reserved by an unwritten cycle and are **not used** (see the note
 below).
+
+Cycle 37 (2026-10-20) added **S-231 … S-238** (see "Cycle 37 sources" at the end of this file), the
+**"Cycle 36 gap verdicts"** block (recorded in Cycle 37, because Cycle 36's verdicts existed only in
+the cycle log and the handoff prose and were never written into this file — a state-integrity gap of
+the same kind as the Cycle-35 repair), and the **"Cycle 37 gap verdicts"** block. Cycle 37's
+decisive finding is that **Cycle 36's central negative claim was wrong**: firm-level broker-dealer
+regulatory capital **is** publicly available, in EDGAR-indexed public filings (Form X-17A-5), for
+private and non-listed broker-dealers including Citadel Securities, Virtu Americas, KCG Americas and
+AllianceBernstein Investments, and in Exchange Act periodic reports for listed broker-dealers. **G-27
+is closed in IDEA-010's favour on state availability**, **G-29 is opened** (the ETF → AP-set mapping
+and the resulting coverage/effective-sample count), **G-28 is sharpened** (the one constructible
+convergence-crowd route is named and the reason it fails is stated), **G-21 is confirmed as a null**
+and IDEA-014's state-free existence limb is confirmed inconclusive. Cycle 37 also logged the
+Cycle-36 ex-dividend family screen **for real** (R-017) and ran a new mechanism family screen on
+the **Rule 201 short-sale price-test circuit breaker**, a genuinely different template from the
+compliance-deadline family, which is a **bounded negative** (R-018) because the effect is published
+and peer-reviewed (S-236). The register now holds **S-001 … S-209** and **S-220 … S-238**; the
+identifiers **S-210 … S-219** remain reserved and unused.
 
 > **Note (Cycle 35 state-integrity repair).** The Cycle 33 header that stood here — and the Cycle 34
 > handoff that repeated it — asserted a set of artifacts that **have never existed in any file in this
@@ -4817,3 +4835,387 @@ IDEA-004's claim is that the **depth of the crowd** in a convergence trade is a 
 
 ### Record of the Cycle-35 state-integrity repair
 Checked on 2026-10-20, file by file and against the full git history: the Cycle-33 header and the Cycle-34 handoff asserted **S-210 … S-218**, the "Cycle 33 sources" and "Cycle 33 gap verdicts" blocks, **IDEA-016**, **V-011**, **R-014**, **P-012**, **P-013** and a formal **G-25** verdict, none of which exist or ever existed. Cycle 35 replaced the false header, **executed** the two claimed closures that are research questions (G-22 → P-012; G-23 → the V-010 amendment), **wrote R-014** for real, and re-derived the Cycle-34 claim about G-24/G-25 from Cycle 34's own recorded conclusion rather than from the unwritten RGGI dossier. The identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013 are reserved and unused**; the next free identifiers are therefore **IDEA-017, S-231, V-012, G-29, R-017 and P-014**, with IDEA-016, S-210 … S-219, V-011, G-26 and P-013 deliberately left unused inside their reserved ranges so that no identifier can collide with a later reconstruction of the missing Cycle-33 work.
+
+---
+
+## Cycle 36 gap verdicts (recorded in Cycle 37, 2026-10-20)
+
+**Why this block exists.** Cycle 36's verdicts were written into the cycle log and the handoff prose
+but never into this file, which is the register's canonical home for gap verdicts. That is the
+state-integrity failure the Cycle-35 repair was created to stop: a verdict that exists only in prose
+cannot be checked against the artifact set. Cycle 37 re-derives Cycle 36's conclusions from the
+Cycle-36 cycle-log entry and the Cycle-36 handoff text, writes them here, and then **supersedes one
+of them** on new evidence.
+
+### G-27 — as recorded by Cycle 36: "untested" — **WITHDRAWN by Cycle 37, see the Cycle-37 verdicts block below**
+Cycle 36 recorded the effective-sample and state-frequency residual for IDEA-010 as untested, on the
+stated ground that "broker-dealer firm-level regulatory capital ratios are not publicly available in
+a comparable, machine-readable, decision-time form across the full AP set" and that "broker-dealers
+file FOCUS reports which are not generally disseminated as regular public datasets in the same way
+that FR Y-9C or call-report data are disseminated". The claim was reasonable on its face and it was
+**not checked against EDGAR in that cycle**. Cycle 37 checked, and the claim is withdrawn: Form
+X-17A-5 is a **public** EDGAR form type and the net-capital figures are in publicly indexed
+documents (S-231, S-232, S-238).
+
+### G-28 — as recorded by Cycle 36: "not constructible from published data" — **CONFIRMED, and sharpened by Cycle 37**
+Cycle 36 concluded that the convergence/arbitrage crowd's position-concentration measure is not
+constructible from published data, so IDEA-004's rule cannot be specified and V-002 stays frozen.
+Cycle 37 confirms the conclusion but replaces the bare statement with a named alternative
+construction and the reason it still fails (see the Cycle-37 verdicts block).
+
+### G-21 — as recorded by Cycle 36: null — **CONFIRMED by Cycle 37**
+Cycle 36 found no new evidence on the first-adopter-versus-second-adopter post-earnings-announcement
+drift comparison, so the discriminator remains untested by any published work. Cycle 37 searched once
+more and confirms the null, then writes the comparison down precisely so that the next agent can
+hand it to a validator rather than re-search it.
+
+### IDEA-014's state-free existence limb — as recorded by Cycle 36: inconclusive — **CONFIRMED by Cycle 37**
+Cycle 36 could not establish whether a state-free "does the pattern exist at all" limb exists for
+IDEA-014's family. Cycle 37 confirms the inconclusive status; the limb stays open.
+
+### The Cycle-36 ex-dividend family screen — logged as **R-017**
+Cycle 36 ran a family screen on **ex-dividend date mechanics** — a dated, mechanical, price-insensitive
+supply event — and recorded it as a bounded negative. The result existed only in the cycle log; the
+artifact was never written. Cycle 37 wrote it as **R-017** in `rejected_and_parked.md` (see there for
+the full entry and the reason the family is a baseline). No source was added for it because the
+screen asserts no external claim beyond the mechanical nature of the ex-dividend price adjustment.
+
+---
+
+## Cycle 37 sources (2026-10-20)
+
+Eight entries, located and metadata-checked in Cycle 37. Five support the G-27 state-availability
+correction (S-231 … S-235) and three support the Cycle-37 family screen on Rule 201 (S-236 … S-238).
+The register's rule is applied strictly: **"fetched directly"** means the document or its bibliographic
+or machine-readable record was retrieved and parsed in this session; **"index-rendered"** means it was
+read only through a search-engine index render and must be re-verified before any implementation
+relies on it.
+
+### S-231 — U.S. Securities and Exchange Commission, **EDGAR full-text search (document-level index of public filings)**, queried for Form X-17A-5.
+- **Type and relevance:** primary regulator evidence for the single most important finding of Cycle 37:
+  **Form X-17A-5 (the FOCUS report) is a public EDGAR form type, and the net-capital figures of
+  broker-dealers are in publicly indexed documents.** This is the filing route by which a *private*,
+  non-listed authorised participant's firm-level regulatory capital can be obtained. The FOCUS
+  submission carries distinct document types — "FULL", "COMP NET CAP" (computation of net capital),
+  "COMP RESERV REQ", "STMT FIN COND", "STMT FIN COND NOTES" — and, for some filers, a "PUBLIC REPORT"
+  and a "CONFIDENTIAL" document in the same submission.
+- **Verification:** **fetched directly** — the EDGAR full-text search JSON API was called and parsed in
+  this session. Query `q="excess net capital"&forms=X-17A-5` returns **6,131** public documents;
+  `q="net capital"&forms=X-17A-5` returns **10,000+** (the API's "gte" ceiling). Firm-specific
+  queries return, for example: **Citadel Securities Institutional LLC** (CIK 1649718), FY2025,
+  document `CSIN_BS_Only_FS_2025.pdf`, file type "FULL", filed 27 February 2026, matching "excess net
+  capital"; **AllianceBernstein Investments, Inc.** (CIK 732760), FY2018, document
+  `fscompaltnetcap.pdf`, file type **"COMP NET CAP"**, filed 28 February 2019; **Virtu Americas LLC**
+  (CIK 1457716), eight documents FY2017–FY2025, file types "FULL"/"STMT FIN COND"/"STMT FIN COND
+  NOTES", file descriptions "PUBLIC REPORT", "PUBLIC ANNUAL REPORTS", "SOFC"; **KCG Americas LLC**
+  (CIK 1457716), two documents; **RFQ-Hub Americas LLC** (CIK 1947629), submissions carrying both a
+  "PUBLIC REPORT" and a "CONFIDENTIAL" file description; **Citadel Securities LLC** (CIK 1146184), 26
+  X-17A-5 documents spanning FY2016–FY2025; **Citadel Securities Institutional LLC** (CIK 1649718), 28
+  documents; **Citadel Securities Swap Dealer LLC** (CIK 1947163), eight documents across two
+  display-name variants; **IEX Services LLC** (CIK 1576413); **ACS Execution Services LLC** (period
+  endings 2024-12-31 and 2025-12-31); **Agentis Capital Markets US, LLC** (period ending **2024-09-30**,
+  i.e. a *quarterly* filing exists for at least some filers). The Citadel-keyword query
+  `q="Citadel Securities"&forms=X-17A-5` returns **68** documents in total across those filers.
+- **Caveats:** the search API was fetched directly, but **the underlying filing documents were not
+  opened** — direct `sec.gov/Archives` fetches returned HTTP 403 in this environment, so the *values*
+  of net capital and excess net capital were not read line by line. The API confirms that the phrases
+  occur in publicly indexed documents of the named firms; it does not by itself confirm which line
+  items each document carries. **A note on what the index does and does not establish:** the index
+  covers documents EDGAR has *publicly posted*, but a document's **file description is a filer-supplied
+  label, not an access rule** — the RFQ-Hub Americas submission, for example, carries one document
+  labelled "PUBLIC REPORT" and another labelled "CONFIDENTIAL", and **both are posted and indexed**.
+  So the correct inference is "the net-capital figures are in documents that EDGAR has publicly
+  posted", not "the filer's own confidential label is what the index excludes". A validator who needs
+  the *values* must open the document and read them.
+- **Supports:** **G-27 limb 1** — the state-availability question for IDEA-010. It is the direct
+  refutation of Cycle 36's claim that firm-level broker-dealer regulatory capital is not publicly
+  available, and it establishes the *document-level* nature of the route (which is why the register's
+  data score is unchanged at 4/5: available in principle, but not a tidy dataset).
+
+### S-232 — Alden Associates, Inc., **Form X-17A-5 Part III annual report** (public annual audit report filed on SEC EDGAR).
+- **Type and relevance:** a specimen of the *public* annual FOCUS filing, used to establish the shape
+  of the document the state would be read from: the cover caption is "FOCUS Report with computation of
+  net capital or tangible net capital", and the statement of financial condition opens with "Total
+  Assets …" followed by "Liabilities and …".
+- **Verification:** read through a **search-index render** of the filing document; **not fetched
+  directly** (`sec.gov/Archives` returned HTTP 403 in this environment).
+- **Caveats:** index-rendered only; the specimen is a small broker-dealer, not an authorised
+  participant; the specific "Net capital" and "Excess net capital" line values were **not** read in
+  this cycle. The document's own caption is suggestive but is not by itself proof that the computed
+  values are in the public part of a filing.
+- **Supports:** G-27 limb 1, as the specimen of the document type; it must be replaced by a directly
+  read document for a major AP before the state is relied upon (this is carried into G-29).
+
+### S-233 — LPL Financial Inc., **Form 10-Q, Exhibit R27, "Net Capital and Regulatory Requirements"** (XBRL-tagged).
+- **Type and relevance:** the *listed* broker-dealer route to the same quantity: a public, **quarterly**,
+  XBRL-tagged table giving Net capital, Less: required net capital, and Excess net capital for the
+  registrant's broker-dealer subsidiary (LPL Financial LLC) — shown as net capital $443,742 thousand,
+  required net capital $19,426 thousand, excess net capital $424,316 thousand, as of the period ended
+  31 December 2024. This is the quarterly, machine-readable half of the state route.
+- **Verification:** read through a **search-index render** of the SEC-hosted exhibit; **not fetched
+  directly** (`sec.gov/Archives` returned HTTP 403 in this environment).
+- **Caveats:** index-rendered only; a single issuer's exhibit; the XBRL tags are as rendered by the
+  index, not confirmed against the filing's own taxonomy.
+- **Supports:** G-27 limb 1 (the listed-broker-dealer, quarterly route) and the register's statement
+  that the state's cadence differs by AP type — annual for private broker-dealers, quarterly for
+  listed broker-dealers and bank holding companies.
+
+### S-234 — FINRA, **BrokerCheck disclosure framework (Rule 8312; Regulatory Notice 09-66) and FINRA's published firm-data pages (Industry Snapshot, "Firm Data"; 2026 Annual Regulatory Oversight Report, "Net Capital")**.
+- **Type and relevance:** establishes the *negative* half of the availability question, which the
+  register needs as much as the positive half: FINRA's BrokerCheck disclosure set covers registration,
+  disciplinary actions, arbitration awards, Form BD and IAPD information and **does not release
+  firm-level net capital**, and FINRA publishes **excess net capital only as an aggregate by firm-size
+  bucket** (Industry Snapshot, "Excess Net Capital By Firm Size"), not firm by firm. FINRA's
+  regulatory-oversight reporting separately confirms that net capital under SEA Rule 15c3-1 is a
+  monitored quantity and that failures to report a net-capital deficiency are a supervisory finding.
+- **Verification:** read through **search-index renders**; **not fetched directly**.
+- **Caveats:** index-rendered only; the exact enumerated disclosure set of Rule 8312 must be confirmed
+  against the rule text before it is cited in a specification. The aggregate-by-size publication is a
+  statement about FINRA's *published tables*, not about what FINRA holds internally.
+- **Supports:** G-27 limb 1 (route selection — a candidate cannot use BrokerCheck or FINRA's aggregate
+  tables for firm-level state) and the register's decision to treat the FOCUS/10-Q/FR Y-9C filings as
+  the only firm-level routes.
+
+### S-235 — U.S. Securities and Exchange Commission, **press release 2010-26, "SEC Approves Short Selling Restrictions" (24 February 2010)**, and the Division of Trading and Markets **FAQs on Rule 201 of Regulation SHO (17 CFR 242.201)**.
+- **Type and relevance:** primary regulator material stating the mechanics of the Rule 201
+  alternative uptick rule: the circuit breaker is triggered when a covered security's price declines
+  by 10 % or more from the prior day's closing price; the price-test restriction then applies to
+  short sale orders "for the remainder of the day and the following day"; a further 10 % decline
+  re-triggers it; orders may be marked "short exempt" in defined categories; compliance was required
+  from 28 February 2011.
+- **Verification:** read through **search-index renders** of the SEC's own pages; **not fetched
+  directly**.
+- **Caveats:** index-rendered only; the rule text itself (17 CFR 242.201) should be cited directly in
+  any specification.
+- **Supports:** **R-018** — the rule facts of the Cycle-37 family screen (a *published, real-time
+  threshold* that switches off a seller for a *published, bounded duration*).
+
+### S-236 — Barardehi, Y., Bird, A., Karolyi, S. A. and Ruchti, T. G. (2025), "Are Short-selling Restrictions Effective?", *Management Science* 71(5), 3829–3851. DOI: 10.1287/mnsc.2024.4987.
+- **Type and relevance:** peer-reviewed, published, **positive** result on exactly the claim a Rule-201
+  candidate would have to make. Using quasi-random variation from the −10 % threshold rule, it finds
+  that "the restriction leads to 8% lower short-sale volume and 35 bps higher daily returns" and that
+  "these price effects do not reverse after the restriction is lifted"; the working-paper key findings
+  also report "narrower spreads and an increase in depth at best-ask price", consistent with short
+  sellers switching from removing liquidity to providing it. The identification is a threshold design
+  comparing stocks on either side of the trigger in the same hour.
+- **Verification:** bibliographic record **cross-checked across three independent records read through
+  search-index renders** — the EconPapers entry (journal, volume, issue, pages, abstract), the Chapman
+  University Digital Commons record (DOI, journal, pages, publication date 22 August 2024) and the
+  Office of Financial Research working-paper version (OFR WP 23-08, published 11 October 2023, with
+  authors' affiliations and the abstract). The *journal* PDF was **not** fetched.
+- **Caveats:** the numbers quoted above are from the abstract and the working-paper key findings, which
+  agree; the published version's point estimates may differ in the third decimal and must be taken from
+  the journal version before any use. The working paper also notes that the short-selling opportunities
+  restricted by Rule 201 "are transient in nature", which is itself a constraint on any trade built on
+  the trigger.
+- **Supports:** **R-018** — the family is a **baseline**, not a candidate. The mechanism, the
+  identification and the positive sign are all published.
+
+### S-237 — Molnár (2022), "Are shorts restricted when options are an option? Evidence from SEC Rule 201", working paper, Department of Finance, Banking and Corporate Finance, WU Vienna (file `20220926_MOLNAR.pdf`).
+- **Type and relevance:** working paper establishing the *circumvention* channel for the same rule: after
+  a Rule 201 trigger, "shorting activity decreases and put option activity increases" — put option open
+  interest up 61 % and put trading volume up 87 %, call option open interest up 40 % and call volume up
+  80 % — which the author reads as "a migration of short sellers from the stock market to the options
+  market". It also states the compliance date of 28 February 2011 and the rule's terms.
+- **Verification:** read through a **search-index render** of the working-paper PDF hosted by WU Vienna;
+  **not fetched directly**. The author attribution was taken from the file name and the paper's own
+  author block was not separately confirmed.
+- **Caveats:** index-rendered only; a working paper, not peer-reviewed; the given name and the working
+  paper series number were not confirmed and are therefore not asserted here.
+- **Supports:** **R-018** — the constraint is not airtight, because a seller who cannot short the
+  equity can express the position in the option market.
+
+### S-238 — Switzer, L. N. (2023), "Circumventing SEC Rule 201 short sale restrictions with options", ScienceDirect record S154461232300363X.
+- **Type and relevance:** a second, independent statement that Rule 201 can be circumvented at low cost
+  through options, "particularly for firms with options"; it also summarises the prior literature
+  that finds short-sale bans "ineffective, or … lead to lower market quality, higher bid-ask spreads
+  [and] higher volatility".
+- **Verification:** read through a **search-index render** of the publisher record; **not fetched
+  directly**. The publisher record ID is recorded so that the entry can be re-verified.
+- **Caveats:** the **journal title was not confirmed** in this cycle and is therefore not asserted; the
+  record was seen only in the index render, so the paper's own identification and results were not read
+  in the article text.
+- **Supports:** **R-018** — corroborates S-237 on circumvention and shows the family is already a
+  published baseline rather than an open question.
+
+---
+
+## Cycle 37 gap verdicts (2026-10-20)
+
+### G-27 — **CLOSED IN IDEA-010'S FAVOUR** on state availability; the residual is restated as G-29
+
+**Verdict.** Cycle 37 executed the search Cycle 36 declined to execute, and Cycle 36's central claim
+is **withdrawn as incorrect**. Firm-level broker-dealer regulatory capital — net capital and excess
+net capital — **is publicly available**, and it is available for the *private, non-listed* authorised
+participants that the candidate's contrast actually depends on.
+
+**Evidence.**
+1. **Form X-17A-5 is a public EDGAR form type, and the net-capital figures are in publicly indexed
+   documents** (S-231, fetched directly): 6,131 public X-17A-5 documents contain the phrase "excess
+   net capital" and 10,000+ contain "net capital". The route covers **Citadel Securities** (three
+   CIKs), **Virtu Americas** (eight documents, FY2017–FY2025, file descriptions "PUBLIC REPORT" and
+   "PUBLIC ANNUAL REPORTS"), **KCG Americas**, **AllianceBernstein Investments** (whose FY2018
+   document has file type **"COMP NET CAP"** — a dedicated public computation-of-net-capital
+   document), **RFQ-Hub Americas**, **IEX Services** and others. The hits are in documents EDGAR has
+   **publicly posted and indexed**, which is the form of publicity the candidate needs; the *values*
+   still have to be read out of the documents by a validator, and the filer's own "CONFIDENTIAL"
+   description on a document is a label rather than an access rule (both descriptions are posted for
+   RFQ-Hub).
+2. **Listed broker-dealers disclose the same quantity quarterly and XBRL-tagged** in their Exchange
+   Act periodic reports (S-233: LPL Financial's Form 10-Q exhibit R27 gives net capital, required net
+   capital and excess net capital for its broker-dealer subsidiary as of 31 December 2024).
+3. **Bank authorised participants** are already covered by the register (FR Y-9C / call reports,
+   S-226).
+4. **The obvious routes are closed**, which matters for a specification: FINRA's BrokerCheck does not
+   release firm-level net capital, and FINRA publishes excess net capital only in aggregate by
+   firm-size bucket (S-234). A candidate must use the filings, not the regulator's website tables.
+
+**Qualifications that are part of the verdict, not a caveat on it.**
+- **Cadence.** Annual for private broker-dealers (fiscal year-end; filed February–March; the state is
+  therefore 40–90 days stale at any decision date), quarterly for listed broker-dealers and bank
+  holding companies. At least some filers file quarterly (S-231 records a period ending 30 September
+  2024), so the cadence is firm-dependent and must be measured per firm rather than assumed.
+- **Format.** Document-level filings, not a structured dataset: the route requires parsing per firm per
+  year from EDGAR, using the public full-text index to locate the documents (S-231, S-232).
+- **Comparability.** FOCUS net capital is a *liquidity-style* capital quantity and is **not**
+  commensurable with a bank holding company's risk-based ratios, and an asset-manager authorised
+  participant has no equivalent. A cross-sectional contrast must therefore be built within a
+  comparable class, or the mapping must be justified explicitly — this is the register's standing
+  condition on heterogeneous state (G-04's family), not a new gap.
+- **Coverage.** The public filing route is present for a *subset* of private APs and its *depth*
+  varies by firm and year (for the three Citadel CIKs the phrase is indexed for the FY2025
+  Institutional filing). The number of usable (authorised participant, year) observations is a
+  countable quantity that has **not** been counted.
+
+**What this changes, and what it does not.**
+- It **does** change the state-availability half of G-27 from "not publicly available" to
+  "publicly available, with a per-firm cadence and a document-parsing route". The register had already
+  scored the state as public *in principle* (IDEA-010's data dimension, 4/5), so **no score changes**
+  and IDEA-010 remains at 68.0, rank 3.
+- It **does not** resolve the effective-sample question. Under the re-anchored cross-sectional
+  identification (G-23) the state varies across *authorised participants*, so the relevant sample is
+  (ETF, authorised participant, redemption episode) cells, and that count now depends on a second
+  fact that is itself not established: **which ETFs name their authorised participants in a public
+  filing.** That is now **G-29**.
+- **Hard-stop flags for IDEA-010 are strengthened, not relaxed**: the state must be reconstructed from
+  filings (FOCUS for private broker-dealers, 10-Q/10-K for listed ones, FR Y-9C for BHCs) with the
+  per-firm cadence measured rather than assumed; the comparison must be within a comparable capital
+  regime; and the effective-sample report required by G-23 must now also report the **public-AP
+  coverage count** that G-29 defines.
+
+**Cycle-36 record superseded.** The Cycle-36 verdict recorded above ("untested", on the stated ground
+that broker-dealer FOCUS reports "are not generally disseminated as regular public datasets in the same
+way that FR Y-9C or call-report data are disseminated") was **true of a dataset and false of the
+filings**, and the distinction is exactly the distinction the candidate needs. The register's lesson
+is recorded: *a verdict that rests on "there is no tidy dataset" must not be recorded as "there is no
+public data" without checking the filing level.*
+
+### G-29 — **OPENED** — the ETF → authorised-participant mapping and the coverage count that bounds IDEA-010
+
+**Question.** Which corporate-bond ETFs name their authorised participants in a **public** filing, and
+how many (ETF, authorised participant) cells exist in which *both* a published AP-set membership and a
+publicly available capital ratio exist?
+
+**Why it is decisive.** IDEA-010's identification is a *cross-sectional* contrast: an ETF whose
+arbitrage capital is capital-constrained should show a different redemption-day discount behaviour
+from an ETF whose arbitrage capital is unconstrained. Mapping an ETF to a capital state requires
+knowing **which firms arbitrage it**. If the per-ETF AP set is not published, the state cannot be
+attached to an ETF and the candidate cannot be specified at all — which is a stronger version of the
+Cycle-36 verdict than the one Cycle 36 was able to state.
+
+**What is known.** (i) Some ETF statutory prospectuses do name their authorised participants: trade
+press reported in April 2024 that the iShares Bitcoin Trust prospectus lists ABN AMRO Clearing, Jane
+Street Capital, JPMorgan Securities and Citadel Securities as APs, and that a subsequent filing
+added Citadel Securities — **this is a lead read through a search-index render of trade press, and the
+prospectus itself was not read**, so it is not a verified source and is deliberately not in the
+ledger as one. (ii) The corporate-bond ETF summary prospectuses read in this cycle (iShares Core U.S.
+Aggregate Bond ETF; iShares Core 1-5 Year USD Bond ETF) disclose authorised-participant *risk* in
+generic terms — "a limited number of financial institutions that may act as Authorized Participants" —
+without naming them. (iii) The AP firms themselves name each other in their own Exchange Act filings:
+Virtu Financial's 10-K describes itself as an authorised participant in over 2,000 ETPs and names
+Citadel Securities, Susquehanna International Group, Two Sigma, Jane Street, DRW, IMC and Optiver as
+the major participants in the same business — this establishes that the AP universe is documented in
+public filings, though not the per-fund mapping.
+
+**Bounds on the answer (the register's own counting rules).** The count cannot exceed the number of
+corporate-bond ETFs (a small set) times the number of their named APs with a public capital ratio. If
+per-ETF AP naming turns out to be unavailable for bond ETFs, the candidate must **not** be
+re-specified around a weaker proxy (S-026's Days-ADV crowding, S-157's comomentum, S-222's crowding
+factor) — the register's standing condition forbids that, and the published crowding measures measure
+a *different crowd* (all 13F institutions, directional positioning) rather than the convergence crowd
+IDEA-004 needs.
+
+### G-28 — **CONFIRMED open** and sharpened: the convergence-crowd measure is still not constructible, and the register now says why in a way a validator can act on
+
+**Verdict.** IDEA-004's rule still cannot be written; V-002 stays frozen; no score change. Cycle 37
+adds the one construction route that has not previously been named, and the four reasons it is
+insufficient, so that the next agent does not have to re-derive them.
+
+**The route.** A position-concentration measure of the convergence crowd could in principle be
+**constructed from Form 13F holdings**: a manager that discloses long holdings in *both* legs of a
+pair, or in a merger-spread constituent and its acquirer, is by construction running convergence
+capital, and its disclosed holdings give the position sizes. The published crowding measures are
+neighbours, not substitutes: S-026's Days-ADV over hedge-fund holdings and S-222's crowding factor
+measure *all* 13F institutional investors, i.e. directional positioning, and S-157's comomentum
+measures arbitrage activity inferred from return correlations without identifying who is doing it.
+
+**Why it still fails the register's bar.**
+1. **It is a construction, not a published measure.** The register's data rule requires a *published*
+   state from a primary source; a measure built by the register would have to be validated against an
+   outcome before it could be used to condition a rule, and validating it requires the outcome and
+   the crowding state simultaneously.
+2. **It captures only the visible long leg.** 13F reports long positions in Section 13(f) securities
+   only: it does not disclose short positions, swaps or credit instruments, so a convergence trade
+   whose economically decisive leg is short is invisible, and a manager who has hedged one leg away
+   is indistinguishable from one who never had it.
+3. **It cannot separate convergence capital from a coincident directional holder.** A manager holding
+   both legs of a pair for reasons other than convergence is counted identically.
+4. **It cannot support the cadence the rule needs.** The register's already-established 45-day 13F
+   filing lag means the measure is a quarter-slow, while IDEA-004's rule is re-anchored to its own
+   cadence; a state that cannot be refreshed at the rule's frequency cannot condition it.
+
+**What would change the verdict.** A *published* measure of convergence-crowd position concentration
+at the candidate's own cadence — or a published validation of the holdings-matching construction
+against an outcome — would be enough. Absent that, G-28 remains open and IDEA-004's rule remains
+unspecifiable, and the register must not substitute a published crowding measure for it.
+
+### G-21 — **CONFIRMED null** — the first-adopter-versus-second-adopter drift comparison is still untested by any published work
+
+**Verdict.** Cycle 37 searched once more and found no published study that compares post-earnings-
+announcement drift between first-time and second-time adopters of a common accounting standard. The
+discriminator remains a null: the register holds no evidence either way, and the candidate's
+discriminating comparison remains **untested** rather than refuted. No score change; IDEA-011 stands
+at **69.0, rank 1** (tied with IDEA-004 on score and separated from it on falsifiability, 4 versus 3).
+
+**Written down precisely so it can be handed over rather than re-searched.** The comparison to run is:
+for a common accounting standard adopted by two groups of jurisdictions — group A mandating IFRS for
+the first time, group B mandating a standard that the jurisdiction's firms had already adopted
+voluntarily or under an earlier mandate — compare the **post-earnings-announcement drift** (abnormal
+return in a fixed window after the earnings announcement date) of the adopting firms in group A with
+that of the firms in group B, in the same calendar window, controlling for size, industry and
+market. The register already holds the two pieces that make the comparison executable at all: the
+published adoption calendar and the mandatory-versus-voluntary-adopter contrast in S-220 (Daske et
+al. 2008), whose liquidity and cost-of-capital outcomes are **not** drift outcomes and whose
+voluntary-adopter arm is self-selected — which is precisely why the register needs a *first-adopter
+versus second-adopter* comparison and why S-220 is a partial prior-art hit rather than a substitute.
+
+### IDEA-014's state-free existence limb — **CONFIRMED inconclusive**
+
+**Verdict.** Cycle 37 did not resolve whether a state-free "does the pattern exist at all" limb
+exists for IDEA-014's family (the US Renewable Fuel Standard), and no new evidence was found. The
+limb remains inconclusive: it is neither a positive finding nor a refutation, and it must not be
+described as either. IDEA-014 remains retired at zero, P-011 stands, and no additional gap is opened
+on this limb.
+
+### Cycle-37 ranking and identifier record
+
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011
+  (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014
+  (52.0)**; IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002 (63.0) remain parked. Hard-stop flags were
+  added to IDEA-010 and its gap set was rewritten (G-27 closed in its favour, G-29 opened); G-28's
+  wording was sharpened without changing its open status.
+- **New identifiers consumed in Cycle 37:** sources **S-231 … S-238**; gap **G-29**; rejections
+  **R-017** (the Cycle-36 ex-dividend screen, written for real) and **R-018** (the Cycle-37 Rule 201
+  family screen). No `IDEA-` identifier and no `V-` identifier were consumed.
+- **Next free identifiers:** **IDEA-017, S-239, V-012, G-30, R-019, P-014**. The reserved-and-unused
+  identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

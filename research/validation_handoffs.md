@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–32
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–37
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -101,6 +101,21 @@ specification may be written for it** until the replacement-state gap G-24 is cl
 remains frozen** pending G-18/G-21, which Cycle 32 leaves open. The executable set is therefore **V-002
 (frozen), V-003 (amended), V-008, V-009, V-010**, with **V-001, V-004, V-005, V-006 and V-007
 withdrawn**.
+
+---
+
+**Cycle 37 update — no specification withdrawn, none added, one amended, one new gap registered
+against an existing specification.** No candidate entered or left the top three and no score changed,
+so the executable set is unchanged: **V-008, V-009 and V-010** are executable as specified (V-009 and
+V-010 with the amendments below and in their own sections); **V-002 remains frozen** pending G-28;
+**V-001, V-004, V-005, V-006 and V-007 remain withdrawn**; **V-003 is never-to-execute**. The single
+substantive change is a **Cycle-37 amendment to V-010**, which corrects a false negative in the
+register's own state-availability reasoning and therefore changes what the validator must actually
+build: **firm-level broker-dealer regulatory capital is publicly available**, in EDGAR-indexed public
+filings (Form X-17A-5) for private, non-listed authorised participants as well as in Exchange Act
+periodic reports for listed ones (S-231 … S-234), so the state-construction step is a *filing-parsing*
+task with a per-firm cadence rather than an unobtainable one — and it registers **G-29**, the
+ETF → authorised-participant mapping and the coverage count that now bounds the effective sample.
 
 ---
 
@@ -357,6 +372,28 @@ crash-risk channel). Two consequences bind on this specification:
    comomentum) are **not** substitutes for that measure, because they measure a different crowd at a
    different frequency.
 No score change; no re-specification is written while the candidate is frozen.
+
+**Cycle 37 note — V-002 remains frozen; G-28 is confirmed open and the unfreezing condition is now
+written in full.** Cycle 37 did not search for a new candidate and did not unfreeze this
+specification. It took the load-bearing gap and asked the question the bare verdict left open: *is
+there a construction route to a convergence-crowd position-concentration measure, and if so why does it
+fail?* There is one — a **Form 13F holdings-matching construction**: a manager disclosing long
+holdings in *both* legs of a pair, or in a merger-spread constituent and its acquirer, is by
+construction running convergence capital, and the disclosed holdings give the positions. It fails the
+register's bar for four reasons, which are now the register's written unfreezing condition:
+1. it is a **construction, not a published measure**, and validating it against an outcome requires
+   the outcome and the crowding state simultaneously;
+2. it captures **only the visible long leg** — Form 13F reports long Section 13(f) positions only, with
+   no shorts, swaps or credit instruments, so a convergence trade whose decisive leg is short is
+   invisible, and a manager who has hedged a leg away is indistinguishable from one who never had it;
+3. it **cannot separate convergence capital from a coincident directional holder**; and
+4. it **cannot support the rule's cadence** — the register's already-established 45-day filing lag makes
+   it a quarter-slow against a rule anchored to its own cadence.
+**Unfreezing condition, as it now stands:** a *published* measure of convergence-crowd position
+concentration at this candidate's own cadence, or a published validation of the holdings-matching
+construction against an outcome. The published crowding neighbours (S-026, S-157, S-222) may not be
+substituted, because they measure a different crowd. No score change; no re-specification is written
+while the candidate is frozen.
 
 ---
 
@@ -1370,6 +1407,58 @@ identification, and the signedness becomes a pre-registered, killable first test
   capital ratio (broker-dealer versus bank holding company versus asset manager) and the
   effective-sample counts are registered as **G-27**, and must be answered by the validator's own data
   work rather than assumed.
+
+**Cycle 37 amendment (G-27 — closed in the candidate's favour on state availability; the state-
+construction step is now specified, and G-29 is registered against this specification).**
+- **The state is publicly available, and Cycle 36's contrary claim is withdrawn.** Cycle 37 executed
+  the check that Cycle 36 declined to execute and found the register's own negative to be **false**:
+  **Form X-17A-5 is a public EDGAR form type and the net-capital figures of broker-dealers are in
+  publicly indexed documents** (S-231 — 6,131 public X-17A-5 documents match "excess net capital").
+  The validator's state-construction step is therefore a *filing-parsing* task, not an unobtainable
+  one, and the routes are:
+  1. **Private, non-listed APs — Form X-17A-5 annual filings on EDGAR.** Locate documents with the
+     public EDGAR full-text search API; the publicly indexed document types include "COMP NET CAP"
+     (a dedicated computation-of-net-capital document), "FULL", "STMT FIN COND" and "STMT FIN COND
+     NOTES". Firms already located in this cycle: **Citadel Securities** (CIKs 1146184, 1649718,
+     1947163), **Virtu Americas** (1457716), **KCG Americas** (1457716), **AllianceBernstein
+     Investments** (732760), **RFQ-Hub Americas** (1947629), **IEX Services**, **ACS Execution
+     Services** (S-231, S-232). Extract net capital, required (minimum) net capital and excess net
+     capital as of the fiscal year end.
+  2. **Listed broker-dealers — Exchange Act periodic reports**, quarterly and XBRL-tagged: net capital,
+     less required net capital, excess net capital (S-233, LPL Financial's Form 10-Q exhibit R27 as a
+     worked example).
+  3. **Bank holding company APs — FR Y-9C and call reports** (S-226), as already in the register.
+  4. **Asset-manager APs — no equivalent exists.** This is a coverage limit, not a fixable one, and
+     the validator must say so rather than substitute a different capital metric.
+  - **Prohibited routes:** FINRA's BrokerCheck does not release firm-level net capital and FINRA
+    publishes excess net capital only in aggregate by firm-size bucket (S-234); neither may be used as
+    the state.
+  - **Cadence must be measured per firm, not assumed.** Annual for most private broker-dealers
+    (fiscal year end, filed February–March, so the state is 40–90 days stale at any decision date),
+    quarterly for listed broker-dealers and bank holding companies, and quarterly for at least some
+    private filers (S-231 records a period ending 30 September 2024). The Cycle-35 requirement that
+    the state be held constant between filings stands unchanged.
+  - **Comparability must be handled inside the contrast.** FOCUS net capital is a liquidity-style
+    quantity and is not commensurable with a bank holding company's risk-based ratios. The validator
+    must build the cross-sectional contrast **within a comparable capital regime**, or state an
+    explicit mapping argument; pooling regimes without one is prohibited.
+- **G-29 registered against this specification — the ETF → authorised-participant mapping and the
+  coverage count.** The identification is a *cross-sectional* contrast, so the state must be attached
+  to an ETF through the identity of the firms that arbitrage it. Two facts are needed and only one is
+  established: **which corporate-bond ETFs name their authorised participants in a public filing**
+  (trade press reported in April 2024 that the iShares Bitcoin Trust prospectus names its APs; the
+  corporate-bond ETF summary prospectuses read in Cycle 37 disclose authorised-participant *risk*
+  generically and do **not** name them), and **how many (ETF, AP) cells have both a published AP-set
+  membership and a public capital ratio**. If no corporate-bond ETF names its APs publicly, the
+  validator reports the candidate as **not specifiable — untested, not dead** and does **not**
+  substitute a published crowding proxy (S-026's Days-ADV, S-157's comomentum, S-222's crowding
+  factor): those measure all 13F institutions, i.e. directional positioning, not the arbitrage capital
+  the candidate's state is.
+- **The Cycle-35 effective-sample report is extended, not replaced.** In addition to the counts the
+  Cycle-35 amendment requires, the validator must report the **G-29 coverage count**, the **per-firm
+  cadence distribution** of the capital state, and the **capital-regime composition** of the
+  (ETF, AP) cells used. "Untested — not dead" remains a permitted verdict, and a small-sample null
+  must still not be upgraded into a kill.
 
 ### Frozen hypothesis
 When corporate-bond ETF redemptions meet an authorized-participant set whose regulatory capital ratios
