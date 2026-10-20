@@ -2,7 +2,7 @@
 
 **This file is the durable handoff.** Every worker session in this repository must begin by reading it, then `research/idea_register.md`, `research/ranked_shortlist.md`, and `research/source_ledger.md`. It is rewritten (not appended to) at the end of each session; the superseded text is summarised into `research/cycle_notes.md`.
 
-Last updated: 2026-10-20, **Cycle 7 complete** · **G-15 closed as a bounded negative on the published-literature side**: no published work identifies a price pattern around the RFS compliance-reporting deadline conditioned on the published net obligated position, and none states the sign; IDEA-014 is therefore not a re-description of a published result, but its sign remains unasserted and is still its first empirical test; score unchanged at 60.0. The five secondary frontier families and the tertiary tasks (T5–T8, G-04, G-16) were **not** completed this cycle and carry forward. Next: **Cycle 8**.
+Last updated: 2026-10-20, **Cycle 8 in progress** · Primary gaps G-16 and G-04 not yet closed; web research confirms no freely available, decision-time public proxy for dealer balance-sheet stress in credit (dealer balance-sheet data remain proprietary/non-public), and no timely public crowd-depth series (borrow depth is broker-gated/proprietary). Secondary frontier families and tertiary tasks T5–T8 remain unscreened. Next: **continue Cycle 8**.
 
 ---
 
