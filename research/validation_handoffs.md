@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–40
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–42
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -138,6 +138,22 @@ amendment also fixes the **cadence premise**: the private-AP capital state is **
 (2,414 of 2,419 filers disclose once a year; none three or more), and the one published AP set in the
 project (crypto class) has **13 named AP firms, 13 of 13 covered, 285 (AP, filing-date) cells** — the
 template for the effective-sample report V-010 must produce.
+
+**Cycle 41 update — no specification withdrawn, none added, none amended.** No candidate entered or
+left the top three and no score changed. G-30 sub-route (a) was closed: 17 CFR 270.6c-11 imposes no
+requirement to publish AP identities (S-245). V-010 remains **amended** as in Cycle 40 — it remains
+executable only if a specifiable route emerges under G-30. **V-002 remains frozen** pending G-28;
+**V-001, V-004, V-005, V-006 and V-007 remain withdrawn**; **V-003 is never-to-execute**. The logging
+of R-021 (the disclosure-mandate-switch family screen) creates no validation specification.
+
+**Cycle 42 update — no specification withdrawn, none added, none amended.** No candidate entered or
+left the top three and no score changed. G-30 sub-routes (b) sponsor-published AP lists and (c)
+non-US issuer were checked against major corporate-bond ETF sponsors and Ireland-domiciled UCITS
+issuers: no published AP set was found for any US-listed corporate-bond ETF. V-010 remains
+**non-executable on the candidate universe** until G-30 produces a route outside the statutory
+prospectus. **V-002 remains frozen** pending G-28; **V-001, V-004, V-005, V-006 and V-007 remain
+withdrawn**; **V-003 is never-to-execute**. The logging of R-022 (the benchmark-methodology-change
+family screen) creates no validation specification.
 
 ---
 

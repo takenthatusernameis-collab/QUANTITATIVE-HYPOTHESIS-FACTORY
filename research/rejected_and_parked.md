@@ -5,14 +5,21 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 40 complete, 2026-10-20. **20 rejections (R-001 … R-020), 12 parkings
+Last updated: Cycle 42 complete, 2026-10-20. **22 rejections (R-001 … R-022), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative: no published decision-time binding state, the switch is published in advance so
 any flow is anticipated, the constrained flow is the obligor's own, and the effective sample is the number
-of switches). Cycle 40 also **merged the duplicate R-019** — the file had carried two different entries under
-one identifier — and added three known-baseline rows (the crypto/commodity AP-naming practice, the
-short-interest branch of the crowding literature, and the eligibility-switch family). The log's own counts
-are re-derived from the file on every cycle; see the state-integrity note at the end.
+of switches). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative: the
+post-amendment effect is already a published positive result in the literature, so the sign a candidate
+would claim is claimed; the switch is published in advance so any reaction is anticipatory; and the
+effective sample is the number of amendments, not securities × dates). Cycle 42 added **R-022** (the
+benchmark-methodology-change family — bounded negative: the change is published in advance so any flow is
+anticipated; the reconstitution effect has collapsed per S-146/S-147; the constrained flow is the index
+fund's own per S-151; and the effective sample is the number of methodology changes). Cycle 40 also
+**merged the duplicate R-019** — the file had carried two different entries under one identifier — and added
+three known-baseline rows (the crypto/commodity AP-naming practice, the short-interest branch of the
+crowding literature, and the eligibility-switch family). The log's own counts are re-derived from the file
+on every cycle; see the state-integrity note at the end.
 
 ---
 
@@ -243,6 +250,36 @@ are re-derived from the file on every cycle; see the state-integrity note at the
   anticipation objection for a *regulatory* eligibility change.
 - **Decision:** bounded negative (R-020). The eligibility-switch family is recorded in the
   known-baseline set; no dossier was created; no `IDEA-` identifier was consumed; no score changed.
+
+### R-021 — The disclosure-mandate switch (*what must be published*): a regulator starts or stops a required public disclosure, changing the information set rather than the flow (Cycle 41 family screen — bounded negative)
+
+- **The family screened.** A switch that changes the *information set* rather than the flow: a regulator starts or stops a required public disclosure, or changes what must be disclosed, and the switch has a published effective date. The nearest instance is the SEC's 2022 amendments to Rule 10b5-1 under the Exchange Act (87 FR 80362 final rule; 87 FR 8686 proposed release), which added Item 408(a) quarterly disclosure of 10b5-1 plan adoption, termination and modification, a mandatory cooling-off period, a Form 4 plan checkbox, and a ban on overlapping plans (S-182, S-183). The template was chosen because it is *different in kind* from the compliance-deadline family — nothing here is an obligation converging on a date — and because it satisfies the register's G-13 test by construction: the effective date is published in advance.
+- **The instance run.** The SEC's 2022 Rule 10b5-1 amendments, effective for filings made on or after the compliance dates in the adopting release, changing what issuers and insiders must disclose about trading plans.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons, any one of which is sufficient.**
+  1. **The sign a candidate would claim is already published.** The nearest published literature on the 10b5-1 amendments (as characterised in S-183) documents that plan **adoption** around earnings announcements carries abnormal returns of roughly −2% to −3%, while sales after the announcement do not, and no effect attaches where the cooling-off period exceeded 60 days. The sign and the window are claimed; there is no unclaimed residual for a disclosure-mandate switch candidate to harvest.
+  2. **The switch is published in advance, so any reaction is anticipatory.** The rule and its compliance dates were published before they took effect, so any price response to the disclosure change is known before the effective date and is priced in anticipation. A rule that trades an announced disclosure change is trading a published anticipation, not an unclaimed concession.
+  3. **The disclosure change is the obligor's own obligation.** The party whose disclosure changes is the issuer or the insider; there is no third-party arbitrageur who is forced to trade and who pays a concession to a counterparty. The register's template requires a *third-party* flow creating a concession; a change in what the obligor must publish does not create one.
+  4. **The effective sample is the number of amendments.** A disclosure-mandate switch is a dated, discrete event: the number of episodes is the number of rule changes (a handful), not securities × dates. A positive rule would have almost no degrees of freedom, and any cross-sectional variation (which securities are most affected by the new disclosure) is exactly what is not published at decision time.
+- **What is *not* the reason.** G-13 passes for this family: the effective date is public and dated in advance. The screen failed on prior publication of the nearest analogue's sign, on the identity of the constrained party (the obligor, not a third party), and on the effective sample — and the screen was run against the literature before any conclusion was reached.
+- **Dated re-screen condition.** Re-screen only if (i) a regulator announces a disclosure mandate whose *scope or threshold* creates a dated, third-party forced-flow obligation with a **published list of affected securities**; or (ii) a published study identifies a residual price effect attached to the *execution* of a disclosed schedule rather than to its adoption, for a regulatory disclosure change.
+- **Decision:** bounded negative (R-021). The disclosure-mandate-switch family is recorded in the known-baseline set; no dossier was created; no `IDEA-` identifier was consumed; no score changed.
+
+### R-022 — Benchmark-methodology change with a published effective date (Cycle 42 family screen — bounded negative)
+
+- **The family screened.** An index provider changes its benchmark methodology — constituent rules, weighting scheme, rebalancing schedule, or effective date — and publishes the change and its effective date in advance. This is the index-provider analogue of the eligibility switch (R-020): the *who* changes in R-020; here the *rule* changes. The template was chosen because it is genuinely different from the compliance-deadline family — nothing here is an obligation converging on a date — and because it satisfies G-13 by construction: the methodology change and its effective date are published before they take effect.
+- **The instances run.**
+  1. **S&P Dow Jones Indices methodology changes published 2026-04-26 with published effective dates**, covering index maintenance, timing of changes and rebalancing conventions across the S&P U.S. indices family.
+  2. **FTSE Russell index notices**, including gilt-index changes announced 2026-05-12 effective 2026-05-20 and FCA-driven changes effective 2024-07-29, each with a published announcement date and effective date.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale — four independent reasons, any one of which is sufficient.**
+  1. **The change is published in advance, so any flow is anticipated.** The methodology change, its effective date and (for rebalancing) the share-freeze window are all published before the event, so any index-tracker flow responding to the change is known before it happens. The nearest published analogue — index reconstitution — finds the effect collapsed to approximately zero in the modern sample (additions below 1% over the past decade, average inclusion effect about −3 basis points in 2020; S-146) and modelled as anticipatory liquidity provision that shifts price pressure *away* from the effective date (S-147). A rule that trades an announced methodology change is trading a published anticipation.
+  2. **The flow effect is a published baseline.** Index reconstitution and rebalancing flows are a documented institutional pattern (S-001 … S-004, S-146), and the published literature already explains the structure: anticipatory pre-positioning before the event and covering after it (S-147), with the counterparty to passive demand being the issuing firm (S-151). A methodology change is a variation on reconstitution, not a new mechanism.
+  3. **The constrained flow is the index fund's own.** The party that must trade is the index fund or ETF tracking the benchmark — the obligor whose mandate changes — not a third-party arbitrageur forced to trade at a concession. The counterparty to the passive flow is the issuing firm and other institutions trading in the same direction (S-151), so there is no arbitrageur paying a concession to harvest.
+  4. **The effective sample is the number of methodology changes.** A methodology change is a dated, discrete provider-level event: the number of episodes is the number of provider rule changes (a handful per provider), not securities × dates. A positive rule would have almost no degrees of freedom, and the cross-sectional variation (which constituents are near a weighting threshold) is not published at decision time.
+- **What is *not* the reason.** G-13 passes for this family: the effective date is public, dated and in advance of the event. The screen failed on prior publication of the reconstitution analogue, on the identity of the constrained party (the index fund, not a third party), and on the effective sample — and the screen was run against the literature before any conclusion was reached.
+- **Dated re-screen condition.** Re-screen only if (i) a provider announces a methodology change that creates a *large*, *dated*, *third-party* forced-flow obligation with a **published list of affected securities** and a **published effective date**; or (ii) a published study identifies a residual that survives the anticipation objection for a *benchmark methodology* change (as distinct from the published reconstitution literature).
+- **Decision:** bounded negative (R-022). The benchmark-methodology-change family is recorded in the known-baseline set; no dossier was created; no `IDEA-` identifier was consumed; no score changed.
 
 ---
 

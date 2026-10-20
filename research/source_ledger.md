@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–40
+# SOURCE LEDGER — CYCLES 1–42
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -5420,7 +5420,19 @@ on this limb.
   (release numbers, RIN, 85 FR 64234, effective date 8 December 2020) and the operative thresholds
   were read in the fetched text.
 
----
+### S-245 — U.S. Securities and Exchange Commission, **17 CFR 270.6c-11 — Rule 6c-11 under the Investment Company Act of 1940** (the "ETF rule"), as codified in the eCFR.
+- **Type:** primary regulator material (the rule itself).
+- **Why it is in the ledger.** It is the source for Cycle 41's G-30 sub-route (a) research: whether the SEC's ETF rule requires an ETF to publish the *identities* of its authorised participants on its website or in its prospectus. Read directly from the eCFR text: 6c-11(c)(1) requires daily website disclosure of portfolio holdings, NAV, premium/discount and bid-ask spread; 6c-11(d) requires recordkeeping of written AP agreements and per-basket records *including the identity of the AP transacting*. The rule does **not** require an ETF to publish AP identities publicly — AP identity is a recordkeeping item under (d), not a public-disclosure item under (c)(1).
+- **Why the screen closes.** Sub-route (a) — the regulatory requirement route — is closed as a bounded negative: there is no regulatory requirement to publish AP identities; only a voluntary one. The only public-facing disclosure obligations are the portfolio/NAV/premium/spread items; AP identity is recordkeeping, not public disclosure.
+- **Caveats:** the rule is read as codified in the eCFR; exchange listing rules (SR-filings on sec.gov) and Form N-1A appendices were not separately checked in this cycle but are noted as potential secondary routes under G-30.
+- **Verification:** eCFR text read directly (6c-11(c)(1) disclosure items; 6c-11(d) recordkeeping items including AP identity).
+
+### S-246 — S&P Dow Jones Indices, **S&P U.S. Indices Methodology** (index maintenance, timing of changes, announcements, share freeze, rebalancing), provider-hosted PDF; and FTSE Russell index notices (gilt-index changes announced 2026-05-12, effective 2026-05-20; FCA-driven changes effective 2024-07-29).
+- **Type:** venue documentation (primary rules) and provider notices.
+- **Why it is in the ledger.** It is the source for Cycle 42's R-022 family screen: benchmark-methodology changes with published effective dates. S&P DJI publishes methodology changes with announced and effective dates (e.g., changes published 2026-04-26). FTSE Russell publishes index notices with announcement and effective dates (e.g., gilt changes effective 2026-05-20; FCA changes effective 2024-07-29).
+- **Why the screen closes.** R-022 — the benchmark-methodology-change family — is a bounded negative: the change is published in advance so any flow is anticipated; the reconstitution effect has collapsed per S-146/S-147; the constrained flow is the index fund's own per S-151; and the effective sample is the number of methodology changes, not securities × dates. No candidate, no dossier, no score change.
+- **Caveats:** provider methodologies are revised at the provider's discretion; a specific event's rules must be read from the announcement itself and the version of the methodology in force at that date. The FTSE Russell gilt notice and FCA change are cited as instances of the template, not as verified empirical findings.
+- **Verification:** S&P DJI methodology PDF read directly from spglobal.com; FTSE Russell index notices cited from provider announcements (announcement date and effective date pairs).
 
 ## Cycle 38 and Cycle 39 gap verdicts (backfilled by Cycle 40 — these two cycles never had a verdict block in this file)
 
@@ -5623,3 +5635,50 @@ The screen, its two instances and its four reasons are recorded in `rejected_and
   screen). No `IDEA-` identifier and no `V-` identifier were consumed.
 - **Next free identifiers:** **IDEA-017, S-245, V-012, G-31, R-021, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 41 gap verdicts (2026-10-20)
+
+### G-30 sub-route (a) — **CLOSED as a bounded negative** (IDEA-010): 17 CFR 270.6c-11 imposes no requirement to publish AP identities.
+**Verdict.** 17 CFR 270.6c-11 (the SEC's ETF rule, S-245) defines "authorized participant" and requires daily website disclosure of portfolio holdings, NAV, premium/discount and bid-ask spread under (c)(1), and requires recordkeeping of written AP agreements and per-basket records *including the identity of the AP transacting* under (d). AP identity is a recordkeeping item, not a public-disclosure item. **Route (a) is therefore closed: there is no regulatory route, only a voluntary one.**
+
+### G-30 sub-routes (b) and (c) — **NOT FOUND** (IDEA-010); both closed as *not found* verdicts.
+**Verdict.** Sub-route (b) sponsor-published AP lists: checked iShares AGG/USIG/HYG/LQD/iBonds term/EUHY/CEMB/EMHY/LEMB/GHYG (ishares.com product pages; 497K/485BPOS SEC docs), Vanguard BND/VCEB/VPLS/BNDW/VCHY (p4158.pdf), PGIM Corporate Bond 0-5 Year & 5-10 Year ETF summary prospectuses, T. Rowe Price QM U.S. Bond ETF, State Street SPBO/SPLB/SPIB/SPSB/IBND (the SSGA AP contact list is Ireland-domiciled, AP-facing, not per-fund identity publication), and Fidelity FCOR 497K. None name authorised participants; all use the generic formulation ("a limited number of financial institutions… not obligated"; "contact the Distributor"). Sub-route (c) non-US issuer: no US-listed corporate-bond ETF sponsored by or listed against a non-US issuer with a published AP set was located; Ireland-domiciled UCITS bond ETFs (e.g., JPMorgan ETFs Ireland ICAV USD IG Corporate Bond UCITS ETF supplement dated 2026-08-12; iShares Ireland UCITS supplements) are outside the candidate universe. **G-30 remains open on sub-route (a), which is closed.**
+
+### G-28 (IDEA-004) — **CONFIRMED OPEN and frozen**; V-002 frozen.
+No published convergence-crowd concentration measure located; null recorded.
+
+### G-21 (IDEA-011) — **CONFIRMED NULL**; not re-searched in Cycle 41.
+The first-adopter-versus-second-adopter drift comparison remains untested rather than refuted; IDEA-011 remains at 69.0.
+
+### IDEA-014's state-free existence limb — **CONFIRMED inconclusive** (unchanged).
+No new evidence was found. The limb is neither a positive finding nor a refutation and must not be described as either. IDEA-014 remains retired at 52.0; P-011 stands.
+
+### The Cycle-41 disclosure-mandate-switch family screen — logged as **R-021**.
+The screen, its instance and its four reasons are recorded in `rejected_and_parked.md` under **R-021**. The SEC's 2022 Rule 10b5-1 amendments (S-182, S-183) provide the instance.
+
+### Cycle-41 ranking and identifier record.
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
+- **New identifiers consumed in Cycle 41:** source **S-245** (17 CFR 270.6c-11); gap **G-31** (G-30 sub-routes (b) and (c) research); rejection **R-021** (the disclosure-mandate-switch family screen). No `IDEA-` identifier and no `V-` identifier were consumed.
+- **Next free identifiers:** **IDEA-017, S-246, V-012, G-32, R-022, P-014**. The reserved-and-unused identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 42 gap verdicts (2026-10-20)
+
+### G-30 sub-routes (b) and (c) — **CONFIRMED NOT FOUND** (IDEA-010); both closed as *not found* verdicts.
+**Verdict.** Sub-route (b) sponsor-published AP lists: checked iShares AGG/USIG/HYG/LQD/iBonds term/EUHY/CEMB/EMHY/LEMB/GHYG, Vanguard BND/VCEB/VPLS/BNDW/VCHY, PGIM Corporate Bond 0-5 Year & 5-10 Year ETF, T. Rowe Price QM U.S. Bond ETF, State Street SPBO/SPLB/SPIB/SPSB/IBND, Fidelity FCOR — all use the generic "limited number of financial institutions… not obligated" formulation and name no AP. Sub-route (c) non-US issuer: no US-listed corporate-bond ETF sponsored by or listed against a non-US issuer with a published AP set was located; Ireland-domiciled UCITS bond ETFs are outside the candidate universe. **G-30 remains open only on sub-route (a), closed in Cycle 41.**
+
+### G-28 (IDEA-004) — **CONFIRMED OPEN and frozen**; V-002 frozen.
+No published convergence-crowd concentration measure located; null recorded.
+
+### G-21 (IDEA-011) and IDEA-014's state-free limb — **unchanged**; null and inconclusive verdicts maintained; no new source.
+
+### The Cycle-42 benchmark-methodology-change family screen — logged as **R-022**.
+The screen, its instances and its four reasons are recorded in `rejected_and_parked.md` under **R-022**. The S&P DJI methodology changes (S-246) and FTSE Russell index notices provide the instances.
+
+### Cycle-42 ranking and identifier record.
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0, rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
+- **New identifiers consumed in Cycle 42:** source **S-246** (S&P DJI methodology; FTSE Russell index notices); rejection **R-022** (the benchmark-methodology-change family screen). No `IDEA-` identifier, no `V-` identifier and no `G-` identifier were consumed.
+- **Next free identifiers:** **IDEA-017, S-247, V-012, G-32, R-023, P-014**. The reserved-and-unused identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

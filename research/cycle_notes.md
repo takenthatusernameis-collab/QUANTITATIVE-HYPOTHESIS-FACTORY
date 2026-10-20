@@ -12,6 +12,23 @@ Theory-only cycle executing the six priorities from the Cycle-40 handoff. No tes
 6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifiers consumed: S-245, G-31, R-021. Next free identifiers: IDEA-017, S-246, V-012, G-32, R-022, P-014.
 
 ---
+## Cycle 42 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-41 handoff: closed G-30 sub-routes (b) and (c) with a *not found* result on every document checked, ran one new mechanism family screen (benchmark-methodology change, logged as R-022, bounded negative), and updated all research artifacts. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-30 (IDEA-010) — sub-route (b) sponsor-published AP lists: NOT FOUND.** Checked iShares AGG/USIG/HYG/LQD/iBonds term/EUHY/CEMB/EMHY/LEMB/GHYG (ishares.com product pages; 497K/485BPOS SEC docs), Vanguard BND/VCEB/VPLS/BNDW/VCHY (p4158.pdf), PGIM Corporate Bond 0-5 Year & 5-10 Year ETF summary prospectuses, T. Rowe Price QM U.S. Bond ETF, State Street SPBO/SPLB/SPIB/SPSB/IBND (the SSGA AP contact list is Ireland-domiciled, AP-facing, not per-fund identity publication), and Fidelity FCOR 497K. None name authorised participants; all use the generic formulation ("a limited number of financial institutions… not obligated"; "contact the Distributor"). Sub-route (b) is closed with a *not found* verdict.
+
+2. **G-30 (IDEA-010) — sub-route (c) non-US issuer: NOT FOUND.** No US-listed corporate-bond ETF sponsored by or listed against a non-US issuer with a published AP set was located. Ireland-domiciled UCITS bond ETFs (e.g., JPMorgan ETFs Ireland ICAV USD IG Corporate Bond UCITS ETF supplement dated 2026-08-12; iShares Ireland UCITS supplements) are outside the candidate universe (not US-listed). Sub-route (c) is closed with a *not found* verdict. G-30 remains open on sub-route (a), which was closed in Cycle 41: 17 CFR 270.6c-11 imposes no requirement to publish AP identities.
+
+3. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located; null recorded.
+
+4. **G-21 (IDEA-011) and IDEA-014's state-free limb** — recorded null and inconclusive verdicts maintained; no new source.
+
+5. **New mechanism family screen — benchmark-methodology change with published effective date (R-022).** Screened index-provider methodology changes (S&P DJI changes published 2026-04-26; FTSE Russell gilt changes announced 2026-05-12 effective 2026-05-20; FCA changes effective 2024-07-29). Bounded negative: the change is published in advance so any flow is anticipated; the reconstitution effect has collapsed per S-146/S-147; the constrained flow is the index fund's own per S-151; and the effective sample is the number of methodology changes, not securities × dates. No candidate, no dossier, no score change.
+
+6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifiers consumed: S-246, R-022. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-023, P-014.
+
+---
 ## Cycle 40 — 2026-10-20
 Theory-only cycle executing the five priorities from the Cycle-39 handoff, plus the state-integrity repair that the accumulated drift implied. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 

@@ -23,12 +23,12 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**), sources are `S-0NN` (next free: `S-245`; `S-210 … S-219` are **reserved and unused**),
+   unused**), sources are `S-0NN` (next free: `S-247`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and amended), rejections are `R-0NN` (next free: `R-021`), parkings are `P-0NN` (next
-   free: `P-014`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-31`;
+   is written and amended), rejections are `R-0NN` (next free: `R-023`), parkings are `P-0NN` (next
+   free: `P-014`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-32`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 41`).
+   (next: `Cycle 42`).
    A reserved identifier is one that a prior cycle claimed in writing but never wrote into an
    artifact; it is left unused on purpose so that a later reconstruction of that work cannot collide
    with a new one.
