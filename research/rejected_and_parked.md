@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 46 complete, 2026-10-20. **25 rejections (R-001 … R-026), 12 parkings
+Last updated: Cycle 47 complete, 2026-10-20. **26 rejections (R-001 … R-027), 12 parkings
 (P-001 … P-012), 62-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
@@ -311,6 +311,17 @@ negative). Cycle 46 added **R-026** (the exchange fee/schedule change family —
   4. **Effective sample limited** — discrete rule changes with limited degrees of freedom; no clean harvestable third-party concession mechanism.
 - **Decision:** bounded negative (R-026). No dossier created; no IDEA identifier consumed; no score changed.
 
+
+### R-027 — Rating-threshold crossing (fallen-angel / investment-grade boundary) (Cycle 47 family screen — bounded negative)
+
+- **The family screened.** A published credit-rating threshold crossing (investment-grade boundary) that forces mandate-constrained holders (index funds, IG-only portfolios) to sell, creating a third-party concession to buyers — the "fallen angel" mechanism.
+- **Outcome: bounded negative. No new candidate; the family is a baseline.**
+- **Rationale:**
+  1. **Published baseline** — fallen-angel price pressure and forced selling around IG/HY boundary crossings are extensively documented in the literature; the sign is claimed and sized.
+  2. **Anticipated** — rating downgrades are telegraphed; market participants pre-position, so the flow is anticipated rather than an unclaimed concession.
+  3. **No unclaimed sign** — the mechanism's effect direction is published; no residual unclaimed.
+  4. **Effective sample limited** — crossings are discrete, firm-level events; not a scalable securities×dates design.
+- **Decision:** bounded negative (R-027). No dossier created; no IDEA identifier consumed; no score changed.
 
 ## Parked (not rejected; blocked on a specific question)
 

@@ -32,7 +32,25 @@ Theory-only cycle executing the six priorities from the Cycle-44 handoff. No tes
 5. **New mechanism family screen — tax/settlement-mandate switch (R-025).** Screened mandates changing tax/settlement obligations with published effective dates (e.g., securities settlement cycle changes). T+1 transition effects are published (S-113/S-114/S-115 show improved liquidity/volatility) so sign claimed; settlement mandates affect market structure broadly, constrained party is market participants generally not creating third-party concession flow to harvest; effective sample limited to mandate changes. Bounded negative: no unclaimed sign, published baseline exists, no clean harvestable concession mechanism. No candidate, no dossier, no score change.
 6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifier consumed: R-025. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-026, P-014. All artifacts updated; three-pass loop recorded; counts and identifiers re-derived from files; handoff rewritten for Cycle 46.
 
-## Cycle 46 — 2026-10-20
+## Cycle 47 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-46 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) G-30 confirm exhaustion, no re-probe; (2) G-28 keep frozen; (3) G-21 and IDEA-014 maintain verdicts; (4) one new family screen (rating-threshold crossing / fallen-angel), log as R-027; (5) wrap up.
+
+**Pass 2 — Critique.** Rating-threshold family is well-studied; expect bounded negative on published baseline and anticipation. Screen against literature first.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+1. **G-30 (IDEA-010)** — routes outside statutory prospectus remain exhausted (not found). Confirmed. V-010 non-executable.
+2. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. Null recorded.
+3. **G-21 (IDEA-011) and IDEA-014 state-free limb** — null and inconclusive maintained.
+4. **New mechanism family screen — rating-threshold crossing / fallen angel (R-027).** Bounded negative: published baseline, anticipated, no unclaimed sign, limited sample. No candidate, no dossier, no score change.
+5. **No score changed.** Active ranking unchanged. New identifier consumed: R-027. Next free identifiers: IDEA-017, S-247, V-012, G-32, R-028, P-014.
+
+---
 Theory-only cycle executing the six priorities from the Cycle-45 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 
 ### Three-pass task-framing loop
