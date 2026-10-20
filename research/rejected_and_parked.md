@@ -5,8 +5,8 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 51 complete, 2026-10-20. **31 rejections (R-001 … R-031), 12 parkings
-(P-001 … P-012), 63-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
+Last updated: Cycle 52 complete, 2026-10-20. **32 rejections (R-001 … R-032), 12 parkings
+(P-001 … P-012), 64-row known-baseline table.** Cycle 40 added **R-020** (the eligibility-switch family
 screen — bounded negative). Cycle 41 added **R-021** (the disclosure-mandate switch family — bounded negative).
 Cycle 42 added **R-022** (the benchmark-methodology-change family — bounded negative). Cycle 43 added **R-023**
 (the margin-schedule switch family — bounded negative). Cycle 44 added **R-024** (the capacity/inventory-switch
@@ -21,7 +21,12 @@ randomised / imbalance-guided closing-price-formation family — bounded negativ
 defects**: the R-029 rationale that had been orphaned under the R-030 entry was merged back into R-029, and the
 file's own header counts were corrected against the file (the previous header claimed 28 rejections and a 62-row
 baseline table; the file actually held **29 rejection entries** — R-025 having no entry — and a **62-row** table,
-so the baseline count was right and the rejection count was not). Cycle 40
+so the baseline count was right and the rejection count was not). Cycle 52 added **R-032** (the venue-halt /
+price-band / market-wide-circuit-breaker family — bounded negative, the register's first screen of a
+*market-interruption* family) and **upgraded seven terse entries** — R-023, R-024, R-026, R-027, R-028, R-029 and
+R-030 — from two-to-four-line rationales to the register's standard five-reason form with an explicit
+G-13 / G-12 / S-151-analogue argument and a **dated re-screen condition**, so that each negative now states the
+specific structural change that would reopen it. No verdict changed. Cycle 40
 also **merged the duplicate R-019**. The log's own counts are re-derived from the file on every cycle.
 
 ---
@@ -287,27 +292,79 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
 
 ### R-023 — Margin-schedule switch (venue rule changes margin requirements on a published calendar) (Cycle 43 family screen — bounded negative)
 
-- **The family screened.** A switch where a venue/clearinghouse changes margin requirements (initial/maintenance, SPAN parameters) on a published calendar/effective date.
-- **Instances run.** CME SPAN 2 framework parameter changes (energy/equity pods, Feb-Mar 2026 notices with effective dates), CME precious metals margin setting changes (Jan 2026 shift to percentage-of-notional).
+- **The family screened.** A switch where a venue or clearinghouse changes **margin requirements** (initial
+  and maintenance margin, exchange risk-parameter frameworks) on a published calendar or effective date, so
+  that a dated change alters the capital a participant must post to hold or take a position.
+- **Instances run.** CME SPAN 2 framework parameter changes (energy and equity pods, February–March 2026
+  notices with published effective dates) and CME precious-metals margin-setting changes (the January 2026
+  shift to percentage-of-notional), together with the published class of clearinghouse risk-parameter
+  notices generally.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale — four independent reasons, any one of which is sufficient:**
-  1. **Published in advance** — changes are announced via notices with effective dates, satisfying G-13.
-  2. **No third-party concession flow** — margin changes affect all participants with positions; the constrained response is typically margin calls/liquidation by participants themselves or their clearing firms, not a forced flow by one party creating a concession to another third-party arbitrageur.
-  3. **Broad-based cost change, not targeted opportunity** — affects entire product classes/risk profiles; no published list of affected securities with exploitable cross-section creating an unclaimed sign.
-  4. **Effective sample is small** — discrete rule changes with limited degrees of freedom; margin effects are known as costs/risk controls.
-- **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published in advance (G-13 passes, and that is the problem).** Clearinghouse risk-parameter notices
+     carry published effective dates, so the decision-time state is public and *dated*: any participant
+     holding the affected contract knows the change and its date weeks ahead. The state is not private, so
+     there is no discovery step and no informational asymmetry to trade.
+  2. **No third-party concession flow (the S-151 analogue).** A margin increase does not oblige a third
+     party to trade against the constrained participant. The constrained party's response — topping up
+     margin, reducing the position, or liquidating through its own clearing firm — is **its own
+     discretionary response to a balance-sheet constraint**, executed on its own account, at prices it
+     chooses. A "concession" would require somebody *else* to be obliged to transact at a non-economic
+     price; that is the structural condition that closed R-020, R-024 and R-025, and it is absent here.
+  3. **The effect is a risk-and-cost change, not a cross-sectional opportunity.** A margin change moves the
+     *cost* of carrying a position across an entire product class or risk profile. There is no published
+     list of affected securities that creates a dispersion the register could claim as unclaimed; the
+     observable is a change in required capital and in participation, which is a cost-model input for any
+     candidate that chooses the instrument, and a published baseline for the margin literature.
+  4. **Anticipated and absorbed.** Because the notice, the effective date and the affected product class
+     are all published, the repositioning happens *before* the effective date. The flow is anticipated by
+     the same market that would trade against it, which is the anticipation condition that closed R-017,
+     R-026, R-027, R-028 and R-029.
+  5. **Effective sample is small.** Risk-parameter changes are discrete, dated events with few degrees of
+     freedom; there is no securities × dates design available, and the register does not treat a
+     market-quality or cost observable as an edge in its own right.
+- **Decision:** bounded negative (R-023). No dossier created; no `IDEA-` identifier was consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a margin change creates a **price-insensitive,
+  non-discretionary flow executed by a participant other than the constrained holder** — for example a
+  clearinghouse rule that obliges a *named* third party to post margin against another party's position on
+  a published date, so that the forced flow is somebody else's and its concession is not theirs. Absent
+  that structural change, this family stays closed.
 
 ### R-024 — Capacity/inventory-switch constraint (a rule that changes the *quantity* a participant may supply) (Cycle 44 family screen — bounded negative)
 
-- **The family screened.** A regulatory or index-provider rule that changes the quantity a participant may supply (capacity/inventory constraint switch) with a published effective date (e.g., ownership concentration limits, fund caps, index provider weight caps).
-- **Instances considered.** Regulatory concentration rules and index provider constraints capping mega-cap weights.
+- **The family screened.** A regulatory or index-provider rule that changes the **quantity** a participant
+  is permitted to supply — a capacity or inventory constraint switch — with a published effective date
+  (ownership-concentration limits, fund caps, index-provider weight caps, position limits).
+- **Instances considered.** Regulatory concentration rules, index-provider weight caps and fund-level
+  capacity constraints capping mega-cap weights, and the published class of exchange position-limit
+  notices.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale — four independent reasons:**
-  1. **Published in advance** — rule changes are announced before effective date (satisfies G-13).
-  2. **Constrained party is the obligor** — the fund/index provider that must comply is the constrained participant; the flow is their own response, not a third-party forced flow creating a harvestable concession to another arbitrageur (S-151 analogue).
-  3. **Published baseline** — concentration constraints are documented effects; the response is anticipatory and published.
-  4. **Effective sample small** — rule changes are discrete events with limited degrees of freedom; no unclaimed sign identified.
-- **Decision:** bounded negative (R-024). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published in advance (G-13 passes).** Capacity rules are announced with effective dates, and
+     index-provider weight caps are published in advance of the rebalance they bind. The decision-time
+     state is therefore public and dated, so there is no discovery step.
+  2. **The constrained party is the obligor (the S-151 analogue).** The fund, index provider or member
+     that must comply *is* the constrained participant; the flow is its own response to the constraint, not
+     a third-party forced flow whose concession another arbitrageur can capture. Where a constraint does
+     bind a *counterparty* — a broker whose client wants to buy more than the market-maker's cap allows —
+     the constrained counterparty simply steps away, which removes the trade rather than creating one.
+  3. **Published baseline.** The consequences of concentration constraints — index-weight capping, the
+     resulting capacity or liquidity reduction, the rebalancing flow and its price impact — are documented
+     effects; the response is anticipatory and the sign is published rather than unclaimed.
+  4. **Anticipation precedes the constraint.** Capacity changes are pre-positioned: the obliged party
+     reduces exposure ahead of the effective date, in a market that knows the constraint is coming. The
+     rebalance is a scheduled, published event (the same anticipation condition that closed R-028 and
+     R-029).
+  5. **Effective sample is small and the observable is not an edge.** Rule changes are discrete events with
+     limited degrees of freedom; the published observables are capacity, participation and turnover — a
+     cost-model input, not a claim the register would score.
+- **Decision:** bounded negative (R-024). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a capacity rule obliges a **third party to supply
+  liquidity into the constrained instrument** — for example a rule that requires a designated party to
+  quote or to absorb flow above a published cap — so that a non-obligor can trade against a published,
+  dated, non-discretionary supply obligation. Absent that, this family stays closed.
 
 ### R-025 — Tax/settlement-mandate switch (a rule that changes the *settlement or tax obligation* with a published effective date) (Cycle 45 family screen — **written for real in Cycle 51** — bounded negative)
 
@@ -353,67 +410,190 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
 
 ### R-026 — Exchange fee/schedule change creating temporary concession (Cycle 46 family screen — bounded negative)
 
-- **The family screened.** Exchange rule changes affecting fee schedules or trading hours/auctions with published effective dates creating temporary asymmetries (e.g., exchange fee changes affecting market makers).
-- **Instances considered.** Exchange fee schedule changes announced with published effective dates.
+- **The family screened.** Exchange rule changes that affect **fee schedules** or **trading hours,
+  auctions and session structure**, announced with published effective dates, and therefore capable in
+  principle of creating a temporary asymmetry between participants — for example a fee change that alters
+  the economics of market making, or a session/auction change that shifts the timing of a flow.
+- **Instances considered.** Exchange fee-schedule changes announced with published effective dates, and
+  exchange rule filings changing auction parameters or trading hours.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale — four independent reasons:**
-  1. **Published in advance / anticipated** — changes are announced with effective dates (satisfies G-13); market participants anticipate and adjust.
-  2. **Broad-based cost change** — affects all participants broadly rather than creating third-party forced flow to a specific concession.
-  3. **Published baseline** — fee changes are cost/risk controls with known effects; no unclaimed sign identified.
-  4. **Effective sample limited** — discrete rule changes with limited degrees of freedom; no clean harvestable third-party concession mechanism.
-- **Decision:** bounded negative (R-026). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published in advance and anticipated (G-13 passes).** Fee and session changes are published with
+     effective dates, and the affected participants re-price their own behaviour in advance. The state is
+     public and dated; there is no unclaimed informational asymmetry.
+  2. **Broad-based cost change, not a targeted concession.** A fee change alters the cost of trading for
+     *every* participant in the affected category, symmetrically. There is no published list of affected
+     securities that separates a beneficiary from a payer, and no sign in the fee change itself.
+  3. **The affected party is the obligor (the S-151 analogue).** Where a fee change creates a
+     participation obligation — for example a new quoting or market-making requirement — the obliged party
+     quotes or trades *for itself*, and the concession accrues to it or is competed away by the other
+     members who can see the same published notice.
+  4. **Published baseline.** Fee-schedule and auction-parameter changes are cost and risk controls with
+     documented effects; there is no unclaimed sign, only a known change in the cost of participation.
+  5. **Effective sample limited.** Discrete rule changes carry few degrees of freedom; there is no clean
+     securities × dates design with an unclaimed sign, and the observable (fees, participation, quote
+     counts) is a cost-model input rather than an edge.
+- **Decision:** bounded negative (R-026). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a published exchange rule change **obliges a named
+  third party to provide liquidity at a non-economic price** (a designated quote obligation with a
+  published price or size commitment that a non-obligor could trade against), or if a fee change creates a
+  **date-bounded, security-specific** cost asymmetry between two participant classes. Absent either, this
+  family stays closed.
 
 
 ### R-027 — Rating-threshold crossing (fallen-angel / investment-grade boundary) (Cycle 47 family screen — bounded negative)
 
-- **The family screened.** A published credit-rating threshold crossing (investment-grade boundary) that forces mandate-constrained holders (index funds, IG-only portfolios) to sell, creating a third-party concession to buyers — the "fallen angel" mechanism.
+- **The family screened.** A published credit-rating threshold crossing — the investment-grade boundary —
+  that forces mandate-constrained holders (index funds, IG-only mandates, rating-sensitive mandates) to
+  sell, creating a third-party concession to buyers; the "fallen angel" mechanism and its reverse, the
+  "rising star" upgrade.
+- **Instances considered.** Fallen-angel downgrades at the IG/HY boundary and the associated index
+  deletion-forced selling, plus the upgrade-direction analogue.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale:**
-  1. **Published baseline** — fallen-angel price pressure and forced selling around IG/HY boundary crossings are extensively documented in the literature; the sign is claimed and sized.
-  2. **Anticipated** — rating downgrades are telegraphed; market participants pre-position, so the flow is anticipated rather than an unclaimed concession.
-  3. **No unclaimed sign** — the mechanism's effect direction is published; no residual unclaimed.
-  4. **Effective sample limited** — crossings are discrete, firm-level events; not a scalable securities×dates design.
-- **Decision:** bounded negative (R-027). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published baseline.** Fallen-angel price pressure and forced selling around IG/HY boundary crossings
+     are extensively documented in the literature; the sign is claimed and sized. A candidate here would be
+     presenting published work as a discovery — the G-12 defect.
+  2. **Anticipated.** Rating downgrades are telegraphed: rating agencies use watchlists, the issuer's
+     own disclosure precedes the action, and the index's rebalance rules are published with lead times. The
+     flow is anticipated by the same market that would trade against it, so the announcement reaction and
+     the subsequent forced flow are priced in advance.
+  3. **The constrained seller is the obligor (the S-151 analogue).** The mandate-constrained index fund
+     sells *for its own account* because it must; that is not a third-party forced flow whose concession
+     another arbitrageur can capture. Where a broker's client wishes to buy more than the seller is
+     obliged to sell, the broker simply walks away.
+  4. **No unclaimed sign.** The direction of the effect is published; what remains unclaimed is a
+     *residual* of the size, which is a magnitude refinement of a known effect rather than a new mechanism.
+  5. **Effective sample limited.** Crossings are discrete, firm-level events with a published date and a
+     published cause; there is no scalable securities × dates design, and the event frequency in the
+     register's universe is too low to support a claim that the rubric would score.
+- **Decision:** bounded negative (R-027). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a rating-boundary rule change creates a **mechanically
+  dated, size-quantified forced flow whose timing and quantity are not published in advance** — for example
+  a mandate change that permits, rather than requires, deferral of the sale, so the flow's *timing* becomes
+  unclaimed while remaining price-insensitive. Absent that, this family stays closed.
 
 ### R-028 — IPO lock-up expirations (Cycle 48 family screen — bounded negative)
 
-- **The family screened.** Scheduled expiration of IPO lock-up agreements creating predictable insider/affiliate supply.
+- **The family screened.** The scheduled expiration of IPO lock-up agreements, which releases a block of
+  restricted insider and affiliate holdings into the market on a date fixed in the prospectus.
+- **Instances considered.** Lock-up expirations as disclosed in prospectuses (standard 180-day and
+  custom-negotiated terms, with early-release provisions tied to earnings dates or price thresholds).
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale:**
-  1. **Published baseline** — lock-up expirations produce predictable selling pressure; effects are documented in literature.
-  2. **Discretionary flow** — insiders/affiliates choose whether and when to sell (subject to insider trading rules), so flow is not fully price-insensitive/non-discretionary; announcement is in prospectus but execution is discretionary.
-  3. **Anticipation and costs** — effects are anticipated and widely studied; no unclaimed sign survives strict bar for a harvestable third-party concession.
-- **Decision:** bounded negative (R-028). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published baseline.** Lock-up expirations produce predictable selling pressure; the effect is
+     documented in the IPO-underpricing and lock-up literature and the sign is claimed. A candidate here
+     would be presenting published work as a discovery (the G-12 defect).
+  2. **The flow is discretionary, not price-insensitive.** Insiders and affiliates choose whether and when
+     to sell, subject to insider-trading rules and their own tax and liquidity constraints. A
+     *discretionary* flow cannot be assumed to be executed into a concession: if the insiders do not sell,
+     there is no flow to harvest, and if they do, they choose the moment, which is precisely the opposite
+     of the non-discretionary condition the register requires.
+  3. **Anticipated.** The expiration date is disclosed in the prospectus, and the effect is widely studied;
+     participants pre-position before the date, so the announcement and the expiry are priced in advance.
+  4. **No third-party concession (the S-151 analogue).** Even in the fully-sold case, the seller is selling
+     for its own account; the counterparties are voluntary. Nothing obliges a third party to transact at a
+     non-economic price.
+  5. **The candidate universe is mismatched.** Lock-ups attach to newly listed equities; the register's
+     own candidate universe is US-listed ETFs and US index futures, whose share classes have no lock-up
+     structure of this kind — the family is not merely closed, it is not testable in the register's
+     universe without changing the universe, which would be a new project rather than a candidate.
+- **Decision:** bounded negative (R-028). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a lock-up or similar contractual release creates a
+  **mandatory, pre-committed, non-discretionary sale obligation executed by a party other than the
+  beneficial owner** — for example a contractual put or a funded collar that the issuer must honour on the
+  expiry date at a struck price — with a sign not already published in the lock-up literature. Absent that,
+  this family stays closed.
 
 ### R-029 — Scheduled options-expiry (OPEX) dealer-hedging flow as a harvestable concession (Cycle 49 family screen — bounded negative)
 
-- **The family screened.** Scheduled monthly/quarterly options expirations (OPEX) that force dealer gamma/charm hedging flows, creating predictable intraday pressure that a third-party could harvest.
+- **The family screened.** Scheduled monthly and quarterly **options expirations (OPEX)** that force dealer
+  gamma, charm and vanna hedging flows, creating predictable intraday pressure and pinning that a third
+  party might harvest.
+- **Instances considered.** The standard third-Friday monthly cycle, quarterly cycle and the "quarterly
+  opex" with its end-of-quarter settlement and index-expiry concentration; dealer-hedging and expiry-week
+  microstructure studies generally.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale — four independent reasons:**
-  1. **Published baseline** — OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented; intraday pinning and expiration-week dynamics are published and sized.
-  2. **Anticipated** — expiry calendars are published years in advance; all participants pre-position; no unclaimed sign survives.
-  3. **No third-party concession** — the constrained flow is the dealer's own hedging response to its book, not a price-insensitive third-party forced flow creating a harvestable concession to an arbitrageur.
-  4. **Effective sample limited** — discrete monthly/quarterly events with high anticipation; no clean securities×dates design with an unclaimed sign.
-- **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published baseline.** OPEX dealer-hedging effects (gamma, charm, vanna) are extensively documented;
+     intraday pinning and expiration-week dynamics are published and sized, including the academic dispute
+     over whether pinning survives after transaction-cost correction. The sign is prior art, not an
+     unclaimed claim (the G-12 defect).
+  2. **Anticipated.** Expiry calendars are published years in advance and the expiry *date* is a public
+     constant; all participants pre-position, so there is no state that is both decision-relevant and
+     private.
+  3. **No third-party concession (the S-151 analogue).** The constrained flow is the **dealer's own
+     hedging response to its own book**, executed for its own account at prices it chooses. It is neither
+     price-insensitive nor non-discretionary in the register's sense, and no other party is obliged to
+     transact against it.
+  4. **The flow is a *mechanical* function of a state that the counterparty also observes.** The hedge
+     ratio is a function of the dealer's open interest and of the option surface — a published state. A
+     participant who can observe the surface more precisely is not making a discovery; it is out-computing
+     a published rule, which is an execution and latency contest rather than a mechanism (the same
+     structural reason that closed R-031 and R-032).
+  5. **Effective sample limited.** Discrete monthly or quarterly events with high anticipation give few
+     independent observations; there is no clean securities × dates design with an unclaimed sign, and the
+     register does not treat realised pinning as an edge without an unclaimed state.
+- **Decision:** bounded negative (R-029). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a published change in market structure **removes the
+  published expiration calendar's anticipability for one participant class** — for example a rule that
+  obliges dealers to hedge on a schedule whose *date* is not published, or that obliges a non-dealer to
+  absorb the resulting flow at a non-economic price. Absent that, this family stays closed.
 - **Repair note (Cycle 51).** This entry was originally written with a short three-point rationale; a
   fuller four-point rationale for the same family was, in a later editing pass, left orphaned under the
   R-030 entry (it appeared as a stray numbered list beneath R-030's decision line, so a reader of R-030
   would have seen R-029's reasoning attributed to R-030). Cycle 51 merged the orphan back into this
-  entry and removed it from R-030. No verdict changed.
+  entry and removed it from R-030. Cycle 52 expanded this entry to five points and added the re-screen
+  condition. No verdict changed.
 
 ### R-030 — Information-mandate timing with third-party flow / exchange rule changes creating targeted concessions (Cycle 50 family screen — bounded negative)
 
-- **The family screened.** Narrow cases where regulatory/information mandates create deadline-driven third-party flow with potential concessions (e.g. certain SEC filing deadlines creating forced flows, or exchange rule changes creating temporary concessions).
+- **The family screened.** Narrow cases in which a regulatory or market-infrastructure **information
+  mandate**, or an exchange rule change, creates a deadline-driven flow with a possible concession — for
+  example SEC filing deadlines that force a participant to transact by a date, or an exchange rule change
+  that creates a temporary, date-bounded asymmetry between two participant classes.
+- **Instances considered.** Periodic and event-driven filing deadlines (periodic reports, current reports,
+  ownership and beneficial-ownership filings), short-position and short-sale disclosure deadlines,
+  exchange rule filings creating temporary concessions, and the corresponding index and mandate-driven
+  rebalance deadlines.
 - **Outcome: bounded negative. No new candidate; the family is a baseline.**
-- **Rationale:**
-  1. **Published baselines** — many filing deadlines have anticipation effects documented; exchange rule changes are typically anticipated or have published effects.
-  2. **Third-party concession unclear** — mechanisms where third-party can harvest concessions are often not clearly unclaimed separate from published baselines; forced flows may be absorbed or anticipated.
-  3. **No unclaimed sign with clean mechanism** — does not meet the bar (published decision-time state + unclaimed sign + no published baseline + feasible clean test).
-- **Decision:** bounded negative (R-030). No dossier created; no IDEA identifier consumed; no score changed.
+- **Rationale — five independent reasons, any one of which is sufficient:**
+  1. **Published baselines.** Many filing deadlines have documented anticipation effects — the price
+     response to a scheduled disclosure, and the pre-deadline trading it induces, are established results;
+     exchange rule changes are typically anticipated or have published effects. The sign is therefore
+     claimed (the G-12 defect).
+  2. **The deadline is public and dated.** A mandate's compliance date is published (G-13 passes), so the
+     decision-time state is common knowledge and there is no discovery step available to anyone.
+  3. **Third-party concession unclear.** Where a mechanism does allow a third party to harvest a
+     concession, the concession is usually not separable from a published baseline: the forced flow is
+     absorbed or anticipated, and what remains is a magnitude estimate rather than a new mechanism. This
+     is the G-12/G-14 pair — the sign is claimed and the residual is a refinement, not a discovery.
+  4. **The obliged party is usually the obligor.** Where a filing deadline does bind somebody else — a
+     broker that must hedge a client's disclosed position, for example — the party transacting is the
+     one with the obligation, and the counterparty is voluntary. The register's structural requirement,
+     that the concession be a *forced, non-discretionary* flow executed by a party other than the
+     economically interested one (the S-151 analogue), is not met.
+  5. **No clean mechanism, and the observable is not an edge.** The decision-time state would have to be
+     both published and *not yet incorporated* into prices; for the deadline families where that is
+     plausible, the effect is a market-quality observable (spreads, depth, volatility) that the register
+     treats as a cost-model input rather than an edge. The rubric's clean-test requirement is therefore not
+     satisfiable with the published state.
+- **Decision:** bounded negative (R-030). No dossier created; no IDEA identifier consumed; no score
+  changed; no validation specification added.
+- **Dated re-screen condition.** Re-open only if a specific published mandate obliges a **named,
+  non-economically-interested third party to transact at a non-economic price by a published date**, with a
+  sign not already published in the disclosure-timing literature. Absent such a mandate, this family
+  stays closed; it is otherwise the family most likely to be re-proposed, because the register has many
+  deadlines to screen.
 - **Repair note (Cycle 51).** Four numbered rationale points belonging to R-029 (the OPEX dealer-hedging
   family) had been left orphaned immediately beneath this entry's decision line and read as part of
   R-030. Cycle 51 moved them into the R-029 entry, where they belong, and removed them from here. No
-  verdict changed; R-030's own three-point rationale is unchanged.
+  verdict changed; R-030's own three-point rationale is unchanged. Cycle 52 expanded this entry to five
+  points and added the re-screen condition.
 
 ### R-031 — Randomised / imbalance-guided closing-price formation as a harvestable pre-close concession (Cycle 51 family screen — bounded negative)
 
@@ -481,6 +661,109 @@ also **merged the duplicate R-019**. The log's own counts are re-derived from th
   study shows that the randomisation range's **conditional mean** departs from the pre-close mid — a
   systematic bias in the centre of the draw, which would convert the "no sign" objection into a live
   question. Absent either, this family stays closed.
+
+### R-032 — Venue-imposed trading halts, price bands and market-wide circuit breakers as a harvestable concession (Cycle 52 family screen — bounded negative)
+
+- **The family screened.** A market-design rule under which the **venue itself interrupts or constrains
+  trading**, at a published trigger, for a published duration:
+  - **(a) Market-wide circuit breakers.** A venue-wide trading halt triggered when a published index moves
+    a published distance from its prior close — the US regime's three levels at 7 %, 13 % and 20 % of the
+    previous S&P 500 close (S-266), with the level-1 halt lasting 15 minutes (S-258, S-266).
+  - **(b) Individual-stock price bands and trading pauses.** The Limit Up–Limit Down Plan's price bands
+    (Tier 1: 5 %, 10 % or 20 % by price; Tier 2: 10 % or 20 %, doubled in the last 25 minutes), the 15-second
+    **Limit State**, the five-minute **Trading Pause** (extendable by a further five minutes) and the
+    **reopening auction** (S-260, S-259).
+  - **(c) Volatility interruptions.** The European/Korean variant: instead of a full halt, an unscheduled
+    call auction at a price-band breach, calibrated on **static** (auction-price) and **dynamic**
+    (last-traded-price) reference corridors (S-261, S-263, S-264).
+- **Why this family and not a re-run.** Every earlier screen (R-012 … R-031) covered an obligation, a
+  switch, a supply schedule, an expiry-driven flow or a price-formation rule. This family is none of those:
+  nothing here is an obligation converging on a date, and nothing here is a flow that a third party is
+  forced to execute. It is the **venue stopping the market and restarting it**, and the question is whether
+  the interruption leaves a concession that somebody other than the interrupted party can harvest. It is
+  also *not* a re-run of R-018 (the Rule 201 short-sale price test), which is a regulatory switch that
+  disables a *seller* while trading continues; here trading itself stops.
+- **Instances run:** S-256, S-257, S-258, S-259, S-260, S-261, S-262, S-263, S-264, S-266.
+- **Outcome: bounded negative. No new candidate; the family is a baseline. This is the register's first
+  screen of a *market-interruption* family.**
+- **Rationale — six independent reasons, any one of which is sufficient.**
+  1. **The mechanism and its consequences are published prior art, and the sign is already claimed.** The
+     market-wide breaker's state-conditioned behaviour is a peer-reviewed result: as the market approaches
+     the breaker "price volatility rises drastically", returns take on "increasing negative skewness", and
+     "expected returns and trading volume tend to increase as the market approaches the circuit breaker",
+     with the effect sized at 17.5 bps of normalised daily volatility per 1 % closer to the trigger and
+     roughly double that inside 2 % (S-256). The post-halt state of the world is itself measured — returns
+     stabilise, trading costs fall, "selling pressure resolves" and prices become more informative after
+     the resumption, with traders holding back before the halt (S-258) — and the individual-stock variant is
+     equally studied: LULD "interferes with trading activity, but curbs short term volatility without
+     delaying the price discovery process", a magnet effect exists as the price approaches the band, and
+     "HFT trading activity dropped after the LULD trading halt" (S-262). A thirty-year survey literature
+     already stands behind the family, including its methodological disputes and its reported "lack of
+     statistical power" (S-257). A candidate here would be re-litigating a settled question.
+  2. **The trigger state is public and real-time, so there is no informational edge in *knowing* it — and
+     the EU regime requires it to be published.** The LULD bands are calculated by the SIPs from a published
+     reference-price rule and "both SIPs will republish the current price bands every 30 seconds" to the
+     public (S-260); the market-wide trigger is a published index level against a published threshold
+     (S-256, S-266); and the EU regime's own instrument is titled "Guidelines on calibration of circuit
+     breakers **and publication of trading halts** under MiFID II", with venues obliged to report their
+     thresholds, durations and resumption mechanics to the national competent authority and on to ESMA at
+     least annually (S-261). The state is not a private condition; it is a broadcast. The register's G-13
+     test is therefore *passed* and simultaneously *useless here*: there is nothing to discover.
+  3. **A market-wide trigger is a state common to every security, so the trade is beta.** The level-1
+     trigger is defined by the S&P 500's own move (S-256, S-266). At the moment of the halt every
+     instrument in the register's universe has been repriced by the same news; the only implementable claim
+     is a directional bet on that news, which is an index exposure and not an edge, and the published
+     evidence that "index membership and index fund trading do not have additional impacts on market quality
+     during trading halts" (S-258) removes the cross-sectional version as well. There is no dispersion
+     across securities to exploit because there is no cross-sectional state.
+  4. **An individual-stock halt is triggered by that stock's own news, so the identification is inseparable
+     from the information event.** A Limit State is entered when the stock's own quotes breach its own
+     bands (S-260); the SEC's own staff analysis finds that most Trading Pauses are "SRO-defined liquidity
+     gaps" and that "following a Trading Pause, prices revert back to within the price bands in place prior
+     to the Trading Pause" (S-259). A trade placed after the halt is exposed to the news that produced the
+     halt, in exactly the names where the gap between the band and the fundamental value is largest. This
+     is the same objection that closed R-018, and it is not removed by the state's being public.
+  5. **The concession is competed away inside the halt, by the participants with the best latency.** The
+     reopening is an **auction** (S-259, S-260), and in the European variant the venue's own Designated
+     Sponsors are *obliged* to quote during the call phase (S-263) — the venue has designed the mechanism so
+     that the intermediation capacity is present at the restart. The participants who can trade against a
+     published imbalance are the exchange's own members, with millisecond latency against a window measured
+     in seconds (the same structural reason that closed R-031). In the European variant the published result
+     is that the interruption *dissolves* pre-interruption price uncertainty (about 36 % of it) and that
+     post-interruption market quality is a *function of* that price discovery (S-263) — i.e. the mechanism is
+     published as working, which means there is nothing left to harvest.
+  6. **The cost floor and the universe are hostile.** The tradeable window is seconds wide, in the widest
+     names: the SEC's own statistics show LULD halts concentrate in exchange-traded products and small
+     capitalisations (1,058 halts in 327 ETPs against 220 in 144 non-ETPs on 24 August 2015, with 84 % of
+     ETPs small-cap; only 8 S&P 500 constituents halted) (S-259), and the measured post-halt microstructure
+     is volatility *up* (realised volatility 194 % higher annualised in the first minute after a level-1
+     halt, elevated for over ten minutes), spreads *wider* (for about five minutes) and volume up 116 % in the
+     first minute (S-266). A seconds-wide window, entered at the widest spreads, in the least liquid names,
+     is the register's cost-floor objection in its purest form; and the volatility-interruption literature
+     already reports the same for the European mechanism (S-263).
+- **What is *not* the reason.** G-13 passes for this family — the trigger state is public, real-time and,
+  in the EU regime, mandated to be published — and the screen was run against the literature before any
+  conclusion was reached, with every source metadata-verified.
+- **The one narrow residual, recorded rather than claimed.** The SEC's own staff note observes that
+  "NYSE Arca … applied price collars to reopening auctions after LULD halts on August 24" and that "the
+  reopening auctions on NYSE Arca generated prices that were substantially less dispersed than reopening
+  auctions on other primary listing exchanges", leaving "many unexecuted order imbalances" (S-259). That is a
+  *venue-rule difference in reopening-auction mechanics*, observed by the regulator on a single day. It is
+  published, it is one day, and it is a seconds-scale auction-participation window; it is recorded here as
+  the narrow residual the family leaves, **not** as a candidate.
+- **Dated re-screen condition (so the negative does not go stale).** Re-open this family only if **(i)** a
+  venue introduces a **reopening-auction rule difference** that is *in force, published in advance and
+  persistent* — a collar or a matching rule on one venue's reopening auction that differs from the other
+  venues' — and a published study establishes that the difference produces a *persistent* dispersion in
+  reopening prices rather than a one-day observation (S-259); or **(ii)** an exchange publishes a
+  *mandatory participation requirement* in its reopening auction for a non-market-maker class of
+  participant, which would change who is obliged to supply the liquidity at the restart (S-263); or
+  **(iii)** the US regime's market-wide thresholds (7 % / 13 % / 20 %) or the LULD band parameters are
+  materially changed, or the EU regime's publication-of-trading-halts requirement is withdrawn (S-260,
+  S-261, S-266). Absent one of these, this family stays closed.
+- **Decision:** bounded negative (R-032). The venue-halt family is recorded in the known-baseline set; no
+  dossier was created; no `IDEA-` identifier was consumed; no score changed; no validation specification was
+  added.
 
 ## Parked (not rejected; blocked on a specific question)
 
@@ -1005,6 +1288,7 @@ to baselines.
 | **The short-interest branch of the crowding literature (added in Cycle 40)** | **Published, peer-reviewed (plus one working paper)** — S-241 (Mitchell, Pulvino & Stafford, *Journal of Finance* 2004: short interest is the published measure of merger-arb short selling, with its price-pressure effect), S-242 (Hanson & Sunderam, *Review of Financial Studies* 2014: short interest as a published crowding measure of arbitrage capital, whose limits bind when crowding is high) and S-243 (Chan & Tan, SSRN 2020, working paper: daily short interest infers near-real-time crowding of quantitative long-short strategies). **This is a baseline and a rediscovery guard for IDEA-004:** the register's published-neighbour inventory for the convergence-crowd candidate was incomplete without this branch, and the candidate may not present a short-interest-based convergence-activity measure as a discovery. These measures identify **style** arbitrage capital, not the pair/merger-spread convergence crowd, and their published relation is monotone where the candidate claims a two-sided gate. |
 | **Eligibility switches: regulatory and provider changes in *who may hold* (added in Cycle 40)** | **Primary regulator material plus a bounded-negative family screen (R-020).** The instances are the SEC's accredited-investor and qualified-institutional-buyer definition amendment (S-244: Release 33-10824, 85 FR 64234, effective 8 December 2020; the $1 million net-worth, $200,000 income and $100 million QIB thresholds are published) and index-provider eligibility and float screens. **This is a baseline and a bounded-negative family screen (Cycle 40, R-020):** the switch is published in advance so any flow is anticipated (and the nearest published analogue finds the effect collapsed to approximately zero and shifted away from the effective date — S-146, S-147); the constrained flow is the obligor's own, so there is no third-party concession to harvest (S-151); each holder's distance to its own limit is private, so the state would be a construction; and the effective sample is the number of switches, not securities × dates. **Dated re-screen condition:** re-screen only if a change arrives with a published list of affected securities *and* a published distance-to-limit measure for each affected holder. |
 | **Closing-price formation: randomised closes and real-time closing-auction imbalance publication (added in Cycle 51)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-031, Cycle 51) — the register's first screen of a *price-formation* family.** The published record: the LSE's call-market opening and closing auctions and their price-discovery and trading-cost properties (S-247), the market-quality effects of introducing the LSE closing call auction (S-248), the Korea Exchange's conditional random end — a randomised end-of-auction mechanism reported to improve price discovery and stabilise the close, with the benefit attenuating under high-volatility conditions (S-249), and the closing auction's *lower* price impact relative to the continuous market for all stocks except Nasdaq micro-caps (S-150, with S-149 on the passive-incentive mechanism). The primary rule text: NYSE's Closing Auction Imbalance Information (Continuous Book Clearing Price, Imbalance Reference Price, paired/unpaired quantity) is disseminated on the exchange's proprietary feed from ten minutes before the close and updated at least every second, and the exchange's stated purpose for publishing it is to attract "offsetting orders" and "additional contra-side interest, thereby decreasing volatility" (S-251, 89 FR 19370–19374, Release No. 34-99719; approval order 34-100327), with NYSE's 2022 amendment (87 FR 56099) making the DMM's price selection "more transparent and deterministic" — so the US close is not randomised. The settlement channel does not propagate: the Eurex FTSE 100 Index Future settles on the EDSP intraday auction and on a 17:30 CET volume-weighted average, both determined after the cash close is known (S-250). **This is a baseline and a rediscovery guard:** a randomised close is a symmetric draw with no sign-determining state, a single-price auction cannot express the compensation for the draw in the price, and the exchange designs the imbalance publication to attract offsetting interest. Any candidate in this family must state which venue, which instrument settles on the randomised close, and what published state determines the sign. |
+| **Venue-imposed trading halts, price bands and market-wide circuit breakers (added in Cycle 52)** | **Published, peer-reviewed plus primary rule text, and a bounded-negative family screen (R-032, Cycle 52) — the register's first screen of a *market-interruption* family.** The published record on the market-wide breaker: state-conditioned behaviour is claimed and sized — volatility rises drastically as the market approaches the trigger, returns take on increasing negative skewness, expected returns and volume rise as the trigger approaches, sized at 17.5 bps of normalised daily volatility per 1 % closer and roughly double inside 2 % (S-256); the post-halt state of the world is measured — returns stabilise, trading costs fall, selling pressure resolves and prices become more informative after the resumption (S-258); the individual-stock variant is equally studied — LULD "curbs short term volatility without delaying the price discovery process", with a magnet effect near the band and reduced HFT activity after the halt (S-262) — and the family has a thirty-year survey literature with its own methodological disputes and its reported "lack of statistical power" (S-257). The primary rule text: the US market-wide thresholds of 7 % / 13 % / 20 % of the previous S&P 500 close and the 15-minute level-1 halt (S-266), the Limit Up–Limit Down price bands, the 15-second Limit State, the five-minute Trading Pause and the reopening auction (S-260, S-259), and the EU regime's "Guidelines on calibration of circuit breakers **and publication of trading halts**" with annual reporting of thresholds, durations and resumption mechanics to the competent authority and on to ESMA (S-261, S-263, S-264). **This is a baseline and a rediscovery guard:** the trigger state is public and real-time — the SIPs "republish the current price bands every 30 seconds" (S-260) — so there is nothing to discover; a market-wide trigger is a state common to every security, making the trade beta rather than an edge; an individual-stock halt is triggered by that stock's own news, so the identification is inseparable from the information event (the R-018 objection); the concession is competed away inside the reopening auction, in which the venue's own Designated Sponsors are obliged to quote (S-263); and the cost floor is hostile — the tradeable window is seconds wide, in the least liquid names (84 % of halted ETPs small-cap, only 8 S&P 500 constituents halted, on the SEC's own statistics for 24 August 2015 — S-259) and with realised volatility 194 % higher annualised in the first minute after a level-1 halt and wider spreads for about five minutes (S-266). **Dated re-screen condition:** re-open only if (i) a venue introduces an in-force, pre-published, *persistent* **reopening-auction rule difference** (a price collar or matching rule) with published evidence that it produces persistent dispersion in reopening prices rather than a one-day observation — the SEC's own staff note on NYSE Arca's 24 August 2015 collars is the narrow residual this family leaves and is recorded as such, not as a candidate (S-259); or (ii) an exchange publishes a **mandatory participation requirement in its reopening auction for a non-market-maker class** (S-263); or (iii) the US thresholds or LULD parameters change materially, or the EU publication-of-trading-halts requirement is withdrawn (S-260, S-261, S-266). |
 
 ---
 

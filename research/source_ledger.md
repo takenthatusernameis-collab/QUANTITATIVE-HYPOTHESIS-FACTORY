@@ -1,4 +1,24 @@
-# SOURCE LEDGER — CYCLES 1–51
+# SOURCE LEDGER — CYCLES 1–52
+
+Cycle 52 (2026-10-20) added **S-252 … S-266** (see "Cycle 52 sources" at the end of this file) and the
+**"Cycle 52 gap verdicts"** block. Cycle 52's substantive work was twofold: the register's **prior-art
+re-read of IDEA-011 (rank 1) against 2025–2026 literature it had not yet seen** — the register's own
+cross-cutting note identifies this as its highest-value act, and a null there is worth more than another
+bounded negative — and **one new mechanism family screen**, the register's first screen of a
+**halt-and-restriction** family (venue-imposed trading halts, price bands and market-wide circuit breakers),
+logged as a **bounded negative (R-032)** on six independent reasons. The re-read produced four new sources
+on the IFRS-adoption literature and standard-setter publications (S-252 … S-255), including a **systematic
+review of the field that inventories the outcomes but not drift** (S-253), a **published country-level
+conditioner that flips the sign of the post-adoption information effect** (S-252) and thereby enters the
+candidate as a mandatory control, and the **published jurisdiction-profile adoption calendar plus the
+published IFRS 18 effective date** (S-254, S-255) that open the new gap **G-32** — a prospective, dated
+adoption window in which the candidate's first-adopter/second-adopter discriminator can be identified within
+a single standard. Eleven further sources (S-256 … S-266) were added for the R-032 screen: the
+market-wide circuit-breaker literature (S-256, S-257, S-258, S-266), the LULD Plan and the SEC's own LULD
+staff papers (S-259, S-260, S-262), the ESMA/MiFID II circuit-breaker and **publication-of-trading-halts**
+regime and the European volatility-interruption literature (S-261, S-263, S-264), and the early-versus-late
+IFRS adopter comparator (S-265). Cycle 52 changed no score and created no candidate. The register now holds
+**S-001 … S-209** and **S-220 … S-266**; the identifiers **S-210 … S-219** remain reserved and unused.
 
 Cycle 51 (2026-10-20) added **S-247 … S-251** (see "Cycle 51 sources" at the end of this file), a
 **backfilled "Cycles 44–50 gap verdicts" block** (none of those seven cycles wrote a verdict block into
@@ -16,9 +36,7 @@ no randomised close at all (S-251), and the cost floor plus the proprietary natu
 state leave nothing harvestable. Cycle 51 also repaired two defects in the rejection log — the missing
 **R-025** entry (its identifier was consumed in Cycle 45 but never written) and the orphaned **R-029**
 rationale that had been left under the R-030 entry — and corrected that log's own header counts against
-the file (the header had claimed 28 rejections where the file held 29 entries, R-025 having none). The
-register now holds **S-001 … S-209** and **S-220 … S-251**; the identifiers
-**S-210 … S-219** remain reserved and unused.
+the file (the header had claimed 28 rejections where the file held 29 entries, R-025 having none).
 
 All entries were located and metadata-checked during Cycle 1 and Cycle 2 (both 2026-10-19) by web
 search against publisher landing pages, DOI resolvers, regulator and provider sites, or the
@@ -5923,4 +5941,440 @@ under **R-031**, and the family was added to the known-baseline table.
   No `IDEA-`, `V-` or `G-` identifier was consumed. **Identifier R-025 was *not* re-consumed** — its entry
   was written for real instead.
 - **Next free identifiers:** **IDEA-017, S-252, V-012, G-32, R-032, P-014**. The reserved-and-unused
+  identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.
+
+---
+
+## Cycle 52 sources (2026-10-20)
+
+Cycle 52 did two pieces of work: the register's **prior-art re-read of IDEA-011 (rank 1) against 2025–2026
+literature it had not yet seen** (the register's own cross-cutting note identifies this as its highest-value
+act, and a null there is worth more than another bounded negative), and **one new mechanism family screen**
+— venue-imposed trading halts, price bands and market-wide circuit breakers — logged as **R-032**. Fifteen
+sources are added: **S-252 … S-266**.
+
+Every entry below was located by web search against publisher landing pages, the Crossref REST API, the DOI
+resolver, or the institution's own site, and its metadata was re-derived from an authoritative record rather
+than from the search result. Where a publisher page blocked the fetch, the entry says so explicitly and the
+content was read through the search index — the register's rule is that an index-rendered quotation must never
+be presented as a directly parsed document.
+
+### S-252 — Guan, J. X., Shafron, E., Ye, K. and Zhuang, W. (2025)
+"Is accounting the English language of business? The role of language in IFRS adoption and information loss."
+*Review of Accounting Studies* 30(3): 2963–3020.
+DOI: https://doi.org/10.1007/s11142-025-09881-9
+- **Type:** Prior empirical result (peer-reviewed; published online 11 April 2025, print issue September 2025).
+- **Supports:** two things IDEA-011 needs. (i) A **published, ex-ante, country-level conditioning variable**
+  for the post-adoption information environment: the distance between a country's official language and
+  English. The paper hand-collects the dates on which countries change their adoption status
+  (prohibit → permit → mandate) over 2004–2018 on the Ramanna–Sletten three-level framework, finds that
+  greater linguistic distance both lowers the likelihood of adoption and slows it, and then shows the
+  information cost **materialising after adoption**: "firms in countries with the most severe language
+  barriers experience a worsened post-adoption information environment, as evidenced by increased analyst
+  forecast errors and widened bid-ask spreads", while "firms in countries with the most severe language
+  barriers are associated with an increase in information loss post adoption". The state is measurable
+  **before** the adoption date and is published. (ii) A **sign flip in the sign-determining direction**:
+  the post-adoption information effect is not merely attenuated in a weak-information setting, it reverses.
+- **Caveats:** the outcomes are **analyst forecast error and bid–ask spread, not drift** — the register's
+  G-21 comparison (post-earnings-announcement drift, first-time versus second-time adopters) is *not* run
+  here, so this paper does not close G-21. The conditioning variable is **country-level**, so it is collinear
+  with the already-published enforcement conditioner (S-221) and cannot by itself identify a firm-level
+  effect. The paper is a *neighbour*, not the candidate's discovery.
+- **Verification:** the full Crossref record (authors, title, journal, volume, issue, pages, DOI, dates,
+  abstract) was retrieved from the Crossref REST API and read in full; the publisher's own article page
+  returned a client challenge to a direct fetch, and the abstract was therefore read from the Crossref
+  record and the search index, which agree.
+
+### S-253 — Pirveli, E. and Zimmermann, J. (2026)
+"Twenty years of IFRS 'success'? A systematic review of Scopus literature." *Journal of International
+Accounting, Auditing and Taxonomy* 60: 100739.
+DOI: https://doi.org/10.1016/j.intaccaudtax.2025.100739 (published online 29 November 2025; issue dated
+June 2026). Preprint: SSRN 4699908, posted 19 January 2024.
+- **Type:** Prior systematic literature review (peer-reviewed; a *review* article).
+- **Supports:** the most complete published map of the IFRS-adoption literature that IDEA-011 lives in, and
+  it bears on the candidate in three distinct ways. (i) **Adverse to the candidate's premise, at the level
+  of the premise and not of the outcome**: the review's 181 top-cited papers yield the finding that "half of
+  them could not affirm a significant positive impact of IFRS on accounting quality, comparability, or market
+  properties"; that market effects are real but "accounting quality and comparability do not mediate the
+  market effects"; and that studies with negative findings "point to varying enforcement strength and IFRS
+  complexity". (ii) **Supportive of the candidate's *comparability-break* reading in a different form**: the
+  review attributes positive findings to "IFRS' mandatory nature and pre-IFRS differences compared to local
+  standards" — i.e. the *discontinuity* at adoption, which is the candidate's premise, while rejecting the
+  claim that gradual comparability improvement drives outcomes. (iii) **The outcome is absent from the
+  review's map**: the outcomes it inventories are accounting quality, comparability, liquidity, cost of
+  capital, forecast accuracy and foreign investment — **post-earnings-announcement drift is not among them**,
+  which is the strongest available confirmation that the candidate's residual is unclaimed.
+- **Caveats:** a review of the *top-cited* literature, so a drift study with few citations could exist
+  outside its sample; the review is itself a 2025–2026 artefact, so it cannot cover the pre-2027 IFRS-18
+  literature (see G-32).
+- **Verification:** the DOI resolved to the publisher's own citation string (Elsevier), giving authors,
+  title, journal, volume and article number; the ScienceDirect article page returned HTTP 403 to a direct
+  fetch, so the abstract was read through the search index, from the SSRN preprint record and from the
+  author's own announcement, which agree with each other.
+
+### S-254 — IFRS Foundation (standard-setter), "Who uses IFRS Accounting Standards?" — jurisdiction profiles
+URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdiction/
+- **Type:** Primary standard-setter publication (jurisdiction directory).
+- **Supports:** the **published adoption-status calendar** IDEA-011 needs. The IFRS Foundation states that it
+  "monitor[s] the application of those standards in each jurisdiction", that "updates are made on an ongoing
+  basis", and that it "currently [has] complete profiles for **170 jurisdictions**"; the profiles are
+  filterable on exactly the three states the candidate's discriminator needs — "IFRS Standards are required
+  for domestic public companies", "IFRS Standards are permitted but not required for domestic public
+  companies", and "IFRS Standards are required or permitted for listings by foreign companies". A
+  jurisdiction's membership of the **first-time-adopter** group (required, and not previously on
+  IFRS-equivalent standards) versus the **second-time-adopter** group (permitted, or previously mandated) is
+  therefore a **published, dated, pre-registered** assignment, not a researcher's classification.
+- **Caveats:** the directory states the *status* of each jurisdiction's IFRS use; it does not itself give a
+  dated transition schedule for every jurisdiction, and the register has not enumerated the 170 profiles in
+  this cycle (a bulk read of a directory is not performed in this repository).
+- **Verification:** page fetched directly; the quoted statements about the 170 profiles and the three
+  status filters were read in the fetched document.
+
+### S-255 — IFRS Foundation (standard-setter), "IFRS 18 Presentation and Disclosure in Financial Statements"
+URL: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/
+- **Type:** Primary standard-setter publication (standard page).
+- **Supports:** a **new, dated, prospective mandatory-adoption event** that the register's candidate can be
+  specified against, and a comparability break created *by design*. The page states: "IFRS 18 is effective for
+  annual reporting periods beginning on or after **1 January 2027**, with earlier application permitted", that
+  it "replaces IAS 1 Presentation of Financial Statements", that it was issued in April 2024, and that it
+  requires two new defined subtotals in the statement of profit or loss (operating profit and profit before
+  financing and income taxes), disclosure of management-defined performance measures, and new principles for
+  aggregation and disaggregation of items. Those are precisely the features that break comparability at the
+  moment of adoption — the candidate's "comparability clock" premise — while the mandatory date and the
+  jurisdiction-by-jurisdiction adoption route are published in advance.
+- **Caveats:** a standard-setter's own summary page (an interested party); it does not by itself establish
+  that any jurisdiction will adopt IFRS 18 on time, nor that the transition creates a *drift*; it is the
+  event, not the effect.
+- **Verification:** page fetched directly; the effective-date, replacement and content statements were read
+  in the fetched document.
+
+### S-256 — Chen, H., Petukhov, A., Wang, J. and Xing, H. (2024)
+"The Dark Side of Circuit Breakers." *The Journal of Finance* 79(2): 1405–1455.
+DOI: https://doi.org/10.1111/jofi.13310 (published online 23 February 2024; print April 2024).
+- **Type:** Prior empirical and theoretical result (peer-reviewed).
+- **Supports:** the market-wide circuit-breaker mechanism is a **published, quantified** object, and the
+  sign of the state-conditioned behaviour is claimed. The paper shows that "as the market approaches the
+  circuit breaker, price volatility rises drastically, accelerating the chance of triggering the circuit
+  breaker — the so-called 'magnet effect'", that "returns exhibit increasing negative skewness", and that
+  "expected returns and trading volume tend to increase as the market approaches the circuit breaker". Its
+  empirical work uses transaction-level E-mini S&P 500 futures data and reports that "a decrease in DTCB of
+  1 % (7 % is the Level-1 trigger threshold) leads to an increase in volatility of 17.5 bps normalized to
+  daily scale", with the coefficient "nearly doubl[ing] to -30.0" when the distance to the breaker falls
+  below 2 %.
+- **Caveats:** the estimates are for the *futures* market and for the neighbourhood of the trigger, not for
+  the resumption; the paper's own framing is that a circuit breaker can reduce or raise welfare depending on
+  the mix of risk-sharing and speculative motives, so it is not a directional trading rule.
+- **Verification:** the full Crossref record (authors, title, journal, volume, issue, pages, DOI, online and
+  print dates, abstract) was retrieved from the Crossref REST API; the American Finance Association's issue
+  page for *The Journal of Finance* 79(2) was read separately and confirms the volume, issue, pages and DOI.
+
+### S-257 — Sifat, I. M. and Mohamad, A. (2018)
+"Circuit breakers as market stability levers: A survey of research, praxis, and challenges."
+*International Journal of Finance & Economics* 24(3): 1130–1169.
+DOI: https://doi.org/10.1002/ijfe.1709
+- **Type:** Prior survey (peer-reviewed).
+- **Supports:** the size and maturity of the circuit-breaker literature. The survey's own framing is that
+  "since conceptualization in 1970s and practice from 1980s, researchers focused mostly on [circuit breakers']
+  ability to allay panic, interference with trading, volatility transmission, prospect of self-fulfilling
+  prophecy through gravitational pull towards itself, and delayed dissemination of information", that "the
+  empirical literature on the merits of MWCBs is inconclusive", and that regulators "downplay the reliability
+  of anti-circuit breaker findings citing, inter alia, suspect methodology, and lack of statistical power". A
+  register that proposed a circuit-breaker candidate would be proposing to re-litigate a question with a
+  thirty-year survey literature behind it and an acknowledged lack of statistical power.
+- **Caveats:** a survey, not a primary test; the search engine's rendering of this paper attributed it to a
+  different author, which is why the register re-derives author metadata from the Crossref record rather
+  than from a search result.
+- **Verification:** the full Crossref record (authors, title, journal, volume, issue, pages, DOI, date,
+  abstract) was retrieved from the Crossref REST API and read in full.
+
+### S-258 — Lin, K., Gurrola Perez, P. and Speth, B. (2022)
+"Circuit Breakers and Market Quality." SSRN working paper 4132469.
+DOI: https://doi.org/10.2139/ssrn.4132469
+- **Type:** Prior empirical result (working paper; Crossref records it as an SSRN journal-article record; no
+  journal version was located in this cycle).
+- **Supports:** the *post-halt* state of the world is already measured. Using high-frequency intraday trade
+  and quote data around the four market-wide halts triggered in March 2020, the authors find that "on
+  average, stock returns stabilize, trading cost reduces, selling pressure resolves, and prices become more
+  informative after trading resumes from the market-wide trading halts", that "traders tend to hold back from
+  aggressive trading right before the trading halts, which is inconsistent with the circuit breakers causing
+  panic (the magnet effect)", and — directly relevant to the register's own instrument universe — that
+  "index membership and index fund trading do not have additional impacts on market quality during trading
+  halts".
+- **Caveats:** a working paper; the four March-2020 events are a very small event set; the findings concern
+  *market-wide* halts, whose trigger state is common to every security.
+- **Verification:** the Crossref record (authors, title, container, DOI, year) was retrieved from the
+  Crossref REST API; the abstract was read through the search index from the SSRN record.
+
+### S-259 — U.S. Securities and Exchange Commission, Division of Economic and Risk Analysis (staff papers)
+(a) Moise, C. E. and Flaherty, P. (March 2017), **"'Limit Up-Limit Down' Pilot Plan and Associated Events"**
+(staff white paper);
+(b) DERA research note (February 2016), **"Equity Market Volatility on August 24, 2015"**.
+URLs: https://www.sec.gov/dera/staff-papers/white-papers/dera-luld-white-paper.pdf and
+https://www.sec.gov/marketstructure/research/equity_market_volatility.pdf
+- **Type:** Primary regulator staff material.
+- **Supports:** the LULD mechanism as an *operating* rule with a published sequence, and the register's own
+  instrument universe's exposure to it. The white paper documents the state machine: a **Limit State** (one
+  side of the market outside the applicable price band while the other side reaches it) lasts 15 seconds;
+  if it does not resolve, the primary listing exchange "declares a five-minute Trading Pause, which is
+  applicable to all markets trading the security", and "Trading reopens with an auction similar to the
+  opening auction at the beginning of that day". It also documents that "most of the Trading Pauses in both
+  tiers result from 'SRO-defined liquidity gaps'", that "following a Trading Pause, prices revert back to
+  within the price bands in place prior to the Trading Pause", and that LULD events occur on *every day
+  examined* in Tier 2. The research note quantifies the universe: on 24 August 2015 there were **1,278 LULD
+  trading halts**, of which **1,058 in 327 ETPs and 220 in 144 non-ETPs**, with "84 % of ETPs" small
+  capitalisation, and only "8 constituents of the S&P 500 and 2 constituents of the NASDAQ-100" halted; it
+  also records that "NYSE Arca, which is the primary listing exchange for more than 85 % of ETPs, applied
+  price collars to reopening auctions after LULD halts on August 24. The reopening auctions on NYSE Arca
+  generated prices that were substantially less dispersed than reopening auctions on other primary listing
+  exchanges" and "left many unexecuted order imbalances".
+- **Caveats:** the staff papers are the regulator's own descriptive statistics, not a causal test; the
+  August-2015 episode is a single day; the cross-venue collar difference is an observation the SEC published,
+  not a claim the register may present as a discovery.
+- **Verification:** **both SEC documents returned HTTP 403 to a direct fetch in this session** and were read
+  through the search index; the quoted passages are therefore index-rendered, and the register does not
+  present them as directly parsed documents.
+
+### S-260 — The Limit Up–Limit Down Plan (plan documentation) and Nasdaq Trader, "Limit Up-Limit Down" FAQ
+URLs: https://www.luldplan.com/ and
+https://www.nasdaqtrader.com/content/MarketRegulation/LULD_FAQ.pdf
+- **Type:** Primary venue/plan documentation.
+- **Supports:** the **decision-time state is published, real-time and venue-level** — the fact the Cycle-52
+  screen needs. The Plan's own documentation states that the price bands are "set at a percentage level above
+  and below the average reference price of a security over the preceding five-minute period", that "The price
+  bands, consisting of a Lower and Upper Price Band for each NMS Stock, are calculated by the two SIPs — CTA
+  and Nasdaq UTP", that Tier 1 comprises "all securities in the S&P 500, the Russell 1000 and select Exchange
+  Traded Products (ETPs)" and Tier 2 "all other NMS securities", and that the Limit State resolves in 15
+  seconds or becomes a five-minute Trading Pause (extendable by a further five minutes) followed by a
+  reopening. The FAQ adds the band parameters (5 % for Tier 1 above $3, 10 % for Tier 2 above $3, 20 % for
+  stocks from $0.75 to $3, the lesser of $0.15 or 75 % below $0.75, doubled in the last 25 minutes), the
+  reference-price rule (arithmetic mean of eligible reported transactions over the preceding five minutes,
+  updated only when at least 1 % away), and — the decisive fact for the screen — that "**Both SIPs will
+  republish the current price bands every 30 seconds**" and that "the Processors (UTP/SIAC) for each NMS
+  stock shall calculate and disseminate to the public a Lower Price Band and an Upper Price Band".
+- **Caveats:** the Nasdaq FAQ page at the retired `Trader.aspx?id=LULD` address returned "Page Not
+  Available" to a direct fetch; the surviving PDF and the Plan's own site were read through the search
+  index; the Plan's parameters are periodically amended (e.g. the elimination of double-wide bands in 2020),
+  so the parameter tables must be re-read at the date of any future use.
+- **Verification:** the `luldplan.com` content and the Nasdaq FAQ PDF were read through the search index;
+  the retired Nasdaq URL was fetched directly and its "Page Not Available" response recorded.
+
+### S-261 — European Securities and Markets Authority (ESMA), MiFID II circuit-breaker guidelines and supervisory briefing
+(a) **"Guidelines on calibration of circuit breakers and publication of trading halts under MiFID II"**,
+ESMA70-872942901-63, with the accompanying Final Report (ESMA70-872942901-17);
+(b) **"Supervisory Briefing: Circuit Breakers"**, ESMA74-2134169708-6975, 12 October 2023.
+URLs: https://www.esma.europa.eu/sites/default/files/library/esma70-872942901-63_guidelines_on_the_calibration_of_of_circuit_breakers.pdf
+and https://www.esma.europa.eu/sites/default/files/2023-10/ESMA74-2134169708-6975_Supervisory_Briefing_Circuit_Breakers.pdf
+- **Type:** Primary regulator material (supervisory guidelines and briefing).
+- **Supports:** the EU regime is the register's cleanest instance of a **venue-published, real-time, published
+  trigger state**, and it shows the regime *requires* the halt information to be published. The instrument is
+  titled "Guidelines on calibration of circuit breakers **and publication of trading halts** under MiFID II",
+  and the briefing states the design: a venue must put in place "at least one of the two types of circuit
+  breaker" — "(i) trading halts mechanisms only, or (ii) price collars mechanisms only, or (iii) both" —
+  calibrated on **both static and dynamic reference prices**, where "static circuit breakers are more suited to
+  manage intraday price volatility" and "dynamic circuit breakers are more suited to prevent sharp price
+  changes". The Final Report sets out the parameters national competent authorities must obtain from venues
+  and pass to ESMA at least annually, including "thresholds", the "frequency of updates", the "duration of the
+  halts … including the randomisation parameters", and "the mechanism employed in resuming the market …
+  where the resumption of the market occurs through an auction process, the details of such a mechanism (e.g.
+  duration, randomised or not, etc.) should be provided".
+- **Caveats:** EU-only and implemented through national competent authorities rather than by a single
+  exchange; the guidelines are supervisory expectations on venues, not a self-executing rule for a
+  participant; the register's own instrument universe is US-listed, so the EU regime is a *comparator* for
+  the screen rather than a tradeable venue for it.
+- **Verification:** both ESMA PDFs were read through the search index; the EUR-Lex text of Commission
+  Delegated Regulation (EU) 2017/589 was requested but returned an empty document body to the fetch and
+  was therefore **not** used as a source.
+
+### S-262 — Lin, Y. and Swan, P. L. (2017)
+"Limit Up Limit Down, Exchange Access Fee and High Frequency Trading Around Price Limits."
+SSRN working paper 3019986. DOI: https://doi.org/10.2139/ssrn.3019986
+- **Type:** Prior empirical result (working paper).
+- **Supports:** the LULD family's *magnet* and *liquidity* behaviour is measured, so a LULD candidate would
+  be re-deriving published work. The paper tests five propositions — "trading interference, volatility
+  spillover, delayed price discovery, magnet effects and the role of HFT around the price limit" — and finds
+  that "LULD interferes with trading activity, but curbs short term volatility without delaying the price
+  discovery process", that "magnet effect exists when trade price is approaching the price limit", and that
+  "HFT trading activity dropped after the LULD trading halt which was driven by the decrease in liquidity
+  taking on the maker-taker market while no change on the inverted market".
+- **Caveats:** a working paper; the sample and the period are not stated in the abstract; it studies the
+  *individual-stock* LULD mechanism, not the market-wide breaker.
+- **Verification:** the Crossref record (authors, title, container, DOI, year) was retrieved from the
+  Crossref REST API; the abstract was read through the search index from the SSRN record.
+
+### S-263 — Zimmermann, K. (2013; last revised 30 October 2014)
+"Price Discovery in European Volatility Interruptions." SSRN working paper 2365772; the same work was
+presented as "Price Discovery in European Volatility Interruptions", EFA Annual Meeting, Rome, 2014.
+DOI: https://doi.org/10.2139/ssrn.2365772
+- **Type:** Prior empirical result (working paper; conference version).
+- **Supports:** the *volatility-interruption* variant of the halt family — a short-lived call auction at a
+  price-band breach rather than a full trading halt — is a published, measured mechanism. On approximately
+  **1,800 Xetra volatility-interruption events from 01/2009 to 01/2012**, the paper finds that "volatility
+  interruptions dissolve on average 36 percent of the pre-interruption price uncertainty", that post-auction
+  continuous trading benefits conditionally on the price-discovery contribution of the interruption, and that
+  the venue's own Designated Sponsors are obliged to quote during the call phase.
+- **Caveats:** one venue, 2009–2012; the SSRN record and the conference version are the same work, so they
+  are one source; the interruption is a European mechanism and the register's universe is US-listed.
+- **Verification:** the Crossref record (author, title, container, DOI, year) was retrieved from the
+  Crossref REST API; the conference PDF's text was read through the search index.
+
+### S-264 — Eom, K. S., Kwon, K. Y., La, S. C. and Park, J.-H. (2022)
+"Dynamic and Static Volatility Interruptions: Evidence From the Korean Stock Markets."
+*Journal of Risk and Financial Management* 15(3): 105. DOI: https://doi.org/10.3390/jrfm15030105
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the two-reference-price design that ESMA requires of EU venues (S-261) is an *existing,
+  studied* mechanism at the individual-stock level in another market: the paper is the empirical study of the
+  Korean stock market's **dynamic** and **static** volatility interruptions — the former referenced to the
+  last traded price, the latter to the most recent auction price.
+- **Caveats:** one market, one mechanism; the register could not access the article body, so **no numerical
+  finding is attributed to it here**; it is related to but **distinct from** S-249 (Eom, Kwon & Park 2021,
+  *Journal of Futures Markets* 41(10): 1545–1568, on the Korea Exchange's conditional **random end** in the
+  closing auction), which was screened in R-031 — the two papers must not be conflated, and the present
+  entry is not a duplicate of S-249.
+- **Verification:** the Crossref record (authors, title, journal, volume, issue, article number, DOI, date)
+  was retrieved from the Crossref REST API; the article body was read through the search index only.
+
+### S-265 — Tawiah, V. K. (2022)
+"Does the impact of IFRS on audit fees differ between early and late adopters?"
+*International Journal of Accounting & Information Management* 30(1): 1–21.
+DOI: https://doi.org/10.1108/IJAIM-04-2021-0085 (published online 29 October 2021; print 1 February 2022).
+- **Type:** Prior empirical result (peer-reviewed).
+- **Supports:** the **early-adopter versus late-adopter contrast is a standard, populated design in the IFRS
+  literature — but on outcomes other than drift**. Using 314 firms from an early-adopting country (South
+  Africa, 2005: 195 firms) and a late-adopting country (Nigeria, 2012: 119 firms), the paper finds that "IFRS
+  is positively and significantly associated with an increase in audit fees for early adopters, but the impact
+  is very weak for late adopters and insignificant in some cases", that the audit-fee effect runs from "the
+  transition year to one-year post-adoption" for early adopters but is "significant only in the adoption
+  year" for late adopters, and concludes that "early adopters paid a premium for being the first users of
+  IFRS". This is the register's evidence that G-21's *comparator* is a well-established design whose
+  **outcome variable** has not yet been drift.
+- **Caveats:** two countries, one outcome (audit fees and audit time), self-selected early adopters; it does
+  not speak to drift or to price effects.
+- **Verification:** the full Crossref record (author, title, journal, volume, issue, pages, DOI, dates,
+  abstract) was retrieved from the Crossref REST API and read in full.
+
+### S-266 — Lia, X. and Yao, W. (2024)
+"Do market-wide circuit breakers calm the markets or panic them?" EFA Annual Meeting, Lisbon, 2024
+(working paper, 5 January 2024).
+URL: http://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2024-Lisbon/papers/MWCBs_paper.pdf
+- **Type:** Prior empirical result (conference working paper).
+- **Supports:** the *cost and liquidity* profile of the tradeable window, which is the register's cost-floor
+  objection, measured rather than asserted. The paper documents the US rule's structure — "MWCBs … can be
+  triggered at three thresholds that measure a decrease against the previous day's closing price of the
+  S&P 500 index – 7 % (level 1), 13 % (level 2), and 20 % (level 3)" — and reports that the four level-1
+  triggers of March 2020 (9, 12, 16 and 18 March) were followed by a first-minute post-halt rise in realised
+  volatility "by an annualized figure of 194 %", volatility "elevated for over 10 minutes", quoted spreads
+  widened "for about 5 minutes after the market resumes", and trading volume "116 % higher in the very first
+  minute post-halt and … 40 % higher for over 10 minutes".
+- **Caveats:** a conference working paper, not peer-reviewed; four events; the identification uses
+  same-day counterfactuals and the paper notes the counterfactual is "not perfect".
+- **Verification:** the PDF was read through the search index (the EFMA meeting-paper repository); the
+  document is not hosted by a publisher with a DOI.
+
+---
+
+## Cycle 52 gap verdicts (2026-10-20)
+
+### G-30 — **exhaustion confirmed; no re-probe** (IDEA-010)
+All sub-routes remain closed (regulatory: Cycle 41; sponsor-published lists: Cycles 42–43; non-US/UCITS
+issuers: Cycle 42; exchange listing rules: Cycle 43), and no new route was identified in Cycles 44–51 or in
+Cycle 52. **V-010 remains non-executable against the corporate-bond ETF universe.** The standing instruction
+is unchanged: *do not re-run statutory filings, and do not substitute a published crowding proxy (S-026,
+S-157, S-222 measure different crowds)*. No statutory filing was re-run in Cycle 52.
+
+### G-28 — **remains frozen; null recorded** (IDEA-004); V-002 frozen
+No published convergence-crowd **concentration** measure was located in the Cycle-52 bounded check, and none
+is required: the crowding literature the register already holds (S-026, S-157, S-222, S-241, S-242, S-243)
+measures a *different* crowd in every case. **G-28 stays frozen and V-002 stays frozen.** The FINRA
+twice-monthly short-interest route remains a lead with objections (per-issue aggregate with no firm-level
+breakdown; contamination of the short leg; short interest already published prior art).
+
+### G-21 (IDEA-011) — **null maintained, and materially sharpened by a prior-art re-read**
+The Cycle-52 re-read against 2025–2026 literature the register had not seen produced three findings and one
+new gap:
+1. **The null stands, with a sharper statement of what the literature does contain.** The
+   first-adopter/second-adopter contrast is a *standard, populated design* in the IFRS literature — audit
+   fees and audit time (**S-265**), narrative disclosure, accounting choice, language barriers — but it is
+   run on **outcomes other than drift**. The field's own systematic review of ~181 top-cited IFRS-adoption
+   papers inventories accounting quality, comparability, liquidity, cost of capital, forecast accuracy and
+   foreign investment, and **post-earnings-announcement drift is not among the reviewed outcomes** (**S-253**).
+   The candidate's residual is therefore not an unnoticed literature gap; it is a **specific outcome that the
+   IFRS-adoption literature has not run**, on a comparator that is standard elsewhere.
+2. **A published conditioner that competes with the candidate's own state — and a new mandatory control.**
+   The post-adoption information effect is now shown to **flip sign** with a country-level, ex-ante,
+   published state (linguistic distance): adoption *worsens* the post-adoption information environment
+   (higher analyst forecast error, wider bid–ask spreads) in the most severe language-barrier countries
+   (**S-252**). Because that state is country-level, it is collinear with the already-published enforcement
+   conditioner (**S-221**), so the candidate's own conditioning variable must remain **firm-level**, and both
+   country-level conditioners must enter the specification as **mandatory controls**. The candidate may not
+   present the state-conditioned post-adoption information effect as a discovery.
+3. **The candidate's premise is weakened at one point and supported at another, and the distinction is
+   recorded rather than smoothed.** The systematic review finds that market effects of IFRS adoption are real
+   but "accounting quality and comparability do not mediate the market effects", and that negative findings
+   "point to varying enforcement strength and IFRS complexity" (**S-253**) — adverse to the candidate's
+   comparability-as-driver story. But the same review attributes positive findings to "IFRS' mandatory nature
+   and **pre-IFRS differences compared to local standards**", which is the *discontinuity* at adoption — the
+   candidate's own premise — and not the gradual improvement of comparability. The two readings are
+   distinguishable in the candidate's design (drift versus liquidity/cost-of-capital outcomes; transition
+   versus post-transition windows), and the candidate must pre-register which one it claims.
+4. **A new gap, G-32, is opened** (see below) because the cycle's work produced a concrete, dated,
+   prospective route for the candidate rather than another null.
+
+### G-32 — **OPENED (Cycle 52) — the prospective IFRS-18 adoption window** (IDEA-011)
+The candidate's binding hard stop is that the number of *independent, non-overlapping* adoption events is
+small. Cycle 52 found a dated, published, prospective event that could relieve it and could identify the
+G-21 discriminator more cleanly than any past event. **IFRS 18** (issued April 2024) "is effective for
+annual reporting periods beginning on or after **1 January 2027**, with earlier application permitted",
+replaces IAS 1, and creates a comparability break **by design** — two new defined subtotals in the statement
+of profit or loss, required disclosure of management-defined performance measures, and new principles for
+aggregation and disaggregation (**S-255**). The jurisdiction-level adoption-status calendar that the
+discriminator needs is published in advance in the IFRS Foundation's jurisdiction profiles, with 170
+jurisdictions filterable by "required for domestic public companies" versus "permitted but not required"
+(**S-254**). Three sub-questions, each with a stated answer route:
+- **(a) the calendar limb — closable now.** Does the published jurisdiction-level profile set, read
+  jurisdiction by jurisdiction, identify a group A (first-time IFRS adopters) and a group B (second-time
+  adopters) with **non-overlapping, pre-registered** IFRS 18 adoption dates? The register has **not** yet
+  enumerated the 170 profiles, and a bulk directory read is not performed in this repository; this is the
+  concrete next act, and it is a *reading* task, not a data-processing task.
+- **(b) the identification limb.** Does the candidate's **firm-level** information-quality conditioning
+  retain identifying power *within a single standard*, i.e. is the treatment not absorbed by the two
+  published country-level conditioners (enforcement **S-221**, language distance **S-252**)? This is the
+  question the past events could not pose cleanly, because in every past event the treatment varies with
+  the jurisdiction.
+- **(c) the pre-adoption-claim limb.** Does any 2024–2027 pre-adoption literature already claim the
+  IFRS-18 drift sign? The review of the field (S-253) cannot cover IFRS 18, because IFRS 18 post-dates it.
+- **Dated re-check:** the pre-adoption literature window is 2024–2027; the first IFRS 18 annual reports cover
+  periods beginning on or after 1 January 2027 and will be published during 2028. **Re-read the IFRS 18
+  pre-adoption literature annually, and re-run limb (a) whenever the IFRS Foundation updates its jurisdiction
+  profiles.**
+
+### IDEA-014's state-free existence limb — **inconclusive maintained**
+No new source was identified on whether the US Renewable Fuel Standard compliance deadline moves prices at
+all. The limb remains neither a positive finding nor a refutation and must not be described as either.
+IDEA-014 stays at 52.0; P-011 stands; no gap is opened on this limb.
+
+### The Cycle-52 venue-halt family screen — logged as **R-032**
+Venue-imposed trading halts, price bands and market-wide circuit breakers were screened as one family — the
+register's first screen of a **halt-and-restriction** family, in which the venue *interrupts or constrains
+trading itself* rather than obliging a participant to act. Instances run: US market-wide circuit breakers
+(**S-256**, **S-258**, **S-266**), the US Limit Up–Limit Down Plan's Limit State / five-minute Trading Pause
+/ reopening auction (**S-259**, **S-260**, **S-262**), European volatility interruptions and the ESMA/MiFID II
+calibration and **publication-of-trading-halts** regime (**S-261**, **S-263**), and Korean dynamic and static
+volatility interruptions (**S-264**). Verdict: **bounded negative** on six independent reasons — the effects
+are published and sized; the trigger state is public and real-time (a candidate cannot have an informational
+edge in *knowing* it); a market-wide trigger is a state common to every security, so any trade is beta; an
+individual-stock halt is triggered by that stock's own news, so the identification is inseparable from the
+information event; the concession is competed away inside the halt by the participants with the best latency;
+and the tradeable window is seconds wide, in the widest-spread universe, with the published post-halt
+microstructure (volatility up, spreads wide, volume up) documenting why. The screen, its instances, its six
+reasons and its dated re-screen condition are recorded in `rejected_and_parked.md` under **R-032**, and the
+family was added to the known-baseline table.
+
+### Cycle-52 ranking and identifier record
+- **No candidate was created and no score changed.** The active ranking is unchanged: **IDEA-011 (69.0,
+  rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**.
+- **New identifiers consumed in Cycle 52:** sources **S-252 … S-266** (the IDEA-011 prior-art re-read corpus
+  and the venue-halt family corpus); gap **G-32** (the prospective IFRS-18 adoption window); rejection
+  **R-032** (the venue-halt family screen). No `IDEA-` and no `V-` identifier was consumed as a *new*
+  specification; **V-009 was amended** (Cycle 52), not re-created.
+- **Next free identifiers:** **IDEA-017, S-267, V-012, G-33, R-033, P-014**. The reserved-and-unused
   identifiers **IDEA-016, S-210 … S-219, V-011, G-26 and P-013** remain unused inside their ranges.

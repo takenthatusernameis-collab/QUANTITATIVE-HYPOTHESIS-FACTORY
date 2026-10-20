@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–51
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–52
 
 **Status: specification only.** Nothing in this file has been executed. No test code, no data
 acquisition, no metrics, no simulations and no jobs were produced for these candidates in this
@@ -180,6 +180,29 @@ Clearing Price, Imbalance Reference Price) is disseminated on the exchange's pro
 minutes before the close and updated at least every second — so a specification that chooses to execute
 in the closing auction must price that venue's costs and its data dependency explicitly. No
 specification was added, withdrawn or amended in Cycle 51.
+
+**Cycle 52 update — no specification withdrawn, none added, one amended (V-009).** No candidate entered
+or left the top three and no score changed, so the executable set is unchanged in membership:
+**V-008, V-009 and V-010** are executable as specified (**V-009 with the Cycle-52 amendment below**),
+**V-002 remains frozen** pending G-28, **V-001, V-004, V-005, V-006 and V-007 remain withdrawn**, and
+**V-003 is never-to-execute**. **G-30 remains exhausted** — all four sub-routes (regulatory — Cycle 41;
+sponsor-published lists — Cycles 42–43; non-US/UCITS issuers — Cycle 42; exchange listing rules — Cycle
+43) remain closed, no new route was identified in Cycles 44–51 or in Cycle 52, **no statutory filing was
+re-run**, and **V-010 remains non-executable against the corporate-bond ETF universe** and must not be
+executed against a substituted crowding proxy. **G-28 and V-002 remain frozen** (the null is re-derived;
+no published convergence-crowd *concentration* measure was located — every crowding measure the register
+holds measures a different crowd). **IDEA-014's state-free existence limb remains inconclusive** and no
+specification may be written for it. The Cycle-52 family screen — **venue-imposed trading halts, price
+bands and market-wide circuit breakers**, logged as **R-032** — is a bounded negative and creates no
+validation specification; its one narrow residual (the SEC's own staff note that NYSE Arca applied price
+collars to reopening auctions on 24 August 2015, producing less dispersed reopening prices and leaving
+"many unexecuted order imbalances", S-259) is recorded as a residual, **not** as a candidate and **not** as
+a specification. The substantive change is the **V-009 amendment**: Cycle 52 ran the **prior-art re-read of
+IDEA-011**, which added a published conditioner that competes with the candidate's own state, recorded
+adverse evidence against one of its two rival readings of the published evidence, and — because it produced
+a dated, prospective route rather than another null — **opened G-32**. The amendment changes what a
+validator may treat as the candidate's state and what it must control for; it does not change the
+hypothesis, the universe or the outcome.
 
 ---
 
@@ -1309,6 +1332,68 @@ edge.
 
 ## V-009 — ACCTCLOCK (IDEA-011) — *required by the Cycle-4 top-three rule*
 
+### Cycle-52 amendment (binding) — the state must be firm-level, two country-level conditioners become mandatory controls, and the claim must be pre-registered
+
+Cycle 52 ran the register's **prior-art re-read of IDEA-011** against 2025–2026 literature it had not yet
+seen, and the read produced three changes to what this specification may treat as the candidate's state.
+The hypothesis, the event universe, the outcome and the cost model are **unchanged**; the **state
+definition, the controls and the pre-registration** are amended.
+
+1. **The candidate's conditioning variable must be firm-level, and may not be a country-level variable.**
+   Two published country-level conditioners now govern the post-adoption information environment:
+   **enforcement** (S-221: the EU liquidity benefits of mandatory IFRS adoption were "limited to five EU
+   countries that made substantive changes in their enforcement of financial reporting around the same
+   time IFRS became mandatory") and **linguistic distance** (S-252: in the countries with the most severe
+   language barriers, IFRS adoption *worsened* the post-adoption information environment — higher analyst
+   forecast error, wider bid–ask spreads — flipping the sign of the published effect). Because both are
+   **country-level** and therefore **collinear with each other** and with the jurisdiction in which the
+   adoption event occurs, a specification that conditions on a country-level variable would be identifying
+   by collinearity. **The candidate's own state must therefore remain the firm-level pre-adoption
+   information-quality measure**, and it must be shown to retain identifying power **within** a
+   jurisdiction, not only across jurisdictions.
+2. **Enforcement and linguistic distance are mandatory controls, not optional slices.** The frozen
+   hypothesis below currently lists "countries with weaker enforcement regimes" as a *source of a larger
+   drift*. That must be changed: **weak enforcement is now a published conditioner of the effect, and the
+   candidate may not claim it as its own**. Enforcement and linguistic distance enter the specification as
+   **mandatory conditioning controls** (fixed ex ante, applied to every arm), and the candidate's claim
+   becomes the **within-jurisdiction, firm-level residual** after those controls are imposed. The
+   pre-existing ablation "(d) replace the enforcement regime with trade invoicing share or another
+   country characteristic" is **withdrawn**: it is now the *control*, not the ablation, and replacing it
+   with a further country characteristic would test nothing.
+3. **The claim to be tested must be pre-registered, because the published evidence supports two rival
+   readings.** The field's systematic review (S-253) finds that IFRS adoption's market effects are real
+   but that **"accounting quality and comparability do not mediate the market effects"** — adverse to the
+   candidate's comparability-as-driver reading — while attributing positive findings to **"IFRS' mandatory
+   nature and pre-IFRS differences compared to local standards"**, which is the *discontinuity at
+   adoption*, i.e. the candidate's own premise. The two readings are distinguishable only by the outcome
+   and window specified, so **the validator must pre-register, before the holdout is opened, which reading
+   the test claims** — drift outcomes versus liquidity/cost-of-capital outcomes, transition windows versus
+   post-transition windows — and must report the other reading as a descriptive control. A null obtained
+   under one reading is **not** a kill of the other.
+4. **The G-21 discriminator is now written into this specification, and G-32 is opened.** The comparison
+   the register has specified since Cycle 35 must be run as part of the same design: for a common standard
+   adopted by a group A (first-time adopters) and a group B (second-time adopters), compare the
+   post-earnings-announcement drift of adopting firms, in the same calendar window, controlling for size,
+   industry and market. The register's prior-art position is that this comparator is **standard and
+   populated in this field on other outcomes** (audit fees and audit time, S-265) and that
+   **post-earnings-announcement drift is not among the outcomes the field's own systematic review
+   covers** (S-253) — so the residual is an **outcome-specific unrun comparison**, not an absence of
+   literature. **G-32** additionally identifies a dated, prospective instance in which the group A/group B
+   partition and the treatment are both pre-registered within a single standard (IFRS 18, effective for
+   annual periods beginning on or after **1 January 2027**, S-255; the adoption-status calendar is
+   published in advance in the IFRS Foundation's jurisdiction profiles, 170 jurisdictions, filterable by
+   "required for domestic public companies" versus "permitted but not required", S-254). **A validator
+   working the IFRS 18 instance must pre-register the group A/group B partition before the first IFRS 18
+   report is published**, and must report it as a partition that was fixed in advance.
+5. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's
+   score (69.0, rank 1) is **unchanged**, following the Cycle-35 precedent that sources supporting the
+   *mechanism* but not the *directional drift claim* leave the score untouched. The frozen hypothesis
+   below is unchanged in its wording, except that "for countries with weaker enforcement regimes" is
+   **superseded by amendment 2**. The cost model, the execution assumptions, the guardrails, the
+   separation rule and the kill criteria are **unchanged**. The **anti-peeking** requirement now also
+   covers the **pre-registrations** above: the count of state-definition × exit rule × jurisdiction ×
+   sub-sample combinations must include every country-level control arm examined.
+
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
 years in advance and the affected firms are knowable ex ante. The market incorporates the
@@ -1341,12 +1426,18 @@ and it is conditional on no concurrent macro shock dominating the event window.
    pre-specified on the training window; results are not transferable across standard types without
    restatement.
 2. The information-quality measure and its trailing window — pre-specified.
-3. The enforcement-regime index and its source — pre-specified.
+3. The enforcement-regime index and its source — pre-specified. **Amended in Cycle 52:** the enforcement
+   index and a linguistic-distance measure are now **mandatory controls** (S-221, S-252), not candidate
+   states and not an arm the validator may choose; see the Cycle-52 amendment, items 1 and 2.
 4. The exit rule: first full report vs. 1–4 quarters vs. hybrid — pre-specified.
 5. The treatment of concurrent macro shocks around the event window — these must be excluded or
    analysed separately, and the rule must state which is done.
 6. Whether the affected-firm list is knowable ex ante (regulator publications vs. inferred from
    filings) — this is the binding data constraint.
+7. **New in Cycle 52 — which published reading the test claims** (the *discontinuity-at-adoption* reading
+   or the *comparability-as-driver* reading), and **which group A/group B partition is pre-registered**
+   for the G-21 discriminator, including the IFRS 18 instance if it is used (S-253, S-254, S-255). Both
+   must be fixed before the holdout is opened.
 
 ### Target universe, time frame, sampling frequency
 - Universe: listed firms in adopting jurisdictions, restricted to liquid names (top quintile by
@@ -1410,9 +1501,14 @@ the gross drift exceeds round-trip cost at the pre-specified size.
 - **Pass:** the drift is positive for low-information-quality / weak-enforcement firms, scales with
   the state variables, partially reverses after the first full report, survives justified costs,
   and is not explained by the concurrent-shock confounder or the high-information-quality baseline.
+  **Cycle-52 addition:** the firm-level state must also **retain identifying power within jurisdictions**
+  once the mandatory enforcement and linguistic-distance controls (S-221, S-252) are imposed; a result
+  that survives only because the country-level controls are omitted is a **fail**, and the report must
+  show the within-jurisdiction estimate separately from the pooled one.
 - **Fail:** no drift, or no reversal, or the drift is fully explained by concurrent macro shocks,
   or the high-information-quality firms perform identically, or the gross drift is below cost in
-  every selected firm.
+  every selected firm. **Cycle-52 addition:** a result that vanishes under the mandatory country-level
+  controls is also a **fail** — that is the published effect, not the candidate's.
 - **Uncertain:** the adoption-event sample is too small for clean inference, or the affected-firm
   list cannot be constructed ex ante — report the descriptive event behaviour and state that the
   candidate is untested rather than concluding.

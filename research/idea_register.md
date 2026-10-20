@@ -4,7 +4,26 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 51 complete** (Cycle 51 confirmed **G-30 exhausted without a re-probe**, kept **G-28 frozen and V-002 frozen**, maintained the **G-21 null** and **IDEA-014's inconclusive state-free verdict**, and ran the register's **first price-formation family screen** — randomised closing prices and real-time closing-auction imbalance publication — logged as **R-031** (bounded negative, five independent reasons, dated re-screen condition) on five metadata-verified sources (S-247 … S-251). Cycle 51 also wrote the missing **R-025** entry for real in the rejection log, un-orphaned the R-029 rationale, and backfilled the Cycles 44–50 gap-verdict block into the source ledger. **No candidate was created, no score changed, no validation specification changed.** Earlier history: Cycle 40 executed G-29 as a calibrated document-level search and opened G-30; Cycles 41-43 exhaustively checked all routes outside the statutory prospectus — regulatory closed, sponsor-published lists not found, non-US issuers not found, exchange listing rules no public disclosure requirement; logged R-021, R-022, R-023. No published primary-source route to a corporate-bond ETF's AP set exists outside the statutory prospectus.) **G-29 (IDEA-010) — executed as a calibrated document-level search.** The register's trade-press lead was verified from the primary document (**S-239**: the *iShares Bitcoin Trust ETF* Form 424B3 prospectuses name their authorised participants verbatim — five APs in January 2024, nine in April, twelve by August 2024 and **twelve cash plus four in-kind APs as of 31 July 2025**), so the detector used to search the population is known to work. The detector sentence returns **five documents in four filers across all prospectus form types, every one of them a crypto or commodity trust, and no corporate-bond ETF**; the complementary phrase-first route over 591 bond-worded filings and the name-first route over bond-worded filings containing any of thirty-one AP firm names produce the same answer (the AP names occur only in securities-lending ownership tables and the standing 25 %-record-holder disclosure). Two sponsor product pages (iShares AGG, Vanguard BND) were probed directly and name no AP. **Coverage count: 0 corporate-bond ETFs with a published AP set; 0 (ETF, AP) cells; 0 (ETF, AP, episode) cells.** Per the register rule, **the state cannot be attached to a corporate-bond ETF from public filings; IDEA-010 is not specifiable — untested, not dead**. Do **not** substitute a published crowding proxy (S-026, S-157, S-222 measure different crowds). **G-27 closed at filer level**: the phrase corpus holds **6,131 X-17A-5 documents from 2,419 distinct broker-dealer filers** (a lower bound — Citadel Securities LLC files 24 such documents and uses the phrase in one), listed broker-dealers are covered by 10-Q (1,151 documents / 66 filers, quarterly) and 10-K (737 / 96, annual), **Form FR Y-9C is not indexed by EDGAR full-text search at all**, and the private-AP capital state is **annual** in every filer-level check (2,414 of 2,419 filers disclose once a year; none three or more), so the state is **9–14 months stale** — a correction to the Cycle-37 cadence statement in **S-231**. **The first published AP set in the project** (crypto/commodity class): **13 named AP firms, 13 of 13 with a public X-17A-5 filing, 285 (AP, filing-date) episode cells, annual cadence, none filing 10-Q/10-K**. **G-30 opened**: is there a published primary-source route *outside* the statutory prospectus to a corporate-bond ETF's AP set. **G-28 (IDEA-004) restated**: the FINRA twice-monthly short-interest route is a **lead with objections** (per-issue aggregate with no firm-level breakdown, so no crowd and no concentration; contamination of the short leg; and short interest is already published prior art for merger-arb activity (S-241), for arbitrage crowding (S-242) and for daily crowding inference (S-243) — a correction to this dossier's published-neighbour inventory); **V-002 remains frozen**. **G-21 (IDEA-011)** not re-searched; the Cycle-37 null stands. **IDEA-014** state-free existence limb remains inconclusive. Screened **(A) the eligibility switch** (*who may hold*, published compliance date, published thresholds) on the SEC's accredited-investor and QIB definition amendment (**S-244**) and on index-provider eligibility and float screens — **bounded negative (R-020)**. **No score changed; no candidate created; no new validation specification added.**), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–40's own changes are recorded in each dossier's blocks and in `cycle_notes.md`.*
+Last updated: **Cycle 52 complete** (Cycle 52 ran the register's **prior-art re-read of IDEA-011** — the
+rank-1 candidate — against 2025–2026 literature it had not yet seen, which is the register's own stated
+highest-value act; the re-read **maintained the G-21 null but sharpened it**, added a **published
+competing conditioner** (language distance, which flips the sign of the post-adoption information effect
+and is collinear with the already-published enforcement conditioner), recorded **adverse evidence**
+against the comparability-as-driver premise while recording the *discontinuity-at-adoption* reading that
+supports it, and — because it produced a dated, prospective route rather than another null — **opened
+G-32, the IFRS 18 adoption window**; Cycle 52 also ran the register's **first market-interruption family
+screen**, venue-imposed trading halts, price bands and market-wide circuit breakers, logged as **R-032**
+(bounded negative, six independent reasons, dated re-screen condition) on ten metadata-verified sources,
+and confirmed **G-30 exhausted without a re-probe**, **G-28 and V-002 frozen**, and **IDEA-014's
+state-free existence limb inconclusive**. **No candidate was created, no score changed; V-009 was
+amended, not re-created.** Earlier history: **Cycle 51 complete** (Cycle 51 confirmed **G-30 exhausted
+without a re-probe**, kept **G-28 frozen and V-002 frozen**, maintained the **G-21 null** and **IDEA-014's
+inconclusive state-free verdict**, and ran the register's **first price-formation family screen** —
+randomised closing prices and real-time closing-auction imbalance publication — logged as **R-031**
+(bounded negative, five independent reasons, dated re-screen condition) on five metadata-verified sources
+(S-247 … S-251). Cycle 51 also wrote the missing **R-025** entry for real in the rejection log,
+un-orphaned the R-029 rationale, and backfilled the Cycles 44–50 gap-verdict block into the source
+ledger. **No candidate was created, no score changed, no validation specification changed.** Earlier history: Cycle 40 executed G-29 as a calibrated document-level search and opened G-30; Cycles 41-43 exhaustively checked all routes outside the statutory prospectus — regulatory closed, sponsor-published lists not found, non-US issuers not found, exchange listing rules no public disclosure requirement; logged R-021, R-022, R-023. No published primary-source route to a corporate-bond ETF's AP set exists outside the statutory prospectus.) **G-29 (IDEA-010) — executed as a calibrated document-level search.** The register's trade-press lead was verified from the primary document (**S-239**: the *iShares Bitcoin Trust ETF* Form 424B3 prospectuses name their authorised participants verbatim — five APs in January 2024, nine in April, twelve by August 2024 and **twelve cash plus four in-kind APs as of 31 July 2025**), so the detector used to search the population is known to work. The detector sentence returns **five documents in four filers across all prospectus form types, every one of them a crypto or commodity trust, and no corporate-bond ETF**; the complementary phrase-first route over 591 bond-worded filings and the name-first route over bond-worded filings containing any of thirty-one AP firm names produce the same answer (the AP names occur only in securities-lending ownership tables and the standing 25 %-record-holder disclosure). Two sponsor product pages (iShares AGG, Vanguard BND) were probed directly and name no AP. **Coverage count: 0 corporate-bond ETFs with a published AP set; 0 (ETF, AP) cells; 0 (ETF, AP, episode) cells.** Per the register rule, **the state cannot be attached to a corporate-bond ETF from public filings; IDEA-010 is not specifiable — untested, not dead**. Do **not** substitute a published crowding proxy (S-026, S-157, S-222 measure different crowds). **G-27 closed at filer level**: the phrase corpus holds **6,131 X-17A-5 documents from 2,419 distinct broker-dealer filers** (a lower bound — Citadel Securities LLC files 24 such documents and uses the phrase in one), listed broker-dealers are covered by 10-Q (1,151 documents / 66 filers, quarterly) and 10-K (737 / 96, annual), **Form FR Y-9C is not indexed by EDGAR full-text search at all**, and the private-AP capital state is **annual** in every filer-level check (2,414 of 2,419 filers disclose once a year; none three or more), so the state is **9–14 months stale** — a correction to the Cycle-37 cadence statement in **S-231**. **The first published AP set in the project** (crypto/commodity class): **13 named AP firms, 13 of 13 with a public X-17A-5 filing, 285 (AP, filing-date) episode cells, annual cadence, none filing 10-Q/10-K**. **G-30 opened**: is there a published primary-source route *outside* the statutory prospectus to a corporate-bond ETF's AP set. **G-28 (IDEA-004) restated**: the FINRA twice-monthly short-interest route is a **lead with objections** (per-issue aggregate with no firm-level breakdown, so no crowd and no concentration; contamination of the short leg; and short interest is already published prior art for merger-arb activity (S-241), for arbitrage crowding (S-242) and for daily crowding inference (S-243) — a correction to this dossier's published-neighbour inventory); **V-002 remains frozen**. **G-21 (IDEA-011)** not re-searched; the Cycle-37 null stands. **IDEA-014** state-free existence limb remains inconclusive. Screened **(A) the eligibility switch** (*who may hold*, published compliance date, published thresholds) on the SEC's accredited-investor and QIB definition amendment (**S-244**) and on index-provider eligibility and float screens — **bounded negative (R-020)**. **No score changed; no candidate created; no new validation specification added.**), 2026-10-20. *The narrative below still describes the state as of Cycle 13; Cycles 14–29 were monitoring passes that changed nothing, and Cycles 30–40's own changes are recorded in each dossier's blocks and in `cycle_notes.md`.*
 register was empty before Cycle 1; Cycle 2 added three dossiers outside listed US equities.
 **Closure passes: seven candidates have now been demoted — six by their own literature and one by a
 publication calendar.** IDEA-007 was
@@ -978,6 +997,14 @@ re-specified as a tail-management claim
   candidate is the *observable crowd-depth state* used to condition the trade. v1.1 (Cycle 35) — G-18
   closed as a bounded negative that supersedes its own premise; G-04 restated; G-28 opened; V-002
   remains frozen for a new reason; no score change (69.0).
+  **Cycle 52 — no score change (69.0), rank 2 unchanged.** G-28 was **re-derived** by a bounded check
+  rather than re-declared: no published measure of *convergence-crowd position concentration* was
+  located, and every crowding measure the register holds measures a different crowd, so **G-28 and V-002
+  stay frozen** and the FINRA route stays a lead with objections. The R-032 screen added one structural
+  point to this dossier: a state that is **broadcast in real time** (S-260, S-261) cannot be the source
+  of an informational edge, so a future unfreezing of G-28 would have to show that the published measure
+  is **not** a public real-time by-product of the crowd's own trading. No source bearing on any score
+  component was found.
 
 **One-sentence hypothesis.** Because arbitrage capital is slow to arrive and exits in
 synchronisation, a convergence trade's expected return and its crash risk are both functions of
@@ -1366,6 +1393,50 @@ and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.
   of convergence-crowd activity — per issue or per pair — as an unpublished construction (S-241,
   S-242, S-243); a short-interest measure may be used only as a *published neighbour* that must be
   engaged, not as the candidate's own state.
+
+#### Cycles 41–51 consolidated note — IDEA-004 · G-28 and V-002 both **frozen**, and no source bearing on this dossier
+- Across Cycles 41–51 the register executed, in order: the family screens **R-021 … R-031** (Cycles 41–51;
+  each a bounded negative on an obligation, a disclosure mandate, a benchmark methodology, a margin
+  schedule, a capacity constraint, a tax/settlement mandate, an exchange fee schedule, a rating threshold,
+  an IPO lock-up, an option expiry, an information-mandate deadline and a closing-price rule), the
+  **Cycles 44–50** verdict backfill into the source ledger (Cycle 51), and the **G-29** execution and
+  **G-30** exhaustion on IDEA-010. **None of these produced a source bearing on IDEA-004.** The dossier's
+  published-neighbour inventory — S-026 (13F Days-ADV), S-157 (comomentum), S-222 (crowding factor),
+  S-241/S-242/S-243 (the short-interest branch) — therefore **remains the complete inventory**, and
+  G-28's unfreezing condition is **unchanged**: a *published* measure of convergence-crowd position
+  concentration in the candidate's own universe at the candidate's cadence, or a published validation of a
+  construction against an outcome.
+- **Score: 69.0, unchanged. Rank 2, unchanged** (tied with IDEA-011 at 69.0 and behind it on
+  falsifiability, 3 versus 4).
+
+#### Cycle 52 block — IDEA-004 · a bounded re-check confirms the freeze, and the family screen added a *structural* reason that now also binds this candidate
+- **What Cycle 52 did for this candidate.** A **bounded** re-check of G-28's unfreezing condition: did any
+  publication appear in 2025–2026 that measures *convergence-crowd position concentration* — as distinct
+  from style arbitrage capital — in a listed-equity universe at a twice-monthly or finer cadence? **No.**
+  Every crowding measure the register holds (S-026, S-157, S-222, S-241, S-242, S-243) measures a
+  **different crowd**, and the Cycle-52 corpus (S-252 … S-266) added none that does not. **G-28 stays
+  frozen and V-002 stays frozen**, and the FINRA twice-monthly short-interest route remains a *lead with
+  objections* (per-issue aggregate with no firm-level breakdown; contamination of the short leg; short
+  interest already published prior art) rather than a resolution. No 13F filing and no FINRA file was
+  re-run in Cycle 52.
+- **The one thing Cycle 52 did add, and it is a *structural* addition to this dossier.** The R-032 family
+  screen (venue-imposed trading halts, price bands and market-wide circuit breakers) surfaced the general
+  structural fact that **a published, real-time state visible to every participant cannot be the source of
+  an informational edge, and that a concession competed for inside a published window is competed away by
+  the participants with the shortest latency** (S-260, S-263: the SIPs "republish the current price bands
+  every 30 seconds"; the venue's Designated Sponsors are *obliged* to quote during the European call
+  phase; the reopening is an auction). That is the **same structural reason** that closed the ex-dividend
+  family (R-017), the payment-date family (R-012) and the closing-price family (R-031), and it bears on
+  IDEA-004 in one specific way: **if a future published convergence-crowd measure turns out to be a
+  by-product of a *published* venue or provider state that every participant can see in real time, then
+  the candidate's edge would have to come from somewhere other than knowing it.** The candidate's own edge
+  is *not* claimed to be informational — it is claimed to be a **capacity-conditional** limitation of
+  arbitrage capital (SLOWCAP-COND) — so this does not close the candidate. But it does sharpen what a
+  future unfreezing of G-28 would have to show: not merely that a published measure exists, but that the
+  measure is **not** a public real-time by-product of the crowd's own trading.
+- **Score: 69.0, unchanged. Rank 2, unchanged.** No source bearing on any score component was found; the
+  Cycle-52 corpus bears on the candidate's *rediscovery guard*, not on its mechanism, evidence, novelty,
+  falsifiability, resilience or data.
 
 ---
 
@@ -2367,6 +2438,15 @@ predict a temporary price increase that decays within a week, on no-news days, a
 - **ID / short name:** IDEA-009 / PERP-FUND
 - **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.0
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
+  **Cycle 52 — no score change (60.0), rank 4 of 5 unchanged.** A bounded check for 2025–2026 work on
+  perpetual-futures funding rates, drawdown mean-reversion and the leveraged-unwind channel found
+  **nothing bearing on this candidate**: the Cycle-52 corpus is entirely IFRS-adoption and venue-halt
+  literature. The published-neighbour inventory therefore **remains S-158 and S-159 only**, and the
+  candidate's residual — a dated, signed, exit-specified rule keyed to the funding *level* — remains
+  unclaimed by construction rather than by search. The two binding warnings (**momentum confound**,
+  **crypto venue risk**) are unchanged. The R-032 screen contributed only a **cost-model** fact: published
+  venue-interruption events concentrate the tradeable opportunity in the least liquid names, at the widest
+  spreads and the highest realised volatility (S-259, S-266).
 
 **One-sentence hypothesis.** The perpetual-futures funding rate is settled every few hours and
 published by the exchange; because it measures the crowded-leverage state directly, a rule that
@@ -2595,6 +2675,47 @@ costs and after controlling for momentum?
   Rank falls from 6 to 5, and the candidate now ties IDEA-014 at 60.0 (broken in IDEA-009's favour
   on falsifiability, 4 vs 3).
 
+#### Cycles 41–51 consolidated note — IDEA-009 · no source bearing on this dossier; the momentum confound remains the binding constraint
+- Across Cycles 41–51 the register executed the family screens **R-021 … R-031**, the **G-29** execution and
+  **G-30** exhaustion (IDEA-010), and the register-wide post-2010 evidence-currency passes. **None of
+  these produced a source bearing on IDEA-009.** The dossier's published-neighbour inventory — S-158
+  (perpetual drawdowns mean-revert, funding attenuates price sensitivity to demand shocks) and S-159
+  (*Journal of Empirical Finance* 2026: funding rates have incremental forecasting power for spot
+  volatility because they capture imbalanced leveraged positions vulnerable to subsequent unwinding) —
+  therefore **remains the complete inventory**. The candidate's two unchanged warnings — the **momentum
+  confound** (the candidate must separate reversal from continuation, since published work shows past
+  returns already predict basis deviations) and **crypto venue risk** (the funding rate's venue-specific
+  construction and transferability) — are unchanged and remain the binding constraints on the candidate.
+- **Score: 60.0, unchanged.** Rank **4 of 5** in the active set (behind IDEA-011 and IDEA-004 at 69.0 and
+  IDEA-010 at 68.0, ahead of IDEA-014 at 52.0).
+
+#### Cycle 52 block — IDEA-009 · no source found; the candidate is unchanged, and the register records *why* it is not being worked on
+- **What Cycle 52 did for this candidate.** A bounded check of the dossier's published-neighbour inventory
+  for 2025–2026 work on perpetual-futures funding rates, drawdown mean-reversion and the leveraged-unwind
+  channel. **Nothing that bears on this candidate was found.** The Cycle-52 corpus (S-252 … S-266) is
+  entirely IFRS-adoption literature (S-252 … S-255, S-265) and venue-halt / circuit-breaker literature
+  (S-256 … S-264, S-266); none of it touches funding rates, drawdowns or crypto venue structure. The
+  Cycle-52 check therefore **sharpened the null without changing it**: the two published neighbours
+  (S-158, S-159) remain the whole of the register's inventory for this candidate, and the candidate's
+  residual — a **dated, signed, exit-specified rule keyed to the funding *level*** rather than to a basis
+  deviation — remains unclaimed by construction rather than by search.
+- **What the R-032 family screen contributes to this dossier — and it is a *cost-model* contribution,
+  not a mechanism one.** The R-032 screen produced published, verified microstructure facts about the
+  tradeable window around a published venue event: realised volatility **194 % higher annualised in the
+  first minute** after a market-wide level-1 halt and elevated for over ten minutes, **spreads wider for
+  about five minutes**, and volume up 116 % in the first minute (S-266); and, for the individual-name
+  variant, that LULD halts concentrate in exchange-traded products and small capitalisations, with 84 %
+  of halted ETPs small-capitalisation and only 8 S&P 500 constituents halting on the SEC's own statistics
+  for 24 August 2015 (S-259). IDEA-009's decision window is **not** a halt window — it is a funding-period
+  window of hours — so none of this changes the candidate. But it does supply a **transferable cost-model
+  fact** for the register's broader use: *published venue-interruption events concentrate the tradeable
+  opportunity in the least liquid names, at the widest spreads, at the highest realised volatility*. A
+  validator testing a crypto-perpetual reversal rule in a funding window will be asked, separately, about
+  venue concentration and about cost at the decision point; that question is now answerable from
+  published sources rather than from assumption.
+- **Score: 60.0, unchanged.** No source bearing on any score component. The novelty dimension remains
+  at 2 (published neighbours S-158, S-159); falsifiability remains at 4; the two warnings are unchanged.
+
 ---
 
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
@@ -2615,6 +2736,14 @@ costs and after controlling for momentum?
   so the identification is re-anchored to a cross-sectional contrast, the 1–10 session horizon is
   preserved, the signedness becomes the first pre-registered killable test, and G-27 (effective sample
   and per-AP filing comparability) is opened. V-010 amended; no score change (68.0).
+  **Cycle 52 — no score change (68.0), rank 3 unchanged.** G-30's status was **re-derived** rather than
+  carried forward: all four sub-routes remain closed (regulatory — Cycle 41; sponsor-published lists —
+  Cycles 42–43; non-US/UCITS issuers — Cycle 42; exchange listing rules — Cycle 43), no new route was
+  identified in Cycles 44–51 or in Cycle 52, **no statutory filing was re-run**, and **no crowding proxy
+  was substituted**. G-30 is therefore **exhausted**, not open, and **V-010 remains non-executable**
+  against the corporate-bond ETF universe. The Cycle-52 R-032 screen added a sixth hard-stop condition:
+  **the state used must not be a public real-time by-product of the flow it is supposed to predict**
+  (S-260, S-261). The state remains **annual** (9–14 months stale at any decision date).
 
 **One-sentence hypothesis.** When corporate-bond ETF redemptions force authorised participants (who are also bond dealers) to absorb illiquid bonds onto already-constrained balance sheets, the ETF–NAV discount widens and the underlying bonds cheapen; the state (AP balance-sheet stress and ETF flow) is published, and the trade supplies the liquidity the AP cannot.
 
@@ -2979,6 +3108,48 @@ re-scored to 68.0, enters the top three, and receives V-010
   use a short-interest-based measure of AP activity as a substitute for the missing mapping (S-241,
   S-242, S-243).
 
+#### Cycles 41–51 consolidated note — IDEA-010 · G-29 closed, G-30 opened and then **exhausted without a re-probe**
+- Across Cycles 41–51 the register worked this candidate's route ladder explicitly and, in order: **G-29**
+  was executed as a calibrated document-level search (Cycle 40) and the **statutory-filing route closed**;
+  **G-30** was opened to ask for a *specific* remaining route — a sponsor's own published participant list,
+  an exchange or regulatory disclosure requirement, or a non-US issuer's prospectus. Cycles 41–43 then
+  exhausted those three legs: **regulatory — closed** (no SEC, exchange or other rule obliges an issuer to
+  publish its ETF's AP set); **sponsor-published lists — not found**; **non-US / UCITS issuers — not
+  found**; **exchange listing rules — no public disclosure requirement**. Cycles 44–51 added the family
+  screens **R-022 … R-031** and the register-wide evidence-currency passes, and **no new route to a
+  corporate-bond ETF's AP set was identified in any of them**. The standing instruction from Cycle 40
+  therefore holds: *do not re-run statutory filings, and do not substitute a published crowding proxy*
+  (S-026, S-157, S-222 measure different crowds).
+- **The state remains annual** (Cycle 40's filer-level finding: 2,414 of 2,419 filers disclose once a year,
+  five twice a year, none three or more; all thirteen named AP firms and all fifteen major private AP
+  firms are annual, filed February–March), so at any decision date it is 9–14 months stale, and the
+  identification is cross-sectional between AP sets.
+- **Score: 68.0, unchanged. Rank 3, unchanged.**
+
+#### Cycle 52 block — IDEA-010 · G-30 **exhaustion confirmed, no re-probe**, and V-010 remains non-executable against the corporate-bond ETF universe
+- **What Cycle 52 did.** It **re-derived** G-30's status rather than carrying it forward in prose: all four
+  legs remain closed (regulatory: Cycle 41; sponsor-published lists: Cycles 42–43; non-US/UCITS issuers:
+  Cycle 42; exchange listing rules: Cycle 43), and **no new route was identified in Cycles 44–51 or in
+  Cycle 52**. **No statutory filing was re-run in Cycle 52**, and no crowding proxy was substituted.
+  **G-30 is exhausted; V-010 remains non-executable against the corporate-bond ETF universe.** V-010 stays
+  executable only against a specifiable route, and when it is eventually executed it must report the
+  effective-sample denominator in the Cycle-40 form (cells per (ETF, AP set) per filing date, with the
+  annual cadence stated).
+- **What Cycle 52 added that is *not* about G-30, and it is a rediscovery-guard point for this candidate.**
+  The R-032 family screen established the register's general **"published state ⇒ no informational edge"**
+  principle on a second, independent body of evidence: the LULD bands are republished to the public every
+  30 seconds (S-260) and the EU regime *requires* publication of trading halts (S-261), so the state is a
+  broadcast and not a discovery. Applied to IDEA-010 this is a **guard on a substitution the candidate has
+  already been warned against**: a hypothetical ETF → AP mapping built from a **published, real-time
+  by-product** — for example a venue's published AP identifier codes on executed ETF creations — would not
+  be a state that produces an edge; it would be a public record of what has already happened. The
+  candidate's edge is claimed to come from **AP balance-sheet capacity**, not from *knowing* the AP set, so
+  this does not close the candidate. But it does add a sixth hard-stop condition: **the state used must not
+  be a public real-time by-product of the flow it is supposed to predict.**
+- **Score: 68.0, unchanged. Rank 3, unchanged.** No source bears on any score component; G-30's status
+  changed from "open" to "**exhausted without a re-probe**", which is a change in the register's knowledge
+  about the *route*, not about the candidate's merit.
+
 ---
 
 ---
@@ -2997,6 +3168,21 @@ re-scored to 68.0, enters the top three, and receives V-010
   before the effective date. The residual is a first-adopter versus second-adopter drift comparison
   that has not been run. No score change (69.0); a new hard-stop flag records that the enforcement
   concentration of IFRS-adoption effects is published and is not the candidate's discovery.
+  **Cycle 52 — prior-art re-read of the rank-1 candidate; no score change (69.0), rank 1 unchanged.**
+  The G-21 null was **re-derived from a check** rather than re-declared for the fourteenth time, and it
+  came back **sharper**: the first-adopter/second-adopter contrast is a *standard, populated design* in the
+  IFRS literature (run on audit fees and audit time, S-265) and the field's own systematic review of ~181
+  top-cited IFRS-adoption papers does **not** cover post-earnings-announcement drift among its reviewed
+  outcomes (S-253), so the residual is an *outcome-specific unrun comparison on a standard comparator*.
+  A published conditioner that **competes with the candidate's own state** was found — the post-adoption
+  information effect **flips sign** with country-level linguistic distance (S-252) — so the candidate's
+  conditioning variable must remain **firm-level**, and **enforcement (S-221) and linguistic distance
+  (S-252) are now mandatory controls**. Adverse premise evidence was recorded against the
+  comparability-as-driver reading (S-253) and the *discontinuity-at-adoption* reading was recorded as
+  supporting the premise, so the candidate must **pre-register which reading it claims**. **G-32 was
+  opened** — the prospective IFRS 18 adoption window (effective for annual periods beginning on or after
+  1 January 2027; S-255) read against the published jurisdiction-profile adoption calendar (170
+  jurisdictions; S-254). **V-009 was amended** (not re-created).
 
 **One-sentence hypothesis.** Mandatory adoption of a new accounting standard is a dated, regulator-announced information shock whose market reaction diffuses slowly because investors and analysts must re-learn the new numbers; the drift between the adoption announcement and the first full reporting cycle under the new standard is predictable in direction for firms whose pre-adoption information quality was low, and partly reverses once comparability is priced.
 
@@ -3143,6 +3329,106 @@ re-scored to 68.0, enters the top three, and receives V-010
   requirement, and the register's own Cycle-35 hard-stop flag (enforcement concentration is published,
   S-221) still binds.
 - **Score: 69.0, unchanged. Rank 1, unchanged.** No new source bears on any score component.
+
+#### Cycles 38–51 consolidated note — IDEA-011 · no new source bearing on this dossier, and the null was *maintained*, not re-run
+- Across Cycles 38–51 the register executed, in order: G-29 (IDEA-010's route to a corporate-bond ETF's AP
+  set, closed as a calibrated document-level search, Cycle 40); G-30 (the AP-identity route, opened Cycle 40
+  and **exhausted without a re-probe** by Cycle 51); the family screens **R-021 … R-031** (Cycles 41–51,
+  each a bounded negative, each written into `rejected_and_parked.md`); and the register-wide **post-2010
+  evidence-currency pass** on the other active dossiers. **Not one of those cycles produced a source bearing
+  on IDEA-011.** G-21 therefore stood as a **null with an unchanged status** — the discriminator untested,
+  not refuted — for fourteen consecutive cycles.
+- **Why this is recorded now, and why it matters.** A null that is simply *re-declared* is worth nothing;
+  the register's own standard (the Cycle-35 precedent, and the Cycle-40 repair of G-29) is that a gap's
+  status must be re-derived from a *check*, not carried forward in prose. Cycle 52 therefore ran the
+  check that had never been run for this candidate: a **prior-art re-read of the rank-1 candidate against
+  2025–2026 literature the register had not seen**, in the same spirit as the post-2010 drift-decay check
+  that re-scored the candidate in Cycle 16 and the check that killed IDEA-001.
+
+#### Cycle 52 block — IDEA-011 · the prior-art re-read returns a *sharper* null, one published competing conditioner, and a dated prospective window (**G-32** opened)
+
+- **What Cycle 52 ran.** Four sources on the IFRS-adoption literature, read against the candidate: the
+  post-adoption information-effect paper (S-252), a **systematic review of the field** (S-253), the IFRS
+  Foundation's **jurisdiction profiles** (S-254) and the IFRS 18 standard itself with its effective date
+  (S-255), plus the early-versus-late adopter comparator on audit fees (S-265). Five further sources
+  (S-256 … S-264, S-266) were run for the separate venue-halt family screen and bear on nothing here.
+- **Finding 1 — the null stands, and the register now knows *precisely* what the literature contains.**
+  The first-adopter/second-adopter contrast is a **standard, populated design** in this literature, not an
+  exotic one: it has been run on **audit fees and audit time** (S-265), on narrative disclosure, on
+  accounting choice and on language barriers. But the field's own **systematic review** of the ~181
+  most-cited IFRS-adoption papers inventories the reviewed outcomes — accounting quality, comparability,
+  liquidity, cost of capital, forecast accuracy, foreign investment — and **post-earnings-announcement
+  drift is not among them** (S-253). So the candidate's residual is **not** an unnoticed hole in the
+  literature; it is a **specific outcome that a standard comparator has not been run on**, in a field where
+  the comparator exists and is well understood. That is a sharper statement of the null than "nothing
+  found", and it is the statement a validator needs: the gap is *outcome-specific*, not *design-specific*.
+- **Finding 2 — a published conditioner that competes with the candidate's own state, and therefore a new
+  mandatory control.** The post-adoption information effect is now shown to **flip sign** with a
+  **country-level, ex-ante, published** state: in the countries with the most severe language barriers,
+  IFRS adoption *worsened* the post-adoption information environment — higher analyst forecast error and
+  wider bid–ask spreads — where in others it improved it (S-252). Two consequences bind the candidate.
+  (i) The candidate may **not** present the state-conditioned post-adoption information effect as a
+  discovery; it is published. (ii) Because that conditioner is **country-level**, it is **collinear with
+  the already-published enforcement conditioner** (S-221), so the candidate's own conditioning variable
+  must remain **firm-level** — a country-level discriminator would be identification by collinearity, not
+  by design. **Both country-level conditioners (enforcement, language distance) enter the specification as
+  mandatory controls**, and the candidate's firm-level state must retain identifying power *within* a
+  single standard. That requirement is now the operational content of G-32's limb (b).
+- **Finding 3 — the premise is weakened at one point and supported at another; the distinction is recorded
+  rather than smoothed.** The systematic review finds that IFRS adoption's market effects are real but that
+  **"accounting quality and comparability do not mediate the market effects"**, and that negative findings
+  **"point to varying enforcement strength and IFRS complexity"** (S-253) — that is adverse to the
+  candidate's comparability-as-driver story. But the same review attributes positive findings to **"IFRS'
+  mandatory nature and pre-IFRS differences compared to local standards"** — the **discontinuity at
+  adoption**, which is the candidate's own premise — rather than to the gradual improvement of comparability.
+  The two readings are **distinguishable in the candidate's design** (drift outcomes versus
+  liquidity/cost-of-capital outcomes; transition windows versus post-transition windows), so the candidate
+  must now **pre-register which one it claims** — this is a specification requirement, not a hedge.
+- **Finding 4 — a dated, prospective route, which is why this cycle is not another null: G-32 is OPENED.**
+  The candidate's binding hard stop is that the number of *independent, non-overlapping* adoption events is
+  small. **IFRS 18** (issued April 2024) is **"effective for annual reporting periods beginning on or after
+  1 January 2027, with earlier application permitted"**, replaces IAS 1, and creates a comparability break
+  **by design** — two new defined subtotals in the statement of profit or loss, required disclosure of
+  management-defined performance measures, and new aggregation and disaggregation principles (S-255). The
+  **jurisdiction-level adoption-status calendar the discriminator needs is published in advance** in the
+  IFRS Foundation's jurisdiction profiles, with **170 jurisdictions** filterable by "required for domestic
+  public companies" versus "permitted but not required" (S-254). **G-32** is opened with three limbs, each
+  with a stated answer route:
+  - **(a) the calendar limb — closable now, and it is a *reading* task, not a data-processing task.** Read
+    the published jurisdiction profiles jurisdiction by jurisdiction and determine whether they identify a
+    **group A (first-time IFRS 18 adopters)** and a **group B (second-time adopters — jurisdictions already
+    reporting under IFRS-equivalent standards)** with **non-overlapping, pre-registered** IFRS 18 adoption
+    dates. The register has not enumerated the profiles; a bulk directory read is not performed in this
+    repository, so this is the concrete next act and it is explicitly a *reading* task.
+  - **(b) the identification limb.** Does the candidate's **firm-level** information-quality conditioning
+    retain identifying power *within a single standard*, i.e. is the treatment not absorbed by the two
+    published country-level conditioners (S-221, S-252)? No past event could pose this cleanly, because in
+    every past event the treatment varies with the jurisdiction.
+  - **(c) the pre-adoption-claim limb.** Does any 2024–2027 pre-adoption literature already claim the
+    IFRS 18 drift sign? The review of the field (S-253) cannot answer it, because IFRS 18 post-dates it.
+- **Score: 69.0, unchanged. Rank 1, unchanged.** Following the **Cycle-35 precedent**, the re-read's
+  sources support the candidate's *mechanism* and add a *new mandatory control*, but they do not
+  establish the candidate's **directional drift claim**, and one of them (S-253) cuts against the premise.
+  So: mechanism 4 → 4, evidence 3 → 3 (**unchanged** — the *content* of the evidence base changed, not
+  its quantity; the candidate still has no supporting published case for a drift increase), novelty 3 → 3
+  (**unchanged** — the residual is still an outcome-specific, unrun comparison on a standard comparator),
+  falsifiability 4 → 4 (**unchanged** — and now *better specified*, since the candidate must pre-register
+  which premise it claims), resilience 3 → 3 (**unchanged**), data 4 → 4 (**unchanged** — the adoption
+  calendar is published, and G-32 makes the *event* prospective rather than historical). **No re-score.**
+  **Rank 1, unchanged** (tied with IDEA-004 at 69.0 and ahead of it on falsifiability, 4 versus 3).
+- **Hard-stop flags — one added, one sharpened.**
+  - **Added:** the candidate may **not** present the state-conditioned post-adoption information effect as
+    a discovery, and must carry **enforcement (S-221) and language distance (S-252) as mandatory
+    controls**, with its own conditioning variable kept **firm-level**.
+  - **Sharpened:** the candidate must **pre-register which of the two rival readings of the published
+    evidence it claims** — the *discontinuity-at-adoption* reading (S-253's positive attribution, the
+    candidate's premise) or the *comparability-as-driver* reading (S-253's mediation null) — because the
+    two are distinguishable only by the outcome and window the candidate specifies.
+- **Dated re-check.** The pre-adoption literature window is **2024–2027** and the first IFRS 18 annual
+  reports (periods beginning on or after 1 January 2027) will be published during **2028**. **Re-read the
+  IFRS 18 pre-adoption literature annually**, and **re-run limb (a) whenever the IFRS Foundation updates its
+  jurisdiction profiles** — a profile update is a dated, published event that can change the group A/group B
+  partition without any new literature.
 
 ---
 
@@ -3597,6 +3883,15 @@ than parked.
   claimed RGGI replacement state and candidate IDEA-016 were never written in any artifact, so the
   RGGI lead is an unwritten lead rather than a candidate; the conditional version stays retired and
   the state-free existence limb is retained. No score change (52.0).
+  **Cycle 52 — no score change (52.0), rank 5 unchanged.** The state-free existence limb was checked for
+  any 2025–2026 source bearing on the RFS compliance deadline, the RIN price and its pass-through, or a
+  pre-deadline RIN state: **nothing was found**, so the limb **remains inconclusive** — neither a
+  positive finding nor a refutation — and **P-011 stands**; no gap was opened on it. One point was
+  sharpened for a future reopening: a pre-deadline state must satisfy **both** halves of the requirement
+  independently — **published before the deadline** *and* **sign-determining rather than merely
+  informative** — and the RIN analogue fails the second half because the published projection is set
+  against the agency's own supply projection, so the projected net position is near zero by construction
+  (S-184, S-201).
 
 **One-sentence hypothesis.** Obligated parties under the US Renewable Fuel Standard must retire
 Renewable Identification Numbers (RINs) against their annual renewable volume obligations by a
@@ -3928,6 +4223,50 @@ and takes a hard-stop flag on its sign-determining state
   claim is a testable residual the register has no other candidate covering. **Rank 5, unchanged.**
 - **Score: 52.0, unchanged.** Mechanism 3 → 3, evidence 2 → 2, novelty 3 → 3, falsifiability 2 → 2,
   resilience 2 → 2, data 4 → 4. No new source bears on the candidate this cycle.
+
+#### Cycles 36–51 consolidated note — IDEA-014 · no source bearing on this dossier; the state-free existence limb stays **inconclusive**
+- Across Cycles 36–51 the register ran the family screens **R-018 … R-031** (the Rule 201 short-sale price
+  test, the ex-dividend family, the closing-price family and the rest, each a bounded negative), the
+  **G-29** execution and **G-30** exhaustion on IDEA-010, the **G-21** null maintenance and the Cycle-52
+  groundwork on IDEA-011, and the register-wide evidence-currency passes. **None of these produced a
+  source bearing on IDEA-014.** Two things remain true and must keep being stated precisely:
+  1. The candidate's **state-free existence limb** (the G-15 test — is there *any* post-deadline difference,
+     and is it larger than the venue's round-trip cost, S-133?) is **inconclusive**. It is neither a
+     positive finding nor a refutation, and it must never be described as either.
+  2. The **conditional version is retired**: G-24 and G-25 are closed as bounded negatives (no
+     pre-deadline, signed, non-circular replacement state exists), and the RGGI lead remains an **unwritten
+     lead** — no dossier, no source, no verdict — with the next free identifier **IDEA-017** (IDEA-016
+     stays reserved).
+- **Score: 52.0, unchanged. Rank 5, unchanged.** The candidate stays **retained, not parked**, because the
+  existence claim is a testable residual the register has no other candidate covering.
+
+#### Cycle 52 block — IDEA-014 · the existence limb stays inconclusive, and Cycle 52 sharpened *what a future pre-deadline state would have to be*
+- **What Cycle 52 did.** A bounded check for any 2025–2026 source bearing on the US Renewable Fuel
+  Standard's compliance-deadline obligation, on the RIN price and its pass-through, or on the pre-deadline
+  RIN state. **Nothing was found.** The Cycle-52 corpus (S-252 … S-266) is entirely IFRS-adoption
+  literature and venue-halt / circuit-breaker literature; neither touches the RFS. **The existence limb
+  therefore remains inconclusive, and P-011 (IDEA-015) stands.** No new gap is opened on this limb, and
+  the conditional version stays retired.
+- **What Cycle 52 *did* add — and it is a specification-sharpening point, not a candidate.** The R-032
+  family screen produced the register's clearest published example of the **opposite** situation: a
+  decision-time state that is **published before the decision, in real time, and continuously** — the LULD
+  price bands are "republish[ed] … every 30 seconds" to the public (S-260) — and that example is useful
+  here precisely because it *fails* for a reason that mirrors the RFS candidate's problem. For LULD, the
+  state is public but carries **no sign**: the band is a symmetric constraint, and the tradeable
+  consequence is a *cost* (wider spreads, higher realised volatility, volume concentration in the least
+  liquid names) rather than a *direction* (S-259, S-266). For the RFS deadline, the candidate's problem is
+  the mirror image: the state that would carry a **sign** (the net obligated position) is published only
+  **after** the deadline (S-184), and the published pre-deadline proxy (the agency's own projection)
+  carries **no sign**, because it is set against the agency's own projection of supply, so the projected
+  net position is near zero by construction (S-201). **Both halves of the register's standing requirement
+  are therefore jointly necessary and independently missing**: a pre-deadline state must be (i) published
+  before the deadline *and* (ii) sign-determining rather than merely informative. A future G-24 reopening
+  must look for a state that satisfies **both**, and any candidate that proposes only a published
+  pre-deadline state will fail the second half — which is the RIN analogue of the "no sign" objection that
+  closed R-031 and, in the case of a market-wide trigger, the "beta" objection that closed R-032.
+- **Score: 52.0, unchanged.** Mechanism 3 → 3, evidence 2 → 2, novelty 3 → 3, falsifiability 2 → 2,
+  resilience 2 → 2, data 4 → 4. **Rank 5, unchanged.** No validation specification is written for
+  IDEA-014, and none may be written until a pre-deadline, signed state is identified.
 
 ---
 
@@ -4452,3 +4791,58 @@ candidate**, and neither consumed an IDEA identifier.
 a third, larger repair: the two screens above are the ones a prior cycle *claimed* to have run. The
 productive part of the cycle was not a new family but the execution of the register's own **owed**
 searches (G-22, G-23, G-21) and the correction of a header that had asserted work that was never done.
+
+## Cycle 52 frontier-family screen log (2026-10-20)
+
+One family was screened, with the standing rules applied: write a dossier only if the mechanism is
+unclaimed, the state is published *before* the decision, the sign (or existence) is decidable from the
+published state, and the venue is feasible. The screen produced a bounded negative and **no new
+candidate**, and it did not consume an IDEA identifier. Cycle 52's other half was not a screen at all
+but the register's **prior-art re-read of IDEA-011**, recorded in that dossier and in the Cycle-52 gap
+verdicts of `source_ledger.md`.
+
+1. **Venue-imposed trading halts, price bands and market-wide circuit breakers — SCREENED, bounded
+   negative, six independent reasons, dated re-screen condition (R-032).** This is the register's **first
+   screen of a *market-interruption* family**: every earlier screen (R-012 … R-031) covered an
+   obligation, a switch, a supply schedule, an expiry-driven flow or a price-formation rule, and none
+   covered the mechanism by which the **venue stops the market and restarts it**. Instances run: the US
+   market-wide circuit breakers at 7 % / 13 % / 20 % of the prior S&P 500 close and the 15-minute
+   level-1 halt (S-256, S-258, S-266); the Limit Up–Limit Down Plan's price bands, the 15-second Limit
+   State, the five-minute Trading Pause and the reopening auction (S-259, S-260, S-262); the European
+   volatility-interruption regime and the ESMA/MiFID II calibration and **publication-of-trading-halts**
+   guidelines (S-261, S-263); and the Korean dynamic and static volatility interruptions (S-264).
+   Six independent reasons make it a baseline, any one of them sufficient: **the effects are published
+   and sized** (volatility rises drastically near the trigger, returns take on increasing negative
+   skewness, 17.5 bps of normalised daily volatility per 1 % closer, roughly double inside 2 % — S-256;
+   post-halt returns stabilise and trading costs fall — S-258; LULD curbs short-term volatility without
+   delaying price discovery, with a magnet effect and reduced HFT activity after the halt — S-262; and the
+   family has a thirty-year survey literature with its own methodological disputes — S-257);
+   **the trigger state is public and real-time**, so there is no informational edge in *knowing* it (the
+   SIPs republish the current price bands every 30 seconds, S-260, and the EU regime *mandates*
+   publication of trading halts, S-261) — G-13 passes and is simultaneously useless here;
+   **a market-wide trigger is a state common to every security**, so the only implementable claim is a
+   directional bet on the index's own news, which is beta, and the published finding that index
+   membership adds no market-quality impact during halts removes the cross-sectional version (S-258);
+   **an individual-stock halt is triggered by that stock's own news**, so the identification is
+   inseparable from the information event — the R-018 objection, not removed by the state's being public
+   (S-259, S-260); **the concession is competed away inside the halt**, because the reopening is an
+   auction and the venue's own Designated Sponsors are obliged to quote during the European call phase
+   (S-259, S-263); and **the cost floor is hostile** — the tradeable window is seconds wide, in the
+   widest-spread names, with 84 % of halted ETPs small-capitalisation and only 8 S&P 500 constituents
+   halting on the SEC's own statistics for 24 August 2015 (S-259), realised volatility 194 % higher
+   annualised in the first minute after a level-1 halt and elevated for over ten minutes, spreads wider for
+   about five minutes (S-266). **The one narrow residual is recorded rather than claimed**: the SEC's own
+   staff note that NYSE Arca applied price collars to reopening auctions on 24 August 2015, producing
+   "prices that were substantially less dispersed than reopening auctions on other primary listing
+   exchanges" and leaving "many unexecuted order imbalances" (S-259) — a venue-rule difference observed
+   by the regulator on a single day, in a seconds-scale auction window. Filed in
+   `rejected_and_parked.md` as **R-032** and added to the known-baseline table, with a **dated re-screen
+   condition** (a persistent, pre-published reopening-auction rule difference; a mandatory participation
+   requirement for a non-market-maker class; or a material change to the US thresholds, the LULD
+   parameters or the EU publication requirement).
+
+**Cycle 52 summary of the screening log.** One family, one bounded negative, zero new dossiers, zero
+scores changed — and the cycle's real product was the **prior-art re-read of the rank-1 candidate**, which
+returned a *sharper* null, one published conditioner that competes with IDEA-011's own state, one piece
+of adverse premise evidence recorded against it, and — because it produced a dated, prospective route
+rather than another null — the **opening of G-32**.

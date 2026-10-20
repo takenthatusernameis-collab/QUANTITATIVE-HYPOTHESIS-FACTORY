@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–51
+# RANKED SHORTLIST — CYCLES 1–52
 
 Scores are a **research-priority heuristic**, not a probability of profit. No numerical probability
 of success is attached to any candidate: the retrieved literature offers no defensible, cited base
@@ -135,6 +135,64 @@ specification, **V-010**, is written in this cycle.
 ---
 
 ## Table
+
+*Cycle-52 ranking. **No score changed.** The order remains **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
+(68.0), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
+falsifiability (4 versus 3); IDEA-003 (66.0), IDEA-008 (63.0) and IDEA-002 (63.0) remain parked. Cycle 52
+executed the priorities from the Cycle-51 handoff and changed no ranking: (i) the **prior-art re-read of
+IDEA-011**, the register's rank-1 candidate, against 2025–2026 literature it had not yet seen — the cycle's
+single most valuable act, and the one the register's own cross-cutting notes name. The re-read
+**maintained the G-21 null but sharpened it from "nothing found" to a precise statement**: the
+first-adopter/second-adopter contrast is a **standard, populated design** in the IFRS literature (run on
+audit fees and audit time, S-265) and the field's own systematic review of ~181 top-cited IFRS-adoption
+papers inventories accounting quality, comparability, liquidity, cost of capital, forecast accuracy and
+foreign investment — and **post-earnings-announcement drift is not among the reviewed outcomes** (S-253) —
+so the residual is an **outcome-specific unrun comparison on a standard comparator**, not an unnoticed
+hole. It also added **a published conditioner that competes with the candidate's own state**: the
+post-adoption information effect **flips sign** with a country-level, ex-ante, published state, linguistic
+distance (S-252), which is collinear with the already-published enforcement conditioner (S-221), so the
+candidate's conditioning variable must remain **firm-level** and **both** country-level conditioners
+become **mandatory controls**. It also recorded **adverse premise evidence** against the
+comparability-as-driver story ("accounting quality and comparability do not mediate the market effects",
+S-253) **and** the supporting reading ("IFRS' mandatory nature and pre-IFRS differences compared to local
+standards" — the *discontinuity* at adoption, which is the candidate's own premise), so the candidate must
+now **pre-register which reading it claims**. Following the **Cycle-35 precedent** — new sources that
+support the *mechanism* but not the *directional drift claim* leave the score untouched — **no re-score**:
+mechanism 4 → 4, evidence 3 → 3, novelty 3 → 3, falsifiability 4 → 4, resilience 3 → 3, data 4 → 4.
+**Because the re-read produced a dated, prospective route rather than another null, G-32 was OPENED** — the
+**IFRS 18 adoption window** (effective for annual periods beginning on or after 1 January 2027, with a
+comparability break by design: two new defined subtotals in the statement of profit or loss, mandatory
+MD&A disclosure, new aggregation and disaggregation principles — S-255), read against the IFRS Foundation's
+**jurisdiction profiles** (170 jurisdictions, filterable by "required for domestic public companies" versus
+"permitted but not required" — S-254), with three limbs: **(a)** the calendar limb, closable now as a
+*reading* task — do the published profiles identify a group A (first-time IFRS 18 adopters) and a group B
+(second-time adopters) with non-overlapping, pre-registered adoption dates; **(b)** the identification limb
+— does the candidate's firm-level conditioning retain identifying power *within a single standard*, i.e. is
+the treatment not absorbed by the two published country-level conditioners; **(c)** the pre-adoption-claim
+limb — does any 2024–2027 literature already claim the IFRS 18 drift sign (S-253 cannot answer it,
+because IFRS 18 post-dates the review). **V-009 was amended, not re-created.** (ii) **G-30 (IDEA-010)
+exhaustion confirmed** with **no re-probe** of statutory filings and **no crowding proxy substituted**, so
+**V-010 remains non-executable** against the corporate-bond ETF universe; (iii) **G-28 (IDEA-004) remains
+frozen and V-002 remains frozen**, the null recorded again, with the bounded re-check finding no published
+convergence-crowd *concentration* measure — every crowding measure the register holds (S-026, S-157, S-222,
+S-241, S-242, S-243) measures a different crowd; (iv) the register's **first market-interruption family
+screen** was run and logged as **R-032** (bounded negative) — venue-imposed trading halts, price bands and
+market-wide circuit breakers, a family genuinely different from every family closed in R-014–R-031, with
+**six** independent reasons and a dated re-screen condition, on ten metadata-verified sources
+(S-256 … S-264, S-266): the effects are published and sized; the trigger state is public and real-time (so
+there is no informational edge in *knowing* it); a market-wide trigger is a state common to every security,
+so the trade is beta; an individual-stock halt is triggered by that stock's own news, so the identification
+is inseparable from the information event; the concession is competed away inside the reopening auction, in
+which the venue's own Designated Sponsors are obliged to quote; and the tradeable window is seconds wide,
+in the widest-spread universe, with the published post-halt microstructure (volatility up, spreads wide,
+volume up) documenting why; (v) **IDEA-014's state-free existence limb remains inconclusive** and must not
+be described as either a positive finding or a refutation; (vi) two state-integrity repairs were carried
+out in the rejection log — seven terse entries (R-023, R-024, R-026, R-027, R-028, R-029, R-030) were
+upgraded to the standard five-reason form with explicit G-13 / G-12 / S-151-analogue arguments and dated
+re-screen conditions, and the header counts were re-derived from the file (32 rejections, 64-row baseline
+table). **No candidate was created, no score changed, and no validation specification was added or
+withdrawn.** New identifiers consumed: **S-252 … S-266**, **G-32** and **R-032**; next free identifiers:
+**IDEA-017, S-267, V-012, G-33, R-033, P-014**.
 
 *Cycle-51 ranking. **No score changed.** The order remains **IDEA-011 (69.0), IDEA-004 (69.0), IDEA-010
 (68.0), IDEA-009 (60.0), IDEA-014 (52.0)**, with the tie at 69.0 broken in IDEA-011's favour on
@@ -1660,3 +1718,56 @@ the realised position as a post-hoc control only.
     IDEA-010 if the cadence proved infeasible: the cadence is feasible, the horizon is preserved, and
     the price of the resolution is a small effective sample that must be reported rather than
     glossed.
+13. **A decision-time state must satisfy three tests, and the Cycle-52 screen closed the third (new in
+    Cycle 52).** Until Cycle 52 the register's state requirements were two: the state must be **published
+    before the decision** (G-13) and it must **determine the sign or the existence** of the effect
+    (G-12). The R-032 venue-halt screen added a third, from an independent body of evidence: a state that
+    is **broadcast in real time cannot carry an edge even when it is published and even when it is
+    sign-carrying in principle**, because it is a public record of the flow it is supposed to predict
+    (the LULD price bands are republished to the public every 30 seconds, S-260, and the EU regime
+    *mandates* publication of trading halts, S-261). The three tests are therefore: **(i) published before
+    the decision; (ii) sign-determining rather than merely informative; (iii) not a public real-time
+    by-product of the flow it is meant to predict.** Two of the register's own candidates show what each
+    failure looks like. **IDEA-014 fails (ii)** — the sign-determining RIN state publishes only *after* the
+    deadline, and the published pre-deadline proxy is set against the agency's own supply projection, so
+    the projected net position is near zero by construction (S-184, S-201); the LULD bands fail **(iii)**,
+    and they fail it while passing (i) comfortably. **G-32's identification limb is the register's first
+    case where all three must be satisfied at once**, which is a further reason it is the right thing for
+    the next cycle to work on.
+14. **A null that is merely re-declared is worth nothing; a null that is re-derived from a check is
+    worth a cycle (new in Cycle 52).** The register's standard, established by the Cycle-40 execution of
+    G-29 and the Cycle-37 and Cycle-51 repairs, is that a gap's status must be **re-derived from a
+    check**, not carried forward in prose. G-21 stood as a null for **fourteen cycles** (Cycles 38–51)
+    without a single new source; re-declaring it each cycle would have produced a long, confident record
+    of nothing. Cycle 52 instead ran the check the register had never run for this candidate — a
+    **prior-art re-read of the rank-1 candidate against literature it had not yet seen** — and that check
+    paid out three ways: it **sharpened the null** from "no study found" to "the comparator is standard
+    in this field and has been run on other outcomes, but not on drift" (S-253, S-265); it **surfaced a
+    published conditioner that competes with the candidate's own state** and therefore became a mandatory
+    control (S-252, alongside S-221); and it **produced a dated, prospective route** — IFRS 18's 1 January
+    2027 effective date and the published jurisdiction-profile calendar (S-254, S-255) — which opened
+    **G-32** where fourteen cycles of null-maintenance had not. **The general lesson, and the standing
+    instruction for the next cycle: a candidate that has produced no new evidence for a long time should
+    be *re-read*, not re-declared.** A long null is a prompt to change the operation, not a reason to
+    repeat it.
+
+**Cycle-52 gap update.** **G-32 is NEW** (IDEA-011): the **prospective IFRS-18 adoption window**.
+IFRS 18 is effective for annual reporting periods beginning on or after **1 January 2027** and creates a
+comparability break by design (S-255), and the jurisdiction-level adoption-status calendar the G-21
+discriminator needs is published in advance in the IFRS Foundation's jurisdiction profiles, with **170
+jurisdictions** filterable by "required for domestic public companies" versus "permitted but not required"
+(S-254). Three limbs: **(a)** the calendar limb — do the published profiles identify a group A (first-time
+IFRS 18 adopters) and a group B (second-time adopters) with **non-overlapping, pre-registered** adoption
+dates? This is a **reading** task and is closable now. **(b)** the identification limb — does the
+candidate's **firm-level** conditioning retain identifying power *within a single standard*, i.e. is the
+treatment not absorbed by the two published country-level conditioners (enforcement **S-221**, language
+distance **S-252**)? **(c)** the pre-adoption-claim limb — does any 2024–2027 literature already claim the
+IFRS 18 drift sign? (S-253 cannot answer it: IFRS 18 post-dates the review.) **Dated re-check:** re-read
+the IFRS 18 pre-adoption literature **annually**, and re-run limb (a) **whenever the IFRS Foundation
+updates its jurisdiction profiles**. **G-21's null is re-derived, not closed**, and is now stated as an
+*outcome-specific* unrun comparison on a standard comparator rather than as an absence of search. **G-30 is
+EXHAUSTED** (IDEA-010; no re-probe, no substituted proxy; V-010 remains non-executable). **G-28 and V-002
+remain FROZEN** (IDEA-004; the null is re-derived and no published convergence-crowd *concentration*
+measure was located). **IDEA-014's state-free existence limb remains INCONCLUSIVE** — neither a positive
+finding nor a refutation. **R-032 is NEW**: the venue-halt / price-band / market-wide-circuit-breaker
+family, a bounded negative with a dated re-screen condition.
