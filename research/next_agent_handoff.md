@@ -1,6 +1,6 @@
 # DURABLE HANDOFF — NEXT AGENT
 
-Last updated: 2026-10-20, **Cycle 40**. Cycle 40 executed the five priorities in order, closed two
+Last updated: 2026-10-20, **Cycle 41**. Cycle 41 executed the six priorities from the Cycle-40 handoff: closed G-30 sub-route (a) (17 CFR 270.6c-11 imposes no requirement to publish AP identities), recorded a null on G-28 and G-21, maintained IDEA-014's inconclusive limb, and logged one bounded negative (R-021, disclosure-mandate switch). No score changed.
 gaps with a *calibrated* negative, corrected three of the register's own statements, and repaired the
 artifact drift left behind by Cycles 38–39.
 
@@ -55,7 +55,7 @@ Counts re-derived from the artifact files (Cycle 40):
 | Rejected / parked | **20 rejections** (R-001 … R-020) and **12 parkings** (P-001 … P-012); P-013 reserved and unused |
 | Known-baseline table | **62 rows** |
 | Gaps | G-01 … G-30 defined (G-17 skipped, G-26 reserved and unused). **Open: G-01, G-04, G-21, G-28, G-30.** G-27 closed in IDEA-010's favour at filer level in Cycle 40; G-29 closed as a bounded negative in Cycle 40 |
-| Next free identifiers | **IDEA-017, S-245, V-012, G-31, R-021, P-014** |
+| Next free identifiers | **IDEA-017, S-246, V-012, G-32, R-022, P-014** |
 
 ## 2. Highest-priority unresolved theoretical questions
 

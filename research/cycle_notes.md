@@ -1,5 +1,17 @@
 # CYCLE NOTES
 
+## Cycle 41 — 2026-10-20
+Theory-only cycle executing the six priorities from the Cycle-40 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-30 (IDEA-010) — sub-route (a) closed: no regulatory requirement to publish AP identities.** 17 CFR 270.6c-11 (the SEC's ETF rule) defines "authorized participant" and requires daily website disclosure of portfolio holdings, NAV, premium/discount, bid-ask spread, and recordkeeping of written AP agreements and per-basket records including the identity of the AP transacting — but it does **not** require an ETF to publish the identities of its authorised participants on its website or in its prospectus. The only public-facing disclosure obligations are the portfolio/NAV/premium items in (c)(1); AP identity is a recordkeeping item under (d), not a public-disclosure item. **Route (a) is therefore closed: there is no regulatory route, only a voluntary one.** Sub-routes (b) sponsor-published lists and (c) non-US issuers were spot-checked (iShares AGG, Vanguard BND product pages name no AP; no non-US-issuer US-listed corporate-bond ETF with a published AP set located) and remain not found; G-30 stays open on those two sub-routes.
+2. **G-27/G-30 counts** — unchanged from Cycle 40: 6,131 X-17A-5 documents / 2,419 distinct filers (lower bound); 10-Q 1,151 / 66; 10-K 737 / 96; FR Y-9C not indexed by EDGAR full-text search; private-AP capital state annual (9–14 months stale). No new route produced by G-30, so no re-derivation triggered.
+3. **G-28 (IDEA-004)** — remains frozen; V-002 frozen. No published convergence-crowd concentration measure located; null recorded.
+4. **G-21 (IDEA-011) and IDEA-014's state-free limb** — recorded null and inconclusive verdicts maintained; no new source.
+5. **New mechanism family screen — disclosure-mandate switch (R-021).** Screened a rule that starts or stops a required public disclosure, changing the information set rather than the flow (nearest instance: the SEC's 2022 Rule 10b5-1 amendments and the associated Form 4 disclosure). Bounded negative: the post-amendment effects are already a published, positive result in the literature, so the sign a candidate would claim is claimed; the switch is published in advance so any reaction is anticipatory; and the effective sample is the number of amendments, not securities × dates. No candidate, no dossier, no score change.
+6. **No score changed.** Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0. New identifiers consumed: S-245, G-31, R-021. Next free identifiers: IDEA-017, S-246, V-012, G-32, R-022, P-014.
+
+---
 ## Cycle 40 — 2026-10-20
 Theory-only cycle executing the five priorities from the Cycle-39 handoff, plus the state-integrity repair that the accumulated drift implied. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 
