@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–58
+# SOURCE LEDGER — CYCLES 1–59
 
 Cycle 58 (2026-10-20) added **S-291 … S-309** (see "Cycle 58 sources" at the end of this file), the
 **"Cycle 58 gap verdicts"** block, the **"Cycle 58 state-integrity repairs"** block and the
@@ -7988,3 +7988,14 @@ G-21 remains null and sharpened; G-30 remains exhausted; G-33 remains closed as 
 re-check; R-037 remains a bounded negative; the active ranking is unchanged at **IDEA-011 69.0 (rank 1),
 IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0**. The corrections make the
 *record* of the cycle exact; they do not move the cycle's result.
+
+
+### R-039 — CYCLE 59 FAMILY SCREEN VERDICT ENTRY
+
+**Family:** Template (A) — published price of a constraint (repo specialness, securities-lending fee curves, CDS financing spreads, standing repo award rate). Screened state-first with strict bar (published decision-time state, units/cadence, is state the candidate conditions on or proxy, changes sign/existence not just size per G-12; Cycle-52 third test). Screened against literature first.
+
+**Verdict:** bounded negative. See R-039 in rejected_and_parked.md.
+
+**Sources consulted:** S-041 (SOFR/BGCR/TGCR), S-042 (repo operations, primary dealer statistics), with existing register sources on crowding/funding. No new S- identifiers minted.
+
+**Reasons:** see R-039. No unclaimed mechanism passed strict bar; public rates are indicators rather than clean sign-determining decision-time states; securities lending fee data fragmented; G-12 not met.

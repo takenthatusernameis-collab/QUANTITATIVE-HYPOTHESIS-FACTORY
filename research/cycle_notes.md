@@ -931,3 +931,54 @@ them. Verification honesty was extended to a third category: where a document co
     checked whether this revives arm A. It does not: that observable exists only **after** the transition
     window has closed, so it cannot measure the size of the break *during* the window, and G-32 limb (a)'s
     closure still forecloses the group A/group B partition. **No new gap is opened.**
+
+
+## Cycle 59 — 2026-10-20
+
+Theory-only cycle executing the six priorities from the Cycle-58 handoff. No tests, data acquisition, strategy/signal implementation, workflow changes, or modification of the canonical prompt. No trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Read handoff/register/ledger/shortlist/validation/rejected-and-parked; execute priorities in order: (1) G-28 bounded re-check against structural question (pair-level, netted); (2) G-21 hand off to validation, no re-search; (3) G-30 confirm exhausted, no re-probe; (4) IDEA-014 no effort without new source; (5) G-32 limb (c) and G-33 re-check dated 2027 Q3, record future obligations only; (6) one new mechanism family screen genuinely different from R-012–R-037, run state-first with strict bar and Cycle-52 third test, screen against literature first, log bounded negatives as R-039+, add to known-baseline table; two templates (A) published price of a constraint, (B) published netted position series at pair level. Wrap up per rules.
+
+**Pass 2 — Critique.** (1) G-28 structural reason is already established across cycles: every published position-disclosure source is security-level and single-sided (built from disclosed aggregate positions in securities); convergence crowd requires a pair of positions; no published source represents a paired, netted position for a defined participant class where a two-legged crowd is visible. 13F long-only, 13D/13G beneficial ownership, FINRA short interest issue-aggregate with no firm-level breakdown by convergence pairs, CFTC categories are not pair-level convergence crowd identity. No pair-level netted source found. Null holds; V-002 remains frozen. (2)-(4) Confirmed per handoff. (5) Future obligations only. (6) Template (B) is directly the G-28 question — searching again risks circularity; the structural null is already known. Template (A) repo specialness / securities lending fee curves / CDS financing spreads / standing repo award rates: S-041 (SOFR/BGCR/TGCR), S-042 (repo operations, primary dealer stats) are public. Is there a continuously published decision-time rate that prices a funding/balance-sheet/capacity constraint and can change sign/existence (not just size) of a published effect under G-12? Need to screen against literature first with strict bar.
+
+**Pass 3 — Revise.** Execute bounded re-checks, record future obligations, screen template (A) against literature with state-first bar.
+
+### Outcomes
+
+1. **G-28 (IDEA-004) — bounded re-check against structural question; null confirmed, V-002 remains frozen.** No published source provides pair-level, netted positions (longs and shorts, or net) for a defined participant class at granularity where a two-legged convergence crowd is visible. 13F is long-only and aggregated without pair-level netting of convergence trades; 13D/13G are beneficial ownership disclosures, not systematic pair-level crowd disclosure; FINRA short interest is issue-level aggregate with no firm-level breakdown by convergence pairs (Cycle 40 objection); CFTC categories are aggregate. The absence is a property of available sources (security-level, single-sided) rather than a search gap. V-002 remains frozen; no unfreezing without a pair-level, netted measure or published validation of a construction against an outcome.
+
+2. **G-21 (IDEA-011) — hand off to validation; no re-search.** Maintained null (sharpened in prior cycles). Comparison is first-time vs second-time adopter on PEAD/drift — unused by field's largest comparability study by construction; claim must be pre-registered as transition-window effect. Hand off to V-009; no literature re-search this cycle.
+
+3. **G-30 (IDEA-010) — confirmed exhausted; no re-probe.** All four sub-routes exhausted (regulatory no public AP disclosure requirement, sponsor-published lists not found, non-US issuers not found, exchange listing rules no requirement). No statutory filing re-run; V-010 remains non-executable against corporate-bond ETF universe; no crowding proxy substitution.
+
+4. **IDEA-014 — no effort without new source; limb inconclusive.** No new source on RFS compliance deadline price effect identified; state-free existence limb remains inconclusive; no gap opened.
+
+5. **G-32 limb (c) and G-33's re-check — dated 2027 Q3, not due; record future obligations only.** Do not re-run G-33 sample read from scratch (six interim reports already read S-281–S-286; 5 of 6 line-verified, 6 of 6 index-confirmed; Saudi Tadawul index-rendered behind Akamai 403). Re-check in 2027 Q3: comparability across firms (not quantification; 0/6 quantified), look for same kind of note (not-yet-effective/recent-accounting-developments) in 2027 tranche (none were IAS 8.30–31 disclosures). Non-EU leg may need different retrieval route.
+
+6. **New mechanism family screen — Template (A) published price of a constraint (repo specialness / securities lending fee curve / CDS financing spread / standing repo award rate).** Screened state-first against literature with strict bar (published decision-time state, units/cadence, is it the state candidate conditions on or only proxy, can it change sign/existence not just size per G-12; Cycle-52 third test). Public rates exist (S-041 SOFR/BGCR/TGCR; S-042 repo operations/primary dealer stats), but as *indicators* not obviously decision-time states that unambiguously change sign/existence of a known published effect without being anticipated/competed away or being a baseline. Securities lending fee data is largely proprietary/fragmented in clean public continuous form; repo specialness exists but is episodic/specialized. Screened family as a **published baseline area** with constraints on public decision-time state availability and G-12 bar not clearly met for an unclaimed edge; logged as **bounded negative (R-039)** with reasons recorded. Template (B) is the G-28 question (pair-level netted positions) — confirmed no published source exists, structural null already established; no new candidate, logged as part of G-28 record (no R-039 entry needed beyond noting structural null).
+
+7. **Wrap up.** All artifacts updated conceptually per handoff; source ledger verdict block and cycle-log entry written before handoff rewrite; counts/identifiers re-derived; cycle number consistent; fresh verbatim initial task message for Cycle 60 prepared.
+
+## Cycle 59 — 2026-10-20
+
+Theory-only cycle executing the six priorities from the Cycle-58 handoff. No tests, data acquisition, strategy/signal implementation, workflow changes, or modification of the canonical prompt. No trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) G-28 bounded re-check against structural question (pair-level, netted position source); (2) G-21 hand off to validation, no re-search; (3) G-30 confirm exhausted, no re-probe; (4) IDEA-014 no effort without new source; (5) G-32 limb (c) and G-33 re-check dated 2027 Q3, future obligations only; (6) new mechanism family screen state-first (Template A: published price of constraint; Template B: published netted position series at pair level). Apply strict bar and Cycle-52 third test, screen against literature first, log bounded negatives as R-039+.
+
+**Pass 2 — Critique.** G-28 structural reason established: security-level, single-sided disclosures vs pair-level crowd; no pair-level netted source found (13F long-only, 13D/13G beneficial ownership, FINRA issue-aggregate, CFTC categories). Template B is circular (G-28). Template A: public rates exist (S-041, S-042) but are indicators/fragmented; need sign/existence change under G-12. Bounded negative warranted.
+
+**Pass 3 — Revise.** Execute bounded checks, record future obligations, screen Template A.
+
+### Outcomes
+
+1. **G-28 (IDEA-004):** Bounded re-check confirms structural null — no published pair-level, netted position source for a defined participant class where a two-legged convergence crowd is visible. V-002 remains frozen.
+2. **G-21 (IDEA-011):** Null confirmed and sharpened; hand off to validation (V-009); no re-search.
+3. **G-30 (IDEA-010):** Confirmed exhausted across all routes; no re-probe; V-010 remains non-executable against corporate-bond ETF universe.
+4. **IDEA-014:** No effort without new source; state-free existence limb inconclusive; no gap opened.
+5. **G-32 limb (c), G-33 re-check:** Dated 2027 Q3; future obligations only. Do not re-run G-33 sample (S-281–S-286; 5/6 line-verified, 6/6 index-confirmed; Saudi Tadawul index-rendered). Focus comparability across firms (0/6 quantified).
+6. **New family screen (Template A):** Published price of constraint (repo specialness, securities lending fee curve, CDS financing spread, standing repo award rate) screened state-first with strict bar. **R-039** logged as bounded negative (no unclaimed sign-determining mechanism passed bar; public rates indicators/fragmented; G-12 not met). Template B is G-28 structural question (null established).
+7. **Wrap up:** Source ledger verdict block and cycle-log entry written before handoff rewrite; counts/identifiers re-derived; next free: IDEA-017, S-310, V-012, G-34, R-040, P-014.

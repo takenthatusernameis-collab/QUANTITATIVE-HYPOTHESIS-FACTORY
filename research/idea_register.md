@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 58 complete** (Cycle 58 executed the register's two highest-value *state-availability*
+Last updated: **Cycle 59 complete** (Cycle 58 executed the register's two highest-value *state-availability*
 questions and settled them. **G-01, the feasibility precondition of the parked candidate IDEA-002, was
 executed and closed as a negative**, so IDEA-002 is **rejected (R-038)** and its parking **P-004 is
 closed** — on three independent grounds: the proposed validation is **tautological** for the candidate's

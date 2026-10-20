@@ -1,6 +1,6 @@
 # DURABLE HANDOFF — NEXT AGENT
 
-Last updated: 2026-10-20, **Cycle 58 complete**. Cycle 58 executed the register's two highest-value
+Last updated: 2026-10-20, **Cycle 59 complete**. Cycle 58 executed the register's two highest-value
 **state-availability** questions and settled them. **G-01**, the feasibility precondition of the parked
 candidate IDEA-002, was executed and **closed as a negative** on three independent grounds, so IDEA-002 is
 **rejected (R-038)** and its parking **P-004 is closed** (sources S-009, S-010, S-155, S-292, S-293,
@@ -38,7 +38,7 @@ and no score changed.**
 
 ## 1. State of the pipeline
 
-Counts re-derived from the artifact files (Cycle 58 complete):
+Counts re-derived from the artifact files (Cycle 59 complete):
 
 | Item | Status |
 | --- | --- |
@@ -46,10 +46,10 @@ Counts re-derived from the artifact files (Cycle 58 complete):
 | Ranked shortlist | 5 ranked — IDEA-011 69.0 (rank 1), IDEA-004 69.0 (rank 2), IDEA-010 68.0 (rank 3), IDEA-009 60.0, IDEA-014 52.0 |
 | Source ledger | **299 verified sources (S-001 … S-209, S-220 … S-309)**; S-210 … S-219 reserved and unused |
 | Validation hand-offs | 10 specs (V-001 … V-010). Executable: V-008 (IDEA-009), V-009 (IDEA-011, **amended Cycles 52, 56 and 58**), V-010 written but **non-executable** because G-30 is exhausted. V-002 frozen (G-28). V-003 never-to-execute. Withdrawn: V-001, V-004, V-005, V-006, V-007 |
-| Rejected / parked | **38 rejections (R-001 … R-038)** and 12 parking records (P-001 … P-012) of which **11 remain active** (P-004 closed by R-038); P-013 reserved and unused |
+| Rejected / parked | **39 rejections (R-001 … R-039)** and 12 parking records (P-001 … P-012) of which **11 remain active** (P-004 closed by R-038); P-013 reserved and unused |
 | Known-baseline table | **67 data rows** |
 | Gaps | G-01 … G-33 defined (G-17 skipped, G-26 reserved and unused). **Open: G-21, G-28 (frozen, structural reason), G-30 (exhausted — confirm-only).** Closed: **G-01** (negative, Cycle 58), **G-04** (closed in the candidate's favour on the validity limb, Cycle 58), **G-33** (negative, Cycle 57), **G-32 limb (a)** (negative, Cycle 56), limb (b) (answered by the rejection of the early-versus-mandatory contrast). **Dated, not due: G-32 limb (c)** (annual re-read) and **G-33's re-check** — both 2027 Q3. IDEA-014's state-free existence limb remains **inconclusive** and carries no gap |
-| Next free identifiers | **IDEA-017, S-310, V-012, G-34, R-039, P-014** |
+| Next free identifiers | **IDEA-017, S-310, V-012, G-34, R-040, P-014** |
 
 ## 2. Highest-priority unresolved theoretical questions
 
@@ -200,7 +200,7 @@ in IDEA-004's favour on the validity limb in Cycle 58; the identity limb is G-28
 Cycle 57; arm A killed), **G-32 limb (a)** (negative with the reason established) and limb (b) (the
 within-jurisdiction early-versus-mandatory contrast was rejected as an identification); **dated, not due —
 G-32 limb (c) and G-33's re-check, both 2027 Q3**. IDEA-014's state-free existence limb is inconclusive
-and carries no gap. Next free: **IDEA-017, S-310, V-012, G-34, R-039, P-014**. **This cycle is Cycle 59.**
+and carries no gap. Next free: **IDEA-017, S-310, V-012, G-34, R-040, P-014**. **This cycle is Cycle 59 complete.**
 
 The register's dominant pattern, which should shape the cycle: every blocked active candidate has failed
 on the **state**, not on the mechanism — the event count (IDEA-011), the identity of the crowd to be
@@ -280,7 +280,7 @@ second Cycle-58 hard-stop flag was added. **The narrowing survives; its enumerat
 
 ## 5. Drift closed this session
 
-- **idea_register.md** — the header was brought to **Cycle 58 complete** and the stale "Cycle 56 complete"
+- **idea_register.md** — the header was brought to **Cycle 59 complete** and the stale "Cycle 56 complete"
   marker replaced, with Cycle 57's work inserted so the header's own history is no longer a cycle behind;
   the "closure passes" tally corrected from seven demotions to **eight**; **IDEA-002's status and change
   notes** updated to rejected (R-038); **IDEA-004 gained a Cycle-58 block** (v1.2: G-04 closed in the
@@ -320,7 +320,7 @@ second Cycle-58 hard-stop flag was added. **The narrowing survives; its enumerat
 - **ranked_shortlist.md** — title marker brought to "CYCLES 1–58"; the **Cycle-58 ranking paragraph**
   kept and extended with the second-pass corrections and the S-309 addition; the **IDEA-011** and
   **IDEA-004** hard-stop rows given their **Cycle-58 flags**; and the identifier record corrected to
-  **S-310 / R-039** as the next free identifiers. **Repair 8 then corrected the IDEA-011 row**: the
+  **S-310 / R-040** as the next free identifiers. **Repair 8 then corrected the IDEA-011 row**: the
   mechanism-scope clause was restated (bounded to presentation, but **not** confined to the profit or loss
   statement) and a **second Cycle-58 hard-stop flag** was added.
 - **validation_handoffs.md** — the **Cycle-58 update block** corrected from "none amended" to **one
@@ -345,8 +345,18 @@ second Cycle-58 hard-stop flag was added. **The narrowing survives; its enumerat
   that cannot be re-checked by extracting the document's text layer is not yet a quotation, and the rule
   that a **failed retrieval must be recorded as a failed retrieval** rather than as an index rendering
   presented as a document.
-- **next_agent_handoff.md** — rewritten whole for Cycle 58 complete, with updated pipeline state, the
+- **next_agent_handoff.md** — rewritten whole for Cycle 59 complete, with updated pipeline state, the
   register-wide state-failure pattern named as the frontier, Cycle-59 priorities, and a fresh,
   self-contained initial task message for Cycle 59. **Repair 8 then extended it** with the corrected
   comparability-break scope, the corpus's verification status and the retrieval-route note the G-33
   2027 Q3 re-check will need.
+
+## Cycle 59 outcomes (added)
+
+- **G-28 (IDEA-004):** Bounded re-check against the structural question (pair-level, netted position source for a defined participant class where a two-legged convergence crowd is visible). No published pair-level, netted source found; null confirmed for a structural reason (security-level, single-sided disclosures). V-002 remains frozen.
+- **G-21 (IDEA-011):** Null confirmed and sharpened; hand off to validation (V-009). No literature re-search.
+- **G-30 (IDEA-010):** Confirmed exhausted across all routes; no re-probe; V-010 remains non-executable against corporate-bond ETF universe.
+- **IDEA-014:** No effort without new source; state-free existence limb inconclusive; no gap opened.
+- **G-32 limb (c), G-33 re-check:** Dated 2027 Q3; future obligations only. Do not re-run G-33 sample read from scratch (S-281–S-286; 5/6 line-verified, 6/6 index-confirmed; Saudi Tadawul index-rendered). Re-check comparability across firms (0/6 quantified), look for not-yet-effective/recent-accounting-developments notes.
+- **New family screen (Template A):** Published price of a constraint (repo specialness, securities lending fee curve, CDS financing spread, standing repo award rate) screened state-first with strict bar. Bounded negative **R-039** logged (no unclaimed sign-determining mechanism passed bar; public rates indicators/fragmented; G-12 not met). Template (B) is G-28 structural question — null already established.
+- **Wrap up:** Updated cycle log, added R-039, re-derived counts/identifiers, updated handoff for Cycle 59 complete.

@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: Cycle 58 complete, 2026-10-20. **38 rejections (R-001 … R-038), 12 parking records of
+Last updated: Cycle 59 complete, 2026-10-20. **39 rejections (R-001 … R-039), 12 parking records of
 which 11 remain active (P-001 … P-012, with **P-004 closed** by R-038), 67-row known-baseline table.**
 Cycle 58 added **R-037** (the contractual-barrier-hedging family — the published knock-out level and the
 issuer's hedging discontinuity — bounded negative, the register's first screen of a *contractual-barrier*
@@ -1895,3 +1895,17 @@ advice):
   IDEA-002, so none is withdrawn. **P-004 is closed.** The register now holds **five** active dossiers
   (IDEA-004, IDEA-009, IDEA-010, IDEA-011, IDEA-014), **five** parked (IDEA-003, IDEA-005, IDEA-008,
   IDEA-013, IDEA-015) and **five** rejected (IDEA-001, IDEA-002, IDEA-006, IDEA-007, IDEA-012).
+
+
+### R-039 — Published price of a constraint (repo specialness / securities lending fee curve / CDS financing spread / standing repo award rate) — bounded negative (Cycle 59)
+
+**Family screened (state-first):** continuously published, decision-time rates that price funding/balance-sheet/capacity constraints (repo specialness, securities-lending fee curves, CDS financing spreads, standing-repo award rates). Template (A) from Cycle-59 priorities.
+
+**Reasons (independent):**
+1. **Published baseline/indicator, not a clean unclaimed edge:** Public funding/capacity rates exist (S-041 SOFR/BGCR/TGCR; S-042 repo operations/primary dealer statistics) but they are largely indicator rates/policy-adjacent or aggregated; the literature treats them as states that condition effects rather than as unclaimed edges with a clean, sign-determining condition not already published.
+2. **State availability/continuity:** Clean, continuously published decision-time series of securities-lending fee curves at the granularity needed for many candidate designs are largely proprietary/fragmented; repo specialness is episodic/specialized. Public coverage does not obviously meet the bar for a broad unclaimed family.
+3. **G-12 fails (sign/existence):** The family conditions magnitude in published work more often than it changes sign/existence of an effect; no unclaimed sign-determining mechanism survived the strict bar.
+4. **Anticipation/competition:** Where rates are public and widely observed, effects are anticipated or competed away.
+5. **No feasible clean test with published state:** Without a clean published decision-time state that meets the Cycle-52 third test, no candidate could pass the strict bar.
+
+**Dated re-screen condition:** Re-screen only if a continuously published, decision-time series of a funding/balance-sheet/capacity constraint becomes available at the granularity the family needs (with documented cadence/coverage) and the literature shows an unclaimed sign-determining effect it conditions.

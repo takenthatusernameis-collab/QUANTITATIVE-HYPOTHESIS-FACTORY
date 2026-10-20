@@ -1,6 +1,6 @@
-# RANKED SHORTLIST — CYCLES 1–58
+# RANKED SHORTLIST — CYCLES 1–59
 
-**Cycle-58 ranking. No score changed for any active candidate.** The order remains **IDEA-011 (69.0,
+**Cycle-59 ranking. No score changed for any active candidate.** The order remains **IDEA-011 (69.0,
 rank 1), IDEA-004 (69.0, rank 2), IDEA-010 (68.0, rank 3), IDEA-009 (60.0), IDEA-014 (52.0)**, with the
 tie at 69.0 broken in IDEA-011's favour on falsifiability (4 versus 3), exactly as in Cycles 35, 37, 52
 and 56. Cycle 58 executed **G-01** — the feasibility precondition of the parked candidate IDEA-002 — and
@@ -379,7 +379,7 @@ specification was required — the top three are unchanged and all three already
 (V-009, V-002 frozen, V-010), so no new `V-` identifier was consumed. The executable set is
 unchanged in membership: **V-008, V-009 and V-010** (V-010 non-executable), **V-002 frozen**,
 **V-001, V-003, V-004, V-005, V-006 and V-007 withdrawn**. New identifiers consumed: **S-291 … S-309**,
-**R-037**, **R-038**; next free: **IDEA-017, S-310, V-012, G-34, R-039, P-014**.
+**R-037**, **R-038**, **R-039**; next free: **IDEA-017, S-310, V-012, G-34, R-040, P-014**.
 **Cycle 58's second verification pass** re-derived every new source against Crossref and re-checked every
 quoted primary document by extracting its text layer, and found and corrected **eight defects** — two
 wrong volume/issue records (S-288, S-289), a truncated title (S-292), a wrong online date (S-291), an
