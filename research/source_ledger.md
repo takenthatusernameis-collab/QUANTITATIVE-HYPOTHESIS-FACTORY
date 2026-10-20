@@ -3410,10 +3410,15 @@ https://www.fuelingusjobs.com/library/public/Study/-2018-10-18-NERA-White-Paper-
   literature (S-134, S-135) but the specific multiples are the consultancy's own estimates and are
   **not** independently reproduced. It is used to set a **cost floor and a prior**, not as a result
   about prices.
-- **Verification:** the PDF was located through the search index and its text was returned in the
-  index rendering in this cycle; the quoted passages on volatility, liquidity, transaction costs and
-  negative time value, and the footnote fixing the March compliance deadline, were read in that
-  text. The document itself was not downloaded and parsed as a binary file.
+- **Verification:** line-verified from the document itself: the PDF was fetched directly (HTTP 200, 2.3 MB,
+  46 pages, zip-deflate encoded) and parsed with `pypdf`; the title ("Ethanol RIN Market Analysis and
+  Potential Reforms", prepared for Valero Services, Inc., 18 October 2018) and the quoted passages —
+  volatility ("generally five to ten times more volatile than similar energy commodities"), liquidity
+  ("only about one tenth as liquid as comparable commodity futures"), transaction costs ("peak five times
+  higher than oil, ethanol, and natural gas futures"), negative time value ("pricing RINs closer to
+  expiration above RINs with longer useful lives"), and the compliance-deadline footnote ("the RFS 2017
+  Annual Compliance Deadline was March 31, 2018") — were all read verbatim in the parsed text. Previously
+  index-rendered only; the document itself was not parsed as a binary file in that earlier pass.
 
 ### S-134 — Lade, G. E., Lin, C.-Y. C. and Smith, A. D. (2015) — "Ex Post Costs and Renewable Identification Number (RIN) Prices under the Renewable Fuel Standard"
 Resources for the Future Discussion Paper **15-22** (August 2015); SSRN 2622701 (20 September 2015).
@@ -3427,9 +3432,13 @@ https://doi.org/10.2139/ssrn.2622701 ; https://media.rff.org/documents/RFF-DP-15
 - **Caveats:** a discussion paper; the object is the *price level and the ex-post cost of the
   programme*, not the compliance-deadline pattern; it is used to establish that the price is studied
   and that the 2013 rule announcement moved it, not to support any claim about a deadline effect.
-- **Verification:** the Crossref record was fetched directly (title, all three authors, SSRN
-  identifier, posting date, DOI, type "posted-content"); the RFF discussion-paper PDF was located
-  through the search index and its abstract text returned in the index rendering.
+- **Verification:** line-verified from the document itself: the PDF was fetched directly (HTTP 200, 1.5 MB,
+  46 pages) and parsed with `pypdf`; the title ("Ex Post Costs and Renewable Identification Number (RIN)
+  Prices under the Renewable Fuel Standard"), authors (Gabriel E. Lade, C.-Y. Cynthia Lin, Aaron Smith),
+  and the RFF Discussion Paper **15-22** designation were confirmed on the cover (cover date June 2015;
+  SSRN posting 20 September 2015). The key passage — "In early August 2013 the EPA released its 2013 final
+  rule … Immediately following the announcement, prices began as dramatic a fall as their initial rise" —
+  was read verbatim in the parsed text. Previously Crossref-record plus index-rendered abstract only.
 
 ### S-135 — Knittel, C. R., Meiselman, B. S. and Stock, J. H. (2017) — "The Pass-Through of RIN Prices to Wholesale and Retail Fuels under the Renewable Fuel Standard"
 *Journal of the Association of Environmental and Resource Economists* **5**(3): 653–674
@@ -3442,9 +3451,14 @@ DOI https://doi.org/10.1086/692071 ; https://doi.org/10.3386/w21343
 - **Caveats:** the object is *pass-through to fuel prices*, not the compliance-deadline pattern and
   not the sign of the deadline effect. It establishes only that the RIN price is a real, studied,
   economically meaningful price. Author-reported results; not reproduced here.
-- **Verification:** the Crossref records for both the journal article and the NBER working paper were
-  fetched directly (title, three authors, container, volume 5, issue 3, pages 653–674, print date
-  December 2017, DOI, ISSN; and the NBER report with its DOI).
+- **Verification:** line-verified from the document itself for the NBER working paper: the PDF was
+  fetched directly (HTTP 200, 1.1 MB, 46 pages, zip-deflate encoded) and parsed with `pypdf`; the title
+  ("The Pass-Through of RIN Prices to Wholesale and Retail Fuels Under the Renewable Fuel Standard"),
+  authors (Christopher R. Knittel, Ben S. Meiselman, James H. Stock), Working Paper **21343**, and the
+  NBER working-paper series / July 2015 date were read verbatim on page 1. The Crossref records for the
+  journal article (*Journal of the Association of Environmental and Resource Economists* **5**(3): 653–674,
+  December 2017; DOI 10.1086/692071; ISSN) and the NBER report (DOI 10.3386/w21343) were also fetched
+  directly. Previously Crossref records only; the NBER PDF itself was not parsed in that earlier pass.
 
 ### S-136 — ICE Futures U.S. — "D6 RIN 2025 Vintage Futures" (product 83048048) — the RIN futures venue
 https://www.ice.com/products/83048048/D6-RIN-2025-Vintage-Futures
@@ -4279,20 +4293,20 @@ URL: https://www.chicagofed.org/publications/working-papers/2025/2025-17
 - **Verification:** Chicago Fed Working Papers landing page fetched directly (title, authors, WP number, date, abstract confirmed).
 
 ### S-178 — Hung, M., Li, X. and Wang, S. (2014 / published 2015)
-"Post-Earnings-Announcement Drift in Global Markets: Evidence from an Information Shock." *The Review of Financial Studies* 28(4): 1242–1277.
-DOI: https://doi.org/10.1093/rfs/hhu062 · working-paper version: SSRN 2269909
+"Post-Earnings-Announcement Drift in Global Markets: Evidence from an Information Shock." *The Review of Financial Studies* 28(4): 1242–1283.
+DOI: https://doi.org/10.1093/rfs/hhu092 · working-paper version: SSRN 2269909
 URL: https://academic.oup.com/rfs/article-abstract/28/4/1242/1928671
 - **Type:** Prior empirical result (peer-reviewed).
 - **Supports (for IDEA-011 post-2010 evidence):** PEAD declines after an exogenous improvement in non-US firms' financial reporting quality; the decrease is more pronounced among firms with fewer concurrent earnings announcements, higher institutional holdings, lower limits-to-arbitrage, and in countries with stronger enforcement; driven by firms with greater reporting changes, increased analyst forecast accuracy, institutional ownership and liquidity. Supports the mispricing/slow-diffusion reading of PEAD: better information environment → smaller drift.
 - **Caveats:** sample centered on the information-shock event rather than a sequence of adoption dates; does not isolate a dated two-legged announcement-to-first-report trade; pre-2010-adjacent (2005 EU IFRS-adjacent settings appear in the broader literature).
-- **Verification:** SSRN abstract and Oxford Academic landing page read via search index; DOI, volume, issue and pages confirmed.
+- **Verification:** line-verified from the working-paper draft itself: the HKUST IEMS WP 2015-17 PDF (March 2015) was fetched directly (HTTP 200, 1.1 MB, 67 pages) and parsed with `pypdf`; title, authors (Moqi Hung, Xuan Li, Siew Hong Wang), "HKUST IEMS Working Paper No. 2015-17", and March 2015 date confirmed verbatim on page 1. Crossref record fetched directly confirms the published DOI 10.1093/rfs/hhu092 (not hhu062 — that record is Iliev & Lowry's "Are Mutual Funds Active Voters?"), RFS 28(4), pages 1242–1283, published online 2014-12-05. Oxford Academic landing page blocked at 403, so the article body was not independently parseable; the WP body serves as the line-verified copy.
 
 ### S-179 — Song, J. and Woo, Y.-S. (2015)
 "The Effects of K-IFRS Adoption on the Magnitude of Post Earnings Announcement Drift." DOI: https://doi.org/10.31203/aepa.2015.12.4.006 · Published 2015-12-30.
 - **Type:** Prior empirical result (author-reported).
 - **Supports (for IDEA-011 post-2010 evidence):** analysis of KRX-listed firms 2006–2013 finds K-IFRS adoption had a noticeable negative effect on the size of PEAD; under-reaction of investors decreased due to adoption; PEAD decreased for firms without analysts' earnings forecasts and with positive unexpected earnings. Consistent with adoption improving information quality and shrinking slow-diffusion drift.
 - **Caveats:** single jurisdiction (Korea), sample 2006–2013; whole-firm sample did not show an outstanding effect, result concentrated in sub-samples (positive unexpected earnings; no-analyst-forecast firms).
-- **Verification:** DOI landing page read via search index; title, authors, date and abstract confirmed.
+- **Verification:** DOI landing page (10.31203/aepa.2015.12.4.006) and abstract (earticle.net A303353; abstract text "2015/12/4/006 Pages 103-124") read via search index; title, authors (Song & Woo), journal (Eurasian Accounting & Finance Review), volume 12(4), pages 103–124, date 2015-12-30, and abstract confirmed. Full text not publicly available (DSpace record dspace.ewha.ac.kr/handle/2015.oak/213217 has no downloadable file; earticle.net A303353 lists only metadata and abstract). The finding stands on DOI-confirmed metadata; no independent body parse.
 
 ## Cycle 14 (continued) gap verdicts
 
@@ -9152,9 +9166,10 @@ DOI: https://doi.org/10.1287/mnsc.2023.4929
 - **Verification:** Crossref REST API (DOI, title, all four authors with affiliations, container
   *Management Science*, volume 70, issue 8, pages 5367–5385, published-print August 2024, is-referenced-by-count
   9, and the **publisher-deposited abstract**) — **direct fetch + Crossref-deposited abstract**; the abstract
-  wording quoted above is **line-verified from that deposit**. The accepted-version PDF at LSE Research
-  Online was retrieved directly, but its text layer could not be extracted in this cycle, so **no body text
-  is quoted** and the working-paper passages are recorded as **index-rendered only**.
+  wording quoted above is **line-verified from that deposit**. LSE Research Online eprint 120807 confirmed
+  this cycle (accepted-version record). The accepted-version PDF at LSE Research Online was retrieved directly,
+  but its text layer could not be extracted in this cycle, so **no body text is quoted** and the working-paper
+  passages are recorded as **index-rendered only**.
 
 ### S-326 — Dong, X., Kang, N. and Peress, J. (2025)
 "Fast and Slow Arbitrage: The Predictive Power of (Persistent) Capital Flows for Factor Returns."
@@ -9194,7 +9209,8 @@ Earlier SSRN version: DOI https://doi.org/10.2139/ssrn.3675163 (2020).
   three authors with affiliations, container *The Review of Financial Studies*, volume 38, issue 10, pages
   2936–2987, published 27 May 2025, and the **publisher-deposited abstract**) and the **posted-content**
   record for the earlier SSRN version (DOI 10.2139/ssrn.3675163, 2020, same deposited abstract) —
-  **direct fetch + Crossref-deposited abstract**; the article body was not read.
+  **direct fetch + Crossref-deposited abstract**; Oxford Academic article landing page returned HTTP 403
+  (blocked), so the article body was not read independently; the journal record plus deposited abstract stand.
 
 ### S-327 — Rodríguez Domínguez, A. and Noguer i Alonso, M. (2026)
 "Robustness or Crowding: Experimental Design for Trading Strategy Capacity." arXiv:2608.08405
