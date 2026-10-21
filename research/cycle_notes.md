@@ -3197,3 +3197,52 @@ than erased, and the pool re-measured with the rule as stated in the handoff, th
    run at all.
 
 **No candidate was created; no score changed; no gap opened or closed; no identifier consumed.**
+
+---
+
+## Cycle 101 — 2026-10-21
+Theory-only cycle executing the five priorities from the Cycle-100 handoff. No tests, no data
+acquisition, no strategy or signal implementation, no workflow changes, no modification of the
+canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Maintain the frozen, exhausted and dated items as they stand; run one bounded,
+pre-registered provenance-upgrade operation over the thirteen named entries of §2 Priority 2; close
+the seven specific open questions of §2 Priority 3; lossless housekeeping with a rubric-arithmetic
+re-run; rewrite the handoff and write a fresh, self-contained initial task message for Cycle 102.
+
+**Pass 2 — Critique.** Pre-register the subset and the route for each entry **before** fetching
+anything — the Cycle-99 failure mode was fetching without a written route and then not writing the
+annotation back. A quotation that cannot be re-checked in the fetched document's text layer is **not
+a quotation**; extract the text layer or record the entry as index-rendered and unattributed. Strike
+in place any quotation the fetched document does not contain, with the reason and the string counts
+that show the absence; do not silently keep it. Record a negative as a negative: the route tried, the
+status, the failure mode. An upgrade may only strengthen an existing reason or record; it may not
+re-score, add a sixth reason, re-screen a family, or consume an identifier. Write the annotation
+**into the entry in the same cycle**. Do not re-run a route that has already returned a negative
+unless a *different* route exists; do not re-run the European Parliament host, `socpa.org.sa`,
+`sciencedirect.com` article pages or `ffiec.gov/nic/` without a new approach.
+
+**Pass 3 — Revise.** Execute as specified, with every count re-derived from the files and the
+residual disclosed rather than smoothed.
+
+### Pre-registered provenance operation — the Cycle-101 subset (registered before any fetch)
+
+| Target | What it supports | First route | Upgrade criterion | Negative criterion |
+| --- | --- | --- | --- | --- |
+| **S-102** | Directive 2003/87/EC, Articles 12(3) and 16(2)–(4) | EUR-Lex consolidated text (HTML and PDF) | The quoted Article 12(3)/16(2)–(4) wording is present verbatim in the fetched text | HTTP failure or the wording absent → record as index-rendered, do not strike |
+| **S-103** | EC (2023) and Directive (EU) 2023/959 — the surrender-deadline move | EUR-Lex (the 2023 amending directive) and the Commission's own note | The 30 April → 30 September passage confirmed in the directive text or the Commission news item | If only the search index carries it, record as index-rendered |
+| **S-106** | DEHSt auction-calendar notices | `dehst.de` (fetchable in Cycle 100) | The quoted MSR/TNAC and auction-calendar passages present verbatim | Failure → honest negative with status |
+| **S-118** | NY Fed FX Committee minutes, 22 May 2024 | `newyorkfed.org` | The quoted "uptick in price premium" sentence present verbatim | Failure → honest negative (the entry already records a direct-fetch failure) |
+| **S-027** | Da, Engelberg & Gao (2011) | NBER working-paper PDF, else the Crossref abstract | The attention–price/reversal claims confirmed in the fetched text | Failure → honest negative |
+| **S-064** | Wang (2026) — the funding-state FX baseline | Crossref / SSRN record via `api.crossref.org` | The deposited abstract's hypothesis and HMLx results confirmed | If the abstract is not retrievable, record as index-rendered |
+| **S-153** | Driessen, Maenhout & Vilkov (2009) | Crossref abstract + the publisher's abstract page | The single-name-VRP sign claim confirmed | Wiley 403 → honest negative (already recorded in Cycle 97) |
+| **S-158** | Gornall, Xiao & Rinaldi (2025) | Crossref abstract, or the NBER/SSRN working version | The perpetual-funding mechanism claims confirmed | Failure → honest negative |
+| **S-170** | Keyrock (2026) token-unlock event study, quoted in a public document | The BIS report PDF that quotes it | The quoted Keyrock passage confirmed in the quoting document | If no quoting document is fetchable, honest negative |
+| **S-172** | Lee (2025) — arXiv record | `arxiv.org/abs/<id>` and the PDF | The v3 abstract text is parsed and the figures are re-attributed to the version they come from | If only the API metadata is available, record as index-rendered |
+| **S-125** | Clapham & Ewald (2026) | Crossref / OpenAlex / the SSRN record | The liquidity-deterioration abstract confirmed | Failure → honest negative |
+| **S-154** | Carr & Wu (2009) | Crossref abstract (the *Journal of Finance* record) | The single-name-VRP claim confirmed | Failure → honest negative |
+| **S-168** | Borenstein, Bushnell, Wolak & Zaragoza-Watkins (2019) | Crossref abstract; the working-paper version on the authors' or the regulator's site | The price-collar design claim confirmed | Failure → honest negative |
+
+### Outcomes
