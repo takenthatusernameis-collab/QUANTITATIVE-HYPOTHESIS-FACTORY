@@ -376,6 +376,26 @@ its §4 said "This cycle is Cycle 56" and its §5 described Cycle 54's work) —
 
 ---
 
+## Cycle 124 — 2026-10-21
+Theory-only cycle executing the four priorities from the Cycle-123 handoff. No tests, no data acquisition beyond reading published notices, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities: (1) record-first scan — enumerate published institutional records, derive state kinds, screen against R-064's 21-row coverage map and the narrowed rule's three clauses; (2) G-37 remaining limb — no action unless a peer-reviewed regime classifier surfaces; (3) IDEA-011's two open limbs — carry forward; (4) dated monitors and housekeeping.
+
+**Pass 2 — Critique.** Candidate (1) (published outage/force-majeure notices with a stated restart date → "a dated, published supply-loss notice") must be screened against rows 10 and 21 and R-063 reason 4 ("the price is made elsewhere"). The record shows the restart date is repeatedly revised (Nautilus: no ETA; Southern Star: pushed back; Columbia TCO: estimated then subject to change) and the supply loss is a regional basis event, not a third-party concession harvestable by an arbitrageur. Kill on clause (state not an accounting by-product of the flow it would trade) is not the failure — the failure is anticipation plus "price made elsewhere"; record as a bounded negative naming R-063 reason 4 and row 10. Candidates (2)–(4) carried forward with pre-registration intact; no fetches made for them this cycle.
+
+**Pass 3 — Revise.** Record candidate (1) as a bounded negative (R-065) with dated re-screen condition (a dated, published supply-loss notice whose restart date is firm and whose affected flow is priced at the affected location, not a hub). Advance artifact headers to "Cycle 124 complete", re-derive counts, rewrite handoff for Cycle 125.
+
+### Outcomes
+1. **Priority 1 — record-first scan, candidate (1) screened and killed.** Candidate record set: published outage/force-majeure notices with a stated restart date → derived state kind "a dated, published supply-loss notice". Register-memory check: rows 10 (supply disruption / production outage) and 21 (published operational state of a constrained asset) already cover the kind; template screen: no template match beyond R-063's reason 4; narrowed rule: the restart date is not a clean decision-time state (repeatedly revised; Nautilus no ETA; Southern Star pushed back; Columbia TCO subject to change) and the affected flow is priced at a hub ("the price is made elsewhere"), so the state is not sign-determining for a harvestable concession. **Bounded negative recorded as R-065**, with dated re-screen condition. No candidate created. Candidates (2) (CCP published default-portfolio auction record), (3) (official statistics' published revision calendars and revised series), (4) (published statutory levy/surcharge schedule with a dated trigger) remain pre-registered and unscreened; carried forward to Cycle 125 in order.
+2. **Priority 2 — G-37 remaining limb.** No new peer-reviewed regime classifier surfaced. G-37 stays open with dated re-screen condition unchanged. No action.
+3. **Priority 3 — IDEA-011's two open limbs.** (a) Population-rate limb (G-33): ESMA-supervised population rate and firm-level quantified rate still unpublished; two jurisdictions populated (S-452, S-453), not pooled. Carried forward. (b) Early-adopter restated comparative: S-437 line-verified, issuer flatexDEGIRO; price test remains a V-009 validation task. 2027 interim season dated, not due. No score change (69.0, rank 1).
+4. **Priority 4 — housekeeping.** Counts re-derived from the files: 15 dossiers (4 active) · 433 sources (S-001…S-453) · 11 validation specs (executable V-008, V-009, V-012) · 65 rejections (R-001…R-065) · 13 parkings (12 active) · 98 baseline rows · gaps G-01…G-38 (G-37 open/narrowed, G-21 to validation, G-28 frozen, G-30 exhausted; G-38 closed). Ranking unchanged: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4); IDEA-010 parked (P-014) terminal 55.0. Rubric arithmetic clean. All five artifact headers advanced to "Cycle 124 complete" and read back. README identifiers repaired. Next free identifiers: IDEA-017, S-448, V-013, G-39, R-066, P-015. No score changed.
+
+**No candidate created.** New identifier consumed: R-065. Next free identifiers: IDEA-017, S-448, V-013, G-39, R-066, P-015.
+
+---
 ## Cycle 56 — 2026-10-20
 Theory-only cycle executing the six priorities from the Cycle-55 handoff. No tests, no data
 acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical
