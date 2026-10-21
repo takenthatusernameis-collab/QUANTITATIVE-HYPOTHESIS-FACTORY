@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 102 complete** (21 October 2026). Cycle 102 added **two new source entries and
+Last updated: **Cycle 103 complete** (21 October 2026). Cycle 103 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 103's new source entry (S-383) was added to `source_ledger.md`, not to this register. Cycle 102 previously added **two new source entries and
 two new source identifiers** (**S-381**, the SEC's 23 January 2015 no-action letter on abbreviated
 tender or exchange offers for non-convertible debt securities, and **S-382**, the SEC Division of
 Corporation Finance's 30 June 2026 exemptive order on the same subject), minted **no new candidate**
