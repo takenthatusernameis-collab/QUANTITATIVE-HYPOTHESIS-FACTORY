@@ -3631,3 +3631,12 @@ Fifteen targets from the residual index-rendered-only pool. General lever that w
 - **S-153/S-154/S-156** magnitude claims, **S-166** intermediary detail: try authors' working paper versions / NBER WP (S-156 NBER WP 28624) / SSRN preprints; publisher routes blocked.
 
 **Rules applied to every target.** Record URL, HTTP status, byte count, page/character count, extraction method. A quotation not re-checkable in fetched text layer is not a quotation — extract or record index-rendered/unattributed. Strike in place any quotation not present with reason and string counts. Record negative as negative. Upgrade only strengthens existing reason/record. Write annotation into entry in same cycle. No re-run of exhausted routes without different host/path form. No score change/re-screen/identifier consumption unless reasoning written in register/shortlist/cycle log together.
+
+## Cycle 104 — 2026-10-21 (executed)
+
+**Provenance operation outcomes (Crossref REST API deposited abstracts).** 15 targets fetched; URL, HTTP status, byte count recorded above in execution notes. Results:
+- S-147: UPGRADED (abstract confirms anticipatory liquidity provision / "shifts price pressure away from reconstitution date").
+- S-248, S-249, S-253, S-262, S-263, S-264: UPGRADED (deposited abstracts present and confirm topics).
+- S-148, S-151, S-152, S-179, S-181, S-247, S-329: HONEST NEGATIVES (no deposited abstract / DOI resolves to unrelated record).
+- S-258: HONEST NEGATIVE (HTTP 404 on Crossref).
+Counts unchanged: 373 sources, 15 dossiers, 55 rejections. No score changes. Cycle 105 pre-registered.
