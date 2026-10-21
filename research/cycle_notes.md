@@ -2515,3 +2515,153 @@ record.
 and none closed. No `IDEA-`, `V-`, `G-` or `P-` identifier consumed. One `R-` identifier consumed (R-054), six
 `S-` identifiers consumed (S-359 … S-364), one known-baseline row added (row 91). Next free identifiers:
 IDEA-017, S-365, V-012, G-37, R-055, P-015.**
+
+---
+
+## Cycle 94 — 2026-10-21
+
+Theory-only cycle executing the priorities from the Cycle-93 handoff. No tests, no simulations, no parameter
+sweeps, no significance tests, no performance or risk metrics, no market-data acquisition or processing, no
+strategy or signal implementation, no executable research infrastructure, no job or workflow launches, no
+changes to workflow files, tests, credentials or infrastructure, no work in other repositories, no trading, and
+no edit to the maintainer-owned canonical prompt. Every quotation below is from a document fetched in this
+cycle and text-extracted in this cycle, except where a route failure or a metadata-level label is stated.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-93 handoff's priorities in order: (1) maintain the frozen, exhausted and
+dated items as they stand — G-21, G-28, G-30, G-32 limb (c), G-33 (dated 2027 Q3), G-14 (dated 29 March
+2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014, plus R-054's newly dated condition (c)
+(the SEC's "Interval Fund Modernization" proposed rule, 91 FR 63388, comments closed 4 December 2026); (2) run
+**one** bounded, pre-registered screen of a genuinely new mechanism family — **tax-exempt municipal bonds**,
+the last named absent family — **skipping the slot rather than padding it** if the family cannot be screened to
+the register's standard; (3) run **one** bounded provenance operation, chosen from the three the handoff
+offered, and **not** all three; (4) run lossless housekeeping with a rubric-arithmetic re-run; (5) rewrite the
+handoff with counts re-derived from the files and a fresh, self-contained initial task message.
+
+**Pass 2 — Critique.** Four things had to be settled before anything was written. (i) *Is the municipal family
+a different mechanism, or a re-labelling?* The register's neighbour test was applied against R-048's
+fixed-income cash families (Treasury auction price pressure, cash-futures basis, quarter-end window dressing,
+repo specialness) and R-035's tax-driven year-end flow families. The family is **different in kind**: R-048's
+families are *dated forced-flow mechanisms in the cash market*, whereas the municipal family is a
+**dealer-intermediated, fragmented, retail-priced secondary market** in which the tradeable object is the
+**dealer's own remuneration** and the dated flow is the **issuer's own new-issue pricing**. It is also absent
+from the known-baseline table (91 rows at the start of the cycle) and from every earlier screen, and it is
+the register's **only** remaining bond-market family of its kind. (ii) *Can the decisive material be fetched
+and text-extracted?* This was the risk the Cycle-92 handoff flagged, and it was settled **before** the screen
+was framed. The Cycle-93 note assumed the municipal family's decisive material sits in paywalled microstructure
+journals; the searches this cycle **overturned that assumption on the decisive limb**: the *Market* primary
+material is the **MSRB's own** — the Rule G-17 page and its 2021 Interpretive Notice, 17 CFR 240.15c2-12, the
+MSRB's data-product and subscription pages, the MSRB's Q3-2026 market summary, the MSRB's 120-page Glossary,
+the MSRB's own research papers, and the MSRB's Rule G-32 request-for-comment release — and the *published
+scholarship* limb is reachable through an **open-access peer-reviewed synthesis** (Griffin, Hirschey & Kruger,
+*JEP* 39(2), Spring 2025) obtained from the University of Nebraska–Lincoln institutional repository by a
+**working DSpace bitstream-content route** discovered in this cycle (`…/server/api/core/bitstreams/<uuid>/content`),
+the same shape of route that obtained S-350, S-351 and S-364. (iii) *Which of the four named elements may be
+taken as a premise?* **None.** The handoff named the dealer's one-way bid, the "Muni Monday" no-bid window, the
+zero-omission rating disclosure and the tax-equivalent arithmetic; each was therefore treated as a
+**hypothesis to verify**, and the phrase "zero-omission" was checked against the rule's own words, which turn
+out to be the **opposite** of what the framing needs. (iv) *What may the provenance operation change?* Only
+**R-054's condition (d)**, which is a **verification** operation on an existing record and consumes **no `R-`
+identifier**; it may not become a second screen and may not change R-054's verdict, its reasons, its baseline
+row or its other re-screen conditions.
+
+**Pass 3 — Reframed.** The screen was re-framed from a survey of the market into a **single-question test**:
+*does the tax-exempt municipal market retain an unclaimed, decision-time-state-determined, cost-surviving
+concession that is not already published and measured?* The pre-registered decision rule: five **independent**
+grounds, each tied to a line-verified passage; **stop as soon as five grounds are established rather than
+padding them out**; no `IDEA-`, `V-` or `G-` identifier is consumed unless a candidate survives; and the four
+named elements are **disposed of individually** rather than assumed. The provenance operation was re-framed as
+strictly bounded: one condition, one operation, **no re-screen of the interval-fund family** — an annotation
+of R-054, not a new record. One discipline was imposed on the search itself, after the session's general
+web-search provider returned a **quota error** and DuckDuckGo and Mojeek returned **bot challenges**: the
+municipal screen must not lean on any source it could not fetch and text-extract, so the register's own
+**bibliographic APIs** (Crossref, OpenAlex, Unpaywall) and the **venue's own** primary pages became the
+evidence base, and every failure was recorded rather than papered over.
+
+### Outcomes
+
+1. **Bounded, pre-registered screen of a genuinely new mechanism family — the tax-exempt municipal bond market
+   family — returned a bounded negative (R-055)** on five independent reasons, each tied to a line-verified
+   passage, and was written to the known-baseline table as **row 92**: (1) the **effect is published, measured
+   and quantified** — by the market's own regulator (an average effective spread of about 50 basis points, with
+   odd-lot customer trades at 2.4 times block customer trades and non-institutional dealers' odd-lot spreads
+   at 2.7 times institutional dealers', S-369) and by the peer-reviewed literature (a retail round-trip trading
+   cost of 1.1 per cent in 2023, and 5 per cent of small bond transactions carrying markups above 3.29 per
+   cent, S-372), with the venue also publishing the **decay** (institutional customers' share of odd-lot
+   customer trades from 10 per cent in 2015 to 44 per cent in 2024, S-370); (2) the **decision-time state does
+   not exist** — municipal transactions are "publicly disclosed **after they occur**", pre-trade quote data are
+   "not universally available or nationally consolidated", real-time trade data is a **paid subscription**, the
+   historical academic product is **three years lagged with anonymised dealer identifiers**, the benchmark
+   series is proprietary (Bloomberg BVAL), and the **exempt trade classes** — list-offering and takedown
+   transactions, short-term instruments, auction-rate securities, variable-rate demand obligations, commercial
+   paper and trades "away from market" — are exactly the trades in which a concession would be largest
+   (S-367, S-368, S-369, S-371, S-372); (3) the **"zero-omission" rating framing fails in the candidate's
+   favour** — 15c2-12(b)(1)'s permitted omissions are a **closed list** ("the omission of no more than the
+   following information: … ratings …"), "rating changes" are themselves disclosable events within ten
+   business days, and the rating's price effect is published and quantified (S-366, S-372); (4) the
+   **tax-equivalent arithmetic is a published deterministic transform** of two published yield series and a
+   named, long-studied published puzzle — the "municipal bond puzzle" and the "inconsistent implied marginal
+   tax rates" — so conditioning on it adds no information beyond the prices (S-368, S-372); and (5) the
+   **tradeable object is a published compensation** for a published service — "CONCESSION" and "MARK-UP" are
+   defined terms in the venue's own glossary — with the dated flow being the **issuer's own** pre-announced
+   new-issue pricing (77 per cent of 2024 par amount negotiated), the compensation arrangement a disclosed
+   term of the transaction, and the "no-bid" state a discretionary, unpublished risk-management practice
+   (S-365, S-373, S-374). **No `IDEA-` identifier was minted, no `V-` identifier was consumed, no gap was
+   opened, no score changed and no rank changed.**
+2. **The "Muni Monday" element named in the Cycle-93 handoff could not be corroborated, and that is recorded
+   as an honest negative and a framing correction, not as a sixth reason and not as a debt.** The phrase does
+   not occur in the indexed research literature (OpenAlex full-text search for the exact phrase returns one
+   unrelated paper; with "municipal bond" it returns none), nor in the 26-page peer-reviewed synthesis of this
+   market, nor in the MSRB's own 120-page term list, nor in any of the nine MSRB and regulator documents fetched
+   in this cycle (zero occurrences of "Monday", "day of the week" or "weekday"). The limitation is stated
+   plainly: general web search was unavailable in this environment, so **trade press and dealer commentary —
+   the most likely home of a phrase like this — were not searched**, and that route remains open.
+3. **The bounded provenance operation (c) succeeded and discharged R-054's condition (d).** **S-376** carries
+   three registered closed-end funds' Form N-CSR shareholder reports, all fetched from SEC EDGAR through the
+   full-text-search route and text-extracted, giving the **realised** side of a mechanism that Rule 23c-3
+   otherwise states only prospectively. Three different regimes appear: **Polen Credit Opportunities Fund**
+   (an interval fund) oversubscribed and **prorated** in three of its four quarterly offers, in the 1 April
+   2026 offer **820,528 shares tendered against 221,461 repurchased — 27.0 per cent of requests met** — while
+   its 1 July 2025 offer was oversubscribed and the fund elected to honour the full amount requested;
+   **Blue Owl Alternative Credit Fund** (an interval fund) met **every** tender in full and attracted **no
+   tenders at all** in several offers; and **Private Debt & Income Fund** realised repurchases of only 0.7 and
+   0.3 per cent of its Class I shares. The record therefore **refines the register's picture in the direction
+   the evidence runs**: the rationing mechanic in R-054's Reason 4 is real and realised, but it is
+   **fund-specific rather than universal**, and the 5 per cent offer ceiling is **usually not the binding
+   constraint**. **R-054 was annotated, not rewritten**: verdict, five reasons, baseline row 91 and remaining
+   conditions (a), (b) and (c) are unchanged; only condition (d) is discharged; no gap is opened.
+4. **Lossless housekeeping and a rubric-arithmetic re-run (clean).** The register's own rule
+   (`Weighted total = Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10; per-point values
+   5.0/4.0/3.0/3.0/3.0/2.0) was re-run across all four active candidates and the parked IDEA-010:
+   **IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+   3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0.** Every recorded total matches its recorded profile, and
+   the dossier-internal profile statements were checked against the shortlist table; the only in-dossier string
+   that disagrees is the **historical quotation of the defective profile inside IDEA-011's own Cycle-85
+   record-repair block**, which is correct as history. **No score, rank, tie-break, hard-stop flag, gap or
+   specification changed.**
+5. **One state-integrity repair.** The register's own **frontier-family screen log was stale by twenty-eight
+   cycles** — it ended at Cycle 66 while the ledger and `rejected_and_parked.md` recorded sixteen further
+   screens (R-047 … R-055). The log is now **backfilled for Cycles 67–94** from the recorded verdicts, with
+   **no verdict changed and no screen re-run**, together with the register's own restatement of the screening
+   programme's conclusion after the ninth mechanism-first screen: nine families, nine bounded negatives, zero
+   new dossiers, and the binding constraint is the **sign-and-existence** limb of the published state rather
+   than the availability of any series.
+6. **Three honest negatives recorded in the ledger's Cycle-94 table**, none of them a debt unless a genuinely
+   new route appears: the **"Muni Monday"** label (above); **Griffin, Hirschey & Kruger (2023), "Do Municipal
+   Bond Dealers Give Their Customers 'Fair and Reasonable' Pricing?", *Journal of Finance* 78(6)** — publisher
+   routes **HTTP 403**, the repository's HTML route an **Anubis proof-of-work challenge**, the DSpace
+   item-lookup APIs **HTTP 403**, and Unpaywall and OpenAlex listing **no** other open location, so only the
+   index-rendered abstract is available and the paper is **not** used as a verification basis for any reason
+   (its result is carried instead by the line-verified S-372); and **Harris & Piwowar (2006)** and **Green,
+   Hollifield & Schürhoff (2007)**, both closed, whose *results* are nonetheless available inside the
+   register's own line-verified corpus (S-372 quotes the GHS early-2000s retail round-trip cost and cites both
+   papers). The last of these is recorded as a **known limitation of R-055's reason 5** — the canonical
+   theoretical statement of the "one-way bid" sits in a closed source — and it is the strongest single
+   candidate for a future provenance operation.
+7. **Counts re-derived from the files, not carried forward.** 15 dossiers (4 active, 6 parked, 5 rejected);
+   4 ranked active plus 1 parked-at-terminal; **366** verified sources (S-001 … S-209, S-220 … S-376; S-210 …
+   S-219 reserved and unused); 10 validation specifications (8 not executable; executable: V-008, V-009; V-002
+   frozen; V-010 never-to-execute); **55** rejections (R-001 … R-055); 13 parking records (12 active);
+   **92-row** known-baseline table; gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free
+   identifiers: IDEA-017, S-377, V-012, G-37, R-056, P-015.**

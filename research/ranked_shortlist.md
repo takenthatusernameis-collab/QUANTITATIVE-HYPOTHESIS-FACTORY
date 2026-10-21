@@ -1,4 +1,43 @@
-# RANKED SHORTLIST — CYCLES 1–93
+# RANKED SHORTLIST — CYCLES 1–94
+
+# RANKED SHORTLIST — CYCLES 1–94
+
+**Cycle-94 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 94's first operation was a **bounded, pre-registered screen of a
+genuinely new mechanism family** — the **tax-exempt municipal bond market family** (the over-the-counter,
+dealer-intermediated, retail-priced municipal secondary market and the primary market's published
+underwriting concession; the dealer's one-way bid, the customer's cost premium, the tax-equivalent
+arithmetic and the rating disclosure regime), a family **absent from the known-baseline table** and from
+every earlier screen (the state-first templates A–I, and the mechanism-first family screens R-047 … R-054) —
+which returned a **bounded negative (R-055)** on five independent reasons, each tied to a line-verified
+passage: the **effect is published, measured and quantified** by the market's own regulator and by the
+peer-reviewed literature — an average effective spread of about 50 basis points with odd-lot customer trades
+at 2.4 times block trades, a retail round-trip cost of 1.1 per cent in 2023, and 5 per cent of small
+transactions carrying markups above 3.29 per cent (S-369, S-372); the **decision-time state does not
+exist**, because municipal transactions are disclosed only *after* they occur, pre-trade quote data are "not
+universally available or nationally consolidated", real-time trade data is a paid subscription, the
+historical academic product is three years lagged with anonymised dealer identifiers, and the exempt trade
+classes are exactly the ones where a concession would be largest (S-367, S-368, S-369, S-371, S-372); the
+**"zero-omission" rating framing fails in the candidate's favour**, because 15c2-12(b)(1)'s permitted
+omissions are a **closed list** and "rating changes" are themselves disclosable events with a published
+10-to-33-basis-point price effect (S-366, S-372); the **tax-equivalent arithmetic is a published
+deterministic transform** of two published yield series and a named, long-studied published puzzle
+(S-368, S-372); and the **tradeable object is a published compensation** for a published service, with the
+dated flow being the issuer's own pre-announced new-issue pricing (77 per cent of 2024 par amount negotiated)
+and the "no-bid" state a discretionary, unpublished risk-management practice (S-365, S-373, S-374). A
+**named framing element in the Cycle-93 handoff could not be corroborated** — the "Muni Monday" no-bid
+window — and that is recorded as an **honest negative and a framing correction**, not as a sixth reason and
+not as a debt. Cycle 94's second operation was the **bounded provenance operation (c)** named by the
+Cycle-93 handoff — R-054's condition (d), a line-verified record of **realised** repurchase outcomes for the
+interval-fund class — and it **succeeded**: **S-376** carries three registered closed-end funds' Form N-CSR
+shareholder reports showing three different realised regimes, including one interval fund in which three of
+four quarterly offers were oversubscribed and **prorated** (820,528 shares tendered against 221,461
+repurchased in the 1 April 2026 offer) and one in which **every tender was met in full**. **R-054 was
+annotated, not rewritten** — verdict, reasons, baseline row and remaining conditions (a)–(c) unchanged, only
+condition (d) discharged. Cycle 94's third operation was **lossless housekeeping with a rubric-arithmetic
+re-run (clean)**. The register now holds **366 verified sources** and a **92-row known-baseline table**.
+**No score, rank, tie-break, hard-stop flag, gap or specification changed.**
 
 **Cycle-93 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 93's first

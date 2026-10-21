@@ -5,9 +5,37 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 93 complete, 2026-10-21. 54 rejections (R-001 … R-054), 13 parking records of
-which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 91-row known-baseline
-table.** Cycle 93 added **one rejection (R-054), no parking record and one baseline row (row 91)**, and it
+Last updated: **Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
+table.** Cycle 94 added **one rejection (R-055), no parking record and one baseline row (row 92)**, and it
+**opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
+new mechanism family** — the **tax-exempt municipal bond market family** (the over-the-counter, dealer-
+intermediated, retail-priced municipal secondary market and the primary market's published underwriting
+concession) — which returned a **bounded negative (R-055)** on five independent reasons, each tied to a
+line-verified passage: the **effect is published, measured and quantified** by the market's own regulator
+(an effective spread of about 50 basis points, 2.4× for odd-lot versus block customer trades, and a retail
+round-trip cost of 1.1 percent in 2023) and by the peer-reviewed literature; the **decision-time state does
+not exist**, because municipal transactions are disclosed only *after* they occur, pre-trade quote data are
+"not universally available or nationally consolidated", real-time trade data is a paid subscription, the
+academic product is three years lagged with anonymised dealers, and the exempt trade classes are exactly the
+ones where a concession would be largest; the **"zero-omission" rating framing fails in the candidate's
+favour**, because 15c2-12(b)(1)'s permitted omissions are a **closed list** and "rating changes" are
+themselves disclosable events with a published price effect; the **tax-equivalent arithmetic is a published
+deterministic transform** of two published yield series and a named published puzzle; and the **tradeable
+object is a published compensation** for a published service, with the dated flow being the issuer's own
+pre-announced new-issue pricing and the "no-bid" state a discretionary, unpublished risk-management practice.
+A **named framing element in the Cycle-93 handoff could not be corroborated** — the "Muni Monday" no-bid
+window — and that is recorded as an **honest negative and a framing correction**, not as a sixth reason and
+not as a debt. The cycle's **second operation was the bounded provenance operation (c)** named by the
+Cycle-93 handoff — **R-054's condition (d)**, a line-verified record of *realised* repurchase outcomes for the
+interval-fund class — and it **succeeded**: **S-376** carries three registered closed-end funds' Form N-CSR
+shareholder reports, showing three different realised regimes (an interval fund in which three of four
+quarterly offers were oversubscribed and **prorated**, in the 1 April 2026 offer 820,528 shares tendered
+against 221,461 repurchased; an interval fund in which **every tender was met in full** and several offers
+attracted no tenders; and a closed-end fund that realised only 0.7 and 0.3 per cent of its shares).
+**R-054 is annotated, not rewritten**: its verdict, its five reasons, its baseline row and its remaining
+conditions (a)–(c) are unchanged, and only condition (d) is discharged. Earlier history: Cycle 93 added **one
+rejection (R-054), no parking record and one baseline row (row 91)**, and it
 **opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
 new mechanism family** — the **interval-fund / semi-liquid private-credit repurchase family** (registered
 closed-end funds and BDCs that offer a periodic repurchase of their own shares at net asset value under
@@ -1778,6 +1806,28 @@ intervals, first-repurchase deferral and the liquidity framework — rather than
 amount, honoured amount, pro-rata or discounted settlement) is obtained from documents that can be fetched
 and text-extracted, so that the family's cost floor is **measured** rather than argued from the rule.
 
+> **Cycle-94 annotation on condition (d) — FULFILLED, verdict unchanged.** Condition (d) was executed as the
+> Cycle-94 bounded provenance operation, and it **succeeded**: **S-376** carries three registered closed-end
+> funds' Form N-CSR shareholder reports (Polen Credit Opportunities Fund, year ended 30 April 2026; Blue Owl
+> Alternative Credit Fund, year ended 31 December 2025; Private Debt & Income Fund, year ended 31 March 2026),
+> all fetched from SEC EDGAR and text-extracted. The realised record is now measured rather than argued:
+> **Polen** (a Rule 23c-3 interval fund) discloses **252,647 tendered / 252,647 repurchased at $9.37**
+> (expiring 7/1/25, oversubscribed with the fund electing to honour the full amount), **341,257 / 231,406 at
+> $9.17** (expiring 10/1/25), **383,057 / 226,847 at $8.66** (expiring 1/2/26) and **820,528 / 221,461 at
+> $8.45** (expiring 4/1/26) — the last three each footnoted "**The repurchase offer was oversubscribed such
+> that proration of repurchase requests was required**", so that in the 1 April 2026 offer **27.0 per cent of
+> the requests were met**; **Blue Owl** (also an interval fund) met **every** tender in full (65 Class I and
+> 12,847 Class U shares at $10.12 on the November 2025 offer; 1,627,166 Class I and 164,671 Class U at $9.94
+> on the February 2026 offer) with several offers attracting **no tenders at all**; and **Private Debt & Income
+> Fund** (a closed-end fund with a periodic repurchase programme, **not** a Rule 23c-3 interval fund) realised
+> repurchases of **0.7 per cent** and **0.3 per cent** of its Class I shares. **The annotation refines the
+> register's picture in the direction the evidence runs rather than the direction the argument would prefer:**
+> the rationing mechanic in Reason 4 is **real and realised**, but it is **fund-specific rather than
+> universal**, and the 5 per cent offer ceiling is **usually not the binding constraint** — Polen's own note
+> warns against "any expectation of repurchase offers in excess of 5%". **R-054's verdict, its five reasons,
+> its baseline row (91) and its remaining re-screen conditions (a), (b) and (c) are unchanged**; only
+> condition (d) is discharged, and no new gap is opened.
+
 **Decision:** **bounded negative (R-054).** The interval-fund / semi-liquid private-credit repurchase family is
 recorded in the known-baseline table (**row 91**); no dossier was created; no `IDEA-` identifier was
 consumed; **six `S-` identifiers were consumed (S-359 … S-364)**, of which five carry this screen and one
@@ -1790,6 +1840,190 @@ availability — the family failed on the *published-and-pre-announced-mechanism
 family; it is also the register's first screen of a family in which **the exit price is legally identical to
 the published NAV and no market exists between the two**, which is the structural inverse of R-050's
 listed-discount family.
+
+## R-055 — Municipal bonds: the tax-exempt municipal secondary market's dealer-intermediated, retail-priced cost premium and the primary market's underwriting concession (Cycle 94 family screen — bounded negative)
+
+**What was screened.** The register's **eighth mechanism-first family screen** (after R-047 in Cycle 75, R-048 in
+Cycle 75, R-049 in Cycle 87, R-050 in Cycle 87, R-051 in Cycle 90, R-052 in Cycle 91, R-053 in Cycle 92 and
+R-054 in Cycle 93) and the **first** screen of a family whose object is a **bond market's own dealer
+intermediation cost**, not a derivative, fund or structured product. The family is the **tax-exempt municipal
+securities market** in its two linked forms: (i) the **secondary market**, in which a retail or small-institution
+customer buys and sells bonds from a dealer over the counter, in a market that is "over-the-counter …
+without a centralized facility" and in which the dealer's *bid* is the residual, one-way claim; and (ii) the
+**primary market**, in which an issuer or obligor appoints an underwriter that purchases the new issue and
+distributes it, earning the **concession** — a *defined, published* term in the MSRB's own glossary.
+The Cycle-93 handoff named four elements of this family and required each to be **verified, not assumed**:
+**the dealer's one-way bid**, **the "Muni Monday" no-bid window**, **the zero-omission rating disclosure**,
+and **the tax-equivalent arithmetic**.
+
+**Why the family was worth screening now.** The family is **absent from the known-baseline table** (91 rows at
+the start of this cycle) and from every earlier screen: R-049 screened a *weather-derivative* contract-pricing
+family, R-050/R-054 screened *listed* closed-end-fund/BDC price-to-NAV and *unlisted* interval-fund
+repurchase families, R-051 screened catastrophe bonds, R-053 screened electricity-derivative contract pricing,
+and the earlier template screens (A–I) were state-kind screens, not family screens. The municipal market is
+also, uniquely in the register's corpus, a market where the **venue itself publishes the cost measure that
+would define the candidate** (S-369), where the **published prior art is an open-access journal synthesis of
+exactly this family** (S-372), and where the **regulator's own rule is a closed-list anti-omission rule whose
+wording is the source of one of the four named elements** (S-366). It was the last untried family of the
+register's standing "named absent families" list.
+
+**Sources.** **S-365** (MSRB Rule G-17 and its 2021 Interpretive Notice, **line-verified** from the MSRB's own
+rule page); **S-366** (17 CFR 240.15c2-12, **line-verified** from the eCFR's current text); **S-367** (the
+MSRB's own data-product and subscription pages, **line-verified**: the RTRS historical product, its **three-year
+lag** and its **anonymised dealer identifiers**); **S-368** (MSRB, *Third Quarter 2026 Municipal Securities
+Market Summary*, **line-verified**: the BVAL benchmark yields, the published Muni/TSY ratio and its definition,
+the bid-wanted totals, the fund-flow and ATS statistics); **S-369** (Wu & Ostroy, *Transaction Costs for
+Municipal Securities Odd-Lot Trades*, MSRB Research Paper, April 2026, **line-verified**); **S-370** (Bagley &
+Vieira, *Convergence of Individual and Institutional Trading Dynamics in Small Size Trades*, MSRB Research
+Paper, February 2025, **line-verified**); **S-371** (Bagley, Vieira & Wu, *Analysis of Municipal Securities
+Trade Reporting Times, 2022–2025*, MSRB Research Paper, August 2026, **line-verified**); **S-372** (Griffin,
+Hirschey & Kruger, *Journal of Economic Perspectives* 39(2), Spring 2025, 235–260, **line-verified** from the
+University of Nebraska–Lincoln institutional-repository copy of the published version); **S-373** (MSRB,
+*Glossary of Municipal Securities Terms*, Third Edition, August 2013, **line-verified**); **S-374** (Ostroy,
+Vieira & Bagley, *Major Trends in the Municipal Securities Primary Market*, MSRB Research Paper, September 2025,
+**line-verified**); **S-375** (MSRB press release on the draft amendments to Rule G-32, 10 September 2026,
+**line-verified** — a **dated watch item only**).
+
+**Reason 1 — the effect is published, measured and quantified; a candidate here is a trade specification on a
+published relation, not a discovery (rediscovery guard).** The customer cost premium in this market is not a
+hypothesis; it is a number that the **venue itself measures and publishes, quarterly, in its own research
+series**. The MSRB's own paper reports that the average effective spread for municipal transactions "shot up
+to **63 basis points** in May 2022" and that "As of late 2025, the average effective spread was approximately
+**50 basis points**"; that "the effective spread for odd-lot customer trades is **2.4 times** that for block
+customer trades"; and that "Both the average and median effective spreads for odd-lot customer trades
+executed by other dealers are nearly **2.7 times** as much as those for odd-lot customer trades executed by
+institutional dealers" (S-369). The peer-reviewed synthesis puts the same fact in round-trip terms: "retail
+investors' trading costs for municipal bonds were 2.3 percent in the early 2000s … they were still **1.1
+percent in 2023**", and "we estimate that **5 percent of small bond transactions have markups over 3.29
+percent** in 2023" (S-372). And the venue publishes the **decay** as well: institutional customers' share of
+odd-lot customer trades "rose from 10% in 2015 to **44% in 2024**", with the paper's own conclusion that "it
+is highly likely that at least 50% of odd-lot customer transactions occurred with institutional clients"
+(S-370). A candidate in this family would therefore be a **rule for trading a published spread and a published
+erosion trend** — exactly the shape the register has already refused six times (R-004, R-006, R-007, R-008,
+R-041, R-050) — and it would be *re-presenting* the finding rather than discovering it. The register's
+rediscovery guard is engaged at the first step.
+
+**Reason 2 — there is no published decision-time state: the pre-trade quote that would reveal a dealer's
+one-way bid is not consolidated, the market's transactions are disclosed only *after* they occur, and the
+trades in which a concession is most extreme are the ones that leave no record.** The published synthesis is
+explicit: "Electronic trading platforms exist only in the interdealer market, with no widely used platform
+for individuals to trade directly with each other. **Municipal bond transactions are publicly disclosed after
+they occur, but individual investors have limited pre-trade information, particularly with respect to quoted
+prices**" (S-372). The MSRB's own research says the same of the market it regulates: "In fixed-income
+securities markets, **pre-trade quote data are not universally available or nationally consolidated**"
+(S-369). What *is* available is a product: real-time municipal trade data is a **paid subscription** ("MSRB
+Transaction Subscription Service: All municipal trade data reported to the MSRB by municipal securities
+dealers"), and the historical academic product carries a **three-year lag** and **anonymised dealer
+identifiers** (S-367). The benchmark that prices the whole market is a **proprietary** series — "yields on
+**Bloomberg Valuation Services (BVAL)**" — and even the *bid-wanted* state is observed on a proprietary
+terminal ("the amount of bid-wanteds from institutional customers on **Bloomberg** rose dramatically in
+September"; "September 29 registered $3.8 billion in bid-wanteds") (S-368). Worse, the record is
+**systematically absent exactly where the concession would be largest**: the exempt trade classes are "trades
+flagged as being executed at the **List Offering or Takedown Transactions**, trades in short-term instruments
+maturing in nine months or less, **Auction Rate Securities, Variable Rate Demand Obligations**, trades in
+commercial paper, and trades '**away from market**'" (S-371). Two limbs of the register's own bar therefore
+fail together: **G-12's sign-and-existence limb** (the state that would decide whether a dealer's bid is
+"one-way" in the tradeable sense is not publicly observable) and **G-13's published-before-the-decision limb**
+(the transaction record is post-trade by construction, and the academic product is three years late).
+
+**Reason 3 — the "zero-omission rating disclosure" framing fails in the direction that helps a candidate: the
+permitted omissions are a **closed list**, the rating's changes are **disclosable events**, and the rating's
+price effect is already published and quantified.** The framing came from the rule's own words, but the rule
+says the opposite of what the framing needs. 15c2-12(b)(1) requires that the underwriter "obtain and review
+an official statement that an issuer of such securities deems final as of its date, **except for the omission
+of no more than the following information**: The offering price(s), interest rate(s), selling compensation,
+aggregate principal amount, principal amount per maturity, delivery dates, any other terms or provisions
+required by an issuer of such securities to be specified in a competitive bid, **ratings**, other terms of the
+securities depending on such matters, and the identity of the underwriter(s)" (S-366). The list is **closed**:
+there is no unregulated disclosure gap in which a rating could be "zero-omitted". And the rating is not a
+hidden state at all: 15c2-12(b)(5)(i)(C)(11) lists "**Rating changes**" among the events the issuer must
+report "in a timely manner not in excess of **ten business days** after the occurrence of the event"
+(S-366). A published, dated, pre-announced state is a **baseline** under the register's standing precedence,
+not a concession. And the *effect* of the rating on the price is itself published: after the 2010 recalibration
+produced "upgrades of zero to four credit rating notches on $2.2 trillion in municipal debt", the literature
+"led to an economically large **10 to 33 basis point** decrease in credit spreads for the affected bonds",
+and "the literature indicates that investors rely heavily on credit ratings, **even when changes in ratings
+convey relatively little new information**" (S-372). The rating element therefore yields a **published
+baseline with a published sign**, not an unclaimed state.
+
+**Reason 4 — the tax-equivalent arithmetic is a deterministic transform of two published yield series and a
+named, long-studied published puzzle; conditioning on it adds no information beyond the prices.** The venue
+publishes the comparison and defines it: "The **Muni/TSY ratio** is the benchmark tax-exempt yield for a
+maturity divided by the yield on Treasury bonds for the same maturity" (S-368). The arithmetic itself is
+published as a long-standing puzzle with a name: "A longstanding puzzle in the municipal bond literature is
+that **short-term municipal yields are consistent with the tax rates we would expect for investors in the top
+income tax brackets, whereas longer-term municipal yields are higher than we would expect**" — with the
+"inconsistent implied marginal tax rates" listed among the market's documented puzzles, alongside the finding
+that "the **median marginal tax rate** of households that own municipal bonds is **25 percent**, and at least
+one-fourth of households that own municipal bonds have a **zero percent** marginal tax rate", and the
+state-tax clientele result that "bonds in high-tax states are priced with lower yields" (S-372). The tax
+channel's economics are published too: "the tax subsidy to municipal debt **increases underwriter
+competition**, which in turn leads to **lower underwriting fees**" (S-372). This is the register's existing
+R-046 / R-035 pattern — a **published function of published prices**, and a **published literature** — and the
+family's tax-equivalent conditional is a re-presentation of the municipal bond puzzle, not a discovery.
+
+**Reason 5 — the tradeable object is a *published compensation* for a *published service*, the dated flow is
+the **obligor's own** and pre-announced, and the "no-bid" state is a discretionary risk-management practice
+rather than a published obligation.** The concession and the mark-up are **defined terms in the venue's own
+glossary**: "**CONCESSION** – A price expressed in terms of a net offering price (in basis or dollar price
+terms) minus a differential (in points or dollars per bond) granted between professionals"; "**MARK-UP** – A
+form of remuneration received by a municipal securities dealer when selling securities as principal to a
+customer"; "**BID WANTED** – The process by which an investor or municipal securities dealer actively
+solicits bids on a position of securities from the marketplace"; "**PRINCIPAL TRADE** – A securities
+transaction in which a municipal securities dealer effects the transaction for its own account" (S-373). A
+mark-up is therefore **what the dealer is paid for doing the intermediation**, and the register's own cost
+reason (R-052, R-053) applies: a published remuneration is a **cost, not a state**. The primary market's flow
+is the **issuer's own** and overwhelmingly **negotiated**: "In 2015, negotiated offerings accounted for 68% of
+the total par amount issued. In 2024, that number increased to **77%**" (S-374) — and the compensation
+arrangement is itself a **disclosed term of the transaction**, because the Interpretive Notice requires that
+"The sole underwriter or syndicate manager must disclose to issuers whether underwriting compensation will be
+contingent on the closing of a transaction" and that the standard disclosures on the underwriter's role and
+compensation be made "at or before the time the underwriter is engaged to perform underwriting services"
+(S-365), so even the primary-market concession is a **published term of a published document**. And the
+dealer-withdrawal state that the family would trade is, by construction, **unpublished and discretionary**: a
+dealer's willingness to quote or to bid is a risk-management decision, and the rule that binds it binds
+*conduct* — "Requires dealers and municipal advisors to deal fairly with all persons and not to engage in any
+deceptive, dishonest or unfair practice", and "(v) the underwriter has a duty to purchase securities from the
+issuer at a fair and reasonable price, but must balance that duty with its duty to sell municipal securities to
+investors at prices that are fair and reasonable" — without publishing a price (S-365). The register's own bar is explicit: a state that is neither published in advance nor conditioned on a
+priced, published quantity is not a state, and the dealer's bid is the **counterparty's risk appetite**, which
+is exactly the class of state R-010 (agency credit) and IDEA-002 (funding) were built around, not a published
+quantity.
+
+**An honest finding, recorded as a framing correction and *not* as a sixth reason.** The Cycle-93 handoff
+named "the **Muni Monday** no-bid window" as one of the four elements of this family. **It could not be
+corroborated.** The phrase does not occur in the indexed research literature (OpenAlex full-text search for the
+exact phrase returns one unrelated paper; the phrase with "municipal bond" returns zero), nor in the
+peer-reviewed 26-page synthesis of this market (S-372), nor in the MSRB's own 120-page term list (S-373), nor
+in any of the nine MSRB/regulator documents fetched in this cycle (zero occurrences of "Monday", "day of the
+week" or "weekday"). The element is therefore treated as an **unverified label**, and **no reason in this
+record rests on it**. The limitation is stated plainly: general web search was unavailable in this environment,
+so **trade press** and dealer commentary — the most likely home of a phrase like this — were **not** searched;
+that route remains open. This is recorded in the ledger's Cycle-94 honest-negatives table, and it is a
+**correction to the handoff**, not a debt.
+
+**Dated re-screen condition.** Re-screen only if (a) the MSRB, the SEC or Congress adopts **public,
+real-time or intraday dissemination of municipal trade data**, or the other reform proposals in the published
+synthesis are adopted — "improvements in the availability of information about prices and competitiveness of
+price quotes for potential buyers" (S-372) — which would create the **published, decision-time quote state**
+that Reason 2 shows to be absent; (b) a **dealer-level, publicly published** inventory or quoting state
+appears, which the current academic product's **anonymised dealer identifiers** preclude (S-367); (c) the
+**Rule G-32** dealer-disclosure amendment cycle completes — comments were due **14 December 2026** (S-375) —
+in a way that changes the *published* dealer-disclosure regime; or (d) a **trade press** source establishes a
+genuine, dated municipal market periodicity (the route left open by this cycle's honest negative). Absent
+(a)–(d), the family stays a baseline.
+
+**Decision:** **bounded negative (R-055).** The tax-exempt municipal bond market is a **baseline family, not a
+frontier**. It is the register's clearest case of an *identified, published, quantified* inefficiency — the
+venue measures it, the literature explains it, and the reform proposals are published too — which is the
+opposite of an unclaimed, decision-time-state-determined, cost-surviving concession. The four elements named
+in the Cycle-93 handoff are each disposed of: the **one-way bid** is real as market structure but is not
+publicly observable at decision time (Reason 2) and the dealer's compensation is a published term (Reason 5);
+the **"Muni Monday" no-bid window** is **uncorroborated** (framing correction above); the **zero-omission
+rating disclosure** is a **closed-list rule** whose product is a published, dated state with a published price
+effect (Reason 3); and the **tax-equivalent arithmetic** is a **published transform of published prices** and a
+named published puzzle (Reason 4). **No `IDEA-` identifier is minted, no validation specification is written,
+no gap is opened, and no score changes.** The family is written to the known-baseline table as **row 92**.
 
 ## Known baselines (reference set, not candidates)
 
@@ -1891,6 +2125,7 @@ to baselines.
 
 | **Electricity-derivative contract pricing (wholesale power futures/forwards and swaps, added in Cycle 92)** | **Published, as a bounded-negative mechanism-first family screen (R-053).** Wholesale electricity derivatives exist to hedge volatility/spikes; futures do not provide unbiased forecasts of spot prices and premiums are regime-dependent (S-356). Accurate modeling requires mean reversion, changing long-run expectations, seasonality, extreme volatility/spikes, time-varying jump intensity to fit spot and futures (S-357). Long-tenor contracts can be scarce ("missing markets") reflecting incompleteness/costs (S-358). The literature splits between price-formation archetypes and empirical work with few reconciliations (S-358). **This is a baseline and a rediscovery guard:** hedging/tail-risk is well-documented; no published decision-time state was identified that changes the sign or existence of a tradeable edge after costs not already captured by the baseline literature, so the family fails G-12. |
 | **Interval-fund / semi-liquid private-credit repurchase: a periodic tender at net asset value with no secondary market (added in Cycle 93)** | **Published, as a bounded-negative mechanism-first family screen (R-054) — registered closed-end funds and BDCs that offer a periodic repurchase of their own shares at net asset value under Rule 23c-3, with no secondary market for those shares.** The **mechanism is published law fixed in advance**: the company "shall repurchase the stock for cash at the net asset value determined on the repurchase pricing date"; the offer amount "shall not be less than five percent nor more than twenty-five percent"; the pricing date "shall occur no later than the fourteenth day after a repurchase request deadline"; payment follows "seven days after the repurchase pricing date"; and the schedule is fixed in a fundamental policy "changeable only by a majority vote of the outstanding voting securities", notified "no less than twenty-one and no more than forty-two days before each repurchase request deadline" (S-359, the rule itself, **line-verified**). The SEC's own account is that interval funds "offer the predictability of a mandatory, limited, rules-based liquidity framework" (S-360, 91 FR 63389). The **tradeable object does not exist**: a fund's own notice states "the purpose of this offer is to provide a level of liquidity to shareholders **since no secondary market exists for these Shares**" and "The Shares are not traded on any organized market or securities exchange" (S-361, Form N-23c-3, **line-verified**); the regulator locates the discount object in the **listed** class — "Where listed shares trade at a discount to the underlying portfolio's NAV, there may also be opportunities for the fund to take actions that benefit all shareholders" (S-360, 91 FR 63448) — and the published account distinguishes the two legs: "Publicly traded BDCs face little direct redemption pressure because investors can exit by selling shares in secondary markets" (S-363, **line-verified**). The **sign-determining state is unobservable at decision time**: "The NAV at which the Fund will repurchase Shares will not be calculated until the Repurchase Pricing Date … may be higher or lower", and the sector's supervisor states that "data gaps, lack of a secondary market to publicise valuations, and limited disclosure" make the vulnerabilities hard to monitor (S-362). The **cost and rationing mechanics bind**: tenders beyond the offer are met "on a pro rata basis" (S-359), with "There can be no assurance that the Fund will be able to repurchase all Shares that each shareholder has tendered", and the regulator's risk language says a fund unprepared for repurchases may "sell off less liquid assets at a discount to fair value (thus diluting the value of outstanding shares)" (S-360, 91 FR 63438). The **sample and regime are adverse**: 139 funds and $101 billion of net assets in 2025, and "By contrast, interval funds experienced net inflows during the same period" when the early-2026 repurchase pressure "largely affected non-traded BDCs" (S-360, 91 FR 63430). **This is a baseline and a rediscovery guard:** the family is the structural **mirror image** of the Cycle-88 listed price-to-NAV discount family — the mirror removes the discount object — so the two families' verdicts must not be interchanged, and any future candidate must specify the state, the exit and the final rule separately. |
+| **Tax-exempt municipal bonds: the dealer-intermediated retail cost premium and the primary-market underwriting concession (added in Cycle 94)** | **Published, as a bounded-negative mechanism-first family screen (R-055) — the over-the-counter tax-exempt municipal market, in which a retail or small-institution customer buys and sells bonds from a dealer without a centralized facility, and the primary market, in which an issuer's underwriter purchases a new issue and distributes it earning the "concession".** The **cost is published and measured by the market's own regulator**: the average effective spread for municipal transactions "shot up to **63 basis points** in May 2022" and was "approximately **50 basis points**" in late 2025; "the effective spread for odd-lot customer trades is **2.4 times** that for block customer trades"; and odd-lot effective spreads at non-institutional dealers are "nearly **2.7 times**" those at institutional dealers (S-369, MSRB Research Paper, April 2026, **line-verified**). The **peer-reviewed synthesis** reports the same in round-trip terms — retail round-trip trading costs "were still **1.1 percent in 2023**" against 2.3 percent in the early 2000s, and "**5 percent of small bond transactions have markups over 3.29 percent**" — and lists the market's puzzles: "high underwriting costs, conflicting roles by municipal advisors, extreme and widely varying trade markups, investment holdings that are often not tax-efficient, **inconsistent implied marginal tax rates**, a **heavy reliance on credit ratings**, little benefit but widespread use of insurance" (S-372, *Journal of Economic Perspectives* 39(2), Spring 2025, **line-verified**). The **decision-time state is absent**: "**Municipal bond transactions are publicly disclosed after they occur, but individual investors have limited pre-trade information, particularly with respect to quoted prices**"; "Electronic trading platforms exist only in the interdealer market, with no widely used platform for individuals to trade directly with each other" (S-372); and in fixed income "pre-trade quote data are **not universally available or nationally consolidated**" (S-369). Real-time municipal trade data is a **paid subscription**, and the historical academic product carries a **three-year lag** and **anonymised dealer identifiers** (S-367); the benchmark is a **proprietary** series ("Bloomberg Valuation Services (BVAL)") and even the bid-wanted state is seen on a proprietary terminal (S-368). The **record is absent exactly where the concession is largest**, because the exempt trade classes are "List Offering or Takedown Transactions", short-term instruments maturing in nine months or less, "Auction Rate Securities, Variable Rate Demand Obligations", commercial paper, and trades "**away from market**" (S-371). The **rating element is a closed-list rule with a published price effect**: 15c2-12(b)(1) permits the omission of "**no more than**" a listed set that includes "ratings", and 15c2-12(b)(5)(i)(C)(11) makes "**Rating changes**" a disclosable event within ten business days (S-366); the rating's price effect is published (a 2010 recalibration on "$2.2 trillion in municipal debt" produced "a 10 to 33 basis point decrease in credit spreads") and "investors rely heavily on credit ratings, even when changes in ratings convey relatively little new information" (S-372). The **tax-equivalent arithmetic is a published transform and a named puzzle**: "The **Muni/TSY ratio** is the benchmark tax-exempt yield for a maturity divided by the yield on Treasury bonds for the same maturity" (S-368), and "A longstanding puzzle in the municipal bond literature is that short-term municipal yields are consistent with the tax rates we would expect for investors in the top income tax brackets, whereas longer-term municipal yields are higher than we would expect" (S-372). The **concession and the mark-up are defined, published terms** for the dealer's remuneration (S-373), the primary market's flow is the **issuer's own** and "negotiated offerings accounted for … **77%** of the total par amount issued" in 2024 (S-374), and the compensation arrangement is a disclosed term of the transaction (S-365). **This is a baseline and a rediscovery guard:** the sign, the magnitude, the size-dependence, the decay and the reform proposals are all published, so any candidate in this family must name the published spread and the published puzzle it is differentiating from, must state how its own state is observable **before** the decision, and must explain why the published cost is not the cost it proposes to harvest. The register also records, as a **framing correction**, that the "Muni Monday" element named in the Cycle-93 handoff is **uncorroborated** in the indexed literature, in the peer-reviewed synthesis, in the MSRB's own term list and in all nine MSRB/regulator documents fetched in Cycle 94. |
 ---
 
 ## Rediscovery guard

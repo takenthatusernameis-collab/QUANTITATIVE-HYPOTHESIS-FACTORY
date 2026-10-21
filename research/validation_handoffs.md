@@ -1,4 +1,16 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–93
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–94
+
+**Cycle 94 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 94's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —
+the **tax-exempt municipal bond market family** (the over-the-counter, dealer-intermediated, retail-priced
+municipal secondary market and the primary market's published underwriting concession) — which produced a
+**bounded negative (R-055)** and **no candidate**, so **no specification was required and none was written**.
+The cycle's second operation was the **bounded provenance operation** on R-054's condition (d), which
+**discharged that condition** with three registered closed-end funds' Form N-CSR shareholder reports
+(**S-376**); **it touches no specification** and **R-054 was annotated, not rewritten** — its verdict, its
+five reasons, its baseline row and its remaining conditions are unchanged. **V-008 and V-009 remain the only
+executable specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007
+remain not executable.** **No `V-` identifier was consumed. Nothing in this file was executed.**
 
 **Cycle 93 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 93's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —

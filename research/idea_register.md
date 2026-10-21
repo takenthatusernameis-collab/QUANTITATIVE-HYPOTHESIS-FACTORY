@@ -4,7 +4,35 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 93 complete** (Cycle 93 added **six new source identifiers and six new source
+Last updated: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source
+entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened
+**no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
+pre-registered screen of a genuinely new mechanism family** — the **tax-exempt municipal bond market family**
+(the over-the-counter, dealer-intermediated, retail-priced municipal secondary market and the primary market's
+published underwriting concession; the dealer's one-way bid, the customer cost premium, the tax-equivalent
+arithmetic and the rating disclosure regime), a family **absent from the known-baseline table** and from every
+earlier screen (the state-first templates A–I, R-039 … R-046, and the mechanism-first family screens
+R-047 … R-054) — which returned a **bounded negative (R-055)** on five independent reasons, each tied to a
+line-verified passage: the **effect is published, measured and quantified** by the market's own regulator
+(S-369) and by the peer-reviewed literature (S-372); the **decision-time state does not exist**, because
+municipal transactions are disclosed only *after* they occur and the exempt trade classes are exactly those
+where a concession would be largest (S-367, S-368, S-369, S-371, S-372); the **"zero-omission" rating framing
+fails in the candidate's favour**, because 15c2-12(b)(1)'s permitted omissions are a **closed list** and rating
+changes are themselves disclosable events (S-366, S-372); the **tax-equivalent arithmetic is a published
+deterministic transform** of two published yield series and a named published puzzle (S-368, S-372); and the
+**tradeable object is a published compensation** for a published service, with the dated flow being the
+issuer's own pre-announced new-issue pricing (S-365, S-373, S-374). A **named framing element in the
+Cycle-93 handoff could not be corroborated** — the "Muni Monday" no-bid window — and that is recorded as an
+**honest negative and a framing correction**, not as a sixth reason and not as a debt. The cycle's second
+operation was the **bounded provenance operation (c)** named by the Cycle-93 handoff — R-054's condition (d),
+a line-verified record of **realised** repurchase outcomes for the interval-fund class — and it **succeeded**
+(S-376); **R-054 was annotated, not rewritten**. The cycle's third operation was **lossless housekeeping with
+a rubric-arithmetic re-run (clean)** and a **state-integrity repair** (this register's own frontier-family
+screen log was stale by twenty-eight cycles — it ended at Cycle 66 while the ledger and
+`rejected_and_parked.md` recorded sixteen further screens; the log is backfilled below from the recorded
+verdicts, with no verdict changed and no screen re-run). The register now holds **366 verified sources**
+(S-001 … S-209, S-220 … S-376; S-210 … S-219 reserved and unused). Earlier history: **Cycle 93 complete**
+(Cycle 93 added **six new source identifiers and six new source
 entries (S-359 … S-364)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
 pre-registered screen of a genuinely new mechanism family** — the **interval-fund / semi-liquid
@@ -27,7 +55,7 @@ Cycle-91 "Physical-Paper Hypothesis" label for that paper, and R-052 was **annot
 cycle's third operation was **lossless housekeeping with a rubric-arithmetic re-run (clean)** and two
 **state-integrity repairs** (the shortlist's newest narrative block had been labelled "Cycle-92 ranking"
 while describing Cycle 91's operations, and `research/README.md` still carried Cycle-92-era next-free
-identifiers). The register now holds **354 verified sources** (S-001 … S-209, S-220 … S-364; S-210 … S-219
+identifiers). The register then held **354 verified sources** (S-001 … S-209, S-220 … S-364; S-210 … S-219
 reserved and unused). **No score, rank, tie-break, hard-stop flag or specification changed.** Earlier
 history: **Cycle 92 complete** (Cycle 92 added **three new source identifiers and three new source
 entries (S-356 … S-358)**, minted **no new candidate** and **no new validation specification**, opened
@@ -6515,3 +6543,48 @@ on **evidence operations** — re-reads of existing candidates against literatur
 is what Cycle 66 did and which produced the cycle's only change to a candidate. This is a *programme* judgement,
 not a rule: a genuinely new state kind, materially different from templates A–I, may still be screened, and it must
 pass the strict bar (sign/existence first) before any dossier is written.
+
+---
+
+## Cycles 67–94 frontier-family screen log (2026-10-21)
+
+**This sub-section closes an artifact gap in the register itself, of the same class the Cycle-58 and Cycle-66
+state-integrity repairs closed for the source ledger.** The screen log above ended at **Cycle 66**, but the
+source ledger's cycle blocks and `rejected_and_parked.md` record **sixteen further screens** whose full
+rationale, line-verified grounds and verdicts are written down there. The register's own screen log was
+therefore **stale by twenty-eight cycles**. The entries below are written now, **for real, from the recorded
+verdicts**; **no verdict was changed, no screen was re-run, and no score was touched**. Cycles that ran
+**evidence operations rather than screens** (for example Cycle 77's bounded literature operation on the
+corporate-bond ETF family, and the re-scores of IDEA-009 in Cycle 66, IDEA-004 in Cycles 72 and 75, IDEA-010
+in Cycle 78 and IDEA-014 in Cycle 58) are **not** screen entries and are not listed here; they are recorded in
+the dossiers themselves.
+
+| Cycle | Screen kind | Family screened | Verdict | Identifier | Baseline row |
+| --- | --- | --- | --- | --- | --- |
+| 75 | mechanism-first | Reporting-date balance-sheet window dressing into public safe assets | Bounded negative (the window is a published reporting calendar; the dressing is a *choice* the reporter makes, and the published state is the reporter's own balance sheet) | R-047 | 84 |
+| 75 | mechanism-first | Fixed income cash mechanism families — Treasury auction price pressure, cash-futures basis trade, quarter-end window dressing, repo specialness | Bounded negative (each leg is a published, priced, dated mechanism with published magnitudes; no unclaimed sign-determining state) | R-048 | 85 |
+| 87 | mechanism-first | Weather-derivative contract pricing — the HDD/CDD temperature-premium family (futures, options, seasonal strips) | Bounded negative (the premium is a published, quoted, insurer- or sponsor-priced forecast commodity; the state is the published forecast, not an unclaimed one) | R-049 | 86 |
+| 87 | mechanism-first | Closed-end-fund / BDC traded price-to-NAV discount family (listed closed-end funds and listed BDCs) | Bounded negative (a discount to a published NAV is a published *level*; the candidates' distinguishing state is unattachable to the universe) | R-050 | 87 |
+| 90 (re-issued 91) | mechanism-first | Catastrophe bonds and insurance-linked securities — a modelled risk premium in a delayed, illiquid market | Bounded negative (the modelled loss is published, the modelling assumptions are published, and the bond's price is a published quote) | R-051 | 88 |
+| 91 | mechanism-first | Freight-derivative contract pricing — the dry-bulk FFA forward curve and the container-freight futures family | Bounded negative (the forward curve is a published, exchange-quoted price and the index is a published settlement object) | R-052 | 89 |
+| 92 | mechanism-first | Electricity-derivative contract pricing — wholesale power futures, forwards and swaps | Bounded negative (the prompt price is published on a known calendar by the market operator; the contract's premium is a published, quoted spread) | R-053 | 90 |
+| 93 | mechanism-first | Interval-fund / semi-liquid private-credit repurchase — a periodic tender at net asset value with no secondary market | Bounded negative (the mechanism is published law fixed in advance; the price *is* the NAV; the sign-determining state is not observable at decision time; the cost and rationing mechanics bind; the sample and regime are adverse) | R-054 | 91 |
+| 94 | mechanism-first | **Tax-exempt municipal bond market family** — the dealer-intermediated, retail-priced municipal secondary market and the primary market's published underwriting concession | **Bounded negative** (the effect is published, measured and quantified; the decision-time state does not exist and the exempt trade classes are exactly where a concession would be largest; the "zero-omission" rating framing fails because the permitted omissions are a closed list and rating changes are disclosable events; the tax-equivalent arithmetic is a published deterministic transform and a named published puzzle; the tradeable object is a published compensation, and the dated flow is the issuer's own pre-announced pricing) | **R-055** | **92** |
+
+**Cycle 94 addition — the screen programme's own conclusion, restated after the ninth mechanism-first
+screen.** The register's Cycle-66 conclusion was that the **state-first template programme is exhausted as a
+source of new candidates** and that the screen slot is better spent on **evidence operations**. Nine
+mechanism-first screens later (Cycles 75, 75, 87, 87, 90, 91, 92, 93, 94) the pattern is unchanged and
+sharper: **nine families, nine bounded negatives, zero new dossiers.** The binding constraint is the same in
+every case, and it is not the availability of a series: it is the **sign-and-existence limb** of the published
+state (G-12) and the **published-before-the-decision** limb (G-13). The Cycle-94 municipal screen makes the
+pattern's sharpest instance explicit — there, the market is not merely well documented but **actively
+publishes the cost measure that would define the candidate** (S-369) and the peer-reviewed literature
+**publishes the puzzle, the magnitude, the decay and the reform proposals** (S-372). A family can therefore
+fail not only because its state is unobservable but because **its entire economic content is already
+published and measured**, which is the register's rediscovery guard in its strongest form. The standing
+judgement is therefore reaffirmed: **the marginal yield of another state-kind template is very likely
+negative**, and a genuinely new mechanism family may still be screened — but the bar it must clear is the
+strict one (an unclaimed **sign- or existence-determining** state, published **before** the decision, from
+which a cost-surviving trade can be specified), and the register's own discipline remains: **skip the slot
+rather than pad it**.
