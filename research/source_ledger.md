@@ -3699,7 +3699,7 @@ https://www.imf.org/-/media/files/publications/wp/2020/english/wpiea2020192-prin
   estimate.
 - **Verification:** the IMF PDF was located through the search index and its text returned in the
   index rendering in this cycle; the abstract and the quoted correlation figure were read in that
-  text. The document was not downloaded as a binary file.
+  text. The document was not downloaded as a binary file. **— Cycle-97 upgrade: the IMF PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above — **HTTP 200, 2,199,047 bytes, 34 pages** — text-extracted with pypdf and read. The document's own words confirm the institutional framing verbatim: "the amount of assets benchmarked against widely followed EM local-currency bond indices have risen **fivefold** since the mid-2000s to around **$300 billion**"; "the benefits of **index membership** may be tempered by portfolio outflow risks for some countries"; and "the 3-month correlation of the country yields with the overall **J.P. Morgan GBI-EM** yield increases significantly from **16 percent to 53 percent** after inclusion events". **The entry's caveat is unchanged and remains the substantive point**: this is a **review and descriptive assessment** by an international organisation, not a causal study of the inclusion announcement. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-140 — Barbone Gonzalez, R., Ma, Y. and Zeng, Y. (Banco Central do Brasil) — "The Effect of Instant Payments on the Banking System"
 Banco Central do Brasil Working Paper **619**.
@@ -3722,7 +3722,7 @@ https://www.bcb.gov.br/content/publicacoes/WorkingPaperSeries/WP619.pdf
 - **Verification:** the search index returned the PDF, the working-paper series, the number (619),
   the title and the three authors, together with the abstract quoted above. Flagged here as
   **partially verified** (abstract read through the index rendering; full text not parsed), rather
-  than presented as fully checked.
+  than presented as fully checked. **— Cycle-97 upgrade: the BCB working-paper PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above — **HTTP 200, 1,408,145 bytes, 48 pages** — text-extracted with pypdf and read. The paper's own words confirm the mechanism verbatim: "We show that instant payments may have the unintended consequences of **increasing the banking sector's demand for liquidity**. Using administrative banking data and transaction-level payment data from **Brazil's Pix**, one of the most widely adopted instant payment systems, we find that banks increased their liquid asset holdings after the adoption of instant payments. We establish the causal relationship by constructing a novel instrument based on **passive payment timeouts** … These findings bear important **financial stability** implications in light of the global surge in adopting instant payment systems, e.g. **FedNow** in the US." The non-technical summary is also confirmed in the text ("This paper explores how instant payment systems, such as Brazil's Pix, impact the banking sector … increase banks' demand for liquid assets and reduce credit intermediation"). **The entry's caveat is unchanged and remains the substantive point**: the object is **bank balance-sheet liquidity holdings in Brazil, not a price**. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-141 — Witmer, J. (2020) — "Monetary policy implementation and payment system modernization"
 Bank of Canada Staff Working Paper **2020-26**.
@@ -3741,7 +3741,7 @@ https://www.bankofcanada.ca/wp-content/uploads/2020/06/swp2020-26.pdf
   price measurement.
 - **Verification:** the Bank of Canada PDF was located through the search index and its text — title,
   author, working-paper number, abstract, JEL codes — returned in the index rendering in this cycle;
-  the abstract was read there. The binary file was not parsed directly.
+  the abstract was read there. The binary file was not parsed directly. **— Cycle-97 upgrade: the Bank of Canada working-paper PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above — **HTTP 200, 424,119 bytes, 24 pages** — text-extracted with pypdf and read. The paper's own words confirm the price channel verbatim: "we show that 24/7 payment settlement induces a **precautionary demand for central bank balances**. Absent any changes or response by the central bank, this will put **upward pressure on the overnight interest rate** in a standard **corridor** system of monetary policy implementation." **The entry's caveat is unchanged and remains the substantive point**: this is a **model**, calibrated, not an event study; the object is the Canadian corridor framework and the *level* of reserve demand, not a dated concession. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-142 — Pal, U. and Utso, M. (2024) — "Deconstructing Debt Supply Shocks Using Treasury Auction Announcements"
 SSRN working paper **4794463** (2024).
@@ -3985,7 +3985,13 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502
   magnitudes quoted for implementation-day effects were read through the author's summary page and a
   2026 arXiv preprint that cites them, not from the paper's own tables.
 - **Verification:** author/institution pages and the SSRN record read via the search index; SSRN
-  direct fetch returned HTTP 403.
+  direct fetch returned HTTP 403. **— Cycle-97 re-fetch attempt: NEGATIVE, recorded as an honest failed
+  route, NOT an upgrade.** `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502` was tried on
+  21 October 2026 and returned **HTTP 403, 5,578 bytes (text/html)** — the SSRN bot block. The
+  anticipatory-liquidity-provision mechanism, the "shifts price pressure away from the reconstitution
+  date" claim, the short-interest-rises-on-implementation-dates finding and the small-avoidable-costs
+  estimate therefore remain author-reported and index-rendered, **not line-verified**. This entry is
+  unchanged in substance and is not re-scored.
 
 ### S-148 — Chinco, A. and Sammon, M. (2024)
 "The passive ownership share is double what you think it is." *Journal of Financial Economics* 157:
@@ -4005,7 +4011,13 @@ DOI: https://doi.org/10.1016/j.jfineco.2024.103860
   long history is commercial; the paper is about the *size* of passive assets, not about price
   effects of reconstitution.
 - **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
-  volume and article number verified through the Crossref REST API.
+  volume and article number verified through the Crossref REST API. **— Cycle-97 re-fetch attempt:
+  NEGATIVE, recorded as an honest failed route, NOT an upgrade.** `https://doi.org/10.1016/j.jfineco.2024.103860` was tried on 21 October 2026 and returned **HTTP 200 but only 2,672 bytes** — a ScienceDirect
+  meta-refresh to `/retrieve/articleSelectSinglePerm?Redirect=...&key=50ffba6...`, i.e. the Elsevier
+  paywall handshake, not the article text. The **33.3% passive ownership share for 2021**, the
+  **reconstitution-day-closing-volume construction method** and the "executed at the closing price on
+  reconstitution day" statement therefore remain index-rendered and are **not line-verified**. This
+  entry is unchanged in substance and is not re-scored.
 
 ### S-149 — State Street Global Advisors (2026)
 "Closing time: How passive investing is reshaping equity market microstructure." SSGA Investment
@@ -4038,7 +4050,21 @@ DOI: https://doi.org/10.1017/S0022109026102592
   an identification of index-fund order flow; the price-impact comparison is about *continuous-market
   trades*, not about reconstitution events.
 - **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
-  volume, issue and pages verified through the Crossref REST API.
+  volume, issue and pages verified through the Crossref REST API. **— Cycle-97 upgrade: the Cambridge
+  University Press full text is now fetched directly and line-verified.** Fetched on 21 October 2026
+  from the DOI above — **HTTP 200, 1,583,265 bytes** — the page is the CUP article HTML (cookie/OneTrust
+  banner plus inline SVG chart markup, which was stripped before reading). The article's own words
+  confirm the inventory verbatim: "The average trading volume during our sample period is **7.10% ADV
+  and the median is 5.34% ADV**"; "**closing auction volume is significantly associated with the
+  creation and redemption activities of passive index funds**"; "**closing auctions attract uninformed
+  traders**"; "**The Friday spikes are bigger on triple-witching days**"; and "price impact is lower in
+  closing auctions than in the continuous market for all stocks except **Nasdaq microcaps**". The
+  **"roughly 4% to roughly 10% of ADV"** rise is confirmed by the chart's own axis labels ("from 4 to
+  10", 2012–2021) and the text's "10% of the average daily volume (ADV) in recent years". **The entry's
+  caveat is unchanged and remains the substantive point**: the passive-attribution result is an
+  association with creation/redemption activity, not an identification of index-fund order flow; the
+  price-impact comparison is about *continuous-market trades*, not about reconstitution events. **No
+  re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-151 — Sammon, M. and Shim, J. (2026)
 "Who Clears the Market When Passive Investors Trade?" *The Review of Financial Studies* 39(10):
@@ -4054,7 +4080,13 @@ DOI: https://doi.org/10.1093/rfs/hhag032
 - **Caveats:** it is evidence about who the counterparty is, not about the size of any price
   concession in the modern sample; the two papers must be read together with S-146 and S-147.
 - **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
-  volume, issue and pages verified through the Crossref REST API.
+  volume, issue and pages verified through the Crossref REST API. **— Cycle-97 re-fetch attempt:
+  NEGATIVE, recorded as an honest failed route, NOT an upgrade.** `https://doi.org/10.1093/rfs/hhag032`
+  was tried on 21 October 2026 and returned **HTTP 403, 5,507 bytes (text/html)** — the OUP/RFS
+  paywall/robot block. The "issuing firm itself" counterparty claim, the "most demand-side institutions
+  trade in the same direction as index funds" finding and the 3330–3377 page range therefore remain
+  index-rendered and are **not line-verified**. This entry is unchanged in substance and is not
+  re-scored.
 
 ### S-152 — Sammon, M. and Shim, J. (2026)
 "Index rebalancing and stock market composition: Do indexes time the market?" *Journal of Financial
@@ -4084,7 +4116,13 @@ DOI: https://doi.org/10.1111/j.1540-6261.2009.01467.x
   premium, not about its current magnitude; it is an option-pricing result, not a trading-strategy
   result.
 - **Verification:** Wiley landing page (title, authors, abstract) read via the search index; DOI,
-  volume, issue and pages verified through the Crossref REST API.
+  volume, issue and pages verified through the Crossref REST API. **— Cycle-97 re-fetch attempt:
+  NEGATIVE, recorded as an honest failed route, NOT an upgrade.** `https://doi.org/10.1111/j.1540-6261.2009.01467.x` was tried on 21 October 2026 and returned **HTTP 403, 5,617 bytes (text/html)** — the
+  Wiley paywall/robot block. The "single-stock variance risk premia are frequently zero or of the
+  opposite sign to the index-level premium" claim, the insignificant single-stock variance swap
+  returns and the "what individual options price is correlation risk" conclusion therefore remain
+  index-rendered and are **not line-verified**. This entry is unchanged in substance and is not
+  re-scored.
 
 ### S-154 — Carr, P. and Wu, L. (2009)
 "Variance Risk Premia." *The Review of Financial Studies* 22(3): 1311–1341.
@@ -4110,7 +4148,19 @@ DOI: https://doi.org/10.1111/jofi.12739 · working-paper version: NBER Working P
   Reserve's quarterly **Senior Credit Officer Opinion Survey** (qualitative net percentages) and the
   NY Fed's daily SOFR and SOFR percentile-spread statistics.
 - **Verification:** Wiley landing page and NBER working-paper PDF read via the search index; DOI,
-  volume, issue and pages verified through the Crossref REST API.
+  volume, issue and pages verified through the Crossref REST API. **— Cycle-97 upgrade: the NBER
+  working-paper PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from
+  `https://www.nber.org/papers/w23680.pdf` — **HTTP 200, 657,950 bytes, 71 pages** — text-extracted with
+  pypdf and read. The paper's own words confirm the construct verbatim: "**We demonstrate that the
+  funding value adjustments (FVAs) of major dealers are debt-overhang costs to their shareholders. In
+  order to maximize shareholder value, dealer quotations therefore adjust for FVAs.**" The title page
+  also confirms the identification ("FUNDING VALUE ADJUSTMENTS · Leif Andersen · Darrell Duffie · Yang
+  Song · Working Paper 23680 · August 2017, Revised March 2018"). **The entry's caveat is unchanged and
+  remains the substantive point**: the paper is a **theory of FVAs**; it does not publish a continuous,
+  public FVA series, and no such series exists — the closest published dealer-funding-terms measures
+  are the Federal Reserve's quarterly Senior Credit Officer Opinion Survey and the NY Fed's daily
+  SOFR and SOFR percentile-spread statistics. **No re-score and no hard-stop change follow** — this is
+  provenance, not new evidence.
 
 ### S-156 — Ben-David, I., Li, J. and Rossi, A. (2023)
 "Discontinued Positive Feedback Trading and the Decline of Return Predictability." *Journal of
@@ -4195,6 +4245,14 @@ URL: https://www.federalreserve.gov/econres/notes/Feds-notes/repo-rate-sensitivi
   the TGA named as the channels; dealer balance-sheet costs are explicitly modelled.
 - **Caveats:** a note, not a refereed paper; its subject is *sensitivity*, not a trading rule.
 - **Verification:** landing page read via the search index; the note's own page and PDF are public.
+  **— Cycle-97 upgrade: the FEDS note's own HTML page is now fetched directly and line-verified.** Fetched
+  on 21 October 2026 from the URL above — **HTTP 200, 113,565 bytes** — read as HTML (script/style stripped).
+  The document's own words confirm the channel set verbatim: the note names the three channels as
+  "**held in the System Open Market Account (SOMA), reserves plus ON RRP take-up, and the Treasury General
+  Account (TGA)**", and the title "**Repo Rate Sensitivity to Treasury Issuance and Quantitative
+  Tightening**" is on the page itself. **The entry's caveat is unchanged and remains the substantive
+  point**: a note, not a refereed paper; its subject is *sensitivity*, not a trading rule. **No re-score
+  and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-162 — Board of Governors of the Federal Reserve System (2026)
 "Repo Markets and the Fed's Balance Sheet: Implications for Monetary Policy Implementation." FEDS
@@ -4206,7 +4264,14 @@ URL: https://www.federalreserve.gov/econres/notes/feds-notes/repo-markets-and-th
   issuance on that spread as a function of the liquidity level, and documents the September 2019
   episode in which SOFR rose above 280 basis points.
 - **Caveats:** not peer-reviewed; descriptive of the monetary-policy implementation channel.
-- **Verification:** landing page read via the search index.
+- **Verification:** landing page read via the search index. **— Cycle-97 upgrade: the FEDS note's own
+  HTML page is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above
+  — **HTTP 200, 126,720 bytes** — read as HTML (script/style stripped). The document's own words confirm
+  the measure and the episode verbatim: the note's equation is written in terms of "**Δ(TGCR − IORB)**"
+  (the TGCR − IORB spread), and it states that in the September 2019 episode "**SOFR increased over 280
+  basis points to 5.25 percent**". **The entry's caveat is unchanged and remains the substantive point**:
+  not peer-reviewed; descriptive of the monetary-policy implementation channel. **No re-score and no
+  hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-163 — Bushnell, J. B. (2017)
 "Great Expectations: Carbon Pricing and Revenue Uncertainty in California." Author-hosted manuscript,
@@ -4260,7 +4325,7 @@ https://ww2.arb.ca.gov/sites/default/files/cap-and-trade/reservesale/2018_reserv
   register**.
 - **Verification:** both PDFs read via the search index; both are public CARB documents; a direct
   re-fetch of the annual notice returned a zero-byte response, which is recorded as an unverified
-  detail rather than passed on as fact.
+  detail rather than passed on as fact. **Cycle-97 upgrade — the October 2018 Reserve Sale Notice is now line-verified, via a Wayback Machine mirror, because CARB's `ww2.arb.ca.gov` host returned HTTP 202 with a zero-byte body on every direct route tried in Cycle 97** (the primary URL, the `.../reservesale/oct-2018/notice.pdf` variant, the annual-notice URL, and the `www.arb.ca.gov` variant all returned HTTP 202 / 0 bytes; a browser User-Agent did not change it). Fetched on 21 October 2026 from `https://web.archive.org/web/2024/https://ww2.arb.ca.gov/sites/default/files/cap-and-trade/reservesale/oct-2018/notice.pdf` — **HTTP 200, 169,182 bytes, 6 pages** — text-extracted with pypdf and read. The notice's own words confirm the trigger rule verbatim: "**Except for the Reserve sale immediately preceding the compliance obligation instrument surrender deadline on November 1, a Reserve sale will only be offered if the Current Auction held in the preceding quarter resulted in a settlement price greater than or equal to 60% of the lowest Reserve tier price**", and it cites "**Section 95913(d)(1) of the Regulation describes conditions under which Reserve sales will be offered**". The notice is dated "**Issued on August 31, 2018**" for the "**Sale of Greenhouse Gas Allowances from the Allowance Price Containment Reserve on October 2, 2018**", offered "in three fixed-price tiers". **The 2018 Annual Allowance Price Containment Reserve Notice (issued 1 December 2017) was NOT successfully fetched in Cycle 97 — every route returned a zero-byte HTTP 202 — so the annual tier prices and quantities remain unverified by direct fetch exactly as before**, and no numeric tier price is asserted anywhere in the register. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-165 — Congressional Research Service (2024)
 "The California Cap-and-Trade Program: Overview and Considerations for Congress." R48314, 18
@@ -4272,7 +4337,7 @@ URL: https://www.congress.gov/crs_external_products/R/PDF/R48314/R48314.2.pdf
   1 November surrender deadline; the AB 398 "hard" price ceiling with price ceiling units; offset
   limits stepping down from 8% to 4% (2021–2025) and 6% (2026–2030).
 - **Caveats:** a secondary summary for Congress; the underlying auction data are CARB's.
-- **Verification:** PDF and congress.gov landing page read via the search index.
+- **Verification:** PDF and congress.gov landing page read via the search index. **Cycle-97 upgrade — the congress.gov PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above — **HTTP 200, 1,178,803 bytes, 30 pages** — text-extracted with pypdf and read. The document's own words confirm most of the published-state inventory this entry summarises: "**The California program has held 48 auctions as of November 2024**"; "allowance prices started at the **floor price of $10 per MTCO2e** emissions in 2013"; "increased to nearly **$42 per MTCO2e at the February [2024] auction** … decreased to **$37 per MTCO2e at the May 2024 auction and $32 per MTCO2e at the November 2024 auction**"; "**Price Ceiling**" and "price ceiling units" are named; "covered entities may use **offset credits** (in lieu of allowances) to meet up to **4%** of their compliance obligations". **Two sub-claims were NOT found in this document and must not be read into it**: (a) the **8% → 4% (2021–2025) / 6% (2026–2030) stepping schedule** — the PDF states only the current 4% offset cap, not the historical 8% or the stepped schedule, so that schedule remains supported by other sources (S-174 / the regulation) rather than by this report; (b) the **1 November surrender deadline** — the only "November 1" occurrence in the text is a 16 November 2022 press-release date in a footnote, not a compliance deadline, so the 1 November deadline is **not** evidenced by this PDF and stays with S-174/S-164. **The entry's caveat is unchanged and remains the substantive point**: this is a **secondary summary for Congress** and the underlying auction data are CARB's. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-166 — Erickson, Z., Fang, T. and Howe, K. (2011)
 "Accelerated share repurchases." *Journal of Financial Economics* 101(1): 69–89.
@@ -4409,7 +4474,7 @@ URL: https://ww2.arb.ca.gov/sites/default/files/2021-02/ct_reg_unofficial.pdf
 - **Caveats:** an "unofficial electronic version"; the official text is the OAL edition; the
   regulation is amended over time (August 2026 amendments defer Independent Merchant Refinery
   obligations, per a secondary law-firm summary).
-- **Verification:** PDF read via the search index; CARB-hosted document.
+- **Verification:** PDF read via the search index; CARB-hosted document. **Cycle-97 upgrade — the regulation PDF is now line-verified, via a Wayback Machine mirror, because CARB's `ww2.arb.ca.gov` host returned HTTP 202 with a zero-byte body on every direct route tried in Cycle 97** (the primary URL, `https://ww2.arb.ca.gov/sites/default/files/cap-and-trade/reservesale/oct-2018/notice.pdf`, `.../2018_reserve_sale_apcr_notice.pdf`, `.../2021-02/ct_reg_unofficial.pdf`, and the `www.arb.ca.gov` variant all returned HTTP 202 / 0 bytes or HTTP 404; a browser User-Agent did not change it). Fetched on 21 October 2026 from `https://web.archive.org/web/2024/https://ww2.arb.ca.gov/sites/default/files/2021-02/ct_reg_unofficial.pdf` — **HTTP 200, 3,463,641 bytes, 430 pages** — text-extracted with pypdf and read. The regulation's own words confirm the three cited sections verbatim: **§ 95856(d) "Deadline for Surrender of Annual Compliance Obligations … it must fulfill that obligation: (1) By November 1, 5 p.m. Pacific Standard Time (or Pacific Daylight Time, when in effect), of the calendar year"**; **§ 95857 — "the penalty for untimely surrender is calculated as four times the entity's excess emissions"**; **§ 95913 "Sale of Allowances from the Allowance Price Containment Reserve"** (the reserve-sale provision is codified, with the sale conditions in § 95913(d)). **Version caveat, which sharpens the existing caveat**: this mirror is the **February 2021 unofficial electronic version** (430 pages), not the current OAL edition — so the text verified here is the text as it stood in 2021, and the August 2026 amendments (Independent Merchant Refinery deferral) post-date it. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### Cycle-13 gap verdicts
 
@@ -5436,13 +5501,13 @@ implementation relies on it.
 
 ### S-225 — U.S. Securities and Exchange Commission, Form 10-Q (General Instruction A.1), with 17 CFR 240.13a-13 (quarterly reports) and 240.13a-11 (annual reports).
 - **Type and relevance:** primary regulatory sources fixing the cadence and lag of the public capital state IDEA-010 depends on. Rule 13a-13 requires a Form 10-Q for each of the first three quarters of the fiscal year "within the period specified in General Instruction A.1 to that form"; General Instruction A.1 sets that period at **40 days** after fiscal quarter end for large accelerated and accelerated filers and **45 days** for all other registrants; Rule 13a-11 sets the annual report at **60 / 75 / 90 days** by filer status. Rule 13a-13 also exempts investment companies, foreign private issuers and asset-backed issuers, and provides that Part I need not be filed by mutual life insurance companies or by mining companies not in production.
-- **Verification:** 17 CFR 240.13a-13 **fetched directly** from the Cornell LII e-CFR mirror, full rule text read. The **day-count periods in Form 10-Q General Instruction A.1** were read **only through a search-index render**: the SEC's own PDF at `sec.gov/about/forms/form10-q.pdf` refused the fetch with HTTP 403 and was not parsed. The 240.13a-11 day counts were read through an index render of the rule text.
+- **Verification:** 17 CFR 240.13a-13 **fetched directly** from the Cornell LII e-CFR mirror, full rule text read. **Cycle-97 upgrade — the Form 10-Q General Instruction A.1 day counts are now line-verified from the SEC's own form PDF.** Fetched on 21 October 2026 from `https://www.sec.gov/about/forms/form10-q.pdf` — **HTTP 200, 426,340 bytes, 10 pages** — text-extracted with pypdf and read. The PDF's own words confirm the cadence limb of G-23 verbatim: "A quarterly report on this Form pursuant to Rule 13a-13 or Rule 15d-13 shall be filed within the following period after the end of each of the first three fiscal quarters of each fiscal year … a. **40 days** after the end of the fiscal quarter for large accelerated filers and accelerated filers (as defined in 17 CFR § 240.12b-2); and b. **45 days** after the end of the fiscal quarter for all other registrants", under the heading "FORM 10-Q / GENERAL INSTRUCTIONS / A. Rule as to Use of Form 10-Q. 1. Form 10-Q shall be used for quarterly reports … filed pursuant to Rule 13a-13 (17 CFR 240.13a-13)". **The 240.13a-11 annual-report day counts (60 / 75 / 90) remain index-rendered** — they are not in this form PDF and were not re-fetched in Cycle 97; that limb is unchanged and is the one part of this entry still not line-verified. (The `sec.gov/info/edgar/forms/edgform.pdf` PDF — HTTP 200, 1,383,314 bytes, 107 pages — was fetched as a route probe but is the **EDGAR Filer Manual index**, not the 10-Q form; it contains no Instruction A.1 day counts and does not upgrade this entry.)
 - **Caveats:** index-rendered for the day counts; they must be re-verified against the SEC's own form before any implementation depends on them. This is the *registrant's* reporting calendar; the AP set is heterogeneous in legal form and the per-AP calendar is a separate question (G-27).
 - **Supports:** G-23's cadence limb. The state is refreshed at most quarterly and is public with a 40–90 day lag.
 
 ### S-226 — Board of Governors of the Federal Reserve System, FR Y-9C (holding company financial reports) — submission deadlines and public availability.
 - **Type and relevance:** primary regulatory source for the bank-holding-company arm of IDEA-010's state. FR Y-9C is a quarterly report; the submission deadline is **40 calendar days** after the March, June and September as-of dates and **45 calendar days** after the December as-of date, and the public data are released with a further lag and remain subject to revision until the deadline.
-- **Verification:** read **only through search-index renders** of the Federal Reserve's reporting-resources material and the FFIEC National Information Center data-download documentation (including its statement that the data "are made available as received from reporting institutions" and are subject to change before the 45-calendar-day Y-9 deadline). The Federal Reserve reporting-forms page returned HTTP 404 on direct fetch and was not parsed.
+- **Verification:** read **only through search-index renders** of the Federal Reserve's reporting-resources material and the FFIEC National Information Center data-download documentation (including its statement that the data "are made available as received from reporting institutions" and are subject to change before the 45-calendar-day Y-9 deadline). **Cycle-97 re-fetch attempt — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The following direct routes were tried on 21 October 2026 and all failed: `https://www.federalreserve.gov/reportforms/form9c.htm` → **HTTP 404, 82,134 bytes (text/html)**; `https://www.federalreserve.gov/reportforms/form9c.pdf` → **HTTP 404**; `https://www.federalreserve.gov/reportforms/form9c-instructions.pdf` → **HTTP 404**; `https://www.federalreserve.gov/apps/ffiec/Default.aspx` → **HTTP 404**; `https://www.ffiec.gov/nic/` → **HTTP 403, 244,402 bytes**; and Wayback Machine mirrors of `form9c.htm` and `ffiec.gov/nic/` → **HTTP 404**. The FR's reporting-forms listing has been restructured and no longer serves the FR Y-9C page at the documented URL. **The 40/45-calendar-day submission deadlines therefore remain index-rendered and are NOT line-verified**; they must be re-verified against the current FR Y-9C instructions before any implementation depends on them. This entry is unchanged in substance and is not re-scored.
 - **Caveats:** index-rendered only; the day counts must be re-verified against the FR Y-9C instructions before use. This covers bank holding companies only; broker-dealer and asset-manager AP disclosure is **not** covered here and is logged in G-27.
 - **Supports:** G-23's cadence limb.
 
@@ -5730,7 +5795,16 @@ relies on it.
   market". It also states the compliance date of 28 February 2011 and the rule's terms.
 - **Verification:** read through a **search-index render** of the working-paper PDF hosted by WU Vienna;
   **not fetched directly**. The author attribution was taken from the file name and the paper's own
-  author block was not separately confirmed.
+  author block was not separately confirmed. **— Cycle-97 re-fetch attempt: NEGATIVE, recorded as an
+  honest failed route, NOT an upgrade.** The following direct routes were tried on 21 October 2026 and
+  all failed: `https://www.wu.ac.at/fin/20220926_MOLNAR.pdf` → **HTTP 404, 146 bytes**;
+  `https://www.wu.ac.at/en/department-of-finance/working-papers/20220926_molnar.pdf` → **HTTP 404**;
+  `https://www.wu.ac.at/en/department-of-finance/research/working-papers/` → **HTTP 404, 98,394 bytes
+  (page restructured)**; and Wayback Machine mirrors of both PDF routes and the working-papers listing
+  → **HTTP 404**. The WU Vienna working-paper page has been restructured and no longer serves the file at
+  the documented path. **The circumvention-channel figures (put open interest +61 %, put volume +87 %, call
+  open interest +40 %, call volume +80 %, the 28 February 2011 compliance date) therefore remain
+  index-rendered and are NOT line-verified.** This entry is unchanged in substance and is not re-scored.
 - **Caveats:** index-rendered only; a working paper, not peer-reviewed; the given name and the working
   paper series number were not confirmed and are therefore not asserted here.
 - **Supports:** **R-018** — the constraint is not airtight, because a seller who cannot short the
@@ -5743,6 +5817,14 @@ relies on it.
   [and] higher volatility".
 - **Verification:** read through a **search-index render** of the publisher record; **not fetched
   directly**. The publisher record ID is recorded so that the entry can be re-verified.
+  **— Cycle-97 re-fetch attempt: NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  direct route `https://www.sciencedirect.com/science/article/pii/S154461232300363X` was tried on
+  21 October 2026 and returned **HTTP 403, 1,207,750 bytes (text/html)** — the Elsevier paywall/robot
+  block, not the article text. **The "ineffective, or … lead to lower market quality, higher bid-ask
+  spreads [and] higher volatility" summary, the "particularly for firms with options" qualifier and the
+  journal title therefore remain index-rendered and are NOT line-verified**; the journal title was not
+  confirmed in this cycle and is still not asserted. This entry is unchanged in substance and is not
+  re-scored.
 - **Caveats:** the **journal title was not confirmed** in this cycle and is therefore not asserted; the
   record was seen only in the index render, so the paper's own identification and results were not read
   in the article text.
@@ -6948,7 +7030,26 @@ URL: http://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2024-Lisbon/p
 - **Caveats:** a conference working paper, not peer-reviewed; four events; the identification uses
   same-day counterfactuals and the paper notes the counterfactual is "not perfect".
 - **Verification:** the PDF was read through the search index (the EFMA meeting-paper repository); the
-  document is not hosted by a publisher with a DOI.
+  document is not hosted by a publisher with a DOI. **— Cycle-97 upgrade: the EFMA conference paper is
+  now line-verified, via a Wayback Machine mirror, because the EFMA host returned HTTP 503 on every
+  direct route tried in Cycle 97** (`http://www.efmaefm.org/.../MWCBs_paper.pdf` → **HTTP 503, 326
+  bytes (text)**, on two attempts). Fetched on 21 October 2026 from
+  `https://web.archive.org/web/2024/http://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2024-Lisbon/papers/MWCBs_paper.pdf`
+  — **HTTP 200, 633,537 bytes, 39 pages** — text-extracted with pypdf and read. The paper's own words
+  confirm the structure and the cost profile verbatim: "MWCBs … can be triggered at three thresholds that
+  measure a decrease against the previous day's closing price of the S&P 500 index – **7% (level 1),
+  13% (level 2), and 20% (level 3)**"; the four level-1 triggers of March 2020 are "**9, 12, and 16,
+  and later in the day on March 18**"; post-halt realised volatility rose "by an annualized figure of
+  **194 %**", "stays elevated for **over 10 minutes**"; trading volume is "**116 % higher in the very
+  first minute post-halt and … 40 % higher for over 10 minutes**". **One register string is corrected in
+  light of this read**: the register's "quoted spreads widened for about 5 minutes after the market
+  resumes" is **not** in this paper — the paper's own post-halt claims are the 194 % volatility figure,
+  the 10-minute elevation window and the 116 %/40 % volume figures, and the 15-minute halt duration in the
+  abstract. The spread string is therefore dropped from this entry's verified claims (it was
+  index-rendered and is not evidenced here); nothing in any verdict turns on it. **The entry's caveat is
+  unchanged and remains the substantive point**: a conference working paper, not peer-reviewed; four
+  events; the identification uses same-day counterfactuals and the paper notes the counterfactual is
+  "not perfect". **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ---
 
