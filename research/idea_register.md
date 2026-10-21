@@ -4,7 +4,32 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 92 complete** (Cycle 92 added **three new source identifiers and three new source
+Last updated: **Cycle 93 complete** (Cycle 93 added **six new source identifiers and six new source
+entries (S-359 … S-364)**, minted **no new candidate** and **no new validation specification**, opened
+**no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
+pre-registered screen of a genuinely new mechanism family** — the **interval-fund / semi-liquid
+private-credit repurchase family** (registered closed-end funds and BDCs that offer a periodic repurchase of
+their own shares at net asset value under Rule 23c-3, with no secondary market for those shares), a family
+**absent from the known-baseline table** and from every earlier screen (the state-first templates A–I,
+R-039 … R-046, and the mechanism-first family screens R-047 … R-053) — which returned a **bounded negative
+(R-054)** on five independent reasons, each tied to a line-verified passage: the **mechanism is published
+law fixed in advance**; the **tradeable object does not exist**, because the price *is* the NAV and there is
+no secondary market, so the family is the **structural mirror image** of the Cycle-88 listed price-to-NAV
+family and the two verdicts must not be interchanged; the **sign-determining state is not observable at
+decision time**; the **cost and rationing mechanics bind**, with the regulator's own risk language running
+against the redeemer; and the **sample and the regime are adverse**. The cycle's second operation was the
+**bounded retrieval of the three failed freight routes** named by the Cycle-92 handoff: **one debt closed
+by a genuine route** (the Alizadeh–Kappou–Tsouknidis–Visvikis (2015) liquidity-premium paper is now
+**line-verified** from the University of Reading's institutional repository, **S-364**) and **two remaining
+honest negatives** with every named route re-tested (Ko & Chang (2024); Kavussanos, Visvikis & Menachof
+(2004)); the Ko & Chang bibliographic record was **verified against Crossref**, which **corrects** the
+Cycle-91 "Physical-Paper Hypothesis" label for that paper, and R-052 was **annotated, not rewritten**. The
+cycle's third operation was **lossless housekeeping with a rubric-arithmetic re-run (clean)** and two
+**state-integrity repairs** (the shortlist's newest narrative block had been labelled "Cycle-92 ranking"
+while describing Cycle 91's operations, and `research/README.md` still carried Cycle-92-era next-free
+identifiers). The register now holds **354 verified sources** (S-001 … S-209, S-220 … S-364; S-210 … S-219
+reserved and unused). **No score, rank, tie-break, hard-stop flag or specification changed.** Earlier
+history: **Cycle 92 complete** (Cycle 92 added **three new source identifiers and three new source
 entries (S-356 … S-358)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a
 **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into

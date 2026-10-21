@@ -1,7 +1,38 @@
-# RANKED SHORTLIST — CYCLES 1–91
+# RANKED SHORTLIST — CYCLES 1–93
+
+**Cycle-93 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 93's first
+operation was a **bounded, pre-registered screen of a genuinely new mechanism family** — the
+**interval-fund / semi-liquid private-credit repurchase family** (registered closed-end funds and BDCs that
+offer a periodic repurchase of their own shares at net asset value under Rule 23c-3, with **no secondary
+market** for those shares), a family **absent from the known-baseline table** and from every earlier screen
+(the state-first templates A–I and the mechanism-first family screens R-047 … R-053) — which returned a
+**bounded negative (R-054)** on five independent reasons, each tied to a line-verified passage: the
+**mechanism is published law fixed in advance** (S-359, S-360); the **tradeable object does not exist**,
+because the price *is* the NAV and there is no secondary market — the family is the **structural mirror image**
+of the Cycle-88 listed price-to-NAV family, so the two verdicts must not be interchanged (S-360, S-361,
+S-363); the **sign-determining state is not observable at decision time** (S-361, S-362); the **cost and
+rationing mechanics bind**, and the regulator's own risk language says the remaining holder is diluted
+rather than the redeemer (S-359, S-360, S-361); and the **sample and the regime are adverse** — 139 funds and
+$101 bn of net assets in 2025, with the early-2026 repurchase pressure landing on the non-traded BDC leg
+rather than on this family, and the rule itself mid-amendment (S-360). Cycle 93's second operation was the
+**bounded retrieval of the three failed freight routes**: **one debt closed by a genuine route** (the
+Alizadeh–Kappou–Tsouknidis–Visvikis (2015) liquidity-premium paper is now **line-verified** from the
+University of Reading's institutional repository, **S-364**, so the Cycle-91 honest negative on that paper
+is closed) and **two honest negatives** with every named route re-tested (Ko & Chang (2024); Kavussanos,
+Visvikis & Menachof (2004)); the Ko & Chang bibliographic record was **verified against Crossref** and its
+Cycle-91 "Physical-Paper Hypothesis" label **corrected**, and R-052 was **annotated, not rewritten** — its
+verdict, baseline row and re-screen condition are unchanged. Cycle 93's third operation was **lossless
+housekeeping with a rubric-arithmetic re-run (clean)** and two **state-integrity repairs**: this file's newest
+narrative block had been labelled "Cycle-92 ranking" while describing **Cycle 91's** operations (Cycle 92
+changed the label without adding a Cycle-92 block), and `research/README.md` still carried Cycle-92-era
+next-free identifiers. The register now holds **354 verified sources** and a **91-row known-baseline table**.
+**No score, rank, tie-break, hard-stop flag, gap or specification changed.**
 
 **Cycle-92 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
-1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 91's first
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** *(Cycle-93 note: the block
+below was labelled "Cycle-92 ranking" by Cycle 92 but describes **Cycle 91's** operations; it is retained
+verbatim as the Cycle-91 record, and the Cycle-93 block above is the current one.)* Cycle 91's first
 operation was a **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
 `rejected_and_parked.md` under the identifier **R-041**, which **Cycle 61 had already consumed** for the
 published-count/queue-state template (D) screen (baseline row 70), so the file briefly held 51 headings but

@@ -1,4 +1,19 @@
-# SOURCE LEDGER — CYCLES 1–92
+# SOURCE LEDGER — CYCLES 1–93
+
+**Cycle 93 (2026-10-21) added six new source entries (S-359 … S-364), minted no new candidate and no new
+validation specification, opened no gap, closed no gap and changed no score.** The cycle's first operation
+was a **bounded, pre-registered screen of a genuinely new mechanism family** — the **interval-fund /
+semi-liquid private-credit repurchase family** (registered closed-end funds and BDCs that offer a periodic
+repurchase of their own shares at net asset value under Rule 23c-3, with no secondary market for those
+shares) — which returned a **bounded negative (R-054)** on five independent reasons and was written to the
+known-baseline table as **row 91**. The cycle's second operation was the **bounded retrieval of the three
+freight-route debts** named by the Cycle-92 handoff: **one debt is closed by a genuine route** — the
+**Alizadeh, Kappou, Tsouknidis & Visvikis (2015)** liquidity-premium paper is now **line-verified** from the
+authors' accepted version in the University of Reading's institutional repository (**S-364**), so the
+Cycle-91 honest negative on that paper is closed — and **two debts remain honest negatives**, with every
+named route re-tested and exhausted (**Ko & Chang (2024)** and **Kavussanos, Visvikis & Menachof (2004)**).
+The register now holds **354 verified sources** (S-001 … S-209, S-220 … S-364), with S-210 … S-219 reserved
+and unused. **Next free identifiers: IDEA-017, S-365, V-012, G-37, R-055, P-015.**
 
 **Cycle 92 (2026-10-20) added three new source entries (S-356 … S-358), minted no new candidate and no
 new validation specification, opened no gap, closed no gap and changed no score.** The cycle's substantive
@@ -11187,3 +11202,208 @@ P-015.**
 - **DOI:** https://doi.org/10.1016/j.eneco.2024.108132
 - **Supports:** Volatility is a feature; derivatives allow hedging but long-tenor contracts can be scarce (missing markets concerns); literature split between price formation archetypes and empirical analyses with few reconciliations.
 - **Verification:** **line-verified** via publisher metadata.
+
+## Cycle 93 — new source entries
+
+### S-359 — 17 CFR 270.23c-3 (Investment Company Act of 1940 Rule 23c-3), "Repurchase offers by closed-end companies"
+- **Type:** **Primary legal material** — a codified SEC rule under the 1940 Act, read from the current eCFR text.
+- **URL:** `https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.23c-3`
+- **Supports:** the **published parameter set of the whole mechanism**, in the rule's own words — the
+  **repurchase price**, "(b)(1) The company shall repurchase the stock for cash at the net asset value
+  determined on the repurchase pricing date … The company may deduct from the repurchase proceeds only a
+  repurchase fee, not to exceed two percent of the proceeds"; the **offer amount**, "(a)(3) The repurchase
+  offer amount shall not be less than five percent nor more than twenty-five percent of the common stock
+  outstanding on a repurchase request deadline. Before each repurchase offer, the repurchase offer amount for
+  that repurchase offer shall be determined by the directors of the company"; the **pricing date**,
+  "(a)(5) A repurchase pricing date shall occur no later than the fourteenth day after a repurchase request
+  deadline … In no event shall an investment company determine the net asset value applicable to the
+  repurchase of the stock before the close of business on the repurchase request deadline"; the **payment
+  deadline**, "(a)(4) A repurchase payment deadline shall occur seven days after the repurchase pricing date
+  applicable to such tender"; the **pre-published fundamental policy**, "(b)(2)(i) The company shall
+  repurchase the security pursuant to a fundamental policy, changeable only by a majority vote of the
+  outstanding voting securities of the company, stating: (A) That the company will make repurchase offers at
+  periodic intervals … (B) The periodic intervals between repurchase request deadlines; (C) The dates of
+  repurchase request deadlines or the means of determining the repurchase request deadlines; and (D) The
+  maximum number of days between each repurchase request deadline and the next repurchase pricing date"; the
+  **notification window and content**, "(b)(4)(i) No less than twenty-one and no more than forty-two days
+  before each repurchase request deadline, the company shall send to each holder of record … a notification
+  providing the following information: (A) A statement that the company is offering to repurchase its
+  securities from security holders at net asset value"; the **rationing**, "(b)(5) If security holders tender
+  more than the repurchase offer amount, the company may repurchase an additional amount of stock not to
+  exceed two percent of the common stock outstanding on the repurchase request deadline … the company shall
+  repurchase the shares tendered on a pro rata basis"; the **suspension grounds**, "(b)(3)(i) The company
+  shall not suspend or postpone a repurchase offer except pursuant to a vote of a majority of the directors,
+  including a majority of the directors who are not interested persons of the company, and only: (A) If the
+  repurchase would cause the company to lose its status as a regulated investment company under Subchapter M
+  of the Internal Revenue Code … (D) For any period during which an emergency exists as a result of which
+  disposal by the company of securities owned by it is not reasonably practicable, or during which it is not
+  reasonably practicable for the company fairly to determine the value of its net assets"; and the
+  **asset-disposal requirement**, "(b)(10)(i) … a percentage of the company's assets equal to at least 100
+  percent of the repurchase offer amount shall consist of assets that can be sold or disposed of in the
+  ordinary course of business, at approximately the price at which the company has valued the investment,
+  within a period equal to the period between a repurchase request deadline and the repurchase payment
+  deadline".
+- **Why it matters:** R-054's **reasons 1, 2 and 4** — the price, the size, the window, the rationing, the
+  suspension grounds and the valuation-realisability requirement are all **published law fixed in advance**.
+  There is no price-concession object to discover, and the flow is **mandatory and pre-announced by the
+  obligor itself**, so there is no third-party concession to harvest.
+- **Caveats:** the rule is the **legislative frame**, not evidence about any individual fund's behaviour or
+  about realised redemption outcomes; the offer amount and the dates are set by the board within the rule's
+  bounds, so the rule alone fixes no individual fund's schedule. Used here as the published legal frame only.
+- **Verification:** **line-verified.** Fetched directly from eCFR (HTTP 200; 132,498 bytes); the operative
+  paragraphs were read from the returned document and every quotation above is verbatim from that text.
+
+### S-360 — U.S. Securities and Exchange Commission, "Interval Fund Modernization; Expansion of Multiple Share Class to Registered Closed-End Management Investment Companies and Business Development Companies", proposed rule, Release No. 33-11444; IC-36351; File No. S7-2026-34, 91 FR 63388 (October 5, 2026)
+- **Type:** **Regulator rule-making document** — the SEC's own current analysis of the interval-fund
+  framework; a *proposed* rule, so the frame it describes is in motion (comments close 4 December 2026).
+- **URL:** `https://www.federalregister.gov/documents/2026/10/05/2026-20360/interval-fund-modernization-expansion-of-multiple-share-class-to-registered-closed-end-management-investment-companies-and-business-development-companies`
+- **Supports:** the **published description of the mechanism** — "interval funds offer the predictability of a
+  mandatory, limited, rules-based liquidity framework by requiring interval funds to adopt a fundamental
+  policy to make periodic repurchases of their shares at a price based on NAV" (91 FR 63389); the **published
+  trade-off** — "We recognize that the interval fund structure offers an inherent tradeoff: the fund offers
+  investors the ability to obtain exposure to illiquid or less liquid assets with access to a certain amount
+  of liquidity, but investors generally can tender their shares only periodically and in amounts offered by
+  the fund" (91 FR 63392); the **published universe** — "The number of interval funds has grown from 58 in
+  2020 to 139 in 2025 and the aggregate net assets have increased from $38 billion to $101 billion during that
+  same period" and "Credit strategies constitute the largest segment of the interval fund market, representing
+  approximately 55 percent of aggregate net assets" (91 FR 63392–63393; the figures are from Form N-CEN as
+  of December 2025); the **published 2026 stress episode and where it landed** — "In early 2026, multiple
+  non-traded BDCs and registered closed-end funds, including several interval funds, experienced increased
+  investor demand to repurchase shares … However, this repurchase pressure has largely affected non-traded
+  BDCs … By contrast, interval funds experienced net inflows during the same period, with aggregate net assets
+  up 2.2 percent from the prior quarter" (91 FR 63430); the **published direction of the concession** — "an
+  interval fund that faces large and persistent repurchase requests that it is unprepared to meet may need to
+  borrow (thus increasing fund leverage), sell off less liquid assets at a discount to fair value (thus
+  diluting the value of outstanding shares), or both" (91 FR 63438); and the **published contrast with the
+  listed class** — "Other investors that prefer more immediate secondary market liquidity and can tolerate
+  price volatility may instead buy listed shares representing the same underlying portfolio at a market price.
+  Where listed shares trade at a discount to the underlying portfolio's NAV, there may also be opportunities
+  for the fund to take actions that benefit all shareholders" (91 FR 63448).
+- **Why it matters:** R-054's **reasons 1, 2, 4 and 5** — the mechanism, its trade-off, its size and its 2026
+  stress episode are **published by the regulator**, and the SEC's own text locates the **discount-to-NAV
+  object in the *listed* class**, which the unlisted interval-fund class does not have.
+- **Caveats:** a **proposed** rule, so it describes the current frame and the proposed change, not settled
+  law; it says nothing about any individual fund's realised behaviour, and its universe statistics are the
+  regulator's Form N-CEN aggregates rather than a measure of realised redemption outcomes.
+- **Verification:** **line-verified.** Fetched directly as the Federal Register's full plain-text rendition
+  (HTTP 200); the page numbers above are the document's own `[[Page …]]` markers and every quotation is
+  verbatim from that text.
+
+### S-361 — Opportunistic Credit Interval Fund, "Notice of Quarterly Repurchase Offer", Form N-23c-3 (Investment Company Act File No. 811-23783), dated 10 December 2025
+- **Type:** **Primary fund filing** — the repurchase-offer notification the fund itself files with the SEC
+  under Rule 23c-3(b)(4)(ii).
+- **URL:** `https://www.sec.gov/Archives/edgar/data/1907437/000139834425022317/fp0096508-2_n23c3a.htm`
+- **Supports:** the **fund-level, decision-time-visible state** — the offer "is offering to repurchase, for
+  cash, up to five percent (5%) of its issued and outstanding Class I Shares at a price equal to the net
+  asset value ('NAV') as of the close of regular business hours on the New York Stock Exchange on the
+  Repurchase Pricing Date"; "The purpose of this offer is to provide a level of liquidity to shareholders
+  since no secondary market exists for these Shares"; "The Shares are not traded on any organized market or
+  securities exchange"; the **pricing-date uncertainty stated by the fund itself** — "On December 3, 2025, the
+  NAV of Class I Shares (SOFIX) was $11.71 per share. The NAV at which the Fund will repurchase Shares will
+  not be calculated until the Repurchase Pricing Date … The NAV can fluctuate. Therefore, the NAV on the
+  Repurchase Pricing Date may be higher or lower than the NAV stated above or the date on which you return
+  your Repurchase Request Form"; "You may be subject to NAV fluctuation during the period between quarterly
+  repurchase offers"; the **rationing** — "If shareholders tender for repurchase more than five percent (5%)
+  of the outstanding Shares, the Fund may, but is not required to, repurchase up to an additional two percent
+  (2%) … the Fund will repurchase Shares on a pro rata basis … There can be no assurance that the Fund will be
+  able to repurchase all Shares that each shareholder has tendered … you may not be able to tender all Shares
+  that you wish to tender and may have to wait until the next quarterly repurchase offer"; the **fee** — "The
+  Fund will not charge a repurchase fee"; the **suspension limit** — "The Fund may suspend or postpone this
+  Repurchase Offer only by a vote of a majority of the members of the Board, including a majority of the
+  independent Trustees"; and the **discretion** — "The Fund reserves the absolute right to reject any or all
+  tenders of Shares".
+- **Why it matters:** R-054's **reasons 2, 3 and 4** — in the family's own words the price *is* NAV and there
+  is **no secondary market**; the sign-determining quantity (the NAV at the pricing date) is **explicitly
+  unknown at decision time**; and the exit is **rationed and can be refused**.
+- **Caveats:** this is **one fund's** notice for **one quarter**; it is used as the fund-level illustration of
+  the rule's mechanics, not as a survey of the family, and this fund's no-fee practice is not generalisable —
+  the rule permits up to 2 % (S-359).
+- **Verification:** **line-verified.** Fetched directly from EDGAR (HTTP 200; 61,308 bytes); the HTML text
+  layer was extracted and every quotation above is verbatim from it.
+
+### S-362 — Financial Stability Board, "FSB Europe Group discusses private credit, financial and operational vulnerabilities and securitisation", press release Ref: 29/2024, 15 November 2024
+- **Type:** **International-organization institutional assessment** — a supervisory body's press release; not
+  peer-reviewed. Used only for the sector's published opacity statement.
+- **URL:** `https://www.fsb.org/uploads/r15112024.pdf`
+- **Supports:** the **published opacity of the private-credit sector's valuations and disclosures** — "Due to
+  data gaps, lack of a secondary market to publicise valuations, and limited disclosure, it remains a
+  challenge to monitor and understand the vulnerabilities of this sector"; and the **published supervision
+  gap** — "the need to enhance understanding of potential risks, given limited data on the market, as well
+  as existing regulations".
+- **Why it matters:** R-054's **reason 3** — the private-credit marks that set an interval fund's NAV are
+  **not publicly marked**, and the sector's own supervisor states that the data needed to monitor it do not
+  exist; the sign-determining state is therefore not observable at decision time.
+- **Caveats:** a **regional-group press release**, not a peer-reviewed paper and not a full report; it makes
+  no claim about any individual fund and no claim about realised redemption outcomes.
+- **Verification:** **line-verified.** Fetched directly from the FSB's own server (HTTP 200; PDF; 2 pages);
+  text layer extracted with PyMuPDF: **4,986 characters**; the quotation is verbatim.
+
+### S-363 — Matvos, G., Piskorski, T. and Seru, A. (2026), "Private Credit, Balance Sheets and Financial Stability", NBER Working Paper No. 34991 (March 2026; revised August 2026)
+- **Type:** **Working paper** (NBER; not peer-reviewed at the working-paper stage). Used for the published
+  account of the private-credit vehicles' redemption mechanics and for the measured scale of the evidence base.
+- **URL:** `https://www.nber.org/system/files/working_papers/w34991/w34991.pdf`
+- **Supports:** the **published distinction between the listed and the unlisted leg** — "Publicly traded BDCs
+  face little direct redemption pressure because investors can exit by selling shares in secondary markets
+  without requiring the vehicle itself to liquidate assets or return capital. Non-traded BDCs, however, often
+  offer investors periodic liquidity through repurchase programs and have therefore been the primary focus of
+  recent concerns regarding redemption pressures in private credit"; the **published withdrawal-risk account**
+  — "these developments demonstrate that withdrawal pressures can emerge when investors are offered liquidity
+  against portfolios of relatively illiquid assets. Such withdrawal pressures are more commonly associated
+  with traditional banking and may become increasingly important if liquidity-providing private credit
+  vehicles continue to expand"; the **published valuation-information problem** — the paper's own framing of
+  "**information frictions and the risk of valuation contagion**" among its four areas of vulnerability; and
+  the **published scale and its limits** — a dataset of "approximately 1,300 funds between 2000 and 2024", fund
+  lives that "generally span 8–12 years", and the observed episode ("some private credit vehicles have
+  experienced redemption pressures despite maintaining relatively conservative balance-sheet structures").
+- **Why it matters:** R-054's **reasons 2, 3 and 5** — the **secondary market is the thing that makes an exit
+  possible**, which the unlisted interval-fund class does not have; the withdrawal dynamic is **published and
+  attributed to the unlisted BDC leg**; and the measured evidence base covers **institutional private credit
+  funds (2000–2024)**, not the retail semi-liquid wrapper.
+- **Caveats:** a **working paper**, not a peer-reviewed article, and its dataset covers private credit funds
+  (institutional partnerships) rather than registered interval funds; it is used for the published account of
+  the redemption mechanics and for the limits of the evidence base, not as a measurement of any interval
+  fund's outcomes.
+- **Verification:** **line-verified.** Fetched directly from nber.org (HTTP 200; PDF; 35 pages); text layer
+  extracted with PyMuPDF: **73,866 characters**; every quotation is verbatim.
+
+### S-364 — Alizadeh, A. H., Kappou, K., Tsouknidis, D. and Visvikis, I. (2015), "Liquidity effects and FFA returns in the international shipping derivatives market", *Transportation Research Part E: Logistics and Transportation Review* 76: 58–75, DOI 10.1016/j.tre.2015.02.001
+- **Type:** **Peer-reviewed article**, read in the **authors' accepted version** deposited in the University
+  of Reading's institutional repository (CentAUR).
+- **URL:** `https://centaur.reading.ac.uk/39474/1/Dry%20Bulk%20FFA%20liquidity.pdf` (record: `https://centaur.reading.ac.uk/39474/`)
+- **Supports:** the **published liquidity-premium result in the freight-derivative market** — "Results
+  indicate that liquidity risk is priced and both liquidity measures have a significant role in determining
+  freight derivatives returns. Consistent with expectations, both liquidity measures are found to have positive
+  and significant effects on the returns of freight derivatives" (abstract); "the Amihud trading volume-related
+  liquidity measure and the bid-ask spread measure are both found to be positive and statistically significant
+  in explaining returns on FFA contracts, providing new evidence, for the first time, that market participants
+  incorporate transaction costs in their required returns"; and the **published sample and its sources** — "The
+  study examines the pricing of liquidity risk in the dry bulk FFA market over the period 2008-2014, using FFA
+  (BFA) prices and the Amihud liquidity measure (FFA returns over trading volume) both obtained by the Baltic
+  Exchange, and bid-ask spreads obtained from Clarksons Shipbrokers."
+- **Why it matters:** it **closes the Cycle-91 honest negative** on this paper and supplies the
+  line-verified cost/liquidity ground that **R-052** had to carry on S-351 alone — the published result says
+  the liquidity premium is a **priced, measured** component of freight-derivative returns, with a documented
+  cost measure and a documented 2008–2014 sample.
+- **Caveats:** the **accepted version** (not the publisher's typeset article) is what was fetched; the
+  bid-ask spreads are **proprietary Clarksons Shipbrokers data** and are not independently reproducible here;
+  the sample ends in 2014, so the result is a **dated baseline** and the register does not assert that the
+  premium's magnitude holds today.
+- **Verification:** **line-verified.** Fetched directly from the University of Reading's CentAUR repository
+  (HTTP 200; PDF; 1,009,954 bytes); text layer extracted with PyMuPDF: **92,459 characters across 40 pages**;
+  every quotation is verbatim.
+
+## Cycle 93 honest negatives
+
+| Route | What was tried | Failure mode | Verdict |
+| --- | --- | --- | --- |
+| **Ko & Chang (2024), *Maritime Policy & Management* 51(5): 717–744** (Byoung-Wook Ko and Young-Tae Chang, "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates", DOI 10.1080/03088839.2024.2348692) | `tandfonline.com/doi/full/…` and the Unpaywall-recorded T&F PDF route `tandfonline.com/doi/pdf/…?download=true`; the Unpaywall-recorded **accepted version** at `doi.org/10.2139/ssrn.4264797`, followed to the SSRN abstract page and to the SSRN delivery-PDF route | **HTTP 403** on the T&F full-text and PDF routes; **HTTP 403** on both the SSRN abstract page and the SSRN delivery-PDF route. Unpaywall confirms the article is open access (hybrid) and lists the SSRN accepted version, but SSRN blocks the client | **Honest negative — the paper's text remains unobtainable.** **The bibliographic record is now verified against Crossref**, and it corrects the Cycle-91 label: the paper at 51(5): 717–744 is titled "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates"; the Cycle-91 description of it as "the 'Physical-Paper Hypothesis' paper" is **not corroborated by the publisher's bibliographic record** and is no longer relied on by the register. Crossref also confirms the SSRN accepted version carries the same title, dated 2022. The paper is therefore **not** used as a verification basis for any reason in R-054, and R-052's freight reasoning continues to rest on S-350, S-351, S-352 and S-364 |
+| **Kavussanos, Visvikis & Menachof (2004), *Review of Derivatives Research* 7(3): 241–266** (the "unbiasedness hypothesis" paper, DOI 10.1007/s11147-004-4811-7) | `link.springer.com/article/10.1007/s11147-004-4811-7` and the `…/content/pdf/10.1007/s11147-004-4811-7.pdf` route, with and without a browser user-agent; the City Research Online host (`cris.city.ac.uk`) that yielded S-350 and S-351; an SSRN delivery route; a CiteSeerX search route | The Springer host returns its **"Client Challenge"** interstitial (HTTP 200 with a 3,038-byte challenge page) instead of the article on every attempt; **DNS resolution for `cris.city.ac.uk` fails from this environment** (`Could not resolve host`, three attempts with retries); the SSRN route returns **HTTP 403**; the CiteSeerX route returns **HTTP 404**. Unpaywall reports the article as **closed** with no open-access location | **Honest negative — index-rendered neighbour only, unchanged.** Its published result is **not** used as a verification basis for any reason in R-052 or R-054; the unbiasedness and efficiency material R-052 relies on is carried by the **line-verified** S-350 and S-351, and the cost/liquidity ground is carried by the **line-verified** S-364, which this cycle obtained |
+| **FEC / SEC EDGAR full-text-search route used during the Cycle-93 screen** (to find a fund-level interval-fund registration statement) | EDGAR full-text search for `"interval fund"` restricted to Form N-1A; then the same route for `"Repurchase Request Deadline"` and `"repurchase offer" "net asset value" "private placement"`; then the first three candidate N-1A filings were fetched and their text extracted | The phrase-constrained searches return **either zero hits or only unrelated registrants** (ETF and closed-end-fund filings whose text contains the phrase in an unrelated context); the candidate filings fetched (`Alka Funds Trust`, `First Eagle Completion Fund Trust`) turned out to be an **exchange-traded fund** and a **conventional closed-end fund**, not interval funds | **Route note, not a debt.** The interval-fund family's fund-level evidence is therefore carried by the **rule** (S-359), the **regulator's own analysis** (S-360) and a **genuine Rule 23c-3 filing** (S-361), which is a primary document of the mechanism rather than a registration statement of a single fund. **No fund-level claim in R-054 depends on an N-1A** |
+
+**Cycle-93 identifier and ranking record.** **Six `S-` identifiers consumed (S-359 … S-364)**; **no `IDEA-`
+identifier consumed**; **no `V-` identifier consumed**; **one `R-` identifier consumed (R-054)**; **no `P-`
+identifier consumed**; **no `G-` identifier consumed**; **no gap opened and none closed**. **One**
+known-baseline row was written (**row 91**). The register holds **354 verified sources** at the end of
+Cycle 93. **No score changed and no rank changed**: the active ranking remains **IDEA-011 (69.0, rank 1),
+IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014)
+at a terminal 55.0. **Next free identifiers: IDEA-017, S-365, V-012, G-37, R-055, P-015.**

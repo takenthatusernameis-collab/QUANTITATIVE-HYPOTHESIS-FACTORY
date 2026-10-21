@@ -2394,3 +2394,124 @@ IDEA-014's inconclusive limb, P-010, P-011, P-014); (2) screened a genuinely new
 housekeeping and a rubric-arithmetic re-run (clean); (4) wrapped up with a rewritten handoff and fresh
 initial task message for Cycle 93, re-deriving counts from files. No score, rank, tie-break, hard-stop flag,
 gap, or specification changed. Next free identifiers: IDEA-017, S-359, V-012, G-37, R-054, P-015.
+
+## Cycle 93 — 2026-10-21
+
+Theory-only cycle executing the priorities from the Cycle-92 handoff. No tests, no data acquisition, no
+strategy or signal implementation, no performance or risk metrics, no workflow or infrastructure edits, no
+modification of the canonical prompt, no trading. Every quotation below is from a document fetched in this
+cycle and text-extracted in this cycle, except where a route failure is stated.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-92 handoff's priorities in order: (1) maintain the frozen, exhausted and
+dated items as they stand — G-21, G-28, G-30, G-32 limb (c), G-33 (dated 2027 Q3), G-14 (dated 29 March
+2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014; (2) run **one** bounded,
+pre-registered screen of a genuinely new mechanism family from the named absent families, **skipping the slot
+rather than padding it**; (3) run the **bounded retrieval operation** on the three failed freight routes,
+recording honest negatives if it fails and consuming **no `R-` identifier** for it; (4) run lossless
+housekeeping with a rubric-arithmetic re-run; (5) rewrite the handoff with re-derived counts and a fresh,
+self-contained initial task message.
+
+**Pass 2 — Critique.** Three things had to be settled before anything was written. (i) *Which family takes
+the slot?* Two named absent families remained — **interval funds / private-credit interval funds** and
+**municipal bonds**. The interval-fund family was chosen because (a) its decisive material is **primary legal
+and regulatory** — a codified rule and the SEC's own current analysis of it — and therefore fetchable and
+text-extractable with certainty, whereas the municipal family's decisive material (microstructure studies of
+the tax-exempt market) sits mainly in paywalled journals whose author-archived copies could not be confirmed
+in advance, and a screen that cannot fetch its evidence may not be run at all; (b) the family is the
+**structural mirror image** of R-050's listed price-to-NAV discount family, so screening it tests the
+register's own taxonomy instead of repeating it, and the mirror gives a clean pre-registered test — *if the
+exit price is legally identical to the published NAV and no market exists between the two, then the
+tradeable object that R-050's family has is absent here by construction*; and (c) the family is live in the
+regulator's own docket — a proposed rule published 5 October 2026 — which makes the frame citable, current,
+and a source of a dated re-screen condition. (ii) *Could a negative rest on verified documents?* The test
+applied was the register's own: **each of the five reasons must be tied to a line-verified passage from a
+document fetched and text-extracted in this cycle**. Five documents passed that test — the rule itself (eCFR),
+the SEC's Federal Register full text, a genuine Rule 23c-3 filing made by a fund on EDGAR (Form N-23c-3),
+the FSB's press-release PDF, and the NBER working-paper PDF. EDGAR's full-text search **could not** locate a
+registration statement for a private interval fund (phrase-constrained queries return unrelated registrants or
+nothing), so **no claim in the screen rests on an N-1A**; the fund-level evidence rests instead on a filing
+the fund itself made under the rule. (iii) *What is the retrieval operation, and what may it change?* It is a
+**provenance operation, not a screen**. One of the three debts closed on a genuine route — the Alizadeh,
+Kappou, Tsouknidis & Visvikis (2015) paper, obtained as the authors' accepted version from the University of
+Reading's CentAUR repository, which upgrades it to line-verified (S-364) and supplies the cost-and-liquidity
+ground R-052 had to carry on S-351 alone. The other two remain honest negatives with every named route
+re-tested. The Ko & Chang bibliographic record was verified against Crossref and its Cycle-91 label
+**corrected**: the paper at 51(5): 717–744 is "Analysis and forecasting of the dry bulk shipping market:
+structural VAR models using FFA-spot-time charter rates". The register does **not** assert that Cycle 91 was
+wrong about the paper's contents — the text was never obtained — only that the description is uncorroborated
+by the publisher's bibliographic record and is therefore no longer relied on.
+
+**Pass 3 — Reframed.** The screen was re-framed from a survey into a **single-question test**: *does the
+unlisted, no-secondary-market structure retain any tradeable concession once the exit price is legally
+identical to the published NAV?* The pre-registered decision rule: five **independent** grounds, each tied to
+a line-verified passage; stop as soon as five grounds are established rather than padding them out; no
+`IDEA-`, `V-` or `G-` identifier is consumed unless a candidate survives; and the family's relation to
+R-050 must be argued explicitly, because a mirror family is exactly where a re-presentation mistake would
+hide. The retrieval was re-framed as strictly bounded: one attempt per named route per debt, one debt closed
+and two negatives recorded, and **no re-screen of the freight family** — an annotation of R-052, not a new
+record.
+
+### Outcomes
+
+1. **Bounded, pre-registered screen of a genuinely new mechanism family — the interval-fund / semi-liquid
+   private-credit repurchase family — returned a bounded negative (R-054)** on five independent reasons, each
+   tied to a line-verified passage, and was written to the known-baseline table as **row 91**: (1) the
+   mechanism is **published law fixed in advance** (price, size, window, rationing, suspension grounds and the
+   valuation-realisability requirement are all in Rule 23c-3, and the SEC describes the wrapper as a
+   "mandatory, limited, rules-based liquidity framework"); (2) the **tradeable object does not exist** — the
+   price *is* the NAV and there is no secondary market, so the discount object R-050's family has is absent by
+   construction, and the SEC's own text locates that object in the *listed* class; (3) the **sign-determining
+   state is unobservable at decision time** — the NAV that decides the trade is computed after the decision,
+   the private-credit marks are unpublished appraisals, and the sector's supervisor states the data gaps
+   outright; (4) the **cost and rationing mechanics bind**, and the regulator's own risk language says the
+   *remaining* holder is diluted by forced sales at a discount to fair value, not the redeemer; (5) the
+   **sample and regime are adverse** — 139 funds and $101 bn of net assets in 2025, the 2026 repurchase
+   pressure landed on the non-traded BDC leg rather than on this family, and the rule itself is mid-amendment
+   with comments closing 4 December 2026. **Six `S-` identifiers were consumed (S-359 … S-364)**, of which
+   five carry the screen.
+
+2. **The bounded freight-route retrieval was executed and produced one genuine closure and two honest
+   negatives.** The **Alizadeh, Kappou, Tsouknidis & Visvikis (2015)** liquidity-premium paper is now
+   **line-verified** from the authors' accepted version in the University of Reading's institutional
+   repository (**S-364**: HTTP 200, PDF, 1,009,954 bytes, 92,459 characters extracted across 40 pages), so the
+   Cycle-91 honest negative on that paper is **closed** and R-052's re-screen condition (c) is **partially
+   satisfied** — a cost and liquidity record now exists for the dry-bulk FFA leg, with a documented
+   2008–2014 sample, proprietary Clarksons bid-ask data and a Baltic-Exchange Amihud measure. **Ko & Chang
+   (2024)** and **Kavussanos, Visvikis & Menachof (2004)** remain honest negatives: T&F and SSRN return
+   **HTTP 403**, Springer returns its client-challenge interstitial, `cris.city.ac.uk` does not resolve from
+   this environment, CiteSeerX returns **HTTP 404**, and Unpaywall reports the 2004 article as closed with no
+   open-access location. **No `R-` identifier was consumed by the retrieval operation**, and R-052's verdict,
+   baseline row and re-screen condition are **unchanged** — the record was annotated, not rewritten.
+
+3. **State-integrity repairs (lossless).** Two defects were found while re-deriving the state of the artifact
+   set: the shortlist's newest narrative block was still labelled "Cycle-92 ranking" while describing **Cycle
+   91's** operations (Cycle 92 changed the label without adding a Cycle-92 block), and `research/README.md`
+   still carried Cycle-92-era next-free identifiers and source counts. Both were repaired in place, the
+   shortlist by adding the missing **Cycle-93 narrative block** and correcting the title range, the README by
+   re-deriving its identifiers and counts. Noted and **left as written**: the Cycle-92 cycle-log entry is a
+   summary paragraph without this file's three-pass-loop and outcomes sections; a prior cycle's record is
+   annotated rather than rewritten, and this cycle's entry carries the full structure.
+
+4. **Housekeeping (lossless) and the rubric-arithmetic re-run — clean.** Re-ran the check across all four
+   active candidates and the parked IDEA-010: **IDEA-011 4/3/3/4/2/5 = 69.0** (rank 1), **IDEA-004
+   4/4/1/3/3/3 = 63.0** (rank 2), **IDEA-009 3/3/1/3/2/4 = 53.0** (rank 3), **IDEA-014 3/2/3/2/2/4 = 52.0**
+   (rank 4), **IDEA-010 (terminal) 4/4/1/2/2/2 = 55.0** (parked, P-014, unranked) — every total equals the
+   register's own rule (weights 25/20/15/15/15/10; per-point values 5.0 / 4.0 / 3.0 / 3.0 / 3.0 / 2.0):
+   345 → 69.0; 315 → 63.0; 265 → 53.0; 260 → 52.0; 275 → 55.0. **No score, no rank, no tie-break, no
+   hard-stop flag changed.** Counts re-derived from the artifact files and written into the headers: **54
+   rejections (R-001 … R-054)**, **91-row known-baseline table**, **354 verified sources** (S-001 … S-209,
+   S-220 … S-364; S-210 … S-219 reserved and unused), 15 dossiers (4 active, 6 parked, 5 rejected), 10
+   specifications (8 not executable), 13 parking records of which 12 remain active, gaps **G-01 … G-36**.
+
+5. **Handoff rewritten.** `research/next_agent_handoff.md` rewritten from the files with a Cycle 93 banner,
+   re-derived counts and identifiers, the frozen/exhausted/dated items restated, the honest negatives and the
+   Cycle-93 state-integrity repairs carried forward, and a fresh, self-contained initial task message for the
+   next agent.
+
+**No score changed.** Active ranking unchanged: **IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009
+53.0 (rank 3), IDEA-014 52.0 (rank 4)**; IDEA-010 parked (P-014) at a terminal 55.0, unranked. **No gap opened
+and none closed. No `IDEA-`, `V-`, `G-` or `P-` identifier consumed. One `R-` identifier consumed (R-054), six
+`S-` identifiers consumed (S-359 … S-364), one known-baseline row added (row 91). Next free identifiers:
+IDEA-017, S-365, V-012, G-37, R-055, P-015.**

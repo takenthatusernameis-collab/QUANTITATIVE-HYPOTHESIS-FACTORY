@@ -1,4 +1,17 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–91
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–93
+
+**Cycle 93 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 93's substantive work was a **bounded, pre-registered screen of a genuinely new mechanism family** —
+the **interval-fund / semi-liquid private-credit repurchase family** (registered closed-end funds and BDCs
+that offer a periodic repurchase of their own shares at net asset value under Rule 23c-3, with no secondary
+market for those shares) — which produced a **bounded negative (R-054)** and **no candidate**, so **no
+specification was required and none was written**. The cycle's second operation was the **bounded retrieval
+of the three failed freight routes**, which **closed one verification debt** (the Alizadeh–Kappou–Tsouknidis–
+Visvikis (2015) liquidity-premium paper is now line-verified as **S-364**) and **left two honest negatives**;
+**neither touches a specification**, and R-052's record was **annotated, not rewritten** — its verdict, its
+baseline row and its re-screen condition are unchanged. **V-008 and V-009 remain the only executable
+specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007 remain not
+executable.** **No `V-` identifier was consumed. Nothing in this file was executed.**
 
 **Cycle 91 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 91's substantive work was a **state-integrity repair** (the Cycle-90 cat-bond screen's record, which

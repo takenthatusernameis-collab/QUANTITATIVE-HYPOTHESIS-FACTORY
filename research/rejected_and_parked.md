@@ -5,9 +5,31 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 92 complete, 2026-10-20. 53 rejections (R-001 … R-053), 13 parking records of
-which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 90-row known-baseline
-table.** Cycle 92 added **one rejection (R-053), no parking record and one baseline row (row 90)**, and it
+Last updated: **Cycle 93 complete, 2026-10-21. 54 rejections (R-001 … R-054), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 91-row known-baseline
+table.** Cycle 93 added **one rejection (R-054), no parking record and one baseline row (row 91)**, and it
+**opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
+new mechanism family** — the **interval-fund / semi-liquid private-credit repurchase family** (registered
+closed-end funds and BDCs that offer a periodic repurchase of their own shares at net asset value under
+Rule 23c-3, with no secondary market for those shares) — which returned a **bounded negative (R-054)** on five
+independent reasons, each tied to a line-verified passage: the **mechanism is published law, fixed in
+advance**; the **tradeable object does not exist**, because the price *is* NAV and there is no secondary
+market; the **sign-determining state is not observable at decision time**; the **cost and rationing mechanics
+bind**, and the published regulator's own risk language says the *remaining* holder is diluted rather than the
+redeemer; and the **sample and the regime are adverse** (the 2026 repurchase pressure fell on the non-traded
+BDC leg rather than on the interval-fund leg, and the rule itself is mid-amendment). The cycle's second
+operation was the **bounded retrieval of the three freight-route debts** named by the Cycle-92 handoff: **one
+closed by a genuine route** (the Alizadeh–Kappou–Tsouknidis–Visvikis (2015) liquidity-premium paper is now
+**line-verified** from the authors' accepted version in the University of Reading's institutional repository,
+**S-364**, so the Cycle-91 honest negative on that paper is closed) and **two remaining honest negatives**
+with every named route re-tested and exhausted (**Ko & Chang (2024)**; **Kavussanos, Visvikis & Menachof
+(2004)**). The Ko & Chang bibliographic record was **verified against Crossref**, which corrects the Cycle-91
+label: the paper at 51(5): 717–744 is titled "Analysis and forecasting of the dry bulk shipping market:
+structural VAR models using FFA-spot-time charter rates", and the "Physical-Paper Hypothesis" description is
+no longer relied on. *(State-integrity note, Cycle 93: R-052's record is **annotated, not rewritten** — its
+verdict, its baseline row and its re-screen condition are unchanged; only the provenance of one of its three
+sought neighbours is updated, and the family is **not** re-screened.)* Earlier history: Cycle 92 added **one
+rejection (R-053), no parking record and one baseline row (row 90)**, and it
 **opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
 new mechanism family** — the **electricity-derivative contract-pricing family** (wholesale power futures/forwards
 and swaps) — which returned a **bounded negative (R-053)** on five independent reasons, each tied to a
@@ -1619,6 +1641,156 @@ above. No `P-` or `R-` identifier was moved or renumbered.
 - **Sources.** S-356, S-357, S-358 (all line-verified via publisher metadata/DOI in this cycle).
 - **Decision:** bounded negative (R-053). No dossier created; no `IDEA-` identifier consumed; no gap opened. The family is recorded as a baseline and rediscovery guard (row 90).
 
+## R-054 — Interval-fund / semi-liquid private-credit repurchase: a periodic tender at net asset value with no secondary market (Cycle 93 family screen — bounded negative)
+
+**What was screened.** The register's **seventh mechanism-first family screen** (after R-047 in Cycle 75,
+R-048 in Cycle 80, R-049 in Cycle 87, R-050 in Cycle 88, R-051 in Cycle 90, R-052 in Cycle 91 and R-053 in
+Cycle 92): the **interval-fund / semi-liquid private-credit repurchase family** — registered closed-end funds
+and business development companies that, under **Rule 23c-3 of the Investment Company Act of 1940**, make a
+**periodic repurchase offer** to their own shareholders at **net asset value**, and whose portfolio is
+predominantly **less liquid or private-credit assets** (the SEC's own term for these vehicles is "interval
+funds"; the adjacent, non-23c-3 vehicle is the "non-traded BDC"). The family's shape is a **designed,
+rules-based liquidity window**: a shareholder can exit only by tendering into a published quarterly window,
+at a price that is *by construction* the fund's own NAV, with no market on which to buy or sell the shares
+in between.
+
+**Why the family was worth screening now.** The family is **absent from the known-baseline table** and from
+every earlier screen (the state-first templates A–I, R-039 … R-046, and the mechanism-first family screens
+R-047 … R-053): no row covers interval funds, semi-liquid vehicles, private credit or Rule 23c-3, and the
+file contains no prior mention of the family. It was named in the Cycle-90, Cycle-91 and Cycle-92 handoffs
+among the absent families. It is a **neighbour rather than a re-presentation**, and in fact the register's
+**structural mirror image** of R-050: R-050's family is the *listed* vehicle that trades at a discount to a
+published NAV, while this family is the *unlisted* vehicle whose exit price **is** the NAV — the mirror
+removes the very object (a discount to a published price) that made the R-050 family a screenable
+concession in the first place. That mirror relation is a reason to screen the family on its own terms rather
+than to assume R-050's verdict transfers to it, and it is the reason the screen was run against the family's
+**own** published documents rather than against the CEF/BDC discount literature.
+
+**Sources.** **S-359** (17 CFR 270.23c-3, the rule itself, **line-verified** from the eCFR's current text);
+**S-360** (U.S. SEC, "Interval Fund Modernization …", proposed rule, Release No. 33-11444, 91 FR 63388,
+October 5, 2026 — **line-verified** from the Federal Register's full plain-text rendition); **S-361**
+(Opportunistic Credit Interval Fund, "Notice of Quarterly Repurchase Offer", Form N-23c-3, 10 December 2025 —
+**line-verified** from EDGAR); **S-362** (Financial Stability Board press release Ref: 29/2024, 15 November
+2024 — **line-verified**); **S-363** (Matvos, Piskorski & Seru, NBER Working Paper 34991, March 2026,
+revised August 2026 — **line-verified**). No neighbour is used as a verification basis: the two freight-route
+papers sought in this cycle were recorded as honest negatives in the source ledger and are **not** used here.
+The screen ran against a **pre-registered decision rule** with five independent grounds and was **stopped** as
+soon as five grounds were established rather than padded out.
+
+**Reason 1 — the mechanism is published law, fixed in advance; there is nothing to discover, and the flow is
+the obligor's own.** Rule 23c-3 specifies the mechanism down to the dates: the company "shall repurchase the
+stock for cash **at the net asset value determined on the repurchase pricing date**"; the repurchase offer
+amount "shall not be less than five percent nor more than twenty-five percent", set by the directors "before
+each repurchase offer"; the pricing date "shall occur **no later than the fourteenth day after a repurchase
+request deadline**"; payment follows "seven days after the repurchase pricing date"; and the whole schedule
+must be fixed in a **fundamental policy** "changeable only by a majority vote of the outstanding voting
+securities", with a notification sent "no less than twenty-one and no more than forty-two days before each
+repurchase request deadline" that must state "that the company is offering to repurchase its securities from
+security holders at net asset value" (S-359). The SEC's own description matches: interval funds "offer the
+**predictability of a mandatory, limited, rules-based liquidity framework**" (S-360, 91 FR 63389). Every
+parameter — price, size, window, rationing, suspension grounds — is **published in advance by the obligor**,
+so the flow is announced and anticipated rather than discovered, and the party that must absorb it is the
+fund itself. On the register's standing precedence (a published, pre-announced, obligor-owned flow is a
+baseline rather than an exploitable dislocation), nothing here is a concession to harvest.
+
+**Reason 2 — the tradeable object does not exist: the price *is* the NAV and there is no market.** The fund's
+own repurchase notice states it plainly: the offer is "to repurchase, for cash, up to five percent (5%) of
+its issued and outstanding Class I Shares **at a price equal to the net asset value**", and "**the purpose of
+this offer is to provide a level of liquidity to shareholders since no secondary market exists for these
+Shares**"; "**The Shares are not traded on any organized market or securities exchange**" (S-361). There is
+therefore no price at which the shares can be bought below a published price, and no price at which they can
+be sold into one. This is the decisive structural point, and the SEC's own rule-making document locates the
+discount object **in the listed class, not in this one**: "Other investors that prefer more immediate
+secondary market liquidity … may instead buy listed shares representing the same underlying portfolio at a
+market price. **Where listed shares trade at a discount to the underlying portfolio's NAV, there may also be
+opportunities for the fund to take actions that benefit all shareholders**" (S-360, 91 FR 63448). The
+unlisted interval-fund class has no such discount to act on; it has only a NAV. The independent published
+account is the same: "Publicly traded BDCs face little direct redemption pressure because investors can exit
+by selling shares in secondary markets without requiring the vehicle itself to liquidate assets or return
+capital. Non-traded BDCs, however, often offer investors periodic liquidity through repurchase programs"
+(S-363) — the secondary market is what makes an exit a trade; here the exit is a tender.
+
+**Reason 3 — the sign-determining state is not observable at decision time; the price that decides the trade
+is computed after the decision.** The quantity that decides whether a tender is profitable is the NAV **at
+the repurchase pricing date**, which the rule forbids computing before the request deadline closes (S-359,
+(a)(5)), and which the fund itself warns is unknown at the moment of the decision: "The NAV at which the Fund
+will repurchase Shares **will not be calculated until the Repurchase Pricing Date** … The NAV can fluctuate.
+Therefore, the NAV on the Repurchase Pricing Date **may be higher or lower** than the NAV stated above or the
+date on which you return your Repurchase Request Form", and "You may be subject to NAV fluctuation during the
+period between quarterly repurchase offers" (S-361). The underlying marks are private-credit appraisals, and
+the sector's own supervisor states the problem in terms: "Due to **data gaps, lack of a secondary market to
+publicise valuations, and limited disclosure**, it remains a challenge to monitor and understand the
+vulnerabilities of this sector" (S-362); the measured literature treats "information frictions and the risk of
+valuation contagion" as one of private credit's four live vulnerability channels (S-363). A candidate that
+wanted the "stale NAV" would have to be right, in sign and in magnitude, about an unobservable future mark
+revision, and would be paid for taking the fund's disclosed risk rather than for finding a dislocation.
+**G-12's sign-and-existence limb and G-13's published-before-the-decision limb both fail.**
+
+**Reason 4 — the cost and rationing mechanics bind, and the regulator's own risk language runs against the
+redeemer rather than for it.** The economics of the exit are set by the rule: the repurchase is at NAV, the
+only deduction permitted is "a repurchase fee, not to exceed two percent of the proceeds", and a company "may
+not condition a repurchase offer upon the tender of any minimum amount of shares" (S-359); when tenders
+exceed the offer, the company "shall repurchase the shares tendered **on a pro rata basis**" (S-359,
+(b)(5)), with the fund's notice stating the position in the shareholder's own words: "**There can be no
+assurance that the Fund will be able to repurchase all Shares that each shareholder has tendered** … you may
+not be able to tender all Shares that you wish to tender and may have to wait until the next quarterly
+repurchase offer", and "The Fund reserves the absolute right to reject any or all tenders of Shares"
+(S-361). The rule's own asset-coverage requirement also undercuts a "stale-NAV" reading: from notification
+until the pricing date, "at least 100 percent of the repurchase offer amount shall consist of assets that can
+be sold or disposed of in the ordinary course of business, **at approximately the price at which the company has
+valued the investment**" (S-359, (b)(10)(i)) — the fund is required to hold assets disposable at approximately
+the price it has marked them at. And the SEC's own risk language names the direction of the concession: "an
+interval fund that faces large and persistent repurchase requests that it is unprepared to meet may need to
+borrow (thus increasing fund leverage), **sell off less liquid assets at a discount to fair value (thus
+diluting the value of outstanding shares)**, or both" (S-360, 91 FR 63438). The published concession runs
+**against** the redeeming holder and **toward** the remaining holder; the mechanism by which a redeeming
+shareholder could gain is precisely the mechanism the rule and the regulator describe as a compliance failure
+rather than a price.
+
+**Reason 5 — the sample and the regime are adverse, and the frame is a moving target.** The family is
+**small and recently formed**: "The number of interval funds has grown from 58 in 2020 to 139 in 2025 and the
+aggregate net assets have increased from $38 billion to $101 billion during that same period", with "Credit
+strategies … representing approximately 55 percent of aggregate net assets" (S-360, 91 FR 63392–63393,
+Form N-CEN as of December 2025). The published 2026 stress episode **did not land on this family**: "In
+early 2026, multiple non-traded BDCs and registered closed-end funds, including several interval funds,
+experienced increased investor demand to repurchase shares … However, this repurchase pressure has **largely
+affected non-traded BDCs** … **By contrast, interval funds experienced net inflows during the same period**,
+with aggregate net assets up 2.2 percent from the prior quarter" (S-360, 91 FR 63430). The evidence base is
+thin and dated: the measured literature covers "approximately 1,300 funds between 2000 and 2024" of
+**institutional** private credit with fund lives of "8–12 years" (S-363), not the retail semi-liquid wrapper,
+and the regulator's own document states that the framework is **under amendment** — a proposed rule with
+comments closing 4 December 2026 (S-360). Any candidate in this family would therefore have to be specified
+against legal parameters that are in motion (the proposed monthly intervals, a deferred first repurchase and
+a principles-based liquidity requirement), on a universe that is growing, on a family whose only documented
+stress episode belongs to an adjacent vehicle, and against a private-credit mark whose direction is not
+knowable at decision time.
+
+**Dated re-screen condition.** Re-screen only if (a) a **published, decision-time** state is shown to
+determine the **sign or the existence** (not merely the magnitude) of a return from holding or tendering an
+unlisted interval-fund share, and that state is **not** the NAV itself (which the rule fixes to the pricing
+date and which the fund publishes); (b) a **secondary or transferable exit** for the unlisted share class is
+created or documented — the SEC's own proposal contemplates a **listed** share class alongside the unlisted
+one, and until such a class exists with its own published price, the discount object that R-050's family has
+is **absent** here; (c) the **SEC's final rule** in the "Interval Fund Modernization" proceeding (comments
+closed 4 December 2026) is read in full and the re-screen is specified against the **final** parameters —
+intervals, first-repurchase deferral and the liquidity framework — rather than against the current rule; and
+(d) a **documented, line-verified record of realised repurchase outcomes** for the unlisted class (tendered
+amount, honoured amount, pro-rata or discounted settlement) is obtained from documents that can be fetched
+and text-extracted, so that the family's cost floor is **measured** rather than argued from the rule.
+
+**Decision:** **bounded negative (R-054).** The interval-fund / semi-liquid private-credit repurchase family is
+recorded in the known-baseline table (**row 91**); no dossier was created; no `IDEA-` identifier was
+consumed; **six `S-` identifiers were consumed (S-359 … S-364)**, of which five carry this screen and one
+(**S-364**) closes the Cycle-91 retrieval debt on the freight-liquidity paper; no score changed; no
+validation specification was added; and **no new gap is opened**, because the reasons are independent of data
+availability — the family failed on the *published-and-pre-announced-mechanism* limb (reason 1), the
+*no-tradeable-object* limb (reason 2), the *unobservable-sign* limb (reason 3), the *cost-and-rationing* limb
+(reason 4) and the *sample-and-regime* limb (reason 5). The screen's product is a **rediscovery guard**
+(row 91) and a sixth registered precedent that the *mechanism-first* operation can be run on a genuinely new
+family; it is also the register's first screen of a family in which **the exit price is legally identical to
+the published NAV and no market exists between the two**, which is the structural inverse of R-050's
+listed-discount family.
+
 ## Known baselines (reference set, not candidates)
 
 These are recorded so that future sessions do not re-present them as discoveries and so that new
@@ -1718,6 +1890,7 @@ to baselines.
 | **Freight-derivative contract pricing: the dry-bulk FFA forward curve and the container-freight futures family (added in Cycle 91)** | **Published, as a bounded-negative mechanism-first family screen (R-052) — the Baltic Exchange's dry-bulk Forward Freight Agreement forward curve (Capesize, Panamax, Supramax, Handysize routes), the container-freight futures listed on the Shanghai International Energy Exchange (SCFIS (Europe service): multiplier CNY 50 per index point; six listed months — February, April, June, August, October, December; daily price limit within ±10% of the preceding settlement; minimum trading margin 12% of contract value, rising to 20% and then 30% near expiry; cash settlement on the arithmetic mean of three weekly SCFIS prints) (S-352, the venue's own 2023 handbook, **line-verified**), and the published container spot indices against which those contracts settle.** The **premium's formation and decomposition are published**: "the bulk of basis volatility can be attributed to expectations about future physical market conditions rather than expectations about future risk premia", with "significant predictability of risk premia by both price-based signals and economic variables" and a published account of "near-rational" but slightly contrarian beliefs, on monthly Baltic data for January 2007 – September 2016 (S-350, Moutzouris & Nomikos 2019, *Journal of Futures Markets* 39(8), accepted version, **line-verified**). The **trade itself is published, with published results and published caveats**: "trading rules do outperform the buy-and-hold benchmark in general" and certain technical rules "consistently outperform the benchmark in the FFA markets even after accounting for transaction costs and order delays induced by thin trading", with the authors' own caveats of "illiquidity and a small sample size" (S-351, Nomikos & Doctor 2013, *Transportation Research Part E* 52, accepted version, **line-verified**). The **cost floor and the market's structure bind**: FFA are "cash-settled forward contracts … the underlying asset being one of the freight indices published by the Baltic Exchange", and "Trades are primarily carried out through brokers in the OTC market and are therefore subject to 'friction' in terms of the speed of execution, liquidity and transaction costs, which may significantly affect profitability" (S-351). The **sign-or-existence limb is not met**: the forward curve is published at decision time and already carries the information, and the published conditioners are literature-standard and lagged (S-350). The **sample and the regime are adverse**: monthly data ending in 2016 (S-350) and a published robustness check that removes 1 April – 24 December 2008, with the published framing of the edge as a "younger market" result expected to decay as the market matures (S-351). **This is a baseline and a rediscovery guard:** the premium, its decomposition, the trade and its caveats are all published, so a candidate here would re-present published work and must answer it explicitly — including the published result's own stated weaknesses of illiquidity, thin trading, order delays and sample size. |
 
 | **Electricity-derivative contract pricing (wholesale power futures/forwards and swaps, added in Cycle 92)** | **Published, as a bounded-negative mechanism-first family screen (R-053).** Wholesale electricity derivatives exist to hedge volatility/spikes; futures do not provide unbiased forecasts of spot prices and premiums are regime-dependent (S-356). Accurate modeling requires mean reversion, changing long-run expectations, seasonality, extreme volatility/spikes, time-varying jump intensity to fit spot and futures (S-357). Long-tenor contracts can be scarce ("missing markets") reflecting incompleteness/costs (S-358). The literature splits between price-formation archetypes and empirical work with few reconciliations (S-358). **This is a baseline and a rediscovery guard:** hedging/tail-risk is well-documented; no published decision-time state was identified that changes the sign or existence of a tradeable edge after costs not already captured by the baseline literature, so the family fails G-12. |
+| **Interval-fund / semi-liquid private-credit repurchase: a periodic tender at net asset value with no secondary market (added in Cycle 93)** | **Published, as a bounded-negative mechanism-first family screen (R-054) — registered closed-end funds and BDCs that offer a periodic repurchase of their own shares at net asset value under Rule 23c-3, with no secondary market for those shares.** The **mechanism is published law fixed in advance**: the company "shall repurchase the stock for cash at the net asset value determined on the repurchase pricing date"; the offer amount "shall not be less than five percent nor more than twenty-five percent"; the pricing date "shall occur no later than the fourteenth day after a repurchase request deadline"; payment follows "seven days after the repurchase pricing date"; and the schedule is fixed in a fundamental policy "changeable only by a majority vote of the outstanding voting securities", notified "no less than twenty-one and no more than forty-two days before each repurchase request deadline" (S-359, the rule itself, **line-verified**). The SEC's own account is that interval funds "offer the predictability of a mandatory, limited, rules-based liquidity framework" (S-360, 91 FR 63389). The **tradeable object does not exist**: a fund's own notice states "the purpose of this offer is to provide a level of liquidity to shareholders **since no secondary market exists for these Shares**" and "The Shares are not traded on any organized market or securities exchange" (S-361, Form N-23c-3, **line-verified**); the regulator locates the discount object in the **listed** class — "Where listed shares trade at a discount to the underlying portfolio's NAV, there may also be opportunities for the fund to take actions that benefit all shareholders" (S-360, 91 FR 63448) — and the published account distinguishes the two legs: "Publicly traded BDCs face little direct redemption pressure because investors can exit by selling shares in secondary markets" (S-363, **line-verified**). The **sign-determining state is unobservable at decision time**: "The NAV at which the Fund will repurchase Shares will not be calculated until the Repurchase Pricing Date … may be higher or lower", and the sector's supervisor states that "data gaps, lack of a secondary market to publicise valuations, and limited disclosure" make the vulnerabilities hard to monitor (S-362). The **cost and rationing mechanics bind**: tenders beyond the offer are met "on a pro rata basis" (S-359), with "There can be no assurance that the Fund will be able to repurchase all Shares that each shareholder has tendered", and the regulator's risk language says a fund unprepared for repurchases may "sell off less liquid assets at a discount to fair value (thus diluting the value of outstanding shares)" (S-360, 91 FR 63438). The **sample and regime are adverse**: 139 funds and $101 billion of net assets in 2025, and "By contrast, interval funds experienced net inflows during the same period" when the early-2026 repurchase pressure "largely affected non-traded BDCs" (S-360, 91 FR 63430). **This is a baseline and a rediscovery guard:** the family is the structural **mirror image** of the Cycle-88 listed price-to-NAV discount family — the mirror removes the discount object — so the two families' verdicts must not be interchanged, and any future candidate must specify the state, the exit and the final rule separately. |
 ---
 
 ## Rediscovery guard
@@ -2704,6 +2877,32 @@ Derivatives Research* 7(3): 241–266 (the unbiasedness paper; the host returned
 liquidity-premium paper; the publisher's body is paywalled and the working-paper route returned **HTTP
 404**). Their bibliographic records were verified against Crossref, and each failure is recorded as an
 honest negative in the source ledger.
+
+> **Cycle-93 provenance annotation (record unchanged; verification upgrade and one bibliographic correction).**
+> The Cycle-92 handoff named a bounded retrieval of the three sought neighbours above. It was executed in
+> Cycle 93 and its result is recorded here **without changing this record's verdict, baseline row or
+> re-screen condition**:
+> (a) **Alizadeh, Kappou, Tsouknidis & Visvikis (2015) is no longer a neighbour — it is now line-verified and
+> registered as S-364.** The authors' accepted version was obtained from the University of Reading's
+> institutional repository (CentAUR) and text-extracted, and the paper's published liquidity-premium result
+> is now quotable: "Results indicate that liquidity risk is priced and both liquidity measures have a
+> significant role in determining freight derivatives returns", with "the Amihud trading volume-related
+> liquidity measure and the bid-ask spread measure are both found to be positive and statistically
+> significant in explaining returns on FFA contracts". **Re-screen condition (c) is therefore partially
+> satisfied**: a cost and liquidity record now exists as a line-verified document for the dry-bulk FFA leg,
+> with a documented 2008–2014 sample, proprietary Clarksons bid-ask data and a Baltic-Exchange Amihud
+> measure. **This does not re-open the family** — reason 3 remains a negative for the reasons given below,
+> because the record now *confirms* rather than removes the cost floor.
+> (b) **Ko & Chang (2024) remains an honest negative** (T&F **HTTP 403**; the SSRN accepted version recorded
+> by Unpaywall also **HTTP 403**), and its **bibliographic label is corrected**: Crossref verifies the paper
+> at 51(5): 717–744 as Byoung-Wook Ko and Young-Tae Chang, "Analysis and forecasting of the dry bulk shipping
+> market: structural VAR models using FFA-spot-time charter rates" (DOI 10.1080/03088839.2024.2348692), and
+> the SSRN accepted version carries the same title. The Cycle-91 description of this paper as the
+> "Physical-Paper Hypothesis" paper is **not corroborated by the publisher's bibliographic record** and is
+> **no longer relied on** by the register.
+> (c) **Kavussanos, Visvikis & Menachof (2004) remains an honest negative** (the Springer host returns its
+> client-challenge interstitial; `cris.city.ac.uk` does not resolve from this environment; SSRN **HTTP 403**;
+> CiteSeerX **HTTP 404**; Unpaywall reports the article as closed with no open-access location).
 
 **Reason 1 — the family's headline is published, and so is its decomposition.** The formation of the FFA
 rate is a published research question with a published answer: "We illustrate that **the bulk of basis
