@@ -5155,3 +5155,13 @@ own table; update the five artifact headers to "**Cycle 114 complete**" **and re
 cycle's outcomes section to the log; rewrite `next_agent_handoff.md` for Cycle 115 with a fresh,
 self-contained initial task message. **Any assertion that a family is "unscreened" must carry its evidence,
 and a re-screen must be reported as weaker than a first-time screen.**
+
+### Outcomes (Cycle 114) — in progress
+
+#### P1 — construction-first method test (Priority 1)
+
+**Phase 0 — domain selection (before any fetch).** Selected **(i) Tariff-rate-quota and import-licence rationing** — specifically the **US sugar TRQ** mechanism (published quota-exhaustion ledger / USDA quota status). Reason: the handoff lists it as a lead to be verified (not a citation) with a mechanism that is a *published price step at a published exhaustion moment* on a price-insensitive importer; it is plausibly unscreened relative to the register's closed compliance-deadline templates (R-039, R-040) because the step is a *statutory rate differential* fixed in advance with *no auction price*, and the unknown is the exhaustion moment (accounting-observable). The instance is furthest from closed templates, making it informative for the method test. Choice recorded before any external fetch; no external literature consulted at Phase 0/1.
+
+**Phase 1 — construction (written blind, no external literature).** (see P1 pre-reg construction above, executed as written): structural feature is known price step attached to unknown but accounting-observable exhaustion; participants include quota holders capturing quota rent and non-quota importers as price-insensitive constrained flow (the flow the mechanism needs); decision-time state is published weekly quota-status ledger (binary exhausted/not, residual quantity); sign claim is domestic–world spread widens abruptly at exhaustion and persists; three falsifiable predictions (P1 timing, P2 conditionality, P3 no anticipation drift) with kill conditions; cost-floor reasoning notes incremental premium vs headline differential, exhaustion discovered only after volume enters (G-13/third-test hazard), and tradability/feasibility of domestic leg as open questions. No external documents fetched/searched/read in composing construction.
+
+**Phase 2 — ordinary screen (pre-registered routes).** Routes applied conceptually against construction; will be executed via targeted fetches below with verification discipline.
