@@ -4232,3 +4232,40 @@ still not to be re-derived; and **V-002** stays frozen, **V-008** and **V-009** 
 | `validation_handoffs.md` | Header rewritten for Cycle 109; **no specification created, amended, withdrawn or re-created; no status changed.** |
 | `cycle_notes.md` | Cycle-109 section added: the record-integrity note on the relocation of P-3, the pre-registrations P-3 … P-6, the three-pass loop, the outcomes and this index. |
 | `next_agent_handoff.md` | Rewritten: the Cycle-110 task, the open questions, the gaps, the next families, and a fresh, self-contained initial task message for **Cycle 110**. |
+
+
+## Cycle 110 — 2026-10-21
+
+Theory-only cycle executing the five priorities from the Cycle-109 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) close the P-3 screen's named residual — the IASB's published list of entities permitted to apply IFRS early in 2005; (2) dated re-check of whether the IFRS Foundation publishes an IFRS 18 jurisdiction adoption calendar (same four profile documents + any separate tracker + index page filters); (3) generalise the course-host route family to remaining un-obtained published bodies (S-238 is named instance) with version-discrimination test; (4) pre-register and execute state-availability audits for IDEA-015, IDEA-013, IDEA-008, IDEA-010, IDEA-005 (R-056 form); (5) housekeeping and handoff rewrite to Cycle 111.
+
+**Pass 2 — Critique.** Must follow all rules strictly: record negatives with routes/failure modes; no re-run of exhausted routes without different host/path; upgrade only when annotation written to entry in same cycle; pre-register before executing screens and write pre-registration first. For Priority 1, explicitly look for IASB-published early-adopter list for 2005 (not just general statements). For Priority 2, re-check the same four profile PDFs (EU, Saudi Arabia, Nigeria, Ghana) fetched on/around 21 Oct 2026 plus index page. For Priority 3, S-238 is the named instance - need to identify candidate documents first, enumerate host pattern, apply version-discrimination. For Priority 4, pre-register each audit.
+
+**Pass 3 — Revise.** Execute with discipline as above.
+
+### Priority 1 — Pre-registration
+Question: Does the IASB (or IFRS Foundation) publish a list of entities permitted to apply IFRS early in 2005? If yes, does it fix the firm-level "repeat adopter" flag for the 2005 event as published prospectively?
+Routes to try (non-exhaustive, will record all):
+1. IASB/IFRS Foundation website searches for "early adopter", "first time adoption", "IFRS 1 early adoption", "2005" in historical publications
+2. Check IFRS 1 standard history/disclosure requirements
+3. Check EU regulation/IASB announcements from 2003-2005 period (annual reports already examined)
+4. Check known databases/archives (Wayback) for IASB pages from 2004-2005 mentioning early adopters list
+Falsification: if no published list found after exhausting reasonable routes, record bounded negative (R-058) with routes tried and failure modes.
+
+### Priority 1 — Execution
+---
+### Priority 1 — Execution (detailed)
+
+**Routes tried:**
+1. Web search queries (via websearch): "IASB published list entities permitted apply IFRS early 2005", "IASB early adopters 2005 list", "IFRS 1 early adoption list 2005" — no firm-level early-adopter registry surfaced.
+2. IFRS Foundation historical publications: 2003 Annual Report (found references to ~100 countries adopting by 2005, work programme), 2005 Annual Report, IOSCO 2005 statements — no firm-level list of entities.
+3. IFRS 1 standard page/history — contains no firm-level early-adopter list.
+4. Wayback/archive checks for IASB pages from 2004-2005 mentioning early adopter lists — no published firm-level list located.
+
+**Outcome:** Bounded negative. The firm-level "repeat adopter" flag for the 2005 event remains derivable from each firm's published prior-year basis-of-preparation note, not published prospectively. The P-3 screen's named residual is closed as R-058.
+=== Priority 2 ===
+
+**Pre-registration (Priority 2):** Dated re-check of whether the IFRS Foundation now publishes an IFRS 18 jurisdiction adoption calendar. Will re-check: (i) the same four profile documents (EU, Saudi Arabia, Nigeria, Ghana) — fetch directly with metadata (URL, HTTP status, bytes, pages/characters, extraction method); (ii) any separate IFRS 18 endorsement or adoption tracker the Foundation publishes separately; (iii) the "Who uses IFRS Accounting Standards" index page's filter set and stated jurisdiction count.

@@ -3641,3 +3641,11 @@ structure* limb (reason 3), the *sign-and-existence* limb (reason 4) and the *sa
 the *mechanism-first* operation can be run on a genuinely new family; it is also the register's first
 screen of a family in which the **forward contract is the price of a non-storable service** and the
 "quote" is brokered rather than exchanged.
+
+
+### R-058 — IASB list of entities permitted to apply IFRS early in 2005 (Cycle 110, Priority 1) — bounded negative
+
+- **Question:** Was the IASB's published list of entities permitted to apply IFRS early in 2005 available prospectively (fixing the firm-level "repeat adopter" flag)?
+- **Routes tried:** web search (queries "IASB published list entities permitted apply IFRS early 2005", "IASB early adopters 2005 list", "IFRS 1 early adoption list 2005"); inspection of IFRS Foundation historical publications (2003 Annual Report, 2005 Annual Report), IOSCO 2005 statements, IFRS 1 standard page/history; Wayback/archive checks for IASB pages from 2004-2005.
+- **Finding:** No published firm-level early-adopter registry surfaced. The framework-level first-adoption facts are published (as established in Cycle 109 via jurisdiction profile PDFs), but the prospective firm-level list for 2005 could not be located.
+- **Conclusion:** The firm-level "repeat adopter" flag for the 2005 event remains derivable from each firm's published prior-year basis-of-preparation note, not published prospectively. This closes the P-3 screen's named residual; V-009's comparator does not gain a published firm-level list, so classification remains derivation-based for that element.
