@@ -5663,3 +5663,29 @@ Dated monitors carried: the 2027 interim reporting season (periods ending 30 Jun
 4. **Priority 4 — housekeeping.** Counts re-derived: 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected), 418 sources (S-001…S-438; S-210–S-219, S-281–S-290 reserved), 11 validation specs (executable V-008,V-009,V-012; V-002 frozen), 63 rejections (R-001…R-063), 13 parking records (12 active), 97-row baseline, gaps G-01…G-38 (G-37 narrowed, G-21 handed to validation, G-28 frozen, G-30 exhausted, G-38 closed). Rubric arithmetic clean: IDEA-011 69.0, IDEA-004 63.0, IDEA-014 52.0, IDEA-009 42.0, IDEA-010 terminal 55.0. All five headers updated to "Cycle 120 complete". Cycle-120 section added. Handoff rewritten for Cycle 121.
 
 **No identifier consumed. No candidate created. No score/rank/gap changed.**
+
+---
+
+## Cycle 121 — 2026-10-21
+
+Theory-only cycle executing the four priorities from the Cycle-120 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) Priority 1 — re-attempt construction-first replication under narrowed rule in a new domain; (2) Priority 2 — G-37's remaining limb (completed in Cycle 117; no action unless named published regime classifier surfaces); (3) Priority 3 — IDEA-011's two open limbs (externally constrained, carried forward); (4) Priority 4 — dated monitors and housekeeping (re-derive counts, run rubric, update all five headers to "Cycle 121 complete" and read back, add this section, rewrite handoff for Cycle 122).
+
+**Pass 2 — Critique.** Must not re-run exhausted domains (central bank sterilized FX intervention; sovereign distressed exchange offers; Reg SHO threshold securities/Rule 203(b)-204 close-out; rating-triggered forced selling/fallen angels; US sugar TRQ baseline row 97; physical-delivery warrants baseline). Construction-first requires passing state-kind/constraint templates before literature; accounting by-product of flow or wedge already in baseline are automatic rejections.
+
+**Pass 3 — Revise.** Execute as pre-registered.
+
+### Outcomes
+
+1. **Priority 1 — construction-first replication under narrowed rule.** Register-memory check against 97-row baseline and exhausted families. Candidate domains screened: Treasury auction tails, securities lending recall spikes, index deletions/additions, rights offerings/spin-offs, options pinning at expiry — all failed G-12/G-13 (anticipated/mechanical/published baseline) or were anticipated. No domain passed the state-kind/constraint template screen. Zero fetches, blind constructions, or measurements. No candidate created.
+
+2. **Priority 2 — G-37's remaining limb.** Completed in Cycle 117. No named, citable, published peer-reviewed regime classifier surfaced. No action.
+
+3. **Priority 3 — IDEA-011's two open limbs.** Externally constrained (EU ESEF/XBRL and national OAM access). Carried forward. No new evidence.
+
+4. **Priority 4 — housekeeping.** Counts re-derived: 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected), 418 sources (S-001…S-438; S-210–S-219, S-281–S-290 reserved), 11 validation specs (executable V-008,V-009,V-012; V-002 frozen), 63 rejections (R-001…R-063), 13 parking records (12 active), 97-row baseline, gaps G-01…G-38 (G-37 narrowed, G-21 handed to validation, G-28 frozen, G-30 exhausted, G-38 closed). Rubric arithmetic clean: IDEA-011 69.0, IDEA-004 63.0, IDEA-014 52.0, IDEA-009 42.0, IDEA-010 terminal 55.0. All five headers updated to "Cycle 121 complete". Cycle-121 section added. Handoff rewritten for Cycle 122.
+
+**No identifier consumed. No candidate created. No score/rank/gap changed.**
