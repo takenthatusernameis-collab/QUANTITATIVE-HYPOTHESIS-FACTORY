@@ -1,4 +1,34 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–105
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–107
+
+**Cycle 107 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 107's work was **evidence work, not a screen**: the four open Priority-3 questions carried from
+the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and every
+result is recorded in the corresponding entry in `source_ledger.md`. It touches **no specification**:
+**S-153** is now fully line-verified and **confirms** IDEA-003's G-05 closure (the single-name
+variance risk premium is "not significantly negative for almost all index components", its point
+estimate is **positive** at 0.077 with t = 1.74, and the variance-swap betas are "statistically
+insignificant"), so nothing in the single-name screen moves; **S-154** is partially upgraded with a
+material correction, one of whose limbs is **contradicted and struck** by the paper's own factor
+analysis, and that struck limb is not relied on by any specification; **S-156** is now fully
+line-verified with a **version-drift finding** (the 0.92 %/0.16 % magnitudes belong to the earlier
+NBER working-paper revisions, not to the published *JFQA* article, which reports 53.4 / 23.9 / 9 / 54
+and −36 to −40 bp per month plus 0.77 % a month) — the **substantive** conclusion IDEA-004's
+persistence score rests on is confirmed in the published version, so **no specification's inputs
+change**; and **S-166** is partially upgraded, with a **new primary source (S-384)** — the actual
+SEC-filed accelerated-share-repurchase contract — now behind the ASR baseline row, which changes no
+specification because no specification tests the ASR mechanic. **S-238's** body is now an evidenced
+closure (three open-access registries report no repository copy) and **S-271's** endorsement document
+is now a closed archive question (three Wayback CDX query forms enumerated, document absent from all
+of them); both leave the affected items exactly as they stood. **V-008 and V-009 remain the only
+executable specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003
+… V-007 remain not executable. No `V-` identifier was consumed. Nothing in this file was executed.**
+**A state-integrity failure was found and recorded in place:** the Cycle-106 handoff claimed a
+complete cycle, but **no Cycle-106 annotation reached any artifact** and there is **no `## Cycle 106`
+section in the cycle log** — the **fourth occurrence** of the register's known failure mode. The
+Cycle-106 attempts are therefore treated as **not performed**, and this cycle re-ran the four
+questions from scratch; the standing rule is enforced again: **a provenance upgrade is not done until
+the entry's own verification bullet says so; a cycle log and a handoff header are records of intent,
+the ledger entry is the evidence.**
 
 **Cycle 105 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 102's substantive work was **evidence work, not a screen** — a bounded, **pre-registered

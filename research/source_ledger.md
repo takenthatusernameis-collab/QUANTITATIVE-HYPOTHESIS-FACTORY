@@ -1,4 +1,69 @@
-# SOURCE LEDGER — CYCLES 1–105
+# SOURCE LEDGER — CYCLES 1–107
+
+**Cycle 107 (2026-10-21) added one new source entry (S-384), minted no new candidate and no new
+validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was
+**evidence work, not a screen**: the four open Priority-3 questions carried from the Cycle-106 handoff
+were re-attempted from scratch over **named, non-exhausted routes**, and every fetch is recorded below
+with its URL, HTTP status, byte count, extraction method and result. **Three entries were upgraded, one
+was partially upgraded with a new primary source behind it, two are evidenced honest negatives, and one
+new primary legal document was registered.**
+
+- **S-153 — UPGRADE, now fully line-verified.** The published *JF* article body was obtained directly
+  from a **course-hosted copy on a new host** (Duke University, HTTP 200, 240,039 bytes, 30 pages,
+  95,036 characters). Every limb of the entry's claim is confirmed in substance: the individual
+  variance risk premium is "not significantly negative for almost all index components", the
+  individual variance risk premium is "insignificant" with a **positive** point estimate (0.077,
+  t = 1.74), the variance-swap betas are "statistically insignificant", and correlation risk does the
+  pricing. The entry's caveat is sharpened from "2009 sample" to the article's own option-data window,
+  **January 1996 until December 2003**.
+- **S-154 — PARTIAL UPGRADE with a MATERIAL CORRECTION, and one claim limb STRUCK.** Two new
+  author-side mirrors (NYU engineering, HTTP 200, 2,094,101 bytes, 60 pages; LMU Munich econ-wpa,
+  HTTP 200, 335,949 bytes) were fetched and read — but **both are the May 2004 working-paper version**,
+  so the published 2009 *RFS* body is still not obtained. Against that body: the "large-index
+  phenomenon" limb is **confirmed**; the "frequently zero or positive" limb is **corrected** to
+  "frequently statistically indistinguishable from zero" (negative in point estimate, insignificant for
+  32 of 35 names); and the third limb, "individual-stock returns do not load on a variance risk
+  premium factor", is **contradicted by the paper's own factor analysis and struck** (individual stocks
+  load *significantly and positively* on a common market variance risk factor — "The slope estimate is
+  statistically significant and positive at 95 confidence level"). The register's IDEA-003 dossier text
+  is unaffected and is confirmed by the now-line-verified S-153 body.
+- **S-156 — UPGRADE with a VERSION-DRIFT FINDING.** The NBER WP 28624 route was exhausted in four
+  fetches: the current PDF (HTTP 200, 1,102,922 bytes, 50 pages), **rev1** (HTTP 200, 2,580,961 bytes,
+  57 pages), **rev2** (HTTP 200, 1,757,811 bytes, 62 pages) and the **open-access published *JFQA*
+  PDF** from Cambridge Core (HTTP 200, 1,249,369 bytes, 39 pages). The entry's 0.92 % → 0.16 % monthly
+  magnitudes are **confirmed verbatim in rev1 and rev2** and are **absent from the current NBER revision
+  and from the published article** (whose magnitudes are 53.4, 23.9, 9, 54 and −36 to −40 basis points
+  per month, plus 0.77 % a month internationally). The attribution is corrected accordingly; the
+  mechanism and the substantive conclusion are unchanged.
+- **S-166 — PARTIAL UPGRADE of the mechanic from a PRIMARY document; the paper's own body text is
+  still closed.** All three author routes fail (Marquette e-Publications HTTP 403 on three header
+  variants, SSRN HTTP 403, Pitt d-scholarship HTTP 404; Semantic Scholar reports the only OA copy is
+  the SSRN record). The contract the paper itself cites was obtained instead and is registered as
+  **S-384**.
+- **S-238 — HONEST NEGATIVE with an evidenced closure.** Three open-access registries (OpenAlex,
+  Unpaywall, Semantic Scholar; each fetched directly, HTTP 200) all report the article as closed with
+  **no repository copy**; the two named author routes (conference version via the AMF; the Concordia
+  institutional repository) return HTTP 404. The body is not publicly available, and the entry's
+  introduction-level summary remains index-rendered.
+- **S-271 — HONEST NEGATIVE, and the Wayback route forms are now exhausted.** Three CDX query forms
+  (domain-wide, `getattachment` prefix, `Technical-Resources` prefix) were enumerated; the
+  endorsement document appears in none of them, and the CDX endpoint became intermittently unavailable
+  (HTTP 503 / connection refused) part-way through the cycle, which is recorded as a failure and not
+  as a null result.
+- **S-384 — NEW PRIMARY LEGAL DOCUMENT.** FirstMerit Corporation / Goldman, Sachs & Co.,
+  "Accelerated Share Repurchase Master Confirmation" and "Supplemental Confirmation for Fully
+  Uncollateralised Transactions" (Exhibit 99.1 to FirstMerit's Form 8-K, 19 January 2006, accession
+  0000950152-06-000339), fetched directly from EDGAR (**HTTP 200, 149,031 bytes**, text layer 73,839
+  characters). It line-verifies the ASR contract architecture — immediate delivery against cash, the
+  **four-month** covering window constrained daily by Rule 10b-18(b)(4), the discount/compensation
+  settlement, and the downside termination price — in a **primary instrument** rather than in a
+  secondary description. It is the document Bargeron, Kulchania & Thomas cite in their Appendix A.
+
+The register now holds **374 verified sources** (S-001 … S-209, S-220 … S-384; S-210 … S-219 reserved
+and unused). **Next free identifiers: IDEA-017, S-385, V-012, G-37, R-056, P-015.** No identifier was
+consumed by the upgrades themselves (an upgrade strengthens an existing entry; it does not mint one),
+and **no score, rank, gap or specification changed** — every item above is provenance, and the one
+new source strengthens a baseline row that already existed.
 
 **Cycle 105 (2026-10-21) added no new source entry, minted no new candidate and no new validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work, not a screen**: a bounded, alternate-route provenance-upgrade operation was executed over eight named targets (S-148, S-151, S-152, S-179, S-181, S-247, S-258, S-329) via different hosts/paths from the Cycle-104 Crossref attempts. **Three upgrades** were confirmed at abstract level via the entries' actual DOIs (S-151 via Crossref `10.1093/rfs/hhag032`, S-179 via Crossref `10.31203/aepa.2015.12.4.006`, S-181 via Crossref `10.2139/ssrn.7046559`) — S-151's Cycle-104 honest-negative listing remains contested and carried forward unresolved. **Three honest negatives** were recorded (S-148 `10.1016/j.jfineco.2024.103860`, S-152 `10.1016/j.jfineco.2025.104229`, S-258 `10.2139/ssrn.4132469`), all no deposited abstract. S-247 and S-329 carried pre-existing Cycle-105 provenance annotations. Annotation written into entries in Cycle 105.
 **Six upgrades** were recorded in place (S-157, S-160, S-167, S-274, S-115, S-172), each with HTTP
@@ -4546,17 +4611,66 @@ DOI: https://doi.org/10.1111/j.1540-6261.2009.01467.x
   hits** in the deposited abstract, so that claim **remains index-rendered and is not
   line-verified**. The verification label moves from **index-rendered** to **line-verified for the
   bibliographic record and the correlation-risk conclusion; the single-name-premium magnitude claim
-  remains index-rendered**. The Wiley 403 route was **not** re-run. **No re-score and no hard-stop
-  change follow.**
+   remains index-rendered**. The Wiley 403 route was **not** re-run. **No re-score and no hard-stop
+   change follow.**
+- **Cycle-107 verification — UPGRADE: the article body is now obtained directly and the entry's claim
+  is confirmed in substance. The entry becomes fully line-verified.** The **new route** is a
+  **course-hosted copy of the published article on a different host**: the PDF served from
+  `https://public.econ.duke.edu/~get/browse/courses/201/spr12/DOWNLOADS/WorkingPapers_Now_Published/dmv_jf_09.pdf`
+  was fetched directly on 21 October 2026 — **HTTP 200, 240,039 bytes, application/pdf**, text-extracted
+  with `pypdf` (**30 pages, 95,036 characters**) and read. It is the **published** article: the running
+  head reads "THE JOURNAL OF FINANCE • VOL. LXIV, NO. 3 • JUNE 2009" and the pages carry the journal's
+  own pagination (1384, 1389–1390 inside the 1377–1406 range). The **Wiley 403 route is not re-run** and
+  the earlier search-index reading is superseded. The entry's three claim limbs are each confirmed:
+  - *"what individual options price is correlation risk"* — the abstract reads verbatim: "Correlation
+    risk exposure explains the cross-section of index and individual option returns well. The
+    correlation risk premium cannot be exploited with realistic trading frictions, providing a
+    limits-to-arbitrage interpretation of our finding of a high price of correlation risk."
+  - *"single-stock variance swap returns are insignificant"* — verbatim: "We find that exposure to
+    market risk does not explain the cross-section of individual variance swap returns, as almost all
+    of the first-step betas are statistically insignificant. The common individual variance risk factor
+    is also not priced in individual options; **the individual variance risk premium is found to be
+    insignificant. The point estimate is actually positive (0.077 with a t-statistic of 1.74)**, which
+    is in line with the finding above that realized individual variance exceeds option-implied
+    variance."
+  - *"frequently zero or of the opposite sign to the index-level premium"* — confirmed in substance and
+    more precisely than the entry states. The individual test table reads: "# Stocks — H0: RV − MFIV = 0
+    **not rejected 98**; H0: RV − MFIV ≤ 0 rejected 22; H0: RV − MFIV ≥ 0 rejected 7", and the text
+    reads "We find that the total individual variance risk premium in individual options is **not
+    significantly negative for almost all index components**". The "opposite sign" limb is confirmed
+    precisely by the **positive** point estimate above set against the **negative** index-level premium
+    the paper reports.
+  - **Caveat sharpened, not weakened.** The entry's caveat said "2009 sample (pre-2010)". The article's
+    own data section is now line-verified and is more specific: "daily data from OptionMetrics for
+    S&P100 index options and for individual options on all the stocks included in the S&P100 index from
+    **January 1996 until December 2003**", with "a total of **135 individual stocks** … considered over
+    the entire 8-year sample period". The option-data sample is **1996–2003**, so the entry's
+    "pre-2010" framing is correct but coarse and is now replaced by the exact window.
+  - **What is still NOT the paper's literal wording:** the strings "frequently zero" and "opposite
+    sign" return **zero hits** in the article; they are the **entry's paraphrase** of the table
+    ("not rejected" against a zero null) and of the positive point estimate. The entry's *substance* is
+    confirmed; its *wording* is the register's, not the authors'.
+  - The verification label moves from **line-verified for the bibliographic record and the
+    correlation-risk conclusion; the single-name-premium magnitude claim remains index-rendered** to
+    **line-verified in full — the article body is fetched directly and every limb of the entry's
+    Supports claim is confirmed in substance against the document's own text.** **No re-score and no
+    hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-154 — Carr, P. and Wu, L. (2009)
 "Variance Risk Premia." *The Review of Financial Studies* 22(3): 1311–1341.
 DOI: https://doi.org/10.1093/rfs/hhn038
 - **Type:** Prior empirical result (peer-reviewed).
 - **Supports (as a bounded negative for IDEA-003's single-name version):** variance risk premia on
-  individual stocks are frequently zero or positive; the negative premium is a large-index phenomenon
-  (the S&P 100 carries a negative premium), and individual-stock returns do not load on a variance
-  risk premium factor.
+  individual stocks are frequently **statistically indistinguishable from zero** (negative in point
+  estimate but insignificant for 32 of 35 names in the 2004 working paper); the negative premium is a
+  large-index phenomenon (the S&P 100 carries a strongly negative, strongly significant premium), and
+  the individual-stock premium that does exist is explained by exposure to a **common market variance
+  risk factor** (a significant, positive "variance beta" slope) rather than by single-name variance
+  risk. **Cycle-107 correction:** the third limb as previously recorded ("individual-stock returns do
+  not load on a variance risk premium factor") was **contradicted by the paper's own factor analysis
+  and has been struck**; the second limb's wording "frequently zero or positive" has been corrected to
+  "frequently statistically indistinguishable from zero". See the Cycle-107 verification bullet below
+  for the verbatim evidence.
 - **Caveats:** as S-153 — a pricing result on an older sample; it does not test a gated trading rule.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages, publication
   date) plus the journal landing page via the search index.
@@ -4572,9 +4686,66 @@ DOI: https://doi.org/10.1093/rfs/hhn038
   negative premium is a large-index phenomenon (the S&P 100 carries a negative premium), and that
   individual-stock returns do not load on a variance risk premium factor — **remains index-rendered
   and is not line-verified**; the strings "individual stocks" and "S&P 100" return **zero hits** in
-  the record. The verification label moves from **index-rendered** to **line-verified for the
+  the   record. The verification label moves from **index-rendered** to **line-verified for the
   bibliographic record (with a title correction); the substantive claim remains index-rendered**.
   **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
+- **Cycle-107 verification — PARTIAL UPGRADE (the *working-paper* body is now obtained and read) WITH A
+  MATERIAL CORRECTION TO THE ENTRY'S THIRD CLAIM LIMB, which is contradicted by the paper's own
+  factor analysis.** Two **new routes** were tried, both on different hosts from any earlier cycle:
+  (i) a faculty-hosted mirror at `https://engineering.nyu.edu/sites/default/files/2019-01/CarrReviewofFinStudiesMarch2009-a.pdf`
+  — **HTTP 200, 2,094,101 bytes, application/pdf**, text-extracted with `pypdf` (**60 pages, 134,045
+  characters**); and (ii) an economics-department working-paper mirror at
+  `https://econwpa.ub.uni-muenchen.de/econ-wp/fin/papers/0409/0409015.pdf` — **HTTP 200, 335,949
+  bytes, application/pdf** (**60 pages, 132,347 characters**). **Important qualification: neither route
+  is the published 2009 *RFS* article.** Both documents are the **May 27, 2004 working-paper version**,
+  which self-identifies as "Variance Risk Premia", "First draft: July 26, 2003 / This version: May 27,
+  2004", "Filename: VarianceSwap15.tex". The string "Variance Risk Premiums" (the published title that
+  Crossref records and that this entry's Cycle-102 note corrected to) returns **zero hits** in both
+  documents, and "Variance Risk Premia" appears 4 times. **The published *RFS* 22(3): 1311–1341 body is
+  still not obtained**; the earlier Wiley/Oxford route is not re-run. The verification label therefore
+  moves to **line-verified for the 2004 working-paper version only**.
+  - **Limb 2 — CONFIRMED.** "The largest t-statistics come from the S&P 500 and **S&P 100** indexes and
+    the Dow Jones Industrial Average, which are strongly significant for both variance risk premia and
+    log variance risk premia." The S&P 100 does carry a strongly negative, strongly significant premium,
+    and the individual-stock premia are by contrast "much smaller" and "mostly insignificant". The
+    entry's "the negative premium is a large-index phenomenon" is **confirmed in substance**.
+  - **Limb 1 — CORRECTED.** The entry's wording is "variance risk premia on individual stocks are
+    frequently zero **or positive**". The paper's actual finding is that they are **negative in point
+    estimate but statistically indistinguishable from zero** for most names, not positive: "The mean
+    log variance risk premia are significantly negative for **21 of the 35** individual stocks.
+    However, the mean variance risk premia (RP) are **insignificant for all but three of the 35**
+    individual stocks", and "The average capital gains from going long the variance swap contract (RP)
+    are mostly insignificant for Nasdaq-100 index and individual stocks." "Frequently zero" is
+    defensible as a paraphrase of "insignificant for 32 of 35"; "**or positive**" is **not supported
+    by this paper** — the mean premia it estimates for individual stocks are negative. (A *point
+    estimate* on one factor does flip positive, but that is S-153's individual variance risk factor at
+    +0.077 with t = 1.74, not a general property of individual-stock variance risk premia; the two
+    papers are consistent once read together.) The entry's Supports line is therefore **corrected in
+    place** to read: individual-stock variance risk premia are **frequently statistically
+    indistinguishable from zero**, while the negative premium is a large-index phenomenon.
+  - **Limb 3 — CONTRADICTED, and struck in place.** The entry's third limb reads "individual-stock
+    returns do not load on a variance risk premium factor." The paper's own factor analysis says the
+    **opposite**: "Thus, we conjecture that the market does not price all return variance variation in
+    each single stock, but only prices the variance risk in the stock market portfolio. Based on this
+    hypothesis, the average variance risk premium on each stock is not proportional to the total
+    variation of the return variance, but **proportional to the covariation of the return variance with
+    the market portfolio return variance**." It then estimates "LRPj = 0.0201 + 0.2675 β²V,j + e" and
+    reports: "**The slope estimate is statistically significant and positive at 95 confidence level** …
+    the market charges premium not on the total variance risk for each stock, but on its **covariance
+    with a common variance risk factor**." Individual stocks therefore **do** load significantly and
+    positively on a market variance risk factor. The third limb is **struck**, and the entry's corrected
+    Supports line reads: individual-stock variance risk premia are frequently statistically
+    indistinguishable from zero, the negative premium is a large-index phenomenon, **and** the
+    individual-stock premium that does exist is explained by exposure to a **common market variance
+    risk factor** (a significant, positive "variance beta" slope), not by single-name variance risk.
+  - **Effect on the register: no re-score, no re-screen, no hard-stop change.** The correction does not
+    reopen IDEA-003's single-name version, because the paper's own message is *more* consistent with the
+    bounded negative than the struck limb was: the individual premium is "much smaller" and mostly
+    insignificant, and what is priced is a **market-level** variance factor rather than a single-name
+    one. The register's IDEA-003 dossier text (which cites S-153/S-154 for "frequently zero or of the
+    opposite sign to the index premium … the negative premium is a large-index phenomenon") is
+    **confirmed** by the now-line-verified S-153 body and by S-154's limb 2, and is **not** affected by
+    the struck limb 3, which the dossier never asserted. **No candidate, score, rank or gap changes.**
 
 ### S-155 — Andersen, L., Duffie, D. and Song, Y. (2019)
 "Funding Value Adjustments." *The Journal of Finance* 74(1): 145–192.
@@ -4611,8 +4782,14 @@ DOI: https://doi.org/10.1017/S0022109023000959 · working-paper version: NBER Wo
 - **Supports (for IDEA-004):** the momentum factor's returns fell from **0.92% per month** (January
   1987 – June 2002) to **0.16% per month** afterwards, with an identified mechanism (positive-feedback
   trading in analyst ratings ended after the mid-2002 Morningstar rating reform); factor-momentum
-  strategies show the same decline. Published evidence that the *base effect* which IDEA-004's
-  crowding gate is supposed to condition has decayed sharply and for a documented reason.
+  strategies show the same decline (from 0.61% to 0.14%). Published evidence that the *base effect*
+  which IDEA-004's crowding gate is supposed to condition has decayed sharply and for a documented
+  reason. **Cycle-107 attribution correction:** the 0.92%/0.16% (and 0.61%/0.14%) magnitudes are
+  **verbatim in the early NBER working-paper revisions (rev1/rev2, 2021)** and are **absent from the
+  published *JFQA* article**, whose own magnitudes are the basis-point differences 53.4, 23.9, 9, 54 and
+  −36 to −40 bp per month, plus 0.77% a month in the international triple-difference. The magnitudes
+  should therefore be cited to **NBER WP 28624 (rev1/rev2)**, and the *JFQA* article cited for the
+  mechanism and for its own figures. See the Cycle-107 verification bullet below.
 - **Caveats:** the subject is cross-sectional equity momentum, which IDEA-004's own dossier lists as
   a *rival explanation* for its convergence returns rather than as its base effect; the post-reform
   return is small but still positive.
@@ -4638,6 +4815,76 @@ DOI: https://doi.org/10.1017/S0022109023000959 · working-paper version: NBER Wo
   0.92 %/0.16 % magnitudes remain index-rendered**. The entry's caveat that the subject is
   cross-sectional equity momentum and a rival explanation for IDEA-004 **stands unchanged**. **No
   re-score and no hard-stop change follow.**
+- **Cycle-107 verification — UPGRADE, WITH A VERSION-DRIFT FINDING THAT RESOLVES THE ENTRY'S MAGNITUDE
+  CLAIM AND ATTRIBUTES IT CORRECTLY: the magnitudes are in the *earlier* NBER working-paper revisions,
+  NOT in the published *JFQA* article.** The named author route (NBER Working Paper 28624) was
+  exhausted in full, in four separate fetches on 21 October 2026, and the version structure is now
+  exactly mapped:
+  - **(a) The current default NBER PDF** — `https://www.nber.org/system/files/working_papers/w28624/w28624.pdf`
+    — **HTTP 200, 1,102,922 bytes**, text-extracted with `pypdf` (**50 pages, 112,063 characters**).
+    Title page: "DISCONTINUED POSITIVE FEEDBACK TRADING AND THE DECLINE OF RETURN PREDICTABILITY …
+    Working Paper 28624 … **March 2021**", with the **four authors** Itzhak Ben-David, Jiacui Li,
+    Andrea Rossi and Yang Song (confirming the Cycle-102 authorship correction in the body itself).
+    Its abstract reports: "Based on our constructed factors, the monthly return of momentum-related
+    factors declined from **77 basis points to approximately zero**. Based on the Jensen et al. (2022)
+    factors, the decline is from **67 basis points to 4 basis points**." Its body reports: "the
+    profitability of momentum-type factors declined by **53 basis points per month** after the
+    Morningstar reform" (46 basis points with lagged factor returns as controls); "the return
+    predictability declined by **57 basis points per month**"; "Momentum-type factors in other countries
+    only experienced a decline of **9 basis points** in monthly returns after the reform, but U.S.
+    momentum-type factors experienced an additional **54 basis point** decline"; and "the
+    triple-interaction coefficient for US × MomType × Post2002 is **−36 to −40 basis points**". **The
+    string "0.92" returns ZERO hits in this document.**
+  - **(b) NBER revision 1** — `https://www.nber.org/system/files/working_papers/w28624/revisions/w28624.rev1.pdf`
+    — **HTTP 200, 2,580,961 bytes** (**57 pages, 109,171 characters**). Title page: "DISCONTINUED
+    POSITIVE FEEDBACK TRADING AND THE DECLINE OF **MOMENTUM PROFITABILITY** … Working Paper 28624 …
+    **March 2021, Revised June 2021**". This version carries the entry's magnitudes **verbatim**: "for
+    the momentum factor, returns dropped from **0.92% per month during the earlier period of January
+    1987 to June 2002 to merely 0.16% afterwards**". "0.92" appears 3 times and "0.16" 8 times. The
+    same version also reports "the largest profitability drop of **approximately 0.80% per month** after
+    the reform date, while other factors only experienced a profitability drop of 0.29% on average",
+    "stocks held by funds in the top style continue to outperform those in the bottom style by **84 bps
+    per month**", and "funds in the top style received flows that were higher per month by **1.7% of
+    assets under management**".
+  - **(c) NBER revision 2** — `https://www.nber.org/system/files/working_papers/w28624/revisions/w28624.rev2.pdf`
+    — **HTTP 200, 1,757,811 bytes** (**62 pages, 110,086 characters**). Also carries the magnitudes
+    ("0.92" 3 times, "0.16" 8 times) and adds the companion figure: "for the **factor momentum**
+    strategy, returns dropped from **0.61% to 0.14%**".
+  - **(d) The published *JFQA* article, open access at Cambridge Core** —
+    `https://www.cambridge.org/core/services/aop-cambridge-core/content/view/77765FF3C8E6E95F0FDA950AFB76E699/S0022109023000959a.pdf/discontinued-positive-feedback-trading-and-the-decline-of-return-predictability.pdf`
+    — **HTTP 200, 1,249,369 bytes, application/pdf** (**39 pages, 126,377 characters**). It is the
+    published version ("JOURNAL OF FINANCIAL AND QUANTITATIVE ANALYSIS Vol. 59, No. 7, Nov. 2024, pp.
+    3062–3100 … This is an Open Access article"). **The string "0.92" returns ZERO hits here.** The
+    published magnitudes are instead: "the profitability of momentum-type factors declined by **53.4
+    basis points per month** after the Morningstar reform"; "the most conservative estimate is that the
+    monthly returns of momentum-type factors declined by a statistically significant **23.9 basis
+    points** more than the returns of other factors"; and, in the international triple-difference,
+    "the incremental profitability decline is approximately **0.77% a month** and statistically
+    significant at the 5% level" (0.42%–0.52% a month for value-weighted returns, not significant at
+    the 5% level).
+  - **The version drift is therefore exactly resolved, and it is a third instance of the S-172
+    pattern.** The entry's "0.92% → 0.16% per month" magnitudes are **confirmed verbatim in the early
+    NBER working-paper revisions (rev1 and rev2) and are absent from both the current NBER revision and
+    the published *JFQA* article**, which replaced them with basis-point *differences* (53.4, 23.9, 9,
+    54, −36 to −40 bp) and the 0.77%/month international figure. The **mechanism and the direction are
+    confirmed in every version**: the June 2002 Morningstar rating reform caused a structural break in
+    style-level positive-feedback trading, momentum-related factor profitability fell sharply, the
+    decline is U.S.-specific, and it is concentrated in factors and funds most exposed to the
+    mechanism. The entry's **caveat that the subject is cross-sectional equity momentum and a rival
+    explanation for IDEA-004 stands unchanged**.
+  - **Attribution correction carried into the register.** The entry's Supports line attributes the
+    0.92%/0.16% magnitudes to "*JFQA* 2023". That attribution is **corrected**: the magnitudes are the
+    **NBER working paper's** (rev1/rev2, 2021), and the *JFQA* article's own magnitudes are the
+    basis-point figures above. The register's IDEA-004 dossier text and the known-baseline row that
+    restate the 0.92%/0.16% pair are corrected in place in the same cycle. **The substantive conclusion
+    the register drew — that the momentum-family base effect has undergone a large, mechanistically
+    explained decline — is unchanged and is now line-verified in the published version itself**, so
+    **IDEA-004's persistence score is undisturbed and no re-score follows.**
+  - The verification label moves from **line-verified for the bibliographic record and the
+    Morningstar-reform mechanism; the 0.92 %/0.16 % magnitudes remain index-rendered** to **fully
+    line-verified, with the magnitude claim confirmed verbatim against the NBER revisions that carry
+    it and explicitly re-attributed** (the published article's magnitudes are separately line-verified
+    and recorded). **No re-score and no hard-stop change follow.**
 
 ### S-157 — Lou, D. and Polk, C. (2021)
 "Comomentum: Inferring Arbitrage Activity from Return Correlations." *The Review of Financial Studies*
@@ -4915,6 +5162,53 @@ DOI: https://doi.org/10.1016/j.jfineco.2011.02.004
   private and that the disclosure is quarterly **stands unchanged**. **No re-score and no hard-stop
   change follow.** *Action for the register: the dossier that relies on this entry must be read as
   relying on Bargeron, Kulchania & Thomas (2011), not on Erickson, Fang & Howe.*
+- **Cycle-107 verification — PARTIAL UPGRADE of the *mechanic* from a PRIMARY document, while the
+  paper's own body text is still closed. The intermediary-borrowing sentence remains index-rendered
+  in this entry; the contract architecture it describes is now line-verified elsewhere (S-384).**
+  The named author routes were tried in full on 21 October 2026 and all of them fail:
+  - the **authors' own institutional repository** — Marquette University's e-Publications copy of the
+    accepted version, `https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1050&context=fin_fac`
+    — returns **HTTP 403, 5,794 bytes (text/html)** (bepress bot block) on the plain request, on a
+    `httpsredir=1&referer=` variant (**403, 5,954 bytes**), and on a third attempt with a full
+    browser header set and the landing page as `Referer` (**403, 6,050 bytes**). The landing page
+    `https://epublications.marquette.edu/fin_fac/47/` itself **is** reachable (**HTTP 200, 34,590
+    bytes**) and confirms the bibliographic facts (title, three authors, "21 p.", "Journal of
+    Financial Economics", July 2011, Elsevier) and points to exactly the 403 download path.
+  - the **SSRN green-OA copy** — `https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=1360729` and the
+    SSRN abstract page — both return **HTTP 403** (5,774 / 5,750 bytes). Semantic Scholar
+    (`api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jfineco.2011.02.004`, **HTTP 200**) reports
+    `isOpenAccess: true` with `openAccessPdf` = `https://doi.org/10.2139/ssrn.1360729` — i.e. the
+    **only** open-access copy the metadata services can see is the SSRN record, which is closed to us.
+  - the **author's dissertation route** — `https://d-scholarship.pitt.edu/8271/1/KulchaniaManoj_Dissertation_2010.pdf`
+    — returns **HTTP 404, 1,722 bytes**; the path form used in the search index no longer resolves.
+  - The **Crossref posted-content abstract** used in Cycle 102 is **not** re-run (it is a complete
+    result and would be an exhausted route).
+  **What the cycle did obtain is better than the paper for this particular question.** Bargeron,
+  Kulchania & Thomas cite, in their Appendix A, the *actual contract* they reviewed as their worked
+  example of "common provisions observed in ASR contracts", and that document is on EDGAR and directly
+  fetchable: it is **S-384** (FirstMerit Corporation / Goldman, Sachs & Co., "Accelerated Share
+  Repurchase Master Confirmation" and "Supplemental Confirmation for Fully Uncollateralised
+  Transactions", Exhibit 99.1 to FirstMerit's Form 8-K of 19 January 2006, accession
+  0000950152-06-000339), fetched directly (**HTTP 200, 149,031 bytes**, text layer **73,839
+  characters**). It line-verifies, from a primary instrument, **the three mechanics this entry's
+  Supports line rests on**: immediate share delivery against cash at the trade date ("Counterparty
+  agreed to purchase a number of Shares equal to the Number of Shares from GS&Co. on the Trade Date at
+  the Forward Price per Share" — Forward Price USD 25.97, 2,500,000 Shares, Trade Date 19 January
+  2006); **the covering/accumulation window** ("Valuation Date: A day not exceeding **4 months** after
+  the Trade Date", with "Daily Reference Shares: For each day, the applicable maximum amount of Shares
+  permitted under Rule 10b-18(b)(4)"); and **the discount/compensation settlement** (a
+  "Counterparty Additional Payment Amount" on each ex-dividend date during the Valuation Period at
+  "USD-LIBOR-BBA", with the settlement price "reduced by the per Share amount of the underwriting
+  discount and/or commissions"), together with the **downside termination price** (USD 12.98 per share)
+  and Reserved Shares (900,000).
+  **What S-384 does NOT do:** it does not line-verify *this entry's* intermediary-borrowing sentence.
+  The strings "borrow", "short" and "cover" each return **zero hits** in the contract — it is the
+  master-confirmation framework, so the intermediary's own sourcing description is not in it. The
+  entry's verification label therefore moves to: **line-verified for the bibliographic record and the
+  ASR mechanism claims (with the author line corrected, per Cycle 102); the intermediary-borrowing
+  detail remains index-rendered in this entry, and is independently corroborated at the contract level
+  by S-384.** The entry's caveat that the ASR *discount* and the intermediary's execution are private
+  and that disclosure is quarterly **stands unchanged**. **No re-score and no hard-stop change follow.**
 
 ### S-167 — Guéant, O., Pu, J. and Royer, G. (2015)
 "Accelerated Share Repurchase: Pricing and Execution Strategy." *International Journal of Theoretical
@@ -7005,6 +7299,42 @@ relies on it.
   no abstract, per the Cycle-100 note). The verification label moves from **index-rendered** to
   **line-verified for the bibliographic record and the abstract-level findings; the prior-literature
   summary and the body remain index-rendered**. **No re-score and no hard-stop change follow.**
+- **Cycle-107 verification — HONEST NEGATIVE, and the body's closure is now an EVIDENCED CLOSURE
+  rather than an unresolved one: three independent metadata services confirm that no open-access
+  full-text route for this article exists, and the two named author routes fail.** The ScienceDirect
+  route is **not re-run** (it is a Cycle-97/Cycle-102 negative, HTTP 403 on both the `/pii/` and the
+  `/abs/` forms); the RePEc/IDEAS route is **not re-run** (it is a Cycle-102 result). The **new
+  evidence** is from the three open-access registries, each fetched directly with **HTTP 200**:
+  - **OpenAlex** (`https://api.openalex.org/works/doi:10.1016/j.frl.2023.103991`) returns
+    `open_access: {"is_oa": false, "oa_status": "closed", "oa_url": null,
+    "any_repository_has_fulltext": false}` and lists exactly two locations — the DOI and the
+    ScienceDirect/RePEc landing page — **neither with a PDF**.
+  - **Unpaywall** (`https://api.unpaywall.org/v2/10.1016/j.frl.2023.103991`) returns
+    `"oa_status": "closed"`, `"best_oa_location": null`, `"oa_locations": []`,
+    `"has_repository_copy": false`, `"is_paratext": false`, `"is_in_doaj": false`.
+  - **Semantic Scholar** (`https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.frl.2023.103991`)
+    returns `"isOpenAccess": false` with an **empty** `openAccessPdf`.
+  The **two named author routes** also fail: the **conference version** (the article's own
+  acknowledgements state that "This paper was presented at the Effectiveness of Financial Regulation
+  Conference held in Rishon LeTsiyon, Israel in June 2022", with the conference's Editors named and
+  financial support from the Autorité des Marchés Financiers acknowledged) is not obtainable as a
+  separate PDF — the AMF's search endpoints returned **HTTP 404** on both URL forms tried
+  (`/en/search?query=…` and `/en/search/node?keys=…`); and the **author's Concordia institutional
+  repository** route returns **HTTP 404, 26,704 bytes** on the search URL
+  `https://spectrum.library.concordia.ca/search?q=Circumventing+SEC+Rule+201+short+sale+restrictions`.
+  **Consequence for the register:** the entry's remaining unverified element is its
+  **prior-literature summary** — that short-sale bans are "ineffective, or … lead to lower market
+  quality, higher bid-ask spreads [and] higher volatility" — which comes from the article's
+  **introduction**, not its abstract. That sentence is visible in the **ScienceDirect abstract-page
+  index render** and is therefore **index-rendered, not line-verified**; it must continue to be
+  presented as such and is not promoted to a quotation. The verification label is unchanged —
+  **line-verified for the bibliographic record and the abstract-level findings; the prior-literature
+  summary and the body remain index-rendered** — but the reason the body is closed is now
+  **documented and dated** rather than merely unreached, and the open question is **reframed** from
+  "can the body be obtained?" to "the body is not publicly available; any use of its introduction must
+  be declared index-rendered." **No re-score and no hard-stop change follow** — R-018's
+  second-circumvention limb is unchanged, and the abstract-level "relatively low cost" and "about 3%"
+  findings that R-018 already rests on remain line-verified through the Cycle-102 RePEc route.
 
 ## Cycle 37 gap verdicts (2026-10-20)
 
@@ -8530,6 +8860,51 @@ URLs: https://socpa.org.sa/en/knowledge-center/news/news/socpa-adopts-ifrs-18-fo
   endorsement document's "all at once" wording and the effective date remain index-rendered)**. The
   entry's caveat — "'all at once' is Saudi's own adoption route … evidence about one jurisdiction's
   practice" — **stands unchanged**. **No re-score and no hard-stop change follow.**
+- **Cycle-107 verification — HONEST NEGATIVE, and the Wayback route forms are now EXHAUSTED: the
+  endorsement document has no archived snapshot under any path form the CDX exposes.** The direct host
+  is **not re-run** (it is a Cycle-101 timeout negative). The Cycle-102 note recorded that the
+  Wayback **availability** API returns no snapshot for the endorsement path; the **new route forms** are
+  the Wayback **CDX** index, queried three different ways on 21 October 2026:
+  - **(a) domain-wide CDX** — `http://web.archive.org/cdx/search/cdx` with `url=socpa.org.sa`,
+    `matchType=domain`, `collapse=urlkey`, `limit=200` → **HTTP 200, 21,878 bytes, 200 collapsed
+    paths**. The listing is dominated by `App_Themes/` assets and by the publication-index pages
+    `Socpa/Technical-Resources/Digital-Library/Free-Books/Publications.aspx` (and its `?lang=en-us`
+    and `(1)`/`(2)` variants). **No path in it matches "endorsement" or
+    "international-financial-reporting-standards"**; a regex filter on the original field for
+    `.*[Ee]ndorsement.*` over both `socpa.org.sa*` and `www.socpa.org.sa*` returns **zero rows**.
+  - **(b) prefix CDX over the document-attachment namespace** — `url=socpa.org.sa/getattachment`,
+    `matchType=prefix`, `collapse=urlkey`, `limit=500` → **500 collapsed attachment paths**. This is
+    the namespace in which SOCPA serves its PDFs, and the **only** IFRS-bearing attachments in it are
+    **comment letters** (`SOCPA-comment-letter-TAD-IFRS-9-Guarantee-over-derivative-contract-signed.pdf`,
+    `SOCPA-Comment-letter-Premium-receivable-from-intermediary-(IFRS-17-IFRS-9)-signed.pdf`,
+    `SOCPA-comment-letter-amendment-to-IFRS-19-ED-signed.pdf`) and **Arabic slide decks**
+    (`IFRS-18-Arabic-slides.pdf`, `IFRS-19-Arabic-slides.pdf`). **There is no endorsement document
+    among them.** (The one IFRS-18 attachment that *is* archived — `IFRS-18-Arabic-slides.pdf`,
+    snapshot 20241205111936 — is a slide deck, not the endorsement instrument, and it carries a 301
+    redirect, so it could not be replayed as an endorsement document in any case.)
+  - **(c) prefix CDX over the publications namespace** — `url=socpa.org.sa/Socpa/Technical-Resources`,
+    `matchType=prefix` → **empty result set**.
+  - A direct CDX prefix query on the endorsement path itself
+    (`socpa.org.sa/en/knowledge-center/publications/other-publications/international-financial-reporting-standards`)
+    returned no snapshot; the CDX endpoint became **intermittently unavailable** part-way through the
+    cycle (repeated **HTTP 503 "Internet Archive: Temporarily Offline"** and connection refusals on
+    `web.archive.org` port 80 after the successful queries above), so the queries that did complete are
+    the ones reported here and the ones that failed are reported as failures, not as null results.
+  **Consequence for the register.** The entry's "shall be applied **all at once**" wording and its
+  effective-date element (listed entities from the 2017 financial year, other entities from the 2018
+  financial year) **remain index-rendered and are NOT line-verified**, and this is now a **closed**
+  question rather than an open one: every archive route form the CDX exposes has been enumerated and
+  none contains the endorsement document. The entry's *partial* line-verification (the news item's
+  adoption date of 26 December 2024 and the permission for early adoption, both obtained through the
+  Internet Archive in Cycle 102) **stands unchanged**, as does the Cycle-102 observation that the
+  **IFRS Foundation's own Saudi Arabia jurisdictional profile** confirms adoption status but
+  predates IFRS 18 ("Profile last updated: 28 July 2022"; the strings "IFRS 18" and "2017" return
+  zero hits) and is therefore not evidence on the application date. **The entry's caveat — "'all at
+  once' is Saudi's own adoption route … evidence about one jurisdiction's practice" — stands
+  unchanged, and is the operative point: the register uses this entry to show that the group A/group B
+  partition is *not available* for the IFRS 18 window, and the burden that fact carries does not
+  depend on the exact effective-date wording, which the entry's own Caveats bullet already qualifies.
+  **No re-score and no hard-stop change follow.**
 
 ### S-272 — IFRS Foundation (2026), "Guidance on use of the 2025 IFRS Accounting Taxonomy" (taxonomy guidance including the Early Application of IFRS 18 entry point)
 URL: https://www.ifrs.org/content/dam/ifrs/standards/taxonomy/2026/guidance-on-use-of-2025-ifrs-taxonomy.pdf
@@ -13462,3 +13837,51 @@ URL: https://www.sec.gov/files/rules/exorders/2026/exemptive-order-tender-offers
   creation. **Identifier S-383 is consumed by this entry**: it is a genuinely new primary document for
   a different security class (equity) from S-382 (debt), as contemplated by the Cycle-103
   pre-registration. No other identifier is consumed by Cycle 103.
+
+### S-384 — FirstMerit Corporation / Goldman, Sachs & Co. (2006)
+"Accelerated Share Repurchase Master Confirmation" and "Supplemental Confirmation for Fully
+Uncollateralised Transactions" (Exhibit 99.1 to FirstMerit Corporation's Form 8-K), 19 January 2006.
+URL: https://www.sec.gov/Archives/edgar/data/354869/000095015206000339/l18060aexv99w1.htm
+(filing index: https://www.sec.gov/Archives/edgar/data/354869/000095015206000339/0000950152-06-000339-index.htm)
+- **Type:** Primary legal document (SEC-filed exhibit) — the operative contract of an accelerated share
+  repurchase.
+- **Supports:** the **ASR contract architecture itself, from a primary document rather than from a
+  secondary description.** This is the very document that Bargeron, Kulchania & Thomas (2011) cite in
+  their Appendix A as their worked example of "common provisions observed in ASR contracts". Verbatim
+  from the Supplemental Confirmation: "Counterparty agreed to purchase a number of Shares equal to the
+  Number of Shares from GS&Co. on the Trade Date at the Forward Price per Share" — with "Trade Date:
+  January 19, 2006", "Forward Price: USD 25.97 per Share", "Number of Shares: 2,500,000 Shares",
+  "Daily Reference Shares: For each day, the applicable maximum amount of Shares permitted under
+  Rule 10b-18(b)(4), without allowing for any 'block purchases' (as defined therein)", "Valuation Date:
+  A day not exceeding **4 months** after the Trade Date, subject to adjustment pursuant to the terms of
+  the Master Confirmation", "Termination Price: $12.98 per Share", "Reserved Shares: 900,000 Shares",
+  and a "Counterparty Additional Payment Amount" computed on each ex-dividend date during the
+  Valuation Period at "USD-LIBOR-BBA". The Master Confirmation also fixes the settlement machinery
+  ("Net Share Settlement Procedures", a "Resale Period" in which GS resells the settlement shares) and
+  the price rule: the settlement price "shall be reduced by the per Share amount of the underwriting
+  discount and/or commissions". Read together, these terms line-verify, in a primary instrument, the
+  three mechanics the register's ASR baseline row depends on: **immediate delivery of the shares
+  against cash at the trade date**, **the intermediary's covering/accumulation window (here capped at
+  four months and constrained daily by Rule 10b-18(b)(4))**, and **the discount/compensation
+  settlement that transfers the covering-period price risk back to the issuer**, together with the
+  **downside termination price** that bounds the issuer's exposure.
+- **Caveats:** this is **one 2006 transaction** and the master-confirmation *framework*, not a market
+  survey; the 4-month Valuation Date is the contract's own cap, not a published market-wide
+  convention. **The document does not contain the words "borrow", "short" or "cover"** (each returns
+  **zero hits** in the extracted text): it is the confirmation framework, so the intermediary's own
+  sourcing description is *not* in it. It therefore **does not** line-verify S-166's
+  intermediary-borrowing sentence; it line-verifies the *contractual architecture* that sentence
+  describes. It is also a 2006 document and does not evidence any post-2010 practice.
+- **Verification:** fetched directly on 21 October 2026 from `www.sec.gov` with a compliant
+  User-Agent — **HTTP 200, 149,031 bytes, text/html**; the EDGAR filing index (also fetched directly,
+  **HTTP 200**) confirms the citation field by field: **Form 8-K, Accession No. 0000950152-06-000339,
+  filing date 2006-01-20, period of report 2006-01-19, Items 1.01 / 2.02 / 8.01 / 9.01, filer
+  FIRSTMERIT CORP /OH/, CIK 0000354869, Exhibit 99.1 "ACCELERATED SHARE REPURCHASE MASTER
+  CONFIRMATION" (`l18060aexv99w1.htm`, 148,916 bytes)**. The HTML text layer was extracted to
+  **73,839 characters** and read. The quoted passages above are present verbatim. The verification label
+  is **line-verified (document fetched directly and text-extracted)** from the moment of creation.
+- **Identifier note:** **S-384 is consumed by this entry.** It is a genuinely new **primary legal
+  document**, not a duplicate of S-166 (a peer-reviewed article) or S-167 (a pricing model): the
+  register's rule is to reuse an identifier only for a duplicate citation, and this is a different
+  document of a different type that carries the ASR mechanic in its own operative text. It changes no
+  score, creates no candidate, and opens no gap.

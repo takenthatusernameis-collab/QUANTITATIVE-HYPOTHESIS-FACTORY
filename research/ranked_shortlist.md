@@ -1,6 +1,34 @@
-# RANKED SHORTLIST — CYCLES 1–105
+# RANKED SHORTLIST — CYCLES 1–107
 
-# RANKED SHORTLIST — CYCLES 1–105
+**Cycle-107 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0,
+rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with
+IDEA-010 parked (P-014) at a terminal 55.0.** Cycle 107's work was **evidence work, not a screen**:
+the four open Priority-3 questions were re-attempted from scratch over named, non-exhausted routes.
+(i) **S-153 is now fully line-verified** (published *JF* article body obtained directly from a
+course-hosted copy on a new host) and **every limb** of its claim is confirmed in substance;
+**S-156 is now fully line-verified with a version-drift finding** — the 0.92 %/0.16 % magnitudes are
+verbatim in the earlier NBER working-paper revisions and **absent from the published *JFQA* article**,
+whose own magnitudes are 53.4 / 23.9 / 9 / 54 / −36 to −40 bp per month plus 0.77 % a month; and
+**S-154 is partially upgraded with a material correction** — the "large-index phenomenon" limb is
+confirmed, the "frequently zero or positive" limb is corrected to "frequently statistically
+indistinguishable from zero", and the third limb ("individual-stock returns do not load on a variance
+risk premium factor") is **contradicted by the paper's own factor analysis and struck**. (ii) **Two
+affected dossiers were checked and neither moves**: IDEA-003's G-05 closure never relied on S-154's
+struck limb and is now **strengthened** by the line-verified S-153 body; IDEA-004's persistence score
+of 4/5 rests on a base-effect decline that the **published** *JFQA* article confirms in its own
+terms, so the re-attribution changes no score. (iii) **One new primary source was registered**
+(**S-384** — the actual SEC-filed accelerated-share-repurchase contract that Bargeron, Kulchania &
+Thomas cite in their Appendix A), which puts the ASR baseline row on the contract itself; and **two
+evidenced honest negatives** were recorded (S-238's body is closed across three open-access
+registries; S-271's endorsement document is absent from every Wayback CDX path form). (iv) **A
+state-integrity failure was found and recorded in place**: the Cycle-106 handoff claimed a complete
+cycle, but **no Cycle-106 annotation reached any artifact**, there is **no `## Cycle 106` section in
+the cycle log**, and all five artifact headers still read "Cycle 105 complete" — the **fourth
+occurrence** of the register's known failure mode, repaired here and in the cycle log. (v) **The
+rubric-arithmetic re-run is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0;
+IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0) and
+**no score, rank, tie-break, hard-stop flag, gap or specification changed**. **No identifier was
+consumed by the upgrades themselves** and **no re-screen was triggered**.
 
 **Cycle-102 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked

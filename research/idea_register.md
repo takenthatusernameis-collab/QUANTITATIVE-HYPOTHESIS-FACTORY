@@ -4,7 +4,67 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 105 complete** (21 October 2026). Cycle 105 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 105 upgraded three source entries (S-151, S-179, S-247 were already annotated; S-151 upgrade via Crossref `10.1093/rfs/hhag032` remains contested against the Cycle-104 honest-negative listing) and recorded three honest negatives (S-148, S-152, S-258), all in `source_ledger.md`, not in this register.
+Last updated: **Cycle 107 complete** (21 October 2026). Cycle 107 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 107 upgraded three source entries (S-153, S-156, and S-154 in part), partially upgraded a fourth (S-166, with a new primary source behind it), recorded two evidenced honest negatives (S-238, S-271) and registered **one new primary source (S-384)** — all in `source_ledger.md`, not in this register. **The four open Priority-3 questions carried from the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and all four are now either closed or evidenced.**
+**(i) The state-integrity failure mode recurred, and this cycle records it in place.** The Cycle-106
+handoff header claimed "Cycle 106 complete" and "All artifact headers read 'Cycle 106 complete'", but
+the string "Cycle 106" appears **nowhere** as an annotation in `source_ledger.md` (0 occurrences),
+`ranked_shortlist.md` (0), `validation_handoffs.md` (0) or `rejected_and_parked.md` (0); `cycle_notes.md`
+contains **no `## Cycle 106` section at all**; and all five artifact headers still read "Cycle 105
+complete". **The Cycle-106 work reached no ledger entry, so under the register's own standing rule the
+Cycle-106 attempts are not evidenced and are treated as not performed**; Cycle 106 now has an
+honest retrospective **cycle-boundary record** in `cycle_notes.md`, in the same form as the Cycle-97
+record written in Cycle 98. **This is the fourth occurrence of the same failure mode** (Cycle 99 →
+S-208, S-136; Cycle 101 → all thirteen targets; Cycle 103/104 → the artifact headers; **Cycle 106 →
+the entire cycle**). The standing rule is restated and enforced in this cycle: **a provenance upgrade is
+not done until the entry's own verification bullet says so; a cycle log and a handoff header are
+records of intent, the ledger entry is the evidence.** Every Cycle-107 result below is written into
+its own ledger entry in this cycle.
+**(ii) Three entries are now line-verified in full or in substance.** **S-153** (Driessen, Maenhout &
+Vilkov, *JF* 2009) is obtained directly from a course-hosted copy of the published article (Duke
+University, HTTP 200, 240,039 bytes, 30 pages) and **every limb of the entry's claim is confirmed in
+substance**; the entry's caveat is sharpened from "2009 sample (pre-2010)" to the article's own
+option-data window, **January 1996 until December 2003**. **S-156** (Ben-David, Li, Rossi & Song,
+*JFQA* 2023) is fully line-verified with a **version-drift finding**: the 0.92 % → 0.16 % monthly
+magnitudes are **verbatim in the earlier NBER working-paper revisions (rev1/rev2)** and **absent from
+the published article**, whose own magnitudes are 53.4, 23.9, 9, 54 and −36 to −40 basis points per
+month plus 0.77 % a month internationally. **S-154** (Carr & Wu, *RFS* 2009) is partially upgraded: the
+**May 2004 working-paper body** was obtained from two new author-side mirrors (the published 2009 body
+is still not), the "large-index phenomenon" limb is **confirmed**, the "frequently zero or positive"
+limb is **corrected** to "frequently statistically indistinguishable from zero", and the third limb —
+"individual-stock returns do not load on a variance risk premium factor" — is **contradicted by the
+paper's own factor analysis and struck**: individual stocks load *significantly and positively* on a
+common market variance risk factor ("The slope estimate is statistically significant and positive at 95
+confidence level").
+**(iii) The two affected dossiers were checked against the corrections and neither moves.**
+**IDEA-003 is unchanged at its score, and its G-05 closure is now *strengthened*, not reopened**: the
+dossier's wording ("single-stock variance risk premia are frequently zero or of the opposite sign to the
+index premium … the negative premium is a large-index phenomenon") is **confirmed verbatim in
+substance by the now-line-verified S-153 body** — the individual premium is "not significantly
+negative for almost all index components", its point estimate is **positive** (0.077, t = 1.74) against
+a negative index premium, and the variance-swap betas are "statistically insignificant". The dossier
+never asserted S-154's struck third limb, so nothing in IDEA-003 depends on it. **IDEA-004 is
+unchanged at its score**: the 0.92 %/0.16 % magnitudes it quotes are now correctly attributed to the
+NBER working-paper revisions rather than to the *JFQA* article, but the *published* article confirms
+the same conclusion in its own terms — a large, U.S.-specific, mechanistically explained decline in
+momentum-related factor profitability after the June 2002 Morningstar reform — so the persistence
+score of 4/5 is undisturbed.
+**(iv) One new primary source (S-384) and two evidenced honest negatives.** **S-384** is the actual
+SEC-filed ASR contract that Bargeron, Kulchania & Thomas cite in their Appendix A (FirstMerit /
+Goldman Sachs, Form 8-K of 19 January 2006, accession 0000950152-06-000339): it line-verifies the ASR
+architecture — immediate delivery against cash, the **four-month** covering window constrained daily by
+Rule 10b-18(b)(4), the discount/compensation settlement, and the downside termination price — in a
+primary instrument, so the register's accelerated-share-repurchase baseline row now rests on the
+contract itself and not only on a secondary description. **S-238's body is now an evidenced closure**:
+OpenAlex, Unpaywall and Semantic Scholar each report the article as closed with no repository copy, and
+the two named author routes return HTTP 404, so its introduction-level summary must continue to be
+presented as **index-rendered**. **S-271's endorsement document is now a closed archive question**:
+three Wayback CDX query forms were enumerated and the document appears in none of them, so the "all at
+once" wording and the effective date remain index-rendered and are no longer an open task.
+**(v) The rubric-arithmetic re-run was clean** (IDEA-011 69.0, IDEA-004 63.0, IDEA-009 53.0,
+IDEA-014 52.0, IDEA-010 terminal 55.0) and **no score, rank, tie-break, hard-stop flag, gap or
+specification changed**. No re-screen was triggered.
+
+**Earlier history — Cycle 105 complete** (21 October 2026). Cycle 105 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 105 upgraded three source entries (S-151, S-179, S-247 were already annotated; S-151 upgrade via Crossref `10.1093/rfs/hhag032` remains contested against the Cycle-104 honest-negative listing) and recorded three honest negatives (S-148, S-152, S-258), all in `source_ledger.md`, not in this register.
 **(i) The bounded provenance-upgrade operation** was executed over the **thirteen** pre-registered targets of the Cycle-101 handoff:
 **nine are now fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, and from
 the Priority-3 work S-237), **six are partially upgraded with the unverified parts named** (S-153,
@@ -53,7 +113,12 @@ must be dated as such.** **(vi) The rubric-arithmetic re-run was clean** (IDEA-0
 63.0, IDEA-009 53.0, IDEA-014 52.0, IDEA-010 55.0) and **no score, rank, tie-break, hard-stop flag,
 gap or specification changed**. **R-055's verdict, its five reasons and its baseline row 92 are
 unchanged**, no re-screen was triggered, and R-016's CBAM family verdict is unchanged — the ladder's
-confirmation is a provenance upgrade, not new evidence. Earlier history: **Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
+confirmation is a provenance upgrade, not new evidence. *(The Cycle-105 header paragraph did not
+record the three new source entries it consumed — S-381, S-382, S-383 — and the Cycle-107 header
+above corrects that omission; the three entries and the count change are recorded in
+`source_ledger.md` and in `cycle_notes.md`.)*
+
+**Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
 entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
 bounded provenance-upgrade operation** was executed over the **thirteen** named targets of the Cycle-100
@@ -1245,8 +1310,39 @@ closed against the single-name extension.**
   69.5% of listed equities trading options by end-2025. The tail-concentration warning therefore
   *strengthens*: a single-name extension would have been thin even if it had been unclaimed.
 - **Effect on the dossier: no score change (71.0).** G-05's closure removes an open question and
-adds contradictory evidence against a *variant*, not against the candidate. Rank changes only
-because IDEA-001 was rejected (rank 3 → rank 2).
+  adds contradictory evidence against a *variant*, not against the candidate. Rank changes only
+  because IDEA-001 was rejected (rank 3 → rank 2).
+
+**Cycle 107 evidence pass — G-05's closure is now line-verified at the source, and the closure is
+strengthened rather than reopened. No score change.**
+- **S-153 is now fully line-verified.** The published *JF* article body was obtained directly (Duke
+  University course-hosted copy, HTTP 200, 240,039 bytes, 30 pages). The dossier's sentence above —
+  "single-stock variance risk premia are frequently zero or of the **opposite** sign to the index
+  premium, single-stock variance swap returns are insignificant, and what single-name options price is
+  *correlation* risk" — is **confirmed in substance, limb by limb**, against the article's own text:
+  the individual variance risk premium is "not significantly negative for almost all index components"
+  (the individual test table: "H0: RV − MFIV = 0 **not rejected 98**" of 127 stocks); the
+  cross-sectional individual variance risk premium is "**insignificant**" with a **positive** point
+  estimate (0.077, t = 1.74) set against the negative index premium; and "almost all of the first-step
+  betas are statistically insignificant". The article's abstract confirms the correlation-risk
+  conclusion and adds the limits-to-arbitrage reading. The dossier's caveat on the vintage is
+  sharpened: the option data are **January 1996 – December 2003** (OptionMetrics, S&P 100, 135
+  individual stocks), so the "pre-2010" framing is correct but coarse.
+- **S-154 is partially upgraded, and one of its claim limbs is struck — without touching this
+  dossier.** The published 2009 *RFS* body is still not obtained (the two author-side mirrors reached
+  this cycle both serve the **May 2004 working paper**), but that body is read and it corrects the
+  ledger entry: the individual premia are "insignificant for all but three of the 35" names rather than
+  "frequently zero or positive", and the entry's third limb — "individual-stock returns do not load on
+  a variance risk premium factor" — is **contradicted** by the paper's own factor analysis (individual
+  stocks load significantly and positively on a common market variance risk factor). **This dossier
+  never asserted that limb**, and the limb it did assert — that the negative premium is a large-index
+  phenomenon — is **confirmed**: "The largest t-statistics come from the S&P 500 and S&P 100 indexes …
+  which are strongly significant for both variance risk premia and log variance risk premia", against
+  individual-stock premia that are "much smaller" and "mostly insignificant".
+- **Effect on the dossier: no score change, no re-screen, no gap change.** G-05's literature half
+  **stays closed against the single-name extension**, and the evidence for it is now stronger and
+  line-verified rather than index-rendered. The retained (aggregate) version is untouched.
+
 
 **Cycle 14 (continued) / Cycle 15 evidence-currency pass — VRP decline and state-gate viability.** S-177 (Dew-Becker & Giglio 2025, Chicago Fed WP 2025-17, September 2025): equity index options historically displayed sharply negative returns and CAPM alphas, but over the past ~15 years option alphas have become indistinguishable from zero; synthetic options never had negative alpha over the last 100 years, indicating equity investors never required high compensation for market downturns; an intermediary-based model explains both patterns, including the recent decline in the variance risk premium. Read against IDEA-003: the *unconditional* variance harvest has weakened to near-zero in recent years, while the aggregate VRP as a published object is unaffected. This strengthens (rather than weakens) the candidate's core claim — that harvestability is state-contingent and that the gate, not the premium's existence, is the load-bearing element.
 - Gate design (unchanged, still viable): G-13 PASS (gate computed from the live listed option surface; no publication lag); G-12 PASS on the sign limb (a crash-imminent state flips harvestability, so an unconditional harvest has a negative-expectation branch); G-05 literature half closed against the single-name extension (S-153/S-154) while the aggregate version is untouched; post-2010 structural context (S-169: 0DTE at 28% of options volume by 2025) strengthens the tail-concentration warning.
@@ -1723,7 +1819,9 @@ candidate.**
   it into a momentum trade) is untouched. What is new is published evidence about the *base* the
   gate conditions on: the momentum factor's returns fell from 0.92% per month (January 1987 – June
   2002) to **0.16% per month** afterwards, with an identified mechanism — positive-feedback trading
-  in analyst ratings ended after the mid-2002 Morningstar rating reform (S-156, *JFQA* 2023). This
+  in analyst ratings ended after the mid-2002 Morningstar rating reform (S-156; **the 0.92%/0.16%
+  magnitudes are from the NBER working-paper revision, corrected in Cycle 107 — the published *JFQA*
+  version reports 53.4 bp/month instead**). This
   is directly material because IDEA-004's own dossier lists momentum as a *rival explanation* for its
   convergence returns: the confounder that must be separated out has itself become much weaker.
   Separately, a 2025 preprint (S-172) reports that **crowding-based factor selection fails
@@ -1746,11 +1844,41 @@ candidate.**
   the *sign* claim is intact; what weakens is **persistence**: the family whose returns the candidate
   harvests has a published, large, and mechanistically explained decline (S-156), and the published
   factor-level evidence now leans toward crowding mattering for *tail risk* rather than for average
-  returns (S-172, preprint). A candidate whose base effect has halved twice over is a lower research
-  priority than it was at 74.0, even though its conditional structure is unchanged. Novelty stays at
+  returns (S-172, preprint). A candidate whose base effect has halved twice over is a lower research  priority than it was at 74.0, even though its conditional structure is unchanged. Novelty stays at
   3/5 (the non-monotone, sign-flipping gate remains unclaimed; S-157 changes the *measurement*
   question, not the novelty question), evidence stays at 4/5, and the data dimension stays at 3/5
   until G-18 is closed.
+
+**Cycle 107 evidence pass — S-156 is now line-verified in full, and the magnitudes this dossier quotes
+are re-attributed to the version that carries them. The conclusion this dossier drew is unchanged and
+is now confirmed in the published article itself. No score change.**
+- **The version structure of the source behind the base-effect claim is now exactly mapped.** Four
+  documents were fetched directly: the **current** NBER Working Paper 28624 (HTTP 200, 1,102,922
+  bytes, 50 pages), **rev1** (HTTP 200, 2,580,961 bytes, 57 pages), **rev2** (HTTP 200, 1,757,811
+  bytes, 62 pages), and the **open-access published *JFQA* article** from Cambridge Core (HTTP 200,
+  1,249,369 bytes, 39 pages).
+- **The magnitudes this dossier quotes — "the momentum factor's returns fell from 0.92% per month
+  (January 1987 – June 2002) to 0.16% per month afterwards" — are confirmed verbatim in rev1 and rev2
+  and are ABSENT from the published article** (the string "0.92" returns zero hits in both the current
+  NBER revision and the *JFQA* PDF). They must therefore be cited to **NBER WP 28624 (rev1/rev2,
+  2021)**, not to *JFQA* 2023, and this dossier's attribution is corrected in place.
+- **The published article's own magnitudes are different and are now line-verified**: "the
+  profitability of momentum-type factors declined by **53.4 basis points per month** after the
+  Morningstar reform"; "the most conservative estimate is that the monthly returns of momentum-type
+  factors declined by a statistically significant **23.9 basis points** more than the returns of other
+  factors"; and, in the international triple-difference, "the incremental profitability decline is
+  approximately **0.77% a month** and statistically significant at the 5% level". The mechanism the
+  dossier relies on is confirmed in every version: the June 2002 Morningstar rating reform caused a
+  structural break in style-level positive-feedback trading, momentum-related factor profitability
+  fell sharply, the decline is U.S.-specific, and it is concentrated in the factors and funds most
+  exposed to the mechanism. The four-author attribution (Ben-David, Li, Rossi **and** Song) is
+  confirmed on the NBER title page.
+- **Effect on the dossier: no score change (69.0).** The persistence score of 4/5 rests on the base
+  effect having undergone a *large, mechanistically explained decline*. That is confirmed in the
+  published version, on the published version's own figures; the re-attribution changes which
+  document carries which number, not the size or the direction of the finding, and it does not reopen
+  G-18 or unfreeze V-002. **This is the third instance of the version-drift pattern** the register has
+  had to handle (after S-172), and it reinforces the standing practice of citing the exact version.
 
 **Cycle 30 G-18 / G-04 advance — the newest holdings-based crowding work makes the state constructible
 and reconfirms the bounded negative; no score change (69.0); V-002 stays frozen.**

@@ -23,17 +23,22 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-384`; `S-210 … S-219` are **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-385`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
    is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-056`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 106`; **Cycle 103 completed its provenance-upgrade operation over its
-   thirteen named targets (nine fully upgraded, six partial with the unverified parts named, one
-   honest negative), closed four of the six Priority-3 open questions, consumed two new source
-   identifiers (S-381, S-382), struck one quotation in place, made three material bibliographic
-   corrections, recorded a state-integrity finding — the Cycle-101 operation had never reached the
-   ledger — and rewrote the handoff body**; **Cycle 97 was
+   (next: `Cycle 108`; **Cycle 107 completed the four open Priority-3 questions left over from
+   Cycle 106 — three entries were upgraded (S-153, S-156, and S-154 in part), one was partially
+   upgraded with a new primary source behind it (S-166/S-384), two are evidenced honest negatives
+   (S-238's body is closed across three open-access registries; S-271's endorsement document is
+   absent from every Wayback CDX path form), one new source identifier was consumed (S-384), one
+   claim limb was struck (S-154's third limb, contradicted by the paper's own factor analysis), and
+   a version drift was resolved exactly (S-156's 0.92 %/0.16 % magnitudes belong to the earlier NBER
+   working-paper revisions, not to the published *JFQA* article); it also recorded the **fourth
+   occurrence** of the state-integrity failure mode — **Cycle 106 was never written into any
+   artifact**, so a retrospective **Cycle-106 cycle-boundary record** was added to the cycle log in
+   the same form as the Cycle-97 record added in Cycle 98 — and rewrote the handoff body**; **Cycle 97 was
    executed but never written up in the cycle log — its boundary record
    was added retrospectively in Cycle 98, and its work is visible only as annotations in the source
    ledger**).
