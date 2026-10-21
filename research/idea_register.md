@@ -4,10 +4,16 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 114 complete** (21 October 2026). Cycle 114 added **no new candidate dossier** and **no new
+Last updated: **Cycle 115 complete** (21 October 2026). Cycle 115 added **no new candidate dossier** and **no new
 validation specification**; wrote **no new gap** and **closed no gap**; **re-scored no candidate**; and executed
-**four pre-registered priorities** (pre-registered in `cycle_notes.md` before the first fetch). It is the register's
-**first construction-first method test**, and its product is a **measurement** as much as a rejection.
+**Priority 1 (mechanism-mis-identification screen)** applied to the four live candidates, with **no orthogonality
+hard-stops found** (all candidates retain existing hard-stops/constraints). Cycle 115 consumed **no new `S-`,
+`V-`, `R-`, `P-` or `G-` identifier**; counts unchanged from Cycle 114 (418 sources, 15 dossiers, 11 validation
+specifications, 63 rejections, 13 parkings, 97 baseline rows); rubric arithmetic re-run clean. **Priority 2
+(construction-first replication in a new domain), Priority 3 (G-37's remaining limb) and Priority 4 (IDEA-011's
+two open limbs) remain open and are carried to Cycle 116.** Priorities executed in this cycle: (1) Priority 1 —
+complete. (5) Priority 5 — housekeeping: counts re-derived from the files, all five artifact headers brought to
+"Cycle 115 complete" and read back.
 **(i) The construction-first method test (Priority 1) is a BOUNDED NEGATIVE (R-063), and the register's own open
 question 5 is answered.** A complete mechanism — a known price step attached to an unknown but accounting-observable
 exhaustion date — was written **blind**, from the register's memory alone, on the US sugar tariff-rate quota, and

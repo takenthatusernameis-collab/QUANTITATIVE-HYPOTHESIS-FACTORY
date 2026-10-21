@@ -5,31 +5,13 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 114 complete, 2026-10-21. 63 rejections (R-001 … R-063), 13 parking records of which 12
-remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table.** Cycle 114 added
-**one rejection (R-063), no parking record and one baseline row (row 97)**, and it **opened no gap and closed no
-gap**. Its substantive work was the register's **first construction-first method test**: a complete mechanism was
-written **blind**, from the register's own memory and with no external lookup, on the US sugar tariff-rate quota — a
-known price step attached to an unknown but accounting-observable exhaustion date — and then screened on five
-pre-registered routes. The screen returned a **bounded negative**, and the rejection entry is therefore **also the
-register's answer to its own open question 5**. The construction failed on **five independent reasons**: **G-13**
-(the exhaustion state is published only after the volume has entered, on a weekly cadence, with a discretionary 95 %
-"potentially filled" threshold the regulator itself calls "advice to the filer"); the **Cycle-52 third test** (the
-state is a public by-product of the very import flow); the **base rate** (the WTO raw sugar TRQ was **36 %** filled
-with **713,817 MTRV not entered** and a WASDE projected shortfall of **189,922 STRV** — and where a sugar TRQ does
-exhaust it is "over-subscribed at opening moment" and rationed at a pro rata **44.58212 %**, so the construction's
-"unknown exhaustion date" is absent in the very instance where the exhaustion occurs); the **mis-identification of
-the price-determining mechanism** (7 CFR 1435.302(a)(1) sets the overall allotment quantity so as to "maintain raw
-and refined sugar prices above minimum prices to avoid forfeiture of loans to the CCC", the FY2027 loan rate is
-24.00 ¢/lb raw cane and 32.77 ¢/lb refined beet, and the FY2027 OAQ of 10,574,850 STRV was published on 1 October
-2026 — **all pre-announced**); and the **published-baseline** limb (the US sugar TRQ is the worked case study of the
-government's own tariff-rate quota textbook). **A false kill was caught and withdrawn in place**: the register's own
-partial ledger had begun to argue that the domestic leg is not tradable, and the exchange's own specification proves
-the opposite (ICE Futures U.S. Sugar No. 16, physical delivery at five US refinery ports). The entry also carries
-the **Phase-4 measurement** — how far the mechanism could be pushed blind, which screen limb failed first, whether
-the constructed state satisfies G-13 and the third test on its own terms (**it does not, and the construction said so
-itself before any fetch**), the number of external sources required, the prior against the outcome, and the
-register's **recommendation on the family screen versus the construction-first method**. Earlier history —
+Last updated: **Cycle 115 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
+remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 115 added
+**no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 115
+executed **Priority 1** (the mechanism-mis-identification screen applied to IDEA-011, IDEA-004, IDEA-014 and
+IDEA-009) with **no orthogonality hard-stops found** and **no new rejection**; its substantive work beyond Priority 1
+was **Priority 5 housekeeping** (counts re-derived from the files, all five artifact headers brought to "Cycle 115
+complete" and read back). **Priority 2, Priority 3 and Priority 4 remain open and are carried to Cycle 116.** Earlier history —
 Earlier history — **Cycle 113 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 96-row known-baseline
 table.** Cycle 113 added **one rejection (R-062, carrying two sub-families), no parking record and two new
