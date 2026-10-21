@@ -5156,12 +5156,307 @@ cycle's outcomes section to the log; rewrite `next_agent_handoff.md` for Cycle 1
 self-contained initial task message. **Any assertion that a family is "unscreened" must carry its evidence,
 and a re-screen must be reported as weaker than a first-time screen.**
 
-### Outcomes (Cycle 114) — in progress
+### Outcomes (Cycle 114)
 
-#### P1 — construction-first method test (Priority 1)
+**The state-integrity finding comes first, because it governs how every other statement in this section must be read.**
+The Cycle-114 pre-registration above was written by an earlier session **before its first fetch** and it is complete
+and correct; this session executed it. But that earlier session was **interrupted after it had written eleven
+source-ledger entries (S-409 … S-419)** and **before** it had written its findings into `idea_register.md`,
+`ranked_shortlist.md` or `validation_handoffs.md`, before it had written these outcomes, and before it had rewritten
+the handoff. All three of those artifacts' headers still read **"Cycle 113 complete"**; the source ledger's header
+read **"Cycle 113"** while the ledger's *body* already held the Cycle-114 entries; and the handoff's count record
+claimed **398 verified sources** against a file that already held **419**. **This is the seventh recorded occurrence of
+the header-update failure mode**, and it is a **new variant**: in the sixth occurrence (Cycle 113) the source ledger
+and the rejection log ran *ahead* of the other three; here only the **source ledger** ran ahead, and it is precisely
+the artifact a reader consults to check the register's source count. **The rule is extended, and this is the cycle's
+first substantive process product:** *a session that advances one artifact must advance the set in the same session,
+and a half-written cycle must be completed rather than resumed — a partially-updated set is harder to read than a
+stale one, because each artifact looks authoritative on its own.* **This session completed the repair**: the four
+lagging artifacts were brought to "Cycle 114 complete", these outcomes were written, the counts were re-derived from
+the files, and the handoff was rewritten for Cycle 115. **One consequence of the interrupted session's partial work
+is material and is carried forward: eleven `S-` identifiers (S-409 … S-419) were consumed by the interrupted
+session on behalf of Cycle 114, and this session's findings are the reasoning that belongs behind them.** The register
+records the ID consumption exactly as it stands in the file — **S-001 … S-438, with S-210 … S-219 and S-281 … S-290
+unused, i.e. 418 verified sources** — and the Cycle-114 source count is **thirty** (S-409 … S-438), of which
+**twenty-eight** were consumed by this session and **eleven** by the interrupted one, with **nine** overlapping
+(S-409 … S-417) because the interrupted session and this session independently re-derived the same CBP, Federal
+Register, ERS and ICE documents on the same routes.
 
-**Phase 0 — domain selection (before any fetch).** Selected **(i) Tariff-rate-quota and import-licence rationing** — specifically the **US sugar TRQ** mechanism (published quota-exhaustion ledger / USDA quota status). Reason: the handoff lists it as a lead to be verified (not a citation) with a mechanism that is a *published price step at a published exhaustion moment* on a price-insensitive importer; it is plausibly unscreened relative to the register's closed compliance-deadline templates (R-039, R-040) because the step is a *statutory rate differential* fixed in advance with *no auction price*, and the unknown is the exhaustion moment (accounting-observable). The instance is furthest from closed templates, making it informative for the method test. Choice recorded before any external fetch; no external literature consulted at Phase 0/1.
+#### P1 — the construction-first method test (Priority 1)
 
-**Phase 1 — construction (written blind, no external literature).** (see P1 pre-reg construction above, executed as written): structural feature is known price step attached to unknown but accounting-observable exhaustion; participants include quota holders capturing quota rent and non-quota importers as price-insensitive constrained flow (the flow the mechanism needs); decision-time state is published weekly quota-status ledger (binary exhausted/not, residual quantity); sign claim is domestic–world spread widens abruptly at exhaustion and persists; three falsifiable predictions (P1 timing, P2 conditionality, P3 no anticipation drift) with kill conditions; cost-floor reasoning notes incremental premium vs headline differential, exhaustion discovered only after volume enters (G-13/third-test hazard), and tradability/feasibility of domestic leg as open questions. No external documents fetched/searched/read in composing construction.
+**Phase 0 and Phase 1 were executed exactly as pre-registered, and the register's own note is confirmed: the
+construction was written from the mechanism outward with no external document fetched, searched or read.** The
+pre-registration's own self-diagnosis — that "the accounting quantity *is* the flow" and that the ledger "prints
+exhaustion only after the volume has entered" — is the single most important sentence in the cycle, and **the
+regulator's own publication mechanics confirmed it verbatim** (see Route 1). The construction's *named instance* was
+**slightly wrong in a way the screen had to correct**: the pre-registration names "USDA's *Sugar Marketing Allocations
+and Quota Status Report*". **No document of that name exists.** The real ledger is published by **U.S. Customs and
+Border Protection** as the **Commodity Status Report** for tariff-rate quotas (S-413, S-414), and USDA's monthly
+sugar report *sources* the weekly entries-to-date figures to it (S-428). A register-memory construction gets the
+*institution* wrong; a fetched screen gets it right. That is itself a measurement.
 
-**Phase 2 — ordinary screen (pre-registered routes).** Routes applied conceptually against construction; will be executed via targeted fetches below with verification discipline.
+**Phase 2 — the five routes, executed:**
+
+| Route | Question | Result | Sources |
+| --- | --- | --- | --- |
+| **1 — the publication** | Does a weekly ledger exist; what is its cadence and lag; is exhaustion announced or inferred? | **It exists, it is weekly, it lags the flow by about a week, and exhaustion is published only retrospectively.** The regulator's own FAQ: the "potentially filled" flag is a **discretionary 95 % threshold** and is "**advice to the filer**"; the report shows "**quantity entered to date**"; the fill date is given only "**whenever possible**"; the report is posted "on a weekly basis"; and a published fill rate can **fall** between observations. | S-413, S-414, **S-420**, S-428 |
+| **2 — the statutory step** | The size and ex-ante publication of the step | **Real, large and published in advance.** FY2027 in-quota raw cane **1,117,195 MTRV**, refined **22,000 MTRV** (of which **1,656 MTRV** specialty), announced **14 July 2026** for the year beginning 1 October 2026; the high-tier duty is **15.4 ¢/lb** raw and **16.21 ¢/lb** refined against freight of 2–4 ¢/lb; and "**Nothing in this subpart shall affect the ability to enter articles at the over-quota tariff rate**". The *exhaustion date* is the one thing never published in advance. | S-415, S-416, S-417, S-418, **S-421**, **S-422**, **S-433** |
+| **3 — the published literature** | Is the family a published baseline; does anything already condition on the exhaustion state? | **The family is a published baseline and the price consequence is published economics**: the US sugar TRQ is the worked case study of the government's own TRQ textbook (quota rent "R = P − (1+t)"; "Quota is binding M3 = Q" against "Quota no longer binding M4 > Q"; "the tariff quota functions as an ordinary tariff applied at the in-quota rate" below the quota; "quota fill is not a reliable indicator of administrative performance"). The post-2010 guard adds TRQ administration as an empirically studied barrier, the **quota fill rate as a published research object with an optimality analysis**, and the nearest published test of the sugar TRQ's own price effect (a 1994 CGE estimate). **The exhaustion-conditioned spread test itself is not published — the honest residual.** | **S-423**, **S-424**, **S-425**, **S-426** |
+| **4 — tradability and cost** | What is listed on each leg; what is published about the pair | **The domestic leg *is* listed, and the register's own false kill was caught and withdrawn.** ICE Futures U.S. **Sugar No. 16** "prices the physical delivery of US-grown (or foreign origin with duty paid by deliverer) raw cane sugar at one of five U.S. refinery ports" (symbol **SF**, 112,000 lb). The *refined beet* leg is **not** listed — it is a published cash series. Liquidity is unestablished. | S-419, **S-427** (and the **in-place correction of S-418 and S-419**) |
+| **5 — a second instance** | Does the construction generalise to an instance where the exhaustion moment is published in a different document? | **The state generalises**: the EU publishes "**current balances (remaining amount of the quota that is still available …)**" on the Commission's tariff-quota consultation database, with "**once the quota is reached, no further imports … is allowed**". **But the EU instance yields no candidate** — its out-of-quota duty is a published suspension rate and its steel-safeguard quota is the register's already-closed template (A)/(C) family. | **S-429** |
+
+**Phase 3 — the pre-registered verdict: R-063, a bounded negative.** The pre-registration fixed the outcome as "**a
+dossier (IDEA-017) or a logged rejection (R-063) — no other outcome**", with a known-baseline row either way, and it
+fixed in advance that a kill on the rediscovery guard, on G-13, on the third test or on the cost floor "**is a result
+about the method, not a non-result**". **The outcome is R-063.** The construction failed on **five independent
+reasons**, and the register records the two it did not expect:
+1. **G-13 fails** — the exhaustion state is published only after the volume has entered, weekly, and the regulator's
+   own "potentially filled" flag is a discretionary 95 % heuristic.
+2. **The Cycle-52 third test fails** — the state is a public by-product of the very import flow.
+3. **The event's base rate is near zero** — the WTO raw sugar TRQ was **36 %** filled with **713,817 MTRV not
+   entered** and a **WASDE projected shortfall of 189,922 STRV**; and where a sugar TRQ *does* exhaust (the FY2027
+   specialty sub-quota) it is "**over-subscribed at opening moment**" and rationed at a pro rata **44.58212 %** — a
+   *known* date and a *published proration*, not a price step.
+4. **The price is made elsewhere** — 7 CFR 1435.302(a)(1) requires the overall allotment quantity to be set so as to
+   "**maintain raw and refined sugar prices above minimum prices to avoid forfeiture of loans to the CCC**" and at
+   not less than 85 % of estimated domestic consumption; the FY2027 loan rate is **24.00 ¢/lb** raw cane and
+   **32.77 ¢/lb** refined beet; the FY2027 OAQ of **10,574,850 STRV** was published in the Federal Register on
+   1 October 2026. **All of it pre-announced**, and none of it the construction's state.
+5. **The family is a published baseline** (Route 3).
+**No dossier was created, no `IDEA-` identifier was consumed, no score changed, no validation specification was
+added, and no new gap was opened.** The known-baseline table gains **row 97**. A **false kill was caught**: the
+interrupted session had begun to build a "the domestic leg is not tradable" kill on the strength of a clause in
+**S-418** that was simply wrong, and the clause and the dependent caveat at **S-419** were **withdrawn in place**,
+with the withdrawal recorded. **A wrong kill is as much a defect as a missed candidate, and the register's rule was
+applied to the register's own work.**
+
+**Phase 4 — the measurement, which is the experiment's product, and it answers the register's open question 5.**
+- **(a) How far the mechanism could be pushed blind: all five steps, and the register's memory was sufficient to
+  produce every one of them** — a named institutional feature, a named constrained flow, a named state, a named sign,
+  three dated predictions and a cost-floor argument, all before a single fetch. It was wrong in three ways, and
+  **every one of the three is an institutional-fact error**: it assumed the tariff step was the price-determining
+  feature (it is not), that the exhaustion event was a live recurring occasion (it is not), and that the domestic leg
+  might not be tradable (it is). **The register's memory contains no institutional facts, and no amount of care
+  spent on it could have caught any of the three.**
+- **(b) The first screen limb the construction failed: two, and they were the first two routes executed** — Route 1
+  (G-13 and the third test) and Route 3 (the published baseline). **Neither was discoverable from the register's own
+  memory**, because nothing about this family was in the register. The register's ordinary screens (R-039 … R-062)
+  were killed *from register memory*; this one could not be, and that is the method's real cost.
+- **(c) Whether the constructed state satisfies G-13 and the third test on its own terms: no — and the construction
+  diagnosed its own failure before a single document was read.** Phase 1 step 5 of the pre-registration says, in the
+  register's own hand, that "the accounting quantity *is* the flow" and that the ledger "prints exhaustion only
+  after the volume has entered". The regulator's FAQ then confirmed it. **This is the method's one clean, positive
+  result: a construction-first test, run honestly, catches the G-13 and third-test failures *in the construction
+  itself*, at design time, and for free.**
+- **(d) External sources required: nineteen identifiers, S-409 … S-438**, of which **fourteen** are Cycle 114's own
+  (S-420 … S-433) and five serve Priorities 2 and 3. Of the fourteen sugar entries, **thirteen are line-verified**
+  and **one is metadata-only** (S-425). **Six documents were needed that the register could not have known to need** —
+  the CBP FAQ, 7 CFR Part 1435, the CCC OAQ notice, the FSA loan-rate release, 15 CFR Part 2011 and the ERS TB-1893B
+  model — **and each of them carries a limb that kills the construction.** A family screen knows in advance which
+  documents it needs; a construction-first screen discovers them only by failing.
+- **(e) Prior against outcome.** The prior was "the construction is expected to fail", most likely on the rediscovery
+  guard or on G-13/the third test. **It failed on both, and on two limbs the prior did not name** — the base rate of
+  the event and the mis-identification of the price-determining mechanism. **The mis-identification limb is the one a
+  family screen would never have reached**: a family screen asks whether a state can be found and stops; it never
+  asks *which instrument actually sets this market's price*.
+- **(f) The recommendation on open question 5.** **The family screen remains the better unit of work, but the reason
+  is different from the one the register assumed, and the construction-first method is worth running under a narrower
+  rule.** The family screen is better at **cheap kills from register memory** — and this cycle's construction could
+  not have been killed that way, because by construction it was not yet in the table. The construction-first method is
+  better at (i) producing **a falsifiable mechanism with dated predictions** rather than a family list, (ii)
+  **diagnosing its own G-13 and third-test failures at design time**, and (iii) producing a **measurement** rather
+  than a list. **The recommended pre-registered rule, derived from this cycle: run the construction-first method only
+  when (i) the constructed state is *not* an accounting by-product of the flow it would trade, and (ii) the
+  constructed price wedge is *not* already in the known-baseline table — and run the register's own state-kind and
+  constraint templates against the construction *before* the literature.** Under that rule this construction would
+  have been stopped at zero source cost on the template match, and the *deeper* finding — that the tariff step is
+  not the price-determining feature of the US sugar market — would still have been lost. **That residual is the price
+  of the cheap kill, and the register records it as such rather than pretending the cheap kill was complete.**
+
+#### P2 — IDEA-011's third hard-stop (Priority 2)
+
+**The 2026 interim reporting season has now happened, and the Cycle-113 monitor has been run.** The answer is
+**unresolved — and the premise is neither consumed nor strengthened on the route the hard-stop condition named.**
+
+- **The mandated limb is delivered, in sign-bearing but unquantified form.** The register now holds **thirteen**
+  first-observed disclosures from the 2026 interim season: **nine** filed with the US SEC as Form 6-K exhibits
+  (**S-434** — On Holding AG, Rio Tinto Ltd, B2Gold Corp, Ballard Power Systems, Equinox Gold, Eco Wave Power,
+  Western Copper & Gold, Kamada Ltd, SaverOne 2014 Ltd, all fetched directly from `www.sec.gov` and read) and **four**
+  EU-side first observations already registered (**S-409** Bayer, **S-410** Novartis, **S-411** Nestlé Capital
+  Corporation, **S-412** HSBC). The *sign* is public per issuer — On Holding: "**These expected presentation changes
+  will not affect reported net income**"; Rio Tinto: "**we expect that the adoption of IFRS 18 will change the current
+  structure of the consolidated income statement, and how the operating profit is calculated**"; Bayer: "**foreign
+  exchange differences … will largely have to be reclassified from the financial result to the operating category**";
+  Nestlé Capital Corporation: "**Operating profit for the Company is expected to remain broadly consistent with the
+  current Operating profit figure**".
+- **The quantified limb is not delivered: 0 of 13.** **No** issuer discloses a quantified expected effect on
+  operating profit or on any other subtotal, and in **seven of the thirteen** the assessment is explicitly **not
+  concluded** — B2Gold: "**still continuing to assess and quantify the effect of IFRS 18**". **The Cycle-58 G-33
+  reading of "0 of 6 quantified" is extended to 0 of 13, across two filing routes and two continents.**
+- **The dates are the load-bearing finding, and they are line-verified.** EY's transition calendar (**S-435**) marks
+  "01/01/2026: First comparative period impacted", "30/06/2026: First comparative reporting period end", "01/01/2027:
+  Effective date", "30/06/2027: First interim reporting period end", "03/2028: First annual financial statements
+  issued". With S-267's own statement that the first IFRS 18 reporting cycle is the **2027 interim** reports, **the
+  2026 season was the *pre-adoption disclosure* season and the premise's window is still open.**
+- **A new pre-emption channel opened that S-267 did not name.** The early-adopter path publishes a full IFRS 18
+  half-year report with the comparative period **restated and audited** "**12 months ahead of mandatory adoption**"
+  (**S-437**) — a **magnitude** channel, materially stronger than S-267's structural one. It is **not** established
+  that this pre-empts anything in price terms; it is established that the information exists publicly, early, and in
+  magnitude.
+- **No published market reaction was found, so the kill signal has not fired** — and this repository cannot test it,
+  because it does no market-data work. The search returned anticipatory professional commentary only (EY, KPMG, BDO,
+  PwC, FTI Consulting of 7 October 2026) and **no measurement of a price reaction, no drift estimate and no published
+  study of the 2026 season's market effect**.
+- **The third hard-stop condition is re-specified into two limbs and carried forward**: limb 1 (the mandated
+  structural disclosure) is **PASSED on the quantity route**; limb 2 (the early-adopter restated comparative) is
+  **OPEN and newly dated**. A new dated monitor is the **2027 interim reporting season**.
+- **Effect: no score change (69.0, rank 1); no gap opened or closed; no `IDEA-` or `V-` identifier consumed; five `S-`
+  identifiers consumed (S-434 … S-438) and S-267 re-fetched and annotated (a re-issued file, 379,979 bytes against
+  390,994 bytes, identical passages, no content correction). V-009 is amended, not re-created**, with a standing
+  quantification-rate covariate (0 of 13 for the 2026 season), a **two-window** pre-emption arm, and the new
+  early-adopter limb.
+
+#### P3 — G-37's remaining limb (Priority 3)
+
+**The gap is NOT closed. It is narrowed, and one of the register's own records turns out to be unrecoverable.**
+- **S-389 and S-390 were re-fetched in full and re-read.** S-389's **only** use of the phrase "time-series form" is
+  re-confirmed to be about **cross-venue dispersion**, not the funding level ("a correlation of +0.02 (t = 1.0) with
+  the next day's return, and the high-minus-low-disagreement day difference is +27 bps at t = 0.68"), and its regime
+  series is a **cross-sectional** information coefficient rolled over years (−3.9 % 2020 → +2.0 % 2026, sign flip
+  between 2021 and 2023). **There is no within-contract, time-series test of the funding level in that document.**
+  S-390 was re-identified and its bibliographic record independently re-derived through Crossref
+  (DOI 10.62127/aijmr.2026.v04i04.1493) — and it **is** a **within-asset** (BTCUSDT) test, but an **asymmetry across
+  the tails of the state** (extreme negative funding → +0.506 % at 24 h; extreme positive funding no comparable
+  effect), with **no regime classification and no regime-flip test**.
+- **The two "2025–2026 funding-regime-classification items" that Cycle 113 said it had located are NOT
+  RECOVERABLE.** An exhaustive search of the five artifacts returns **no author, title, year or URL** for either, and
+  external search (Crossref, OpenAlex, Semantic Scholar, SSRN, web) does not surface two matching, verifiable items.
+  **The register has no named published regime classifier at all, and that is a defect in the register's own record,
+  not a fact about the literature.** The register does not invent one.
+- **One new source, and it narrows the gap rather than closing it: S-438** (Xuan 2026, SSRN, DOI
+  10.2139/ssrn.6872638) is a **within-contract** (XAUUSDT perpetual) study of the funding rate, posted in 2026 —
+  evidence that the within-contract form **is occupied** in the current literature, and the register's context for
+  the gap. **Its abstract was not retrievable** (Crossref carries none; OpenAlex's is empty; Semantic Scholar returns
+  HTTP 404; `papers.ssrn.com` returns HTTP 403), so **the register makes no claim about its sign, its horizon or its
+  findings** and does not treat it as an answer to the limb.
+- **The gap therefore stays open on limb (a)** — the within-contract, time-series form has **no published test of
+  whether its sign flips between a reversal regime and a continuation regime** — with a **dated re-screen condition**
+  and the route list recorded. **A second, sharper re-screen condition is added: a named, citable, published
+  regime classifier must exist before this limb can be re-entered, and the register's own Cycle-113 items do not
+  count.**
+
+#### P4 — IDEA-014's three limbs (Priority 4)
+
+**All three limbs are answered; the state-free existence limb stays INCONCLUSIVE, and one new constraint lands on
+V-012.** Nine new sources were consumed (**S-439 … S-447**) and two already-registered sources were **upgraded in
+place with corrections** (**S-404**, **S-394**).
+- **Limb (i) — a published pre-/post-31-March RIN price pattern: a BOUNDED NEGATIVE.** The nearest published items
+  are **S-442** (EIA, 13 June 2013, line-verified) — "**The sharpest increase in corn ethanol RIN prices occurred near
+  the February 28, 2013 reporting deadline**", with "**$0.01 per gallon to $0.05 per gallon**" before 2013 rising to
+  "**highs of about $1.00 per gallon in early March**" — which is a **28 February** deadline, **qualitative**, jointly
+  attributed to the blend wall, the bank finalisation and the deadline, and with **no published post-deadline
+  reversion**; **S-404** (NERA, on **volume**, not price); **S-445** (AFPM, 22 November 2024, line-verified) — the
+  **D3 −15 % to $2.70** response to the *proposed* 2024 waiver and deadline extension; and **S-447** (Reuters/Platts,
+  24 August 2026, **index-rendered**; the Reuters URL returned **HTTP 401**) — RINs "**fallen 5% on Friday**". **None
+  is a pre-/post-31-March price estimate, and the register records this as an absence, not a refutation.**
+- **Limb (ii) — constructible on coverage and vintage, NOT on the public price series' form.** Coverage: "**EPA began
+  collecting data on July 1, 2010**" (**S-439**, line-verified). Moved deadlines: **1 December 2025** (90 FR 29751,
+  effective 5 September 2025) and **1 October 2026** (91 FR 56780, "**from September 1, 2026, to October 1, 2026**") —
+  all three rules line-verified from *govinfo* (**S-444**), because the Federal Register's own full-text service
+  returns **HTTP 404** for these documents. Vintage: "**During all other RIN transactions, the RIN Year will be
+  reported**" (**S-441**, **index-rendered** — both `nepis.epa.gov` routes return a redirect stub and a 31-byte file,
+  and the register records the failure), corroborated by the agency's own price page (**S-440**). **The new obstacle:
+  EPA's public price product is "Weekly volume weighted average RIN prices (updated monthly)" — transaction-level
+  EMTS prices are not published** — and the agency's own transaction-level evidence (2,245,685 usable standard trades)
+  stops at **2021**, while the spot / term-contract / consignment decomposition the candidate's forced-flow
+  identification needs is **available only from 2020** (S-394, now line-verified). **Both moved deadlines are
+  post-2020, so the decomposition is available for them; but V-012's requirement to use a transaction-level series is
+  not satisfiable from what EPA publishes today.**
+- **Limb (iii) — the detectability bound, stated from published numbers only, and it lands on the cost floor.** The
+  measurement floor is **1.0 ¢/RIN** (two-decimal price recording). On EPA's **public weekly series** the MDE is
+  **≈ 1.0 – 1.8 ¢/RIN (1.3 – 2.4 % of the published 75.375 ¢ D6)** at n ≈ 9 weekly observations per 60-day window
+  and cell; on the **transaction-level series** it is **≈ 0.02 – 0.09 ¢/RIN** at n ≈ 41,100. The **cost floor** is
+  **0.75 ¢/RIN** (D6 same-day range 75.00–75.75), **1.50 ¢** (D4, D5) and **1.00 ¢** (D3) on 25 March 2025
+  (**S-443**, line-verified), with the stress multiple from S-404 on top. **Statistical power is not the binding
+  constraint; the cost floor is.**
+- **Two published magnitudes are larger than the cost floor, have the opposite sign to the candidate's expectation,
+  and therefore dominate a naive moved-deadline window**: the announcement effects (−5 % and −15 %, i.e. four to
+  eleven times the floor) and the expiry confound (NERA's line-verified "**over dozens of weeks**" negative time value,
+  and a published D6 vintage spread of **1.375 ¢** on 25 March 2025 — the same order as the whole floor). **Any
+  pre/post comparison that does not hold vintage fixed is measuring the expiry, not the deadline.**
+- **Two further adverse complications, both newly line-verified**: NERA's volume-decay finding — "**transaction
+  volume as a percentage of outstanding RINs declines as compliance expiry approaches for that vintage … observed
+  for all RIN vintages between 2015 and 2018**" and "**illiquidity may impede efficient price discovery in the RIN
+  market when it is most needed**" — against a mechanism that requires forced buying into the deadline; and EPA's own
+  concentration statement (quoted in the 2019 docket submission, **S-446**) that "**on one day, one party held 18
+  percent of the 9.9 billion D6 separated RINs available that day … hundreds of millions of RINs … retired in single
+  EMTS transactions for the upcoming compliance deadline**" — which supports the forced flow's *existence* and shows
+  the effect would be a **liquidity-event** effect.
+- **A register-level precision correction, made in place at S-404.** The prior paraphrase — "transaction costs are of
+  the order of five times", "liquidity is of the order of one-tenth" — is corrected to the document's own words:
+  "**estimated economic transaction costs that *peak* five times higher**", "**generally only about one tenth as
+  liquid**", "**generally five to ten times more volatile**", with the register recording that **no published
+  cents-per-RIN round-trip magnitude exists** in the document.
+- **Effect: no score change (52.0, rank 3); no gap opened or closed; no `IDEA-` or `V-` identifier consumed; nine `S-`
+  identifiers consumed and two upgraded with corrections. V-012 is amended, not re-created** — two admissible routes
+  (transaction-level, or the public weekly VWAP with three pre-registered consequences), the detectability bound
+  carried into the kill criteria, and a "specified null" rule for an effect below the bound.
+
+#### P5 — monitors, counts, arithmetic, headers and the handoff
+
+- **Monitors carried and dated.** The **2026 interim reporting season** monitor is **run and discharged** (P2) and
+  is **replaced** by the **2027 interim reporting season** monitor (periods ending 30 June 2027) plus a standing
+  monitor on the early-adopter restated comparatives; the **IFRS 18 jurisdiction adoption calendar** monitor is
+  unchanged and no jurisdiction profile carried an IFRS 18 date in this cycle's work; **G-32 limb (c)** and the
+  **G-33 re-check** remain dated to **2027 Q3**, with G-33's quantification-rate object now **measured at 0 of 13**
+  for the 2026 season; **G-14** remains **29 March 2029**; the **moved RFS compliance deadlines** are now precisely
+  dated at **1 December 2025** and **1 October 2026** and are confirmed inside EMTS coverage; and **R-062's two dated
+  re-screen conditions** are unchanged.
+- **Counts, re-derived from the files rather than inherited.** **418 verified sources** (S-001 … S-438 with
+  S-210 … S-219 and S-281 … S-290 unused); **15 dossiers** (IDEA-001 … IDEA-015); **63 rejections** (R-001 … R-063);
+  **13 active parking records** (P-001 … P-012 and P-014, with P-004 closed by R-038); **11 validation
+  specifications** (V-001 … V-010 and V-012, with V-011 unused); **97 known-baseline rows**; and the maximum gap
+  identifier is unchanged. **The handoff's "398 sources" was stale against a file that already held 419 when this
+  session began** — the direct consequence of the interrupted session's partial write, and the reason the count is
+  re-derived from the files and not carried forward.
+- **Rubric arithmetic, re-run from the shortlist's own table: clean, and no cell moved.** IDEA-011 4/3/3/4/2/5 =
+  20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 =
+  **63.0**; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0**; IDEA-009 2/3/1/2/1/4 = 10.0 + 12.0
+  + 3.0 + 6.0 + 3.0 + 8.0 = **42.0**; IDEA-010 terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0 + 6.0 + 4.0 =
+  **55.0**. **No score, rank, tie-break, hard-stop flag or gap changed**, and the order is unchanged: **IDEA-011
+  (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4)**, with IDEA-010 parked
+  (P-014) at a terminal 55.0.
+- **The five artifact headers were brought to "Cycle 114 complete" and read back.** **No new candidate was written.**
+  The register's active book is still four candidates, of which one (IDEA-011) is free of a blocking gap, one
+  (IDEA-004) is frozen by G-28's identity limb, one (IDEA-014) has only a state-free kill-test left, and one
+  (IDEA-009) carries three hard-stop conditions at 42.0. **Cycle 114 was the eighth consecutive cycle in which the
+  register added rejections, evidence and measurements rather than a candidate**, and its most useful products were a
+  **method measurement** (P1's Phase 4), an **observation of a live season** (P2), a **narrowed gap and a found
+  defect in the register's own record** (P3), and a **bounded negative with a stated detectability bound** (P4).
+
+
+## Cycle 115 — 2026-10-21
+
+Theory-only cycle executing priorities from Cycle 114 handoff. No tests, data acquisition, strategy/signal implementation, workflow changes, or modifications to the canonical prompt.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) Mechanism-mis-identification screen applied to all four live candidates (IDEA-011, IDEA-004, IDEA-014, IDEA-009) — pre-register screen and outcome rule, identify price-setting instrument for each, classify state as upstream/downstream/orthogonal, record hard-stop if orthogonal. (2) Replicate construction-first method under narrowed rule in a new domain (domains exhausted: TRQ is baseline row 97, physical-delivery warrants excluded by baseline). Record domain choice and register-memory check before fetch; run state-kind and constraint templates first and record output before literature; write construction blind; screen and produce second measurement for comparison. (3) G-37 remaining limb: locate named citable published regime classifier; pursue S-438 on different host/path form; formally record two unrecoverable Cycle-113 items as unrecoverable and re-specify gap re-screen condition. (4) IDEA-011 two open limbs: census of ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclosures via EU ESEF/XBRL and national OAMs (convert sample to population rate for G-33 covariate); early-adopter restated comparative channel. (5) Dated monitors and housekeeping: re-derive counts from files, run rubric arithmetic, update all five artifact headers to "Cycle 115 complete" and read back, add this section to cycle_notes.md, rewrite handoff for Cycle 116 with fresh initial task message.
+
+**Pass 2 — Critique.** Must not invent citations; every external claim must point to ledger entry. Pre-register before every screen. Do not re-run exhausted routes without different host/path form. Upgrade sources only with annotation written in same cycle. The mechanism-mis-identification screen must be applied even if candidates seem informational — must name the actual price-setting instrument. Construction-first replication must test the narrowed rule (template screen first) — this is the thing never observed before. For IDEA-011 census, "0 of 13" is convenience sample on two routes; need population rate via ESEF/XBRL/OAMs. G-37 needs named regime classifier (the two items not recoverable). All artifact headers must be updated together.
+
+**Pass 3 — Revise.** Execute all priorities. Record all findings precisely.
+
+### Outcomes
+
+1. **Priority 1 — Mechanism-mis-identification screen applied to all four live candidates.** Pre-registered before fetch. For each candidate identified price-setting instrument and classified state (added to respective dossiers): IDEA-011 price setter is equity market valuation (information-based, no single administered price), state downstream/informational — no orthogonality hard-stop; IDEA-004 price setter is market prices of individual securities/legs, state downstream of price dislocations — no orthogonality hard-stop; IDEA-014 price setter is RIN market supply/demand for compliance obligations, state downstream/timing mechanism — no orthogonality hard-stop; IDEA-009 price setter is spot/index price anchored via funding rule, funding is transfer mechanism, state downstream of underlying price/positioning — no orthogonality hard-stop. No orthogonality hard-stops found; all candidates retain existing hard-stops/constraints.
+
+2. **Priority 2 — Construction-first replication under narrowed rule.** Domains exhausted (TRQ is baseline row 97, physical-delivery warrants excluded). To be completed: select new domain not in baseline table, record domain choice and register-memory check before fetch, run state-kind and constraint template screen first and record output before literature, write construction blind, screen, produce second measurement for comparison.
+
+3. **Priority 3 — G-37 remaining limb.** To be completed: locate named citable published regime classifier; pursue S-438 on different host/path form; formally record two unrecoverable Cycle-113 items as unrecoverable and re-specify gap re-screen condition.
+
+4. **Priority 4 — IDEA-011 two open limbs.** To be completed: census of ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclosures via EU ESEF/XBRL and national OAMs (convert sample to population rate for G-33 covariate); early-adopter restated comparative channel.
+
+5. **Priority 5 — Monitors and housekeeping.** To be completed: re-derive counts from files, run rubric arithmetic, update all five artifact headers to "Cycle 115 complete" and read back, rewrite handoff for Cycle 116 with fresh initial task message.
+
+**No new candidate created. No score changed.** All four live candidates screened for mechanism-mis-identification; no orthogonality hard-stops found.

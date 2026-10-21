@@ -1,5 +1,31 @@
-# RANKED SHORTLIST — CYCLES 1–113
+# RANKED SHORTLIST — CYCLES 1–114
 
+**Cycle-114 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank 1),
+IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a
+terminal 55.0.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md` before the
+first fetch) and produced **no candidate**. **(i) The construction-first method test (Priority 1) is a BOUNDED
+NEGATIVE (R-063)**, on the US sugar tariff-rate quota, and it is the register's **first** execution of a
+construction-first screen; the register's own open question 5 is answered in the same entry: **the family screen
+remains the better unit of work, but the construction-first method is worth running only under a narrower rule** —
+the constructed state must not be an accounting by-product of the flow it would trade, the constructed price wedge
+must not already be in the known-baseline table, and the register's own state-kind and constraint templates must be
+run against the construction **before** the literature. The construction failed on five independent reasons, and its
+**own Phase-1 text diagnosed its G-13 and third-test failure before a single document was read** — the method's one
+clean positive result. **(ii) IDEA-011's third hard-stop (Priority 2) is UNRESOLVED and re-specified**: the 2026
+interim reporting season has delivered the mandated IFRS 18 pre-adoption disclosure in **sign-bearing but
+unquantified** form, with **0 of 13** issuers quantifying; the season was the *pre-adoption* season, so the premise's
+window is still open; a **new magnitude pre-emption channel** (early adopters' audited restated comparative,
+published 12 months early) is opened; and **no published market reaction was found**, so the kill signal has not
+fired. **(iii) G-37 (Priority 3) is NARROWED, not closed** — the within-contract, time-series form has no published
+regime-flip test, and the two "2025–2026 funding-regime-classification items" the register said it had located are
+**not recoverable**, which is a defect in the register's own record. **(iv) IDEA-014's three limbs (Priority 4) are
+answered**: limb (i) a **bounded negative**, limb (ii) constructible on coverage and vintage but **not** on the
+public price series' form, limb (iii) a **stated detectability bound** in which the **cost floor, not statistical
+power, is binding**. **V-009 and V-012 are amended, not re-created.** **The rubric arithmetic re-runs clean and no
+cell moved: IDEA-011 4/3/3/4/2/5 = 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = 69.0; IDEA-004 4/4/1/3/3/3 = 20.0 +
+16.0 + 3.0 + 9.0 + 9.0 + 6.0 = 63.0; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = 52.0; IDEA-009
+2/3/1/2/1/4 = 10.0 + 12.0 + 3.0 + 6.0 + 3.0 + 8.0 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0
++ 6.0 + 4.0 = 55.0.** Earlier history —
 **Cycle-113 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank 1),
 IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a
 terminal 55.0.** Cycle 113 executed **three pre-registered priorities** (pre-registered in `cycle_notes.md`

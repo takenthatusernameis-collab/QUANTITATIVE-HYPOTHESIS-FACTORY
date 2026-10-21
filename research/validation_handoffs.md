@@ -1,5 +1,28 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–113
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–114
 
+**Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
+no status changed.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md`
+before the first fetch) and produced **no new specification** and **no new candidate**. **(i) V-009 is amended** —
+the **2026 interim reporting season has been observed**, so the pre-emption reporting arm is **split into two
+windows** (the 2026 interim disclosure window, filing dates 31 July – 14 August 2026 in the sample held at S-434,
+and the **2027 interim IFRS 18 window**, periods ending 30 June 2027, which is the first IFRS 18 reporting cycle);
+the **quantification rate of the mandated pre-adoption disclosure becomes a standing reported covariate**, re-estimated
+at every pre-adoption season, with the **2026 season's value measured at 0 of 13**; and a **second hard-stop limb**
+is attached to the **early-adopter restated comparative**, which publishes a full IFRS 18 half-year report with the
+comparative period restated and audited **12 months ahead of the mandatory effective date** (S-437) and is therefore
+a **magnitude** pre-emption channel the ESMA statement did not name. **(ii) V-012 is amended** — the **price-series
+requirement is re-specified**, because EPA's **public** price product is "**Weekly volume weighted average RIN prices
+(updated monthly)**" and **transaction-level EMTS prices are not published** (S-439, S-440), so the specification now
+carries two admissible routes (**transaction-level**, with the 2013–2021 limit of the only such series the register
+has seen, and **weekly VWAP**, with three pre-registered consequences: the estimand changes, the vintage confound
+becomes first-order, and the announcement contamination must be excluded or adjusted); the **detectability bound is
+carried into the kill criteria** (a pre-/post-deadline difference must be **1.0 – 1.8 ¢/RIN** to be measurable on the
+public weekly series and **0.75 – 1.5 ¢/RIN** to clear a minimum round trip, with the stress multiple on top, and an
+effect below the upper bound is a **specified null**); and the **cost anchor's wording is corrected** to the
+published text ("**estimated economic transaction costs that *peak* five times higher**", "**generally only about one
+tenth as liquid**", "**generally five to ten times more volatile**"), with the register recording that **no published
+cents-per-RIN round-trip magnitude exists** and that the floor must therefore be quoted from the **published traded
+ranges** (S-443) and not converted from a modelled multiple. Earlier history —
 **Cycle 113 update — three specifications amended (V-008, V-009, V-012); no specification created, withdrawn
 or re-created; no status changed.** Cycle 113 executed **three pre-registered priorities** (pre-registered in
 `cycle_notes.md` before the first fetch) and produced **no new specification** and **no new candidate**.
@@ -2390,6 +2413,58 @@ Cycle-56 and Cycle-58 amendments stand in full.
    literature, a reusable **protocol-level** review frame for the sibling IFRS 15 literature, on which the
    register makes **no claim** about IFRS 18).
 
+### Cycle-114 amendment (binding) — the 2026 pre-adoption season has been observed: a standing quantification-rate covariate, a two-window pre-emption arm, and a second hard-stop limb on the early-adopter restated comparative
+
+Cycle 114 ran the **Cycle-113 monitor** — the 2026 interim reporting season, periods ending **30 June 2026** — and
+**observed** the disclosure season that the Cycle-113 amendment's pre-emption arm was written against. The season's
+**mandated** limb is delivered; its **encouraged** (quantified) limb is **not**: across the **thirteen** first-observed
+issuer disclosures now held (**S-409 Bayer AG, S-410 Novartis AG, S-411 Nestlé Capital Corporation, S-412 HSBC**;
+**S-434** — nine Form 6-K exhibits filed with the US SEC by On Holding AG, Rio Tinto Ltd, B2Gold Corp, Ballard Power
+Systems, Equinox Gold, Eco Wave Power, Western Copper & Gold, Kamada Ltd and SaverOne 2014 Ltd), **no issuer discloses
+a quantified expected effect on operating profit or on any other subtotal**, and in **seven** of the thirteen the
+assessment is explicitly **not concluded**. **This specification is amended, not re-created.** The frozen hypothesis,
+the arms, the event and outcome windows, the cost model and the kill criteria are **unchanged**; the **covariates** and
+the **reporting arms** are amended. The section **"Baselines, separation and controls"** and the Cycle-113 pre-emption
+arm are read as amended by this block; every other section stands as written, and the Cycle-52, Cycle-56, Cycle-58 and
+Cycle-113 amendments stand in full.
+
+1. **The quantification rate of the mandated pre-adoption disclosure becomes a standing reported covariate, to be
+   re-estimated at every pre-adoption season.** Arm A's state construction depends entirely on it (the existing
+   **G-33 dependency**), and the value is now **measured for the 2026 season: 0 of 13**. The validator working arm A
+   must (a) report the quantification rate **in the season it uses**, computed on a stated and pre-registered issuer
+   sample with a stated sampling rule, and (b) report "untested" where the state cannot be constructed for a material
+   share of the sample, exactly as the G-33 dependency already requires. **The register's own observation of the 2026
+   season is a convenience sample on two filing routes (EU issuer IR pages and SEC Form 6-K exhibits), not a census,
+   and the validator must not treat 0 of 13 as a population rate.**
+2. **The pre-emption reporting arm is split into two windows, and both are kill signals rather than nulls.**
+   **(a) The 2026 interim disclosure window** — the filing dates of the 2026 season (in the sample held at S-434,
+   **31 July to 14 August 2026**) — which tests whether the *sign-bearing, structural* mandated disclosure pre-empted
+   the drift. **(b) The 2027 interim IFRS 18 window** — periods ending **30 June 2027**, published July–August 2027 —
+   which is the **first IFRS 18 reporting cycle** for the mandatory population, and the first date on which the
+   candidate's slow-diffusion window can close on that population. **A significant pre-event drift in either window
+   must be reported as evidence that the slow-diffusion premise has already been consumed** (a *kill* signal for the
+   candidate), **not** as a null on the effect. The transition calendar that fixes these dates — "**01/01/2026: First
+   comparative period impacted**", "**30/06/2026: First comparative reporting period end**", "**01/01/2027: Effective
+   date**", "**30/06/2027: First interim reporting period end**", "**03/2028: First annual financial statements
+   issued**" — is **S-435**, and it must be cited for the window definition rather than re-derived.
+3. **A second hard-stop limb is attached, on the early-adopter restated comparative, and it is the one this cycle
+   opened.** The early-adopter path publishes a **full IFRS 18 half-year report with the comparative period restated
+   and audited**, "**12 months ahead of mandatory adoption**" (**S-437**, index-rendered) — i.e. a **measured**
+   operating-profit effect, in the primary statements, in the adopting subset, **before** 1 January 2027. This is a
+   *magnitude* pre-emption channel and it is materially stronger than the structural pre-emption the Cycle-113 limb
+   addressed. **If the measured effect produces a pre-event drift in the affected names, the premise is consumed and
+   the candidate is a re-description of a known disclosure.** The validator must therefore (a) identify the early
+   adopters in its universe **from the filings themselves** (no published firm-level early-adopter flag is available —
+   the standing instruction from the Cycle-110 resolution and **R-058** still holds), and (b) report the
+   early-adopter restated-comparative window as a **separate, pre-registered** event window, distinct from the
+   2026 disclosure window and the 2027 IFRS 18 window.
+4. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's score
+   (**69.0, rank 1**) is **unchanged**; the frozen hypothesis is **unchanged**; the cost model, the execution
+   assumptions, the guardrails, the separation rule and the kill criteria are **unchanged**; the **enforcement** and
+   **linguistic-distance** controls added in Cycle 52 and confirmed mandatory in Cycle 113 remain mandatory; and the
+   Cycle-111 correction notice (no group A / group B partition; prospective arm A is the only IFRS 18 identification
+   available) stands in full. **No `V-` identifier is consumed.**
+
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
 years in advance and the affected firms are knowable ex ante. The market incorporates the
@@ -2977,6 +3052,78 @@ assume a sign, does not use the published net obligated position, and does not c
 pre-deadline state. It is **not** a trade specification: no position, sizing, horizon or execution rule is
 specified, because the candidate's conditional claim is retired. It is a **kill test for the candidate's
 existence claim**, and a null result kills that claim.
+
+### Cycle-114 amendment (binding) — the price series' published form is re-specified, the detectability bound is carried into the kill criteria, and the cost anchor's wording is corrected
+
+Cycle 114 executed the Cycle-113 handoff's two remaining re-screen limbs for this candidate and added a third, the
+detectability bound. The outcome is a **re-specification of the data requirement** and an **addition to the kill
+criteria**; the frozen hypothesis, the statistic, the windows, the controls and the *state-free* scope of this
+specification are **unchanged**. **This specification is amended, not re-created.** No `V-` identifier is consumed,
+and the standing bar on any state-conditioned specification for IDEA-014 is re-affirmed in full.
+
+1. **The price-series requirement is re-specified, because EPA's public price data are weekly volume-weighted
+   averages and not transaction-level prices.** The specification's "**The price series**" section currently requires
+   EPA's "**EMTS transaction data** — transaction-level reported prices" and states that "**The validator must use the
+   transaction-level series, not a daily average**". **That requirement is not satisfiable from EPA's published public
+   data as published today.** EPA's own data page lists the public price product as "**Weekly volume weighted average
+   RIN prices (updated monthly)**" and "**Weekly aggregated RIN transaction volumes (updated monthly)**" (S-439), and
+   its price page states that "**The RIN Price chart below shows historical, weekly, volume-weighted average RIN price
+   data for separated RINs by transfer date**" (S-440). **Transaction-level EMTS prices are not published.** The
+   transaction-level series EPA itself analysed — 2,245,685 usable standard trades over **2013–2021** (S-394) — was
+   obtained through the agency's institutional route, and it stops four years before the first moved deadline's
+   pre-window. **Accordingly the specification now carries two admissible routes, and the validator must declare
+   which one it uses before the holdout is opened:**
+   - **Route T (transaction-level).** The validator obtains transaction-level prices through a route outside EPA's
+     public data products. It must document the route, the period covered, the vintage and trade-type fields
+     available, and the **2013–2021 limit** of the only such series the register has seen.
+   - **Route W (weekly VWAP).** The validator runs on EPA's published **weekly volume-weighted average** price series
+     by transfer date, D-code and RIN year. Route W is the route the register's **public** evidence supports, and
+     three consequences must be pre-registered when it is used: **(i) the estimand changes** from a difference in mean
+     *transaction* price to a difference in mean *weekly VWAP*, and the specification must say so in its results and
+     must not describe a VWAP result as a transaction-price result; **(ii) the vintage confound becomes
+     first-order** rather than a control of second rank, because the published D6 vintage spread on 25 March 2025 was
+     **1.375¢/RIN** (S-443) — of the same order as the whole cost floor — and because RINs closer to expiry have
+     traded **above** longer-lived RINs "**over dozens of weeks**" (S-404); and **(iii) the announcement contamination
+     must be handled as a pre-registered exclusion or adjustment, not left in the treatment window**, because the two
+     published announcement effects — D3 **−15 % to $2.70** on the 2024 waiver-and-extension proposal (S-445) and
+     **−5 %** on the 2025 delay announcement (S-447, index-rendered) — are of the order of **four to eleven times the
+     cost floor** and have the **opposite sign** to the candidate's expectation.
+2. **The detectability bound is carried into the kill criteria, and it is stated from published numbers only.** The
+   specification's kill criteria are read as amended: a pre-/post-deadline difference on the **public weekly series**
+   must be **at least 1.0 – 1.8 ¢/RIN (1.3 – 2.4 % of the published D6 level of 75.375 ¢/RIN)** to be measurable at
+   all at n ≈ 9 weekly observations per 60-day window and cell, and must be **at least 0.75 – 1.5 ¢/RIN** to clear a
+   minimum round trip (the published same-day traded ranges: D6 75.00–75.75, D4 80.00–81.50, D5 79.75–81.25, D3
+   243.00–244.00, **S-443**), with the **stress** multiple from S-404 on top. On the transaction-level series the
+   corresponding minimum detectable effect is **≈ 0.02 – 0.09 ¢/RIN** at n ≈ 41,100 per 60-day window. **A specified
+   effect below the upper of the two bounds is a *specified null*, and the specification must say so in advance and
+   must not report such an outcome as a failed test.** The measurement floor itself is **1.0 ¢/RIN**, because EMTS
+   prices are recorded to two decimals (S-441, index-rendered).
+3. **The two moved deadlines are confirmed and are usable, and one is now precisely dated.** The 2024 compliance
+   year's deadline was extended to "**the first quarterly reporting deadline after the effective date of this action
+   revising the 2024 cellulosic biofuel standard**" (90 FR 29751, effective **5 September 2025**) — i.e. **1 December
+   2025**; the 2025 compliance year's deadline was extended "**from September 1, 2026, to October 1, 2026**" (91 FR
+   56780, effective 4 September 2026) (all three rules at **S-444**). **Both are post-2020, and the trade-type
+   decomposition the candidate's forced-flow identification needs — spot, term contract and consignment — is available
+   only from 2020** (S-394). The specification's "**The deadline**" section is amended accordingly: the two moved
+   deadlines remain **excluded from the primary pooled test**, and each is a **separate, pre-registered event window**
+   rather than a poolable observation.
+4. **The cost anchor's wording is corrected, and the correction is binding on how the floor may be quoted.** The
+   market-quality note must be quoted as the source states it: RINs "**have estimated economic transaction costs that
+   *peak* five times higher** than oil, ethanol, and natural gas futures", are "**generally only about one tenth as
+   liquid** as comparable commodity futures", and are "**generally five to ten times more volatile**" (S-404,
+   line-verified this cycle). **No published cents-per-RIN round-trip magnitude exists** in that document — the cost
+   estimates are figure-only — and the specification must therefore quote the **published traded ranges** (S-443) for
+   the floor and must **not** convert a modelled multiple into a cents figure.
+5. **What has not changed, stated explicitly so that no reader infers a silent change.** The frozen hypothesis, the
+   event universe, the windows, the statistic, the controls, the separation rule and the *state-free* scope of this
+   specification are **unchanged**; the specification remains a **kill test for the existence claim** and not a trade
+   specification; the **conditional** version of IDEA-014 remains retired with its hard stop; **G-20** remains closed
+   against the state as specified; and **no specification may be written for the conditional claim**. The
+   state-free existence limb's **published-evidence status is unchanged and is now a bounded negative**: no published
+   estimate of a pre-/post-31-March RIN price pattern was located (the nearest item, S-442, is a qualitative
+   government statement about a **28 February 2013** deadline, with a shared attribution and no published
+   post-deadline reversion), so **a null is the expected outcome of this specification**, and the specification must
+   report it as such.
 
 ### Frozen hypothesis (state-free)
 
