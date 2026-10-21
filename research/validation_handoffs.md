@@ -1,4 +1,33 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–108
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–109
+
+**Cycle 109 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 109's work was **evidence work plus four bounded, pre-registered state-availability screens
+(P-3 … P-6)**, and it touches **no specification**. **S-154**: the **published** 2009 *RFS* body is now
+**line-verified** (obtained on the course-host route form — HTTP 200, 213,058 bytes, 31 pages, 98,823
+characters, the publisher's typeset file), so the Cycle-108 "evidenced closure" is **superseded**, and the
+published version's own magnitudes differ from the May 2004 working paper's; the **pre-registered outcome
+is (ii)**, which means the single-name screen is re-examined and **IDEA-003's G-05 closure is re-opened
+for that limb only** — and then **re-closed** on the published evidence, which confirms both the
+large-index limb and the "frequently statistically indistinguishable from zero" limb. **V-002 therefore
+remains frozen** and nothing in the single-name screen moves; **V-003 remains marked never-to-execute**;
+and the parked candidate's score (66.0) is retained rather than re-derived. **The other three screens are
+state-availability audits of retained candidates and change no specification**: **P-4** (IDEA-004) confirms
+that the crowding state fails on **identity** and **unclaimedness** while **timing is not the binding
+constraint**, so **V-007** stays **not executable** and G-28 stays frozen; **P-5** (IDEA-009) establishes
+that the funding state **passes** all three limbs, so the candidate's binding constraint is the published
+**unconditional-versus-conditional** prior art rather than the state — **V-008** is unchanged and remains
+executable; **P-6** (IDEA-014) confirms G-20's closure on a stronger ground and leaves the
+price-effect existence limb untouched — **V-010 remains marked never-to-execute**. **P-3** (IDEA-011,
+logged as **R-057**) is a *state-availability* screen of a retained candidate's **discriminator**: it
+establishes that the **historical** first-time-versus-repeat comparison can be specified **without a
+look-ahead-classification objection** (the framework-level first-adoption dates are published and dated),
+and that the **prospective** IFRS 18 partition is **not** decision-time. That finding is a **specification
+input for the future** and is recorded in the IDEA-011 dossier and in `source_ledger.md`; **no
+specification was amended by it**, because **V-009** already carries the comparator and the transition-window
+pre-registration, and this cycle's contribution is to state the comparator's **classification rule**
+explicitly rather than to change the specification. **V-008 and V-009 remain the only executable
+specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007 remain
+not executable. No `V-` identifier was consumed. Nothing in this file was executed.**
 
 **Cycle 108 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 108's work was **evidence work plus one bounded, pre-registered screen** (the ASR

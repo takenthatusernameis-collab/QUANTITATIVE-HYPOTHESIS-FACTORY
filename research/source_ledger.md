@@ -1,4 +1,77 @@
-# SOURCE LEDGER — CYCLES 1–108
+# SOURCE LEDGER — CYCLES 1–109
+
+**Cycle 109 (2026-10-21) added no new source entry, minted no new candidate and no new validation
+specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work
+plus four bounded, pre-registered state-availability screens (P-3 … P-6)**: **two entries were upgraded with
+material consequences, three were re-read as screen evidence with their fetch metadata recorded, and one
+bounded negative was logged (R-057 in `rejected_and_parked.md`).**
+
+- **S-154 — FULL UPGRADE, and the Cycle-108 twenty-one-route closure is SUPERSEDED: the *published* 2009
+  *RFS* body was obtained.** The route form is the **course-host enumeration** the Cycle-108 handoff had
+  named, and it succeeded on the first attempt: the published article is hosted in a **Duke University
+  course directory** — `https://public.econ.duke.edu/~get/browse/courses/201/spr12/DOWNLOADS/WorkingPapers_Now_Published/cw_rfs_09.pdf`
+  — **HTTP 200, 213,058 bytes, application/pdf, 31 pages, 98,823 characters** (text-extracted with
+  `pypdf`). It is the **publisher's typeset file** (PDF `/Title hhn038.dvi`, `/ModDate` 2009-02-10; running
+  head "**The Review of Financial Studies / v 22 n 3 2009**" on 15 pages; the text ends at page **1341**,
+  matching *RFS* 22(3): 1311–1341) and it is the **published** version, not the May 2004 working paper
+  ("VarianceSwap15.tex" **0 hits**, "This version: May 27, 2004" **0 hits**, "Published by Oxford University
+  Press on behalf of The Society for Financial Studies" present, "(JEL G10, G12, G13)" present, the
+  published acknowledgements thanking "**Yacine A ¨ıt-Sahalia (the editor), an anonymous referee**"). The
+  published results are now line-verified: "**only seven**" of the 35 individual stocks "generate variance
+  risk premiums that are **significantly negative**" and "**for 23 out of 35**" the mean **log** premia are
+  significantly negative; **twelve** of the 35 names have a positive mean premium and **none** of the twelve
+  is significant (largest |t| = 1.34); the S&P 500 mean premium is **−2.74 in the published table's own units, (RV − SW) × 100** — i.e. about **−$2.74 per $100 of notional** on the register's reading of that unit — (log
+  excess return **−66 %**; Sharpe ratios **0.98 / 0.85 / 0.87**); the option-data window is "**January
+  1996 … February 2003**"; and the variance-beta regression is "**LRP_j = 0.0061 − 0.3283 βV_j + e,
+  R² = 18.4 %**" (t = **−2.96**), a **negative** significant slope where the working paper's was **positive**
+  on β²_V. **The working paper's figures are retired**, the known-baseline **row 38 is rewritten in
+  place**, and under the Cycle-108 pre-registration **outcome (ii)** applies: the single-name screen is
+  re-examined and **IDEA-003's G-05 closure is re-opened for that limb only** — and then **re-closed** on
+  the published evidence. **No score, rank, tie-break, hard-stop flag, gap or specification changed.**
+- **S-254 — UPGRADE with a new route form, a dated re-check, and a dated first-adoption fact.** The profile
+  *pages* are client-side rendered; each profile's *content* is served as a per-jurisdiction **PDF** at
+  `https://www.ifrs.org/content/dam/ifrs/publications/jurisdictions/pdf-profiles/<jurisdiction>-ifrs-profile.pdf`,
+  a route form the register had not tried in thirteen cycles. Four were fetched directly: European Union
+  (**HTTP 200, 149,740 bytes, 8 pages, 19,713 characters**), Saudi Arabia (**HTTP 200, 126,760 bytes, 6
+  pages, 14,921 characters**), Nigeria (**HTTP 200, 119,901 bytes, 6 pages, 12,870 characters**), Ghana
+  (**HTTP 200, 115,469 bytes, 4 pages, 9,175 characters**). They carry **dated framework-level first-adoption
+  facts** (EU "effective in **2005**"; Ghana "1 January **2007**"; Nigeria "1 January **2012**"; **Saudi
+  Arabia: none**), and they carry **no IFRS 18 date at all** ("IFRS 18" **0 hits** in all four; the profiles'
+  own "last updated" dates are **16 June 2016**, **28 July 2022** and **2 October 2024**). The index page was
+  re-checked on the same date (**HTTP 200**) and still states **170 jurisdictions**, the same three status
+  filters and "**Updates are made on an ongoing basis**". The entry's Caveats are **narrowed in place** (its
+  "no dated transition schedule" caveat was too pessimistic; its "no IFRS 18 partition" reading is
+  **confirmed on a stronger ground**), and the Cycle-53 limb (a) verdict **stands**.
+- **S-267 and S-270 — re-read as the P-3 screen's evidence, with the fetch metadata recorded; no claim in
+  either entry changes.** The **ESMA public statement** was re-fetched directly (**HTTP 200, 390,994 bytes,
+  10 pages, 36,978 characters**) and searched for the falsification vocabulary: "first time" **0 hits**,
+  "first-time" **0**, "early adopt" **0**, "repeat" **0**, "voluntar" **0**, "jurisdiction" **0**, "calendar"
+  **0** — it fixes the **deadline** and nothing else. The **Saudi CMA announcement** was re-fetched directly
+  (**HTTP 200, 116,218 bytes; text layer 7,081 characters**) and its early-adoption clause read: listed
+  joint-stock companies "**may early adopt** IFRS 18 … during 2026 **by announcing financial statements
+  prepared in accordance with that Standard and the effect of such early adoption on the Saudi Exchange
+  (Tadawul) website**" — **self-selected, with an ex-post announcement and no registry of intent**.
+- **R-057 — the P-3 screen's bounded negative**, written in `rejected_and_parked.md`: IDEA-011's "first
+  adopter versus repeat adopter" classification is **decision-time and free at the framework level** (and so
+  the historical comparator is specifiable without look-ahead) and **not decision-time at the standard
+  level** (no IFRS 18 adoption calendar exists; the only firm-level instrument is self-selected and
+  ex-post).
+- **P-4, P-5 and P-6 — three bounded state-availability audits** (IDEA-004, IDEA-009, IDEA-014) are
+  recorded in the **Cycle-109 gap-verdict block** at the end of this file and in the three dossiers. They
+  confirm existing positions, consume no identifier, and change no score.
+
+**Cycle 109 count record (re-derived from the files, not inherited).** **378 verified sources**
+(S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused) — unchanged, because this cycle consumed
+**no new `S-` identifier**: both documents obtained are the *same sources* in a new form (the published
+version of S-154 on a new host; the profile documents of S-254 on a new route), which the register records
+as **upgrades** rather than as new entries, and the register's own precedent (S-153's published body in
+Cycle 107) is the same. The derivation, re-run by inspection in this cycle: **368 distinct `### S-NNN`
+entry headings** (369 heading lines, of which one is the **known** sub-heading inside S-358, already
+recorded as a sub-heading and not a second entry) plus the **ten** Cycle-58 document-record entries
+**S-281 … S-290**, which carry no `### S-NNN` heading of their own — 378 in total. 15 dossiers, 10
+validation specifications, **57** rejections (R-001 … R-057), 13 parking records (12 active), **92**-row
+known-baseline table, gaps G-01 … G-36, with G-21 open, G-28 frozen and G-30 exhausted. **Next free
+identifiers: IDEA-017, S-389, V-012, G-37, R-058, P-015.**
 
 **Cycle 108 (2026-10-21) added four new source entries (S-385 … S-388), minted no new candidate and
 no new validation specification, opened no gap, closed no gap and changed no score.** The cycle's work
@@ -4728,16 +4801,23 @@ DOI: https://doi.org/10.1111/j.1540-6261.2009.01467.x
 DOI: https://doi.org/10.1093/rfs/hhn038
 - **Type:** Prior empirical result (peer-reviewed).
 - **Supports (as a bounded negative for IDEA-003's single-name version):** variance risk premia on
-  individual stocks are frequently **statistically indistinguishable from zero** (negative in point
-  estimate but insignificant for 32 of 35 names in the 2004 working paper); the negative premium is a
+  individual stocks are frequently **statistically indistinguishable from zero**; the negative premium is a
   large-index phenomenon (the S&P 100 carries a strongly negative, strongly significant premium), and
   the individual-stock premium that does exist is explained by exposure to a **common market variance
-  risk factor** (a significant, positive "variance beta" slope) rather than by single-name variance
+  risk factor** (a significant "variance beta" slope) rather than by single-name variance
   risk. **Cycle-107 correction:** the third limb as previously recorded ("individual-stock returns do
   not load on a variance risk premium factor") was **contradicted by the paper's own factor analysis
   and has been struck**; the second limb's wording "frequently zero or positive" has been corrected to
   "frequently statistically indistinguishable from zero". See the Cycle-107 verification bullet below
-  for the verbatim evidence.
+  for the verbatim evidence. **Cycle-109 re-base (the *published* body is now obtained, and the entry's
+  figures are re-based on it):** the working paper's magnitudes are **retired** and replaced by the
+  published version's — "**only seven**" of the 35 individual stocks "generate variance risk premiums
+  that are **significantly negative** at the 95 % confidence level" and "**for 23 out of 35** individual
+  stocks, the mean **log** variance risk premiums are significantly negative"; **twelve** of the 35
+  individual stocks have a **positive mean premium** and **none** of the twelve is significant (largest
+  |t| = 1.34); and the variance-beta slope is **negative** and significant in the published version
+  ("LRP_j = 0.0061 − 0.3283 βV_j + e, R² = 18.4 %", t = −2.96) where the working paper's was **positive**
+  on β²_V. The three substantive limbs are **unchanged and now line-verified on the published text**.
 - **Caveats:** as S-153 — a pricing result on an older sample; it does not test a gated trading rule.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages, publication
   date) plus the journal landing page via the search index.
@@ -4929,6 +5009,65 @@ DOI: https://doi.org/10.1093/rfs/hhn038
     re-opened**, and the single-name screen is not re-examined. **No score, rank, gap, hard-stop flag
     or specification changed**; the known-baseline row 38 is corrected in place to carry the
     working-paper attribution explicitly.
+- **Cycle-109 verification — FULL UPGRADE: the *published* 2009 *RFS* body is OBTAINED and line-verified,
+  and the Cycle-108 twenty-one-route closure is SUPERSEDED.** The route form is the **course-host
+  enumeration** the Cycle-108 handoff had named, and it succeeded on the **first** attempt of this cycle:
+  the *published* article is hosted in a **Duke University course directory** —
+  `https://public.econ.duke.edu/~get/browse/courses/201/spr12/DOWNLOADS/WorkingPapers_Now_Published/cw_rfs_09.pdf`
+  — **HTTP 200, 213,058 bytes, application/pdf, 31 pages, 98,823 characters** (text-extracted with
+  `pypdf`). **Version discrimination (the test the register applies):** the document is the **publisher's
+  typeset file** — its PDF metadata is `/Title hhn038.dvi`, `/Creator dvips(k) 5.95a Copyright 2005 Radical
+  Eye Software`, `/ModDate D:20090210050128+05'30'` — and its text layer carries the running head "**The
+  Review of Financial Studies / v 22 n 3 2009**" on **15** pages and ends at page **1341**, matching the
+  article's page range *RFS* 22(3): 1311–1341; it carries "**Published by Oxford University Press on
+  behalf of The Society for Financial Studies**", "**doi:10.1093/rfs/hhn038**" and "**Advance Access
+  publication April 10, 2008**"; it carries "(JEL G10, G12, G13)"; and it thanks "**Yacine A ¨ıt-Sahalia
+  (the editor), an anonymous referee**". Against the May 2004 working paper: "VarianceSwap15.tex" **0
+  hits**, "This version: May 27, 2004" **0 hits**, "First draft" **0 hits**. **The published results, now
+  line-verified:**
+  (i) *Index level* — "We find that the average variance risk premiums are strongly negative for the
+  **S&P 500 and 100 indexes and for the Dow Jones Industrial Average**"; the published Table 3 gives the
+  S&P 500 mean premium as **−2.74** in the table's own units, (RV − SW) × 100 — about **−$2.74 per $100 of notional** on the register's reading of that unit — the log excess return as
+  **−66 %**, and the annualised Sharpe ratios on shorting 30-day variance swaps as **0.98, 0.85 and 0.87**
+  for SPX, OEX and DJX; the paper also states that the "**largest t-statistics come from the S&P 500 and
+  S&P 100 indexes and the Dow Jones Industrial Average**", and separately that the "**Sharpe ratio
+  estimates** … are **significantly higher than an average stock portfolio investment**".
+  (ii) *Individual level* — "As a result, out of the **35** individual stocks, **only seven** generate
+  variance risk premiums that are **significantly negative** at the 95 % confidence level" and "**For 23
+  out of 35** individual stocks, the mean **log** variance risk premiums are significantly negative at the
+  95 % confidence level"; the published Table 3 also shows **twelve** names with a **positive mean
+  variance risk premium — INTC +2.49 (t = 1.34), UNPH +6.59, BRCD +9.36, CIEN +5.22, EMC +3.87,
+  MOT +2.19, TXN +1.84, NOK +1.51, BRCM +0.66, TRV +0.35, HWP +0.25, LU +0.18 — and **none of the twelve
+  is significant** (largest |t| = 1.34); the paper's own summary is that "the market does not price all
+  return variance risk in each single stock, but only prices a **systematic variance risk component** in
+  the stock market portfolio".
+  (iii) *The factor limb, which is the entry's struck third limb and is now re-based on the published
+  numbers* — the published variance beta is βV_j = Cov(ln RV_j, ln RV_SPX)/Var(ln RV_SPX) and the
+  cross-sectional regression is "**LRP_j = 0.0061 − 0.3283 βV_j + e, R² = 18.4 %**" with t = **−2.96**:
+  "Consistent with our hypothesis, the slope estimate is **negative** and statistically **significant**."
+  So the published version **also** finds a significant systematic loading of individual-stock variance
+  risk premia on a common market variance factor — **with the economically coherent negative sign** —
+  and its bottom line is that "**classic risk factors cannot fully account for the negative variance risk
+  premiums on the stock indexes**"; the CAPM/size/book-to-market regressions "show that none of these
+  factors have a significant loading on the variance risk premiums".
+  (iv) *Sample* — "Our data sample starts in **January 1996** and ends in **February 2003**", with
+  per-security windows in the published Table 1 (e.g. WorldCom ends 21 June 2002); the published robustness
+  section treats replication error from price jumps, option bid-ask spreads, error-in-variables and
+  subsample stability.
+  **Version drift, stated precisely, against the working paper this entry carried until now:** the
+  working paper reports "insignificant for **all but three** of the 35" individual variance risk premia and
+  "significantly negative for **21 of the 35**" log premia, and its variance-beta slope is **positive** on
+  **β²_V**; the published version reports **7 of 35** and **23 of 35**, and a **negative** slope on **β_V**
+  — a different magnitude *and* a different sign on the factor loading, and a different sample end date.
+  **Consequence under the Cycle-108 pre-registration: outcome (ii), not (iii).** The published version
+  reports a **different magnitude** for the individual-stock premia, so **the known-baseline row is
+  rewritten in place (row 38), the single-name screen is re-examined, and IDEA-003's G-05 closure is
+  re-opened for that limb only** — and the re-examination **re-closes** the closure on the published
+  evidence (the published version confirms both the large-index limb and the "frequently statistically
+  indistinguishable from zero" limb, and its own factor analysis contradicts the struck third limb
+  exactly as the working paper's did). The closure therefore **stands and is strengthened**. The
+  **working-paper figures are retired from this entry and from row 38.** **No score, rank, tie-break,
+  hard-stop flag, gap or validation specification changed; no candidate was created or re-screened.**
 
 
 ### S-155 — Andersen, L., Duffie, D. and Song, Y. (2019)
@@ -8414,8 +8553,19 @@ URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdic
   jurisdiction's membership of the **first-time-adopter** group (required, and not previously on
   IFRS-equivalent standards) versus the **second-time-adopter** group (permitted, or previously mandated) is
   therefore a **published, dated, pre-registered** assignment, not a researcher's classification.
-- **Caveats:** the directory states the *status* of each jurisdiction's IFRS use; it does not itself give a
-  dated transition schedule for every jurisdiction, and the register has not enumerated the 170 profiles in
+  **Cycle-109 refinement (this entry was too pessimistic on one limb and right on another):** the
+  *framework-level* first-adoption fact is **published and dated in the profile documents themselves** (the
+  European Union "effective in **2005**"; Ghana "1 January **2007**"; Nigeria "1 January **2012**"), so the
+  historical first-time-versus-repeat label is computable at the decision date; but **no profile carries an
+  IFRS 18 date** ("IFRS 18" **0 hits** in all four documents read) and the profiles' own "last updated"
+  dates (**16 June 2016**, **28 July 2022**, **2 October 2024**) predate or barely postdate IFRS 18's
+  April 2024 issuance, so the directory is **not** an IFRS 18 adoption calendar.
+- **Caveats:** the directory states the *status* of each jurisdiction's IFRS use; **Cycle-109 correction:**
+  the earlier caveat's "it does not itself give a dated transition schedule for every jurisdiction" was
+  **too pessimistic** — the *profile documents* do carry a **dated first-adoption fact** for many
+  jurisdictions — but it remains true that the profiles carry **no IFRS 18 application date at all**, that
+  the fact is **absent for some jurisdictions** (the Saudi Arabia profile gives none, and its "Additional
+  comments" field reads "Not applicable"), and that the register has not enumerated the 170 profiles in
   this cycle (a bulk read of a directory is not performed in this repository).
 - **Verification:** page fetched directly; the quoted statements about the 170 profiles and the three
   status filters were read in the fetched document.
@@ -8426,7 +8576,40 @@ URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdic
   1 January 2027 (S-255); some jurisdictions have endorsed/adopted it for 2027, but no partition table is
   present in the profiles as inspected. Limb (a) verdict: negative as specified; a published IFRS 18
   jurisdiction adoption calendar distinguishing first-time vs second-time adopters with non-overlapping dates
-  would be needed.
+  would be needed. **Cycle-109 note: this verdict STANDS, and it now stands on a stronger ground** — the
+  Cycle-53 reading was taken from the profile *index and sampled profile pages*, which are client-side
+  rendered; reading the **profile documents themselves** (the Cycle-109 bullet below) shows that they carry
+  no IFRS 18 date and no partition, so the negative is a property of the instrument and not of the way it
+  was read.
+- **Cycle-109 verification — UPGRADE with a new route form, a dated re-check, and a dated first-adoption
+  fact (the P-3 screen's evidence).** (i) **Dated re-check of the index page**: fetched directly
+  (**HTTP 200**) on 21 October 2026; the entry's statements still hold verbatim — "Currently we have
+  complete profiles for **170 jurisdictions**", the same **three** status filters ("IFRS Standards are
+  required for domestic public companies", "…permitted but not required…", "…required or permitted for
+  listings by foreign companies"), the additional "IFRS for SMEs Standard is required or permitted" and
+  "under consideration" filters, and "**Updates are made on an ongoing basis**". (ii) **New route form**: the
+  profile *pages* are client-side rendered, and each profile's *content* is served as a per-jurisdiction
+  **PDF** at `https://www.ifrs.org/content/dam/ifrs/publications/jurisdictions/pdf-profiles/<jurisdiction>-ifrs-profile.pdf`,
+  which the register had not tried in thirteen cycles; four were fetched directly and text-extracted —
+  **European Union** (**HTTP 200, 149,740 bytes, 8 pages, 19,713 characters**), **Saudi Arabia** (**HTTP 200,
+  126,760 bytes, 6 pages, 14,921 characters**), **Nigeria** (**HTTP 200, 119,901 bytes, 6 pages, 12,870
+  characters**), **Ghana** (**HTTP 200, 115,469 bytes, 4 pages, 9,175 characters**). (iii) **The dated
+  first-adoption facts, now line-verified**: the European Union profile records that "**In 2002, the
+  European Union adopted IFRS Standards as the required financial reporting standards** … **effective in
+  2005**" (profile last updated **2 October 2024**); the Ghana profile records that "**In 2007** the
+  Institute adopted IFRS Standards in place of Ghana National Accounting Standards", effective "**1 January
+  2007**" (last updated **16 June 2016**); the Nigeria profile records that "**On 28 July 2010**, the
+  Nigerian Federal Executive Council approved **1 January 2012** as the effective date for adoption of
+  IFRS Standards in Nigeria" (last updated **16 June 2016**); the Saudi Arabia profile records IFRS as
+  "**required for all publicly accountable entities**" with **no** first-adoption date and an "Additional
+  comments" field of "**Not applicable**" (last updated **28 July 2022**). (iv) **What the documents do not
+  contain**: "IFRS 18" **0 hits** and "IFRS 19" **0 hits** in all four; no application-date column; and the
+  profiles' own currency dates **predate or barely postdate IFRS 18's April 2024 issuance**. (v) **Why this
+  matters**: the *framework-level* first-time-versus-repeat label for the **historical** IFRS adoption is
+  therefore **published, dated, free and decision-time** — which is what the register's unrun G-21 comparison
+  would need — while the *standard-level* label for IFRS 18 is **not** published at all, which is the
+  Cycle-109 screen's negative limb (logged as **R-057** in `rejected_and_parked.md`). **No re-score and no
+  hard-stop change follow** — this is provenance and a scope correction to the entry's own characterisation.
 
 ### S-255 — IFRS Foundation (standard-setter), "IFRS 18 Presentation and Disclosure in Financial Statements"
 URL: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/
@@ -14226,3 +14409,108 @@ URL: https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.10b-1
   section's own amendment note "[68 FR 64970, Nov. 17, 2003, as amended at 70 FR 37618, June 29,
   2005]". The quoted passages are present verbatim. The verification label is **line-verified (document
   fetched directly and text-extracted)** from the moment of creation.
+
+---
+
+## Cycle-109 gap verdicts (2026-10-21) — three bounded state-availability audits (P-4, P-5, P-6) and the P-3 screen
+
+Cycle 109 executed **four pre-registered, bounded screens** (P-3 … P-6, pre-registered in
+`cycle_notes.md` before the first fetch). **P-3** was the IDEA-011 first-adopter/repeat-adopter
+state-availability question and is logged as **R-057** in `rejected_and_parked.md`; its evidence is the
+S-254 and S-267/S-270 entries above. The three audits below are recorded here because they **confirm
+existing positions and consume no identifier** — no candidate, family or gap is rejected, re-screened or
+re-scored, and no `S-`, `V-`, `R-`, `P-` or `G-` identifier is consumed by any of them. Each verdict is
+also written into the candidate's own dossier, in the register's standard form.
+
+**P-4 — IDEA-004 (SLOWCAP-COND): is the correlation-inferred crowding state decision-time and free?
+BOUNDED NEGATIVE on the candidate's state as specified, with the binding constraint named correctly.**
+- **Limb A (architecture observable): NEGATIVE for the candidate's state.** The candidate's state is the
+  **pair-level, netted** convergence crowd, and no published source represents it (G-28, structural null).
+  The **correlation-inferred** route does not repair this: S-157 (Lou & Polk) is a **security-level**
+  measure of arbitrage activity inferred from return correlations, and the register's own crowding
+  inventory is now **eight** published routes (S-026, S-157, S-222, S-242, S-291, S-296, S-325, S-326),
+  all of them **aggregate and security- or strategy-level**, none of them pair-level or netted, with
+  S-327 reviewing the inventory rather than adding a route.
+- **Limb B (decision-time): POSITIVE for the proxy — and this is the finding that sharpens the record.**
+  A correlation-based crowding measure is computed from **past returns**, so it is available at the
+  candidate's own decision time; S-157's line-verified, Crossref-deposited abstract states that
+  crowding/arbitrage-activity intensity is inferred from return correlations — "a measure computable from
+  public price data alone". **Timing is therefore not the binding constraint on
+  IDEA-004**, contrary to how the register has sometimes framed the crowding problem: the missing thing is
+  **identity**, not speed. The published inventory's own point is that these measures "rest on different
+  primitives, they are validated by their correlation with subsequent returns, and they have **rarely been
+  benchmarked against one another**" (S-327) — so substituting a faster measure would not produce a
+  *pair-level* quantity.
+- **Limb C (free): NEGATIVE.** The state is not unclaimed: crowding is a published first-order
+  conditioning variable, the candidate's own hard-stop flag forbids presenting it as one, and the
+  published inventory already contains the candidate's *mechanism* ("persistent aggregate capital flows …
+  predict monthly factor returns", S-326) and a published *identification* constraint on any aggregate
+  crowding measure — S-327's Proposition 3.18: under homogeneous overlap, "**aggregate crowding is not
+  identified from within-date variation by any estimator**", with the corollary that "robustness to
+  arbitrary calendar effects and identification of aggregate crowding are therefore **mutually exclusive**
+  in any within-date design", and Remark 3.21's priced alternative (deliberately heterogeneous overlap
+  across disjoint sub-universes, borrow pools or liquidity tiers).
+- **Consequence.** G-28's frozen gap is **confirmed and its unfreezing condition is sharpened in one
+  respect**: a re-freezing attempt must supply not merely a *published* crowding measure but a
+  **pair-level, netted** one **and** an identification design that survives the within-date exclusion
+  result. No score, rank, flag, gap or specification changed; the candidate is unchanged at 63.0.
+
+**P-5 — IDEA-009 (PERP-FUND): is the funding state published, decision-time and free? POSITIVE on the
+state; the candidate's binding constraint is elsewhere, and it is not state availability.**
+- **Limb A (architecture observable): POSITIVE.** The venue publishes the state itself, its **cap** and
+  its **components**: S-321 (the dYdX funding rulebook) publishes the premium component (impact bid and
+  impact ask against the index price, impact notional set as 500 USDC divided by the initial-margin
+  fraction, the premium a time-weighted average of 60 one-minute premiums over the preceding hour), the
+  funding rate (the premium component divided by eight plus a fixed interest-rate component), the
+  **hourly** settlement, the **cap** ("The 8-hour rate cap is calculated by 600 % * (Initial Margin -
+  Maintenance Margin)", with the tier table, so the BTC-USD eight-hour rate is capped at 600 % × (5 % −
+  3 %) = 12 %), and the fact that **governance can adjust** the funding parameters. The register's Cycle-66
+  qualifications — the state is **clamped** and **path-dependent** — are therefore **published
+  quantities**, not hidden ones.
+- **Limb B (decision-time): POSITIVE, with the construction separated out.** The rate for the coming
+  settlement is computed from a **preceding** window of published premium data and is therefore fixed
+  before the trade; the clamp is a published function of the margin tier; the *percentile* the candidate
+  uses is computable at decision time from the venue's published history — but it is a **transformation**,
+  not a published series, and the register's own rule treats a constructed state as failing the "published
+  state" test. The audit's added precision: **the state is decision-time; the candidate's *conditioning
+  variable* is a construction of a decision-time state.**
+- **Limb C (free): PARTIAL — the state is free, the *claim* is not unclaimed.** The funding rate is
+  published at no cost, but the **unconditional** funding-level reversal the candidate asserts is
+  **published prior art**: S-320 (the closest published test of the candidate's own prediction 1: slope
+  −0.668, R² = 0.00109, F = 0.388 on 357 degrees of freedom — a near-null for the general form, with
+  reversals only at the extremes) and S-310 (the nearest published test, on 274 funding-rate extreme events
+  across BTC, ETH and SOL: up-day events revert +1.88 % over the next 24 hours while down-day events
+  continue −1.74 %, a +3.62 pp gap reported significant, i.e. the reversal is **conditional on market
+  direction**).
+- **Consequence.** The audit **confirms that state availability is not what binds IDEA-009** and narrows
+  the register's own framing: the candidate's residual is the **unconditional** sign claim against a
+  published conditional result, plus the already-recorded venue-transferability and momentum-confound
+  qualifications — not a missing state. No score, rank, flag, gap or specification changed; the candidate
+  is unchanged at 53.0.
+
+**P-6 — IDEA-014 (RIN-DEADLINE): is the sign-determining net position published before the deadline?
+BOUNDED NEGATIVE on the state as specified, with the architecture and the sign-determining quantity
+separated.**
+- **Limb A (architecture observable): POSITIVE.** The obligation, the deadline and the generation data
+  are published instruments: the annual RFS standard and its compliance date (40 CFR 80.1405, 80.1451(f),
+  S-128, S-129), the agency's own volume tables and set-aside and waiver mechanics (S-130, S-131), the
+  RIN price and generation series (S-132, S-136) and the final rule (S-201).
+- **Limb B (decision-time): NEGATIVE for the sign-determining quantity.** The *projected* net obligated
+  position is near zero **by construction** — the RVO is calibrated to the agency's own supply projection
+  (S-201: the "Analyzed Volumes" are the agency's projected supply, and the rule states the projected
+  supply "are very similar to the quantities we projected would be supplied to meet the proposed volume
+  requirements") — so the one signed component carried a **+78 % error** (990 million RINs projected for
+  2025 against 1,760 million actual), and where a shortfall arose the agency **waived** the volume
+  (1.21 billion cellulosic RINs projected against 1.38 billion needed, "a shortfall of approximately 13
+  percent") rather than letting a binding obligation form. The **realised** net position publishes only
+  after the deadline, and the weekly generation data are lagged.
+- **Limb C (free): NEGATIVE.** The only inputs that can determine the sign are **projections** — the
+  agency's own supply forecast, the lagged three-year average of exempted volumes (7.55 billion gallons for
+  2025), and the small-refinery-exemption reallocations (0.99 billion RINs for 2026, 1.04 billion for
+  2027) — so the state is a **forecast with a published error**, not a published measurement.
+- **Consequence.** G-20's closure is **confirmed in the three-limb language this cycle used (R-056's
+  form)**: the architecture is public and the *sign-determining* quantity is not published before the deadline. The register's other limb — the
+  **RFS-deadline price-effect existence limb** — is **not re-run** (it is inconclusive, and no new source
+  bearing on it was sought); and the audit states plainly that an R-056-form audit **cannot** settle it,
+  because that limb needs a **price** observation, not a state. No score, rank, flag, gap or
+  specification changed; the candidate is unchanged at 52.0.

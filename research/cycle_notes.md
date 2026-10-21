@@ -3762,49 +3762,6 @@ rewritten for Cycle 109 — the same class of defect the register repaired for C
 for Cycle 106 (written in Cycle 107). The marker is closed here, not re-opened: **no outcome, count, score,
 rank, gap or identifier in the Cycle-108 record is revised by this note.**
 
-## Cycle 109 — 2026-10-21 (pre-registration, written BEFORE the first fetch)
-
-Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no
-performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical
-mission prompt was not edited.
-
-### Pre-registration P-3 — IDEA-011's load-bearing state question (the Cycle-109 Priority 1 screen)
-
-*Question.* Is the register's rank-1 candidate's classification — **"first adopter versus repeat adopter" of a
-mandatory accounting standard** — determinable **at the adoption date**, or only with hindsight? This is not a
-re-run of G-21 (the literature search is exhausted and the comparator being unrun and unused is settled); it is
-a **state-availability** question in the form R-056 established, and it is answered from instruments the
-register already holds as primary sources.
-
-*Three-limb form (R-056's template).*
-- **Limb A — is the classification's *architecture* observable?** POSITIVE if a published instrument names, for
-  the candidate's jurisdictions, which firms/jurisdictions are first-time adopters and which are repeat adopters.
-- **Limb B — is the classification *decision-time*?** NEGATIVE if first-adopter status can only be assigned
-  **ex post** — because adoption is voluntary, or may be deferred, or is announced firm-by-firm after the fact —
-  so that no observation available at the decision date fixes it.
-- **Limb C — is the state free?** Positive only if the state is computable from public information at the
-  decision date **and** is not already published as a tradeable result.
-
-*Falsification condition, fixed in advance (the one that would overturn a negative):* **a published, prospective
-adoption calendar that fixes first-adopter status before the effective date for the candidate's jurisdictions**
-falsifies the negative. Note what does and does not count: a *mandatory application date* (e.g. "apply from
-1 January 2027") fixes a deadline, not status, because it is identical for first and repeat adopters; a
-*voluntary early-adoption permission* (e.g. Saudi Arabia's CMA decision of 30 June 2026, S-270) fixes nothing,
-because who takes it is self-selected and announced by each firm; and a *status directory* (e.g. the IFRS
-Foundation's jurisdiction profiles, S-254) fixes status in principle but carries no dated transition schedule.
-
-*Execution bounds.* Limited to **reading published standard-setter, regulator and supervisor material** already
-in the ledger (S-254, S-267, S-268, S-269, S-270, S-271, S-281 … S-286) plus **one dated re-check of the IFRS
-Foundation jurisdiction profiles**, which S-254 states are "updated on an ongoing basis" and which the register's
-own G-32 dated re-check rule says must be re-read whenever the Foundation updates them. **No literature search,
-no re-run of G-21, no re-run of G-32 limb (a) beyond the profile re-check.** No backtest, simulation, parameter
-sweep, significance test, performance or risk metric, market-data acquisition or processing, strategy or signal
-implementation, executable research infrastructure, job or workflow launch, or trading. The screen produces **no
-score change, no dossier and no re-screen of any retained candidate**; its output is a registrable verdict plus,
-if the profile re-check yields a change, a ledger annotation.
-
-Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical mission prompt was not edited. The cycle's work is **evidence work plus one bounded theoretical screen**, not a candidate screen.
-
 ### Pre-registrations (written BEFORE execution — this section precedes the fetches it governs)
 
 **Pre-registration P-1 — the published-version drift question for S-154 (Carr & Wu, *RFS* 2009).**
@@ -3969,3 +3926,309 @@ existing rows corrected in place; no score, rank, gap or specification changed.
 | `cycle_notes.md` | This section. |
 | `research/README.md` | Next-free identifier pointers updated (S-385 → S-389, R-056 → R-057, Cycle 108 → Cycle 109). |
 | `next_agent_handoff.md` | Rewritten: new task, open questions, gaps, next families, and a fresh, self-contained initial task message for **Cycle 109**. |
+
+---
+
+## Cycle 109 — 2026-10-21 (pre-registration written BEFORE the first fetch; executed below)
+
+Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no
+performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical
+mission prompt was not edited. The cycle's work is **one bounded, pre-registered state-availability screen
+(P-3) plus one bounded provenance operation (Priority 2) plus three bounded, pre-registered state-availability
+audits (P-4 … P-6)**, with housekeeping. It is not a candidate screen: **no candidate was created, no score,
+rank, tie-break, hard-stop flag, gap or validation specification changed, and no re-screen of any retained
+candidate was triggered.**
+
+### Record-integrity note on the placement of P-3 (read this before the outcomes)
+
+**P-3 was written before the first fetch of this cycle** and its text is reproduced **verbatim and unaltered**
+below. When it was written, it was inserted **immediately after the Cycle-108 section's closing note and
+before the Cycle-108 section's own pre-registrations**, which left Cycle 108's pre-registrations, three-pass
+loop, outcomes and artifact index sitting **under the `## Cycle 109` heading** — a structural defect that
+made the log say that Cycle 109 had already produced Cycle 108's results. This cycle **relocated** P-3 to the
+head of the Cycle-109 section and restored the Cycle-108 section's own scope. **No word of P-3 was changed,
+and no Cycle-108 outcome, count, identifier or score was revised by the relocation.** The relocation is
+recorded here because the register's own rule is that a record must be readable as what it is.
+
+### Pre-registration P-3 — IDEA-011's load-bearing state question (the Cycle-109 Priority 1 screen)
+
+*Question.* Is the register's rank-1 candidate's classification — **"first adopter versus repeat adopter" of a
+mandatory accounting standard** — determinable **at the adoption date**, or only with hindsight? This is not a
+re-run of G-21 (the literature search is exhausted and the comparator being unrun and unused is settled); it is
+a **state-availability** question in the form R-056 established, and it is answered from instruments the
+register already holds as primary sources.
+
+*Three-limb form (R-056's template).*
+- **Limb A — is the classification's *architecture* observable?** POSITIVE if a published instrument names, for
+  the candidate's jurisdictions, which firms/jurisdictions are first-time adopters and which are repeat adopters.
+- **Limb B — is the classification *decision-time*?** NEGATIVE if first-adopter status can only be assigned
+  **ex post** — because adoption is voluntary, or may be deferred, or is announced firm-by-firm after the fact —
+  so that no observation available at the decision date fixes it.
+- **Limb C — is the state free?** Positive only if the state is computable from public information at the
+  decision date **and** is not already published as a tradeable result.
+
+*Falsification condition, fixed in advance (the one that would overturn a negative):* **a published, prospective
+adoption calendar that fixes first-adopter status before the effective date for the candidate's jurisdictions**
+falsifies the negative. Note what and does not count: a *mandatory application date* (e.g. "apply from
+1 January 2027") fixes a deadline, not status, because it is identical for first and repeat adopters; a
+*voluntary early-adoption permission* (e.g. Saudi Arabia's CMA decision of 30 June 2026, S-270) fixes nothing,
+because who takes it is self-selected and announced by each firm; and a *status directory* (e.g. the IFRS
+Foundation's jurisdiction profiles, S-254) fixes status in principle but carries no dated transition schedule.
+
+*Execution bounds.* Limited to **reading published standard-setter, regulator and supervisor material** already
+in the ledger (S-254, S-267, S-268, S-269, S-270, S-271, S-281 … S-286) plus **one dated re-check of the IFRS
+Foundation jurisdiction profiles**, which S-254 states are "updated on an ongoing basis" and which the register's
+own G-32 dated re-check rule says must be re-read whenever the Foundation updates them. **No literature search,
+no re-run of G-21, no re-run of G-32 limb (a) beyond the profile re-check.** No backtest, simulation, parameter
+sweep, significance test, performance or risk metric, market-data acquisition or processing, strategy or signal
+implementation, executable research infrastructure, job or workflow launch, or trading. The screen produces **no
+score change, no dossier and no re-screen of any retained candidate**; its output is a registrable verdict plus,
+if the profile re-check yields a change, a ledger annotation.
+
+*(Read "no dossier" in the register's own usage — as in "no candidate, no dossier, no score change", Cycle 60 —
+i.e. **no new candidate dossier is created**. A *finding* that bears on a retained candidate's identification is
+still recorded in that candidate's existing dossier, because the register's standing rule is that a finding
+living only in a cycle log is the defect class this repository has had to repair four times. No score, rank,
+flag, gap or specification moves on the strength of it.)*
+
+### Pre-registration P-4 — IDEA-004: the correlation-inferred crowding state, decision-time and free?
+
+*Question.* The candidate's state is **the depth of the convergence crowd** — a *pair-level, netted* quantity.
+The register's structural null (G-28) says no published source represents it. This audit does **not** re-run
+G-28's route enumeration. It asks the *timing and cost* question the handoff names: **is the crowding state
+the candidate would condition on — including the correlation-inferred route (S-157's comomentum) — computable
+from information published *before* the trade, and is it free of being already published as a tradeable
+result?**
+
+*Three-limb form.*
+- **Limb A — architecture observable?** Positive only if a published instrument represents the *pair-level,
+  netted* convergence crowd. (Expected to fail; the point is to fix the failure on the *right* limb.)
+- **Limb B — decision-time?** Positive if the state is computable from information published before the trade
+  decision, at the candidate's own decision time.
+- **Limb C — free?** Positive only if the state is computable at no cost from public information **and** is not
+  already published as a tradeable result.
+
+*Falsification condition.* A **published, pair-level, netted** convergence-crowd state that is computable
+before the trade and is not already published as a tradeable result would overturn a negative on Limb A.
+
+*Execution bounds.* Read the register's own holdings only (S-157, S-326, S-327, S-026, S-222, S-242, S-291,
+S-296) and, at most, one targeted read of the comomentum paper's own method description. **No new literature
+search; no re-run of G-28's route enumeration; no re-run of the crowding-measure inventory.**
+
+### Pre-registration P-5 — IDEA-009: is the funding state published, decision-time, and free?
+
+*Question.* The candidate's state is the **perpetual-futures funding rate**. The venue publishes it; the
+register's Cycle-66 re-score adds three qualifications — the state is **clamped**, **path-dependent**, and the
+percentile the candidate uses must be computed on **clamp-excluded** observations. This audit asks the
+R-056 question in the register's own form: **is the state (a) published by the venue, (b) fixed before the
+decision, and (c) free — computable at no cost from public information and not already published as a
+tradeable result?**
+
+*Three-limb form.*
+- **Limb A — architecture observable?** Positive if the venue publishes the state itself, its clamp and its
+  components.
+- **Limb B — decision-time?** Positive if the value the candidate conditions on is **fixed** before the trade
+  decision, and if the *realised* payment is the same object the candidate conditions on.
+- **Limb C — free?** Positive only if the state is computable at no cost from public information and is not
+  already published as a tradeable result.
+
+*Falsification condition.* A published venue specification showing that the **realised** funding payment is
+**identical** to the announced rate (so that no estimation risk separates the state from the payoff), together
+with a published schedule fixing the announcement, would overturn a negative on Limb B. Separately, a published
+demonstration that the *unconditional* funding-level reversal the candidate claims is already a tradeable
+result would confirm a negative on Limb C.
+
+*Execution bounds.* Read the register's own holdings (S-315 … S-318, S-321, S-310, S-319, S-320) and, at most,
+one targeted read of a venue's own published funding specification. **No new literature search.**
+
+### Pre-registration P-6 — IDEA-014: is the sign-determining net position published before the deadline?
+
+*Question.* The candidate's state is **the net obligated position** — published generation against published
+obligations — and its sign is supposed to be known before the compliance deadline. G-20 already closed the
+state *as specified* (the projected net position is near zero **by construction**, S-201). This audit does not
+re-open G-20. It applies R-056's three-limb form to the *same* question, to fix on which limb the state
+fails and to separate the **architecture** (public) from the **sign-determining quantity** (not published
+before the deadline).
+
+*Three-limb form.*
+- **Limb A — architecture observable?** Positive if the obligation, the deadline and the generation data are
+  published instruments (not private or reconstructed).
+- **Limb B — decision-time?** Positive if the **sign-determining** quantity — the industry's net obligated
+  position — is fixed by information published **before** the compliance deadline.
+- **Limb C — free?** Positive only if the state is computable at no cost from public information and is not
+  already published as a tradeable result.
+
+*Falsification condition.* A **published, pre-deadline** measure of the industry's net obligated position
+sufficient to determine the sign would overturn a negative on Limb B. (An EPA projection that is *calibrated to
+the agency's own supply forecast* does not: S-201 makes that failure structural, not a timing accident.)
+
+*Execution bounds.* Read the register's own holdings (S-128, S-129, S-130, S-131, S-132, S-136, S-201) and, at
+most, one targeted read of an EPA published-data page. **No literature search; the RFS-deadline *price-effect*
+existence limb is not re-run** (it is inconclusive, and no new source bearing on it was sought).
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the handoff's five priorities in order: (1) the pre-registered P-3 screen on
+IDEA-011's first-adopter/repeat-adopter classification, executed against the instruments the ledger already
+holds, with the IFRS Foundation profiles re-checked once; (2) the one residual provenance route for S-154 — a
+systematic **course-host enumeration** for the *published* RFS PDF — together with a re-run of the **Internet
+Archive wildcard CDX queries that failed with HTTP 503/502** (the five exact-URL queries that returned empty
+arrays are *not* re-run); (3) three bounded state-availability audits for IDEA-004, IDEA-009 and IDEA-014, one
+each, in R-056's form, each pre-registered before execution; (4) housekeeping — re-derive the counts from the
+files, re-run the rubric arithmetic from the shortlist's own table, update all five artifact headers, add this
+section; (5) rewrite the handoff and write the initial task message for Cycle 110.
+
+**Pass 2 — Critique.** Four objections to the draft, each of which changed what was executed.
+(i) **The P-3 screen's falsification condition has to be checked against the instrument it names.** S-254's
+entry says the profiles carry "status" but "not … a dated transition schedule for every jurisdiction", and
+Cycle 53's limb (a) verdict recorded that the profiles "do not enumerate IFRS 18-specific adoption dates or
+explicitly partition jurisdictions into first-time IFRS 18 adopters vs second-time adopters". That verdict was
+drawn from the *profile index and sampled HTML pages*. The draft therefore had to be re-specified so that the
+re-check reads the **profile documents themselves**, not the directory, and so that a **dated** first-adoption
+fact, if the profile carries one, is recorded as evidence about the *framework-level* classification and is
+**not** allowed to masquerade as the prospective, standard-level calendar the falsification condition
+demands. A second objection: the register's own pre-registration had to name what a "status directory" can
+and cannot do, because the falsification condition is written in terms of a *prospective* calendar.
+(ii) **Priority 2's "course-host enumeration" is not a search term; it is a route *form*.** The draft risked
+running a generic web search and calling it an enumeration, which is what Cycle 108 did and found
+publisher pages. The revised form: enumerate *host* patterns (course-file directories, reading-list mirrors,
+seminar-course hosts) for the **published** file name and the **published** running head, and apply the
+**version-discrimination test** to anything that answers — the published acknowledgements name the editor and
+an anonymous referee; the working paper's do not (S-385 vs the 2004 working paper).
+(iii) **The three audits risk being re-runs of closed questions if they are not bounded to the limb each
+candidate actually fails on.** The revised form gives each audit a *named* question, a *named* falsification
+condition and an *explicit* list of the register's own holdings it may read, and forbids the route
+enumerations that are already exhausted (G-28's source-class enumeration; the RFS price-effect search; G-21's
+literature search).
+(iv) **A screen whose verdict is "the state is unavailable" is a claim about the candidate's *identification*,
+and it must be recorded where the candidate is, not only in the log.** The draft's "no dossier" clause is
+therefore re-read in the register's own usage (no *new* dossier), and the finding is written into the
+retained candidate's existing dossier with **no** score, flag, gap or specification change attached to it.
+
+**Pass 3 — Revise.** (a) Execute P-3 against the **profile documents**, recording the fetch metadata for every
+document, and keep the **framework-level** and **standard-level** classifications strictly apart in the
+verdict. (b) Execute Priority 2 as a **route-form enumeration** with the version-discrimination test applied
+to every candidate document, and record the Internet Archive re-runs' outcomes as *failures* or *nulls* with
+their exact status codes. (c) Execute P-4, P-5 and P-6 **against the register's own holdings**, with at most
+one targeted primary-document read each, and record each verdict with its limbs and its falsification
+condition. (d) Do the housekeeping **losslessly**: re-derive the counts from the files, re-run the rubric
+arithmetic from the shortlist's own table, correct no row, add no row, and change no score.
+
+### Outcomes
+
+1. **Priority 1 — the P-3 screen executed and logged as R-057: a BOUNDED NEGATIVE on the prospective
+   arm, a BOUNDED POSITIVE on the historical comparator, with one named residual.** The evidence came
+   from a route form the register had not tried in thirteen cycles: the IFRS Foundation's profile *pages*
+   are client-side rendered, and each profile's *content* is served as a per-jurisdiction **PDF**. Four
+   were fetched directly and text-extracted — European Union (HTTP 200, 149,740 bytes, 8 pages, 19,713
+   characters), Saudi Arabia (HTTP 200, 126,760 bytes, 6 pages, 14,921 characters), Nigeria (HTTP 200,
+   119,901 bytes, 6 pages, 12,870 characters), Ghana (HTTP 200, 115,469 bytes, 4 pages, 9,175 characters)
+   — and they carry **dated framework-level first-adoption facts** (EU "effective in **2005**"; Ghana
+   "1 January **2007**"; Nigeria "1 January **2012**"; **Saudi Arabia: none**). **No profile carries an
+   IFRS 18 date or even an IFRS 18 mention** ("IFRS 18" 0 hits in all four; profile currency dates 16 June
+   2016, 28 July 2022, 2 October 2024). The index page was re-checked on the same date (HTTP 200) and
+   still states 170 jurisdictions, the same three status filters and "Updates are made on an ongoing
+   basis". The **falsification condition was not met**: no published, prospective adoption calendar fixes
+   first-adopter status for the candidate's jurisdictions. The negative on the prospective arm rests on
+   three instruments, all re-read directly this cycle: **S-270** (Saudi CMA — the arm is **self-selected**
+   and disclosed only by an **ex-post announcement** of the early-adopted financial statements on the
+   Tadawul website; no registry of intent, no declaration date), **S-267** (ESMA — jurisdiction-uniform,
+   and containing **no** first-time/repeat language at all: "first time" 0, "first-time" 0, "early adopt" 0,
+   "repeat" 0, "voluntar" 0, "jurisdiction" 0, "calendar" 0; it fixes a **deadline**, not a status), and
+   **S-271** (a first-time IFRS jurisdiction in the IFRS 18 era applies the whole package at once, so the
+   standard-specific comparability break is not separable). **The positive limb is new and useful**: the
+   *historical* first-time-versus-repeat label is derivable **at the decision date** from the jurisdiction's
+   dated first-adoption fact and each firm's published prior-year basis-of-preparation note, so the
+   register's unrun G-21 comparison can be specified **without a look-ahead-classification objection**.
+   The **named residual**, deliberately not examined because it lies outside the pre-registered execution
+   bounds, is the **IASB's published list of entities permitted to apply IFRS early in 2005**. **G-32's
+   limb (a) closure is confirmed on a stronger ground**, S-254's caveat is narrowed in place, and
+   **IDEA-011 stays at 69.0** with no gap, flag, tie-break or specification change.
+2. **Priority 2 — the course-host enumeration SUCCEEDED on its first attempt, and the published 2009 *RFS*
+   body of Carr & Wu is obtained, line-verified, and re-based.** The document is the **publisher's typeset
+   file** hosted in a **Duke University course directory**
+   (`…/courses/201/spr12/DOWNLOADS/WorkingPapers_Now_Published/cw_rfs_09.pdf`; **HTTP 200, 213,058
+   bytes, 31 pages, 98,823 characters**): PDF `/Title hhn038.dvi`, `/ModDate` 2009-02-10, running head
+   "**The Review of Financial Studies / v 22 n 3 2009**" on 15 pages, the text ending at page **1341** —
+   the article's page range *RFS* 22(3): 1311–1341. The **version-discrimination test** applied to it
+   passes decisively: "VarianceSwap15.tex" **0 hits**, "This version: May 27, 2004" **0 hits**, "Published
+   by Oxford University Press on behalf of The Society for Financial Studies" present, "(JEL G10, G12,
+   G13)" present, and the published acknowledgements thanking "**Yacine A ¨ıt-Sahalia (the editor), an
+   anonymous referee**" — the working paper thanks neither. The Cycle-108 twenty-one-route closure is
+   therefore **superseded**, and the published results are line-verified: "**only seven**" of the 35
+   individual stocks generate significantly negative variance risk premia and "**for 23 out of 35**" the
+   mean log premia are significantly negative; the S&P 500 mean premium is **−2.74 in the published
+   table's own units, (RV − SW) × 100** — about **−$2.74 per $100 of notional** on the register's reading
+   of that unit — (log excess return **−66 %**; Sharpe ratios **0.98 / 0.85 / 0.87**); the option window is "**January
+   1996 … February 2003**"; and the variance-beta regression is "**LRP_j = 0.0061 − 0.3283 βV_j + e,
+   R² = 18.4 %**" (t = **−2.96**), a **negative** significant slope where the working paper's was
+   **positive** on β²_V. **The pre-registered P-1 outcome is (ii), not (iii)**: the published version
+   reports a different *magnitude* for the individual-stock premia, so **row 38 is rewritten in place**,
+   the single-name screen is **re-examined**, and **IDEA-003's G-05 closure is re-opened for that limb
+   only** — and the re-examination **re-closes** it on the published evidence, which confirms the
+   large-index limb and the "frequently statistically indistinguishable from zero" limb and contradicts
+   the struck third limb even more cleanly than the working paper did (the published version's own
+   conclusion is that "classic risk factors cannot fully account for the negative variance risk premiums on
+   the stock indexes"). **The working paper's figures are retired from S-154 and from row 38.**
+   The **Internet Archive re-runs** are recorded honestly: the CDX prefix over the publisher's
+   `article-pdf` path returned **HTTP 200** with a single **1,128-byte HTML** capture (not a PDF); the
+   prefix over the `article` path returned **HTTP 503** ("Internet Archive: Temporarily Offline") — a
+   **failure, not a null result**, and the route to be re-run when the archive is reachable; the Silverchair
+   CDN prefix and the `academic.oup.com/rfs` prefix filtered on `hhn038` both returned **HTTP 200** and
+   nothing that adds to the obtained body; and the **course-host directory prefix** over
+   `public.econ.duke.edu/~get/browse/courses/201/spr12/DOWNLOADS/WorkingPapers_Now_Published/` returned
+   **HTTP 200** and confirmed the host's file naming convention. **The five exact-URL CDX queries that
+   succeeded with empty arrays were not re-run.**
+3. **Priority 3 — the three candidate audits (P-4, P-5, P-6) executed against the register's own holdings,
+   with no re-run of any exhausted route.** **P-4 (IDEA-004):** the crowding state fails on **identity**
+   (no published pair-level, netted measure) and on **unclaimedness** (eight published crowding routes,
+   S-327 reviewing them), but **timing is not the binding constraint** — a correlation-inferred measure is
+   computable from public prices — so G-28's unfreezing condition is **sharpened** to require a pair-level,
+   netted measure *and* an identification design that survives S-327's Proposition 3.18 within-date
+   exclusion result. **P-5 (IDEA-009):** the funding state **passes** all three limbs — the venue publishes
+   the rate, the cap and the components (S-321), the rate for the coming settlement is fixed before the
+   trade, and the percentile is a construction of a decision-time state — so **state availability is not
+   what binds IDEA-009**; the binding constraint is the published **unconditional-versus-conditional** prior
+   art (S-310, S-320). **P-6 (IDEA-014):** the architecture is public and the **sign-determining** net
+   obligated position is **not** published before the deadline, because the RVO is calibrated to the
+   agency's own supply projection (S-201) and where a shortfall arose the agency waived the volume rather
+   than letting it bind; **G-20 is confirmed on a stronger ground** and the **price-effect existence limb
+   is explicitly not re-run** (it needs a price observation, not a state). **No score, rank, flag, gap or
+   specification changed on any of the three.**
+4. **Priority 4 — housekeeping, with two record-integrity repairs.** Counts were **re-derived from the
+   files**: 378 verified sources (368 distinct `### S-NNN` headings plus the ten Cycle-58 document-record
+   entries S-281 … S-290; the one duplicated heading remains the known sub-heading inside S-358), 15
+   dossiers, 10 validation specifications, **57** rejections, 13 parking records (12 active), **92**
+   baseline rows, gaps G-01 … G-36 with G-21 open, G-28 frozen and G-30 exhausted. The **rubric arithmetic
+   was re-run from the shortlist's own table and is clean** (69.0 / 63.0 / 53.0 / 52.0 / terminal 55.0), and
+   the re-run exposed a **stale instruction sentence** in the shortlist — "a total is the sum of the six
+   weighted cells, **divided by five**" — which reproduces no total in that file; the sentence is
+   **corrected in place** and the table was always right. **Repair 1:** a **stray blank line inside the
+   known-baseline table** was splitting it into two blocks (rows 1–89 and rows 90–92) — the same defect
+   class the Cycle-85 repair fixed once, and it had recurred; the table is now one block of **92 rows**, and
+   **no row was added, removed or renumbered**. All five artifact headers were updated, and the Cycle-109
+   section was added to this log.
+5. **Priority 5 — the handoff was rewritten** with a fresh, self-contained initial task message for
+   **Cycle 110**, the open questions, the gaps, and the next families.
+
+**What this cycle did not do, stated plainly.** It created **no candidate**, minted **no `S-` identifier**
+(the two documents obtained are the *same sources* in a new form, which the register records as upgrades —
+the Cycle-107 precedent for S-153), minted **no `V-` identifier**, **opened no gap**, **closed no gap**,
+**changed no score, rank, tie-break or hard-stop flag**, **re-scored no candidate**, **re-screened no
+candidate**, and **executed nothing**. The register's open work is unchanged in shape: **G-21** is still
+open and is now *better specified*; **G-28** is still frozen and its unfreezing condition is sharper;
+**G-30** is still exhausted; **G-32 limb (a)** is closed on a stronger ground; **G-36** is still open and
+still not to be re-derived; and **V-002** stays frozen, **V-008** and **V-009** stay executable, and
+**V-010** stays marked never-to-execute.
+
+### Artifact index for Cycle 109
+
+| Artifact | Change this cycle |
+| --- | --- |
+| `source_ledger.md` | Header rewritten for Cycle 109 with the count record; **S-154 upgraded to fully line-verified** (published body obtained, version drift documented against the working paper, P-1 outcome (ii) applied, working-paper figures retired); **S-254 upgraded** with the new profile-PDF route, the dated re-check, the dated first-adoption facts, and its caveat and Cycle-53 note corrected in place; a new **Cycle-109 gap-verdict block** appended with the P-4, P-5 and P-6 verdicts. **No new `S-` entry.** |
+| `rejected_and_parked.md` | Header rewritten for Cycle 109; **R-057 added** (the P-3 screen, with limbs, falsification check and dated re-screen conditions); **baseline row 38 rewritten in place** on the published version's numbers with the working-paper attribution retired; the **stray blank line inside the known-baseline table removed**, restoring one block of 92 rows. No row added, removed or renumbered. |
+| `idea_register.md` | Header rewritten for Cycle 109; **four new dossier blocks**: IDEA-003 (the published body obtained; G-05 re-opened for that limb only, re-examined and re-closed), IDEA-004 (P-4), IDEA-009 (P-5), IDEA-014 (P-6), IDEA-011 (P-3). **No score changed; no candidate created.** |
+| `ranked_shortlist.md` | Header rewritten for Cycle 109 with the rubric re-run shown cell by cell; the **stale "divided by five" clause corrected in place**. No score, rank, tie-break or flag changed. |
+| `validation_handoffs.md` | Header rewritten for Cycle 109; **no specification created, amended, withdrawn or re-created; no status changed.** |
+| `cycle_notes.md` | Cycle-109 section added: the record-integrity note on the relocation of P-3, the pre-registrations P-3 … P-6, the three-pass loop, the outcomes and this index. |
+| `next_agent_handoff.md` | Rewritten: the Cycle-110 task, the open questions, the gaps, the next families, and a fresh, self-contained initial task message for **Cycle 110**. |

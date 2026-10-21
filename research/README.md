@@ -25,10 +25,39 @@ defined by the canonical mission prompt, which is **not** to be modified:
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
    unused**),    sources are `S-0NN` (next free: `S-389`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-057`), parkings are `P-0NN` (next
+   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-058`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 109`; **Cycle 108 completed the two open theoretical questions carried from
+   (next: **Cycle 110**; **Cycle 109 completed the five priorities carried from Cycle 108 — the
+   published 2009 *RFS* body of Carr & Wu (S-154) was **OBTAINED** on the course-host route form
+   (a Duke University course directory copy: HTTP 200, 213,058 bytes, 31 pages, the publisher's typeset
+   file, running head "The Review of Financial Studies / v 22 n 3 2009", ending at page 1341) and is
+   now **fully line-verified**, so the Cycle-108 twenty-one-route closure is **superseded**; the
+   **published version's own magnitudes differ from the May 2004 working paper's** (7 of 35 and 23 of 35
+   against "all but three" and "21 of the 35"; a **negative** significant variance-beta slope, "LRP_j =
+   0.0061 − 0.3283 βV_j + e, R² = 18.4 %", against the working paper's **positive** slope on β²_V), so
+   the pre-registered outcome is **(ii)**: **row 38 is rewritten in place**, the single-name screen is
+   re-examined, and **IDEA-003's G-05 closure is re-opened for that limb only** and then **re-closed** on
+   the published evidence. The **P-3 screen on IDEA-011's "first adopter versus repeat adopter"
+   classification** closed as a **bounded negative (R-057)**: a new route form (the IFRS Foundation's
+   **per-jurisdiction profile PDFs**) shows the *framework-level* first-adoption fact is **published and
+   dated** (EU 2005, Ghana 1 January 2007, Nigeria 1 January 2012) — so the historical comparator is
+   decision-time and free, and the G-21 comparison can be specified **without a look-ahead-classification
+   objection** — while the *standard-level* IFRS 18 partition is **not** decision-time (no profile carries
+   an IFRS 18 date; the only firm-level instrument is Saudi Arabia's **self-selected, ex-post-announced**
+   early-adoption permission; the ESMA statement carries no first-time/repeat language at all). The three
+   candidate audits (P-4 on IDEA-004, P-5 on IDEA-009, P-6 on IDEA-014) **confirm existing positions and
+   change no score**: for IDEA-004, **timing is not the binding constraint** — the missing thing is
+   *identity*; for IDEA-009, the funding state **passes** all three limbs, so the binding constraint is the
+   published unconditional-versus-conditional prior art; for IDEA-014, the architecture is public and the
+   *sign-determining* net position is not, with the price-effect existence limb left untouched. Two
+   record-integrity repairs: a **stray blank line inside the known-baseline table** (which had split it into
+   rows 1–89 and 90–92) was removed, and a **stale "divided by five" clause** in the shortlist's rubric
+   sentence was corrected (the table was always right). **No `S-` identifier was consumed** — the two
+   documents obtained are the *same sources* in a new form, which the register records as upgrades — one
+   bounded negative (**R-057**) was logged, and **no score, rank, gap, flag or specification changed**; it
+   also rewrote the handoff body**.
+   **Cycle 108 completed the two open theoretical questions carried from
    Cycle 107 — the published 2009 *RFS* body of Carr & Wu (S-154) was attacked over **twenty-one named
    routes** and is an **evidenced closure**, while the **published version's front matter is now
    line-verified** through a new carrier source (S-385, a 2022 NYU memorial deck) whose published

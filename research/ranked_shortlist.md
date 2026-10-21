@@ -1,4 +1,44 @@
-# RANKED SHORTLIST — CYCLES 1–108
+# RANKED SHORTLIST — CYCLES 1–109
+
+**Cycle-109 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0,
+rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with
+IDEA-010 parked (P-014) at a terminal 55.0.** Cycle 109's work was **evidence work plus four bounded,
+pre-registered state-availability screens (P-3 … P-6)**, all pre-registered in `cycle_notes.md` before the
+first fetch, and **no candidate was created, re-scored or re-screened**. (i) **The published 2009 *RFS*
+body of Carr & Wu (S-154) was OBTAINED** — the Cycle-108 twenty-one-route closure is **superseded** — and
+the published version's own numbers **differ from the May 2004 working paper's** (7 of 35 individual
+stocks with significantly negative variance risk premia and 23 of 35 with significantly negative *log*
+premia, against the working paper's "all but three" and "21 of the 35"; a **negative** significant
+variance-beta slope, "LRP_j = 0.0061 − 0.3283 βV_j + e, R² = 18.4 %", against the working paper's
+**positive** slope on β²_V; the option window "January 1996 … February 2003"), so the Cycle-108
+pre-registered outcome becomes **(ii)**: **row 38 is rewritten in place** and **IDEA-003's G-05 closure is
+re-opened for that limb only** — and then **re-closed** on the published evidence, which confirms both the
+large-index limb and the "frequently statistically indistinguishable from zero" limb and contradicts the
+struck third limb. **IDEA-003 stays at 66.0, parked (P-012).** (ii) **P-3 closed as a bounded negative
+(R-057)**: IDEA-011's "first adopter versus repeat adopter" classification is **decision-time and free at
+the framework level** — the IFRS Foundation's per-jurisdiction **profile PDFs** (a route form the register
+had not tried in thirteen cycles) carry **dated** first-adoption facts (EU 2005, Ghana 1 January 2007,
+Nigeria 1 January 2012) — and **not decision-time at the standard level**, because no profile carries an
+IFRS 18 date, the only firm-level instrument is Saudi Arabia's **self-selected, ex-post-announced**
+early-adoption permission, and the ESMA statement carries no first-time/repeat language at all.
+**IDEA-011 stays at 69.0, rank 1**, and its **historical comparator is now specifiable without a
+look-ahead-classification objection** — a finding that changes what a validator would be asked to do, not
+what the candidate scores. (iii) **The three candidate audits confirm existing positions and change no
+score**: **IDEA-004** (63.0) — the crowding state fails on **identity** and **unclaimedness**, while
+**timing is not the binding constraint** (a correlation-based crowding measure is computable from public
+prices), so G-28's unfreezing condition is sharpened to require a **pair-level, netted** measure *and* an
+identification design that survives S-327's within-date exclusion result; **IDEA-009** (53.0) — the funding
+state **passes** all three limbs, so the candidate's binding constraint is **not** state availability but the
+published **unconditional-versus-conditional** prior art (S-310, S-320); **IDEA-014** (52.0) — the
+architecture is public and the **sign-determining** net position is not, with G-20 confirmed on a stronger
+ground and the price-effect existence limb left untouched. (iv) **Two record-integrity repairs**: a
+**stray blank line inside the known-baseline table** (which had split it into rows 1–89 and rows 90–92) was
+removed, and the rubric sentence quoted above was corrected. (v) **The rubric-arithmetic re-run is clean**,
+computed from this file's own table — IDEA-011 4/3/3/4/2/5 = 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 =
+**69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 = **63.0**; IDEA-009 3/3/1/3/2/4 =
+15.0 + 12.0 + 3.0 + 9.0 + 6.0 + 8.0 = **53.0**; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 =
+**52.0**; IDEA-010 terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0 + 6.0 + 4.0 = **55.0** — and **no score,
+rank, tie-break, hard-stop flag, gap or specification changed**.
 
 **Cycle-108 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0,
 rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with
@@ -670,8 +710,12 @@ at that commit), with the reconstruction, the evidence and the rejected alternat
 IDEA-011 dossier in `idea_register.md` and the residual documentary question registered as **G-36**.
 **After the repair, every dimension statement in the register satisfies the rule, and the total is
 unchanged for every candidate in the register.** The check is re-runnable: a total is the sum of the six
-weighted cells, divided by five; a per-point change is worth 5.0 (mechanism), 4.0 (evidence), 3.0
-(novelty, falsifiability, resilience) or 2.0 (data).
+weighted cells; a per-point change is worth 5.0 (mechanism), 4.0 (evidence), 3.0
+(novelty, falsifiability, resilience) or 2.0 (data). **Cycle-109 correction:** this sentence previously read
+"a total is the sum of the six weighted cells, **divided by five**", which reproduces **no** total in this
+file's own table — on the plain-sum reading every recorded total is exact, and dividing IDEA-011's 69.0 by
+five would give 13.8. The clause was stale; **the table was always right and no total changed**. The
+re-run is now stated so that a future cycle can reproduce every total in this file from this file alone.
 
 Cycle 1 added four candidates (IDEA-001 … IDEA-004), all in listed US equities. Cycle 2 added three
 candidates (IDEA-005, IDEA-006, IDEA-007), all outside listed US equities, and re-checked the four
