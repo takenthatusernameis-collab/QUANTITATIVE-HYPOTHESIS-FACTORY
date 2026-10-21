@@ -4496,3 +4496,380 @@ a 42.0. **That is the register's structural weakness and it is not fixed by anot
 next cycle's highest-value act is a *candidate-generation* act in an unused venue or an unused state kind,
 executed with the same pre-registration discipline, and the register should expect most such screens to
 return bounded negatives, which is itself information.
+
+---
+
+## Cycle 113 — 2026-10-21 (pre-registration written BEFORE the first fetch)
+
+Theory-only cycle. No tests, no data acquisition, no strategy or signal implementation, no workflow or test
+changes, no modification of the canonical prompt, no trading, no cross-repository work.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute, in order: (1) **Priority 1 — candidate generation in US commodity futures'
+published regulatory and positioning states**, in two named sub-families: (a) the **published
+speculative-position-limit and accountability state** (CFTC Part 150, 17 CFR 150, and the exchanges' own
+published daily position/accountability reports) and (b) the **CFTC's weekly Commitments of Traders**
+publication as a published, lagged, decision-time positioning state; (2) **Priority 2 — IDEA-011's own
+post-2010 re-read of its nearest published test**; (3) **Priority 3 — the two gaps opened in Cycle 112,
+G-37 and G-38**; (4) **Priority 4 — the dated monitors**; (5) **Priority 5 — housekeeping, headers, cycle log
+and handoff rewrite** for Cycle 114.
+
+**Pass 2 — Critique.** *Priority 1 is mis-framed in the handoff, and the mis-framing has to be corrected
+before the screen is run, because running the screen under a false premise is how a bounded negative gets
+written against the wrong family.* The Cycle-112 handoff states that the two Priority-1 families "neither of
+which appears in the known-baseline table and neither of which has ever been screened". **That is false for
+family (a) and only half-true for family (b).**
+- **Family (a) is not a new state kind; it is a *re-screen* licensed by two of the register's own recorded
+  re-screen conditions.** The state kind — a *published headroom / limit level* and a *published breach* —
+  was screened in the template sweep as **R-042 (template E, "published reserve/availability/headroom state
+  at decision date", whose family list names "position-limit headroom" explicitly, baseline row 71)** and
+  **R-043 (template F, "published constraint breach / non-compliance events at decision date", whose family
+  list names "position-limit breaches", baseline row 72)**, with the waivers and the change-of-law variants
+  closed as R-044 (row 73) and R-045 (row 74). Both of those entries carry a **dated re-screen condition**:
+  *"Re-screen only if a continuously published, decision-time reserve/availability/headroom state shows a
+  threshold that varies by published state with documented cadence/coverage, published before the decision, and
+  the literature shows an unclaimed sign-determining effect it conditions."* The **CFTC Part-150 /
+  exchange-accountability instance** is therefore a **licensed re-screen under a named condition**, and the
+  screen's first question is *not* "is this family new?" but **"does this instance satisfy the re-screen
+  condition, and if so does it pass the strict bar?"** The handoff's claim of a never-screened family must be
+  **corrected in the handoff**, and the correct description — a re-screen of a closed template at a named
+  instance — is *weaker* than the handoff's and must be reported as such.
+- **Family (b) is not a new state kind either, and the COT is already in the register.** The COT reports are
+  already a **registered source** (S-030, the CFTC's COT explanatory notes, and S-031, the COT Historical
+  Compressed / Public Reporting Environment pages) and the COT is already the **conditioning state of a
+  parked candidate** — **IDEA-005 ROLLCOND (P-009)**, whose whole state is "the passive's own position in
+  the expiring contract (CFTC 'Index Traders' positions, weekly, positions as of Tuesday, published
+  Friday)" read against the contract's open interest. So a COT-based candidate here is at risk of being
+  **a variant of IDEA-005** (which the rediscovery guard forbids: *"If the candidate differs from a baseline
+  only in parameterisation, in label, or in the time frame, it is a variant"*) unless it names a **different
+  mechanism**, and it must separately survive the **published COT-prediction literature** and the **R-041
+  template closure** the handoff names.
+- *The strict bar must be applied with the register's own ordering.* The bar is G-13 (published **before**
+  the decision), G-12 (the conditioning must change the **sign or the existence** of the effect, not its
+  size), the **Cycle-52 third test** (the state must not be a public real-time by-product of the very flow
+  the candidate would trade), and the **cost floor**. For family (a) there is a fourth, register-specific
+  hazard that the screen must test explicitly: the *forced* reduction that the mechanism relies on may be
+  **discretionary in timing and routable around the cap**, and the *concession* is a
+  **liquidation-concession** whose sign is claimed in the margin/funding-liquidity literature.
+- *Priority 2 must not become a re-run.* The Cycle-52 queries are exhausted; the re-read is bounded to
+  (i) **2025–2026 work on the IFRS-18 adoption event and on adoption-event information environments**,
+  (ii) **citations to, and extensions of, S-253** (the 2025–2026 systematic review) published since
+  Cycle 52, and (iii) any 2026 evidence that the adoption-event information environment itself has changed.
+  A source that supports only the **mechanism** leaves the score untouched (Cycle-35/52 precedent); a
+  published **null** or a **sign reversal** moves it under the Cycle-66 precedent.
+- *Priority 3 must keep the two gaps apart.* **G-37** is a question about the *sign of a time-series
+  relation within one contract across regimes*; **G-38** is a question about a *published cost estimate for
+  the RIN market*. Neither may be answered by the other's evidence, and neither may be closed on an
+  absence without a recorded route list.
+- *General*: no padding; every negative carries routes and failure modes; no score moves without a written
+  justification in this cycle; no citation is invented; every retrieved document is labelled
+  **fetched-and-text-extracted** or **index-rendered and unattributed**.
+
+**Pass 3 — Revise.** Write this pre-registration before the first fetch; run the Priority-1 screen in two
+parts (family (a) re-screen-condition test, then the strict bar; family (b) variant test, then the strict
+bar); record the framing correction explicitly rather than silently adopting the handoff's framing; open a
+gap only where the register's own rules call for one; end the cycle with an updated handoff, five verified
+headers, and a fresh, self-contained initial task message for Cycle 114.
+
+### Priority 1 — pre-registration (US commodity futures' published regulatory and positioning states)
+
+**Sub-family (a) — the published speculative-position-limit and accountability state.** Instance:
+**17 CFR 150** (Part 150: position limits, accountability levels, exemptions) and the **exchanges' own
+published daily position/accountability reports** (e.g. "Market Regulation Advisory" notices, published
+position-limit grids, published open-interest-against-limit reporting). Mechanism to test: a *forced*
+reduction of the marginal holder when a published cap binds, with a published trigger, and the concession
+the forced reduction concedes.
+**First question (the re-screen condition).** Does this instance satisfy R-042's / R-043's dated re-screen
+condition — a *continuously published, decision-time* headroom/limit state with a *threshold that varies by
+published state*, *documented cadence and coverage*, *published before the decision*, and a *literature that
+leaves a sign-determining effect unclaimed*?
+**Second question (the strict bar).** G-13; G-12; the Cycle-52 third test; the cost floor; plus the
+register-specific tests named in Pass 2 (anticipation of the binding, and whether the reduction is forced at
+all).
+**Routes.** (1) eCFR 17 CFR 150 and Appendix A (the rule text, fetched directly); (2) the CFTC's own
+position-limit pages and its **economic analyses of position limits** (2018 "Study of Position Limits and
+Speculative Position Limits"; 2020 "Economic Analysis of Position Limits" and "Economic Analysis of
+Speculative Position Limits"); (3) the **exchange rulebooks and published notices** (CME Rule 559/560 and
+the MRA regime; ICE/CBOT equivalents) for the *publication* mechanics — what is published, when, and at
+what granularity; (4) the **academic literature on position limits and futures price behaviour**, 2018–2026.
+**Falsification and outcomes.** If the instance fails the re-screen condition, or if the literature has
+already claimed the sign, or the binding is anticipated, or the reduction is not forced, or the concession
+is a re-description of the published liquidation/margin literature — **bounded negative, logged as R-062**,
+with the family added to the known-baseline table. If it survives all limbs, a dossier as **IDEA-017**.
+
+**Sub-family (b) — the CFTC's weekly Commitments of Traders as a decision-time positioning state.**
+**First question (the variant test).** Is any candidate here *a new mechanism*, or is it IDEA-005 (P-009) in
+another costume, or a re-description of the published COT-prediction literature? The COT is already a
+registered source (S-030, S-031) and IDEA-005's state (P-009).
+**Second question (the strict bar).** G-13 (the COT is published Friday for Tuesday positions — the lag must
+be recorded per observation, and a weekly state cannot support a sub-daily rule); G-12; the Cycle-52 third
+test; the cost floor; plus R-041's published-count/queue template closure, which the handoff names.
+**Routes.** (1) the CFTC's COT publication mechanics and lag (S-030, S031 re-read, plus the current
+CFTC COT pages); (2) the **published COT-prediction literature** — academic and exchange-published — on
+managed-money / commercial / index-trader positioning as a return predictor; (3) the published
+trend-following literature the handoff names; (4) the **crowding** literature the register already holds
+(S-026, S-157, S-222, S-280) to test whether a COT-based crowding state is a published baseline.
+**Falsification and outcomes.** **Bounded negative, logged as R-062** (one identifier, two sub-families,
+one entry) if the sign is claimed, the state is a variant of IDEA-005 or of a published baseline, or the
+weekly cadence and the costs bind. A dossier as **IDEA-017** only if a *new mechanism* survives.
+
+### Priority 2 — pre-registration (IDEA-011's post-2010 re-read of its nearest published test)
+
+**Question.** Does IDEA-011's nearest published test — the post-adoption drift conditioned on pre-adoption
+information quality, with the first-adopter/second-adopter comparison still unrun (G-21) — show a **published
+null** or a **sign reversal** in the post-2010 sample, and has anything since Cycle 52 (the last full
+re-read) changed the picture?
+**Routes (bounded; the Cycle-52 corpus is exhausted).** (1) **2025–2026 work on IFRS 18 and on the
+adoption event** — the standard's April 2024 issuance and the 1 January 2027 effective date (S-255); (2)
+**citations to, and extensions of, S-253** (the 2025–2026 systematic review of ~181 top-cited IFRS papers)
+published since Cycle 52; (3) **2026 evidence on the adoption-event information environment** — analyst
+coverage, forecast dispersion, comparability services, and any change in the slow-diffusion premise.
+**Falsification and outcomes.** A published **null** or a **sign reversal** in the post-2010 comparison moves
+IDEA-011's score under the **Cycle-66 precedent**, with the per-dimension re-derivation written in this
+cycle; a source supporting only the **mechanism** leaves the score untouched (Cycle-35/52 precedent); no
+located new source leaves the score untouched and the re-read is recorded as a null.
+
+### Priority 3 — pre-registration (G-37 and G-38)
+
+**G-37.** Does the *within-contract, time-series* form of the funding–return relation also flip sign between
+a reversal regime and a continuation regime, which regime is current, and can the flip be **detected before
+a trade is taken**? Routes: the sources behind S-389 and S-390 (read for their regime definitions and their
+per-year signs), and any published 2025–2026 work on funding-rate regime classification.
+**G-38.** Is there a **published estimate of the RIN market's bid-ask spread or round-trip cost**? (The
+GAO/EPA counterparty-size dispersion is *not* a cost estimate and must not be used as one.) Routes: EPA
+market reports, the RIN market's own published market-reports pages, academic/agency work on RIN
+transaction costs, and the EPA's RIN trading data publications.
+**Falsification and outcomes.** Each gap is a **bounded, decidable literature question**; each carries a
+recorded re-screen condition, and each either closes on located evidence or records a bounded negative with
+its routes. A gap is **not** closed on an absence alone without the route list.
+
+### Priority 4 — dated monitors
+
+G-32 limb (c) and the G-33 re-check (**2027 Q3**); G-14 (**29 March 2029**); the **IFRS 18 jurisdiction
+adoption calendar** (a monitor only — no jurisdiction profile carries an IFRS 18 date as of Cycle 109); the
+**moved 2026 RFS compliance deadlines** (S-131) as the external test for V-012.
+
+### Priority 5 — housekeeping and handoff
+
+Re-derive every count **from the files**; run the rubric arithmetic; update the five artifact headers to
+"**Cycle 113 complete**" **and read them back**; add this cycle's section to the log; rewrite
+`next_agent_handoff.md` for Cycle 114 with a fresh, self-contained initial task message.
+
+---
+
+## Cycle 113 — 2026-10-21 (outcomes)
+
+**Executed:** three pre-registered priorities — **P1** the two-sub-family screen of US commodity futures'
+published regulatory and positioning states; **P2** the bounded post-2010 re-read of IDEA-011's nearest published
+test; **P3** the execution of the two gaps opened in Cycle 112 (**G-37**, **G-38**) — together with the
+housekeeping, arithmetic, header-verification and handoff rewrite. **No candidate was created. No score changed
+and no rank changed. No specification was created, withdrawn or re-created; three were amended (V-008, V-009,
+V-012). One gap was closed (G-38); no gap was opened. Eleven sources (S-398 … S-408), one rejection (R-062) and
+two baseline rows (95, 96) were added. The canonical prompt was not touched. No test, no simulation, no
+parameter sweep, no market-data acquisition, no strategy or signal implementation, no workflow or test change, no
+credential or infrastructure change, no work outside this repository, and no trading.**
+
+### P1 — US commodity futures' published regulatory and positioning states: bounded negative on both sub-families, and the screen's framing was corrected before it ran
+
+**Outcome:** **R-062**; **no candidate written**; the two families become **known-baseline rows 95 and 96**;
+**no score changed**; **no gap opened**, because the reasons are independent of data availability.
+
+**The framing correction, made before the screen ran and recorded rather than silently adopted.** The
+Cycle-112 handoff described its two Priority-1 families as "neither of which appears in the known-baseline table
+and neither of which has ever been screened". **That is false for family (a) and only half-true for family
+(b).** Family (a) — the published speculative-position-limit and accountability state — is a **licensed
+re-screen** of the register's own closed templates **R-042** (template E, published headroom state, baseline
+row 71) and **R-043** (template F, published breach state, row 72), with the waiver and change-of-law variants
+closed as **R-044** (row 73) and **R-045** (row 74); both carry a dated re-screen condition. Family (b) — the
+CFTC's weekly Commitments of Traders — is **already a registered source** (S-030, S-031) and **already the
+conditioning state of the parked candidate IDEA-005 (P-009)**, so a COT candidate that differs only in label,
+parameter or horizon would be a **variant**, which the rediscovery guard forbids. The screen's first question
+was therefore **not** "is this family new?" but **"does this instance satisfy the dated re-screen condition, and
+if so does it pass the strict bar?"** — a **weaker** question than the handoff's, and the one actually run.
+
+**Sub-family (a) — the published limit/accountability state — fails on the law itself, which is now
+line-verified.** **S-398** (17 CFR Part 150) was fetched directly from the eCFR versioner API and
+text-extracted to 115,759 characters, and it settles the mechanism: "Position accountability" is defined in
+§ 150.1 as a rule that "Requires an entity whose position exceeds the accountability level to **consent** to …
+**Halt increasing further its position or reduce its position in an orderly manner, in each case as requested
+by** the designated contract market or swap execution facility" — a **request**, not a forced reduction. The
+spot-month cap is "no greater than **25 percent of the estimated spot month deliverable supply**" (§
+150.5(b)(1)(i)) on an estimate the exchange supplies to the Commission "**upon request**" (§ 150.3(f)); outside
+the spot month the obligation is limits "**or** position accountability" at a "necessary and appropriate" level
+(§ 150.5(b)(2)(i)), with the non-spot-month level anchored to a **lagged annual** input — "10 percent of the
+average combined futures and delta-adjusted option month-end open interest in the contract for the most recent
+calendar year up to 50,000 contracts, with a marginal increase of 2.5 percent of open interest thereafter"
+(Appendix F(a)(1)(iv)) — and the reduction horizon is administrative: "**within a commercially reasonable time,
+as determined by the Commission in consultation with the applicant and the applicable designated contract
+market**" (§ 150.3(b)(3)(ii)(B)), with no enforcement action during the review (§ 150.3(b)(3)(ii)(C)). There is
+therefore **no published headroom or breach series**; the binding is **pre-announced** (**S-399**: the published
+CL and LC step-downs, Light Sweet Crude Oil at 6,000/5,000/4,000 contracts on the three, two and one business
+days before the last trading day); and the **sign is already claimed, and the published claim is a null**
+(**S-401**: the CFTC economist memorandum of 21 August 2009 found "**little evidence to suggest that changes
+from a position limit regime to an accountability level regime or changes in the levels of position limits
+impact price volatility**" in either energy or agricultural markets) — and that published test is of the
+**pre-2020** regime, the regime in force being the 2020 final rule at **86 FR 3236** (**S-400**). The exchange
+rulebook reads the same way (**S-402**): an accountability level may be exceeded without a violation, and a
+reduction follows the exchange's order after private contact. The concession is a **liquidation concession**,
+whose sign is claimed in the margin/funding-liquidity literature the register already holds (**S-009**).
+
+**Sub-family (b) — the weekly Commitments of Traders — fails on the regulator's own publication mechanics.**
+**S-403** (line-verified): the data are Tuesday's and are "released Friday" at "3:30 pm Eastern Time" after
+"**three days** to process the data", the report is released "**once a week**", a contract "**no longer appears
+in the COT report**" when the number of reportable large traders "drops below **20**" — so the state's own
+existence is a function of the crowd it would measure — the classification is "based on the predominant business
+purpose **self-reported** by traders on the CFTC Form 40", "CFTC staff does not know specific reasons for
+traders' positions", the CFTC "**does not publish** information on how individual traders are classified", and
+"**No**, historical data is not updated once published"; and the regulator itself lists the three mechanisms by
+which a week-to-week change can arise (a re-filed Form 40, a new trader's positions altering the prior week's
+numbers, an existing trader's exit). The variant limb fails first and is decisive.
+
+**Routes tried** (recorded so that a later session does not repeat them, and so that it is honest about what was
+verified and what was not): the eCFR versioner XML API for six dates in 2025–2026 and the plain eCFR page
+(navigation chrome only, not used); the CFTC's own "Position Limits for Derivatives" page; the Federal Register
+API for the 2020 final rule and its metadata; the CFTC's Commitments of Traders programme page and the
+Division of Market Oversight's FAQs; the exchange's own accountability rulebook and market-regulation
+advisory notice; the EDHEC/SSRN record and the author's PDF for the closest published position-limit test. The
+CFTC's 2018 and 2020 economic analyses, the CFTC Office of the Chief Economist's review, and the published
+COT-prediction literature were **located through the search index and are not registered, not fetched, and no
+claim in this cycle rests on any of them**.
+
+### P2 — IDEA-011's post-2010 re-read of its nearest published test: a null on the score, with a competing conditioner and a new dated monitor
+
+**Outcome:** **no score change (69.0, rank 1 unchanged)**; **no gap opened or closed**; **one new hard-stop
+condition**; **V-009 amended** (a competing-conditioner control and a pre-emption reporting arm); **one new
+dated monitor**; three sources added (S-406, S-407, S-408).
+
+**The score rule was fixed in advance** — a published **null** or a **sign reversal** moves the score under the
+**Cycle-66 precedent**; a source supporting only the **mechanism** leaves it untouched (Cycle-35/52 precedent).
+**Neither a null nor a sign reversal was found.** The nearest published post-2010 test (**S-406**, *Accounting
+Horizons*, DOI-bearing and peer-reviewed) finds "**modest** improvements" that are "**statistically significant,
+although economically small**" — a **magnitude** finding, and under the register's G-12 ordering a magnitude
+finding is neither a null nor a sign reversal. Two constraints on how far S-406 can bear are recorded: its
+design is a **reclassification of historical GAAP data** and so is not post-implementation market-effect
+evidence, and it tests the *informativeness of the subtotals*, not a post-adoption *price drift*.
+
+**The finding that matters most for this candidate is inside S-407**: institutional enforcement quality is now a
+**documented competing conditioner** in precisely the multi-jurisdiction design the candidate's comparator would
+use — the effect of the same standard is "**65 %** mediated by the quality of institutional enforcement" and is
+"**73 % larger**" where enforcement is strong. A first-adopter and a repeat-adopter jurisdiction differ in
+enforcement as well as in the candidate's conditioner, so the G-21 contrast is **confounded unless enforcement is
+controlled for**. This is registered as a **V-009 control requirement** and is *not* a score move: it changes the
+**interpretation** of the comparator, not the existence of the premise. **S-408** (GECAT 2026) is a
+**protocol-level** systematic-review frame for the sibling IFRS 15 literature — a reusable route, not evidence,
+on which the register makes no claim.
+
+**The adverse premise reading falls on the already-registered S-267 and is recorded there rather than as a new
+source.** ESMA's public statement requires issuers to disclose "the expected material effects from the
+application of IFRS 18 in the interim and annual financial reports for periods ending before 1 January 2027" —
+a mandate that publishes the *structure* of the accounting break **before** the event and so pre-empts the
+slow-diffusion premise. The mitigation is in the same source: the **mandated** content is **qualitative**, while
+the *quantified* expected operating-profit change is only **encouraged** — so the pre-emption is **partial and
+structural, not quantitative**, and it weakens the premise in the *size* dimension, not the sign/existence
+dimension (the Cycle-108 S-387 precedent). A **third hard-stop condition** is attached: *the slow-diffusion
+premise must survive the ESMA-mandated pre-adoption disclosure.* A **new dated monitor** is opened: the
+**2026 interim reporting season** (periods ending 30 June 2026), the earliest observation date in this dossier
+and earlier than the 2027 Q3 G-32 limb (c) / G-33 re-check. **G-21 remains unrun by design** — the Cycle-52
+corpus is exhausted and the comparator is a **validation** task, not a literature task.
+
+### P3 — The two gaps opened in Cycle 112: G-38 closed (adversely), G-37 partially answered
+
+**G-38 — the published RIN round-trip cost — CLOSED.** Two published cost anchors were located: **S-404** (NERA
+Economic Consulting, 18 October 2018, filed in EPA docket EPA-HQ-OAR-2018-0775) and **S-405** (Lade, Lin &
+Smith, RFF Discussion Paper 15-22, June 2015). **Both are index-rendered** — the docket document was read
+through the search index and the RFF landing page and PDF refused a direct fetch (HTTP 404 and HTTP 403
+respectively) — and the first is a **consultancy paper prepared for a party with a commercial interest in the
+reform**, so the closure rests on the **order of magnitude** and not on point estimates. On the **Roll (1984)**
+model, the RIN market's frictions are **several times** those of comparable energy futures: spreads up to **five
+times**, transaction costs of the order of **five times**, liquidity of the order of **one-tenth**, volatility
+**five to ten times**. **The consequence is adverse to the candidate's required effect**: the register's own
+dispersion anchors (S-393's 2.4 %–2.9 %; S-394's 1.1 % central premium against EPA's own −5.3 % to +7.5 %
+band) are **small in percentage terms** and therefore sit **inside** the cost band rather than above it, so a
+pre-/post-deadline difference of the order the candidate's premise suggests is **below** the cost floor. **The
+state-free existence limb stays INCONCLUSIVE** — G-38 asked for the *cost*, not for the *effect* — so the
+candidate is **not parked**; **V-012 is amended** to carry the published cost anchor and to **tighten** the pass
+bar to it, with the bar on any state-conditioned specification **re-affirmed in full**.
+
+**G-37 — the within-contract regime-transfer question — PARTIALLY ANSWERED; the gap remains open on one limb.**
+S-389's source document was **re-fetched in full** (the Cycle-112 entry had read it "from the abstract through
+Section 14" and the retrieval tool had truncated the final ~9 KB, which had therefore never been read) and
+read to the end; the ledger entry is **upgraded** accordingly. **Limb (ii), which regime is current:
+ANSWERED — the regime is continuation, not reversal.** The document's own split table gives 2020–2023 against
+2024–2026: one hour **+0.33 % / +4.10 %**, two hours **−0.30 % / +3.61 %**, four hours **−0.30 % / +3.05 %**,
+eight hours **−0.29 % / +2.93 %**, twenty-four hours **−1.29 % / +2.39 %**; the 2020–2023 window is "59 % of the
+sample" and has "no effect at any horizon except a significantly negative one at a day (t = −3.0)", while
+2024–2026 is significant at every horizon (twenty-four hours, t = 8.8). **The candidate's own construction flips
+with it**: the 90-day z-score's yearly 24-hour information coefficient runs **−2.3, −3.2, −0.3, +0.8, +1.1, +2.1,
++0.5 %** (t = −1.5, −5.1, −0.4, +1.4, +2.4, +4.5, **+0.8**), so in the **current year the candidate's own state
+is statistically indistinguishable from zero**. **Limb (iii), can the flip be detected before a trade is taken:
+ANSWERED, AND ADVERSELY.** The regime *is* partly predictable ex ante — "a slope of **+0.65 to +0.78** across 63,
+126 and 252-day windows at **t = 5.7 to 6.6**, and the trailing sign matches the next day's **54.7 % to 56.3 %**
+of the time" — but "**Knowing the regime is not the same as profiting from it:** a strategy trading the sign of
+its own trailing coefficient earns **+1.9 to +2.8 bps per day** more than always shorting high funding, but at
+**t = 0.64 to 0.88** and a block-bootstrap **p of 0.19 to 0.29** that gain is **not distinguishable from
+zero**." **Limb (i), the within-contract, time-series form: STILL OPEN** — a full-text search of the retrieved
+document finds exactly **one** occurrence of "time-series form", and it concerns **cross-venue dispersion** ("The
+time-series form fares no better: market-wide disagreement carries a correlation of +0.02 (t = 1.0) with the
+next day's return"), not the funding level; the document's regime series is a **cross-sectional** daily
+information coefficient rolled over time. Two 2025–2026 funding-regime-classification items were located but are
+**not registered, not fetched and carry no claim**; they are recorded as a re-screen route. **No score change**
+(42.0): the pre-registration registered **no score-move rule for Priority 3**, and the finding bears on the
+*gate*, not on the premise (resilience is already at the cell floor of 1, and falsifiability was already lowered
+to 2 at Cycle 112 for the same class of reason). A **third hard-stop condition** is attached — *the regime gate
+cannot carry the rule* — and **V-008 is amended** with a **gate-value arm**.
+
+### P4 — Housekeeping, arithmetic, counts and the header verification
+
+**The rubric arithmetic was re-run from the shortlist's own table and is clean**: IDEA-011 4/3/3/4/2/5 = 20.0 +
+12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 = **63.0**;
+IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0**; IDEA-009 2/3/1/2/1/4 = 10.0 + 12.0 + 3.0
++ 6.0 + 3.0 + 8.0 = **42.0**; IDEA-010 terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0 + 6.0 + 4.0 = **55.0**.
+
+**Counts re-derived from the files, not inherited**: **15 dossiers** (IDEA-001 … IDEA-015; 4 active — IDEA-011,
+IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected); **398 verified sources** (S-001 … S-209, S-220 … S-408,
+with **S-210 … S-219 reserved and unused**) — the derivation, re-run by inspection: **388 distinct `### S-NNN`
+entry headings** (389 heading lines, of which one is the known sub-heading inside S-358 and not a second
+entry) plus the **ten** Cycle-58 document-record entries **S-281 … S-290**, which carry no `### S-NNN` heading
+of their own, the heading count alone therefore under-reporting by ten; **11 written specifications** (V-001 …
+V-010 and V-012; **V-011 reserved and unused**), of which V-001, V-003, V-004, V-005, V-006, V-007 and V-010 are
+withdrawn or marked never-to-execute, **V-002 is frozen** by G-28, and **V-008, V-009 and V-012 are executable
+without a blocking gap**; **62 rejections** (R-001 … R-062); **13 parking records** (P-001 … P-012 and P-014,
+with P-004 closed by R-038; 12 active); **96 known-baseline rows**. **Gaps after this cycle: G-37 open and
+narrowed to one limb (new in Cycle 112, partially answered here), G-38 closed (new in Cycle 112, closed here),
+G-21 handed off to validation (the literature route is exhausted and the named residual is closed), G-28 frozen
+structural null, G-30 exhausted.** Dated: G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029), the IFRS 18
+jurisdiction adoption calendar (monitor), the moved 2026 RFS deadlines (external test for V-012), and the **new
+2026 interim reporting season** monitor for IDEA-011.
+
+**The header verification, and the sixth occurrence of the failure mode.** The Cycle-113 session was interrupted
+after it had written the cycle's findings into `source_ledger.md` and `rejected_and_parked.md` — whose headers
+were already at "Cycle 113" — but before it had written the matching material into `idea_register.md`,
+`ranked_shortlist.md` and `validation_handoffs.md`, whose headers all still read **"Cycle 112"**, and before
+it had written the cycle's outcomes into this log or rewritten the handoff. The artifact set was therefore
+internally inconsistent **in the opposite direction to the usual failure**: two artifacts ahead, three behind,
+and the durable handoff still carrying a Cycle-112 banner *and* a Cycle-112 next-cycle task list. **This
+session completed the repair**: the three lagging artifacts were brought to "Cycle 113 complete", this
+outcomes section was written, and the handoff was rewritten for Cycle 114. The **sixth recorded occurrence** of
+the header-update failure mode, and the first **partial** one, is recorded here rather than edited away. **The
+rule is extended:** a cycle that writes a header must finish the artifact set in the same session, and a
+half-written cycle must be **completed** rather than resumed, because a partially-updated set is harder to read
+than a stale one — each artifact looks authoritative on its own. A second, smaller repair was made in the same
+pass: **IDEA-011's dossier header read "Version: 1.2" while its own change notes already carried v1.3 (Cycle
+85)** — a one-step version drift of the same class as the header-and-summary drift the register has recorded six
+times; the header is corrected to 1.4 to match the new change note, with **no score, rank, hard-stop flag, gap or
+specification status changed**.
+
+### What this cycle did *not* do, stated plainly
+
+**No new candidate was written.** The register's active book is still four candidates, of which **one**
+(IDEA-011) is free of a blocking gap, one (IDEA-004) is frozen by G-28's identity limb, one (IDEA-014) has only
+a state-free kill-test left, and one (IDEA-009) now carries **three** hard-stop conditions and a 42.0. Cycle 113
+was the **seventh consecutive** cycle in which the register added rejections and evidence rather than a
+candidate, and its own most useful product was a **framing correction**: the handoff's headline screen was
+framed as a first-time screen of an unscreened family, and was in fact a **licensed re-screen of two closed
+templates**, one of which was already a parked candidate's own state. **The register should say so plainly:
+the screen that the Cycle-112 handoff nominated as the highest-value act was, in truth, a weaker act than the
+handoff described, and it still produced a bounded negative.** The lesson for the next cycle is on the record:
+**a handoff that asserts a family is unscreened must carry the evidence of that assertion**, and a re-screen must
+be reported as *weaker* than a first-time screen.

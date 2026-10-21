@@ -23,13 +23,36 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-398`; `S-210 … S-219` are **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-409`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-062`), parkings are `P-0NN` (next
+   *state-free* specification), rejections are `R-0NN` (next free: `R-063`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 113**;
+   (next: **Cycle 114**;
+   **Cycle 113 completed three pre-registered priorities — the two-sub-family screen of US commodity futures'
+   published regulatory and positioning states, which is a **bounded negative on both limbs** and is logged as
+   **R-062** with the two families added to the known-baseline table as **rows 95 and 96** (the handoff's
+   framing of the screen was **corrected before it ran**: one family was a *licensed re-screen* of the
+   register's own closed templates R-042/R-043 and the other was already a registered source and a parked
+   candidate's own state, so the screen's real question was weaker than the handoff's); the **bounded
+   post-2010 re-read of IDEA-011's nearest published test**, which returned a **null on the score** (no
+   published null and no sign reversal; the nearest test finds "modest" and "economically small" effects,
+   which under G-12 is a magnitude finding, while S-407 makes institutional enforcement quality a mandatory
+   competing-conditioner control and S-408 is a protocol-level review frame on which the register makes no
+   claim) and which added a **third hard-stop condition**, a **new dated monitor** (the 2026 interim reporting
+   season) and a **V-009 amendment**; and the **execution of the two gaps opened in Cycle 112**, with
+   **G-38 closed** on two published RIN cost anchors (S-404, S-405 — spreads and transaction costs of the order
+   of **five times** those of comparable energy futures, which is **adverse** to the candidate's required
+   effect and tightens V-012's pass bar) and **G-37 partially answered** (the current regime is
+   **continuation**, not reversal, and the regime gate is worth **+1.9 to +2.8 bps per day** at p = 0.19 to
+   0.29, so it cannot carry the rule — a **third hard-stop condition** and a **V-008 amendment**). **Eleven
+   sources (S-398 … S-408), one rejection (R-062), two baseline rows, one gap closed, no gap opened, no
+   candidate created, no score or rank changed, and three specifications amended (V-008, V-009, V-012).** The
+   register's active book is left at four candidates of which only IDEA-011 is free of a blocking gap, and the
+   cycle log records the **sixth occurrence** of the header-update failure mode — this time **partial**, because
+   the session was interrupted after two artifacts had been updated and three had not; the artifact set was
+   completed in the follow-on session rather than left half-written**;
    **Cycle 112 completed three pre-registered screens (the IDEA-009 prior-art screen the Cycle-109 P-5
    audit named as decisive — **R-059**, adverse, **IDEA-009 re-scored 53.0 → 42.0** and demoted to rank 4
    with two new hard-stop conditions, V-008 amended and gap **G-37** opened; the IDEA-014 state-free

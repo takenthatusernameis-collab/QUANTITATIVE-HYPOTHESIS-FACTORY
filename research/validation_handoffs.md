@@ -1,4 +1,24 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–112
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–113
+
+**Cycle 113 update — three specifications amended (V-008, V-009, V-012); no specification created, withdrawn
+or re-created; no status changed.** Cycle 113 executed **three pre-registered priorities** (pre-registered in
+`cycle_notes.md` before the first fetch) and produced **no new specification** and **no new candidate**.
+**(i) V-008 is amended** — a **gate-value arm** is added, traceable to the Cycle-113 answer to gap **G-37**'s
+third limb: the regime gate the Cycle-112 amendment required is, on the nearest published measurement, accurate
+at **54.7 %–56.3 %** (trailing-sign match) and worth **+1.9 to +2.8 bps per day** at t = 0.64 to 0.88 with a
+block-bootstrap p of **0.19 to 0.29** — "Knowing the regime is not the same as profiting from it" (S-389).
+**(ii) V-009 is amended** — a **competing-conditioner control** (institutional enforcement quality, made
+mandatory by S-407) and a **pre-emption reporting arm** (the 2026 interim reporting season, per S-267's timing
+note) are added; the hypothesis, the arms, the cost model and the kill criteria are unchanged.
+**(iii) V-012 is amended** — the cost floor is restated against the **published RIN round-trip cost anchor**
+now located (S-404, S-405: on the Roll (1984) model, RIN spreads and transaction costs of the order of **five
+times** those of comparable energy futures, and liquidity of the order of one-tenth), because gap **G-38 is
+closed**; the sentence in the body that records "no published RIN round-trip cost estimate was located" is
+therefore superseded, and the *bar on any state-conditioned specification for IDEA-014 is re-affirmed in full*.
+**V-002 remains frozen; V-003 and V-010 remain marked never-to-execute.** The register's executable set after
+this cycle is **V-002 (frozen), V-003 (never to be executed), V-008, V-009 and V-012**, of which **V-008, V-009
+and V-012 are executable without a blocking gap** — the same executable set as Cycle 112, with all three
+executable specifications carrying a Cycle-113 amendment.
 
 **Cycle 112 update — one specification created (V-012), one amended (V-008); no specification withdrawn,
 no status changed.** Cycle 112 executed **three pre-registered screens** and a **state-integrity repair
@@ -1938,6 +1958,58 @@ in full.
    **rank 4 of 4**, and carries **two new hard-stop conditions** — *costs likely to overwhelm the hypothesized
    effect* and *a claim that merely repackages a known idea*. The specification remains **executable**.
 
+### Cycle-113 amendment (binding) — a gate-value arm, because the regime gate the Cycle-112 amendment required is measured at near-coin-flip accuracy and worth nothing above noise
+
+Cycle 113 executed the Cycle-112 gap **G-37** against the sources behind S-389 and S-390, re-fetching S-389's
+source document **in full** (the Cycle-112 entry had read it "from the abstract through Section 14"; the
+retrieval tool had truncated the final ~9 KB, which had therefore never been read) and reading it to the end.
+Two of G-37's three limbs are answered and the third is answered **adversely to this specification's own
+gate**. **This specification is amended, not re-created.** The frozen hypothesis, the event universe, the
+outcome, the direction condition, the volatility-conditioned horizon, the raw-level primary arm and the cost
+floor are **unchanged in substance**; the **arm structure** is amended. The section **"Stress cases, regime
+slices, ablations"** and the section **"Pass / fail / uncertain"** are read as amended by this block; every
+other section stands as written, and the Cycle-66 and Cycle-112 amendments stand in full.
+
+1. **The regime gate's own value must be measured and reported separately, and a null gate is a null on the
+   gated rule.** S-389's own regime-detection result is the nearest published measurement of the gate this
+   specification requires: "Regressing each day's coefficient on its own trailing average, with a further day
+   of embargo so that no trailing observation overlaps the outcome, gives a slope of **+0.65 to +0.78** across
+   63, 126 and 252-day windows at **t = 5.7 to 6.6**, and the trailing sign matches the next day's **54.7 % to
+   56.3 %** of the time. **Knowing the regime is not the same as profiting from it:** "a strategy trading the
+   sign of its own trailing coefficient earns **+1.9 to +2.8 bps per day** more than always shorting high
+   funding, but at **t = 0.64 to 0.88** and a block-bootstrap **p of 0.19 to 0.29** that gain is **not
+   distinguishable from zero." The specification therefore adds a **fourth requirement, (iv) a gate-value arm**:
+   the validator must report the **gate's own** trailing-sign match rate and the **gate's own** excess over the
+   published round-trip anchors, **separately** from the rule's, and must report a gate that cannot be
+   distinguished from zero as a **null on the gated rule** — not as a smaller edge.
+2. **The gate's known published value is a mandatory external benchmark, on the same footing as the Cycle-66
+   benchmarks.** The Cycle-66 amendment made S-310, S-320, S-319, S-311 and S-313 mandatory external benchmarks;
+   the gate's published numbers (a **54.7 %–56.3 %** sign match, and a **+1.9 to +2.8 bps per day** excess at
+   **t = 0.64 to 0.88**, **p = 0.19 to 0.29**) join that list, and a rule whose gate is *not* distinguishable
+   from those numbers does not pass on the strength of the gate.
+3. **The regime the gate must detect is now known, and it is the continuation regime, not the reversal regime
+   the candidate was written for.** S-389's split table gives 2020–2023 against 2024–2026: one hour
+   **+0.33 % / +4.10 %**, two hours **−0.30 % / +3.61 %**, four hours **−0.30 % / +3.05 %**, eight hours
+   **−0.29 % / +2.93 %**, twenty-four hours **−1.29 % / +2.39 %**; the 2020–2023 window has "no effect at any
+   horizon except a significantly negative one at a day (t = −3.0)" and is "59 % of the sample", while 2024–2026
+   is significant at every horizon (twenty-four hours, t = 8.8). The **candidate's own construction flips with
+   it**: the 90-day z-score's yearly 24-hour information coefficient runs **−2.3, −3.2, −0.3, +0.8, +1.1, +2.1,
+   +0.5 %** (t = −1.5, −5.1, −0.4, +1.4, +2.4, +4.5, **+0.8**), so **in the current year the candidate's own
+   state is statistically indistinguishable from zero (t = 0.8)**. The specification must therefore report the
+   **per-year** coefficient of the candidate's own state, and must state which regime the sample it is run on
+   belongs to, before any pooled result is reported.
+4. **A standing hard-stop condition is attached to the candidate and is binding on this specification: the
+   regime gate cannot carry the rule.** A rule that is armed only when a trailing sign flips is, on the nearest
+   published measurement, accurate at 54.7 %–56.3 % and worth +1.9 to +2.8 bps per day at t = 0.64 to 0.88
+   (p = 0.19 to 0.29); any specification that depends on the gate must therefore carry its value from something
+   other than the gate, and a specification that depends on the gate alone is a null by construction. The
+   pass standard in the Cycle-112 amendment is read accordingly: a **pass now requires the raw-level arm to
+   produce its value without the gate**, with the gated arm reported as a mandatory ablation.
+5. **No score change and no ranking consequence recorded in this amendment** — the Cycle-113 pre-registration
+   registered no score-move rule for Priority 3, and the finding bears on the *gate*, not on the candidate's
+   premise. IDEA-009 remains **42.0, rank 4**; the Cycle-112 re-score and its two hard-stop conditions stand;
+   this is the candidate's **third** hard-stop condition. The specification remains **executable**.
+
 ### Frozen hypothesis
 The perpetual-futures funding rate is settled every few hours and published by the exchange; it
 measures the crowded-leverage state directly. A rule that takes the side opposite to the
@@ -2255,7 +2327,69 @@ event universe, the cost model, the guardrails, the separation rule and the kill
    support the *directional drift claim*. The frozen hypothesis below is unchanged in its wording. The
    anti-peeking requirement now also covers the two pre-registrations above: the transition-window
    pre-registration and the presentation-surface attribution must both be fixed before the holdout is
-   opened, and any change to them must be logged with a date and a reason.
+    opened, and any change to them must be logged with a date and a reason.
+
+### Cycle-113 amendment (binding) — a competing-conditioner control, a pre-emption reporting arm, and a third hard-stop condition
+
+Cycle 113 executed the **Priority-2 post-2010 re-read** of this candidate's nearest published test, bounded to
+the three pre-registered routes (2025–2026 work on the IFRS-18 adoption event; citations to and extensions of
+S-253; 2026 evidence on the adoption-event information environment). The re-read **returned a null on the
+score**: no published null and no sign reversal was located, so **the score does not move (69.0, rank 1
+unchanged)** under the Cycle-66 precedent, and the Cycle-35/52 precedent (a source supporting only the
+mechanism leaves the score untouched) applies to the three new entries. **This specification is amended, not
+re-created.** The frozen hypothesis, the arms, the event and outcome windows, the cost model and the kill
+criteria are **unchanged**; the **controls** and the **reporting arms** are amended. The sections
+**"Baselines, separation and controls"**, **"Stress cases, regime slices, ablations"** and **"Pass / fail /
+uncertain"** are read as amended by this block; every other section stands as written, and the Cycle-52,
+Cycle-56 and Cycle-58 amendments stand in full.
+
+1. **A competing-conditioner control is now mandatory: institutional enforcement quality.** S-407 reports that
+   the effect of the same standard is "**65 %** mediated by the quality of institutional enforcement" and is
+   "**73 % larger** in jurisdictions with high-quality enforcement", on a hybrid sample of **425 companies
+   (85 per country)** from the United Kingdom, Australia, Canada, South Korea and Brazil over 2015–2024. The
+   candidate's first-adopter / second-adopter contrast (G-21) assumes that the *difference* in post-adoption
+   drift is attributable to the *information-quality* difference between first and repeat adopters. A
+   first-adopter jurisdiction and a repeat-adopter jurisdiction will differ in **enforcement quality** as well
+   as in the candidate's conditioner, so the contrast is **confounded unless enforcement is controlled for**.
+   The validator must therefore control for institutional enforcement quality in the multi-jurisdiction
+   comparator. This is the register's own comparator conditioner (S-252), promoted from available to
+   **mandatory**. It changes the *interpretation* of the comparator, not the existence of the premise, so it is
+   a **control requirement and not a falsification** under the register's G-12 ordering.
+2. **A pre-emption reporting arm is added, and it is a kill signal, not a null.** S-267 (the already-registered
+   ESMA public statement) requires issuers to disclose "the expected material effects from the application of
+   IFRS 18 in the interim and annual financial reports for periods ending before 1 January 2027" — a mandate
+   that publishes the *structure* of the accounting break **before** the event and therefore pre-empts the
+   candidate's slow-diffusion premise in the *size* dimension. The specification must report the event-window
+   returns around the **first disclosure of the accounting break** — the **2026 interim reporting season**,
+   periods ending **30 June 2026**, per S-267's timing note — as an explicit **pre-emption test**, and a
+   **significant pre-event drift must be reported as evidence that the slow-diffusion premise has already been
+   consumed** (a *kill* signal for the candidate), **not** as a null on the effect.
+3. **The pre-emption is partial and structural, and the register records why it does not move the score.** The
+   *mandated* content is qualitative — a description of the changes in the structure of the statement of profit
+   or loss, the assessment of which activities are "specified main business activities", and the MPM
+   definitions — while the *quantified* expected operating-profit change is only **encouraged**. The
+   pre-emption is therefore **partial and structural, not quantitative**, and it weakens the premise in the
+   *size* dimension, not the sign/existence dimension. By the direct precedent of the Cycle-108 S-387 finding
+   (an adverse premise finding that moved no cell), the score does not move.
+4. **A third hard-stop condition is attached to the candidate, standing and independent of the score: the
+   slow-diffusion premise must survive the ESMA-mandated pre-adoption disclosure.** If the market's
+   information about the accounting break is published in advance of the effective date in a form that lets
+   the *sign* of the comparability surprise be anticipated, the premise is consumed and the candidate's edge is
+   a re-description of a known disclosure rather than an information-diffusion event. The condition is made
+   urgent by S-406: the nearest published test of an IFRS-18-style reclassification finds "**modest**"
+   improvements that are "**statistically significant, although economically small**", so if the accounting
+   break is worth only small amounts of information, there is very little to diffuse slowly.
+5. **A new dated monitor is opened, and it is the earliest observation date in this dossier.** The first
+   ESMA-expected IFRS 18 pre-disclosure cycle lands in the **2026 interim reporting season** — earlier than
+   the **2027 Q3** G-32 limb (c) / G-33 re-check and earlier than the 1 January 2027 effective date.
+6. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's score
+   (**69.0, rank 1**) is **unchanged**; no `G-` identifier is consumed; **G-21 remains unrun by design** (the
+   Cycle-52 corpus is exhausted and the comparator is a **validation** task, not a literature task); and the
+   specification's **executable** status is **unchanged**. The three new entries are S-406 (peer-reviewed,
+   DOI-bearing, magnitude finding), S-407 (grey literature, competing-conditioner record) and S-408 (grey
+   literature, a reusable **protocol-level** review frame for the sibling IFRS 15 literature, on which the
+   register makes **no claim** about IFRS 18).
+
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
 years in advance and the affected firms are knowable ex ante. The market incorporates the
@@ -2987,3 +3121,57 @@ proposal for a conditional specification, which would require (a) re-opening G-2
 state that satisfies **both** halves of the register's standing requirement — **published before the
 deadline** *and* **sign-determining rather than merely informative** — and (c) a fresh G-38 closure on the
 RIN round-trip cost. **No state-conditioned specification may be written without all three.**
+
+### Cycle-113 amendment (binding) — the cost floor is restated against the published RIN round-trip cost, because G-38 is now closed and the closure is adverse
+
+Cycle 113 executed the Cycle-112 gap **G-38** — "is there a published estimate of the RIN market's bid-ask
+spread or round-trip cost?" — on the two pre-registered route forms, and **closed it** on two published cost
+anchors: **S-404** (NERA Economic Consulting, "Ethanol RIN Market Analysis and Potential Reforms", 18 October
+2018, filed in EPA docket EPA-HQ-OAR-2018-0775) and **S-405** (Lade, Lin & Smith, "Ex Post Costs and RIN
+Prices under the RFS", Resources for the Future Discussion Paper 15-22, June 2015). **This specification is
+amended, not re-created.** The frozen hypothesis, the event universe, the windows, the statistic, the
+controls, the placebo design and the kill criteria are **unchanged in substance**; the **cost floor** and the
+**pass bar** are amended. The section **"Frozen conceptual rules"** (the cost-floor bullet), the section
+**"Cost and execution assumptions the validator must justify independently"** and the section **"Pass / fail /
+uncertain"** are read as amended by this block; every other section stands as written.
+
+1. **Floor 2 is now a published, market-wide cost estimate, and it is much larger than Floor 1.** On the
+   **Roll (1984)** model of the effective spread, the RIN market's frictions are **several times** those of
+   comparable energy futures: RIN spreads reach **up to five times** comparable energy markets' spreads,
+   transaction costs are of the order of **five times**, market **liquidity is of the order of one-tenth**, and
+   RIN **price volatility is five to ten times** that of the comparable energy markets (S-404), with S-405
+   supplying an independent academic ex-post cost estimate pointing the same way from an author with no
+   commercial interest in the reform. **Both anchors are index-rendered** and the first is a consultancy paper
+   prepared for a party with a commercial interest in the reform, so the register relies on the **order of
+   magnitude** and not on the point estimates. The body sentence in "Frozen conceptual rules" that records
+   "**no published RIN round-trip cost estimate was located** (**G-38**)" is **superseded**: G-38 is closed, and
+   the register's own **counterparty-size / not-a-spread** caveat for Floor 1 (the GAO 2.4 %–2.9 % size
+   differential, EPA's 1.1 % central premium, and EPA's own −5.3 % to +7.5 % sensitivity band) **stands in
+   full** — Floor 1 remains a *dispersion* anchor, not a spread.
+2. **The consequence is adverse to the candidate's required effect, and it is material.** A market whose
+   round-trip cost is **several times** that of comparable energy futures places a **few-percent** price
+   difference **inside** the cost band, not above it. The dispersion anchors the register already holds are
+   **small in percentage terms** (2.4 %–2.9 %; 1.1 %; and EPA's own band of −5.3 % to +7.5 %), so a
+   pre-/post-deadline price difference of the order the candidate's own premise would suggest is **below** the
+   cost floor rather than above it.
+3. **The pass bar is therefore amended, and the amendment is a tightening.** The pass condition "larger than
+   **at least one** of the two published cost floors" is superseded: because the second floor is now known and
+   is **larger** than the first, a pass must clear the **published RIN market cost floor itself** — the
+   round-trip cost of the market the test trades in, several times comparable energy markets' costs
+   (S-404, S-405). A result that clears the dispersion anchors but not the market-cost floor is a
+   **price-discontinuity** result and **not a tradeable-return** result, and must be reported as such. The
+   validator must report the result against **both** floors, state which floor it is testing against, and must
+   not present a result between them as tradeable.
+4. **The kill-criteria follow-up clause is amended because its third condition is now satisfied.** The clause
+   "a fresh G-38 closure on the RIN round-trip cost" is **discharged**; the only next step permitted on a pass
+   is a written proposal for a conditional specification, which would require (a) re-opening G-20, (b) a signed
+   pre-deadline state satisfying **both** halves of the register's standing requirement — **published before the
+   deadline** *and* **sign-determining rather than merely informative** — and (c) a **published estimate of a
+   pre-/post-31-March RIN price pattern**, which does not yet exist.
+5. **What has not changed, stated explicitly so that no reader infers a silent change.** The **state-free
+   existence limb remains INCONCLUSIVE** — G-38 asked for the *cost*, not for the *effect*, and no published
+   source estimates a deadline-specific price pattern; the candidate's score (**52.0, rank 3**) is
+   **unchanged**; **the bar on any state-conditioned specification for IDEA-014 is re-affirmed in full** (the
+   conditional version stays retired with its hard stop, G-20 stays closed against the state as specified, and
+   no specification may be written for the conditional claim); no `V-` identifier is consumed; and the
+   specification remains **executable**.
