@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 109 complete, 2026-10-21. 57 rejections (R-001 … R-057), 13 parking records of
+Last updated: **Cycle 110 complete, 2026-10-21. 57 rejections (R-001 … R-057), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 109 added **one rejection (R-057), no parking record and no new baseline row**, and it
 **opened no gap and closed no gap**. Its work was **evidence work plus four bounded, pre-registered
