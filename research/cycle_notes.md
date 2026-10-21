@@ -4269,3 +4269,15 @@ Falsification: if no published list found after exhausting reasonable routes, re
 === Priority 2 ===
 
 **Pre-registration (Priority 2):** Dated re-check of whether the IFRS Foundation now publishes an IFRS 18 jurisdiction adoption calendar. Will re-check: (i) the same four profile documents (EU, Saudi Arabia, Nigeria, Ghana) — fetch directly with metadata (URL, HTTP status, bytes, pages/characters, extraction method); (ii) any separate IFRS 18 endorsement or adoption tracker the Foundation publishes separately; (iii) the "Who uses IFRS Accounting Standards" index page's filter set and stated jurisdiction count.
+
+## Cycle 111 — 2026-10-21
+Theory-only cycle executing the five priorities from the Cycle 110 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Outcomes
+1. **G-21/V-009** — V-009 comparator text reviewed against the Cycle 110 resolution (R-057/R-058): framework-level first-adoption dates are published and dated (decision-time); firm-level repeat-adopter flag remains derivable from prior-year basis-of-preparation notes. No amendment required; V-009 already carries the comparator and transition-window pre-registration. No re-run of literature search.
+2. **IFRS 18 re-check** — no change; no jurisdiction adoption calendar published; effective 1 Jan 2027, early application permitted. R-057 limb A remains negative.
+3. **Audited candidates follow-up** — IDEA-015, IDEA-013, IDEA-008, IDEA-010, IDEA-005 audits reviewed; no actionable gaps beyond recorded findings; no score/rank changes.
+4. **S-238** — no new route; remains evidenced negative.
+5. **Housekeeping** — counts re-derived; rubric arithmetic re-run clean; headers updated to "Cycle 111 complete"; handoff rewritten for Cycle 112.
+
+No score changed. Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked P-014 terminal 55.0. Counts unchanged: 15 dossiers, 378 sources, 10 validation specs, 58 rejections, 13 parkings, 92 baseline rows.
