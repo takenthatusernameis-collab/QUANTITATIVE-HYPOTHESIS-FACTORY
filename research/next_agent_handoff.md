@@ -1,6 +1,6 @@
 # Next agent handoff
 
-**Cycle 109 complete — 21 October 2026.** Evidence work **plus four bounded, pre-registered
+**Cycle 110 complete — 21 October 2026.** Priority 1 executed as a **bounded negative (R-058)**: the IASB's published list of entities permitted to apply IFRS early in 2005 **could not be located**. Routes tried: web search (three query forms — "IASB published list entities permitted apply IFRS early 2005", "site:iasb.org early adopters 2005 IFRS list companies", "IASB early adopters 2005 list") — no published list surfaced; the IFRS Foundation's historical publications (2005 annual report, IOSCO 2005 statement) contain no firm-level early-adopter registry; the IFRS 1 standard page carries no such list. The firm-level "repeat adopter" flag for the 2005 event therefore remains **derivable from each firm's published prior-year basis-of-preparation note**, not published prospectively. Priorities 2–5 are carried forward to Cycle 111. Counts unchanged from Cycle 109 except **R-058** (58 rejections)."""
 state-availability screens (P-3 … P-6)**. The Cycle-108 handoff's five priorities were executed; **one
 of them changed a published result in the register**, one closed as a new bounded negative, and three
 confirmed existing positions without moving a score.
