@@ -5,7 +5,20 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Last updated: **Cycle 96 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
+table.** Cycle 96 added **no rejection, no parking record and no baseline row**, and it **opened no gap and
+closed no gap**. Its substantive work was **two bounded, pre-registered evidence operations and no screen**:
+**(i)** the last metadata-level electricity entry was upgraded to line-verified (S-358, from the authors' open
+working-paper version at EconStor; S-356 and S-357 were upgraded in the same cycle from the OpenAlex abstract
+index), and **(ii)** the **municipal scholarship was completed** — Griffin, Hirschey and Kruger (2023),
+*The Journal of Finance* 78(2), 887–934, the **published version of record**, obtained and text-extracted
+(**S-378**), and the Green, Hollifield and Schürhoff working paper's **deposited abstract** (**S-379**,
+**abstract-level only**). Both new entries **strengthen R-055's existing reasons 1, 2 and 5** and add **no sixth
+reason**: **R-055's verdict, its five reasons and its baseline row 92 are unchanged**, and the Harris & Piwowar
+(2006) and Green, Hollifield & Schürhoff (2007) **bodies remain closed** and are still not used as a verification
+basis. The failed routes are recorded in the ledger's Cycle-96 honest-negatives table. Earlier history:
+**Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 94 added **one rejection (R-055), no parking record and one baseline row (row 92)**, and it
 **opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
@@ -1666,7 +1679,7 @@ above. No `P-` or `R-` identifier was moved or renumbered.
   3. **Hedging markets can be incomplete / long-tenor contracts scarce.** Literature notes "missing markets" concerns for long-term contracts necessary to support capital-intensive investment when participants are risk-averse (S-358) — this points to structural incompleteness/costs rather than an obvious unclaimed sign-determinable edge.
   4. **Price formation is complex and reconciliation between archetypes/empirics is limited.** The literature splits between price formation archetypes and empirical/statistical analyses with few attempts to reconcile them (S-358), suggesting the family is well-studied without leaving an obvious clean, unclaimed edge.
   5. **Decision-time state changing sign/existence after costs is not apparent.** Published work emphasizes hedging/volatility management and risk premiums tied to fundamentals/scarcity; no published decision-time state was identified that changes the sign or existence of a tradeable edge after costs in a way not already captured by the baseline literature. The family fails G-12's bar.
-- **Sources.** S-356, S-357, S-358 (all line-verified via publisher metadata/DOI in this cycle).
+- **Sources.** S-356, S-357, S-358 (all line-verified via publisher metadata/DOI in this cycle). **Cycle-96 provenance note (no re-score):** all three entries are now **line-verified** — S-356 and S-357 from the OpenAlex abstract inverted index, and **S-358 from the authors' open working-paper version** (OIES Paper EL 53, April 2024), fetched directly from EconStor and text-extracted (40 pages; 113,195 characters). **R-053's verdict, its five reasons and its baseline row 90 are unchanged**; the upgrade changes the provenance of the sources, not the screen.
 - **Decision:** bounded negative (R-053). No dossier created; no `IDEA-` identifier consumed; no gap opened. The family is recorded as a baseline and rediscovery guard (row 90).
 
 ## R-054 — Interval-fund / semi-liquid private-credit repurchase: a periodic tender at net asset value with no secondary market (Cycle 93 family screen — bounded negative)
@@ -2024,6 +2037,38 @@ rating disclosure** is a **closed-list rule** whose product is a published, date
 effect (Reason 3); and the **tax-equivalent arithmetic** is a **published transform of published prices** and a
 named published puzzle (Reason 4). **No `IDEA-` identifier is minted, no validation specification is written,
 no gap is opened, and no score changes.** The family is written to the known-baseline table as **row 92**.
+
+**Cycle-96 annotation — the prior art is strengthened; the verdict, the five reasons and row 92 are unchanged.**
+The Cycle-96 provenance operation ("complete the municipal scholarship") obtained the paper this record has been
+carrying as an **honest negative** since Cycle 94: **Griffin, Hirschey and Kruger (2023), "Do Municipal Bond Dealers
+Give Their Customers 'Fair and Reasonable' Pricing?", *The Journal of Finance* 78(2), 887–934 (S-378)** — the
+**published version of record**, fetched and text-extracted (**48 pages; 147,579 characters**). A second entry,
+**S-379**, carries the **deposited abstract** of the Green, Hollifield and Schürhoff working paper and is
+**abstract-level evidence only**. Both **strengthen existing reasons** and add **no sixth reason**:
+
+- **Reason 1** is strengthened at the peer-reviewed, dealer level: "53% (47%) of dealers charge median markups of
+  more than 1% in the new (seasoned) issue market"; "In the new issue market, the difference between the 10% most
+  expensive and 10% least expensive purchase prices for small trades is at least 0.5% on 61% of trading days";
+  and "Over the 6.5-year sample, the total value of small trade markups (for purchase transactions) in excess of
+  2% is $479 million".
+- **Reason 2** is strengthened: dealer-level markups are measurable **only** from the **regulator's proprietary
+  data set with dealer identifiers** for July 2011 through December 2017, through the regulator's own access; the
+  public tape is **15-minute lagged** ("Since January 2005, all municipal bond transactions have been publicly
+  posted with a 15-minute lag"); and the paper itself records "Practical challenges to accessing pricing
+  information for typical retail investors".
+- **Reason 5** is strengthened: the compensation is a **regulated, published object** — "MSRB Rule G-30 requires
+  that commissions and markups for transactions with dealers must be 'fair and reasonable'" — and its level is
+  **published, measured and explained**, including the published null that "We find no evidence that median or
+  extreme markups decreased following MSRB rule changes requiring best execution in March 2016".
+
+**Nothing else changed.** The **verdict** (bounded negative), the **five reasons**, the **known-baseline row 92**,
+the **dated re-screen conditions (a)–(d)** and the **"Muni Monday" framing correction** are unchanged. The
+**known limitation on reason 5 is narrowed, not discharged**: the *content* of the canonical opaque-market
+statement is now inside the register's corpus (S-379 at abstract level, and quoted inside the fetched S-378), but
+the **bodies** of Harris & Piwowar (2006) and Green, Hollifield & Schürhoff (2007) remain closed and **neither is
+used as a verification basis for any reason in this record**. The failed routes are recorded in the ledger's
+Cycle-96 honest-negatives table. **No `IDEA-`, `V-`, `R-`, `P-` or `G-` identifier was consumed and no score
+changed.**
 
 ## Known baselines (reference set, not candidates)
 

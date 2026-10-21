@@ -2734,3 +2734,153 @@ closed.
    frozen; V-010 never-to-execute); **55** rejections (R-001 … R-055); 13 parking records (12 active);
    **92-row** known-baseline table; gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free
    identifiers: IDEA-017, S-378, V-012, G-37, R-056, P-015.**
+
+---
+
+## Cycle 96 — 2026-10-21
+
+Theory-only cycle executing the priorities from the Cycle-95 handoff. No tests, no simulations, no parameter
+sweeps, no significance tests, no performance or risk metrics, no market-data acquisition or processing, no
+strategy or signal implementation, no executable research infrastructure, no job or workflow launches, no changes
+to workflow files, tests, credentials or infrastructure, no work in other repositories, no trading, and no edit to
+the maintainer-owned canonical prompt. Every quotation below is from a document fetched in this cycle and
+text-extracted in this cycle, except where a route failure or a metadata-level label is stated.
+
+**Cycle-boundary note (recorded honestly).** This cycle was begun by an earlier session, which upgraded **S-356**
+and **S-357** from the OpenAlex abstract inverted index and rewrote the **first line** of the handoff, and then
+ended. The cycle log entry, the ledger's Cycle-96 records, the rubric re-run and the full handoff rewrite were
+completed in the session that followed. **The cycle is one cycle**: its two evidence operations are the ones the
+Cycle-95 handoff pre-registered, and no operation outside them was run.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-95 handoff's priorities in order: (1) maintain the frozen, exhausted and
+dated items as they stand — G-21, G-28, G-30, G-32 limb (c), G-33 (dated 2027 Q3), G-14 (dated 29 March 2029),
+IDEA-014's inconclusive existence limb, P-010, P-011 and P-014, plus R-054's dated condition (c) and R-055's four
+dated re-screen conditions; (2) run **one** bounded, pre-registered evidence operation — not a screen, because the
+named absent families are exhausted — chosen from the handoff's options (a)–(d); (3) run **one** further bounded
+provenance operation, distinct from (2)'s, chosen from (a), (c) or the remaining freight debts; (4) perform
+lossless housekeeping with a rubric-arithmetic re-run; (5) wrap up with a rewritten handoff and a fresh,
+self-contained initial task message, re-deriving all counts from the files.
+
+**Pass 2 — Critique.** Four things had to be settled before anything was written. (i) *What is the actual state of
+the cycle?* The prior session had upgraded S-356 and S-357 and had **failed** on S-358, reporting "no abstract is
+available in OpenAlex or Crossref". That is a **route** statement, not a document statement, and the distinction
+matters: an earlier session had found the same paper's **open working-paper version** on EconStor for a different
+register entry, which showed the pattern — publisher metadata are closed, but institutional copies of the working
+paper are often public. (ii) *Can the decisive material be fetched?* For S-358, yes, and the route was found
+without any new search engine: OpenAlex's own open-access location record for the article DOI names the EconStor
+bitstream. (iii) *Is the municipal-scholarship operation still worth running after Cycle 95 and Cycle 94 both
+failed on it?* Yes — but only because the failure modes were **route** failures with a known character: publisher
+HTTP 403 and repository bot challenges. A route that has never been tried is the Internet Archive's **CDX index and
+replay**, which holds captures of repository bitstreams that the live repository now shields. (iv) *What may these
+operations change?* Priority 2(c) may change only the **verification label** of S-356, S-357 and S-358 and must
+**not** re-score R-053. Priority 3(a) may **strengthen** R-055's existing reasons and may **not** change its
+verdict, its five reasons or its baseline row, may **not** add a sixth reason, and may **not** re-screen the
+municipal family.
+
+**Pass 3 — Reframed.** Both operations were bounded to retrieval and labelling, with the pre-registered decision
+rule that **an upgrade of a source may only strengthen an existing reason**. The cycle was to **skip the screen
+slot entirely** (the register's own discipline after nine mechanism-first screens) and to run (i) the last
+metadata-level electricity upgrade and (ii) the municipal scholarship, each with an explicit statement of what may
+change. Every route failure was to be recorded as a route failure with its failure mode, and no source was to be
+used as a verification basis unless it had been **fetched and text-extracted in this cycle**.
+
+### Outcomes
+
+1. **The last metadata-level electricity entry was upgraded to line-verified (S-358).** The earlier session's
+   negative was correct **as a route statement** and wrong as a conclusion: OpenAlex carries no abstract for the
+   article DOI and Crossref carries none either, but OpenAlex's **open-access location record** for the same DOI
+   names the authors' **open working-paper version** — Billimoria, Mays and Poudineh, "Hedging and Tail Risk in
+   Electricity Markets", **OIES Paper: EL, No. 53** (Oxford Institute for Energy Studies, April 2024; ISBN
+   978-1-78467-240-9), at `https://www.econstor.eu/bitstream/10419/296660/1/1887037926.pdf` (handle
+   `10419/296660`). It was **fetched directly** (HTTP 200; 2,437,474 bytes; **40 pages**) and **text-extracted**
+   (**113,195 characters**, pypdf), and every clause of the entry's "Supports" bullet is now confirmed in the
+   document's own words: the **volatility feature** ("The volatility of electricity prices is a necessary component
+   in the theory of competitive electricity markets … 'Getting the prices right' for an inelastic good, such as
+   electricity, will invariably involve volatility or price spikes during scarcity"), the **scarce long tenor**
+   ("obtaining contract of long tenor has been a concern, with a set of literature arguing there are 'missing
+   markets' for long-term contracts"), and the **split literature with few reconciliations** ("The literature on
+   price formation and hedging in electricity markets is extensive but tends to fall into one of two categories …
+   There have been relatively few attempts to reconcile them"). The **published version of record**
+   (*Energy Economics* 141, 108132, issued January 2025) was **not** fetched; the bibliographic record was
+   independently confirmed against Crossref. **R-053 is not re-scored**: its verdict, its five reasons and its
+   baseline row 90 stand unchanged. S-356 and S-357, upgraded by the earlier session, were **re-verified** in this
+   cycle against the same OpenAlex records, and their "Supports" bullets match the deposited abstracts word for
+   word.
+2. **The municipal scholarship was completed: Griffin, Hirschey and Kruger (2023) is now line-verified (S-378).**
+   The paper this register had carried as an honest negative since Cycle 94 — "Do Municipal Bond Dealers Give Their
+   Customers 'Fair and Reasonable' Pricing?" — was obtained in its **published version of record** and
+   text-extracted (**48 pages; 147,579 characters**). The route was the **Internet Archive's replay of the
+   University of Nebraska–Lincoln repository's own bitstream** for handle `10362/163450`: the live repository
+   returns an Anubis proof-of-work challenge, its DSpace item-lookup APIs return HTTP 403 and HTTP 401, the Wiley
+   `pdfdirect`/`epdf` routes return HTTP 403, the NOVA Lisbon copy is behind a Cloudflare challenge, SSRN blocks the
+   client, and the archive's CDX index lists that exact repository bitstream as `application/pdf`, status 200,
+   captured 12 February 2024 — so the bytes obtained are **the repository's own PDF**, not an index rendering. The
+   document's PDF metadata carry `/Subject` "The Journal of Finance 2023.78:887-934" and `/WPS-ARTICLEDOI`
+   "10.1111/jofi.13214". Its content **strengthens three of R-055's existing reasons** — reason 1 (the effect is
+   published, measured and quantified: "53% (47%) of dealers charge median markups of more than 1% in the new
+   (seasoned) issue market"; "at least 0.5% on 61% of trading days"; "the total value of small trade markups …
+   in excess of 2% is $479 million"), reason 2 (the decision-time state does not exist: dealer-level markups are
+   measurable only from the **regulator's proprietary data set with dealer IDs** for July 2011 – December 2017,
+   the public tape is **15-minute lagged**, and "Practical challenges to accessing pricing information for typical
+   retail investors"), and reason 5 (the tradeable object is a published compensation for a published service:
+   "MSRB Rule G-30 requires that commissions and markups for transactions with dealers must be 'fair and
+   reasonable'", with the published null that "We find no evidence that median or extreme markups decreased
+   following MSRB rule changes requiring best execution in March 2016") — and adds **no sixth reason**.
+   **R-055's verdict, its five reasons and its baseline row 92 are unchanged.**
+3. **The Green, Hollifield and Schürhoff working paper's deposited abstract is now in the corpus (S-379) — at
+   abstract level only.** The published article (*Review of Financial Studies* 20(2), 275–314, DOI
+   `10.1093/rfs/hhl012`) remains **closed**: Unpaywall reports no open-access location, OpenAlex lists none,
+   Semantic Scholar has no open-access PDF, the IRIS and SERVAL records at Lausanne are bibliographic only, the
+   Swiss Finance Institute working-paper route named by OpenAIRE returns HTTP 404, the Wayback Machine holds no
+   capture of the SSRN delivery PDF and SSRN itself returns HTTP 403. What was obtained is the **authors' deposited
+   abstract** for the SSRN preprint (DOI `10.2139/ssrn.668847`, posted 2005), fetched directly from the Crossref
+   REST API: "We formulate and estimate a simple structural bargaining model that allows us to estimate measures of
+   dealer bargaining power … The results suggest dealers exercise substantial market power." The **bodies of both
+   closed articles remain unobtainable**, and the register's **known limitation on R-055's reason 5 is therefore
+   narrowed, not discharged** — the *content* of the canonical opaque-market statement is now in the corpus
+   (S-379 at abstract level, and quoted inside the fetched S-378: "Green, Hollifield, and Schürhoff (2007b) use a
+   structural model and find that the high trading costs in municipal bonds likely come from dealer market power"),
+   but neither article is used as a verification basis for any reason in R-055. **Harris & Piwowar (2006) was
+   re-tested and remains closed**, with one route the register had not tried — **Crossref's posted-content index
+   searched by title**, which contains no preprint of that title.
+4. **One state-integrity correction.** The register's Cycle-94 honest-negative row gave the Griffin, Hirschey and
+   Kruger issue as ***Journal of Finance* 78(6)**. The correct issue is **78(2)** (April 2023, pages 887–934),
+   confirmed by Crossref and by the document's own first page. The row is **annotated in place** — the wrong issue
+   number is not reused anywhere — and the correction is recorded in the ledger's S-378 entry.
+5. **Lossless housekeeping and a rubric-arithmetic re-run (clean).** The register's own rule
+   (`Weighted total = Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10; per-point values
+   5.0/4.0/3.0/3.0/3.0/2.0) was re-run across all four active candidates and the parked IDEA-010:
+   **IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+   3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0.** Every recorded total matches its recorded profile. **No
+   score, rank, tie-break, hard-stop flag, gap or specification changed**, and no record was moved, relabelled,
+   renumbered or re-scoped to tidy a file.
+6. **Counts re-derived from the files, not carried forward.** 15 dossiers (4 active, 6 parked, 5 rejected); 4
+   ranked active plus 1 parked-at-terminal; **369** verified sources (S-001 … S-209, S-220 … S-379; S-210 … S-219
+   reserved and unused) — **359** entries in the standard `### S-NNN` heading form plus **ten** bold inline entries
+   (S-281 … S-290); 10 validation specifications (8 not executable; executable: V-008, V-009; V-002 frozen;
+   V-010 never-to-execute); **55** rejections (R-001 … R-055); 13 parking records (12 active); **92-row**
+   known-baseline table; gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free identifiers:
+   IDEA-017, S-380, V-012, G-37, R-056, P-015.**
+7. **A provenance sweep, run to ground the Cycle-97 recommendation in a measured quantity rather than an
+   impression.** A programmatic pass over `source_ledger.md`, run at **entry level** and **sentence-aware**,
+   counted the entries whose document text was obtained **only through a search-index render**. The rule
+   applied: an entry is **index-rendered** if it contains index-render wording (a search-index render, an
+   index-rendered reading) and contains **no positive** direct-fetch or text-extraction assertion anywhere in
+   the entry; a negated form ("not fetched directly", "not parsed", "index-rendered, not directly parsed")
+   does **not** count as an assertion; and each entry's block ends at the next heading of any level, so a
+   cycle's section prose is never read as part of the entry above it. Under that rule the ledger holds **89
+   index-rendered-only entries** (the primary upgrade pool) and **51 mixed entries** (index-render wording
+   plus a positive direct-fetch claim elsewhere — typically a different document, or one component of a
+   composite entry), each of which must be read before it is counted. Two entries (**S-260**, the Limit
+   Up–Limit Down Plan / Nasdaq entry, and **S-272**, the IFRS Foundation guidance entry) were checked
+   individually: each carries **both** an earlier index-rendered verification bullet **and** a Cycle-85 upgrade
+   note recording a direct fetch, so each falls in the **mixed** class and must be **re-read and annotated**
+   rather than counted as index-rendered. The sweep is the sole empirical basis for the Cycle-97 Priority-2
+   operation (a bounded provenance-upgrade pass over a named subset of 8–12 of those entries); it consumed **no
+   identifier**, changed **no score**, and opened and closed **no gap**. **A first, cruder count of the same
+   sweep (a bullet-level test that overlooked negated direct-fetch wording and let cycle prose bleed into
+   the entry above it) produced a figure of 51; under the corrected rule that figure is the count of the
+   **mixed** class rather than the index-rendered-only pool, and the superseded phrasing has been replaced
+   everywhere it appeared.**

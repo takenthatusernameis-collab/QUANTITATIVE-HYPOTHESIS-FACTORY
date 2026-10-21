@@ -1,4 +1,16 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–95
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–96
+
+**Cycle 96 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 96's substantive work was **two bounded, pre-registered evidence operations and no screen** — the
+last metadata-level electricity entry was upgraded to line-verified (S-358, from the authors' open
+working-paper version), and the **municipal scholarship was completed** (S-378, the published version of
+record of Griffin, Hirschey and Kruger 2023, text-extracted; S-379, the deposited abstract of the Green,
+Hollifield and Schürhoff working paper, **abstract-level only**). Both new entries **strengthen R-055's
+existing reasons** and add **no sixth reason**, and they produce **no candidate**, so **no specification was
+required and none was written**. It touches **no specification**: R-055's verdict, its five reasons and its
+baseline row are unchanged, and this is not a re-screen. **V-008 and V-009 remain the only executable
+specifications; V-002 remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007 remain
+not executable.** **No `V-` identifier was consumed. Nothing in this file was executed.**
 
 **Cycle 95 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 95's substantive work was **one bounded, pre-registered evidence operation** — obtaining the MSRB's

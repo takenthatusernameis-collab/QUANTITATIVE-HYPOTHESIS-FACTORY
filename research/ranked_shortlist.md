@@ -1,6 +1,25 @@
-# RANKED SHORTLIST — CYCLES 1–95
+# RANKED SHORTLIST — CYCLES 1–96
 
-# RANKED SHORTLIST — CYCLES 1–95
+# RANKED SHORTLIST — CYCLES 1–96
+
+**Cycle-96 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 96's substantive work was **two bounded, pre-registered evidence
+operations and no screen**, because the register's named absent families are exhausted. (i) **Priority
+2(c) — the three Cycle-92 electricity entries were upgraded from metadata-level to line-verified**: S-356 and
+S-357 from the OpenAlex abstract inverted index, and **S-358** from the authors' **open working-paper
+version** (Billimoria, Mays and Poudineh, "Hedging and Tail Risk in Electricity Markets", OIES Paper EL 53,
+April 2024), fetched directly from EconStor and text-extracted (40 pages; 113,195 characters). (ii)
+**Priority 3(a) — the municipal scholarship was completed**: **Griffin, Hirschey and Kruger (2023), "Do
+Municipal Bond Dealers Give Their Customers 'Fair and Reasonable' Pricing?", *The Journal of Finance* 78(2),
+887–934** — the paper this register had carried as an honest negative since Cycle 94 — was obtained in the
+**published version of record** and text-extracted (**48 pages; 147,579 characters**), and is registered as
+**S-378**; the Green, Hollifield and Schürhoff working paper's **deposited abstract** is registered as
+**S-379** (**abstract-level evidence only**). **R-055's verdict, its five reasons and its baseline row 92
+are unchanged** — the two new entries **strengthen existing reasons 1, 2 and 5** and add **no sixth reason**,
+and the Harris & Piwowar (2006) and Green, Hollifield & Schürhoff (2007) **bodies remain closed**. The
+register now holds **369 verified sources** and a **92-row known-baseline table**. **No score, rank,
+tie-break, hard-stop flag, gap or specification changed.**
 
 **Cycle-95 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
