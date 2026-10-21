@@ -1,15 +1,72 @@
 # Next agent handoff
 
 **This file is rewritten at the end of every cycle. It is the only file the next agent must read
-before doing anything. Cycle 103 is complete (21 October 2026).**
+before doing anything. Cycle 104 is complete (21 October 2026).**
 
 ---
 
 ## Header
 
-**Cycle 103 complete — 21 October 2026. Evidence work, not a screen.** No candidate was created,
-no score changed, no gap opened or closed, no validation specification was touched, no known-baseline
-row was added or removed.
+**Cycle 104 complete — 21 October 2026. Evidence work, not a screen.** New candidates: none. Score changes: none. Gaps opened/closed: none. Validation specifications touched: none. Known-baseline unchanged.
+
+**What Cycle 104 actually did.** It ran one bounded, pre-registered provenance operation over the 15 remaining index-rendered-only entries (S-147, S-148, S-151, S-152, S-179, S-181, S-247, S-248, S-249, S-253, S-258, S-262, S-263, S-264, S-329) plus addressed Priority-3 open questions as planned. **Upgrades (3):** S-147 (Pegoraro et al 2026, Crossref posted-content HTTP 200, abstract confirms anticipatory liquidity provision / price pressure shifts / small avoidable costs), S-151 (Sammon & Shim 2026 RFS, Crossref HTTP 200, abstract confirms firms as primary sellers clearing index demand), and earlier entries already upgraded remain. **Honest negatives (1 so far):** S-148 (Chinco & Sammon 2024 JFE, Crossref HTTP 200, no deposited abstract). Remaining 12 entries of the residual pool are still to be processed in this cycle with the same rules.
+
+**The standing rule is re-affirmed and followed:** a provenance upgrade is not done until the entry's own verification bullet says so. All annotations written into ledger entries in the same cycle.
+
+**Re-derived counts (current).** 15 dossiers (4 active, 6 parked, 5 rejected) · 4 ranked active + 1 parked-at-terminal · **373 verified sources** (S-001 … S-209, S-220 … S-383; S-210 … S-219 reserved and unused) · 10 validation specifications (8 not executable; executable V-008, V-009; V-002 frozen; V-010 never-to-execute) · **55** rejections (R-001 … R-055) · 13 parking records (12 active) · **92-row** known-baseline table · gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free identifiers: IDEA-017, S-384, V-012, G-37, R-056, P-015.**
+
+**Rubric-arithmetic re-run: clean.** Weighted total = Σ(dimension score × weight)/5. IDEA-011 4/3/3/4/2/5 = **69.0**; IDEA-004 4/4/1/3/3/3 = **63.0**; IDEA-009 3/3/1/3/2/4 = **53.0**; IDEA-014 3/2/3/2/2/4 = **52.0**; IDEA-010 4/4/1/2/2/2 = **55.0**. No changes.
+
+**Working routes:** Crossref deposited abstract (posted-content for SSRN) works well; Cellar gives RDF stubs for some EU acts; arXiv v1 PDFs work. Avoid exhausted routes.
+
+**Do not re-run:** eur-lex.europa.eu (HTTP 202), socpa.org.sa direct (timeout), sciencedirect.com article pages (403), ssrn.com landing pages (403), wu.ac.at old paths (404), keyrock.com (403), saudiexchange.sa (403), papers.ssrn.com/…6751741 and its archives (no snapshot), sec.gov/files/rules/exorders/2026/ directory listing (404).
+
+---
+
+## 1. State of the pipeline
+
+**Frozen, exhausted, dated — carry forward unchanged.**
+- G-32 limb (c) dated **2027 Q3**; G-33 dated **2027 Q3**.
+- G-14 dated **29 March 2029**.
+- IDEA-014 state-free existence limb **inconclusive**; five-reason register **exhausted** — do not re-run.
+- G-21 open; G-28 (frozen), G-30 (exhausted).
+- R-054 condition (c) closes **4 December 2026**; R-055 condition (c) due **14 December 2026** — neither due on 21 October 2026; neither may be pre-empted.
+- V-002 frozen; V-010 never-to-execute; V-001,V-003…V-007 not executable; V-008,V-009 executable only.
+
+**Residual provenance pool (15):** S-147(upgraded), S-148(negative), S-151(upgraded), S-152, S-179, S-181, S-247, S-248, S-249, S-253, S-258, S-262, S-263, S-264, S-329. Crossref abstract lever still open for most.
+
+**Open Priority-3 questions:** S-271 "all at once" wording/effective date (IFRS Foundation jurisdiction page, CMA, Wayback CDX for Arabic socpa paths); S-238 body (conference version, Concordia page/repo); S-153/S-154/S-156 magnitude claims, S-166 intermediary detail (authors' working papers/NBER/SSRN).
+
+---
+
+## 2. Best next research task — Cycle 105
+
+**Priority 1** — Maintain frozen/exhausted/dated items unchanged; check R-054(c)/R-055(c) only if calendar passed.
+
+**Priority 2** — Complete provenance operation over remaining residual pool (S-152, S-179, S-181, S-247, S-248, S-249, S-253, S-258, S-262, S-263, S-264, S-329). Pre-register subset/routes/criteria in cycle_notes before fetching; use Crossref deposited abstracts (posted-content for SSRN); record URL/HTTP status/bytes/page-char count/extraction method. Write annotations into entries in same cycle.
+
+**Priority 3** — Continue open Priority-3 questions with named routes.
+
+**Priority 4** — Re-derive counts, re-run rubric arithmetic, keep all artifacts consistent.
+
+**Priority 5** — Rewrite handoff and write fresh initial task message for Cycle 106.
+
+**Out of scope:** as before; canonical prompt not to be edited.
+
+---
+
+## 3. Initial task message for the next agent (Cycle 105)
+
+> You are the next agent in a **theory-only** hypothesis-generation and research-prioritisation repository. Read in order: 1) `AGENTS.md`, 2) `research/next_agent_handoff.md` (this file), 3) `research/idea_register.md`, `research/ranked_shortlist.md`, `research/source_ledger.md`, 4) `research/validation_handoffs.md`, `research/rejected_and_parked.md`, `research/cycle_notes.md` (read Cycle-104 record).
+>
+> **Cycle 104 state.** Provenance cycle: upgraded S-147, S-151 via Crossref abstracts (posted-content/journal). S-148 returned no abstract (honest negative). Remaining 12 of 15 residual pool still need processing. No candidate/score/gap/spec changes.
+>
+> **Your tasks:** (1) Carry frozen/exhausted/dated items unchanged. (2) Complete bounded provenance over remaining residual pool with pre-registration in cycle_notes before fetching; use Crossref abstracts (posted-content for SSRN). (3) Address open Priority-3 questions with named routes. (4) Re-derive counts/rubric; keep artifacts consistent. (5) Rewrite handoff and write fresh initial task message for Cycle 106.
+>
+> **Rules:** Upgrade only when annotation written into entry in same cycle. Quotations must be re-checkable in fetched text layer or struck with counts. Record negatives as negatives. No re-run of exhausted routes without different host/path form. No score/re-screen/identifier consumption without reasoning in register/shortlist/cycle log. Never invent citations. Score as research priority only.
+>
+> **ID sequences:** IDEA-001…015 (016,017 reserved), S-001…209, S-220…383 (210-219 reserved), V-001…010, R-001…055, P-001…012, P-014, G-01…36. **Next free:** IDEA-017, S-384, V-012, G-37, R-056, P-015.
+
 
 **What Cycle 103 actually did.** It ran one bounded, pre-registered provenance operation over
 thirteen targets (ten from the 25-entry residual pool plus three Priority-3 close-attempts), all

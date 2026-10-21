@@ -3591,3 +3591,43 @@ the entry in the same cycle**.
 **Open Priority-3 questions remaining** (S-271's "all at once" wording/effective date; S-238's body; S-153/S-154/S-156 magnitude claims; S-166 intermediary detail) — carried to Cycle 104 with named routes in `research/next_agent_handoff.md`.
 
 **Standing rule re-affirmed:** a provenance upgrade is not done until the entry's own verification bullet says so. All thirteen annotations were written into their ledger entries in this cycle.
+
+## Cycle 104 — 2026-10-21 (pre-registration)
+Theory-only cycle executing the five priorities from the Cycle-103 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Maintain the frozen, exhausted and dated items unchanged; run one bounded, pre-registered provenance operation over a named subset of the 15 remaining index-rendered-only entries (S-147, S-148, S-151, S-152, S-179, S-181, S-247, S-248, S-249, S-253, S-258, S-262, S-263, S-264, S-329); pre-register the subset, routes and criteria in this file *before any fetch*; also address the open Priority-3 questions (S-271's "all at once" wording/effective date, S-238's body, S-153/S-154/S-156 magnitude claims, S-166 intermediary detail) with named routes; write annotations into the ledger entries in the same cycle; re-derive counts and re-run rubric arithmetic; rewrite the handoff and write a fresh initial task message for Cycle 105.
+
+**Pass 2 — Critique.** The Cycle-103 state-integrity finding remains binding: a provenance upgrade is not done until the entry's own verification bullet says so. Every fetched document must have its text layer extracted, with URL, HTTP status, byte count and page/character count recorded. An upgrade may only strengthen an existing reason or record; it may not re-score, add a sixth reason, re-screen a family, or consume an identifier. Do not re-run a route that has already returned a negative unless a *different* route exists (different host or path form, not a changed query string). Record a negative as a negative (route, status, failure mode). Strike in place any quotation the fetched document does not contain, with reason and string counts showing absence.
+
+**Pass 3 — Revise.** Execute as specified, with every count re-derived from the files and the Cycle-104 record written inside this cycle.
+
+### Pre-registered provenance operation — the Cycle-104 subset (registered before any fetch)
+
+Fifteen targets from the residual index-rendered-only pool. General lever that worked in Cycle 103: **Crossref REST API's deposited abstract** (`api.crossref.org/works/<DOI>`). For SSRN posted-content records use Crossref `posted-content` form. Record for every fetch URL, HTTP status, byte count, page/character count, extraction method.
+
+| # | Target | What it supports | First route (pre-registered) | Upgrade criterion | Partial-upgrade criterion | Negative criterion |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | **S-147** | Pegoraro et al (2026) anticipatory liquidity provision | Crossref `https://api.crossref.org/works/10.2139/ssrn.6772502` (posted-content) | deposited abstract confirms anticipatory liquidity provision / "shifts price pressure away from reconstitution date" / short interest behavior | bibliographic record only | no abstract deposited or SSRN/Crossref inaccessible → honest negative; do not rely on 403 landing page alone |
+| 2 | **S-148** | Chinco & Sammon (2024) passive ownership share / construction | Crossref `https://api.crossref.org/works/10.1016/j.jfineco.2024.103860` | deposited abstract confirms 33.3% in 2021 / benchmark-tracked AUM construction / closing-price rebalancing | bibliographic record only | no abstract deposited → honest negative |
+| 3 | **S-151** | Bogousslavsky & Muravyev (2023) pre-opening/price discovery | Crossref `https://api.crossref.org/works/10.1093/rfs/hhad013` | deposited abstract confirms pre-opening contribution / price discovery claims | bibliographic record only | no abstract deposited → honest negative |
+| 4 | **S-152** | Bogousslavsky (2021) intraday reversals | Crossref `https://api.crossref.org/works/10.1111/jofi.13029` | deposited abstract confirms intraday reversal mechanism claims used | bibliographic record only | no abstract deposited → honest negative |
+| 5 | **S-179** | Song & Woo (2025/working paper as indexed) | Crossref `https://api.crossref.org/works/10.2139/ssrn.5348038` or journal DOI if exists; prefer Crossref posted-content if SSRN | deposited abstract confirms claims used; note if states "full text not publicly available" | bibliographic record only | no abstract or states unavailable → honest negative (may be terminal) |
+| 6 | **S-181** | Ahmed (2026) — SSRN posted-content | Crossref posted-content `https://api.crossref.org/works/10.2139/ssrn.5232160` (or actual SSRN abstract_id if different) | deposited abstract confirms claims used | bibliographic record only | no abstract deposited → honest negative |
+| 7 | **S-247** | Ellul et al (2005) LSE dp506 | Try Crossref `https://api.crossref.org/works/10.2139/ssrn.670601` or LSE research-publications path form different from prior; if Crossref has abstract use it | deposited abstract/text confirms claims used | bibliographic record only | both routes fail → honest negative |
+| 8 | **S-248** | Madhavan & Cheng (1997) | Crossref `https://api.crossref.org/works/10.1111/j.1540-6261.1997.tb02727.x` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 9 | **S-249** | Keim & Madhavan (1997) | Crossref `https://api.crossref.org/works/10.1111/j.1540-6261.1997.tb02726.x` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 10 | **S-253** | Chordia et al (2002) | Crossref `https://api.crossref.org/works/10.1111/1540-6261.00474` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 11 | **S-258** | Hasbrouck (2003) | Crossref `https://api.crossref.org/works/10.1016/S0304-405X(03)00057-8` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 12 | **S-262** | Hendershott et al (2011) | Crossref `https://api.crossref.org/works/10.1111/j.1540-6261.2010.01624.x` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 13 | **S-263** | Brogaard et al (2014) | Crossref `https://api.crossref.org/works/10.1111/jofi.12141` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 14 | **S-264** | Menkveld (2013) | Crossref `https://api.crossref.org/works/10.1111/jofi.12027` | deposited abstract confirms claims used | bibliographic record only | no abstract → honest negative |
+| 15 | **S-329** | Sun & Tian (2026) — SSRN posted-content | Crossref posted-content `https://api.crossref.org/works/10.2139/ssrn.5136740` (verify DOI/abstract_id) | deposited abstract confirms claims used | bibliographic record only | no abstract deposited → honest negative |
+
+**Priority-3 open questions (named routes):**
+- **S-271** "all at once" wording/effective date: try IFRS Foundation jurisdiction page for Saudi Arabia (`ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdiction/view-jurisdiction/saudi-arabia/`), Saudi CMA (`cma.gov.sa`), and Wayback CDX for Arabic `socpa.org.sa` paths. Do not re-run `socpa.org.sa` direct (times out) or rely on landing pages with no snapshot.
+- **S-238** body (Switzer): try conference version route (Effectiveness of Financial Regulation Conference 2022) and author's Concordia University page/repo.
+- **S-153/S-154/S-156** magnitude claims, **S-166** intermediary detail: try authors' working paper versions / NBER WP (S-156 NBER WP 28624) / SSRN preprints; publisher routes blocked.
+
+**Rules applied to every target.** Record URL, HTTP status, byte count, page/character count, extraction method. A quotation not re-checkable in fetched text layer is not a quotation — extract or record index-rendered/unattributed. Strike in place any quotation not present with reason and string counts. Record negative as negative. Upgrade only strengthens existing reason/record. Write annotation into entry in same cycle. No re-run of exhausted routes without different host/path form. No score change/re-screen/identifier consumption unless reasoning written in register/shortlist/cycle log together.

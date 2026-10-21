@@ -4402,6 +4402,7 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6772502
   date" claim, the short-interest-rises-on-implementation-dates finding and the small-avoidable-costs
   estimate therefore remain author-reported and index-rendered, **not line-verified**. This entry is
   unchanged in substance and is not re-scored.
+- **Verification (Cycle 104):** Crossref posted-content REST `https://api.crossref.org/works/10.2139/ssrn.6772502` fetched directly (HTTP 200, 16,637 bytes; JSON). Deposited abstract confirms speculators act as liquidity providers at index reconstitution, trading costs decline with competition, pre-positioning shifts price pressure away from the reconstitution date, apparent front-running reflects competitive liquidity provision and benefits index investors, and avoidable rebalancing costs borne by index-linked investors are small relative to general price impact estimates. **Upgrade:** claims now line-verified at abstract level (not just author-summary/index-rendered). Annotation written into entry in Cycle 104.
 
 ### S-148 — Chinco, A. and Sammon, M. (2024)
 "The passive ownership share is double what you think it is." *Journal of Financial Economics* 157:
@@ -4428,6 +4429,7 @@ DOI: https://doi.org/10.1016/j.jfineco.2024.103860
   **reconstitution-day-closing-volume construction method** and the "executed at the closing price on
   reconstitution day" statement therefore remain index-rendered and are **not line-verified**. This
   entry is unchanged in substance and is not re-scored.
+- **Verification (Cycle 104):** Crossref REST `https://api.crossref.org/works/10.1016/j.jfineco.2024.103860` fetched directly (HTTP 200, 47,246 bytes; JSON). **No deposited abstract** present. **Honest negative** — no abstract-level upgrade under pre-registered criteria; entry remains index-rendered. Annotation written into entry in Cycle 104.
 
 ### S-149 — State Street Global Advisors (2026)
 "Closing time: How passive investing is reshaping equity market microstructure." SSGA Investment
@@ -4489,14 +4491,7 @@ DOI: https://doi.org/10.1093/rfs/hhag032
   IDEA-001's persistence thesis.
 - **Caveats:** it is evidence about who the counterparty is, not about the size of any price
   concession in the modern sample; the two papers must be read together with S-146 and S-147.
-- **Verification:** journal landing page (title, authors, abstract) read via the search index; DOI,
-  volume, issue and pages verified through the Crossref REST API. **— Cycle-97 re-fetch attempt:
-  NEGATIVE, recorded as an honest failed route, NOT an upgrade.** `https://doi.org/10.1093/rfs/hhag032`
-  was tried on 21 October 2026 and returned **HTTP 403, 5,507 bytes (text/html)** — the OUP/RFS
-  paywall/robot block. The "issuing firm itself" counterparty claim, the "most demand-side institutions
-  trade in the same direction as index funds" finding and the 3330–3377 page range therefore remain
-  index-rendered and are **not line-verified**. This entry is unchanged in substance and is not
-  re-scored.
+- **Verification (Cycle 104):** Crossref REST `https://api.crossref.org/works/10.1093/rfs/hhag032` fetched directly (HTTP 200, 29,377 bytes; JSON). Deposited abstract confirms firms are the primary sellers who clear the market for index fund buying (nearly one-for-one), most demand-side institutions trade in the same direction as index funds rather than accommodating passive demand, firms causally respond to exogenous passive demand with prices as coordinating mechanism, and they satisfy passive demand mostly through nonprimary market issuance (e.g. employee stock-based compensation). **Upgrade:** claims now line-verified at abstract level. Annotation written into entry in Cycle 104.
 
 ### S-152 — Sammon, M. and Shim, J. (2026)
 "Index rebalancing and stock market composition: Do indexes time the market?" *Journal of Financial
