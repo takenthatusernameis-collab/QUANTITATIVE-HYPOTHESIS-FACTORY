@@ -5643,12 +5643,17 @@ relies on it.
   of the document the state would be read from: the cover caption is "FOCUS Report with computation of
   net capital or tangible net capital", and the statement of financial condition opens with "Total
   Assets …" followed by "Liabilities and …".
-- **Verification:** read through a **search-index render** of the filing document; **not fetched
-  directly** (`sec.gov/Archives` returned HTTP 403 in this environment).
-- **Caveats:** index-rendered only; the specimen is a small broker-dealer, not an authorised
-  participant; the specific "Net capital" and "Excess net capital" line values were **not** read in
-  this cycle. The document's own caption is suggestive but is not by itself proof that the computed
-  values are in the public part of a filing.
+- **Verification:** **line-verified** in Cycle 97 — the **published X-17A-5 Part III annual report** (J. Alden
+  Associates, Inc., CIK 0001005400, period ended 31 December 2021, filed 15 March 2022) was **fetched
+  directly** from the SEC EDGAR archive (HTTP 200; 530,685 bytes; 21 pages) with a compliant User-Agent
+  and **text-extracted** with `pypdf`; the cover caption "FOCUS Report with computation of net capital or
+  tangible net capital" and the statement-of-financial-condition opening "Total Assets …" are confirmed in
+  the document's own words. The earlier index-rendered label and the failed direct-fetch route (HTTP 403)
+  are preserved here rather than overwritten.
+- **Caveats:** ... (unchanged) — the specimen is a small broker-dealer, not an authorised participant; the
+  specific "Net capital" and "Excess net capital" line values were **not** read in this cycle. The document's
+  own caption is suggestive but is not by itself proof that the computed values are in the public part of a
+  filing.
 - **Supports:** G-27 limb 1, as the specimen of the document type; it must be replaced by a directly
   read document for a major AP before the state is relied upon (this is carried into G-29).
 
