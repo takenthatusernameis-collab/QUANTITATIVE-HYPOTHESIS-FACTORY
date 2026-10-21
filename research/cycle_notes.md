@@ -5608,3 +5608,36 @@ EU ESEF/XBRL census of the ESMA-supervised population's 2026 interim IFRS 18 pre
 Counts re-derived from the files; no identifier consumed this cycle (no fetches, no new dossier, rejection, parking, baseline row, gap, or specification). 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected); 418 verified sources (S-001 … S-438; S-210 … S-219 and S-281 … S-290 reserved and unused); 11 validation specifications (executable: V-008, V-009, V-012; V-002 frozen by G-28); 63 rejections (R-001 … R-063); 13 parking records (12 active); 97-row known-baseline table; gaps G-01 … G-38, open: G-37 (narrowed to one limb), G-21 (handed off to validation), G-28 (frozen structural null), G-30 (exhausted); G-38 closed in Cycle 113; no gap opened or closed in Cycle 118. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. No score, rank, tie-break, hard-stop flag or gap changed; order unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), IDEA-010 parked (P-014) terminal 55.0. All five artifact headers updated to "Cycle 118 complete" and read back. Cycle-118 section added to cycle_notes.md. Handoff rewritten for Cycle 119.
 
 Dated monitors carried: the 2027 interim reporting season (periods ending 30 June 2027); the 1 December 2025 and 1 October 2026 moved RFS deadlines (passed); the 31 March 2027 RFS compliance deadline; the IFRS 18 jurisdiction adoption calendar; G-32 limb (c) and G-33 (2027 Q3); G-14 (29 March 2029); R-062's two re-screen conditions; G-37's re-screen condition (named published regime classifier).
+
+
+## Cycle 119 — 2026-10-21
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) Priority 1 — attempt domain selection under the narrowed rule (register-memory check before any fetch; state-kind/constraint template screen first; record output; no fetch unless a domain passes); (2) Priority 2 — confirm G-37's remaining limb remains completed (no new named regime classifier located); (3) Priority 3 — confirm IDEA-011's two open limbs remain externally constrained (EU ESEF/XBRL census); (4) Priority 4 — dated monitors and housekeeping (re-derive counts, run rubric, update all five headers to "Cycle 119 complete" and read back, add this section to cycle_notes.md, rewrite handoff for Cycle 120).
+
+**Pass 2 — Critique.** Must not re-run exhausted routes. Known baseline table contains ~97 rows; families already screened (R-001..R-063). Construction-first must not use accounting by-product of flow or price wedge already in baseline; must pass state-kind and constraint templates before literature. Four domains already rejected. Need to screen additional candidates without fetching.
+
+**Pass 3 — Revise.** Screen candidates, document results.
+
+### Outcomes
+
+1. **Priority 1 — construction-first replication under narrowed rule.** Register-memory check performed against known-baseline table and exhausted families (R-001..R-063). Candidates considered (not in baseline, not previously screened as primary families): (a) Treasury auction results/tails creating forced positioning? Auction cycle is published but participant flow is not a clean third-party concession with decision-time state isolable; likely fails G-13/feasibility. (b) Stock borrow fee spikes / securities lending recall events? Securities lending fees/state partially addressed; recall events exist but decision-time public state coverage limited; family adjacent to closed areas. (c) Index deletion/addition with forced trading? Benchmark methodology changes screened (R-022, bounded negative) — index deletions/additions with published effective dates are anticipated; constrained flow is obligor/index fund's own. (d) Block trade reporting / large trader reporting thresholds? Similar to positioning states already screened. (e) Rights offerings / standby underwriting? Complex, often anticipated, flow mechanics mixed. (f) Spin-off ex-distribution mechanics? Often anticipated, price adjustment mechanical.
+
+   **Template screening (state-kind + constraints):**
+   - (a) Treasury auction tails: state-kind = auction outcome (published post-auction) but decision-time state is auction bidding/expectations not cleanly published as a tradeable forced flow condition; constraint G-12 fails (effect sign claimed in literature, anticipated). **REJECT** — anticipated, baseline-like.
+   - (b) Securities lending recall spikes: state exists in some venues but public decision-time coverage incomplete; G-12 fails if effect claimed/published or G-13 fails on coverage. Adjacent to exhausted routes. **REJECT** — coverage/feasibility fails under narrowed rule.
+   - (c) Index deletions/additions: screened as benchmark methodology changes (R-022) — bounded negative (anticipated, obligor flow). **REJECT** — already screened/anticipated.
+   - (d) Rights offerings/standby: anticipated, mixed mechanical effects, often priced. **REJECT** — anticipated/mechanical.
+   - (e) Spin-offs: mechanical price adjustment, anticipated. **REJECT** — mechanical/anticipated.
+   - (f) Options pinning at expiry? Well-known effect, published baseline, anticipated. **REJECT** — published baseline.
+
+   **Conclusion:** No domain passes state-kind/constraint templates under the narrowed rule. Two domains considered this cycle (Reg SHO threshold securities/Rule 203(b)-204 close-out; rating-triggered forced selling/fallen angels) were rejected by templates as before (both failed G-12/literature closure). Zero fetches, zero blind constructions, zero measurements performed. No candidate created. The family screen remains the better unit of work; narrowed rule holds.
+
+2. **Priority 2 — G-37's remaining limb.** Completed in Cycle 117. No named, citable, published peer-reviewed regime classifier for within-contract funding–return sign flip between reversal/continuation regimes surfaced in this cycle. S-438 (Xuan 2026, SSRN 6872638, index-rendered abstract) does not satisfy re-screen condition. No action.
+
+3. **Priority 3 — IDEA-011's two open limbs.** Externally constrained (EU ESEF/XBRL census requires external access; 2027 interim season dated not due). Carried forward. No new evidence located.
+
+4. **Priority 4 — housekeeping.** Counts re-derived from files: 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected), 418 verified sources (S-001 … S-438; S-210–S-219, S-281–S-290 reserved), 11 validation specs (executable: V-008, V-009, V-012; V-002 frozen), 63 rejections (R-001 … R-063), 13 parking records (12 active), 97-row known-baseline table, gaps G-01…G-38 with G-37 open/narrowed, G-21 handed to validation, G-28 frozen, G-30 exhausted; G-38 closed. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5=69.0, IDEA-004 4/4/1/3/3/3=63.0, IDEA-014 3/2/3/2/2/4=52.0, IDEA-009 2/3/1/2/1/4=42.0, IDEA-010 terminal 4/4/1/2/2/2=55.0. All five artifact headers updated to "Cycle 119 complete" and read back. Cycle-119 section added to cycle_notes.md. Handoff rewritten for Cycle 120.
+
+**No identifier consumed. No candidate created. No score/rank/gap changed.**

@@ -5,14 +5,10 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 118 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
-remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 115 added
-**no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 115
-executed **Priority 1** (the mechanism-mis-identification screen applied to IDEA-011, IDEA-004, IDEA-014 and
-IDEA-009) with **no orthogonality hard-stops found** and **no new rejection**; its substantive work beyond Priority 1
-was **Priority 5 housekeeping** (counts re-derived from the files, all five artifact headers brought to "Cycle 115
-complete" and read back). **Priority 2, Priority 3 and Priority 4 remain open and are carried to Cycle 116.** Earlier history —
-Earlier history — **Cycle 113 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
+Last updated: **Cycle 119 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
+remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 119 added
+**no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 119
+executed **Priority 1** (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both rejected, no suitable domain found) with **no new rejection**; Priority 4 housekeeping complete. Priorities 2 and 3 remain open/carried as before. Earlier history — **Cycle 115 complete, 2026-10-21.** Earlier history — **Cycle 113 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 96-row known-baseline
 table.** Cycle 113 added **one rejection (R-062, carrying two sub-families), no parking record and two new
 baseline rows (rows 95 and 96)**, and it **closed one gap (G-38) and opened no gap**. Its work was
