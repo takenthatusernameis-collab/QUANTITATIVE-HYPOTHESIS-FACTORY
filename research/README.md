@@ -23,13 +23,27 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-409`; `S-210 … S-219` are **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-448`; `S-210 … S-219` and `S-281 … S-290` are
+   **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-063`), parkings are `P-0NN` (next
+   *state-free* specification), rejections are `R-0NN` (next free: `R-065`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 114**;
+   (next: **Cycle 124**;
+   **Cycle 123 completed five pre-registered priorities — a record-integrity repair (the retrospective
+   Cycle-122 boundary record; the source-count repair from the stale "418" to the true **433 (S-001 …
+   S-453)**; and the Cycle-118 unsourced literature-closure claim, re-grounded on R-027 and on three newly
+   registered peer-reviewed sources, S-448 … S-450); a construction-first screen of **three pre-registered
+   new state kinds**, all killed at the design stage with **zero fetches**, logged as **R-064** with the
+   register's **published-state-kind coverage map** and one new baseline row (**row 98**); G-37's remaining
+   limb, where a bounded search produced **S-451** and the limb's condition was **not** met, so the gap
+   stays open and dated; and IDEA-011's two open limbs, where **S-452** (DRSC DAX 40 survey) and **S-453**
+   (Norwegian FSA thematic review of a random sample of 50) were added and **S-437** was upgraded in place
+   from index-rendered to **line-verified with the issuer identified as flatexDEGIRO**. Six sources, one
+   rejection, one baseline row, one specification amended (V-009), no candidate created, no score or rank
+   changed, no gap opened or closed — and the **eighth recorded occurrence** of the header-update failure
+   mode recorded and repaired**;
    **Cycle 113 completed three pre-registered priorities — the two-sub-family screen of US commodity futures'
    published regulatory and positioning states, which is a **bounded negative on both limbs** and is logged as
    **R-062** with the two families added to the known-baseline table as **rows 95 and 96** (the handoff's

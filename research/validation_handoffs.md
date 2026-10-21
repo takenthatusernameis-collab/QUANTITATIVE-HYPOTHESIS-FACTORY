@@ -1,6 +1,6 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–121
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–123
 
-**Cycle 120 update — no specification created, withdrawn or re-created; no status changed.** Cycle 120 housekeeping complete. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 119 update — no specification created, withdrawn or re-created; no status changed.** Cycle 119 executed priorities as far as externally achievable; no validation specification amended. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 117 update — no specification created, withdrawn or re-created; no status changed.** Cycle 117 executed priorities as far as externally achievable and produced no new specification and no new candidate. **Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
+**Cycle 123 update — no specification created, withdrawn or re-created; one specification amended (V-009); no status changed.** Cycle 123 executed Priority 3 (IDEA-011's two open limbs), which **amended V-009** by adding one binding reporting requirement: the arm-A state construction must **name which population's statistic it uses and what object that statistic measures**, and must not pool the three objects now held — the **expected-impact distribution** (S-452, DRSC DAX 40 survey: aggregate, DAX-40-specific, expectations), the **disclosure incidence and timing** (S-453, Norwegian FSA thematic review of a **random sample of 50**: disclosure practice, not impact), and the **firm-level quantification rate** (0 of 13 in the filed sample) — and must report the ESMA-supervised population rate as **"not yet published"** while it remains so. The same amendment records that the early-adopter restated-comparative window now has a **named anchor issuer** (flatexDEGIRO, S-437 now line-verified) that anchors the *existence and form* of the window and **must not** be used as a proxy for the validator's early-adopter universe (the Cycle-114 requirement stands). The frozen hypothesis, the arms, the windows, the cost model and the kill criteria are unchanged; the score is unchanged (69.0, rank 1). **No `V-` identifier is consumed.** The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 120 update — no specification created, withdrawn or re-created; no status changed.** Cycle 120 housekeeping complete. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 119 update — no specification created, withdrawn or re-created; no status changed.** Cycle 119 executed priorities as far as externally achievable; no validation specification amended. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 117 update — no specification created, withdrawn or re-created; no status changed.** Cycle 117 executed priorities as far as externally achievable and produced no new specification and no new candidate. **Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
 no status changed.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md`
 before the first fetch) and produced **no new specification** and **no new candidate**. **(i) V-009 is amended** —
 the **2026 interim reporting season has been observed**, so the pre-emption reporting arm is **split into two
@@ -2464,6 +2464,49 @@ Cycle-113 amendments stand in full.
    **linguistic-distance** controls added in Cycle 52 and confirmed mandatory in Cycle 113 remain mandatory; and the
    Cycle-111 correction notice (no group A / group B partition; prospective arm A is the only IFRS 18 identification
    available) stands in full. **No `V-` identifier is consumed.**
+
+### Cycle-123 amendment (binding) — the arm-A state construction must name which population's statistic it uses, and must not pool three different objects
+
+Cycle 123 executed Priority 3 (IDEA-011's two open limbs) and, in doing so, **populated the population-rate limb
+(G-33) with two published population statistics in two jurisdictions**, and **attached the early-adopter limb to a named
+issuer**. This specification is **amended, not re-created**: the frozen hypothesis, the arms, the event and outcome
+windows, the cost model, the kill criteria and the executable status are **unchanged**; one **reporting requirement** is
+added to the arm-A state construction. Every other section stands as written, and the Cycle-52, Cycle-56, Cycle-58,
+Cycle-113 and Cycle-114 amendments stand in full.
+
+1. **The arm-A state construction must now declare which population's statistic it uses and what object that statistic
+   measures; the three objects must not be pooled.** The register holds, after this cycle: **(i)** the
+   **expected-impact distribution** from the DRSC's DAX 40 short survey (**S-452**: 28 responses, a 70 % response rate;
+   a quarter expect "rather strong" or "very strong" effects on reported operating profit, 61 % expect minor effects,
+   11 % expect none; 43 % expect to inform the capital market during 2026, 10 % have already done so, 23 % will not
+   inform before 2027) — **aggregate, population-specific (DAX 40), and about expectations, not realised breaks**;
+   **(ii)** the **disclosure incidence and timing** from the Norwegian FSA's thematic review of a **random sample of 50**
+   listed companies (**S-453**: more than half of the 2025 annual reports gave no company-specific information or only
+   standardised disclosures; **42 %** provided company-specific information; few quantified the expected effects; **8 %**
+   had updated the information in the 2026 half-year reports) — a **supervisor's sample statistic, about disclosure, not
+   about impact**; and **(iii)** the **firm-level quantification rate** in the filed sample (**0 of 13**, S-409 … S-412,
+   S-434) — **about quantification of the effect**. A validator constructing an arm-A state must name which of these it
+   uses, must state the population and the sampling rule behind it, must report the ESMA-supervised population rate as
+   **"not yet published"** while it remains unpublished, and **must not treat the three as interchangeable or average
+   them**. The Cycle-114 amendment's requirement to report "the quantification rate in the season it uses" is unchanged
+   and is unaffected by this block.
+2. **The early-adopter restated-comparative window now has a named anchor issuer, and the anchor must not be treated as
+   the early-adopter set.** **S-437 is now line-verified** — the PDF was fetched directly and its text layer read — and
+   the issuer is **flatexDEGIRO** (Frankfurt am Main), whose investor-relations deck states that its **H1 2026** report
+   was the "**First published IFRS 18 half-year report 12 months ahead of mandatory adoption. Full comparative period
+   restatement disclosed and audited.**", and which markets early adoption as a "**Strategic First Mover**" /
+   "**Investor Confidence**" signal. **This is n = 1**: it anchors the *existence and form* of the early-adopter window,
+   and it does **not** identify the validator's early-adopter universe. The Cycle-114 requirement that the early
+   adopters be identified **from the filings themselves** (no published firm-level early-adopter flag — the Cycle-110
+   resolution and **R-058**) **stands in full**, and flatexDEGIRO must not be used as a proxy for it. The validator must
+   likewise not read any price conclusion from the issuer's own marketing characterisation of its early adoption.
+3. **What has not changed, stated explicitly.** The candidate's score (**69.0, rank 1**) is **unchanged**; the frozen
+   hypothesis is **unchanged**; the cost model, execution assumptions, guardrails, separation rule and kill criteria are
+   **unchanged**; the **enforcement** and **linguistic-distance** controls from Cycle 52, confirmed mandatory in Cycle 113,
+   remain mandatory; the Cycle-111 correction notice (no group A / group B partition) stands; and the register's own
+   **0 of 13** observation remains a **convenience sample on two filing routes**, not a census, while the two new
+   population statistics (S-452, S-453) are **expectation and disclosure statistics**, not price studies and not
+   quantifications of realised breaks. **No `V-` identifier is consumed.**
 
 ### Frozen hypothesis
 When a jurisdiction adopts a new accounting standard, the adoption date is regulator-published
