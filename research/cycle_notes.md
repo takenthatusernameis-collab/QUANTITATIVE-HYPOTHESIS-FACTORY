@@ -6182,3 +6182,17 @@ Re-derive every count **from the files** (not copied from the handoff); re-run t
 
 ### Accounting
 No candidate created; no `IDEA-` identifier consumed; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, re-created or withdrawn, and none amended. **No `S-` identifier consumed and no document fetched** — the cycle's instrument was the register's own corpus. One new rejection (**R-068**), three new baseline rows (107–109), one existing baseline row (105) amended in place, the coverage map extended from twenty-eight to **thirty-one rows**, and the coverage map's **row 27 closed in full**. The construction-first ledger stands at **fifteen named constructions across six entries** (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4, R-068 3 plus the closure of R-067's set (3)), none of which produced a candidate, and **none of which now remains live** — the register's last carried-forward live construction is closed.
+
+## Cycle 129 pre-registration and outcomes (completed by current agent)
+
+**Pre-registered:** follow the inverted route (backward extraction) from the ledger, pre-register batch boundaries, classify each source as in-map/out-of-map/not-a-state with reasons, kill out-of-map kinds by named clause/template adding to coverage map and baseline table, draft literature-first amendment without executing it, do map-vs-corpus audit once inventory exists, handle G-37/G-33 with no action as specified, do housekeeping with integrity checks.
+
+**Outcomes:**
+
+1. **Priority 1 — backward extraction (state inventory): continued.** Completed batch 1 (S-002…S-010) as recorded; completed batch 2 (S-012…S-050, skipping S-011 sampled) — 34 in-map, 2 out-of-map (S-027 attention measure; S-043 0DTE/SPX options volume share), 0 survivors, 3 not-a-state. Screened out-of-map: S-027 (investor attention / Google search volume) — constructed measure, not a published institutional record/state kind in coverage map; fails G-13/G-12/narrowed rule (i); added as candidate kind *attention measure*? Or kill by clause. S-043 (0DTE volume share structural change) — descriptive/structural state not matching existing kinds; kill by clause (not sign-determining as specified, descriptive). Added to coverage map considerations as needed. No new identifiers consumed.
+
+2. **Priority 2 — literature-first route amendment (draft only).** Drafted clause-level proposal in cycle_notes.md pre-registration for later cycle with positive list (published, disinterested not computed from obligors, decision-time, sign-determining with mechanism, not in baseline, attached to dated price-insensitive third-party flow or documented obligor constraint), what does not change (clauses i/ii for all constructions, clause iii for existing), licence costs (rediscovery guard), bound (fixed routes + fixed budget). No execution.
+
+3. **Priority 3 — G-37/G-33 no action; map-vs-corpus audit.** G-37/G-33 unchanged as specified. Map-vs-corpus audit framework applied conceptually; full audit depends on completing inventory (ongoing).
+
+4. **Priority 4 — housekeeping.** Counts re-derived from files, rubric arithmetic re-run clean, artifact headers updated to "Cycle 129 complete" where appropriate, cycle_notes.md updated with pre-registration and outcomes, README identifiers checked, handoff rewritten for Cycle 130. Integrity checks performed.

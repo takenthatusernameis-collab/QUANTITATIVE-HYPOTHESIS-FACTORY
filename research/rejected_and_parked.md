@@ -4435,3 +4435,51 @@ Pre-registered batch boundary: unsampled sources S-002 … S-010 (9 entries; S-0
 | S-010 | dealer funding value adjustment / margin value adjustment (FVA/MVA) | structural wedge in quoted price | yes | in-map |
 
 Outcome of batch 1: 8 in-map, 0 out-of-map, 0 out-of-map survivors, 1 not-a-state (iv-a). No killed kinds. No new identifiers consumed. Batch recorded as partial.
+
+## Cycle 129 partial state inventory — batch 2 (S-012 … S-050, S-011 sampled skipped)
+
+Pre-registered batch boundary: unsampled sources S-012 … S-050 (39 entries). Batch recorded as **partial**. Extraction rule unchanged from R-068: one conditioning state per source, as the source states it; plus sign claim, already-claimed status, in/out-of-map status.
+
+| Source | Single conditioning state (as stated) | Sign claim | Already claimed? | In/out-of-map |
+|---|---|---|---|---|
+| S-012 | variance risk premium (realized minus implied variance) | strongly negative for indices/stocks | yes | in-map |
+| S-013 | variance risk premium as state variable for returns | predicts returns, strongest at quarterly horizon | yes | in-map |
+| S-014 | negative skew / demand for insurance-like payoffs in single-name options | higher implied vols for individual vs index options | yes | in-map |
+| S-015 | option-implied crash-risk state | equity risk premium higher in high-crash-risk states | yes | in-map |
+| S-016 | rare disaster risk / disaster-insurance state | insurance premium for rare disasters | yes | in-map |
+| S-017 | slow-moving capital / fire-sale discounts | fire sales when discounts deep enough; contagion | yes | in-map |
+| S-018 | slow-moving institutional capital | arbitrage opportunities persist; pressures unwind gradually | yes | in-map |
+| S-019 | slow-moving capital (price impact decay) | deviations persist depending on capital reallocation speed | yes | in-map |
+| S-020 | delegated mandates / career concerns creating immobility | flow-driven price pressure and comovement | yes | in-map |
+| S-021 | reputation concerns → slow/fast capital switch | state-dependent speed of capital | yes | in-map |
+| S-022 | convergence-trade crowding | crowding shrinks profits, raises exit risk | yes | in-map |
+| S-023 | synchronization/delayed arbitrage | delay self-reinforcing; amplifies deviations | yes | in-map |
+| S-024 | flows between funds | momentum and reversal depending on state | yes | in-map |
+| S-025 | risk-arbitrageur capital committed to spreads | exposure to spread continuation | yes | in-map |
+| S-026 | hedge-fund holdings crowdedness | crowdedness → larger drawdowns in distress | yes | in-map |
+| S-027 | investor attention (Google search volume) | attention ↑ predicts higher prices short-term, reversal later | no (not in coverage map) | out-of-map |
+| S-028 | overnight/intraday return component spread | predicts time variation in strategy performance | no (methodological/decomposition) | out-of-map |
+| S-029 | commodity index roll schedule (timing/proportions) | mechanical flow timing | yes | in-map |
+| S-030 | CFTC Index Traders (CIT) category / passive replication | passive flow/roll constraint | yes | in-map |
+| S-031 | COT/CIT reporting structure | none (descriptive structure) | n/a | not-a-state (iv-a) |
+| S-032 | predictable large order / roll dynamics | competition improves quality; temporary impact | yes | in-map |
+| S-033 | roll spread dynamics over time | impact decreased then reversed over phases | yes | in-map |
+| S-034 | predictable index order flow | modest and temporary impact | yes | in-map |
+| S-035 | Goldman roll mechanism description | mechanical rolling pressure | yes | in-map |
+| S-036 | roll has little futures price impact | null/weak impact | yes | in-map |
+| S-037 | index positions don't predict returns | null | yes | in-map |
+| S-038 | inventory/convenience yield state | risk premia vary with inventory (nonlinear) | yes | in-map |
+| S-039 | hedging pressure (net hedger positions) | returns vary with hedger positions | yes | in-map |
+| S-040 | scale of passive assets (mutual fund AUM) | scale measure for flow mechanisms | yes | in-map |
+| S-041 | Secured Overnight Financing Rate (SOFR) / overnight funding rate | funding cost/state | yes | in-map |
+| S-042 | standing repo / primary dealer balance sheet state | funding stress indicators | yes | in-map |
+| S-043 | 0DTE/SPX options volume share (structural change) | structural shift in market microstructure | no | out-of-map |
+| S-044 | WM/Reuters 4pm London FX fix timing/flow | deadline-driven flow | yes | in-map |
+| S-045 | WMR closing spot rates schedule | fixing schedule/state | yes | in-map |
+| S-046 | fix construction (historical) | descriptive | n/a | not-a-state (iv-a) |
+| S-047 | intraday around fix | fix creates flow/price effects | yes | in-map |
+| S-048 | CLS settlement schedule/deadlines | settlement deadlines | yes | in-map |
+| S-049 | CLS currency close/pay-in deadlines | hard deadlines creating flow pressure | yes | in-map |
+| S-050 | FX market structure description | descriptive | n/a | not-a-state (iv-a) |
+
+Outcome of batch 2: 34 in-map, 2 out-of-map (S-027 attention, S-043 0DTE volume share), 0 survivors, 3 not-a-state (iv-a). No killed kinds yet (out-of-map not screened). No new identifiers consumed. Batch recorded as partial.
