@@ -4405,6 +4405,11 @@ Rows 1–28 are reproduced unchanged from R-067's map (the same positional conve
 | 29 | **A real-time order-flow or order-book-imbalance state** (a computed microstructure quantity, not a published institutional record) | **R-068, this entry (row 107)** | 5, 10, 11, 82 |
 | 30 | **A published settlement-based market-liquidity measurement** (computed from a settlement utility's participants' own settlement records) | **R-068, this entry (row 108)** | 15, 28, 29, 30 |
 | 31 | **The execution channel through which an institutional flow is executed** (a private routing attribute) | **R-068, this entry (row 109)** | 46, 63, 82 |
+| 32 | **Investor attention (search volume / attention index)** (a constructed attention measure, not a published institutional record) | **R-068, batch 2 (S-027)** | — |
+| 33 | **0DTE/options volume share (structural share measure)** (a descriptive structural measure, not a sign-determining state) | **R-068, batch 2 (S-043)** | — |
+
+| 32 | **Investor attention (search volume / attention index)** (a constructed attention measure, not a published institutional record) | **R-068, batch 2 (S-027)** | — |
+| 33 | **0DTE/options volume share (structural share measure)** (a descriptive structural measure, not a sign-determining state) | **R-068, batch 2 (S-043)** | — |
 
 ### The residual, stated honestly — what the inverted route produced, and what it did not
 
@@ -4482,4 +4487,4 @@ Pre-registered batch boundary: unsampled sources S-012 … S-050 (39 entries). B
 | S-049 | CLS currency close/pay-in deadlines | hard deadlines creating flow pressure | yes | in-map |
 | S-050 | FX market structure description | descriptive | n/a | not-a-state (iv-a) |
 
-Outcome of batch 2: 34 in-map, 2 out-of-map (S-027 attention, S-043 0DTE volume share), 0 survivors, 3 not-a-state (iv-a). No killed kinds yet (out-of-map not screened). No new identifiers consumed. Batch recorded as partial.
+Outcome of batch 2: 34 in-map, 2 out-of-map (S-027 attention, S-043 0DTE volume share), 0 survivors, 3 not-a-state (iv-a). **Out-of-map screened (Cycle 129):** S-027 — constructed attention measure (Da et al.), not a published institutional record; effect is short-term then reversal (magnitude/anticipation), sign not cleanly state-determining; fails G-12/G-13/narrowed rule (i), added to coverage map as row 32 / baseline row 107 (approx). S-043 — descriptive structural share (exchange commentary), not sign-determining decision-time state with unclaimed sign; fails G-12/narrowed rule (ii), added as row 33 / baseline row 108. No new identifiers consumed. Batch recorded as partial.
