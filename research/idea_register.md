@@ -4,8 +4,8 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 91 complete** (Cycle 91 added **six new source identifiers and six new source
-entries (S-350 … S-355)**, minted **no new candidate** and **no new validation specification**, opened
+Last updated: **Cycle 92 complete** (Cycle 92 added **three new source identifiers and three new source
+entries (S-356 … S-358)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a
 **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
 `rejected_and_parked.md` under the identifier **R-041**, which **Cycle 61 had already consumed** for the

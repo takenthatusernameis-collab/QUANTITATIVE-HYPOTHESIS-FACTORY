@@ -1,6 +1,6 @@
 # RANKED SHORTLIST — CYCLES 1–91
 
-**Cycle-91 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+**Cycle-92 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4).** Cycle 91's first
 operation was a **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
 `rejected_and_parked.md` under the identifier **R-041**, which **Cycle 61 had already consumed** for the

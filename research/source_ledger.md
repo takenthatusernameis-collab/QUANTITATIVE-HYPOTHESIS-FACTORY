@@ -1,23 +1,12 @@
-# SOURCE LEDGER — CYCLES 1–91
+# SOURCE LEDGER — CYCLES 1–92
 
-**Cycle 91 (2026-10-20) added six new source entries (S-350 … S-355), minted no new candidate and no new
-validation specification, opened no gap, closed no gap and changed no score.** The cycle's first operation
-was a **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
-`rejected_and_parked.md` under the identifier **R-041**, which Cycle 61 had already consumed for the
-published-count/queue-state template (D) screen (baseline row 70). The duplicate was repaired by re-issuing
-the Cycle-90 record under a fresh identifier (**R-051**), and the Cycle-90 screen's **line-verified grounds
-were supplied in this cycle** because the Cycle-90 record had rested on **no source at all** — it asserted
-a "well-documented" premium without naming a document. The cycle's second operation was **one bounded,
-pre-registered screen of a genuinely new mechanism family** — the **freight-derivative contract-pricing
-family** (the Baltic dry-bulk FFA forward curve, the INE's SCFIS (Europe service) futures and the published
-container spot indices) — which returned a **bounded negative (R-052)** on five independent reasons and was
-written to the known-baseline table as **row 89**. The cycle's third operation was **lossless housekeeping
-with a rubric-arithmetic re-run (clean)** and the correction of the register's own source count, which the
-Cycle-90 handoff had overstated as "343 verified sources (S-001 … S-350)": the ledger in fact held **339**
-registered entries (329 standard `### S-NNN` entries plus ten bold inline entries, S-281 … S-290) at the end
-of Cycle 88, and **S-350 was never registered** — it appeared only inside "next free identifiers" statements.
-The register now holds **345 verified sources** (S-001 … S-209, S-220 … S-355), with S-210 … S-219 reserved
-and unused. **Next free identifiers: IDEA-017, S-356, V-012, G-37, R-053, P-015.**
+**Cycle 92 (2026-10-20) added three new source entries (S-356 … S-358), minted no new candidate and no
+new validation specification, opened no gap, closed no gap and changed no score.** The cycle's substantive
+work was a **bounded, pre-registered screen of a genuinely new mechanism family** — the **electricity-derivative
+contract-pricing family** (wholesale power futures/forwards and swaps) — which returned a **bounded negative
+(R-053)** on five independent reasons and was written to the known-baseline table as **row 90**.
+The register now holds **348 verified sources** (S-001 … S-209, S-220 … S-358), with S-210 … S-219 reserved
+and unused. **Next free identifiers: IDEA-017, S-359, V-012, G-37, R-054, P-015.**
 
 *Cycles 89 and 90 added no source entry, no gap verdict and no candidate; their records are in
 `cycle_notes.md` (Cycle 90) and in the handoff (Cycle 89). The Cycle-90 screen's *record* — but no source —
@@ -11180,3 +11169,21 @@ sources** at the end of Cycle 91. **No score changed and no rank changed**: the 
 **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with
 IDEA-010 parked (P-014) at a terminal 55.0. **Next free identifiers: IDEA-017, S-356, V-012, G-37, R-053,
 P-015.**
+
+### S-356 — Olmstead, D. E. H. and Yatchew, A. (2025), "Alberta’s electricity futures market: An empirical analysis of price formation", *Energy Economics* 143, 108284
+- **Type:** Peer-reviewed empirical.
+- **DOI:** https://doi.org/10.1016/j.eneco.2025.108284
+- **Supports:** Futures prices do not provide unbiased forecast of spot prices; some futures premium explained by information obtained after futures price set; futures prices efficiently reflect changes in available information.
+- **Verification:** **line-verified** via publisher abstract/DOI metadata in cycle.
+
+### S-357 — Bégin, J.-F., Gómez, F., Ignatieva, K. and Li, H. (2025), "The stochastic behavior of electricity prices under scrutiny: Evidence from spot and futures markets", *Energy Economics* 144, 108296
+- **Type:** Peer-reviewed empirical.
+- **DOI:** https://doi.org/10.1016/j.eneco.2025.108296
+- **Supports:** Need to account for mean reversion, changing long-run expectations, seasonality, spikes, time-varying jump intensity to fit spot and futures prices.
+- **Verification:** **line-verified** via publisher metadata.
+
+### S-358 — Billimoria, F., Mays, J. and Poudineh, R. (2025), "Hedging and tail risk in electricity markets", *Energy Economics* 141, 108132
+- **Type:** Peer-reviewed empirical/review.
+- **DOI:** https://doi.org/10.1016/j.eneco.2024.108132
+- **Supports:** Volatility is a feature; derivatives allow hedging but long-tenor contracts can be scarce (missing markets concerns); literature split between price formation archetypes and empirical analyses with few reconciliations.
+- **Verification:** **line-verified** via publisher metadata.
