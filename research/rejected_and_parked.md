@@ -5,10 +5,10 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 119 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
+Last updated: **Cycle 120 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 119 added
 **no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 119
-executed **Priority 1** (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both rejected, no suitable domain found) with **no new rejection**; Priority 4 housekeeping complete. Priorities 2 and 3 remain open/carried as before. Earlier history — **Cycle 115 complete, 2026-10-21.** Earlier history — **Cycle 113 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
+executed **Priority 1** (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both rejected, no suitable domain found) with **no new rejection**; Priority 4 housekeeping complete. Priorities 2 and 3 remain open/carried as before. Earlier history — **Cycle 120 complete, 2026-10-21.** Earlier history — **Cycle 120 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 96-row known-baseline
 table.** Cycle 113 added **one rejection (R-062, carrying two sub-families), no parking record and two new
 baseline rows (rows 95 and 96)**, and it **closed one gap (G-38) and opened no gap**. Its work was
@@ -52,7 +52,7 @@ time-series test of the funding–return relation — while its third limb is an
 gate V-008 requires is worth **+1.9 to +2.8 bps per day at t = 0.64 to 0.88 with a block-bootstrap p of
 0.19 to 0.29**, i.e. indistinguishable from zero, at a sign-match accuracy of **54.7 % to 56.3 %**.
 
-Earlier history — **Cycle 110 complete, 2026-10-21. 58 rejections (R-001 … R-058), 13 parking records of
+Earlier history — **Cycle 120 complete, 2026-10-21. 58 rejections (R-001 … R-058), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 109 added **one rejection (R-057), no parking record and no new baseline row**, and it
 **opened no gap and closed no gap**. Its work was **evidence work plus four bounded, pre-registered
@@ -90,7 +90,7 @@ count is re-derived from the file rather than inherited. **No row was added, rem
 repair, no score, rank, tie-break, hard-stop flag, gap or specification changed, and no candidate was
 created, re-scored or re-screened.**
 
-Earlier: **Cycle 108 complete, 2026-10-21. 56 rejections (R-001 … R-056), 13 parking records of
+Earlier: **Cycle 120 complete, 2026-10-21. 56 rejections (R-001 … R-056), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 108 added **one rejection (R-056), no parking record and no baseline row**, and it
 **opened no gap and closed no gap**. Its substantive work was **evidence work plus one bounded,
@@ -120,7 +120,7 @@ discriminator against the May 2004 working paper; the version drift is now docum
 attribution is corrected in place (row 38), and **IDEA-003's G-05 closure is not re-opened**. **No row
 was added, removed or renumbered**, and no score, rank, gap or specification changed.
 
-Earlier: **Cycle 107 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Earlier: **Cycle 120 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 107 added **no rejection, no parking record and no baseline row**, and it **opened no gap
 and closed no gap**. Its substantive work was **evidence work, not a screen**: the four open
@@ -158,7 +158,7 @@ artifact** and there is **no `## Cycle 106` section in the cycle log** — the *
 the register's known failure mode; the Cycle-106 attempts are treated as **not performed** and the
 four questions were re-run from scratch. **No row was added, removed or renumbered.**
 
-**Cycle 105 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+**Cycle 120 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 102 added **no rejection, no parking record and no baseline row**, and it **opened no gap
 and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded,
@@ -191,7 +191,7 @@ re-screen was triggered: R-054's condition (c) (SEC comments closed 4 December 2
 condition (c) (SEC comments due 14 December 2026) are **both still in the future** on 21 October 2026,
 so neither may be pre-empted, and R-055's condition (d) was not re-run. **R-016's CBAM family verdict
 is unchanged** — the free-allocation ladder is now line-verified against the directive text, which is
-a provenance upgrade, not new evidence. Earlier history: **Cycle 101 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+a provenance upgrade, not new evidence. Earlier history: **Cycle 120 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 101 added **no rejection, no parking record and no baseline row**, and it **opened no gap
 and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
@@ -216,7 +216,7 @@ now carries the DEHSt's own statement of the enforcement edge (S-230: a serious 
 the certificate-surrender obligation "zum Widerruf Ihrer Zulassung als CBAM-Anmelder führen kann
 (Artikel 17 Absatz 8 CBAM-Verordnung)"). **R-055's verdict, its five reasons and its baseline row 92 are
 unchanged**, and no re-screen was triggered. Earlier history:
-**Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+**Cycle 120 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 94 added **one rejection (R-055), no parking record and one baseline row (row 92)**, and it
 **opened no gap and closed no gap**. Its substantive work was a **bounded, pre-registered screen of a genuinely
@@ -336,7 +336,7 @@ file was affected**. The cycle's second operation was a **verification pass** th
 entries in place, re-verified two and recorded five honest negatives — all provenance, **no change to any
 rejection, parking record or baseline row**. The cycle's third operation was **lossless housekeeping**.
 *Two corrections were made to that cycle's header and to the table it counts, both lossless: (i) the
-Cycle-85 line read "Cycle 78 complete … 47 rejections … 84-row known-baseline table", while the file
+Cycle-85 line read "Cycle 120 complete … 47 rejections … 84-row known-baseline table", while the file
 actually held **48** rejection records (R-001 … R-048) and an **85-row** baseline table (the R-048 family
 was added as **row 85** in Cycle 80) — no rejection, parking record or baseline row was added, removed or
 renumbered; and (ii) a **stray blank line inside the known-baseline table** was splitting that table into
@@ -2773,7 +2773,7 @@ a result.
 screen logged as a bounded negative"; the screen existed in the cycle log but had **no entry, no
 identifier and no verdict in this file**. Cycle 37 wrote it as **R-017** — a screen that had genuinely
 been executed, so it was written for real rather than reconstructed — and corrected this log's own
-stale header counts (which still read "Cycle 6 complete … 10 rejections, 10 parkings, 34-row
+stale header counts (which still read "Cycle 120 complete … 10 rejections, 10 parkings, 34-row
 known-baseline table" while the file actually held 16 rejections, 12 parkings and 57 baseline rows;
 it now reads 18, 12 and 59). A second, larger instance of the same failure was found and repaired in
 the same cycle, in the *source ledger* and the *candidate dossier*: Cycle 36's central negative claim

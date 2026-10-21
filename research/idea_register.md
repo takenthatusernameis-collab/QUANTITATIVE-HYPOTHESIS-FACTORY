@@ -4,14 +4,14 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 119 complete** (21 October 2026). Cycle 119 executed Priority 1 (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both failed, no suitable domain found; zero fetches, zero blind constructions, zero measurements), Priority 2 (G-37's remaining limb — completed in Cycle 117; no named regime classifier surfaced; no action), Priority 3 (IDEA-011's two open limbs — not externally achievable, carried forward), and Priority 4 (housekeeping — headers updated to Cycle 119 complete, counts re-derived, rubric arithmetic re-run clean). Cycle 115 added **no new candidate dossier** and **no new
+Last updated: **Cycle 120 complete** (21 October 2026). Cycle 119 executed Priority 1 (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both failed, no suitable domain found; zero fetches, zero blind constructions, zero measurements), Priority 2 (G-37's remaining limb — completed in Cycle 117; no named regime classifier surfaced; no action), Priority 3 (IDEA-011's two open limbs — not externally achievable, carried forward), and Priority 4 (housekeeping — headers updated to Cycle 120 complete, counts re-derived, rubric arithmetic re-run clean). Cycle 115 added **no new candidate dossier** and **no new
 validation specification**; wrote **no new gap** and **closed no gap**; **re-scored no candidate**; and executed
 **Priority 1 (mechanism-mis-identification screen)** applied to the four live candidates, with **no orthogonality
 hard-stops found** (all candidates retain existing hard-stops/constraints). Cycle 115 consumed **no new `S-`,
 `V-`, `R-`, `P-` or `G-` identifier**; counts unchanged from Cycle 114 (418 sources, 15 dossiers, 11 validation
 specifications, 63 rejections, 13 parkings, 97 baseline rows); rubric arithmetic re-run clean. **Priority 2**, **Priority 3** and **Priority 4** were executed in Cycle 117 as far as externally achievable.** Priorities executed in this cycle: (1) Priority 1 —
 complete. (5) Priority 5 — housekeeping: counts re-derived from the files, all five artifact headers brought to
-"Cycle 115 complete" and read back.
+"Cycle 120 complete" and read back.
 **(i) The construction-first method test (Priority 1) is a BOUNDED NEGATIVE (R-063), and the register's own open
 question 5 is answered.** A complete mechanism — a known price step attached to an unknown but accounting-observable
 exhaustion date — was written **blind**, from the register's memory alone, on the US sugar tariff-rate quota, and
@@ -53,7 +53,7 @@ consumed (S-409 … S-438 — eleven written by the interrupted Cycle-114 sessio
 already-registered sources were **upgraded in place with corrections** (S-404, S-394). **The register also records
 the seventh occurrence of the header-update failure mode, in a new variant: the source ledger alone ran ahead of the
 other four artifacts, so the handoff's source count was stale against the file.** Earlier history —
-**Cycle 113 complete** (21 October 2026). Cycle 113 added **no new candidate dossier** and **no
+**Cycle 120 complete** (21 October 2026). Cycle 113 added **no new candidate dossier** and **no
 new validation specification**; wrote **no new gap**, **closed one gap** (**G-38**); and **re-scored no
 candidate**. The cycle executed **three pre-registered priorities** — the Priority-1 two-sub-family screen of US
 commodity futures' published regulatory and positioning states, the Priority-2 bounded post-2010 re-read of
@@ -114,7 +114,7 @@ anchor and to tighten the pass bar to it, with the bar on any **state-conditione
 R-062. The rubric arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 =
 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0).
 
-Earlier history — **Cycle 112 complete** (21 October 2026). Cycle 112 added **no new candidate dossier**; wrote
+Earlier history — **Cycle 120 complete** (21 October 2026). Cycle 112 added **no new candidate dossier**; wrote
 **one new validation specification** (**V-012**, the register's first *state-free* specification); opened **two
 gaps** (**G-37, G-38**), closed **no gap**; and **re-scored one candidate** (**IDEA-009, 53.0 -> 42.0**). The
 cycle executed **three pre-registered screens** — the IDEA-009 prior-art screen the Cycle-109 P-5 audit had
@@ -151,12 +151,12 @@ currency-option implied distribution is a published return-predictor family. **N
 arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004
 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0).
 
-Earlier history — **Cycle 110 complete** (21 October 2026; the summary immediately below describes **Cycle
+Earlier history — **Cycle 120 complete** (21 October 2026; the summary immediately below describes **Cycle
 109's** work, which was not summarised in this file when Cycle 110 wrote its front matter — repaired in
 Cycle 112, which is the **sixth** instance of the header-and-summary drift the register has recorded). Cycle
 109 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 109's work was **evidence work plus four bounded, pre-registered state-availability screens (P-3 … P-6)**, all pre-registered in `cycle_notes.md` before the first fetch. **No candidate was created, re-scored or re-screened.** The cycle's headline result is that the **published** 2009 *RFS* body of Carr & Wu (S-154) was **obtained** — the Cycle-108 twenty-one-route closure is **superseded** — and that the **published version's own numbers differ from the May 2004 working paper's**, so the Cycle-108 pre-registered outcome becomes **(ii)**: the known-baseline **row 38 is rewritten in place**, the single-name screen is re-examined, and **IDEA-003's G-05 closure is re-opened for that limb only and then re-closed on the published evidence**. The other three screens are the candidate-level audits recorded in the dossiers below: **IDEA-004** (P-4), **IDEA-009** (P-5) and **IDEA-014** (P-6). The fourth screen, **P-3**, is logged as **R-057** in `rejected_and_parked.md`: IDEA-011's "first adopter versus repeat adopter" classification is **decision-time and free at the framework level** — so the historical comparator is specifiable without a look-ahead objection — and **not decision-time at the standard level**, because no IFRS 18 adoption calendar exists, the only firm-level instrument is Saudi Arabia's self-selected, ex-post-announced early-adoption permission, and the ESMA statement carries no first-time/repeat language at all. **No `S-`, `V-`, `R-`, `P-` or `G-` identifier was consumed except R-057; no score, rank, tie-break, hard-stop flag, gap or specification changed; the rubric arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). The register still holds **378 verified sources** (S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused).
 
-Earlier history — **Cycle 108 complete** (21 October 2026). Cycle 108 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 108's work was **evidence work plus one bounded, pre-registered screen**: it attacked the **published** 2009 *RFS* body of Carr & Wu (S-154) over **twenty-one named routes** and obtained the **published version's front matter** rather than its body, and it executed the **ASR announcement-date public-observability screen** the Cycle-107 handoff had named as the register's best next target. Four new source entries were registered (**S-385, S-386, S-387, S-388**), one entry was upgraded with a **version-drift finding** (S-154), one entry was cross-referenced (S-384), one **bounded negative** was logged (**R-056**), and **two known-baseline rows were corrected in place** (row 38, single-name variance risk premia; row 44, accelerated share repurchases) — all in `source_ledger.md` and `rejected_and_parked.md`, not in this register.
+Earlier history — **Cycle 120 complete** (21 October 2026). Cycle 108 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 108's work was **evidence work plus one bounded, pre-registered screen**: it attacked the **published** 2009 *RFS* body of Carr & Wu (S-154) over **twenty-one named routes** and obtained the **published version's front matter** rather than its body, and it executed the **ASR announcement-date public-observability screen** the Cycle-107 handoff had named as the register's best next target. Four new source entries were registered (**S-385, S-386, S-387, S-388**), one entry was upgraded with a **version-drift finding** (S-154), one entry was cross-referenced (S-384), one **bounded negative** was logged (**R-056**), and **two known-baseline rows were corrected in place** (row 38, single-name variance risk premia; row 44, accelerated share repurchases) — all in `source_ledger.md` and `rejected_and_parked.md`, not in this register.
 **(i) The published *RFS* body is an EVIDENCED CLOSURE; the published version's front matter is
 LINE-VERIFIED, and the version drift is now documented precisely.** The published body could not be
 obtained: Oxford Academic returns **HTTP 403** on the article page, the `article-abstract` path, the DOI
@@ -211,9 +211,9 @@ specification changed**; the rubric arithmetic was re-run from the shortlist's o
 IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). The register now holds **378
 verified sources** (S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused).
 
-Earlier history — **Cycle 107 complete** (21 October 2026). Cycle 107 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 107 upgraded three source entries (S-153, S-156, and S-154 in part), partially upgraded a fourth (S-166, with a new primary source behind it), recorded two evidenced honest negatives (S-238, S-271) and registered **one new primary source (S-384)** — all in `source_ledger.md`, not in this register. **The four open Priority-3 questions carried from the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and all four are now either closed or evidenced.**
+Earlier history — **Cycle 120 complete** (21 October 2026). Cycle 107 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 107 upgraded three source entries (S-153, S-156, and S-154 in part), partially upgraded a fourth (S-166, with a new primary source behind it), recorded two evidenced honest negatives (S-238, S-271) and registered **one new primary source (S-384)** — all in `source_ledger.md`, not in this register. **The four open Priority-3 questions carried from the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and all four are now either closed or evidenced.**
 **(i) The state-integrity failure mode recurred, and this cycle records it in place.** The Cycle-106
-handoff header claimed "Cycle 106 complete" and "All artifact headers read 'Cycle 106 complete'", but
+handoff header claimed "Cycle 120 complete" and "All artifact headers read 'Cycle 120 complete'", but
 the string "Cycle 106" appears **nowhere** as an annotation in `source_ledger.md` (0 occurrences),
 `ranked_shortlist.md` (0), `validation_handoffs.md` (0) or `rejected_and_parked.md` (0); `cycle_notes.md`
 contains **no `## Cycle 106` section at all**; and all five artifact headers still read "Cycle 105
@@ -271,7 +271,7 @@ once" wording and the effective date remain index-rendered and are no longer an 
 IDEA-014 52.0, IDEA-010 terminal 55.0) and **no score, rank, tie-break, hard-stop flag, gap or
 specification changed**. No re-screen was triggered.
 
-**Earlier history — Cycle 105 complete** (21 October 2026). Cycle 105 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 105 upgraded three source entries (S-151, S-179, S-247 were already annotated; S-151 upgrade via Crossref `10.1093/rfs/hhag032` remains contested against the Cycle-104 honest-negative listing) and recorded three honest negatives (S-148, S-152, S-258), all in `source_ledger.md`, not in this register.
+**Earlier history — Cycle 120 complete** (21 October 2026). Cycle 105 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 105 upgraded three source entries (S-151, S-179, S-247 were already annotated; S-151 upgrade via Crossref `10.1093/rfs/hhag032` remains contested against the Cycle-104 honest-negative listing) and recorded three honest negatives (S-148, S-152, S-258), all in `source_ledger.md`, not in this register.
 **(i) The bounded provenance-upgrade operation** was executed over the **thirteen** pre-registered targets of the Cycle-101 handoff:
 **nine are now fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, and from
 the Priority-3 work S-237), **six are partially upgraded with the unverified parts named** (S-153,
@@ -325,7 +325,7 @@ record the three new source entries it consumed — S-381, S-382, S-383 — and 
 above corrects that omission; the three entries and the count change are recorded in
 `source_ledger.md` and in `cycle_notes.md`.)*
 
-**Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
+**Cycle 120 complete** (Cycle 101 added **no new source identifier and no new source
 entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
 bounded provenance-upgrade operation** was executed over the **thirteen** named targets of the Cycle-100
@@ -364,7 +364,7 @@ IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 =
 complete** (Cycle 99's log and handoff header recorded two provenance upgrades and a rewritten handoff,
 but **the ledger carries no Cycle-99 annotation**: the S-208 upgrade did not reach the artifact and was
 completed in Cycle 100, and S-136 was already line-verified at creation; the handoff body was left
-stale and was rewritten in Cycle 100). Earlier history: **Cycle 98 complete** (Cycle 98 added **one new source identifier and one new source entry
+stale and was rewritten in Cycle 100). Earlier history: **Cycle 120 complete** (Cycle 98 added **one new source identifier and one new source entry
 (S-380)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
 bounded provenance-upgrade operation** upgraded **twelve** index-rendered entries to line-verified — S-104,
@@ -390,9 +390,9 @@ in place**: the **Cycle-97 cycle log was missing** and the handoff's closing hea
 Cycle 97 had done (the Cycle-97 boundary record in the cycle log and the rewritten header fix this), and
 one heading in the corpus ("### S-358 — Cycle-96 upgrade: …") is a **sub-heading inside an entry**, not a
 second entry. The register now holds **370 verified sources** (S-001 … S-209, S-220 … S-380; S-210 … S-219
-reserved and unused). Earlier history: **Cycle 96 complete** (Cycle 96 added **two new source identifiers
+reserved and unused). Earlier history: **Cycle 120 complete** (Cycle 96 added **two new source identifiers
 and two new source entries (S-378, S-379)**, minted **no new candidate** and **no new validation
-specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 95 complete** (Cycle 95 added **one new source identifier and one new source entry (S-377)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
+specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 120 complete** (Cycle 95 added **one new source identifier and one new source entry (S-377)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 120 complete** (Cycle 94 added **twelve new source identifiers and twelve new source entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
 pre-registered screen of a genuinely new mechanism family** — the **tax-exempt municipal bond market family**
 (the over-the-counter, dealer-intermediated, retail-priced municipal secondary market and the primary market's
 published underwriting concession; the dealer's one-way bid, the customer cost premium, the tax-equivalent
@@ -417,7 +417,7 @@ a rubric-arithmetic re-run (clean)** and a **state-integrity repair** (this regi
 screen log was stale by twenty-eight cycles — it ended at Cycle 66 while the ledger and
 `rejected_and_parked.md` recorded sixteen further screens; the log is backfilled below from the recorded
 verdicts, with no verdict changed and no screen re-run). The register now holds **366 verified sources**
-(S-001 … S-209, S-220 … S-376; S-210 … S-219 reserved and unused). Earlier history: **Cycle 93 complete**
+(S-001 … S-209, S-220 … S-376; S-210 … S-219 reserved and unused). Earlier history: **Cycle 120 complete**
 (Cycle 93 added **six new source identifiers and six new source
 entries (S-359 … S-364)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
@@ -443,7 +443,7 @@ cycle's third operation was **lossless housekeeping with a rubric-arithmetic re-
 while describing Cycle 91's operations, and `research/README.md` still carried Cycle-92-era next-free
 identifiers). The register then held **354 verified sources** (S-001 … S-209, S-220 … S-364; S-210 … S-219
 reserved and unused). **No score, rank, tie-break, hard-stop flag or specification changed.** Earlier
-history: **Cycle 92 complete** (Cycle 92 added **three new source identifiers and three new source
+history: **Cycle 120 complete** (Cycle 92 added **three new source identifiers and three new source
 entries (S-356 … S-358)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a
 **state-integrity repair**: the Cycle-90 cat-bond family screen had been written into
@@ -489,7 +489,7 @@ paywalled and is recorded as a limitation rather than concealed, and the **CME w
 listing status, contract specifications and settlement basis are verified** (S-344 … S-348) — which
 **closes R-049's re-screen condition (d) without re-opening that family**. The cycle's third operation was
 **lossless housekeeping with a rubric-arithmetic re-run (clean)**. **No score, rank, tie-break, hard-stop
-flag or specification changed.** Earlier history: **Cycle 87 complete** (Cycle 87 added **five new source identifiers and five new
+flag or specification changed.** Earlier history: **Cycle 120 complete** (Cycle 87 added **five new source identifiers and five new
 source entries (S-332 … S-336)**, minted **no new candidate** and **no new validation specification**, opened
 **no gap**, closed **one gap (G-36)** and changed **no score**). The cycle's substantive work was a
 **bounded, pre-registered screen of a genuinely new mechanism family** — the **weather-derivative
@@ -507,14 +507,14 @@ artifact set now carries the claim it makes. The other three repairs were the **
 Cycle-86 block in the cycle log** that had displaced the Cycle-36 heading, the **correction of a stale
 venue list in the shortlist's cross-cutting note 4**, and the **annotation of an unverifiable retrospective
 sentence in the shortlist's Cycle-31 note**. **No score, rank, tie-break, hard-stop flag or specification
-changed.** Earlier history: **Cycle 86 complete** (Cycle 86 added **no new source identifier and no new
+changed.** Earlier history: **Cycle 120 complete** (Cycle 86 added **no new source identifier and no new
 source entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**,
 closed **one gap (G-36 — as an honest negative)** and changed **no score**). Its substantive work was to
 maintain the frozen, exhausted and dated items as they stand, to close G-36 via the only open route (a
 contemporaneous record from outside this repository and outside the local session archive naming the
 dimension the Cycle-16 re-score moved — none was found), and to **skip** the new-mechanism-family screen
 slot rather than pad it, per the register's own pre-registered rule. The Cycle-86 closure was written into
-the artifact set in Cycle 87. Earlier history: **Cycle 85 complete** (Cycle 85 added **no new source identifier and no new source entry**,
+the artifact set in Cycle 87. Earlier history: **Cycle 120 complete** (Cycle 85 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **one gap (G-36)** and closed
 **no gap**, and changed **no score**). The cycle's substantive work was a **rubric-arithmetic audit of the
 whole register** — every dimension statement in every artifact was checked against the register's own rule
@@ -547,7 +547,7 @@ as a quotation, and a dropped word in the timing phrase), corrected in the ledge
 block. **No verification upgrade changed any score, any rank, any hard-stop flag or any specification**,
 because the upgrades are provenance, not new evidence. The cycle's third operation was **lossless
 housekeeping** and the assessment of the known drifts, both recorded in `cycle_notes.md`.)
-Earlier history: **Cycle 78 complete** (Cycle 78 added **no new source identifier and no new source entry**,
+Earlier history: **Cycle 120 complete** (Cycle 78 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **no gap** and closed **one
 gap (G-35)**, and changed **one score**: **IDEA-010 CREDIT-ETF was parked (P-014) with a terminal score of
 55.0**, executing the pre-registered kill condition of **G-34**, whose bounded literature operation ran in
@@ -568,7 +568,7 @@ the cycle log** (the work was executed and recorded in the handoff and the ledge
 never written into the dossier body or `cycle_notes.md`), and **gap G-35 was announced in the Cycle-77
 handoff but never written into any artifact** — it is registered and closed here, so **G-36** is the next
 free gap identifier (*G-36 was subsequently consumed in Cycle 85 by the new, non-blocking gap opened under
-IDEA-011; **G-37** is the next free gap identifier*).) Earlier history: **Cycle 77 complete** (Cycle 77 executed **Priority 1 (G-34)** as a
+IDEA-011; **G-37** is the next free gap identifier*).) Earlier history: **Cycle 120 complete** (Cycle 77 executed **Priority 1 (G-34)** as a
 bounded literature operation and **the kill condition fired**: no published work decomposes a corporate-bond
 ETF's ETF–NAV discount into a transient and a mechanical component, and none identifies a published,
 decision-time discriminating state in that universe without the ETF→AP mapping; per the pre-registered
@@ -577,7 +577,7 @@ decision rule, IDEA-010's residual is **unmeasurable as specified** and the cand
 BIS WP 975 fractional-basket rival (S-196) and the creation-puzzle literature; S-196 remained index-rendered
 pending the SSRN 3886881 route, and the candidate's re-classification was registered as gap **G-35**. Counts
 were unchanged: 15 dossiers, 321 sources, 10 specifications, 47 rejections, 12 parking records (11 active),
-83-row baseline.) Earlier history: **Cycle 76 complete** (Cycle 76 added **no new source identifier and no new source entry**,
+83-row baseline.) Earlier history: **Cycle 120 complete** (Cycle 76 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **one gap (G-34)** and closed
 **no gap**, and changed **no score**; its substantive work was the operation Cycle 75 handed on —
 **line-verifying S-331 and then executing IDEA-010's trigger-based prior-art re-read** — plus a
@@ -592,7 +592,7 @@ re-probed**. The cycle also carried out **five state-integrity repairs**, the fi
 material: the **durable handoff was two cycles stale** — it carried the Cycle-73 banner and the Cycle-72
 body while the artifacts were at Cycle 75 — and was rewritten from the files. The register's
 "evidence-currency sweep is complete for this generation" claim is **restored** for all five active
-candidates, subject to the standing trigger rule.) Earlier history: **Cycle 75 complete** (Cycle 75 added **four new source identifiers and four new source entries —
+candidates, subject to the standing trigger rule.) Earlier history: **Cycle 120 complete** (Cycle 75 added **four new source identifiers and four new source entries —
 S-328 … S-331** — minted **no new candidate** and **no new validation specification**, opened **no gap** and
 closed **no gap**, and changed **one score**: **IDEA-004 was re-scored 66.0 → 63.0 (novelty 2 → 1)**, rank 3
 unchanged, after a **trigger-based prior-art re-read** opened by a new published neighbour the register had not
@@ -607,7 +607,7 @@ Cycle-75 note; **V-010 remains non-executable**; and **IDEA-010's evidence curre
 **S-331** publishes that the execution channel, not the dollar, decides whether an institutional flow is
 price-moving — a re-read handed to the next cycle, because S-331 is index-rendered and must be line-verified
 first. **The register's "evidence-currency sweep is complete for this generation" claim is therefore withdrawn
-for IDEA-010** and restated for the other four active candidates.) Earlier history: **Cycle 74 complete** (Cycle
+for IDEA-010** and restated for the other four active candidates.) Earlier history: **Cycle 120 complete** (Cycle
 74 added **no new source identifier and no new source entry**,
 minted **no new candidate** and **no new validation specification**, opened **no gap** and closed **no gap**,
 and changed **no score**; its substantive work was closing the three remaining Cycle-66 verification debts
@@ -620,7 +620,7 @@ the intended ordering and heading format of `rejected_and_parked.md` and `source
 unchanged, with the two recorded presentation drifts re-confirmed rather than silently restructured. The
 P-011 unblocking check for IDEA-015 had already been executed in Cycle 73 and found nothing published against
 the registered two-part question, so IDEA-015 stays parked with no dossier, gap, score or specification
-created.) Earlier history: **Cycle 66 complete** (Cycle 66 executed the register's **prior-art re-read of
+created.) Earlier history: **Cycle 120 complete** (Cycle 66 executed the register's **prior-art re-read of
 IDEA-009** — the one
 not yet seen, **re-scored that candidate 60.0 → 53.0**, reclassified it as an **incremental variant of published
 conditional funding-reversal work**, and **amended V-008** without re-creating it; it also ran the register's
@@ -657,7 +657,7 @@ and changed **no verdict, no gap closure and no score**: it wrote the R-039 deci
 known-baseline row (now **68 rows**), added the Cycle-59 record to the register, the shortlist and the
 validation file, de-duplicated the cycle log's two Cycle-59 entries, and corrected the stale
 next-free-identifier pointers that still advertised R-039 and Cycle 59 after R-039 had been consumed.
-Earlier history: **Cycle 58 complete** (Cycle 58 executed the register's two highest-value *state-availability*
+Earlier history: **Cycle 120 complete** (Cycle 58 executed the register's two highest-value *state-availability*
 questions and settled them. **G-01, the feasibility precondition of the parked candidate IDEA-002, was
 executed and closed as a negative**, so IDEA-002 is **rejected (R-038)** and its parking **P-004 is
 closed** — on three independent grounds: the proposed validation is **tautological** for the candidate's
@@ -705,7 +705,7 @@ sheet**)", and that "operating income" becomes "the new starting point for prepa
 flows") and is corrected in the dossier, the shortlist row and the V-009 amendment; and two issuer-identity
 traps (Euronext Securities Athens is not Euronext Athens Holding; Haleon's SEC exhibit is a divergent
 rendering) are now recorded. **No candidate was created, no score changed, and no `V-`
-specification was created or amended.** Earlier history: **Cycle 57 complete** (Cycle 57 executed the
+specification was created or amended.** Earlier history: **Cycle 120 complete** (Cycle 57 executed the
 **G-33 quantification-rate sample read** on the IAS 8.30(b)/ESMA-expected pre-adoption IFRS 18 impact
 disclosure across six issuers (S-281 … S-286): disclosure present 6/6, quantified expected effect **0/6**,
 so the kill condition was met at 100 % and **prospective arm A was killed**, leaving IDEA-011 blocked on
@@ -715,7 +715,7 @@ framed as an IAS 8.30–31 impact disclosure, and the kill condition and the clo
 register's **first cross-session price-formation family screen** — the stale-price window between a closed
 session and the next open — logged as a **bounded negative (R-036)** on five independent reasons
 (S-287 … S-290). **No candidate was created and no score changed.**) Earlier history: **Cycle 56
-complete** (Cycle 56 executed the **G-32 follow-up on IDEA-011 (rank 1)** — the register's own named best next research task — by re-reading the prospective IFRS 18 adoption window against *primary* endorsement instruments and supervisor material rather than profile directories. The re-read **closed G-32 limb (a) as a negative as specified and established why**: the published endorsement instruments (S-268, S-269, S-270) converge on one mandatory IFRS 18 application date, and first-time adopters apply IFRS as a single package (S-271), so the group A/group B partition cannot be built and the candidate's binding event-count hard stop is unchanged. It **rejected** the handoff's proposed re-specification (within-jurisdiction early versus mandatory adopters) on a *documented* instance — Saudi Arabia's CMA early-adoption decision of 30 June 2026 (S-270) — because the treatment arm is voluntary, self-selected and mechanically correlated with the state the candidate would condition on. It **specified a re-specification that survives**: the pre-adoption impact disclosure required by IAS 8 paragraphs 30–31 and expected by ESMA (S-267) as a **firm-level, published, dated** measure of the size of the comparability break, recorded as **IDEA-011's prospective arm A** with a new gap **G-33** for that state's measurability. Cycle 56 also ran the register's **first tax-driven year-end flow family screen** — capital-loss harvesting under loss carry-forward rules and the paired institutional window dressing — logged as **R-035** (bounded negative, five independent reasons, dated re-screen condition) on seven metadata-verified sources (S-273 … S-279), confirmed **G-30 exhausted without a re-probe**, kept **G-28 and V-002 frozen** after a bounded re-check that found no published convergence-crowd *concentration* series (S-280), and maintained **IDEA-014's state-free existence limb inconclusive**. **No candidate was created, no score changed; V-009 was amended, not re-created.** Earlier history: **Cycle 52 complete** (Cycle 52 ran the register's **prior-art re-read of IDEA-011** — the
+complete** (Cycle 56 executed the **G-32 follow-up on IDEA-011 (rank 1)** — the register's own named best next research task — by re-reading the prospective IFRS 18 adoption window against *primary* endorsement instruments and supervisor material rather than profile directories. The re-read **closed G-32 limb (a) as a negative as specified and established why**: the published endorsement instruments (S-268, S-269, S-270) converge on one mandatory IFRS 18 application date, and first-time adopters apply IFRS as a single package (S-271), so the group A/group B partition cannot be built and the candidate's binding event-count hard stop is unchanged. It **rejected** the handoff's proposed re-specification (within-jurisdiction early versus mandatory adopters) on a *documented* instance — Saudi Arabia's CMA early-adoption decision of 30 June 2026 (S-270) — because the treatment arm is voluntary, self-selected and mechanically correlated with the state the candidate would condition on. It **specified a re-specification that survives**: the pre-adoption impact disclosure required by IAS 8 paragraphs 30–31 and expected by ESMA (S-267) as a **firm-level, published, dated** measure of the size of the comparability break, recorded as **IDEA-011's prospective arm A** with a new gap **G-33** for that state's measurability. Cycle 56 also ran the register's **first tax-driven year-end flow family screen** — capital-loss harvesting under loss carry-forward rules and the paired institutional window dressing — logged as **R-035** (bounded negative, five independent reasons, dated re-screen condition) on seven metadata-verified sources (S-273 … S-279), confirmed **G-30 exhausted without a re-probe**, kept **G-28 and V-002 frozen** after a bounded re-check that found no published convergence-crowd *concentration* series (S-280), and maintained **IDEA-014's state-free existence limb inconclusive**. **No candidate was created, no score changed; V-009 was amended, not re-created.** Earlier history: **Cycle 120 complete** (Cycle 52 ran the register's **prior-art re-read of IDEA-011** — the
 rank-1 candidate — against 2025–2026 literature it had not yet seen, which is the register's own stated
 highest-value act; the re-read **maintained the G-21 null but sharpened it**, added a **published
 competing conditioner** (language distance, which flips the sign of the post-adoption information effect
@@ -727,7 +727,7 @@ screen**, venue-imposed trading halts, price bands and market-wide circuit break
 (bounded negative, six independent reasons, dated re-screen condition) on ten metadata-verified sources,
 and confirmed **G-30 exhausted without a re-probe**, **G-28 and V-002 frozen**, and **IDEA-014's
 state-free existence limb inconclusive**. **No candidate was created, no score changed; V-009 was
-amended, not re-created.** Earlier history: **Cycle 51 complete** (Cycle 51 confirmed **G-30 exhausted
+amended, not re-created.** Earlier history: **Cycle 120 complete** (Cycle 51 confirmed **G-30 exhausted
 without a re-probe**, kept **G-28 frozen and V-002 frozen**, maintained the **G-21 null** and **IDEA-014's
 inconclusive state-free verdict**, and ran the register's **first price-formation family screen** —
 randomised closing prices and real-time closing-auction imbalance publication — logged as **R-031**

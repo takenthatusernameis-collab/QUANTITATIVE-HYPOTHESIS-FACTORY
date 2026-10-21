@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–119
+# SOURCE LEDGER — CYCLES 1–120
 
 **Cycle 119 (2026-10-21) added no new source entries, minted no new candidate, wrote no new validation specification, opened no gap, closed no gap, and changed no score.** Priority 1 was a bounded screen under the narrowed rule with no fetches; no sources consumed. Headers brought to Cycle 119; counts re-derived. Earlier history — **Cycle 118 (2026-10-21) added no new source entries, minted no new candidate, wrote no new validation specification, opened no gap, closed no gap, and changed no score.** S-438's ledger entry was updated with the abstract retrieved via web search of the SSRN search-index rendering (index-rendered, not line-verified), and the two unrecoverable Cycle-113 items were formally recorded as unrecoverable (source_ledger.md:14683). **Cycle 114 (2026-10-21) added thirty source entries (S-409 … S-438), minted no new candidate, wrote no new
 validation specification, amended two specifications (V-009, V-012), opened no gap, closed no gap, and changed no
@@ -12536,7 +12536,7 @@ five parked, five rejected. **New identifiers consumed: G-34 only** (one gap ope
 **Repair 1 — the durable handoff was two cycles stale, and it was the register's only durable pointer; it has
 been rewritten.** `research/next_agent_handoff.md` still carried the **Cycle-73** banner and the **Cycle-72**
 body (including the Cycle-73 task list and the Cycle-72 "drift closed" block) while the artifacts were at
-**Cycle 75 complete** — the Cycle-74 and Cycle-75 wrap-ups had updated the cycle log, the ledger, the
+**Cycle 120 complete** — the Cycle-74 and Cycle-75 wrap-ups had updated the cycle log, the ledger, the
 register, the shortlist, the rejected log and the validation file, but the handoff itself was never
 rewritten. The register's own rule is that the handoff is the durable pointer for the next agent, so a
 two-cycle-old pointer is a material defect, not a cosmetic one. The handoff has been **rewritten from the
@@ -12628,7 +12628,7 @@ this ledger, the register and the shortlist.
 already begun the Cycle-78 work: it edited a **single line** of the IDEA-010 dossier header to "parked
 (P-014, Cycle 78)", and stopped there. The artifact set was therefore internally inconsistent — a dossier
 header claiming a parking that no parking record, no shortlist row, no specification status and no log block
-recorded — while the handoff still carried the "Cycle 77 complete" banner with the Cycle-78 task
+recorded — while the handoff still carried the "Cycle 120 complete" banner with the Cycle-78 task
 unexecuted. Cycle 78 **completed the operation** (P-014, V-010, the shortlist row, the baseline row, the
 ledger blocks, the dossier block and the cycle-log block) and **rewrote the handoff from the files** with a
 fresh, verbatim initial task message for Cycle 79.
@@ -14268,7 +14268,7 @@ Checked in this cycle, entry by entry:
 | --- | --- | --- |
 | S-208 upgraded to line-verified, "with a URL correction recorded" | S-208's verification bullet still reads "**search-index render** of the Clifford Chance PDF"; no URL correction had been written | **The upgrade did not reach the artifact.** It was performed in this cycle instead: the note is now fetched directly and line-verified, with the URL correction and two struck items recorded **in place** (see the S-208 entry) |
 | S-136 "fetched directly and matches the ledger's quoted specifications" | S-136's verification bullet already reads "**the ICE product page was fetched directly and read in this cycle**" — and that wording was written when the entry was **created** (it is present in the corpus at the commit that introduced S-136), i.e. S-136 has been line-verified since it was minted and was **never** a member of the index-rendered pool | **No change made.** The claim of a Cycle-99 upgrade is not supported by the ledger, but the entry's own verification line is sound, so nothing was altered. Recorded here so that S-136 is not counted twice in any future pool measurement |
-| "Handoff rewritten" (Cycle-99 outcome 4) | The handoff's **header line** was rewritten for Cycle 99, but §1's header still read "(Cycle 98 complete)", §2 was still headed "Best next research task (Cycle 99)" and §3's task message still read "Your task — Cycle 99" | **Repaired in this cycle**: the handoff was rewritten in full, body and header, with counts re-derived from the files |
+| "Handoff rewritten" (Cycle-99 outcome 4) | The handoff's **header line** was rewritten for Cycle 99, but §1's header still read "(Cycle 120 complete)", §2 was still headed "Best next research task (Cycle 99)" and §3's task message still read "Your task — Cycle 99" | **Repaired in this cycle**: the handoff was rewritten in full, body and header, with counts re-derived from the files |
 
 The general lesson, recorded because it is the second time this has happened: **a provenance upgrade is
 not done until the entry's own verification bullet says so.** A cycle log and a handoff header are
@@ -14874,7 +14874,7 @@ the artifacts before any fetch and repaired in place with dated annotations, nev
 block headed "**Cycle 112** — Priority 1 audit" in `idea_register.md`, a "**CORRECTION NOTICE — Cycle 112**"
 in `validation_handoffs.md` and a "**Cycle-112 dated re-check**" bullet in this file were all executed in
 **Cycle 111** and are relabelled; the five artifact headers, which the Cycle-111 log claimed read "Cycle 111
-complete" but which in fact still read "Cycle 110 complete" / "CYCLES 1–109", are updated to "Cycle 112
+complete" but which in fact still read "Cycle 120 complete" / "CYCLES 1–109", are updated to "Cycle 112
 complete"; and the next-cycle task sections in `next_agent_handoff.md`, which were labelled "Cycle 111" while
 describing the work of the *following* cycle, are rewritten. This is the **fifth recorded occurrence** of the
 header-update failure mode (Cycle 99 → S-208/S-136; Cycle 101 → thirteen provenance targets; Cycles

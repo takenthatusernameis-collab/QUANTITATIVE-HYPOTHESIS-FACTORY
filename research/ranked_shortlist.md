@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–119
+# RANKED SHORTLIST — CYCLES 1–120
 
 **Cycle-119 header update (housekeeping).** Headers brought to Cycle 119; priorities executed as far as externally achievable. Priority 1 resulted in no suitable domain found (screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under narrowed rule; both rejected by state-kind/constraint templates; zero fetches/measurements). Priority 2 completed (no new regime classifier surfaced). Priority 3 not externally achievable. Priority 4 housekeeping complete. The order is unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a terminal 55.0. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. Priorities from Cycle 115 remain open. Earlier history —
 NEGATIVE (R-063)**, on the US sugar tariff-rate quota, and it is the register's **first** execution of a
@@ -232,7 +232,7 @@ evidenced honest negatives** were recorded (S-238's body is closed across three 
 registries; S-271's endorsement document is absent from every Wayback CDX path form). (iv) **A
 state-integrity failure was found and recorded in place**: the Cycle-106 handoff claimed a complete
 cycle, but **no Cycle-106 annotation reached any artifact**, there is **no `## Cycle 106` section in
-the cycle log**, and all five artifact headers still read "Cycle 105 complete" — the **fourth
+the cycle log**, and all five artifact headers still read "Cycle 120 complete" — the **fourth
 occurrence** of the register's known failure mode, repaired here and in the cycle log. (v) **The
 rubric-arithmetic re-run is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0;
 IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0) and
@@ -591,7 +591,7 @@ subsequently consumed in Cycle 85 by the new, non-blocking gap opened under IDEA
 free gap identifier*), minted **no
 candidate**, and consumed **no `S-`, `V-` or `R-` identifier**. It also repaired **two state-integrity
 defects**: the **Cycle-77 block was missing from the dossier and from the cycle log**, and the **durable
-handoff had been left at the "Cycle 77 complete" banner with the Cycle-78 task unexecuted** by a session
+handoff had been left at the "Cycle 120 complete" banner with the Cycle-78 task unexecuted** by a session
 that had begun the re-classification and stopped after editing one header line.
 
 **Cycle-76 ranking. No score changed for any active candidate. The order is unchanged.**
@@ -3315,7 +3315,7 @@ ledger's Cycle-77 summary, but **no `Cycle 77` block existed in `idea_register.m
 existed in `cycle_notes.md`** — the cycle log is supposed to carry every cycle, and the register's standing
 condition (Cycle 35) is that nothing may be described as written until it has been checked to be present in
 the artifact set. Both are **backfilled in Cycle 78** as written-for-real records of work that was
-executed. (ii) The **Cycle-77 session left the durable handoff at the "Cycle 77 complete" banner with the
+executed. (ii) The **Cycle-77 session left the durable handoff at the "Cycle 120 complete" banner with the
 Cycle-78 task unexecuted**: it had begun the re-classification — a single header line in the IDEA-010
 dossier was edited to "parked (P-014, Cycle 78)" — and stopped there, so the artifact set was internally
 inconsistent (a dossier header claiming a parking that no parking record, shortlist row, specification
@@ -3335,13 +3335,13 @@ carry the cycle number it was written for**; that is now the first item on the n
 sixth time, and this time it was *partial*, which is a new variant of it.** The Cycle-113 session was
 interrupted after it had written the cycle's substantive findings into `source_ledger.md` (header already
 "Cycles 1–113", eleven entries S-398 … S-408, and the Cycle-113 gap-verdict block) and into
-`rejected_and_parked.md` (header already "Cycle 113 complete", R-062, baseline rows 95 and 96), but before it
+`rejected_and_parked.md` (header already "Cycle 120 complete", R-062, baseline rows 95 and 96), but before it
 had written the matching material into `idea_register.md`, `ranked_shortlist.md` and `validation_handoffs.md`,
 whose headers all still read **"Cycle 112"** — and before it had written the Cycle-113 outcomes into
 `cycle_notes.md` or rewritten the handoff. The artifact set was therefore internally inconsistent in the
 opposite direction to the usual failure: two artifacts ahead, three behind, and the durable handoff still
 carrying a Cycle-112 banner *and* a Cycle-112 next-cycle task list. **This cycle completed the repair**: the
-three lagging artifacts were brought to "Cycle 113 complete", the cycle log gained its outcomes section, and
+three lagging artifacts were brought to "Cycle 120 complete", the cycle log gained its outcomes section, and
 the handoff was rewritten for Cycle 114. The lesson recorded is the same one the register has recorded five
 times, with one addition: **a cycle that writes a header must finish the artifact set in the same session, and
 a partially-written cycle must be completed rather than resumed** — a half-updated set is harder to read than
