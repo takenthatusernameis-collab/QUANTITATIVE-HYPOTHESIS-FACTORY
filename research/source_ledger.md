@@ -1,4 +1,4 @@
-# SOURCE LEDGER — CYCLES 1–120
+# SOURCE LEDGER — CYCLES 1–121
 
 **Cycle 119 (2026-10-21) added no new source entries, minted no new candidate, wrote no new validation specification, opened no gap, closed no gap, and changed no score.** Priority 1 was a bounded screen under the narrowed rule with no fetches; no sources consumed. Headers brought to Cycle 119; counts re-derived. Earlier history — **Cycle 118 (2026-10-21) added no new source entries, minted no new candidate, wrote no new validation specification, opened no gap, closed no gap, and changed no score.** S-438's ledger entry was updated with the abstract retrieved via web search of the SSRN search-index rendering (index-rendered, not line-verified), and the two unrecoverable Cycle-113 items were formally recorded as unrecoverable (source_ledger.md:14683). **Cycle 114 (2026-10-21) added thirty source entries (S-409 … S-438), minted no new candidate, wrote no new
 validation specification, amended two specifications (V-009, V-012), opened no gap, closed no gap, and changed no

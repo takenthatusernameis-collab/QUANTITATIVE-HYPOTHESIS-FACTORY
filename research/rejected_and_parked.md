@@ -5,12 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 120 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
-remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 119 added
-**no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 119
-executed **Priority 1** (construction-first replication under narrowed rule — screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under state-kind/constraint templates; both rejected, no suitable domain found) with **no new rejection**; Priority 4 housekeeping complete. Priorities 2 and 3 remain open/carried as before. Earlier history — **Cycle 120 complete, 2026-10-21.** Earlier history — **Cycle 120 complete, 2026-10-21. 62 rejections (R-001 … R-062), 13 parking records of
-which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 96-row known-baseline
-table.** Cycle 113 added **one rejection (R-062, carrying two sub-families), no parking record and two new
+Last updated: **Cycle 121 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 121 executed Priority 1 (construction-first replication under narrowed rule — no domain passed template screen; zero fetches), Priority 2 (G-37's remaining limb — completed in Cycle 117; no action), Priority 3 (IDEA-011's two open limbs — externally constrained, carried forward), and Priority 4 (housekeeping). No new rejection, no new parking record, no new baseline row added. Earlier history — **Cycle 120 complete, 2026-10-21.** 62 rejections (R-001 … R-062), 13 parking records of which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 96-row known-baseline table.** Cycle 113 added **one rejection (R-062, carrying two sub-families), no parking record and two new
 baseline rows (rows 95 and 96)**, and it **closed one gap (G-38) and opened no gap**. Its work was
 **three pre-registered priorities**. **(i) R-062 — the Priority-1 screen of US commodity futures' published
 regulatory and positioning states, in two sub-families: BOUNDED NEGATIVE on both, and the handoff's framing

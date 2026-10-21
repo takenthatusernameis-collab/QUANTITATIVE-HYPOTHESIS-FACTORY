@@ -1,4 +1,4 @@
-# RANKED SHORTLIST — CYCLES 1–120
+# RANKED SHORTLIST — CYCLES 1–121
 
 **Cycle-119 header update (housekeeping).** Headers brought to Cycle 119; priorities executed as far as externally achievable. Priority 1 resulted in no suitable domain found (screened Reg SHO threshold securities/Rule 203(b)-204 close-out and rating-triggered forced selling/fallen angels under narrowed rule; both rejected by state-kind/constraint templates; zero fetches/measurements). Priority 2 completed (no new regime classifier surfaced). Priority 3 not externally achievable. Priority 4 housekeeping complete. The order is unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a terminal 55.0. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. Priorities from Cycle 115 remain open. Earlier history —
 NEGATIVE (R-063)**, on the US sugar tariff-rate quota, and it is the register's **first** execution of a

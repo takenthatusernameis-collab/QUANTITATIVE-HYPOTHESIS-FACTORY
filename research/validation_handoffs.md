@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–120
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–121
 
 **Cycle 120 update — no specification created, withdrawn or re-created; no status changed.** Cycle 120 housekeeping complete. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 119 update — no specification created, withdrawn or re-created; no status changed.** Cycle 119 executed priorities as far as externally achievable; no validation specification amended. The executable set remains V-008, V-009, V-012 (V-002 frozen). Earlier history — **Cycle 117 update — no specification created, withdrawn or re-created; no status changed.** Cycle 117 executed priorities as far as externally achievable and produced no new specification and no new candidate. **Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
 no status changed.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md`
