@@ -3753,7 +3753,55 @@ Theory-only cycle. No tests, no data acquisition or processing, no strategy or s
 
 **13. One formatting repair, recorded for completeness.** `ranked_shortlist.md` carried its title line **twice** (an exact duplicate H1 on lines 1 and 3), a pre-existing cosmetic defect left over from an earlier cycle's header rewrite. The duplicate was removed in this cycle because the header was being rewritten anyway; **no content, score, rank or table row was affected**.
 
-## Cycle 108 — 2026-10-21 (in progress)
+## Cycle 108 — 2026-10-21 (executed; the cycle log's own "(in progress)" marker was a state-integrity defect closed in Cycle 109)
+
+**Cycle-108 closure note, written in Cycle 109.** This section's outcomes, pre-registrations, artifact index and
+identifier ledger were all written during Cycle 108 and are unchanged. The section heading alone still read
+"(in progress)" while every artifact header read "Cycle 108 complete" and the durable handoff had already been
+rewritten for Cycle 109 — the same class of defect the register repaired for Cycle 97 (written in Cycle 98) and
+for Cycle 106 (written in Cycle 107). The marker is closed here, not re-opened: **no outcome, count, score,
+rank, gap or identifier in the Cycle-108 record is revised by this note.**
+
+## Cycle 109 — 2026-10-21 (pre-registration, written BEFORE the first fetch)
+
+Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no
+performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical
+mission prompt was not edited.
+
+### Pre-registration P-3 — IDEA-011's load-bearing state question (the Cycle-109 Priority 1 screen)
+
+*Question.* Is the register's rank-1 candidate's classification — **"first adopter versus repeat adopter" of a
+mandatory accounting standard** — determinable **at the adoption date**, or only with hindsight? This is not a
+re-run of G-21 (the literature search is exhausted and the comparator being unrun and unused is settled); it is
+a **state-availability** question in the form R-056 established, and it is answered from instruments the
+register already holds as primary sources.
+
+*Three-limb form (R-056's template).*
+- **Limb A — is the classification's *architecture* observable?** POSITIVE if a published instrument names, for
+  the candidate's jurisdictions, which firms/jurisdictions are first-time adopters and which are repeat adopters.
+- **Limb B — is the classification *decision-time*?** NEGATIVE if first-adopter status can only be assigned
+  **ex post** — because adoption is voluntary, or may be deferred, or is announced firm-by-firm after the fact —
+  so that no observation available at the decision date fixes it.
+- **Limb C — is the state free?** Positive only if the state is computable from public information at the
+  decision date **and** is not already published as a tradeable result.
+
+*Falsification condition, fixed in advance (the one that would overturn a negative):* **a published, prospective
+adoption calendar that fixes first-adopter status before the effective date for the candidate's jurisdictions**
+falsifies the negative. Note what does and does not count: a *mandatory application date* (e.g. "apply from
+1 January 2027") fixes a deadline, not status, because it is identical for first and repeat adopters; a
+*voluntary early-adoption permission* (e.g. Saudi Arabia's CMA decision of 30 June 2026, S-270) fixes nothing,
+because who takes it is self-selected and announced by each firm; and a *status directory* (e.g. the IFRS
+Foundation's jurisdiction profiles, S-254) fixes status in principle but carries no dated transition schedule.
+
+*Execution bounds.* Limited to **reading published standard-setter, regulator and supervisor material** already
+in the ledger (S-254, S-267, S-268, S-269, S-270, S-271, S-281 … S-286) plus **one dated re-check of the IFRS
+Foundation jurisdiction profiles**, which S-254 states are "updated on an ongoing basis" and which the register's
+own G-32 dated re-check rule says must be re-read whenever the Foundation updates them. **No literature search,
+no re-run of G-21, no re-run of G-32 limb (a) beyond the profile re-check.** No backtest, simulation, parameter
+sweep, significance test, performance or risk metric, market-data acquisition or processing, strategy or signal
+implementation, executable research infrastructure, job or workflow launch, or trading. The screen produces **no
+score change, no dossier and no re-screen of any retained candidate**; its output is a registrable verdict plus,
+if the profile re-check yields a change, a ledger annotation.
 
 Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical mission prompt was not edited. The cycle's work is **evidence work plus one bounded theoretical screen**, not a candidate screen.
 
