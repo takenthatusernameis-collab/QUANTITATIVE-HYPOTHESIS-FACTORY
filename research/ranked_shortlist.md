@@ -1,6 +1,25 @@
-# RANKED SHORTLIST — CYCLES 1–94
+# RANKED SHORTLIST — CYCLES 1–95
 
-# RANKED SHORTLIST — CYCLES 1–94
+# RANKED SHORTLIST — CYCLES 1–95
+
+**Cycle-95 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 95's substantive work was **one bounded, pre-registered evidence
+operation** (Priority 2(b)): obtaining the MSRB's own trading-volume drivers paper, Simon Wu and John
+Bagley, "What Drives Trading Volume in the Municipal Securities Market? A Study of Likely Factors",
+MSRB Research Paper, February 2025, cited inside S-368 but previously unread. It was located by an
+on-site keyword search on the MSRB site (direct PDF:
+https://www.msrb.org/sites/default/files/2025-02/MSRB-What-Drives-Trading-Volume-in-the-MSM.pdf),
+fetched and text-extracted (16 pages; MSRB RTRS secondary-market data, January 2011–December 2024),
+and registered as **S-377**. It is recorded as venue-primary prior art for the R-055 municipal family
+screen: both 10-year benchmark yields and market volatility are positively and statistically significantly
+correlated with trading volume even after controlling for primary offering volume (regression over 166
+monthly observations; yield parameter estimate 0.4824 for number of trades and 0.4313 for par value
+traded, both significant at 5%), so the volume drivers are a *published, measured baseline*, not an
+unclaimed concession. **R-055's verdict, its five reasons and its baseline row 92 are unchanged** — this
+upgrades the family's prior-art grounds, it is not a re-screen, and it must not add a sixth reason. The
+register now holds **367 verified sources** and a **92-row known-baseline table**. **No score, rank,
+tie-break, hard-stop flag, gap or specification changed.**
 
 **Cycle-94 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked

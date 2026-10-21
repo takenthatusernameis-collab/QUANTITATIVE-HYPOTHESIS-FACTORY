@@ -2665,3 +2665,72 @@ evidence base, and every failure was recorded rather than papered over.
    frozen; V-010 never-to-execute); **55** rejections (R-001 … R-055); 13 parking records (12 active);
    **92-row** known-baseline table; gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free
    identifiers: IDEA-017, S-377, V-012, G-37, R-056, P-015.**
+
+## Cycle 95 — 2026-10-21
+
+Theory-only cycle executing the priorities from the Cycle-94 handoff. No tests, no simulations, no parameter
+sweeps, no significance tests, no performance or risk metrics, no market-data acquisition or processing, no
+strategy or signal implementation, no executable research infrastructure, no job or workflow launches, no
+changes to workflow files, tests, credentials or infrastructure, no work in other repositories, no trading, and
+no edit to the maintainer-owned canonical prompt. Every quotation below is from a document fetched in this
+cycle and text-extracted in this cycle, except where a route failure or a metadata-level label is stated.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the Cycle-94 handoff's priorities in order: (1) maintain the frozen, exhausted and
+dated items as they stand — G-21, G-28, G-30, G-32 limb (c), G-33 (dated 2027 Q3), G-14 (dated 29 March
+2029), IDEA-014's inconclusive existence limb, P-010, P-011 and P-014, plus R-054's dated condition (c) and
+R-055's four dated re-screen conditions; (2) run **one** bounded, pre-registered evidence operation — not a
+screen, because the named absent families are exhausted — chosen from the handoff's options (a)–(d); (3) run
+lossless housekeeping with a rubric-arithmetic re-run; (4) rewrite the handoff with counts re-derived from the
+files and a fresh, self-contained initial task message.
+
+**Pass 2 — Critique.** Four things had to be settled before anything was written. (i) *Is Priority 2(a) still
+live?* Yes — R-055's stated limitation on reason 5 is that Harris & Piwowar (2006) and Green, Hollifield &
+Schürhoff (2007) are closed and Griffin, Hirschey & Kruger (2023) is unreachable; obtaining any of them
+upgrades R-055's grounds but must not re-screen or add a sixth reason. (ii) *Is Priority 2(b) still live?* Yes
+— the MSRB's Wu & Bagley (2025) trading-volume drivers paper, cited inside S-368, was not obtained in Cycle
+94; it is venue-primary prior art for R-055. (iii) *Is Priority 2(c) still live?* Yes — S-356, S-357 and S-358
+are metadata-level "publisher abstract/DOI metadata" entries; upgrading them to line-verified does not re-score
+R-053. (iv) *Can the decisive material be fetched and text-extracted?* For Priority 2(b), yes — an on-site
+keyword search on the MSRB site located the direct PDF, which was fetched and text-extracted (16 pages; MSRB
+RTRS secondary-market data, January 2011–December 2024).
+
+**Pass 3 — Reframed.** Priority 2 was narrowed to **one** bounded evidence operation: **(b) obtain the MSRB's
+own trading-volume drivers paper** (Wu & Bagley, February 2025). The operation is strictly bounded: obtain one
+document, text-extract it, register it as S-377, record it as venue-primary prior art for R-055, and annotate
+the existing honest-negative row in the ledger (never erase). It does not re-screen the municipal family, does
+not change R-055's verdict, its five reasons or its baseline row 92, and adds no sixth reason. No `IDEA-`,
+`V-`, `R-`, `P-` or `G-` identifier is consumed beyond the one `S-` identifier (S-377); no gap is opened or
+closed.
+
+### Outcomes
+
+1. **MSRB trading-volume drivers paper obtained in Cycle 95 as S-377.** Simon Wu and John Bagley,
+   "What Drives Trading Volume in the Municipal Securities Market? A Study of Likely Factors", MSRB Research
+   Paper, February 2025, was located by an on-site keyword search on the MSRB site (direct PDF:
+   https://www.msrb.org/sites/default/files/2025-02/MSRB-What-Drives-Trading-Volume-in-the-MSM.pdf), fetched
+   and text-extracted (16 pages, 35,533 characters), and registered as **S-377**. The regression (166 monthly
+   observations, January 2011–December 2024) reports that both 10-year benchmark yields and market volatility
+   are positively and statistically significantly correlated with trading volume even after controlling for
+   primary offering volume — Yield 0.4824 (t 6.0603) and 0.4313 (t 4.1879); Volatility 0.0460 (t 3.5037) and
+   0.1174 (t 6.8862) — all four significant at the 5% level — for Number of Trades and Par Value Traded
+   respectively. Primary offering volume is also positively correlated (0.0801 / 0.0887). Record trade count in
+   2024 was the third consecutive annual record. Adjusted R-squared 0.44 / 0.50. The paper is venue-primary
+   prior art for R-055; R-055's verdict, its five reasons and its baseline row 92 are unchanged — not a
+   re-screen and not a sixth reason. The honest-negative row for this paper in `source_ledger.md` was annotated
+   in place (never erased) to record the Cycle-95 acquisition, preserving the failed-route history.
+
+2. **Lossless housekeeping and a rubric-arithmetic re-run (clean).** The register's own rule
+   (`Weighted total = Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10; per-point values
+   5.0/4.0/3.0/3.0/3.0/2.0) was re-run across all four active candidates and the parked IDEA-010:
+   **IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+   3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0.** Every recorded total matches its recorded profile;
+   no score, rank, tie-break, hard-stop flag, gap or specification changed.
+
+3. **Counts re-derived from the files, not carried forward.** 15 dossiers (4 active, 6 parked, 5 rejected);
+   4 ranked active plus 1 parked-at-terminal; **367** verified sources (S-001 … S-209, S-220 … S-377; S-210 …
+   S-219 reserved and unused); 10 validation specifications (8 not executable; executable: V-008, V-009; V-002
+   frozen; V-010 never-to-execute); **55** rejections (R-001 … R-055); 13 parking records (12 active);
+   **92-row** known-baseline table; gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). **Next free
+   identifiers: IDEA-017, S-378, V-012, G-37, R-056, P-015.**

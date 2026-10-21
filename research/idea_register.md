@@ -4,9 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source
-entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened
-**no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
+Last updated: **Cycle 95 complete** (Cycle 95 added **one new source identifier and one new source entry (S-377)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
 pre-registered screen of a genuinely new mechanism family** — the **tax-exempt municipal bond market family**
 (the over-the-counter, dealer-intermediated, retail-priced municipal secondary market and the primary market's
 published underwriting concession; the dealer's one-way bid, the customer cost premium, the tax-equivalent
