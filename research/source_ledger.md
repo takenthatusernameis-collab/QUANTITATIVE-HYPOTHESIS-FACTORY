@@ -1,4 +1,22 @@
-# SOURCE LEDGER — CYCLES 1–98
+# SOURCE LEDGER — CYCLES 1–103
+
+**Cycle 103 (2026-10-21) added one new source entry (S-383), minted no new candidate and no new
+validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was
+**evidence work, not a screen**: the bounded, pre-registered **provenance-upgrade operation** was
+executed over a named subset of thirteen targets (ten index-rendered entries from the 25-entry pool
+plus three Priority-3 close-attempts), pre-registered in `research/cycle_notes.md` before any fetch.
+**Six upgrades** were recorded in place (S-157, S-160, S-167, S-274, S-115, S-172), each with HTTP
+status, byte count and verbatim confirmation; **six honest negatives** were recorded (S-159, S-276,
+S-278, S-280, S-292, S-268). **Priority 3(1) is closed** (S-115's SSRN abstract obtained via Crossref
+posted-content) and **Priority 3(4) is closed** (S-172's v1 body fetched; the "~2% vs ~10%" claim
+confirmed present in the body). **Priority 3(5)**: the 16 April 2026 SEC Exemptive Order for Tender
+Offers for Equity Securities was fetched directly (HTTP 200; 176,129 bytes; 4 pages; "10 business
+days" verified verbatim) and registered as **S-383** — a genuinely new primary document for a different
+security class (equity) from S-382 (debt), as contemplated by the pre-registration. **No identifier
+was consumed by the upgrades themselves** (an upgrade strengthens an existing entry; it does not mint
+one) and **no score changed** — this is provenance, not new evidence. The register now holds
+**373 verified sources** (S-001 … S-209, S-220 … S-383; S-210 … S-219 reserved and unused).
+**Next free identifiers: IDEA-017, S-384, V-012, G-37, R-056, P-015.**
 
 **Cycle 98 (2026-10-21) added one new source entry (S-380), minted no new candidate and no new validation
 specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work,
@@ -2981,6 +2999,23 @@ DOI https://doi.org/10.2139/ssrn.6751741
   entry's bibliographic identification (Kush Shah and Niharika Davda, Maharaja Sayajirao University
   of Baroda, SSRN 6751741) remains confirmed against the publisher-side record. This entry is
   unchanged in substance and is not re-scored.
+- **Cycle-103 verification — UPGRADE: the Crossref posted-content abstract is now fetched directly and
+  confirms the load-bearing T+1 findings.** The **Crossref REST API**
+  `https://api.crossref.org/works/10.2139/ssrn.6751741` was fetched directly on 21 October 2026 —
+  **HTTP 200, 7,120 bytes** — and the deposited abstract confirms the T+1 Parkinson-volatility
+  reduction (**3.6% relative to its mean, β = −0.000034, p = 0.004**), the cap/mid-cap heterogeneity
+  (large-cap β = −0.000669, p = 0.005; mid-cap β = 0.006928, p < 0.001), the **27 weekly batches**
+  over **2,056 stocks**, and the **898,181 stock-day** sample — every quoted figure is present
+  verbatim in the deposited abstract. The bibliographic record is confirmed field by field: authors
+  Shah and Davda, title "T+1 Settlement and Market Quality: Evidence from India's Phased Rollout",
+  host SSRN Electronic Journal, DOI `10.2139/ssrn.6751741`. **The entry's own caveats — preprint, not
+  peer reviewed, and the heterogeneity result (mid-caps worse) as a caution against treating a
+  settlement-cycle change as a uniform liquidity improvement — stand unchanged and are not upgraded**,
+  because the deposited abstract does not add to them. The verification label moves from
+  **index-rendered** to **line-verified (Crossref posted-content abstract, fetched directly)**.
+  **Priority 3(1) is closed**: the abstract of SSRN 6751741 has been obtained and its T+1
+  Parkinson-volatility/heterogeneity findings confirmed. **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence.
 
 ### S-116 — Marshall, D. A. and Steigerwald, R. S. (2013) — "The role of time-critical liquidity in financial markets"
 *Economic Perspectives* (Federal Reserve Bank of Chicago) **37**(2), Q2 2013, 17 pp.
@@ -4626,6 +4661,20 @@ DOI: https://doi.org/10.1093/rfs/hhab117 · working-paper version: NBER Working 
   measure has never been tested in this register — that is exactly what G-18 is opened for.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the
   journal landing page via the search index.
+- **Cycle-103 verification — UPGRADE: the Crossref-deposited abstract is now fetched directly and
+  confirms the load-bearing claim.** The **Crossref REST API**
+  `https://api.crossref.org/works/10.1093/rfs/hhab117` was fetched directly on 21 October 2026 —
+  **HTTP 200, 15,421 bytes** — and the deposited abstract confirms the comomentum/arbitrage-activity
+  claim: crowding/arbitrage-activity intensity is inferred from return correlations, a measure
+  computable from public price data alone. The bibliographic record is confirmed field by field:
+  authors Lou and Polk, title "Comomentum: Inferring Arbitrage Activity from Return Correlations",
+  *The Review of Financial Studies* **35**(6): 3272–3302, DOI `10.1093/rfs/hhab117`. **The entry's
+  own caveats — that this is a proxy for arbitrage activity, not for position concentration, and that
+  validity as a substitute for the holdings-based measure is untested (that is exactly what G-18 is
+  opened for) — stand unchanged and are not upgraded**, because the deposited abstract does not
+  contain them. The verification label moves from **index-rendered** to **line-verified (Crossref-
+  deposited abstract, fetched directly)**. **No re-score and no hard-stop change follow** — this is
+  provenance, not new evidence.
 
 ### S-158 — Gornall, W., Rinaldi, J. M. and Xiao, Y. (2025)
 "Perpetual Futures and Basis Risk: Evidence from Cryptocurrency." Working paper, May 2025
@@ -4694,6 +4743,14 @@ DOI: https://doi.org/10.1016/j.jempfin.2026.101779
   returns, and does not test a signed reversal rule.
 - **Verification:** Crossref REST API (title, journal, volume, article number, publication date) plus
   the publisher landing page via the search index.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Crossref REST API** `https://api.crossref.org/works/10.1016/j.jempfin.2026.101779` was fetched
+  directly on 21 October 2026 — **HTTP 200, 14,410 bytes** — and confirms the work's **identity**
+  (title "Perpetual futures as predictors of Bitcoin volatility", *Journal of Empirical Finance*
+  **89**: 101779, DOI `10.1016/j.jempfin.2026.101779`) but holds **no abstract**. **The route is
+  therefore exhausted: the deposited record is bibliographic only.** The entry's quoted abstract
+  passages therefore remain index-rendered and are NOT line-verified. This entry is unchanged in
+  substance and is not re-scored.
 
 ### S-160 — Dao, M., Tan, B. J. and Zhou, J. (2025)
 "Repo Market Volatility and the U.S. Debt Ceiling." IMF Working Paper, June 2025.
@@ -4707,6 +4764,20 @@ DOI: https://doi.org/10.5089/9798229015219.001
   trading rule; the register's G-01 question (a *dealer* FVA proxy) is not answered.
 - **Verification:** Crossref REST API (title, authors, IMF Working Papers series, year) plus the IMF
   working-paper landing page via the search index.
+- **Cycle-103 verification — UPGRADE: the Crossref-deposited abstract is now fetched directly and
+  confirms the load-bearing claim.** The **Crossref REST API**
+  `https://api.crossref.org/works/10.5089/9798229015219.001` was fetched directly on 21 October 2026 —
+  **HTTP 200, 3,308 bytes** — and the deposited abstract confirms that TGA flows triggered by the
+  debt-ceiling mechanism "can create large swings in the repo spread" with a projected repo-spread
+  fluctuation of **20–30 basis points** around debt-ceiling lift-off, matching the entry's verbatim
+  quotation. The bibliographic record is confirmed field by field: authors Dao, Tan and Zhou, title
+  "Repo Market Volatility and the U.S. Debt Ceiling", IMF Working Paper, June 2025,
+  DOI `10.5089/9798229015219.001`. **The entry's own caveats — working paper, identification around
+  debt-ceiling episodes only, and that the register's G-01 question is not answered — stand
+  unchanged and are not upgraded**, because the deposited abstract does not contain them. The
+  verification label moves from **index-rendered** to **line-verified (Crossref-deposited abstract,
+  fetched directly)**. **No re-score and no hard-stop change follow** — this is provenance, not new
+  evidence.
 
 ### S-161 — Board of Governors of the Federal Reserve System (2025)
 "The Repo Rate Sensitivity to Treasury Issuance and Quantitative Tightening." FEDS Notes, 12 February
@@ -4864,6 +4935,20 @@ DOI: https://doi.org/10.1142/S0219024915500193
 - **Caveats:** a pricing model; the resulting signal is private-contract data, not a published series.
 - **Verification:** Crossref REST API (title, authors, journal, volume, article number) plus the
   publisher landing page and the arXiv working-paper version via the search index.
+- **Cycle-103 verification — UPGRADE: the Crossref-deposited abstract is now fetched directly and
+  confirms the load-bearing claim.** The **Crossref REST API**
+  `https://api.crossref.org/works/10.1142/S0219024915500193` was fetched directly on 21 October 2026 —
+  **HTTP 200, 4,332 bytes** — and the deposited abstract confirms the ASR contract's payoff is an
+  Asian-type option with Bermudan-style exercise dates and that the intermediary's problem is an
+  optimal-execution problem with temporary and permanent market impact, i.e. that the ASR "discount"
+  is the market price of that optionality. The bibliographic record is confirmed field by field:
+  authors Guéant, Pu and Royer, title "Accelerated Share Repurchase: Pricing and Execution Strategy",
+  *International Journal of Theoretical and Applied Finance* **18**(2): 1550019,
+  DOI `10.1142/S0219024915500193`. **The entry's own caveat — that the resulting signal is
+  private-contract data, not a published series — stands unchanged and is not upgraded**, because the
+  deposited abstract does not contain it. The verification label moves from **index-rendered** to
+  **line-verified (Crossref-deposited abstract, fetched directly)**. **No re-score and no hard-stop
+  change follow** — this is provenance, not new evidence.
 
 ### S-168 — Borenstein, S., Bushnell, J., Wolak, F. A. and Zaragoza-Watkins, M. (2019)
 "Expecting the Unexpected: Emissions Uncertainty and Environmental Market Design." *American Economic
@@ -5031,6 +5116,18 @@ URL: https://arxiv.org/abs/2512.11913
   The verification label moves from **index-rendered** to **line-verified (arXiv v1/v2/v3 abstract
   pages fetched directly and parsed), with one figure struck in place**. **No re-score and no
   hard-stop change follow.**
+- **Cycle-103 verification — UPGRADE: the v1 body is now fetched and text-extracted, and the
+  struck magnitude is confirmed present in the body (though absent from every version's abstract).**
+  The **arXiv v1 PDF** `https://arxiv.org/pdf/2512.11913v1` was fetched directly on 21 October 2026 —
+  **HTTP 200, 568,786 bytes, application/pdf**; the text layer was extracted with `pypdf`
+  (**7 pages, 19,369 characters**) and read. The introduction's first paragraph states verbatim:
+  "The momentum factor returned approximately **10%** annually in the 1990s. Today, that figure is
+  closer to **2%**." — so the "~2% vs ~10%" claim is **confirmed present in the v1 body**, which is
+  what Priority 3(4) asked to check. The claim remains absent from the v1, v2 and v3 **abstract
+  pages** (the strings "2%", "10%", "10 %", "annualiz", "annualis", "1990s", "momentum factor"
+  each return zero hits there, as recorded in Cycle 102), so the abstract-level strike stands; the
+  Cycle-103 finding upgrades the record by locating the claim in the document's own body text.
+  **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-173 — Congressional Budget Office (2010)
 "Managing Allowance Prices in a Cap-and-Trade Program." CBO study, November 2010.
@@ -8333,6 +8430,15 @@ URL: https://eur-lex.europa.eu/eli/reg/2026/338/oj/eng
   index and corroborated by EFRAG's IFRS 18 endorsement-status table (adopted 13 February 2026; Official
   Journal publication 16 February 2026; EU effective date 1 January 2027). A direct fetch of the EUR-Lex
   HTML returned an empty body, so this entry is **index-rendered**.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Publications Office Cellar** `http://publications.europa.eu/resource/celex/32026R0338` was fetched
+  directly on 21 October 2026 with `Accept: application/xhtml+xml` and `Accept-Language: eng` —
+  **HTTP 200, 2,875 bytes**. The returned document is an **RDF metadata stub** (it declares the
+  manifestation `oj/L_202600338.ENG.xhtml` and its item `DOC_1`) and contains **none of the
+  regulation's operative text**; in particular the string "1 January 2027" returns **zero hits**.
+  The route therefore fails the upgrade criterion: the application date is not present in the fetched
+  text. The entry remains **index-rendered** and is unchanged in substance. **No re-score and no
+  hard-stop change follow.**
 
 ### S-269 — UK Endorsement Board, "IFRS 18 Presentation and Disclosure in Financial Statements" (project page)
 URL: https://www.endorsement-board.uk/IFRS-18-Presentation-Disclosure-Financial-Statements/
@@ -8482,6 +8588,22 @@ DOI: https://doi.org/10.1111/0022-1082.00328
 - **Verification:** the full Crossref record (authors, title, journal, volume, issue, pages, publication
   date, DOI) was retrieved from the Crossref REST API; the abstract was read in the search-index
   rendering of the author-hosted PDF.
+- **Cycle-103 verification — UPGRADE: the Crossref-deposited abstract is now fetched directly and
+  confirms the load-bearing claim.** The **Crossref REST API**
+  `https://api.crossref.org/works/10.1111/0022-1082.00328` was fetched directly on 21 October 2026 —
+  **HTTP 200, 7,931 bytes** — and the deposited abstract confirms the central result: the tax rule
+  itself changes the strength of the relation between early-year losses and turn-of-the-year returns,
+  i.e. that "when the tax law encouraged taxable investors who accrued losses early in the year to
+  realize their losses before year-end, the correlation between early year losses and turn-of-the-year
+  returns was weaker than when the law did not provide such an early realization incentive." The
+  bibliographic record is confirmed field by field: authors Poterba and Weisbenner, title
+  "Capital Gains Tax Rules, Tax-loss Trading, and Turn-of-the-year Returns", *The Journal of Finance*
+  **56**(1): 353–368, DOI `10.1111/0022-1082.00328`. **The entry's own caveat — the 1963–1996 US
+  sample and that the object is turn-of-the-year returns, not a harvestable concession — stands
+  unchanged and is not upgraded**, because the deposited abstract does not contain it. The
+  verification label moves from **index-rendered** to **line-verified (Crossref-deposited abstract,
+  fetched directly)**. **No re-score and no hard-stop change follow** — this is provenance, not new
+  evidence.
 
 ### S-275 — Ivković, Z., Poterba, J. M. and Weisbenner, S. J. (2005), "Tax-Motivated Trading by Individual Investors", *American Economic Review* 95(5): 1605–1630
 DOI: https://doi.org/10.1257/000282805775014461
@@ -8511,6 +8633,14 @@ DOI: https://doi.org/10.1016/j.jbankfin.2022.106528
   publication dates, reference list) was retrieved from the Crossref REST API by resolving the DOI
   directly; the abstract and the quoted passages were read in the search-index rendering of the
   publisher's abstract page.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Crossref REST API** `https://api.crossref.org/works/10.1016/j.jbankfin.2022.106528` was fetched
+  directly on 21 October 2026 — **HTTP 200, 11,971 bytes** — and confirms the work's **identity**
+  (title "Tax-loss harvesting under uncertainty", authors McKeever and Rydqvist,
+  *Journal of Banking & Finance* **140**: 106528, DOI `10.1016/j.jbankfin.2022.106528`) but holds
+  **no abstract**. **The route is therefore exhausted: the deposited record is bibliographic only.**
+  The entry's quoted passages therefore remain index-rendered and are NOT line-verified.
+  This entry is unchanged in substance and is not re-scored.
 
 ### S-277 — Heston, S. L., Korajczyk, R. A. and Sadka, R. (2010), "Intraday Patterns in the Cross-Section of Stock Returns", *The Journal of Finance* 65(4): 1369–1407
 DOI: https://doi.org/10.1111/j.1540-6261.2010.01573.x
@@ -8540,6 +8670,14 @@ DOI: https://doi.org/10.1080/135184796337571
 - **Verification:** the Crossref REST API was queried by title/author with a journal-article filter and
   the record retrieved; the abstract was read in the search-index rendering of the publisher's abstract
   page.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Crossref REST API** `https://api.crossref.org/works/10.1080/135184796337571` was fetched directly
+  on 21 October 2026 — **HTTP 200, 5,638 bytes** — and confirms the work's **identity**
+  (title "Stochastic dominance, tax-loss selling and seasonalities in Sweden", authors Dahlquist and
+  Sellin, *The European Journal of Finance* **2**(1): 1–19, DOI `10.1080/135184796337571`) but holds
+  **no abstract**. **The route is therefore exhausted: the deposited record is bibliographic only.**
+  The entry's quoted passages therefore remain index-rendered and are NOT line-verified.
+  This entry is unchanged in substance and is not re-scored.
 
 ### S-279 — Takahashi, H. (2017), "Does tax-loss selling affect turn-of-the-year returns? Evidence from the 2003 capital gain tax regime change in Japan", Hosei University Discussion Paper 16-E-002 (17 February 2017)
 URL: https://www.hosei.ac.jp/application/files/7415/7655/5058/DP-16E002.pdf
@@ -8592,6 +8730,14 @@ DOI: https://doi.org/10.1080/0015198X.2019.1600955
   publication dates, reference list) was retrieved from the Crossref REST API by resolving the DOI
   directly; the method and the convergence-premia result were read in the search-index rendering of the
   article page.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Crossref REST API** `https://api.crossref.org/works/10.1080/0015198X.2019.1600955` was fetched
+  directly on 21 October 2026 — **HTTP 200, 13,398 bytes** — and confirms the work's **identity**
+  (title "The Impact of Crowding in Alternative Risk Premia Investing", author Baltas,
+  *Financial Analysts Journal* **75**(3): 89–104, DOI `10.1080/0015198X.2019.1600955`) but holds
+  **no abstract**. **The route is therefore exhausted: the deposited record is bibliographic only.**
+  The entry's quoted passages therefore remain index-rendered and are NOT line-verified.
+  This entry is unchanged in substance and is not re-scored.
 
 ---
 
@@ -9098,6 +9244,14 @@ DOI: https://doi.org/10.1016/j.jfineco.2006.09.007
   "Asset fire sales." The published title is **"Asset fire sales (and purchases) in equity markets"**
   (Crossref title field, and the ScienceDirect record for the same DOI). The truncated title would have
   made the entry unmatchable against the publisher's own listing; the substantive claim is unaffected.
+- **Cycle-103 verification — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  **Crossref REST API** `https://api.crossref.org/works/10.1016/j.jfineco.2006.09.007` was fetched
+  directly on 21 October 2026 — **HTTP 200, 11,283 bytes** — and confirms the work's **identity**
+  (title "Asset fire sales (and purchases) in equity markets", authors Coval and Stafford,
+  *Journal of Financial Economics* **86**(2): 479–512, DOI `10.1016/j.jfineco.2006.09.007`) but holds
+  **no abstract**. **The route is therefore exhausted: the deposited record is bibliographic only.**
+  The entry's quoted abstract passages therefore remain index-rendered and are NOT line-verified.
+  This entry is unchanged in substance and is not re-scored.
 
 ### S-293 — Huang, S., Hu, R., Song, Y. and Xiang, H. (2026)
 "Same Dollar, Different Impact: Investor Flows are Not Equally Price-Moving." SSRN working paper 6266398
@@ -13271,3 +13425,29 @@ URL: https://www.sec.gov/files/rules/exorders/2026/exemp-order-tender-or-exchang
   once; "seven to ten calendar days" once; "Cahill Gordon" once; "Goldman, Sachs" once; "five business
   days" twice; "guaranteed delivery" **zero** hits). The verification label is **line-verified (PDF
   fetched directly and text-extracted)** from the moment of creation.
+
+### S-383 — U.S. Securities and Exchange Commission, Division of Corporation Finance (2026)
+"Exemptive Order for Tender Offers for Equity Securities", 16 April 2026 (4 pages), Division of
+Corporation Finance.
+URL: https://www.sec.gov/files/rules/exorders/2026/exemptive-order-tender-offers-equity-securities-041626.pdf
+- **Type:** Primary regulator material (delegated exemptive order under Exchange Act Sections
+  13e-4(f)(1), 14e-1(a) and (b), 17 CFR 200.30-1(f)(16)).
+- **Supports:** the current **equity** abbreviated-offer regime, a distinct instrument from S-382
+  (the 30 June 2026 debt exemptive order). Verbatim: Exchange Act Rules 13e-4(f)(1)(i) and 14e-1(a)
+  "require tender offers to be open for at least 20 business days," and the order grants an exemption
+  "to permit a tender offer for any class of equity security to remain open for a minimum offering
+  period of **10 business days**, so long as the following conditions are met" — including that the
+  offer is for equity securities of a reporting-company issuer, is made pursuant to a negotiated
+  merger, and is conditioned on financing. A separate section covers equity securities of non-reporting
+  companies (subject to Rule 13e-4). Footnote cross-reference: S-382's footnote 4 cites this order as
+  "SEC Exemptive Order for Tender Offers for Equity Securities (**Apr. 16, 2026**)."
+- **Caveats:** a **delegated exemptive order**, revocable at the Division's discretion. It applies to
+  equity securities only; the debt analogue is S-382, a different instrument registered separately.
+- **Verification:** fetched directly on 21 October 2026 with a compliant User-Agent — **HTTP 200,
+  176,129 bytes, application/pdf**; the text layer was extracted with `pypdf` (**4 pages, 8,460
+  characters**) and read. The quoted passages are present verbatim ("20 business days" once; "10
+  business days" twice; "April 16, 2026" four times; "Division of Corporation Finance" once). The
+  verification label is **line-verified (PDF fetched directly and text-extracted)** from the moment of
+  creation. **Identifier S-383 is consumed by this entry**: it is a genuinely new primary document for
+  a different security class (equity) from S-382 (debt), as contemplated by the Cycle-103
+  pre-registration. No other identifier is consumed by Cycle 103.

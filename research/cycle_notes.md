@@ -3503,3 +3503,91 @@ cycle, and the two new entries were appended in their own section. The cycle log
 written in this cycle (never late).
 
 ---
+
+## Cycle 103 — 2026-10-21
+Theory-only cycle executing the five priorities from the Cycle-102 handoff. No tests, no data
+acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical
+prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Maintain the frozen, exhausted and dated items unchanged; run one bounded,
+pre-registered provenance operation over a named subset of the 25 index-rendered-only entries plus the
+named Priority-3 close-attempts (S-115's abstract, S-172's v1 body, the 16 April 2026 equity exemptive
+order); pre-register the subset, routes and criteria in this file *before any fetch*; write annotations
+into the ledger entries in the same cycle; re-derive counts and re-run rubric arithmetic; rewrite the
+handoff and write a fresh initial task message for Cycle 104.
+
+**Pass 2 — Critique.** The Cycle-102 state-integrity finding is the binding constraint: a provenance
+upgrade is not done until the entry's own verification bullet says so. Every fetched document must have
+its text layer extracted, with URL, HTTP status, byte count and page/character count recorded. An
+upgrade may only strengthen an existing reason or record; it may not re-score, add a sixth reason,
+re-screen a family, or consume an identifier. Do not re-run a route that has already returned a
+negative unless a *different* route exists (different host or path form, not a changed query string).
+Record a negative as a negative (route, status, failure mode).
+
+**Pass 3 — Revise.** Execute as specified, with every count re-derived from the files and the
+Cycle-103 record written inside this cycle.
+
+### Pre-registered provenance operation — the Cycle-103 subset (registered before any fetch)
+
+Thirteen targets. Ten are drawn from the 25 entry index-rendered-only pool, chosen for fetchability
+and for how much of the register rests on the entry; three are the named Priority-3 close-attempts.
+No identifier is consumed by the operation itself; any genuinely new primary document that demands its
+own entry (the 16 April 2026 equity exemptive order, if it is a different instrument for a different
+security class from S-382) is the one possible identifier consumption and must be reasoned in the
+register, the shortlist and this cycle log together.
+
+| # | Target | What it supports | First route (pre-registered) | Upgrade criterion | Partial-upgrade criterion | Negative criterion |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | **S-268** | EU IFRS 18 application date (G-32 limb (a)) | Publications Office Cellar `http://publications.europa.eu/resource/celex/32026R0338` with `Accept: application/xhtml+xml`, `Accept-Language: eng` | "1 January 2027" first-financial-year application date present verbatim in the fetched text | directive text gives endorsement but not the date | HTTP failure or date absent → honest negative; entry stays index-rendered |
+| 2 | **S-157** | IDEA-004 crowding proxy (Lou & Polk 2021) | Crossref REST `https://api.crossref.org/works/10.1093/rfs/hhab117` | deposited abstract confirms the comomentum/arbitrage-activity claim | bibliographic record confirmed but no abstract deposited | no abstract deposited → honest negative |
+| 3 | **S-159** | IDEA-009 funding-rate volatility | Crossref REST `https://api.crossref.org/works/10.1016/j.jempfin.2026.101779` | deposited abstract confirms the incremental-predictive-information claim | bibliographic record only | no abstract deposited → honest negative |
+| 4 | **S-167** | IDEA-003 ASR pricing (Guéant, Pu & Royer 2015) | Crossref REST `https://api.crossref.org/works/10.1142/S0219024915500193` | deposited abstract confirms the Asian-option/Bermudan-exercise ASR claim | bibliographic record only | no abstract deposited → honest negative |
+| 5 | **S-274** | R-035 tax-loss family (Poterba & Weisbenner 2001) | Crossref REST `https://api.crossref.org/works/10.1111/0022-1082.00328` | deposited abstract confirms the tax-rule-changes-the-relation claim | bibliographic record only | no abstract deposited → honest negative |
+| 6 | **S-276** | R-035 tax-loss family (McKeever & Rydqvist 2022) | Crossref REST `https://api.crossref.org/works/10.1016/j.jbankfin.2022.106528` | deposited abstract confirms the carry-forward/magnitude claim | bibliographic record only | no abstract deposited → honest negative |
+| 7 | **S-278** | R-035 tax-loss family (Dahlquist & Sellin 1996) | Crossref REST `https://api.crossref.org/works/10.1080/135184796337571` | deposited abstract confirms the null/contested-claim | bibliographic record only | no abstract deposited → honest negative |
+| 8 | **S-280** | G-28 crowding neighbour (Baltas 2019) | Crossref REST `https://api.crossref.org/works/10.1080/0015198X.2019.1600955` | deposited abstract confirms the CoMetric/convergence-crowding claim | bibliographic record only | no abstract deposited → honest negative |
+| 9 | **S-292** | G-01 funding-state flow (Coval & Stafford 2007) | Crossref REST `https://api.crossref.org/works/10.1016/j.jfineco.2006.09.007` | deposited abstract confirms the fire-sale/reversal claim | bibliographic record only | no abstract deposited → honest negative |
+| 10 | **S-160** | funding-state TGA flows (Dao, Tan & Zhou 2025, IMF WP) | Crossref REST `https://api.crossref.org/works/10.5089/9798229015219.001` plus the IMF working-paper PDF at the URL Crossref returns | deposited abstract and/or fetched PDF confirm the repo-spread claim | abstract confirms the claim but the PDF is unreachable | neither route opens → honest negative |
+| 11 | **S-115** | Priority 3(1): abstract of SSRN 6751741 | Crossref **posted-content** `https://api.crossref.org/works/10.2139/ssrn.6751741` | deposited abstract confirms the T+1 Parkinson-volatility/heterogeneity findings | abstract truncated, confirms part | no abstract deposited → honest negative; entry recorded terminal index-rendered |
+| 12 | **S-172** | Priority 3(4): struck momentum figures, v1 body | arXiv v1 PDF `https://arxiv.org/pdf/2512.11913v1` | v1 body fetched and text-extracted; the "~2 % vs ~10 %" claim confirmed present or confirmed absent in the body | v1 PDF fetched but text layer not extractable | v1 PDF unreachable → honest negative |
+| 13 | **16 April 2026 equity exemptive order** | Priority 3(5): current tender-offer regime; decides own S- id | `https://www.sec.gov/files/rules/exorders/2026/` listing, then the equity order PDF | ten-business-day equity minimum line-verified verbatim | order fetched, minimum confirmed | not found at the guessed path → record the failure; decide S- id from the order's own instrument class |
+
+**Rules applied to every target.** Record the URL fetched, the **HTTP status**, the **byte count**, the
+**page or character count**, and the extraction method. A quotation that cannot be re-checked in the
+fetched document's text layer is **not** a quotation — extract the text layer or record the entry as
+index-rendered and unattributed. **Strike in place** any quotation the fetched document does not
+contain, with the reason and the string counts that show the absence. Record a **negative** as a
+negative. An upgrade may only strengthen an existing reason or record. Write the annotation **into
+the entry in the same cycle**.
+
+---
+
+### Cycle 103 — results (2026-10-21)
+
+**Six upgrades, six honest negatives, one new entry (S-383), no score change.**
+
+| # | Target | Route | Result | Ledger annotation |
+|---|--------|-------|--------|-------------------|
+| 1 | **S-268** | Cellar `…/resource/celex/32026R0338`, `Accept: application/xhtml+xml`, `Accept-Language: eng` | **NEGATIVE** — HTTP 200, 2,875 bytes; RDF metadata stub only, no operative text; "1 January 2027" zero hits | entry stays index-rendered; honest negative recorded |
+| 2 | **S-157** | Crossref `works/10.1093/rfs/hhab117` | **UPGRADE** — HTTP 200, 15,421 bytes; deposited abstract confirms comomentum/arbitrage-activity claim | line-verified (Crossref abstract fetched directly) |
+| 3 | **S-159** | Crossref `works/10.1016/j.jempfin.2026.101779` | **NEGATIVE** — HTTP 200, 14,410 bytes; no abstract deposited | honest negative recorded; entry unchanged |
+| 4 | **S-167** | Crossref `works/10.1142/S0219024915500193` | **UPGRADE** — HTTP 200, 4,332 bytes; deposited abstract confirms Asian-option/Bermudan-exercise ASR claim | line-verified (Crossref abstract fetched directly) |
+| 5 | **S-274** | Crossref `works/10.1111/0022-1082.00328` | **UPGRADE** — HTTP 200, 7,931 bytes; deposited abstract confirms tax-rule-changes-the-relation claim | line-verified (Crossref abstract fetched directly) |
+| 6 | **S-276** | Crossref `works/10.1016/j.jbankfin.2022.106528` | **NEGATIVE** — HTTP 200, 11,971 bytes; no abstract deposited | honest negative recorded; entry unchanged |
+| 7 | **S-278** | Crossref `works/10.1080/135184796337571` | **NEGATIVE** — HTTP 200, 5,638 bytes; no abstract deposited | honest negative recorded; entry unchanged |
+| 8 | **S-280** | Crossref `works/10.1080/0015198X.2019.1600955` | **NEGATIVE** — HTTP 200, 13,398 bytes; no abstract deposited | honest negative recorded; entry unchanged |
+| 9 | **S-292** | Crossref `works/10.1016/j.jfineco.2006.09.007` | **NEGATIVE** — HTTP 200, 11,283 bytes; no abstract deposited | honest negative recorded; entry unchanged |
+| 10 | **S-160** | Crossref `works/10.5089/9798229015219.001` | **UPGRADE** — HTTP 200, 3,308 bytes; deposited abstract confirms repo-spread claim (20–30 bps) | line-verified (Crossref abstract fetched directly) |
+| 11 | **S-115** | Crossref posted-content `works/10.2139/ssrn.6751741` | **UPGRADE** — HTTP 200, 7,120 bytes; deposited abstract confirms T+1 Parkinson-volatility (−3.6%, β=−0.000034, p=0.004), cap/mid-cap heterogeneity, 27 weekly batches over 2,056 stocks, 898,181 stock-day obs | line-verified (Crossref abstract fetched directly); **Priority 3(1) closed** |
+| 12 | **S-172** | arXiv v1 PDF `arxiv.org/pdf/2512.11913v1` | **UPGRADE** — HTTP 200, 568,786 bytes; 7 pages, 19,369 chars, pypdf text-extraction; "~2% vs ~10%" claim confirmed present in v1 body ("momentum factor returned approximately 10% annually in the 1990s. Today, that figure is closer to 2%.") | body-level claim confirmed; abstract-level strike stands; **Priority 3(4) closed** |
+| 13 | **16 April 2026 equity exemptive order** | SEC `files/rules/exorders/2026/exemptive-order-tender-offers-equity-securities-041626.pdf` | **UPGRADE / new entry** — HTTP 200, 176,129 bytes; 4 pages, 8,460 chars, pypdf; "10 business days" minimum verified verbatim | registered as **S-383** (different instrument, equity vs S-382 debt); **Priority 3(5) closed** |
+
+**Counts re-derived from the files.** 373 verified sources (S-001 … S-209, S-220 … S-383; S-210 … S-219 reserved and unused). Ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (2), IDEA-009 53.0 (3), IDEA-014 52.0 (4), IDEA-010 parked P-014 terminal 55.0. No score, rank, tie-break, hard-stop flag, gap or specification changed. **Next free identifiers: IDEA-017, S-384, V-012, G-37, R-056, P-015.**
+
+**Residual index-rendered-only pool** (15 entries, down from 25): S-147, S-148, S-151, S-152, S-179, S-181, S-247, S-248, S-249, S-253, S-258, S-262, S-263, S-264, S-329.
+
+**Open Priority-3 questions remaining** (S-271's "all at once" wording/effective date; S-238's body; S-153/S-154/S-156 magnitude claims; S-166 intermediary detail) — carried to Cycle 104 with named routes in `research/next_agent_handoff.md`.
+
+**Standing rule re-affirmed:** a provenance upgrade is not done until the entry's own verification bullet says so. All thirteen annotations were written into their ledger entries in this cycle.
