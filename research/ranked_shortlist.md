@@ -1,12 +1,6 @@
-# RANKED SHORTLIST — CYCLES 1–115
+# RANKED SHORTLIST — CYCLES 1–116
 
-**Cycle-115 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank 1),
-IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a
-terminal 55.0.** Cycle 115 executed **Priority 1** (the mechanism-mis-identification screen applied to the four live
-candidates) with **no orthogonality hard-stops found** and **no score change**, and **Priority 5** housekeeping
-(counts re-derived from the files; rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3
-= 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). **Priority 2,
-Priority 3 and Priority 4 remain open and are carried to Cycle 116.** Earlier history —
+**Cycle-116 header update (housekeeping).** Headers brought to Cycle 116; priorities carried forward. The order is unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a terminal 55.0. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. Priorities from Cycle 115 remain open. Earlier history —
 NEGATIVE (R-063)**, on the US sugar tariff-rate quota, and it is the register's **first** execution of a
 construction-first screen; the register's own open question 5 is answered in the same entry: **the family screen
 remains the better unit of work, but the construction-first method is worth running only under a narrower rule** —

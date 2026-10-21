@@ -1,4 +1,4 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–114
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–116
 
 **Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
 no status changed.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md`

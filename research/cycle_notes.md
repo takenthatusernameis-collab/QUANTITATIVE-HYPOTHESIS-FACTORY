@@ -5460,3 +5460,40 @@ Theory-only cycle executing priorities from Cycle 114 handoff. No tests, data ac
 5. **Priority 5 — Monitors and housekeeping. COMPLETE.** Counts re-derived from the files (418 verified sources S-001 … S-438; 15 dossiers; 11 validation specifications; 63 rejections R-001 … R-063; 13 parking records, 12 active; 97-row known-baseline table). Rubric arithmetic re-run clean (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). All five artifact headers brought to "Cycle 115 complete" and read back. This section added to `cycle_notes.md`. Handoff rewritten for Cycle 116 with a fresh initial task message.
 
 **No new candidate created. No score changed.** All four live candidates screened for mechanism-mis-identification; no orthogonality hard-stops found. Dated monitors carried forward: the 2027 interim reporting season; the 1 December 2025 and 1 October 2026 moved RFS deadlines (both passed; V-012's external test partly observable); the 31 March 2027 RFS compliance-year deadline; the IFRS 18 jurisdiction adoption calendar; G-32 limb (c) / G-33 (2027 Q3); G-14 (29 March 2029); R-062's two re-screen conditions.
+
+
+---
+
+## Cycle 116 — 2026-10-21 (pre-registration written BEFORE the first fetch)
+
+Theory-only cycle executing priorities from Cycle 115 handoff. No tests, data acquisition, market-data processing, strategy or signal implementation, workflow or test changes, modification of the canonical prompt, trading, cross-repository work.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) **Priority 1 — replicate the construction-first method under the narrowed rule**, in a new domain (TRQ is baseline row 97; physical-delivery warrants excluded by the baseline). Record domain choice and register-memory check **before any fetch**; run the **state-kind and constraint template screen first** and record its output before the literature; write the construction **blind**; screen it; produce the **second measurement** for comparison with Cycle 114's run. (2) **Priority 2 — G-37's remaining limb**, locate a **named, citable, published regime classifier**; pursue **S-438** on a different host/path form; formally record the two unrecoverable Cycle-113 items as unrecoverable and re-specify G-37's re-screen condition. Do not re-run exhausted routes without a different host/path form. (3) **Priority 3 — IDEA-011's two open limbs**, a **census** of the ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclosures via EU ESEF/XBRL and the national OAMs, and the **early-adopter restated comparative** channel; note 2027 interim reporting season is dated, not due. (4) **Priority 4 — dated monitors and housekeeping**, re-derive counts from files, run rubric arithmetic, update all five artifact headers to "Cycle 116 complete" and read back, add this section to cycle_notes.md, rewrite handoff for Cycle 117 with fresh initial task message.
+
+**Pass 2 — Critique.** Must follow all rules strictly. Domain choice must be made and register-memory check written **before any fetch**. State-kind and constraint template screen must run **first** and be recorded before literature. For G-37, the two Cycle-113 items cannot be recovered (no author/title/year/URL in any artifact) — must record as unrecoverable and re-specify re-screen condition; need named published regime classifier. For S-438, abstract not retrievable — must pursue on different host/path form without guessing content. For IDEA-011 census, "0 of 13" is convenience sample on two routes; need population rate via EU ESEF/XBRL and national OAMs. All artifact updates must be done together. No new candidate creation.
+
+**Pass 3 — Revise.** Execute as pre-registered. Complete all priorities and update all artifacts.
+
+### Priority 1 — Construction-first replication under narrowed rule (pre-registration)
+
+**Phase 0 — domain selection and register-memory check, before any fetch**
+Three domains were considered. Register-memory check against known-baseline table and dossiers:
+
+| Domain | Register-memory check | Verdict |
+| --- | --- | --- |
+| (i) Tariff-rate quotas/import licensing | Baseline row 97 is US sugar TRQ (R-063 from Cycle 114). Already in known-baseline. | **Excluded (already baseline)** |
+| (ii) Physical-delivery warrants/warehouse receipts | Already screened/baseline (inventory channel) per Cycle 6/114 notes. | **Excluded** |
+| (iii) Other mechanism families | Need domain not in baseline table and not matched by state-kind/constraint templates. | **To be selected** |
+
+Must select domain not in baseline table and not matched by state-kind/constraint templates. Record choice and register-memory check before fetch.
+
+### Priority 2 — G-37 remaining limb
+Need named, citable published regime classifier for within-contract time-series funding-return sign flip between reversal/continuation regimes. S-438 (Xuan 2026 SSRN 6872638) abstract not retrievable — pursue on different host/path form (author/institutional repo/XAUUSDT companion/non-SSRN). The two Cycle-113 items "located" have no author/title/year/URL in any artifact and cannot be recovered — record as unrecoverable, re-specify re-screen condition.
+
+### Priority 3 — IDEA-011 open limbs
+Census of ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclosures via EU ESEF/XBRL and national OAMs (convert 0/13 convenience sample to population rate for G-33). Early-adopter restated comparative channel. 2027 interim reporting season dated, not due.
+
+### Priority 4 — Monitors and housekeeping
+Monitors: 2027 interim reporting season, 1 Dec 2025 and 1 Oct 2026 moved RFS deadlines (passed), 31 Mar 2027 RFS compliance deadline, IFRS 18 jurisdiction calendar, G-32 limb (c)/G-33 (2027 Q3), G-14 (29 Mar 2029), R-062 re-screen conditions. Re-derive counts, rubric arithmetic, update all five headers to "Cycle 116 complete" and read back, add section to cycle_notes.md, rewrite handoff for Cycle 117.

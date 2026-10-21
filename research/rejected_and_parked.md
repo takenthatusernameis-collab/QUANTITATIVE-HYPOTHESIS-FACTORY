@@ -5,7 +5,7 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 115 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
+Last updated: **Cycle 116 complete, 2026-10-21.** 63 rejections (R-001 … R-063), 13 parking records of which 12
 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 97-row known-baseline table. Cycle 115 added
 **no rejection, no parking record and no baseline row**, and it **opened no gap and closed no gap**. Cycle 115
 executed **Priority 1** (the mechanism-mis-identification screen applied to IDEA-011, IDEA-004, IDEA-014 and

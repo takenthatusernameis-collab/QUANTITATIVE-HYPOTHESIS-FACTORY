@@ -4,7 +4,7 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 115 complete** (21 October 2026). Cycle 115 added **no new candidate dossier** and **no new
+Last updated: **Cycle 116 complete** (21 October 2026). Cycle 116 updated artifact headers, added Cycle 116 log section, and carried priorities forward. Cycle 115 added **no new candidate dossier** and **no new
 validation specification**; wrote **no new gap** and **closed no gap**; **re-scored no candidate**; and executed
 **Priority 1 (mechanism-mis-identification screen)** applied to the four live candidates, with **no orthogonality
 hard-stops found** (all candidates retain existing hard-stops/constraints). Cycle 115 consumed **no new `S-`,
