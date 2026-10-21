@@ -1,6 +1,6 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–102
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–105
 
-**Cycle 102 update — no specification created, amended, withdrawn or re-created; no status changed.**
+**Cycle 105 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 102's substantive work was **evidence work, not a screen** — a bounded, **pre-registered
 provenance-upgrade operation** over the **thirteen** named targets of the Cycle-101 handoff (**nine now
 fully line-verified**: S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229 and S-237; **six partially

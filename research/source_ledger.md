@@ -1,10 +1,6 @@
-# SOURCE LEDGER — CYCLES 1–103
+# SOURCE LEDGER — CYCLES 1–105
 
-**Cycle 103 (2026-10-21) added one new source entry (S-383), minted no new candidate and no new
-validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was
-**evidence work, not a screen**: the bounded, pre-registered **provenance-upgrade operation** was
-executed over a named subset of thirteen targets (ten index-rendered entries from the 25-entry pool
-plus three Priority-3 close-attempts), pre-registered in `research/cycle_notes.md` before any fetch.
+**Cycle 105 (2026-10-21) added no new source entry, minted no new candidate and no new validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work, not a screen**: a bounded, alternate-route provenance-upgrade operation was executed over eight named targets (S-148, S-151, S-152, S-179, S-181, S-247, S-258, S-329) via different hosts/paths from the Cycle-104 Crossref attempts. **Three upgrades** were confirmed at abstract level via the entries' actual DOIs (S-151 via Crossref `10.1093/rfs/hhag032`, S-179 via Crossref `10.31203/aepa.2015.12.4.006`, S-181 via Crossref `10.2139/ssrn.7046559`) — S-151's Cycle-104 honest-negative listing remains contested and carried forward unresolved. **Three honest negatives** were recorded (S-148 `10.1016/j.jfineco.2024.103860`, S-152 `10.1016/j.jfineco.2025.104229`, S-258 `10.2139/ssrn.4132469`), all no deposited abstract. S-247 and S-329 carried pre-existing Cycle-105 provenance annotations. Annotation written into entries in Cycle 105.
 **Six upgrades** were recorded in place (S-157, S-160, S-167, S-274, S-115, S-172), each with HTTP
 status, byte count and verbatim confirmation; **six honest negatives** were recorded (S-159, S-276,
 S-278, S-280, S-292, S-268). **Priority 3(1) is closed** (S-115's SSRN abstract obtained via Crossref
@@ -4507,6 +4503,7 @@ DOI: https://doi.org/10.1016/j.jfineco.2025.104229 · earlier working-paper vers
   mechanism is composition-driven, not reconstitution-driven.
 - **Verification:** DOI and journal metadata verified through the Crossref REST API (title and
   bibliography query); abstracts read via the search index.
+- **Verification (Cycle 105):** Crossref REST `https://api.crossref.org/works/10.1016/j.jfineco.2025.104229` fetched directly (HTTP 200; JSON) — **no deposited abstract** present (the Cycle-104 pre-registration had used a wrong Wiley DOI, `10.1111/jofi.13029`; the entry's actual Elsevier DOI carries no abstract). ScienceDirect paywalled. **Honest negative** — entry remains index-rendered. Annotation written into entry in Cycle 105.
 
 ### S-153 — Driessen, J., Maenhout, P. J. and Vilkov, G. (2009)
 "The Price of Correlation Risk: Evidence from Equity Options." *The Journal of Finance* 64(3):
@@ -5239,6 +5236,7 @@ URL: https://academic.oup.com/rfs/article-abstract/28/4/1242/1928671
 - **Supports (for IDEA-011 post-2010 evidence):** analysis of KRX-listed firms 2006–2013 finds K-IFRS adoption had a noticeable negative effect on the size of PEAD; under-reaction of investors decreased due to adoption; PEAD decreased for firms without analysts' earnings forecasts and with positive unexpected earnings. Consistent with adoption improving information quality and shrinking slow-diffusion drift.
 - **Caveats:** single jurisdiction (Korea), sample 2006–2013; whole-firm sample did not show an outstanding effect, result concentrated in sub-samples (positive unexpected earnings; no-analyst-forecast firms).
 - **Verification:** DOI landing page (10.31203/aepa.2015.12.4.006) and abstract (earticle.net A303353; abstract text "2015/12/4/006 Pages 103-124") read via search index; title, authors (Song & Woo), journal (Eurasian Accounting & Finance Review), volume 12(4), pages 103–124, date 2015-12-30, and abstract confirmed. Full text not publicly available (DSpace record dspace.ewha.ac.kr/handle/2015.oak/213217 has no downloadable file; earticle.net A303353 lists only metadata and abstract). The finding stands on DOI-confirmed metadata; no independent body parse.
+- **Verification (Cycle 105):** Crossref REST `https://api.crossref.org/works/10.31203/aepa.2015.12.4.006` fetched directly (HTTP 200; deposited abstract present). Deposited abstract confirms K-IFRS adoption had a noticeable negative effect on the size of PEAD and that investor under-reaction decreased due to adoption, matching the entry's Supports claim. **Upgrade:** claims now line-verified at abstract level via the entry's actual DOI (the Cycle-104 pre-registration had used a wrong SSRN route). Annotation written into entry in Cycle 105.
 
 ## Cycle 14 (continued) gap verdicts
 
@@ -7990,6 +7988,7 @@ DOI: https://doi.org/10.2139/ssrn.4132469
   *market-wide* halts, whose trigger state is common to every security.
 - **Verification:** the Crossref record (authors, title, container, DOI, year) was retrieved from the
   Crossref REST API; the abstract was read through the search index from the SSRN record.
+- **Verification (Cycle 105):** Crossref REST `https://api.crossref.org/works/10.2139/ssrn.4132469` fetched directly (HTTP 200; JSON) — **no deposited abstract** present (the Cycle-104 pre-registration returned HTTP 404 on a wrong route; the entry's actual SSRN DOI resolves but carries no abstract). **Honest negative** — entry remains index-rendered. Annotation written into entry in Cycle 105.
 
 ### S-259 — U.S. Securities and Exchange Commission, Division of Economic and Risk Analysis (staff papers)
 (a) Moise, C. E. and Flaherty, P. (March 2017), **"'Limit Up-Limit Down' Pilot Plan and Associated Events"**

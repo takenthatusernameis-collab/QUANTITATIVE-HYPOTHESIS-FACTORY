@@ -28,7 +28,7 @@ defined by the canonical mission prompt, which is **not** to be modified:
    is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-056`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 104`; **Cycle 103 completed its provenance-upgrade operation over its
+   (next: `Cycle 106`; **Cycle 103 completed its provenance-upgrade operation over its
    thirteen named targets (nine fully upgraded, six partial with the unverified parts named, one
    honest negative), closed four of the six Priority-3 open questions, consumed two new source
    identifiers (S-381, S-382), struck one quotation in place, made three material bibliographic

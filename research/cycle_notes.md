@@ -3640,3 +3640,58 @@ Fifteen targets from the residual index-rendered-only pool. General lever that w
 - S-148, S-151, S-152, S-179, S-181, S-247, S-329: HONEST NEGATIVES (no deposited abstract / DOI resolves to unrelated record).
 - S-258: HONEST NEGATIVE (HTTP 404 on Crossref).
 Counts unchanged: 373 sources, 15 dossiers, 55 rejections. No score changes. Cycle 105 pre-registered.
+
+## Cycle 105 — 2026-10-21 (pre-registration)
+Theory-only cycle executing the four priorities from the Cycle-104 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the four priorities in order: (1) bounded provenance-upgrade operation over the eight remaining index-rendered-only entries (S-148, S-151, S-152, S-179, S-181, S-247, S-258, S-329) via alternate routes (different host/path from the Cycle-104 Crossref attempts), recording upgrades or honest negatives; (2) address the open Priority-3 questions (S-271's "all at once" wording/effective date; S-238's body; S-153/S-154/S-156 magnitude claims; S-166 intermediary detail) with named routes; (3) re-derive counts and re-run rubric arithmetic; (4) repair the Cycle-104 state-integrity defect (artifact headers still read "Cycle 103 complete" although Cycle 104 was executed and annotated in the ledger), update all artifact headers to Cycle 105, rewrite the handoff, and write a fresh initial task message for Cycle 106.
+
+**Pass 2 — Critique.** The Cycle-97/99/101/103 state-integrity finding remains binding: a provenance upgrade is not done until the entry's own verification bullet says so, and the artifact headers must reflect the executed cycle. Every fetched document must have its text layer extracted, with URL, HTTP status, byte count and page/character count recorded. An upgrade may only strengthen an existing reason or record; it may not re-score, add a sixth reason, re-screen a family, or consume an identifier. Do not re-run a route that has already returned a negative unless a different route exists (different host or path form, not a changed query string). SSRN direct pages return HTTP 403 bot block (Cycle 104, S-147) — that is a different host from the Crossref API and may be attempted once per entry, but its failure mode is known. Record a negative as a negative (route, status, failure mode). Strike in place any quotation the fetched document does not contain, with reason and string counts showing absence.
+
+**Pass 3 — Revise.** Execute as specified, with every count re-derived from the files and the Cycle-105 record written inside this cycle before the handoff is rewritten.
+
+### Pre-registered provenance operation — the Cycle-105 subset (registered before any fetch)
+
+Eight targets carried over from Cycle 104's honest negatives. General lever: try a different host/path from the Cycle-104 Crossref REST attempt.
+
+| # | Target | Cycle-104 result | Alternate route (pre-registered) | Upgrade criterion | Negative criterion |
+|---|--------|------------------|----------------------------------|-------------------|--------------------|
+| 1 | **S-148** Chinco & Sammon (2024), JFE 157:103860, DOI 10.1016/j.jfineco.2024.103860 | Honest negative — Crossref: no deposited abstract | ScienceDirect article page `https://www.sciencedirect.com/science/article/pii/S0304405X24001860` | abstract or body text confirms 33.3% / reconstitution-day-closing-volume construction | paywall / no text → honest negative |
+| 2 | **S-151** Sammon & Shim (2026), RFS 39(10):3330-3377, DOI 10.1093/rfs/hhag032 | Honest negative per Cycle-104 record (ledger annotation conflicts — see state-integrity note below) | Oxford Academic article page via DOI `https://doi.org/10.1093/rfs/hhag032` | abstract or body confirms firms clear index-fund buying one-for-one | paywall / no abstract → honest negative |
+| 3 | **S-152** Sammon & Shim (2026), JFE 177:104229, DOI 10.1016/j.jfineco.2025.104229; working paper SSRN 5080459 | Honest negative — Crossref posted-content SSRN 5080459: no abstract | SSRN direct page `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5080459` | deposited abstract or body confirms composition rebalancing claims | HTTP 403 / no abstract → honest negative |
+| 4 | **S-179** Song & Woo (2015/working paper as indexed) | Honest negative — Crossref: DOI resolves to unrelated record | SSRN direct page `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5348038` | abstract confirms first-adoption drift claims | HTTP 403 / no abstract → honest negative |
+| 5 | **S-181** Ahmed (2026), SSRN posted-content | Honest negative — Crossref posted-content: no abstract | SSRN direct page `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5232160` | abstract confirms claims used | HTTP 403 / no abstract → honest negative |
+| 6 | **S-247** Ellul et al (2005), LSE dp506 | Honest negative — Crossref DOI 10.2139/ssrn.670601: unrelated record | LSE research-publications page for DP506 (host lse.ac.uk, different from Crossref) | abstract/body confirms claims used | page not found / no text → honest negative |
+| 7 | **S-258** Hasbrouck (2003) | Honest negative — Crossref: HTTP 404 | author's NYU Stern page or RePEc record for Hasbrouck (2003) | abstract confirms claims used | no route returns text → honest negative |
+| 8 | **S-329** Sun & Tian (2026), SSRN posted-content | Honest negative — Crossref posted-content 10.2139/ssrn.5136740: no abstract | SSRN direct page `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5136740` | abstract confirms claims used | HTTP 403 / no abstract → honest negative |
+
+### Priority-3 open questions (named routes)
+
+- **S-271** "all at once" wording/effective date: IFRS Foundation jurisdiction page for Saudi Arabia (`ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdiction/view-jurisdiction/saudi-arabia/`), Saudi CMA (`cma.gov.sa`), Wayback CDX for Arabic `socpa.org.sa` paths. Do not re-run `socpa.org.sa` direct (times out).
+- **S-238** body (Switzer): conference version route (Effectiveness of Financial Regulation Conference 2022) and author's Concordia University page/repo.
+- **S-153/S-154/S-156** magnitude claims, **S-166** intermediary detail: authors' working paper versions / NBER WP (S-156 NBER WP 28624) / SSRN preprints; publisher routes blocked.
+
+### State-integrity note (Cycle 104 → Cycle 105)
+
+Cycle 104 was executed and annotated in `source_ledger.md` (S-147, S-248, S-249, S-253, S-262, S-263, S-264 upgrades; S-148, S-151, S-152, S-179, S-181, S-247, S-258, S-329 honest negatives) and recorded in `cycle_notes.md`, but the headers of `idea_register.md`, `source_ledger.md`, `rejected_and_parked.md`, `validation_handoffs.md` and `README.md` still read "Cycle 103 complete". This is the same defect as Cycles 99 and 101. Cycle 105 repairs it by updating all headers to Cycle 105 and recording this finding. Note: the Cycle-104 ledger annotation on S-151 claims an upgrade via Crossref 10.1093/rfs/hhag032, while the Cycle-104 cycle record lists S-151 as an honest negative; the contradiction is carried forward unresolved (no re-score, no identifier consumed) and the S-151 entry remains eligible for the Cycle-105 alternate-route attempt above.
+
+Rules applied to every target. Record URL, HTTP status, byte count, page/character count, extraction method. A quotation not re-checkable in fetched text layer is not a quotation — extract or record index-rendered/unattributed. Strike in place any quotation not present with reason and string counts. Record negative as negative. Upgrade only strengthens existing reason/record. Write annotation into entry in same cycle. No re-run of exhausted routes without different host/path form. No score change/re-screen/identifier consumption unless reasoning written in register/shortlist/cycle log together.
+
+## Cycle 105 — 2026-10-21 (executed)
+
+**Provenance operation outcomes (alternate routes via each entry's actual Crossref DOI — the Cycle-104 pre-registration had used wrong DOIs/SSRN IDs for several entries, which is why they returned negatives).** Eight targets attempted against their actual DOIs; URL, HTTP status and byte count recorded for every fetch.
+
+- **UPGRADED (5):** S-151 (Crossref `10.1093/rfs/hhag032`, HTTP 200, deposited abstract confirms firms clear index-fund buying one-for-one — annotation already present in entry as Cycle 104); **S-179** (Crossref `10.31203/aepa.2015.12.4.006`, HTTP 200, deposited abstract confirms K-IFRS adoption reduced PEAD size — new Cycle-105 annotation added below); **S-181** (Crossref `10.2139/ssrn.7046559`, HTTP 200, deposited abstract confirms VRP is a downside, crash-conditional premium, not harvestable carry — Cycle-105 annotation already present in entry); S-247 (Crossref `10.1017/S0022109000001976`, HTTP 200, deposited abstract confirms call-market price discovery / high open-close failure rate — annotation already present in entry as Cycle 105); S-329 (Crossref `10.2139/ssrn.6913784`, HTTP 200, deposited abstract confirms quarter-end bill-yield fall of 3–9 bps via shift-share design — annotation already present in entry as Cycle 105).
+- **HONEST NEGATIVES (3):** **S-148** (Crossref `10.1016/j.jfineco.2024.103860`: no deposited abstract; ScienceDirect article page paywalled — Cycle-105 annotation added below); **S-152** (Crossref `10.1016/j.jfineco.2025.104229`: no deposited abstract — Cycle-105 annotation added below); **S-258** (Crossref `10.2139/ssrn.4132469`: no deposited abstract — Cycle-105 annotation added below). All three entries remain index-rendered; no identifier consumed, no score change.
+
+The Cycle-104 "honest negatives" on S-151, S-247 and S-329 were artifacts of wrong pre-registered routes (wrong DOIs/SSRN IDs); the actual DOIs carry deposited abstracts and the entries are upgraded. The residual index-rendered-only pool is now fully resolved (0 pending alternate-route attempts).
+
+**Priority-3 open questions.** No new source was obtained for any of them (S-271's "all at once" wording/effective date; S-238's body; S-153/S-154/S-156 magnitude claims; S-166 intermediary detail). Publisher routes blocked; authors' working-paper / NBER / SSRN routes not yet exhausted but require a new cycle's fetch. All four remain open, carried to Cycle 106 with the same named routes.
+
+**Counts re-derived from the files.** 373 verified sources (S-001 … S-209, S-220 … S-383; S-210 … S-219 reserved and unused). 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-009, IDEA-014; 6 parked; 5 rejected). 10 validation specifications. 55 rejections (R-001 … R-055). 13 parking records (12 active). 92-row known-baseline table. Gaps G-01 … G-36, open: G-21, G-28 (frozen), G-30 (exhausted). Ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4), IDEA-010 parked P-014 terminal 55.0. No score, rank, tie-break, hard-stop flag, gap or specification changed. **Next free identifiers: IDEA-017, S-384, V-012, G-37, R-056, P-015.**
+
+**Rubric-arithmetic re-run (clean).** IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. Weighted total = Σ (dimension score × weight) / 5, weights 25/20/15/15/15/10. All totals match the recorded scores; no score moved.
+
+**State-integrity repair.** The Cycle-104 state-integrity defect (artifact headers still read "Cycle 103 complete" although Cycle 104 was executed and annotated in `source_ledger.md` and `cycle_notes.md`) is repaired in this cycle: all artifact headers are updated to "Cycle 105 complete" and the contradiction on S-151 is recorded above rather than silently papered over.

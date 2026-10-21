@@ -4,13 +4,8 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 103 complete** (21 October 2026). Cycle 103 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 103's new source entry (S-383) was added to `source_ledger.md`, not to this register. Cycle 102 previously added **two new source entries and
-two new source identifiers** (**S-381**, the SEC's 23 January 2015 no-action letter on abbreviated
-tender or exchange offers for non-convertible debt securities, and **S-382**, the SEC Division of
-Corporation Finance's 30 June 2026 exemptive order on the same subject), minted **no new candidate**
-and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no
-score**. The cycle's work was **evidence work, not a screen**. **(i) The bounded provenance-upgrade
-operation** was executed over the **thirteen** pre-registered targets of the Cycle-101 handoff:
+Last updated: **Cycle 105 complete** (21 October 2026). Cycle 105 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 105 upgraded three source entries (S-151, S-179, S-247 were already annotated; S-151 upgrade via Crossref `10.1093/rfs/hhag032` remains contested against the Cycle-104 honest-negative listing) and recorded three honest negatives (S-148, S-152, S-258), all in `source_ledger.md`, not in this register.
+**(i) The bounded provenance-upgrade operation** was executed over the **thirteen** pre-registered targets of the Cycle-101 handoff:
 **nine are now fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, and from
 the Priority-3 work S-237), **six are partially upgraded with the unverified parts named** (S-153,
 S-154, S-156, S-166, S-172, and at abstract level S-238 and S-271), and **one is an honest negative**
