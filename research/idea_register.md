@@ -5533,6 +5533,39 @@ IFRS basis.
   the published 2026 interim reports, S-281 … S-286). The screen bears on the **discriminator**, not on the
   state the candidate trades on.
 
+### Cycle 112 — Priority 1 audit: the R-057 residual is closed (R-058); the dossier's comparator wording is reviewed and left unchanged
+
+- **What this cycle did.** The Cycle-110 handoff named the IASB's published list of entities permitted to
+  apply IFRS early in 2005 as the P-3 screen's one residual. Cycle 110 executed that search and logged the
+  outcome as **R-058** in `rejected_and_parked.md`, but the result was **never written into this dossier**,
+  so the dossier still described the residual as open. This cycle writes it in.
+- **The outcome, as recorded in R-058.** **Bounded negative.** Routes tried: web search over three query
+  forms ("IASB published list entities permitted apply IFRS early 2005", "IASB early adopters 2005 list",
+  "IFRS 1 early adoption list 2005"); inspection of IFRS Foundation historical publications (the 2003 Annual
+  Report, the 2005 Annual Report), IOSCO 2005 statements, and the IFRS 1 standard page and history; and
+  Wayback/archive checks for IASB pages from 2004–2005. **No published firm-level early-adopter registry
+  surfaced.** The framework-level first-adoption facts are published (the dated jurisdiction facts in
+  S-254), but the prospective firm-level list for 2005 could not be located.
+- **Effect on this candidate.** The historical comparator's positive limb is therefore **final**: the
+  "had this firm already applied IFRS before the new standard arrived?" label is derivable **at the
+  decision date** from the jurisdiction's own dated first-adoption fact and **each firm's own published
+  prior-year basis-of-preparation note**, and there is **no third instrument** that would fix it
+  prospectively. The comparator remains **specifiable without a hindsight-classification objection**, which
+  is the property the G-21 hand-off to validation needed, and it is now **closed** rather than open with a
+  named residual. **No re-run of the literature search** (G-21 is exhausted; the register rule forbids
+  re-running exhausted routes).
+- **V-009 review — one superseded-in-place defect found and annotated, no specification amended.** The
+  Cycle-52 block of V-009 item 4 still instructed a validator working an IFRS 18 instance to **pre-register
+  the group A/group B partition**, an instruction the Cycle-56 amendment closed and the Cycle-59 hand-off
+  superseded; the block carried no annotation, so a reader following the specification as written would
+  pre-register a partition the register has rejected. Annotated in place in `validation_handoffs.md` with a
+  dated correction notice. **V-009 is not amended** — the executable set, the pre-registrations, the
+  hypothesis, the cost model and the kill criteria are unchanged, and **no `V-` identifier was consumed**.
+- **What this audit does not change.** **Score 69.0, rank 1, unchanged.** No gap opened or closed, no
+  re-screen triggered, no validation specification created, amended or withdrawn, and no source minted.
+  The candidate's **live** state (enforcement regime, reporting-quality environment in the transition year)
+  is untouched, as is the Cycle-56 prospective arm A and its G-33 dependency.
+
 ---
 
 ---

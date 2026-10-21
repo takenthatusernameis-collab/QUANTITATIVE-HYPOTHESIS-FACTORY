@@ -8610,6 +8610,27 @@ URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdic
   would need — while the *standard-level* label for IFRS 18 is **not** published at all, which is the
   Cycle-109 screen's negative limb (logged as **R-057** in `rejected_and_parked.md`). **No re-score and no
   hard-stop change follow** — this is provenance and a scope correction to the entry's own characterisation.
+  - **Cycle-112 dated re-check (Priority 2; the re-fetch the Cycle-110 handoff pre-registered but never
+    executed).** All four profile PDFs were re-fetched directly on 21 October 2026 and text-extracted with
+    `pypdf`: European Union **HTTP 200, 149,740 bytes, 8 pages, 19,713 characters** (last updated
+    **02 October 2024**); Saudi Arabia **HTTP 200, 126,760 bytes, 6 pages, 14,921 characters** (last
+    updated **28 July 2022**); Nigeria **HTTP 200, 119,901 bytes, 6 pages, 12,870 characters** (last
+    updated **16 June 2016**); Ghana **HTTP 200, 115,469 bytes, 4 pages, 9,175 characters** (last
+    updated **16 June 2016**). **Every byte count matches the Cycle-109 record exactly**, so the documents
+    are the same files; the dated first-adoption facts stand (EU effective 2005; Ghana effective
+    1 January 2007; Nigeria approved 1 January 2012 on 28 July 2010; Saudi Arabia "required for all publicly
+    accountable entities", no first-adoption date, "Additional comments: Not applicable"). **"IFRS 18"
+    returns 0 hits in all four documents and "IFRS 19" returns 0 hits in all four** — the negative limb
+    is unchanged and is now confirmed against a re-extraction rather than against the earlier read. The
+    index page at `https://www.ifrs.org/use-around-the-world/` was re-probed and is now **behind a
+    sign-in wall** ("You need to Sign in to use this feature"), so the 170-jurisdiction count and the
+    filter set could not be re-verified from that route this cycle; the count is therefore carried from
+    Cycle 109 and is **not re-confirmed** here. The IFRS 18 standard page was reached at
+    `https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/`
+    (the `ifrs.org/standards/part-one/...` and `ifrs.org/standards/.../ifrs-18-...` paths return **HTTP
+    404** — a route-correction for any future cycle) and states again: **effective for annual periods
+    beginning on or after 1 January 2027, earlier application permitted**, no jurisdiction adoption
+    calendar published. **R-057 limb A remains negative; no identifier consumed.**
 
 ### S-255 — IFRS Foundation (standard-setter), "IFRS 18 Presentation and Disclosure in Financial Statements"
 URL: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/
