@@ -2688,6 +2688,24 @@ https://www.eea.europa.eu/en/analysis/maps-and-charts/emissions-trading-viewer-1
   state, not for the decision.
 - **Verification:** both pages located and read in this cycle through the search index, with the
   quoted passages returned verbatim.
+- **Cycle-100 verification — UPGRADE: both pages fetched directly and line-verified, with a URL change
+  recorded.** The European Commission's Union Registry page was fetched directly on 21 October 2026 —
+  **HTTP 200, 285,591 bytes** — and the path recorded above now **redirects** to
+  `https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/union-registry_en`
+  (the site's `/eu-action/` → `/areas-action/` path change). The quoted text is present verbatim in the
+  fetched page: "The following information is publicly available on the Union Registry website : Data on
+  free allocation, verified emissions, and compliance status of operators Transactions taking place in
+  the Registry, as well as data on account holders"; and "Transfers of allowances (known as "transactions")
+  performed by account holders Annual verified CO 2 emissions from operators Annual reconciliation of
+  allowances and verified emissions, requiring each company to surrender enough allowances to cover all
+  its verified emissions". The EEA data viewer was fetched directly — **HTTP 200, 1,006,560 bytes** — and
+  carries the quoted sentence verbatim: "The EU ETS data viewer provides aggregated data by country, by
+  main activity type and by year on the verified emissions, allowances and surrendered units." (the
+  entry's quotation stops at "allowances and …"; the fetched sentence continues "surrendered units", and
+  the viewer also states that the data "cover more than 16000 stationary installations, 1600 aircraft
+  operators and 2600 maritime operators"). The verification label moves from **index-rendered** to
+  **line-verified (both pages fetched directly and read)**. **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence, and IDEA-013's data-hazard reasoning is unchanged.
 
 ### S-109 — European Commission, free allocation and the cross-sectoral correction factor
 Implementing Decision (EU) 2021/927 of 31 May 2021 determining the uniform cross-sectoral
@@ -2723,6 +2741,17 @@ https://climate.ec.europa.eu/news-other-reads/news/eu-ets-publication-surrender-
 - **Verification:** both news pages located and read in this cycle through the search index, with
   the quoted sentences returned verbatim, including the publication dates and the authoring
   directorate.
+- **Cycle-100 verification — UPGRADE: both Commission news items fetched directly and line-verified.**
+  The 23 September 2025 item was fetched directly on 21 October 2026 — **HTTP 200, 93,148 bytes** — and
+  carries the quoted sentence verbatim: "The Commission will publish the available surrender and
+  compliance data 2024 on October 6, 2025, at the latest.", together with "News article 23 September
+  2025", "Author Directorate-General for Climate Action" and "Publication date 23 September 2025". The
+  25 September 2026 item was fetched directly — **HTTP 200, 93,008 bytes** — and carries: "The Commission
+  will publish the available surrender and compliance data 2025 on October 6, 2026, at the latest.", with
+  "Publication date 25 September 2026" and "Department Directorate-General for Climate Action". The
+  entry's statement that the 2026 item states the same for the 2025 data with a 6 October 2026 deadline
+  is therefore confirmed. The verification label moves from **index-rendered** to **line-verified (both
+  pages fetched directly and read)**. **No re-score and no hard-stop change follow.**
 
 ### S-111 — Borri, N., Liu, Y., Tsyvinski, A. and Wu, X. (2024, 2025) — the earlier versions of S-101
 "Inefficiencies of Carbon Trading Markets", arXiv:2408.06497 (submitted 12 August 2024, v2 15 August
@@ -2875,6 +2904,21 @@ DOI https://doi.org/10.2139/ssrn.6751741
   revision dates, the abstract and the sample description, and the DOI. A direct fetch of
   `papers.ssrn.com/sol3/papers.cfm?abstract_id=6751741` returned HTTP 403 and was not parsed; the
   DOI resolver rendering was returned instead and is consistent with the SSRN record.
+- **Cycle-100 re-fetch attempt — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The
+  following routes were tried on 21 October 2026: (a) the **DOI resolver**, `https://doi.org/10.2139/ssrn.6751741`
+  — it redirects to `https://www.ssrn.com/abstract=6751741` and returns **HTTP 403** (5,568 bytes), and the
+  returned page contains none of the quoted figures (the strings "Parkinson", "3.6%", "2,056", "898,181"
+  and "phased rollout" all return zero hits); (b) the **OpenAlex REST API**,
+  `https://api.openalex.org/works/doi:10.2139/ssrn.6751741` — it confirms the work's **identity**
+  (title "T+1 Settlement and Market Quality: Evidence from India's Phased Rollout", authors **Kush Shah**
+  and **Niharika Davda**, host "SSRN Electronic Journal", open-access status *green*, `oa_url` = the DOI)
+  but holds **no abstract**; (c) the **Internet Archive** — the CDX index and the replay route could not
+  be run at all, because the archive answered "**Internet Archive: Temporarily Offline**" for the whole
+  session. **The quoted abstract — the 3.6 % Parkinson-volatility reduction (β = −0.000034, p = 0.004),
+  the cap/mid-cap heterogeneity (β = −0.000669, p = 0.005; β = 0.006928, p < 0.001), the 27 weekly
+  batches over 2,056 stocks and the 898,181 stock-day sample — therefore remains index-rendered and is
+  NOT line-verified.** The entry's bibliographic identification is confirmed against a publisher-side
+  record; nothing else about it is upgraded. This entry is unchanged in substance and is not re-scored.
 
 ### S-116 — Marshall, D. A. and Steigerwald, R. S. (2013) — "The role of time-critical liquidity in financial markets"
 *Economic Perspectives* (Federal Reserve Bank of Chicago) **37**(2), Q2 2013, 17 pp.
@@ -2894,6 +2938,26 @@ https://www.chicagofed.org/publications/economic-perspectives/2013/2q-marshall-s
 - **Verification:** the Chicago Fed article page and the article PDF were both returned by the search
   index with the title, authors, volume/issue, the abstract, and the quoted passages read in the
   returned text; an SSRN mirror record (abstract id 2386107) was also located.
+- **Cycle-100 verification — UPGRADE: the article PDF is now fetched directly and line-verified.** The
+  Chicago Fed landing page was fetched directly on 21 October 2026 — **HTTP 200, 72,823 bytes** — and
+  confirms the bibliographic record in the fetched text: "Economic Perspectives , Vol. 37, 2nd, 2013 The
+  Role of Time-Critical Liquidity in Financial Markets By David Marshall , Robert Steigerwald". The
+  article's own PDF was then fetched directly from
+  `https://www.chicagofed.org/-/media/publications/economic-perspectives/2013/2q2013-part1-marshall-steigerwald-pdf.pdf`
+  — **HTTP 200, 772,959 bytes, application/pdf, 17 pages, 86,337 characters** text-extracted with pypdf and
+  read. **Both quoted passages are present verbatim**: "a settlement payment, delivery of securities, or
+  transfer of collateral must be made at a particular location, in a particular currency (or securities
+  issue), and in a precise time frame measured not in days, but in hours or even minutes"; and "the
+  deadlines governing time-critical payments typically are "hard," with little room for flexibility and
+  with no possibility of renegotiating the settlement obligation" (the fetched text carries the quoted
+  word in curly quotation marks and a line-break hyphen inside "renegotiating"). The PDF also confirms
+  the article's own framing of the funding windows the entry describes ("Examples of time-critical
+  liquidity requirements … include the settlement process at the Depository Trust Company (DTC), the
+  funding time frame for CLS Bank, and the tight restrictions on the timing of required variation
+  settlements in derivatives clearinghouses"). The verification label moves from **index-rendered** to
+  **line-verified (PDF fetched directly and read)**; the entry's URL remains the landing page and the PDF
+  path is added here. **No re-score and no hard-stop change follow** — this is provenance, not new
+  evidence, and G-11's verdict is untouched.
 
 ### S-117 — Federal Reserve Bank of New York, Global Foreign Exchange Division (2024) — "UST1 Update", FX Committee meeting, 22 May 2024
 https://www.newyorkfed.org/medialibrary/microsites/fxc/files/2024/T1_Update_May_2024.pdf
@@ -2960,6 +3024,21 @@ https://www.tradersmagazine.com/am/t1-triggers-an-fx-tech-evolution-not-revoluti
   *market-structure documentation*, not as a quantitative input.
 - **Verification:** the article was located through the search index, which returned the title, the
   date (21 May 2024), the author attribution, and the quoted passages read in the returned text.
+- **Cycle-100 verification — UPGRADE: the article is now fetched directly and line-verified.** The page
+  was fetched directly on 21 October 2026 — **HTTP 200, 344,600 bytes** — and **all three quoted passages
+  are present verbatim**: "As there are no global markets open during this time, roughly, less than 1% of
+  trades in the $7 trillion OTC FX market are carried out in this window which makes execution quite
+  costly. This cost is exacerbated at 5pm (EST), when most of the large investment banks shutdown their
+  market making pricing engines for anywhere up to 30 minutes."; "As a consequence, bid/ask spreads widen
+  and liquidity shrinks"; and the article's own window definition ("the equity market close, and the
+  Continuous Linked Settlement (CLS) 6pm (EST) window"). The **byline is confirmed** in the fetched
+  text: "By SGX FX May 21, 2024 By Scott Gold, Head of Sales, Americas at SGX FX" — i.e. the entry's
+  author attribution "SGX FX" is the publisher's own by-line, with a named individual author behind it.
+  The verification label moves from **index-rendered** to **line-verified (page fetched directly and
+  read)**. The entry's caveat that the "<1% of daily volume" figure is the publisher's own
+  characterisation and is not sourced to a data provider **stands and is unchanged** — nothing in the
+  fetched page attributes it to a data vendor. **No re-score and no hard-stop change follow** — this is
+  provenance, not new evidence, and G-11's verdict is untouched.
 
 ### S-120 — ValueExchange (2024) — "The T+1 Playbook", August 2024
 https://thevx.io/wp-content/uploads/2024/08/T1-from-start-to-finish_ValueExchange-playbook.pdf
@@ -2978,6 +3057,25 @@ https://thevx.io/wp-content/uploads/2024/08/T1-from-start-to-finish_ValueExchang
 - **Verification:** the report PDF was located through the search index and the quoted passages —
   including the affirmation-rate table and the FX/funding-gap section — were read in the returned
   document text.
+- **Cycle-100 verification — UPGRADE: the report PDF is now fetched directly and line-verified.** The PDF
+  at the URL recorded above was fetched directly on 21 October 2026 — **HTTP 200, 3,599,054 bytes,
+  application/pdf, 42 pages, 31,022 characters** text-extracted with pypdf and read. **All six quoted
+  passages are present verbatim**: "The US saw a market affirmation rate of 93-95%, well above earlier
+  forecasts and expectations."; "Margin requirements for clearing participants were reduced by 30-40% -
+  within the target, forecasted range."; "Fail rates across the market did not dramatically increase,
+  although some saw a small uptick in fails"; "The extended cut-offs offered by the global custodians to
+  offset CLS not changing their own deadline was seen as a large factor in the success of the migration
+  from an FX perspective"; "Spreads for European ETFs investing into the US grew – especially on
+  Thursdays – due to higher funding costs"; and "Signs of ETFs trading at a slight premium to accommodate
+  the additional funding requirements." The fetched document also confirms the report's date and
+  character ("T+1 from start to finish", a publisher's after-action deck) and its own survey instrument
+  (a "What did you expect…" / "No impact / Little impact / Some impact / Significant impact" question
+  grid over "Trade fail rates, Securities lending activity, Regulatory capital requirements,
+  Middle / Back office headcounts, Funding / margining requirements"), which is the substance of the
+  entry's caveat that the numbers are the authors' own and unaudited. The verification label moves from
+  **index-rendered** to **line-verified (PDF fetched directly and read)**. The caveat that this is a
+  practitioner report without an audited methodology **stands**. **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence.
 
 ### S-121 — European Commission (2024) — Notice of the total number of allowances in circulation for 2023
 Communication C/2024/3415, *Official Journal of the European Union*, 3 June 2024.
@@ -4569,6 +4667,27 @@ URL: https://www.sec.gov/files/roundtable-options-market-structure.pdf
 - **Caveats:** staff presentation material — descriptive counts, not tests; a direct fetch returned
   HTTP 403, so the figures were read through the search index.
 - **Verification:** URL and figures read via the search index; SEC direct fetch returned HTTP 403.
+- **Cycle-100 verification — UPGRADE: the supporting-data PDF is now fetched directly and line-verified.**
+  The SEC's own file server was reached on 21 October 2026 with a compliant User-Agent:
+  `https://www.sec.gov/files/roundtable-options-market-structure.pdf` — **HTTP 200, 2,118,668 bytes,
+  application/pdf, 26 pages, 48,586 characters** text-extracted with pypdf and read. **The entry's three
+  quoted facts are confirmed**, each against the document's own words: (i) the 0DTE share — "The share of
+  options trading that occurs on the day of their expiration has increased steadily **rising from 19.6%
+  at the beginning of 2022 to 28% (+8.4%) by 2025**. As of the end of 2025, over a quarter of all traded
+  contract volume occurred on expiration date."; (ii) the breadth — "The increased breadth of options
+  trading means that **by the end of 2025 the majority (69.5%) of listed equities had at least one options
+  contract trade**"; (iii) the concentration in single names — "Notably, single-name underlier equities
+  such as **TSLA, NVDA, and AAPL** also appear among the leaders, highlighting the appeal of short-dated
+  strategies in both broad market and stock-specific contexts." The document's own framing is more
+  precise than the entry's, and the entry is aligned to it: the 28 % figure is the **share of options
+  trading that occurs on the day of expiration** (i.e. of options contract volume), not "of total options
+  volume" in the sense of an underlying's turnover; the entry's wording "reached 28% of total options
+  volume by 2025" is therefore **narrowed to the document's own formulation**. The earlier SEC direct
+  fetch that returned HTTP 403 was made without a declared contact User-Agent; **with a compliant
+  User-Agent the same URL returns 200**, which is the operational lesson for any future SEC fetch. The
+  verification label moves from **index-rendered** to **line-verified (PDF fetched directly and read)**.
+  **No re-score and no hard-stop change follow** — G-05's verdict is untouched, and the caveat that
+  these are descriptive counts rather than tests **stands**.
 
 ### S-170 — Keyrock (2026) — token-unlock event study (market-maker research, quoted in a public
 unlock-calendar service)
@@ -4977,6 +5096,31 @@ URL: https://edgarhawk.com/insider-transactions
   direct fetches in this cycle, so the "remaining shares" footnote is **index-rendered and not
   independently verified**; nothing here is evidence of a price effect.
 - **Verification:** search-index render only.
+- **Cycle-100 verification — PARTIAL: the page is fetched directly, but it is a LIVE tracker and the
+  entry's dated figures are no longer in it; two items are struck in place.** The page was fetched
+  directly on 21 October 2026 — **HTTP 200, 419,267 bytes** — and the *structure* of the source is
+  confirmed: "Every transaction reported on an SEC Form 4, as it is filed. Each row shows whether the
+  trade ran on a pre-arranged 10b5-1 plan or was a decision somebody made that day, and links to the
+  filing it came from", with the per-row fields "Basis Rule 10b5-1 plan" and "Accession … View on SEC
+  EDGAR" present, and with the day's own summary line ("Oct 20, 2026 · 21:58 ET Filed Oct 20 255 Form 4
+  filings that day Buying 25 Acquisitions Selling 52 Dispositions Pre-arranged 30 58% of sales ran on a
+  10b5-1 plan" and "Showing 100 of 8,106 filings · last 30 days"). **The entry's date-stamped figures
+  for 16 October 2026 are STRUCK, because they are not in the fetched document**: the strings "16 Oct,
+  2026" and "389 Form 4" return **zero** hits, and the occurrences of "78" in the fetched text are dollar
+  amounts (e.g. "@ $78.53 avg"), not counts — the entry's "78 of 101 dispositions (≈77 %)" cannot be
+  reproduced. **The "remaining shares" footnote is also STRUCK**: the strings "remaining shares
+  available to be sold" and "terminates automatically" return **zero** hits in the fetched page, so the
+  quoted footnote "1,792 remaining shares available to be sold and terminates automatically on July 3,
+  2026" is **not** attested by the document as it stands. The entry's *mechanism* claim — that a public
+  aggregator reports Form 4 filings with per-filing 10b5-1 plan flags, and that plan sales are the
+  large majority of insider sales in the modern record — is **confirmed at the fetched date** (58 % of the
+  20 October 2026 dispositions were pre-arranged plan sales, against the entry's ≈77 % for 16 October
+  2026; **the two are different day-samples and must not be compared as a series**). The verification
+  label moves from **search-index render only** to **line-verified for the page's structure and its
+  current-day figures, with the entry's 16 October 2026 figures and the remaining-shares footnote struck
+  as not reproducible**. A live page is a **moving target**: any future use must cite the fetch date and
+  re-read the numbers, never reuse a previously quoted day's counts. **No re-score and no hard-stop
+  change follow** — IDEA-015's magnitude context is unchanged and this is not a price claim.
 
 ---
 
@@ -5465,6 +5609,39 @@ URL: https://www.ecfr.gov/current/title-40/chapter-III/subchapter-C/part-80/subp
 - **Verification:** the eCFR section URL was reached (HTTP 200 with navigation chrome) and the
   structure of § 80.1405 was read via the search-index rendering; direct versioned-API retrieval was
   attempted and failed (HTTP 406/404).
+- **Cycle-100 verification — UPGRADE: the section text is now fetched directly and line-verified through
+  a working eCFR route, with one correction.** The eCFR **renderer** endpoint,
+  `https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-40?part=80&section=80.1405`,
+  was fetched directly on 21 October 2026 — **HTTP 200, 18,171 bytes, text/html** — and its text layer
+  (4,763 characters after script/style stripping) is the **full section text of 40 CFR 80.1405**, not
+  navigation chrome. (The **versioner** endpoint still refuses requests — `…/api/versioner/v1/full/…`
+  returns **HTTP 406** — so the renderer, not the versioner, is the route.) **Confirmed verbatim**:
+  the table heading "Table 1 to Paragraph (a)—Annual Renewable Fuel Standards" with the columns
+  "Cellulosic biofuel standard (%) | Biomass-based diesel standard (%) | Advanced biofuel standard (%)
+  | Renewable fuel standard (%) | Supplemental total renewable fuel standard (%)"; the equation block
+  "Except as specified in paragraph (c) of this section, EPA will calculate the annual renewable fuel
+  percentage standards using the following equations"; the defined terms **"GEi = Amount of gasoline
+  projected to be exempt for year i, in gallons, per §§ 80.1441 and 80.1442"** and **"DEi = Amount of
+  diesel fuel projected to be exempt for year i, in gallons, per §§ 80.1441 and 80.1442"** — the
+  entry's "exempted gasoline and diesel (GEi, DEi)" claim is therefore **confirmed**; and the
+  small-refinery-exemption reallocation terms "SRERV BBD,i = Small refinery exemption reallocation
+  volume for biomass-based diesel for year i, in gallon-RINs" (and the AB and RF terms). **ONE
+  CORRECTION, recorded in place:** the entry's phrase "the annual volume requirements **in billion
+  RINs**" is **not** how the regulation states them — the string "billion RINs" returns **zero** hits in
+  the fetched text; the regulation sets the standards as **percentages** in Table 1 and expresses the
+  volume terms in **gallon-RINs** ("RFV CB,i = Annual volume of cellulosic biofuel required by 42 U.S.C.
+  7545(o)(2)(B) for year i … in gallon-RINs"), and the **billion-RIN figures are the agency's summary
+  presentation (S-203)**, not the regulation's. The entry's "percentage-standard formulas" and "small
+  refinery exemption reallocation volumes" claims are **confirmed**. **A dated observation that bears on
+  G-20 and on IDEA-014's state:** the fetched current text carries standards **2010 → 2027** (2026:
+  0.79 / 5.24 / 6.42 / 15.50 %; 2027: 0.84 / 5.37 / 6.61 / 15.78 %) and the string "2028" returns
+  **zero** hits — so the instrument that publishes the *next* compliance year's volume requirement is
+  the one that must be watched, exactly as the entry says, and at the fetch date the 2028 standards are
+  **not yet** in § 80.1405. The entry's caveat about the numbers used in the register's G-20 arithmetic
+  is **corrected in its second half**: they are still sourced from S-201 and S-203, but the *structure*
+  they describe is now read from the regulation itself. The verification label moves from
+  **index-rendered** to **line-verified (section text fetched directly and read)**. **No re-score and no
+  hard-stop change follow** — G-20 and IDEA-014's route are **strengthened, not re-opened**.
 
 ### S-203 — U.S. Environmental Protection Agency (2026)
 "Final Renewable Fuel Standards for 2026 and 2027." Agency rule-summary page.
@@ -5622,6 +5799,44 @@ URL: https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2025/02
   market claim; the underlying rule text was not read (S-207).
 - **Verification:** search-index render of the Clifford Chance PDF (title, date, and the quoted rule
   mechanics).
+- **Cycle-100 verification — UPGRADE: the document is now fetched directly and line-verified, with a URL
+  correction and two items struck.** The URL recorded above returns **HTTP 404** (the document has been
+  moved): the working PDF path **capitalises "US"** —
+  `https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2025/02/managing-your-bond-liabilities-under-US-securities-law-a-guide-for-non-US-issuers.pdf`
+  — and it was fetched directly on 21 October 2026: **HTTP 200, 373,693 bytes, application/pdf, 6 pages,
+  17,903 characters** text-extracted with pypdf and read. The HTML rendering of the same note
+  (`https://www.cliffordchance.com/briefings/2025/02/managing-your-bond-liabilities-under-us-securities-law--a-guide-.html`)
+  was also fetched directly (**HTTP 200, 200,559 bytes**) and carries the same text. **Confirmed verbatim
+  in the fetched document**: the 20-business-day minimum ("Subject to certain exemptions, Rule 14e-1 of
+  Regulation 14E stipulates, among other procedural requirements, that tender offers: • must remain open
+  for a minimum of 20 business days" — the space inside "must" is a kerning artefact of the PDF text
+  layer); the 10-day change rule ("must remain open for a minimum of 10 days following either o a change
+  in the percentage of the class of securities sought; or o a change in the consideration offered for the
+  securities"); the "early bird" step-down ("Due to Rule 14e-1(b), which requires that 10 business days'
+  notice be given of any changes in price, these are typically structured at the outset as "10+10" offers,
+  in the sense that the early bird payment lasts for the initial 10 days, and then steps down on the
+  eleventh day to the lower tender price"); the announcement requirement ("debt tender offers by SEC
+  registrants must be announced to the public through a combination of press releases and filings within
+  the SEC's EDGAR system"); the 1986 relief ("Beginning in 1986, the SEC provided targeted relief from the
+  20 business day offer period for certain all-cash, non-convertible, investment-grade debt tender
+  offers"); and the 2015 no-action letter ("In January 2015, the SEC expanded and formalised this position
+  with a no-action letter describing the conditions under which a debt tender offer or an exchange offer
+  may be structured to take advantage of an abbreviated five-day offer period (an abbreviated offer)").
+  **Two items carried by this entry are STRUCK, because they are not present in the fetched document**:
+  (i) **"guaranteed delivery of tenders by the close of business on the second business day after
+  expiration"** — the strings "guaranteed delivery", "close of business" and "second business day" return
+  **zero** hits in the extracted text of all six pages, so this mechanic is **not** attested by this note;
+  it belongs to a different rule and must be re-sourced before it is used. (ii) The parenthetical
+  **"(7–10 calendar days)"** attached to the abbreviated investment-grade cash tender — the string
+  "calendar day" returns **zero** hits; the document's own words are "an abbreviated **five-day** offer
+  period" for the 2015 letter, and the 1986 relief is described **without any day count**, so the
+  day-count is removed and the document's wording substituted. The verification label moves from
+  **index-rendered** to **line-verified (PDF and HTML renderings both fetched directly and read)**. The
+  entries' *role* is unchanged: it is a practitioner note and is used only for mechanics, never for a
+  market claim. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
+  Note for the next cycle: the two items S-207 also could not find in 17 CFR 240.14e-1 are confirmed here
+  to be **absent from this practitioner note as well**; they therefore need a *different* source (a
+  Schedule TO or a tender-offer document, or the staff position itself), not a re-read of S-208.
 
 ### S-209 — Mayer Brown (2024)
 "Liability management" (practitioner note, April 2024).
@@ -5634,6 +5849,30 @@ URL: https://www.mayerbrown.com/-/media/files/perspectives-events/events/2024/04
 - **Caveats:** practitioner guidance; descriptive of structures, not of price effects.
 - **Verification:** search-index render of the Mayer Brown PDF (title, date, and the quoted
   structure/mechanics).
+- **Cycle-100 verification — UPGRADE: the document is now fetched directly and line-verified, with two
+  qualifications.** The PDF at the URL recorded above was fetched directly on 21 October 2026 — **HTTP
+  200, 1,272,355 bytes, application/pdf, 56 pages, 32,972 characters** text-extracted with pypdf and
+  read. **Confirmed verbatim**: the fixed-price route ("The price may be fixed, may be at a fixed spread to
+  an identified treasury security or may be based on "Dutch auction" procedures"); the waterfall and
+  any-and-all structures ("The offer may be for "any and all" of the outstanding securities of one or
+  more series or may be for a maximum principal or purchase amount"; "the securities may be purchased
+  pursuant to a "waterfall""); the make-whole comparison ("Make-whole > 60% 25-60% 15 – 25% of Security to
+  be Retired"); and the entry's quoted observation, verbatim: "Typically able to purchase securities
+  cheaper than redemption/make-whole options". **Two qualifications are recorded in place.** (i) The entry
+  describes the document as a "practitioner note"; the fetched document is a **slide deck** — "Overview of
+  Liability Management Transactions", 11 April 2024, with named presenters (John Berkery, John Ablan,
+  Remmelt Reigersman) — so the description is corrected to a practitioner **presentation**, which is a
+  weaker form of evidence for a mechanical claim than a signed note. (ii) The entry's phrase "**Dutch/
+  modified-Dutch auctions for non-US holders**" is **not** attested as written: the strings "Modified
+  Dutch" and "reverse Dutch" return **zero** hits in the extracted text, and the document's only
+  non-US-holder statement is about *exchange* offers ("Although an exchange offer could be restricted to
+  Qualified Institutional Buyers (as defined in Rule 144A) or non-US persons (within the meaning of
+  Regulation S) so long as other holders of the subject securities have the option to receive cash in
+  an amount equal to the approximate value of the exchange offer consideration"), not about a Dutch
+  auction. The phrase is therefore **narrowed to what the document supports**: Dutch-auction pricing
+  procedures and a separately stated restriction of *exchange* offers to QIBs or non-US persons. The
+  verification label moves from **index-rendered** to **line-verified (PDF fetched directly and read)**.
+  **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ---
 
@@ -5773,6 +6012,7 @@ implementation relies on it.
 - **Verification:** read **only through search-index renders** of the Federal Reserve's reporting-resources material and the FFIEC National Information Center data-download documentation (including its statement that the data "are made available as received from reporting institutions" and are subject to change before the 45-calendar-day Y-9 deadline). **Cycle-97 re-fetch attempt — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** The following direct routes were tried on 21 October 2026 and all failed: `https://www.federalreserve.gov/reportforms/form9c.htm` → **HTTP 404, 82,134 bytes (text/html)**; `https://www.federalreserve.gov/reportforms/form9c.pdf` → **HTTP 404**; `https://www.federalreserve.gov/reportforms/form9c-instructions.pdf` → **HTTP 404**; `https://www.federalreserve.gov/apps/ffiec/Default.aspx` → **HTTP 404**; `https://www.ffiec.gov/nic/` → **HTTP 403, 244,402 bytes**; and Wayback Machine mirrors of `form9c.htm` and `ffiec.gov/nic/` → **HTTP 404**. The FR's reporting-forms listing has been restructured and no longer serves the FR Y-9C page at the documented URL. **The 40/45-calendar-day submission deadlines therefore remain index-rendered and are NOT line-verified**; they must be re-verified against the current FR Y-9C instructions before any implementation depends on them. This entry is unchanged in substance and is not re-scored.
 - **Caveats:** index-rendered only; the day counts must be re-verified against the FR Y-9C instructions before use. This covers bank holding companies only; broker-dealer and asset-manager AP disclosure is **not** covered here and is logged in G-27.
 - **Supports:** G-23's cadence limb.
+- **Cycle-100 verification — UPGRADE: the FR Y-9C instructions are now fetched directly and line-verified, by a route that did not exist when this entry was written; one part of the entry is corrected.** The Federal Reserve's reporting-forms material has been **restructured into an application**; the documented paths (`/reportforms/form9c.htm`, `form9c.pdf`, `form9c-instructions.pdf`) and the FFIEC National Information Center (`ffiec.gov/nic/`) still return 404/403, as the Cycle-97 attempt recorded. The **new route** is the Board's reporting-forms application itself: the form's index page `https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-9C` was fetched directly on 21 October 2026 — **HTTP 200, 161,871 bytes** — and the **FR Y-9C instructions (June 2026 edition)** were fetched directly from the application's own download endpoint (`/apps/reportingforms/Download/DownloadAttachment?guid=e923e1b8-45bd-44ca-9670-b23d0b0a3dd0`) — **HTTP 200, 4,204,476 bytes, application/pdf, 618 pages, 2,755,067 characters** text-extracted with pypdf and read. **The 40/45-calendar-day deadlines are confirmed verbatim**: "The Consolidated Financial Statements for Holding Companies (FR Y-9C) are required to be submitted as of March 31, June 30, September 30, and December 31. The submission date for holding companies is **40 calendar days** after the March 31, June 30, and September 30 as of dates unless that day falls on a weekend or holiday (subject to timely filing provisions). The submission date for holding companies is **45 calendar days** after the December 31 as of date. For example, the June 30 report must be received by August 9, and the December 31 report by February 14." The same document adds: "The term "submission date" is defined as the date by which the Federal Reserve must receive the holding company's FR Y-9C. If the submission deadline falls on a weekend or holiday, the report must be received on the first business day after the Saturday, Sunday, or holiday. … No extensions of time for submitting reports are granted." The **cadence** is also confirmed on the index page: "Frequency: Quarterly, as of the last calendar day of the quarter." **CORRECTION — the public-availability half of this entry does not stand as written.** The fetched index page's own "Public Release" sentence reads: "Data are published in the Federal Reserve Bulletin and the Federal Reserve's Uniform Bank Holding Company Performance Report (BHCPR). With certain exceptions, microdata are considered public information and are available through the Board's **Freedom of Information Office**." It does **not** name the FFIEC National Information Center, and the strings "National Information Center" and "made available as received" return **zero** hits in the 618-page instructions; the "public data are released with a further lag and remain subject to revision until the deadline" statement therefore remains **unverified against a fetched document** and is now marked as such rather than carried as a verified fact. The verification label moves from **index-rendered** to **line-verified for the submission deadlines and the quarterly cadence; the public-availability wording is corrected and narrowed to the Board's own statement**. This **strengthens G-23's cadence limb** (the state is quarterly and lagged) and **does not re-open** it. **No re-score and no hard-stop change follow.**
 
 ### S-227 — European Commission (Directorate-General for Taxation and Customs Union), "Price of CBAM certificates".
 - **Type and relevance:** primary regulator publication page for the CBAM family screen (R-016). The certificate price "reflects the average price of EU Emissions Trading System (EU ETS) allowances" and is calculated as "the weighted average of the auction clearing prices of the auctioned EU ETS allowances". For 2026 the Commission publishes **four quarterly prices** — Q1 2026 €75.36 (published 7 April 2026), Q2 2026 €75.28 (published 6 July 2026), Q3 2026 €82.32 (published 5 October 2026), and Q4 2026 to be published 4 January 2027 — each applying to sales of certificates for emissions in the corresponding quarter. **From 2027 the price is published weekly**, and from February 2027 all certificates are purchased on the common central platform (Regulation (EU) 2023/956 Article 20; Commission Implementing Regulation (EU) 2025/2548).
@@ -5791,12 +6031,44 @@ implementation relies on it.
 - **Verification:** both documents were read through **search-index renders**. A trade-press confirmation (Light Metal Age, 5 October 2026) gives the same 97.5 %-of-benchmark free allocation for 2026 with a worked aluminium example (1.870 t CO₂e/t default value less 1.387 t free allocation = 0.483 t) — corroboration only, not verification.
 - **Caveats:** the EPRS briefing is a secondary institutional summary; the Commission's own note that the CSCF values in Table 2-1 are preliminary applies. **A naming trap must be flagged**: two conventions circulate for the same number — the Directive's "CBAM factor" is the free-allocation *retention* factor (97.5 % in 2026), while the *obligation* share is its complement (2.5 % in 2026). Any implementation must state which convention it uses.
 - **Supports:** R-016 — the near-zero-by-construction size of the obligation in the near term and its dated growth.
+- **Cycle-100 re-fetch attempt — NEGATIVE, recorded as an honest failed route, NOT an upgrade.** Three
+  URL forms on the European Parliament's own document server were tried on 21 October 2026 —
+  `https://europarl.europa.eu/RegData/etudes/BRIE/2026/789377/EPRS_BRI(2026)789377_EN.pdf`,
+  `https://www.europarl.europa.eu/RegData/etudes/BRIE/2026/789377/EPRS_BRI(2026)789377_EN.pdf` and the
+  URL-encoded form, plus the think-tank document page
+  `https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2026)789377` — and **all four returned
+  HTTP 202 with a zero-byte body** (the server is generating the document asynchronously and never
+  delivered it within the request). No other route was tried this cycle. **The free-allocation
+  percentages (97.5 % / 95 % / 90 % / 77.5 % / 51.5 % / 39 % / 26.5 % / 14 %) and the CBAM-factor
+  complement therefore remain index-rendered and are NOT line-verified**; the entry is unchanged in
+  substance and is not re-scored, and R-016's verdict is untouched. **Note for the next cycle**: the
+  same server served the *Commission's* CBAM material in this and earlier cycles (S-227, S-228), so an
+  asynchronous 202 is a property of this host, not a property of the document; the EUR-Lex or the
+  Commission copy of Guidance Document No. 4 would be a different route, not a repeat.
 
 ### S-230 — Umweltbundesamt (German Environment Agency) and Deutsche Emissionshandelsstelle (DEHSt), CBAM definitive-regime material on the authorised CBAM declarant, the certificate holding requirement and the consequences of non-compliance.
 - **Type and relevance:** primary regulator material establishing the **participant and the constraint** for the family: an authorised CBAM declarant that fails to hold the required certificates risks the loss of its authorised-declarant status for serious or repeated infringement. That enforcement edge is what makes the purchase obligation binding rather than advisory, and it is the one element of the CBAM family that passes the register's "participant and constraint" test.
 - **Verification:** read through a **search-index render** of the DEHSt's CBAM pages; not fetched directly.
 - **Caveats:** index-rendered only; German-language source; the enforcement consequence must be confirmed against Regulation (EU) 2023/956 itself before it is relied upon.
 - **Supports:** R-016 — the constraint that makes the flow mandatory, and the reason the family is a genuine compliance-deadline family even though its flow is not tradeable.
+- **Cycle-100 verification — UPGRADE: the DEHSt's own CBAM sanctioning page is now fetched directly and
+  line-verified; the entry's enforcement edge is confirmed in the authority's own words.** The page
+  `https://www.dehst.de/DE/Themen/CBAM/CBAM-sanktionierung/cbam-sanktionierung_node.html` was fetched
+  directly on 21 October 2026 — **HTTP 200, 50,389 bytes** — and carries, verbatim: "Bitte beachten Sie,
+  dass **ein schwerwiegender oder wiederholter Verstoß gegen die Verpflichtung zur Abgabe von
+  CBAM-Zertifikaten zum Widerruf Ihrer Zulassung als CBAM-Anmelder führen kann (Artikel 17 Absatz 8
+  CBAM-Verordnung)**" — i.e. a serious or repeated breach of the certificate-surrender obligation can
+  lead to the **withdrawal of the authorised-declarant status**. The same page also confirms the
+  surrender date and the sanction: "Geben Sie als zugelassener CBAM-Anmelder bis zum **30.09.** eines
+  Jahres, **erstmalig zum 30.09.2027 für das Jahr 2026**, nicht die Anzahl an CBAM-Zertifikaten ab …
+  wird Ihnen eine Sanktion auferlegt (Artikel 26 Absatz 1 CBAM-Verordnung). Die Sanktion beträgt …
+  **100 Euro pro ausgestoßener Tonne Kohlendioxidäquivalent**". The entry's caveat that the consequence
+  "must be confirmed against Regulation (EU) 2023/956 itself before it is relied upon" **stands as
+  written** — the DEHSt page *cites* Article 17(8) and Article 26(1), and the Regulation itself was not
+  read in this cycle; what is now verified is the *authority's own statement of the consequence*, which
+  is what the entry's "participant and constraint" argument rests on. The verification label moves from
+  **index-rendered** to **line-verified (DEHSt page fetched directly and read)**. **No re-score and no
+  hard-stop change follow** — R-016's verdict is **strengthened, not reopened**.
 
 ---
 
@@ -6040,6 +6312,37 @@ relies on it.
 - **Supports:** G-27 limb 1 (route selection — a candidate cannot use BrokerCheck or FINRA's aggregate
   tables for firm-level state) and the register's decision to treat the FOCUS/10-Q/FR Y-9C filings as
   the only firm-level routes.
+- **Cycle-100 verification — UPGRADE (the rule text is now fetched directly and confirms the negative
+  half); one element of the entry is struck.** Two FINRA pages were fetched directly on 21 October 2026:
+  **Regulatory Notice 09-66** (`https://www.finra.org/rules-guidance/notices/09-66`) — **HTTP 200,
+  104,790 bytes** — whose own title is "SEC Approves Changes to FINRA's BrokerCheck Disclosure Rule to
+  Retain and Make Publicly Available Information About Final Regulatory Actions Against Former
+  Brokers", with "Published Date: November 19, 2009" and "Effective Date: November 30, 2009" and the
+  executive summary "Beginning November 30, 2009, information concerning final regulatory actions
+  against brokers—as well as certain administrative information (e.g., employment and registration…"
+  present in the fetched text; and **FINRA Rule 8312** (`https://www.finra.org/rules-guidance/rulebooks/finra-rules/8312`)
+  — **HTTP 200, 115,168 bytes** — whose paragraph (b)(2) enumerated release set is confirmed verbatim:
+  "(A) any information reported on the most recently filed Form U4, Form U5, Form U6, Form BD, and Form
+  BDW (collectively "Registration Forms"); (B) currently approved registrations; (C) summary information
+  about certain arbitration awards against a BrokerCheck Firm involving a securities or commodities
+  dispute with a public customer; (D) the most recently submitted comment, if any, provided to FINRA by
+  the person who is covered by BrokerCheck …; (E) information as to qualifications examinations passed by
+  the person and date passed. FINRA will not release information regarding examination scores or failed
+  examinations; (F) information as to whether a particular member is subject to the provisions of Rule
+  3170 ("Taping Rule"); (G) Historic Complaints …". **Two consequences are recorded in place.**
+  (i) **The negative half of this entry is strengthened**: the string "net capital" returns **zero** hits
+  in the fetched Rule 8312 page, so firm-level net capital is **confirmed absent from the enumerated
+  BrokerCheck disclosure set**, exactly as the register has claimed. (ii) The entry's reference to
+  "**IAPD information**" in the disclosure set is **struck as unverified**: the string "IAPD" also returns
+  **zero** hits in the fetched rule text, and the enumerated list above does not include it; the claim is
+  replaced by the rule's own enumeration. The **Industry Snapshot and the 2026 Annual Regulatory Oversight
+  Report were not located** at the paths implied by the entry — `finra.org/rules-guidance/key-topics/industry-snapshot`
+  returns **HTTP 404** and `finra.org/rules-guidance/annual-reports/2026-annual-report` returns **HTTP
+  404** — so the *aggregate-by-firm-size-bucket* half of the entry is **not** upgraded and remains
+  index-rendered; it needs a current FINRA URL before it is relied upon. The verification label moves from
+  **index-rendered** to **line-verified for the rule text (Rule 8312) and Regulatory Notice 09-66**, with
+  the Industry-Snapshot limb explicitly **not** upgraded. **No re-score and no hard-stop change follow** —
+  this is provenance, and it **strengthens G-27 limb 1's route selection** without re-opening it.
 
 ### S-235 — U.S. Securities and Exchange Commission, **press release 2010-26, "SEC Approves Short Selling Restrictions" (24 February 2010)**, and the Division of Trading and Markets **FAQs on Rule 201 of Regulation SHO (17 CFR 242.201)**.
 - **Type and relevance:** primary regulator material stating the mechanics of the Rule 201
@@ -6054,6 +6357,38 @@ relies on it.
   any specification.
 - **Supports:** **R-018** — the rule facts of the Cycle-37 family screen (a *published, real-time
   threshold* that switches off a seller for a *published, bounded duration*).
+- **Cycle-100 verification — UPGRADE: both SEC pages are now fetched directly and line-verified, with two
+  URL changes recorded.** (i) The press release was fetched directly on 21 October 2026 — **HTTP 200,
+  65,153 bytes** — at the legacy path `sec.gov/news/press/2010/2010-26.htm`, which now **redirects** to
+  `https://www.sec.gov/newsroom/press-releases/2010-26-sec-approves-short-selling-restrictions`; the
+  quoted mechanics are present verbatim: "The rule is designed to restrict short selling from further
+  driving down the price of a stock that has dropped more than 10 percent in one day", "Rule 201 includes
+  the following features: Short Sale-Related Circuit Breaker…", and "restrictions on short selling only
+  when a stock has triggered a circuit breaker by experiencing a price decline of at least 10 percent in
+  one day. At that point, short selling would be permitted if the price of the security is above the
+  current national best bid." (ii) The Division of Trading and Markets FAQ page was fetched directly at
+  `https://www.sec.gov/divisions/marketreg/rule201faq.htm` — **HTTP 200, 98,269 bytes** — and that path
+  now redirects to
+  `https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions-7`
+  ("Division of Trading and Markets: Responses to Frequently Asked Questions Concerning Rule 201 of
+  Regulation SHO", "Oct. 11, 2017"). **Confirmed verbatim in the fetched FAQ**: the trigger ("if the price
+  of that covered security decreases by 10% or more from the covered security's closing price as of the end
+  of regular trading hours on the prior day"); the duration ("Once the circuit breaker in Rule 201 has been
+  triggered, the price test restriction will apply to short sale orders in that security **for the
+  remainder of the day and the following day**, unless an exception applies"); the re-trigger ("if the
+  price of a covered security declines intra-day by at least 10% on a day on which the security is already
+  subject to the short sale price test restriction of Rule 201, the restriction will be re-triggered and,
+  therefore, will continue in effect for the remainder of that day and the following day"); the
+  "short exempt" marking under Rule 201(c) (41 occurrences in the fetched text, including "may a
+  broker-dealer mark such order "short exempt" in reliance on Rule 201(c)…"); and the compliance date
+  ("Compliance with the new rule is required as of February 28, 2011"). The entry's statement that the
+  price test applies "for the remainder of the day and the following day", that a further 10 % decline
+  re-triggers it, that orders may be marked "short exempt" and that compliance was required from 28
+  February 2011 are therefore **all confirmed against the regulator's own text**. The verification label
+  moves from **index-rendered** to **line-verified (both SEC pages fetched directly and read)**. The
+  caveat that the rule text itself (17 CFR 242.201) should be cited directly in a specification **stands**
+  — the FAQ quotes the rule, and the rule was not read in this cycle. **No re-score and no hard-stop
+  change follow** — this is provenance, not new evidence.
 
 ### S-236 — Barardehi, Y., Bird, A., Karolyi, S. A. and Ruchti, T. G. (2025), "Are Short-selling Restrictions Effective?", *Management Science* 71(5), 3829–3851. DOI: 10.1287/mnsc.2024.4987.
 - **Type and relevance:** peer-reviewed, published, **positive** result on exactly the claim a Rule-201
@@ -6075,6 +6410,25 @@ relies on it.
   the trigger.
 - **Supports:** **R-018** — the family is a **baseline**, not a candidate. The mechanism, the
   identification and the positive sign are all published.
+- **Cycle-100 verification — UPGRADE (abstract level, via the Crossref REST API): the bibliographic record
+  and the quoted figures are now line-verified; the journal PDF was not fetched.** The Crossref record for
+  **DOI 10.1287/mnsc.2024.4987** was fetched directly on 21 October 2026 (`https://api.crossref.org/works/10.1287/mnsc.2024.4987`)
+  and carries the **publisher-deposited abstract** and the full bibliographic record: title "Are
+  Short-Selling Restrictions Effective?", journal *Management Science*, **volume 71, issue 5, pages
+  3829–3851, published 2025-05** — which confirms the entry's journal, volume, issue and pagination
+  exactly — with the abstract reading: "We test this relationship using quasi-experimental methods based
+  on rule 201, a threshold-based policy that restricts aggressive short selling when intraday returns
+  cross −10%. When comparing stocks on either side of the threshold in the same hour of trading, we find
+  that the restriction leads to **8% lower short-sale volume and 35 basis points higher daily returns**.
+  **These price effects do not reverse after the restriction is lifted**." Both quoted figures and the
+  quoted non-reversal are therefore confirmed against the publisher's own deposited abstract. **Scope of
+  the upgrade**: this is **abstract-level line verification**, not a reading of the article body — the
+  *journal* PDF was **not** fetched (INFORMS full text is not open), and the working-paper-only material
+  (the "narrower spreads and an increase in depth at best-ask price" finding, the "transient in nature"
+  remark and the OFR WP 23-08 record) remains as previously registered. The entry's caveat that the
+  published point estimates may differ in the third decimal therefore **stands**. **No re-score and no
+  hard-stop change follow** — R-018's verdict (the family is a published baseline) is **strengthened, not
+  reopened**.
 
 ### S-237 — Molnár (2022), "Are shorts restricted when options are an option? Evidence from SEC Rule 201", working paper, Department of Finance, Banking and Corporate Finance, WU Vienna (file `20220926_MOLNAR.pdf`).
 - **Type and relevance:** working paper establishing the *circumvention* channel for the same rule: after
@@ -6098,6 +6452,31 @@ relies on it.
   paper series number were not confirmed and are therefore not asserted here.
 - **Supports:** **R-018** — the constraint is not airtight, because a seller who cannot short the
   equity can express the position in the option market.
+- **Cycle-100 verification — UPGRADE (abstract level, via the Crossref posted-content index): a new route
+  opened the record, and the entry's authorship is corrected.** The WU Vienna route was not re-run (it is
+  a Cycle-97 negative). The **new route** is the Crossref posted-content index: the SSRN deposit for this
+  paper is registered with **DOI 10.2139/ssrn.4267574**, and the record was fetched directly on
+  21 October 2026 (`https://api.crossref.org/works/10.2139/ssrn.4267574`) — it returns the title "**Are
+  shorts restricted when options are an option? Evidence from SEC Rule 201**", type `posted-content`,
+  created **2022-11-18**, and the **deposited abstract**, which confirms the circumvention channel
+  verbatim: "The evidence suggests that **after Rule 201 is triggered, shorting activity decreases and put
+  option activity increases**. Call option activity, option bid-ask spreads, and pressure on put option
+  prices increase as well. This evidence is consistent with **short sellers migrating from the equity
+  market to the options market** after short-sale restrictions become binding and contributes to a
+  long-standing debate on the topic. Further, we document an increase in equity bid-ask spreads and equity
+  price dispersion, indicative of deterioration in the market quality of the underlying stocks." The
+  entry's own quoted fragment "a migration of short sellers from the stock market to the options market"
+  is **not** the abstract's wording (the document says "migrating **from the equity market** to the
+  options market") and is corrected in place to the document's words. **AUTHORSHIP CORRECTION — the
+  entry attributes the paper to Molnár alone; the Crossref record lists three authors: Rainer Brand,
+  Matthias Molnar and Angel Tengulov.** The entry's own caveat that "the author attribution was taken
+  from the file name" is therefore confirmed to have been unsafe, and the attribution is now the
+  publisher-deposited one. **The four magnitudes (put open interest +61 %, put volume +87 %, call open
+  interest +40 %, call volume +80 %) and the 28 February 2011 compliance date are NOT in the deposited
+  abstract and remain unverified**; the **body is still closed**. The verification label moves from
+  **index-rendered** to **line-verified at abstract level (Crossref posted-content record fetched
+  directly), with the four magnitudes still index-rendered**. **No re-score and no hard-stop change
+  follow** — R-018's circumvention limb is **strengthened, not reopened**.
 
 ### S-238 — Switzer, L. N. (2023), "Circumventing SEC Rule 201 short sale restrictions with options", ScienceDirect record S154461232300363X.
 - **Type and relevance:** a second, independent statement that Rule 201 can be circumvented at low cost
@@ -6117,6 +6496,22 @@ relies on it.
 - **Caveats:** the **journal title was not confirmed** in this cycle and is therefore not asserted; the
   record was seen only in the index render, so the paper's own identification and results were not read
   in the article text.
+- **Cycle-100 verification — PARTIAL UPGRADE (bibliographic record only): the publisher's own deposited
+  record confirms the article's identity; the quoted passages remain unverified.** The ScienceDirect
+  route was not re-run (it is a Cycle-97 negative, HTTP 403). The **new route** is the Crossref REST API:
+  `https://api.crossref.org/works/10.1016/j.frl.2023.103991` was fetched directly on 21 October 2026 and
+  returns the **DOI**, title "**Circumventing SEC Rule 201 short sale restrictions with options**",
+  journal "**Finance Research Letters**", **volume 55**, article **103991**, published **2023-07**, and the
+  single author "**Lorne N. Switzer**" — which confirms the entry's publisher record (ScienceDirect
+  identifier S154461232300363X corresponds to article 103991) and **fills the journal title and volume
+  that the Cycle-97 note could not confirm**. **Crossref holds no abstract for this DOI**, so the entry's
+  quoted passages — "particularly for firms with options" and the summary that short-sale bans are
+  "ineffective, or … lead to lower market quality, higher bid-ask spreads [and] higher volatility" —
+  **remain index-rendered and are NOT line-verified**; they must be taken from the article text, which is
+  still closed. The verification label moves from **index-rendered (whole entry)** to **line-verified for
+  the bibliographic record only, with both quotations still index-rendered**. **No re-score and no
+  hard-stop change follow** — R-018's second-circumvention limb is **strengthened in attribution, not
+  reopened**.
 - **Supports:** **R-018** — corroborates S-237 on circumvention and shows the family is already a
   published baseline rather than an open question.
 
@@ -12260,3 +12655,104 @@ must continue to be stated. **G-27 limb 1's route statement is qualified, not re
 listed-broker-dealer quantity is available **quarterly in the 10-Q body**, while the **XBRL-tagged
 exhibit route is annual** for the registrant examined, and the exhibit must be cited by form type and
 accession number rather than by file name (S-233).
+
+## Cycle 100 — provenance-operation record (2026-10-21)
+
+**What this cycle did.** The named absent families remain exhausted and the register's own discipline is
+to skip the screen slot rather than pad it, so the cycle's work was **evidence work, not a screen**: one
+bounded, pre-registered **provenance-upgrade operation** over a named subset of the index-rendered
+entries, plus lossless housekeeping and a rubric-arithmetic re-run. **No identifier was consumed**; no
+candidate was created; no score changed; no gap was opened or closed; no validation specification was
+touched.
+
+### State-integrity finding carried in place (not erased)
+
+**The Cycle-99 handoff header and cycle log recorded two provenance upgrades — S-208 (Clifford Chance)
+and S-136 (ICE "D6 RIN 2025 Vintage Futures") — but the ledger carries no Cycle-99 annotation at all.**
+Checked in this cycle, entry by entry:
+
+| Claim in the Cycle-99 record | What the ledger actually says | Disposition |
+| --- | --- | --- |
+| S-208 upgraded to line-verified, "with a URL correction recorded" | S-208's verification bullet still reads "**search-index render** of the Clifford Chance PDF"; no URL correction had been written | **The upgrade did not reach the artifact.** It was performed in this cycle instead: the note is now fetched directly and line-verified, with the URL correction and two struck items recorded **in place** (see the S-208 entry) |
+| S-136 "fetched directly and matches the ledger's quoted specifications" | S-136's verification bullet already reads "**the ICE product page was fetched directly and read in this cycle**" — and that wording was written when the entry was **created** (it is present in the corpus at the commit that introduced S-136), i.e. S-136 has been line-verified since it was minted and was **never** a member of the index-rendered pool | **No change made.** The claim of a Cycle-99 upgrade is not supported by the ledger, but the entry's own verification line is sound, so nothing was altered. Recorded here so that S-136 is not counted twice in any future pool measurement |
+| "Handoff rewritten" (Cycle-99 outcome 4) | The handoff's **header line** was rewritten for Cycle 99, but §1's header still read "(Cycle 98 complete)", §2 was still headed "Best next research task (Cycle 99)" and §3's task message still read "Your task — Cycle 99" | **Repaired in this cycle**: the handoff was rewritten in full, body and header, with counts re-derived from the files |
+
+The general lesson, recorded because it is the second time this has happened: **a provenance upgrade is
+not done until the entry's own verification bullet says so.** A cycle log and a handoff header are
+records of intent; the ledger entry is the evidence.
+
+### Cycle-100 upgrade record
+
+| Entry | Route used (all direct fetches, 21 October 2026) | Result |
+| --- | --- | --- |
+| **S-208** (Clifford Chance 2025) | the PDF at the corrected path (capitalised "US") and the HTML rendering of the same note | **UPGRADE — line-verified.** 20-business-day minimum, 10-day change-of-consideration rule, the "early bird"/"10+10" step-down, the announcement requirement, the 1986 relief and the 2015 no-action letter all confirmed verbatim. **Two items struck** (the "guaranteed delivery … second business day after expiration" mechanic and the "(7–10 calendar days)" day-count are **not in the document**) |
+| **S-209** (Mayer Brown 2024) | the law firm's own PDF | **UPGRADE — line-verified**, with the document type corrected from "practitioner note" to a practitioner **slide deck**, and the phrase "Dutch/modified-Dutch auctions for non-US holders" **narrowed** to what the document supports |
+| **S-226** (FR Y-9C) | the Board's **new reporting-forms application**: the form index page and the app's own download endpoint for the June 2026 FR Y-9C instructions | **UPGRADE — line-verified for the submission deadlines and the quarterly cadence.** The 40/45-calendar-day rule is confirmed verbatim. **The public-availability half is corrected**: the page names the Bulletin, the BHCPR and the Board's Freedom of Information Office, **not** the National Information Center |
+| **S-234** (FINRA) | FINRA Rule 8312 and Regulatory Notice 09-66 | **UPGRADE — line-verified for the rule text.** The enumerated BrokerCheck release set is confirmed and contains **no net capital** (strengthening G-27 limb 1's negative half) and **no IAPD** (that element of the entry is struck). The Industry-Snapshot limb is **not** upgraded: both implied FINRA paths return HTTP 404 |
+| **S-235** (SEC Rule 201) | the SEC press release and the Division of Trading and Markets FAQ page, with a compliant User-Agent | **UPGRADE — line-verified.** The 10 % trigger, the "remainder of the day and the following day" duration, the intra-day re-trigger, the "short exempt" marking and the 28 February 2011 compliance date are all confirmed; two URL changes recorded |
+| **S-236** (Barardehi et al. 2025) | the **Crossref REST API** record for the DOI (publisher-deposited abstract) | **UPGRADE — abstract-level line verification.** Journal, volume, issue, pages and the quoted "8% lower short-sale volume and 35 basis points higher daily returns" / non-reversal confirmed. The journal PDF was not fetched |
+| **S-237** (Molnár 2022) | the **Crossref posted-content index** (DOI 10.2139/ssrn.4267574) — a route that did not exist in Cycle 97 | **UPGRADE — abstract-level line verification**, with the **authorship corrected** (Rainer Brand, Matthias Molnar and Angel Tengulov, not Molnár alone) and the entry's quoted fragment aligned to the abstract's wording. The four magnitudes and the body remain closed |
+| **S-238** (Switzer 2023) | the **Crossref REST API** record for the DOI | **PARTIAL UPGRADE — bibliographic record only.** *Finance Research Letters* 55, article 103991, July 2023, Lorne N. Switzer confirmed; Crossref holds no abstract, so both quoted passages remain index-rendered |
+| **S-108** (EC Union Registry, EEA viewer) | both pages | **UPGRADE — line-verified**; the Commission page's path has changed (`/eu-action/` → `/areas-action/`) and the change is recorded |
+| **S-110** (EC surrender/compliance data) | both Commission news items | **UPGRADE — line-verified**; both publication deadlines confirmed |
+| **S-116** (Chicago Fed 2013) | the landing page and the article PDF | **UPGRADE — line-verified**; both quoted passages confirmed |
+| **S-119** (Traders Magazine 2024) | the article page | **UPGRADE — line-verified**; all three quoted passages and the "By SGX FX" by-line confirmed |
+| **S-120** (ValueExchange 2024) | the playbook PDF | **UPGRADE — line-verified**; all six quoted passages confirmed |
+| **S-169** (SEC options-market-structure roundtable) | the SEC's own file server, **with a compliant User-Agent** | **UPGRADE — line-verified**; the 19.6 % → 28 % 0DTE share, the 69.5 % breadth figure and the TSLA/NVDA/AAPL concentration are confirmed, and the entry's phrasing of the 28 % figure is narrowed to the document's own |
+| **S-230** (DEHSt CBAM sanctioning) | the DEHSt page on CBAM sanctions | **UPGRADE — line-verified**; the authorised-declarant-status withdrawal for a serious or repeated breach (Article 17(8) CBAM Regulation) is confirmed in the authority's own words |
+| **S-202** (40 CFR 80.1405, the Renewable Fuel Standards) | the **eCFR renderer** endpoint (`/api/renderer/v1/content/enhanced/current/title-40?part=80&section=80.1405`) — the versioner endpoint still 406s | **UPGRADE — line-verified.** Table 1 (annual percentage standards, 2010 → 2027), the percentage-standard equations, the **GEi/DEi** exemption terms and the small-refinery-exemption reallocation volumes are confirmed verbatim. **Correction**: the regulation does not state the volumes in "billion RINs" (zero hits) — it states percentages and gallon-RINs; the billion-RIN figures are the agency's presentation (S-203) |
+| **S-187** (EdgarHawk) | the live tracker page | **PARTIAL — the 16 October 2026 figures and the "remaining shares" footnote are STRUCK** as not reproducible from the fetched page, which now shows 20 October 2026 data; the page's structure and its per-filing 10b5-1 flags are confirmed, and the entry is marked as a moving target |
+| **S-115** (Shah & Davda 2026) | the DOI resolver, the OpenAlex REST API, the Internet Archive | **NEGATIVE — honest failed route.** The DOI resolver redirects to SSRN and returns HTTP 403; OpenAlex confirms the work's identity but holds no abstract; the Internet Archive was **offline for the whole session**, so its CDX/replay route could not be run. The quoted figures remain index-rendered |
+| **S-229** (EPRS briefing) | four URL forms on the European Parliament's document server | **NEGATIVE — honest failed route.** All four returned **HTTP 202 with a zero-byte body**; the server never delivered the document within the request. The free-allocation percentages remain index-rendered |
+| **S-271** (SOCPA / IFRS 18) | the two socpa.org.sa pages | **NEGATIVE — honest failed route.** Both requests **timed out** (no response, connection timeout after 50 s) and no other route was tried this cycle. The "all at once" endorsement wording remains index-rendered |
+
+**Sixteen entries are now line-verified where they were index-rendered, two are partially upgraded with
+the unverified parts named, and three are honest negatives with their failure modes recorded.** No
+quotation was presented as a parsed document that was not parsed, and every struck passage was struck
+**in place** with the reason, per the register's standing rule.
+
+### Cycle-100 identifier and ranking record
+
+**No `S-` identifier consumed**; **no `IDEA-` identifier consumed**; **no `V-` identifier consumed**;
+**no `R-` identifier consumed**; **no `P-` identifier consumed**; **no `G-` identifier consumed**; **no
+gap opened and none closed**; **no score changed and no rank changed**; **no known-baseline row was
+added**. The register holds **370 verified sources** at the end of Cycle 100 (S-001 … S-209,
+S-220 … S-380; S-210 … S-219 remain reserved and unused) — the count is unchanged because every upgrade
+in this cycle attached to an existing entry. The active ranking remains **IDEA-011 (69.0, rank 1),
+IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked
+(P-014) at a terminal 55.0. **Next free identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.**
+
+### Cycle-100 corpus-state note (the provenance sweep, re-measured)
+
+The sweep rule was re-implemented from the prose statement in the Cycle-99 handoff — *an entry counts as
+index-rendered if it contains index-render wording and **no** positive direct-fetch or text-extraction
+assertion; a negated form is not an assertion; a fetch or read performed **through** a search index is an
+index render, not a direct fetch; an entry's block ends at the next heading of any level* — and applied
+to the corpus as it stood at the start of the cycle, with the adjudication done **per sentence** (a
+positive phrase counts only when the sentence carrying it carries no negation of its own). Measurement:
+**62 index-rendered-only entries, 79 mixed entries, 220 entries with no index-render wording**, over the
+**361 heading-form entries** in the corpus (the ten bold inline entries S-281 … S-290 are document
+records outside the heading form, and the one sub-heading inside S-358 is not a second entry).
+**Residual against the inherited figure is disclosed, not smoothed**: the inherited state was 57
+index-rendered-only and 85 mixed. The difference is **+5 / −6** and is attributable to the
+detector, not to the corpus — the re-implementation had to be written a third time (the Cycle-96 script
+was not preserved), and the two cycles' implementations differ in how they treat a positive assertion
+that sits in a later, cycle-added annotation of an entry whose original verification bullet is
+index-rendered. **Two entries (S-139 and S-141) are Cycle-97 upgrades that a window-based detector
+mislabelled** as index-rendered and that the sentence-level detector correctly returns to the mixed class;
+the five-entry difference is the mirror image of that effect elsewhere. **No earlier cycle's figures are
+restated.** The named targets of this cycle's operation were each **verified by hand**, entry by entry,
+against their own verification bullets, before any fetch was attempted: **nineteen** of the
+**twenty-one** named targets were genuinely index-rendered at the start of the cycle, and **two (S-136
+and S-314) were
+not index-rendered entries at all** — S-136 has been line-verified since it was minted (see the
+state-integrity table above), and S-314 is a mixed-class entry whose own bullet records a direct fetch
+whose text layer did **not** confirm the quoted statistics, so it is "index-confirmed rather than
+line-verified" and belongs to the mixed-class pass, not to this operation. **A twenty-second entry was
+upgraded on top of that subset: S-202** (40 CFR 80.1405, the Renewable Fuel Standards), which the
+Cycle-100 handoff had named as a *Cycle-101* target, was upgraded in this cycle because a working route
+for it — the eCFR **renderer** endpoint, which returns the section's full text where the versioner
+endpoint and the human-facing page do not — was identified while the next cycle's subset was being
+pre-registered. The operation therefore touched **twenty-two entries**: **sixteen line-verified, two
+partially upgraded, three honest negatives, and one (S-202) upgraded outside the named subset**. The
+corpus now holds **45 index-rendered-only entries and 96 mixed entries**.

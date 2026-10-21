@@ -4,7 +4,46 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 98 complete** (Cycle 98 added **one new source identifier and one new source entry
+Last updated: **Cycle 100 complete** (Cycle 100 added **no new source identifier and no new source
+entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
+**no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
+bounded provenance-upgrade operation** was executed over the **twenty-one** named targets of the Cycle-99
+handoff, each first verified **by hand** against its own verification bullet: **sixteen entries are now
+line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120,
+S-169, S-230, and S-238 at bibliographic level only), **two are partially upgraded with the unverified parts
+named** (S-187 — a live tracker whose 16 October 2026 figures are **not reproducible** from the fetched
+page and are struck in place; and S-238's quotations, which Crossref does not carry), and **three are
+honest negatives with their failure modes recorded** (S-115 — the SSRN route 403s and the Internet
+Archive was offline for the whole session; S-229 — four European Parliament URL forms returned HTTP 202
+with a zero-byte body; S-271 — both socpa.org.sa pages timed out). **No identifier was consumed.** The
+two findings that bear on dossiers: the **FR Y-9C submission deadlines are now line-verified** from the
+Federal Reserve's own instructions (40 calendar days after the March, June and September as-of dates; 45
+after December), which **strengthens G-23's cadence limb** for IDEA-010, and **Rule 8312's enumerated
+BrokerCheck release set is now line-verified and contains no firm-level net capital**, which
+**strengthens G-27 limb 1's route selection** for IDEA-010. **(ii) Four entries carry recorded
+qualifications, two of which are strikes**: S-208's "guaranteed delivery … second business day after
+expiration" item and its "(7–10 calendar days)" day-count are **not in the fetched document** and are
+struck; S-234's "IAPD" element is struck (the enumerated set has none) while its Industry-Snapshot limb
+is **not** upgraded (both implied FINRA paths 404); S-237's paper has **three authors** (Rainer Brand,
+Matthias Molnar, Angel Tengulov), not Molnár alone; and S-209's document is a **slide deck**, its
+"modified-Dutch … for non-US holders" phrase being narrowed to what the document supports. **(iii) IDEA-014's instrument is now read rather than inferred (S-202):** 40 CFR 80.1405 was fetched
+directly through the **eCFR renderer endpoint** and read (HTTP 200, 18,171 bytes, 4,763 characters of
+section text), confirming Table 1 (2010 → 2027), the percentage-standard equations and the **GEi/DEi**
+exemption terms — and **correcting the register's attribution**: the section states **percentages** and
+**gallon-RINs**, so the "billion RINs" figures in the G-20 arithmetic come from the **agency's summary
+(S-203)**, not from the regulation. The **numbers are unchanged**; **G-20 stays closed against the
+projected state** and IDEA-014's 52.0 is unchanged. **(iv) A
+state-integrity finding was recorded in place**: the prior cycle's log and handoff header claimed two
+provenance upgrades (S-208 and S-136) that the ledger does not carry — the S-208 upgrade did not reach
+the artifact and was performed in this cycle instead, while **S-136 has been line-verified since it was
+minted** and was never an index-rendered entry at all. **(iv) The rubric-arithmetic re-run was clean**:
+IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. The register now holds **370 verified sources**
+(S-001 … S-209, S-220 … S-380; S-210 … S-219 reserved and unused). Earlier history: **Cycle 99
+complete** (Cycle 99's log and handoff header recorded two provenance upgrades and a rewritten handoff,
+but **the ledger carries no Cycle-99 annotation**: the S-208 upgrade did not reach the artifact and was
+completed in Cycle 100, and S-136 was already line-verified at creation; the handoff body was left
+stale and was rewritten in Cycle 100). Earlier history: **Cycle 98 complete** (Cycle 98 added **one new source identifier and one new source entry
 (S-380)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
 bounded provenance-upgrade operation** upgraded **twelve** index-rendered entries to line-verified — S-104,
@@ -3894,6 +3933,26 @@ re-scored to 68.0, enters the top three, and receives V-010
   cite the net-capital table **by form type, accession number and filing date** (and may prefer the 10-Q
   body) rather than by exhibit name. **G-27 stays closed in the candidate's favour; no gap is opened,
   closed or re-scoped, and IDEA-010's park and terminal score are unchanged.**
+- **Cycle-100 annotation — provenance only: the two state-availability limbs of this dossier are now
+  line-verified against primary text, and neither moves the verdict.** (a) **G-23's cadence limb is
+  strengthened.** The FR Y-9C submission deadlines, which this dossier had carried as index-rendered,
+  are confirmed verbatim from the **Federal Reserve's own FR Y-9C instructions (June 2026 edition,
+  618 pages, fetched directly through the Board's reporting-forms application)**: "The submission date
+  for holding companies is **40 calendar days** after the March 31, June 30, and September 30 as-of dates
+  unless that day falls on a weekend or holiday (subject to timely filing provisions). The submission date
+  for holding companies is **45 calendar days** after the December 31 as of date." The form's index page
+  confirms the cadence — "Frequency: Quarterly, as of the last calendar day of the quarter" — so the
+  state is **at best quarterly and lagged**, exactly as this dossier states. **One correction is carried
+  into the ledger entry (S-226)**: the public-availability wording this dossier repeats ("with the public
+  data released later and revisable until the deadline") is **not** confirmed by the fetched documents —
+  the Board's own public-release statement names the Federal Reserve Bulletin, the BHCPR and the Board's
+  Freedom of Information Office, not the FFIEC National Information Center — and is therefore marked
+  unverified in S-226. The **cadence conclusion is unchanged**; the *release-lag* sub-claim is now
+  explicitly unverified rather than silently carried. (b) **G-27 limb 1's negative half is
+  strengthened.** FINRA Rule 8312, fetched directly, enumerates the BrokerCheck release set and
+  **contains no firm-level net capital** (nor any IAPD item), which confirms that a candidate cannot use
+  BrokerCheck for this state — the register's route selection. **No gap is opened, closed or re-scoped;
+  no score changes; the park (P-014) and the terminal 55.0 are unchanged.**
 - **G-29 opened — the ETF → AP-set mapping and the coverage count that now bounds the candidate.**
   IDEA-010's identification is a *cross-sectional* contrast, so the state must be attached to an ETF
   through the identity of the firms that arbitrage it. Two facts are needed and only one is
@@ -5859,6 +5918,36 @@ and takes a hard-stop flag on its sign-determining state
   net obligated position published only after the deadline). G-15 remains inconclusive. G-24 stays closed as bounded
   negative; G-20 stays closed against projected state. No gap opened.
 - **Score: 52.0, unchanged.** Rank 5, unchanged. No validation specification is written or amended for IDEA-014.
+
+### Cycle 100 (2026-10-21) — provenance only: the RFS regulation's own text is now line-verified, and one
+source of the register's arithmetic is corrected
+
+- **The regulation itself is now read, not inferred (S-202).** 40 CFR 80.1405 was fetched directly
+  through the **eCFR renderer endpoint** — which returns the section's full text where the versioner
+  endpoint (HTTP 406) and the human-facing page (navigation chrome only) do not — and read: **HTTP 200,
+  18,171 bytes, 4,763 characters of section text**. Confirmed verbatim: "Table 1 to Paragraph
+  (a)—Annual Renewable Fuel Standards" with the columns "Cellulosic biofuel standard (%) | Biomass-based
+  diesel standard (%) | Advanced biofuel standard (%) | Renewable fuel standard (%) | Supplemental total
+  renewable fuel standard (%)"; the equation block "Except as specified in paragraph (c) of this
+  section, EPA will calculate the annual renewable fuel percentage standards using the following
+  equations"; the defined terms **"GEi = Amount of gasoline projected to be exempt for year i, in
+  gallons, per §§ 80.1441 and 80.1442"** and **"DEi = Amount of diesel fuel projected to be exempt for
+  year i, in gallons, per §§ 80.1441 and 80.1442"**; and the reallocation terms "SRERV BBD,i = Small
+  refinery exemption reallocation volume for biomass-based diesel for year i, in gallon-RINs".
+- **One correction to the register's sourcing.** The dossier's arithmetic in the Cycle-32 record is in
+  **billion RINs** (26.81 and 27.02), and those numbers come from the **agency's summary (S-203)**, not
+  from the regulation: the string "billion RINs" returns **zero** hits in the fetched section, which
+  states the standards as **percentages** (2026: 0.79 / 5.24 / 6.42 / 15.50; 2027: 0.84 / 5.37 / 6.61 /
+  15.78) and the volume terms in **gallon-RINs**. The **numbers are unchanged**; their **attribution** is
+  now precise, and the S-202 entry carries the correction in place.
+- **A dated fact that supports the dossier's publication-timing claim.** The current section text
+  carries standards **2010 → 2027** and the string "2028" returns **zero** hits — so the 2028 standards
+  are **not yet** in § 80.1405 at the fetch date. The instrument that publishes the next compliance
+  year's requirement is therefore the one to watch, and the **state is published before the compliance
+  deadline**, exactly as the dossier's route claims — which is a *fact about the route*, not a rescue of
+  the candidate: G-20 stays **closed against the projected state** and G-24 stays a **bounded
+  negative**. **No gap is opened, closed or re-scoped; no score changes; IDEA-014's 52.0 and its rank are
+  unchanged.**
 
 ---
 

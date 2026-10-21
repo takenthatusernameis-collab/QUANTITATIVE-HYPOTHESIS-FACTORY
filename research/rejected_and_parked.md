@@ -5,22 +5,31 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 98 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Last updated: **Cycle 100 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
-table.** Cycle 98 added **no rejection, no parking record and no baseline row**, and it **opened no gap and
-closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
-**provenance-upgrade operation** upgraded **twelve** index-rendered entries to line-verified (S-104,
-S-112, S-117, S-122, S-123, S-124, S-132, S-185, S-203, S-207, S-233, S-279), with four recorded
-qualifications (two quotations struck as unverified, one attribution struck as unattested, two
-bibliographic corrections and one citation-form correction) and **no identifier consumed**; **(ii)** the
-**closed-body repository sweep** re-tried the three long-closed bodies with new routes and confirmed that
-**Harris & Piwowar (2006)** and **Kavussanos, Visvikis & Menachof (2004)** remain **closed honest
-negatives**, while **Ko & Chang (2024)** yielded its **authors' own abstract** — registered as **S-380**
-(**abstract-level only**; the body remains closed and the paper is **still not used as a verification
-basis** for any reason in R-052 or R-054); and **(iii)** the **"Muni Monday" trade-press route** returned
-**no** dated municipal market periodicity, so **R-055's re-screen condition (d) is not satisfied** and **no
-re-screen is triggered**. **R-055's verdict, its five reasons and its baseline row 92 are unchanged**, and
-the failed routes are recorded in the ledger's Cycle-98 honest-negatives table. Earlier history:
+table.** Cycle 100 added **no rejection, no parking record and no baseline row**, and it **opened no gap
+and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
+**provenance-upgrade operation** over the twenty-one named targets of the Cycle-99 handoff — **sixteen
+entries now line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116,
+S-119, S-120, S-169, S-230, and S-238 at bibliographic level), **two partially upgraded** with the
+unverified parts named (S-187, a live page whose dated figures are not reproducible and are struck;
+S-238's quotations, which Crossref does not carry), and **three honest negatives** (S-115, S-229, S-271)
+— **no identifier consumed**; **(ii)** a **state-integrity repair**, the prior cycle having recorded two
+provenance upgrades in its log and handoff header that the ledger does not carry (the S-208 upgrade was
+performed and written in this cycle; **S-136 has been line-verified since it was minted** and was never
+an index-rendered entry, so it must not be counted twice in any future pool measurement); and **(iii)**
+a **rubric-arithmetic re-run (clean)** — IDEA-011 69.0, IDEA-004 63.0, IDEA-009 53.0, IDEA-014 52.0,
+IDEA-010 55.0 — with **no score, rank, tie-break, hard-stop flag or gap changed**. Two negative records
+were **strengthened, not re-opened**: **R-018** (the Rule 201 family is published prior art) is now
+line-verified at abstract level through the Crossref REST API (S-236: "the restriction leads to 8% lower
+short-sale volume and 35 basis points higher daily returns"; "These price effects do not reverse after the
+restriction is lifted"), and its circumvention limb now carries the **deposited abstract of the SSRN
+posting** (S-237) with the **authorship corrected** (Rainer Brand, Matthias Molnar and Angel Tengulov,
+not Molnár alone) — the four magnitudes and the paper body remain closed; and **R-016** (the CBAM family)
+now carries the DEHSt's own statement of the enforcement edge (S-230: a serious or repeated breach of
+the certificate-surrender obligation "zum Widerruf Ihrer Zulassung als CBAM-Anmelder führen kann
+(Artikel 17 Absatz 8 CBAM-Verordnung)"). **R-055's verdict, its five reasons and its baseline row 92 are
+unchanged**, and no re-screen was triggered. Earlier history:
 **Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 94 added **one rejection (R-055), no parking record and one baseline row (row 92)**, and it

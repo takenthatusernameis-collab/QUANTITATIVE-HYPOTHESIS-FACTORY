@@ -1,4 +1,22 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–98
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–100
+
+**Cycle 100 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 100's substantive work was **evidence work, not a screen** — a bounded **provenance-upgrade
+operation** over the **twenty-one** named targets of the Cycle-99 handoff (**sixteen now line-verified**:
+S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120, S-169, S-230,
+and S-238 at bibliographic level; **two partially upgraded** with the unverified parts named — S-187 and
+S-238's quotations; **three honest negatives** — S-115, S-229, S-271), a **state-integrity repair** of
+the prior cycle's unwritten ledger annotations, and a **rubric-arithmetic re-run (clean)**. All of it
+produced **no candidate**, so **no specification was required and none was written**. It touches **no
+specification**: R-055's verdict, its five reasons and its baseline row are unchanged, no re-screen was
+triggered, R-016's CBAM family verdict is unchanged, and no specification's inputs, status or scope
+moved. Two items that a specification would otherwise have to re-derive are now line-verified in the
+ledger — the **FR Y-9C submission deadlines** (S-226) and **Rule 8312's enumerated BrokerCheck release
+set** (S-234) — but **no specification is amended by that**, because both bear on a *parked* candidate
+(IDEA-010, P-014, terminal) and on the **route selection** a specification would make, not on any
+specification's stated inputs. **V-008 and V-009 remain the only executable specifications; V-002
+remains frozen; V-010 remains marked never-to-execute; V-001, V-003 … V-007 remain not executable.**
+**No `V-` identifier was consumed. Nothing in this file was executed.**
 
 **Cycle 98 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 98's substantive work was **evidence work, not a screen** — a bounded **provenance-upgrade

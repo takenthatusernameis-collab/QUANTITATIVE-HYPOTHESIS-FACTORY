@@ -1,71 +1,315 @@
-Last updated: 2026-10-21, **Cycle 99 complete**. Cycle 99 maintained the frozen, exhausted and dated items as they stand; it consumed **no new identifier**. Its work was **evidence work, not a screen**: **(1) a bounded provenance-upgrade operation** over a named subset of the 57 index-rendered entries, with **two upgrades completed** — **S-208** (Clifford Chance 2025 practitioner note, obtained via its HTML rendering after the PDF URL returned HTTP 404; the 20-business-day minimum, the 10-business-day change-of-consideration rule and the other quoted mechanics are present in the fetched text, so the entry is now line-verified, with a URL correction recorded) and **S-136** (ICE "D6 RIN 2025 Vintage Futures" product page, fetched directly and matching the ledger's quoted specifications). Further entries in the recommended subset remain **index-rendered** and are carried to the next cycle. **(2) Housekeeping and rubric-arithmetic re-run (clean)**: IDEA-011 4/3/3/4/2/5 = 69.0, IDEA-004 4/4/1/3/3/3 = 63.0, IDEA-009 3/3/1/3/2/4 = 53.0, IDEA-014 3/2/3/2/2/4 = 52.0, IDEA-010 4/4/1/2/2/2 = 55.0. Counts unchanged: 15 dossiers, 370 verified sources, 10 validation specs, 55 rejections, 13 parking records (12 active), 92-row baseline, gaps G-01…G-36. Next free identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.
+Last updated: 2026-10-21, **Cycle 100 complete**. Cycle 100 executed the **bounded provenance-upgrade
+operation** the Cycle-99 handoff had specified, and it also **repaired a state-integrity defect in the
+prior cycle**: the Cycle-99 handoff header and cycle log recorded two provenance upgrades (S-208 and
+S-136) and a rewritten handoff, but **the ledger carried no Cycle-99 annotation at all** — the S-208
+upgrade never reached the artifact, and S-136 has been line-verified since it was minted, so it was never
+an index-rendered entry. Cycle 100 therefore performed the S-208 upgrade itself and wrote the
+annotation the prior session recorded but did not write, and it rewrote the handoff in full, body and
+header. The cycle's work was **evidence work, not a screen**: **sixteen entries were upgraded to
+line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119,
+S-120, S-169, S-230, and S-238 at bibliographic level only), **two are partially upgraded with the unverified
+parts named** (S-187 — a live tracker whose 16 October 2026 figures are not reproducible and are struck
+in place; and S-238's quotations, which Crossref does not carry), and **three are honest negatives with
+their failure modes recorded** (S-115, S-229, S-271). The operation consumed **no identifier** and
+**no score**. Housekeeping was lossless and the **rubric-arithmetic re-run was clean**: IDEA-011
+4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 =
+52.0; IDEA-010 4/4/1/2/2/2 = 55.0. Counts re-derived from the files: **15 dossiers, 370 verified
+sources, 10 validation specifications, 55 rejections, 13 parking records (12 active), 92-row
+known-baseline table, gaps G-01 … G-36**. The provenance pool, re-measured with the rule as stated
+below, now stands at **45 index-rendered-only entries and 96 mixed entries**. Next free identifiers:
+**IDEA-017, S-381, V-012, G-37, R-056, P-015**. Next cycle: **Cycle 101**.
 
-## 1. State of the pipeline
+---
 
-Counts re-derived from the artifact files (Cycle 98 complete):
+## 1. State of the pipeline (counts re-derived from the artifact files, Cycle 100 complete)
 
-| Item | Status |
-| --- | --- |
-| Idea register | 15 dossiers (IDEA-001 … IDEA-015); 4 active (IDEA-011, IDEA-004, IDEA-009, IDEA-014), 6 parked (IDEA-003, IDEA-005, IDEA-008, IDEA-010, IDEA-013, IDEA-015), 5 rejected (IDEA-001, IDEA-002, IDEA-006, IDEA-007, IDEA-012). |
-| Ranked shortlist | 4 ranked active: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4). IDEA-010 parked (P-014) at a terminal 55.0, unranked. **IDEA-003's shortlist heading ("Rank 2 — IDEA-003 VRP-STATE (71.0)") is historical**: its register status is "parked (P-012) — not ranked", and the heading was annotated in place, not relabelled. |
-| Source ledger | **370** verified sources (S-001 … S-209, S-220 … S-380; S-210 … S-219 reserved and unused) — 360 entries in the standard `### S-NNN` heading form plus ten bold inline entries (S-281 … S-290). **One heading in the file is a sub-heading inside an entry** ("### S-358 — Cycle-96 upgrade: the body was obtained and text-extracted") and is **not** a second entry; a heading-count that ignores this over-counts by one. |
-| Validation hand-offs | 10 specs (V-001 … V-010); 8 not executable; executable: V-008, V-009. V-002 frozen; V-010 never-to-execute. |
-| Rejected / parked | **55** rejections (R-001 … R-055), 13 parking records (12 active). |
-| Known-baseline table | **92** data rows (row 92 = tax-exempt municipal bonds, R-055). |
-| Gaps | G-01 … G-36 defined; open: G-21, G-28 (frozen), G-30 (exhausted). No gap opened or closed in Cycle 98. |
-| Provenance state | **57 index-rendered-only entries** (the remaining upgrade pool) and **85 mixed entries**; 228 entries carry no index-render wording. |
+| Item | Count | Detail |
+| --- | --- | --- |
+| Dossiers (`idea_register.md`) | **15** | 4 active · 6 parked · 5 rejected (dossiers not maintained) |
+| Ranked, active candidates | **4** | **IDEA-011 ACCTCLOCK 69.0 (rank 1) · IDEA-004 SLOWCAP-COND 63.0 (rank 2) · IDEA-009 PERP-FUND 53.0 (rank 3) · IDEA-014 RIN-DEADLINE 52.0 (rank 4)** |
+| Parked at a terminal score | **1** | **IDEA-010 CREDIT-ETF 55.0** (P-014, Cycle 78; G-34 kill condition fired) |
+| Verified sources (`source_ledger.md`) | **370** | S-001 … S-209, S-220 … S-380; S-210 … S-219 reserved and unused; 360 in heading form + 10 bold inline (S-281 … S-290); one sub-heading inside S-358 is **not** a second entry |
+| Validation specifications | **10** | V-001 … V-010; **executable: V-008, V-009**; V-002 frozen; **V-010 never-to-execute**; V-001, V-003 … V-007 not executable. **Nothing in this repository was executed** |
+| Rejections | **55** | R-001 … R-055 |
+| Parking records | **13** | P-001 … P-012, P-014 — 12 active; P-004 closed by R-038 |
+| Known-baseline table | **92 rows** | reference set, not candidates; no row added or removed this cycle |
+| Gaps | **G-01 … G-36** | open: **G-21** (EA-ERA), **G-28** (frozen), **G-30** (exhausted). G-17 and G-26 skipped by the sequence and never used |
+| Provenance pool (re-measured, Cycle 100) | **45 index-rendered-only · 96 mixed · 220 with no index-render wording** | over the 361 heading-form entries. The inherited figure was 57 / 85; the **+5 / −6** residual is a **detector** difference, disclosed in the ledger's Cycle-100 record, and **no earlier cycle's figures are restated** |
 
-Next free identifiers: **IDEA-017, S-381, V-012, G-37, R-056, P-015**.
+**Next free identifiers: IDEA-017 · S-381 · V-012 · G-37 · R-056 · P-015.** Reserved and unused:
+IDEA-016, S-210 … S-219, V-011, P-013.
 
-**Frozen, exhausted and dated items — maintain as they stand, do not re-search.** G-21 (first-adopter / second-adopter drift contrast; handed to V-009, the null stands); G-28 (frozen structural null; V-002 frozen); G-30 (ETF→authorised-participant mapping; exhausted across four outside routes; V-010 never-to-execute); G-32 limb (c) and G-33 re-check (**dated 2027 Q3**); G-14 (**dated 29 March 2029**); IDEA-014's state-free existence limb (**inconclusive** — neither a positive finding nor a refutation); P-010, P-011 and P-014 unchanged.
+### 1.1 What Cycle 100 established (the substance the next agent inherits)
 
-**Dated items now standing — all still in the future on 21 October 2026, so none is due.**
-- **R-054 condition (c)** remains dated: the SEC's proposed rule "Interval Fund Modernization" (Release No. 33-11444, 91 FR 63388, 5 October 2026) has **comments closing 4 December 2026**; re-screen the interval-fund family only against the **final** rule's parameters, never against the proposed text.
-- **R-055's four re-screen conditions** — re-screen the municipal family only if (a) the MSRB, the SEC or Congress adopts **public, real-time or intraday dissemination of municipal trade data**, or the published reform proposals are adopted ("improvements in the availability of information about prices and competitiveness of price quotes for potential buyers", S-372); (b) a **dealer-level, publicly published** inventory or quoting state appears, which the current academic product's **anonymised dealer identifiers** preclude (S-367); (c) the **MSRB Rule G-32** dealer-disclosure amendment cycle completes — **comments were due 14 December 2026** (S-375) — in a way that changes the *published* dealer-disclosure regime; or (d) a **trade-press** source establishes a genuine, dated municipal market periodicity. **Condition (d)'s route was run in Cycle 98 and returned a negative**, so the condition is **not satisfied** — it is not a re-screen trigger, and re-running the same route is not a debt; re-opening it would need a *new* source or a *new* route.
-- **R-054 condition (d) is discharged** (S-376). Conditions (a), (b) and (c) remain unfulfilled.
+- **The FR Y-9C submission deadlines are line-verified** (S-226), from the Federal Reserve's **own
+  instructions** (June 2026 edition, 618 pages), reached through a route that did not exist when the
+  entry was written: the Board has **restructured its reporting-forms material into an application**,
+  and every previously documented path still 404s and the FFIEC National Information Center still 403s.
+  The verbatim text: "The submission date for holding companies is **40 calendar days** after the March
+  31, June 30, and September 30 as-of dates unless that day falls on a weekend or holiday … The
+  submission date for holding companies is **45 calendar days** after the December 31 as of date." This
+  **strengthens G-23's cadence limb** for IDEA-010.
+- **The public-availability half of that entry is corrected** (S-226): the form's own index page names
+  the Federal Reserve Bulletin, the BHCPR and the Board's **Freedom of Information Office** — **not** the
+  National Information Center — and the strings "National Information Center" and "made available as
+  received" return **zero** hits in the 618-page instructions. The release-lag sub-claim is now marked
+  unverified rather than silently carried.
+- **FINRA Rule 8312's enumerated BrokerCheck release set is line-verified** (S-234) and contains **no
+  firm-level net capital** — which **strengthens G-27 limb 1's route selection** for IDEA-010 — and
+  **no IAPD**, so the entry's IAPD element is struck. The *Industry Snapshot* limb is **not** upgraded:
+  both implied FINRA paths return **HTTP 404**.
+- **The Rule 201 facts are line-verified against the regulator's own text** (S-235): the 10 % trigger,
+  the restriction lasting "for the remainder of the day and the following day", the intra-day
+  re-trigger, the "short exempt" marking under Rule 201(c), and the 28 February 2011 compliance date.
+- **The RFS regulation's own text is now line-verified, and it corrects the register's arithmetic
+  source** (S-202): 40 CFR 80.1405 was read through the **eCFR renderer endpoint**, which returns the
+  section's full text where the versioner endpoint (406) and the human-facing page (navigation chrome
+  only) do not. Table 1 (annual percentage standards, 2010 → 2027), the percentage-standard equations,
+  the **GEi/DEi** exemption terms and the small-refinery-exemption reallocation volumes are all
+  confirmed verbatim. **Correction**: the regulation does **not** state the volumes in "billion RINs"
+  (zero hits) — it states **percentages** in Table 1 and **gallon-RINs** in the formula terms; the
+  billion-RIN figures are the **agency's summary presentation (S-203)**. **A dated observation that
+  bears on G-20 and on IDEA-014's state**: the current text carries standards through **2027** and the
+  string "2028" returns **zero** hits, so the 2028 standards are not yet in the section.
+- **S-208's two unsupported items are struck** (see §2, Priority 3): "guaranteed delivery of tenders by
+  the close of business on the second business day after expiration" and the "(7–10 calendar days)"
+  day-count for the abbreviated investment-grade cash tender are **not in the fetched document**; the
+  document's own words are "an abbreviated **five-day** offer period" for the 2015 no-action letter, and
+  the 1986 relief is described with no day count at all.
+- **S-237 has three authors, not one** (Rainer Brand, Matthias Molnar, Angel Tengulov), and the entry's
+  quoted fragment is aligned to the deposited abstract's wording. The four magnitudes (+61 % / +87 % /
+  +40 % / +80 %) and the paper body **remain closed**.
+- **S-209's document is a slide deck**, not a note, and its "Dutch/modified-Dutch auctions for non-US
+  holders" phrase is narrowed to what the document supports ("Modified Dutch" and "reverse Dutch" return
+  **zero** hits).
+- **S-187 is a live tracker**: the entry's 16 October 2026 figures (389 filings; 78 of 101 dispositions)
+  and the "1,792 remaining shares" footnote are **not reproducible** from the fetched page and are
+  struck; the page's structure and its per-filing 10b5-1 flags are confirmed at the fetch date
+  (20 October 2026: 58 % of dispositions pre-arranged). A live page is a moving target and must always
+  be cited with its fetch date.
 
-**Honest negatives carried forward (route failures, not debts, unless a genuinely new route exists).**
-- **Harris & Piwowar (2006)**, "Secondary Trading Costs in the Municipal Bond Market", *Journal of Finance* 61(3), 1361–1397 (DOI 10.1111/j.1540-6261.2006.00875.x) — **still closed.** Re-tested in Cycle 98 with routes the register had not used for it: a **third-party citation link published inside a fetched comment letter** (a CFA comment letter cites the paper as "http://bit.ly/1J3owpC", which resolves to the publisher's PDF route and returns **HTTP 403**), **OpenAIRE** (record, **no open-access location**), the **Internet Archive's advanced search** on the exact title (**zero** hits) and its **CDX index** (no capture of the publisher PDF). Earlier routes stand: Unpaywall (closed), OpenAlex (no open location), Semantic Scholar (`CLOSED`), Crossref's posted-content index (no preprint of this title), CORE (HTTP 403), RePEc/EconPapers (HTTP 404), publisher PDF routes (HTTP 403). Its result is **quoted inside a line-verified document** (S-378), so the register's *use* of the finding is sound; only the paper's own text remains unobtainable. **Not used as a verification basis for any reason in R-055.**
-- **Kavussanos, Visvikis & Menachof (2004)**, "The Unbiasedness Hypothesis in the Freight Forward Market: Evidence from Cointegration Tests", *Review of Derivatives Research* 7(3): 241–266 (DOI 10.1007/s11147-004-4811-7) — **still closed.** Re-tested in Cycle 98 with the **Internet Archive's CDX index and replay** (the index holds **one** capture of the publisher's PDF, and the **replay returns the same 79,204-byte client-challenge page**, not the article), **OpenAIRE**, the archive's advanced search (**zero** hits) and a web search; the publisher's PDF route still returns its challenge page. **Not used as a verification basis for any reason in R-052 or R-054**; the register's freight reasoning rests on the line-verified S-350, S-351, S-352 and S-364.
-- **Ko & Chang (2024)**, "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates", *Maritime Policy & Management* 51(5): 717–744 (DOI 10.1080/03088839.2024.2348692) — the **body remains closed** (the T&F PDF and full-text routes return **HTTP 403**; **both** Internet Archive captures of the T&F full-text page are themselves 403 captures; the archive holds **no** capture of the SSRN delivery PDF). **What changed in Cycle 98:** the **authors' own abstract** is now in the corpus as **S-380** (the SSRN record page replayed from the Internet Archive, HTTP 200, 57,582 bytes), and it **corroborates the "Physical-Paper Hypothesis" label in the authors' own words** — so the Cycle-93 row's *bibliographic-record* caveat stands while its implication that the label is uncorroborated by the paper itself is superseded. The paper is **still not used as a verification basis** for any reason in R-052 or R-054.
-- **Green, Hollifield & Schürhoff (2007)** — **body still closed.** Its **SSRN preprint's deposited abstract** (DOI 10.2139/ssrn.668847) was fetched directly from Crossref and registered as **S-379** — **abstract-level evidence only**. **R-055's known limitation on reason 5 is narrowed, not discharged**: the canonical opaque-market statement is in the corpus (S-379 at abstract level; quoted inside the fetched S-378), but the two articles' bodies remain closed and neither is used as a verification basis.
-- **"Muni Monday"** (a framing element the Cycle-93 handoff named) — **uncorroborated, and Cycle 98 ran the route that could have corroborated it.** One bounded trade-press/venue/published search found **no** dated municipal market periodicity; the published municipal seasonality that does exist is **monthly** (Cusatis & Tawatnuntachai 2011 — negative March returns 1980–2007 and the January effect, attributed to March issuance and the 15 April tax deadline), and the day-of-the-week literature returned concerns **other** markets. Treat the label as **unverified, not as a market fact**; the result is a **route outcome, not evidence** (it was an index rendering and the abstract was not fetched), and **R-055's condition (d) is not satisfied**.
-- **Griffin, Hirschey & Kruger (2023)** — **no longer an honest negative.** Obtained in Cycle 96 (S-378); the failed-route history is preserved in the ledger's Cycle-94 row, annotated in place and not erased.
-- Earlier cycles' negatives stand as recorded and are **not** re-run without a new route.
+### 1.2 Items that remain frozen, exhausted or dated — maintain them as they stand
 
-**State-integrity repairs made in Cycle 98 (record them, do not repeat them).** (i) **The Cycle-97 cycle log was missing** and the handoff's closing header line said the Cycle-97 provenance subset "was not executed this cycle" — **false against the ledger**, which carries **nineteen** Cycle-97 annotations (**eleven** upgrades: S-139, S-140, S-141, S-150, S-155, S-162, S-164, S-165, S-174, S-225, S-266; **eight** honest negatives: S-147, S-148, S-151, S-153, S-161, S-226, S-237, S-238). A **Cycle-97 cycle-boundary record** has been written retrospectively into `cycle_notes.md`, the header line above has been rewritten, and **no other artifact was altered to accommodate the error**. (ii) One heading in the corpus is a **sub-heading inside an entry** ("### S-358 — Cycle-96 upgrade: …"), so a heading-based count over-counts by one; the ledger's corpus-state note now says so. (iii) The **provenance sweep's residual difference** against the inherited "89 index-rendered entries" is **disclosed rather than smoothed over**, because the Cycle-96 script was not preserved and the rule had to be re-implemented from its prose description. (iv) The Cycle-98 identifier/ranking record was appended to `source_ledger.md`, the Cycle-97 boundary record and the Cycle-98 entry to `cycle_notes.md`, the Cycle-98 ranking paragraph to `ranked_shortlist.md`, a Cycle-98 update note to `validation_handoffs.md` (no specification touched), the header notes and the G-27 qualification to `idea_register.md`, the header note and the "Muni Monday" route annotation to `rejected_and_parked.md`, and the README's next-free identifiers were corrected.
+| Item | Status | Date / condition |
+| --- | --- | --- |
+| G-32 limb (c) | frozen | 2027 Q3 |
+| G-14 (IDEA-008 unblocking) | dated | 29 March 2029 |
+| G-21 (EA-ERA) | open | — |
+| G-28 | frozen | — |
+| G-30 | exhausted | all four sub-routes closed; **V-010 remains non-executable** |
+| IDEA-014's state-free existence limb | inconclusive | — |
+| R-054 re-screen condition (c) — SEC "Interval Fund Modernization" | **not yet due** | comments closed **4 December 2026** |
+| R-055 re-screen condition (c) — MSRB Rule G-32 | **not yet due** | comments due **14 December 2026** |
+| R-055 re-screen condition (d) — "Muni Monday" route | **negative in Cycle 98; not a debt** | do not re-run |
 
-**Working routes established (reuse them; they are not in the ledger's route lists).** The **general web-search provider worked for the whole of Cycle 98** — it is **restored**, after being quota-limited in Cycles 96 and 97 — and it is a legitimate discovery route for open copies. Also working this cycle: the **venues' and regulators' own sites** (federalreserve.gov, epa.gov, ecfr.gov, chicagofed-like institutional sites, thevx.io, ercst.org, hosei.ac.jp, snb.ch, aqr.com, fca.org.uk); **EDGAR's archive and full-text search** (`https://efts.sec.gov/LATEST/search-index?q=…&forms=…` and `https://www.sec.gov/Archives/edgar/data/<cik>/<accession>/…`) **with a compliant User-Agent** (a declared contact address), which is what made S-233 obtainable after earlier cycles recorded HTTP 403; **eCFR's rendered HTML sections** (`https://www.ecfr.gov/current/title-17/…/section-240.14e-1`), which served a whole rule section in one request; the **bibliographic APIs** — Crossref (including its posted-content index), OpenAlex (work records, abstracts and **open-access location records**), Unpaywall, Semantic Scholar, **OpenAIRE**; the **Internet Archive's CDX index and replay** (`https://web.archive.org/cdx/search/cdx?url=…` and `https://web.archive.org/web/<timestamp>id_/<original-url>`), the **advanced search** (`https://archive.org/advancedsearch.php?q=…`), and its replay of a **record page** (not only of a file) — this is how S-380 was obtained; the **Federal Register API and raw-text server**; and **`bit.ly` resolution** as a way to find the URL a third party actually cites.
+**Both rulemaking dates are still in the future on 21 October 2026.** Neither is due; neither may be
+pre-empted by a route that has not yet produced a document.
 
-## 2. Best next research task (Cycle 99)
+### 1.3 Honest negatives carried forward (failure modes, not re-runnable debts)
 
-Priority 1 — maintain the frozen, exhausted and dated items as they stand (listed above), including the two dated items: R-054's condition (c) (the SEC's "Interval Fund Modernization" proposed rule, comments closing **4 December 2026**) and R-055's condition (c) (MSRB Rule G-32 comments, due **14 December 2026**). **As of 21 October 2026 both are still in the future, so neither is due and no clock-driven re-search is performed.** If a future cycle's date has passed either date, re-screen **only** against the final instrument (the final rule for R-054; the adopted/amended G-32 text for R-055) and never against the proposed text.
+| Route | Failure mode | Where |
+| --- | --- | --- |
+| SSRN direct (papers.ssrn.com, and the DOI resolver → ssrn.com/abstract=…) | **HTTP 403** | S-115 (Cycle-100 attempt; Cycle-97 attempt) |
+| The **Internet Archive** (CDX index and replay) | **"Internet Archive: Temporarily Offline" for the whole session on 21 October 2026** — the route that worked in Cycle 98 was unavailable this cycle | S-115 (Cycle-100 attempt) |
+| European Parliament document server (`europarl.europa.eu/RegData/…`, and the thinktank document page) | **HTTP 202 with a zero-byte body** on all four URL forms — the host generates asynchronously and never delivered the file | S-229 (Cycle-100 attempt) |
+| `socpa.org.sa` (news item and publications page) | **connection timeout**, no response after 50 s, on both pages | S-271 (Cycle-100 attempt) |
+| `sciencedirect.com` article pages | **HTTP 403** (Elsevier robot block) | S-238 (Cycle-97 attempt; not re-run) |
+| `ffiec.gov/nic/` | **HTTP 403** | S-226 (Cycle-97 attempt; superseded by a working route) |
+| `federalreserve.gov/reportforms/form9c.htm`, `form9c.pdf`, `form9c-instructions.pdf` | **HTTP 404** — the path set no longer exists | S-226 (Cycle-97 attempt) |
+| WU Vienna working-paper page | **404 / 403**; superseded in Cycle 100 by the Crossref posted-content record for the SSRN DOI | S-237 |
+| SEC direct fetch **without** a declared contact User-Agent | **HTTP 403** — with a compliant User-Agent the same URL returned **200** | S-169 (Cycle-97 attempt) |
+| `finra.org/rules-guidance/key-topics/industry-snapshot`, `.../annual-reports/2026-annual-report` | **HTTP 404** | S-234 (Cycle-100 attempt) |
 
-Priority 2 — **one bounded, pre-registered provenance operation, not a screen**. The **named absent families remain exhausted** (municipal bonds was the last) and nine mechanism-first screens have each produced a bounded negative with zero new dossiers, so the register's own discipline is to **skip the screen slot rather than pad it**. The remaining pool is **57 index-rendered-only entries** (re-derived in Cycle 98: an entry counts as index-rendered if it contains index-render wording and **no** positive direct-fetch or text-extraction assertion anywhere in the entry; a negated form is not an assertion; a fetch or read performed *through* a search index is an index render, not a direct fetch; each entry's block ends at the next heading of any level, so cycle prose never bleeds into the entry above it). **Recommended operation: upgrade a named subset of 8–12 of the 57 to line-verified by direct fetch**, with the Internet Archive's CDX/replay as the fallback for shielded sites, and with the routes listed under "Working routes" above. The most promising subset, by likely direct-fetchability and by load-bearing weight:
-- **Practitioner notes and rules already in play** — **S-208** (Clifford Chance 2025, "Managing your bond liabilities under US securities law", law-firm PDF) and **S-209** (Mayer Brown 2024, law-firm PDF). These matter *now* because Cycle 98's upgrade of S-207 established that two items these notes carry — **guaranteed delivery of tenders by the close of business on the second business day after expiration**, and the **1986 SEC no-action relief** for abbreviated investment-grade cash tenders — are **not** in 17 CFR 240.14e-1 and are unverified against primary text; upgrading the notes is the fastest way to see what they actually say, and the primary text of the *other* items (Rule 14d-4, Schedule TO) can then be checked.
-- **The short-sale-restriction family (Rule 201)** — **S-235** (SEC press release 2010-26), **S-236** (Barardehi, Bird, Karolyi & Ruchti 2025), **S-237** (Molnár 2022, a Cycle-97 honest negative — a *new* route, such as the archive's CDX/replay or an author-hosted copy, is permitted, the failed route is not to be re-run blindly) and **S-238** (Switzer 2023, likewise a Cycle-97 honest negative).
-- **The availability routes behind G-27 limb 1** — **S-234** (FINRA's BrokerCheck disclosure framework, Regulatory Notice 09-66 and the Industry Snapshot tables; its own caveat says the enumerated Rule 8312 disclosure set must be confirmed against the rule text, and eCFR/FINRA routes now work) and **S-226** (FR Y-9C instructions, federalreserve.gov — a Cycle-97 honest negative whose host is known to work from the S-124 route).
-- **The T+1 / settlement family (G-11)** — **S-115** (Shah & Davda 2026, SSRN working paper on India's phased T+1 rollout), **S-116** (Marshall & Steigerwald 2013, Chicago Fed *Economic Perspectives*), **S-119** (Traders Magazine 2024) and **S-120** (ValueExchange 2024, "The T+1 Playbook").
-- **The EU-ETS compliance-data family** — **S-108** (European Commission Union Registry and the EEA data viewer) and **S-110** (European Commission, "EU ETS – Publication of surrender and compliance data"), plus **S-229** (European Parliamentary Research Service, 2026) and **S-230** (Umweltbundesamt/DEHSt CBAM definitive regime), which have no URL in the ledger and need one located before anything else.
-- **Other live routes worth one attempt each** — **S-169** (SEC roundtable on options market structure, sec.gov/files PDF), **S-136** (ICE "D6 RIN 2025 Vintage Futures" product page), **S-314** (Gorton, Klee, Ross, Ross & Vardoulakis 2026, NBER w30796 — NBER working papers are usually free to read), **S-271** (SOCPA's adoption of IFRS 18 in Saudi Arabia — the G-33 population limb) and **S-187** (EdgarHawk's insider-transaction page).
-**Boundaries:** an upgrade may **only** strengthen an existing reason or record; it must **not** re-score, must **not** add a sixth reason to any record, must **not** re-screen any family, and must consume **no `IDEA-`, `V-`, `R-`, `P-` or `G-` identifier** unless a candidate genuinely survives. Record every failed route as a failed route, with its failure mode, and do not let an index-rendered quotation be presented as a parsed document. **When an entry's quoted passages cannot be re-checked in the fetched document, strike them in place with an explanation** (Cycle 98's precedent: S-104's two TNAC-surplus sentences, S-117's author attribution) rather than quietly leaving them.
+### 1.4 Working routes established or confirmed in Cycle 100 (use these; do not re-discover them)
 
-Priority 3 — optional, and only if Priority 2 is complete or deliberately skipped: **one** further bounded provenance operation, distinct from Priority 2's. Three candidates remain on the table. (a) **The remaining municipal scholarship**: the **Green, Hollifield & Schürhoff (2007)** body (DOI 10.1093/rfs/hhl012) and the **Harris & Piwowar (2006)** body, for which the archive's CDX index was searched in Cycle 98 with no capture of the publisher PDF — a *different* archive surface (the capture of a repository bitstream rather than of the publisher route) would be a new route, not a repeat. (b) **The remaining freight debts**: the **bodies** of Ko & Chang (2024) and Kavussanos, Visvikis & Menachof (2004), whose abstracts are now in the corpus (S-380 for the first) but whose bodies are still closed. (c) **One more provenance operation on the index-rendered *mixed* class** (85 entries): each mixed entry must be **read** before it is counted, and Cycle 98 handled only the two the handoff had flagged (S-260, S-272, both annotated in place). Whichever is chosen, it must **not** re-run a route that already failed without a new route, and it must not re-open a family for a re-screen.
+1. **A compliant User-Agent with a declared contact address unlocks `sec.gov`.** With
+   `User-Agent: <name> research contact: <email>` the roundtable PDF returned **HTTP 200, 2,118,668
+   bytes**; the same pattern returned 200 for the press release and the Rule 201 FAQ page. Without it,
+   `sec.gov` returned 403 in earlier cycles. The same pattern was used for the Federal Reserve's
+   application download endpoint.
+2. **The Federal Reserve's reporting-forms application**
+   (`https://www.federalreserve.gov/apps/ReportingForms/`): the form index is
+   `…/Report/Index/<FORM_ID>` (e.g. `FR_Y-9C`) and the attachments are served from
+   `…/Download/DownloadAttachment?guid=<GUID>`. The FR Y-9C instructions PDF (4,204,476 bytes, 618
+   pages) was read this way. This route did not exist in Cycle 97.
+3. **The Crossref REST API** `https://api.crossref.org/works/<DOI>` returns the **publisher-deposited
+   abstract** for many journals, and it carries **SSRN `posted-content` records** — which is how S-237's
+   deposited abstract and S-236's abstract were obtained, and how S-238's bibliographic record was
+   confirmed. This is a general, scalable lever for the remaining journal entries.
+4. **The OpenAlex REST API** `https://api.openalex.org/works/doi:<DOI>` confirms **identity, authors,
+   host and open-access status**, and carries an **abstract inverted index** for some works — but it
+   carried **no abstract** for S-115.
+5. **Fetchable this cycle**: `cliffordchance.com` (with the capitalised "US" path), `mayerbrown.com`,
+   `chicagofed.org` (landing page **and** the article PDF), `tradersmagazine.com`, `thevx.io`,
+   `climate.ec.europa.eu` (the path has moved `/eu-action/` → `/areas-action/`), `eea.europa.eu`,
+   `finra.org` (rulebook and notices), `dehst.de`, `sec.gov` files, `federalreserve.gov`.
+6. **The Internet Archive was offline for the whole session** — re-test before relying on any archive
+   route, and prefer a live source.
+7. **The eCFR renderer endpoint** `https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-<N>?part=<P>&section=<S>`
+   returns the **full section text** (HTTP 200, ~18 KB) where the **versioner** endpoint
+   (`/api/versioner/v1/full/…`) returns **HTTP 406** and the human-facing
+   `ecfr.gov/current/…` page returns navigation chrome only. Use the renderer for CFR text, and
+   remember that a CFR section states **percentages and gallon-RINs**, not billion-RINs.
 
-Priority 4 — lossless housekeeping only, and re-run the rubric-arithmetic check across all four active candidates and the parked IDEA-010 (weights 25/20/15/15/15/10; per-point values 5.0/4.0/3.0/3.0/3.0/2.0; `Weighted total = Σ (dimension score × weight) / 5`). Cycle 98's re-run was **clean** — IDEA-011 4/3/3/4/2/5 = 69.0, IDEA-004 4/4/1/3/3/3 = 63.0, IDEA-009 3/3/1/3/2/4 = 53.0, IDEA-014 3/2/3/2/2/4 = 52.0, IDEA-010 4/4/1/2/2/2 = 55.0 — and the dossier-internal profile statements were checked against the shortlist table. Report the result in the cycle log. **No record may be moved, relabelled, renumbered or re-scoped** to tidy a file (annotate instead, as Cycle 98 did with IDEA-003's historical "Rank 2" heading), and **no identifier that a prior cycle consumed may be reused** — mint a fresh one. Re-derive the counts in §1 from the files rather than carrying them forward, and re-run the provenance sweep with the rule as stated in Priority 2, disclosing any residual against the figure inherited here.
+---
 
-Priority 5 — wrap up: rewrite this handoff with **counts re-derived from the files** (never carried forward) and a fresh, self-contained initial task message for the next agent. **Write the cycle-boundary record inside the cycle that did the work** — Cycle 97's was written a cycle late, and that is the one process failure this repository has recorded in ninety-eight cycles.
+## 2. Best next research task (Cycle 101)
 
-## 3. Initial task message for the next agent (copy verbatim)
+The register's named absent families remain **exhausted**; **do not** invent a screen to fill a slot, and
+**do not** re-run a route that already returned a negative unless a *new* route exists. The next cycle's
+substantive work should be **one bounded, pre-registered provenance operation over the remaining
+index-rendered entries**, plus the specific questions Cycle 100 left open.
 
-> You are continuing the QUANTITATIVE-HYPOTHESIS-FACTORY project, a theory-only hypothesis-generation and research-prioritisation environment. Read AGENTS.md first, then research/next_agent_handoff.md, then research/idea_register.md, research/ranked_shortlist.md, research/source_ledger.md, research/validation_handoffs.md, research/rejected_and_parked.md and research/cycle_notes.md. The canonical mission prompt is research_prompts/systematic_edge_discovery_agent_prompt.txt and is maintainer-owned: do not edit it.
->
-> Scope boundary — absolute. No backtests, simulations, parameter sweeps, optimisation, significance tests on strategy results, performance or risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, changes to workflow files, tests, credentials or infrastructure, work in other repositories, or any trading. A question that can only be answered by running something is written down precisely and handed off; that is the correct output, not a failure.
->
-> Where the register stands (Cycle 98 complete). 15 dossiers — 4 active (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-009 53.0 rank 3, IDEA-014 52.0 rank 4), 6 parked, 5 rejected; 370 verified sources (S-001 … S-209, S-220 … S-380; S-210 … S-219 reserved and unused); 10 validation specifications (8 not executable; executable: V-008, V-009; V-002 frozen; V-010 never-to-execute); 55 rejections (R-001 … R-055); 13 parking records (12 active); 92-row known-baseline table; gaps G-01 … G-36 (open: G-21, G-28 frozen, G-30 exhausted). Next free identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.
->
-> What Cycle 98 did. (1) Maintained the frozen/exhausted/dated items as they stand: G-21, G-28, G-30, G-32 limb (c) and G-33 (dated 2027 Q3), G-14 (dated 29 March 2029), IDEA-014's inconclusive limb, P-010, P-011, P-014, and the two dated rulemaking items (R-054 condition (c), SEC Interval Fund Modernization comments closed 4 December 2026; R-055 condition (c), MSRB Rule G-32 comments due 14 December 2026) — both still in the future on 21 October 2026, so neither is due and no clock-driven re-search was performed. (2) **Evidence work, not a screen** (the named absent families are exhausted and nine mechanism-first screens have each produced a bounded negative, so the screen slot is skipped rather than padded). (i) **The bounded provenance-upgrade operation** was executed over a named subset of twelve index-rendered entries re-measured at the start of the cycle, and **all twelve are now line-verified**: S-104 (ERCST/ICAP 2025 State of the EU ETS report — 44 pages, 165,249 characters, with **two earlier quotations struck** because they are not present in the document), S-112 (SNB WP 2010-6 "Daytime is money" — 31 pages), S-117 (NY Fed "UST1 Update" — 3 pages, with the author attribution **struck as unattested**), S-122 (Hedegaard 2014, AQR — 35 pages), S-123 (FCA Occasional Paper 68 — 81 pages, with **two bibliographic corrections**: the paper is dated **May 2025**, not 2024, is authored by **Andrei Kirilenko, Wladimir Kraus, Oliver Linton and Mingmei Xiao**, and is titled "ETF (Mis)pricing)"), S-124 (Fed FEDS Note on crypto ETPs), S-132 (EPA "RIN Trades and Price Information"), S-185 (EPA RFS public data — with the dated monthly file list **struck** and replaced by the pages' own confirmed **monthly cadence** statement), S-203 (EPA final 2026/2027 standards — every volume confirmed, and the page **has moved**: the old path now returns HTTP 404), S-207 (**17 CFR 240.14e-1 read end-to-end** — the 20-business-day minimum, the 10-business-day change-of-consideration rule and the extension announcement disclosing the approximate number of securities deposited are now confirmed **against the rule itself**), S-233 (LPL Financial net capital — the numbers $443,742 / $19,426 / $424,316 are confirmed exactly, and the exhibit is filed with the **Form 10-K**, not a Form 10-Q; the 10-Q body carries the same table quarterly, so the quarterly route holds while the XBRL exhibit route is annual) and S-279 (Takahashi 2017, Hosei — 30 pages). The operation consumed **no identifier** and changed **no score**. (ii) **The closed-body repository sweep** re-tried Harris & Piwowar (2006), Kavussanos, Visvikis & Menachof (2004) and Ko & Chang (2024) with new routes; the first two remain **closed honest negatives** with their failed routes named, and Ko & Chang's **authors' own abstract** was obtained (the SSRN record page replayed from the Internet Archive) and registered as **S-380**, which **corroborates the "Physical-Paper Hypothesis" label** while the body stays closed and the paper stays out of the verification basis for any reason. (iii) **The "Muni Monday" trade-press route** returned **no** dated municipal market periodicity — the published municipal seasonality that exists is **monthly**, not weekly — so **R-055's re-screen condition (d) is not satisfied** and no re-screen was triggered. (3) Lossless housekeeping and a **clean rubric-arithmetic re-run** (IDEA-011 69.0; IDEA-004 63.0; IDEA-009 53.0; IDEA-014 52.0; IDEA-010 55.0 parked-terminal). (4) Two **state-integrity findings recorded in place**: the **Cycle-97 cycle log was missing** and the handoff header mis-stated Cycle 97's work (Cycle 97's work *was* executed — nineteen entries carry Cycle-97 annotations, eleven upgrades and eight honest negatives — and its boundary record has now been written retrospectively), and one heading in the corpus ("### S-358 — Cycle-96 upgrade: …") is a **sub-heading inside an entry**, not a second entry.
->
-> Your task — Cycle 99. Execute, in order: (1) maintain the frozen/exhausted/dated items as they stand, including the two dated rulemaking items (R-054 condition (c): comments closed 4 December 2026 — re-screen only against the final rule; R-055 condition (c): MSRB Rule G-32 comments due 14 December 2026) and note that R-055's condition (d) route has now been run once and returned a negative, so re-running it is not a debt; (2) **one bounded, pre-registered provenance operation — not a screen**: upgrade a named subset of **8–12** of the **57 remaining index-rendered-only ledger entries** to line-verified by direct fetch (re-measure the pool first with the rule as stated in the handoff and disclose any residual; a fetch or read performed *through* a search index is an index render, not a direct fetch). The suggested subset, by fetchability and load-bearing weight: the practitioner notes **S-208** (Clifford Chance 2025) and **S-209** (Mayer Brown 2024) — Cycle 98 showed that two items they carry (guaranteed delivery by the close of business on the second business day after expiration, and the 1986 SEC no-action relief) are **not** in 17 CFR 240.14e-1 and need primary text; the Rule 201 family **S-235, S-236, S-237, S-238**; the G-27 availability routes **S-234** (FINRA) and **S-226** (FR Y-9C); the T+1/settlement family **S-115, S-116, S-119, S-120**; the EU-ETS compliance-data family **S-108, S-110, S-229, S-230**; and one attempt each on **S-169, S-136, S-314, S-271, S-187**. Routes that work: the venues' and regulators' own sites; **EDGAR's archive and full-text search with a compliant User-Agent** (a declared contact address); **eCFR's rendered HTML sections**; Crossref (including its posted-content index), OpenAlex (especially open-access location records), Unpaywall, Semantic Scholar, OpenAIRE; the **Internet Archive's CDX index, advanced search and replay** (`https://web.archive.org/cdx/search/cdx?url=…`, `https://archive.org/advancedsearch.php?q=…`, `https://web.archive.org/web/<timestamp>id_/<original-url>`); the Federal Register API and raw-text server; and the **general web-search provider, which was restored in Cycle 98** and was quota-limited in Cycles 96 and 97. (3) **Optionally** one further bounded provenance operation, distinct from (2): the remaining municipal scholarship (the Green, Hollifield & Schürhoff 2007 or the Harris & Piwowar 2006 body), the remaining freight bodies (Ko & Chang 2024; Kavussanos et al. 2004), or one more pass over the **85 mixed-class** entries, each of which must be read before it is counted. (4) Lossless housekeeping and a **rubric-arithmetic re-run** across the four active candidates and the parked IDEA-010; **no record may be moved, relabelled, renumbered or re-scoped** to tidy a file, and no consumed identifier may be reused. (5) Rewrite the handoff with counts re-derived from the files and a fresh initial task message, and **write the cycle-boundary record inside the cycle that did the work** — Cycle 97's was written a cycle late, and that is the only process failure this repository has recorded in ninety-eight cycles.
->
-> Working rules. Read the handoff and register before generating; preserve prior work — annotate, never erase; never invent a citation — every external claim points to a source-ledger entry, and a document that was not fetched and text-extracted is an index-rendered neighbour and may not be used as a verification basis; record a failed retrieval as a failed retrieval, with its failure mode; **when a quoted passage cannot be re-checked in the fetched document, strike it in place with an explanation** rather than leaving it standing; score with the fixed rubric as research priority, never as a probability of profit; leave the session with an updated handoff and a fresh, self-contained initial task message.
+### Priority 1 — Maintain the frozen, exhausted and dated items as they stand
+No re-search of the items in §1.2. Re-check the two dated rulemaking items only when their dates
+arrive, and record the outcome then.
+
+### Priority 2 — One bounded provenance operation over the remaining 45 index-rendered-only entries
+**Pre-register the subset and the route for each entry before fetching anything** (the Cycle-99 failure
+mode was fetching without a written route and then not writing the annotation back). The named subset
+below is chosen for **fetchability** and for **how much of the register rests on the entry**:
+
+| Target | What it supports | Route to try first |
+| --- | --- | --- |
+| **S-102** | Directive 2003/87/EC, Articles 12(3) and 16(2)–(4) | **EUR-Lex** consolidated text (HTML and PDF) |
+| **S-103** | European Commission (2023) and Directive (EU) 2023/959 — the move of the surrender deadline | **EUR-Lex** (the 2023 amending directive) and the Commission's own note |
+| **S-106** | DEHSt auction-calendar notices | **dehst.de** (fetchable this cycle) |
+| **S-118** | NY Fed FX Committee minutes, 22 May 2024 | **newyorkfed.org** |
+| **S-027** | Da, Engelberg & Gao (2011) | the **NBER working-paper PDF**, else the Crossref abstract |
+| **S-064** | Wang (2026) — the funding-state FX baseline | **Crossref** / SSRN record via `api.crossref.org` |
+| **S-153** | Driessen, Maenhout & Vilkov (2009) | **Crossref** abstract + the publisher's abstract page |
+| **S-158** | Gornall, Xiao & Rinaldi (2025) | **Crossref** abstract, or the NBER/SSRN working version |
+| **S-170** | Keyrock (2026) token-unlock event study, quoted in a public document | the **BIS** report PDF that quotes it |
+| **S-172** | Lee (2025) — arXiv record | the **arXiv** abstract page and the PDF (`arxiv.org/abs/<id>`) — the entry already has the API metadata; what is missing is the **v3 abstract text** |
+| **S-125** | Clapham & Ewald (2026) | **Crossref** / **OpenAlex** / the SSRN record |
+| **S-154** | Carr & Wu (2009) | **Crossref** abstract (the *Journal of Finance* record) |
+| **S-168** | Borenstein, Bushnell, Wolak & Zaragoza-Watkins (2019) | **Crossref** abstract; the working-paper version on the authors' or the regulator's site |
+
+**Rules for the operation.** (a) Record for every entry: the URL fetched, the **HTTP status**, the
+**byte count**, the **page or character count**, and the extraction method. (b) A quotation that cannot
+be re-checked in the fetched document's text layer is **not a quotation** — extract the text layer or
+record the entry as index-rendered and unattributed. (c) **Strike in place** any quotation the fetched
+document does not contain, with the reason and the string counts that show the absence; **do not
+silently keep it**. (d) Record a **negative** as a negative: the route tried, the status, the failure
+mode. (e) An upgrade **may only strengthen an existing reason or record**; it may not re-score, add a
+sixth reason, re-screen a family, or consume an identifier. (f) Write the annotation **into the entry
+in the same cycle** — a cycle log is a record of intent, the ledger entry is the evidence.
+
+### Priority 3 — Close the specific open questions Cycle 100 created
+Each of these is answerable with a *named* route and is a precise, small piece of work:
+
+1. **The two struck S-208 items need a different source, not a re-read.** "Guaranteed delivery of tenders
+   by the close of business on the second business day after expiration" and the 1986/2015 abbreviated
+   offer-period day-count are **absent from the Clifford Chance note**. The right source is a **tender
+   offer document itself** (a Schedule TO or the 8-K/424B announcement, via EDGAR full-text search) or
+   the **SEC staff's position**. Frame the question as: *what is the source of the "guaranteed delivery
+   … second business day after expiration" mechanic, and what day-count does the 1986 relief and the
+   January 2015 no-action letter actually specify?* Until it is answered, neither may be cited.
+2. **The two S-238/S-237 bodies.** S-238's two quotations and S-237's four magnitudes are still closed.
+   A **Scopus/DOI abstract via the publisher's landing page** (Elsevier blocks, but the *abstract* is
+   often served on the `sciencedirect.com/science/article/abs/pii/...` path) or the author's own
+   working-paper version is the route; a **CERN/SSRN/NBER mirror** is the alternative. Record a negative
+   if neither opens.
+3. **S-234's Industry Snapshot.** Find the current FINRA URL for the firm-level statistics pages (the
+   two implied paths 404). The question: *does FINRA publish firm-level net capital or only
+   aggregate-by-size-bucket tables, and at what URL?* If only aggregate tables exist, say so and record
+   it — it is the same negative the register already relies on.
+4. **S-229's free-allocation percentages.** Do **not** re-try the European Parliament host (HTTP 202,
+   zero bytes). The same figures are in **EUR-Lex** (Directive (EU) 2023/959) and in the Commission's
+   own guidance. Confirm the percentages against the **directive text** and record the naming trap
+   (retention factor 97.5 % vs obligation share 2.5 % in 2026) wherever the number is used.
+5. **S-271's SOCPA wording.** The host timed out; a different host is needed (the site's alternate
+   language paths, or the Saudi Exchange / the IFRS Foundation's own endorsement record for Saudi
+   Arabia). The question: *does SOCPA itself say IFRS 18 must be applied "all at once", and what is the
+   effective date?* An IFRS Foundation or IFRS Advisable Council record would be a stronger source
+   than the issuer's own page.
+6. **S-115** — retry the archive route **only when the Internet Archive is up**, and pair it with the
+   OpenAlex identity already confirmed.
+7. **S-136** — take no action. It is line-verified and must not be counted in any pool measurement
+   again.
+
+### Priority 4 — Lossless housekeeping and a rubric-arithmetic re-run
+Re-run `Weighted total = Σ (dimension score × weight) / 5` (weights 25/20/15/15/15/10; per-point values
+5.0/4.0/3.0/3.0/3.0/2.0) for all four active candidates and the parked IDEA-010, and record the result.
+Re-derive every count from the files. **Move, relabel, renumber or re-scope nothing.**
+
+### Priority 5 — Rewrite this handoff and write a fresh, self-contained initial task message
+Leave the session with an updated `research/next_agent_handoff.md` and a fresh initial task message for
+Cycle 102, and a Cycle-101 record **inside** the cycle that did the work (never a cycle late).
+
+### Highest-value unresolved theoretical questions (unchanged, and still unresolved)
+1. Does an **accounting-standards adoption** (IFRS 18 / ASC 350) create a *measurable*, dated
+   information-diffusion clock across filers, separable from a mechanical window-dressing explanation?
+   (IDEA-011, rank 1; the sample-size condition is the binding constraint.)
+2. Is a **crowding-conditioned** slow-capital decay (IDEA-004) sign-stable once the conditioning is
+   estimated rather than assumed, and does it survive the cost-over-65 % gate?
+3. Is the **perpetual-futures funding rate** a market-wide measure of speculative demand that transfers
+   across venues, or a venue artefact with a momentum confound? (IDEA-009.)
+4. Does the **EU ETS surrender deadline** concentrate flows enough to move prices, and is the concession
+   visible ex ante? (IDEA-013, parked; G-13's decision-time sample.)
+5. Does a **dealer balance-sheet constraint** bind corporate-bond ETF discounts, and is the state
+   quarterly and lagged? (IDEA-010, parked: yes to the second, unproved on the first.)
+
+---
+
+## 3. Your task — Cycle 101
+
+You are the next agent in a **theory-only** research environment. Read this file first, then
+`research/idea_register.md`, `research/ranked_shortlist.md` and `research/source_ledger.md`, before
+generating anything.
+
+**The mission.** Produce and prioritise *falsifiable hypotheses* about market structure and market
+behaviour, with the evidence discipline the repository demands. **Not allowed here:** backtests,
+simulations, parameter sweeps, optimisation, significance testing on strategy results, performance or
+risk metrics, market-data acquisition or processing, strategy or signal implementation, executable
+research infrastructure, job or workflow launches, changes to workflow files, tests, credentials or
+infrastructure, work in other repositories, and any trading. **Allowed:** reading and summarising
+literature, market-structure and venue documentation, exchange and regulator material, and this
+repository's own notes; specifying hypotheses, falsifiable predictions, observables and data
+requirements; maintaining the theory-only artifacts. If a question can only be answered by running
+something, **write the question down precisely and hand it off** — that is the correct output, not a
+failure.
+
+**Your task for Cycle 101, in order:**
+
+1. **Read** `research/next_agent_handoff.md` in full, then the four artifacts named above, then
+   `research/cycle_notes.md` (Cycle 100's record) and the ledger's "Cycle-100 provenance-operation
+   record" section. Do not skip the ledger section: it carries the state-integrity finding and the
+   route list.
+2. **Re-derive the counts** from the files (§1) and confirm the **rubric arithmetic** (Priority 4).
+   If any count or total disagrees with the files, the **files win**, and the discrepancy is written
+   down in the cycle record.
+3. **Execute Priority 2**: one bounded, pre-registered provenance operation over the **named subset in
+   §2 Priority 2** (thirteen entries, each with a first route). Write the pre-registered list — target,
+   route, and what would count as an upgrade, a partial upgrade and a negative — into the cycle record
+   **before** fetching anything. Then fetch, extract the text layer, check the entry's quoted passages
+   against it, and write the annotation **into each entry in the same cycle**. Strike what the document
+   does not contain; record a negative as a negative; carry a URL correction with the correction.
+4. **Execute Priority 3**: close as many of the seven specific open questions as you can, each with its
+   named route. Do not re-run a route that has already returned a negative unless you have a *different*
+   route; do not re-run the European Parliament host, `socpa.org.sa`, `sciencedirect.com` article pages
+   or `ffiec.gov/nic/` without a new approach.
+5. **Maintain** the frozen, exhausted and dated items as they stand (§1.2). Do not re-run R-055's
+   condition (d). Note that R-054's and R-055's rulemaking dates (4 and 14 December 2026) are **not yet
+   due**.
+6. **Do not create a candidate, re-score, or consume an identifier** unless you find something that
+   genuinely demands it; if you do, the reasoning must be written in the register, the shortlist and the
+   cycle log together. An upgrade to an existing entry is **not** a reason to re-score.
+7. **Finish** by rewriting `research/next_agent_handoff.md` in full (header, §1, §2, §3), re-deriving
+   every count, and writing a **fresh, self-contained initial task message** for Cycle 102; add the
+   Cycle-101 record to `research/cycle_notes.md` **in the same cycle**; update the header notes in
+   `idea_register.md`, `ranked_shortlist.md`, `validation_handoffs.md`, `rejected_and_parked.md` and
+   `research/README.md`; and leave the next free identifiers correct: **IDEA-017, S-381, V-012, G-37,
+   R-056, P-015** (unless you consume one, in which case say so in the handoff and in the README).
+
+**What you must not do:** invent a citation; present an index-rendered quotation as a parsed document;
+let a "fetched directly" verification line stand on a document that was in fact unreachable; move,
+relabel or renumber an existing identifier to tidy a file; edit
+`research_prompts/systematic_edge_discovery_agent_prompt.txt` (maintainer-owned); or write a cycle
+record a cycle late.
+
+**What success looks like for Cycle 101:** a larger set of entries whose quoted passages have been
+re-checked in a document actually fetched and parsed, with the ones that fail **struck in place**; the
+seven open questions answered or explicitly left open with the routes tried; the counts and the rubric
+re-derived from the files; and a handoff that a new agent can act on without re-reading forty cycles of
+history.

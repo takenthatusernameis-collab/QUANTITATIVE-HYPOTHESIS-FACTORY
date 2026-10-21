@@ -1,6 +1,40 @@
-# RANKED SHORTLIST — CYCLES 1–98
+# RANKED SHORTLIST — CYCLES 1–100
 
-# RANKED SHORTLIST — CYCLES 1–98
+# RANKED SHORTLIST — CYCLES 1–100
+
+**Cycle-100 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 100's substantive work was **evidence work, not a screen**, because the
+register's named absent families remain exhausted and no new mechanism family was pre-registered. (i) **The
+bounded provenance-upgrade operation** was executed over the **twenty-one** named targets of the Cycle-99
+handoff, each first verified **by hand** against its own verification bullet: **sixteen entries are now
+line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120,
+S-169, S-230, and S-238 at bibliographic level), **two are partially upgraded with the unverified parts named**
+(S-187, a live page whose 16 October 2026 figures are not reproducible and are struck; S-238's quotations),
+and **three are honest negatives with their failure modes recorded** (S-115, S-229, S-271). **No identifier
+was consumed by the operation** and **no score moved with it**: an upgrade changes an entry's provenance,
+not a candidate's merit. (ii) **The operation strengthened two existing reasons without re-opening
+them**: the FR Y-9C submission deadlines are now line-verified from the Board's own instructions
+(**40 calendar days** after the March, June and September as-of dates; **45 calendar days** after
+December), which confirms **G-23's cadence limb** for IDEA-010, and Rule 8312's enumerated BrokerCheck
+release set is now line-verified and contains **no firm-level net capital**, which confirms **G-27 limb
+1's route selection** for IDEA-010. Two qualifications were recorded in place rather than left standing:
+S-208's "guaranteed delivery … second business day after expiration" item and its "(7–10 calendar days)"
+day-count are **not in the fetched document** and are struck, and S-237's paper has **three authors**
+(Rainer Brand, Matthias Molnar, Angel Tengulov), not Molnár alone. **(iii) IDEA-014's instrument is now
+read rather than inferred (S-202):** 40 CFR 80.1405 was fetched directly through the **eCFR renderer
+endpoint** and read, confirming Table 1 (2010 → 2027), the percentage-standard equations and the
+**GEi/DEi** exemption terms — and **correcting the register's attribution**: the section states
+**percentages** and **gallon-RINs**, so the "billion RINs" figures used in the G-20 arithmetic come from
+the **agency's summary (S-203)**, not from the regulation. The **numbers are unchanged**; G-20 stays
+**closed against the projected state** and IDEA-014's 52.0 is unchanged. (iv) **A state-integrity finding was
+recorded in place**: the prior cycle's log and handoff header claimed two provenance upgrades (S-208 and
+S-136) that the ledger does not carry — S-208's upgrade did not reach the artifact and was performed in
+this cycle instead, and S-136 was line-verified from its creation, so it was never an index-rendered entry
+at all. **The rubric-arithmetic re-run is clean**: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 =
+63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. The register
+holds **370 verified sources** and a **92-row known-baseline table**. **No score, rank, tie-break,
+hard-stop flag, gap or specification changed.**
 
 **Cycle-98 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
