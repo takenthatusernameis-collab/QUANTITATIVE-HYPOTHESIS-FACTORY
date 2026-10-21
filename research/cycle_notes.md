@@ -3043,3 +3043,28 @@ rewrite the handoff from the files, not from the last cycle's prose.
    evidence. (ii) One heading in the corpus — "### S-358 — Cycle-96 upgrade: the body was obtained and
    text-extracted" — is a **sub-heading inside an entry**, not a second entry; a block-level sweep that
    counts headings will over-count by one, and the ledger's corpus-state note now says so.
+
+---
+
+## Cycle 99 — 2026-10-21
+Theory-only cycle executing the five priorities from the Cycle-98 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Maintain the frozen, exhausted and dated items as they stand; run one bounded, pre-registered provenance operation over a named subset of the 57 index-rendered entries; lossless housekeeping with a rubric-arithmetic re-run; rewrite the handoff and initial task message.
+
+**Pass 2 — Critique.** A fetch or read performed *through* a search index is an index render, not a direct fetch; entries whose quoted passages cannot be re-checked in the fetched document must be struck in place with an explanation. Where a PDF URL returns HTTP 404, a working HTML rendering of the same document counts as a direct fetch of the same text.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+
+1. **Frozen/exhausted/dated items maintained as they stand.** No re-search performed; R-055's condition (d) route is not re-run (it returned a negative in Cycle 98).
+
+2. **Bounded provenance-upgrade operation — two upgrades completed, the rest carried forward.** **S-208** (Clifford Chance 2025) — the PDF URL returned HTTP 404; the document was obtained via its HTML rendering, which carries the same text. The 20-business-day minimum, the 10-business-day change-of-consideration rule, the announcement requirement, the "early bird" step-down, the guaranteed-delivery-by-close-of-business-on-the-second-business-day-after-expiration item and the 1986 SEC no-action relief for abbreviated investment-grade cash tenders (7–10 calendar days) are all present in the fetched text, so the entry is now **line-verified**, with a URL correction recorded in place. **S-136** (ICE "D6 RIN 2025 Vintage Futures" product page) — fetched directly and matches the ledger's quoted specifications (settlement method, contract size, trading price quotation, listing cycle, deliverables); **line-verified**. The remaining entries in the recommended subset (S-209, S-235, S-236, S-237, S-238, S-234, S-226, S-115, S-116, S-119, S-120, S-108, S-110, S-229, S-230, S-169, S-314, S-271, S-187) remain **index-rendered** and are carried to the next cycle; no quotation was struck and no identifier was consumed.
+
+3. **Lossless housekeeping with rubric-arithmetic re-run (clean).** IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. Counts re-derived from the files: 15 dossiers, 370 verified sources, 10 validation specs, 55 rejections, 13 parking records (12 active), 92-row baseline, gaps G-01…G-36. No identifier consumed.
+
+4. **Handoff rewritten** with counts re-derived from the files and a fresh, self-contained initial task message for Cycle 100.
+
+**No candidate was created; no score changed; no gap opened or closed.**
