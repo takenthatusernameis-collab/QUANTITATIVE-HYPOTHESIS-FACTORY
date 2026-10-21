@@ -1,4 +1,83 @@
-# SOURCE LEDGER — CYCLES 1–109
+# SOURCE LEDGER — CYCLES 1–112
+
+**Cycle 112 (2026-10-21) added nine new source entries (S-389 … S-397), minted no new candidate, wrote
+one new validation specification (V-012), opened two gaps (G-37, G-38), closed no gap, and re-scored one
+candidate (IDEA-009, 53.0 → 42.0).** The cycle executed **three pre-registered screens** (pre-registered
+in `cycle_notes.md` before the first fetch) and a **state-integrity repair pass** that found and repaired
+**five label-and-header defects**, including a block headed "Cycle 112" in three artifacts that was in fact
+executed in Cycle 111 (the repair is recorded in `cycle_notes.md`).
+
+- **IDEA-009 (PERP-FUND) — the Cycle-109 P-5 screen returned a materially adverse verdict, and three new
+  entries carry it.** **S-390** (Memon, Anklesaria-Dalal & Mishra 2026) is an **independent, published test
+  of the candidate's own state construction** — extreme funding "classified ex ante using the current
+  funding rate's **mid-rank percentile within the preceding 180-day distribution**, with the lower and upper
+  deciles defining extreme negative and extreme positive states", Binance BTCUSDT, 10 September 2019 to 10
+  August 2026, controlled for the four-hour pre-settlement move — and its result is **asymmetric**: extreme
+  negative funding is followed by an average 24-hour return of **+0.506 %** (t, Wilcoxon and
+  directional-frequency significant, FDR-robust) and about **0.491 pp** after controls, while "**extreme
+  positive funding does not exhibit a comparable 24-hour effect**". **S-389** (the `OctopusTakopi/funding-rate-alpha`
+  practitioner note, line-verified) supplies the larger sample: the raw funding level's next-24-hour
+  information coefficient runs **−3.9 % (2020), −3.1 % (2021), +0.0 % (2022), +0.6 % (2023), +1.6 % (2024,
+  t = 3.4), +3.4 % (2025, t = 8.1), +2.0 % (2026, t = 3.6)** — a *reversal* regime over 2020–21 and a
+  *continuation* regime from 2023, with the current regime's coefficients positive and significant — and the
+  note's own sentence is "**No unconditional level signal survives this flip**"; the candidate's percentile
+  construction is reported **null** (90-day z-score 24-hour information coefficient **−0.0007, t = −0.3**;
+  "predicts nothing at any horizon"); the *crowding* reading is contradicted (the level "measures how
+  retail-oriented a contract is rather than how crowded its current position structure is"; "**open interest
+  builds into and through high-funding settlements** … positions are opened into the payment, not unwound
+  before it"); and the cost floor bites at the candidate's horizon (one-hour decile spread **3.66 bps** against
+  an **8 bps** reference round trip; the carry-plus-reversal book's excess over the round trip "indistinguishable
+  from zero (**+2.2 bps, t = 0.68** at a day)"). **S-391** (BitMEX Blog, 12 October 2017, Arthur Hayes) is the
+  **rediscovery guard**: the venue itself published the candidate's rule nine years ago — "A large negative
+  funding rate predicts a positive return for the next 8 hour period. A large positive funding rate predicts
+  a negative return for the next 8 hour period" — with per-cell success rates of **47.62 %, 53.23 %, 45.68 %
+  and 44.44 %** on 524 funding periods. **S-392** (the `DavidAyusoPita/funding-carry-analysis` note,
+  line-verified) supplies the cost and decay anchors for the *carry* baseline (**13 bps** round trip;
+  **100–135 hours** to repay; "−9 % to −15 % annualised after costs" for the active rule; the spread "averaged
+  **20–35 % less in the second year**"; and "**OKX publishes only three months of history**", which bears on the
+  candidate's venue-transferability condition). **Effect:** IDEA-009 is **re-scored 53.0 → 42.0** (mechanism
+  **3 → 2**, falsifiability **3 → 2**, resilience **2 → 1**; evidence, novelty and data unchanged) and two
+  hard-stop conditions are attached — **costs likely to overwhelm the hypothesized effect** and **a claim that
+  merely repackages a known idea** — while the candidate is **retained** (not parked) because its residual is a
+  testable time-series specification and V-008 remains executable. The screen is logged as **R-059**; the new
+  gap is **G-37**.
+- **IDEA-014 (RIN-DEADLINE) — two agency documents bear on the mechanism, the cost floor and the deadline's
+  timing, and none of them estimates a deadline-specific price effect.** **S-393** (GAO-23-105801, November
+  2022) and **S-394** (EPA-420-R-22-038, December 2022) are the first entries in this register from the
+  **audit-and-agency-impact-analysis route form**. Together they establish that **the RFS compliance
+  obligation is priced**: GAO's own analysis of EPA's EMTS transaction data finds that "companies that tended
+  to trade lower quantities of RINs (likely smaller refineries) were either paying more to buy RINs or
+  receiving less when they sell RINs", the small party paying or receiving prices "**2.4 percent higher or
+  lower** … on average" and "**2.9 percent**" between refineries ("This effect is statistically significant"),
+  while EPA's final analysis puts the 24 small refineries' premium at **1.1 % (1.2 ¢) more per RIN** over the
+  average daily price and **0.5 %** over the 20 largest refiners (D4: **2.7 %**), with a stated sensitivity band
+  of **5.3 % less to 7.5 % more**. They also establish **the deadline's timing structure**: compliance dates
+  "are generally **March 31 of the year following the compliance year**", obligations may be met with
+  current- or prior-year RINs, and EPA "has issued decisions after the 90-day deadline **89 percent of the
+  time**", so refineries "often do not know whether they need RINs until close to, or after, the March 31
+  compliance deadline", which "may result in either an **excess or a shortfall of RINs**". **Effect: no score
+  change** (the sources bear on the mechanism and the cost floor, not on the conditional directional claim —
+  the Cycle-35/52 precedent), the **state-free existence limb stays inconclusive** (no published source
+  estimates a pre-/post-deadline price pattern), the new gap **G-38** is opened for the published round-trip
+  cost, and **V-012** is written as the candidate's first **state-free** specification, with the GAO/EPA price
+  dispersion as its cost floor. The screen is logged as **R-060**.
+- **The Cycle-112 new-family screen (FX option-implied distribution states) is a bounded negative, logged as
+  R-061.** The family is published in both directions: **S-395** (Chen & Gwati) shows that the options-implied
+  standard deviation, skewness and kurtosis of six major currency pairs "consistently explain subsequent
+  currency excess returns for horizons between one week to twelve months"; **S-396** (Ratcliff, 2010, journal
+  article) shows out-of-sample improvement for the OTM put-call relative price in USD/EUR; and **S-397**
+  (Kurbanov, 2010 thesis) records the opposite for the majors — in-sample fit without out-of-sample edge
+  ("**RMSE ratio of 1.06**" against the random walk). The screen's bar (G-12) fails: the sign is claimed in the
+  published literature, and the register's known-baseline inventory gains row 94.
+- **Count record (re-derived from the files, not inherited).** **387 verified sources** (S-001 … S-397, with
+  S-210 … S-219 reserved and unused; 378 before this cycle), **11 validation specifications** (V-001 … V-010 and
+  V-012; V-011 reserved and unused),
+  **61 rejections** (R-001 … R-061), **13 parkings** (P-001 … P-014 with P-004 closed), **94 known-baseline
+  rows**, **15 dossiers** (IDEA-001 … IDEA-015). Open gaps after this cycle: **G-37, G-38** (both new),
+  **G-21** (handed off to validation; the literature route is exhausted and the named residual is closed),
+  **G-28** (frozen structural null), **G-30** (exhausted); dated: G-32 limb (c) and G-33 (2027 Q3), G-14
+  (29 March 2029). Active ranking after this cycle: **IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2),
+  IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4)**; IDEA-010 parked (P-014, terminal 55.0).
 
 **Cycle 109 (2026-10-21) added no new source entry, minted no new candidate and no new validation
 specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work
@@ -8610,7 +8689,7 @@ URL: https://www.ifrs.org/use-around-the-world/use-of-ifrs-standards-by-jurisdic
   would need — while the *standard-level* label for IFRS 18 is **not** published at all, which is the
   Cycle-109 screen's negative limb (logged as **R-057** in `rejected_and_parked.md`). **No re-score and no
   hard-stop change follow** — this is provenance and a scope correction to the entry's own characterisation.
-  - **Cycle-112 dated re-check (Priority 2; the re-fetch the Cycle-110 handoff pre-registered but never
+  - **Cycle-111 dated re-check (Priority 2; the re-fetch the Cycle-110 handoff pre-registered but never
     executed).** All four profile PDFs were re-fetched directly on 21 October 2026 and text-extracted with
     `pypdf`: European Union **HTTP 200, 149,740 bytes, 8 pages, 19,713 characters** (last updated
     **02 October 2024**); Saudi Arabia **HTTP 200, 126,760 bytes, 6 pages, 14,921 characters** (last
@@ -9253,6 +9332,11 @@ URLs: https://socpa.org.sa/en/knowledge-center/news/news/socpa-adopts-ifrs-18-fo
   is **not re-run** (it is a Cycle-101 timeout negative). The Cycle-102 note recorded that the
   Wayback **availability** API returns no snapshot for the endorsement path; the **new route forms** are
   the Wayback **CDX** index, queried three different ways on 21 October 2026:
+    - **Cycle-112 label repair (21 October 2026).** This bullet was written in **Cycle 111**, not Cycle 112:
+      its own text describes "the re-fetch the Cycle-110 handoff pre-registered", and R-058 is the Cycle-110
+      rejection. The "Cycle-112" label was an off-by-one error made in the session that wrote it; the
+      heading is relabelled in place and the body is untouched. This is defect 3 of the five label-and-header
+      defects repaired in Cycle 112 (see `cycle_notes.md`).
   - **(a) domain-wide CDX** — `http://web.archive.org/cdx/search/cdx` with `url=socpa.org.sa`,
     `matchType=domain`, `collapse=urlkey`, `limit=200` → **HTTP 200, 21,878 bytes, 200 collapsed
     paths**. The listing is dominated by `App_Themes/` assets and by the publication-index pages
@@ -14433,6 +14517,71 @@ URL: https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.10b-1
 
 ---
 
+### S-389 — "Funding Rates as a Cross-Sectional Factor in Perpetual Futures" (public practitioner note, GitHub repository `OctopusTakopi/funding-rate-alpha`)
+URL: https://github.com/OctopusTakopi/funding-rate-alpha (README fetched at `https://raw.githubusercontent.com/OctopusTakopi/funding-rate-alpha/main/README.md`)
+- **Type:** Self-published practitioner study (public code repository, **no peer review, no journal venue**), with a disclosed data provenance (public Binance funding, kline, premium-index and open-interest archives, survivorship-free) and a documented method (Newey–West errors, Benjamini–Hochberg multiplicity correction, day-matched placebo cohorts, circular block bootstrap). All results are **author-reported**.
+- **Supports:** (i) **the sign of the funding–return relation is regime-dependent.** The raw funding level's next-24-hour Spearman information coefficient is **−3.9 % (2020, t = −2.5), −3.1 % (2021, t = −4.7), +0.0 % (2022), +0.6 % (2023), +1.6 % (2024, t = 3.4), +3.4 % (2025, t = 8.1), +2.0 % (2026, t = 3.6)** — a *reversal* regime over 2020–21 and a *continuation* regime from 2023, the current regime's coefficients being positive and significant. The note's own sentence: "**No unconditional level signal survives this flip.**" (ii) **the candidate's own percentile construction is reported null.** The 90-day rolling z-score, cross-sectionally ranked, "**predicts nothing at any horizon, +0.00 % at one hour**", its 24-hour information coefficient being **−0.0007 (t = −0.3)**; "the preprocessing removes the baseline without creating predictability". (iii) The level predicts "**only at eight hours and shorter, and only by too little to trade**": **+1.89 % at one hour (t = 6.26)**, +1.04 % at eight hours, and **+0.23 % at twenty-four hours (t = 0.79)**; split at 2024, the 2020–23 window shows "**no effect at any horizon except a significantly negative one at a day**" while 2024–26 shows **+4.10 % at one hour** and **+2.39 % at twenty-four hours (t = 8.8)**. (iv) **the crowding reading is contradicted.** "The cross-sectional level of funding measures how retail-oriented a contract is rather than how crowded its current position structure is"; the within-day rank correlation of the rate with 7-day volatility is **−0.013**; and "**open interest builds into and through high-funding settlements**, which refutes a flow reading and leaves the rate as a measurement of the basis" (rank correlation with the open-interest change **+1.73 % (t = 9.90)** over the hour ending at the settlement and **+1.12 % (t = 7.07)** over the hour beginning at it — "positions are opened into the payment, not unwound before it"). (v) **The cost floor.** The one-hour decile spread is **3.66 bps** against an **8 bps** reference round trip; the note's own tradeable residue is a **carry** book (90-day z-score deciles, three-day swing, +8.9 bps/day, Sharpe 1.42) whose *price* leg is the failing component — "raising the liquidity floor removes the return rather than scaling it" (price leg **−0.5 bps/day** at a USD 100M floor) and whose excess over the round trip is "itself indistinguishable from zero (**+2.2 bps, t = 0.68** at a day)". (vi) A **stronger published state** exists in the same venue: the **top-trader long/short account ratio** has an information coefficient of **+0.013 (t = 4.7)** with a **continuation** sign and nets **+4.2 bps/day at Sharpe 0.82** as decile long-shorts, against the funding level's +2.8 (Sharpe 0.51) and the z-score's +1.4 (0.27).
+- **Caveats:** **author-reported and not peer-reviewed**; the design is **cross-sectional** (contracts sorted within a timestamp), whereas IDEA-009's rule is **time-series within a single underlying**, so the transfer of the regime-flip finding to the candidate's own form is **suggestive rather than decisive**; the note states that "fees are not what constrains it" (its binding constraints are capacity and drawdown); 2020 and 2026 are partial years. The register does **not** treat this note as authoritative for any sign claim and does not treat it as a replication of anything.
+- **Verification:** fetched directly on 21 October 2026 from `raw.githubusercontent.com`; the README text layer was retrieved and read from the abstract through **Section 14** (the retrieval tool truncated the final ~9 KB, which was therefore **not** read). Label: **line-verified (document fetched directly and text-extracted)**.
+
+### S-390 — Memon, H., Anklesaria-Dalal, K. and Mishra, R. R. (2026) — "Extreme Perpetual Futures Funding and Subsequent Bitcoin Returns: Intraday Evidence from Binance", *Advanced International Journal of Multidisciplinary Research*, Vol. 4, Issue 4 (July–August 2026), published 29 August 2026
+URL: https://www.aijmr.com/research-paper.php?id=1493 · DOI: https://doi.org/10.62127/aijmr.2026.v04i04.1493
+- **Type:** **Journal article with a DOI in an open-access, publication-fee-charging venue** (E-ISSN 2584-0487). The venue's own pages carry "Publication Charges" and "Track Status / Pay Fees", and self-report an "Impact Factor: 9.11"; the register cannot vouch for its peer-review process or indexing standing. All results are **author-reported**.
+- **Supports:** an **independent, published test of the candidate's own state construction**. "Extreme funding is classified ex ante using the current funding rate's **mid-rank percentile within the preceding 180-day distribution**, with the lower and upper deciles defining extreme negative and extreme positive states" — i.e. the same trailing-distribution decile the candidate specifies — over Binance BTCUSDT funding observations from **10 September 2019 to 10 August 2026** aligned with 15-minute spot prices, with returns at 15-minute, one-hour, four-hour, eight-hour and 24-hour post-settlement horizons, controlled for the four-hour pre-settlement price move. The result is **asymmetric**: "The main result is concentrated in the negative tail: **extreme negative funding is followed by an average 24-hour Bitcoin return of 0.506 %**, significant under t, Wilcoxon and directional-frequency tests and robust to false-discovery-rate adjustment. **Extreme positive funding does not exhibit a comparable 24-hour effect.**" In categorical HAC regressions extreme negative funding is associated with "approximately **0.491 percentage points** of additional 24-hour return after controlling for the pre-settlement return"; non-overlapping 24-hour subsamples retain positive and significant means. The paper's own summary: funding information is "**nonlinear, asymmetric and horizon dependent** rather than adequately represented by a simple linear relation".
+- **Caveats:** **the venue's standing is not established in this register's source set**; the article's own page is internally inconsistent (the site header reads "Volume 4, Issue 5, September–October 2026" while the paper records "Volume 4, Issue 4, July–August 2026"); the sample is **Bitcoin only**; the paper's controls do not include an open-interest or positioning measure, so it cannot separate a crowding reading from a basis reading; a 24-hour horizon only, with no cost model.
+- **Verification:** fetched directly on 21 October 2026 from `www.aijmr.com`; the page's HTML text layer was retrieved and the abstract, keywords, authorship, volume/issue, publication date and DOI were read verbatim. Label: **line-verified (document fetched directly and text-extracted)** for the **abstract and metadata only**; the full-text PDF was not retrieved.
+
+### S-391 — BitMEX Blog (12 October 2017) — Arthur Hayes, "XBTUSD Funding Mean Reversion Strategy"
+URL: https://www.bitmex.com/blog/xbtusd-funding-mean-reversion-strategy (live URL returned **HTTP 404** on 21 October 2026; the page is retained in the Wayback Machine — capture `20260121190211`)
+- **Type:** **Venue-published primary statement by the venue's co-founder**, dated 12 October 2017 (page header: "WRITTEN BY Arthur Hayes"; tags "perpetual / trading / technical-analysis / futures market"). An **interested-party** publication, not peer-reviewed.
+- **Supports:** the **rediscovery guard** for the register's funding-rate family. The post states, in the venue's own words, the rule the candidate specifies: "If the published funding is at the maximum +0.375 %, does that predict with greater accuracy whether the return of XBTUSD in the next 8 hours will be negative?"; "**A large negative funding rate predicts a positive return for the next 8 hour period. A large positive funding rate predicts a negative return for the next 8 hour period.**"; "Using an extreme funding rate as the signal, we can take the counter trend position"; and "A simple trading algo can be constructed to capture this alpha. At each funding timestamp, if the funding rate is above or below your limit, place the counter trend trade. Immediately after the next funding timestamp, close your XBTUSD position." The published table (524 funding periods) reports per-cell success rates **47.62 % (−2σ), 53.23 % (−1σ), 45.68 % (+1σ), 44.44 % (+2σ)** — i.e. below 50 % in three of four cells — with cumulative net returns of +11.07 %, −1.38 %, +10.33 % and +20.39 %, the author attributing most of the result to the funding received rather than the price move ("The added benefit of receiving funding for bucking the trend is what provides a significant majority of this strategy's returns"), and closing with "the sample size is still relatively small".
+- **Caveats:** an **interested party** publishing on its own venue; the sample is 2017 and small; the post's own framing is that the counter-trend position is taken *because* the funding payment accrues to the counter-trend side — which is the register's *carry* reading, not a reversal reading; the live URL is dead and the body text was obtained from the search index rather than from a text extraction.
+- **Verification:** the page's **identity, author and date** were confirmed by a **direct Wayback Machine capture** on 21 October 2026 (`https://web.archive.org/web/20260121190211/https://www.bitmex.com/blog/xbtusd-funding-mean-reversion-strategy`), which returned the title, byline, date and tags; the **analytic body and the success-rate table were index-rendered** (search-extraction) and are **not** line-verified. Label: **index-rendered (body) / identity-verified by direct capture**.
+
+### S-392 — "Funding Rate Carry: what survives execution costs?" (public practitioner note, GitHub repository `DavidAyusoPita/funding-carry-analysis`)
+URL: https://github.com/DavidAyusoPita/funding-carry-analysis (README fetched at `https://raw.githubusercontent.com/DavidAyusoPita/funding-carry-analysis/main/README.md`)
+- **Type:** Self-published practitioner study (public code repository, **not peer-reviewed**), with a disclosed method (unit normalisation, backwards settlement alignment, four-crossing round-trip cost model, an exchange-versus-exchange control, a four-point cost ladder, a quarterly decay check) and **author-reported** results.
+- **Supports:** the **cost and decay anchors for the funding-carry baseline**: the exchange-versus-DEX funding spread "is a genuine bias, not noise" (8.5–11.4 % annualised) but "its level mean-reverts within hours" (AR(1) half-life **1.5–3.5 hours**) "while one round trip costs **13 bps** and needs **100–135 hours** of holding to repay itself"; a threshold rule that trades it "earns the *most gross income* of any rule tested and finishes at **−9 % to −15 % annualised after costs**"; the patient rule "tolerates a round-trip cost above 250 bps before it breaks even; the active rule dies above 8 bps"; and a **decay** measure — "the spread averaged **20–35 % less in the second year** of the sample than the first, and sits **45–60 % below its late-2024 peak**". It also records a **data-availability fact relevant to the candidate's venue-transferability condition**: "**OKX publishes only three months of history**, so it is excluded from the two-year comparisons."
+- **Caveats:** the subject is the **cross-venue funding-carry spread**, not the within-asset reversal rule, so this entry is a **cost-and-decay reference**, not evidence on IDEA-009's directional claim; **author-reported and not peer-reviewed**; the note's own limitations include no liquidation modelling, no counterparty/protocol risk, assumed slippage beyond the measured gap, and "**One historical path. Two years, three assets, one regime.**"
+- **Verification:** fetched directly on 21 October 2026 from `raw.githubusercontent.com`; the README text layer was retrieved and read in full. Label: **line-verified (document fetched directly and text-extracted)**.
+
+### S-393 — U.S. Government Accountability Office (November 2022) — GAO-23-105801, "Renewable Fuel Standard: Actions Needed to Improve Decision-Making in the Small Refinery Exemption Program"
+URL: https://www.gao.gov/assets/gao-23-105801.pdf · products page: https://www.gao.gov/products/gao-23-105801
+- **Type:** **Primary audit report of the U.S. legislative branch's audit agency**, with its own methodology (EPA EMTS RIN transaction data, 2013–2021; Appendix II) and seven recommendations to EPA and DOE. The report is also referred to in the register's existing sources as "the GAO Report" (S-394's companion), and a second identifier for the same report (**GAO-23-104273**) circulates in the same document family.
+- **Supports:** three published facts that bear directly on IDEA-014. (i) **The RFS compliance obligation is priced, and the constrained party pays up.** GAO analysed EPA's RIN market transaction data and found that "companies that tended to trade lower quantities of RINs (likely smaller refineries) were either **paying more to buy RINs or receiving less when they sell RINs**, relative to larger companies from 2013 through 2021"; for the transactions with the largest size differences the small party paid or received prices "**2.4 percent higher or lower** for RINs, on average", and "among transactions between refineries, we found that the smaller party paid or received prices **2.9 percent higher or lower** for RINs on average"; for the ethanol (D6) RIN the size-differential estimate is 2.9 % and for the biomass-based diesel (D4) RIN **0.8 %**; "**This effect is statistically significant**". (ii) **The deadline's timing structure is documented.** EPA "has issued decisions after the 90-day deadline **89 percent of the time** (190 out of 214 decisions)"; because decisions land late, "**small refineries that apply for exemptions often do not know whether they need RINs until close to, or after, the March 31 compliance deadline**, which creates financial uncertainty"; "Late exemption decisions mean that refineries do not know how many RINs they need to submit for compliance until very close to, or after, the date by which refineries need to show compliance with RFS annual requirements"; and this "may result in either an **excess or a shortfall of RINs**". (iii) **A published recommendation to the agency** on RIN market performance (Recommendation 1: EPA "should reassess EPA's conclusion that all small refineries recover their RFS compliance costs … including by fully examining and documenting **RIN market performance and RIN pass-through** in all relevant fuel markets").
+- **Caveats:** GAO's price differential is a **counterparty-size effect**, **not** a deadline-timing effect; the report says the effect's magnitude "materially" affecting individual refineries is unclear; the analysis is a single agency dataset with GAO's own modelling choices.
+- **Verification:** **index-rendered** on 21 October 2026 from the official `gao.gov` PDF asset URL (search-extraction of the PDF text; the report's "What GAO Found" text, findings, footnotes 10–11 and 22 and Recommendations 1–7 were read); the PDF was **not** fetched and text-extracted directly. Label: **index-rendered**.
+
+### S-394 — U.S. Environmental Protection Agency (December 2022) — EPA-420-R-22-038, "An Analysis of the Price of Renewable Identification Numbers (RINs) and Small Refineries" (Technical Memorandum, National Center for Environmental Economics)
+Landing page: https://www.epa.gov/renewable-fuel-standard/epa-analysis-price-rins-and-small-refineries · copy of the memorandum consulted: `https://aglaw.psu.edu/wp-content/uploads/2023/05/EPA-Analysis-of-the-Price-of-RINs-and-Small-Refineries-Dec.-2022.pdf`
+- **Type:** **The agency's own primary technical memorandum**, issued 20 December 2022 in response to GAO's November 2022 recommendation; it is the "final analysis" EPA provided to GAO and is reproduced as Appendix IV of the GAO Report.
+- **Supports:** the **published cost anchor and the deadline-timing structure** for IDEA-014, on the agency's own EMTS transaction data (2013–2021; "over 2.2 million RIN transactions for approximately 140 billion RINs", covering separated D6 and D4 RINs). (i) **Price friction around the daily average is measured.** The 24 small refineries that traded on a facility-specific basis "paid on average **1.1 % (1.2 ¢) more per RIN** when buying separated RINs when compared to the average daily price and **0.5 % (0.6 ¢) more per RIN than the largest 20 refiners**"; for D6 RINs, "0.6 % (0.9 ¢) more per RIN than the average daily price"; for D4 RINs, "**2.7 % (2.4 ¢) more per RIN** when compared to the daily average prices and **2.6 % (2.3 ¢) more per RIN than the largest 20 refineries**"; separated by vintage, the same-vintage premium is 1.3 %, the prior-year vintage 0.5 % and the two-years-prior vintage 0.9 % *less*. (ii) **The deadline structure.** "**Compliance dates are generally March 31 of the year following the compliance year**, unless otherwise extended"; obligated parties "can meet compliance obligations using RINs generated in the compliance year and prior year"; and "it is common for companies to transact RINs in the year after they are generated, or even two years after they were generated." (iii) **The memorandum's own sensitivity statement**: under the three alternative modelling assumptions imposed by the GAO Report, "these 24 refineries paid anywhere from **5.3 % less to 7.5 % more** for RINs when compared to the daily average price."
+- **Caveats:** the agency's own caveats are binding on the register — "**These estimates should not be interpreted as the actual spot prices** that these 24 refineries paid compared to daily spot market prices. The prices analyzed are self-reported, have limited quality assurance and quality control, in some cases are the result of term contracts unique to the trading parties"; the estimate is **sensitive to modelling assumptions** (−5.3 % to +7.5 %); the price differential is a **counterparty-size** effect, **not** a deadline-timing effect; the memorandum does **not** estimate any pre-/post-deadline price pattern, and it does not estimate a bid-ask spread.
+- **Verification:** **index-rendered** on 21 October 2026 from the memorandum's PDF (search-extraction; the "Key Findings", "Purpose", "Data" and "Small Refineries" sections were read) and from the EPA landing page (search-extraction, confirming the 20 December 2022 issue date and the report's status as the response to GAO's Recommendation 1). The PDF was **not** fetched and text-extracted directly. Label: **index-rendered**.
+
+### S-395 — Chen, Y.-C. and Gwati, R. (2013; updated December 2014) — "FX Options and Excess Returns" / "Understanding Exchange Rate Dynamics: What Does The Term Structure of FX Options Tell Us?"
+URL: https://faculty.washington.edu/yuchin/Papers/FXOv3.pdf · update: https://faculty.washington.edu/yuchin/Papers/FXOupdate.pdf
+- **Type:** **Faculty working papers** (University of Washington), author-reported, not shown here to be peer-reviewed in the version consulted.
+- **Supports:** that the **currency-option implied distribution is a published return-predictor family**, which is what defeats the Cycle-112 FX-options screen. "Using daily options data for six major currency pairs, we show that the options-implied FX risk measures — **standard deviation, skewness, and kurtosis** — consistently explain subsequent currency excess returns for horizons between **one week to twelve months**"; the construction uses "a cross section of option contracts (at-the-money, risk reversals and vega-weighted butterflies at 10- and 25 deltas)"; the measures "can predict the full distribution of subsequent excess returns" by quantile regression; "the term structure and cross-correlation of the options-implied moments add further predictive power"; adjusted R² "range from 13 % (USDJPY) to 28 % at 1 month tenor and from 20 % (USDJPY) to 42 % (EURJPY) at the 3M tenor", and 58–84 % for quarterly movements with the term structure; and the authors note "significant breaks in the relationship … around late 2008 and early 2009".
+- **Caveats:** working-paper versions consulted; the sample ends in the 2010s and the register does not rely on the magnitudes; the *predictor* is the option-implied distribution of the **exchange rate**, and the dependent variable is **excess returns**, not a market-structure trade.
+- **Verification:** **index-rendered** on 21 October 2026 from the two `faculty.washington.edu` PDFs (search-extraction of the abstract, the introduction, the data description and the results tables). Label: **index-rendered**.
+
+### S-396 — Ratcliff, R. (2010) — "Predicting nominal exchange rate movements using skewness information from options prices", *Journal of International Financial Markets, Institutions & Money*, vol. 15, issue 1, pp. 75–92
+URL: https://ideas.repec.org/a/ijf/ijfiec/v15y2010i1p75-92.html
+- **Type:** **Peer-reviewed journal article** (RePEc record consulted; the register did not retrieve the publisher's PDF).
+- **Supports:** that the **out-of-the-money put-call relative price** — the same object as a 25-delta risk reversal — "contains information about the market's estimate of the relative probabilities of appreciation or depreciation of the euro"; over **January 2002–June 2004** the forecasts that include the relative price of the OTM options "offer significantly better **out-of-sample** predictions of tomorrow's exchange rate than either the simple random walk or an interest rate parity model".
+- **Caveats:** a **single currency pair** (USD/EUR), a **short sample** (2.5 years, 2002–2004) and a **daily horizon**; the register does not rely on the magnitudes and does not treat the result as current.
+- **Verification:** **index-rendered** on 21 October 2026 from the RePEc abstract record; the publisher's full text was not retrieved. Label: **index-rendered**.
+
+### S-397 — Kurbanov, A. (2010) — "Predictability of currency returns: the evidence from over-the-counter options market" (PhD thesis, Copenhagen Business School)
+URL: https://research-api.cbs.dk/ws/portalfiles/portal/58453628/akmal_kurbanov.pdf
+- **Type:** **Doctoral thesis** (Copenhagen Business School), author-reported; a grey-literature primary document, not a journal article.
+- **Supports:** the **published out-of-sample null for the majors** in the same family. The thesis tests the predictive ability of risk reversals for EURUSD at a one-week horizon over **January 2006–April 2010**: "variation in weekly changes of risk reversals can explain up to **55 %** in variation of the same period currency returns pointing to significant positive relationship", but "the outcome of **out of sample predictability test**, in selected specification, **could not beat benchmark Random Walk model with RMSE ratio of 1.06**"; the author concludes that "despite the low predictability … the debate on the use of options market implied expectations for accuracy of forecasts is still open".
+- **Caveats:** a thesis, not a peer-reviewed article; the sample is 2006–2010 and EURUSD only; the register uses this entry for the **direction of the published evidence** (in-sample fit without out-of-sample edge), not for any magnitude.
+- **Verification:** **index-rendered** on 21 October 2026 from the CBS research-portal PDF (search-extraction of the executive summary). Label: **index-rendered**.
+
+---
+
 ## Cycle-109 gap verdicts (2026-10-21) — three bounded state-availability audits (P-4, P-5, P-6) and the P-3 screen
 
 Cycle 109 executed **four pre-registered, bounded screens** (P-3 … P-6, pre-registered in
@@ -14535,3 +14684,32 @@ separated.**
   bearing on it was sought); and the audit states plainly that an R-056-form audit **cannot** settle it,
   because that limb needs a **price** observation, not a state. No score, rank, flag, gap or
   specification changed; the candidate is unchanged at 52.0.
+
+---
+
+## Cycle-112 gap verdicts (2026-10-21) — two screens on live candidates, one new-family screen, one specification
+
+| Gap / limb | Candidate | Cycle-112 verdict | Effect |
+| --- | --- | --- | --- |
+| **G-37 (new)** — the time-series form of the funding-reversal regime question | IDEA-009 | **Opened.** S-389's cross-sectional information coefficients flip sign between a 2020–21 *reversal* regime and a 2023–26 *continuation* regime, and S-390 finds the within-asset effect asymmetric (the negative-funding tail works, the positive-funding tail does not). Neither is the candidate's own estimand: IDEA-009's rule is a **time-series** rule within a single underlying, keying on the trailing distribution of *that* underlying's funding rate. The question this gap names is therefore precise and open: **does the direction of the funding-rate/return relation within a single perpetual contract also flip between a reversal regime and a continuation regime, and if so, which regime is the current one and how is the flip detectable before the trade is taken?** A published test of the *within-contract* form on a third venue would bear on it directly. **Bounded, decidable, not a re-run of the Cycle-66 corpora** (those tested the unconditional level on Binance and BitMEX; this asks about the within-contract form's regime dependence). | **New gap.** No score change from the gap itself; IDEA-009's re-score rests on the evidence recorded above |
+| **G-38 (new)** — the published round-trip cost of a RIN trade | IDEA-014 | **Opened.** G-15's existence test asks whether any pre-/post-deadline price difference is "larger than the venue's round-trip cost", and the register's only cost evidence is S-133's market-quality note. The two new agency entries give the first **agency-audited friction anchors** but not a cost: GAO's size-differential (2.4 % overall, 2.9 % between refineries, 0.8 % for D4) and EPA's 1.1 % central premium are **price dispersion between counterparties of different size**, not a bid-ask spread, and EPA's own sensitivity band is **5.3 % less to 7.5 % more**. The question this gap names: **is there a published estimate of the RIN market's bid-ask spread or round-trip cost — from EPA's EMTS or from a published market-quality study — that could serve as the cost floor in G-15 and in V-012?** Until one exists, V-012 reports its conclusion against **both** a zero-cost floor and the dispersion proxy, and does not claim a tradeable result. | **New gap.** No score change; V-012 amended to carry the proxy explicitly |
+| **G-15** — the RIN compliance-deadline price pattern | IDEA-014 | **Re-read, not re-run as a literature search.** The question is closed on the published-literature side (Cycle 7) and its **state-free first half remains inconclusive**: after this cycle's two route forms — the agency impact analysis (S-394) and the legislative-audit report (S-393) — **no published source estimates a pre-/post-deadline price pattern**. What the new sources do establish is (i) that the obligation is **priced** (the constrained obligated party pays a measured premium) and (ii) the deadline's **timing structure** (compliance on 31 March; exemption decisions landing at or after it; current- or prior-year vintages both usable). Neither is the candidate's conditional claim. The register's Cycle-6 rule ("no specification for IDEA-014 until G-15 is closed") is amended **for a state-free specification only** — see V-012's authority note — and the bar on any **state-conditioned** specification is re-affirmed. | **No score change (52.0).** V-012 written; the conditional version stays retired with its hard stop |
+| **G-20** — the RFS calibration limb | IDEA-014 | **Not re-run.** The Cycle-35/R-056 three-limb audit stands; the projection-error limb is unchanged and this cycle sought no new source on it. | No change |
+| **G-21** — the first-adopter / second-adopter drift contrast | IDEA-011 | **Not re-run.** No re-search; the null stands; **V-009 is not amended**. The status statement is made explicit here: the comparator is **fully specified** (framework-level *published, dated, decision-time*; firm-level *derivable only from each firm's own prior-year basis-of-preparation note*, hence published with a lag), the named residual is **closed**, and what remains is a **validation** task on V-009, not a literature task. | No change (69.0, rank 1) |
+| **G-28** — the convergence-crowd identity limb | IDEA-004 | **Not touched.** The crowding-measure search was not re-run; the frozen null and its unfreezing condition are unchanged. | No change (63.0, rank 2) |
+| **G-30** — the ETF → authorised-participant mapping | IDEA-010 | **Not re-probed.** G-30 remains exhausted; no published crowding proxy may be substituted. | No change (parked, P-014, terminal 55.0) |
+| **G-32 limb (c), G-33 re-check** | IDEA-011 | **Dated 2027 Q3; future obligations only.** | No action |
+| **G-14** | various | **Dated 29 March 2029.** | No action |
+| **G-12, G-13, G-16, G-23, G-24, G-25, G-27, G-34, G-35, G-36** | various | **Closed or dated; not re-run.** | No action |
+
+**Cycle-112 state-integrity repairs (cross-artifact).** Five label-and-header defects were found on reading
+the artifacts before any fetch and repaired in place with dated annotations, never by silent editing: a
+block headed "**Cycle 112** — Priority 1 audit" in `idea_register.md`, a "**CORRECTION NOTICE — Cycle 112**"
+in `validation_handoffs.md` and a "**Cycle-112 dated re-check**" bullet in this file were all executed in
+**Cycle 111** and are relabelled; the five artifact headers, which the Cycle-111 log claimed read "Cycle 111
+complete" but which in fact still read "Cycle 110 complete" / "CYCLES 1–109", are updated to "Cycle 112
+complete"; and the next-cycle task sections in `next_agent_handoff.md`, which were labelled "Cycle 111" while
+describing the work of the *following* cycle, are rewritten. This is the **fifth recorded occurrence** of the
+header-update failure mode (Cycle 99 → S-208/S-136; Cycle 101 → thirteen provenance targets; Cycles
+103/104 → the artifact headers; Cycle 106 → the Cycle-106 handoff's completion claim). The full record is in
+`cycle_notes.md`.

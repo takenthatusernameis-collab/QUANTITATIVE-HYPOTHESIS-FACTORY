@@ -5,7 +5,36 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 110 complete, 2026-10-21. 57 rejections (R-001 … R-057), 13 parking records of
+Last updated: **Cycle 112 complete, 2026-10-21. 61 rejections (R-001 … R-061), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 94-row known-baseline
+table.** Cycle 112 added **three rejections (R-059, R-060, R-061), no parking record and two new
+baseline rows (rows 93 and 94)**, and it **opened two gaps (G-37, G-38) and closed no gap**. Its work
+was **three pre-registered screens plus a state-integrity repair pass**. **(i) R-059 — IDEA-009's
+prior-art screen, the two decisive questions the Cycle-109 P-5 audit had named: BOUNDED NEGATIVE on both
+limbs, with materially adverse findings.** Neither limb was satisfied in its strict form (no published
+test of the unconditional form on a named third venue; no published result that the conditional form's
+edge is absent), but an independent 2026 test of the candidate's own trailing-percentile construction
+finds the effect asymmetric (S-390), a 791-contract panel finds the level's relation to returns flipping
+sign between a 2020–21 reversal regime and a 2023–26 continuation regime, reports the percentile
+construction as null, contradicts the crowd-unwind link of the mechanism and puts the effect's excess
+over the round trip at "+2.2 bps, t = 0.68" (S-389), the venue itself published the same rule in 2017
+with sub-50 % success rates in three of four cells (S-391), and the cost anchors are 13 bps per round
+trip with 100–135 hours to repay (S-392). **IDEA-009 is re-scored 53.0 → 42.0, falls to rank 4, takes
+two new hard-stop conditions, is retained rather than parked, has V-008 amended, and opens G-37.**
+**(ii) R-060 — IDEA-014's state-free existence limb, on two route forms the register had never used on
+this candidate: BOUNDED NEGATIVE on the literature side, and the limb stays INCONCLUSIVE.** GAO's
+report (S-393) and EPA's memorandum (S-394) establish that the RFS obligation is **priced** (2.4–2.9 %
+per GAO; 1.1 % central per EPA, against EPA's own −5.3 % to +7.5 % sensitivity band) and that the
+deadline's timing structure is as the candidate assumes, but **no source estimates a deadline-specific
+price effect**. **No score change (52.0)**; a published friction anchor now exists and is recorded;
+**V-012 is written** as the candidate's first *state-free* specification under a narrow, recorded
+amendment to the Cycle-6 rule, with the bar on any state-conditioned specification re-affirmed in full;
+**G-38 is opened**. **(iii) R-061 — the new-family screen on currency-option implied distribution states:
+BOUNDED NEGATIVE on the sign limb.** The family is published as a predictor (S-395, S-396) and as an
+out-of-sample null for the majors (S-397); it becomes baseline row 94. **No candidate was written, no
+parking record was created, no specification was withdrawn.**
+
+Earlier history — **Cycle 110 complete, 2026-10-21. 58 rejections (R-001 … R-058), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 109 added **one rejection (R-057), no parking record and no new baseline row**, and it
 **opened no gap and closed no gap**. Its work was **evidence work plus four bounded, pre-registered
@@ -2444,6 +2473,144 @@ ground** than before. The three audits executed alongside it (P-4, P-5, P-6) are
 gap-verdict block of `source_ledger.md` and in the three dossiers' Cycle-109 blocks; they confirm existing
 positions and consume no identifier.
 
+## R-059 — IDEA-009's prior-art screen: the two decisive questions the Cycle-109 P-5 audit named (Cycle 112 pre-registered screen, P-2 — bounded negative on both questions, with a materially adverse finding that re-scored the candidate)
+
+**What was screened.** The Cycle-109 P-5 audit closed with a sentence that named the only two findings that
+would change IDEA-009's verdict: "A published test of the **unconditional** form on a venue other than the
+two already covered, or a published result establishing that the **conditional** form's edge is absent." This
+entry records the execution of that screen. It is **not** a rejection of the candidate: the candidate is
+retained, re-scored down, and its specification is amended. The entry exists so that the negative reasoning
+is preserved and so that the family is not re-searched in this form.
+
+**The pre-registered question and falsification condition.** Limb (A): a published test of the unconditional
+funding-rate-level reversal on a venue other than Binance or BitMEX (the venues of S-310 and S-320). Limb
+(B): a published result that the direction-conditioned form's edge is absent or fails out of sample, beyond
+the book-chapter failure already on file as S-319. The falsification rule was fixed before the first fetch: a
+new source moves a score **only** if it bears on the **sign** claim or on **out-of-sample failure**; a source
+that supports only the mechanism leaves the score untouched (the Cycle-35/52 precedent).
+
+**Routes tried.** (1) web search, "crypto perpetual futures funding rate extreme reversal predictor study 2026
+arXiv"; (2) web search, "funding rate unconditional reversal Bybit OKX Deribit out-of-sample test evidence";
+(3) direct fetch of the two documents the second search surfaced (`raw.githubusercontent.com` README of
+`OctopusTakopi/funding-rate-alpha`, and the `aijmr.com` article page for the DOI
+10.62127/aijmr.2026.v04i04.1493); (4) direct fetch of `raw.githubusercontent.com` README of
+`DavidAyusoPita/funding-carry-analysis`; (5) a direct Wayback Machine capture of the BitMEX blog page
+`xbtusd-funding-mean-reversion-strategy`, which returned **HTTP 404** on the live URL and **HTTP 200** via
+the archive.
+
+**Verdict — BOUNDED NEGATIVE on both pre-registered limbs, with materially adverse adjacent findings.**
+- **Limb (A) is not satisfied.** No published test of the unconditional form on a **named third venue** was
+  located. S-390 is Binance — the venue of S-310 and S-320 — and the portion of S-389 read does not identify
+  the three venues in its extended sample, so the register does not credit it as a third-venue test.
+- **Limb (B) is not satisfied in its strict form.** No source was found that establishes the conditional
+  form's edge to be absent. What *was* found is adjacent and adverse, and the register records it as adverse
+  rather than as a refutation: (i) **S-390** — an independent 2026 test of the candidate's own trailing-
+  percentile construction finds the effect **asymmetric**, with the negative-funding tail working (+0.506 % at
+  24 hours, FDR-robust) and "**extreme positive funding does not exhibit a comparable 24-hour effect**";
+  (ii) **S-389** — the raw funding level's next-24-hour information coefficient **changes sign between a
+  2020–21 reversal regime and a 2023–26 continuation regime**, the current regime's coefficients being
+  positive and significant ("No unconditional level signal survives this flip"), the candidate's percentile
+  construction reported **null** (z-score 24-hour information coefficient −0.0007, t = −0.3), the **crowd**
+  reading contradicted ("open interest builds into and through high-funding settlements … positions are opened
+  into the payment, not unwound before it"), and the effect's excess over the round trip "indistinguishable
+  from zero (+2.2 bps, t = 0.68)"; (iii) **S-391** — the **venue itself published the same rule in 2017**
+  (per-cell success rates 47.62 %, 53.23 %, 45.68 %, 44.44 % over 524 funding periods), which is the
+  rediscovery guard; (iv) **S-392** — the cost and decay anchors (13 bps per round trip; 100–135 hours to
+  repay; the spread 20–35 % smaller in the second year; "OKX publishes only three months of history").
+
+**Effect.** IDEA-009 is **re-scored 53.0 → 42.0** (mechanism 3 → 2; falsifiability 3 → 2; resilience 2 → 1;
+evidence, novelty and data unchanged, each with its reason recorded in the dossier), drops from rank 3 to
+**rank 4**, and takes **two new hard-stop conditions** — *costs likely to overwhelm the hypothesized effect*
+and *a claim that merely repackages a known idea*. The candidate is **retained, not parked**; **V-008 is
+amended** (regime gate; cost-floor arm against the published 8 bps and 13 bps round trips; the percentile and
+raw-level constructions as separate arms); **gap G-37 is opened** on the within-contract regime-transfer
+question; and the family is written into the known-baseline table as **row 93**.
+
+---
+
+## R-060 — IDEA-014's state-free existence limb: does any published source estimate a deadline-specific RIN price effect? (Cycle 112 pre-registered screen, P-3 — bounded negative on the literature side; the limb remains inconclusive)
+
+**What was screened.** IDEA-014's conditional version is retired with a hard stop, and the candidate's only
+live claim is **state-free**: does the compliance deadline move RIN prices at all, and by more than the
+round-trip cost? The screen asked whether **published** evidence answers that question, using two route
+forms the register had not used on this candidate in nineteen cycles of work: the **agency's own impact
+analyses** and the **legislative-audit literature**, together with the academic RIN-price literature.
+
+**The pre-registered question and falsification condition.** The limb's subject is the *deadline's price
+effect* — not the obligation's existence, and not the sign of any state. Fixed in advance: an **absence** of
+evidence may not be upgraded to a refutation, and a **mechanism** finding may not be read as a **directional**
+finding.
+
+**Routes tried.** (1) web search, "RIN prices Renewable Identification Number compliance deadline price effect
+study"; (2) web search, "GAO report RIN price analysis EPA small refinery exemption obligated party demand
+deadline"; (3) inspection of the search-surfaced agency documents (GAO's report PDF at `gao.gov`, the EPA
+technical memorandum and its EPA landing page). The academic route returned S-134 and S-135, which the
+register already held.
+
+**Verdict — BOUNDED NEGATIVE on the published-literature side; the limb remains INCONCLUSIVE.** No published
+source located in this cycle estimates a pre-/post-deadline RIN price pattern. What the two new agency
+documents do establish is materially useful but is **not** the candidate's claim: (i) **the obligation is
+priced** — GAO's analysis of EPA's EMTS data finds the smaller obligated party paying or receiving prices
+"2.4 percent higher or lower … on average" and "2.9 percent" between refineries, statistically significant,
+with D4 at 0.8 %; EPA's final analysis puts the 24 small refineries at "1.1 % (1.2 ¢) more per RIN" over the
+daily average and 0.5 % over the 20 largest refiners (D4: 2.7 %), with EPA's own sensitivity band of
+"5.3 % less to 7.5 % more"; and (ii) **the deadline's timing structure** is as the candidate assumes —
+compliance dates "generally March 31 of the year following the compliance year", obligations satisfiable with
+current- or prior-year vintages, and EPA issuing 89 % of its small-refinery-exemption decisions after the
+90-day deadline, so refineries "often do not know whether they need RINs until close to, or after, the March
+31 compliance deadline", which "may result in either an excess or a shortfall of RINs". The documented price
+differentials are **counterparty-size** effects, not **deadline-timing** effects.
+
+**Effect.** **No score change (52.0)**, under the Cycle-35/52 precedent: the sources bear on the mechanism and
+the cost floor, not on the conditional directional claim. The **state-free existence limb stays
+inconclusive** — neither a positive finding nor a refutation — and the candidate's conditional version stays
+retired with its hard stop. Two consequences: **(a) a published friction anchor now exists** (the observable
+dispersion of RIN transaction prices around the daily average — 1.1 % central per EPA, 2.4–2.9 % per GAO) and
+is the order-of-magnitude floor any deadline effect must exceed; **gap G-38 is opened** for the one input
+still missing (a published bid-ask spread or round-trip cost), since the dispersion figures are a
+counterparty-size effect and not a cost estimate; and **(b) V-012 is written** as the candidate's first
+*state-free* specification, under a **narrow, recorded amendment** to the Cycle-6 rule — G-15 is closed on
+the published-literature side, the state-free test needs no signed state by construction, and the two new
+entries supply the public transaction-price dataset and the friction anchor that the Cycle-7 search had
+recorded as unavailable. **The bar on any state-conditioned specification is re-affirmed in full.**
+
+---
+
+## R-061 — New mechanism family screen: currency-option implied distribution states (implied volatility, skewness, 25-delta risk reversal) as published, decision-time predictors (Cycle 112 pre-registered screen, P-4 — bounded negative)
+
+**What was screened.** A new mechanism family in a venue the register holds no candidate in (**FX options**)
+and a state kind its four live candidates do not use (**a benchmark-administrator- or venue-published implied
+distribution series**). The pre-registration required five limbs to be checked, in this order: (i) the
+baseline inventory must be consulted first and the family distinguished from the **FX-fixing** baseline
+(S-074 … S-081) and the **option-implied-crash** baseline (S-223); (ii) the state must be **published before
+the decision** (G-13); (iii) the **sign must be unclaimed** (G-12); (iv) the state must not be a public
+real-time by-product of the very flow the candidate would trade (the Cycle-52 third test); and (v) the cost
+floor must be survivable.
+
+**Routes tried.** (1) web search, "FX option risk reversal implied skew predicts exchange rate returns
+evidence published study"; (2) inspection of the search-surfaced documents (S-395, S-396, S-397).
+
+**Verdict — BOUNDED NEGATIVE on the sign limb (G-12 fails).** The family is published in both directions.
+**S-395** (Chen & Gwati): using daily options data for six major currency pairs, "the options-implied FX risk
+measures — standard deviation, skewness, and kurtosis — consistently explain subsequent currency excess
+returns for horizons between one week to twelve months", with quantile-regression results and adjusted R²
+values from 13 % to 28 % at one month and 58 % to 84 % for quarterly movements with the term structure.
+**S-396** (Ratcliff, 2010, a journal article): the relative price of out-of-the-money puts and calls
+"contains information about the market's estimate of the relative probabilities of appreciation or
+depreciation of the euro" and "offer significantly better out-of-sample predictions of tomorrow's exchange
+rate than either the simple random walk or an interest rate parity model". **S-397** (Kurbanov, 2010) records
+the counterweight for the majors: risk reversals "can explain up to 55 % in variation … currency returns" in
+sample, but "the outcome of out of sample predictability test … could not beat benchmark Random Walk model
+with **RMSE ratio of 1.06**". The remaining limbs were not reached: the sign limb already fails, and the
+register does not credit the family with an unclaimed residual.
+
+**Effect.** **No candidate was written.** The family is written into the known-baseline table as **row 94**,
+with the published predictor and the published out-of-sample null recorded together so that the family is not
+re-presented as a discovery. **No gap was opened** (nothing is left open that a later cycle could resolve), no
+score changed, and no specification was written. The screen's route form — a published implied-distribution
+state in an unused venue — is recorded as **exhausted for the FX-options instance**, and the register records
+that the family is now **covered**, not merely searched.
+
 ## Known baselines (reference set, not candidates)
 
 These are recorded so that future sessions do not re-present them as discoveries and so that new
@@ -2544,6 +2711,9 @@ to baselines.
 | **Electricity-derivative contract pricing (wholesale power futures/forwards and swaps, added in Cycle 92)** | **Published, as a bounded-negative mechanism-first family screen (R-053).** Wholesale electricity derivatives exist to hedge volatility/spikes; futures do not provide unbiased forecasts of spot prices and premiums are regime-dependent (S-356). Accurate modeling requires mean reversion, changing long-run expectations, seasonality, extreme volatility/spikes, time-varying jump intensity to fit spot and futures (S-357). Long-tenor contracts can be scarce ("missing markets") reflecting incompleteness/costs (S-358). The literature splits between price-formation archetypes and empirical work with few reconciliations (S-358). **This is a baseline and a rediscovery guard:** hedging/tail-risk is well-documented; no published decision-time state was identified that changes the sign or existence of a tradeable edge after costs not already captured by the baseline literature, so the family fails G-12. |
 | **Interval-fund / semi-liquid private-credit repurchase: a periodic tender at net asset value with no secondary market (added in Cycle 93)** | **Published, as a bounded-negative mechanism-first family screen (R-054) — registered closed-end funds and BDCs that offer a periodic repurchase of their own shares at net asset value under Rule 23c-3, with no secondary market for those shares.** The **mechanism is published law fixed in advance**: the company "shall repurchase the stock for cash at the net asset value determined on the repurchase pricing date"; the offer amount "shall not be less than five percent nor more than twenty-five percent"; the pricing date "shall occur no later than the fourteenth day after a repurchase request deadline"; payment follows "seven days after the repurchase pricing date"; and the schedule is fixed in a fundamental policy "changeable only by a majority vote of the outstanding voting securities", notified "no less than twenty-one and no more than forty-two days before each repurchase request deadline" (S-359, the rule itself, **line-verified**). The SEC's own account is that interval funds "offer the predictability of a mandatory, limited, rules-based liquidity framework" (S-360, 91 FR 63389). The **tradeable object does not exist**: a fund's own notice states "the purpose of this offer is to provide a level of liquidity to shareholders **since no secondary market exists for these Shares**" and "The Shares are not traded on any organized market or securities exchange" (S-361, Form N-23c-3, **line-verified**); the regulator locates the discount object in the **listed** class — "Where listed shares trade at a discount to the underlying portfolio's NAV, there may also be opportunities for the fund to take actions that benefit all shareholders" (S-360, 91 FR 63448) — and the published account distinguishes the two legs: "Publicly traded BDCs face little direct redemption pressure because investors can exit by selling shares in secondary markets" (S-363, **line-verified**). The **sign-determining state is unobservable at decision time**: "The NAV at which the Fund will repurchase Shares will not be calculated until the Repurchase Pricing Date … may be higher or lower", and the sector's supervisor states that "data gaps, lack of a secondary market to publicise valuations, and limited disclosure" make the vulnerabilities hard to monitor (S-362). The **cost and rationing mechanics bind**: tenders beyond the offer are met "on a pro rata basis" (S-359), with "There can be no assurance that the Fund will be able to repurchase all Shares that each shareholder has tendered", and the regulator's risk language says a fund unprepared for repurchases may "sell off less liquid assets at a discount to fair value (thus diluting the value of outstanding shares)" (S-360, 91 FR 63438). The **sample and regime are adverse**: 139 funds and $101 billion of net assets in 2025, and "By contrast, interval funds experienced net inflows during the same period" when the early-2026 repurchase pressure "largely affected non-traded BDCs" (S-360, 91 FR 63430). **This is a baseline and a rediscovery guard:** the family is the structural **mirror image** of the Cycle-88 listed price-to-NAV discount family — the mirror removes the discount object — so the two families' verdicts must not be interchanged, and any future candidate must specify the state, the exit and the final rule separately. |
 | **Tax-exempt municipal bonds: the dealer-intermediated retail cost premium and the primary-market underwriting concession (added in Cycle 94)** | **Published, as a bounded-negative mechanism-first family screen (R-055) — the over-the-counter tax-exempt municipal market, in which a retail or small-institution customer buys and sells bonds from a dealer without a centralized facility, and the primary market, in which an issuer's underwriter purchases a new issue and distributes it earning the "concession".** The **cost is published and measured by the market's own regulator**: the average effective spread for municipal transactions "shot up to **63 basis points** in May 2022" and was "approximately **50 basis points**" in late 2025; "the effective spread for odd-lot customer trades is **2.4 times** that for block customer trades"; and odd-lot effective spreads at non-institutional dealers are "nearly **2.7 times**" those at institutional dealers (S-369, MSRB Research Paper, April 2026, **line-verified**). The **peer-reviewed synthesis** reports the same in round-trip terms — retail round-trip trading costs "were still **1.1 percent in 2023**" against 2.3 percent in the early 2000s, and "**5 percent of small bond transactions have markups over 3.29 percent**" — and lists the market's puzzles: "high underwriting costs, conflicting roles by municipal advisors, extreme and widely varying trade markups, investment holdings that are often not tax-efficient, **inconsistent implied marginal tax rates**, a **heavy reliance on credit ratings**, little benefit but widespread use of insurance" (S-372, *Journal of Economic Perspectives* 39(2), Spring 2025, **line-verified**). The **decision-time state is absent**: "**Municipal bond transactions are publicly disclosed after they occur, but individual investors have limited pre-trade information, particularly with respect to quoted prices**"; "Electronic trading platforms exist only in the interdealer market, with no widely used platform for individuals to trade directly with each other" (S-372); and in fixed income "pre-trade quote data are **not universally available or nationally consolidated**" (S-369). Real-time municipal trade data is a **paid subscription**, and the historical academic product carries a **three-year lag** and **anonymised dealer identifiers** (S-367); the benchmark is a **proprietary** series ("Bloomberg Valuation Services (BVAL)") and even the bid-wanted state is seen on a proprietary terminal (S-368). The **record is absent exactly where the concession is largest**, because the exempt trade classes are "List Offering or Takedown Transactions", short-term instruments maturing in nine months or less, "Auction Rate Securities, Variable Rate Demand Obligations", commercial paper, and trades "**away from market**" (S-371). The **rating element is a closed-list rule with a published price effect**: 15c2-12(b)(1) permits the omission of "**no more than**" a listed set that includes "ratings", and 15c2-12(b)(5)(i)(C)(11) makes "**Rating changes**" a disclosable event within ten business days (S-366); the rating's price effect is published (a 2010 recalibration on "$2.2 trillion in municipal debt" produced "a 10 to 33 basis point decrease in credit spreads") and "investors rely heavily on credit ratings, even when changes in ratings convey relatively little new information" (S-372). The **tax-equivalent arithmetic is a published transform and a named puzzle**: "The **Muni/TSY ratio** is the benchmark tax-exempt yield for a maturity divided by the yield on Treasury bonds for the same maturity" (S-368), and "A longstanding puzzle in the municipal bond literature is that short-term municipal yields are consistent with the tax rates we would expect for investors in the top income tax brackets, whereas longer-term municipal yields are higher than we would expect" (S-372). The **concession and the mark-up are defined, published terms** for the dealer's remuneration (S-373), the primary market's flow is the **issuer's own** and "negotiated offerings accounted for … **77%** of the total par amount issued" in 2024 (S-374), and the compensation arrangement is a disclosed term of the transaction (S-365). **This is a baseline and a rediscovery guard:** the sign, the magnitude, the size-dependence, the decay and the reform proposals are all published, so any candidate in this family must name the published spread and the published puzzle it is differentiating from, must state how its own state is observable **before** the decision, and must explain why the published cost is not the cost it proposes to harvest. The register also records, as a **framing correction**, that the "Muni Monday" element named in the Cycle-93 handoff is **uncorroborated** in the indexed literature, in the peer-reviewed synthesis, in the MSRB's own term list and in all nine MSRB/regulator documents fetched in Cycle 94. |
+| **Perpetual-futures funding-rate mean reversion: the extreme-funding counter-trend rule, keyed to the funding level's position in its own trailing distribution (added in Cycle 112)** | **Published, as a bounded-negative screen (R-059) — and published by the venue itself.** The rule was stated by the venue's co-founder in **2017** (S-391: "A large negative funding rate predicts a positive return for the next 8 hour period. A large positive funding rate predicts a negative return for the next 8 hour period", with per-cell success rates of 47.62 %, 53.23 %, 45.68 % and 44.44 % over 524 funding periods); it was tested independently in **2026** on the same trailing-percentile construction (S-390: extreme negative funding followed by +0.506 % at 24 hours, FDR-robust, while "extreme positive funding does not exhibit a comparable 24-hour effect"); and a 791-contract panel reports the level's relation to returns flipping sign between a 2020–21 reversal regime and a 2023–26 continuation regime, the percentile construction reported null, the "crowded position" reading contradicted, and the effect's excess over the round trip indistinguishable from zero (S-389). The **funding carry** that survives is a separate published baseline (S-086, S-087, S-392), not this family. |
+| **Currency-option implied distribution states (implied volatility, skewness, 25-delta risk reversal) as predictors of exchange-rate returns (added in Cycle 112)** | **Published, as a bounded-negative mechanism-first family screen (R-061).** The options-implied standard deviation, skewness and kurtosis of six major currency pairs "consistently explain subsequent currency excess returns for horizons between one week to twelve months" (S-395, with adjusted R² from 13 % to 28 % at one month and 58 % to 84 % quarterly with the term structure); the out-of-the-money put-call relative price improves out-of-sample forecasts of USD/EUR against the random walk and interest-rate parity benchmarks (S-396, *Journal of International Financial Markets, Institutions & Money* 2010); and the published out-of-sample counterweight for the majors is a **random-walk RMSE ratio of 1.06** (S-397). The **FX fixing** family (S-074 … S-081) and the **option-implied crash measures** (S-223) are separate baselines. |
+
 ---
 
 ## Rediscovery guard

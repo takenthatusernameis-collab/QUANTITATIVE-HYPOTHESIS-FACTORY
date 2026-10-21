@@ -23,12 +23,26 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-389`; `S-210 … S-219` are **reserved and unused**),
-   validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-058`), parkings are `P-0NN` (next
-   free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
+   unused**),    sources are `S-0NN` (next free: `S-398`; `S-210 … S-219` are **reserved and unused**),
+   validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
+   and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
+   *state-free* specification), rejections are `R-0NN` (next free: `R-062`), parkings are `P-0NN` (next
+   free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 110**; **Cycle 109 completed the five priorities carried from Cycle 108 — the
+   (next: **Cycle 113**;
+   **Cycle 112 completed three pre-registered screens (the IDEA-009 prior-art screen the Cycle-109 P-5
+   audit named as decisive — **R-059**, adverse, **IDEA-009 re-scored 53.0 → 42.0** and demoted to rank 4
+   with two new hard-stop conditions, V-008 amended and gap **G-37** opened; the IDEA-014 state-free
+   existence limb on two route forms the register had never used on that candidate — **R-060**, bounded
+   negative, the limb still inconclusive, **V-012 written** under a narrow recorded amendment and gap
+   **G-38** opened; and a new mechanism family screen on currency-option implied distribution states —
+   **R-061**, bounded negative, now baseline row 94) and a **state-integrity repair pass** that found and
+   repaired **five label-and-header defects** — including three artifacts that carried a block headed
+   "Cycle 112" whose work was executed in **Cycle 111**, and five artifact headers whose claimed update to
+   "Cycle 111 complete" had in fact never happened (the **fifth recorded occurrence** of the header-update
+   failure mode). Nine sources (S-389 … S-397), one specification created and one amended, two gaps opened,
+   no gap closed, no candidate created, and the register's active book left at four candidates of which
+   only IDEA-011 is free of a blocking gap**; **Cycle 109 completed the five priorities carried from Cycle 108 — the
    published 2009 *RFS* body of Carr & Wu (S-154) was **OBTAINED** on the course-host route form
    (a Duke University course directory copy: HTTP 200, 213,058 bytes, 31 pages, the publisher's typeset
    file, running head "The Review of Financial Studies / v 22 n 3 2009", ending at page 1341) and is

@@ -4,7 +4,47 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 110 complete** (21 October 2026). Cycle 109 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 109's work was **evidence work plus four bounded, pre-registered state-availability screens (P-3 … P-6)**, all pre-registered in `cycle_notes.md` before the first fetch. **No candidate was created, re-scored or re-screened.** The cycle's headline result is that the **published** 2009 *RFS* body of Carr & Wu (S-154) was **obtained** — the Cycle-108 twenty-one-route closure is **superseded** — and that the **published version's own numbers differ from the May 2004 working paper's**, so the Cycle-108 pre-registered outcome becomes **(ii)**: the known-baseline **row 38 is rewritten in place**, the single-name screen is re-examined, and **IDEA-003's G-05 closure is re-opened for that limb only and then re-closed on the published evidence**. The other three screens are the candidate-level audits recorded in the dossiers below: **IDEA-004** (P-4), **IDEA-009** (P-5) and **IDEA-014** (P-6). The fourth screen, **P-3**, is logged as **R-057** in `rejected_and_parked.md`: IDEA-011's "first adopter versus repeat adopter" classification is **decision-time and free at the framework level** — so the historical comparator is specifiable without a look-ahead objection — and **not decision-time at the standard level**, because no IFRS 18 adoption calendar exists, the only firm-level instrument is Saudi Arabia's self-selected, ex-post-announced early-adoption permission, and the ESMA statement carries no first-time/repeat language at all. **No `S-`, `V-`, `R-`, `P-` or `G-` identifier was consumed except R-057; no score, rank, tie-break, hard-stop flag, gap or specification changed; the rubric arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). The register still holds **378 verified sources** (S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused).
+Last updated: **Cycle 112 complete** (21 October 2026). Cycle 112 added **no new candidate dossier**; wrote
+**one new validation specification** (**V-012**, the register's first *state-free* specification); opened **two
+gaps** (**G-37, G-38**), closed **no gap**; and **re-scored one candidate** (**IDEA-009, 53.0 -> 42.0**). The
+cycle executed **three pre-registered screens** — the IDEA-009 prior-art screen the Cycle-109 P-5 audit had
+named as decisive, the IDEA-014 state-free existence limb attacked on two route forms the register had never
+used (a legislative-audit report and an agency impact analysis), and one new mechanism family screen
+(currency-option implied distribution states) — together with a **state-integrity repair pass** that found and
+repaired **five label-and-header defects**, including three artifacts that carried a block headed "Cycle 112"
+whose work was in fact executed in **Cycle 111**. **Nine new source entries** (S-389 … S-397) were registered.
+**The cycle's headline result is adverse to IDEA-009.** An independent 2026 test of that candidate's *own*
+percentile construction finds the effect **asymmetric** — extreme negative funding is followed by +0.506 % at
+24 hours (FDR-robust) while "**extreme positive funding does not exhibit a comparable 24-hour effect**"
+(S-390); a line-verified 791-contract study finds the funding level's relation to returns **flipping sign
+between a 2020-21 reversal regime and a 2023-26 continuation regime**, the current regime's coefficients
+positive and significant, reports the candidate's percentile construction as **null**, **contradicts the
+crowd-unwind link** of the mechanism ("open interest builds into and through high-funding settlements … positions
+are opened into the payment, not unwound before it"), and puts the effect's excess over the round trip at
+"+2.2 bps, t = 0.68" (S-389); and the **venue itself published the same rule in 2017**, with per-cell success
+rates of 47.62 %, 53.23 %, 45.68 % and 44.44 % over 524 funding periods (S-391). IDEA-009 therefore drops to
+**42.0 and rank 4 of 4**, two new hard-stop conditions are attached (**costs likely to overwhelm the
+hypothesized effect**; **a claim that merely repackages a known idea**), the candidate is **retained rather
+than parked** (its state still satisfies G-13 cleanly and its specification is still executable), **V-008 is
+amended** with a regime gate, a cost-floor arm and separate percentile and raw-level arms, and the new gap
+**G-37** is opened on the within-contract regime-transfer question. **IDEA-014 is unchanged at 52.0**: the two
+new agency documents establish that the RFS obligation is **priced** (the constrained obligated party pays a
+measured premium: 2.4-2.9 % per GAO, 1.1 % central per EPA) and that the deadline's **timing structure** is
+as the candidate assumes, but **no published source estimates a deadline-specific price effect**, so the
+**state-free existence limb remains inconclusive** — neither a positive finding nor a refutation; the
+register's specification rule is **amended, narrowly and on the record**, to permit a **state-free**
+specification (**V-012**) for the candidate's only live claim, with the bar on any **state-conditioned**
+specification **re-affirmed in full**, and the new gap **G-38** is opened for the one input still missing (a
+published RIN round-trip cost). The new-family screen is a **bounded negative** (**R-061**): the
+currency-option implied distribution is a published return-predictor family. **No `S-`, `V-`, `R-`, `P-` or
+`G-` identifier was consumed outside S-389 … S-397, V-012, R-059 … R-061 and G-37 … G-38. The rubric
+arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004
+4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0).
+
+Earlier history — **Cycle 110 complete** (21 October 2026; the summary immediately below describes **Cycle
+109's** work, which was not summarised in this file when Cycle 110 wrote its front matter — repaired in
+Cycle 112, which is the **sixth** instance of the header-and-summary drift the register has recorded). Cycle
+109 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 109's work was **evidence work plus four bounded, pre-registered state-availability screens (P-3 … P-6)**, all pre-registered in `cycle_notes.md` before the first fetch. **No candidate was created, re-scored or re-screened.** The cycle's headline result is that the **published** 2009 *RFS* body of Carr & Wu (S-154) was **obtained** — the Cycle-108 twenty-one-route closure is **superseded** — and that the **published version's own numbers differ from the May 2004 working paper's**, so the Cycle-108 pre-registered outcome becomes **(ii)**: the known-baseline **row 38 is rewritten in place**, the single-name screen is re-examined, and **IDEA-003's G-05 closure is re-opened for that limb only and then re-closed on the published evidence**. The other three screens are the candidate-level audits recorded in the dossiers below: **IDEA-004** (P-4), **IDEA-009** (P-5) and **IDEA-014** (P-6). The fourth screen, **P-3**, is logged as **R-057** in `rejected_and_parked.md`: IDEA-011's "first adopter versus repeat adopter" classification is **decision-time and free at the framework level** — so the historical comparator is specifiable without a look-ahead objection — and **not decision-time at the standard level**, because no IFRS 18 adoption calendar exists, the only firm-level instrument is Saudi Arabia's self-selected, ex-post-announced early-adoption permission, and the ESMA statement carries no first-time/repeat language at all. **No `S-`, `V-`, `R-`, `P-` or `G-` identifier was consumed except R-057; no score, rank, tie-break, hard-stop flag, gap or specification changed; the rubric arithmetic was re-run from the shortlist's own table and is clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). The register still holds **378 verified sources** (S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused).
 
 Earlier history — **Cycle 108 complete** (21 October 2026). Cycle 108 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 108's work was **evidence work plus one bounded, pre-registered screen**: it attacked the **published** 2009 *RFS* body of Carr & Wu (S-154) over **twenty-one named routes** and obtained the **published version's front matter** rather than its body, and it executed the **ASR announcement-date public-observability screen** the Cycle-107 handoff had named as the register's best next target. Four new source entries were registered (**S-385, S-386, S-387, S-388**), one entry was upgraded with a **version-drift finding** (S-154), one entry was cross-referenced (S-384), one **bounded negative** was logged (**R-056**), and **two known-baseline rows were corrected in place** (row 38, single-name variance risk premia; row 44, accelerated share repurchases) — all in `source_ledger.md` and `rejected_and_parked.md`, not in this register.
 **(i) The published *RFS* body is an EVIDENCED CLOSURE; the published version's front matter is
@@ -3500,7 +3540,8 @@ predict a temporary price increase that decays within a week, on no-news days, a
 ## IDEA-009 — PERP-FUND: the perpetual-futures funding rate as a daily-settled, published funding state
 
 - **ID / short name:** IDEA-009 / PERP-FUND
-- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted · **Version:** 1.1
+- **Date added:** 2026-10-19 · **Cycle:** 3 · **Status:** shortlisted (**rank 4 of 4**; two hard-stop conditions
+  attached in Cycle 112) · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. New mechanism family not previously in the register.
   **Cycle 52 — no score change (60.0), rank 4 of 5 unchanged.** A bounded check for 2025–2026 work on
   perpetual-futures funding rates, drawdown mean-reversion and the leveraged-unwind channel found
@@ -3526,6 +3567,32 @@ predict a temporary price increase that decays within a week, on no-news days, a
   follows: mechanism 4 → 3, evidence 2 → 3, novelty 2 → 1, falsifiability 4 → 3; resilience and data
   availability unchanged. **Rank unchanged (4 of 5). No gap opened** — the residual is a validation
   question, carried by the amended V-008.
+  **v1.2 (Cycle 112) — re-scored 53.0 → 42.0; two hard-stop conditions attached; retained, not parked; V-008
+  amended; gap G-37 opened.** The Cycle-109 P-5 audit named two decisive questions — a published test of the
+  *unconditional* form on a third venue, and a published result that the *conditional* form's edge is absent
+  — and this cycle executed them as a pre-registered screen. Neither question was satisfied in its strict
+  form, but the adjacent evidence is adverse and is recorded as adverse: **S-390** (Memon, Anklesaria-Dalal &
+  Mishra 2026, fetched directly) is an independent 2026 test of the candidate's *own* percentile construction
+  in which extreme negative funding is followed by **+0.506 %** at 24 hours (FDR-robust) while "**extreme
+  positive funding does not exhibit a comparable 24-hour effect**"; **S-389** (a line-verified practitioner
+  note, 791 contracts, 2.43 million funding settlements) finds the raw level's next-24-hour information
+  coefficient flipping sign from **−3.9 % (2020)** to **+3.4 % (2025, t = 8.1)**, reports the candidate's
+  percentile construction as **null** (z-score 24-hour information coefficient **−0.0007, t = −0.3**),
+  contradicts the **crowd** link of the mechanism ("open interest builds into and through high-funding
+  settlements … positions are opened into the payment, not unwound before it"), and puts the effect's excess
+  over the round trip at "+2.2 bps, t = 0.68" — indistinguishable from zero; **S-391** is the **rediscovery
+  guard**: the venue itself published this rule in 2017 (per-cell success rates **47.62 %, 53.23 %, 45.68 %,
+  44.44 %** over 524 funding periods); **S-392** supplies the cost and decay anchors (13 bps round trip,
+  100–135 hours to repay, the spread 20–35 % smaller in year two, and OKX's three-month history limit).
+  Scores moved as follows: mechanism 3 → 2 (the crowd link and the direction link are both contradicted),
+  falsifiability 3 → 2 (three of five predictions are now largely pre-answered, the Cycle-66 precedent),
+  resilience 2 → 1 (the sign is inverted in the current regime, not merely weaker, and capacity binds);
+  evidence, novelty and data unchanged, each with its reason recorded in the Cycle-112 block. **Two new
+  hard-stop conditions: costs likely to overwhelm the hypothesized effect, and a claim that merely
+  repackages a known idea.** The candidate is **retained rather than parked** because its state still
+  satisfies G-13 cleanly and its specification is still executable; V-008 is **amended** with a regime gate,
+  a cost-floor arm and separate percentile and raw-level arms. **Rank 3 → 4 of 4** (IDEA-014 at 52.0 moves
+  ahead). **New gap G-37** opened on the within-contract regime-transfer question.
 
 **One-sentence hypothesis.** The perpetual-futures funding rate is settled every few hours and
 published by the exchange; because it measures the crowded-leverage state directly, a rule that
@@ -3722,7 +3789,32 @@ separated from momentum, and venue risk is real).
 - *Unresolved:* whether the funding-rate level predicts a reversal after costs, whether the effect
   transfers across venues, and whether crypto venue risk is manageable.
 
-**Remaining uncertainty / confidence.** *(Updated at Cycle 66.)* Confidence that the funding rate is
+**Remaining uncertainty / confidence.** *(Updated at Cycle 112; Cycle 66 text retained below.)* Confidence
+that the funding rate is published, settled every few hours, and measures the crowded-leverage state:
+**high** as to publication and settlement, and now **low** as to the crowded-leverage *reading* — the
+largest sample located reports that the level "measures how retail-oriented a contract is rather than how
+crowded its current position structure is" and that "**open interest builds into and through high-funding
+settlements** … positions are opened into the payment, not unwound before it" (S-389), while an
+independent 2026 test of the candidate's own percentile construction finds the effect **asymmetric**, with
+the positive-funding leg unsupported (S-390). Confidence that a tradeable reversal rule can be built on it:
+**low** — the sign of the relation has been observed to invert between a 2020–21 reversal regime and a
+2023–26 continuation regime, and in the current regime the coefficients are positive and significant
+(S-389); the candidate's percentile construction is reported null at the same time as the raw level's effect
+decays to "too little to trade" above the 8 bps reference round trip (S-389), with the excess over costs
+indistinguishable from zero (+2.2 bps, t = 0.68) and the cross-venue cost anchor at 13 bps per round trip
+(S-392); the venue itself published the same rule in 2017 with sub-50 % success rates in three of four cells
+(S-391). Priority score **42/100**; rank **4 of 4** in the active set (behind IDEA-011 at 69.0, IDEA-004 at
+63.0 and IDEA-014 at 52.0). Two hard-stop conditions now attach: **costs likely to overwhelm the
+hypothesized effect**, and **a claim that merely repackages a known idea**. **Concrete next question:**
+*does the direction-conditioned, volatility-conditioned, regime-gated reversal — take the side opposite the
+funding crowd only when the preceding price move was in the crowd's direction, only when the within-contract
+trailing sign of the funding–return relation is negative, hold for a horizon set by realised volatility, and
+enter only outside the venue's published clamp band — predict a futures-spot basis reversal after costs, and
+does it add anything to the published funding arbitrage?* That is a **validation** question, and V-008 (as
+amended in Cycle 66 and again in Cycle 112) is its vehicle; the register's new gap **G-37** asks the
+literature-side half of the same question.
+
+*(Cycle-66 text, retained:)* Confidence that the funding rate is
 published, settled every few hours, and measures the crowded-leverage state: **high** (exchange
 documentation and academic work). Confidence that a tradeable reversal rule can be built on it:
 **moderate-to-low** — the mechanism is real and the venue-selection rule is met (the state is published
@@ -3971,6 +4063,171 @@ reversal after costs, and does it add anything to the published funding arbitrag
   absent. This audit searched for neither; it is a validation-design question, not a search question.
 
 ---
+
+#### Cycle 112 block — IDEA-009 · the Cycle-109 P-5 screen returned an adverse verdict: re-scored 53.0 → 42.0; two hard-stop conditions attached; **retained, not parked**; V-008 amended; gap G-37 opened
+
+- **What the screen was.** The Cycle-109 P-5 audit named the only two things that would change this
+  candidate's verdict, and Cycle 112 executed them as a pre-registered screen (pre-registered in
+  `cycle_notes.md` before the first fetch): **(A)** is there a **published test of the *unconditional*
+  funding-level reversal on a venue other than Binance or BitMEX** (the venues of S-310 and S-320)? and
+  **(B)** is there a **published result establishing that the *conditional* form's edge is absent**, or
+  that fails out of sample, beyond the book-chapter failure already on file as S-319? Routes: arXiv and
+  general web searches for 2025–2026 work on the funding level as a reversal or crowding predictor; SSRN and
+  Crossref searches for an unconditional funding-level test on a named third venue (Bybit, OKX, Deribit,
+  Coinbase); peer-reviewed out-of-sample searches on the direction-conditioned reversal. The falsification
+  rule was fixed in advance: a new source would move a score **only** if it bore on the *sign* claim or on
+  *out-of-sample failure*; a source that supported only the mechanism would leave the score untouched.
+- **What was found — four new entries, three of them load-bearing.**
+  - **S-390** (Memon, Anklesaria-Dalal & Mishra 2026, *Advanced International Journal of Multidisciplinary
+    Research* 4(4), DOI 10.62127/aijmr.2026.v04i04.1493; the article page was **fetched directly** and the
+    abstract read verbatim) is an **independent, published test of the candidate's own state
+    construction**: "Extreme funding is classified ex ante using the current funding rate's **mid-rank
+    percentile within the preceding 180-day distribution**, with the lower and upper deciles defining extreme
+    negative and extreme positive states" — Binance BTCUSDT, 10 September 2019 to 10 August 2026, 15-minute
+    spot sampling, horizons from 15 minutes to 24 hours, controlled for the four-hour pre-settlement return,
+    with parametric, non-parametric and directional tests plus heteroskedasticity- and
+    autocorrelation-consistent regressions. The result is **asymmetric**: extreme negative funding is
+    followed by an average 24-hour return of **+0.506 %** (significant under t, Wilcoxon and
+    directional-frequency tests, robust to false-discovery-rate adjustment; about **0.491 percentage points**
+    in the categorical HAC regressions after the pre-settlement control), while "**extreme positive funding
+    does not exhibit a comparable 24-hour effect**".
+  - **S-389** (`OctopusTakopi/funding-rate-alpha`, a public practitioner note whose README was **fetched
+    directly** and read) supplies the largest sample located for the family: a panel of **791 contracts
+    including delisted ones, 2.43 million funding settlements, extended to 6.1 million settlements across
+    three venues**, from 2020 to mid-2026. Its next-24-hour information coefficient for the **raw funding
+    level** runs **−3.9 % (2020), −3.1 % (2021), +0.0 % (2022), +0.6 % (2023), +1.6 % (2024, t = 3.4),
+    +3.4 % (2025, t = 8.1), +2.0 % (2026, t = 3.6)** — a *reversal* regime over 2020–21 and a
+    *continuation* regime from 2023, the current regime's coefficients being positive and significant — and
+    the note's own summary is "**No unconditional level signal survives this flip.**" Three further
+    findings bear directly on this dossier. (i) **The candidate's own construction is reported null**: the
+    90-day rolling z-score, cross-sectionally ranked, "**predicts nothing at any horizon, +0.00 % at one
+    hour**", with a 24-hour information coefficient of **−0.0007 (t = −0.3)** — "the preprocessing removes
+    the baseline without creating predictability". (ii) **The crowding reading is contradicted**: "the
+    cross-sectional level of funding measures how **retail-oriented** a contract is rather than how
+    **crowded** its current position structure is"; the within-day rank correlation of the rate with 7-day
+    volatility is **−0.013**; and "**open interest builds into and through high-funding settlements**, which
+    refutes a flow reading and leaves the rate as a measurement of the basis" — the rank correlation with
+    the open-interest change is **+1.73 % (t = 9.90)** over the hour ending at the settlement and **+1.12 %
+    (t = 7.07)** over the hour beginning at it, i.e. "positions are **opened into** the payment, not unwound
+    before it". (iii) **The cost floor bites at the candidate's horizon**: the pooled effect is **+1.89 % at
+    one hour (t = 6.26)**, +1.04 % at eight hours and **+0.23 % at twenty-four hours (t = 0.79)** — "only by
+    too little to trade" — and the one-hour decile spread of **3.66 bps** sits below the note's **8 bps**
+    reference round trip; the note's own tradeable residue is a *carry* book whose excess over the round
+    trip is "indistinguishable from zero (**+2.2 bps, t = 0.68** at a day)". Separately, and as a standing
+    warning for any future work in this family, the note reports that a **different, venue-published state
+    does better**: the **top-trader long/short account ratio** has an information coefficient of **+0.013
+    (t = 4.7)** with a *continuation* sign and nets **+4.2 bps/day at a Sharpe of 0.82**, against the funding
+    level's +2.8 (Sharpe 0.51) and the z-score's +1.4 (0.27).
+  - **S-391** (BitMEX Blog, 12 October 2017, Arthur Hayes, "XBTUSD Funding Mean Reversion Strategy") is the
+    **rediscovery guard**: the venue itself published this rule nine years before the candidate was written.
+    The rule as the venue stated it: "**A large negative funding rate predicts a positive return for the next
+    8 hour period. A large positive funding rate predicts a negative return for the next 8 hour period.**"
+    and "At each funding timestamp, if the funding rate is above or below your limit, place the counter trend
+    trade. Immediately after the next funding timestamp, close your XBTUSD position." Its published table over
+    524 funding periods reports per-cell success rates of **47.62 %, 53.23 %, 45.68 % and 44.44 %** — below
+    50 % in three of the four cells — and the author attributes most of the result to the funding received
+    rather than to the price move.
+  - **S-392** (`DavidAyusoPita/funding-carry-analysis`, **fetched directly** and read) supplies the cost and
+    decay anchors for the family: a round trip costs **13 bps** and needs **100–135 hours** of holding to
+    repay itself; the active threshold rule finishes at **−9 % to −15 % annualised after costs**; the
+    exchange-versus-DEX funding spread "averaged **20–35 % less in the second year** of the sample than the
+    first, and sits **45–60 % below its late-2024 peak**"; and, bearing on this dossier's venue-transferability
+    condition, "**OKX publishes only three months of history**".
+- **Verdict on the two pre-registered questions.** **(A) is not satisfied.** No published test of the
+  unconditional form on a named third venue was located: S-390 is Binance — the venue of S-310 and S-320 —
+  and the portion of S-389 read does not identify the three venues in its extended sample, so the register
+  does not credit it as a third-venue test. **(B) is not satisfied either**, in the strict form: no source
+  was found that establishes the conditional form's edge to be absent. But the *adjacent* evidence is
+  adverse, and the register records it as adverse rather than as a refutation: the unconditional level's
+  relation to returns is regime-dependent and sign-inverted in the current regime (S-389); the candidate's
+  own percentile construction is reported null (S-389); and an independent 2026 test of that same
+  construction finds one leg of the candidate's rule unsupported (S-390).
+- **Score change: 53.0 → 42.0** (mechanism **3 → 2**; evidence **3 → 3**; novelty **1 → 1**; falsifiability
+  **3 → 2**; resilience **2 → 1**; data **4 → 4**). The justification for each cell, in the register's
+  format:
+  - **Mechanism 3 → 2.** The dossier's causal chain is *funding rate → crowded leveraged position → forced
+    unwind → basis mean-reversion*. Two of its three links are now contradicted. The **crowd** link: S-389
+    finds the level "measures how retail-oriented a contract is rather than how crowded its current position
+    structure is" (rank correlation with 7-day volatility **−0.013**) and, decisively for this mechanism,
+    that "**open interest builds into and through high-funding settlements** … positions are opened into the
+    payment, not unwound before it" (+1.73 %, t = 9.90 into the settlement hour). A mechanism that requires
+    the crowd to *unwind* before the payment is not what the funding rate is measuring on this sample. The
+    **direction** link: S-389's information coefficients change sign between a 2020–21 reversal regime and a
+    2023–26 continuation regime, and S-390 finds the within-asset effect present only in the
+    negative-funding tail. The *transfer* caveat is recorded honestly: S-389's design is cross-sectional and
+    the candidate's rule is time-series within one underlying, so the regime finding is **suggestive, not
+    decisive**; the *mechanism* finding (positions opened into the payment, not unwound before it) transfers
+    across designs because it is a statement about what the funding rate measures, not about a return
+    estimand. Not 1, because the state remains published, zero-lag and free, and the funding mechanism is
+    still documented by the venues and by S-086 and S-087.
+  - **Evidence 3 → 3, unchanged.** The base is no longer thin, and contradictory evidence is recorded rather
+    than absent — the Cycle-66 precedent, which *raised* this cell for exactly that reason. But the new
+    material does not raise the cell's **quality**: S-389 and S-392 are self-published practitioner notes with
+    author-reported results, S-390 is a journal article in a fee-charging open-access venue whose standing
+    this register cannot vouch for, and S-391 is an interested party's blog post whose body the register
+    holds only in index-rendered form. Volume rose; standing did not.
+  - **Novelty 1 → 1, unchanged, and the floor is now documented from the venue's own mouth.** The residual
+    was already a formulation difference (S-310, S-320); S-391 shows the venue published the same rule in
+    2017 with sub-50 % success rates in three of four cells, and S-390 shows a 2026 paper testing the
+    candidate's exact percentile construction. The cell cannot go below 1.
+  - **Falsifiability 3 → 2.** Three of the dossier's five pre-registered predictions are now largely
+    pre-answered by published tests: **P1** (the reversal) is pre-answered with an asymmetric answer
+    (S-390) and a regime split (S-389); **P2** (the state scales with the funding level) is pre-answered
+    against the *candidate's own* percentile construction (S-389: z-score 24-hour information coefficient
+    −0.0007, t = −0.3; "+0.00 % at one hour"), with only the raw level carrying an effect at horizons of
+    eight hours and less; **P5** (the effect exceeds the round-trip cost) is pre-answered against at the
+    candidate's horizon (S-389: the one-hour decile spread of 3.66 bps against an 8 bps reference round trip,
+    and the carry-plus-reversal book's excess over the round trip indistinguishable from zero at +2.2 bps,
+    t = 0.68; S-392: 13 bps per round trip and 100–135 hours to repay). The Cycle-66 precedent applies
+    directly — pre-answered predictions lower the cell and force a re-specification of the exit rule.
+  - **Resilience 2 → 1.** The dossier's own persistence thesis says the mechanism decays "if the funding-rate
+    crowd becomes sophisticated enough to pre-position against reversals". That named channel has fired, and
+    the evidence is sign-inverted in the *current* regime rather than merely weaker: the 2024, 2025 and 2026
+    information coefficients are positive and significant (t = 3.4, 8.1, 3.6), and S-389's 2024–26 window
+    reports the level's one-hour effect at **+4.10 %**. Capacity is binding as well (S-389: raising the
+    liquidity floor removes the price leg rather than scaling it), and what survives at scale is the *carry*,
+    which is a published baseline (S-086, S-087, S-392) rather than this candidate's edge.
+  - **Data 4 → 4, unchanged.** The state remains published by the venue before the decision, free, and
+    available with zero lag; S-392's note that "**OKX publishes only three months of history**" is a
+    *venue-transferability* limitation that the dossier already carries as a condition, not a change to the
+    state's availability at the candidate's home venue.
+- **Hard-stop conditions now attached** (the register's standing conditions, each independently of the
+  score): (i) **costs likely to overwhelm the hypothesized effect** — S-389 and S-392 together; (ii) **a
+  claim that merely repackages a known idea** — S-391, S-390 and S-389; (iii) the pre-existing
+  **momentum-confound condition**, now sharpened rather than replaced: the funding signal's sign tracks the
+  prevailing regime (reversal vs continuation), which is a momentum/regime confound rather than a
+  reversal; (iv) the pre-existing **crypto venue risk** condition, unchanged.
+- **Retained, not parked.** The candidate is **not** rejected and **not** parked (P-015 was not minted): its
+  state still satisfies G-13 cleanly, its specification is still executable, and what remains is a
+  *validation* question with a decisive possible answer — whether the direction-conditioned, volatility-
+  conditioned, cost-tested rule survives on a single underlying. What this cycle changed is the register's
+  estimate of that probability, and its estimate is now much lower. The register records, plainly, that the
+  candidate's live content has narrowed to a **time-series form** of a **published** effect whose
+  out-of-sample and cost-adjusted magnitude is not established, and whose sign has been observed to invert
+  across regimes.
+- **V-008 is amended, not re-created.** The Cycle-66 amendment had made the direction-conditioned and
+  volatility-conditioned rule primary. Cycle 112 adds three requirements, each traceable to a specific
+  finding above: (i) a **regime gate** — the rule may only be armed when the *within-contract* trailing
+  sign of the funding–return relation over the trailing window is negative, so the trade is not taken into a
+  continuation regime (S-389); (ii) a **cost-floor arm** — the specification must report the realised
+  gross spread of the decile contrast against the published **8 bps** reference round trip (S-389) and the
+  **13 bps** cross-venue round trip (S-392), and must treat an excess indistinguishable from zero as a null
+  result rather than as a small edge; and (iii) a **construction arm** — the percentile rule and the raw-level
+  rule must be tested as **separate arms**, because S-389 reports the percentile construction as null and the
+  level as carrying the effect only at horizons of eight hours and less. The amended specification remains
+  executable.
+- **New gap G-37 (opened).** The precise, open question the new evidence creates is the *transfer* question:
+  does the within-contract, time-series form of the funding–return relation also flip sign between a reversal
+  regime and a continuation regime, which regime is the current one, and can the flip be detected before a
+  trade is taken? G-37 is a literature-side question with a bounded, decidable form; it is not a re-run of
+  the Cycle-66 corpora, which tested the unconditional level on Binance and BitMEX.
+- **What would change this verdict (dated re-screen conditions).** A peer-reviewed replication of the
+  2020–21-to-2023 sign flip in the within-contract time-series form; a published estimate of a
+  direction-conditioned reversal's *net-of-cost* magnitude on a single perpetual; a published measure of
+  the funding rate's relationship to **open interest** that would restore or kill the crowd-unwind link
+  specifically; or a published account of the top-trader ratio's edge that explains the funding level's
+  inferiority. Absent one of these, the candidate stays at 42.0 with its two new hard-stop conditions and
+  V-008 executable but regime-gated.
 
 ## IDEA-010 — CREDIT-ETF: corporate-bond ETF flow against dealer balance-sheet capacity
 
@@ -5533,7 +5790,13 @@ IFRS basis.
   the published 2026 interim reports, S-281 … S-286). The screen bears on the **discriminator**, not on the
   state the candidate trades on.
 
-### Cycle 112 — Priority 1 audit: the R-057 residual is closed (R-058); the dossier's comparator wording is reviewed and left unchanged
+### Cycle 111 — Priority 1 audit: the R-057 residual is closed (R-058); the dossier's comparator wording is reviewed and left unchanged
+
+> **Cycle-112 label repair (21 October 2026).** This block was executed in **Cycle 111**, not Cycle 112:
+> its own text says "The Cycle-110 handoff named … Cycle 110 executed that search and logged the outcome as
+> R-058", and R-058 is the Cycle-110 rejection. The heading's "Cycle 112" was an off-by-one labelling error,
+> made in the same session that wrote the block. The heading is relabelled in place, with the body untouched.
+> This is defect 1 of the five label-and-header defects repaired in Cycle 112 (see `cycle_notes.md`).
 
 - **What this cycle did.** The Cycle-110 handoff named the IASB's published list of entities permitted to
   apply IFRS early in 2005 as the P-3 screen's one residual. Cycle 110 executed that search and logged the
@@ -6009,7 +6272,8 @@ than parked.
 ## IDEA-014 — RIN-DEADLINE: the US Renewable Fuel Standard's compliance-deadline obligation, and the published net position that decides its sign
 
 - **ID / short name:** IDEA-014 / RIN-DEADLINE
-- **Date added:** 2026-10-20 · **Cycle:** 6 · **Status:** candidate · **Version:** 1.1
+- **Date added:** 2026-10-20 · **Cycle:** 6 · **Status:** candidate (**rank 3 of 4**; the *conditional* version
+  is retired with a hard stop; a **state-free** specification now exists) · **Version:** 1.2
 - **Change notes:** v1.0 — initial dossier. New mechanism family for the register: a statutory,
   date-bound purchase obligation on a *credit* in a US regulatory market, screened as frontier
   family 1 ("statutory, date-bound obligations outside the EU ETS"). The candidate is the
@@ -6028,6 +6292,28 @@ than parked.
   informative** — and the RIN analogue fails the second half because the published projection is set
   against the agency's own supply projection, so the projected net position is near zero by construction
   (S-184, S-201).
+  **v1.2 (Cycle 112) — two agency documents located on two unused route forms; no score change (52.0); the
+  state-free existence limb remains inconclusive; V-012 written as the candidate's first *state-free*
+  specification; G-38 opened.** **S-393** (GAO-23-105801, November 2022) and **S-394** (EPA-420-R-22-038,
+  December 2022) are the register's first entries from the **legislative-audit** and **agency-impact-analysis**
+  route forms on this candidate. They establish, on the agencies' own audited EMTS transaction data, that
+  **the compliance obligation is priced** (the smaller obligated party paid or received prices "2.4 percent
+  higher or lower … on average" and "2.9 percent" between refineries — GAO's own words — with EPA's central
+  estimate at "1.1 % (1.2 ¢) more per RIN" over the daily average and D4 at 2.7 %, against EPA's stated
+  sensitivity band of 5.3 % less to 7.5 % more) and that **the deadline's timing structure is as the
+  candidate assumes** (compliance dates "generally March 31 of the year following the compliance year";
+  current- or prior-year vintages both usable; exemption decisions issued after the 90-day deadline 89 % of
+  the time, so refineries "often do not know whether they need RINs until close to, or after, the March 31
+  compliance deadline"). They **do not** establish a deadline-specific price effect, so the **state-free
+  existence limb stays inconclusive** — neither a positive finding nor a refutation — and the conditional
+  version stays retired with its hard stop. Under the Cycle-35/52 precedent the sources bear on the
+  mechanism and the cost floor, not on the conditional claim, so **no cell moves**. The register's Cycle-6
+  specification rule is **amended, narrowly and on the record**: a **state-free** specification is now
+  permitted (G-15 is closed on the published-literature side, the state-free test needs no signed state by
+  construction, and the two new entries supply the public transaction-price dataset and the published
+  friction anchor the Cycle-7 search had recorded as unavailable), while **the bar on any state-conditioned
+  specification is re-affirmed in full**. **V-012** is written. **G-38** is opened for the one input still
+  missing: a published estimate of the RIN market's bid-ask spread or round-trip cost.
 
 **One-sentence hypothesis.** Obligated parties under the US Renewable Fuel Standard must retire
 Renewable Identification Numbers (RINs) against their annual renewable volume obligations by a
@@ -6492,6 +6778,96 @@ source of the register's arithmetic is corrected
   that failure structural, not a timing accident).
 
 ---
+
+#### Cycle 112 block — IDEA-014 · two agency documents bear on the mechanism, the cost floor and the deadline's timing; **no score change (52.0)**; the state-free existence limb stays **inconclusive**; **V-012 written** (the candidate's first *state-free* specification); gap **G-38** opened
+
+- **What the screen was.** A pre-registered search for published evidence that the **RFS compliance
+  deadline** moves **RIN prices**, using two route forms the register had not used in nineteen cycles of
+  work on this candidate: (i) the **agency's own rulemaking and impact analyses** (the EPA memorandum
+  EPA-420-R-22-038 and its rulemaking companions), and (ii) the **legislative audit literature** (GAO
+  reports on the RFS small-refinery-exemption programme), together with (iii) the academic RIN-price
+  literature. The falsification rule was fixed in advance: the limb's subject is the *deadline's price
+  effect*, not the obligation's existence and not the sign of any state; an absence of evidence may not be
+  upgraded to a refutation, and a positive finding may not be inferred from a mechanism finding.
+- **What was found.** Two new entries, both agency publications and both **index-rendered** (search
+  extraction of the published PDFs; neither PDF was fetched and text-extracted directly):
+  - **S-393 — GAO-23-105801 (November 2022), "Renewable Fuel Standard: Actions Needed to Improve
+    Decision-Making in the Small Refinery Exemption Program".** On the **price** side: GAO analysed EPA's
+    EMTS transaction data and found that "companies that tended to trade lower quantities of RINs (likely
+    smaller refineries) were either **paying more to buy RINs or receiving less when they sell RINs**,
+    relative to larger companies from 2013 through 2021"; for the transactions with the largest size
+    differences the small party paid or received prices "**2.4 percent higher or lower** for RINs, on
+    average", and between refineries "**2.9 percent higher or lower**"; the estimate is 2.9 % for the
+    ethanol (D6) RIN and **0.8 %** for the biomass-based diesel (D4) RIN; "**This effect is statistically
+    significant**". On the **timing** side: EPA "has issued decisions after the 90-day deadline **89 percent
+    of the time** (190 out of 214 decisions)"; because decisions land late, "small refineries that apply for
+    exemptions often **do not know whether they need RINs until close to, or after, the March 31 compliance
+    deadline**, which creates financial uncertainty"; and this "may result in either an **excess or a
+    shortfall of RINs**".
+  - **S-394 — EPA-420-R-22-038 (December 2022), "An Analysis of the Price of Renewable Identification
+    Numbers (RINs) and Small Refineries"** (the agency's final analysis in response to GAO's Recommendation
+    1, over **2.2 million RIN transactions for approximately 140 billion RINs**, 2013–2021, EMTS data). On
+    the **price** side: the 24 small refineries that traded on a facility-specific basis "paid on average
+    **1.1 % (1.2 ¢) more per RIN** when buying separated RINs when compared to the average daily price and
+    **0.5 % (0.6 ¢) more per RIN than the largest 20 refiners**" (D6: 0.6 % above the daily average; D4:
+    **2.7 %** above the daily average and **2.6 %** above the largest 20 refiners), and by vintage the
+    premium is 1.3 % for the same vintage, 0.5 % for the prior-year vintage and 0.9 % *less* for the
+    two-years-prior vintage; EPA's own sensitivity statement is that under the alternative modelling
+    assumptions imposed by the GAO Report "these 24 refineries paid anywhere from **5.3 % less to 7.5 % more**
+    for RINs when compared to the daily average price". On the **timing** side: "**Compliance dates are
+    generally March 31 of the year following the compliance year**, unless otherwise extended"; obligated
+    parties "can meet compliance obligations using RINs generated in the compliance year and prior year";
+    and "it is common for companies to transact RINs in the year after they are generated, or even two years
+    after they were generated".
+- **What the findings do and do not establish.** They establish, on the agencies' own audited transaction
+  data, that **(i) the RFS compliance obligation is priced** — the constrained obligated party pays a
+  measured premium over the daily average price, and the premium is larger for the biomass-based diesel
+  credit — and that **(ii) the deadline's timing structure is as the candidate assumes** (a fixed 31 March
+  compliance date; current- or prior-year vintages both usable; exemption decisions landing at or after the
+  deadline; purchase demand therefore deferred into the compliance year). They **do not** establish that RIN
+  prices move systematically around the deadline: no source located in this cycle estimates a pre-/post-
+  deadline price pattern, and the price differentials that are documented are **counterparty-size** effects,
+  not **deadline-timing** effects. The candidate's conditional claim is therefore **unchanged and
+  unclaimed**, and its **state-free existence limb remains inconclusive** — not refuted, not closed.
+- **Score: no change (52.0).** The Cycle-35/52 precedent governs: the new sources bear on the **mechanism**
+  and on the **cost floor**, not on the conditional directional claim, so no cell moves. Evidence stays at
+  2 because the sources are agency publications about the *obligation's* pricing and timing rather than
+  about the *deadline's* price effect, which is the thing the candidate's claim is about; novelty stays at
+  3 because the conditional claim remains unclaimed in the literature; falsifiability stays at 2 because the
+  candidate's sign remains unasserted and unpredicted.
+- **A published cost anchor now exists for the existence test — and it is a hard one.** G-15's first half
+  asks whether any pre-/post-deadline difference is "larger than the venue's round-trip cost". The register's
+  only cost evidence had been S-133's market-quality note. The two new entries give the first
+  **agency-audited friction estimates**: the observable dispersion of transaction prices around the daily
+  average is **1.1 %** (EPA's central estimate for the 24 small refineries), **2.4–2.9 %** (GAO's
+  size-differential estimate), with EPA's own sensitivity band of **−5.3 % to +7.5 %**. Those figures are
+  dispersion between counterparties of different size, **not** a bid-ask spread, and the register does not
+  treat them as a cost estimate; they are, however, the only published, audited measure of price friction
+  around the RIN daily average, and they set the order of magnitude any deadline effect must exceed to be
+  tradeable. The register opens **G-38** for the one thing that is still missing: a published estimate of the
+  RIN market's **bid-ask spread or round-trip cost**.
+- **V-012 is written — the candidate's first *state-free* specification.** The register's Cycle-6 rule reads
+  "IDEA-014 … has no specification and must not be given one until gap G-15 … is closed". **G-15 is closed
+  on the published-literature side** (Cycle 7) and the register's own gap table lists it as closed; the
+  dossier's operative formulation ("none may be written until a pre-deadline, signed state is identified")
+  was written for the **conditional** version, which is retired with a hard stop and which is the only
+  version that would need a signed state. **The amendment is narrow and is recorded as an amendment:** a
+  **state-free** specification is now permitted for IDEA-014 because (i) the candidate's only live claim is
+  the state-free existence test, (ii) that test requires **no signed state by construction** — it asks
+  whether any deadline discontinuity exists in the price data at all, before any conditional claim is
+  entertained — and (iii) the two new agency entries supply the two inputs the Cycle-7 search said were
+  unavailable: a **public, agency-audited transaction-price dataset** (EPA's EMTS, 2013–2021) and a
+  **published friction anchor** (the price dispersion above). **The bar on any state-conditioned
+  specification for IDEA-014 is re-affirmed in full**: the conditional version stays retired with its hard
+  stop, G-20 stays closed against the state as specified, and no specification may be written for the
+  conditional claim. V-012's specification, its controls, its cost floor and its kill conditions are in
+  `validation_handoffs.md`.
+- **New gap G-38 (opened)** — the published RIN round-trip cost; see the ledger's gap-verdict table.
+- **What would change this verdict (dated re-screen conditions).** A published estimate of a pre-/post-31-March
+  RIN price pattern, from any source; a published RIN bid-ask or round-trip cost estimate; or the EPA's
+  own publication of a transaction-price series long enough to span a moved deadline (the two moved 2026
+  deadlines, S-131, remain the natural test). Absent one of these, the limb stays inconclusive, the candidate
+  stays at 52.0, and V-012 stands as the candidate's kill test.
 
 ## IDEA-015 — PLAN-SUPPLY: pre-announced, non-discretionary insider supply as a dated, published, price-insensitive shock
 

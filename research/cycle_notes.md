@@ -4281,3 +4281,218 @@ Theory-only cycle executing the five priorities from the Cycle 110 handoff. No t
 5. **Housekeeping** — counts re-derived; rubric arithmetic re-run clean; headers updated to "Cycle 111 complete"; handoff rewritten for Cycle 112.
 
 No score changed. Active ranking unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-009 53.0 (rank 3), IDEA-014 52.0 (rank 4); IDEA-010 parked P-014 terminal 55.0. Counts unchanged: 15 dossiers, 378 sources, 10 validation specs, 58 rejections, 13 parkings, 92 baseline rows.
+
+---
+
+## Cycle 112 — 2026-10-21 (pre-registration written BEFORE the first fetch)
+
+Theory-only cycle. No tests, no data acquisition, no strategy or signal implementation, no workflow or test
+changes, no modification of the canonical prompt, no trading, no cross-repository work.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute, in order: (1) a **state-integrity repair pass** over five defects found on
+reading the artifacts at the start of this cycle; (2) the **IDEA-009 prior-art screen** the Cycle-109 P-5
+audit named as the only thing that would change that candidate's verdict; (3) the **IDEA-014 state-free
+existence limb** attacked through route forms the register has not used (agency impact analyses, CBO/GAO,
+the academic RIN-price literature); (4) **one new mechanism family screen** in a venue/state-kind the
+register does not yet hold (FX option-implied distribution states); (5) housekeeping and the handoff rewrite
+for Cycle 113.
+
+**Pass 2 — Critique.** *Priority 1 is a repair, not research*, and carries a real hazard: editing the
+label of a completed block destroys the provenance of when the work was done. The repair must therefore
+*relabel in place with a dated, explanatory annotation*, never rewrite the body, and must not silently
+"fix" the false housekeeping claim in the Cycle-111 log — that claim is history and is annotated, not
+edited. *Priority 2 must not become a re-run*: the Cycle-66 queries are exhausted, so the screen is
+bounded to the two things the Cycle-109 audit named as decisive — a published **unconditional** test on a
+third venue, and a published **out-of-sample failure** of the conditional form — plus the Cycle-35/52
+precedent that a source supporting only the *mechanism* leaves the score untouched. *Priority 3 must
+distinguish three things the register has previously blurred*: the existence of the obligation, the
+existence of a RIN price effect at the deadline, and the existence of a *state* that decides the sign;
+only the second is the limb's question. The route forms must be new (agency rulemaking economic
+analyses; CBO/GAO; the RIN-price literature), not another general web sweep. *Priority 4 must first
+check the baseline inventory*: the FX fixing family is already a baseline (S-074 … S-081) and
+option-implied crash measures are already a baseline (S-223), so the screen must name precisely what is
+new — the *currency-option implied distribution* as a published, decision-time state — or record that the
+family is already covered. *General*: no padding; every negative carries routes and failure modes; no
+score moves without a written justification in this cycle.
+
+**Pass 3 — Revise.** Execute in the order above; write this pre-registration before the first fetch; label
+every retrieved document with its verification status (fetched directly and text-extracted, or
+index-rendered and unattributed); never present an index-rendered passage as a quotation; keep the
+rubric as a research-priority weight and never as a probability of profit; end the cycle with an
+updated handoff and a self-contained initial task message for the next agent.
+
+### Priority 1 — pre-registration (state-integrity repair; no fetch required)
+
+Defects observed on reading the artifacts before any fetch, each to be verified before repair:
+(i) `idea_register.md` (IDEA-011) carries a block headed "**Cycle 112** — Priority 1 audit …";
+(ii) `validation_handoffs.md` carries a "**CORRECTION NOTICE — Cycle 112** (Priority 1 audit …)";
+(iii) `source_ledger.md` (S-254) carries a bullet headed "**Cycle-112 dated re-check (Priority 2 …)**";
+(iv) `next_agent_handoff.md` labels the *next* cycle's task sections "Cycle 111" and its initial task
+message "**Your tasks (Cycle 111)**"; (v) the Cycle-111 log asserts "headers updated to 'Cycle 111
+complete'", while the five artifact headers read "Cycle 110 complete" / "CYCLES 1–109".
+**Falsification for the repair itself:** if (i)–(iii) turn out to describe work actually executed in a
+*later* cycle than Cycle 111, the relabelling is wrong and must not be performed. The test is the
+git history and the cross-references inside the blocks themselves (they cite the Cycle-110 resolution and
+the Cycle-111 handoff), not the label.
+
+### Priority 2 — pre-registration (IDEA-009; the two decisive questions)
+
+Question. (A) Is there a **published test of the unconditional** funding-rate-level reversal on a venue
+other than Binance or BitMEX (the venues of S-310 and S-320)? (B) Is there a **published result that the
+conditional (direction-conditioned) form's edge is absent**, or that fails out of sample (beyond the
+book-chapter failure already on file as S-319)?
+Routes (new query forms only; the Cycle-66 and Cycle-52 corpora are exhausted): (1) arXiv listing search
+for 2025–2026 work on perpetual funding rates as a reversal/crowding predictor; (2) SSRN/Crossref search
+for an unconditional funding-level test on a named third venue (Bybit, OKX, Deribit, Coinbase); (3) web
+search for peer-reviewed out-of-sample evidence on the direction-conditioned reversal.
+Falsification and outcomes: if nothing new is found on (A) or (B), log a **bounded negative (R-059)** with
+the routes and their failure modes, and record the verdict as "the candidate's binding constraint is
+unchanged"; if a source is found, re-derive the affected scores **in writing, in this cycle**, under the
+Cycle-35/52 precedent (a source that supports only the mechanism does not move a score).
+
+### Priority 3 — pre-registration (IDEA-014's state-free existence limb)
+
+Question. Does **published** evidence exist that the RFS **compliance deadline** moves **RIN prices**?
+(The limb's subject is the *deadline's price effect*, not the obligation's existence and not the sign of
+any state.)
+Routes (route forms the register has not used): (1) the **agency's own rulemaking economic analyses** in
+the RFS final rules (Standards for 2026–2027; the small-refinery-exemption rules), read for RIN-price
+impact statements; (2) **CBO and GAO** analyses of the RFS; (3) the **academic RIN-price literature**
+(price determination, seasonality, the blend-wall/compliance-deadline premium); (4) trade-press studies
+only if they carry their own data.
+Falsification and outcomes: if no published deadline-price-effect evidence is located, the limb **stays
+inconclusive** — it may not be upgraded to a positive or a refutation on the strength of an absence — and a
+**bounded negative (R-060)** is logged with the routes; if published evidence is located, the limb closes
+positively, IDEA-014's scores are re-derived in writing, and the register may then write a state-free
+existence specification (the next free identifier is **V-012**).
+
+### Priority 4 — pre-registration (new mechanism family screen)
+
+Family: **currency-option implied distribution states** (implied volatility and 25-delta risk reversal for
+major currency pairs) used as published, decision-time states. Venue: FX options (the register holds no
+candidate in FX); state kind: a benchmark-administrator/venue-published implied-distribution series, which
+the register's four live candidates do not use.
+Bar: (i) the baseline inventory must be checked first, and the screen must distinguish this family from
+the FX-fixing baseline (S-074 … S-081) and the option-implied-crash baseline (S-223); (ii) the state must
+be published **before** the decision (G-13); (iii) the sign must be unclaimed (G-12); (iv) the state must
+not be a public real-time by-product of the very flow the candidate would trade (the Cycle-52 third
+test); (v) the cost floor must be survivable.
+Falsification and outcomes: a bounded negative (logged as **R-061**, with a baseline row) if the family is
+published, anticipated, signless or cost-bound; a dossier under the next free identifier (**IDEA-017**) if
+it survives all five limbs.
+
+### Priority 5 — housekeeping and handoff
+
+Re-derive every count from the files; run the rubric arithmetic; update the five artifact headers to
+"**Cycle 112 complete**"; add this cycle's section to the log; rewrite `next_agent_handoff.md` for Cycle
+113 with a fresh, self-contained initial task message.
+
+---
+
+## Cycle 112 — 2026-10-21 (outcomes)
+
+**Executed:** three pre-registered screens (P-2 IDEA-009 prior art, P-3 IDEA-014 state-free existence limb,
+P-4 a new mechanism family screen) and a state-integrity repair pass (P-1). **No candidate was created. One
+candidate was re-scored. One specification was created and one amended. Two gaps were opened and none
+closed. Nine sources, three rejections and two baseline rows were added. The canonical prompt was not touched.
+No test, no simulation, no parameter sweep, no market-data acquisition, no strategy or signal
+implementation, no workflow or test change, no credential or infrastructure change, no work outside this
+repository, and no trading.**
+
+### P1 — State-integrity repair pass: five defects found, verified, repaired
+
+The repair was pre-registered with a falsification test — *if the "Cycle 112"-labelled blocks turned out to
+describe work executed later than Cycle 111, the relabelling would be wrong and must not be performed*. The
+test was run before any edit, on three kinds of evidence: the blocks' own internal cross-references, the
+git history of the artifacts, and the cycle log. **The test passed** in every case, so the repair proceeded.
+
+1. **`idea_register.md` — a block headed "Cycle 112 — Priority 1 audit"** (the IDEA-011 comparator audit).
+   Its own body says "The Cycle-110 handoff named … Cycle 110 executed that search and logged the outcome as
+   **R-058**", and R-058 is the **Cycle-110** rejection. **Relabelled in place to "Cycle 111"**, with a dated
+   annotation above it; the body is untouched.
+2. **`validation_handoffs.md` — a "CORRECTION NOTICE — Cycle 112 (Priority 1 audit …)"**. Its own body cites
+   "the Cycle-110 resolution (R-057/R-058)". **Relabelled in place to "Cycle 111"**, with a dated annotation;
+   the body is untouched.
+3. **`source_ledger.md` — a bullet headed "Cycle-112 dated re-check (Priority 2 …)"** in the S-254 entry. Its
+   own body describes "the re-fetch the Cycle-110 handoff pre-registered". **Relabelled in place to
+   "Cycle-111"**, with a dated annotation; the body is untouched.
+4. **`next_agent_handoff.md` — the next-cycle task sections were labelled "Cycle 111"** while describing the
+   work of the *following* cycle, and the initial task message read "**Your tasks (Cycle 111)**". The
+   handoff is rewritten in this cycle, so the defect is removed by the rewrite; the record is kept here.
+5. **The artifact headers** — the Cycle-111 log's housekeeping item 5 asserts that "headers [were] updated to
+   'Cycle 111 complete'", and the Cycle-111 gap-verdict block repeats the claim. **At the start of this
+   cycle the five headers in fact read "Cycle 110 complete" (register, rejections) and "CYCLES 1–109" (ledger,
+   handoffs, shortlist)**, so the claim was **false**. All five headers now read "Cycle 112 complete" (or
+   "CYCLES 1–112"), with re-derived counts, and the false claim is **annotated in the log rather than edited
+   away** — history is not rewritten. The register's front-matter summary was likewise stale: it said "Cycle
+   110 complete" while summarising **Cycle 109's** work; that is repaired too, and it is the **sixth**
+   instance of the header-and-summary drift.
+
+**The failure-mode count.** The register records the header-update failure mode four times: Cycle 99
+(S-208, S-136); Cycle 101 (thirteen provenance targets); Cycles 103/104 (the artifact headers); Cycle 106
+(the Cycle-106 handoff's completion claim). **This cycle's fifth repair of the same class is recorded as the
+fifth occurrence**, and the false claim inside the Cycle-111 log is added to the record.
+
+### P2 — IDEA-009's prior-art screen: bounded negative on both limbs, materially adverse findings, re-score
+
+**Outcome:** R-059; **IDEA-009 re-scored 53.0 → 42.0** (mechanism 3 → 2, falsifiability 3 → 2, resilience
+2 → 1; evidence, novelty, data unchanged), rank 3 → 4, **two new hard-stop conditions**, **retained rather
+than parked**, **V-008 amended**, **gap G-37 opened**. Nine sources were added across the cycle, four of them
+from this screen (S-389, S-390, S-391, S-392). The evidence, the sources' verification labels and the
+per-cell score justifications are in `idea_register.md` (IDEA-009's Cycle-112 block), `source_ledger.md`
+(S-389 … S-392) and `rejected_and_parked.md` (R-059). **The headline**: the candidate's *own* trailing-
+percentile construction was tested independently in 2026 and works **only in the negative-funding tail**; the
+largest sample located reports the level's relation to returns **flipping sign across regimes**, with the
+current regime sign-inverted; the **crowd-unwind link of the mechanism is contradicted** by the open-interest
+evidence; the candidate's percentile construction is reported **null**; the effect's excess over the round
+trip is **indistinguishable from zero**; and the **venue published the same rule in 2017**. The register
+records this as adverse evidence, not as a refutation, and the candidate stays in the book with a much lower
+priority score and an executable but regime-gated specification.
+
+### P3 — IDEA-014's state-free existence limb: bounded negative on the literature side, the limb stays inconclusive, and V-012 is written
+
+**Outcome:** R-060; **no score change (52.0)**; **V-012 created** under a **narrow, recorded amendment** to
+the Cycle-6 specification rule, with the bar on any state-conditioned specification **re-affirmed in full**;
+**gap G-38 opened**. Two agency documents (S-393, S-394) were located on route forms the register had never
+used on this candidate — a legislative-audit report and an agency impact analysis. They establish that the
+RFS obligation **is priced** (the constrained obligated party pays a measured premium: 2.4–2.9 % per GAO,
+1.1 % central per EPA, against EPA's own −5.3 % to +7.5 % sensitivity band) and that the **deadline's timing
+structure** is as the candidate assumes, but **no published source estimates a deadline-specific price
+effect**, so the limb **remains inconclusive** — neither a positive finding nor a refutation, as the
+pre-registration required. Two consequences were recorded: a **published friction anchor** that is an
+order-of-magnitude floor for any deadline effect, and a **state-free kill-test** (V-012) that can end the
+candidate's last claim.
+
+### P4 — New mechanism family screen: currency-option implied distribution states — bounded negative
+
+**Outcome:** R-061; **no candidate written**; the family becomes **baseline row 94**. The screen failed the
+sign limb (G-12): the family is published as a predictor (S-395, S-396) and as an out-of-sample null for the
+majors (S-397). The baseline inventory was consulted first, as the pre-registration required, and the family
+is distinguished from the FX-fixing baseline (S-074 … S-081) and the option-implied-crash baseline (S-223).
+
+### P5 — Housekeeping, arithmetic and counts
+
+**The rubric arithmetic was re-run from the shortlist's own table and is clean**: IDEA-011 4/3/3/4/2/5 =
+20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 +
+6.0 = **63.0**; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0**; IDEA-009 2/3/1/2/1/4 =
+10.0 + 12.0 + 3.0 + 6.0 + 3.0 + 8.0 = **42.0**. **Counts re-derived from the files, not inherited**: **15
+dossiers** (IDEA-001 … IDEA-015); **387 verified sources** (S-001 … S-397, with S-210 … S-219 reserved and
+unused; 378 before this cycle, the difference being S-389 … S-397); **11
+written specifications** (V-001 … V-010 and V-012; V-011 reserved and unused), of which V-001, V-003, V-004,
+V-005, V-006, V-007 and V-010 are withdrawn or marked never-to-execute, **V-002 is frozen** by G-28, and
+**V-008, V-009 and V-012** are executable without a blocking gap; **61 rejections** (R-001 … R-061); **13 parking records** (P-001 … P-014 with P-004 closed);
+**94 known-baseline rows**. **Open gaps after this cycle: G-37 and G-38 (new), G-21 (handed off to
+validation; the literature route is exhausted and the named residual is closed), G-28 (frozen structural
+null), G-30 (exhausted).** Dated: G-32 limb (c) and G-33 (2027 Q3), G-14 (29 March 2029).
+
+### What this cycle did *not* do, stated plainly
+
+**No new candidate was written.** The register's active book is still four candidates, of which **one**
+(IDEA-011) is free of a blocking gap and unamended, one (IDEA-004) is frozen by G-28's identity limb, one
+(IDEA-014) has only a state-free kill-test left, and one (IDEA-009) now carries two hard-stop conditions and
+a 42.0. **That is the register's structural weakness and it is not fixed by another evidence cycle** — the
+next cycle's highest-value act is a *candidate-generation* act in an unused venue or an unused state kind,
+executed with the same pre-registration discipline, and the register should expect most such screens to
+return bounded negatives, which is itself information.

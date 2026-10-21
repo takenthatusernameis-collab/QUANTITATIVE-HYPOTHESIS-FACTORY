@@ -1,4 +1,27 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–109
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–112
+
+**Cycle 112 update — one specification created (V-012), one amended (V-008); no specification withdrawn,
+no status changed.** Cycle 112 executed **three pre-registered screens** and a **state-integrity repair
+pass**. **(i) V-012 is created — IDEA-014's first *state-free* specification** — the candidate's existence
+kill-test, written under a **narrow, recorded amendment** to the register's Cycle-6 specification rule:
+G-15 is closed on the published-literature side, the candidate's only live claim is the state-free existence
+test, that test requires **no signed state by construction**, and the two agency documents located this
+cycle (S-393 GAO-23-105801; S-394 EPA-420-R-22-038) supply the public transaction-price dataset and the
+published friction anchor that the Cycle-7 search had recorded as unavailable. **The bar on any
+state-conditioned specification for IDEA-014 is re-affirmed in full.** V-012 is **executable** and its null
+verdict **kills** the candidate's last claim. **(ii) V-008 is amended** (Cycle-112 amendment): a **regime
+gate** on the raw funding level (S-389's sign flip between a 2020–21 reversal regime and a 2023–26
+continuation regime), the **percentile and raw-level constructions split into separate arms** with the
+raw-level arm primary (S-389 reports the percentile construction as null: z-score 24-hour information
+coefficient −0.0007, t = −0.3), a **cost floor stated in published numbers** (the one-hour decile spread of
+3.66 bps against an 8 bps reference round trip, and the excess over costs "indistinguishable from zero
+(+2.2 bps, t = 0.68)"; S-392's 13 bps cross-venue round trip), a **mandatory two-leg report** (S-390's
+asymmetry: the negative-funding leg works, "extreme positive funding does not exhibit a comparable 24-hour
+effect"), and the **rediscovery guard** extended with the venue's own 2017 publication of the rule (S-391).
+**(iii) The three screens are logged as R-059, R-060 and R-061** in `rejected_and_parked.md`. **V-002
+remains frozen; V-003 and V-010 remain marked never-to-execute; V-009 is not amended.** The register's
+executable set after this cycle is **V-002 (frozen), V-003 (never to be executed), V-008, V-009 and V-012**,
+of which **V-008, V-009 and V-012 are executable without a blocking gap**.
 
 **Cycle 109 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 109's work was **evidence work plus four bounded, pre-registered state-availability screens
@@ -1848,6 +1871,73 @@ every other section stands as written.
    never as a discovery of the funding-level reversal. Ranking consequence recorded in the register: IDEA-009 is
    re-scored **60.0 → 53.0** at Cycle 66 and the specification remains open and executable.
 
+### Cycle-112 amendment (binding) — a regime gate, a cost floor stated in published numbers, and the percentile and raw-level constructions separated
+
+Cycle 112 executed the **Cycle-109 P-5 screen** on this candidate's prior art (logged as **R-059** in
+`rejected_and_parked.md`), and the screen's findings bear directly on what this specification may treat as
+the candidate's state, its regime dependence and its cost floor (S-389, S-390, S-391, S-392). **This
+specification is amended, not re-created.** The frozen hypothesis, the event universe, the outcome, the
+direction condition and the volatility-conditioned horizon are **unchanged in substance**; the **state
+construction, the regime gate, the cost floor and the arm structure** are amended. The sections **"State
+variable", "Pre-specified primary outcome and guardrails", "Baselines, separation and controls", "Stress
+cases, regime slices, ablations", "Pass / fail / uncertain" and "Kill criteria and follow-up justification"**
+are read as amended by this block; every other section stands as written, and the Cycle-66 amendment stands
+in full.
+
+1. **The construction is split into two arms, and the percentile arm is demoted to an ablation.** S-389
+   reports that the **percentile / z-score construction the candidate specifies predicts nothing**: the
+   90-day rolling z-score, cross-sectionally ranked, has a next-24-hour information coefficient of
+   **−0.0007 (t = −0.3)** — "the preprocessing removes the baseline without creating predictability" — while
+   the **raw level** carries the effect at eight hours and less (+1.89 % at one hour, t = 6.26; +1.04 % at
+   eight hours; +0.23 % at 24 hours, t = 0.79). The validator must therefore run **the raw funding level and
+   the trailing-distribution percentile as two separate arms**, with the **raw-level arm primary**, and must
+   report the percentile arm as a **mandatory ablation**. A null on the percentile arm is **not** a kill; a
+   null on the raw-level arm under the cost floor **is**.
+2. **A regime gate is added, and it is decision-time.** S-389's next-24-hour information coefficient for the
+   raw level changes sign between a **2020–21 reversal regime** (coefficients −3.9 % and −3.1 %) and a
+   **2023–26 continuation regime** (+1.6 % in 2024, t = 3.4; +3.4 % in 2025, t = 8.1; +2.0 % in 2026,
+   t = 3.6), and the note's own summary is that "no unconditional level signal survives this flip". The rule
+   must therefore be **armed only when the within-contract trailing sign of the funding–return relation over
+   the pre-registered lookback window is negative** — a reversal regime — and the specification must
+   **pre-register the lookback window and the estimation rule** before the first trade is taken. The gate is
+   computable from published, zero-lag data, but it is an **in-sample** estimate over the trailing window and
+   the specification must record that fact and must report the gate's **turnover** and the **share of events
+   the gate excludes**.
+3. **The cost floor is stated in published numbers, and an excess indistinguishable from zero is a null.**
+   S-389 reports the **one-hour decile spread of 3.66 bps** against its **8 bps** reference round trip, and
+   reports that the excess of the combined carry-plus-reversal book over the round trip is "indistinguishable
+   from zero (**+2.2 bps, t = 0.68** at a day)"; S-392 reports a **13 bps** round trip on the cross-venue
+   funding spread, needing **100–135 hours** of holding to repay itself, with the spread "averaged 20–35 %
+   less in the second year of the sample than the first". The specification must therefore report the
+   realised gross spread of the primary contrast against **both** published round-trip anchors, and must
+   treat a net excess that is **not statistically distinguishable from zero as a null result**, not as a
+   small edge. The funding carry must be reported **separately** from the reversal leg, because the carry is
+   a published baseline (S-086, S-087, S-392) and is not this candidate's edge.
+4. **The published benchmarks are extended, and the asymmetry is a required report.** S-390 is an independent
+   2026 test of the candidate's own trailing-percentile construction whose result is **asymmetric**: extreme
+   negative funding is followed by an average 24-hour return of **+0.506 %** (significant under t, Wilcoxon
+   and directional-frequency tests, robust to false-discovery-rate adjustment; about 0.491 percentage points
+   in the categorical regressions after the pre-settlement control), while "**extreme positive funding does not
+   exhibit a comparable 24-hour effect**". The specification must report the **two legs separately** — the
+   long-the-negative-funding-extreme leg and the short-the-positive-funding-extreme leg — and must **not**
+   report a pooled two-leg result as the headline. A null on the **short leg** is not a kill on its own,
+   because S-320 already reports the unconditional form as near-null; but the short leg must be reported.
+5. **The rediscovery guard is extended.** S-391 is the venue's own 2017 publication of this rule: "A large
+   negative funding rate predicts a positive return for the next 8 hour period. A large positive funding rate
+   predicts a negative return for the next 8 hour period", with per-cell success rates of **47.62 %,
+   53.23 %, 45.68 % and 44.44 %** over 524 funding periods, and with the author attributing most of the
+   result to the funding received rather than to the price move. Any report produced under this specification
+   must be framed as an **independent replication and cost-accounting exercise on a published rule**, never as
+   a discovery of a funding-rate reversal, and must state the venue's 2017 numbers alongside its own.
+6. **Pass standard, reporting and ranking consequence.** The candidate passes only if it (i) survives on the
+   **raw-level, regime-gated, volatility-conditioned** primary arm, (ii) does so with a net excess over the
+   published round-trip anchors that is **statistically distinguishable from zero**, (iii) reports the two
+   legs separately and reports the percentile arm and the unconditional arm as mandatory ablations, and
+   (iv) is described as an independent test of a **published** rule with the venue's 2017 numbers on the page.
+   Ranking consequence recorded in the register: IDEA-009 is re-scored **53.0 → 42.0** at Cycle 112, falls to
+   **rank 4 of 4**, and carries **two new hard-stop conditions** — *costs likely to overwhelm the hypothesized
+   effect* and *a claim that merely repackages a known idea*. The specification remains **executable**.
+
 ### Frozen hypothesis
 The perpetual-futures funding rate is settled every few hours and published by the exchange; it
 measures the crowded-leverage state directly. A rule that takes the side opposite to the
@@ -2009,7 +2099,15 @@ definition, the controls and the pre-registration** are amended.
    "required for domestic public companies" versus "permitted but not required", S-254). **A validator
    working the IFRS 18 instance must pre-register the group A/group B partition before the first IFRS 18
    report is published**, and must report it as a partition that was fixed in advance.
-> **CORRECTION NOTICE — Cycle 112 (Priority 1 audit; the instruction above is superseded and must not be followed).** The Cycle-56 amendment closed the IFRS 18 group A/group B partition route, and the Cycle-59 hand-off made the comparator a contribution rather than a replication, but **this block was never annotated**, so a reader following V-009 as written would pre-register a partition the register has since rejected. **The standing instruction is now: a validator working an IFRS 18 instance must NOT build a group A/group B partition and must NOT present one as pre-registered** (Cycle-56 amendment, item 1: the published endorsement instruments S-268/S-269/S-270 converge on one mandatory application date, and first-time adopters apply IFRS as a single package, S-271, so the contrast degenerates into the historical first-time-versus-second-time comparison the literature has already populated). The only IFRS 18 identification available to this candidate is **prospective arm A** (the pre-adoption impact disclosure of IAS 8 ¶¶30–31, S-267), with its own G-33 dependency. **The Cycle-110 resolution (R-057/R-058) sharpens the same point at the firm level and changes nothing in the specification:** the framework-level first-adoption classifier is published, dated and free, but the firm-level "repeat adopter" flag is **not published prospectively** — the IASB's 2005 early-adopter list could not be located (bounded negative, **R-058**, Cycle 110 Priority 1) — so it remains **derivable from each firm's own prior-year basis-of-preparation note**, and no validator may treat a published firm-level repeat-adopter flag as available. V-009 is **not amended**: no score, rank, status, executable set or pre-registration changed, and no `V-` identifier was consumed.
+> **CORRECTION NOTICE — Cycle 111 (Priority 1 audit; the instruction above is superseded and must not be followed).**
+>
+> > **Cycle-112 label repair (21 October 2026).** This notice was executed in **Cycle 111**, not Cycle 112:
+> > its own text cites "the Cycle-110 resolution (R-057/R-058)", and R-058 is the Cycle-110 rejection. The
+> > heading's "Cycle 112" was an off-by-one labelling error, made in the session that wrote the notice. The
+> > heading is relabelled in place, with the body untouched. This is defect 2 of the five label-and-header
+> > defects repaired in Cycle 112 (see `cycle_notes.md`).
+>
+> The Cycle-56 amendment closed the IFRS 18 group A/group B partition route, and the Cycle-59 hand-off made the comparator a contribution rather than a replication, but **this block was never annotated**, so a reader following V-009 as written would pre-register a partition the register has since rejected. **The standing instruction is now: a validator working an IFRS 18 instance must NOT build a group A/group B partition and must NOT present one as pre-registered** (Cycle-56 amendment, item 1: the published endorsement instruments S-268/S-269/S-270 converge on one mandatory application date, and first-time adopters apply IFRS as a single package, S-271, so the contrast degenerates into the historical first-time-versus-second-time comparison the literature has already populated). The only IFRS 18 identification available to this candidate is **prospective arm A** (the pre-adoption impact disclosure of IAS 8 ¶¶30–31, S-267), with its own G-33 dependency. **The Cycle-110 resolution (R-057/R-058) sharpens the same point at the firm level and changes nothing in the specification:** the framework-level first-adoption classifier is published, dated and free, but the firm-level "repeat adopter" flag is **not published prospectively** — the IASB's 2005 early-adopter list could not be located (bounded negative, **R-058**, Cycle 110 Priority 1) — so it remains **derivable from each firm's own prior-year basis-of-preparation note**, and no validator may treat a published firm-level repeat-adopter flag as available. V-009 is **not amended**: no score, rank, status, executable set or pre-registration changed, and no `V-` identifier was consumed.
 5. **What has not changed, stated explicitly so that no reader infers a silent change.** The candidate's
    score (69.0, rank 1) is **unchanged**, following the Cycle-35 precedent that sources supporting the
    *mechanism* but not the *directional drift claim* leave the score untouched. The frozen hypothesis
@@ -2718,3 +2816,174 @@ that Cycle 75 handed on was executed, and it adds two mandatory controls and one
 - **Re-admission.** If the candidate is ever re-admitted under the **P-014** unblocking condition, this
   specification must be **re-derived from scratch** against the then-current published state, not resumed
   from this text.
+
+---
+
+## V-012 — RIN-EXISTENCE (IDEA-014) — the candidate's **state-free existence test** — *written under the Cycle-112 narrow amendment to the register's specification rule*
+
+### Authority, scope and what this specification is not
+
+**Authority.** The register's Cycle-6 rule reads: "IDEA-014 … has no specification and must not be given one
+until gap **G-15** … is closed". **G-15 is closed on the published-literature side** (Cycle 7) and the
+register's own gap table lists it as closed. The dossier's operative formulation — "none may be written until
+a pre-deadline, signed state is identified" — was written for the **conditional** version of IDEA-014, which
+is **retired with a hard stop** and which is the only version that would require a signed state. **Cycle 112
+amends the rule, narrowly and on the record:** a **state-free** specification is now permitted for IDEA-014,
+because (i) the candidate's only live claim is the **state-free existence test**, (ii) that test requires
+**no signed state by construction** — it asks whether a deadline discontinuity exists in the price data at
+all, before any conditional claim is entertained — and (iii) the two agency documents located in Cycle 112
+(S-393, S-394) supply the two inputs the Cycle-7 search had recorded as unavailable: a **public,
+agency-audited transaction-price dataset** and a **published friction anchor**. **The bar on any
+state-conditioned specification for IDEA-014 is re-affirmed in full**: the conditional version stays retired
+with its hard stop, G-20 stays closed against the state as specified, and **no specification may be written
+for the conditional claim.**
+
+**What this specification is not.** It is **not** a test of the candidate's conditional claim. It does not
+assume a sign, does not use the published net obligated position, and does not condition on any
+pre-deadline state. It is **not** a trade specification: no position, sizing, horizon or execution rule is
+specified, because the candidate's conditional claim is retired. It is a **kill test for the candidate's
+existence claim**, and a null result kills that claim.
+
+### Frozen hypothesis (state-free)
+
+*If the US Renewable Fuel Standard's statutory compliance deadline concentrates price-insensitive demand for
+RINs into a fixed annual window, then RIN transaction prices around that window must differ systematically
+between the pre-deadline and post-deadline periods — and the difference, if it exists, must be larger than
+the friction of trading a RIN. This specification tests only the first half: whether any such difference
+exists at all, in a price series the agency itself publishes, and larger than the published friction
+anchors.*
+
+### Frozen conceptual rules
+
+- **Event universe.** US Renewable Fuel Standard compliance years **2013–2021** (the window of EPA's own
+  EMTS transaction analysis, S-394), and, as an extension, any later year for which the agency has published
+  transaction data. **RIN types:** D6 (conventional renewable fuel) and **D4 (biomass-based diesel)**, which
+  the agency's own analysis treats separately and which carry materially different prices.
+- **The deadline.** The statutory compliance-reporting date is **31 March of the year following the
+  compliance year** (S-394: "Compliance dates are generally March 31 of the year following the compliance
+  year, unless otherwise extended"), with the moved 2026 deadlines (S-131) and the automatic extensions under
+  40 CFR 80.1451(f)(1)(i)(C) recorded separately and **excluded from the primary test** (a moved deadline is
+  a different event and must not be pooled with a fixed one).
+- **The price series.** EPA's **EMTS transaction data** — transaction-level reported prices for separated
+  RINs, by RIN type and vintage, with the agency's own caveats carried forward: the prices are
+  **self-reported**, have **limited quality assurance and quality control**, and "in some cases are the
+  result of **term contracts** unique to the trading parties" (S-394). The validator must use the
+  transaction-level series, not a daily average, because the daily average is what the agency compares
+  *against* and therefore cannot be used to measure a departure from it.
+- **The windows.** Pre-deadline window: the **60 calendar days ending on the compliance date**. Post-deadline
+  window: the **60 calendar days beginning on it**. The window length is **pre-registered** and must not be
+  varied after seeing the result; a 30-day and a 90-day variant must be reported as ablations.
+- **The statistic.** The primary statistic is the **difference in mean transaction price between the two
+  windows**, computed **within RIN type and within vintage**, and **normalised** by the pre-deadline window's
+  own mean price so that D6 and D4 are comparable. The **within-year comparison** is the primary design: the
+  test is run **for each compliance year separately** and the **sign consistency across years** is the
+  primary statistic, with the pooled estimate reported as secondary.
+- **The controls (mandatory).** (i) **Vintage contrast** — because obligations may be met with current- or
+  prior-year vintages (S-394), the deadline should bite on **current-vintage** demand and not on
+  **prior-year** vintages; the **current-vintage minus prior-vintage** window difference is therefore the
+  **difference-in-differences estimate**, and it is the primary specification. (ii) **Seasonality** —
+  pre-deadline and post-deadline windows straddle the winter fuel season; the validator must control for
+  the **same calendar windows in compliance years with no binding RFS obligation**, or use a placebo-deadline
+  design (see below). (iii) **Placebo deadlines** — the same window construction applied to **1 August** of
+  each compliance year, and to the 31 March of a **synthetic year**, must be reported; a placebo effect of
+  the same size as the main effect is a null. (iv) **Exemption-timing confound** — because EPA issued 89 % of
+  its small-refinery-exemption decisions after the 90-day statutory deadline (S-393), refineries often did not
+  know whether they needed RINs until close to, or after, the compliance date, which may cause "either an
+  excess or a shortfall of RINs"; the validator must report the effect **with and without** the volumes
+  affected by exemptions, and must state that the exemption timing is a **confound of the deadline itself**
+  rather than an alternative explanation of it.
+- **The cost floor (both floors must be reported).** Floor 1 (published): the observable dispersion of RIN
+  transaction prices around the daily average — **1.1 %** (EPA's central estimate for the 24 small
+  refineries), **2.4–2.9 %** (GAO's counterparty-size differential), against EPA's own sensitivity band of
+  **5.3 % less to 7.5 % more** (S-393, S-394). Floor 2 (published, weaker): the market-quality cost note
+  already on file (S-133). The register states plainly that these dispersion figures are a **counterparty-size
+  effect and not a bid-ask spread**, and that **no published RIN round-trip cost estimate was located**
+  (**G-38**); the validator must therefore report the result against **both** floors and must not present a
+  result between them as tradeable.
+
+### Ambiguities the validator must resolve and record
+
+1. Whether the agency publishes the transaction-level data with enough price granularity and vintage
+   labelling to support the within-vintage contrast; if not, the vintage limb is dropped and the test
+   reverts to the plain window difference, with the loss of identifying power recorded.
+2. Whether "term contracts" dominate the transaction population, and if so, how the validator separates
+   spot-like from term transactions without the agency's transaction-type flag; if it cannot, the validator
+   must report that the price series mixes horizons and that the window difference is then a statement about
+   contract pricing, not about spot prices.
+3. Whether the 2013–2021 window contains compliance years with **no** binding obligation (a genuine
+   placebo year), and if not, how the seasonality control is built.
+
+### Data fields required
+
+Transaction date; transaction price per RIN; RIN type (D6, D4); RIN vintage year; buyer and seller size
+classification (relative market participation over the preceding 182 days, as GAO used); whether the
+transaction is separated or attached; the compliance year and its 31 March date; exemption volumes and
+decision dates (from EPA's published decisions); and the published RVO and generation data for the
+computation of the *net obligated position* — **recorded but not used in the primary test**, because that
+state is the retired conditional version's requirement (G-20).
+
+### Timing, execution and survivorship
+
+The test is **state-free and forward-looking in construction only**: every window, deadline, vintage
+classification and control must be fixed **before** the prices are examined, and the pre-registration must be
+timestamped. Transaction data are reported with a lag; the validator must **not** use a price observation
+that was not published by the agency's own reporting date when assigning it to a window, so that the
+specification is not silently a backtest on information the market did not have at the time.
+
+### Cost and execution assumptions the validator must justify independently
+
+The cost floor is **published and stated above**; the validator must justify it against S-133 and against the
+GAO/EPA dispersion figures, and must state which floor it is testing against. The validator must **not**
+assume a bid-ask spread: if it cannot obtain one, the register's published dispersion anchor stands as the
+proxy and the result is reported as a **price-discontinuity** result, not a tradeable-return result.
+
+### Pre-specified primary outcome and guardrails
+
+**Primary outcome:** the **within-year, current-vintage minus prior-vintage difference in mean normalised
+transaction price between the pre-deadline and post-deadline windows**, and the **sign consistency of that
+difference across compliance years**. **Guardrails:** (a) the placebo-deadline estimate must be reported and
+must be materially smaller; (b) the D6 and D4 estimates must be reported separately, since the agency's own
+analysis shows the price differential is roughly twice as large for D4; (c) the exemption-volume-excluded
+estimate must be reported; (d) the result must be reported **against both cost floors**.
+
+### Baselines, separation and controls
+
+The published baselines this test must be read against are the **RIN price formation and pass-through**
+literature (S-134, S-135) and the **EU ETS surrender-month premium** (S-101), which is the register's
+template for a statutory deadline concession in a credit market and is the reason the US RFS instance is a
+separate candidate rather than a re-description of a published result. The **agency-audited price
+differential** (S-393, S-394) is a **cross-sectional, counterparty-size** effect and is not a deadline
+effect; the two must never be added together or conflated.
+
+### Stress cases, regime slices, ablations
+
+Ablations: 30-day and 90-day windows; D6 only and D4 only; with and without the exemption-affected
+counterparties; with and without the vintage difference-in-differences contrast; and the placebo deadline of
+1 August. Regime slices: the 2013–2016 RFS2-tightening years against 2017–2021, since the RVO calibration
+and the exemption programme both changed over the window (S-201, S-324).
+
+### Pass / fail / uncertain
+
+- **Pass (existence established, direction still unasserted):** a pre-registered window difference that is
+  statistically distinguishable from zero, consistent in sign across compliance years, materially larger
+  than the placebo-deadline estimate, and larger than **at least one** of the two published cost floors.
+  A pass licenses **no** directional claim; it licenses one further step (a specification for the conditional
+  claim), which would require re-opening G-20 and locating a signed pre-deadline state.
+- **Fail (the candidate's live claim is killed):** no window difference distinguishable from zero, or a
+  difference not larger than the published friction anchor, or a placebo effect of the same size. A fail
+  **kills the state-free existence limb**; the register's consequence would be to park IDEA-014 (P-015) with
+  a terminal score and to record the family in the known-baseline table.
+- **Uncertain:** the data cannot support the vintage contrast and the plain window difference is
+  indistinguishable from the placebo deadline. An uncertain verdict is **not** a pass and **not** a kill; it
+  leaves the candidate unchanged and records what would be needed to decide.
+
+### Kill criteria and follow-up justification
+
+The candidate's last claim is killed by a fail verdict. **The register's own hard-stop conditions apply to
+any positive finding:** a positive existence result that is *not* larger than the published friction anchor
+is not a result; a positive result that is larger but rests on the exemption-timing confound alone is not a
+result either. **Follow-up on a pass:** the only next step permitted by this specification is a written
+proposal for a conditional specification, which would require (a) re-opening G-20, (b) a signed pre-deadline
+state that satisfies **both** halves of the register's standing requirement — **published before the
+deadline** *and* **sign-determining rather than merely informative** — and (c) a fresh G-38 closure on the
+RIN round-trip cost. **No state-conditioned specification may be written without all three.**
