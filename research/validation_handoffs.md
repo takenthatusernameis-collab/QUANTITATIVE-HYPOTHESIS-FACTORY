@@ -1,6 +1,6 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–116
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–117
 
-**Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
+**Cycle 117 update — no specification created, withdrawn or re-created; no status changed.** Cycle 117 executed priorities as far as externally achievable and produced no new specification and no new candidate. **Cycle 114 update — two specifications amended (V-009, V-012); no specification created, withdrawn or re-created;
 no status changed.** Cycle 114 executed **four pre-registered priorities** (pre-registered in `cycle_notes.md`
 before the first fetch) and produced **no new specification** and **no new candidate**. **(i) V-009 is amended** —
 the **2026 interim reporting season has been observed**, so the pre-emption reporting arm is **split into two

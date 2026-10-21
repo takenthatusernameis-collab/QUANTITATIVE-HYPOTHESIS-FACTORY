@@ -1,6 +1,6 @@
-# RANKED SHORTLIST — CYCLES 1–116
+# RANKED SHORTLIST — CYCLES 1–117
 
-**Cycle-116 header update (housekeeping).** Headers brought to Cycle 116; priorities carried forward. The order is unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a terminal 55.0. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. Priorities from Cycle 115 remain open. Earlier history —
+**Cycle-117 header update (housekeeping).** Headers brought to Cycle 117; priorities executed as far as externally achievable. Priority 1 resulted in no suitable domain found; Priority 2 completed (S-438 retrieved on different host/path form; two Cycle-113 items recorded as unrecoverable; G-37 re-screen condition re-specified); Priority 3 not externally achievable; Priority 4 housekeeping complete. The order is unchanged: IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-014 (52.0, rank 3), IDEA-009 (42.0, rank 4), with IDEA-010 parked (P-014) at a terminal 55.0. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. Priorities from Cycle 115 remain open. Earlier history —
 NEGATIVE (R-063)**, on the US sugar tariff-rate quota, and it is the register's **first** execution of a
 construction-first screen; the register's own open question 5 is answered in the same entry: **the family screen
 remains the better unit of work, but the construction-first method is worth running only under a narrower rule** —

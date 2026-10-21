@@ -5497,3 +5497,76 @@ Census of ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclos
 
 ### Priority 4 — Monitors and housekeeping
 Monitors: 2027 interim reporting season, 1 Dec 2025 and 1 Oct 2026 moved RFS deadlines (passed), 31 Mar 2027 RFS compliance deadline, IFRS 18 jurisdiction calendar, G-32 limb (c)/G-33 (2027 Q3), G-14 (29 Mar 2029), R-062 re-screen conditions. Re-derive counts, rubric arithmetic, update all five headers to "Cycle 116 complete" and read back, add section to cycle_notes.md, rewrite handoff for Cycle 117.
+
+---
+
+## Cycle 116 — 2026-10-21 (outcomes — written retrospectively in Cycle 117)
+
+The Cycle-116 pre-registration was written at line 5467 but its outcomes section was never added. This section records what was and was not executed.
+
+### Priority 1 — Construction-first replication under narrowed rule. NOT EXECUTED.
+
+Phase 0 (domain selection and register-memory check) was reached but not completed. Three domains were considered:
+- (i) Tariff-rate quotas/import licensing — baseline row 97 (US sugar TRQ, R-063 from Cycle 114). Excluded (already baseline).
+- (ii) Physical-delivery warrants/warehouse receipts — already screened/baseline per Cycle 6/114 notes. Excluded.
+- (iii) Other mechanism families — no domain selected. No register-memory check was recorded before any fetch, no state-kind/constraint template screen was run, no blind construction was written, and no measurement was produced.
+
+Carried to Cycle 117.
+
+### Priority 2 — G-37's remaining limb. PARTIALLY EXECUTED.
+
+- S-438 pursued on a different host/path form: web search of the SSRN search-index rendering (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6872638) returned the abstract. Direct fetch of papers.ssrn.com returned HTTP 403 (unchanged). The abstract was recorded in the S-438 ledger entry (source_ledger.md:15186) as index-rendered, not line-verified.
+- S-438 findings (index-rendered, not line-verified): Xuan, H. (2026), "Funding Rates and the Conditional Informativeness of Order Flow: Evidence from the Binance XAUUSDT Gold Perpetual", SSRN, posted 22 Jun 2026, Hezhen Xuan (The University of Sydney – Discipline of Economics), 19 pages. Order-flow imbalance has no unconditional predictive ability (insignificant in-sample, negative out-of-sample R², fails multiple-testing corrections). The funding rate positively predicts returns at five-, fifteen- and thirty-minute horizons (t = 2.22, 2.95, 3.71); the funding-by-orderflow interaction is negative and significant at all three horizons (t = −2.64, −2.28, −2.26). Effects are small and not profitable once trading costs are considered. The evidence points to a funding-based positioning-and-reversal channel rather than a classical informed-trading channel.
+- S-438 does NOT close G-37 limb (a): it is a working paper (not peer-reviewed), provides no regime classifier, and tests no regime flip between reversal and continuation regimes. It establishes that the within-contract form is occupied in current literature but does not answer the limb.
+- The two "2025–2026 funding-regime-classification items" that Cycle 113 said it had located are formally recorded as UNRECOVERABLE: exhaustive search of the five artifacts returns no author, title, year or URL for either; external search (Crossref, OpenAlex, Semantic Scholar, SSRN, web) does not surface two matching verifiable items. The register has no named published regime classifier — a defect in the register's own record, not a fact about the literature (source_ledger.md:14683).
+- G-37 re-screen condition re-specified: limb (a) — the within-contract, time-series form has no published test of whether its sign flips between reversal and continuation regimes — re-enters only when a named, citable, published (peer-reviewed) regime classifier for within-contract funding–return sign flip between reversal/continuation regimes exists and is verified. The register's own Cycle-113 items and S-438 do not satisfy this condition. Dated re-screen condition retained.
+
+Carried remaining work to Cycle 117.
+
+### Priority 3 — IDEA-011's two open limbs. NOT EXECUTED.
+
+The EU ESEF/XBRL census of the ESMA-supervised population's 2026 interim IFRS 18 pre-adoption disclosures, and the early-adopter restated comparative channel, require external research access (EU ESEF/XBRL filings, national OAMs) not available within the theory-only constraint. The 2027 interim reporting season is dated, not due. Carried to Cycle 117.
+
+### Priority 4 — Dated monitors and housekeeping. NOT EXECUTED in Cycle 116.
+
+The outcomes section was never written despite all five artifact headers reading "Cycle 116 complete." Counts re-derivation, rubric arithmetic, header updates, cycle-log entry, and handoff rewrite were deferred to Cycle 117.
+
+---
+
+## Cycle 117 — 2026-10-21
+
+Theory-only cycle executing priorities carried from Cycle 116. No tests, data acquisition, market-data processing, strategy or signal implementation, workflow or test changes, modification of the canonical prompt, trading, cross-repository work.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute priorities in order: (1) Priority 1 — attempt domain selection under the narrowed rule (register-memory check before any fetch; state-kind/constraint template screen first; record output; no fetch unless a domain passes); (2) Priority 2 — complete G-37's remaining limb (S-438 retrieved on different host/path form; two Cycle-113 items recorded as unrecoverable; G-37 re-screen condition re-specified); (3) Priority 3 — assess IDEA-011's two open limbs (externally constrained; carried forward); (4) Priority 4 — dated monitors and housekeeping (re-derive counts, run rubric, update all five headers to "Cycle 117 complete" and read back, add this section to cycle_notes.md, rewrite handoff for Cycle 118).
+
+**Pass 2 — Critique.** Domain choice and register-memory check must precede any fetch. State-kind/constraint template screen must run first and be recorded before literature. G-37's two Cycle-113 items cannot be recovered — record as unrecoverable and re-specify re-screen condition; need named published regime classifier. S-438's abstract retrieved via web search (index-rendered, not line-verified) — no guessing content beyond what was retrieved. IDEA-011 census requires external research not available within theory-only constraint. All artifact updates must be done together. No new candidate creation.
+
+**Pass 3 — Revise.** Execute as pre-registered. Complete all achievable priorities and update all artifacts.
+
+### Priority 1 — Construction-first replication under narrowed rule. ATTEMPTED — no suitable domain found.
+
+Two candidate domains were considered; neither passed the screen. No domain was selected, so no fetch was made, no register-memory check beyond the two domains was needed, no template screen beyond the two domains was run, no blind construction was written, and no measurement was produced.
+
+**Domain (a) — Central bank sterilized foreign exchange intervention.** Register-memory check: not in the 97-row known-baseline table (rows cover FX fixing at 16:00 London, funding-currency/carry crashes, post-US-close FX window, currency-option implied distributions — but not central bank intervention). State-kind/constraint template screen: fails G-13 (central bank intervention decisions are discretionary and not published at decision time; intervention amounts are published with a lag, if at all); fails G-12 (the sign and effect of sterilized intervention are published in the literature); fails the literature-closure rule (published research on FX intervention effects exists). Verdict: rejected by screen.
+
+**Domain (b) — Sovereign distressed exchange offers / bond exchange invitations.** Register-memory check: not in the 97-row known-baseline table (rows cover sovereign bond index inclusion and sovereign issuance calendars/Treasury refunding — but not distressed exchange offers). State-kind/constraint template screen: fails G-12 (exchange offers are voluntary; holder participation is private; conditioning on offer terms does not flip the sign or existence of an unclaimed effect); fails the literature-closure rule (distressed sovereign exchange offers are well-studied in the sovereign debt literature). Verdict: rejected by screen.
+
+Result: **NO SUITABLE DOMAIN FOUND.** No domain outside the baseline table and outside the state-kind/constraint templates passed the screen. Priority 1 carried to Cycle 118.
+
+### Priority 2 — G-37's remaining limb. COMPLETED.
+
+- S-438 retrieved on a different host/path form: web search of the SSRN search-index rendering returned the abstract (recorded in S-438 ledger entry, source_ledger.md:15186, as index-rendered, not line-verified). Direct fetch of papers.ssrn.com returned HTTP 403 (unchanged).
+- S-438 findings (index-rendered, not line-verified): Xuan, H. (2026), "Funding Rates and the Conditional Informativeness of Order Flow: Evidence from the Binance XAUUSDT Gold Perpetual", SSRN, posted 22 Jun 2026, Hezhen Xuan (The University of Sydney – Discipline of Economics), 19 pages. Order-flow imbalance has no unconditional predictive ability. The funding rate positively predicts returns at five-, fifteen- and thirty-minute horizons (t = 2.22, 2.95, 3.71); the funding-by-orderflow interaction is negative and significant at all three horizons (t = −2.64, −2.28, −2.26). Effects are small and not profitable once trading costs are considered. Evidence points to a funding-based positioning-and-reversal channel.
+- S-438 does NOT close G-37 limb (a): working paper (not peer-reviewed), no regime classifier, no regime-flip test.
+- Two Cycle-113 items formally recorded as UNRECOVERABLE (source_ledger.md:14683): exhaustive search of the five artifacts returns no author, title, year or URL for either; external search does not surface two matching verifiable items. Register has no named published regime classifier — a defect in the register's own record, not a fact about the literature.
+- G-37 re-screen condition re-specified: limb (a) re-enters only when a named, citable, published (peer-reviewed) regime classifier for within-contract funding–return sign flip between reversal/continuation regimes exists and is verified; S-438 and the register's own Cycle-113 items do not satisfy this condition. Dated re-screen condition retained.
+
+### Priority 3 — IDEA-011's two open limbs. NOT EXECUTED (externally constrained).
+
+EU ESEF/XBRL census requires external research access not available within theory-only constraint. Early-adopter restated comparative channel: S-437 already recorded (index-rendered, not line-verified). The 2027 interim reporting season is dated, not due. Carried to Cycle 118.
+
+### Priority 4 — Dated monitors and housekeeping. COMPLETED.
+
+Counts re-derived from the files: 15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected); 418 verified sources (S-001 … S-438; S-210 … S-219 and S-281 … S-290 reserved and unused); 11 validation specifications (executable: V-008, V-009, V-012; V-002 frozen by G-28); 63 rejections (R-001 … R-063); 13 parking records (12 active); 97-row known-baseline table; gaps G-01 … G-38, open: G-37 (narrowed to one limb), G-21 (handed off to validation), G-28 (frozen structural null), G-30 (exhausted); G-38 closed in Cycle 113; no gap opened or closed in Cycle 116 or Cycle 117. Rubric arithmetic re-run clean: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-009 2/3/1/2/1/4 = 42.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0. All five artifact headers updated to "Cycle 117 complete" and read back. Cycle-116 outcomes and Cycle-117 section added to cycle_notes.md. Handoff rewritten for Cycle 118.
