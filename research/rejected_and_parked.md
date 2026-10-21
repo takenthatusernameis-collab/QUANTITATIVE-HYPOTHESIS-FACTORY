@@ -5,9 +5,9 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 100 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Last updated: **Cycle 101 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
-table.** Cycle 100 added **no rejection, no parking record and no baseline row**, and it **opened no gap
+table.** Cycle 101 added **no rejection, no parking record and no baseline row**, and it **opened no gap
 and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
 **provenance-upgrade operation** over the twenty-one named targets of the Cycle-99 handoff — **sixteen
 entries now line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116,

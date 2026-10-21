@@ -4,10 +4,10 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 100 complete** (Cycle 100 added **no new source identifier and no new source
+Last updated: **Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
 entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
-bounded provenance-upgrade operation** was executed over the **twenty-one** named targets of the Cycle-99
+bounded provenance-upgrade operation** was executed over the **thirteen** named targets of the Cycle-100
 handoff, each first verified **by hand** against its own verification bullet: **sixteen entries are now
 line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120,
 S-169, S-230, and S-238 at bibliographic level only), **two are partially upgraded with the unverified parts

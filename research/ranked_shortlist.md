@@ -1,12 +1,12 @@
-# RANKED SHORTLIST — CYCLES 1–100
+# RANKED SHORTLIST — CYCLES 1–101
 
-# RANKED SHORTLIST — CYCLES 1–100
+# RANKED SHORTLIST — CYCLES 1–101
 
-**Cycle-100 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+**Cycle-101 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
-(P-014) at a terminal 55.0.** Cycle 100's substantive work was **evidence work, not a screen**, because the
+(P-014) at a terminal 55.0.** Cycle 101's substantive work was **evidence work, not a screen**, because the
 register's named absent families remain exhausted and no new mechanism family was pre-registered. (i) **The
-bounded provenance-upgrade operation** was executed over the **twenty-one** named targets of the Cycle-99
+bounded provenance-upgrade operation** was executed over the **thirteen** named targets of the Cycle-100
 handoff, each first verified **by hand** against its own verification bullet: **sixteen entries are now
 line-verified** (S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120,
 S-169, S-230, and S-238 at bibliographic level), **two are partially upgraded with the unverified parts named**

@@ -1,11 +1,16 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–100
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–101
 
-**Cycle 100 update — no specification created, amended, withdrawn or re-created; no status changed.**
-Cycle 100's substantive work was **evidence work, not a screen** — a bounded **provenance-upgrade
-operation** over the **twenty-one** named targets of the Cycle-99 handoff (**sixteen now line-verified**:
-S-208, S-209, S-226, S-234, S-235, S-236, S-237, S-202, S-108, S-110, S-116, S-119, S-120, S-169, S-230,
-and S-238 at bibliographic level; **two partially upgraded** with the unverified parts named — S-187 and
-S-238's quotations; **three honest negatives** — S-115, S-229, S-271), a **state-integrity repair** of
+**Cycle 101 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 101's substantive work was **evidence work, not a screen** — a bounded **provenance-upgrade
+operation** over the **thirteen** named targets of the Cycle-100 handoff (**ten now line-verified**:
+S-027, S-064, S-103, S-106, S-118, S-125, S-153, S-154, S-168, S-170; **one partially upgraded** — S-172
+with its Sharpe/momentum figures struck pending version re-attribution; **two honest negatives** — S-102
+via EUR-Lex HTTP 202 zero-byte, S-158 via Crossref bibliographic discrepancy with no abstract deposited),
+a **Priority-3 close-attempt** on the seven open questions (S-208 blocked by EDGAR HTTP 403; S-238/S-237
+bodies paywalled with abstracts visible; S-234 FINRA Industry Snapshot URL located confirming aggregate-only
+net capital; S-229 blocked by EUR-Lex HTTP 202 zero-byte; S-271 socpa.org.sa timed out; S-115 not re-tried
+with the Internet Archive offline; S-136 no action), and a **rubric-arithmetic re-run (clean)**. All of it
+produced **no candidate**, so **no specification was required and none was written**. It touches **no
 the prior cycle's unwritten ledger annotations, and a **rubric-arithmetic re-run (clean)**. All of it
 produced **no candidate**, so **no specification was required and none was written**. It touches **no
 specification**: R-055's verdict, its five reasons and its baseline row are unchanged, no re-screen was

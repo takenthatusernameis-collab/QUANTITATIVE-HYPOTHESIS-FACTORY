@@ -28,8 +28,9 @@ defined by the canonical mission prompt, which is **not** to be modified:
    is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-056`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 101`; **Cycle 100 completed the Cycle-99 operation's unwritten ledger annotations and
-   rewrote the handoff body, which the Cycle-99 session had left pointing at Cycle 99**; **Cycle 97 was
+   (next: `Cycle 102`; **Cycle 101 completed the Cycle-100 provenance-upgrade operation over its
+   thirteen named targets (ten upgraded, one partial, two honest negatives), closed as many of the
+   seven Priority-3 open questions as routes allowed, and rewrote the handoff body**; **Cycle 97 was
    executed but never written up in the cycle log — its boundary record
    was added retrospectively in Cycle 98, and its work is visible only as annotations in the source
    ledger**).
