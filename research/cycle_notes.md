@@ -6044,3 +6044,60 @@ The same check **upgraded S-454 in place**: the author-hosted PDF was fetched di
 ### 5. The cycle's accounting
 
 **No candidate created**; **no `IDEA-` identifier consumed**; **no gap opened or closed**; **no score, rank or hard-stop flag changed**; **no validation specification created, re-created or withdrawn**, and **one amended (V-009, a reporting requirement)**. **Identifiers consumed: R-067, S-456, S-457; upgraded in place: S-454, S-455.** The construction-first ledger now stands at **twelve named constructions across five entries** (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4), **none** of which produced a candidate, and **one of which is carried forward as a live construction** rather than closed.
+
+---
+
+## Cycle 127 — 2026-10-21 — pre-registration (written BEFORE any source reading)
+
+Cycle 127 executes the Cycle-126 handoff's four priorities. This block is the pre-registration: it is written before any source is read, so that the sample rule, the extraction rule and the outcome categories below are fixed in advance and cannot be re-written after the fact.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Objective: execute the inverted route (Priority 1) — backward extraction of conditioning states from the register's 437 verified sources — pre-register the sample and extraction rule; assess the carried-forward live construction (Priority 2); confirm G-37 and G-33 (Priority 3); re-derive counts and re-run the rubric (Priority 4). Scope boundary: theory only; no data, no code, no measurement execution, no validation execution.
+
+**Pass 2 — Critique.** (i) The extraction must not become a re-derivation of the baseline table: a source whose state is already a known-baseline row is an in-map null, not a candidate (rediscovery guard-rail). (ii) A kill must name a clause or a template; a state kind outside the map that cannot be killed is a live construction. (iii) Priority 1's extraction requires reading the sources; it cannot be completed without source access and is carried to Cycle 128 with a precise pre-registered sample rule. (iv) Priority 2's rescuing sub-variant could not be named within the register's closed memory (R-067 D3's false-kill check: "No such branch was identified in the register's own memory"); it remains a live construction. (v) G-37's null is recorded once; the bounded search is not re-run a third time. (vi) G-33's routes are validation-stage; ESMA's own routes return HTTP 403 and are not retried.
+
+**Pass 3 — Revise and red-team.** Record below: the pre-registered Priority 1 sample rule and extraction rule; the Priority 2 structural assessment; the Priority 3 confirmation; the Priority 4 counts re-derived from the files; the standing integrity check. Every external claim points to an S- entry.
+
+### Priority 1 — the inverted route. REGISTERED BEFORE ANY SOURCE READING.
+
+The unit of work is the state each already-held source conditions on, not a new state kind. The register's construction-first route is closed in its present form (twenty-eight coverage rows, all built from the same memory the constructions are drawn from), so the direction of travel inverts: from published price effect to the state it is conditioned on. The instrument is the 437 verified sources, each stating the conditioning state of the price effect it claims. Zero new source cost.
+
+**Sample rule (pre-registered).** The sample is every tenth source in ledger order: S-001, S-011, S-021, …, S-451 — forty-four sources, approximately ten per cent of the 437 verified sources. The sample is fixed by position, not by content, so it cannot be cherry-picked after reading.
+
+**Extraction rule (pre-registered).** For each sampled source, identify the single conditioning state of the published price effect the source claims — one state per source, the state the effect is conditioned on, not every covariate mentioned. Record it as the source states it, blind to the coverage map (rows 1–28). Also record (a) the sign claim the source makes, (b) whether that sign is already claimed in the register (narrowed rule ii), and (c) whether the state kind falls outside coverage rows 1–28.
+
+**Outcome categories (pre-registered).** (i) in-map — the state kind is inside rows 1–28 (in-map null, not a candidate); (ii) out-of-map — the state kind is outside rows 1–28; (iii) out-of-map-and-survives — the state kind is outside rows 1–28 and survives the narrowed rule (register-memory check to templates A–I to the three clauses, literature only for a survivor), becoming a blind construction and a candidate-creation event; (iv) not-a-state — the source does not condition a price effect on a published state.
+
+### Priority 2 — the carried-forward live construction (R-067's set (3)). REGISTERED BEFORE ANY LITERATURE READING.
+
+R-067's set (3) — a published adoption / diffusion count — was killed on every named branch (G-12, template I, template H, template C / row 46 / row 65 / coverage row 19, and the IDEA-011 rediscovery guard), with one residual carried forward: the rescuing sub-variant could not be named. The register's own rule — a kill that cannot name a clause or a template is not a kill — keeps it alive. The would-be rescuing sub-variant is a published count of adopters of a decision that is neither a fee, nor an execution convention, nor a tax-driven practice, nor part of IDEA-011's accounting-clock family. No such branch was identified in the register's own memory (R-067 D3). The design-stage kills that any adoption count must clear are structural: G-12 (the diffusion stock is a monotone level whose sign is known a priori), template I (threshold crossing), template H (mandated practice), template C (fee / execution convention / tax-incentive-driven practice), and the IDEA-011 variant guard. Naming a sub-variant that clears all of these — in particular a decision whose adoption sign is not known a priori — requires reading the literature, which is the Cycle-128 step. This cycle records the structural assessment only; no IDEA- identifier is consumed.
+
+### Priority 3 — G-37 and G-33.
+
+(a) G-37: no action. The null on the peer-reviewed-regime-classifier condition is recorded once (the S-454 work has not appeared in a peer-reviewed venue; arXiv v1–v3 carry no journal reference; the paper is additionally on SSRN and on the author's own site, all preprints). The bounded search is not re-run a third time. Re-screen only on (i) a peer-reviewed within-contract trailing-sign flip in the funding–return relation, or (ii) a peer-reviewed version of the S-454 classifier work applied to a funding state. G-37 stays open, dated, and sharpened. IDEA-009 unchanged at 42.0 (rank 4).
+
+(b) G-33: three named, dated routes exist, none a literature re-run — (i) ESMA's own commitment, in the 2026 ECEP's objective, to report on findings of the 2026 annual financial report examinations; (ii) the annual FRWG (EECS) extract of enforcement decisions (31st extract published, seven decisions, none an IFRS 18 pre-adoption disclosure decision); (iii) the ESEF IFRS 18 tagging rate in the filed 2026 annual reports — a validation-stage task carried into V-009 as a fourth named object that must not be pooled and must be reported as a proxy. Do not retry ESMA's own routes (HTTP 403); the working carriers are the CySEC reproduction (S-455) and the MFSA circular (S-456), plus S-457 (CSSF, Luxembourg; NBS, Slovakia). G-33 stays open; IDEA-011 unchanged at 69.0 (rank 1). The early-adopter limb is unchanged: S-437 line-verified, anchor issuer flatexDEGIRO, n = 1, price test a validation task on V-009, the 2027 interim season dated, not due.
+
+### Priority 4 — housekeeping. REGISTERED BEFORE THE CYCLE'S WORK.
+
+Re-derive every count from the files; re-run the rubric arithmetic from the shortlist's own table; write this cycle's pre-registration and outcomes here; verify the standing integrity check; rewrite the handoff for Cycle 128.
+
+---
+
+## Cycle 127 — 2026-10-21 — outcomes
+
+### Counts, re-derived from the files (not copied)
+15 dossiers (4 active: IDEA-011, IDEA-004, IDEA-014, IDEA-009; 6 parked; 5 rejected) · 437 verified sources (S-001 … S-457; S-210–S-219 and S-281–S-290 reserved and unused) · 11 validation specifications (executable: V-008, V-009, V-012; V-002 frozen; V-010 never-to-execute; V-011 reserved) · 67 rejections (R-001 … R-067) · 13 parking records, 12 active · 106 known-baseline rows · gaps G-01 … G-38, open: G-37 (narrowed, re-screen condition unchanged), G-21 (handed to validation), G-28 (frozen structural null), G-30 (exhausted); G-38 closed. Next free identifiers: IDEA-017, S-458, V-013, G-39, R-068, P-015.
+
+### Rubric arithmetic re-run — clean, no cell moved
+IDEA-011 4/3/3/4/2/5 = 69.0 (rank 1); IDEA-004 4/4/1/3/3/3 = 63.0 (rank 2); IDEA-014 3/2/3/2/2/4 = 52.0 (rank 3); IDEA-009 2/3/1/2/1/4 = 42.0 (rank 4); IDEA-010 terminal 4/4/1/2/2/2 = 55.0 (parked, P-014). Order unchanged. No score, rank or hard-stop flag changed.
+
+### What this cycle did and did not do
+- Priority 1: pre-registered (sample rule, extraction rule, outcome categories). The extraction itself — reading the forty-four sampled sources and recording each conditioning state blind to the map — requires source access and is carried to Cycle 128 as the cycle's real work. Zero sources consumed.
+- Priority 2: structural assessment recorded; no rescuing sub-variant of the adoption count could be named within the register's closed constraints; it remains a live construction carried to Cycle 128. No IDEA- identifier consumed; R-067's set (3) stays open as a live construction.
+- Priority 3: no action (G-37 null recorded once; G-33 routes validation-stage; early-adopter limb unchanged).
+- Priority 4: counts re-derived from the files; rubric re-run clean; no identifier consumed; standing integrity check — no identifier was claimed consumed in this cycle, so there is nothing to verify against consumption; next free identifiers unchanged (IDEA-017, S-458, V-013, G-39, R-068, P-015).
+
+### Accounting
+No candidate created; no IDEA- identifier consumed; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, re-created or withdrawn, and none amended. No S- identifier consumed. The construction-first ledger stands at twelve named constructions across five entries (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4), none of which produced a candidate, and one (R-067's set (3)) carried forward as a live construction rather than closed.
