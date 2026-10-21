@@ -5302,6 +5302,10 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7046559
   opposite directions in the same state, which is precisely why the candidate's specification must
   now name its convention; the underlying datasets are the author's own assembled files, not
   independently reproduced here.
+  **Cycle 105 provenance:** Crossref REST API `api.crossref.org/works/10.2139/ssrn.7046559`
+  (posted-content record) returned HTTP 200 with a deposited abstract (abstract present: yes)
+  confirming the VRP as downside/crash-conditional risk premium, not harvestable carry. Upgrade
+  recorded in place.
 - **Verification:** read via the search index (SSRN abstract-page render); the SSRN identifier
   7046559, the date 3 June 2026 and the abstract wording come from that render. The SSRN page
   itself was not fetched directly in this cycle, so the entry is **index-rendered, not
@@ -7632,7 +7636,10 @@ DOI: https://doi.org/10.1017/S0022109000001976
 - **Verification:** Cambridge Core landing page (title, authors, volume, issue, pages, DOI) read through
   the search index; the LSE working-paper version (Financial Markets, Institutions and Instruments
   discussion paper dp506) was seen in the search index with the passage describing the LSE closing
-  call's random end within a bounded window.
+  call's random end within a bounded window. **Cycle 105 provenance:** Crossref REST API
+  `api.crossref.org/works/10.1017/S0022109000001976` returned HTTP 200 with a deposited abstract
+  (abstract present: yes) confirming the call-market price-discovery / high-failure-rate-to-open-and-close
+  finding. Upgrade recorded in place.
 
 ### S-248 — Chelley-Steeley, P. (2009)
 "Price synchronicity: The closing call auction and the London stock market." *Journal of Financial
@@ -7660,7 +7667,10 @@ DOI: https://doi.org/10.1002/fut.22223
   harvestable pre-close concession.
 - **Verification:** citation metadata (authors, title, journal, volume, issue, pages, DOI) verified
   through the DOI resolver's Crossref record; the publisher article page returned HTTP 403 to the
-  fetch, and the abstract was read through the search index.
+  fetch, and the abstract was read through the search index. **Cycle 105 provenance:** Crossref REST
+  API `api.crossref.org/works/10.1002/fut.22223` returned HTTP 200 with a deposited abstract
+  (abstract present: yes) confirming the conditional random-end trading mechanism promotes price
+  stabilization with reservations under option-shock conditions. Upgrade recorded in place.
 
 ### S-250 — Eurex Exchange (venue documentation)
 "FTSE 100 Index Futures (FTUK)" — contract specifications (product page).
@@ -8171,6 +8181,9 @@ DOI: https://doi.org/10.2139/ssrn.2365772
   entry is not a duplicate of S-249.
 - **Verification:** the Crossref record (authors, title, journal, volume, issue, article number, DOI, date)
   was retrieved from the Crossref REST API; the article body was read through the search index only.
+  **Cycle 105 provenance:** Crossref REST API `api.crossref.org/works/10.3390/jrfm15030105` returned
+  HTTP 200 with a deposited abstract (abstract present: yes) confirming dynamic VI is effective in
+  price stabilization and discovery while static VI results are mixed. Upgrade recorded in place.
 
 ### S-265 — Tawiah, V. K. (2022)
 "Does the impact of IFRS on audit fees differ between early and late adopters?"
@@ -11262,6 +11275,10 @@ Quarter-End Price Pressure in Treasury Bills."
   outside party; the effect is dated to a **quarter-end window of a few days** in the most liquid short-duration
   instrument in the world, where a 3–9 basis point move is small relative to funding, roll and execution costs
   of a market-neutral position; and the paper's own policy framing (stabilising bill yields, informing the ON RRP
+  **Cycle 105 provenance:** Crossref REST API `api.crossref.org/works/10.2139/ssrn.6913784`
+  (posted-content record) returned HTTP 200 with a deposited abstract (abstract present: yes)
+  confirming the 3–9 bps quarter-end bill-yield fall and the network shift-share design. Upgrade
+  recorded in place.
   facility) shows the effect is treated as a *policy-relevant market-clearing quantity*, not as an unclaimed
   tradable edge.
 - **Verification:** the SSRN landing page returned **HTTP 403** to a direct fetch in this cycle, as it did in
