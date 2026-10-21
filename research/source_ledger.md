@@ -11233,13 +11233,13 @@ P-015.**
 - **Type:** Peer-reviewed empirical.
 - **DOI:** https://doi.org/10.1016/j.eneco.2025.108284
 - **Supports:** Futures prices do not provide unbiased forecast of spot prices; some futures premium explained by information obtained after futures price set; futures prices efficiently reflect changes in available information.
-- **Verification:** **line-verified** via publisher abstract/DOI metadata in cycle.
+- **Verification:** **line-verified** via OpenAlex abstract (inverted index), Cycle 96.
 
 ### S-357 — Bégin, J.-F., Gómez, F., Ignatieva, K. and Li, H. (2025), "The stochastic behavior of electricity prices under scrutiny: Evidence from spot and futures markets", *Energy Economics* 144, 108296
 - **Type:** Peer-reviewed empirical.
 - **DOI:** https://doi.org/10.1016/j.eneco.2025.108296
 - **Supports:** Need to account for mean reversion, changing long-run expectations, seasonality, spikes, time-varying jump intensity to fit spot and futures prices.
-- **Verification:** **line-verified** via publisher metadata.
+- **Verification:** **line-verified** via OpenAlex abstract (inverted index), Cycle 96.
 
 ### S-358 — Billimoria, F., Mays, J. and Poudineh, R. (2025), "Hedging and tail risk in electricity markets", *Energy Economics* 141, 108132
 - **Type:** Peer-reviewed empirical/review.
