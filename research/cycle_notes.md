@@ -6196,3 +6196,11 @@ No candidate created; no `IDEA-` identifier consumed; no gap opened or closed; n
 3. **Priority 3 — G-37/G-33 no action; map-vs-corpus audit.** G-37/G-33 unchanged as specified. Map-vs-corpus audit framework applied conceptually; full audit depends on completing inventory (ongoing).
 
 4. **Priority 4 — housekeeping.** Counts re-derived from files, rubric arithmetic re-run clean, artifact headers updated to "Cycle 129 complete" where appropriate, cycle_notes.md updated with pre-registration and outcomes, README identifiers checked, handoff rewritten for Cycle 130. Integrity checks performed.
+
+## Cycle 130 (2026-10-21) — partial batch record
+
+**Partial batch 1 (pre-registered): S-051 … S-075 (25 sources), classified by unit of work = conditioning state of published price effect, per Cycle-128 method. Zero fetches; ledger only.**
+
+Classification summary: 25 in-map nulls (funding-liquidity / FX-fixing / settlement state family, all already in coverage map rows); 0 out-of-map; 0 not-a-state (every entry in this slice claims a price effect or a documented mechanism). No source added, no identifier consumed, no candidate, no score change.
+
+Remaining for Cycle 131: S-076 … end of ledger (~382 sources), in pre-registered batches of 25–50, same method. G-37/G-33 no action taken. Literature-first amendment drafted (see above, Cycle 129 draft carried forward). Map-vs-corpus audit ongoing as inventory grows.
