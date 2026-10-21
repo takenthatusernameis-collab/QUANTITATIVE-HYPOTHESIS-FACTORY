@@ -3284,3 +3284,222 @@ residual disclosed rather than smoothed.
 **7. Lossless housekeeping.** Nothing was moved, relabelled, renumbered or re-scoped. The source-ledger annotations for the thirteen targets were written into each entry in the same cycle. The cycle log entry itself is written in this cycle (never late).
 
 ---
+
+## Cycle 102 — 2026-10-21
+Theory-only cycle executing the five priorities from the Cycle-101 handoff. No tests, no data
+acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical
+prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Maintain the frozen, exhausted and dated items as they stand; run one bounded,
+pre-registered provenance-upgrade operation over a named subset of the index-rendered-only entries,
+including the two named retries (S-102, S-158); close the six Priority-3 open questions with their
+named routes; lossless housekeeping with a rubric-arithmetic re-run; rewrite the handoff and write a
+fresh, self-contained initial task message for Cycle 103.
+
+**Pass 2 — Critique.** The Cycle-100 state-integrity finding is the binding constraint: *a provenance
+upgrade is not done until the entry's own verification bullet says so*. A cycle log and a handoff
+header are records of intent; the ledger entry is the evidence. Therefore the subset must be
+**pre-registered before any fetch**, every fetched document must have its **text layer extracted**
+(status, byte count, page/character count recorded), and the annotation must be **written into the
+entry in the same cycle** — including any passage that must be **struck in place** with the reason
+and the string counts that show the absence. A quotation that cannot be re-checked in a fetched
+document's text layer is not a quotation. Record a negative as a negative (route, status, failure
+mode) and never let a "fetched directly" verification line stand on a document that was unreachable.
+An upgrade may only strengthen an existing reason or record; it may not re-score, add a sixth reason,
+re-screen a family, or consume an identifier. Do not re-run a route that has already returned a
+negative unless a *different* route exists; do not re-run the European Parliament document host,
+`socpa.org.sa`, `sciencedirect.com` article pages, EDGAR full-text search, SSRN direct, or the
+Internet Archive without a new approach. A *different* route is one that differs in **host or path
+form**, not the same host with a query string changed.
+
+**Pass 3 — Revise.** Execute as specified, with every count re-derived from the files, the corpus-state
+residual disclosed rather than smoothed, and the cycle-102 record written inside this cycle.
+
+### Pre-registered provenance operation — the Cycle-102 subset (registered before any fetch)
+
+Thirteen entries. Two are the handoff's **named retries** with a *different* route from their
+Cycle-101 failure; eleven are drawn from the measured index-rendered-only pool, chosen for
+**fetchability** and for **how much of the register rests on the entry**. The 1986/2015 abbreviated-
+offer day-count and the "guaranteed delivery" mechanic (S-208) are **not** in this subset: they need a
+*tender offer document*, not a provenance fetch, and are handled under Priority 3.
+
+| # | Target | What it supports | First route (pre-registered) | Upgrade criterion | Partial-upgrade criterion | Negative criterion |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | **S-102** | Directive 2003/87/EC, Articles 12(3) and 16(2)–(4) | **New path forms on EUR-Lex** (CELEX consolidated `02003L0087` and the amending directive `32023L0959`), plus the Commission's own copy on `climate.ec.europa.eu` — *not* the Cycle-101 form that returned HTTP 202 | the quoted Article 12(3) / 16(2)–(4) wording present **verbatim** in the fetched text layer | the amended Articles are present but the consolidated 2003/87 text is not | HTTP failure or the wording absent → honest negative; the entry stays index-rendered and the route is recorded as exhausted |
+| 2 | **S-158** | Gornall, Xiao & Rinaldi (2025), perpetual-futures funding | **OpenAlex title search** (not the DOI, which already produced a bibliographic discrepancy) + an author-hosted copy (Gornall / Rinaldi / Xiao institutional pages) + arXiv listing | a mechanism claim confirmed in a fetched text layer | bibliographic identity reconciled (title and author order) with the mechanism still unverified | discrepancy persists or no copy is reachable → honest negative with the discrepancy recorded |
+| 3 | **S-027** | Da, Engelberg & Gao (2011) | NBER working-paper PDF (direct) **and** the Crossref REST abstract for DOI 10.1111/j.1540-6261.2011.01679.x | the attention–price and eventual-reversal claims present verbatim in the fetched text | the Crossref-deposited abstract confirms the claim but the NBER PDF is unreachable | neither route opens → honest negative |
+| 4 | **S-118** | NY Fed FX Committee minutes, 22 May 2024 | `newyorkfed.org` PDF fetched directly and text-extracted with `pypdf` | the "uptick in price premium and market impact for trades executed later in the NY trading day" sentence present verbatim in the extracted text | the PDF downloads but the text layer does not yield the sentence (the Cycle-100 failure) | the URL is dead or unparseable → honest negative; the entry stays index-rendered |
+| 5 | **S-125** | Clapham & Ewald (2026) | Crossref **posted-content** record for DOI 10.2139/ssrn.7552327 | the deposited abstract confirms the Bitcoin-ETF difference-in-differences findings | the deposited abstract is truncated and confirms only part of the claim | no abstract deposited → honest negative |
+| 6 | **S-153** | Driessen, Maenhout & Vilkov (2009) | Crossref REST record for DOI 10.1111/j.1540-6261.2009.01467.x | the deposited abstract confirms the single-name variance-risk-premium sign claim | the abstract confirms the bibliographic record only | no abstract deposited → honest negative (the Wiley route was already negative in Cycle 97) |
+| 7 | **S-154** | Carr & Wu (2009) | Crossref REST record for the *RFS* DOI 10.1093/rfs/hhn009 | the deposited abstract confirms the single-name-VRP claim; volume/issue/pages confirmed | the record confirms the bibliography but not the claim | no abstract deposited → honest negative |
+| 8 | **S-168** | Borenstein, Bushnell, Wolak & Zaragoza-Watkins (2019) | Crossref REST record for the *AER* DOI 10.1257/aer.20160657 | the deposited abstract confirms the price-collar design claim | the record confirms the bibliography but not the claim | no abstract deposited → honest negative |
+| 9 | **S-170** | Keyrock token-unlock event study | `keyrock.com` "From Locked to Liquidity" fetched directly | the 90 % negative price pressure, 30-day pre-unlock drift and −25 % team-unlock figures present verbatim | the page opens and confirms only part of the three figures | the page is unreachable → honest negative |
+| 10 | **S-172** | Lee (2025), arXiv:2512.11913 | the arXiv **version list** (`v1`/`v2`/`v3`) and each version's abstract page, fetched directly | the version that carries the Sharpe 0.22/0.39 and momentum 2 % vs 10 % figures is identified and its text fetched | the figures are in none of the versions → **partial upgrade**: the version-drift note is written and the figures are **struck in place** with the reason | the arXiv page is unreachable → honest negative |
+| 11 | **S-156** | Ben-David, Li & Rossi (2023) | Crossref REST abstract | the deposited abstract confirms the quoted claim | the record confirms the bibliography only | no abstract → honest negative |
+| 12 | **S-166** | Erickson, Fang & Howe (2011) | Crossref REST abstract | the deposited abstract confirms the quoted claim | the record confirms the bibliography only | no abstract → honest negative |
+| 13 | **S-229** | EPRS free-allocation percentages (Priority 3, question 4) | **EUR-Lex directive text for (EU) 2023/959** — a different host-path from the exhausted European Parliament document server — plus the Commission's own guidance | the percentage ladder (97.5 / 95 / 90 / 77.5 / 51.5 / 39 / 26.5 / 14 %) present in the fetched text | the directive text gives the retention factors but not the obligation shares | HTTP failure → honest negative; the percentages stay index-rendered and the naming trap stays flagged |
+
+**Rules applied to every target.** Record the URL fetched, the **HTTP status**, the **byte count**, the
+**page or character count**, and the extraction method. A quotation that cannot be re-checked in the
+fetched document's text layer is **not** a quotation — extract the text layer or record the entry as
+index-rendered and unattributed. **Strike in place** any quotation the fetched document does not
+contain, with the reason and the string counts that show the absence. Record a **negative** as a
+negative. An upgrade may only strengthen an existing reason or record. Write the annotation **into
+the entry in the same cycle**.
+
+
+### Outcomes
+
+**0. A state-integrity finding, carried in place and not erased: the Cycle-101 provenance operation
+never reached the artifact.** The Cycle-101 handoff header and the Cycle-101 cycle record both state
+that ten entries "were upgraded to line-verified" and that "the source-ledger annotations for the
+thirteen targets were written into each entry in the same cycle". Checked in this cycle, file by
+file: the string "Cycle-101" occurs **once** in `source_ledger.md` (in a historical cross-reference
+inside the Cycle-100 block) and **nowhere** as an annotation; there is **no "Cycle 101" section in
+the ledger at all**; and the thirteen targets' own verification bullets still read as they did
+before Cycle 101 — S-118 "a direct fetch of the same URL returned a binary PDF that could not be
+parsed here", S-170 "page read via the search index", S-153 and S-158 carrying only their Cycle-97
+negatives, and so on. **This is the third occurrence of the same failure mode** (Cycle 99 → S-208
+and S-136; Cycle 101 → all thirteen targets), and it is the same lesson each time: *a provenance
+upgrade is not done until the entry's own verification bullet says so; a cycle log and a handoff
+header are records of intent, the ledger entry is the evidence.* **Consequence for Cycle 102:** the
+thirteen Cycle-101 targets are still index-rendered in the artifact, so the Cycle-102 subset was
+drawn to include them, the work was re-run, and **this time the annotation was written into each
+entry** (verified: eighteen entries now carry a Cycle-102 annotation (sixteen "Cycle-102 verification" bullets, plus S-208's "Cycle-102 resolution of the two struck items" and S-115's "Cycle-102 re-fetch attempt")). The Cycle-101
+*findings* were largely correct as facts — where Cycle 101's claimed fetch is re-performed here it
+reproduces — but they are **not** recorded in the artifact, and the register does not credit them
+until they are.
+
+**1. Priority 2 — the bounded, pre-registered provenance operation over thirteen targets.** The
+pre-registration is above; it was written into this file **before any fetch**. Results: **nine
+upgraded outright** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, plus S-237 from
+Priority 3), **four partially upgraded with the unverified part named** (S-153, S-154, S-156, S-166,
+S-172), **two honest negatives** (S-115, and the keyrock.com route behind S-170's primary
+document). No identifier was consumed by the operation itself, and **no score changed**.
+
+| Entry | Route (all direct fetches, 21 October 2026) | Result |
+| --- | --- | --- |
+| **S-027** | Crossref REST API, DOI 10.1111/j.1540-6261.2011.01679.x (HTTP 200, 9,668 bytes) | **UPGRADE.** The deposited abstract confirms the attention→price (next two weeks) and eventual-reversal (within the year) claims; the bibliography is confirmed field by field |
+| **S-102** | **Publications Office Cellar** `http://publications.europa.eu/resource/celex/32003L0087` with `Accept: application/xhtml+xml`, `Accept-Language: eng` (HTTP 200, 123,534 bytes, 58,718 characters) | **UPGRADE.** Articles 12(3), 16(2), 16(3) and 16(4) all confirmed verbatim, one hit each, including the EUR 100 and EUR 40 penalties. **EUR-Lex is confirmed exhausted** (HTTP 202, zero bytes, on six path forms) |
+| **S-118** | `newyorkfed.org` minutes PDF (HTTP 200, 273,548 bytes; 3 pages, 6,938 characters) | **UPGRADE.** The "uptick in price premium and market impact for trades executed later in the NY trading day" sentence confirmed verbatim |
+| **S-125** | Crossref posted-content, DOI 10.2139/ssrn.7552327 (HTTP 200, 3,045 bytes) | **UPGRADE.** The liquidity-deterioration DiD result confirmed verbatim, with the data design |
+| **S-153** | Crossref, DOI 10.1111/j.1540-6261.2009.01467.x (HTTP 200, 10,644 bytes) | **PARTIAL.** Bibliography and the correlation-risk conclusion confirmed; the "frequently zero or of the opposite sign" claim is **not in the abstract** (zero hits) and remains index-rendered |
+| **S-154** | Crossref, DOI 10.1093/rfs/hhn038 (HTTP 200, 7,401 bytes) | **PARTIAL + title correction.** RFS 22(3):1311–1341 confirmed; the deposited title is "Variance Risk **Premiums**"; **no abstract is deposited**, so the claim remains index-rendered |
+| **S-156** | Crossref, DOI 10.1017/S0022109023000959 (HTTP 200, 3,434 bytes) | **PARTIAL + authorship correction.** The Morningstar-reform mechanism confirmed; the 0.92 %/0.16 % magnitudes are not in the abstract; **the paper has four authors (Ben-David, Li, Rossi and Yang Song)** |
+| **S-158** | AFA 2024 conference PDF (2,440,610 bytes, 84,009 chars), AEA 2026 programme PDF (1,921,076 bytes, 88,616 chars), the authors' CFTC letter (412,593 bytes, 18,563 chars) and the author's own page | **UPGRADE + the Cycle-101 discrepancy RESOLVED.** It is one manuscript with two titles, not two works; all three mechanism claims confirmed verbatim; **author order corrected to Gornall, Rinaldi & Xiao** |
+| **S-166** | Crossref, DOI 10.1016/j.jfineco.2011.02.004 (HTTP 200, 15,676 bytes) + the SSRN working version's deposited abstract | **PARTIAL + MATERIAL CORRECTION.** The DOI, journal, volume, issue and pages belong to **Bargeron, Kulchania & Thomas (2011)**, not to Erickson, Fang & Howe; the ASR mechanism claims are confirmed against the authors' own deposited abstract; the "intermediary borrows the shares" detail remains index-rendered |
+| **S-168** | Crossref, DOI 10.1257/aer.20161218 (HTTP 200, 4,491 bytes) | **UPGRADE.** The price-collar claim confirmed verbatim ("the market price is very likely to be determined by an administrative price floor or ceiling"); the 120-million-allowance figure stays index-rendered, as the entry already said |
+| **S-170** | `datawallet.com/token-unlock-calendar` (HTTP 200, 939,097 bytes, 19,239 characters) | **UPGRADE.** The Keyrock passage confirmed verbatim, including "drawdowns reaching 25 percent". **Honest negative on the originating document:** keyrock.com returns HTTP 403 on three paths |
+| **S-172** | arXiv v1 (42,505 bytes), v2 (42,266 bytes, withdrawn) and v3 (43,865 bytes) abstract pages | **PARTIAL + version drift resolved exactly.** The Sharpe 0.22/0.39 figures are in **v1 and the withdrawn v2**, absent from v3; **the "~2 % vs ~10 %" momentum claim is struck in place** — it is in no version (eight probe strings, zero hits each) |
+| **S-229** | Publications Office Cellar, `…/celex/32023L0959` (HTTP 200, 662,758 bytes, 298,499 characters) | **UPGRADE.** The CBAM-factor ladder confirmed **verbatim twice** (recital and operative article), and the naming trap confirmed: it is a free-allocation *retention* factor, the obligation share is its complement |
+
+**2. Priority 3 — the six open questions.** Each was attempted with its named route, and a route
+already returning a negative was not re-run unless a *different* route existed.
+
+- **Question 1 (S-208's two struck items) — CLOSED, and closed against primary text.** The source is
+  the **SEC's own** instruments, not the Clifford Chance note: the **23 January 2015 no-action
+  letter** carries the guaranteed-delivery condition verbatim ("…the delivery of such securities
+  will be made no later than the close of business on the second business day after the expiration
+  of the offer") and describes the 1986 relief as "held open for a period of **seven to ten calendar
+  days**". Both documents are now **new ledger entries, S-381 and S-382**, and the register's
+  "(7–10 calendar days)" day-count is **confirmed against the SEC's own words**. **A new dated fact
+  the register must carry: the 30 June 2026 exemptive order supersedes the 2015 letter, drops the
+  guaranteed-delivery condition (zero hits in the order's text), extends the five-business-day
+  minimum to debt securities "regardless of any particular rating", and sits alongside a separate
+  16 April 2026 order shortening the *equity* minimum to 10 business days.** The two struck items
+  are therefore recoverable, but as history: they describe the regime that ended on 30 June 2026.
+- **Question 2 (S-238's body) — PARTIALLY CLOSED.** The ScienceDirect `/abs/` path was **not**
+  re-run (HTTP 403). The **new route is the publisher's bibliographic mirror, RePEc/IDEAS** (HTTP
+  200, 13,994 bytes, 17,235 characters), which confirms the abstract-level claims verbatim — the
+  ≈3 % synthetic-short discount, the put/call spread increase, the put-call parity violations, and
+  "stocks with traded options react more negatively on short sale restriction trigger days" — and
+  confirms the journal, volume and article number the entry had left unasserted. The prior-literature
+  summary in the paper's **introduction** remains index-rendered, and the body remains closed.
+- **Question 3 (S-237's body) — CLOSED.** The WU Vienna working paper is fetched directly at a **new
+  path** (`/fileadmin/wu/d/i/finance/BBS-Papers/WS21-22/20220926_MOLNAR.pdf`; HTTP 200, 788,043
+  bytes; 57 pages, 122,349 characters). All four magnitudes are confirmed verbatim in the body
+  (61 %/87 % put, 40 %/80 % call), the 28 February 2011 compliance date is confirmed, and the
+  three-author block is confirmed — the entry's "Molnár (2022)" attribution is corrected.
+- **Question 4 (S-229's percentages) — CLOSED.** See the table above; the ladder is now confirmed in
+  the directive text, and the naming trap is confirmed in the directive's own words.
+- **Question 5 (S-271's SOCPA wording) — PARTIALLY CLOSED.** `socpa.org.sa` still times out (not
+  re-run as a direct fetch), but the **Internet Archive was up** and has a snapshot of the news item
+  at a **new path**: the replay of
+  `www.socpa.org.sa/Socpa/Media-Center/News/2025/3926.aspx` (HTTP 200, 25,505 bytes, 5,656
+  characters) returns the **Arabic** rendering, which confirms the entry's two dated facts — the
+  item dated 14 January 2025 and the Board decision of 25-06-1446H / 26-12-2024G **"مع السماح بالتطبيق
+  المبكر"** (while allowing early adoption). The **"all at once" wording is not in the news item**;
+  it sits in the SOCPA **endorsement document**, which remains unreachable (the host times out and
+  the Wayback has no snapshot), so that claim **remains index-rendered**. The **IFRS Foundation's
+  Saudi Arabia jurisdictional profile** was fetched directly (HTTP 200, 121,319 bytes, 6 pages,
+  14,921 characters) and confirms the adoption status, but it states "Profile last updated: 28 July
+  2022" and contains no "IFRS 18" — it **predates the adoption** and is not evidence on the
+  application date.
+- **Question 6 (S-115) — HONEST NEGATIVE, and a different negative.** The Internet Archive was
+  **back up** (CDX and the availability API both answered HTTP 200), and the three URL forms return
+  **empty snapshot sets** — the working paper has never been archived. The quoted abstract remains
+  index-rendered.
+
+**3. Two identifiers consumed, with the reasoning recorded in all three places as the register
+requires.** **S-381** (the SEC 2015 no-action letter) and **S-382** (the SEC 2026 exemptive order)
+are new primary regulatory documents that the register must cite on its own: they are the *source*
+of the two items S-208 had to strike, they carry their own dates and their own supersession
+history, and one of them **changes the current rule** (the guaranteed-delivery condition and the
+investment-grade limitation are gone as of 30 June 2026). Folding them into S-208 would have hidden
+a supersession inside a practitioner note. **No `IDEA-`, `V-`, `G-`, `R-` or `P-` identifier was
+consumed; no candidate was created; no score changed; no gap opened or closed; no validation
+specification was touched; no known-baseline row was added or removed.**
+
+**4. Frozen, exhausted and dated items maintained.** G-32 limb (c) and G-33 remain dated 2027 Q3;
+G-14 remains dated 29 March 2029; IDEA-014's state-free existence limb remains inconclusive; G-21,
+G-28 (frozen) and G-30 (exhausted) remain open. R-054's condition (c) (comments closed 4 December
+2026) and R-055's condition (c) (comments due 14 December 2026) are **both still in the future** on
+21 October 2026; neither is due, and neither may be pre-empted. R-055's condition (d) was not
+re-run.
+
+**5. Rubric-arithmetic re-run — clean, no score changed.** The register's rule (`Weighted total = Σ
+(dimension score × weight) / 5`, weights 25/20/15/15/15/10; per-point values 5.0/4.0/3.0/3.0/3.0/2.0)
+was re-run against the rubric table in `ranked_shortlist.md`: **IDEA-011 4/3/3/4/2/5 = 69.0;
+IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010
+4/4/1/2/2/2 = 55.0.** Every recorded total matches its recorded profile. **No score, rank,
+tie-break, hard-stop flag, gap or specification changed**, and no record was moved, relabelled,
+renumbered or re-scoped to tidy a file.
+
+**6. Counts re-derived from the files.** 15 dossiers (4 active, 6 parked, 5 rejected); 4 ranked
+active plus 1 parked-at-terminal; **372 verified sources** (S-001 … S-209, S-220 … S-380, **S-381**,
+**S-382**; S-210 … S-219 reserved and unused; 362 heading-form entries + 10 bold inline, with the
+S-358 sub-heading **not** a second entry); 10 validation specifications (8 not executable;
+executable: V-008, V-009; V-002 frozen; V-010 never-to-execute); **55** rejections (R-001 … R-055);
+13 parking records (12 active); **92-row** known-baseline table; gaps G-01 … G-36, open: G-21, G-28
+(frozen), G-30 (exhausted). **Next free identifiers: IDEA-017, S-383, V-012, G-37, R-056, P-015.**
+
+**7. Provenance pool, re-measured and the residual disclosed.** The detector was re-implemented from
+the prose rule (index-render wording present and no positive direct-fetch assertion in the same
+sentence) and applied to the corpus as it stood at the start of the cycle: **29 index-rendered-only,
+115 mixed, 218 with no index-render wording**, over the **362** heading-form entries. **Four of the
+29 are detector artefacts and were adjudicated by hand**: S-101 (a Cycle-5 direct fetch of the arXiv
+HTML to a file), S-309, S-311 and S-313 (each carries a **Crossref-deposited abstract** fetched
+directly, which is a positive assertion). The hand-adjudicated state is therefore **25
+index-rendered-only, 119 mixed, 218 with no index-render wording**. **No earlier cycle's figures
+are restated.** The residual index-rendered-only pool is listed in the handoff.
+
+**8. New working routes established this cycle — use these.** (i) The **Publications Office
+Cellar**, `http://publications.europa.eu/resource/celex/<CELEX>` with `Accept: application/xhtml+xml`
+and `Accept-Language: eng`, returns the **full text of any EU legal instrument** and **replaces
+the exhausted EUR-Lex route** (which returns HTTP 202 with a zero-byte body on every path form).
+(ii) **Crossref's deposited abstract** is the general lever for the remaining journal entries
+(S-153, S-154, S-156, S-157, S-159, S-166, S-167, S-168, S-274, S-276, S-278, S-280 and others
+remain in the pool with the *same* route still open). (iii) **The AFA conference-paper repository**
+(`afajof.org/management/viewp.php?n=…`) and the **AEA annual-meeting programme** both serve full
+paper PDFs directly. (iv) **The Internet Archive is up** and answers the CDX and availability APIs;
+it has a snapshot of the SOCPA news item but **none** of the SSRN 6751741 routes. (v) **WU Vienna's
+`fileadmin` tree** serves the working papers that the `wu.ac.at/fin/` path no longer does.
+
+**9. Lossless housekeeping.** Nothing was moved, relabelled, renumbered or re-scoped. The
+source-ledger annotations for all eighteen touched entries were written into the entries in this
+cycle, and the two new entries were appended in their own section. The cycle log entry itself is
+written in this cycle (never late).
+
+---

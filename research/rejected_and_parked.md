@@ -5,7 +5,40 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 101 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Last updated: **Cycle 102 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
+table.** Cycle 102 added **no rejection, no parking record and no baseline row**, and it **opened no gap
+and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded,
+**pre-registered provenance-upgrade operation** over the **thirteen** named targets of the Cycle-101
+handoff — **nine fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, and
+S-237 from the Priority-3 work), **six partially upgraded with the unverified parts named** (S-153,
+S-154, S-156, S-166, S-172, and at abstract level S-238 and S-271), and **one honest negative**
+(S-115 — the Internet Archive is back up and has **no** snapshot of any SSRN 6751741 form, so the
+paper has never been archived) — **no `S-` identifier was consumed by the operation**; **(ii)** a
+**state-integrity repair, and the third occurrence of the same failure mode**: the prior cycle's log
+and handoff header claimed that ten entries "were upgraded to line-verified" and that the annotations
+"were written into each entry in the same cycle", but the string "Cycle-101" appears **nowhere** as
+an annotation in the ledger, there is **no Cycle-101 section in the ledger at all**, and the thirteen
+targets' own verification bullets still read exactly as they did before Cycle 101 — **Cycle 102 re-ran
+the work and wrote it into the entries** (eighteen entries now carry a Cycle-102 annotation — sixteen "Cycle-102 verification" bullets, plus S-208's "Cycle-102 resolution of the two struck items" and S-115's "Cycle-102 re-fetch attempt"); **(iii)** **one known-baseline row was corrected in place**: the accelerated-share-repurchase
+row's attribution is now **S-166, Bargeron, Kulchania & Thomas, *JFE* 101(1): 69–89, 2011**, not
+"Erickson, Fang & Howe" — the DOI, journal, volume, issue and pages in the entry belong to Bargeron
+et al., and the entry had conflated two different papers with the same title (the ASR mechanism
+claims are confirmed against the authors' own deposited abstract, the "intermediary borrows the
+shares" detail remains index-rendered); **(iv)** **two new source identifiers were consumed**, **S-381**
+(the SEC's 23 January 2015 no-action letter) and **S-382** (the SEC's 30 June 2026 exemptive order) —
+the instruments that are the true source of the two items S-208 had to strike, and the second of which
+**supersedes** the first, so the register's tender-offer mechanic is now **dated history** (the
+guaranteed-delivery procedure and the 1986 relief's "seven to ten calendar days" are confirmed against
+the SEC's own words, but the 2015 letter was superseded on 30 June 2026 and the guaranteed-delivery
+condition is gone); **(v)** a **rubric-arithmetic re-run (clean)** — IDEA-011 69.0, IDEA-004 63.0,
+IDEA-009 53.0, IDEA-014 52.0, IDEA-010 55.0 — with **no score, rank, tie-break, hard-stop flag or gap
+changed**. **R-055's verdict, its five reasons and its baseline row 92 are unchanged**, and no
+re-screen was triggered: R-054's condition (c) (SEC comments closed 4 December 2026) and R-055's
+condition (c) (SEC comments due 14 December 2026) are **both still in the future** on 21 October 2026,
+so neither may be pre-empted, and R-055's condition (d) was not re-run. **R-016's CBAM family verdict
+is unchanged** — the free-allocation ladder is now line-verified against the directive text, which is
+a provenance upgrade, not new evidence. Earlier history: **Cycle 101 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 101 added **no rejection, no parking record and no baseline row**, and it **opened no gap
 and closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
@@ -2154,7 +2187,7 @@ to baselines.
 | **Perpetual-futures funding, drawdown mean reversion and the unwind channel (added in Cycle 13)** | **Published** (S-158, working paper: perpetual drawdowns quickly mean-revert while quarterly drawdowns persist, and a higher funding rate attenuates price sensitivity to demand shocks; S-159, *Journal of Empirical Finance* 2026: funding rates have incremental forecasting power for spot volatility because they capture imbalanced leveraged positions vulnerable to subsequent unwinding). **This is a baseline**: IDEA-009's mechanism and mean-reversion are published, and its residual is a dated, signed, exit-specified rule keyed to the funding *level*. |
 | **Treasury General Account flows and repo-market stress (added in Cycle 13)** | **Published** (S-160, IMF working paper: TGA flows can create large swings in the repo spread; S-161, S-162, Federal Reserve FEDS Notes: repo-rate sensitivity to Treasury issuance through the SOMA, the ON RRP facility and the TGA, with the public **TGCR − IORB** spread as the decision-time stress measure). **This is a baseline and a cost model**: the funding-state family is published, and what remains open in G-01 is specifically a *dealer-level* funding-value-adjustment series (construct: S-155). |
 | **California cap-and-trade price collars, reserve sales and surrender obligations (added in Cycle 13)** | **Published and institutionally documented** (S-163, Bushnell on the price-collar design and the reserve's never having been used; S-164, CARB's Reserve Sale Notice and Annual APCR Notice, including the codified 60%-of-tier trigger, the published tier prices and quantities, the ~30-day notices and the Appendix C schedule; S-174, 17 CCR §§ 95856/95857/95913 — the 1 November, 5:00 p.m. Pacific surrender deadline and the four-times untimely-surrender penalty; S-165, CRS R48314 on prices and compliance; S-168, *AER* 2019 on the collar's design; S-173, CBO 2010 on reserve mechanics). **This is a baseline and a template**: the state is published, the obligation is punitive, and yet the price-insensitive demand is satisfied in advance and the reserve never opens — which is why no candidate emerged from the screen and why the register's own cap-and-trade candidates must state how their state makes the deadline demand *tight*. |
-| **Accelerated share repurchases (added in Cycle 13)** | **Published, peer-reviewed** (S-166, Erickson, Fang & Howe, *JFE* 2011; S-167, Guéant, Pu & Royer, *IJTAF* 2015: the ASR is an Asian option with Bermudan exercise dates and the intermediary's problem is optimal execution with market impact). **This is a baseline**: the mechanism, the pricing and the announcement effects are published, and the discount is private-contract data. |
+| **Accelerated share repurchases (added in Cycle 13)** | **Published, peer-reviewed** (S-166, **Bargeron, Kulchania & Thomas**, *JFE* 101(1): 69–89, 2011 — the entry previously named Erickson, Fang & Howe, which was corrected in Cycle 102: the DOI, journal, volume, issue and pages belong to Bargeron, Kulchania & Thomas, and the mechanism claims are confirmed against the authors' own deposited abstract; S-167, Guéant, Pu & Royer, *IJTAF* 2015: the ASR is an Asian option with Bermudan exercise dates and the intermediary's problem is optimal execution with market impact). **This is a baseline**: the mechanism, the pricing and the announcement effects are published, and the discount is private-contract data. |
 | **Crypto token unlock schedules and their price effects (added in Cycle 13)** | **Published by an interested party, not peer-reviewed** (S-170: a market maker's study of more than 16,000 unlock events reports roughly 90% followed by negative price pressure, with the decline typically starting about 30 days before the unlock and stabilising within about two weeks after, and team unlocks the most disruptive). **This is a baseline and a rediscovery guard**: the schedule is published and the sign and window are already stated publicly, and there is no published state that says whether recipients will sell. |
 | **The closing-auction passive execution convention (added in Cycle 13)** | **Documented institutionally and published** (S-149, the index manager's own statement that index funds and ETFs are structurally incentivised to execute in the closing auction because NAVs are struck on closing prices, with Market-on-Close orders dominant; S-150, closing-auction volume at roughly 4–10% of ADV, lower price impact than in the continuous market, and a significant association with passive creation/redemption activity; S-148, passive rebalancing executed at the closing price on reconstitution day). **This is a baseline and a cost note**: the convention is settled, so any candidate that needs a *different* execution convention must justify why the passive does not trade at the close. |
 | **State-conditioned variance risk premium harvesting (added in Cycle 30)** | **Published, peer-reviewed** (S-180, Konstantinidi & Skiadopoulos, *Journal of Banking & Finance* 2016): the variance risk premium's time variation is predictable from decision-time state variables, and volatility-trading strategies that condition on those states **outperform buy-and-hold and the naive short-volatility strategy even after transaction costs**. **This is a baseline**: IDEA-003 must always be described as an incremental variant of published conditional-VRP work whose residual is the *state construction* and the *sign* claim, never as a discovery of state-conditioned harvesting. |

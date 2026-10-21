@@ -959,6 +959,23 @@ DOI: https://doi.org/10.1111/j.1540-6261.2011.01679.x
 - **Caveats:** Russell 3000 sample 2004–2008; the Google search index is a retail-attention proxy and
   its coverage and stability have changed since 2010.
 - **Verification:** Wiley landing page (title, authors, abstract, date) and the author-hosted PDF.
+- **Cycle-102 verification — UPGRADE: the entry is now line-verified against the Crossref-deposited
+  abstract, and the bibliography is confirmed.** The **Crossref REST API** record for DOI
+  `10.1111/j.1540-6261.2011.01679.x` was fetched directly on 21 October 2026 — **HTTP 200, 9,668
+  bytes**, JSON parsed in process. The deposited abstract confirms the entry's claims: "In a sample
+  of Russell 3000 stocks from 2004 to 2008, we find that SVI (1) is correlated with but different
+  from existing proxies of investor attention; (2) captures investor attention in a more timely
+  fashion and (3) likely measures the attention of retail investors. **An increase in SVI predicts
+  higher stock prices in the next 2 weeks and an eventual price reversal within the year.**" The
+  bibliographic record is confirmed field by field: title "In Search of Attention"; authors Zhi Da,
+  Joseph Engelberg, Pengjie Gao; container *The Journal of Finance*; volume 66, issue 5, pages
+  1461–1499; issued 21 September 2011. The entry's "Russell 3000 sample 2004–2008" and
+  "eventual reversal within the year" are therefore **line-verified**, not index-rendered. The
+  verification label moves from **index-rendered** to **line-verified (Crossref-deposited abstract,
+  fetched directly)**. **No re-score and no hard-stop change follow** — this is provenance, not new
+  evidence. (For the record: the Cycle-101 cycle log and the Cycle-101 handoff header both recorded
+  this entry as "upgraded to line-verified", but **no Cycle-101 annotation was ever written into this
+  entry**; the upgrade is performed and written in here, in the cycle that did it.)
 
 ### S-028 — Lou, D., Polk, C. and Skouras, S. (2019)
 "A tug of war: Overnight versus intraday expected returns." *Journal of Financial Economics*
@@ -2519,6 +2536,36 @@ https://eur-lex.europa.eu/eli/dir/2003/87/oj/eng).
   confirms that the EUR 100 lump-sum penalty applies "without any flexibility other than a
   transitional lowering of the amount between 2005 and 2007", and quotes Articles 12(3) and 16(3)
   verbatim.
+- **Cycle-102 verification — UPGRADE: the entry is now line-verified, and the EUR-Lex route is
+  replaced by a working Publications Office route.** The **EUR-Lex** host is confirmed exhausted for
+  this document: `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32003L0087` and
+  `?uri=CELEX:32023L0959` both returned **HTTP 202 with a zero-byte body** on 21 October 2026, as
+  did the `/eli/dir/2023/959/oj/eng`, `…/ALL/?uri=…`, `…/XML/?uri=…` and `…/PDF/?uri=…` path forms.
+  The **working route is the Publications Office Cellar**, a different host, fetched directly with
+  content negotiation: `http://publications.europa.eu/resource/celex/32003L0087` with
+  `Accept: application/xhtml+xml` and `Accept-Language: eng` → **HTTP 200, 123,534 bytes**,
+  `application/xhtml+xml`; the XHTML was parsed to a text layer of **58,718 characters**. (The same
+  route serves the amending directive: `…/celex/32023L0959` → **HTTP 200, 662,758 bytes**, 298,499
+  characters.) **All four quoted passages are confirmed verbatim in the fetched text, one hit each**:
+  Article 12(3) — "Member States shall ensure that, by **30 April each year at the latest**, the
+  operator of each installation surrenders a number of allowances equal to the total emissions from
+  that installation during the preceding calendar year as verified in accordance with Article 15, and
+  that these are subsequently cancelled."; Article 16(2) — "Member States shall ensure **publication
+  of the names of operators who are in breach of requirements to surrender sufficient allowances
+  under Article 12(3)**."; Article 16(3) — "**The excess emissions penalty shall be EUR 100** for
+  each tonne of carbon dioxide equivalent emitted by that installation for which the operator has not
+  surrendered allowances. Payment of the excess emissions penalty shall not release the operator from
+  the obligation to surrender an amount of allowances equal to those excess emissions when surrendering
+  allowances in relation to the following calendar year."; Article 16(4) — "**During the three-year
+  period beginning 1 January 2005, Member States shall apply a lower excess emissions penalty of EUR
+  40** for each tonne of carbon dioxide equivalent emitted by that installation for which the operator
+  has not surrendered allowances." The **EUR 40 transitional penalty** and the **EUR 100 lump-sum
+  penalty** are therefore confirmed against the primary text, and the entry's caveat that the quoted
+  Article 12(3) is the **original 2003** text is confirmed (the 30 September wording appears only in
+  the amended text; see S-103 and S-229). The verification label moves from **index-rendered (the
+  Court of Justice judgment) / claimed-direct (the consolidated text)** to **line-verified (the
+  original directive fetched directly from the Publications Office and text-extracted)**. **No
+  re-score and no hard-stop change follow.**
 
 ### S-103 — European Commission (2023) and Directive (EU) 2023/959 — the move of the surrender deadline
 Commission news item, "ETS Revision: no change to deadline to surrender allowances in 2023"
@@ -2919,6 +2966,21 @@ DOI https://doi.org/10.2139/ssrn.6751741
   batches over 2,056 stocks and the 898,181 stock-day sample — therefore remains index-rendered and is
   NOT line-verified.** The entry's bibliographic identification is confirmed against a publisher-side
   record; nothing else about it is upgraded. This entry is unchanged in substance and is not re-scored.
+- **Cycle-102 re-fetch attempt — NEGATIVE, and a *different* negative from the Cycle-100 one: the
+  Internet Archive is back up, and it has no snapshot of this document.** The Internet Archive was
+  **offline for the whole of Cycle 101**; on 21 October 2026 it answered normally (the CDX index
+  and the availability API both returned **HTTP 200**). Three URL forms were run against it —
+  `papers.ssrn.com/sol3/papers.cfm?abstract_id=6751741`, `papers.ssrn.com/sol3/*6751741*` and
+  `ssrn.com/abstract=6751741` — and **all three return an empty snapshot set** (`[]` from CDX, and
+  `{"archived_snapshots": {}}` from the availability API). **The route is therefore exhausted for a
+  reason that is now known: this working paper has never been archived.** The SSRN direct route
+  (HTTP 403) was not re-run, and the DOI resolver was not re-run. The quoted abstract — the 3.6 %
+  Parkinson-volatility reduction (β = −0.000034, p = 0.004), the cap/mid-cap heterogeneity (β =
+  −0.000669, p = 0.005; β = 0.006928, p < 0.001), the 27 weekly batches over 2,056 stocks and the
+  898,181 stock-day sample — **therefore remains index-rendered and is NOT line-verified.** The
+  entry's bibliographic identification (Kush Shah and Niharika Davda, Maharaja Sayajirao University
+  of Baroda, SSRN 6751741) remains confirmed against the publisher-side record. This entry is
+  unchanged in substance and is not re-scored.
 
 ### S-116 — Marshall, D. A. and Steigerwald, R. S. (2013) — "The role of time-critical liquidity in financial markets"
 *Economic Perspectives* (Federal Reserve Bank of Chicago) **37**(2), Q2 2013, 17 pp.
@@ -3008,6 +3070,23 @@ https://www.newyorkfed.org/medialibrary/Microsites/fxc/files/2024/FXC-May-22-202
 - **Verification:** the PDF was located through the search index, which returned the quoted passage
   in context; a direct fetch of the same URL returned a binary PDF that could not be parsed here.
   The claim is therefore registered as **index-rendered**, not as a directly read document.
+- **Cycle-102 verification — UPGRADE: the PDF is now fetched directly and the quoted sentence is
+  confirmed verbatim in the extracted text layer.** The URL recorded above was fetched directly on
+  21 October 2026 — **HTTP 200, 273,548 bytes, application/pdf**; the text layer was extracted with
+  `pypdf` (**3 pages, 6,938 characters**). The sentence is present once, in full: "it was noted that
+  **there could be an uptick in price premium and market impact for trades executed later in the NY
+  trading day**". The surrounding passage is also confirmed: "A GFMA Global FX Division
+  representative indicated that the primary areas of focus for foreign exchange (FX) markets have
+  centered on FX spot liquidity and account funding around 4pm-6pm ET as well as operational
+  challenges that may arise during those hours, when many platforms suspend trading to conduct end-
+  of-day system maintenance and withdraw liquidity at the 5pm market close on Fridays." The Cycle-100
+  failure ("a direct fetch of the same URL returned a binary PDF that could not be parsed here") is
+  therefore **superseded, not deleted**: the PDF was parseable, and the entry's caveat that the
+  statement is a forward-looking participant expectation rather than a measurement **stands
+  unchanged**. The verification label moves from **index-rendered** to **line-verified (PDF fetched
+  directly and text-extracted)**. **No re-score and no hard-stop change follow.** (As with S-027, the
+  Cycle-101 log recorded this entry as upgraded; the annotation had not reached the artifact and is
+  written in here, in the cycle that did the work.)
 
 ### S-119 — Traders Magazine (2024) — "T+1 Triggers an FX Tech Evolution, not Revolution for Asset Managers", 21 May 2024
 https://www.tradersmagazine.com/am/t1-triggers-an-fx-tech-evolution-not-revolution-for-asset-managers/
@@ -3238,6 +3317,26 @@ https://papers.ssrn.com/sol3/Delivery.cfm/7552327.pdf?abstractid=7552327
   returned text.
 
 ---
+- **Cycle-102 verification — UPGRADE: the deposited abstract is now line-verified through the
+  Crossref posted-content record.** The **Crossref REST API** record for DOI
+  `10.2139/ssrn.7552327` was fetched directly on 21 October 2026 — **HTTP 200, 3,045 bytes**; type
+  `posted-content`, title "The Impact of Bitcoin Spot ETFs on Market Quality and Price Efficiency",
+  authors Benjamin Clapham and Florian Ewald, issued 2026. The deposited abstract confirms the
+  entry's quoted passage **verbatim**: "Rather than improvements in market quality due to the
+  introduction of Bitcoin ETFs, we find that **top-of-book depth deteriorates robustly relative to
+  Ether**, while trading volume rises substantially but only within U.S. trading hours, when ETF and
+  Authorized Participant activity is concentrated. Volatility and price efficiency show no response,
+  and direct measures of adverse selection do not increase. We interpret the liquidity deterioration
+  as an inventory-risk rather than an information-based effect: the ETF channels large, uninformed
+  demand into the spot market, making it busier but shallower." The **data design** recorded in the
+  entry's caveats is confirmed as well ("Using intraday trade and order book data from **Coinbase
+  and Kraken between November 2023 and March 2024**, we apply a difference-in-differences framework
+  with two control groups: **Ether and the 30 Nasdaq-100 stocks most correlated with Bitcoin**"), and
+  the entry's "approval of the first spot Bitcoin ETFs in **January 2024**" is confirmed. The
+  verification label moves from **index-rendered** to **line-verified (Crossref-deposited abstract,
+  fetched directly)**. The entry's own caveats (preprint, four-month window, DiD against Ether and
+  the 30 most-correlated Nasdaq-100 names) **stand unchanged**. **No re-score and no hard-stop
+  change follow.**
 
 ## Source gaps (explicitly unresolved) — Cycle-5 verdicts
 
@@ -4399,6 +4498,29 @@ DOI: https://doi.org/10.1111/j.1540-6261.2009.01467.x
   returns and the "what individual options price is correlation risk" conclusion therefore remain
   index-rendered and are **not line-verified**. This entry is unchanged in substance and is not
   re-scored.
+- **Cycle-102 verification — PARTIAL UPGRADE (bibliographic record and the paper's *conclusion*
+  confirmed; the specific single-name magnitude claim is not in the deposited abstract).** The
+  **Crossref REST API** record for DOI `10.1111/j.1540-6261.2009.01467.x` was fetched directly on
+  21 October 2026 — **HTTP 200, 10,644 bytes**; the deposited abstract reads: "We study whether
+  exposure to marketwide correlation shocks affects expected option returns, using data on S&P100
+  index options, options on all components, and stock returns. We find evidence of priced
+  correlation risk based on prices of index and individual variance risk. … **Correlation risk
+  exposure explains the cross-section of index and individual option returns well. The correlation
+  risk premium cannot be exploited with realistic trading frictions**, providing a limits-to-
+  arbitrage interpretation of our finding of a high price of correlation risk." The bibliographic
+  record is confirmed field by field: title "The Price of Correlation Risk: Evidence from Equity
+  Options"; authors Joost Driessen, Pascal J. Maenhout, Grigory Vilkov; *The Journal of Finance*
+  64(3):1377–1406; issued 20 May 2009. **The entry's conclusion — "what individual options price is
+  correlation risk" — is confirmed** against the deposited abstract, and the abstract adds a
+  limits-to-arbitrage reading the entry did not carry. **What is NOT confirmed is the entry's
+  specific magnitude claim**, that "single-stock variance risk premia are frequently zero or of the
+  *opposite* sign to the index-level premium" and that single-stock variance swap returns are
+  insignificant: the strings "frequently zero", "opposite sign" and "variance swap" return **zero
+  hits** in the deposited abstract, so that claim **remains index-rendered and is not
+  line-verified**. The verification label moves from **index-rendered** to **line-verified for the
+  bibliographic record and the correlation-risk conclusion; the single-name-premium magnitude claim
+  remains index-rendered**. The Wiley 403 route was **not** re-run. **No re-score and no hard-stop
+  change follow.**
 
 ### S-154 — Carr, P. and Wu, L. (2009)
 "Variance Risk Premia." *The Review of Financial Studies* 22(3): 1311–1341.
@@ -4411,6 +4533,21 @@ DOI: https://doi.org/10.1093/rfs/hhn038
 - **Caveats:** as S-153 — a pricing result on an older sample; it does not test a gated trading rule.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages, publication
   date) plus the journal landing page via the search index.
+- **Cycle-102 verification — PARTIAL UPGRADE (bibliographic record confirmed; **no abstract is
+  deposited**), with a title correction.** The **Crossref REST API** record for the *RFS* DOI
+  `10.1093/rfs/hhn038` was fetched directly on 21 October 2026 — **HTTP 200, 7,401 bytes**. The
+  record confirms the journal, volume, issue and pages field by field: *Review of Financial Studies*
+  **22**(3), **1311–1341**; authors Peter Carr and Liuren Wu; issued 10 April 2008. **CORRECTION —
+  the title deposited by the publisher is "Variance Risk **Premiums**", where this entry records
+  "Variance Risk **Premia**"; the Crossref title field reads "Variance Risk Premiums".** The record
+  **holds no abstract** (the `abstract` field is absent, 0 characters), so the entry's substantive
+  claim — that variance risk premia on individual stocks are frequently zero or positive, that the
+  negative premium is a large-index phenomenon (the S&P 100 carries a negative premium), and that
+  individual-stock returns do not load on a variance risk premium factor — **remains index-rendered
+  and is not line-verified**; the strings "individual stocks" and "S&P 100" return **zero hits** in
+  the record. The verification label moves from **index-rendered** to **line-verified for the
+  bibliographic record (with a title correction); the substantive claim remains index-rendered**.
+  **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-155 — Andersen, L., Duffie, D. and Song, Y. (2019)
 "Funding Value Adjustments." *The Journal of Finance* 74(1): 145–192.
@@ -4438,7 +4575,7 @@ DOI: https://doi.org/10.1111/jofi.12739 · working-paper version: NBER Working P
   SOFR and SOFR percentile-spread statistics. **No re-score and no hard-stop change follow** — this is
   provenance, not new evidence.
 
-### S-156 — Ben-David, I., Li, J. and Rossi, A. (2023)
+### S-156 — Ben-David, I., Li, J., Rossi, A. and Song, Y. (2023)
 "Discontinued Positive Feedback Trading and the Decline of Return Predictability." *Journal of
 Financial and Quantitative Analysis* 59(7): 3062–3100.
 DOI: https://doi.org/10.1017/S0022109023000959 · working-paper version: NBER Working Paper No. 28624
@@ -4454,6 +4591,26 @@ DOI: https://doi.org/10.1017/S0022109023000959 · working-paper version: NBER Wo
   return is small but still positive.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the NBER
   working-paper text via the search index.
+- **Cycle-102 verification — PARTIAL UPGRADE (the mechanism is confirmed against the deposited
+  abstract; the magnitudes are not), with an authorship correction.** The **Crossref REST API**
+  record for DOI `10.1017/S0022109023000959` was fetched directly on 21 October 2026 — **HTTP 200,
+  3,434 bytes**. The deposited abstract confirms the entry's *mechanism* claim: "Identification
+  relies on a reform to the Morningstar rating system, **which we show caused a structural break in
+  style-level positive feedback trading by mutual funds**. As a result, **momentum-related factors
+  in stocks**, as well as performance persistence and the 'dumb money effect' in mutual funds,
+  experienced a **sharp decline**. Consistent with the proposed channel, return predictability
+  declined right after the reform, was limited to the U.S. market, and was concentrated in factors
+  and mutual funds most exposed to the mechanism." The bibliographic record is confirmed: *Journal
+  of Financial and Quantitative Analysis* **59**(7), **3062–3100**; issued 18 August 2023.
+  **CORRECTION — the paper has FOUR authors, not three: Itzhak Ben-David, Jiacui Li, Andrea Rossi
+  and Yang Song.** The entry's magnitude claim — that momentum returns fell from **0.92 % per month**
+  (January 1987 – June 2002) to **0.16 % per month** afterwards — is **not** in the deposited
+  abstract (the strings "0.92", "0.16" and "per month" return **zero hits**), so it **remains
+  index-rendered and is not line-verified**. The verification label moves from **index-rendered** to
+  **line-verified for the bibliographic record and the Morningstar-reform mechanism; the
+  0.92 %/0.16 % magnitudes remain index-rendered**. The entry's caveat that the subject is
+  cross-sectional equity momentum and a rival explanation for IDEA-004 **stands unchanged**. **No
+  re-score and no hard-stop change follow.**
 
 ### S-157 — Lou, D. and Polk, C. (2021)
 "Comomentum: Inferring Arbitrage Activity from Return Correlations." *The Review of Financial Studies*
@@ -4470,7 +4627,7 @@ DOI: https://doi.org/10.1093/rfs/hhab117 · working-paper version: NBER Working 
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the
   journal landing page via the search index.
 
-### S-158 — Gornall, G., Xiao, Y. and Rinaldi, M. (2025)
+### S-158 — Gornall, W., Rinaldi, J. M. and Xiao, Y. (2025)
 "Perpetual Futures and Basis Risk: Evidence from Cryptocurrency." Working paper, May 2025
 (SSRN 5036933); paper presented at the AEA 2026 Annual Meeting programme.
 URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5036933
@@ -4485,6 +4642,46 @@ URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5036933
   a signed, dated funding-level trading rule.
 - **Verification:** AEA conference programme pages and the authors' CFTC comment letter read via the
   search index; SSRN direct fetch not performed (HTTP 403 on the ID landing page).
+- **Cycle-102 verification — UPGRADE: the entry is line-verified against two directly fetched
+  primary versions of the paper, the bibliographic discrepancy is RESOLVED, and the author order is
+  corrected.** The Cycle-101 "bibliographic discrepancy" is a **title-version difference within one
+  manuscript, not two different works**, and three primary documents were fetched directly on
+  21 October 2026:
+  1. **The AFA conference-paper version (28 November 2024)** — `https://afajof.org/management/viewp.php?n=186844`
+     → **HTTP 200, 2,440,610 bytes, application/pdf**; text-extracted with `pypdf` (**8 pages, 84,009
+     characters**). Title block: "Funding Payments Crisis-Proofed Bitcoin's Perpetual Futures …
+     **Will Gornall, Martin Rinaldi, Yizhou Xiao** … November 28, 2024". Its abstract confirms the
+     first mechanism claim: "These contracts **tightly track their underlying due to small, frequent
+     payments**."
+  2. **The AEA 2026 Annual Meeting programme paper (19 May 2025)** — `https://www.aeaweb.org/conference/2026/program/paper/ByyFEfr4`
+     → **HTTP 200, 1,921,076 bytes, application/pdf**; text-extracted with `pypdf` (**88,616
+     characters**). Title block: "**Perpetual Futures and Basis Risk: Evidence from Cryptocurrency** …
+     **Will Gornall, Martin Rinaldi, Yizhou Xiao** … May 19, 2025". This version confirms the third
+     mechanism claim **verbatim**: "Perpetual futures show drawdowns that are about one-third the size
+     of those shown by quarterly futures; moreover, **the perpetual futures drawdowns quickly mean
+     revert while the quarterly futures drawdowns persist**." It also confirms the second claim — the
+     model's comparative statics: "A shorter time to maturity (T − t), **a higher funding rate (δ)**,
+     faster mean reversion in liquidity trader demand (ψ), lower market maker risk aversion (γM), or
+     a greater number of market makers (nM) all **attenuate** both the liquidity trader and hedger
+     price coefficients", with liquidity traders who "capture **demand shocks** or belief
+     heterogeneity".
+  3. **The author's own CFTC comment letter (19 May 2025)** — `https://willgornall.com/files/perps_cftc_comment.pdf`
+     → **HTTP 200, 412,593 bytes, application/pdf**; text-extracted with `pypdf` (**18,563
+     characters**), confirming the same three claims in the authors' own words ("perpetual futures
+     track spot prices more tightly due to continuous funding payments, reduce risk for
+     arbitrageurs, and exhibit superior liquidity during stress").
+  **The title-version relationship is confirmed by the author's own page**
+  (`https://willgornall.com/`, HTTP 200, 10,270 bytes): "Perpetual Futures and Basis Risk: Evidence
+  from Cryptocurrency with **M Rinaldi, Y Xiao** … A previous version of this manuscript was
+  distributed as 'Funding Payments Crisis-Proofed Bitcoin's Perpetual Futures'." **CORRECTION — the
+  author order recorded in this entry ("Gornall, Xiao & Rinaldi") is wrong; the correct order, in
+  every primary document and in the author's own citation line, is Gornall, Rinaldi & Xiao.** The
+  Crossref `posted-content` record for DOI `10.2139/ssrn.5036933` (HTTP 200, 10,966 bytes; created
+  14 January 2025, deposited 19 May 2025) carries the *earlier* title and the corrected author order
+  — which is exactly why the two records disagree. The verification label moves from
+  **index-rendered** to **line-verified (two primary versions and the authors' own comment letter
+  fetched directly and text-extracted)**. **No re-score and no hard-stop change follow** — this is
+  provenance, not new evidence.
 
 ### S-159 — "Perpetual futures as predictors of Bitcoin volatility" (2026)
 *Journal of Empirical Finance* 89: 101779.
@@ -4615,7 +4812,7 @@ URL: https://www.congress.gov/crs_external_products/R/PDF/R48314/R48314.2.pdf
 - **Caveats:** a secondary summary for Congress; the underlying auction data are CARB's.
 - **Verification:** PDF and congress.gov landing page read via the search index. **Cycle-97 upgrade — the congress.gov PDF is now fetched directly and line-verified.** Fetched on 21 October 2026 from the URL above — **HTTP 200, 1,178,803 bytes, 30 pages** — text-extracted with pypdf and read. The document's own words confirm most of the published-state inventory this entry summarises: "**The California program has held 48 auctions as of November 2024**"; "allowance prices started at the **floor price of $10 per MTCO2e** emissions in 2013"; "increased to nearly **$42 per MTCO2e at the February [2024] auction** … decreased to **$37 per MTCO2e at the May 2024 auction and $32 per MTCO2e at the November 2024 auction**"; "**Price Ceiling**" and "price ceiling units" are named; "covered entities may use **offset credits** (in lieu of allowances) to meet up to **4%** of their compliance obligations". **Two sub-claims were NOT found in this document and must not be read into it**: (a) the **8% → 4% (2021–2025) / 6% (2026–2030) stepping schedule** — the PDF states only the current 4% offset cap, not the historical 8% or the stepped schedule, so that schedule remains supported by other sources (S-174 / the regulation) rather than by this report; (b) the **1 November surrender deadline** — the only "November 1" occurrence in the text is a 16 November 2022 press-release date in a footnote, not a compliance deadline, so the 1 November deadline is **not** evidenced by this PDF and stays with S-174/S-164. **The entry's caveat is unchanged and remains the substantive point**: this is a **secondary summary for Congress** and the underlying auction data are CARB's. **No re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
-### S-166 — Erickson, Z., Fang, T. and Howe, K. (2011)
+### S-166 — Bargeron, J., Kulchania, M. and Thomas, S. (2011)
 "Accelerated share repurchases." *Journal of Financial Economics* 101(1): 69–89.
 DOI: https://doi.org/10.1016/j.jfineco.2011.02.004
 - **Type:** Prior empirical result (peer-reviewed).
@@ -4627,6 +4824,34 @@ DOI: https://doi.org/10.1016/j.jfineco.2011.02.004
   volumes and dates is quarterly (10-Q), so a decision-time state is weak.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the
   publisher landing page via the search index.
+- **Cycle-102 verification — PARTIAL UPGRADE, with a MATERIAL bibliographic correction: the entry
+  conflates two different papers with the same title.** The **Crossref REST API** record for the DOI
+  recorded in this entry, `10.1016/j.jfineco.2011.02.004`, was fetched directly on 21 October 2026 —
+  **HTTP 200, 15,676 bytes**. The record reads: title "Accelerated share repurchases"; authors
+  **Bargeron, Kulchania, Thomas**; *Journal of Financial Economics* **101**(1), **69–89**; issued
+  July 2011. **The DOI, the journal, the volume, the issue and the pages recorded in this entry all
+  belong to Bargeron, Kulchania & Thomas (2011); the author line recorded here — Erickson, Fang &
+  Howe — belongs to a different (working-paper) line of work.** Crossref bibliographic searches for
+  "Accelerated share repurchases" in the 2010–2012 window and for the Erickson–Fang–Howe author
+  combination return **no JFE journal-article record under those three names**, and the DOI
+  `10.1016/j.jfineco.2010.11.004` resolves to Ivashina & Sun, "Institutional stock trading on loan
+  market information" — so there is no second JFE paper with this title to reconcile against.
+  **The entry's substantive claim is nevertheless confirmed, and the correction identifies its true
+  source**: the **Crossref-deposited abstract of the authors' own working version** (DOI
+  `10.2139/ssrn.1360729`, HTTP 200, retrieved 21 October 2026) states "**ASRs are credible
+  commitments by firms to repurchase shares immediately**"; "the choice to undertake an ASR is
+  **significantly negatively (positively) associated with the variability of the firm's share price
+  and the stock market illiquidity of the firm's shares** (the size of the repurchase
+  authorization)"; and "ASR announcements are associated with positive [abnormal returns]". The
+  Crossref record for the *JFE* DOI itself holds **no abstract** (0 characters), so the element "the
+  intermediary borrows the shares and covers over a specified period" — a body-text detail not in
+  either abstract — **remains index-rendered and is not line-verified**. The verification label moves
+  from **index-rendered** to **line-verified for the bibliographic record and the ASR mechanism
+  claims, with the author line corrected; the intermediary-borrowing detail remains
+  index-rendered**. The entry's caveat that the ASR discount and the intermediary's execution are
+  private and that the disclosure is quarterly **stands unchanged**. **No re-score and no hard-stop
+  change follow.** *Action for the register: the dossier that relies on this entry must be read as
+  relying on Bargeron, Kulchania & Thomas (2011), not on Erickson, Fang & Howe.*
 
 ### S-167 — Guéant, O., Pu, J. and Royer, G. (2015)
 "Accelerated Share Repurchase: Pricing and Execution Strategy." *International Journal of Theoretical
@@ -4655,6 +4880,24 @@ DOI: https://doi.org/10.1257/aer.20161218 · working-paper version: NBER Working
   effect of any individual reserve sale; the allocation figure was read through the search index.
 - **Verification:** Crossref REST API (title, authors, journal, volume, issue, pages) plus the NBER
   working-paper text via the search index.
+- **Cycle-102 verification — UPGRADE: the price-collar design claim is now confirmed against the
+  Crossref-deposited abstract.** The **Crossref REST API** record for the *AER* DOI
+  `10.1257/aer.20161218` was fetched directly on 21 October 2026 — **HTTP 200, 4,491 bytes**; the
+  deposited abstract confirms the claim: "We study potential equilibria in California's cap-and-trade
+  market for greenhouse gases (GHGs) based on information available before the market started. We
+  find large ex ante uncertainty in business-as-usual emissions and in the abatement that might
+  result from non-market policies, much larger than the reduction that could plausibly occur in
+  response to an allowance price within a politically acceptable range. **This implies that the
+  market price is very likely to be determined by an administrative price floor or ceiling.**" The
+  bibliographic record is confirmed field by field: title "Expecting the Unexpected: Emissions
+  Uncertainty and Environmental Market Design"; authors Severin Borenstein, James Bushnell, Frank A.
+  Wolak, Matthew Zaragoza-Watkins; *American Economic Review* **109**(11), **3953–3977**; issued
+  1 November 2019. The **NBER working-paper version (Working Paper No. 20999)** is confirmed to
+  exist by the same Crossref query (DOI `10.3386/w20999`). **The entry's own caveat that the
+  "order of 120 million allowances" allocation figure is index-rendered stands unchanged and is not
+  upgraded** — the deposited abstract does not contain it. The verification label moves from
+  **index-rendered** to **line-verified (Crossref-deposited abstract, fetched directly)**. **No
+  re-score and no hard-stop change follow.**
 
 ### S-169 — U.S. Securities and Exchange Commission (2026)
 "Roundtable on Options Market Structure — Supporting Data" (staff presentation material, April 2026).
@@ -4703,6 +4946,27 @@ URL: https://www.datawallet.com/token-unlock-calendar
 - **Caveats:** interested party; no method, sample or data made available; not reproducible from the
   citation.
 - **Verification:** page read via the search index.
+- **Cycle-102 verification — UPGRADE: the entry's own cited URL is now fetched directly and the
+  Keyrock passage is confirmed verbatim in the extracted text layer.** The URL recorded in this
+  entry — `https://www.datawallet.com/token-unlock-calendar` — was fetched directly on 21 October
+  2026 — **HTTP 200, 939,097 bytes, text/html**; the page was parsed to a text layer of **19,239
+  characters**. The quoted passage is confirmed **verbatim**: "Market maker Keyrock analysed more
+  than 16,000 unlock events and found that roughly **90 percent** were followed by **negative price
+  pressure**, regardless of the event's size or recipient type. Selling often begins early. **Prices
+  typically start declining about 30 days before an unlock** as traders anticipate the additional
+  supply, then stabilise within roughly two weeks afterwards. … The recipient also influences the
+  impact. **Keyrock found that team unlocks were the most disruptive, with drawdowns reaching 25
+  percent**, because teams tend to sell directly into public order books." The entry's "−25 %" is
+  therefore confirmed as "drawdowns reaching 25 percent". The page additionally records that
+  "Ecosystem unlocks averaged a small positive return" and that unlock size is measured against
+  market capitalisation, both of which sharpen the entry's caveat. **HONEST NEGATIVE on the
+  originating document:** the Keyrock site itself (`keyrock.com/research/from-locked-to-liquidity`,
+  `keyrock.com/blog/from-locked-to-liquidity` and `keyrock.com/research`) returned **HTTP 403** to
+  every direct fetch on 21 October 2026, so the *primary* market-maker note could not be read; the
+  entry's own caveat that this is an **interested party, not peer-reviewed, not independently
+  verifiable** stands and is **not** softened. The verification label moves from **index-rendered**
+  to **line-verified (the page carrying the quotation fetched directly and text-extracted; the
+  originating Keyrock document remains 403)**. **No re-score and no hard-stop change follow.**
 
 ### S-171 — Fiechtner, L.-B. and Blanchet, J. (2026)
 "Strategic Index Reconstitution: Differential Games, Closed-Loop Equilibria and Mean-Field ..."
@@ -4736,6 +5000,37 @@ URL: https://arxiv.org/abs/2512.11913
   earlier version and are used only as a bounded negative, never as a load-bearing citation**.
 - **Verification:** arXiv API record fetched directly (identifier, v3 title, author, submission date);
   earlier-version abstract read via the search index.
+- **Cycle-102 verification — PARTIAL UPGRADE: the version drift is now resolved exactly, and one
+  quoted figure is STRUCK IN PLACE because no version of the paper contains it.** The arXiv
+  **version list** and the abstract pages of **all three** versions were fetched directly on
+  21 October 2026 — `https://arxiv.org/abs/2512.11913` (**HTTP 200, 43,853 bytes**),
+  `…/2512.11913v1` (**HTTP 200, 42,505 bytes**), `…/2512.11913v2` (**HTTP 200, 42,266 bytes**) and
+  `…/2512.11913v3` (**HTTP 200, 43,865 bytes**); each page was parsed to a text layer. The
+  submission history reads: "**[v1]** Thu, 11 Dec 2025 07:40:50 UTC (350 KB) · **[v2]** Sat, 27 Dec
+  2025 04:28:33 UTC (1 KB) **(withdrawn)** · **[v3]** Sat, 26 Sep 2026 15:45:17 UTC (73 KB)". The
+  titles differ: v1 and v2 are "Not All Factors Crowd Equally: Modeling, Measuring, and Trading on
+  Alpha Decay"; v3 is "Return-Decay Residuals and Tail-Risk Forecasting: Timing Artifacts,
+  Conditional Inference, and Cross-Market Evidence".
+  **The Sharpe figures are attributed, not struck.** They are in the **v1** abstract — "**(4) Average
+  returns are efficiently priced. Crowding-based factor selection fails to generate alpha (Sharpe:
+  0.22 vs. 0.39 factor momentum benchmark). (5) Crowding predicts tail risk. Out-of-sample
+  (2001–2024)**" — and in the withdrawn v2 (identical abstract text), and they are **absent from v3**
+  (the strings "0.22" and "0.39" return **zero hits** in the v3 page). The entry's "the crowding
+  proxy predicts tail risk rather than average returns" and "out-of-sample 2001–2024" are confirmed
+  against v1.
+  **STRUCK IN PLACE — one quoted magnitude is not in the document and is removed.** The entry's
+  claim that "**the momentum factor is estimated to earn ~2% annualised today against ~10% in the
+  1990s**" is **not present in any version**: in the v1, v2 and v3 abstract pages the strings "2%",
+  "10%", "2 %", "10 %", "annualiz", "annualis", "1990s" and "momentum factor" each return **zero
+  hits** (the only momentum strings present are "Momentum exhibits clear hyperbolic decay" and
+  "crowded momentum shows lower crash risk (0.38x, p = 0.006)"). The claim is therefore **struck** and
+  the entry now carries only the v1/v2-attributed Sharpe and tail-risk findings. The entry's
+  **version-drift caveat is retained and sharpened**: the numbers belong to **v1 (and the withdrawn
+  v2)** and not to the current v3, and v3 is a substantially different paper whose own abstract
+  reports "no robust advantage under the original specification" and "all 48 intervals include zero".
+  The verification label moves from **index-rendered** to **line-verified (arXiv v1/v2/v3 abstract
+  pages fetched directly and parsed), with one figure struck in place**. **No re-score and no
+  hard-stop change follow.**
 
 ### S-173 — Congressional Budget Office (2010)
 "Managing Allowance Prices in a Cap-and-Trade Program." CBO study, November 2010.
@@ -5837,6 +6132,34 @@ URL: https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2025/02
   Note for the next cycle: the two items S-207 also could not find in 17 CFR 240.14e-1 are confirmed here
   to be **absent from this practitioner note as well**; they therefore need a *different* source (a
   Schedule TO or a tender-offer document, or the staff position itself), not a re-read of S-208.
+- **Cycle-102 resolution of the two struck items — they are recoverable from the SEC's own primary
+  text, and one of them is no longer current law.** The two items struck in Cycle 100 — "guaranteed
+  delivery of tenders by the close of business on the second business day after expiration" and the
+  "**(7–10 calendar days)**" day-count for the abbreviated investment-grade cash tender — are **not
+  in the Clifford Chance note**, but they **are** in the SEC's own instruments, which are now
+  line-verified as **S-381** (the 23 January 2015 no-action letter) and **S-382** (the 30 June 2026
+  exemptive order). From S-381, fetched directly and text-extracted, the guaranteed-delivery
+  condition reads: "permit tenders prior to the expiration of the offer through a **guaranteed
+  delivery procedure** by means of a certification by or on behalf of a holder that such holder is
+  tendering securities beneficially owned by it and that the **delivery of such securities will be
+  made no later than the close of business on the second business day after the expiration of the
+  offer**"; and the same letter describes the 1986 relief in its own words: "Commencing in 1986,
+  the Staff issued a series of no-action letters providing relief from the 20 business day
+  requirement in the context of certain debt tender offers. In particular, the Staff granted
+  no-action relief for issuer tender offers for non-convertible debt securities (later limited to
+  only non-convertible debt securities with an investment grade rating) that are **held open for a
+  period of seven to ten calendar days** and meet certain other qualifications." **The day-count is
+  therefore "seven to ten calendar days", as the entry states.** **MATERIAL UPDATE — the mechanic is
+  superseded:** the SEC's 30 June 2026 exemptive order (S-382) "**supersedes the 2015 Letter** and
+  any similar letters relating to abbreviated offering periods in tender or exchange offers for
+  non-convertible debt securities", it **drops the guaranteed-delivery condition** (the strings
+  "guaranteed delivery" return **zero hits** in the 5-page, 15,132-character text of the Order),
+  and it extends the five-business-day minimum to **any** class or series of non-convertible debt
+  securities, "**regardless of any particular rating**". **A separate and new item for the register:
+  the 16 April 2026 Exemptive Order for Tender Offers for Equity Securities** shortens the minimum
+  offering period to **10 business days** for qualifying equity tender offers. The entry's own
+  caveat — practitioner guidance, used only for the mechanics of the screen — **stands unchanged**.
+  **No re-score and no hard-stop change follow.**
 
 ### S-209 — Mayer Brown (2024)
 "Liability management" (practitioner note, April 2024).
@@ -6045,6 +6368,28 @@ implementation relies on it.
   same server served the *Commission's* CBAM material in this and earlier cycles (S-227, S-228), so an
   asynchronous 202 is a property of this host, not a property of the document; the EUR-Lex or the
   Commission copy of Guidance Document No. 4 would be a different route, not a repeat.
+- **Cycle-102 verification — UPGRADE: the free-allocation percentage ladder is now line-verified
+  against the directive text itself, and the naming trap is confirmed.** The European Parliament
+  document server is **not** re-run (it is a Cycle-100 negative). The **new route is the
+  Publications Office Cellar** — a different host — for Directive (EU) 2023/959:
+  `http://publications.europa.eu/resource/celex/32023L0959` with `Accept: application/xhtml+xml`
+  and `Accept-Language: eng` → **HTTP 200, 662,758 bytes, application/xhtml+xml**, parsed to a text
+  layer of **298,499 characters**. The ladder is confirmed **verbatim, twice** (once in the
+  recital, once in the operative article): "The CBAM factor shall be equal to 100 % for the period
+  between the entry into force of that Regulation and the end of 2025 and, subject to the
+  application of provisions referred to in Article 36(2), point (b), of that Regulation, **shall be
+  equal to 97,5 % in 2026, 95 % in 2027, 90 % in 2028, 77,5 % in 2029, 51,5 % in 2030, 39 % in 2031,
+  26,5 % in 2032 and 14 % in 2033. From 2034, no CBAM factor should apply.**" The **naming trap is
+  confirmed in the directive's own words**: the number is a **retention factor applied to free
+  allocation**, and the reduction it causes is the CBAM demand — "The free allocation no longer
+  provided to the CBAM sectors based on this calculation (CBAM demand) is to be added to the
+  Innovation Fund" — so the *obligation* share is the complement (2.5 % in 2026, 5 % in 2027, 10 % in
+  2028, 22.5 % in 2029, 48.5 % in 2030, 100 % from 2034). The entry's caveat that the EPRS briefing
+  is a **secondary institutional summary** stands, and the entry's own summary table is now backed
+  by the **primary** directive text rather than by a briefing or a trade-press corroboration. The
+  verification label moves from **index-rendered** to **line-verified (the directive text fetched
+  directly from the Publications Office and text-extracted)**. **No re-score, no hard-stop change and
+  no change to R-016's verdict follow** — this is provenance, not new evidence.
 
 ### S-230 — Umweltbundesamt (German Environment Agency) and Deutsche Emissionshandelsstelle (DEHSt), CBAM definitive-regime material on the authorised CBAM declarant, the certificate holding requirement and the consequences of non-compliance.
 - **Type and relevance:** primary regulator material establishing the **participant and the constraint** for the family: an authorised CBAM declarant that fails to hold the required certificates risks the loss of its authorised-declarant status for serious or repeated infringement. That enforcement edge is what makes the purchase obligation binding rather than advisory, and it is the one element of the CBAM family that passes the register's "participant and constraint" test.
@@ -6477,6 +6822,33 @@ relies on it.
   **index-rendered** to **line-verified at abstract level (Crossref posted-content record fetched
   directly), with the four magnitudes still index-rendered**. **No re-score and no hard-stop change
   follow** — R-018's circumvention limb is **strengthened, not reopened**.
+- **Cycle-102 verification — UPGRADE: the working paper is now fetched directly at a **new path** and
+  every quoted figure is confirmed in the extracted text layer.** The Cycle-97 routes (the
+  `wu.ac.at/fin/...` and the `department-of-finance/working-papers/` paths, and their Wayback
+  mirrors) are **not** re-run. The working route is WU Vienna's `fileadmin` tree:
+  `https://www.wu.ac.at/fileadmin/wu/d/i/finance/BBS-Papers/WS21-22/20220926_MOLNAR.pdf` →
+  **HTTP 200, 788,043 bytes, application/pdf**; text-extracted with `pypdf` (**57 pages, 122,349
+  characters**). The author block is confirmed: "Are shorts restricted when options are an option?
+  Evidence from SEC Rule 201 — **Rainer Brand, Matthias Molnar, and Angel Tengulov**" (14 July
+  2022; WU Wien, WU Wien, University of Kansas School of Business). **CORRECTION — the entry's
+  attribution "Molnár (2022)" understates the authorship; the paper has three authors.** The
+  abstract is confirmed: "The evidence suggests that after Rule 201 is triggered, **shorting
+  activity decreases and put option activity increases**. Call option activity, option bid-ask
+  spreads, and pressure on put option prices increase as well. This evidence is consistent with
+  informed short sellers **migrating from the equity market to the options market** after
+  short-sale restrictions become binding…" (in the extracted text layer these two sentences are
+  broken by the PDF's own line hyphenation — "mi- grating" — so a literal string search for the
+  unbroken forms returns zero hits; the wording is present). **All four magnitudes are confirmed
+  verbatim in the body**: "we find an increase in **put option open interest and trading volume** for
+  stocks experiencing a Rule 201 trigger of **61% and 87%**, respectively … We also find that **call
+  option open interest and call option trading volume** for stocks experiencing a Rule 201 trigger
+  increased by **40% and 80%**, respectively." The **compliance date is confirmed** — "Compliance
+  with this Rule was required as of **February 28, 2011**" (23 occurrences of "February 28, 2011";
+  the string "28 February 2011" returns zero hits, so the date is recorded in American order). The
+  entry's framing of the figures as "a migration of short sellers from the stock market to the
+  options market" is confirmed. The verification label moves from **index-rendered** to
+  **line-verified (PDF fetched directly at a new path and text-extracted)**. **No re-score and no
+  hard-stop change follow.**
 
 ### S-238 — Switzer, L. N. (2023), "Circumventing SEC Rule 201 short sale restrictions with options", ScienceDirect record S154461232300363X.
 - **Type and relevance:** a second, independent statement that Rule 201 can be circumvented at low cost
@@ -6516,6 +6888,29 @@ relies on it.
   published baseline rather than an open question.
 
 ---
+- **Cycle-102 verification — PARTIAL UPGRADE at abstract level, through a route that does not exist
+  in the earlier cycles: the publisher's bibliographic mirror (RePEc/IDEAS).** The ScienceDirect
+  route is **not** re-run (it is a Cycle-97 negative, HTTP 403; the `/abs/` path also returned
+  **HTTP 403, 385,695 bytes** on 21 October 2026). The **new route** is the RePEc/IDEAS record for
+  the article, `https://ideas.repec.org/a/eee/finlet/v55y2023ipbs154461232300363x.html` → **HTTP
+  200, 13,994 bytes, text/html**, parsed to a text layer of **17,235 characters**. It confirms the
+  entry's abstract-level claims **verbatim**: "This paper provides evidence on the ease and
+  relatively low cost, relative to the potential benefits of circumventing the short selling circuit
+  breaker regulations (SEC Rule 201) using options. **Stocks with traded options react more
+  negatively on short sale restriction trigger days relative to their counterparts without traded
+  options. Short sale circuit breaker events are associated with increases in put and call options
+  spreads as well as put-call parity violations. The paper estimates a discount of a synthetic
+  short position to the prevailing stock price when Rule 201 is triggered of about 3%.**" It also
+  confirms the bibliographic identification the entry had left unasserted: journal *Finance Research
+  Letters*, volume 55(PB), article 103991, DOI 10.1016/j.frl.2023.103991, author Lorne Nelson
+  Switzer. **What remains index-rendered:** the entry's summary of the *prior literature* — that
+  short-sale bans are "ineffective, or … lead to lower market quality, higher bid-ask spreads [and]
+  higher volatility" — comes from the paper's **introduction**, not from the abstract, and the
+  strings "ineffective", "lower market quality" and "bid-ask spreads" return **zero hits** in the
+  RePEc record; and the **body remains closed** (paywalled; the Crossref record for the DOI holds
+  no abstract, per the Cycle-100 note). The verification label moves from **index-rendered** to
+  **line-verified for the bibliographic record and the abstract-level findings; the prior-literature
+  summary and the body remain index-rendered**. **No re-score and no hard-stop change follow.**
 
 ## Cycle 37 gap verdicts (2026-10-20)
 
@@ -7985,6 +8380,43 @@ URLs: https://socpa.org.sa/en/knowledge-center/news/news/socpa-adopts-ifrs-18-fo
   is offered as the reason the partition route is *not available*, not as a general impossibility proof.
 - **Verification:** both the news item and the endorsement-document text were read as rendered by the
   search index — **index-rendered, not directly parsed**.
+- **Cycle-102 verification — PARTIAL UPGRADE: the news item is now line-verified through the
+  Internet Archive, and the "all at once" wording is shown to sit in a document that is still
+  unreachable.** `socpa.org.sa` itself is **not** re-run as a direct fetch (it is a Cycle-101
+  timeout negative), but the **new route is the Internet Archive**, which was back up on 21 October
+  2026: the availability API returns a snapshot for the SOCPA news item, and the replay
+  `http://web.archive.org/web/20260207203751/https://www.socpa.org.sa/Socpa/Media-Center/News/2025/3926.aspx`
+  was fetched — **HTTP 200, 25,505 bytes, text/html**, parsed to a text layer of **5,656
+  characters**. The snapshot is the **Arabic-language** rendering of the same news item (the
+  `?lang=en-us` form is not snapshotted and returns HTTP 404 on replay). It confirms, in the
+  Authority's own words, the entry's two dated facts: the item is dated **14 يناير 2025**
+  (14 January 2025), and the Board decided **"في تاريخ (25-06-1446هـ الموافق 26-12-2024م) اعتماد
+  تطبيق المعيار الدولي للتقرير المالي رقم (18) … مع السماح بالتطبيق المبكر"** — *on 25-06-1446H
+  (corresponding to 26-12-2024G) to adopt the application of IFRS 18 and its subsequent updates to
+  other standards in the Kingdom, **while allowing early adoption***. **The "all at once" wording is
+  NOT in the news item** (the strings "all at once" and its Arabic equivalent return zero hits in
+  the snapshot): it sits in the **endorsement document** ("The document of endorsement of IFRSs and
+  IFRS for SMEs … تطبيق المعايير الدولية للمحاسبة (دفعة واحدة بعد استكمال اعتمادها من الهيئة) …
+  وأقرب تاريخ للتطبيق هو على القوائم المالية المعدلة عن فترات مالية تبدأ في 2017/1/1م بالنسبة
+  للمنشآت …"), which remains **unreachable**: the direct host times out and the Wayback availability
+  API returns **no snapshot** for that path. The entry's "shall be applied **all at once**" claim
+  therefore **remains index-rendered and is not line-verified**, and the effective-date element
+  (listed entities from the 2017 financial year, other entities from the 2018 financial year) is
+  likewise unverified. **Secondary corroboration added and its limits recorded:** the **IFRS
+  Foundation's own Saudi Arabia jurisdictional profile**
+  (`https://www.ifrs.org/content/dam/ifrs/publications/jurisdictions/pdf-profiles/saudi-arabia-ifrs-profile.pdf`)
+  was fetched directly — **HTTP 200, 121,319 bytes, application/pdf**, text-extracted with `pypdf`
+  (**6 pages, 14,921 characters**) — and confirms the *adoption status* ("IFRS Accounting Standards
+  are required for all publicly accountable entities"; "IFRS Accounting Standards **that are
+  endorsed in Saudi Arabia**"; SOCPA is the relevant jurisdictional authority, operating under
+  Royal Decree No. M12 of 1991 and supervised by the Ministry of Commerce). **It does NOT support
+  the IFRS 18 element: the profile states "Profile last updated: 28 July 2022" and the strings
+  "IFRS 18" and "2017" return zero hits** — it predates the adoption and is not evidence on the
+  application date. The verification label moves from **index-rendered** to **partially line-verified
+  (the news item via the Internet Archive: adoption date and early-adoption permission; the
+  endorsement document's "all at once" wording and the effective date remain index-rendered)**. The
+  entry's caveat — "'all at once' is Saudi's own adoption route … evidence about one jurisdiction's
+  practice" — **stands unchanged**. **No re-score and no hard-stop change follow.**
 
 ### S-272 — IFRS Foundation (2026), "Guidance on use of the 2025 IFRS Accounting Taxonomy" (taxonomy guidance including the Early Application of IFRS 18 entry point)
 URL: https://www.ifrs.org/content/dam/ifrs/standards/taxonomy/2026/guidance-on-use-of-2025-ifrs-taxonomy.pdf
@@ -12756,3 +13188,86 @@ endpoint and the human-facing page do not — was identified while the next cycl
 pre-registered. The operation therefore touched **twenty-two entries**: **sixteen line-verified, two
 partially upgraded, three honest negatives, and one (S-202) upgraded outside the named subset**. The
 corpus now holds **45 index-rendered-only entries and 96 mixed entries**.
+
+## Cycle 102 sources (2026-10-21) — the two SEC instruments behind S-208's struck items
+
+Two **new primary regulatory documents** were consumed in Cycle 102. They are recorded as new
+`S-` identifiers rather than folded into S-208 because they are separate instruments with their own
+dates, their own conditions and their own supersession history, and because the register's rule is
+to cite the document the claim actually rests on. The reasoning is recorded in the cycle log
+(`research/cycle_notes.md`, Cycle 102), in this ledger section, and in the handoff.
+
+### S-381 — U.S. Securities and Exchange Commission, Division of Corporation Finance (2015)
+"No-Action Letter: Abbreviated Tender or Exchange Offers for Non-Convertible Debt Securities" —
+Rule 14e-1 staff no-action position, addressed to Cahill Gordon & Reindel LLP, 23 January 2015
+(13 pages).
+URL: https://www.sec.gov/divisions/corpfin/cf-noaction/2015/abbreviated-offers-debt-securities012315-sec14.pdf
+- **Type:** Primary regulator material (staff no-action letter under Exchange Act Rule 14e-1(a)–(b)).
+- **Supports:** the **"guaranteed delivery" mechanic** and the **seven-to-ten-calendar-day
+  abbreviated-offer period** that S-208 carried but could not source, and the *rule-determined
+  offer mechanics* the S-208/S-207/S-209 family screen rests on. Verbatim, the fifth condition: "permit
+  tenders prior to the expiration of the offer through a **guaranteed delivery procedure** by means of
+  a certification by or on behalf of a holder that such holder is tendering securities beneficially
+  owned by it and that the **delivery of such securities will be made no later than the close of
+  business on the second business day after the expiration of the offer**". Verbatim, the letter's
+  own description of the 1986 relief: "Commencing in 1986, the Staff issued a series of no-action
+  letters providing relief from the 20 business day requirement in the context of certain debt
+  tender offers. In particular, the Staff granted no-action relief for issuer tender offers for
+  non-convertible debt securities (later limited to only non-convertible debt securities with an
+  investment grade rating) that are **held open for a period of seven to ten calendar days** and
+  meet certain other qualifications." The letter also confirms the Rule 14e-1 framework itself
+  ("Rule 14e-1(a) requires a minimum offer period for all tender offers—debt or equity—of 20 business
+  days"; "Rule 14e-1(b) requires that a tender offer remain open for at least ten business days after
+  any change in the consideration offered"), the five-business-day period the relief is built around
+  ("five business day period"), and the announcement mechanics ("at or prior to 10:00 a.m., Eastern
+  time, on the first business day of such five business day period"). It records the supersession of
+  the 1986 and 1990 letters: "This no-action position supersedes the letters issued to Goldman, Sachs
+  & Co. (March 26, 1986); Salomon Brothers Inc (March 12, 1986); Salomon Brothers Inc (October 1,
+  1990); and any similar letters relating to abbreviated offering periods in non-convertible debt
+  tender offers."
+- **Caveats:** a **staff no-action position**, not a rule and not an exemptive order; it binds only
+  the Division's staff and is expressly limited to the facts presented. **It was superseded on
+  30 June 2026 by S-382**, which continues the five-business-day minimum on materially different and
+  wider conditions. The 2015 letter is therefore a **historical** instrument for present practice and
+  is the right source only for the period 23 January 2015 – 30 June 2026.
+- **Verification:** fetched directly on 21 October 2026 with a compliant User-Agent — **HTTP 200,
+  260,761 bytes, application/pdf**; the text layer was extracted with `pypdf` (**13 pages, 39,712
+  characters**) and read. The four quoted passages above are present verbatim (the guaranteed-delivery
+  condition once in the conditions list and three times elsewhere in the letter, including the
+  Credit Roundtable correspondence at the end; "seven to ten calendar days" once; "five business days"
+  nine times; "1986" eleven times). The verification label is **line-verified (PDF fetched directly
+  and text-extracted)** from the moment of creation — no index-render stage.
+
+### S-382 — U.S. Securities and Exchange Commission, Division of Corporation Finance (2026)
+"Exemptive Order for Tender or Exchange Offers for Non-Convertible Debt Securities", 30 June 2026
+(5 pages), signed Tiffany Posil, Chief, Office of Mergers and Acquisitions.
+URL: https://www.sec.gov/files/rules/exorders/2026/exemp-order-tender-or-exchange-offers-non-convertible-debt-securities-063026.pdf
+- **Type:** Primary regulator material (delegated exemptive order under Exchange Act Sections
+  14(d)(5), 14(d)(8)(C) and 36(a), 17 CFR 200.30-1(f)(16)).
+- **Supports:** the **current** abbreviated-offer regime, and therefore a **dated supersession** the
+  register must carry. Verbatim: "This Exemptive Order **supersedes the 2015 Letter** and any
+  similar letters relating to abbreviated offering periods in tender or exchange offers for
+  non-convertible debt securities." The order grants an exemption from Rules 14e-1(a) and (b) "to
+  permit a tender or exchange offer for any class or series of non-convertible debt securities to
+  remain open for a minimum offering period of **five business days**", and the securities need not
+  carry a rating ("**regardless of any particular rating** assigned to such securities"). It restates
+  the 1986/1990 "Prior Letters" in footnote 2 — "each not recommending enforcement action under
+  Exchange Act Rule 14e-1(a) or Rule 14e-1(b) if an issuer conducts a tender offer for non-convertible
+  debt securities with a **minimum offering period of seven to ten calendar days** based on customary
+  market practice" — and footnote 3 identifies S-381 as "SEC No-Action Letter, **Cahill Gordon &
+  Reindel LLP (Jan. 23, 2015)**". Footnote 4 refers to a separate, earlier order in the same month:
+  "See SEC Exemptive Order for Tender Offers for Equity Securities (**Apr. 16, 2026**)".
+- **Caveats:** a **delegated exemptive order**, revocable at the Division's discretion ("the Division
+  may reconsider, modify, or withdraw the relief provided herein"). It applies to non-convertible
+  debt securities only; the equity analogue is a different instrument, not registered here. The
+  **guaranteed-delivery condition is absent from the order's conditions** — the strings "guaranteed
+  delivery" return **zero hits** in the extracted text — and multiple law-firm client alerts
+  (Ropes & Gray, Skadden, Nixon Peabody, Sullivan & Cromwell, Debevoise) report that the requirement
+  was **eliminated**; this is an *absence plus secondary corroboration*, not a positive sentence in
+  the order, and it is recorded as such.
+- **Verification:** fetched directly on 21 October 2026 with a compliant User-Agent — **HTTP 200,
+  181,960 bytes, application/pdf**; the text layer was extracted with `pypdf` (**5 pages, 15,132
+  characters**) and read. The quoted passages are present verbatim ("supersedes the 2015 Letter"
+  once; "seven to ten calendar days" once; "Cahill Gordon" once; "Goldman, Sachs" once; "five business
+  days" twice; "guaranteed delivery" **zero** hits). The verification label is **line-verified (PDF
+  fetched directly and text-extracted)** from the moment of creation.

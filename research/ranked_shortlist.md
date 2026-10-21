@@ -1,6 +1,45 @@
-# RANKED SHORTLIST — CYCLES 1–101
+# RANKED SHORTLIST — CYCLES 1–102
 
-# RANKED SHORTLIST — CYCLES 1–101
+# RANKED SHORTLIST — CYCLES 1–102
+
+**Cycle-102 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 102's substantive work was **evidence work, not a screen**, because the
+register's named absent families remain exhausted and no new mechanism family was pre-registered. (i) **The
+bounded provenance-upgrade operation** was executed over the **thirteen** pre-registered targets of the
+Cycle-101 handoff: **nine are now fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170,
+S-229, and S-237 from the Priority-3 work), **six are partially upgraded with the unverified parts named**
+(S-153, S-154, S-156, S-166, S-172, and at abstract level S-238 and S-271), and **one is an honest
+negative** (S-115 — the Internet Archive is back up and has **no** snapshot of any SSRN 6751741 form).
+**No `S-` identifier was consumed by the operation** and **no score moved with it**: an upgrade changes
+an entry's provenance, not a candidate's merit. (ii) **A state-integrity finding was recorded in place,
+and it is the third occurrence of the same failure mode** (Cycle 99 → S-208 and S-136; Cycle 101 → all
+thirteen targets): the prior cycle's log and handoff header claimed that ten entries "were upgraded to
+line-verified" and that the annotations "were written into each entry in the same cycle", but the
+string "Cycle-101" appears **nowhere** as an annotation in the ledger, there is **no Cycle-101 section
+in the ledger at all**, and the thirteen targets' own verification bullets still read exactly as they
+did before Cycle 101 — **Cycle 102 re-ran the work and wrote it into the entries** (eighteen entries now
+carry a Cycle-102 annotation (sixteen "Cycle-102 verification" bullets, plus S-208's "Cycle-102 resolution of the two struck items" and S-115's "Cycle-102 re-fetch attempt")). (iii) **Three material bibliographic corrections were carried
+into the register, the known-baseline table and the ledger headings**: **S-166 is Bargeron, Kulchania &
+Thomas (2011), not Erickson, Fang & Howe** (the entry had conflated two different papers with the same
+title, and the DOI, journal, volume, issue and pages all belong to Bargeron et al.); **S-156 has four
+authors**, Ben-David, Li, Rossi **and Yang Song**; **S-158's author order is Gornall, Rinaldi & Xiao**
+(the Cycle-101 "discrepancy" is resolved as a title-version difference inside one manuscript). (iv) **One
+quotation was struck in place** — S-172's "the momentum factor is estimated to earn ~2 % annualised today
+against ~10 % in the 1990s" is in **no** version of arXiv:2512.11913, and the version drift is resolved
+exactly (the Sharpe 0.22/0.39 figures are in **v1 and the withdrawn v2**, absent from v3). (v) **Two new
+source identifiers were consumed, S-381 and S-382** — the SEC's 23 January 2015 no-action letter and its
+30 June 2026 exemptive order — the instruments that are the true source of the two items S-208 had to
+strike, and the second of which **supersedes** the first, so the register's tender-offer mechanic is now
+**dated history**: the "guaranteed delivery" procedure and the 1986 relief's "seven to ten calendar days"
+are confirmed against the SEC's own words, but the 2015 letter was superseded on 30 June 2026 and the
+guaranteed-delivery condition is gone. (vi) **The EU free-allocation ladder is now line-verified against
+the directive text** (S-229: Directive (EU) 2023/959, fetched from the Publications Office Cellar, which
+**replaces the exhausted EUR-Lex route**) — a provenance upgrade, not new evidence, so **R-016's CBAM
+family verdict is unchanged**. (vii) The **rubric-arithmetic re-run is clean**: IDEA-011 4/3/3/4/2/5 =
+69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010
+4/4/1/2/2/2 = 55.0. The register holds **372 verified sources** and a **92-row known-baseline table**.
+**No score, rank, tie-break, hard-stop flag, gap or specification changed.**
 
 **Cycle-101 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked

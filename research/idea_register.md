@@ -4,7 +4,61 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
+Last updated: **Cycle 102 complete** (21 October 2026). Cycle 102 added **two new source entries and
+two new source identifiers** (**S-381**, the SEC's 23 January 2015 no-action letter on abbreviated
+tender or exchange offers for non-convertible debt securities, and **S-382**, the SEC Division of
+Corporation Finance's 30 June 2026 exemptive order on the same subject), minted **no new candidate**
+and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no
+score**. The cycle's work was **evidence work, not a screen**. **(i) The bounded provenance-upgrade
+operation** was executed over the **thirteen** pre-registered targets of the Cycle-101 handoff:
+**nine are now fully line-verified** (S-027, S-102, S-118, S-125, S-158, S-168, S-170, S-229, and from
+the Priority-3 work S-237), **six are partially upgraded with the unverified parts named** (S-153,
+S-154, S-156, S-166, S-172, and at abstract level S-238 and S-271), and **one is an honest negative**
+(S-115 — the Internet Archive is back up and has **no** snapshot of any SSRN 6751741 form, so the
+paper has never been archived). **(ii) A state-integrity finding was recorded in place, and it is the
+third occurrence of the same failure mode** (Cycle 99 → S-208 and S-136; Cycle 101 → all thirteen
+targets): the Cycle-101 handoff header and cycle record both claimed that ten entries "were upgraded
+to line-verified" and that the annotations "were written into each entry in the same cycle", but the
+string "Cycle-101" appears **nowhere** as an annotation in `source_ledger.md`, there is **no
+Cycle-101 section in the ledger at all**, and the thirteen targets' own verification bullets still
+read exactly as they did before Cycle 101. **Cycle 102 re-ran the work and wrote it into the
+entries** — eighteen entries now carry a Cycle-102 annotation (sixteen "Cycle-102 verification" bullets, plus S-208's "Cycle-102 resolution of the two struck items" and S-115's "Cycle-102 re-fetch attempt"). The standing rule is
+restated in the handoff: **a provenance upgrade is not done until the entry's own verification
+bullet says so; a cycle log and a handoff header are records of intent, the ledger entry is the
+evidence.** **(iii) Three material bibliographic corrections were carried into the register, the
+known-baseline table and the ledger headings.** (a) **S-166 is Bargeron, Kulchania & Thomas (2011),
+*JFE* 101(1): 69–89 — not Erickson, Fang & Howe**: the DOI, journal, volume, issue and pages in the
+entry all belong to Bargeron et al., and the entry had **conflated two different papers with the same
+title**; the ASR mechanism claims are now confirmed against the authors' own deposited abstract, while
+the "intermediary borrows the shares and covers over a specified period" detail remains
+index-rendered. The known-baseline row for accelerated share repurchases is corrected accordingly.
+(b) **S-156 has four authors, not three** — Itzhak Ben-David, Jiacui Li, Andrea Rossi **and Yang
+Song**; the Morningstar-reform mechanism is confirmed against the deposited abstract, while the
+0.92 %/0.16 % magnitudes remain index-rendered. (c) **S-158's author order is Gornall, Rinaldi &
+Xiao, not Gornall, Xiao & Rinaldi**; the Cycle-101 "bibliographic discrepancy" is **resolved** as a
+title-version difference inside one manuscript (the current title is "Perpetual Futures and Basis
+Risk: Evidence from Cryptocurrency", 19 May 2025; the earlier version was circulated as "Funding
+Payments Crisis-Proofed Bitcoin's Perpetual Futures"), and all three mechanism claims are now
+line-verified against two directly fetched primary versions and the authors' own CFTC comment letter.
+**(iv) One quotation was struck in place** — S-172's "the momentum factor is estimated to earn ~2 %
+annualised today against ~10 % in the 1990s" is in **no** version of arXiv:2512.11913 (eight probe
+strings, zero hits each in v1, v2 and v3); the version drift is resolved exactly (the Sharpe
+0.22/0.39 figures are in **v1 and the withdrawn v2**, absent from v3). **(v) Two dated facts now bear
+on the register.** The EU free-allocation ladder is **line-verified against the directive text**
+(S-229: Directive (EU) 2023/959, fetched from the Publications Office Cellar, confirms the CBAM factor
+ladder 97,5/95/90/77,5/51,5/39/26,5/14 % verbatim in both the recital and the operative article, and
+confirms that the number is a **retention** factor on free allocation, the obligation share being its
+complement). And the tender-offer mechanics the register carried through S-208 are **confirmed against
+the SEC's own primary text** (S-381) — the "guaranteed delivery" procedure and the 1986 relief's
+**"seven to ten calendar days"** — but the **30 June 2026 exemptive order (S-382) supersedes that
+letter**, drops the guaranteed-delivery condition, extends the five-business-day minimum to debt
+securities "regardless of any particular rating", and sits alongside a separate **16 April 2026** order
+shortening the *equity* minimum to ten business days. **The register's mechanic is now history and
+must be dated as such.** **(vi) The rubric-arithmetic re-run was clean** (IDEA-011 69.0, IDEA-004
+63.0, IDEA-009 53.0, IDEA-014 52.0, IDEA-010 55.0) and **no score, rank, tie-break, hard-stop flag,
+gap or specification changed**. **R-055's verdict, its five reasons and its baseline row 92 are
+unchanged**, no re-screen was triggered, and R-016's CBAM family verdict is unchanged — the ladder's
+confirmation is a provenance upgrade, not new evidence. Earlier history: **Cycle 101 complete** (Cycle 101 added **no new source identifier and no new source
 entry**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
 **no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
 bounded provenance-upgrade operation** was executed over the **thirteen** named targets of the Cycle-100
@@ -3430,7 +3484,10 @@ reversal after costs, and does it add anything to the published funding arbitrag
   drawdowns **quickly mean-revert** while quarterly drawdowns persist, a higher funding rate
   *attenuates* the perpetual price's sensitivity to demand shocks, and the funding rate's
   information content is attributed to imbalanced leveraged positions that are vulnerable to
-  subsequent unwinding (S-158, Gornall, Xiao & Rinaldi, working paper; S-159, *Journal of Empirical
+  subsequent unwinding (S-158, Gornall, Rinaldi & Xiao, working paper — the author order and the
+  title were corrected in Cycle 102; the current title is "Perpetual Futures and Basis Risk:
+  Evidence from Cryptocurrency" and an earlier version was circulated as "Funding Payments
+  Crisis-Proofed Bitcoin's Perpetual Futures"; S-159, *Journal of Empirical
   Finance* 2026). What remains unclaimed is narrower than the dossier assumed: a *dated, signed,
   exit-specified* rule keyed to the funding **level** rather than to a basis deviation. That is a
   formulation difference, not a mechanism difference, and the register scores it as such.
