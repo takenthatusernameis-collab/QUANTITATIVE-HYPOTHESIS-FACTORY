@@ -1,4 +1,35 @@
-# RANKED SHORTLIST — CYCLES 1–107
+# RANKED SHORTLIST — CYCLES 1–108
+
+**Cycle-108 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0,
+rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with
+IDEA-010 parked (P-014) at a terminal 55.0.** Cycle 108's work was **evidence work plus one bounded,
+pre-registered screen** (the ASR announcement-date public-observability screen, logged as **R-056**):
+(i) **the published 2009 *RFS* body of Carr & Wu (S-154) is now an evidenced closure** — Oxford
+Academic returns HTTP 403 on four path forms, the Silverchair CDN returns `Missing Key-Pair-Id`,
+JSTOR returns a bot-challenge page on two path forms, the author-posted SSRN copy of the published
+version is indexed as "Not Available for Download", the Internet Archive holds no snapshot of any of the
+five legacy OUP path forms, and Unpaywall, OpenAlex and Semantic Scholar each report the article closed
+with no repository copy — while the **published version's front matter is line-verified** through a new
+carrier source (**S-385**, a 2022 NYU memorial deck) whose published acknowledgements name the editor
+and an anonymous referee, a **decisive version discriminator** against the May 2004 working paper; the
+**version drift is documented precisely**, and the **pre-registered outcome is (iii)**: the
+individual-stock magnitudes remain the working paper's, the baseline row's attribution is corrected in
+place, and **IDEA-003's G-05 closure is not re-opened**. (ii) **Two affected dossiers were checked and
+neither moves**: IDEA-003's closure is untouched by the attribution change, and IDEA-004 does not rest
+on S-154. (iii) **The ASR question is closed in both directions** — the *contract architecture* is
+**public** (the executed confirmation was Exhibit 99.1 to the Form 8-K; the filing body, **S-386**,
+disclosed the $25.97 initial price; the press release, **S-387**, disclosed that the price is the
+market price at signing), so the register's baseline sentence "the discount is private-contract data"
+is **narrowed in place**; but the *realized discount* is a **terminal** quantity, the initial discount
+is **zero by construction**, the covering window is **bounded ex ante by published law** (17 CFR
+240.10b-18, **S-388**) rather than by a discriminating state, and the **issuer published its own
+expectation** of the adjustment at the announcement date. (iv) **Four new source entries** were
+registered (**S-385 … S-388**), one entry was cross-referenced (**S-384**), one **bounded negative** was
+logged (**R-056**), and **two known-baseline rows were corrected in place** (row 38, row 44). (v) **The
+rubric-arithmetic re-run is clean**, computed from this file's own table — IDEA-011 4/3/3/4/2/5 = 69.0;
+IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010
+terminal 4/4/1/2/2/2 = 55.0 — and **no score, rank, tie-break, hard-stop flag, gap or specification
+changed**. **No re-screen of any retained candidate was triggered.**
 
 **Cycle-107 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0,
 rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with

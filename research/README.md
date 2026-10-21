@@ -23,12 +23,31 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-385`; `S-210 … S-219` are **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-389`; `S-210 … S-219` are **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-012`; `V-011` is **reserved and unused**, and `V-010`
-   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-056`), parkings are `P-0NN` (next
+   is written and now marked **never-to-execute**), rejections are `R-0NN` (next free: `R-057`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-37`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: `Cycle 108`; **Cycle 107 completed the four open Priority-3 questions left over from
+   (next: `Cycle 109`; **Cycle 108 completed the two open theoretical questions carried from
+   Cycle 107 — the published 2009 *RFS* body of Carr & Wu (S-154) was attacked over **twenty-one named
+   routes** and is an **evidenced closure**, while the **published version's front matter is now
+   line-verified** through a new carrier source (S-385, a 2022 NYU memorial deck) whose published
+   acknowledgements name the editor and an anonymous referee, a decisive version discriminator against
+   the May 2004 working paper; the **version drift is documented precisely** and the **pre-registered
+   outcome is (iii)**, so the individual-stock magnitudes remain the working paper's, the known-baseline
+   row 38 is corrected in place, and **IDEA-003's G-05 closure is not re-opened**. The second question —
+   the **ASR announcement-date public-observability screen** — was **pre-registered in the cycle log
+   before the fetches** and closed as a **bounded negative (R-056)** on five reasons: the *contract
+   architecture* is **public** (the executed confirmation was Exhibit 99.1 to the Form 8-K; the filing
+   body, S-386, disclosed the $25.97 initial price; the press release, S-387, disclosed that the price
+   is the market price at signing), so the baseline row's "the discount is private-contract data" was
+   **narrowed in place**; but the *realized discount* is a **terminal** quantity, the initial discount is
+   **zero by construction**, the covering window is **bounded ex ante by published law** (17 CFR
+   240.10b-18, **S-388**) rather than by a discriminating state, and the **issuer published its own
+   expectation** of the adjustment at the announcement date. Four new source entries were consumed
+   (**S-385 … S-388**), one bounded negative (**R-056**), two baseline rows corrected in place (rows 38
+   and 44), and **no score, rank, gap or specification changed**; it also rewrote the handoff body**.
+   **Cycle 107 completed the four open Priority-3 questions left over from
    Cycle 106 — three entries were upgraded (S-153, S-156, and S-154 in part), one was partially
    upgraded with a new primary source behind it (S-166/S-384), two are evidenced honest negatives
    (S-238's body is closed across three open-access registries; S-271's endorsement document is

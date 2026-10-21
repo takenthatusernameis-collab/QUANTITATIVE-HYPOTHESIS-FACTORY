@@ -1,4 +1,24 @@
-# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–107
+# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–108
+
+**Cycle 108 update — no specification created, amended, withdrawn or re-created; no status changed.**
+Cycle 108's work was **evidence work plus one bounded, pre-registered screen** (the ASR
+announcement-date public-observability screen, logged as **R-056**), and it touches **no
+specification**. **S-154**: the published 2009 *RFS* body is now an **evidenced closure** (twenty-one
+named routes, three open-access registries reporting the article closed with no repository copy, and
+the author-posted SSRN copy of the published version indexed as "Not Available for Download"), while the
+**published version's front matter is line-verified** through a new carrier source (**S-385**) whose
+published acknowledgements name the editor and an anonymous referee — a decisive version discriminator
+against the May 2004 working paper. The **pre-registered outcome is (iii)**: the individual-stock
+magnitudes remain the May 2004 working paper's, the **known-baseline row 38 attribution is corrected in
+place**, and **IDEA-003's G-05 closure is not re-opened** — so **V-002 remains frozen** and nothing in
+the single-name screen moves. **IDEA-004 is untouched**: S-154 is not one of its evidentiary legs and
+**V-007's** inputs are unchanged. **The ASR screen** is a *state-availability* screen of a **baseline**
+family, not of a retained candidate: it produced **no dossier, no score change, no re-screen and no
+specification**, and the three new primary instruments behind it (**S-386** the Form 8-K filing body,
+**S-387** the announcement press release, **S-388** 17 CFR 240.10b-18) change **no specification's
+inputs**. **V-008 and V-009 remain the only executable specifications; V-002 remains frozen; V-010
+remains marked never-to-execute; V-001, V-003 … V-007 remain not executable. No `V-` identifier was
+consumed. Nothing in this file was executed.**
 
 **Cycle 107 update — no specification created, amended, withdrawn or re-created; no status changed.**
 Cycle 107's work was **evidence work, not a screen**: the four open Priority-3 questions carried from

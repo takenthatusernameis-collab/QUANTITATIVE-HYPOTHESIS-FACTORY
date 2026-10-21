@@ -4,7 +4,62 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 107 complete** (21 October 2026). Cycle 107 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 107 upgraded three source entries (S-153, S-156, and S-154 in part), partially upgraded a fourth (S-166, with a new primary source behind it), recorded two evidenced honest negatives (S-238, S-271) and registered **one new primary source (S-384)** — all in `source_ledger.md`, not in this register. **The four open Priority-3 questions carried from the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and all four are now either closed or evidenced.**
+Last updated: **Cycle 108 complete** (21 October 2026). Cycle 108 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 108's work was **evidence work plus one bounded, pre-registered screen**: it attacked the **published** 2009 *RFS* body of Carr & Wu (S-154) over **twenty-one named routes** and obtained the **published version's front matter** rather than its body, and it executed the **ASR announcement-date public-observability screen** the Cycle-107 handoff had named as the register's best next target. Four new source entries were registered (**S-385, S-386, S-387, S-388**), one entry was upgraded with a **version-drift finding** (S-154), one entry was cross-referenced (S-384), one **bounded negative** was logged (**R-056**), and **two known-baseline rows were corrected in place** (row 38, single-name variance risk premia; row 44, accelerated share repurchases) — all in `source_ledger.md` and `rejected_and_parked.md`, not in this register.
+**(i) The published *RFS* body is an EVIDENCED CLOSURE; the published version's front matter is
+LINE-VERIFIED, and the version drift is now documented precisely.** The published body could not be
+obtained: Oxford Academic returns **HTTP 403** on the article page, the `article-abstract` path, the DOI
+resolver and **three** distinct `article-pdf` path forms, and the Silverchair CDN returns
+`Missing Key-Pair-Id`; JSTOR returns a bot-challenge page on both path forms; the **author-posted SSRN
+copy of the published version (1359527) is indexed as "Not Available for Download"**; the Internet
+Archive holds **no snapshot of any of the five legacy OUP path forms** and its full-text index returns
+**0 results**; Unpaywall, OpenAlex and Semantic Scholar each report the article **closed with no
+repository copy**; and the two authors' own pages yield only a publications list. What *was* obtained,
+on a new host, is the **published version's front matter**, carried verbatim in a 2022 NYU memorial
+lecture deck (**S-385**, HTTP 200, 5,538,035 bytes, 61 pages, 32,936 characters): the published title
+block, the published **abstract** ("…five stock indexes and 35 individual stocks. (JEL G10, G12, G13)"),
+the first three paragraphs of the published introduction, and the published **acknowledgements**, which
+thank "**Yacine A ¨ıt-Sahalia (the editor), an anonymous referee**" — the **decisive version
+discriminator**, because the May 2004 working paper thanks neither. The **drift** is now documented
+against the 2004 working paper re-fetched this cycle from a new host: the published abstract drops "We
+theoretically and numerically show that", drops the "Ignoring the small approximation error" clause, reads
+"variance risk **premiums**" where the working paper reads "variance risk **premia**", drops the JEL code
+**C51** and the KEY WORDS line, and the published introduction opens "It has been well documented that
+return variance is stochastic" where the working paper opens with the 2003 Nobel-prize framing. The
+published **body** (results, tables) remains closed, and its results sentence is **index-rendered only**.
+**(ii) The pre-registered outcome for S-154 is (iii), and IDEA-003 is unchanged.** The
+**pre-registration inherited from the Cycle-107 handoff §3** fixed three outcomes in advance; the
+published version reports **no different sign or magnitude** for individual-stock premia in anything
+obtained, its scope is identical ("five stock indexes and 35 individual stocks"), and its own
+index-rendered results sentence names the **indexes** as the strongly negative cases — so outcome (ii)
+is **not** triggered, **IDEA-003's G-05 closure is NOT re-opened**, and the single-name screen is not
+re-examined. The **individual-stock magnitudes remain the May 2004 working paper's**, and the
+known-baseline row 38 is corrected in place to say so.
+**(iii) The ASR question is closed, in both directions, and the register's standing baseline sentence was
+too strong.** The screen (logged as **R-056**) was **pre-registered in the cycle log before the
+fetches**. Its **positive** finding: the contract architecture is **public** — the executed confirmation
+was **Exhibit 99.1** to the Form 8-K, the announcement filing body (S-386) disclosed the initial price of
+**$25.97**, and the announcement press release (S-387) disclosed that the shares "are expected to be
+purchased from Goldman Sachs **based on the current market price at the time of the contract signing**" —
+so the baseline row's "the discount is private-contract data" is **narrowed in place**. Its **negative**
+finding: the quantity with the economics is **terminal** (a "future contingent purchase price adjustment
+expected to be settled at the end of the purchase period in the first or second quarter of 2006, based on
+the volume weighted average share price during the actual repurchase period"), the **initial discount is
+zero by construction**, the covering window is **bounded ex ante by published law** rather than by a
+discriminating state (17 CFR 240.10b-18: ADTV over four calendar weeks, a **25 percent** daily cap, one
+broker or dealer, price no higher than the highest independent bid — **S-388**), and the **issuer itself
+published its expectation that the adjustment would be immaterial** — "At the present time, the Company
+does not expect that the purchase price adjustment will be material" (S-386).
+**(iv) The two affected dossiers were checked and neither moves.** **IDEA-003 is unchanged** and its
+G-05 closure is **not re-opened**; the version drift concerns the *individual-stock magnitudes'*
+attribution, and the published version's scope and its large-index finding are unchanged. **IDEA-004 is
+unchanged**: S-154 is not one of its evidentiary legs, and nothing in the cycle touched the
+Morningstar-reform mechanism. **No candidate, score, rank, tie-break, hard-stop flag, gap or
+specification changed**; the rubric arithmetic was re-run from the shortlist's own table and is
+**clean** (IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0;
+IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010 terminal 4/4/1/2/2/2 = 55.0). The register now holds **378
+verified sources** (S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused).
+
+Earlier history — **Cycle 107 complete** (21 October 2026). Cycle 107 added **no new candidate dossier** and **no new validation specification** to this register; opened **no gap**, closed **no gap** and changed **no score**. Cycle 107 upgraded three source entries (S-153, S-156, and S-154 in part), partially upgraded a fourth (S-166, with a new primary source behind it), recorded two evidenced honest negatives (S-238, S-271) and registered **one new primary source (S-384)** — all in `source_ledger.md`, not in this register. **The four open Priority-3 questions carried from the Cycle-106 handoff were re-attempted from scratch over named, non-exhausted routes, and all four are now either closed or evidenced.**
 **(i) The state-integrity failure mode recurred, and this cycle records it in place.** The Cycle-106
 handoff header claimed "Cycle 106 complete" and "All artifact headers read 'Cycle 106 complete'", but
 the string "Cycle 106" appears **nowhere** as an annotation in `source_ledger.md` (0 occurrences),

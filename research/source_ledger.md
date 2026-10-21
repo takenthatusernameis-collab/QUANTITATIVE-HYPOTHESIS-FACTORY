@@ -1,4 +1,71 @@
-# SOURCE LEDGER — CYCLES 1–107
+# SOURCE LEDGER — CYCLES 1–108
+
+**Cycle 108 (2026-10-21) added four new source entries (S-385 … S-388), minted no new candidate and
+no new validation specification, opened no gap, closed no gap and changed no score.** The cycle's work
+was **evidence work plus one bounded, pre-registered theoretical screen** (the ASR announcement-date
+public-observability screen, logged as **R-056** in `rejected_and_parked.md`): the published *RFS* body
+of Carr & Wu (S-154) was attacked over **twenty-one named routes** and remains closed, while the
+**published version's front matter is now line-verified**; and the ASR question the register had asked
+for two cycles running is **answered from primary instruments**.
+
+- **S-154 — PARTIAL UPGRADE of the *published* version, with a VERSION-DRIFT FINDING and an EVIDENCED
+  CLOSURE of the body.** The published 2009 *RFS* article body **could not be obtained**: the Oxford
+  Academic article page, the `article-abstract` path, the DOI resolver, **three** distinct
+  `article-pdf` path forms and the Silverchair CDN all return **HTTP 403 (Cloudflare / Missing
+  Key-Pair-Id)**; JSTOR returns a bot-challenge page on both path forms; the **author-posted SSRN copy
+  of the published version (1359527) is indexed as "Not Available for Download"**; the Internet Archive
+  holds **no snapshot of any of the five legacy OUP path forms** and its full-text index returns **0
+  results**; and Unpaywall, OpenAlex and Semantic Scholar each report the article **closed with no
+  repository copy**. What *was* obtained, on a new host, is the **published version's front matter**,
+  carried verbatim in a 2022 NYU memorial lecture deck (**S-385**): the published title block, the
+  published **abstract** (including "(JEL G10, G12, G13)"), the first three paragraphs of the published
+  introduction, and the published **acknowledgements**, which thank **"Yacine Aït-Sahalia (the editor),
+  an anonymous referee"** — a decisive version discriminator, because the May 2004 working paper thanks
+  no editor and no referee. The **version drift is now documented precisely**: the published abstract
+  drops the working paper's "We theoretically and numerically show that", drops the "Ignoring the small
+  approximation error" clause, reads "variance risk **premiums**" where the working paper reads "variance
+  risk **premia**", drops the JEL code **C51** and the KEY WORDS line, and the published introduction
+  opens "It has been well documented that return variance is stochastic" where the working paper opens
+  with the 2003 Nobel-prize framing. The published **body** (results, tables) remains closed; its
+  results sentence is **index-rendered** only.
+- **S-385 — NEW SOURCE (a carrier of the published version's front matter).** Jim Gatheral, "Peter Carr
+  and the variance contract", memorial lecture slides, NYU (`wp.nyu.edu`), 2022 — **HTTP 200, 5,538,035
+  bytes, application/pdf, 61 pages, 32,936 characters extracted**; it reproduces the published article's
+  opening pages and acknowledgements verbatim, and its own running text carries the same sentences.
+- **S-386 — NEW PRIMARY FILING (the announcement itself).** FirstMerit Corporation, **Form 8-K**, period
+  of report 19 January 2006, filed 20 January 2006, accession 0000950152-06-000339 — the **filing body**
+  (`l18060ae8vk.htm`), fetched directly from EDGAR (**HTTP 200, 19,108 bytes; text layer 5,613
+  characters**). Item 1.01 line-verifies the announcement-date information set: the initial price
+  ($25.97), the **contingent** purchase-price adjustment settled "at the end of the purchase period in
+  the first or second quarter of 2006, based on the volume weighted average share price during the
+  actual repurchase period", and the issuer's own published statement that "**At the present time, the
+  Company does not expect that the purchase price adjustment will be material**"; and it records that
+  the executed master confirmation "are attached hereto as **Exhibit 99.1**".
+- **S-387 — NEW PRIMARY FILING (the announcement press release).** Exhibit 99.3 to the same Form 8-K,
+  "FirstMerit Announces Stock Repurchase Plan and Intent to Enter into Accelerated Repurchase Program
+  During First Quarter of 2006" (19 January 2006) — **HTTP 200, 5,348 bytes** — which line-verifies the
+  sentence that decides the screen: the shares "are expected to be purchased from Goldman Sachs **based
+  on the current market price at the time of the contract signing**".
+- **S-388 — NEW PRIMARY LAW.** 17 CFR 240.10b-18 (Rule 10b-18), fetched directly from the eCFR renderer
+  endpoint (**HTTP 200, 91,722 bytes of HTML; text layer 15,348 characters**) — the safe-harbour rule that
+  bounds the intermediary's covering purchases *ex ante*: (a)(1) "**ADTV** means the average daily
+  trading volume reported for the security during the **four calendar weeks** preceding the week in
+  which the Rule 10b-18 purchase is to be effected"; (b)(1) "**One broker or dealer** … must be effected
+  from or through only one broker or dealer on any single day"; (b)(4) "must not exceed **25 percent of
+  the ADTV** for that security", with the once-a-week block-purchase alternative and the proviso that a
+  block purchase "is not included when calculating a security's four week ADTV"; and (c) the
+  market-wide-suspension alternative, where the volume condition becomes 100 percent of ADTV.
+
+**Cycle 108 count record (re-derived from the files, not inherited).** **378 verified sources**
+(S-001 … S-209, S-220 … S-388; S-210 … S-219 reserved and unused). The derivation, re-run by inspection
+in this cycle: **368 distinct `### S-NNN` entry headings** plus the **ten** Cycle-58 document-record
+entries **S-281 … S-290**, which carry no `### S-NNN` heading of their own — the heading count alone
+therefore under-reports by ten. The one duplicated heading in the corpus is the **known** sub-heading
+inside S-358 ("### S-358 — Cycle-96 upgrade: the body was obtained and text-extracted"), which the
+Cycle-98 audit already recorded as a sub-heading inside an entry and not a second entry; it is **not** a
+duplicate citation. 15 dossiers, 10 validation specifications, 55 rejections before this cycle's R-056
+(56 after), 13 parking records, 92 baseline rows, gaps G-01 … G-36, with G-21 open, G-28 frozen and
+G-30 exhausted. **Next free identifiers: IDEA-017, S-389, V-012, G-37, R-057, P-015.**
 
 **Cycle 107 (2026-10-21) added one new source entry (S-384), minted no new candidate and no new
 validation specification, opened no gap, closed no gap and changed no score.** The cycle's work was
@@ -4745,7 +4812,124 @@ DOI: https://doi.org/10.1093/rfs/hhn038
     one. The register's IDEA-003 dossier text (which cites S-153/S-154 for "frequently zero or of the
     opposite sign to the index premium … the negative premium is a large-index phenomenon") is
     **confirmed** by the now-line-verified S-153 body and by S-154's limb 2, and is **not** affected by
-    the struck limb 3, which the dossier never asserted. **No candidate, score, rank or gap changes.**
+    the struck limb 3, which the dossier never asserted.   **No candidate, score, rank or gap changes.**
+
+- **Cycle-108 verification — PARTIAL UPGRADE OF THE *PUBLISHED* VERSION (front matter line-verified
+  through a carrier document, S-385) WITH A PRECISELY DOCUMENTED VERSION DRIFT, and an EVIDENCED
+  CLOSURE of the published *body*.** This bullet answers the **pre-registered P-1** question of the
+  Cycle-107 handoff §3, whose three outcomes were fixed before the fetch.
+  - **The published *body* could not be obtained. Twenty-one named routes, each with its failure mode,
+    are recorded here so that no future cycle re-runs them as if they were new.** (1) Oxford Academic
+    article page `/rfs/article/22/3/1311/1582761` → **HTTP 403** (Cloudflare "Just a moment");
+    (2) Oxford Academic article page `/rfs/article/22/3/1311/1581057` → **HTTP 403**; (3) the
+    `article-abstract` path form `/rfs/article-abstract/22/3/1311/1581057` → **HTTP 403** by both
+    `curl` and the agent's own fetcher; (4) the DOI resolver `https://doi.org/10.1093/rfs/hhn038` →
+    redirects to `academic.oup.com/rfs/article-lookup/doi/10.1093/rfs/hhn038` → **HTTP 403**;
+    (5) `article-pdf` path form A `/rfs/article-pdf/22/3/1311/1581057/rfs0220131.pdf?download=1` →
+    **HTTP 403**; (6) `article-pdf` path form B (the form Crossref's own `link` field gives)
+    `/rfs/article-pdf/22/3/1311/5372110/hhn038.pdf` → **HTTP 403** over **both** `https` and `http`;
+    (7) `article-pdf` path form C (the form the search index shows) `/rfs/article-pdf/22/3/1311/24429490/hhn038.pdf`
+    → **HTTP 403**; (8) the Silverchair CDN
+    `oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/22/3/10.1093_rfs_hhn038/3/rfs0220131.pdf`
+    → **HTTP 403**, XML body `Missing Key-Pair-Id query parameter or cookie value`; (9) JSTOR
+    `/stable/30225693` **and** `/stable/pdf/30225693.pdf` → **HTTP 200 but a 3,038-byte "Client
+    Challenge" bot page** (a *failure*, not a null result); (10) the **author-posted SSRN copy of the
+    published version, abstract 1359527** → Cloudflare **HTTP 403**, and the indexed page states
+    "**Not Available for Download**" — a specific, citable failure mode rather than a transient block;
+    (11) RePEc/IDEAS' published record → **HTTP 200, 30,658 bytes**, carrying the published abstract
+    and the note "**Download Restriction: Access to full text is restricted to subscribers**";
+    (12) the EconPapers mirror → **HTTP 200, 12,906 bytes**, same abstract, same restriction; (13) the
+    **OpenAIRE** API record → **HTTP 200, 503,238 bytes**, carrying the publisher's own **deposited
+    description** (abstract plus the opening of the published introduction); (14) **Unpaywall** →
+    **HTTP 200**, `oa_status: closed`, `oa_locations: []`, `has_repository_copy: false`; (15) **OpenAlex**
+    → **HTTP 200**, `oa_status: closed`, `any_repository_has_fulltext: false`, two locations (the DOI and
+    the RePEc handle), **no PDF**; (16) **Semantic Scholar** → **HTTP 200**, `isOpenAccess: false`,
+    `openAccessPdf: CLOSED`; (17) **Crossref** → **HTTP 200, 7,401 bytes**, still **no abstract
+    deposited**, but its `link` field supplied path form B above; (18) the **Internet Archive CDX** over
+    **five** legacy OUP path forms — `/cgi/content/full/22/3/1311`, `/content/22/3/1311*`,
+    `/cgi/content/abstract/22/3/1311`, `/content/22/3/1311.full.pdf`, `/cgi/data/22/3/1311`,
+    `/cgi/repr/22/3/1311` — each a **successful query returning an empty array** (no snapshot), while
+    the `academic.oup.com` article URL holds **only 302 redirects**; (19) the Internet Archive
+    **full-text** index → **0 results**; (20) the **NYU Faculty Digital Archive** search → six results,
+    **none** the paper; (21) the author pages: `cims.nyu.edu/~pcarr/` **403**, `math.nyu.edu/~pcarr/`
+    **403**, `engineering.nyu.edu/peter-carr` **403 "Access denied"**, `faculty.baruch.cuny.edu/lwu`
+    **redirects to a generic profiles page**, and `baruch.cuny.edu/profiles/faculty/Liuren-Wu` → **HTTP
+    200, 89,262 bytes** but a **publications list with no downloadable file** (it does independently
+    confirm the citation "(2009). Variance Risk Premiums. Review of Financial Studies, 22(3). 1311-1341").
+    **The Internet Archive was intermittently unavailable during part of this cycle (HTTP 503 "Internet
+    Archive: Temporarily Offline", HTTP 502); the affected wildcard queries are recorded as failures,
+    not as null results.**
+  - **The published version's FRONT MATTER is now line-verified**, through **S-385** (a 2022 NYU memorial
+    lecture deck, a new host, fetched directly: **HTTP 200, 5,538,035 bytes, application/pdf, 61 pages,
+    32,936 characters**), which reproduces the published article's opening pages and acknowledgements
+    verbatim. Line-verified in that text layer: the **published title block** ("Variance Risk **Premiums**";
+    Peter Carr, "Bloomberg LP and Courant Institute, New York University"; Liuren Wu, "Zicklin School of
+    Business, Baruch College"); the **published abstract**, identical in wording to the abstract carried
+    by RePEc/IDEAS, EconPapers and OpenAIRE and ending "…five stock indexes and 35 individual stocks.
+    **(JEL G10, G12, G13)**"; the **first three paragraphs of the published introduction**; and the
+    **published acknowledgements**: "We thank **Yacine Aït-Sahalia (the editor), an anonymous referee**,
+    and Turan Bali, David Bates, Menachem Brenner, Mikhail Chernov, Robert Engle, Stephen Figlewski,
+    Rajna Gibson, Alfredo Ibanez, George Jiang, Dilip Madan, Steven Posner, Anders Bjerre Trolle,
+    Benjamin Wurzburger, Jin Zhang, Chu Zhang, and seminar participants at the 5th Conference on Financial
+    Risks at Verona (Italy), the 2005 American Finance Association meetings, Baruch College, Hong Kong
+    University of Science and Technology, New York University, and University of Zurich for comments. We
+    also thank David Hait and OptionMetrics for providing the option data, Alex Mayus for clarifying
+    trading practices, and Rui Yao for help on data processing. … Liuren Wu gratefully acknowledges the
+    support by a grant from The City University of New York PSC-CUNY Research Award Pro[gram]…".
+    (The extracted layer renders the editor's surname with a **space and a separated diaeresis** —
+    "A ¨ıt-Sahalia" — so the quotation above is a normalised rendering of the layer's text; the
+    re-checkable strings are "we thank yacin" and "tsahalia (the editor), an anonymous referee".)
+    **This is the decisive version discriminator: the published version thanks the editor and an
+    anonymous referee; the May 2004 working paper thanks neither.**
+  - **The version drift is now documented precisely, against the 2004 working paper re-fetched this cycle
+    from a new host** (the Internet Archive's copy of the LMU Munich mirror: **HTTP 200, 335,949 bytes,
+    application/pdf, 60 pages, 132,347 characters** — byte-identical in size to the Munich original, and
+    a *different host*, so the exhausted-route rule is respected). The differences are: (a) the
+    **abstract**: the working paper reads "We **theoretically and numerically** show that the risk-neutral
+    expected value of **the** return variance … is well approximated by the value of a particular
+    portfolio of options. **Ignoring the small approximation error**, the difference between the realized
+    variance and this synthetic variance swap rate **quantifies** the variance risk premium. Using a
+    large options data set, we synthesize variance swap rates and investigate the historical behavior of
+    **variance risk premia** on five stock indexes and 35 individual stocks. **JEL CLASSIFICATION CODES:
+    G10, G12, G13, C51. KEY WORDS:** Stochastic volatility; variance risk premia; …", the published
+    version reads "We **show** that the risk-neutral expected value of return variance … is well
+    approximated by the value of a particular portfolio of options. **We propose to use** the difference
+    between the realized variance and this synthetic variance swap rate **to quantify** the variance risk
+    premium. … investigate the historical behavior of **variance risk premiums** on five stock indexes and
+    35 individual stocks. **(JEL G10, G12, G13)**" — the published abstract drops the approximation-error
+    clause, drops the C51 JEL code and the whole KEY WORDS line, and uses the plural noun that matches
+    the published **title**; (b) the **introduction opening**: the working paper opens "The grant of the
+    2003 Nobel prize in economics has made available to the general public the well-documented observation
+    that return variances are random over time. **Therefore**, when investing in a security such as a
+    stock or a stock portfolio, an investor faces at least two sources of uncertainty…", the published
+    version opens "**It has been well documented that return variance is stochastic.** When investing in
+    **a security**, an investor faces at least two sources of uncertainty, namely the uncertainty about
+    **the return** as captured by **the** return variance…"; (c) the **acknowledgements**, as quoted
+    above. **The published version's *scope* is identical** — "five stock indexes and 35 individual
+    stocks" — so the sample the entry reasons about is unchanged.
+  - **What the published version says about the individual-stock premia: nothing that is line-verified.**
+    Its results sentence — "We find that the average variance risk premiums are strongly negative for
+    the S&P 500 and 100 indexes and for the Dow Jones Industrial Average." — is **index-rendered only**
+    (it is visible in the search index's rendering of the publisher's own PDF, at
+    `academic.oup.com/rfs/article-pdf/22/3/1311/24429490/hhn038.pdf`, and in the ResearchGate record of
+    the published PDF), and it is **not** promoted to a quotation. It is, however, in the published
+    version's own words **consistent with the working paper's conclusion and with the entry's large-index
+    limb**: the *indexes* carry the strongly negative premia. The working paper's corresponding sentence
+    (line-verified this cycle) is "We find that the average risk premia on return variances are strongly
+    negative for the S&P 500 and 100 indexes and for the Dow Jones Industrial Average. **The magnitude of
+    the premia are smaller for the Nasdaq 100 index and for individual stocks.**" and its section heading
+    reads "The variance risk premia are strongly negative for S&P and Dow indexes. The classical capital
+    asset pricing model cannot explain the negative variance risk premia."
+  - **Pre-registered outcome: (iii), with the drift itself now documented.** The published version's
+    individual-stock **magnitudes** remain unobtainable, so **the row's working-paper attribution
+    stands** and the entry's substantive claim is **not** re-based on the published text. **Outcome (ii)
+    is NOT triggered**: the published version reports **no different sign or magnitude** for
+    individual-stock premia in anything obtained, its scope is identical, and its own summary sentence
+    names the *indexes* as the strongly negative cases. **IDEA-003's G-05 closure is therefore NOT
+    re-opened**, and the single-name screen is not re-examined. **No score, rank, gap, hard-stop flag
+    or specification changed**; the known-baseline row 38 is corrected in place to carry the
+    working-paper attribution explicitly.
+
 
 ### S-155 — Andersen, L., Duffie, D. and Song, Y. (2019)
 "Funding Value Adjustments." *The Journal of Finance* 74(1): 145–192.
@@ -13885,3 +14069,160 @@ URL: https://www.sec.gov/Archives/edgar/data/354869/000095015206000339/l18060aex
   register's rule is to reuse an identifier only for a duplicate citation, and this is a different
   document of a different type that carries the ASR mechanic in its own operative text. It changes no
   score, creates no candidate, and opens no gap.
+- **Cycle-108 cross-reference (the announcement-date information set is now primary-verified, and the
+  rule this contract refers to is now line-verified in the rule itself).** The Cycle-107 note recorded
+  the contract architecture; Cycle 108 added **three** primary documents behind it, and they change what
+  the entry supports: **S-386** (the Form 8-K filing body) line-verifies that the announcement itself
+  disclosed the **initial price of $25.97** and that the economic quantity is a **"future contingent
+  purchase price adjustment expected to be settled at the end of the purchase period in the first or
+  second quarter of 2006, based on the volume weighted average share price during the actual repurchase
+  period"**, that the issuer publicly stated it "**does not expect that the purchase price adjustment
+  will be material**", and that the executed confirmation "are attached hereto as **Exhibit 99.1**";
+  **S-387** (Exhibit 99.3) line-verifies that the shares "are expected to be purchased from Goldman
+  Sachs **based on the current market price at the time of the contract signing**" — so the *initial*
+  price is by construction the prevailing market price and the **entire** economic content of the ASR
+  lies in the contingent adjustment; and **S-388** (17 CFR 240.10b-18) line-verifies the rule this
+  contract keys its daily purchases to — "**ADTV** means the average daily trading volume reported for
+  the security during the **four calendar weeks** preceding the week in which the Rule 10b-18 purchase
+  is to be effected" and the daily cap "must not exceed **25 percent of the ADTV** for that security" —
+  including the "block purchases" proviso that S-384's contract expressly disclaims. **Effect on this
+  entry:** the contract's **caveat is sharpened**, not weakened. The entry's architectural claim is
+  unchanged and is now corroborated at the announcement level; and the screen that these three
+  documents support is logged as **R-056** in `rejected_and_parked.md`, with the register's known-baseline
+  **row 44** corrected in place. **No score, candidate, gap or specification changes.**
+
+### S-385 — Gatheral, J. (2022)
+"Peter Carr and the variance contract" — memorial lecture slides, New York University
+(`wp.nyu.edu`; the Jim Gatheral memorial lecture for Peter Carr, 15 June 2022 file).
+URL: https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/b/24047/files/2022/06/15-Jim-Gatheral-PeterCarrMemorial.pdf
+- **Type:** Secondary carrier of a primary published text — a **lecture deck** that reproduces the
+  opening pages and the acknowledgements of the published article **Carr, P. and Wu, L. (2009),
+  "Variance Risk Premiums", *Review of Financial Studies* 22(3): 1311–1341** (which is **S-154**).
+- **Supports:** the **published version's front matter**, line-verified: the published title block
+  ("Variance Risk **Premiums**"; Peter Carr, "Bloomberg LP and Courant Institute, New York
+  University"; Liuren Wu, "Zicklin School of Business, Baruch College"); the **published abstract**,
+  word for word, ending "…five stock indexes and 35 individual stocks. (JEL G10, G12, G13)"; the
+  **first three paragraphs of the published introduction**; and the **published acknowledgements**,
+  which thank "**Yacine A ¨ıt-Sahalia (the editor), an anonymous referee**" — the decisive **version
+  discriminator**, because the May 2004 working paper (S-154's line-verified body) thanks **no editor
+  and no referee**. The deck also confirms the published abstract's wording independently of the
+  RePEc/EconPapers/OpenAIRE deposits.
+- **Caveats:** this is **not** the article. It reproduces only the **opening pages and the
+  acknowledgements** — the deck's own text contains **zero hits** for "strongly negative", "S&P 100",
+  "insignificant" and "factor", so it carries **no** results, tables or individual-stock magnitudes.
+  It is therefore a **carrier of the published version's text, not an independent evidentiary basis for
+  the paper's findings**, and it must never be cited as a source of the paper's empirical results. The
+  deck is a set of slides, not a peer-reviewed document, and its own authorship is a secondary matter;
+  the *content* it carries is the published article's, which is why it is registered as a carrier
+  rather than as a claim source.
+- **Verification:** fetched directly on 21 October 2026 — **HTTP 200, 5,538,035 bytes,
+  application/pdf**; text-extracted with `pypdf` to **61 pages, 32,936 characters** and read. The
+  re-checkable strings are "we propose a direct and robust method for quantifying the variance risk
+  premium on financial assets", "( jel g10, g12, g13)", "it has been well documented that return
+  variance is stochastic", "we thank yacin", "tsahalia (the editor), an anonymous referee", "5th
+  conference on financial risks at verona (italy)", "the 2005 american finance association meetings"
+  and "psc-cuny research award pro". The verification label is **line-verified (document fetched
+  directly and text-extracted)** from the moment of creation. **No score, candidate, gap or
+  specification changes.**
+
+### S-386 — FirstMerit Corporation (2006)
+Current Report on **Form 8-K**, period of report **19 January 2006**, filed **20 January 2006** —
+the **filing body** (`l18060ae8vk.htm`), which is the *announcement* itself.
+Accession No. 0000950152-06-000339; filer FIRSTMERIT CORP /OH/, CIK 0000354869.
+URL: https://www.sec.gov/Archives/edgar/data/354869/000095015206000339/l18060ae8vk.htm
+- **Type:** Primary legal filing (SEC current report) — the **announcement-date information set** for
+  the accelerated share repurchase in S-384.
+- **Supports:** what was **publicly knowable on the announcement date**. **Item 1.01** states, verbatim:
+  "On January 20, 2006, FirstMerit Corporation (the "Company") announced that it entered into an
+  accelerated share repurchase arrangement to repurchase 2.5 million common shares with Goldman, Sachs &
+  Co. **The initial price paid per common share was $25.97.** The repurchased common shares will be
+  subject to a **future contingent purchase price adjustment expected to be settled at the end of the
+  purchase period in the first or second quarter of 2006, based on the volume weighted average share
+  price during the actual repurchase period. At the present time, the Company does not expect that the
+  purchase price adjustment will be material.** The purchase price adjustment will be reflected in the
+  treasury stock line on the Company's balance sheet. … The terms and conditions relating to the
+  accelerated repurchase arrangement are more fully described in the Accelerated Share Repurchase Master
+  Confirmation, and the Supplemental Confirmation attached thereto, dated January 19, 2006, **which are
+  attached hereto as Exhibit 99.1 and are incorporated herein by reference.** The foregoing summary is
+  qualified in its entirety by reference to the text of Exhibit 99.1." **Item 8.01** records that the
+  Board authorised the repurchase of up to 3 million shares and authorised the ASR for up to 2.5
+  million; **Item 9.01** lists the exhibits (99.1 the master confirmation and supplemental
+  confirmation; 99.2 the results press release; 99.3 the repurchase-authorisation press release).
+- **Caveats:** one 2006 transaction by a listed bank holding company; the filing is the *issuer's own
+  characterisation* of the transaction, not an independent measurement, and the 8-K's statement that
+  the adjustment was not expected to be material is a **forward-looking expectation disclosed at the
+  announcement**, not a realised outcome. The filing does not report the realised adjustment; the
+  register does not claim that it does.
+- **Verification:** fetched directly on 21 October 2026 from `www.sec.gov` with a compliant
+  User-Agent — **HTTP 200, 19,108 bytes, text/html**; the HTML text layer was extracted to **5,613
+  characters** and read. The EDGAR filing index was fetched directly (**HTTP 200**) in the same
+  session and confirms the citation field by field. The quoted passages are present verbatim. The
+  verification label is **line-verified (document fetched directly and text-extracted)** from the
+  moment of creation.
+
+### S-387 — FirstMerit Corporation (2006)
+"FIRSTMERIT ANNOUNCES STOCK REPURCHASE PLAN AND INTENT TO ENTER INTO ACCELERATED REPURCHASE PROGRAM
+DURING FIRST QUARTER OF 2006" — **Exhibit 99.3** to the Form 8-K registered as **S-386**
+(`l18060aexv99w3.htm`), dated 19 January 2006.
+URL: https://www.sec.gov/Archives/edgar/data/354869/000095015206000339/l18060aexv99w3.htm
+- **Type:** Primary legal filing (SEC-filed press release exhibit) — the *public announcement* of the
+  ASR programme.
+- **Supports:** the sentence that decides the ASR state's public-observability question, verbatim:
+  "Pursuant to the accelerated repurchase program, the shares are expected to be purchased from Goldman
+  Sachs **based on the current market price at the time of the contract signing.** The accelerated share
+  repurchase program allows the Company to account for the purchase of the shares immediately, while
+  Goldman Sachs may purchase shares in the market over a purchase period to be agreed upon, but which
+  is expected to conclude in the first or second quarter of 2006. The repurchased shares will be subject
+  to a future contingent purchase price adjustment expected to be settled at the end of the purchase
+  period in the first or second quarter of 2006, based on the volume weighted average share price during
+  that actual repurchase period." It also records the authorisation context: up to 3,000,000 shares,
+  "approximately **3.6%** of the Company's outstanding shares", against a prior 3,000,000-share
+  authorisation from July 2004 that had been fully utilised, and the intent to repurchase 2,500,000
+  shares "during the first quarter of 2006" into treasury.
+- **Caveats:** a press release, not a filing of the terms; the executed terms are in Exhibit 99.1
+  (S-384). It is dated 19 January 2006 while the Form 8-K itself reports the announcement on 20 January
+  2006 — the two dates are the register's own record and are not reconciled here.
+- **Verification:** fetched directly on 21 October 2026 from `www.sec.gov` with a compliant
+  User-Agent — **HTTP 200, 5,348 bytes, text/html**; the HTML text layer was extracted and read. The
+  quoted passages are present verbatim. The verification label is **line-verified (document fetched
+  directly and text-extracted)** from the moment of creation.
+
+### S-388 — Securities Exchange Act of 1934, Rule 10b-18 (17 CFR 240.10b-18)
+"Purchases of certain equity securities by the issuer and others", *Code of Federal Regulations*,
+Title 17, Part 240, § 240.10b-18 (as amended at 68 FR 64970, Nov. 17, 2003, and 70 FR 37618, June 29,
+2005).
+URL: https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.10b-18
+(renderer endpoint used: https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-17?chapter=II&part=240&section=240.10b-18)
+- **Type:** Primary law (federal regulation) — the safe-harbour rule that bounds an issuer's repurchase
+  purchases, and therefore the intermediary's covering purchases under an ASR.
+- **Supports:** the **published, ex ante** constraints on the covering window that S-384's contract
+  refers to, quoted verbatim from the fetched text layer: (a)(1) "**ADTV** means the average daily
+  trading volume reported for the security during the **four calendar weeks** preceding the week in
+  which the Rule 10b-18 purchase is to be effected."; (b)(1) "**One broker or dealer.** Rule 10b-18
+  purchases must be effected from or through only one broker or dealer on any single day"; (b)(3)
+  "**Price of purchases.** Rule 10b-18 purchases must be effected at a purchase price that: (i) Does
+  not exceed the highest independent bid or the last independent transaction price, whichever is
+  higher, quoted or reported in the consolidated system at the time the Rule 10b-18 purchase is
+  effected"; (b)(4) "**Volume of purchases.** The total volume of Rule 10b-18 purchases effected by or
+  for the issuer and any affiliated purchasers effected on any single day must not exceed **25 percent
+  of the ADTV** for that security; However, once each week, in lieu of purchasing under the 25 percent
+  of ADTV limit for that day, the issuer or an affiliated purchaser of the issuer may effect one block
+  purchase if: (i) No other Rule 10b-18 purchases are effected that day, and (ii) The block purchase is
+  **not** included when calculating a security's four week ADTV under this section."; and (c) the
+  market-wide-suspension alternative, in which "the volume of purchases condition in paragraph (b)(4)
+  of this section is modified so that the amount of Rule 10b-18 purchases must not exceed **100 percent
+  of the ADTV** for that security."
+- **Caveats:** the rule is a **safe harbour**, not a prohibition: (d) "No presumption shall arise that
+  an issuer or an affiliated purchaser has violated the anti-manipulation provisions … if the Rule
+  10b-18 purchases … do not meet the conditions specified in paragraph (b) or (c) of this section." The
+  rule also states that its conditions bind **"Rule 10b-18 purchases"** — purchases made by the issuer or
+  an affiliated purchaser — and it does **not** regulate a *third-party* intermediary's own market
+  purchases as such; the register uses it here because S-384's contract expressly keys the
+  intermediary's daily purchases to "the applicable maximum amount of Shares permitted under Rule
+  10b-18(b)(4)". The text is the version current at the date of the fetch (2026).
+- **Verification:** fetched directly on 21 October 2026 from `www.ecfr.gov` — the renderer endpoint
+  returned **HTTP 200, 91,722 bytes, text/html** and the plain section page **HTTP 200, 10,596
+  bytes**; the HTML text layer was extracted to **15,348 characters** and read, ending with the
+  section's own amendment note "[68 FR 64970, Nov. 17, 2003, as amended at 70 FR 37618, June 29,
+  2005]". The quoted passages are present verbatim. The verification label is **line-verified (document
+  fetched directly and text-extracted)** from the moment of creation.

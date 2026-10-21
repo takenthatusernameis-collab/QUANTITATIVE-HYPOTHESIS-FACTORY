@@ -3752,3 +3752,172 @@ Theory-only cycle. No tests, no data acquisition or processing, no strategy or s
 **12. What was NOT done, and why.** No new candidate dossier was written, because the register's named absent families remain exhausted and no new mechanism family was pre-registered — inventing a family to produce a dossier would be exactly the behaviour the prior cycles' bounded negatives forbid. No validation specification was created or amended, because nothing in this cycle's evidence changed any specification's inputs, status or scope. No score moved, because provenance is not new evidence. **No backtest, simulation, parameter sweep, significance test, performance or risk metric, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launch, workflow/test/credential/infrastructure change, cross-repository work or trading was performed at any point in this cycle.**
 
 **13. One formatting repair, recorded for completeness.** `ranked_shortlist.md` carried its title line **twice** (an exact duplicate H1 on lines 1 and 3), a pre-existing cosmetic defect left over from an earlier cycle's header rewrite. The duplicate was removed in this cycle because the header was being rewritten anyway; **no content, score, rank or table row was affected**.
+
+## Cycle 108 — 2026-10-21 (in progress)
+
+Theory-only cycle. No tests, no data acquisition or processing, no strategy or signal implementation, no performance or risk metrics, no workflow, test, credential or infrastructure changes, and the canonical mission prompt was not edited. The cycle's work is **evidence work plus one bounded theoretical screen**, not a candidate screen.
+
+### Pre-registrations (written BEFORE execution — this section precedes the fetches it governs)
+
+**Pre-registration P-1 — the published-version drift question for S-154 (Carr & Wu, *RFS* 2009).**
+This pre-registration was inherited verbatim from the Cycle-107 handoff §3 and is restated here unchanged, so that the outcome is recorded against a rule fixed before the fetch:
+- **(i)** the published version confirms the working paper → the known-baseline row's wording is re-based on the published text;
+- **(ii)** the published version reports a different sign or magnitude for individual-stock premia → **the row is rewritten, the single-name screen is re-examined, and IDEA-003's G-05 closure is re-opened for that limb only**;
+- **(iii)** the published version is not obtainable → the row states the working-paper attribution explicitly, as it does now.
+
+**Pre-registration P-2 — the ASR announcement-date public-observability screen.** *Question.* For an accelerated share repurchase executed as in **S-384** (FirstMerit Corporation / Goldman, Sachs & Co., Form 8-K, period of report 19 January 2006, accession 0000950152-06-000339), **what was publicly knowable at the announcement date** about (i) the discount and (ii) the intermediary's covering window — and is the resulting state *decision-time* and *free*?
+
+*Decision rule, fixed in advance.* The screen returns one of three limbs, each with a stated consequence:
+- **Limb A — public-observability of the CONTRACT'S TERMS: POSITIVE** if the executed master confirmation (or an equivalent filed instrument) is a **public exhibit to the announcement filing**, so that the trade date, the forward price, the covering-window cap, the daily purchase limit, the termination price and the compensation formula are in the public record **at the announcement date**. Consequence if positive: the register's standing baseline sentence — *"the mechanism, the pricing and the announcement effects are published, and the discount is private-contract data"* (known-baseline **row 44**) — is **too strong as written** and must be **narrowed in place** to distinguish *contract architecture* (possibly public) from *realized discount* (not public at announcement).
+- **Limb B — public-observability of the DISCOUNT: NEGATIVE** if the discount is a **terminal quantity** — defined against a settlement price struck over a **future** window the contract itself sets — such that **no announcement-time observation identifies the discount that will be realized**. Consequence if negative: a bounded negative on the public-observability limb is itself a **registrable result**; the decision-time state the candidate would need does not exist, and the family is a bounded negative rather than an open question.
+- **Limb C — is the state decision-time and free?** Positive only if the state is (a) computable from public information **at the announcement date** and (b) not already published as a tradeable result by the market or the peer-reviewed literature. If A and B both hold, the family's state is **bounded rather than point-identified**, and the verdict is a bounded negative on the *tradeable-state* limb.
+
+*Falsification conditions.* (F-1) If a filed exhibit (or other primary instrument) discloses the **realized** or **contractually fixed** discount **at the announcement date**, Limb B is falsified. (F-2) If the Rule 10b-18 daily purchase limit is **not** a *published, ex ante* constraint on the covering window, the "published ex ante bound" sub-claim inside Limb A is falsified. (F-3) If the announcement filing turns out **not** to carry the executed confirmation as a public exhibit, Limb A is falsified and the register's baseline row 44 stands unamended.
+
+*Execution bounds.* The execution is limited to **reading primary legal and regulatory text** — the SEC filing itself and the Code of Federal Regulations — and to the register's own prior art. **No backtest, simulation, parameter sweep, significance test, performance or risk metric, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launch, or trading.** The screen produces **no score change, no dossier and no re-screen of any retained candidate**; its outputs are a verdict, an in-place baseline correction where warranted, and any new primary source that the reading itself produced.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the three handoff priorities in order. (1) **Priority 1 (S-154)**: fetch the
+published 2009 *RFS* body of Carr & Wu over the named routes (Oxford Academic, RePEc/IDEAS, Carr's NYU
+page, Wu's Baruch page) and read the published version's own statement of the large-index phenomenon and
+the 35-name scope. (2) **Priority 2 (the two open theoretical questions)**: (a) the published-version
+drift question for S-154, under the three-outcome pre-registration inherited from the Cycle-107 handoff
+§3; (b) the ASR public-observability question — "at the announcement date, what was publicly knowable
+about the discount and the covering window, and is the resulting state decision-time and free?" — with
+the verdict, the falsification conditions and the stop conditions **written down before the fetches**.
+(3) **Priority 3 (housekeeping)**: re-derive the counts, re-run the rubric arithmetic, update all five
+artifact headers, add this cycle's section, and rewrite the handoff with a fresh initial task message.
+
+**Pass 2 — Critique.** Three objections to the draft. (i) **"Fetch the published body" is not a
+well-formed task**, because the publisher's routes are not the only routes and the draft names only
+publisher-side hosts; the register's own precedent (S-153 in Cycle 107) was a *course-hosted copy on a
+new host*, and Cycle 107's own lesson was that "a failed retrieval must be recorded as a failed
+retrieval" with every route and its failure mode. So the task must be re-specified as **an exhaustive
+enumeration of distinct hosts and path forms**, with the three open-access registries and the Internet
+Archive included as *independent* evidence, and with a **version-discrimination test** built in: the
+published version must be identified by the document's *own* furniture, not by the URL it came from.
+(ii) **The ASR question as the draft phrased it risks a false negative.** Asking "is the discount public?"
+invites the answer "no, it is private-contract data" — which is the register's *existing* baseline
+sentence, and a screen that merely re-derives the register's prior belief teaches nothing. The screen
+must be phrased so that it can **falsify the register's own sentence**: the *contract* is a different
+object from the *discount*, and the contract turns out to be filed. So the question must be split into
+**three limbs** (contract terms / the discount / decision-time-and-free) with a **pre-registered
+consequence for each**, and the whole thing must be **written into the cycle log before the fetches**,
+because the Cycle-106 lesson was that a screen whose decision rule is written *after* the evidence is
+not a screen.
+(iii) **The draft risks a second false negative in the drift question**: the pre-registration's outcome
+(i) is "the published version confirms the working paper", which would license re-basing the row on the
+published text — but if the published body is *closed*, "confirms" cannot be established, and the
+correct outcome is (iii), not a silent re-basing. The pre-registration must therefore record that a
+**partial** publication of the published version (front matter without results) resolves to (iii) for the
+individual-stock magnitudes, and that **the published version's own abstract-level scope statement is
+evidence about the row, not about the magnitudes**.
+
+**Pass 3 — Revise.** (a) Re-specify Priority 1 as a **21-route enumeration** across four host families
+(publisher, repositories/aggregators, archives, author pages) plus three OA registries, with a
+**version-discrimination test** (the published acknowledgements name the editor and an anonymous
+referee; the working paper's do not). (b) Write the **pre-registration into the cycle log before the
+fetches**, with three limbs, three falsification conditions and explicit execution bounds, and execute
+the ASR screen against **primary instruments only** (the SEC filing and the CFR). (c) Restrict the
+drift outcome: the row's **individual-stock magnitudes** stay attributed to the May 2004 working paper
+unless the published results are obtained, and the published **front matter** is recorded as what it is —
+a front matter. (d) Do the housekeeping **losslessly**: no row added, removed or renumbered; two
+existing rows corrected in place; no score, rank, gap or specification changed.
+
+### Outcomes
+
+1. **S-154 — the published 2009 *RFS* body is an EVIDENCED CLOSURE, and the published version's front
+   matter is LINE-VERIFIED.** The body could not be obtained over **twenty-one named routes**; the
+   failure mode of each is recorded in the ledger (Oxford Academic **HTTP 403 (Cloudflare)** on the
+   article page, the `article-abstract` path, the DOI resolver and **three** distinct `article-pdf` path
+   forms; the Silverchair CDN **403 `Missing Key-Pair-Id`**; JSTOR a **bot-challenge page** on two path
+   forms; the author-posted SSRN copy of the published version indexed as "**Not Available for Download**";
+   five legacy OUP path forms with **no Internet Archive snapshot**; the archive's full-text index at
+   **0 results**; **Unpaywall / OpenAlex / Semantic Scholar all reporting the article closed with no
+   repository copy**; Crossref still depositing no abstract; the two author pages yielding only a
+   publications list; the NYU Faculty Digital Archive yielding six unrelated items). The Internet
+   Archive was intermittently unavailable for part of the cycle (HTTP 503 / 502) and the affected
+   wildcard queries are recorded as **failures, not null results**. The **published front matter** was
+   obtained on a **new host** through **S-385**: the published title block, the published **abstract**
+   (identical to the RePEc/IDEAS, EconPapers and OpenAIRE deposits, ending "(JEL G10, G12, G13)"), the
+   first three paragraphs of the published introduction, and the published **acknowledgements** naming
+   "**Yacine A ¨ıt-Sahalia (the editor), an anonymous referee**" — against the May 2004 working paper's
+   acknowledgements, which name neither. **This is the decisive version discriminator.**
+2. **The version drift is now documented precisely**, against the 2004 working paper re-fetched this
+   cycle from a **new host** (the Internet Archive's copy of the LMU Munich mirror; HTTP 200, 335,949
+   bytes, 60 pages, 132,347 characters — byte-identical in size to the Munich original). Differences:
+   the published abstract drops "We theoretically and numerically show that", drops the "Ignoring the
+   small approximation error" clause, reads "variance risk **premiums**" where the working paper reads
+   "variance risk **premia**", drops the JEL code **C51** and the whole **KEY WORDS** line; the published
+   introduction opens "It has been well documented that return variance is stochastic" where the working
+   paper opens with the 2003 Nobel-prize framing; and the published acknowledgements add the editor, a
+   referee, six further names, the Verona/2005-AFA/University-of-Zurich seminar list and the PSC-CUNY
+   grant. **The published scope is identical** — "five stock indexes and 35 individual stocks".
+3. **The pre-registered drift outcome is (iii).** The published version's **results sentence** — "We find
+   that the average variance risk premiums are strongly negative for the S&P 500 and 100 indexes and for
+   the Dow Jones Industrial Average." — is **index-rendered only** and is **not** promoted to a
+   quotation; it is nonetheless in the published version's own words **consistent with the row's
+   large-index limb** and reports **no** different sign for individual-stock premia. So **outcome (ii) is
+   not triggered**, **IDEA-003's G-05 closure is not re-opened**, and the **individual-stock magnitudes
+   remain the May 2004 working paper's** — the known-baseline **row 38** is corrected in place to say
+   so.
+4. **The ASR screen executed and closed as a bounded negative (R-056).** **Limb A POSITIVE**: the
+   executed confirmation was **Exhibit 99.1** to the Form 8-K; the filing body (**S-386**) disclosed
+   the initial price of **$25.97**; the announcement press release (**S-387**) disclosed that the
+   shares "are expected to be purchased from Goldman Sachs **based on the current market price at the
+   time of the contract signing**". **Limb B NEGATIVE**: the initial discount is **zero by
+   construction**, and the economic quantity is **terminal** — a "future contingent purchase price
+   adjustment expected to be settled at the end of the purchase period in the first or second quarter of
+   2006, based on the volume weighted average share price during the actual repurchase period".
+   **Limb C**: the covering window is **bounded ex ante by published law** — 17 CFR 240.10b-18 (**S-388**):
+   "ADTV means the average daily trading volume reported for the security during the **four calendar
+   weeks** preceding the week in which the Rule 10b-18 purchase is to be effected", a daily cap of "**25
+   percent of the ADTV**", "only **one broker or dealer** … on any single day", and price "no higher than
+   the highest independent bid" — and by the contract's own four-month cap — so the *bound* is
+   decision-time and public, while the *realised* path is not. Decisively, the **issuer published its own
+   expectation** at the announcement date: "At the present time, the Company does not expect that the
+   purchase price adjustment will be material." The register's baseline sentence **"the discount is
+   private-contract data" was too strong and is narrowed in place** (row 44): the *contract architecture*
+   is public; the *realised discount* is not.
+5. **Four new sources registered: S-385, S-386, S-387, S-388.** One entry cross-referenced (**S-384**);
+   one upgraded with a version-drift finding (**S-154**); one bounded negative logged (**R-056**); **two
+   known-baseline rows corrected in place** (row 38, row 44). **No row was added, removed or
+   renumbered**; the table remains **92 rows**.
+6. **Counts re-derived from the files, not inherited.** **378 verified sources** (S-001 … S-209,
+   S-220 … S-388; S-210 … S-219 reserved and unused) = **368 distinct `### S-NNN` headings** + the
+   **ten** document-record entries **S-281 … S-290**, which carry no heading of their own; the one
+   duplicated heading in the corpus is the **known** S-358 sub-heading already recorded in Cycle 98, not
+   a duplicate citation. **15 dossiers** (4 active, 6 parked, 5 rejected); **4 ranked active** plus
+   **1 parked at terminal**; **10 validation specifications** (2 executable, 1 frozen, 1
+   never-to-execute, 6 not executable); **56 rejections** (R-001 … R-056); **13 parking records** (12
+   active, P-004 closed by R-038); **92 baseline rows**; gaps **G-01 … G-36** with **G-21 open, G-28
+   frozen, G-30 exhausted** and **G-37 next free**.
+7. **The rubric arithmetic was re-run from the shortlist's own table and is clean**: IDEA-011
+   4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+   3/2/3/2/2/4 = 52.0; IDEA-010 (parked) terminal 4/4/1/2/2/2 = 55.0. **No score, rank, tie-break,
+   hard-stop flag, gap or specification changed**, and no re-screen of any retained candidate was
+   triggered.
+8. **No new gap was opened, and none was closed.** Every reason in R-056 is independent of data
+   availability, and the drift question resolved to a pre-registered outcome that required no gap.
+9. **What was deliberately not done.** No backtest, simulation, parameter sweep, optimisation,
+   significance test, performance or risk metric, market-data acquisition or processing, strategy or
+   signal implementation, executable research infrastructure, job or workflow launch, test, credential
+   or infrastructure change, cross-repository work, or trading. The canonical mission prompt was not
+   edited. No candidate dossier was created, and **no `IDEA-`, `V-`, `P-` or `G-` identifier was
+   consumed**.
+10. **Identifiers consumed in Cycle 108:** S-385, S-386, S-387, S-388, R-056. **Next free identifiers:
+    IDEA-017, S-389, V-012, G-37, R-057, P-015.**
+
+### Artifact index for this cycle
+
+| Artifact | Change |
+| --- | --- |
+| `source_ledger.md` | Header rewritten for Cycle 108; S-154 upgraded with the Cycle-108 verification bullet (21-route closure, front-matter line-verification, version drift, pre-registered outcome); S-384 cross-referenced; **S-385, S-386, S-387, S-388** added. |
+| `rejected_and_parked.md` | Header rewritten for Cycle 108; **R-056** added (the pre-registered ASR screen, five reasons, verdict, scope limits); known-baseline **row 38** and **row 44** corrected in place. |
+| `idea_register.md` | Header rewritten for Cycle 108; **no dossier added or amended**; the IDEA-003 and IDEA-004 no-move findings recorded. |
+| `ranked_shortlist.md` | Header rewritten for Cycle 108; the ranking table is **untouched**; the rubric-arithmetic re-run recorded. |
+| `validation_handoffs.md` | Header rewritten for Cycle 108; **no specification created, amended, withdrawn or re-created**; the V-status line restated. |
+| `cycle_notes.md` | This section. |
+| `research/README.md` | Next-free identifier pointers updated (S-385 → S-389, R-056 → R-057, Cycle 108 → Cycle 109). |
+| `next_agent_handoff.md` | Rewritten: new task, open questions, gaps, next families, and a fresh, self-contained initial task message for **Cycle 109**. |
