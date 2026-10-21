@@ -27,10 +27,36 @@ defined by the canonical mission prompt, which is **not** to be modified:
    **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-068`), parkings are `P-0NN` (next
+   *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 127**;
+   (next: **Cycle 129**;
+   **Cycle 128 completed four pre-registered priorities — the register's first screen whose unit of work is
+   the *state* that each already-held source conditions on, read **backwards** from the register's own
+   source ledger (the **inverted route**): the forty-four pre-registered sampled sources (S-001 … S-201,
+   S-221 … S-271, S-291 … S-451 — every tenth source in ledger order) were each read for the single
+   conditioning state of the published price effect it claims, and the result is **23 in-map nulls, 4
+   out-of-map and killed, 0 out-of-map survivors and 17 not-a-state** (16 of the 17 claim no price effect at
+   all; 1 conditions a price effect on something that is not a state at all) — **no candidate, no `IDEA-` identifier, no `S-`
+   identifier and zero fetches**; the three out-of-map state kinds the extraction surfaced (**a real-time
+   order-flow or order-book-imbalance state**; **a published settlement-based market-liquidity
+   measurement**; **the execution channel through which an institutional flow is executed**) were each killed by
+   a **named clause** and are recorded as closed kinds, logged as **R-068**, which extends the coverage map
+   to **thirty-one rows** and adds **three** rediscovery-guard baseline rows (**rows 107–109**); the
+   adoption-count set's rescuing sub-variant, which R-067 carried forward because a kill that cannot name a
+   clause is not a kill, was **named** — a published count of adopters of a *contested-sign* decision, a
+   published count of dual-class issuers being the archetype — and **killed by the count-dilemma**, in which
+   the two exhaustive cases kill in opposite directions (a known-in-advance sign makes the count a monotone
+   level that sizes the effect, **G-12**; an unknown sign is not contained in the count at all, R-020's
+   principle), so R-067's set (3) is a **complete kill**, the map's **row 27 is closed in full** and baseline
+   **row 105** is amended in place — the handoff's expected twenty-ninth row did not materialise, because
+   the rescuing sub-variant is a **member of the existing kind** rather than a new kind, and that deviation
+   is recorded with its reason; G-37 and G-33, where **no action** was taken and both gaps stand exactly as
+   recorded; and housekeeping, with the counts re-derived from the files and the rubric arithmetic re-run
+   clean. One rejection (R-068), three baseline rows, one baseline row amended in place, no source added or
+   consumed, no candidate created, no score, rank or hard-stop flag changed, no gap opened or closed, no
+   specification created, amended or withdrawn — and the **eleventh recorded occurrence** of the
+   header-update failure mode recorded and repaired**;
    **Cycle 126 completed four pre-registered priorities — the register's first screen whose unit of work is
    the *measurement* rather than the record: four pre-registered published-measurement sets (infrastructure
    congestion / capacity utilisation; a supervisor's aggregate of a private quantity; an adoption / diffusion
