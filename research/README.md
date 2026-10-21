@@ -23,14 +23,38 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-456`; `S-210 … S-219` and `S-281 … S-290` are
+   unused**),    sources are `S-0NN` (next free: `S-458`; `S-210 … S-219` and `S-281 … S-290` are
    **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-067`), parkings are `P-0NN` (next
+   *state-free* specification), rejections are `R-0NN` (next free: `R-068`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 126**;
+   (next: **Cycle 127**;
+   **Cycle 126 completed four pre-registered priorities — the register's first screen whose unit of work is
+   the *measurement* rather than the record: four pre-registered published-measurement sets (infrastructure
+   congestion / capacity utilisation; a supervisor's aggregate of a private quantity; an adoption / diffusion
+   count; a venue-share / fragmentation measurement) were screened and **all four were killed at the design
+   stage with zero fetches**, logged as **R-067**, which extends the coverage map to **twenty-eight rows**,
+   adds **four** rediscovery-guard baseline rows (**rows 103–106**), and names a **third structural
+   category** — the **aggregated-obligor side**, a state published by a disinterested third party but
+   computed from the obligors' own records, whose failure mode is *identity* (G-28) rather than the
+   accounting-by-product clause; G-37's remaining limb, where the single permitted bounded check returned a
+   **null** (the S-454 work has **not** appeared in a peer-reviewed venue — arXiv records no journal
+   reference after v3, and the paper is additionally on SSRN and on the author's own site, all preprints) and
+   the null is **recorded once** with the bounded search **not** re-run a third time, while the same check
+   **upgraded S-454 in place** to full body verification (author-hosted PDF, 18 pages, text-extracted) which
+   confirms the relation contains **zero** occurrences of "funding" and "perpetual" and that the paper's own
+   close is a **null on tradability**; and IDEA-011's two open limbs, where **S-455's verification debt was
+   cleared** — the ESMA 2026 ECEP statement is now **line-verified** through the Cyprus SEC's complete
+   reproduction of it and the Malta FSA's own circular of 19 October 2026 (**S-456**), with two further
+   national-authority carriers as **S-457** — while the statement remains an **enforcement-priority
+   statement, not a measurement**, so **G-33 stays open**, its one new fact being a **second route to the
+   rate** (an ESEF IFRS 18 *tagging* rate computable from the filed 2026 annual reports, a proxy and an
+   upper bound) which is **handed to validation** and carried into **V-009** as a **fourth named object that
+   must not be pooled**. Two sources, two in-place upgrades, one rejection, four baseline rows, no candidate
+   created, no score or rank changed, no gap opened or closed, one specification amended (V-009) — and the
+   **tenth recorded occurrence** of the header-update failure mode recorded and repaired**;
    **Cycle 125 completed four pre-registered priorities — a record-integrity repair (Cycle 124 had
    advanced **no** artifact and its claimed rejection **R-065** had never been written, so it is written
    now from the Cycle-124 record; the stale "next free **S-448**" pointer, which named a **live**
@@ -44,7 +68,9 @@ defined by the canonical mission prompt, which is **not** to be modified:
    the limb asks about — but the source is an **arXiv preprint** about an intraday price-path relation, so
    **the limb's condition is still not met** and the gap stays open with a **sharpened** re-screen
    condition; and IDEA-011's two open limbs, where **S-455** (ESMA's dated 2026 enforcement-priority
-   statement, **index-rendered** after three HTTP 403 failures) makes the candidate's mandatory
+   statement, **index-rendered** after three HTTP 403 failures — **upgraded in place to line-verified in
+   Cycle 126**, when a national competent authority's complete reproduction of the statement and a second
+   authority's circular were obtained) makes the candidate's mandatory
    pre-adoption disclosure **supervised** but supplies **no population rate**, so **G-33 stays open**.
    Two sources, two rejections (one written late), four baseline rows, no candidate created, no score or
    rank changed, no gap opened or closed, no specification created or amended — and the **ninth recorded
