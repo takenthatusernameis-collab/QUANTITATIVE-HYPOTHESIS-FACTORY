@@ -1,4 +1,40 @@
-# SOURCE LEDGER — CYCLES 1–96
+# SOURCE LEDGER — CYCLES 1–98
+
+**Cycle 98 (2026-10-21) added one new source entry (S-380), minted no new candidate and no new validation
+specification, opened no gap, closed no gap and changed no score.** The cycle's work was **evidence work,
+not a screen**: the bounded, pre-registered **provenance-upgrade operation** was executed over a named
+subset of **twelve** index-rendered entries of the pool re-derived at the start of the cycle, and **all
+twelve are now line-verified** — S-104, S-112, S-117, S-122, S-123, S-124, S-132, S-185, S-203, S-207,
+S-233 and S-279 — each with its HTTP status, byte count, page count and verbatim confirmations recorded
+in place. **No identifier was consumed by the operation** (an upgrade strengthens an existing entry; it
+does not mint one) and **four entries carry recorded qualifications**: two quotations are struck as
+unverified (S-104), one author attribution is struck as unattested (S-117), two bibliographic
+corrections are made (S-123: the paper is dated **May 2025**, is authored by **Andrei Kirilenko,
+Wladimir Kraus, Oliver Linton and Mingmei Xiao**, and is titled "ETF (Mis)pricing)"; S-203: the EPA page
+has **moved**, and the old path now returns HTTP 404), and one citation form is corrected (S-233: the
+net-capital exhibit is filed with the **Form 10-K**, not a Form 10-Q, and the `Rxx.htm` file naming is
+reused across filings for unrelated XBRL exhibits). A second, separate operation — the **closed-body
+repository sweep** — re-tried the three long-closed bodies (Harris & Piwowar 2006; Kavussanos, Visvikis
+& Menachof 2004; Ko & Chang 2024) with **new routes** (a third-party citation link published in a
+fetched comment letter; OpenAIRE; the Internet Archive's advanced search, CDX index and replay; a
+restored general web-search provider), and the two freight/municipal bodies remain **closed and honest
+negatives**, re-confirmed with the new routes named so that they are not re-run blindly. **One new
+entry, S-380**, carries the **authors' own abstract** of Ko & Chang (2024), obtained by replaying the
+**SSRN record page** from the Internet Archive (HTTP 200; 57,582 bytes): the "Physical-Paper Hypothesis"
+label is thereby corroborated by the authors' own words, the **body remains closed**, and the paper is
+**still not used as a verification basis** for any reason. The **"Muni Monday" trade-press route** was
+run and returned **no** dated municipal periodicity — the published municipal seasonality that exists is
+**monthly**, not weekly — so **R-055's re-screen condition (d) is not satisfied** and no re-screen is
+triggered. The register now holds **370 verified sources** (S-001 … S-209, S-220 … S-380; S-210 … S-219
+reserved and unused). **Next free identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.**
+
+**Cycle 97 (2026-10-21) was executed but never written up in the cycle log.** Its work is visible in this
+ledger and is recorded here so that the corpus is not read as if it had never happened: **nineteen
+entries** carry a Cycle-97 annotation, of which **eleven were upgraded to line-verified** (S-139,
+S-140, S-141, S-150, S-155, S-162, S-164, S-165, S-174, S-225, S-266) and **eight re-fetch attempts
+failed and are recorded as honest negatives** (S-147, S-148, S-151, S-153, S-161, S-226, S-237, S-238).
+No `IDEA-`, `V-`, `R-`, `P-` or `G-` identifier was consumed, no score changed, no gap moved and no
+re-screen was performed.
 
 **Cycle 96 (2026-10-21) added two new source entries (S-378, S-379), minted no new candidate and no new
 validation specification, opened no gap, closed no gap and changed no score.** The cycle's two bounded,
@@ -2522,19 +2558,45 @@ https://ercst.org/wp-content/uploads/2025/05/2025-State-of-the-EU-ETS-Report.pdf
   **counterparty structure**: "The average number of entities invested in EUA futures and not
   regulated under the EU ETS Directive has been rising. In 2024, the figure increased to around 900
   on average, a jump of about 15% year-on-year. Speculators can increase volatility and create price
-  spikes if they trade opportunistically." (iii) the **use of TNAC as the surplus indicator**:
-  "the total number of allowances in circulation (TNAC), an indicator for the surplus which is
-  published each year by the Commission in May has been decreasing over the course of Phase 3", and
-  "the number of emissions exceeding installations' total allowance holdings, i.e. yearly free
-  allocation plus the accumulated bank, if any, which can be interpreted as the number of allowances
-  purchased on the secondary market" — i.e. the aggregate compliance balance is an official
-  concept with an official indicator.
+  spikes if they trade opportunistically." (iii) the **use of TNAC as the surplus indicator**: the
+  report's glossary defines **"Total number of allowances in circulation (TNAC)"**, and the two
+  further sentences quoted here in earlier cycles — "the total number of allowances in circulation
+  (TNAC), an indicator for the surplus which is published each year by the Commission in May has been
+  decreasing over the course of Phase 3", and "the number of emissions exceeding installations' total
+  allowance holdings, i.e. yearly free allocation plus the accumulated bank, if any, which can be
+  interpreted as the number of allowances purchased on the secondary market" — are **struck as
+  unverified**: they are **not present** in the document fetched directly on 21 October 2026 (see the
+  Cycle-98 verification note below; "indicator for the surplus", "published each year by the
+  Commission" and "accumulated bank" each return **zero** occurrences in the extracted text). What
+  survives is the glossary definition alone, so the register's claim is narrowed to: the aggregate
+  compliance balance is an **official, defined term**; the surplus analysis quoted in earlier cycles
+  is **not attested** by this document.
 - **Caveats:** an institutional report; its market data are attributed to BloombergNEF; the report
   is used here only for *published state availability* and for the *prior art* on the deadline
   shift, never for a price or volume measurement.
 - **Verification:** the report PDF was fetched through the search index and the quoted passages
   (including the figure captions "FIGURE 6.2. AGGREGATE OPEN INTEREST SEASONALITY" and the
   "Allowances used for 2023 compliance" table) were read in the returned document text.
+- **Cycle-98 verification — UPGRADE (partial, with two earlier quotations struck).** Fetched directly
+  on 21 October 2026 from the URL above: **HTTP 200, 2,593,907 bytes, application/pdf, 44 pages**; the
+  text layer was extracted with `pypdf` (**165,249 characters**). **Confirmed verbatim in the
+  document**: (a) "Falling demand for allowances for both compliance and hedging purposes –
+  particularly from the power sector – freed up permits to non-compliance entities. This may be
+  partially due to the shift of the compliance deadline to September from April, spreading out
+  demand. December saw the highest volumes, as is typical." (b) "The average number of entities
+  invested in EUA futures and not regulated under the EU ETS Directive has been rising. In 2024, the
+  figure increased to around 900 on average, a jump of about 15% year-on-year. Speculators can
+  increase volatility and create price spikes if they trade opportunistically." (c) the glossary
+  entry "Total number of allowances in circulation (TNAC)"; (d) the figure captions "FIGURE 6.2.
+  AGGREGATE OPEN INTEREST SEASONALITY" and the "Allowances used for 2023 compliance" table.
+  **Not present in the document**: the two passages struck above. The verification label therefore
+  moves from **"index-rendered"** to **"line-verified (PDF fetched directly and text-extracted), with
+  two earlier index-rendered quotations struck as unverified"**. The entry's **caveats stand
+  unchanged** (institutional report; BloombergNEF data; used only for published state availability
+  and for the prior art on the deadline shift, never for a price or volume measurement), and **the
+  register's use of this source rests on (a), which is confirmed** — so IDEA-013's prior-art framing
+  is unaffected. **No re-score, no hard-stop change and no gap movement follow** — this is provenance
+  and one struck quotation, not new evidence.
 
 ### S-105 — European Commission, "Auctioning of allowances"
 https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets/auctioning-allowances_en
@@ -2727,6 +2789,29 @@ DOI https://doi.org/10.1111/j.1538-4616.2010.00360.x
   keywords); the full PDF text was returned through the search index and the abstract, the SIC/CLS
   institutional description and the results section quoted above were read in that text; the
   published JMCB version, its volume/issue/pages and its DOI were returned by the same query.
+- **Cycle-98 verification — UPGRADE: the working-paper PDF is now fetched directly and line-verified.**
+  The SNB landing page returned **HTTP 200, 75,403 bytes** on 21 October 2026, and the working-paper
+  PDF behind it
+  (`…/working_paper_2010_06/publications0_en/working_paper_2010_06.n.pdf`) returned **HTTP 200,
+  246,064 bytes, application/pdf, 31 pages**; the text layer was extracted with `pypdf` (**56,622
+  characters**). **Every passage this entry leans on is confirmed verbatim in the document**: the
+  title page ("Swiss National Bank Working Papers … 2010-6 … Daytime is money … Sébastien Kraenzlin and
+  Thomas Nellen … January 2010"); the abstract's "Second, we show that after the introduction of the
+  foreign exchange settlement system CLS the value of intraday liquidity has increased during the
+  hours of the CLS settlement cycle" and "These facts provide evidence for the cost of immediacy";
+  the institutional description "Within the SIC settlement day, CLS settlement cycles take place on
+  an hourly basis from 7 a.m. to 12 a.m. on the actual value date. CLS members have to meet a pay-in
+  schedule set by CLS in due time. This requires large amounts of reserve balances to be transferred
+  during specific time slots."; the results "Furthermore, regressions (2) and (3) reveal that the
+  introduction of CLS marks a structural break. After the introduction of CLS, ON rates stay as high as
+  at the beginning of the day until the end of the CLS settlement cycle at noon."; and "We estimate the
+  mark-up on hourly ON rates due to CLS to be approximately 0.50bp per hour, leading to a total of
+  roughly 1.5bp for the CLS settlement cycle." The verification label moves from **"index-rendered"**
+  to **"line-verified (PDF fetched directly and text-extracted)"**. The entry's **caveats stand
+  unchanged** — the measured object is the Swiss franc overnight repo money market and the estimate is
+  an implicit intraday rate, not an executed FX price, so the entry establishes that a settlement
+  deadline cluster is priced without claiming an FX-spot effect. **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence.
 
 ### S-113 — Baig, A., Breeze, S., Cox, J. and Griffith, T. (2022) — "Settling down: T+2 settlement cycle and liquidity"
 *European Financial Management* **28**(5): 1260–1282 (November 2022).
@@ -2828,6 +2913,22 @@ https://www.newyorkfed.org/medialibrary/microsites/fxc/files/2024/T1_Update_May_
 - **Verification:** the PDF was located through the search index and its text (slide headings, author
   attribution "Dawson, Janet", date "New York 22 MAY 2024", Global Foreign Exchange Division) was
   read in the returned rendering. The file itself is a binary PDF and was not parsed directly.
+- **Cycle-98 verification — UPGRADE: the deck is now fetched directly and line-verified, with one
+  attribution left unconfirmed.** Fetched directly on 21 October 2026: **HTTP 200, 218,380 bytes,
+  application/pdf, 3 pages**; the text layer was extracted with `pypdf` (**3,358 characters**).
+  **Confirmed verbatim**: the title slide "UST1 Update – NY Fed FXC Meeting / GLOBAL FOREIGN EXCHANGE
+  DIVISION / New York 22 MAY 2024"; "Priority focus areas for FX centred on NY 4-6pm currency
+  liquidity, funding and system maintenance"; "NY trading desks likely to extend trading hours up to
+  530-6pm, may not include Friday"; "Identifying clients with large but period trading patterns to
+  de-risk impact of fails/funding"; "CLS no change in midnight CET cutoff, cont. to analyze data
+  through transition, report back to market by end of June"; and "Ensuring trade is captured into CLS
+  is a secondary consideration". **One item is not confirmed**: the author attribution "Dawson,
+  Janet" does **not** occur in the document's extracted text (zero occurrences of "Daw" or "Janet"),
+  so it is **not attested by the document** and is **struck as an attribution**; the document is
+  identified instead by its own title, venue and date. The verification label moves from
+  **"index-rendered"** to **"line-verified (PDF fetched directly and text-extracted), with the author
+  attribution not attested by the document"**. The entry's caveats stand unchanged. **No re-score and
+  no hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-118 — Federal Reserve Bank of New York, FX Committee (2024) — meeting minutes, 22 May 2024
 https://www.newyorkfed.org/medialibrary/Microsites/fxc/files/2024/FXC-May-22-2024-Meeting-Minutes
@@ -2924,8 +3025,26 @@ https://www.aqr.com/Insights/Research/Working-Paper/Causes-and-Consequences-of-M
 - **Verification:** the AQR landing page (title, author, date 28 February 2014, the summary) and the
   working-paper PDF were both returned by the search index; the PDF's title page, abstract and
   acknowledgement block were read in the returned text.
+- **Cycle-98 verification — UPGRADE: the working paper is now fetched directly and line-verified.** The
+  AQR landing page returned **HTTP 200, 67,631 bytes** on 21 October 2026, and the working-paper PDF
+  behind it (`/-/media/AQR/Documents/Insights/Working-Papers/AQR-Causes-and-Consequences-of-Margin-Levels-in-Futures-Markets.pdf`)
+  returned **HTTP 200, 188,298 bytes, application/pdf, 35 pages**; the text layer was extracted with
+  `pypdf` (**62,305 characters**). **Both quotations this entry leans on are confirmed verbatim in the
+  document**, including the abstract's "Margin increases cause both hedgers and speculators to reduce
+  their open positions, and a margin increase for one contract causes funding liquidity spillovers
+  that affect price impact for all contracts. I do not find a significant effect of margin changes on
+  the futures price level. However, realized variance increases by 50% on average on the day of a
+  margin increase and remains high in the following weeks." and the body's "the percentage margin
+  requirement is, on average, 2.5 times the daily standard deviation of returns (when omitting the
+  intercept)". The title page confirms the author and date ("Causes and Consequences of Margin Levels
+  in Futures Markets / Esben Hedegaard / Arizona State University / February 28, 2014"). The
+  verification label moves from **"index-rendered"** to **"line-verified (PDF fetched directly and
+  text-extracted)"**. The entry's **caveats stand unchanged** (working paper, not peer reviewed; the
+  margin data came from an FOIA request for 16 commodity futures contracts over 2000–2011, so the
+  historical margin schedule is not a free public series; the registered claim is narrow). **No
+  re-score and no hard-stop change follow** — this is provenance, not new evidence.
 
-### S-123 — Financial Conduct Authority (2024) — Occasional Paper 68, "EFT (Mis)pricing"
+### S-123 — Financial Conduct Authority (2025) — Occasional Paper 68, "ETF (Mis)pricing" (Kirilenko, K., Kraus, W., Linton, O. and Xiao, M.)
 https://www.fca.org.uk/publication/occasional-papers/op68-etf-mispricing.pdf
 - **Type:** **Institutional** research paper (regulator's own research), using regulatory datasets.
 - **Supports:** the fact that the **ETF primary-market arbitrage and AP-inventory mechanism is a
@@ -2939,11 +3058,35 @@ https://www.fca.org.uk/publication/occasional-papers/op68-etf-mispricing.pdf
 - **Caveats:** the paper's own dataset (sponsor primary-market files plus the FCA's MiFID II
   regulatory database) is **not public**, which is itself the feasibility fact relevant to IDEA-010
   (whose AP-level data constraint is the same constraint this paper had to solve with a regulator's
-  data). The author list and publication date were not established in this pass and are not asserted
-  here.
+  data). The author list and publication date were not established in the earlier pass and were not
+  asserted there; they are **now established from the document itself** (see the Cycle-98
+  verification note below) — the paper is dated **May 2025** and is authored by **Andrei Kirilenko,
+  Wladimir Kraus, Oliver Linton and Mingmei Xiao** — and the document's own title is
+  **"ETF (Mis)pricing)"**, not "EFT (Mis)pricing)".
 - **Verification:** the FCA PDF was returned by the search index and the summary and introduction,
   including the dataset description and the March 2020 mispricing figures, were read in the returned
   text.
+- **Cycle-98 verification — UPGRADE: the Occasional Paper is now fetched directly and line-verified,
+  with two bibliographic corrections.** Fetched directly on 21 October 2026: **HTTP 200, 6,476,981
+  bytes, application/pdf, 81 pages**; the text layer was extracted with `pypdf` (**177,052
+  characters**). **The quoted summary is confirmed verbatim**: "Authorised Participants (APs),
+  primarily market makers, possess the right to create and redeem Exchange Traded Funds (ETF) shares
+  based on market demand … Using a novel regulatory dataset that covers the primary and secondary
+  market transactions of 128 ETFs from 2018 to 2022, we identify a connection between mispricing (the
+  difference between ETF prices and the Net Asset Value (NAV) of their underlying baskets) and AP's
+  inventory … excess AP inventory tends to widen discounts." The document also confirms the March 2020
+  mispricing reference ("the mechanisms behind the significant mispricing observed in March 2020
+  across various ETF classes"). **Two corrections follow from the document itself**: (i) the **date is
+  May 2025**, not 2024 — the cover reads "Financial Conduct Authority / 68 / Occasional Paper / May
+  2025 / ETF (Mis)pricing / Andrei Kirilenko, Wladimir Kraus, Oliver Linton and Mingmei Xiao" and the
+  imprint "12 Endeavour Square, London E20 1JN. May 2025"; and (ii) the **author list is now
+  established**, while the document's title is **"ETF (Mis)pricing)"**, not "EFT (Mis)pricing)". The
+  earlier caveat that the author list and date "were not established in this pass and are not asserted
+  here" is therefore **superseded, not deleted**. The verification label moves from
+  **"index-rendered"** to **"line-verified (PDF fetched directly and text-extracted)"**. The
+  substantive caveat — the paper's dataset is **not public** — stands unchanged, and so does its
+  bearing on IDEA-010. **No re-score and no hard-stop change follow** — this is provenance and a
+  bibliographic correction, not new evidence.
 
 ### S-124 — Swem, N. and Carapella, F. (2025) — "Crypto ETPs: An Examination of Liquidity and NAV Premium"
 FEDS Notes, Board of Governors of the Federal Reserve System, 28 March 2025.
@@ -2961,6 +3104,20 @@ https://www.federalreserve.gov/econres/notes/feds-notes/crypto-etps-an-examinati
 - **Verification:** the Federal Reserve FEDS Notes page was returned by the search index and the
   title, both authors, the date and the two findings and the interpretation were read in the
   returned text.
+- **Cycle-98 verification — UPGRADE: the FEDS Note is now fetched directly and line-verified.** Fetched
+  directly on 21 October 2026: **HTTP 200, 121,749 bytes, text/html**; the page was parsed with the
+  script and style content stripped (**27,264 characters**). **All three quoted passages are confirmed
+  verbatim**, and the attribution is confirmed by the page itself: "crypto ETPs track NAV less-closely
+  than other ETPs and ETFs referencing assets of comparable liquidity"; "the relatively high degree of
+  NAV premium for crypto ETPs is due in part to the fact that crypto-asset markets … and equities
+  markets … are difficult for market participants to arbitrage"; and "the degree of NAV premium may
+  provide helpful information for assessing the extent to which crypto asset markets and equities
+  markets are segmented." The page confirms both authors ("Nathan Swem", "Francesca Carapella"), the
+  date ("March 28, 2025") and the Federal Reserve Board attribution. The verification label moves from
+  **"index-rendered"** to **"line-verified (HTML page fetched directly and parsed)"**. The entry's
+  caveats stand unchanged (research note, not peer reviewed; descriptive and comparative analysis;
+  the closing price-discovery reading is the note's own interpretation). **No re-score and no
+  hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-125 — Clapham, B. and Ewald, F. (2026) — "The Impact of Bitcoin Spot ETFs on Market Quality and Price Efficiency"
 SSRN working paper 7552327, 33 pages, posted 2 October 2026.
@@ -3543,6 +3700,27 @@ https://www.epa.gov/fuels-registration-reporting-and-compliance-help/rin-trades-
 - **Verification:** the page was located through the search index and its text — the price-series
   description, the transfer-date and EMTS wording and the filter list — was returned in the index
   rendering in this cycle. The page's own text is the source of every quoted phrase.
+- **Cycle-98 verification — UPGRADE: the EPA page is now fetched directly and line-verified.** Fetched
+  directly on 21 October 2026: **HTTP 200, 58,181 bytes, text/html**; the page was parsed with the
+  script and style content stripped (**6,431 characters**). **Every quoted phrase is confirmed
+  verbatim in the page's own text**: "The RIN Price chart below shows historical, weekly,
+  volume-weighted average RIN price data for separated RINs by transfer date. The datasets are from
+  the standard trade transactions in the EPA Moderated Transaction System and specific to RINs
+  starting from year 2010."; the price-filter list ("2010 – 2019 RINs with transfer date before
+  January 1, 2020", the D3–D6 price bands, and "Any RINs with transfer date after December 31,
+  2019"); and the three named reports the page publishes — the "RIN Price Report" ("The RIN Price
+  dataset shows historical, weekly, volume-weighted average RIN price data for separated RINs"), the
+  "Transaction Volume Report" ("The Transaction Volume dataset shows historical, weekly, aggregated RIN
+  transaction volumes for both separated and assigned RINs") and the "Annual RIN Sales Report" ("The
+  Annual RIN Sale Transactions dataset provides a summary of RIN sales transactions in EMTS"). **One quotation is corrected to the page's exact wording**:
+  the page reads "**Any RINs** with transfer date after December 31, 2019", where the entry's earlier
+  rendering had "Any RIN with transfer date after December 31, 2019". The verification label moves from
+  **"index-rendered"** to **"line-verified (HTML page fetched directly and parsed)"**. The entry's
+  **caveats stand unchanged** (a lagged weekly volume-weighted average of cash transactions in EPA's
+  own moderation system, not an exchange price; a series truncated by the page's own filters; not
+  usable as a tradeable price). **No underlying data file was downloaded, processed or used** — this
+  cycle read the page text only. **No re-score and no hard-stop change follow** — this is provenance,
+  not new evidence.
 
 ### S-133 — NERA Consulting (2018) — "Ethanol RIN Market Analysis and Potential Reforms"
 White paper, October 2018 (hosted copy).
@@ -4722,6 +4900,37 @@ URLs: https://www.epa.gov/fuels-registration-reporting-and-compliance-help/publi
   RIN Holdings report is not, on its face, a net-obligated-position series.
 - **Verification:** search-index render of the two EPA pages, including the dated monthly file
   lists. **Not fetched directly.**
+- **Cycle-98 verification — UPGRADE: the EPA data pages are now fetched directly and line-verified,
+  and one dated-file-list claim is not attested.** Fetched directly on 21 October 2026: the public-data
+  page returned **HTTP 200, 55,644 bytes, text/html** (**4,903 characters** of page text), the
+  Available RINs page returned **HTTP 200, 56,732 bytes** (**6,008 characters**), and the nav-linked
+  **"RINs Generated Transactions"** page returned **HTTP 200, 53,811 bytes** (**4,026 characters**).
+  **Confirmed verbatim**: the **six named data categories** in the pages' own navigation — "RINs
+  Generated", "Available RINs", "RIN Trades and Price", "RIN Use", "Small Refinery Exemptions" and
+  "Renewable Volume Obligations"; the **price-series cadence** — "Weekly volume weighted average RIN
+  prices (updated monthly)" and "Weekly aggregated RIN transaction volumes (updated monthly)"; the
+  **monthly cadence of the transaction and production data** — "Aggregated monthly data on Renewable
+  Identification Number (RIN) transactions" and "Aggregated monthly data on renewable fuel volume
+  production"; the **collection date and mode** — "EPA began collecting data on July 1, 2010. Data
+  going back to this date are available through this website" and "The data are collected from RIN
+  transactions submitted in the EPA Moderated Transaction System (EMTS)"; the **RIN Holdings
+  wording** — "The RIN Holdings dataset provides a summary of the total RINs being held by balance year
+  and balance quarters starting from RIN year 2010" — and the participant-type inventory statement
+  "This dataset inventories information on the types of parties that are holding RINs"; the
+  **Total Available RINs to Date** report description; and the Generation Summary and "Total
+  Production by Month" report descriptions. **One claim is not attested**: the dated monthly file list
+  ("the 2026 file list runs one file per month, with September 2026 already posted in October 2026,
+  i.e. a lag of roughly one month") is **not** displayed by the three fetched pages, which publish
+  *report descriptions* and *cadence statements* rather than dated file lists; the pages' own words
+  establish the **monthly** cadence of the transaction and production data, which is what IDEA-014's
+  availability claim needs, so the specific dated-file observation is **struck as unverified** and
+  replaced by the confirmed cadence statement. The verification label moves from **"index-rendered"**
+  to **"line-verified (HTML pages fetched directly and parsed)"**. The **substantive caveat stands
+  unchanged**: the "Renewable Volume Obligations" category is *named* on the public-data page but the
+  page still does not state the publication lag of the obligation series, which is exactly the
+  quantity IDEA-014 needs. **No underlying data file was downloaded, processed or used** — this cycle
+  read the page text only. **No re-score and no hard-stop change follow** — this is provenance, not
+  new evidence.
 
 ### S-186 — Hu, L. and Shen, Y. (2026)
 "Diversified but crowded: Evidence from 13F holdings." *Finance Research Letters* 113: 110885,
@@ -5259,7 +5468,10 @@ URL: https://www.ecfr.gov/current/title-40/chapter-III/subchapter-C/part-80/subp
 
 ### S-203 — U.S. Environmental Protection Agency (2026)
 "Final Renewable Fuel Standards for 2026 and 2027." Agency rule-summary page.
-URL: https://www.epa.gov/renewable-fuel-standard-program/final-renewable-fuel-standards-2026-and-2027
+URL: https://www.epa.gov/renewable-fuel-standard/final-renewable-fuel-standards-2026-and-2027
+(the previously recorded path `…/renewable-fuel-standard-program/final-renewable-fuel-standards-2026-and-2027`
+now returns **HTTP 404**; EPA's site was restructured and the live path drops the `-program` segment —
+both are recorded here, the 404 being an observed fact, not an erasure)
 - **Type:** Primary regulator material (agency summary of the final standards).
 - **Supports (for G-20, the quantitative scale of the state):** the summary tables give the final volume
   requirements in billion RINs for 2026 and 2027 — total renewable fuel **25.82** and **25.98** billion
@@ -5270,6 +5482,24 @@ URL: https://www.epa.gov/renewable-fuel-standard-program/final-renewable-fuel-st
 - **Verification:** search-index render of the EPA rule-summary page (both tables, all volumes in
   billion RINs, for the proposed and final standards), cross-checked against a second independent
   rendering of the same table in the search index.
+- **Cycle-98 verification — UPGRADE: the EPA rule-summary page is now fetched directly and
+  line-verified, and the recorded URL had moved.** Fetched directly on 21 October 2026 at the live
+  path: **HTTP 200, 62,745 bytes, text/html** (**5,311 characters** of page text). **Every volume the
+  entry leans on is confirmed in the page's own final-standards table**: cellulosic biofuel
+  **1.36** (2026) and **1.43** (2027); biomass-based diesel **8.86** and **8.95**; advanced biofuel
+  **10.82** and **10.98**; renewable fuel **25.82** and **25.98**; SRE reallocation **0.99** and
+  **1.04**; and **total applicable volume 26.81** and **27.02** — with the table's own note "**Note:
+  All volumes in billion RINs. One RIN is equivalent to one ethanol-equivalent gallon of renewable
+  fuel.**" The page also states that "EPA is also finalizing several regulatory changes to the RFS
+  program, including **removing renewable electricity as a qualifying renewable fuel under the RFS
+  program (eRINs)**", and the final rule it links is titled "RFS Program: Standards for 2026 and 2027,
+  **Partial Waiver of 2025 Cellulosic Biofuel Volume Requirement**, and Other Changes" (published
+  1 April 2026); the table's 2025 column carries the cellulosic volume **1.21**, with increments of
+  **0.21/0.25** (biomass-based diesel), **0.28/0.34** (advanced biofuel) and **0.99/1.04** (renewable
+  fuel) for 2026/2027. The verification label moves from **"index-rendered"** to **"line-verified (HTML
+  page fetched directly and parsed)"**. The entry's caveat stands unchanged (an agency summary, not
+  the rule text; the underlying rule's tables are images, S-201). **No re-score and no hard-stop
+  change follow** — this is provenance, not new evidence.
 
 ### S-204 — Mann, S.V. and Powers, E.A. (2006)
 "Determinants of bond tender premiums and the percentage tendered." *Journal of Banking & Finance*
@@ -5336,14 +5566,47 @@ URL: https://www.ecfr.gov/current/title-17/chapter-II/part-240/section-240.14e-1
   structure the screen depends on: minimum offering periods, mandatory extension and public
   announcement when the consideration or the amount sought changes, and disclosure of the number of
   securities tendered.
-- **Caveats:** the relevant paragraphs were **not** read end-to-end in this cycle — the eCFR renderer
-  returned the section but the slice fetched in this cycle was an unrelated paragraph. The specific
-  periods and disclosure duties quoted in this cycle's screen (20 business days; 10 business days on a
+- **Caveats:** the relevant paragraphs were **not** read end-to-end in the earlier cycle — the eCFR
+  renderer returned the section but the slice fetched then was an unrelated paragraph. The specific
+  periods and disclosure duties quoted in that cycle's screen (20 business days; 10 business days on a
   change of consideration or amount; extension announcements stating the number of securities tendered)
-  are therefore **index-rendered from practitioner notes (S-208, S-209)** and are *not* independently
-  verified against the rule text here. A future cycle that needs them verbatim must read the rule.
+  were therefore **index-rendered from practitioner notes (S-208, S-209)** and were *not* independently
+  verified against the rule text. **This caveat is superseded, not deleted: see the Cycle-98
+  verification note below, in which the section is read end-to-end and all three items are confirmed
+  against the rule text itself.** A future cycle that needs them verbatim must read the rule.
 - **Verification:** the eCFR section URL was reached; the specific provisions relied upon are recorded
-  as **not independently verified** in this cycle.
+  as **not independently verified** in that cycle.
+- **Cycle-98 verification — UPGRADE: the section is now fetched directly and read end-to-end, and all
+  three practitioner-note items are confirmed against the rule itself.** Fetched directly on 21 October
+  2026: **HTTP 200, 148,763 bytes, text/html**; the page was parsed with the script and style content
+  stripped (**11,575 characters**). The operative text of § 240.14e-1 is confirmed verbatim:
+  "(a) **Hold such tender offer open for less than twenty business days** from the date such tender
+  offer is first published or sent to security holders; provided, however, that if the tender offer
+  involves a roll-up transaction as defined in Item 901(c) of Regulation S-K … and the securities being
+  offered are registered (or authorized to be registered) on Form S-4 … or Form F-4 …, the offer shall
+  not be open for less than sixty calendar days"; "(b) **Increase or decrease the percentage of the
+  class of securities being sought or the consideration offered or the dealer's soliciting fee** to be
+  given in a tender offer **unless such tender offer remains open for at least ten business days** from
+  the date that notice of such increase or decrease is first published or sent or given to security
+  holders. Provided, however, That … the acceptance for payment of an additional amount of securities
+  not to exceed two percent of the class of securities that is the subject of the tender offer shall not
+  be deemed to be an increase"; "(c) Fail to pay the consideration offered or return the securities
+  deposited by or on behalf of security holders promptly after the termination or withdrawal of a tender
+  offer."; and "(d) **Extend the length of a tender offer without issuing a notice of such extension by
+  press release or other public announcement, which notice shall include disclosure of the approximate
+  number of securities deposited to date** and shall be issued no later than the earlier of: (i) 9:00
+  a.m. Eastern time, on the next business day after the scheduled expiration date of the offer or (ii) …
+  the first opening of any one of such exchanges on the next business day after the scheduled expiration
+  date of the offer." Paragraph (e) additionally confirms **tolling** of the (a) and (b) periods while a
+  required Schedule TO or tender-offer material is delinquent, and the section's source note gives the
+  amendment history ("44 FR 70348, Dec. 6, 1979, as amended at 51 FR 3035, Jan. 23, 1986; … 73 FR
+  17814, Apr. 1, 2008"). The verification label moves from **"not independently verified"** to
+  **"line-verified (section fetched directly and read end-to-end)"**. **Two further items carried by
+  the practitioner note (S-208) are *not* in this section** — the guaranteed delivery of tenders by the
+  close of business on the second business day after expiration, and the 1986 SEC no-action relief for
+  abbreviated investment-grade cash tenders — and they remain **unverified against primary text**;
+  they belong to other rules and to a staff position, not to § 240.14e-1. **No re-score and no
+  hard-stop change follow** — this is provenance, not new evidence.
 
 ### S-208 — Clifford Chance (2025)
 "Managing your bond liabilities under US securities law: a guide for non-US issuers" (practitioner
@@ -5722,12 +5985,12 @@ relies on it.
 - **Supports:** G-27 limb 1, as the specimen of the document type; it must be replaced by a directly
   read document for a major AP before the state is relied upon (this is carried into G-29).
 
-### S-233 — LPL Financial Inc., **Form 10-Q, Exhibit R27, "Net Capital and Regulatory Requirements"** (XBRL-tagged).
-- **Type and relevance:** the *listed* broker-dealer route to the same quantity: a public, **quarterly**,
+### S-233 — LPL Financial Inc., **Form 10-K (fiscal year ended 31 December 2024), Exhibit R27, "Net Capital and Regulatory Requirements"** (XBRL-tagged) — *corrected in Cycle 98: the exhibit is filed with the Form 10-K, not with a Form 10-Q.*
+- **Type and relevance:** the *listed* broker-dealer route to the same quantity: a public,
   XBRL-tagged table giving Net capital, Less: required net capital, and Excess net capital for the
   registrant's broker-dealer subsidiary (LPL Financial LLC) — shown as net capital $443,742 thousand,
   required net capital $19,426 thousand, excess net capital $424,316 thousand, as of the period ended
-  31 December 2024. This is the quarterly, machine-readable half of the state route.
+  31 December 2024. This is the machine-readable half of the state route.
 - **Verification:** read through a **search-index render** of the SEC-hosted exhibit; **not fetched
   directly** (`sec.gov/Archives` returned HTTP 403 in this environment).
 - **Caveats:** index-rendered only; a single issuer's exhibit; the XBRL tags are as rendered by the
@@ -5735,6 +5998,32 @@ relies on it.
 - **Supports:** G-27 limb 1 (the listed-broker-dealer, quarterly route) and the register's statement
   that the state's cadence differs by AP type — annual for private broker-dealers, quarterly for
   listed broker-dealers and bank holding companies.
+- **Cycle-98 verification — UPGRADE: the exhibit is now fetched directly, its numbers are confirmed
+  exactly, and the form attribution is corrected.** The EDGAR archive was reached this cycle with a
+  compliant user-agent. The exhibit was obtained from the **Form 10-K** for the fiscal year ended
+  31 December 2024 (accession **0001397911-25-000018**, filed 20 February 2025): the exhibit file
+  `R27.htm` returned **HTTP 200, 10,321 bytes** and the table reads, verbatim: "The following table
+  presents the net capital position of the Company's primary broker-dealer subsidiary (in thousands):
+  **December 31, 2024 LPL Financial LLC Net capital $443,742 Less: required net capital $19,426 Excess
+  net capital $424,316**". **Correction**: the entry's earlier identification of this document as a
+  **Form 10-Q** exhibit is **wrong** — for this registrant the net-capital exhibit is filed with the
+  **annual report on Form 10-K**, and in the **Form 10-Q** for the quarter ended 31 March 2025
+  (accession 0001397911-25-000063, filed 9 May 2025) the file with the same name `R27.htm` is an
+  entirely different exhibit ("**Insider Trading Arrangements**") — the `Rxx.htm` file naming is
+  **reused across filings for unrelated XBRL exhibits**, so "Exhibit R27" is a fragile reference and
+  must always be cited together with the form type and the accession number. **Qualification of the
+  "quarterly" claim, established from the same filing**: the **10-Q body** does carry the same table
+  quarterly — "The following table presents the net capital position of the Company's primary
+  broker-dealer subsidiary (in thousands): March 31, 2025 LPL Financial LLC Net capital $494,111 Less:
+  required net capital $17,926 Excess net capital $476,185" (10-Q body, HTTP 200, 1,915,351 bytes,
+  fetched directly) — so the **quarterly availability** of the quantity holds, while the
+  **XBRL-tagged exhibit route is annual** for this registrant. The verification label moves from
+  **"index-rendered"** to **"line-verified (exhibit and 10-Q body fetched directly from EDGAR)"**. The
+  remaining caveat is narrowed, not deleted: a single issuer's exhibit is still one issuer, and the
+  entry is now anchored to a form type, an accession number and a filing date rather than to a file
+  name. **No re-score and no hard-stop change follow** — this is provenance and a citation-form
+  correction, not new evidence. The **G-27 limb 1 route statement is qualified accordingly** and the
+  qualification is recorded in the register's G-27 record.
 
 ### S-234 — FINRA, **BrokerCheck disclosure framework (Rule 8312; Regulatory Notice 09-66) and FINRA's published firm-data pages (Industry Snapshot, "Firm Data"; 2026 Annual Regulatory Oversight Report, "Net Capital")**.
 - **Type and relevance:** establishes the *negative* half of the availability question, which the
@@ -6884,6 +7173,12 @@ https://www.nasdaqtrader.com/content/MarketRegulation/LULD_FAQ.pdf
   so the parameter tables must be re-read at the date of any future use.
 - **Verification:** the `luldplan.com` content and the Nasdaq FAQ PDF were read through the search index;
   the retired Nasdaq URL was fetched directly and its "Page Not Available" response recorded.
+  **Cycle-98 clarification (mixed-class accounting).** This entry's **original verification bullet
+  describes an index render, but the entry has since been upgraded to line-verified** (the Cycle-85
+  note immediately below records the direct fetches of both the Plan site and the surviving Nasdaq FAQ
+  PDF). It is therefore **not** an index-rendered entry and must not be counted as one in any
+  corpus-wide tally; the earlier bullet is retained only as the historical record of the state at the
+  time.
 - **Cycle-85 verification — UPGRADE: both surviving documents are now fetched directly and line-verified.**
   On 20 October 2026: `https://www.luldplan.com/` returned **HTTP 200, 30,771 bytes**, and the **surviving
   Nasdaq FAQ PDF** `https://www.nasdaqtrader.com/content/MarketRegulation/LULD_FAQ.pdf` returned **HTTP 200,
@@ -7310,6 +7605,12 @@ URL: https://www.ifrs.org/content/dam/ifrs/standards/taxonomy/2026/guidance-on-u
   impact disclosure, which remains **G-33**.
 - **Verification:** the guidance was read as rendered by the search index; the PDF returned binary content
   to a direct fetch — **index-rendered, not directly parsed**.
+  **Cycle-98 clarification (mixed-class accounting).** This entry's **original verification bullet
+  describes an index render, but the entry has since been upgraded to line-verified** (the Cycle-85
+  note immediately below records the direct fetch of the PDF and the confirmation of the "Early
+  Application of IFRS 18" entry point). It is therefore **not** an index-rendered entry and must not be
+  counted as one in any corpus-wide tally; the earlier bullet is retained only as the historical record
+  of the state at the time.
 - **Cycle-85 verification — UPGRADE: the PDF is now fetched directly and line-verified.** Fetched on
   20 October 2026 from the same URL — **HTTP 200, 159,671 bytes** — with the text layer extracted; the
   **"Early Application of IFRS 18"** entry point this entry relies on is **confirmed in the document
@@ -7427,6 +7728,24 @@ URL: https://www.hosei.ac.jp/application/files/7415/7655/5058/DP-16E002.pdf
   a carry-forward regime change; the sample ends in December 2010.
 - **Verification:** the paper's abstract and front matter were read in the search-index rendering of the
   Hosei University working-paper PDF — **index-rendered, not directly parsed**.
+- **Cycle-98 verification — UPGRADE: the working paper is now fetched directly and line-verified.** Fetched
+  directly on 21 October 2026: **HTTP 200, 118,415 bytes, application/pdf, 30 pages**; the text layer was
+  extracted with `pypdf` (**53,248 characters**). The document confirms its own front matter —
+  "**Does tax-loss selling affect turn-of-the-year returns? Evidence from the 2003 capital gain tax
+  regime change in Japan**", "**Hidetoshi Takahashi**", "Faculty of Economics, Hosei University" —
+  and the date "**February 17, 2017**". The abstract's key sentence is confirmed verbatim: "The capital
+  gains tax reduction law **decays benefits to realize capital losses** and results in **lower
+  relationships between tax-loss selling and turn-of-the-year returns**." The entry's sample-end
+  statement is also confirmed: the paper's sample runs "from October 1999 to December 2010". The
+  verification label moves from **"index-rendered"** to **"line-verified (PDF fetched directly and
+  text-extracted)"**. Two narrow qualifications are recorded rather than deleted: the **designation
+  "Discussion Paper 16-E-002" is a repository file-naming convention, not a string that appears in the
+  document's   text** (the PDF's own front matter carries the title, the author, the affiliation and the
+  date). The entry's author spelling is **confirmed** by the document ("Hidetomo Takahashi", with the
+  corresponding-author address `htak@hosei.ac.jp`). The entry's substantive caveats stand unchanged
+  (discussion paper, not peer reviewed; the 2003 Japanese reform was a *rate* reduction, not a
+  carry-forward regime change; the sample ends in December 2010). **No re-score and no hard-stop change
+  follow** — this is provenance, not new evidence.
 
 ### S-280 — Baltas, N. (2019), "The Impact of Crowding in Alternative Risk Premia Investing", *Financial Analysts Journal* 75(3): 89–104
 DOI: https://doi.org/10.1080/0015198X.2019.1600955
@@ -11579,7 +11898,7 @@ The **open working-paper version** of the same study — Billimoria, Mays and Po
 
 | Route | What was tried | Failure mode | Verdict |
 | --- | --- | --- | --- |
-| **Ko & Chang (2024), *Maritime Policy & Management* 51(5): 717–744** (Byoung-Wook Ko and Young-Tae Chang, "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates", DOI 10.1080/03088839.2024.2348692) | `tandfonline.com/doi/full/…` and the Unpaywall-recorded T&F PDF route `tandfonline.com/doi/pdf/…?download=true`; the Unpaywall-recorded **accepted version** at `doi.org/10.2139/ssrn.4264797`, followed to the SSRN abstract page and to the SSRN delivery-PDF route | **HTTP 403** on the T&F full-text and PDF routes; **HTTP 403** on both the SSRN abstract page and the SSRN delivery-PDF route. Unpaywall confirms the article is open access (hybrid) and lists the SSRN accepted version, but SSRN blocks the client | **Honest negative — the paper's text remains unobtainable.** **The bibliographic record is now verified against Crossref**, and it corrects the Cycle-91 label: the paper at 51(5): 717–744 is titled "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates"; the Cycle-91 description of it as "the 'Physical-Paper Hypothesis' paper" is **not corroborated by the publisher's bibliographic record** and is no longer relied on by the register. Crossref also confirms the SSRN accepted version carries the same title, dated 2022. The paper is therefore **not** used as a verification basis for any reason in R-054, and R-052's freight reasoning continues to rest on S-350, S-351, S-352 and S-364 |
+| **Ko & Chang (2024), *Maritime Policy & Management* 51(5): 717–744** (Byoung-Wook Ko and Young-Tae Chang, "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates", DOI 10.1080/03088839.2024.2348692) | `tandfonline.com/doi/full/…` and the Unpaywall-recorded T&F PDF route `tandfonline.com/doi/pdf/…?download=true`; the Unpaywall-recorded **accepted version** at `doi.org/10.2139/ssrn.4264797`, followed to the SSRN abstract page and to the SSRN delivery-PDF route | **HTTP 403** on the T&F full-text and PDF routes; **HTTP 403** on both the SSRN abstract page and the SSRN delivery-PDF route. Unpaywall confirms the article is open access (hybrid) and lists the SSRN accepted version, but SSRN blocks the client | **Honest negative — the paper's text remains unobtainable.** **The bibliographic record is now verified against Crossref**, and it corrects the Cycle-91 label: the paper at 51(5): 717–744 is titled "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates"; the Cycle-91 description of it as "the 'Physical-Paper Hypothesis' paper" is **not corroborated by the publisher's bibliographic record** and is no longer relied on by the register. Crossref also confirms the SSRN accepted version carries the same title, dated 2022. The paper is therefore **not** used as a verification basis for any reason in R-054, and R-052's freight reasoning continues to rest on S-350, S-351, S-352 and S-364 | **Cycle-98 annotation — the abstract is now a fetched document, and the label is corroborated by the authors' own words (S-380).** The Internet Archive's replay of the SSRN record page for this paper was fetched directly on 21 October 2026 (HTTP 200; 57,582 bytes) and its abstract text-extracted; the abstract states in the authors' own words that FFA prices responding more rapidly than spot prices to new information is "termed the **Physical-Paper Hypothesis** in this paper" and that diverse shocks are "termed the **Shock-Diversity Hypothesis**". The Cycle-93 caveat that the label "is **not corroborated by the publisher's bibliographic record**" was correct as to the *publisher's bibliographic record* (a RePEc/Crossref title carries no hypothesis names) and **stands**; what is superseded is only the abstract's index-render status and the implication that the label is uncorroborated by the paper itself. **The body remains closed**: the T&F PDF and full-text routes return **HTTP 403**, both Internet Archive captures of the T&F full-text page are themselves **403** captures (14,476 and 5,171 bytes), and the archive holds **no** capture of the SSRN delivery PDF. The paper is therefore **still not used as a verification basis** for any reason in R-052 or R-054, and R-052's freight reasoning continues to rest on S-350, S-351, S-352 and S-364 |
 | **Kavussanos, Visvikis & Menachof (2004), *Review of Derivatives Research* 7(3): 241–266** (the "unbiasedness hypothesis" paper, DOI 10.1007/s11147-004-4811-7) | `link.springer.com/article/10.1007/s11147-004-4811-7` and the `…/content/pdf/10.1007/s11147-004-4811-7.pdf` route, with and without a browser user-agent; the City Research Online host (`cris.city.ac.uk`) that yielded S-350 and S-351; an SSRN delivery route; a CiteSeerX search route | The Springer host returns its **"Client Challenge"** interstitial (HTTP 200 with a 3,038-byte challenge page) instead of the article on every attempt; **DNS resolution for `cris.city.ac.uk` fails from this environment** (`Could not resolve host`, three attempts with retries); the SSRN route returns **HTTP 403**; the CiteSeerX route returns **HTTP 404**. Unpaywall reports the article as **closed** with no open-access location | **Honest negative — index-rendered neighbour only, unchanged.** Its published result is **not** used as a verification basis for any reason in R-052 or R-054; the unbiasedness and efficiency material R-052 relies on is carried by the **line-verified** S-350 and S-351, and the cost/liquidity ground is carried by the **line-verified** S-364, which this cycle obtained |
 | **FEC / SEC EDGAR full-text-search route used during the Cycle-93 screen** (to find a fund-level interval-fund registration statement) | EDGAR full-text search for `"interval fund"` restricted to Form N-1A; then the same route for `"Repurchase Request Deadline"` and `"repurchase offer" "net asset value" "private placement"`; then the first three candidate N-1A filings were fetched and their text extracted | The phrase-constrained searches return **either zero hits or only unrelated registrants** (ETF and closed-end-fund filings whose text contains the phrase in an unrelated context); the candidate filings fetched (`Alka Funds Trust`, `First Eagle Completion Fund Trust`) turned out to be an **exchange-traded fund** and a **conventional closed-end fund**, not interval funds | **Route note, not a debt.** The interval-fund family's fund-level evidence is therefore carried by the **rule** (S-359), the **regulator's own analysis** (S-360) and a **genuine Rule 23c-3 filing** (S-361), which is a primary document of the mechanism rather than a registration statement of a single fund. **No fund-level claim in R-054 depends on an N-1A** |
 
@@ -11806,3 +12125,138 @@ No gap opened and none closed. Open gaps remain G-21, G-28 (frozen structural nu
 ## Cycle 96 gap verdicts
 
 No gap opened and none closed. Open gaps remain G-21, G-28 (frozen structural null) and G-30 (exhausted); G-32 limb (c) and G-33 remain dated 2027 Q3; G-14 remains dated 29 March 2029; IDEA-014's state-free existence limb remains inconclusive. **R-055's known limitation on reason 5 is narrowed, not discharged:** the *content* of the canonical opaque-market statement is now in the register's corpus at abstract level (S-379) and quoted inside a fetched published document (S-378), but the two closed articles' bodies remain unobtainable and the limitation must continue to be stated.
+
+---
+
+## Cycle 98 (2026-10-21) — the bounded provenance-upgrade operation (twelve named entries), one closed-body sweep, and the "Muni Monday" trade-press route
+
+**Cycle-98 corpus-state note (the Cycle-96 sweep re-run; no identifier consumed).** The Cycle-96 sweep
+was re-run today over this file, entry by entry, under the **same rule as recorded in the Cycle-96
+corpus-state note**: an entry's block ends at the next heading of any level (or the next bold inline
+entry); an entry is **index-rendered** if it contains index-render wording (a search-index render, an
+index-rendered reading); and it is **index-rendered-only** if it contains **no** positive direct-fetch or
+text-extraction assertion anywhere in the entry, with negated forms ("not fetched directly", "not
+parsed", "index-rendered, not directly parsed", an HTTP 403 or a failed route) **not** counted as
+assertions. **One refinement was made and is disclosed**: a fetch or a read performed *through* a search
+index ("the report PDF was fetched through the search index and the quoted passages were read in the
+returned document text") is an **index render, not a direct fetch** and therefore does not clear an
+entry. The Cycle-96 script was not preserved, so the rule was **re-implemented from its recorded prose
+description**; on the corpus as it stood at the start of this cycle the sweep returns **68
+index-rendered-only entries** and **74 mixed entries** (plus 228 entries with no index wording), against
+Cycle 96's **89 / 51** on the Cycle-96 corpus. The difference is accounted for: **11** entries left the
+index-rendered-only class because Cycle 97 upgraded them to line-verified (S-139, S-140, S-141, S-150,
+S-155, S-162, S-164, S-165, S-174, S-225, S-266), and a residual **10** is attributable to the disclosed
+refinement above, which removes entries whose only fetch was an index-mediated read. **The residual is
+disclosed rather than smoothed over, and no other cycle's figures are restated.** After this cycle's
+operation the corpus holds **57 index-rendered-only entries** (the remaining upgrade pool) and **85
+mixed entries**. **S-260** and **S-272**, which the Cycle-96 note flagged as mixed-class, were
+**annotated in place** this cycle: each is line-verified (Cycle 85) and neither may be counted as
+index-rendered. This sweep consumed **no identifier**, changed **no score**, and opened and closed **no
+gap**.
+
+### The operation — the twelve named entries, all twelve now line-verified
+
+The subset was named in advance from the pool, chosen for load-bearing weight and for the likelihood of
+a direct fetch. **Twelve entries were attempted; twelve were upgraded** from index-rendered to
+line-verified, and **no identifier was consumed** (an upgrade strengthens an existing entry; it does
+not mint one). Four entries carry a recorded qualification: two quotations are struck (S-104), one
+attribution is struck (S-117), two bibliographic corrections are made (S-123, S-203) and one citation
+form is corrected (S-233).
+
+| Entry | Route that worked | Document facts | Result |
+| --- | --- | --- | --- |
+| **S-104** (ERCST/ICAP 2025 State of the EU ETS report) | direct PDF | HTTP 200; 2,593,907 bytes; 44 pages; 165,249 characters | **UPGRADE with two quotations struck.** The deadline-shift passage is confirmed; the two TNAC-surplus passages are **not present** in the document and are struck |
+| **S-112** (SNB WP 2010-6, "Daytime is money") | landing page → PDF | HTTP 200; 246,064 bytes; 31 pages; 56,622 characters | **UPGRADE, every passage confirmed** |
+| **S-117** (NY Fed "UST1 Update") | direct PDF | HTTP 200; 218,380 bytes; 3 pages; 3,358 characters | **UPGRADE; the author attribution is not attested** and is struck |
+| **S-122** (Hedegaard 2014, AQR working paper) | landing page → PDF | HTTP 200; 188,298 bytes; 35 pages; 62,305 characters | **UPGRADE, every passage confirmed** |
+| **S-123** (FCA Occasional Paper 68) | direct PDF | HTTP 200; 6,476,981 bytes; 81 pages; 177,052 characters | **UPGRADE with two bibliographic corrections** (date May 2025; authors established; "ETF", not "EFT") |
+| **S-124** (Fed FEDS Note, crypto ETPs) | direct HTML | HTTP 200; 121,749 bytes; 27,264 characters | **UPGRADE, every passage confirmed** |
+| **S-132** (EPA "RIN Trades and Price Information") | direct HTML | HTTP 200; 58,181 bytes; 6,431 characters | **UPGRADE, every passage confirmed; one quotation corrected to the page's exact wording** |
+| **S-185** (EPA "Public Data" and "Available RINs") | direct HTML (three pages) | HTTP 200; 55,644 / 56,732 / 53,811 bytes | **UPGRADE; the dated monthly file list is not attested** and is struck, replaced by the pages' own confirmed **monthly cadence** statement |
+| **S-203** (EPA "Final Renewable Fuel Standards for 2026 and 2027") | direct HTML at the **corrected** URL | HTTP 200; 62,745 bytes; 5,311 characters | **UPGRADE, every volume confirmed; the recorded URL had moved** (the old path now returns HTTP 404) |
+| **S-207** (17 CFR 240.14e-1) | direct HTML | HTTP 200; 148,763 bytes; 11,575 characters | **UPGRADE: the section is read end-to-end**, and all three items previously index-rendered from practitioner notes are confirmed against the rule itself |
+| **S-233** (LPL Financial net-capital exhibit) | EDGAR archive with a compliant user-agent | HTTP 200; 10,321 bytes (exhibit) and 1,915,351 bytes (10-Q body) | **UPGRADE with a form correction: the exhibit is filed with the Form 10-K, not a 10-Q**; the numbers are confirmed exactly; the "quarterly" route statement is qualified (the 10-Q **body** carries the table; the XBRL exhibit route is annual for this registrant) |
+| **S-279** (Takahashi 2017, Hosei discussion paper) | direct PDF | HTTP 200; 118,415 bytes; 30 pages; 53,248 characters | **UPGRADE, every passage confirmed**; the "16-E-002" designation is a file-naming convention, not a string in the document |
+
+### S-380 — Ko, B.-W. and Chang, Y.-T. (2024), "Analysis and forecasting of the dry bulk shipping market: structural VAR models using FFA-spot-time charter rates" — the **SSRN record's abstract** (abstract-level evidence only)
+
+- **Type:** **Preprint record, abstract level** — the authors' own deposited abstract on the SSRN
+  record for the working-paper version of the article published in *Maritime Policy & Management*
+  **51**(5): 717–744 (DOI 10.1080/03088839.2024.2348692). **Not the article and not the preprint body.**
+- **URL:** `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4264797` — **obtained through the
+  Internet Archive's replay of that page**:
+  `https://web.archive.org/web/20240415180421id_/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4264797`
+  (**HTTP 200; 57,582 bytes; 4,123 characters** of page text). The CDX record for that address lists
+  the capture as `text/html`, status **200**, captured **15 April 2024**; the live SSRN route returns
+  **HTTP 403** to this environment, so the archive replay is the only working route and is an
+  **archive replay of the record itself**, not an index rendering.
+- **What it establishes:** the working paper's **title, authorship, affiliations, length and posting
+  date** — "Analysis and Forecasting of the Dry Bulk Shipping Market: Structural VAR Models Using
+  FFA-Spot-Time Charter Rates by Byoung-Wook Ko, Young-Tae Chang … 44 Pages Posted: 1 Nov 2022 … Byoung-Wook
+  Ko, Korea Maritime Institute; Young-Tae Chang, Inha University" — and the **authors' own abstract**:
+  "This study investigates dynamic interactive patterns of the dry bulk shipping markets through the
+  lens of structural vector autoregression (VAR) models. There are two distinct hypotheses in the extant
+  literature. One is that asymmetry between spot and forward freight agreement (FFA) markets causes FFA
+  prices to respond more rapidly to new information than spot prices, termed the **Physical-Paper
+  Hypothesis** in this paper. The other hypothesis is that there are some diverse shocks with different
+  propagation mechanisms, termed the **Shock-Diversity Hypothesis**. This paper combines these two
+  seemingly separate hypotheses at one time in two illustrative structural VAR models, based on a
+  dataset of weekly spot, FFA, and time charter (TC) rates in the dry bulk shipping markets. The two
+  structural VAR models show that spot, FFA, and TC rates have different, particularly dynamic responses
+  to identified permanent shocks. Furthermore, they show that the reduced-form tri-variate FFA-Spot-TC VAR
+  model produces more accurate forecasts for future spot rates than the bi-variate FFA-Spot and TC-Spot VAR
+  models. Therefore, market participants can use VAR models as an information-processing tool for
+  understanding of (e.g. data descriptions and structural inferences), and forecasting in, dry bulk
+  shipping markets."
+- **State-integrity correction (recorded, not erased).** The **Cycle-93 honest-negative row** for this
+  paper recorded that the article's text "remains unobtainable", that its abstract "was read through a
+  search index and is **not** used as a verification basis", and — correcting the Cycle-91 label — that
+  the description of the paper as "the 'Physical-Paper Hypothesis' paper" "is **not corroborated by the
+  publisher's bibliographic record** and is no longer relied on by the register". That row is annotated in
+  place below. **What changes:** the label is now **corroborated by the authors' own abstract**, which
+  is now a fetched, parsed document rather than an index render; the bibliographic-record caveat was
+  correct as to the *publisher's record* (a RePEc/Crossref title carries no hypothesis names) and
+  stands, but the paper's own text does use both names. **What does not change:** the **body remains
+  closed** (the article's and the preprint's full texts were not obtained), the paper is **still not used
+  as a verification basis for any reason** in R-052 or R-054, and no reason, verdict, score, row or gap
+  moves.
+- **Caveats:** abstract-level evidence only, of the same kind as S-379; the abstract is a *summary of
+  results*, not the results themselves; the "Physical-Paper Hypothesis" is the authors' own label for
+  the **published** asymmetry result, which the register's freight reasoning already treats as
+  published prior art carried by S-350, S-351 and S-352.
+- **Verification:** **line-verified at abstract level (SSRN record page replayed from the Internet
+  Archive and parsed)**; every clause quoted above is verbatim from the fetched page.
+
+### Cycle 98 honest negatives and route records
+
+| Target | Routes tried | What happened | Verdict |
+| --- | --- | --- | --- |
+| **Harris & Piwowar (2006), "Secondary Trading Costs in the Municipal Bond Market", *Journal of Finance* 61(3), 1361–1397** (DOI `10.1111/j.1540-6261.2006.00875.x`) | (a) the **third-party citation link** published in a fetched comment letter (a CFA comment letter to the SEC's 2006 municipal-bond request for comment, which cites the paper as "Lawrence Harris and Michael Piwowar, Secondary Trading Costs in the Municipal Bond Market, Journal of Finance, 1361-1397 (2006), http://bit.ly/1J3owpC"), followed; (b) **OpenAIRE**'s DOI record; (c) the **Internet Archive's advanced search** on the exact title; (d) the **Internet Archive's CDX index and replay** on the publisher's PDF route; (e) a general web search on the exact title plus repository terms | The bit.ly link resolves to the **publisher's Wiley PDF route, which returns HTTP 403**; OpenAIRE returns the record with **no open-access location**; the Internet Archive's advanced search returns **zero** hits for the exact title; the CDX index holds **no** capture of the publisher's PDF route; the web search returns the publisher's PDF, the RePEc/IDEAS bibliographic record and citing documents, and **no author- or institution-hosted copy** | **Honest negative — still closed, re-confirmed with five routes, one of them new (a third-party citation link) and three new to this paper (OpenAIRE, the archive's advanced search and its CDX index).** The paper remains **not** a verification basis for any reason in R-055. Its result continues to be carried by **S-378**, which quotes it inside a fetched, text-extracted document, and by S-372. **R-055's reason 5's known limitation stands** as to this paper's body |
+| **Kavussanos, Visvikis & Menachof (2004), "The Unbiasedness Hypothesis in the Freight Forward Market: Evidence from Cointegration Tests", *Review of Derivatives Research* 7(3): 241–266** (DOI `10.1007/s11147-004-4811-7`) | (a) the publisher's `content/pdf` route and the article landing page, with and without a browser user-agent; (b) **OpenAIRE**'s DOI record; (c) the **Internet Archive's CDX index** on the publisher's PDF route, and the **replay of its single capture**; (d) the **Internet Archive's advanced search** on the exact title; (e) a general web search | The Springer host returns its **JavaScript client-challenge page** (3,038 bytes) instead of the PDF on every attempt — the Cycle-93 failure mode, unchanged; OpenAIRE returns **no open-access location**; the CDX index holds exactly **one** capture of the publisher PDF (23 November 2025) and the **replay of that capture returns the same 79,204-byte challenge page**, not the article; the archive's advanced search returns **zero** hits; the web search returns the publisher's page, the RePEc/IDEAS bibliographic record, a related City thesis chapter and a related *Journal of Futures Markets* article, but **no copy of this article** | **Honest negative — still closed, re-confirmed with the archive CDX and replay routes (new for this paper) and OpenAIRE.** The paper remains **not** a verification basis for any reason in R-052 or R-054; the unbiasedness and efficiency material is carried by the **line-verified** S-350 and S-351, and the cost/liquidity ground by the line-verified S-364 |
+| **Ko & Chang (2024)** — the *body* | (a) the publisher's `/doi/pdf/` and `/doi/epdf/` routes; (b) the **Internet Archive's CDX index and replay** on the publisher's full-text page; (c) the **SSRN delivery-PDF route** via the archive's CDX index; (d) the **Internet Archive's advanced search** on the exact title; (e) the archive's replay of the **SSRN abstract page** | The T&F routes return **HTTP 403** on every attempt; the archive holds **two** captures of the T&F full-text page and **both are HTTP 403** (14,476 and 5,171 bytes); the archive holds **no** capture of the SSRN delivery PDF; the archive's advanced search returns **zero** hits. **What was obtained:** the **SSRN record page** (S-380 above), which carries the authors' abstract | **Partial upgrade — abstract-level only (S-380).** The **body remains closed**. The paper is **still not used as a verification basis** for any reason in R-052 or R-054; the register's freight reasoning continues to rest on S-350, S-351, S-352 and S-364 |
+| **The "Muni Monday" trade-press route** (the route R-055's re-screen condition (d) names) | one general web search for a day-of-week periodicity in the municipal market, restricted to trade-press, venue and published sources | The search returned **no trade-press or venue source establishing a dated municipal market periodicity**. The nearest published object is a **monthly** seasonality — Cusatis & Tawatnuntachai, "Seasonality in the Municipal Bond Market", *Municipal Finance Journal* **31**(4): 1–17 (2011), whose abstract (read in an index rendering) reports "negative seasonal returns for the municipal market in March from 1980 to 2007" and "the January effect" — i.e. the published municipal seasonality is a **monthly, tax-deadline** phenomenon, and no source found states a weekly or Monday municipal effect. The day-of-the-week literature returned concerns **other** markets (Treasury and GNMA futures, T-bills, junk bonds), not the tax-exempt municipal market | **Framing correction — the "Muni Monday" label stays uncorroborated, and the published municipal seasonality that does exist is monthly, not weekly.** **R-055's re-screen condition (d) is therefore NOT satisfied**: no re-screen is triggered, and R-055's verdict, its five reasons, its known-baseline row 92 and its dated re-screen conditions (a)–(d) are **unchanged**. The search result is recorded as a **route outcome, not as evidence**: it was an index rendering, and the monthly-seasonality abstract was **not fetched**, so it is not used as a verification basis for any reason |
+| **The general web-search provider** | three searches (the H&P open-copy sweep, the freight open-copy sweep, the municipal-periodicity route) | The provider **worked for the whole session** this cycle, in contrast with Cycles 96 and 97, where it was quota-limited after one result set. It is therefore a **restored** route and is recorded as such, so that a future cycle does not assume it is unavailable | **Route note, not a debt.** The bibliographic APIs, the Internet Archive's CDX and replay routes, the publishers' own sites and EDGAR carried the work; the search provider was used for open-copy discovery and for the municipal-periodicity route |
+
+**Cycle-98 identifier and ranking record.** **One `S-` identifier consumed (S-380)**; **no `IDEA-`
+identifier consumed**; **no `V-` identifier consumed**; **no `R-` identifier consumed**; **no `P-`
+identifier consumed**; **no `G-` identifier consumed**; **no gap opened and none closed**; **no score
+changed and no rank changed**; **no known-baseline row was added**. The register holds **370 verified
+sources** at the end of Cycle 98 — **359** entries in the standard `### S-NNN` heading form, **ten** bold
+inline entries (S-281 … S-290) and the entry added here; S-210 … S-219 remain reserved and unused.
+(One heading inside the corpus is a **sub-heading within an entry** — "### S-358 — Cycle-96 upgrade: the
+body was obtained and text-extracted" — and is not a second entry; a block-level sweep must not count
+it as one.) The active ranking remains **IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009
+(53.0, rank 3), IDEA-014 (52.0, rank 4)**, with IDEA-010 parked (P-014) at a terminal 55.0. **Next free
+identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.**
+
+## Cycle 98 gap verdicts
+
+No gap opened and none closed. Open gaps remain G-21, G-28 (frozen structural null) and G-30
+(exhausted); G-32 limb (c) and G-33 remain dated 2027 Q3; G-14 remains dated 29 March 2029; IDEA-014's
+state-free existence limb remains inconclusive. **R-055's known limitation on reason 5 is narrowed, not
+discharged:** the two closed articles' bodies remain unobtainable (the freight one is now accompanied by
+the authors' own fetched abstract, S-380, which corroborates the published label), and the limitation
+must continue to be stated. **G-27 limb 1's route statement is qualified, not reopened:** the
+listed-broker-dealer quantity is available **quarterly in the 10-Q body**, while the **XBRL-tagged
+exhibit route is annual** for the registrant examined, and the exhibit must be cited by form type and
+accession number rather than by file name (S-233).

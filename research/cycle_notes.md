@@ -2884,3 +2884,162 @@ used as a verification basis unless it had been **fetched and text-extracted in 
    the entry above it) produced a figure of 51; under the corrected rule that figure is the count of the
    **mixed** class rather than the index-rendered-only pool, and the superseded phrasing has been replaced
    everywhere it appeared.**
+
+## Cycle 97 — 2026-10-21 — cycle-boundary record (written after the fact, honestly)
+
+Theory-only cycle. No tests, no data acquisition, no strategy code, no workflow changes, no modification of
+the canonical prompt, no trading.
+
+**Why this record exists.** Cycle 97 was **executed but never written up here**. The work is visible in
+`source_ledger.md`, where **nineteen entries carry a Cycle-97 annotation**, but the cycle log had no
+Cycle-97 block and the handoff's closing header line asserted that the cycle's provenance operation "**was
+not executed this cycle**". That assertion is **false against the ledger** and is **superseded by this
+record**; the header line has been rewritten in Cycle 98 and nothing else in the corpus was changed to
+accommodate it. The record below is what the cycle did, reconstructed from the ledger's own annotations
+and the committed history, not from memory.
+
+**What Cycle 97 did.** It executed the pre-registered **Priority 2 provenance-upgrade operation** over the
+named subset of the index-rendered pool, and it did so **without consuming an identifier, re-scoring,
+adding a sixth reason or re-screening**:
+- **eleven entries were upgraded to line-verified** — S-139, S-140, S-141, S-150, S-155, S-162, S-164,
+  S-165, S-174, S-225, S-266;
+- **eight re-fetch attempts failed and were recorded as honest negatives rather than as upgrades** — S-147,
+  S-148, S-151, S-153, S-161, S-226, S-237, S-238;
+- **no `IDEA-`, `V-`, `R-`, `P-` or `G-` identifier was consumed; no score, rank, tie-break, hard-stop flag,
+  gap or specification moved; no known-baseline row was added.**
+
+**What the register must not repeat.** The cycle's own closing line was wrong, and the correction is the
+most transferable lesson of the cycle: **a cycle's work is not done when the documents are fetched — it is
+done when the log, the ledger and the handoff agree about what was done.** Cycle 98 therefore re-derives
+every count from the files rather than carrying any forward, and writes the cycle-boundary record *inside*
+the cycle that did the work.
+
+---
+
+## Cycle 98 — 2026-10-21
+
+Theory-only cycle. No tests, no data acquisition, no strategy code, no workflow changes, no modification of
+the canonical prompt, no trading, no backtest, no simulation, no parameter sweep, no significance testing,
+no performance or risk metric.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute the handoff's priorities in order. (1) Maintain the frozen, exhausted and dated
+items as they stand: the three dated re-screen conditions (G-32 limb (c) and G-33 dated 2027 Q3; G-14 dated
+29 March 2029) and the two dated re-screen conditions on the two 2026 rulemaking files (R-054 condition (c)
+— comments closed 4 December 2026; R-055 condition (c) — comments due 14 December 2026) — **both are in the
+future as of today, 21 October 2026, so no clock-driven re-screen is due and none is performed.** (2) Run
+the bounded provenance-upgrade operation over a named subset of 8–12 of the index-rendered entries, record
+failures as failures, and consume no candidate identifier unless one genuinely survives. (3) One further
+bounded provenance operation, distinct from (2), chosen from the three options the handoff offered. (4)
+Lossless housekeeping and a rubric-arithmetic re-run. (5) Rewrite the handoff with re-derived counts and a
+fresh initial task message.
+
+**Pass 2 — Critique.** (1) The dates are the binding constraint and they do not bite yet: 4 December 2026
+and 14 December 2026 are both after 21 October 2026, so "maintain as they stand" is the whole of the work
+— writing anything else would be manufacturing activity. (2) The provenance pool must be **re-measured**,
+not inherited: the handoff's "89 index-rendered entries" is a Cycle-96 measurement on the Cycle-96 corpus,
+and Cycle 97 moved nineteen entries since; the sweep's script was not preserved, so the rule has to be
+re-implemented from its recorded prose and the residual difference **disclosed** rather than smoothed. (3)
+The named subset must be chosen for **load-bearing weight and fetchability**, not for volume: twelve entries
+whose quotations the register actually leans on, spread over the families the register's active candidates
+depend on. (4) Priority 3 must be a *different* operation, not more of the same: the closed-body sweep and
+the trade-press route qualify; the trade-press route additionally risks turning a framing correction into a
+re-screen, so it may only ever be run to **test R-055's condition (d)**, and a negative is a framing
+correction, not a reason. (5) The rubric arithmetic is a mechanical check and must be re-run, not assumed.
+
+**Pass 3 — Revise.** Keep (1) as a dated no-op with the dates recorded. For (2), re-run the sweep at entry
+level with one **disclosed refinement** (a fetch or read *through* a search index is an index render, not a
+direct fetch), report the pool as re-derived, and pick the subset by hand. For (3), run **one** further
+operation — the **closed-body repository sweep** for the three long-closed bodies, with new routes, plus
+the **trade-press route** as the single bounded test of R-055's condition (d) — and record every failure
+with its failure mode. For (4), re-run the rubric check and re-derive every count from the files. For (5),
+rewrite the handoff from the files, not from the last cycle's prose.
+
+### Outcomes
+
+1. **The dated items were maintained, not moved.** G-32 limb (c) and G-33 stay dated **2027 Q3**; G-14 stays
+   dated **29 March 2029**; IDEA-014's state-free existence limb stays inconclusive. R-054's condition (c)
+   (SEC Interval Fund Modernization, comments closed **4 December 2026**) and R-055's condition (c) (MSRB
+   Rule G-32, comments due **14 December 2026**) are **both still in the future on 21 October 2026**, so
+   neither is due and **no re-screen was performed**. The three open gaps stay as they are: G-21 (null
+   confirmed, handed to validation), G-28 (frozen structural null), G-30 (exhausted).
+2. **The provenance pool was re-measured and the difference from the inherited number was explained.** The
+   Cycle-96 sweep was re-implemented from its recorded prose and re-run over the corpus as it stood this
+   morning: **68 index-rendered-only entries and 74 mixed** against Cycle 96's 89 / 51. The difference is
+   accounted for in full: **eleven** entries left the class because Cycle 97 upgraded them, and a residual
+   **ten** is attributable to the one disclosed refinement (a fetch or read *through* a search index is an
+   index render, not a direct fetch — the original script was not preserved, so this is disclosed rather
+   than smoothed over, and **no earlier cycle's figures are restated**). After this cycle's operation the
+   corpus holds **57 index-rendered-only entries** and **85 mixed**. **S-260** and **S-272** were annotated
+   in place, so that neither can be mistaken for an index-rendered entry.
+3. **The bounded provenance-upgrade operation was executed over twelve named entries, and all twelve are now
+   line-verified.** No identifier was consumed. S-104 (ERCST/ICAP EU ETS report), S-112 (SNB WP 2010-6),
+   S-117 (NY Fed UST1 Update), S-122 (Hedegaard 2014, AQR), S-123 (FCA Occasional Paper 68), S-124 (Fed FEDS
+   Note on crypto ETPs), S-132 (EPA RIN price series), S-185 (EPA RFS public data), S-203 (EPA final 2026
+   and 2027 standards), S-207 (17 CFR 240.14e-1), S-233 (LPL Financial net-capital exhibit) and S-279
+   (Takahashi 2017, Hosei). Every upgrade records the HTTP status, the byte count, the page and character
+   counts and the verbatim confirmations, and four entries carry a recorded qualification: **two
+   quotations struck** (S-104's TNAC-surplus sentences are *not present* in the fetched document, so they
+   are struck and the register's claim is narrowed to the glossary definition), **one attribution struck**
+   (S-117's "Dawson, Janet" is not attested by the document's text), **two bibliographic corrections**
+   (S-123 is dated **May 2025**, not 2024, is authored by **Andrei Kirilenko, Wladimir Kraus, Oliver Linton
+   and Mingmei Xiao**, and is titled "ETF (Mis)pricing)"; S-203's EPA page **has moved** and the old path
+   now returns HTTP 404), and **one citation-form correction** (S-233's net-capital exhibit is filed with
+   the **Form 10-K**, not a Form 10-Q, and the `Rxx.htm` naming is reused across filings for unrelated
+   XBRL exhibits).
+4. **S-207 is the operation's most useful single result.** The rule section is now **read end-to-end**, and
+   the three items the register had been carrying as index-rendered from a practitioner note — the
+   20-business-day minimum offering period, the 10-business-day requirement on a change in consideration or
+   amount, and the extension announcement disclosing the approximate number of securities deposited — are
+   **confirmed against the rule itself**, along with the roll-up/S-4 60-calendar-day exception, the 2 %-of-the-
+   class proviso, paragraph (c)'s prompt-payment rule and paragraph (e)'s tolling provision. **Two further
+   practitioner-note items are *not* in this section** (guaranteed delivery by the close of business on the
+   second business day after expiration, and the 1986 SEC no-action relief) and remain unverified against
+   primary text.
+5. **S-233 qualifies G-27 limb 1 without reopening it.** The listed-broker-dealer quantity is available
+   **quarterly in the 10-Q body** (confirmed: "March 31, 2025 LPL Financial LLC Net capital $494,111 Less:
+   required net capital $17,926 Excess net capital $476,185"), while the **XBRL-tagged exhibit route is
+   annual** for this registrant, and the exhibit must be cited by **form type and accession number** rather
+   than by file name. The numbers the entry carried ($443,742 / $19,426 / $424,316 as of 31 December 2024)
+   are confirmed **exactly**.
+6. **The closed-body sweep found one new thing and confirmed two closures.** With the general web-search
+   provider **restored** this cycle (it was quota-limited in Cycles 96 and 97), a third-party citation link
+   published inside a fetched comment letter was followed to the Wiley PDF (**HTTP 403**), OpenAIRE and the
+   Internet Archive's advanced search and CDX index were run, and the archive's replay of the single capture
+   of the Springer PDF returned the **challenge page, not the article**. **Harris & Piwowar (2006)** and
+   **Kavussanos, Visvikis & Menachof (2004)** remain **closed**, re-confirmed with the new routes named so
+   that they are not re-run blindly. **Ko & Chang (2024)** yielded one real gain: the **authors' own
+   abstract**, obtained by replaying the **SSRN record page** from the Internet Archive (**HTTP 200; 57,582
+   bytes**) and registered as **S-380** — the "Physical-Paper Hypothesis" label is thereby corroborated by
+   the authors' own words, which **corrects the implication** of the Cycle-93 row while leaving its
+   bibliographic-record caveat standing. **The body remains closed** and the paper is **still not used as a
+   verification basis** for any reason.
+7. **The "Muni Monday" trade-press route returned a framing correction, not a trigger.** No trade-press or
+   venue source establishes a dated municipal market periodicity; the published municipal seasonality that
+   does exist is **monthly** (Cusatis & Tawatnuntachai 2011 — negative March returns 1980–2007 and the
+   January effect), and the day-of-the-week literature returned concerns **other** markets. **R-055's
+   re-screen condition (d) is therefore not satisfied** and **no re-screen is triggered**; R-055's verdict,
+   its five reasons, its known-baseline row 92 and its dated conditions (a)–(d) are **unchanged**. The
+   search result is recorded as a **route outcome, not evidence** — it was an index rendering, and the
+   monthly-seasonality abstract was not fetched, so it is used for nothing.
+8. **Lossless housekeeping and a rubric-arithmetic re-run (clean).** The register's rule (`Weighted total =
+   Σ (dimension score × weight) / 5`, weights 25/20/15/15/15/10; per-point values 5.0/4.0/3.0/3.0/3.0/2.0)
+   was re-run across all four active candidates and the parked IDEA-010: **IDEA-011 4/3/3/4/2/5 = 69.0;
+   IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014 3/2/3/2/2/4 = 52.0; IDEA-010
+   4/4/1/2/2/2 = 55.0.** Every recorded total matches its recorded profile. **No score, rank, tie-break,
+   hard-stop flag, gap or specification changed**, and no record was moved, relabelled, renumbered or
+   re-scoped to tidy a file.
+9. **Counts re-derived from the files, not carried forward.** 15 dossiers (4 active, 6 parked, 5 rejected);
+   4 ranked active plus 1 parked-at-terminal; **370** verified sources (S-001 … S-209, S-220 … S-380;
+   S-210 … S-219 reserved and unused) — **359** entries in the standard `### S-NNN` heading form plus **ten**
+   bold inline entries (S-281 … S-290) plus the entry added this cycle; 10 validation specifications (8 not
+   executable; executable: V-008, V-009; V-002 frozen; V-010 never-to-execute); **55** rejections (R-001 …
+   R-055); 13 parking records (12 active); **92-row** known-baseline table; gaps G-01 … G-36, open: G-21,
+   G-28 (frozen), G-30 (exhausted). **Next free identifiers: IDEA-017, S-381, V-012, G-37, R-056, P-015.**
+10. **Two state-integrity findings were recorded in place rather than erased.** (i) The **Cycle-97 cycle
+   log was missing** and the handoff's closing header line mis-stated what Cycle 97 had done; the Cycle-97
+   boundary record above and the rewritten header fix this, and the ledger's Cycle-97 annotations are the
+   evidence. (ii) One heading in the corpus — "### S-358 — Cycle-96 upgrade: the body was obtained and
+   text-extracted" — is a **sub-heading inside an entry**, not a second entry; a block-level sweep that
+   counts headings will over-count by one, and the ledger's corpus-state note now says so.

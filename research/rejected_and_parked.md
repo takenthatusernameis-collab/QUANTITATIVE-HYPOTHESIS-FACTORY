@@ -5,19 +5,22 @@ candidate rejected here is not deleted from the project's memory; it is not a to
 must not be presented as one. Items are re-openable only with a **new mechanism**, not with better
 wording or a new parameter.
 
-Last updated: **Cycle 96 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
+Last updated: **Cycle 98 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
-table.** Cycle 96 added **no rejection, no parking record and no baseline row**, and it **opened no gap and
-closed no gap**. Its substantive work was **two bounded, pre-registered evidence operations and no screen**:
-**(i)** the last metadata-level electricity entry was upgraded to line-verified (S-358, from the authors' open
-working-paper version at EconStor; S-356 and S-357 were upgraded in the same cycle from the OpenAlex abstract
-index), and **(ii)** the **municipal scholarship was completed** — Griffin, Hirschey and Kruger (2023),
-*The Journal of Finance* 78(2), 887–934, the **published version of record**, obtained and text-extracted
-(**S-378**), and the Green, Hollifield and Schürhoff working paper's **deposited abstract** (**S-379**,
-**abstract-level only**). Both new entries **strengthen R-055's existing reasons 1, 2 and 5** and add **no sixth
-reason**: **R-055's verdict, its five reasons and its baseline row 92 are unchanged**, and the Harris & Piwowar
-(2006) and Green, Hollifield & Schürhoff (2007) **bodies remain closed** and are still not used as a verification
-basis. The failed routes are recorded in the ledger's Cycle-96 honest-negatives table. Earlier history:
+table.** Cycle 98 added **no rejection, no parking record and no baseline row**, and it **opened no gap and
+closed no gap**. Its substantive work was **evidence work, not a screen**: **(i)** the bounded
+**provenance-upgrade operation** upgraded **twelve** index-rendered entries to line-verified (S-104,
+S-112, S-117, S-122, S-123, S-124, S-132, S-185, S-203, S-207, S-233, S-279), with four recorded
+qualifications (two quotations struck as unverified, one attribution struck as unattested, two
+bibliographic corrections and one citation-form correction) and **no identifier consumed**; **(ii)** the
+**closed-body repository sweep** re-tried the three long-closed bodies with new routes and confirmed that
+**Harris & Piwowar (2006)** and **Kavussanos, Visvikis & Menachof (2004)** remain **closed honest
+negatives**, while **Ko & Chang (2024)** yielded its **authors' own abstract** — registered as **S-380**
+(**abstract-level only**; the body remains closed and the paper is **still not used as a verification
+basis** for any reason in R-052 or R-054); and **(iii)** the **"Muni Monday" trade-press route** returned
+**no** dated municipal market periodicity, so **R-055's re-screen condition (d) is not satisfied** and **no
+re-screen is triggered**. **R-055's verdict, its five reasons and its baseline row 92 are unchanged**, and
+the failed routes are recorded in the ledger's Cycle-98 honest-negatives table. Earlier history:
 **Cycle 94 complete, 2026-10-21. 55 rejections (R-001 … R-055), 13 parking records of
 which 12 remain active (P-001 … P-012 and P-014, with P-004 closed by R-038), 92-row known-baseline
 table.** Cycle 94 added **one rejection (R-055), no parking record and one baseline row (row 92)**, and it
@@ -2014,6 +2017,27 @@ record rests on it**. The limitation is stated plainly: general web search was u
 so **trade press** and dealer commentary — the most likely home of a phrase like this — were **not** searched;
 that route remains open. This is recorded in the ledger's Cycle-94 honest-negatives table, and it is a
 **correction to the handoff**, not a debt.
+
+**Cycle-98 annotation — the open trade-press route was run this cycle, and it returned the same framing
+correction.** The limitation named above ("general web search was unavailable in this environment, so
+**trade press** and dealer commentary … were **not** searched; that route remains open") is now
+**discharged as a route, and the result is a negative**: with the general web-search provider **restored**
+this cycle, one bounded search was run for a day-of-week periodicity in the tax-exempt municipal market,
+restricted to trade-press, venue and published sources. **No trade-press or venue source establishing a
+dated municipal market periodicity was found.** The nearest published object is a **monthly** seasonality —
+Cusatis & Tawatnuntachai, "Seasonality in the Municipal Bond Market", *Municipal Finance Journal* 31(4):
+1–17 (2011), whose abstract (read in an index rendering, **not fetched**) reports "negative seasonal
+returns for the municipal market in March from 1980 to 2007" and the January effect, and attributes the
+March pattern to "an increase in municipal issuance in March and a lack of participation by individual
+investors as buyers in anticipation of the April 15 tax deadline" — i.e. the published municipal
+seasonality is a **monthly, tax-deadline** phenomenon, and no source found states a **weekly or Monday**
+municipal effect. The day-of-the-week literature returned concerns **other** markets (GNMA and Treasury
+futures, T-bills, junk bonds), not the tax-exempt municipal market. **Consequences, stated precisely:**
+the "Muni Monday" element **remains an unverified label**, and it **remains a framing correction and not
+a sixth reason**; the search result is a **route outcome, not evidence** (it was an index rendering, and
+the monthly-seasonality abstract was not fetched, so it is used as a verification basis for nothing);
+**R-055's re-screen condition (d) is NOT satisfied**, so **no re-screen is triggered**; and **R-055's
+verdict, its five reasons, its known-baseline row 92 and its dated conditions (a)–(d) are unchanged**.
 
 **Dated re-screen condition.** Re-screen only if (a) the MSRB, the SEC or Congress adopts **public,
 real-time or intraday dissemination of municipal trade data**, or the other reform proposals in the published

@@ -1,6 +1,29 @@
-# RANKED SHORTLIST — CYCLES 1–96
+# RANKED SHORTLIST — CYCLES 1–98
 
-# RANKED SHORTLIST — CYCLES 1–96
+# RANKED SHORTLIST — CYCLES 1–98
+
+**Cycle-98 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
+1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
+(P-014) at a terminal 55.0.** Cycle 98's substantive work was **evidence work, not a screen**, because the
+register's named absent families remain exhausted and no new mechanism family was pre-registered. (i) **The
+bounded provenance-upgrade operation** was executed over a named subset of **twelve** index-rendered
+entries re-measured at the start of the cycle, and **all twelve are now line-verified** — S-104, S-112,
+S-117, S-122, S-123, S-124, S-132, S-185, S-203, S-207, S-233 and S-279 — with four recorded
+qualifications (two quotations struck as unverified, one attribution struck as unattested, two
+bibliographic corrections and one citation-form correction). **No identifier was consumed by the
+operation** and **no score moved with it**: an upgrade changes an entry's provenance, not a candidate's
+merit. (ii) **The closed-body repository sweep** re-tried the three long-closed bodies (Harris & Piwowar
+2006; Kavussanos, Visvikis & Menachof 2004; Ko & Chang 2024) with **new routes**; two remain **closed
+honest negatives** with the failed routes named, and one yielded the **authors' own abstract**, registered
+as **S-380** (abstract-level only; the body remains closed and the paper is **still not used as a
+verification basis** for any reason). (iii) **The "Muni Monday" trade-press route** returned **no** dated
+municipal periodicity — the published municipal seasonality that exists is **monthly**, not weekly — so
+**R-055's re-screen condition (d) is not satisfied** and **no re-screen is triggered**; R-055's verdict,
+its five reasons and its baseline row 92 are **unchanged**. **The rubric-arithmetic re-run is clean**:
+IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. The register now holds **370 verified sources** and a
+**92-row known-baseline table**. **No score, rank, tie-break, hard-stop flag, gap or specification
+changed.**
 
 **Cycle-96 ranking. No score changed, and no rank changed. The order is unchanged: IDEA-011 (69.0, rank
 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3), IDEA-014 (52.0, rank 4), with IDEA-010 parked
@@ -1385,6 +1408,14 @@ condition bit: the disagreement was resolved against the candidate.**
 ---
 
 ## Rank 2 — IDEA-003 VRP-STATE (71.0) — *Cycle-1 rank 3; Cycle-13 rank 2*
+
+**Cycle-98 annotation — this heading is historical, and IDEA-003 is not in the active ranking.** The
+register's status for IDEA-003 is "**parked (P-012) — not ranked**" and its score is **terminal**; the
+heading above retains the rank the candidate held when it was last active, and it is **not** relabelled
+here (no record is moved or renumbered to tidy a file). The **active ranking** is the four candidates
+named in the header above — IDEA-011 (69.0, rank 1), IDEA-004 (63.0, rank 2), IDEA-009 (53.0, rank 3),
+IDEA-014 (52.0, rank 4) — with IDEA-010 parked (P-014) at a terminal 55.0. **No score, rank, tie-break or
+hard-stop flag changed in Cycle 98.**
 
 - **Mechanism, causal coherence, persistence (4/5):** Insurance demand → skewed premium → state
   gate is a coherent, well-anchored chain (S-016, S-014, S-012, S-013, S-015). The gate itself is

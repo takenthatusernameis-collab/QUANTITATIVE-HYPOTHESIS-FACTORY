@@ -4,7 +4,35 @@ Every retained candidate lives here with a complete dossier. Status values: `sho
 `candidate` (retained but not shortlisted), `archived` (retained for reference, not a top
 opportunity), `rejected` (see `rejected_and_parked.md`; dossiers are not maintained for those).
 
-Last updated: **Cycle 96 complete** (Cycle 96 added **two new source identifiers and two new source entries (S-378, S-379)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's two bounded, pre-registered operations were **evidence operations, not screens**. **(i) Priority 2(c)** — the three Cycle-92 electricity entries were **upgraded from metadata-level to line-verified**: S-356 and S-357 from the OpenAlex abstract inverted index, and **S-358** from the authors' **open working-paper version** (Billimoria, Mays and Poudineh, "Hedging and Tail Risk in Electricity Markets", OIES Paper EL 53, April 2024), fetched directly from EconStor and text-extracted (40 pages; 113,195 characters). **(ii) Priority 3(a)** — the **municipal scholarship was completed**: **Griffin, Hirschey and Kruger (2023), "Do Municipal Bond Dealers Give Their Customers 'Fair and Reasonable' Pricing?", *The Journal of Finance* 78(2), 887–934 (S-378)** — the paper this register had carried as an honest negative since Cycle 94 — was obtained in the **published version of record** and text-extracted (48 pages; 147,579 characters), and the **Green, Hollifield and Schürhoff** working paper's **deposited abstract** (S-379) was fetched directly from Crossref (**abstract-level evidence only**; the published bodies of Harris & Piwowar 2006 and Green, Hollifield & Schürhoff 2007 **remain closed**). **R-055's verdict, its five reasons and its baseline row 92 are unchanged** — the two new entries **strengthen existing reasons 1, 2 and 5** and add **no sixth reason**, and this is **not** a re-screen of the municipal family. The cycle's third operation was **lossless housekeeping with a rubric-arithmetic re-run (clean)** and a **state-integrity correction** (the register's honest-negative row gave the Griffin, Hirschey and Kruger issue as 78(6); the correct issue is **78(2)**, April 2023, pages 887–934, Crossref-verified — the row is annotated in place). The register now holds **369 verified sources** (S-001 … S-209, S-220 … S-379; S-210 … S-219 reserved and unused). Earlier history: **Cycle 95 complete** (Cycle 95 added **one new source identifier and one new source entry (S-377)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
+Last updated: **Cycle 98 complete** (Cycle 98 added **one new source identifier and one new source entry
+(S-380)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed
+**no gap** and changed **no score**). The cycle's work was **evidence work, not a screen**. **(i) The
+bounded provenance-upgrade operation** upgraded **twelve** index-rendered entries to line-verified — S-104,
+S-112, S-117, S-122, S-123, S-124, S-132, S-185, S-203, S-207, S-233 and S-279 — with four recorded
+qualifications: **two quotations struck** as unverified (S-104's TNAC-surplus sentences are *not present*
+in the fetched document, so the register's claim narrows to the glossary definition), **one attribution
+struck** as unattested (S-117's "Dawson, Janet"), **two bibliographic corrections** (S-123 is dated **May
+2025**, not 2024, is authored by **Andrei Kirilenko, Wladimir Kraus, Oliver Linton and Mingmei Xiao**, and
+is titled "ETF (Mis)pricing)"; S-203's EPA page has **moved** and the old path now returns HTTP 404), and
+**one citation-form correction** (S-233's net-capital exhibit is filed with the **Form 10-K**, not a
+Form 10-Q). The operation consumed **no identifier** and **no score**. **(ii) The closed-body repository
+sweep** confirmed that **Harris & Piwowar (2006)** and **Kavussanos, Visvikis & Menachof (2004)** remain
+**closed honest negatives** with their failed routes named, and obtained **Ko & Chang (2024)'s authors'
+own abstract** — registered as **S-380**, **abstract-level only**; the body remains closed and the paper
+is **still not used as a verification basis** for any reason in R-052 or R-054. **(iii) The "Muni Monday"
+trade-press route** returned **no** dated municipal market periodicity — the published municipal
+seasonality that exists is **monthly**, not weekly — so **R-055's re-screen condition (d) is not
+satisfied**, **no re-screen is triggered**, and **R-055's verdict, its five reasons and its baseline row 92
+are unchanged**. The cycle's fourth operation was **lossless housekeeping with a rubric-arithmetic re-run
+(clean)**: IDEA-011 4/3/3/4/2/5 = 69.0; IDEA-004 4/4/1/3/3/3 = 63.0; IDEA-009 3/3/1/3/2/4 = 53.0; IDEA-014
+3/2/3/2/2/4 = 52.0; IDEA-010 4/4/1/2/2/2 = 55.0. The cycle also recorded two **state-integrity findings
+in place**: the **Cycle-97 cycle log was missing** and the handoff's closing header line mis-stated what
+Cycle 97 had done (the Cycle-97 boundary record in the cycle log and the rewritten header fix this), and
+one heading in the corpus ("### S-358 — Cycle-96 upgrade: …") is a **sub-heading inside an entry**, not a
+second entry. The register now holds **370 verified sources** (S-001 … S-209, S-220 … S-380; S-210 … S-219
+reserved and unused). Earlier history: **Cycle 96 complete** (Cycle 96 added **two new source identifiers
+and two new source entries (S-378, S-379)**, minted **no new candidate** and **no new validation
+specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 95 complete** (Cycle 95 added **one new source identifier and one new source entry (S-377)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). Earlier history: **Cycle 94 complete** (Cycle 94 added **twelve new source identifiers and twelve new source entries (S-365 … S-376)**, minted **no new candidate** and **no new validation specification**, opened **no gap**, closed **no gap** and changed **no score**). The cycle's first operation was a **bounded,
 pre-registered screen of a genuinely new mechanism family** — the **tax-exempt municipal bond market family**
 (the over-the-counter, dealer-intermediated, retail-priced municipal secondary market and the primary market's
 published underwriting concession; the dealer's one-way bid, the customer cost premium, the tax-equivalent
@@ -3853,6 +3881,19 @@ re-scored to 68.0, enters the top three, and receives V-010
   is a liquidity-style quantity and is not commensurable with a bank holding company's risk-based
   ratios, nor does an asset-manager AP have an equivalent — so the cross-sectional contrast must be
   built within a comparable capital regime, or the mapping must be justified explicitly.
+  **Cycle-98 annotation — qualification (a) is confirmed in the documents, and the exhibit citation
+  must be tightened.** The **listed-broker-dealer** case was checked directly against the filings this
+  cycle (S-233, upgraded to line-verified): for LPL Financial Inc. the **net-capital table is published
+  quarterly in the Form 10-Q body** — "March 31, 2025 LPL Financial LLC Net capital $494,111 Less:
+  required net capital $17,926 Excess net capital $476,185" — while the **XBRL-tagged exhibit is filed
+  with the Form 10-K** (the 31 December 2024 figures, $443,742 / $19,426 / $424,316, are confirmed
+  exactly). Two practical consequences for this dossier, neither of which moves the verdict: (i) the
+  quantity IDEA-010 needs is **available quarterly** for a listed broker-dealer, so qualification (a)
+  holds as stated; and (ii) the **XBRL exhibit route is annual** for this registrant and the exhibit's
+  **file name is reused across filings for unrelated XBRL exhibits**, so any future specification must
+  cite the net-capital table **by form type, accession number and filing date** (and may prefer the 10-Q
+  body) rather than by exhibit name. **G-27 stays closed in the candidate's favour; no gap is opened,
+  closed or re-scoped, and IDEA-010's park and terminal score are unchanged.**
 - **G-29 opened — the ETF → AP-set mapping and the coverage count that now bounds the candidate.**
   IDEA-010's identification is a *cross-sectional* contrast, so the state must be attached to an ETF
   through the identity of the firms that arbitrage it. Two facts are needed and only one is
