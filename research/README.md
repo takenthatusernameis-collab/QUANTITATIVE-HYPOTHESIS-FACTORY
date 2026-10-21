@@ -23,14 +23,32 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-448`; `S-210 … S-219` and `S-281 … S-290` are
+   unused**),    sources are `S-0NN` (next free: `S-456`; `S-210 … S-219` and `S-281 … S-290` are
    **reserved and unused**),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-065`), parkings are `P-0NN` (next
+   *state-free* specification), rejections are `R-0NN` (next free: `R-067`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 124**;
+   (next: **Cycle 126**;
+   **Cycle 125 completed four pre-registered priorities — a record-integrity repair (Cycle 124 had
+   advanced **no** artifact and its claimed rejection **R-065** had never been written, so it is written
+   now from the Cycle-124 record; the stale "next free **S-448**" pointer, which named a **live**
+   identifier, is repaired to **S-454**; and R-064's coverage-map baseline-row citations are corrected
+   in place against the baseline table's own positional numbering); the record-first scan's three
+   remaining candidate record sets (a published default-portfolio auction record; a published revision
+   calendar with revised values; a published levy schedule), **all three killed at the design stage with
+   zero fetches** and logged as **R-066**, which extends the coverage map to **twenty-four rows** and adds
+   **three** rediscovery-guard baseline rows (**rows 100–102**); G-37's remaining limb, where a bounded
+   search produced **S-454** — the first *named, citable, published* instance of the general proposition
+   the limb asks about — but the source is an **arXiv preprint** about an intraday price-path relation, so
+   **the limb's condition is still not met** and the gap stays open with a **sharpened** re-screen
+   condition; and IDEA-011's two open limbs, where **S-455** (ESMA's dated 2026 enforcement-priority
+   statement, **index-rendered** after three HTTP 403 failures) makes the candidate's mandatory
+   pre-adoption disclosure **supervised** but supplies **no population rate**, so **G-33 stays open**.
+   Two sources, two rejections (one written late), four baseline rows, no candidate created, no score or
+   rank changed, no gap opened or closed, no specification created or amended — and the **ninth recorded
+   occurrence** of the header-update failure mode recorded and repaired**;
    **Cycle 123 completed five pre-registered priorities — a record-integrity repair (the retrospective
    Cycle-122 boundary record; the source-count repair from the stale "418" to the true **433 (S-001 …
    S-453)**; and the Cycle-118 unsourced literature-closure claim, re-grounded on R-027 and on three newly
