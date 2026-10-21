@@ -4873,3 +4873,285 @@ the screen that the Cycle-112 handoff nominated as the highest-value act was, in
 handoff described, and it still produced a bounded negative.** The lesson for the next cycle is on the record:
 **a handoff that asserts a family is unscreened must carry the evidence of that assertion**, and a re-screen must
 be reported as *weaker* than a first-time screen.
+
+---
+
+## Cycle 114 — 2026-10-21 (pre-registration written BEFORE the first fetch)
+
+Theory-only cycle. No tests, no data acquisition, no market-data processing, no strategy or signal
+implementation, no workflow or test changes, no modification of the canonical prompt, no trading, no
+cross-repository work.
+
+**This cycle is the register's first execution of the *construction-first* method** — the register's own open
+question 5 ("Is a family screen the right unit of work?"). The Cycle-113 handoff is the first to name the
+method, fix its artefacts in advance and forbid the outcome it wants. **This pre-registration is written before
+the first external fetch of the cycle**, and it fixes: the domain, the construction, the screen, the routes,
+the falsification rule, the measurement, and the register's prior expectation.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute, in order: (1) **Priority 1 — the construction-first method test**, in five
+phases (domain selection → construction → ordinary screen → pre-registered verdict → measurement); (2)
+**Priority 2 — IDEA-011's third hard-stop**, now testable because the **2026 interim reporting season** has
+produced the first ESMA-expected IFRS 18 pre-adoption-effect disclosures; (3) **Priority 3 — G-37's remaining
+limb**, the within-contract, time-series form of the funding–return relation; (4) **Priority 4 — IDEA-014's
+three remaining limbs**; (5) **Priority 5 — the dated monitors, the counts re-derived from the files, the
+rubric arithmetic, the five headers, this log and the handoff rewrite** for Cycle 115.
+
+**Pass 2 — Critique.** Four things had to be designed out before the cycle could start.
+
+- *The handoff's own framing must be checked before it is executed, not after.* The Cycle-113 lesson was
+  recorded in bold: **a handoff that asserts a family is "unscreened" must carry the evidence of that
+  assertion**, and a re-screen must be reported as *weaker* than a first-time screen. The three domains named
+  in the handoff are explicitly labelled there as "**leads to be verified, not citations**". So the *first*
+  act of this cycle is a **register-memory check on each of the three domains**, and the check is recorded here
+  **before** the domain is chosen. The check was run by keyword inspection of the register's own artifacts
+  (the known-baseline table and the dossiers) and is reported in the Phase-0 record below.
+- *The construction-first method can fail in a way that looks like a failure of the method.* If a
+  construction written from the mechanism outward turns out to be a published baseline in a re-labelled form,
+  the rediscovery guard kills it — and the handoff's own falsification rule says this must be recorded as a
+  **result**, not as a failure. That rule is therefore fixed in advance, together with the **measurement**
+  (Phase 4) that is the experiment's actual product: *what the construction produced* and *what the ordinary
+  screen did to it*.
+- *The screen must not be run on a construction that was quietly tuned against the literature.* The order is
+  therefore binding: the construction is written **in full, in the register's dossier fields, with no
+  external lookup**, and only then is the screen run. Where the construction is wrong, the screen's finding
+  is the record; the construction is not repaired after the fact to survive it.
+- *Priorities 2–4 must not become re-runs of exhausted routes.* The Cycle-52 IFRS corpus, the Cycle-113
+  RIN-cost routes and the Cycle-113 funding routes are exhausted **as routes**; each is re-entered only on a
+  **different host or path form**, or through the **new** object the handoff names (the 2026 interim season;
+  the two 2025–2026 funding-regime items; the EMTS vintage span).
+
+**Pass 3 — Revise.** Write this pre-registration before the first fetch; execute Priority 1 in the five
+phases with the domain choice, the construction and the screen's routes all fixed here; record the framing
+correction rather than silently adopting the handoff's; end the cycle with an updated handoff, five verified
+headers, and a fresh, self-contained initial task message for Cycle 115.
+
+### P1 — pre-registration: the construction-first method test
+
+#### Phase 0 — domain selection, fixed before any fetch
+
+Three domains were offered by the Cycle-113 handoff: **(i)** tariff-rate-quota and import-licence rationing;
+**(ii)** physical-delivery warrant and warehouse-receipt ledgers; **(iii)** regulated capacity and reliability
+procurement (capacity auctions). **Register-memory check, run first and recorded here:**
+
+| Domain | Register-memory check (the register's own artifacts, inspected before the choice) | Verdict before any fetch |
+| --- | --- | --- |
+| **(i) TRQ / import-licence rationing** | The known-baseline table and the dossiers contain **no** entry on tariff-rate quotas, import licensing, quota rents or trade-policy rationing. Keyword inspection of `rejected_and_parked.md` and `idea_register.md` for "TRQ", "import licen", "tariff", "quota rent": **zero** substantive hits (the "quota" hits are the words "quotation" and "dealer quotations"). | **Uncontaminated** |
+| **(ii) physical-delivery warrants / warehouse stocks** | **Already a published baseline**: "Physical-delivery calendars and the inventory channel in commodity futures" — screened in **Cycle 6 as frontier family 5**, with the inventory-and-convenience-yield channel already held (S-038, S-039) and the roll mechanics peer reviewed (S-145 with S-032). The handoff itself flags this as a **declared variant risk**. | **Excluded: variant risk** |
+| **(iii) capacity / reliability procurement auctions** | No baseline entry on capacity auctions, ISO-NE, PJM, MISO or reliability procurement. But the state the handoff names — "the published demand curve, the published zonal obligation, the published clearing price" — is **the auction's own output**, and the "rationed, mandatory, price-insensitive purchase at a step in the marginal price" is the mechanism that *determines* that output. | **Excluded on a design ground, stated in advance: the state is the outcome** |
+
+**Domain selected: (i) tariff-rate-quota and import-licence rationing.** **Instance selected: the US sugar
+program's tariff-rate quota and the USDA's published weekly quota-status ledger** ("Sugar Marketing
+Allocations and Quota Status Report"), with the **tariff step at the published exhaustion moment** imposed on
+the non-quota importer.
+
+**Reason, recorded before any fetch.** (a) Domain (ii) is excluded by the register's own baseline, so a test
+starting there would measure the rediscovery guard rather than the method. (b) Domain (iii) is excluded on the
+ground stated in the table above — in a clearing-price auction the named state *is* the price, so the
+Cycle-52 third test cannot be applied to it; excluding it in advance is a design judgement about the
+experiment, made without seeing any literature, and it is recorded as such. (c) Domain (i) is the register's
+own archetype — a *quantitative* restriction, a *codified* step, a *price-insensitive constrained party*, and a
+*published, dated ledger* — and it is the only one of the three with **no** prior content in the register, so
+the test is not contaminated by the register's priors. (d) **Within** domain (i), the **sugar** instance is
+chosen over the **EU steel** instance because the EU steel TRQ operates a **quota auction** whose clearing
+tariff is a *published price of a constraint* — the register's already-closed template (A)/(C) family (R-039,
+R-040) — whereas the sugar TRQ has **no auction price**: the step is a **statutory rate differential** fixed
+in advance, so the *only* unknown is the **exhaustion moment**, which is precisely the mechanism the handoff
+names. The instance furthest from the register's closed templates is the one that makes the test informative.
+
+#### Phase 1 — the construction, written from the mechanism outward
+
+**Explicit statement required by the handoff: *no external literature was consulted for this construction.* It
+was written from the mechanism outward, before any fetch, using only the register's own memory (the
+known-baseline table and the dossiers, consulted solely to avoid self-duplication). No external document was
+fetched, searched or read in composing it.**
+
+1. **The structural feature that is the root of the mechanism.** A tariff-rate quota is a *quantitative* import
+   restriction with a **codified price step**: imports up to a published quantity enter at the *in-quota* tariff
+   rate; imports beyond that quantity enter at the *out-of-quota* rate, which is set far above the in-quota
+   rate. The quantity is allocated in advance, and the **step is published before the fiscal year begins**. What
+   is *not* published in advance is the **moment at which the quantity is exhausted**. The root feature is
+   therefore **a known price step attached to an unknown but accounting-observable exhaustion date** — a
+   ratchet in the domestic landed price that is *armed in advance* and *triggered by a quantity*.
+
+2. **The participants and the forced or constrained flow.**
+   - **Quota holders** (importers holding an allocation, and the foreign exporters selling to them): buy at the
+     world price and sell into the US at *world + in-quota rate*; they capture the **quota rent**.
+   - **Non-quota importers — the constrained flow.** Once the TRQ is exhausted, the marginal unit of import
+     must enter at the out-of-quota rate or not enter at all. Their demand is **price-insensitive** at the
+     margin (the product is a required input with no close substitute), so the step is **passed through into
+     the domestic price** rather than absorbed by a demand collapse. *This is the flow the mechanism needs: a
+     forced, price-insensitive purchase, not an optional one.*
+   - **Domestic producers**: a supply response at the elevated domestic price (slow, and therefore not the
+     mechanism's fast leg).
+   - **The arbitrageur (the candidate's counterparty)**: holds the domestic price against the world price. The
+     concession is the **gap the step opens between them**, and the arbitrageur's own flow is *not* the
+     constrained flow — which is the register's requirement.
+
+3. **The decision-time state and the sign claim.**
+   - **State:** the **published weekly quota-status ledger** — the quantity entered under the TRQ to date, the
+     quantity remaining, and the date of exhaustion when it occurs — published by USDA on a fixed weekly
+     cycle. The state is **binary in the region that matters** (quota remaining vs quota exhausted) with the
+     residual quantity as a continuous brake on the exhaustion date.
+   - **Sign claim:** the **domestic price premium over the world price (the "quota premium") widens abruptly
+     at the published exhaustion moment and persists while the quota is exhausted** — equivalently, the
+     in-quota/out-of-quota tariff differential is **priced into the domestic price only once the quota is
+     exhausted**, and only partially before it. This is a **sign-and-existence** claim, not a size claim: the
+     *existence* of the premium in a given week is conditioned on the exhaustion state, which is what G-12
+     asks.
+
+4. **Three falsifiable predictions.**
+   - **P1 — step timing.** In the exhaustion week the domestic–world spread widens by a **large fraction** of
+     the codified tariff differential, and the widening is **concentrated in that week** rather than
+     distributed across the fiscal year.
+   - **P2 — existence conditionality.** The widening is **absent or materially smaller** in years when the
+     quota is not exhausted (or is exhausted late), and the cross-year variance of the spread is explained by
+     the **exhaustion date** rather than by the tariff-rate level or the world-price level.
+   - **P3 — no anticipation drift.** There is no significant widening of the spread **before** the published
+     exhaustion date beyond what the *expected* exhaustion date already explains; a gradual widening beginning
+     months earlier is evidence **against** the step mechanism and in favour of a smooth-anticipation
+     mechanism.
+   - **Kill conditions.** The spread does not widen at exhaustion (P1 fails); the widening is fully priced in
+     before the published event (P3 fails); the spread is explained by the tariff differential in **every**
+     state, so the state determines only magnitude, not existence (P2 fails, G-12); or the effect is
+     **unharvestable after costs** because the domestic leg is not listed, or is listed but not accessible.
+
+5. **The cost-floor reasoning.** The claim to harvest is the *incremental* change in the premium at the
+   exhaustion week, over and above the premium already priced before exhaustion — **not** the tariff
+   differential itself. Two consequences follow. (i) The incremental quantity is **much smaller** than the
+   headline differential, so it must be compared against the register's own round-trip cost references
+   (**8 bps** and **13 bps**, S-389 and S-392) rather than against the differential. (ii) The exhaustion week
+   is the week in which the premium is already **at its maximum**, so a position must be taken **before** the
+   ledger prints exhaustion — and the ledger prints exhaustion only **after** the volume has entered, because
+   the accounting quantity *is* the flow. That is the construction's own **G-13 and third-test hazard**, and
+   it is stated here, at construction time, rather than discovered later. A further feasibility question the
+   construction must answer: whether the **domestic** price is observable and tradable at all, or whether the
+   domestic leg can only be expressed through an illiquid physical/OTC instrument, in which case the
+   candidate is a *friction* rather than an edge.
+
+#### Phase 2 — the ordinary screen, applied to the written construction
+
+The screen is the register's own: **the rediscovery guard** (is this a published baseline in a re-labelled
+form?); **G-13** (is the state published *before* the decision?); **G-12** (does the conditioning change the
+**sign or the existence** of the effect rather than only its size?); **the Cycle-52 third test** (the state may
+not be a public real-time by-product of the very flow the candidate would trade); **the cost floor**; and the
+**published literature of the family**.
+
+**Routes (fixed in advance; each route's failure mode is recorded whether or not it succeeds).**
+
+- **Route 1 — the publication itself.** USDA's *Sugar Marketing Allocations and Quota Status Report* and its
+  archive: does a weekly ledger exist; does it publish a residual quantity and an exhaustion statement; what
+  is the **cadence and the lag** between the flow and its publication; is exhaustion **announced** or merely
+  *inferred* from a residual.
+- **Route 2 — the statutory step.** The Federal Register / USDA AMS notices fixing the in-quota and
+  out-of-quota rates and the TRQ quantity for the fiscal year: the **size** of the step and its **ex-ante**
+  publication.
+- **Route 3 — the published literature of the family (the rediscovery-guard route).** Agricultural-economics
+  and applied-economics studies of TRQ and import-quota effects on US prices, of quota rents and the "US
+  import-price differential", and of the US sugar programme's price effects; the decisive question is whether
+  any published study already **conditions on the exhaustion state** rather than estimating the programme's
+  average effect.
+- **Route 4 — the tradability and cost route.** What listed contracts exist on the US domestic sugar price and
+  on the world sugar price; what is published about the spread, carry and transaction costs of the pair.
+- **Route 5 — a second instance of the same mechanism.** EU steel / olive-oil / ethanol TRQ ledgers and the
+  "import licence" analogue, to test whether the construction generalises to an instance where the exhaustion
+  moment is published in a different document.
+
+**Falsification rule and pre-registered outcomes.** The outcome is **a dossier (IDEA-017) or a logged
+rejection (R-063) — no other outcome**, with a **known-baseline row either way**. If the construction is
+**killed by the rediscovery guard** (it is a published baseline in a re-labelled form), **the method test has
+still succeeded as a test**, and that is recorded as a **result** and not as a failure of the method. The same
+holds for a kill on G-13, on the third test, or on the cost floor: each is a *result* about the method, not
+a non-result.
+
+**The register's prior expectation, recorded in advance.** **The construction is expected to fail**, most
+likely on the **rediscovery guard** (the quota-rent and import-price-differential literature is large, and
+conditioning on exhaustion is a natural control inside it) or on **G-13/the third test** (the exhaustion
+event is *discovered* by the ledger only after the volume has entered, and the premium may have moved
+already). **The expected value of this cycle's Priority 1 lies in the measurement, not in a new candidate.**
+If a candidate does survive, that outcome is recorded with the same seriousness as a bounded negative — but the
+register does not expect it.
+
+#### Phase 4 — the measurement (the experiment's product)
+
+The cycle records, in one place: (a) **how far the mechanism could be pushed without any external lookup** —
+the number of construction steps completed blind, and the first point at which a lookup was needed; (b) **the
+first screen limb the construction failed**, and whether that failure was discoverable from the register's own
+memory alone (a self-duplication failure would have been) or required external literature; (c) **whether the
+constructed state satisfies G-13 and the third test on its own terms**; (d) **the number of external sources
+required to reach the verdict, and how many are line-verified versus index-rendered**; (e) **the prior
+expectation recorded above, against the outcome**; (f) **a recommendation on the register's open question 5**
+— whether the family screen or the construction-first method is the better unit of work — stated as the
+register's answer, with the evidence of this cycle attached.
+
+### P2 — pre-registration: IDEA-011's third hard-stop, now testable
+
+**Question.** In the **2026 interim reporting season** (periods ending **30 June 2026**, published July–August
+2026), did issuers actually make the **ESMA-expected IFRS 18 pre-adoption-effect disclosures**, and is there
+any **published market reaction** to them — in particular any **pre-event drift** in the affected names?
+
+**Routes.** (1) **ESMA's own statement** re-read (S-267) for the exact mandated content, timing and wording,
+plus any 2026 ESMA or IAASB material on the disclosure requirement; (2) **issuer interim reports for the
+period ending 30 June 2026** that mention IFRS 18 — targeted at major IFRS filers with December year-ends,
+and the search is for the **disclosure's existence, date and quantified content** (the Cycle-58 G-33 read
+found **0 of 6** quantified, and this sample tests whether that has changed); (3) **any published market
+reaction** — analyst, press or academic — to IFRS 18 pre-adoption disclosure.
+
+**Pre-registered outcome.** A documented answer with sources, and an explicit statement of whether the
+**slow-diffusion premise is consumed, unresolved or strengthened**. Per the Cycle-113 hard-stop condition, a
+**significant pre-event drift is a kill signal for the candidate, not a null on the effect**. Per the Cycle-113
+score rule, a published **null** or **sign reversal** moves IDEA-011's score under the Cycle-66 precedent; a
+source supporting only the **mechanism** leaves the score untouched (Cycle-35/52 precedent); no located source
+leaves the score untouched and the re-read is recorded as a null.
+
+### P3 — pre-registration: G-37's remaining limb
+
+**Question.** Does the **within-contract, time-series** form of the funding–return relation also flip sign
+between a reversal regime and a continuation regime?
+
+**Routes.** (1) The **two 2025–2026 funding-regime-classification items** located in Cycle 113: the Cycle-113
+entry records only that they were located — **they are named in no artifact**, so they cannot be re-fetched by
+name and a **bounded re-location search** is run, with the result recorded as found-or-not-found; (2) any
+published **within-contract** test of the funding–return relation in its time-series form (as distinct from the
+cross-sectional form S-389 supplies); (3) the held sources' own framing of the cross-venue passage that
+Cycle 113 mis-read as a time-series form.
+
+**Pre-registered outcome.** The gap either **closes** with the answer, or is **narrowed again with a dated
+re-screen condition**. It is **not** closed on an absence alone: the route list and each route's failure mode
+are recorded.
+
+### P4 — pre-registration: IDEA-014's three remaining limbs
+
+**Question.** (i) Is there a **published estimate of a pre-/post-31-March RIN price pattern** — the effect
+G-38 did *not* ask about, and the only live limb of the candidate? (ii) Does **EPA's EMTS transaction-price
+series** run long enough, and with the **vintage labelling** needed, to span a **moved** deadline (S-131) and
+support the within-vintage difference-in-differences the specification requires? (iii) Given the cost floor
+now published (S-404/S-405: round-trip costs of the order of **five times** comparable energy futures), what
+magnitude of pre-/post-deadline difference is **detectable** in the agency's own published series — a question
+answerable from **published dispersion and volume statistics**, without touching a price series?
+
+**Routes.** EPA's own RIN market reports and EMTS publications; the RIN market's published market reports;
+GAO and Congressional Research Service material on RIN deadline pricing; academic work on RIN price dynamics
+around compliance deadlines; EPA's EMTS data documentation (coverage, vintage labelling, revision policy).
+
+**Pre-registered outcome.** Limb (i) **closes** with the answer or is recorded as a **bounded negative with
+routes**; limb (ii) is recorded as **constructible / not constructible** with the documentation that decides
+it; limb (iii) is recorded as a **stated detectability bound** (or as "not answerable from published
+statistics", which is itself the answer). **No price series is acquired, downloaded or processed in this
+repository** — the limbs are answered from published documents and published statistics only.
+
+### P5 — dated monitors, counts, arithmetic and the handoff
+
+**Monitors.** The **2026 interim reporting season** (Priority 2); the **IFRS 18 jurisdiction adoption
+calendar** (a monitor only — no jurisdiction profile carried an IFRS 18 date as of Cycle 109, and this cycle
+re-checks that); **G-32 limb (c)** and the **G-33 re-check** (**2027 Q3**); **G-14** (**29 March 2029**); the
+**moved 2026 RFS compliance deadlines** (S-131) as V-012's external test; and **R-062's two dated re-screen
+conditions** (family (a) needs a published decision-time position/limit series and a mandatory, dated
+reduction; family (b) needs a shorter publication lag or a coverage-stable series).
+
+**Housekeeping.** Re-derive every count **from the files**; run the rubric arithmetic from the shortlist's
+own table; update the five artifact headers to "**Cycle 114 complete**" **and read them back**; add this
+cycle's outcomes section to the log; rewrite `next_agent_handoff.md` for Cycle 115 with a fresh,
+self-contained initial task message. **Any assertion that a family is "unscreened" must carry its evidence,
+and a re-screen must be reported as weaker than a first-time screen.**
