@@ -1,6 +1,6 @@
 # QUANTITATIVE HYPOTHESIS FACTORY — THEORY-ONLY RESEARCH AREA
 
-**Cycle 157 complete (22 October 2026).** All artifacts advanced to Cycle 157; counts confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings; 11 validation specs; 111 baseline rows; 34 map rows). Named constructions 50, candidates 0, fetches 0. Active book unchanged (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-014 52.0 rank 3, IDEA-009 42.0 rank 4; IDEA-010 parked). Next free: IDEA-017, S-458, V-013, G-39, R-076, P-015. Dated triggers monitored (IDEA-014 31 Mar 2027, IDEA-011 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029) — no action required. README pointers updated to Cycle 158.
+**Cycle 158 complete (22 October 2026).** All artifacts advanced to Cycle 158; counts confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings; 11 validation specs; 111 baseline rows; 34 map rows). Named constructions 50, candidates 0, fetches 0. Active book unchanged (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-014 52.0 rank 3, IDEA-009 42.0 rank 4; IDEA-010 parked). Next free: IDEA-017, S-458, V-013, G-39, R-076, P-015. Dated triggers monitored (IDEA-014 31 Mar 2027, IDEA-011 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029) — no action required. README pointers updated to Cycle 159.
 
 ## Files
 
