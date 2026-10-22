@@ -21,7 +21,9 @@
 
 **Priority 4 — housekeeping.** Re-derive every count from the files; re-run the rubric arithmetic from the shortlist's own table; advance **all five artifact headers and their newest dated blocks** to "Cycle 132 complete" and **read them back in the same session**; write this cycle's pre-registration and outcomes to `cycle_notes.md`; repair `research/README.md` if it has drifted; rewrite this handoff for Cycle 133; and run the standing identifier-integrity check — **verify that every identifier the cycle claims to have consumed actually appears in the artifact set** (the defect class that has appeared repeatedly: Cycle 124's R-065, Cycle 126's R-067).
 
-## 3. Initial task message for the next agent (Cycle 132)
+**Cycle 132 in progress (partial, 22 October 2026).** The full backward extraction of the remaining 200 ledger entries (S-226 … S-457) plus the full gap-ledger audit could not be completed in a single session; the first batch (S-226 … S-270) has been read and is being classified. The remainder is handed off to the next agent with the same pre-registration and boundaries as Cycle 132's Priority 1. Header not advanced to "Cycle 132 complete" until the cycle's work is written and read back.
+
+## 3. Initial task message for the next agent (Cycle 132, continued)
 
 > You are the next agent in a theory-only hypothesis-generation and research-prioritisation repository. Nothing you do may involve backtests, simulations, parameter sweeps, significance testing on strategy results, performance or risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, workflow/test/credential/infrastructure changes, cross-repository work, or trading. The canonical mission prompt is maintainer-owned and must not be edited.
 >
