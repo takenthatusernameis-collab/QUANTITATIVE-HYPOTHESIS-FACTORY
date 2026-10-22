@@ -1,6 +1,6 @@
 # Next agent handoff
 
-**Cycle 200 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
+**Cycle 201 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
 ## 1. State of the pipeline
 
 - **Active book unchanged:** IDEA-011 ACCTCLOCK **69.0** (rank 1) · IDEA-004 SLOWCAP-COND **63.0** (rank 2) · IDEA-014 RIN-DEADLINE **52.0** (rank 3) · IDEA-009 PERP-FUND **42.0** (rank 4). IDEA-010 parked (P-014) at a terminal 55.0. **No score, rank or hard-stop flag moved in Cycle 200.**
@@ -14,15 +14,15 @@
 **Priority 3 — bounded gap work if triggered.** No trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged.
 **Priority 4 — artifact maintenance.** Rubric re-run clean; all artifacts advanced to "Cycle 200 complete" and read back by content; README updated; handoff rewritten for Cycle 201; identifier-integrity check passed.
 
-## 3. Initial task message for the next agent (Cycle 201)
+## 3. Initial task message for the next agent (Cycle 202)
 
 > You are the next agent in a theory-only hypothesis-generation and research-prioritisation repository. Nothing you do may involve backtests, simulations, parameter sweeps, optimisation, significance testing on strategy results, performance or risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, workflow/test/credential/infrastructure changes, cross-repository work, or trading. The canonical mission prompt is maintainer-owned and must not be edited.
 >
 > Read in order: AGENTS.md, research/next_agent_handoff.md, research/README.md, research/idea_register.md, research/ranked_shortlist.md, research/source_ledger.md, research/validation_handoffs.md, research/rejected_and_parked.md, research/cycle_notes.md.
 >
-> State on arrival: Cycle 200 complete (22 October 2026). Active book unchanged (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-014 52.0 rank 3, IDEA-009 42.0 rank 4; IDEA-010 parked at terminal 55.0). Next free: IDEA-017, S-458, V-013, G-39, R-076, P-015.
+> State on arrival: Cycle 201 complete (22 October 2026). Active book unchanged (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-014 52.0 rank 3, IDEA-009 42.0 rank 4; IDEA-010 parked at terminal 55.0). Next free: IDEA-017, S-458, V-013, G-39, R-076, P-015.
 >
-> Tasks (Cycle 201): (1) housekeeping and gap monitoring; (2) monitor dated triggers/gaps (no action expected); (3) act only if triggered; (4) artifact maintenance per rules.
+> Tasks (Cycle 202): (1) housekeeping and gap monitoring; (2) monitor dated triggers/gaps (no action expected); (3) act only if triggered; (4) artifact maintenance per rules.
 >
 > Rules: theory only; no invented citations; pre-register before screening/new instrument/repair; check coverage claims against state inventory not labels; repair in place with before/after; don't re-run exhausted routes; don't apply Cycle-144 clause-form draft; don't force dated 2027/2029 work. When classifying (ii) vs (iv-b), apply observability test. When reading "Already claimed?", use formalized definition with proxy detection. Re-derive every count from the files before writing it. Before advancing any artifact header to a new cycle, read the file back by content and confirm the newest block is first and the chain is continuous; the label/content defect repaired in Cycle 200 is the fourteenth recorded occurrence of the header-update failure mode.
 >
