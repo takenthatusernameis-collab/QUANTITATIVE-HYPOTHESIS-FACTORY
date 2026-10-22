@@ -7656,3 +7656,600 @@ created, amended or withdrawn; one rejection entry created (R-069); nine known-b
 30 closed in full as a by-product; the map's row count unchanged at 33; **seventeen record repairs** made in place,
 each with a before/after, none of which touched a score, a rank, a flag, a gap's status, a verdict or a candidate's
 status.
+
+---
+
+## Cycle 137 — 2026-10-22 — pre-registration (written BEFORE the cycle's first artifact write beyond this block, and BEFORE the first probe was written)
+
+Cycle 137 executes the Cycle-136 handoff's three priorities. This block is the pre-registration. The batch of
+probes, the blind-writing rule, the outcome categories, the decision on the Cycle-136 membership-test proposal and
+the stated expectation are fixed here for Priority 1; the two handed-off audit findings and the repair list are
+fixed here for Priority 2; and the gap tracking and the housekeeping list are fixed here for Priority 3 — so that
+neither a verdict, a repair nor a count can be re-written after the fact.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Objective: **(Priority 1)** *execute* clause X-1, the near-miss probe of the register's own
+coverage map, in **batches 2, 3 and 4** — the twenty-four rows **10 … 33** less the rows already closed in full —
+writing each probe blind and screening it under the **unchanged** narrowed rule; **(Priority 2)** decide the two
+findings the Cycle-136 baseline audit handed forward — whether **R-065's closed kind** gets a coverage-map row of
+its own, and what the **R-048** correspondence in map row 17's "Closed by" cell means — and repair either in place
+with a before/after; **(Priority 3)** track the open gaps (**no action on G-37, no action on G-33**) and run
+housekeeping. Scope boundary: theory only; **zero fetches** unless and until a probe survives the screens and the
+narrowed rule's own literature step is reached (it is not expected to be); no market-data acquisition or processing;
+no computation of any strategy statistic; no backtest, simulation, parameter sweep or significance test; no strategy
+or signal implementation; no executable research infrastructure; no job or workflow launch; no change to the
+canonical prompt; no trading.
+
+**Pass 2 — Critique.** (i) *A probe that is written after the kill it tests is a tautology.* The blind-writing rule
+is fixed **in this block, before the first probe is written**, and — **a strengthening of the Cycle-136 rule,
+registered here in advance** — **all twenty-two probes of the three batches are fixed in this file before *any* of
+the twenty-two rows' closing entries is read**, not merely before the closing entries of the batch the probe
+belongs to. The per-batch rule of Cycle 136 is therefore not the rule used here; the stricter rule is, and the
+difference is recorded rather than glossed. (ii) *A probe must not become a re-run of a route the register has
+already closed.* X-1 reads **no document**, consults **no literature**, and is not the forward route (constructions
+from the register's free memory), not the backward route (447 of 447, exhausted) and not the Cycle-132
+literature-first route amendment (rejected, and **not** re-opened). Its **source of constructions is the map's own
+rows**. (iii) *A probe must not be a rediscovery.* If a probe reproduces a construction the register has already
+screened (R-063 … R-069, or the Cycles 115–121 state-kind screens), the outcome category is **REDISCOVERY**,
+recorded as such and **not** counted as a new kill. (iv) *A kill must name its clause.* A probe that dies dies **by
+a named clause or template or recorded structural result**, and a probe that cannot name one **is not killed** — it
+is recorded as **UNDECIDED** and handed off, because the register's own principle ("a kill which cannot name a
+clause is not a kill") cuts both ways. (v) *The expectation must be stated before the result and must not
+substitute for the screen.* The expectation is recorded below and the screen is run regardless of it. (vi) *A probe
+must not be written to fit a general clause.* Each probe below is written **first**, and its screen is run
+**second**; the pre-registered expectation of twenty-two kills is therefore not a licence to write twenty-two
+tautologies, and the finding that the membership argument carried **9 of 9** in batch 1 is a *hypothesis about the
+template programme*, not a licence to skip the clause screens. (vii) *The audit must not become a licence.* A
+repair that changes a substantive claim is not a repair, and is not made.
+
+**Pass 3 — Revise and red-team (the task as executed).** Record: the twenty-two probes as written blind; the
+twenty-two screens with their named clause or template; the batch-by-batch outcome tally; the map and baseline
+edits the batches require; the two Priority-2 findings with their decisions and their before/afters; the open gaps
+tracked; the counts re-derived **from the files**; the rubric arithmetic re-run **from the shortlist's own cells**;
+all five artifact headers and their newest dated blocks advanced to "Cycle 137 complete" and **read back in this
+session**; the standing identifier-integrity check run. Every external claim points to an `S-` entry. **No `IDEA-`
+identifier may be consumed unless a probe survives every screen *and* then passes the narrowed rule's own
+literature step.**
+
+### Priority 1 — clause X-1, the near-miss probe, **batches 2–4: coverage-map rows 10 … 33 less the rows already closed in full**. REGISTERED BEFORE THE FIRST PROBE WAS WRITTEN.
+
+**The instrument.** The register's own artifacts: the coverage map (33 rows at the start of this cycle), the narrowed
+rule (R-063's, unchanged since Cycle 117), the strict bar, the Cycle-52 third test, G-12, G-13, the nine templates,
+the known-baseline table and the rejection log. **The probe reads no document and consults no literature. Zero
+fetches** unless a probe survives and the rule's own literature step is then reached.
+
+**The batch, fixed in advance: rows 10, 11, 12, 13, 14, 15, 16, 17 (batch 2) · 18, 19, 20, 21, 22, 23, 24, 25
+(batch 3) · 26, 28, 31, 32, 33 (batch 4).** The batch boundary is the one X-1 itself pre-registered in Cycle 135
+(**"Rows are taken in pre-registered batches: A–I (the template programme), 10–17, 18–25, 26–33"**), and it is
+**not** re-chosen here. **Three rows are excluded from the twenty-four, by a rule fixed in this block, before any
+probe was written:** **row 27** (closed in full in Cycle 128 by R-068 D4's count-dilemma), **row 29** (closed in full
+in Cycle 136 by probe D) and **row 30** (closed in full in Cycle 136 by probe E). The rule is: **a row that is
+already closed *in full* has no residual for X-1 to probe**, because X-1's target is the nearest state kind that
+the row's own closing clause does **not** cover, and a row closed in full has no such kind left. The exclusion is a
+consequence of the method, not a choice made after seeing a result, and it is recorded as a deviation from the
+handoff's "rows 10–33" phrasing, whose intent (the pre-registered batches) is preserved exactly.
+**At most one probe per row.** **Twenty-two probes, in three batches, all fixed in this file before any closing
+entry is read.**
+
+**The blind-writing rule, fixed in advance.** For each row, the probe is written from **the row's map label alone** —
+the "Published state kind" cell, with its parenthetical examples where the map gives them — together with the
+register's own method (the narrowed rule, the strict bar, G-12, G-13, the Cycle-52 third test, the obligor's-own-flow
+clause, the aggregated-obligor side, the count-dilemma, and the nine templates as *labels*). The row's **closing
+rejection entry** and the row's **known-baseline row** are **not read** until **all twenty-two probes are written and
+fixed in this file**. Each probe is written with the register's four fields — **state**, **flow**, **sign claim**,
+**instance** — and with an explicit statement of **the one feature that differs from the row's own kind**, which is
+what makes it a *near-miss* rather than a restatement of the kind.
+
+**The four outcome categories, fixed in advance.** Unchanged from Cycle 136.
+
+1. **KILL — named clause or template.** The probe is killed by a **named** clause (the accounting-by-product
+   clause, rule (i); the obligor's-own-flow clause; the sign-versus-magnitude clause, **G-12**; the
+   publication-before-the-decision clause, **G-13**; the published-baseline clause, rule (ii); the anticipation and
+   competition clause; the Cycle-52 third test; the strict bar's decision-time, sign-determining, unclaimed-sign and
+   feasible-clean-test limbs) or by a **named template** (A–I) or by a **named structural result already recorded**
+   (for example the **count-dilemma**, R-068 D4, or the **aggregated-obligor side**, R-067). The kill is written into
+   the map row and the known-baseline table with the clause named.
+2. **SURVIVOR.** The probe satisfies **every** clause of the narrowed rule. **There is no partial survivor.** A
+   survivor is a **construction**, not a candidate: the narrowed rule's **own** literature step must then be run on
+   it (and only then may it become a candidate). **This is the only circumstance in which this method spends a
+   fetch**, and it is not expected to be reached.
+3. **REDISCOVERY.** The probe reproduces a construction the register has already screened. It is recorded as
+   rediscovery, it is **not** counted as a new kill, and the batch's selection is faulted.
+4. **UNDECIDED.** The screen cannot return a verdict without a fetch that the rule does not license at this point.
+   It is **recorded and handed off**, never dropped.
+
+**The decision on the Cycle-136 membership-test proposal. REGISTERED BEFORE THE FIRST PROBE.** Cycle 136 recorded
+an *observation*, not a clause: the **membership** argument — *the probe's state kind is a member of the row's own
+kind* — carried **nine of nine** kills, and a membership test "would have killed nine of nine probes at zero cost
+and before any clause was applied". The Cycle-136 handoff carried it to this cycle "as a proposal for the next
+batch's pre-registration, not an adopted clause". **Decision, fixed here in advance: the membership test is adopted
+as the screen's *first step* — a triage that orders and records the screen — and is NOT adopted as a kill.** The
+reason is the register's own standard, which cuts against the proposal: a kill must **name a clause or template**,
+and "the probe's kind is a member of the row's own kind" names no clause at all; it is a *description* of the probe,
+and a description cannot kill. If membership were a kill, the register's screens would become decorative, and
+Cycle 136's own nine kills would have been nine tautologies rather than nine applications of the templates'
+recorded reasons. **Every kill recorded in this cycle therefore names a clause or a template or a recorded
+structural result**, and the membership verdict is recorded alongside it as corroboration. The proposal is
+**resolved**, not deferred.
+
+**The stated expectation, fixed in advance and not permitted to substitute for the screen: twenty-two kills.** The
+reason is the register's own: a sub-variant of a kind is usually covered by the clause that closed the kind (9 of 9
+in batch 1), and the register's **entire** prior evidence on X-1 is one probe in one row — R-067's carried-forward
+residual → R-068's D4 → the count-dilemma → **row 27 closed in full** — which produced a kill. **A survivor is
+possible** and would be the register's **first in forty-six named constructions** and would open the narrowed rule's
+own exit. **Either outcome is a gain**: a kill closes a row **in full** rather than by kind; a survivor is the only
+thing that can open the exit. **Twenty-two kills is the expectation, not the result.**
+
+**What this priority may consume.** An **`R-` identifier** (one new rejection entry recording the batches' kills, the
+first free identifier being **R-070**), and **baseline rows**. **The baseline rule, fixed in advance:** for each
+killed probe, the killed kind is a **member of its map row's own kind** (this is the design of X-1 and it is the
+membership verdict of the first step). The baseline row that **guards** that kind is **amended in place** with the
+probe's named kill, following R-068 D4's precedent exactly — a new guard row would assert a novelty the kill does
+not have. **If no existing row guards the killed kind, a new baseline row is written** (numbered from **112**) **and
+the map row's citation cell is amended to cite it**; where the guarding row exists but the map row does not cite it,
+the map row's citation cell is amended to cite it, and the amendment is recorded. **No baseline row is deleted,
+renumbered or reordered. The map's row count is not changed by this priority** (the one map row this cycle adds is a
+Priority-2 decision, registered there). An **`IDEA-` identifier only if** a probe survives every screen **and** then
+passes the rule's own literature step. **No `S-` identifier** unless that literature step is reached. **No `G-`
+identifier** is opened, because every kill is expected to be structural and independent of data availability.
+
+### Priority 2 — the two findings handed off from the Cycle-136 baseline audit. REGISTERED BEFORE THE FIRST REPAIR.
+
+**Finding (i) — R-065's closed kind has no coverage-map row, and its guard row (99) is cited by no map row.** The
+handoff asks this cycle to *decide whether to add a map row*, and to record a before/after. **Decision rule, fixed
+in advance:** the map's stated subject is *the register's published-state-kind space, as it now stands* — an
+enumeration of the state kinds the register has **closed**. R-065's kind ("a dated, published supply-loss notice") is
+a closed state kind: it was closed by a screen, it has a guard row (**99**), and it is a published state kind in the
+register's own sense. A closed kind that has no map row is a **hole in the enumeration**, and the map's claim to
+enumerate the register's closed state kinds is false while the hole stands. **The default decision is therefore to
+ADD the map row**, with the guard row's number cited and R-065 named as the closing entry, and to record the
+before/after. **One consequence is registered here, before the repair, so that it cannot be discovered after the
+fact:** the added row is **not probed** under X-1 in this cycle, because the Priority-1 batch is fixed above and
+adding a probe to it after the fact would be the same fault X-1 exists to prevent. The added row is therefore
+**handed to Cycle 138 as the single unprobed row**, and the handover says so. **The repair list for this finding is
+fixed in advance as:** (a) the new map row, in the map's own positional convention, at the end of the table, with
+its number, its state kind, its closing entry and its guard row; (b) the map's row-count statements corrected
+**everywhere they appear in the artifact set**, with each correction recorded; (c) the Cycle-136 note above the
+known-baseline table — which lists the rows "not represented in the map" — corrected so that row **99** leaves that
+list and the list's count and its reason-clauses are adjusted; and (d) **nothing else**: no existing map row is
+renumbered, removed or altered, no baseline row is added, deleted or renumbered, and no score, rank, hard-stop flag,
+gap status, rejection verdict or candidate status is touched.
+
+**Finding (ii) — the R-048 correspondence in map row 17's "Closed by" cell.** R-048 (the fixed-income cash
+mechanism families) is **not credited** in map row 17's "Closed by" cell, yet its closed kind **is** represented in
+the map **by citation** — its guard row (**85**) is cited by row 17 — and row 17's own parenthetical examples do not
+name it. The Cycle-136 check recorded that "the correspondence is not unambiguous, so the cell was left unchanged".
+**Decision rule, fixed in advance:** the two readings are (a) R-048's kind **is** a member of row 17's kind
+("structural price wedges and frictions") and the cell is therefore **incomplete** and is repaired by crediting
+R-048; or (b) R-048's kind is a **different** kind — a *fixed-income cash mechanism family* — and the thing that
+is wrong is not the "Closed by" cell but the **citation** of row 85 under row 17, which is then corrected, with the
+correction and its reason recorded. **The decision is made by reading R-048's own entry** — which is not read in
+Priority 1 and is read here, in Priority 2, for that purpose — and **either reading is executed with a
+before/after**. What is **not** permitted: a cosmetic edit that leaves the ambiguity in place, and an edit that
+changes a baseline row's substantive claim.
+
+### Priority 3 — the open gaps and housekeeping. REGISTERED BEFORE THE CYCLE'S WORK.
+
+**(a) G-37: no action.** Its null stands, **recorded once**; the bounded search is **not** re-run a third time.
+**V-008 is not amended.** IDEA-009 unchanged at 42.0 (rank 4).
+**(b) G-33: no action.** The three named dated routes are unchanged and ESMA's own routes are not retried; the
+statement remains an **enforcement-priority statement, not a measurement**. **V-009 is not amended.** IDEA-011
+unchanged at 69.0 (rank 1).
+**(c) G-11 (partially closed), G-14 (dated 2029-03-29), G-21 (handed to validation), G-28 (open and frozen, with
+Cycle 136's scope note), G-32 (limb (a) closed; limbs (b) and (c) dated 2027 Q3)** are checked against the artifact
+that records each one and are **expected to be unchanged**; **G-30** remains exhausted, **G-38** remains closed and
+**G-31** remains closed and recorded. **No gap is opened and no gap is closed.**
+**(d) Housekeeping.** Re-derive every count **from the files** (not copied from the handoff); re-run the rubric
+arithmetic **from the shortlist's own cells**; advance **all five artifact headers and their newest dated blocks**
+to "Cycle 137 complete" and **read them back in this session**; write this cycle's outcomes here; update
+`research/README.md`; rewrite this handoff for Cycle 138; and run the **standing identifier-integrity check** —
+that no identifier is over-run, none is duplicated, and every identifier the cycle claims to have consumed actually
+appears in the artifact set. **The H1 titles that carry a cycle range are also advanced**, because they were found
+stale at "CYCLES 1–135" in three artifacts while their bodies read "Cycle 136 complete" — a one-cycle lag
+introduced by Cycle 136 and repaired here, with a before/after.
+
+**Cycle-137 correction to the pre-registration above (made in the record, not deleted).** The pre-registration states
+"**twenty-two probes**" in three places and "**the register's first in forty-six named constructions**" in a fourth.
+**All four are arithmetic slips made before the first probe was written, and all four are corrected here rather than
+deleted.** The batch rule fixed in the pre-registration — **rows 10 to 33, less every row already closed in full** —
+yields **twenty-four rows less three** (row 27, closed in full in Cycle 128; rows 29 and 30, closed in full in Cycle
+136) = **twenty-one rows, and at most one probe per row = twenty-one probes**, written **P10 … P17** (eight),
+**P18 … P25** (eight) and **P26, P28, P31, P32, P33** (five). The corrected **stated expectation** is therefore
+"**twenty-one kills**", and it **was not met** (sixteen kills, five rediscoveries) — which is recorded, because the
+register's rule is that the expectation is stated before the screen and does not substitute for it. The corrected
+named-construction count is **45**, not 46 (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4, R-068 3, R-069 9, R-070 21).
+**No probe is missing and none was added or dropped to make a number fit**; the row list is complete against the
+batch rule. The correction is repeated, in the register's own terms, in **R-070** and in the Cycle 137 cycle record.
+
+### Cycle 137 — Priority 1 — the twenty-one blind probes, batches 2–4 (rows 10 … 33 less the three rows closed in full). WRITTEN BEFORE ANY OF THE TWENTY-ONE ROWS' CLOSING ENTRIES WAS READ.
+
+**Correction to this block's own heading and its closing line (see the correction note above).** The heading and the
+closing line read "**twenty-two**"; the true count, fixed by the batch rule, is **twenty-one**. The probes written
+below are **twenty-one**, one per row, and no probe is missing.
+
+**Status of this block.** These twenty-two probes were written **blind**, under the rule fixed in the
+pre-registration above, and were **fixed in this file before any of the twenty-two rows' closing rejection entries
+or their known-baseline rows was read**. This is **stricter** than Cycle 136's per-batch rule, and the difference is
+recorded rather than glossed. Each probe is written with the register's four fields — **state**, **flow**, **sign
+claim**, **instance** — and with an explicit statement of **the one feature that differs from the row's own kind**,
+which is what makes it a *near-miss* rather than a restatement of the kind.
+
+**Leaks, disclosed.** (i) The **coverage map itself** was read before the probes were written — necessarily, since
+the map is the instrument and its "Closed by" cell is what identifies a row's closing entry. The map's cell names
+the closing entries but not their reasons, and the same exposure was accepted in Cycle 136. (ii) The **first cell
+(family name) of all 111 known-baseline rows** was read while the table was being located and its positional
+numbering verified; the rows' **contents** were not read for the twelve rows the probes touch. Cycle 136's rule put
+the row's own known-baseline row off-limits, and the family-name column is a partial reading of it. (iii) **R-063** —
+one of **row 11**'s closing entries — was read **in full**, including its seven numbered reasons, in the course of
+re-deriving the narrowed rule. **Row 11's blind status is therefore qualified**, and the qualification is recorded
+here, before the screens are run, so that it is part of the record rather than an afterthought. (iv) The **entry
+headings** of the closing entries of rows 21–26, 28 and 31 (R-064's introduction and narrowed-rule paragraph, R-066's
+D1–D3 headings, R-067's D1–D4 headings, R-068's D1–D3 headings and its closing map and residual paragraph) were
+read; **their reasons were not**. **Rows 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32 and 33 are blind without
+qualification.**
+
+---
+
+**Probe 10 — row 10: "A schedule of dated third-party flows".**
+
+- **The near-miss state kind, named:** a published **scaling parameter** — a published cap, floor, percentage or
+  multiplier that sets the *size* of a scheduled third-party flow (for example a buyback programme's published
+  daily-purchase cap expressed as a percentage of prior-day volume, or a tender's published scaling factor), so that
+  the state is a **coefficient** rather than a schedule.
+- **The one feature that differs from row 10's own kind:** row 10's kind is the **schedule** itself — a list of
+  dates and the amounts or quantities due on them; the probe's kind is a **published parameter** that multiplies
+  the schedule's entries, so the state determines the flow's *size* and not *when* or *whether* it occurs.
+- **State:** a published, decision-time coefficient — a cap, floor, percentage or multiplier — that scales a
+  scheduled third-party flow.
+- **Flow:** the scheduled third-party flow, at the size the parameter permits.
+- **Sign claim:** the parameter decides whether the flow's price pressure is **truncated or amplified** relative to
+  its scheduled size, so the state determines the **marginal** direction of the price effect and not merely its
+  scale.
+- **Instance:** a published issuer buyback programme's daily-purchase cap, or a published debt tender's stated
+  scaling factor.
+
+**Probe 11 — row 11: "A mandated purchase or surrender obligation".**
+
+- **The near-miss state kind, named:** a published, dated **retrospective true-up** — a published determination that
+  *quantifies a past compliance obligation* and states a **signed** amount (an obligation to pay, or a right to a
+  refund) for a named past period.
+- **The one feature that differs from row 11's own kind:** row 11's kind is a **forward** mandate — an obligation to
+  act on a future date; the probe's kind is a **backward** quantification — a state about a period already past,
+  which creates a settlement flow rather than a mandate to act.
+- **State:** a published, dated true-up determination stating a signed amount and the period it quantifies.
+- **Flow:** the settlement of the true-up — a payment or a receipt.
+- **Sign claim:** the sign of the true-up (pay or receive) determines the direction of the price effect of the
+  settlement flow; the state is published and dated, so it is decision-time.
+- **Instance:** a regulator's published compliance true-up notice for a named scheme and period.
+
+**Probe 12 — row 12: "Delivery and settlement mechanics".**
+
+- **The near-miss state kind, named:** a published **failure record** — a published, dated register of delivery or
+  settlement failures naming the security, the quantity and the settlement date.
+- **The one feature that differs from row 12's own kind:** row 12's kind is the **mechanics** — the rules,
+  deadlines, windows and conventions that govern delivery and settlement; the probe's kind is a **record of an event
+  inside those mechanics** — a breach of the delivery obligation, published with its size.
+- **State:** a published, dated register of delivery or settlement failures.
+- **Flow:** the compensating or penalty payment the failure triggers.
+- **Sign claim:** the sign of the price effect of a failure is fixed by the direction of the delivery it failed to
+  complete, which is known in advance; the register's content is the failure's existence and size, not a direction.
+- **Instance:** a national securities depository's published fails-to-deliver register.
+
+**Probe 13 — row 13: "Administrative and policy balance-sheet states".**
+
+- **The near-miss state kind, named:** a published **forecast** of an administrative balance-sheet state — a
+  published, forward-looking estimate of the balance an authority expects to hold at a stated future date.
+- **The one feature that differs from row 13's own kind:** row 13's kind is an **actual, recorded** balance-sheet
+  state; the probe's kind is a **projection** of one — an estimate published ahead of the date it describes, not a
+  record of it.
+- **State:** a published forward estimate of an administrative or sovereign balance-sheet state, for a stated future
+  date.
+- **Flow:** the issuance or liquidation the authority must undertake to reach the estimated balance.
+- **Sign claim:** the published forecast decides which side of the flow the market is on at the stated date, so the
+  state determines the direction of the price effect.
+- **Instance:** a published periodic funding statement's cash-balance assumption.
+
+**Probe 14 — row 14: "Eligibility, mandate and disclosure switches".**
+
+- **The near-miss state kind, named:** a published **screen outcome** — a published, dated list of the members of a
+  population that pass, or fail, a named eligibility criterion.
+- **The one feature that differs from row 14's own kind:** row 14's kind is the **switch** — the rule, or the change
+  of rule; the probe's kind is the **outcome of applying a switch to a population** — a published cross-sectional
+  list of names, not a rule.
+- **State:** a published, dated list of the members of a population that a named published criterion admits or
+  excludes.
+- **Flow:** the forced selling or buying the list imposes on the funds or mandates that hold the excluded or
+  included instruments.
+- **Sign claim:** the list decides *which* names are forced to be sold, and therefore the direction of the price
+  pressure in each of them; the state is published and dated, so it is decision-time.
+- **Instance:** a published list of securities eligible for a named activity, or a published index-provider inclusion
+  and exclusion decision list.
+
+**Probe 15 — row 15: "Implied-distribution and price-surface states".**
+
+- **The near-miss state kind, named:** a published **relational** implied surface — an implied-correlation or
+  dispersion surface across two names, or between an index and a single constituent.
+- **The one feature that differs from row 15's own kind:** row 15's kind is a **marginal** implied distribution or
+  price surface — one name's own implied law; the probe's kind is a **joint** one, whose content is the dependence
+  between two names and which therefore cannot be read off any single name's own implied law.
+- **State:** a published implied-correlation, implied-dispersion or index-versus-single-name variance decomposition,
+  at a stated date.
+- **Flow:** the insurance and hedging flow the joint surface implies.
+- **Sign claim:** the shape of the joint surface decides the direction of the hedging demand — whether the marginal
+  dealer is long or short the dispersion — so the state determines the sign of the price effect of that flow.
+- **Instance:** a published implied-correlation surface, or a published index-versus-single-name variance
+  decomposition.
+
+**Probe 16 — row 16: "Ownership and position states".**
+
+- **The near-miss state kind, named:** a published **change** in ownership rather than a level — a published, dated
+  net figure for the flow of ownership into or out of a vehicle or a holder class.
+- **The one feature that differs from row 16's own kind:** row 16's kind is a **level** of ownership or positions —
+  who holds how much, at a point in time; the probe's kind is a **change** in that level over an interval, and is
+  itself a flow.
+- **State:** a published, dated net ownership-change figure for a vehicle or a holder class.
+- **Flow:** the very flow the figure measures.
+- **Sign claim:** the sign of the ownership change is the sign of the price effect of the flow that caused it, so the
+  state determines a direction; the figure is published and dated, so it is decision-time.
+- **Instance:** a published net creation and redemption figure for an exchange-traded vehicle, or a published monthly
+  mutual-fund flow estimate.
+
+**Probe 17 — row 17: "Structural price wedges and frictions".**
+
+- **The near-miss state kind, named:** a published **quoted spread inside one venue** — a published bid-ask or
+  quoted-spread statistic for a named instrument, published by the venue as a market-quality statistic.
+- **The one feature that differs from row 17's own kind:** row 17's kind is a **wedge between two different markets**
+  — a level difference between a primary and a secondary price, a fund's net asset value and its traded price; the
+  probe's kind is a **friction inside a single market** — the cost of crossing one market's own book, which is a
+  *transaction cost* rather than a *price level difference*.
+- **State:** a published quoted-spread statistic for a named instrument at a named venue.
+- **Flow:** the round trip that pays the spread.
+- **Sign claim:** the sign of the spread's contribution to a round trip is known a priori — the buyer pays more and
+  the seller receives less — so the state determines a **cost** and not a **direction**; what the spread decides is
+  whether a trade is worth making.
+- **Instance:** an exchange's published quoted-spread statistic for a named contract.
+
+---
+
+**Probe 18 — row 18: "Benchmark and index methodology states".**
+
+- **The near-miss state kind, named:** a published **numeric parameter** produced by a published methodology — an
+  index divisor, a float-adjustment factor, or a published single-name weight cap.
+- **The one feature that differs from row 18's own kind:** row 18's kind is the **methodology** — the rules by which
+  a benchmark or index is constructed; the probe's kind is a **number** the methodology yields — a coefficient, not a
+  rule.
+- **State:** a published divisor, adjustment factor or weight cap, as of a stated date.
+- **Flow:** the passive flow the methodology imposes at the next rebalance.
+- **Sign claim:** the parameter decides the *size* of the passive flow, and the sign of the price pressure that
+  follows it is fixed by the flow's direction, which is known in advance.
+- **Instance:** a published index divisor, or a published single-name weight cap in an index's methodology.
+
+**Probe 19 — row 19: "Venue and regulatory trading constraints".**
+
+- **The near-miss state kind, named:** a published **cross-venue comparison** of trading constraints — a published
+  survey or ranking of which venues impose which constraints.
+- **The one feature that differs from row 19's own kind:** row 19's kind is a **constraint in force at a venue** — a
+  rule that binds a trader at a place; the probe's kind is a **document that compares** such constraints across
+  venues, so its content is a *relative description of a rule set* rather than a rule.
+- **State:** a published comparison of the trading constraints in force across a set of venues.
+- **Flow:** the order flow routed in response to the comparison.
+- **Sign claim:** the comparison decides **where** the flow is routed, not the sign of the price effect; the price
+  effect of the routed flow is the same whichever venue takes it.
+- **Instance:** a published regulator or vendor comparison of venue-level short-selling and position constraints.
+
+**Probe 20 — row 20: "Asset-class mechanism families".**
+
+- **The near-miss state kind, named:** the published **exact roll calendar** of an index — the index provider's
+  published roll schedule stating the exact dates, the exact contracts and the exact per-contract quantities, issued
+  in advance of the roll.
+- **The one feature that differs from row 20's own kind:** the asset-class rows are closed as *mechanism families*
+  whose closing clauses are about the **mechanism's price effect**; the probe's kind is the **implementation
+  calendar** — a published document that fixes the flow completely, in dates and quantities, before it happens, so
+  that the state's content is *the flow itself, specified*.
+- **State:** a published roll calendar stating exact dates, contracts and quantities.
+- **Flow:** the index's own roll flow.
+- **Sign claim:** the publication of the exact quantities determines the sign of the price pressure in each rolled
+  contract at the roll date.
+- **Instance:** a published index-provider roll calendar with per-contract quantities.
+
+**Probe 21 — row 21: "Published statutory budget-transfer state".**
+
+- **The near-miss state kind, named:** a published **multi-year transfer path** — a published statutory schedule of
+  *future* annual transfers, rather than the current year's single amount.
+- **The one feature that differs from row 21's own kind:** row 21's kind is a **single dated, published amount** —
+  one transfer, in one period, already quantified; the probe's kind is a **path** — a schedule of many future
+  transfers, all published at once.
+- **State:** a published statutory schedule of annual transfers over a multi-year horizon.
+- **Flow:** the future transfers of the fund's assets to the budget.
+- **Sign claim:** the slope of the path decides whether the flow is a source of demand or of supply in each year, so
+  the state determines the sign of the flow's price effect in each period.
+- **Instance:** a published statutory schedule of a sovereign wealth fund's annual transfers over a stated horizon.
+
+**Probe 22 — row 22: "A published default-portfolio auction record".**
+
+- **The near-miss state kind, named:** a published **outcome record** — the published clearing prices and the
+  published allocation of the portfolio, after the auction has taken place.
+- **The one feature that differs from row 22's own kind:** row 22's kind is the **auction record** — the
+  announcement of the auction, its terms, its timing and its rules; the probe's kind is the **result** — the prices
+  cleared and the amounts assigned, which the announcement does not contain.
+- **State:** a published set of auction clearing prices and allocations, dated after the auction.
+- **Flow:** the defaulted member's portfolio, and the losing bidders' residual exposure to it.
+- **Sign claim:** the clearing price determines the direction of the loss allocation — whether a bidder or the
+  defaulted member bears the price move — so the state determines the sign of the price effect on the residual
+  exposure.
+- **Instance:** a central counterparty's published portfolio-auction results.
+
+**Probe 23 — row 23: "A published revision calendar with revised values".**
+
+- **The near-miss state kind, named:** a published **re-basing** — a published, dated change of convention by which
+  a series is restated on a new basis, so that the change carries no new information about the world.
+- **The one feature that differs from row 23's own kind:** row 23's kind is a **revision** — a change in a published
+  value that reflects something the agency has learned; the probe's kind is a **re-basing** — a restatement that is
+  a change of convention, published in advance and carrying no information.
+- **State:** a published, dated announcement that a series will be re-based on a stated date, with the new base
+  stated.
+- **Flow:** the mechanical restatement of every observation on the new basis, and the mechanical adjustment of
+  anything indexed to it.
+- **Sign claim:** the re-basing moves the level of the series, and the direction of the level shift is fixed by the
+  convention, known in advance.
+- **Instance:** a published statistical agency's announcement that a series will be re-based on a stated date.
+
+**Probe 24 — row 24: "A published levy schedule".**
+
+- **The near-miss state kind, named:** a published **exemption schedule** — the published list of the classes of
+  activity, or of the participants, to which a levy does **not** apply.
+- **The one feature that differs from row 24's own kind:** row 24's kind is the **schedule of the levy** — what is
+  charged, at what rate, and on what trigger; the probe's kind is the schedule of **who does not pay** — a carve-out
+  published alongside the levy, whose content is a set of exclusions rather than a rate.
+- **State:** a published, dated schedule of exemptions from a levy, naming the excluded classes.
+- **Flow:** the levy payments of the classes that are not exempt.
+- **Sign claim:** the exemption list decides the *size* of the paying population and hence the size of the
+  levy-induced flow; the sign of the flow's price effect is fixed by the direction of the levy, known in advance.
+- **Instance:** a published statutory exemption list attached to a levy.
+
+**Probe 25 — row 25: "A published congestion or capacity-utilisation measurement".**
+
+- **The near-miss state kind, named:** a **published market congestion** measurement — a published, decision-time
+  statistic of congestion in a *trading* venue, rather than in a physical infrastructure.
+- **The one feature that differs from row 25's own kind:** row 25's kind is congestion measured in a **physical**
+  system — a port, an airport, a pipeline, a data centre — where the measurement describes a real-world queue; the
+  probe's kind is congestion measured in a **market**, where the measurement is a statistic of the order book and is
+  therefore a by-product of trading.
+- **State:** a published, decision-time order-book depth, queue-length or unfilled-order statistic for a venue.
+- **Flow:** the order flow that meets that congestion.
+- **Sign claim:** the congestion statistic decides whether the flow has a price impact *at all*, and at the margin
+  which way the price moves.
+- **Instance:** an exchange's published order-book depth statistic, or a published unfilled-order ratio.
+
+---
+
+**Probe 26 — row 26: "A published supervisor's or regulator's aggregate of a private quantity".**
+
+- **The near-miss state kind, named:** a **coarsely decomposed** aggregate — a supervisor's published aggregate of a
+  private quantity that is broken down by a *coarse public class* rather than published undifferentiated.
+- **The one feature that differs from row 26's own kind:** row 26's kind is an **undifferentiated** aggregate — a
+  market-wide or population-wide total of positions, balances, exposures, failures or defaults; the probe's kind is
+  the same aggregate **partitioned by a public class**, so that it identifies a class of holders without identifying
+  any holder.
+- **State:** a published aggregate of a private quantity, decomposed by a coarse public class, at a stated date.
+- **Flow:** the forced or voluntary position reduction the aggregate bears on.
+- **Sign claim:** the decomposed aggregate shows which *class* of holders is concentrated, and so the direction of
+  the pressure a change in that class's behaviour would exert.
+- **Instance:** a supervisor's published aggregate of market exposures split by counterparty type.
+
+**Probe 28 — row 28: "A published venue-share or fragmentation measurement".**
+
+- **The near-miss state kind, named:** a published **partition of the same tape by participant type rather than by
+  venue** — a published share of trading executed as market orders, as auction trades, or as blocks.
+- **The one feature that differs from row 28's own kind:** row 28's kind is a **venue-level** measure — the share of
+  trading done at a venue, or a dispersion of liquidity across venues; the probe's kind is a **participant-type**
+  partition of one venue's own tape, so its content is the *composition of the order flow* rather than the
+  *distribution of the flow across places*.
+- **State:** a published share of trading on a venue split by order type or by participant type, at a stated date.
+- **Flow:** the order flow whose composition the share describes.
+- **Sign claim:** the share decides the *size* of the aggressive and the passive portions of the flow and hence the
+  depth of the price impact; the sign of the impact is fixed by the sign of the net flow, which the share does not
+  contain.
+- **Instance:** a published venue statistic of the share of trading executed on auction versus continuous order book.
+
+**Probe 31 — row 31: "The execution channel through which an institutional flow is executed".**
+
+- **The near-miss state kind, named:** a published **aggregate execution-quality statistic by channel** — a published,
+  periodic disclosure of fill sizes, fill rates or execution costs *by* execution channel, computed over many
+  flows.
+- **The one feature that differs from row 31's own kind:** row 31's kind is a **private routing attribute of a
+  specific institutional flow** — the channel through which *that* flow was executed; the probe's kind is a
+  **published aggregate over many flows** in which the channel appears as a category but the flow does not.
+- **State:** a published, dated aggregate of execution quality — fill size, fill rate or implementation shortfall —
+  broken down by execution channel.
+- **Flow:** the institutional flow whose channel the statistic averages over.
+- **Sign claim:** the published channel-level statistic decides which channel is better filled, and so the direction
+  of the routing decision; it does not determine the sign of any price effect, and it does not say which flow went
+  where.
+- **Instance:** a published transaction-cost-analysis disclosure broken down by execution venue or algorithm.
+
+**Probe 32 — row 32: "Investor attention (search volume / attention index) — a constructed attention measure, not a
+published institutional record".**
+
+- **The near-miss state kind, named:** a **third-party published** attention measure — a published index of
+  attention built by a commercial or institutional third party from data it collects itself, rather than an index
+  reconstructed from a query stream.
+- **The one feature that differs from row 32's own kind:** row 32's kind is a **search-derived** attention measure —
+  an index reconstructed from a query stream, and the map's own parenthetical records the row's closing reason:
+  *"a constructed attention measure, not a published institutional record"*; the probe's kind is a **published**
+  attention measure produced and distributed by a third party, so the published-record limb is satisfied for the
+  first time in this row.
+- **State:** a published, dated index of attention, produced and distributed by a third party.
+- **Flow:** the retail and discretionary demand the attention measure is said to attract.
+- **Sign claim:** the published attention index decides the direction of the demand it brings, and it is published
+  and dated, so it is decision-time.
+- **Instance:** a published retail-attention index compiled from news volume or web traffic.
+
+**Probe 33 — row 33: "0DTE/options volume share (structural share measure) — a descriptive structural measure, not a
+sign-determining state".**
+
+- **The near-miss state kind, named:** a published **concentration statistic within the 0DTE complex** — a published
+  measure of how concentrated the 0DTE volume is in a single strike or a single expiry, rather than the complex's
+  share of all options volume.
+- **The one feature that differs from row 33's own kind:** row 33's kind is a **share of the whole** — the 0DTE
+  complex's share of total options volume, and the map's own parenthetical records the row's closing reason:
+  *"a descriptive structural measure, not a sign-determining state"*; the probe's kind is a **concentration within
+  the complex**, so its content is *where* the 0DTE flow sits, not *how large* the complex is.
+- **State:** a published, dated concentration statistic for the 0DTE complex — a single strike's or a single expiry's
+  share of 0DTE volume.
+- **Flow:** the 0DTE flow whose concentration the statistic measures.
+- **Sign claim:** the concentration decides the *size* of the gamma concentrated at a strike and therefore the depth
+  of the price impact of the flow; the direction of that impact is fixed by the sign of the dealers' net gamma, which
+  the concentration does not contain.
+- **Instance:** a published options-market statistic of the share of 0DTE volume traded at the most active strike.
+
+---
+
+**The three batches as fixed, in the order the probes were written.** **Batch 2: rows 10, 11, 12, 13, 14, 15, 16,
+17** (eight probes, P10 … P17). **Batch 3: rows 18, 19, 20, 21, 22, 23, 24, 25** (eight probes, P18 … P25). **Batch 4:
+rows 26, 28, 31, 32, 33** (five probes, P26, P28, P31, P32, P33). **Twenty-one probes, one per row, none yet
+screened** (the "twenty-two" this line originally read is a pre-registered arithmetic slip, corrected above and in
+R-070; the probe list is complete). **Zero fetches** have been made and **no literature has been consulted**; the
+closing entries and the known-baseline rows of the twenty-one rows had not been read when this block was written.
+
+---
+
+## Cycle 137 — 2026-10-22 — the cycle record (written after the execution, in the same file as the pre-registration above)
+
+**The cycle in one paragraph.** Cycle 137 executed the Cycle-136 handoff's three priorities. **Priority 1** executed **clause X-1, batches 2–4** — the near-miss probe of the register's own coverage map — over **twenty-one** rows (**10 to 33, less the three already closed in full**), writing one blind near-miss construction per row, **all twenty-one fixed in this file before any of the twenty-one rows' closing entries was read**, and screening each under the **unchanged** narrowed rule: **sixteen kills, five rediscoveries, zero survivors, zero undecided, zero fetches**, and **all twenty-one rows closed in full**. **Priority 2** disposed of the two findings the Cycle-136 baseline audit had handed forward: **R-065's closed kind is given a map row of its own (the new row 34)**, and the **R-048 correspondence in map row 17 is repaired** — R-048 credited in row 17's "Closed by" cell, and row 17's baseline citations completed. **Priority 3** tracked the open gaps with **no action on G-37 and no action on G-33** and ran housekeeping. **No candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score, no rank, no hard-stop flag, no gap opened or closed, no validation specification created, amended or withdrawn.** One rejection entry was created (**R-070**), **sixteen** known-baseline rows were amended in place, **one** map row was added, and the map's row count moves **33 → 34**.
+
+### Priority 1 — clause X-1, batches 2–4: the screens and what they establish
+
+**The instrument's state, the batch, the blind-writing rule, the outcome categories, the decision on the Cycle-136 membership-test proposal and the stated expectation are all fixed in the pre-registration block above, before the first probe was written.** The **twenty-one probes** are written out in full in the block below it, with the register's four fields and the explicit "one feature that differs" statement, together with the **leak disclosure** (the map itself was read; the **first cell** of all 111 baseline rows was read; **R-063** was read in full, which qualifies row 11's blind status; the **headings** of the closing entries of rows 21–26, 28 and 31 were read, their reasons were not). The **twenty-one screens**, each with its named clause or template, are written in **R-070** in `rejected_and_parked.md`, and are not duplicated here.
+
+**The tally.** **Twenty-one probes · sixteen kills · five rediscoveries · zero survivors · zero undecided · zero fetches.** The five rediscoveries are **P14, P22, P23, P24 and P25** — each a probe that reproduced a **specific screened instance, branch or class** of its row's own closing entry, and each recorded with a **faulted selection** rather than as a kill.
+
+**The correction, made in the record.** The pre-registration's **"twenty-two probes"** and its expectation of **"twenty-two kills"** were **arithmetic slips made before any probe was written**: the batch rule (rows 10–33 less every row already closed in full) yields **twenty-four less three = twenty-one**. The number is **corrected in the pre-registration's own terms and the pre-registration is left in the file**, and the correction is recorded in R-070 with the reason. **No probe is missing and none was added or dropped to make a number fit**, and the **expectation of twenty-one kills was not met** (sixteen kills, five rediscoveries) — which is recorded, because the register's rule is that the expectation is stated before the screen and does not substitute for it.
+
+**The three findings.**
+
+1. **X-1's yield on a family row is *confirmation*, not a new argument.** On the sixteen rows closed by a generic reason — G-12, anticipation, the obligor's-own-flow clause, narrowed rule (ii), the accounting by-product — the nearest sub-kind is killed by **the same generic reason**, usually the very clause the row's own closing entry used. "Closed in full" here means the row's closure is **confirmed at the level of its nearest sub-kind**; the map's rows gain no new reasons. This is the **first measurement of X-1's yield**, and it is recorded as what it is rather than as a widening of the closed space.
+2. **X-1 is not executable on a row whose closing clause was exhaustive over the forms of its kind, when the probe must be written from the map label alone.** Five of twenty-one probes were rediscoveries, and the cause is **structural**: the map's labels for the rows closed by the *record-first* and *published-measurement* screens **enumerate the forms their closing clauses screened** ("a CCP's default-management and portfolio-auction publication"; "rates, scope, exemptions, and the dated trigger"; "a published queue, waiting time, utilisation ratio or headroom"). A probe written from such a label cannot land outside the closure. **The map's labels are not neutral scaffolding for a blind probe.**
+3. **The Cycle-136 membership observation is confirmed as a *triage* and refused as a *kill*, and this cycle supplies the number.** The membership argument would have "killed" all twenty-one probes at zero cost; it names **no clause**, and a kill that names no clause is not a kill. It is recorded alongside every screen as corroboration, and it explains the whole distribution: on a family row, membership and the row's closure are nearly the same statement. **The proposal carried forward from Cycle 136 is resolved, not deferred.**
+
+**The edits the batches required.** **Twenty-one rows closed in full** in the coverage map (the R-068 map, amended in place, with a "Cycle-137 amendment to this map" note under the table). **Sixteen known-baseline rows amended in place** — **10, 11, 30, 35, 42, 64, 72, 78, 94, 97, 98, 104, 106, 109, 110, 111** — each with its probe's named kill; **no new baseline row was written**, so the pre-registration's "numbered from 112" was not used. **Four citation cells amended additively** where the guarding row was not cited by the row it belongs to: **row 10 + 11**, **row 12 + 72**, **row 16 + 78**, **row 17 + 30**. **No row was renumbered, removed or reordered**, and no row's substantive claim was changed.
+
+### Priority 2 — the two findings the Cycle-136 baseline audit handed forward
+
+**Finding (i) — R-065's closed kind has no map row; its guard row 99 is cited by no map row. DECISION: ADD THE MAP ROW.** The pre-registered decision rule was that the map's subject is *the register's published-state-kind space, as it now stands*, that a closed kind with a guard row and no map row is a **hole in the enumeration**, and that the default decision is therefore to add. **Before → after:** the map stood at **thirty-three rows (A–I, 10–33)** and now stands at **thirty-four rows (A–I, 10–34)**; the new **row 34** is *"A dated, published supply-loss notice" (an outage or force-majeure notice carrying a stated restart date)*, closed by **R-065 (row 99)**. **Consequence, registered before the repair and not discovered after it:** row 34 is **not probed** under X-1 in this cycle, because the batch was fixed in advance and adding a probe to it afterwards is the fault X-1 exists to prevent; it is therefore **handed to Cycle 138 as the register's single unprobed map row**. **The Cycle-136 note above the known-baseline table is amended accordingly** (before → after: "**twenty-four** rows of this table are not represented in the map … and (iii) **one closed kind with no coverage-map row at all** — row 99" → "**twenty-three** rows … and category (iii) is **now empty**"): **row 99** leaves the unrepresented list because it now has a map row, and **row 78** leaves it too because map row 16 now cites it (the fund-flow state guards probe P16's price consequence). The remaining unrepresented rows are (i) **1, 2, 3, 4, 6, 7, 9, 39, 40, 41, 76, 77, 93** and (ii) **14, 18, 27, 31, 34, 44, 66, 67, 80**. **Nothing else was touched**: no existing map row was renumbered, removed or altered; no baseline row was added, deleted or renumbered; no score, rank, hard-stop flag, gap status, rejection verdict or candidate status was touched.
+
+**Finding (ii) — the R-048 correspondence in map row 17's "Closed by" cell. DECISION: R-048 IS A MEMBER OF ROW 17'S KIND, SO THE CELL IS INCOMPLETE AND IS REPAIRED BY CREDITING R-048.** The pre-registered decision rule was to read R-048's own entry and to execute either reading with a before/after. R-048 was read in this cycle, and it settles the question: R-048 is the register's **second mechanism-first family screen**, its closed kind is "**Fixed income cash mechanism families** (Treasury auction price pressure, cash-futures basis trade, quarter-end window dressing, repo specialness)", its own decision records that the family "is recorded in the known-baseline table (**row 85**)", and its price expressions — the on-the-run premium, the cash-futures basis spread, the auction-cycle and quarter-end yield wedges — are **structural price wedges**, which is row 17's kind. Crediting R-048 in row 17 is therefore **accurate**, and the alternative reading (removing row 85 from row 17 and crediting R-048 in row 20, "asset-class mechanism families") would have been **less** accurate, because row 20's entries are all derivative-contract-pricing families and would not have contained the fixed-income cash family. **Before → after, three cells, all in map row 17:** (a) the "Closed by" cell, before "R-050, R-054, R-055; IDEA-010" → after "**R-048**, R-050, R-054, R-055; IDEA-010"; (b) the "known-baseline rows" cell, before "16, 17, 85, 87, 92" → after "**16, 17, 30, 83, 84, 85, 87, 91, 92**" — **30** added by this cycle's probe P17, and **83, 84** (IDEA-010's guards) and **91** (R-054's guard) added because every entry credited in row 17's "Closed by" cell must have its guard row cited there, which is the same correspondence Cycle 136 repaired across rows 22–31; (c) a note recording that R-048's family also overlaps row 13 (R-047's mechanism-first instance) and row 20 (the asset-class mechanism families), so that a later session does not re-derive its placement. **The correction is additive only**: no citation was removed, no row renumbered, and **no baseline row's substantive claim was changed**.
+
+### Priority 3 — the open gaps and housekeeping
+
+**(a) G-37: no action.** Its null stands, **recorded once**; the bounded search is **not** re-run a third time. **V-008 is not amended.** **IDEA-009 unchanged at 42.0 (rank 4).**
+**(b) G-33: no action.** The three named dated routes are unchanged and ESMA's own routes are not retried; the statement remains an **enforcement-priority statement, not a measurement**; the working carriers S-455, S-456 and S-457 are unchanged. **V-009 is not amended.** **IDEA-011 unchanged at 69.0 (rank 1).**
+**(c) The other gaps, checked and unmoved.** **G-11** (partially closed), **G-14** (dated 29 March 2029, not due), **G-21** (handed to validation, not a literature task), **G-28** (open and frozen, with Cycle 136's scope note), **G-32** (limb (a) closed; limbs (b) and (c) dated 2027 Q3), **G-30** (exhausted), **G-31** (closed and recorded), **G-38** (closed) — all **unchanged**. **No gap was opened and no gap was closed**, and **no `G-` identifier was consumed.**
+**(d) Counts re-derived from the files** (not copied from the handoff): **15 dossiers** (IDEA-001 … IDEA-015) · **447 ledger entries** (S-001 … S-457, with **S-210 – S-219 reserved and unused**; **437** carry a `### S-NNN` heading and the **ten** Cycle-58 document-record entries S-281 … S-290 carry none; **446 verifiable — S-290 is unverifiable and struck**) · **11 validation specifications** (V-001 … V-010, V-012) · **70 rejections** (R-001 … R-070) · **13 parking records, 12 active** (P-001 … P-012 and P-014, with P-004 closed by R-038; **P-013 reserved and unused**) · **111 known-baseline rows** (no row added, deleted or renumbered) · **34 coverage-map rows** (A–I, 10–34) · **gaps G-01 … G-38** (**G-39** next free) · **backward state inventory COMPLETE at 447 of 447 entries (100 %)**.
+**(e) Rubric arithmetic re-run from the shortlist's own cells: clean.** IDEA-011 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0** (rank 1) · IDEA-004 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 = **63.0** (rank 2) · IDEA-014 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0** (rank 3) · IDEA-009 10.0 + 12.0 + 3.0 + 6.0 + 3.0 + 8.0 = **42.0** (rank 4) · IDEA-010 **55.0**, parked (P-014), terminal. **No cell moved.**
+**(f) Headers.** All five artifact headers and their newest dated blocks advanced to "**Cycle 137 complete**" and **read back in this session**. The three artifacts whose **H1 title carries a cycle range** were found **stale at "CYCLES 1–135"** while their bodies read "Cycle 136 complete" — a **one-cycle lag introduced by Cycle 136** — and are repaired here: before → after "# RANKED SHORTLIST — CYCLES 1–135" → "**# RANKED SHORTLIST — CYCLES 1–137**", and the same for "# SOURCE LEDGER — CYCLES 1–135" and "# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–135".
+**(g) `research/README.md` updated**, including its identifier paragraph and its "next cycle" pointer.
+**(h) The standing identifier-integrity check, run and passed.** No identifier is over-run; none is duplicated; every identifier this cycle claims to have consumed — **R-070** — appears in the artifact set; the reserved-and-unused ranges (**IDEA-016, S-210 … S-219, V-011, G-26, P-013**) are untouched; and the next-free identifiers are now **IDEA-017, S-458, V-013, R-071, P-015, G-39**.
+
+**Cycle 137 totals:** **no candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn; one rejection entry created (R-070); sixteen known-baseline rows amended in place (10, 11, 30, 35, 42, 64, 72, 78, 94, 97, 98, 104, 106, 109, 110, 111); no baseline row added, deleted or renumbered; twenty-one coverage-map rows closed in full; one coverage-map row added (row 34) and the map's row count moved 33 → 34; five map citation cells amended additively; the register's named-construction count moved 24 → 45; one pre-registration arithmetic slip corrected in the record; and no candidate, no identifier consumed beyond R-070, and no fetch.**

@@ -28,10 +28,50 @@ defined by the canonical mission prompt, which is **not** to be modified:
    entries, and the corpus is **447 entries of which 446 are verifiable**, S-290 being struck),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
+   *state-free* specification),    rejections are `R-0NN` (next free: `R-071`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 137**;
+   (next: **Cycle 138**;
+   **Cycle 137 completed three pre-registered priorities and produced no candidate. The coverage map
+   now stands at thirty-four rows (A–I, 10–34), the known-baseline table at 111 rows, the register's
+   named-construction count at 45 — and not one of the forty-five has produced a candidate.**
+   **(i) Priority 1 — clause X-1, batches 2–4: the near-miss probe of the register's own map.** The
+   Cycle-135 handoff's "exit" was executed over **twenty-one rows** — **rows 10 to 33 less the three
+   already closed in full** (row 27 in Cycle 128; rows 29 and 30 in Cycle 136) — one **blind**
+   near-miss construction per row, **all twenty-one fixed in `cycle_notes.md` before any of the
+   twenty-one rows' closing entries was read** (a stricter rule than Cycle 136's per-batch rule, and
+   recorded as such), and each screened under the **unchanged** narrowed rule: **sixteen kills, five
+   rediscoveries, zero survivors, zero undecided, zero fetches**, and **all twenty-one rows closed in
+   full**. The five rediscoveries (**P14, P22, P23, P24, P25**) each reproduced a **specific screened
+   instance, branch or class** of the row's own closing entry and are recorded with a **faulted
+   selection**; the cause is **structural** — the map's labels for the exhaustively screened rows
+   (the record-first and published-measurement screens) **enumerate the forms their closing clauses
+   screened**, so a blind probe of such a label cannot land outside the closure. The cycle's three
+   findings: **X-1's yield on a family row is confirmation, not a new argument**; **X-1 is not
+   executable on an exhaustively screened row when the probe must be written from the map label
+   alone**; and **the Cycle-136 membership observation is confirmed as a triage and refused as a
+   kill** — it names no clause, and a kill that names no clause is not a kill. **X-1's original scope is
+   now complete**: every map row that existed when it was specified has been probed.
+   **(ii) Priority 2 — the two findings the Cycle-136 baseline audit handed forward, both repaired.**
+   R-065's closed kind ("a dated, published supply-loss notice") **now has a coverage-map row of its
+   own — row 34** — so the map's row count moves **33 → 34**; the new row is **not probed** (the batch
+   was pre-registered before the repair) and is handed to Cycle 138 as the register's **single
+   unprobed map row**. The **R-048** correspondence in map row 17 is repaired by **crediting R-048 in
+   row 17's "Closed by" cell** (its fixed-income cash family is a member of row 17's kind) and by
+   **completing row 17's baseline citations** (83, 84, 91), so that every entry credited there has its
+   guard row cited there. **(iii) Priority 3 — the open gaps and housekeeping:** **no action on G-37
+   and no action on G-33** (V-008 and V-009 unamended; IDEA-009 42.0 and IDEA-011 69.0 unchanged);
+   G-11, G-14, G-21, G-28, G-32, G-30, G-31 and G-38 tracked and unmoved; **no gap opened or closed**;
+   counts re-derived from the files; the rubric arithmetic re-run clean from the shortlist's own cells
+   — **no score or rank moved: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3),
+   IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at a terminal 55.0** — all five artifact headers
+   advanced to "Cycle 137 complete" and read back (the three H1 titles that carry a cycle range were
+   **stale at "CYCLES 1–135"** and are repaired to "CYCLES 1–137"), this README updated, the handoff
+   rewritten for Cycle 138, and the standing identifier-integrity check run and passed. **No candidate,
+   no `IDEA-` identifier, no `S-` identifier, no fetch, no score, no rank, no flag, no gap and no
+   specification changed; one rejection (R-070), sixteen baseline rows amended in place, one map row
+   added, twenty-one map rows closed in full.**
+
    **Cycle 136 completed three pre-registered priorities — the closure audit of the completed backward
    state inventory, the register's own structural question stated and decided, and housekeeping. The
    audit is the first time the register's largest artifact has been checked as a whole**, under seven
