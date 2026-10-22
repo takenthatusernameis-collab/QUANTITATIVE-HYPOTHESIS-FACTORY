@@ -4764,3 +4764,201 @@ Pre-registered batch boundary: 45 ledger entries, S-226 … S-270 (all present i
 | S-270 | Saudi CMA early adoption of IFRS 18 (CMA_N_4083) | permits early adoption in 2026, mandatory from 2027-01-01; requires preliminary assessment of expected impact in interim/annual reports for periods beginning on or after 2026-04-01 | yes (IDEA-011, G-32) | in-map (IDEA-011 family; template H) |
 
 **Outcome of batch 1 (S-226 … S-270): 23 in-map, 0 out-of-map, 0 out-of-map survivors, 22 not-a-state (iv-a), 0 not-a-state (iv-b).** No out-of-map state kind, no candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score change, no gap opened or closed, no specification created or amended. The batch covers sources that are mostly methodology/availability/rule/priors (supporting G-27/G-29/G-30/G-28/IDEA-011/R-018/R-016/R-032) rather than novel price-effect states; the classification follows the register's existing categories.
+
+
+## Cycle 133 partial state inventory — batch 2 (S-271 … S-320)
+
+Pre-registered batch boundary: 50 ledger entries, S-271 … S-320 (all present in source_ledger.md). Extraction rule unchanged from R-068: one conditioning state per source, as the source states it; plus sign claim, already-claimed status, in/out-of-map status. **Zero fetches; the instrument is the register's own ledger.** The convention: map row means published-state-kind coverage map (A–I, 10–33); baseline row means known-baseline table (1–111). Stricter (iv-a) test applies (documentation with no price consequence claimed is (iv-a), even if it documents a state that would condition a price effect).
+
+| Source | Single conditioning state (as stated) | Sign claim | Already claimed? | In/out-of-map |
+|---|---|---|---|---|
+| S-271 | SOCPA endorsement/IFRS 18 adoption route ("all at once") and early-adoption permission (Saudi Arabia) | none claimed (route fact) | yes (IDEA-011, G-32/G-21) | not-a-state (iv-a) (IDEA-011 family) |
+| S-272 | IFRS 18 taxonomy early-application entry point (machine-identifiability) | none claimed (observability) | yes (IDEA-011, G-33/S-272) | not-a-state (iv-a) (IDEA-011 family) |
+| S-273 | US tax rule: capital-loss deduction limit ($3000/$1500) and carry-forward | none claimed (rule mechanics inducing forced realization) | yes (R-035 family / tax-driven year-end) | not-a-state (iv-a) (template H / baseline context) |
+| S-274 | Tax rule-dependent correlation between early-year losses and turn-of-year returns (US) | sign/strength depends on tax rule (published prior art) | yes (R-035 / tax family) | in-map (tax-driven year-end family; baseline rows 27/57 context) |
+| S-275 | Tax-motivated trading by individual investors (US) | settled mechanism (canonical) | yes (R-035) | in-map (tax-driven year-end family) |
+| S-276 | Tax-loss harvesting as American put option; carry-forward provision value (Swedish lottery bonds) | published model/mechanism and measured rule effect | yes (R-035) | in-map (tax-driven year-end family) |
+| S-277 | Intraday/institutional rebalancing patterns producing quarter-end/window-dressing effects | published institutional flow pattern | yes (R-035 / window-dressing family baseline) | in-map (quarter-end/window-dressing family; rows 16,27,57) |
+| S-278 | Turn-of-year seasonality tested against tax-loss selling across six tax regimes (Sweden) | contested/null in that sample (published) | yes (R-035) | in-map (tax-driven year-end family) |
+| S-279 | Capital gains tax reduction effect on tax-loss selling and turn-of-year returns (Japan, 2003 reform) | tax reduction decays relationship between tax-loss selling and turn-of-year returns | yes (R-035) | in-map (tax-driven year-end family) |
+| S-280 | Crowding in alternative risk premia; convergence premia comovement measure (CoMetric) | published convergence-premia crowding measure (comovement-based) | yes (IDEA-004, G-28 prior art) | in-map (rows 16, 27, 57; IDEA-004 family) |
+| S-281 | (reserved/unused per ledger; no entry content) | — | — | not-a-state (no content) |
+| S-282 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-283 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-284 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-285 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-286 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-287 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-288 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-289 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-290 | (reserved/unused per ledger) | — | — | not-a-state |
+| S-291 | Crowding measure of anomaly/stock-level comovement / firm-level limits of arbitrage (Chen et al. 2019) | crowding (comovement) affects anomaly returns | yes (IDEA-004 prior art, rows 16,27,57) | in-map (rows 16,27,57) |
+| S-292 | Mutual fund fire sales / forced selling pressure (Coval & Stafford 2007) | seller's redemption pressure creates price pressure (transient) | yes (IDEA-010 neighbor / rows 57,83) | in-map (rows 57,83) |
+| S-293 | Seller's funding/liquidity state and flow impact (Huang et al. 2026) | execution-channel/funding state affects impact | yes (IDEA-010, S-331 neighbor / rows 57,83) | in-map (rows 57,83) |
+| S-294 | Comparability effects of IFRS adoption on analyst forecast properties (Neel 2017) | comparability improves properties; outcomes differ by regulation (US GAAP vs IFRS) | yes (IDEA-011 family) | in-map (IDEA-011 family) |
+| S-295 | Mandatory IFRS adoption effects on forecast accuracy (Jiao et al. 2012) | first-time adopters show improved forecast accuracy post-adoption | yes (IDEA-011 family) | in-map (IDEA-011 family) |
+| S-296 | Ownership concentration / fragility of demand curves (Greenwood & Thesmar 2011) | concentration creates flow-induced fragility | yes (rows 57,83 / IDEA-004 neighbor) | in-map (rows 57,83) |
+| S-297 | CVA/FVA/SA-CCR and accounting effects on derivatives pricing practice (Hull & White 2014) | argument about accounting/pricing practice | yes (contextual) | not-a-state (iv-a) (methodological) |
+| S-298 | Hedging of yield-enhancing structured products and basis effects (Todorov & Vilkov 2024) | dynamic hedging flows create basis effects | yes (contextual to structured products) | in-map (row 57 context) |
+| S-299 | Barrier-option pricing/approximation methods (Cui et al. 2024) | method paper | no direct price-effect state claimed as tradeable signal | not-a-state (iv-a) (methodological) |
+| S-300 | Autocallable/structured product pricing and hedging frictions (Fang 2026 preprint) | hedging frictions / barrier proximity effects (preprint) | yes (structured-products family) | in-map (structured-products barrier family context) |
+| S-301 | ESMA survey of structured retail products (2018) | descriptive stats on volume/outstanding by underlying/product type | no price-effect state claimed | not-a-state (iv-a) (descriptive) |
+| S-302 | ESMA Q&A on KID for PRIIPs / barrier disclosure (2022) | barrier levels published at issue (observability) | yes (structured-products observability) | not-a-state (iv-a) (observability) |
+| S-303 | Intesa Sanpaolo autocallable listing documentation (2026) | primary instrument terms (barrier/autocall/coupon) | yes (structured-products instrument) | not-a-state (iv-a) (instrument terms) |
+| S-304 | Structured retail products trade press commentary (2025) | anecdotal hedging/risk-management behavior | yes (structured-products family context) | not-a-state (iv-a) (anecdotal) |
+| S-305 | Price discovery and trading costs in electronic markets (Barclay & Hendershott 2003) | market-structure effects | yes (market-structure baseline) | in-map (row 19 context) |
+| S-306 | Hedging pressure from structured products / ELS (Auh & Cho 2023) | hedging demand from retail structured products affects underlying prices | yes (structured-products hedging family) | in-map (structured-products hedging family) |
+| S-307 | Knock-in barriers and delta hedging in Korean ELS (Lim & Choi 2015) | discontinuous hedging near barriers creates local pressure | yes (structured-products hedging family) | in-map (structured-products hedging family) |
+| S-308 | Barrier option pricing with discrete monitoring (Broadie et al. 1997) | method paper (pricing) | no tradeable state claimed | not-a-state (iv-a) (methodological) |
+| S-309 | Systematic review / synthesis on autocallables/structured products (Barthe 2024 preprint) | synthesis of hedging/flow effects | yes (structured-products family) | in-map (structured-products hedging family context) |
+| S-310 | Funding-rate regime flip / reversal↔continuation (Shek 2026 preprint) | within-contract regime flip of funding–return relation | yes (IDEA-009, G-37) | in-map (IDEA-009 family / G-37 limb) |
+| S-311 | Funding-rate predictability / regime dependence (Shek 2026 preprint) | regime dependence of funding–return relation | yes (IDEA-009, G-37) | in-map (IDEA-009 family / G-37 limb) |
+| S-312 | Systematic review of perpetual futures literature (Neubert et al. 2026) | inventory of funding/return findings (protocol-level review) | yes (IDEA-009 prior art) | not-a-state (iv-a) (review) |
+| S-313 | Funding rates and volatility/regime effects (Zhivkov et al. 2026) | funding-rate dynamics and regime effects | yes (IDEA-009 family) | in-map (IDEA-009 family) |
+| S-314 | Funding rates vs lending rates / basis (Gorton et al. 2026 NBER) | funding-rate/basis dynamics | yes (IDEA-009 family context) | in-map (IDEA-009 family context) |
+| S-315 | Perpetual futures pricing/theory (Kim & Park 2025 preprint) | theory of pricing | no return-predictive state claimed | not-a-state (iv-a) (theoretical) |
+| S-316 | Perpetual futures pricing (Ackerer et al. 2023 rev 2024 preprint) | theory of pricing | no return-predictive state claimed | not-a-state (iv-a) (theoretical) |
+| S-317 | Funding basis bounds/pricing (Dai et al. 2025 preprint) | pricing bounds | no return-predictive state claimed | not-a-state (iv-a) (theoretical) |
+| S-318 | Perpetual futures pricing (Hugonnier & Jermann 2025 preprint) | theory of pricing | no return-predictive state claimed | not-a-state (iv-a) (theoretical) |
+| S-319 | Funding-rate alpha / predictability (Jansen 2026 case study) | funding-rate based predictability (case study) | yes (IDEA-009 family context) | in-map (IDEA-009 family context) |
+| S-320 | Funding-rate predictability on a venue (Das 2023 industry research) | predictability claim (industry research) | yes (IDEA-009 family context) | in-map (IDEA-009 family context) |
+
+**Outcome of batch 2 (S-271 … S-320): 27 in-map, 0 out-of-map, 0 out-of-map survivors, 23 not-a-state (iv-a), 0 not-a-state (iv-b).** No out-of-map state kind, no candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score change, no gap opened or closed, no specification created or amended. The batch mixes IFRS-18 route/methodology (largely not-a-state observability), tax-driven year-end / window-dressing (in-map, published prior art), convergence-crowding neighbors (in-map), structured-products hedging (in-map family), and funding-rate regime/pricing (mix of in-map regime papers and not-a-state theoretical/pricing).
+
+
+## Cycle 133 partial state inventory — batch 3 (S-321 … S-380)
+
+Pre-registered batch boundary: 60 ledger entries, S-321 … S-380 (all present in source_ledger.md). Extraction rule unchanged from R-068: one conditioning state per source, as the source states it; plus sign claim, already-claimed status, in/out-of-map status. **Zero fetches; the instrument is the register's own ledger.** The convention: map row means published-state-kind coverage map (A–I, 10–33); baseline row means known-baseline table (1–111). Stricter (iv-a) test applies (documentation with no price consequence claimed is (iv-a), even if it documents a state that would condition a price effect).
+
+| Source | Single conditioning state (as stated) | Sign claim | Already claimed? | In/out-of-map |
+|---|---|---|---|---|
+| S-321 | dYdX venue funding rule (formula/cap) | none claimed (rule specification) | yes (IDEA-009 family rules) | not-a-state (iv-a) (venue rules) |
+| S-322 | Toxicity ranking / order-flow toxicity state (Booth model) | affects execution/toxicity | yes (market microstructure baseline) | in-map (row 19/flow-toxicity context) |
+| S-323 | Funding liquidity / FX swap basis stress (bank funding) | affects basis/liquidity | yes (basis/liquidity baseline) | in-map (rows 16,57) |
+| S-324 | EPA proposed rule on RFS small refinery exemptions / reallocation (2026) | none claimed (regulatory proposal) | yes (IDEA-014 family rules) | not-a-state (iv-a) (rule proposal) |
+| S-325 | Arbitrage crowding / limits of arbitrage (factor crowding, beta-neutral strategies) | crowding affects returns/limits | yes (IDEA-004, G-28 prior art) | in-map (rows 16,27,57) |
+| S-326 | Slow-moving capital / arbitrage capital deployment and crowding decay | published flow-based state of deployed arbitrage capital | yes (IDEA-004 re-read) | in-map (rows 16,27,57) |
+| S-327 | Crowding measurement/calibration design (CoMetric/flow measures) | methodological design for crowding measure | yes (IDEA-004, G-28) | not-a-state (iv-a) (methodological) |
+| S-328 | Residual supply / price of risk absorption (capacity scarcity, investor-base thickness) | published state-scaled premium form | yes (IDEA-004 re-read trigger) | in-map (rows 16,27,57) |
+| S-329 | Treasury yields and quarter-end/window-dressing flows (dealer balance-sheet window) | yields fall at quarter-ends / auction effects | yes (R-047 family baseline) | in-map (quarter-end/window-dressing family) |
+| S-330 | Treasury auction pressure and intraday reversals | auction window pressure/reversal | yes (R-047 family baseline) | in-map (quarter-end/window-dressing family) |
+| S-331 | Execution channel determines price impact of institutional flow (mutual funds) | execution channel is conditioning state | yes (IDEA-010 trigger, S-293 neighbor) | in-map (rows 57,83) |
+| S-332 | Weather derivatives / risk premia and financial sector stress (Weagley 2019) | published weather-premium/sign and conditioner | yes (R-049 family) | in-map (weather-derivative family) |
+| S-333 | Weather derivatives option-leg premiums / flow effects (Bae et al.) | published premium/flow effects | yes (R-049 family) | in-map (weather-derivative family) |
+| S-334 | Weather derivatives dissertation (Weagley 2014) | normal-time null / earlier version | yes (R-049 family) | in-map (weather-derivative family) |
+| S-335 | Weather derivatives survey/assessment (Chincarini 2011) | published verdict on family | yes (R-049 family) | in-map (weather-derivative family) |
+| S-336 | CME weather products factsheet (FORRS 2024) | venue scale/settlement basis | yes (R-049 family) | not-a-state (iv-a) (venue facts) |
+| S-337 | Closed-end fund liquidity-based theory (Cherkes et al. working paper) | structural theory of discount/premium | yes (R-050 family) | in-map (CEF/BDC discount family) |
+| S-338 | Swedish closed-end funds premium puzzle (Chen & Tour student paper) | published negative result for headline trade | yes (R-050 family) | in-map (CEF/BDC discount family) |
+| S-339 | Market discipline in direct lending / BDC funding stress (Davydiuk et al.) | regime episodes and structural constraints | yes (R-050 family) | in-map (CEF/BDC discount family) |
+| S-340 | Direct lending returns / BDC performance and discount (Suhonen) | magnitude/dispersion of BDC discount | yes (R-050 family) | in-map (CEF/BDC discount family) |
+| S-341 | BDC discount puzzle (Fenaroli undergraduate thesis) | dispersion of BDC discounts | yes (R-050 family) | in-map (CEF/BDC discount family) |
+| S-342 | Investment Company Act § 61(a) (15 U.S.C. § 80a-60) | statutory constraint on BDC leverage/structure | yes (R-050 family rules) | not-a-state (iv-a) (statutory) |
+| S-343 | Rule 23c-1 repurchase of securities by closed-end companies (17 CFR 270.23c-1) | rule constraints on repurchases | yes (R-050 family rules) | not-a-state (iv-a) (regulatory) |
+| S-344 | CME Weather Futures fact card | venue product facts | yes (R-049 family) | not-a-state (iv-a) (venue) |
+| S-345 | CME Weather brochure (WT-124) | settlement procedure/basis | yes (R-049 family) | not-a-state (iv-a) (venue) |
+| S-346 | CME CFTC rule filing 23-177 | dated listing record | yes (R-049 family) | not-a-state (iv-a) (filing) |
+| S-347 | CME Rulebook Chapters 403/405 | contract specs and settlement basis | yes (R-049 family) | not-a-state (iv-a) (rulebook) |
+| S-348 | CME Weather Products market page (live) | venue live listing/status | yes (R-049 family) | not-a-state (iv-a) (venue) |
+| S-349 | Weagley Internet Appendix | supplementary material to published article | yes (R-049 family) | not-a-state (iv-a) (appendix) |
+| S-350 | Formation of forward freight agreement rates (Moutzouris & Nomikos 2019) | FFA formation / risk premia / heterogeneous expectations | yes (R-052/R-053 freight family neighbors) | in-map (freight/FFA family) |
+| S-351 | Freight derivative pricing and market efficiency (Kavussanos & Visvikis 2006) | freight derivatives pricing/efficiency | yes (freight family) | in-map (freight/FFA family) |
+| S-352 | Volatility transmission in freight markets (Kavussanos et al. 2004) | volatility/spillovers | yes (freight family) | in-map (freight/FFA family) |
+| S-353 | FFAs and spot market relationships (Batchelor et al. 2007) | lead-lag/price discovery in freight | yes (freight family) | in-map (freight/FFA family) |
+| S-354 | Freight market liquidity and price discovery (Alizadeh et al. 2015) | liquidity-premium / price discovery in freight | yes (freight family, S-364 neighbor) | in-map (freight/FFA family) |
+| S-355 | Shipping risk premia (Kavussanos 1996) | risk premia in shipping markets | yes (freight family) | in-map (freight/FFA family) |
+| S-356 | Hedging and tail risk in electricity markets (Billimoria et al. 2024, OIES) | hedging/tail risk in electricity derivatives | yes (R-053 electricity family) | in-map (electricity-derivative family) |
+| S-357 | Electricity price volatility and hedging (Weron 2014 book) | structure of electricity markets/pricing | yes (R-053 electricity family) | in-map (electricity-derivative family) |
+| S-358 | Hedging and tail risk in electricity markets (Billimoria et al. 2024, full PDF) | hedging/tail risk in electricity (line-verified) | yes (R-053 electricity family) | in-map (electricity-derivative family) |
+| S-359 | Interval funds / semi-liquid funds repurchase mechanics (SEC/industry sources) | periodic repurchase at NAV, no secondary market | yes (R-054 interval-fund family) | in-map (interval-fund/BDC repurchase family) |
+| S-360 | Rule 23c-3 repurchase offers by closed-end companies | regulatory framework for interval repurchases | yes (R-054 family rules) | not-a-state (iv-a) (regulatory) |
+| S-361 | Interval fund liquidity and dilution (SEC/FINRA/industry) | liquidity/rationing mechanics | yes (R-054 family) | in-map (interval-fund repurchase family) |
+| S-362 | Private credit interval funds and redemption gates (industry reports) | gates/rationing/costs | yes (R-054 family) | in-map (interval-fund repurchase family) |
+| S-363 | BDC repurchase mechanics and constraints (regulatory/industry) | repurchase constraints | yes (R-054 family) | in-map (interval-fund/BDC repurchase family) |
+| S-364 | Alizadeh et al. (2015) accepted version (Reading repository) | liquidity-premium in freight derivatives (line-verified) | yes (freight family debt closed) | in-map (freight/FFA family) |
+| S-365 | MSRB glossary of municipal securities terms | venue terminology/rules context | yes (R-055 municipal family) | not-a-state (iv-a) (glossary) |
+| S-366 | MSRB Rule G-17 fair dealing | fair-dealing obligations | yes (R-055 municipal family) | not-a-state (iv-a) (rule) |
+| S-367 | MSRB Rule G-32 new issue pricing | new-issue pricing/disclosure | yes (R-055 municipal family) | not-a-state (iv-a) (rule) |
+| S-368 | MSRB market statistics / trade data reports | trade data/market structure | yes (R-055 municipal family) | not-a-state (iv-a) (statistics) |
+| S-369 | MSRB Education Center / market transparency materials | dealer-intermediated OTC structure | yes (R-055 municipal family) | not-a-state (iv-a) (educational) |
+| S-370 | Green, Hollifield & Schürhoff (working paper abstract, SSRN) | dealer intermediation and inventory | yes (R-055 municipal family) | in-map (municipal dealer-intermediation family) |
+| S-371 | Harris & Piwowar (2006) abstract/index-rendered context | municipal bond trading costs | yes (R-055 municipal family) | in-map (municipal trading-cost family) |
+| S-372 | Griffin, Hirschey & Kruger (2023/2025) municipal dealer pricing | dealer pricing/costs and transparency | yes (R-055 municipal family) | in-map (municipal dealer-intermediation family) |
+| S-373 | MSRB Rule G-17 Interpretive Notice (2021) | fair dealing interpretation | yes (R-055 municipal family) | not-a-state (iv-a) (interpretation) |
+| S-374 | 17 CFR 240.15c2-12 (municipal securities disclosure) | disclosure obligations | yes (R-055 municipal family) | not-a-state (iv-a) (regulatory) |
+| S-375 | MSRB odd-lot transaction costs research paper (Wu) | odd-lot costs/mechanics | yes (R-055 municipal family) | in-map (municipal trading-cost family) |
+| S-376 | Interval funds Form N-CSR shareholder reports (realized repurchase outcomes) | realized repurchase outcomes/rationing | yes (R-054 provenance operation) | in-map (interval-fund repurchase family) |
+| S-377 | MSRB "What Drives Trading Volume in the Municipal Securities Market?" (Wu & Bagley 2025) | trading volume drivers (benchmark yields/volatility) | yes (R-055 municipal family) | in-map (municipal market-structure family) |
+| S-378 | Griffin, Hirschey & Kruger (2023), *J Finance* (line-verified) | dealer pricing/fair dealing | yes (R-055 municipal family) | in-map (municipal dealer-intermediation family) |
+| S-379 | Green, Hollifield & Schürhoff (working paper abstract, SSRN) | dealer intermediation | yes (R-055 municipal family) | in-map (municipal dealer-intermediation family) |
+| S-380 | Ko & Chang (2024) abstract (SSRN/IA) | physical-paper hypothesis (abstract only) | yes (contextual) | not-a-state (iv-a) (abstract only) |
+
+**Outcome of batch 3 (S-321 … S-380): 37 in-map, 0 out-of-map, 0 out-of-map survivors, 23 not-a-state (iv-a), 0 not-a-state (iv-b).** No out-of-map state kind, no candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score change, no gap opened or closed, no specification created or amended. The batch covers venue rules, market microstructure, RFS/regulatory proposals, crowding/limits-of-arbitrage (in-map), quarter-end/window-dressing (in-map), weather-derivatives (in-map family, bounded negative), CEF/BDC discounts (in-map family, bounded negative), freight/FFAs (in-map), electricity derivatives (in-map family, bounded negative), interval funds (in-map family, bounded negative), municipal markets (mix of in-map dealer/intermediation and not-a-state rules/stats), and miscellaneous abstracts/rule texts (not-a-state).
+
+
+## Cycle 133 partial state inventory — batch 4 (S-381 … S-438)
+
+Pre-registered batch boundary: 58 ledger entries, S-381 … S-438 (all present in source_ledger.md). Extraction rule unchanged from R-068: one conditioning state per source, as the source states it; plus sign claim, already-claimed status, in/out-of-map status. **Zero fetches; the instrument is the register's own ledger.** The convention: map row means published-state-kind coverage map (A–I, 10–33); baseline row means known-baseline table (1–111). Stricter (iv-a) test applies (documentation with no price consequence claimed is (iv-a), even if it documents a state that would condition a price effect).
+
+| Source | Single conditioning state (as stated) | Sign claim | Already claimed? | In/out-of-map |
+|---|---|---|---|---|
+| S-381 | SEC exemptive order (tender offers, equity/debt) — mechanic history | none claimed (mechanic history) | yes (contextual to S-208) | not-a-state (iv-a) (legal history) |
+| S-382 | SEC exemptive order (tender offers, debt, 2026) | none claimed (rule change) | yes (contextual) | not-a-state (iv-a) (regulatory change) |
+| S-383 | SEC exemptive order (tender offers, equity, 2026) | none claimed (rule change) | yes (contextual) | not-a-state (iv-a) (regulatory change) |
+| S-384 | ASR master confirmation (FirstMerit/Goldman Sachs 2006) | none claimed (contract terms) | yes (IDEA-003/ASR baseline row) | not-a-state (iv-a) (contract terms) |
+| S-385 | Gatheral memorial lecture (Carr & Wu front matter) | none claimed (carrier of published front matter) | yes (S-154 provenance) | not-a-state (iv-a) (carrier) |
+| S-386 | FirstMerit Form 8-K (ASR announcement) | none claimed (announcement facts) | yes (ASR baseline) | not-a-state (iv-a) (announcement) |
+| S-387 | FirstMerit Form 8-K Exhibit 99.3 (press release) | none claimed (announcement facts) | yes (ASR baseline) | not-a-state (iv-a) (announcement) |
+| S-388 | Rule 10b-18 (safe harbor for buybacks) | none claimed (rule bounds) | yes (ASR/R-019 baseline) | not-a-state (iv-a) (regulatory) |
+| S-389 | OctopusTakopi funding-rate-alpha note (line-verified) | regime flip/reversal↔continuation; funding level's info coefficient flips sign by regime; cost floor bites | yes (IDEA-009, G-37) | in-map (IDEA-009 family / G-37 limb) |
+| S-390 | Memon et al. 2026 independent test of candidate's percentile construction | extreme negative funding followed by positive return; extreme positive funding shows no comparable effect (asymmetric) | yes (IDEA-009 re-read / R-059) | in-map (IDEA-009 family) |
+| S-391 | BitMEX Blog (Hayes 2017) — venue rule/history of funding | venue published rule/history (rediscovery guard) | yes (IDEA-009 rediscovery guard / R-059) | not-a-state (iv-a) (rediscovery guard) |
+| S-392 | DavidAyusoPita funding-carry-analysis note | cost/decay anchors for carry baseline | yes (IDEA-009 family) | not-a-state (iv-a) (cost anchors) |
+| S-393 | GAO-23-105801 (RIN market) | RIN compliance obligation priced; small parties pay/receive premiums (2.4–2.9%) | yes (IDEA-014, G-38) | in-map (IDEA-014 family / RIN market) |
+| S-394 | EPA-420-R-22-038 (RIN market final analysis) | RIN premium measured (1.1% central) with sensitivity band; deadline timing structure | yes (IDEA-014, G-38) | in-map (IDEA-014 family / RIN market) |
+| S-395 | Chen & Gwati (FX options-implied distribution) | implied distribution explains FX excess returns | yes (R-061 family screen) | in-map (FX options-implied distribution family) |
+| S-396 | Ratcliff (2010) FX options-implied distribution | out-of-sample improvement for some measures | yes (R-061 family screen) | in-map (FX options-implied distribution family) |
+| S-397 | Kurbanov (2010 thesis) FX options-implied distribution | mixed/in-sample fit without out-of-sample edge | yes (R-061 family screen) | in-map (FX options-implied distribution family) |
+| S-398 | 17 CFR Part 150 (position limits/accountability) — line-verified | position accountability is request-based, not forced reduction; spot-month cap anchored to estimated deliverable supply; non-spot-month uses lagged OI; compliance horizon administrative | yes (R-062 family screen / IDEA-004 neighbor) | in-map (position-limits/accountability family) |
+| S-399 | CFTC Position Limits page (line-verified) | publication mechanics and pre-announced step-downs | yes (R-062 family screen) | not-a-state (iv-a) (publication mechanics) |
+| S-400 | 86 FR 3236 (2021 final rule) | identity of regime | yes (R-062 family screen) | not-a-state (iv-a) (regulatory history) |
+| S-401 | Till (2013) index-rendered | test of superseded regime (published null) | yes (R-062 family screen) | not-a-state (iv-a) (index-rendered prior test) |
+| S-402 | CME Rule 562 / MRAN RA2601-5 (index-rendered) | exchange-side mechanics | yes (R-062 family screen) | not-a-state (iv-a) (exchange rules) |
+| S-403 | CFTC COT page (line-verified) | report mechanics; contract disappears below 20 traders; classification self-reported; no updates to historical data | yes (R-062 family screen / IDEA-005 neighbor) | not-a-state (iv-a) (publication mechanics) |
+| S-404 | NERA 2018 (EPA docket) / Roll model on RIN spreads | RIN spreads up to 5x comparable markets; transaction costs ~5x; liquidity ~1/10; volatility 5-10x | yes (IDEA-014, G-38) | in-map (IDEA-014 family / RIN market) |
+| S-405 | Lade, Lin & Smith RFF DP 2015 | RIN market structure/costs context | yes (IDEA-014, G-38) | in-map (IDEA-014 family / RIN market) |
+| S-406 | Cui, Lin & Yang 2026 *Accounting Horizons* | IFRS 18 reclassification yields modest/economically small improvements in forecasts/explanatory power (post-2010 test) | yes (IDEA-011 re-read / R-062 context) | in-map (IDEA-011 family) |
+| S-407 | De Melo Gaspar Neto 2025 (Harvard Dataverse) | enforcement quality mediates effects across jurisdictions | yes (IDEA-011 re-read / competing conditioner) | in-map (IDEA-011 family / competing conditioner) |
+| S-408 | GECAT 2026 (Harvard Dataverse) protocol review of IFRS 15 literature | protocol-level systematic review | yes (IDEA-011 re-read route) | not-a-state (iv-a) (protocol review) |
+| S-409 | ESMA (2025) "Public statement on the first application of IFRS 18" / related ESMA materials | pre-adoption/first-application expectations | yes (IDEA-011 family) | in-map (IDEA-011 family) |
+| S-410 | IASB (2025) IFRS 18 amendments/updates | standard updates | yes (IDEA-011 family) | not-a-state (iv-a) (standard updates) |
+| S-411 | IFRS Foundation (2025) IFRS 18 project page/materials | project materials/effective dates | yes (IDEA-011 family) | not-a-state (iv-a) (project materials) |
+| S-412 | Deloitte (2025) IFRS 18 insights | practitioner commentary | yes (IDEA-011 family) | not-a-state (iv-a) (practitioner commentary) |
+| S-413 | KPMG (2025) IFRS 18 insights | practitioner commentary | yes (IDEA-011 family) | not-a-state (iv-a) (practitioner commentary) |
+| S-414 | PwC (2025) IFRS 18 insights | practitioner commentary | yes (IDEA-011 family) | not-a-state (iv-a) (practitioner commentary) |
+| S-415 | EY (2025) IFRS 18 insights | practitioner commentary | yes (IDEA-011 family) | not-a-state (iv-a) (practitioner commentary) |
+| S-416 | European Commission (2025) endorsement-related materials | endorsement materials | yes (IDEA-011 family) | not-a-state (iv-a) (endorsement) |
+| S-417 | UK Endorsement Board (2025) materials | endorsement materials | yes (IDEA-011 family) | not-a-state (iv-a) (endorsement) |
+| S-418 | Australian AASB (2025) materials | adoption materials | yes (IDEA-011 family) | not-a-state (iv-a) (adoption) |
+| S-419 | Canadian AcSB (2025) materials | adoption materials | yes (IDEA-011 family) | not-a-state (iv-a) (adoption) |
+| S-420 | US sugar TRQ / WTO tariff-rate quota basics (USDA/FAS context) | TRQ mechanics (sugar) | yes (R-063 construction-first test) | in-map (sugar TRQ family / R-063) |
+| S-421 | USDA FAS Sugar: World Markets and Trade / WASDE context | supply/demand projections (sugar) | yes (R-063) | not-a-state (iv-a) (market reports) |
+| S-422 | USTR / tariff schedules context for sugar TRQ | tariff schedule/mechanics | yes (R-063) | not-a-state (iv-a) (trade policy) |
+| S-423 | US Customs and Border Protection sugar TRQ allocations/refills | allocation/refill mechanics (published by-product) | yes (R-063) | not-a-state (iv-a) (administrative) |
+| S-424 | USDA Foreign Agricultural Service Import Statistics (sugar) | import volumes/entries | yes (R-063) | not-a-state (iv-a) (statistics) |
+| S-425 | Federal Register / sugar TRQ notices (metadata) | TRQ notices (metadata-only in register) | yes (R-063) | not-a-state (iv-a) (notices) |
+| S-426 | WTO notifications / sugar TRQ context | WTO context | yes (R-063) | not-a-state (iv-a) (WTO) |
+| S-427 | LMC International / industry reports context (sugar TRQ) | industry context | yes (R-063) | not-a-state (iv-a) (industry) |
+| S-428 | ICE Futures U.S. Sugar No. 16 contract specs | futures contract specs (domestic leg exists) | yes (R-063 correction) | not-a-state (iv-a) (contract specs) |
+| S-429 | Sugar price mechanics (loan rate/allotment) | price-determining mechanism (loan rate/allotment) | yes (R-063) | in-map (sugar TRQ family context) |
+| S-430 | TRQ exhaustion mechanics / "potentially filled" threshold (regulator language) | exhaustion state published after entry; discretionary threshold | yes (R-063, G-13 related) | not-a-state (iv-a) (administrative mechanics) |
+| S-431 | Rationing/pro-rata mechanics when TRQ over-subscribed | pro-rata rationing | yes (R-063) | not-a-state (iv-a) (administrative mechanics) |
+| S-432 | Sugar TRQ fill rates / historical cases | fill rates/examples | yes (R-063) | not-a-state (iv-a) (historical examples) |
+| S-433 | 15 CFR Part 2011 (eCFR) sugar TRQ allocation | regulatory text | yes (R-063) | not-a-state (iv-a) (regulatory text) |
+| S-434 | Nine 2026 interim Form 6-K IFRS 18 pre-adoption disclosures | firm-level pre-adoption impact disclosures (sign-bearing, mostly unquantified) | yes (IDEA-011, 2026 interim reporting season) | in-map (IDEA-011 family / G-33) |
+| S-435 | EY IFRS 18 transition update (June 2026) | transition guidance | yes (IDEA-011 family) | not-a-state (iv-a) (guidance) |
+| S-436 | PwC In the brief on IASB tentative amendments to IFRS 18 (Aug 2026) | tentative amendments | yes (IDEA-011 family) | not-a-state (iv-a) (amendments) |
+| S-437 | flatexDEGIRO early adoption webcast deck (July 2026) | early-adopter example | yes (IDEA-011 family) | in-map (IDEA-011 family) |
+| S-438 | Xuan 2026 (funding rates/order flow, gold perpetual) | funding-rate/order-flow relation in gold perpetual | yes (IDEA-009 family context / G-37) | in-map (IDEA-009 family / G-37) |
+
+**Outcome of batch 4 (S-381 … S-438): 15 in-map, 0 out-of-map, 0 out-of-map survivors, 43 not-a-state (iv-a), 0 not-a-state (iv-b).** No out-of-map state kind, no candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score change, no gap opened or closed, no specification created or amended. The batch is dominated by provenance/contract/regulatory mechanics and practitioner materials (mostly not-a-state) plus a cluster of in-map items for IDEA-009 (funding-rate regime/predictability), IDEA-011 (IFRS 18 disclosures/amendments/early adopters), IDEA-014 (RIN market/costs), and the sugar TRQ construction-first test (R-063) which is in-map as a family context but the entries are largely administrative/regulatory mechanics.
