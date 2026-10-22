@@ -6480,7 +6480,7 @@ Theory-only cycle executing the three pre-registered priorities of the Cycle-133
 | 2 | The ten mis-described rows | Cycle-133 batch-2 rows S-281 … S-290 all read "(reserved/unused per ledger; no entry content)" → "not-a-state" | each row now carries the real entry content and the real cell: **S-281 … S-286 (the six IFRS 18 issuer pre-adoption disclosures) not-a-state (iv-a)**; **S-287, S-288, S-289, S-290 in-map (row 12; R-036)**, with **S-290 marked unverifiable and struck** |
 | 3 | The Cycle-133 batch-2 outcome tally | "27 in-map, 0 out-of-map, 0 survivors, 23 not-a-state (iv-a)" | **29 in-map, 0 out-of-map, 0 survivors, 21 not-a-state** |
 | 4 | Three further batch tallies | C-132 b1, C-133 b3, C-133 b4 tallies did not match their own tables | **C-132 b1 → 26 in-map / 19 not-a-state; C-133 b3 → 39 / 21; C-133 b4 → 18 / 40** |
-| 5 | The Cycle-129 batch-2 tally and the S-028 cell | the table read S-028 "out-of-map" while the outcome line counted it in-map and named only two out-of-map entries | **S-028 → not-a-state (iv-b)**; tally → **33 in-map, 2 out-of-map, 4 not-a-state (3 (iv-a), 1 (iv-b))** |
+| 5 | The Cycle-129 batch-2 tally and the S-028 cell | the table read S-028 "out-of-map" while the outcome line counted it in-map and named only two out-of-map entries | **S-028 → not-a-state (iv-b)**; tally → **33 in-map, 2 out-of-map, 4 not-a-state (3 (iv-a), 1 (iv-b))** — **the tally figure in this cell is corrected in Cycle 135 to "32 in-map, 2 out-of-map, 4 not-a-state (3 (iv-a), 2 (iv-b))", because the Cycle-134 repair adjusted the tally for the S-028 cell move but not for the S-021 cell move recorded in the paragraph below; the cells, not the tally, are the primary record** |
 | 6 | The Cycle-133 boundary record | absent — Cycle 133 wrote three batch tables and left no cycle-log record | **written above**, in the form of the Cycle-97 and Cycle-122 retrospective records |
 | 7 | The handoff's inventory paragraph | garbled: "**495 of 437 sources inventoried? Wait —**", then self-contradicting three times | **replaced** with the derived figures and an explicit statement of what the completed inventory does and does not establish |
 | 8 | `research/README.md` | repeated the false reserved range; next-cycle pointer read "Cycle 132" | **both repaired**; a Cycle-132/133/134 history paragraph added |
@@ -6517,3 +6517,608 @@ Theory-only cycle executing the three pre-registered priorities of the Cycle-133
 - **The active book is unchanged:** IDEA-011 ACCTCLOCK · IDEA-004 SLOWCAP-COND · IDEA-014 RIN-DEADLINE · IDEA-009 PERP-FUND.
 
 **Cycle totals: no candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn; no rejected-and-parked record created or its verdict changed.**
+
+---
+
+## Cycle 135 — 2026-10-22 — pre-registration (written BEFORE the cycle's first repair and before the first artifact write beyond this block)
+
+Cycle 135 executes the Cycle-134 handoff's three priorities. This block is the pre-registration. The seven
+audit checks and their decision rules, the repair list with its before/after, and the decision procedure for
+the register's own structural question are all fixed here, so that neither a repair nor a verdict can be
+re-written after the fact.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Objective: **(Priority 1)** audit the completed backward state inventory *as a whole* —
+it is the register's largest single artifact, it was completed in one sitting, and it has never been audited
+as a whole — under seven pre-registered checks, and repair any record defect found in place; **(Priority 2)**
+write the register's own structural question down exactly — the dependency between the narrowed rule, the
+coverage map and the literature — decide whether the method is total or has a legitimate exit, and either
+specify the exit within the standing rules or record a bounded, honest negative; **(Priority 3)** track the
+open gaps (**no action on G-37, no action on G-33**) and run housekeeping. Scope boundary: theory only; **zero
+fetches**; no market-data acquisition or processing; no computation of any strategy statistic; no backtest,
+simulation, parameter sweep or significance test; no strategy or signal implementation; no executable research
+infrastructure; no job or workflow launch; no change to the canonical prompt; no trading.
+
+**Pass 2 — Critique.** (i) *An audit that can fit its repairs is not an audit.* The seven checks and their
+decision rules are fixed **in this block, before the first repair**; the repair list is fixed **in this block,
+before the first repair**. (ii) *An audit must not become a re-run of the route it audits.* The backward route
+is exhausted and is **not** re-run: the audit reads the register's own tables **as tables** and checks their
+internal arithmetic, agreement and resolution. **No source is re-read, no `S-` identifier is consumed, and no
+document is fetched.** (iii) *A repair must not change a finding.* Every repair is a **record** repair. **No
+score, rank, hard-stop flag, gap status, rejection verdict or candidate status may move**, and no map row or
+baseline row may be added, removed or renumbered. (iv) *Priority 2 must not become a literature licence by the
+back door.* The **Cycle-132 rejection of the literature-first route amendment is the standing precedent**; any
+exit specified must respect it; **no candidate may be created unless a construction survives the screens**; and
+**any kill must name its clause**. (v) *The audit's own limits must be stated, not assumed.* The corpus is a
+corpus of literature the register chose to read; the map remains a **lower bound**; and an audit of the
+register's own tables can establish the register's *internal* consistency but can never establish that the
+register's prior art is complete. (vi) *The audit must test its own premises.* Two of the seven checks as
+worded in the handoff carry premises that may be false; the check must report the premise as well as the
+verdict, and a false premise is a finding about the check, not a failure of the artifact.
+
+**Pass 3 — Revise and red-team (the task as executed).** Record: the seven checks with their verdicts and
+their evidence; the repair list with a before/after for each repair; the register's own structural question
+stated formally, with the totality question decided and the exit either specified within the standing rules or
+recorded as a bounded negative; the open gaps tracked; the counts re-derived from the files; the rubric
+arithmetic re-run; all five artifact headers and their newest dated blocks advanced to "Cycle 135 complete"
+and **read back in this session**; the standing identifier-integrity check run. Every external claim points to
+an `S-` entry. **No `IDEA-` identifier may be consumed unless a blind construction is written before any
+literature is read.**
+
+### Priority 1 — the closure audit of the completed inventory. REGISTERED BEFORE THE FIRST REPAIR.
+
+**The instrument, and the order.** The instrument is **the register's own artifacts**: `rejected_and_parked.md`
+(the inventory tables, the coverage map, the rejection log), `source_ledger.md` (the corpus), `idea_register.md`
+(the gap ledger). **Zero fetches.** The checks are run **one at a time**, in the order (a) … (g), and each
+verdict is recorded before the next check is run.
+
+**The seven checks, with their decision rules fixed in advance.**
+
+- **(a) Identifier partition.** *PASS* if the union of the inventory tables' identifier sets equals the ledger's
+  entry-block identifier set **exactly**, with **no gap**, **no identifier outside the corpus**, and **no
+  identifier appearing in two different batch tables**. The corpus is the set of `### S-NNN` headings in
+  `source_ledger.md` **plus** the ten Cycle-58 document-record entries S-281 … S-290, which carry no heading of
+  their own; the only reserved-and-unused range is S-210 … S-219. *FAIL* otherwise.
+- **(b) Cell-vs-tally agreement.** *PASS* if every recorded **batch outcome line** equals the tally of that
+  batch's **own cells**, the cells being the primary record and each cell being classified by its own recorded
+  in/out-of-map verdict. *FAIL* otherwise, and the outcome line is corrected to the cells' tally with the
+  disagreement recorded in place.
+- **(c) Map resolution.** *PASS* if every coverage-map row **named** in an in-map cell **exists** in the map
+  (A–I, 10–33) and if every row of the map **names the closing entry** that closes it. **Recorded separately,
+  not as a pass/fail:** the number of in-map cells that **name no map row** (their resolution is then by
+  family, in the "already claimed?" column), because the map's rows and the known-baseline table's rows are two
+  different numberings and a cell may legitimately cite either.
+- **(d) Kill resolution.** *PASS* if every cell whose verdict is out-of-map names a kill **by clause or
+  template** and is mapped — at the level of the entry that records the kill — to a coverage-map row and a
+  known-baseline row, and if **no out-of-map entry stands without both a kill and a mapping**. *FAIL*
+  otherwise.
+- **(e) Disagreement completeness.** *PASS* if every (iv-b) entry that is a **disagreement** records **both**
+  readings, names the **stricter** one adopted and **states why**. **The count of (iv-b) entries that are not
+  disagreements at all is reported explicitly**, so that the check's own premise — that all four are
+  disagreements — is tested rather than assumed.
+- **(f) Whole-corpus arithmetic.** *PASS* if the **272 in-map · 172 not-a-state (168 (iv-a), 4 (iv-b)) · 3
+  out-of-map** distribution and the **447** total are re-derived **from the cells** and equal the recorded
+  figures. *FAIL* otherwise.
+- **(g) Gap-ledger completeness.** *PASS* if every `G-` identifier consumed in any cycle is recorded in
+  `idea_register.md` **with its status**, or is explicitly listed among the identifiers absent from the
+  register **with a reason**. The specific item the Cycle-134 identifier-integrity check flagged — **G-31** — is
+  the one to resolve: its status is confirmed from `cycle_notes.md` and written into the register.
+
+**The repair list. REGISTERED BEFORE THE FIRST REPAIR.** Every item is a record repair. Each is stated with
+its before and after. **No other repair is permitted**, and in particular **no cell is re-classified, no map row
+or baseline row is added, removed or renumbered, and no figure outside the two lines named below changes.**
+
+1. **Any batch outcome line that disagrees with its own cells is corrected to the cells' tally, with the
+   disagreement and its resolution recorded in the same place.** The cells are the primary record.
+2. **Any sentence in an entry that states a count its own table contradicts is corrected in place, with the
+   before/after recorded.**
+3. **G-31 is written into `idea_register.md`** with its confirmed status and its provenance, in IDEA-010's
+   dossier, where G-30's exhaustion is already recorded, so that the gap-ledger position is legible to a later
+   session without a cross-file inference.
+4. **Nothing else.** A repair that would alter a score, a rank, a hard-stop flag, a gap's status, a rejection's
+   verdict, a candidate's status, a map row, a baseline row or a classification is **not** a repair and is
+   **not** made.
+
+### Priority 2 — the register's own structural question, stated and decided. REGISTERED BEFORE THE ANALYSIS IS WRITTEN.
+
+**The question.** The Cycle-134 handoff states the register's difficulty as a **dependency loop in its own
+method**: the narrowed rule forbids the literature until a construction passes screens that are themselves built
+from the map, while the map can only be extended by the literature. Cycle 135's task is to write that loop
+down exactly and decide it.
+
+**The procedure, fixed in advance.** (i) **State it formally** — name the objects (the recorded prior art, the
+screen, the construction, the literature), state what the narrowed rule permits and forbids, and identify the
+precise point at which the dependency closes on itself. (ii) **Test totality** — ask whether the method is
+*closed under its own screens* (every construction it can supply receives a verdict and the productive range is
+non-empty) or whether it has a legitimate exit, and answer the question with the register's own numbers rather
+than with an argument. (iii) **If it has an exit**, specify it in a form that respects the standing rules: a
+**named clause**, a **bounded scope**, **zero fetches until a construction survives the screens**, and an
+**explicit licence-and-enforcement bound**, with the **Cycle-132 rejection of the literature-first route
+amendment as the standing precedent** that any specification must answer and not re-propose. (iv) **If it has
+no exit**, say so plainly and record the register's position as a **bounded, honest negative** with the numbers
+attached: **33 map rows; 447 of 447 corpus entries probed from the other side; zero out-of-map survivors; fifteen
+named constructions, all killed.**
+
+**The pre-registered constraints on the answer.** (a) **No candidate is created** unless a construction survives
+the screens, and any kill must name its clause. (b) **No route is re-run**: not the backward route (exhausted),
+not G-37's bounded search, not G-33's dated routes, and **not the Cycle-132 literature-first route amendment** —
+a re-specification may be *drafted*, but a drafted clause is neither executed nor adopted, and a draft is not a
+candidate. (c) **The answer must distinguish the method's *epistemic* limit from the register's *empirical*
+emptiness**, because the handoff's framing may conflate them, and the audit's job is to say which is which.
+(d) The analysis is of the register's **own artifacts**, not a literature route.
+
+### Priority 3 — the open gaps and housekeeping. REGISTERED BEFORE THE CYCLE'S WORK.
+
+**(a) G-37: no action.** Its null stands, **recorded once**; the bounded search is **not** re-run a third time.
+**V-008 is not amended.** IDEA-009 unchanged at 42.0 (rank 4).
+**(b) G-33: no action.** The three named dated routes are unchanged and ESMA's own routes are not retried; the
+statement remains an **enforcement-priority statement, not a measurement**. **V-009 is not amended.** IDEA-011
+unchanged at 69.0 (rank 1).
+**(c) G-11 (partially closed), G-14 (dated 2029-03-29), G-21 (handed to validation), G-28 (open and frozen),
+G-32 (limb (a) closed; limbs (b) and (c) dated 2027 Q3)** are checked against the artifact that records each
+one and are **expected to be unchanged**; **G-30** remains exhausted and **G-38** remains closed. **No gap is
+opened and no gap is closed.**
+**(d) Housekeeping.** Re-derive every count **from the files** (not copied from the handoff); re-run the rubric
+arithmetic **from the shortlist's own cells**; advance **all five artifact headers and their newest dated
+blocks** to "Cycle 135 complete" and **read them back in this session**; write this cycle's outcomes here;
+update `research/README.md`; rewrite this handoff for Cycle 136; and run the **standing identifier-integrity
+check** — that no identifier is over-run, none is duplicated, and every identifier the cycle claims to have
+consumed actually appears in the artifact set (the defect class that has appeared repeatedly: Cycle 124's R-065,
+Cycle 126's R-067, and Cycle 134's corpus-count error).
+
+## Cycle 135 — Priority 1 outcomes — the closure audit of the completed inventory
+
+**The instrument and the cost.** The instrument is the register's own artifacts: `rejected_and_parked.md` (the
+inventory tables, the coverage map, the rejection log), `source_ledger.md` (the corpus), `idea_register.md` (the
+gap ledger). **Zero fetches, zero `S-` identifiers consumed, zero re-reads of the corpus.** Each of the seven
+checks was run in the pre-registered order and its verdict recorded before the next was run. **One check found a
+defect, one found a defect and one corrected the check's own premise; three repairs were executed, each with a
+before/after, and none of them touched a score, a rank, a hard-stop flag, a gap's status, a rejection's verdict
+or a candidate's status.**
+
+### (a) Identifier partition — **PASS**
+
+- The corpus is **447 entry blocks**: **437 `### S-NNN` headings** in `source_ledger.md` **plus the ten
+  Cycle-58 document-record entries S-281 … S-290**, which carry no heading of their own. The identifier set is
+  exactly **S-001 … S-457 minus the reserved-and-unused S-210 … S-219** — mechanically confirmed, with **no
+  identifier outside the corpus and no reserved identifier present in it**.
+- The inventory holds **445** identifiers in the **eleven batch tables** and **44** in **R-068's forty-four-row
+  sample table**. The **union is exactly 447** and equals the corpus set: **no gap, no identifier outside the
+  corpus.**
+- The eleven batch tables are **pairwise disjoint** and jointly contiguous: S-002 … S-010 · S-012 … S-050 ·
+  S-051 … S-075 · S-076 … S-125 · S-126 … S-175 · S-176 … S-225 · S-226 … S-270 · S-271 … S-320 · S-321 … S-380 ·
+  S-381 … S-438 · S-439 … S-457. The **two** corpus identifiers that appear in no batch table — **S-001 and
+  S-011** — are exactly the two Cycle-128 sample identifiers that fell outside every batch boundary, and both are
+  read in R-068's table. The **42** identifiers that appear in *both* R-068's sample table and a batch table are
+  the register's **double-reads**, each compared with R-068's own row in the batch that re-read it.
+- **Observation, recorded and deliberately not repaired:** the batch *numbering* is ambiguous on its face —
+  three sections are headed "batch 1" (Cycles 129, 131, 132), two "batch 2" (Cycles 129, 131) and two
+  "batch 3" (Cycles 129, 131) — but every heading states its **identifier range**, which is unambiguous, and the
+  ranges are disjoint. The pre-registered repair list forbids a repair here, and the ambiguity is cosmetic.
+
+### (b) Cell-vs-tally agreement — **ONE FAIL, repaired (Repair 1)**
+
+Eleven batch outcome lines were tested against their own tables, the cells being the primary record.
+
+| Batch | Rows | Recorded tally | Tally of its own cells | Verdict |
+| --- | --- | --- | --- | --- |
+| Cycle 129 b1 (S-002 … S-010) | 9 | 8 in-map, 0 out-of-map, 1 (iv-a) | 8 · 0 · 1 | **match** |
+| **Cycle 129 b2 (S-012 … S-050)** | 39 | **33 in-map, 2 out-of-map, 3 (iv-a), 1 (iv-b)** | **32 · 2 · 3 · 2** | **FAIL — repaired** |
+| Cycle 130 (S-051 … S-075) | 25 | 21 in-map, 0 out-of-map, 4 (iv-a) | 21 · 0 · 4 | match |
+| Cycle 131 b1 (S-076 … S-125) | 50 | 33 in-map, 0, 16 (iv-a), 1 (iv-b) | 33 · 0 · 16 · 1 | match |
+| Cycle 131 b2 (S-126 … S-175) | 50 | 32 in-map, 0, 17 (iv-a), 1 (iv-b) | 32 · 0 · 17 · 1 | match |
+| Cycle 131 b3 (S-176 … S-225) | 40 | 26 in-map, 0, 14 (iv-a) | 26 · 0 · 14 | match |
+| Cycle 132 b1 (S-226 … S-270) | 45 | 26 in-map, 0, 19 (iv-a) | 26 · 0 · 19 | match |
+| Cycle 133 b2 (S-271 … S-320) | 50 | 29 in-map, 0, 21 (iv-a) | 29 · 0 · 21 | match |
+| Cycle 133 b3 (S-321 … S-380) | 60 | 39 in-map, 0, 21 (iv-a) | 39 · 0 · 21 | match |
+| Cycle 133 b4 (S-381 … S-438) | 58 | 18 in-map, 0, 40 (iv-a) | 18 · 0 · 40 | match |
+| Cycle 134 final (S-439 … S-457) | 19 | 7 in-map, 0, 12 (iv-a) | 7 · 0 · 12 | match |
+
+**R-068's own distribution line** ("23 in-map nulls · 4 out-of-map and killed · 0 out-of-map survivors · 17
+not-a-state", of which **16 (iv-a)** and **1 (iv-b)**, S-021) was tested against its own forty-four-row table and
+**matches it exactly**.
+
+**The defect, and Repair 1.** The Cycle-129 batch-2 line was **wrong by one in each direction**: it read
+"33 in-map … 3 (iv-a) and 1 (iv-b) — S-028" where the table's thirty-nine cells give **32 in-map · 2 out-of-map
+· 3 (iv-a) · 2 (iv-b)**. The cause is precise and is a **carry-over of Cycle 134's own two cell corrections**:
+Cycle 134 moved **S-028** from out-of-map to (iv-b) and adjusted the tally for that move, and separately moved
+**S-021** from in-map to (iv-b) — recording the disagreement and adopting the stricter reading — but **left the
+tally unadjusted for the second move**. Both the head of the outcome line and its "corrected tally" clause have
+been brought to **32 in-map · 2 out-of-map · 3 (iv-a) · 2 (iv-b)**, with a before/after annotation in place, and
+the same restatement in this file's Cycle-134 repair list (item 5) is annotated and corrected. **The corpus
+figure in the "final state" section is unaffected** — 272 in-map, 168 (iv-a), 4 (iv-b), 3 out-of-map over 447 —
+because that figure was derived from the cells and already agreed with them; see check (f).
+
+### (c) Map resolution — **PASS on the substantive clause; one documentary asymmetry recorded**
+
+- **Every map row named in an in-map cell exists in the map.** Twenty-five distinct row tokens are cited in the
+  inventory's in-map cells. Twenty-one of them are **coverage-map rows** — A, E, I, 10, 11, 12, 13, 14, 15, 16,
+  17, 18, 19, 20, 26, 27, 28, 29, 30, 31, 33 — and **every one is a row the map actually has**. The remaining
+  four are **not** map rows and are not mis-citations: **35**, **57** and **83** are **known-baseline rows** (the
+  map's rows and the baseline table's rows are two different numberings, and a cell may legitimately cite
+  either), and **44**, in S-451's cell, is a reference to **R-068's own extraction-table row 44**, not to a map
+  row.
+- **All 33 map rows name the closing entry that closes them** — A→R-039 · B→G-28 structural null · C→R-040 ·
+  D→R-041 · E→R-042 · F→R-043 · G→R-044 · H→R-045 · I→R-046 · 10→R-004/R-014/R-017/R-028/R-029/R-033 ·
+  11→R-016/R-063/IDEA-013/IDEA-014 · 12→IDEA-006/IDEA-012/R-036 · 13→R-012/R-035/R-047 ·
+  14→R-020/R-021/R-024/R-025 · 15→IDEA-003 · 16→IDEA-005/IDEA-008; G-28 · 17→R-050/R-054/R-055; IDEA-010 ·
+  18→R-022; IDEA-001 · 19→R-018/R-023/R-032 · 20→R-004/R-049/R-051/R-052/R-053 · 21→R-064 (row 98) ·
+  22→R-066 (row 100) · 23→R-066 (row 101) · 24→R-066 (row 102) · 25→R-067 (row 103) · 26→R-067 (row 104) ·
+  27→R-067 (row 105) completed by R-068 D4 · 28→R-067 (row 106) · 29→R-068 (row 107) · 30→R-068 (row 108) ·
+  31→R-068 (row 109) · 32→Cycle 129 batch 2 (S-027) · 33→Cycle 129 batch 2 (S-043). **No row is unclosed and no
+  closure names a missing entry.**
+- **The documentary asymmetry, recorded and not repaired:** of the **294 in-map cells** in the record (271 in the
+  eleven batch tables, 23 in R-068's sample table), **141 do not name a coverage-map row**. They resolve **by
+  family**, through the "already claimed?" column, under R-068's own guard-rail — *"a state whose **family** is a
+  known-baseline row is an in-map null"*. The asymmetry is inherited from the **Cycle-129 batches**, which
+  predate the explicit-citation convention the register adopted in Cycle 131; all 23 of R-068's own in-map rows
+  carry a row reference. **No contradiction follows**: the 141 cells resolve to a family the map holds, which is
+  what the rule requires. Filling them would be a re-derivation of the primary record, which the pre-registered
+  repair list forbids and which no check demands; **the number is recorded here so that a later session does not
+  mistake asymmetry for disagreement.**
+
+### (d) Kill resolution — **PASS**
+
+- **Six** cells in the record carry the out-of-map verdict, and **every one names a kill by clause or template
+  and is mapped.** **S-011** and **S-051** → **D1** (a real-time order-flow or order-book-imbalance state):
+  killed by **R-020's recorded principle** (a state that would have to be constructed is not a published state),
+  **narrowed rule (i)** together with the **Cycle-52 third test**, and **G-12**; → **map row 29, baseline row
+  107**. **S-071** → **D2** (a published settlement-based market-liquidity measurement): killed by **R-067's
+  aggregated-obligor side** with the Cycle-52 third test, the **identity limb (G-28)**, **narrowed rule (ii)** and
+  **G-12**; → **row 30, baseline row 108**. **S-331** → **D3** (the execution channel through which an
+  institutional flow is executed): killed by **R-020's recorded principle**, **narrowed rule (ii)**, **G-12** and
+  **R-066's D-3 kill 2**; → **row 31, baseline row 109**. **S-027** → **narrowed rule (i)**, **G-12**, **G-13**;
+  → **row 32, baseline row 110** (written in Cycle 131; the Cycle-129 summary's "baseline row 107 (approx)" was
+  wrong in substance as well as in position). **S-043** → **narrowed rule (ii)**, **G-12**; → **row 33, baseline
+  row 111**.
+- **No out-of-map entry stands without a kill and a mapping.** The **cells** name the kill and the sub-entry
+  (**D1**, **D2**, **D3**, or the Cycle-129 screened-out entry); the **row numbers** are recorded at the **entry**
+  level — in the D1/D2/D3 sections and in the map table's "Closed by" column — which is where the register
+  records mappings.
+- **The final state is three out-of-map cells** (S-011, S-027, S-043), **all three killed and mapped** (rows 29,
+  32, 33), because S-051, S-071 and S-331 were re-read as in-map by the Cycle-130 re-derivation once their kinds
+  were closed. **Zero out-of-map survivors.**
+
+### (e) Disagreement completeness — **PASS on the substantive clause; the check's own premise is corrected**
+
+- **Two of the four (iv-b) entries are recorded disagreements, and both are complete.** **S-021** (Malliaris & Yan,
+  2021): R-068's own row 3 records the conditioning state "as the source states it" as *"managers' reputation
+  concerns (private; a model-internal state)"*, against the Cycle-129 batch's in-map reading; the **stricter
+  (iv-b)** reading is adopted under the Cycle-131 convention and the **reason is stated in the cell**. **S-028**
+  (Lou, Polk & Skouras 2019, *JFE* 134(1): 192–213): the Cycle-129 summary's in-map reading against the table's
+  out-of-map reading; the entry was re-read from the ledger, the conditioning state identified as the
+  **overnight-versus-intraday expected-return decomposition** — a decomposition of the strategy's own returns,
+  not a published state of the world — the **(iv-b)** category adopted, and the **reason stated**. Both record
+  **both readings**, **name the stricter one adopted** and **state why**.
+- **Two of the four are not disagreements at all**, and the check's premise is therefore **false for them.**
+  **S-079** (Osler's clustered stop-loss and take-profit orders) and **S-167** (the private ASR contract terms)
+  were classified (iv-b) **on their first reading**, in the Cycle-131 batches, and their cells state the reason
+  (*"the conditioning object is a private agent attribute, not a published state"*; *"the state is a private
+  contract term, not a published state"*). Neither appears in R-068's forty-four-row sample — the sample is
+  every tenth identifier, and S-079 and S-167 are not multiples of ten — so **there is no second reading to
+  record**. **The audit reports the premise rather than assuming it: the four (iv-b) entries are two disagreements
+  and two first readings, not four disagreements.** No repair is needed or made.
+
+### (f) Whole-corpus arithmetic — **PASS**
+
+Re-derived from the cells, the primary record, using the rule that a batch cell supersedes R-068's sample row
+for an identifier present in both, and R-068's row governs for the two identifiers in no batch table:
+
+| Category | Derivation | Total | Recorded | Verdict |
+| --- | --- | --- | --- | --- |
+| in-map | 8 + **32** + 21 + 33 + 32 + 26 + 26 + 29 + 39 + 18 + 7 = **271** from the batch cells, **+ 1** (S-001, R-068) | **272** | 272 | **match** |
+| not-a-state (iv-a) | 1 + 3 + 4 + 16 + 17 + 14 + 19 + 21 + 21 + 40 + 12 | **168** | 168 | **match** |
+| not-a-state (iv-b) | 2 + 1 + 1 = S-021, S-028, S-079, S-167 | **4** | 4 | **match** |
+| out-of-map | 2 (S-027, S-043) + 1 (S-011) | **3** | 3 | **match** |
+| **Total** | | **447** | 447 | **match** |
+
+**This is the audit's strongest single result.** The corpus figure is right, and it is right *for the right
+reason*: it agrees with the cells, which is where it was derived from. It was **not** derived by summing the
+batch outcome lines — and, before Repair 1, it could not have been, because the batch-2 line disagreed with its
+own table by one in each direction. **The figure and the tables now agree at every level.**
+**One observation, recorded and not repaired:** the "final state" section's distribution bullet lists four terms
+(272 in-map · 0 out-of-map survivors · 0 out-of-map-and-killed-not-yet-mapped · 172 not-a-state) that sum to
+**444**, and the three killed out-of-map entries are named in the **following sentence**, which completes the
+partition to 447. **No figure is wrong**; the pre-registered repair list forbids a repair here, and the
+following sentence closes the sum.
+
+### (g) Gap-ledger completeness — **ONE FAIL, repaired (Repair 3)**
+
+- The Cycle-134 identifier-integrity check flagged **G-31** and Cycle 135 confirms the flag: **G-31 was opened in
+  Cycle 41** as the identifier for *"G-30 sub-routes (b) and (c) research"* (`source_ledger.md`, Cycle 41's
+  identifier-consumption record), and it was **absent from `idea_register.md`**, where G-30 is recorded as
+  exhausted and G-31's own status was nowhere.
+- **Status confirmed from `cycle_notes.md`, Cycle 42, outcomes 1 and 2: G-31 is CLOSED, with a *not found*
+  verdict on both sub-routes** — (b) **sponsor-published AP lists — NOT FOUND** (iShares, Vanguard, PGIM, T. Rowe
+  Price, State Street, Fidelity: none names authorised participants; all use the generic "a limited number of
+  financial institutions … not obligated" formulation) and (c) **non-US issuer — NOT FOUND** (no US-listed
+  corporate-bond ETF sponsored by or listed against a non-US issuer with a published AP set; the Ireland-domiciled
+  UCITS bond ETFs are outside the candidate universe). **G-30 was then closed as exhausted in Cycle 43** (the
+  fourth leg, exchange listing rules, also returned no public disclosure requirement) and re-derived in Cycle 52.
+- **Repair 3 executed:** the entry is written into `idea_register.md`, in **IDEA-010's dossier**, in the Cycles
+  41–51 consolidated note where G-30's ladder is already narrated, with its status, its provenance, the two
+  sub-route verdicts, and the reason the record matters — *a later session must not read the absence as an
+  unopened gap, and must not re-run either leg*. **No gap is opened and no gap is closed by the repair**: the gap
+  was closed in Cycle 42 and the repair records that fact in the register.
+- **The rest of the ledger checked.** After the repair, `idea_register.md` carries **every gap identifier the
+  register has consumed** — G-01 … G-16, G-18 … G-38 — together with the next-free pointer G-39. The **only**
+  identifier absent is **G-17**, which was **never consumed**: the string "G-17" in the artifacts is the **MSRB
+  Rule G-17** (a municipal-securities rule, S-365, S-366, S-373), and the register's own README, handoff and
+  cycle notes all record that **G-17 and G-26 were skipped by the sequence and never used**. The one historical
+  place that lists G-17 as though it were a gap is the parenthetical in Cycle 132's gap-ledger audit, which is a
+  cycle record and is **not** repaired; the register's **open-gap list is unaffected**, because G-17 was never
+  open.
+- **The open-gap list is unchanged: G-11, G-14, G-21, G-28, G-32 (limbs b and c), G-33, G-37.**
+
+### Priority 1 — the audit's own limits, stated
+
+The audit establishes that the register's largest artifact is **internally consistent**: its identifier sets
+partition the corpus, its eleven batch tallies now agree with their own tables, its coverage map's thirty-three
+rows all name their closing entry, every out-of-map entry names a kill and a mapping, and its corpus arithmetic
+re-derives exactly. **It does not establish that the register's prior art is complete** — the corpus is a corpus
+of literature the register chose to read, the map remains a **lower bound**, and the audit can say nothing about a
+state kind outside the register's own memory. That limit is the register's standing limit and this cycle does not
+move it.
+
+**Priority 1 totals: three repairs executed, each with a before/after; no score, rank, hard-stop flag, gap
+status, rejection verdict, candidate status, map row or baseline row changed; no `IDEA-`, `S-`, `V-`, `R-`, `P-`
+or `G-` identifier consumed; no document fetched.**
+
+## Cycle 135 — Priority 2 — the register's own structural question, stated and decided
+
+**No `R-` identifier is consumed by this priority, and no gap is opened.** This is not a kill of a construction —
+nothing was screened — so there is no verdict to record in the rejection log. It is a statement about the
+register's *method*, and it is recorded here, in the file where the register's one other method-level document
+(the Cycle-131 literature-first draft) lives.
+
+### The question, stated exactly
+
+The Cycle-134 handoff stated the register's difficulty as **a dependency loop in its own method**: *"the narrowed
+rule forbids the literature until a construction passes screens that are themselves built from the map, while the
+map can only be extended by the literature."* The task is to write that loop down precisely, decide whether the
+method is **total** or has a **legitimate exit**, and either specify the exit within the standing rules or record
+a bounded, honest negative with the numbers attached.
+
+### The formal statement
+
+**Objects.**
+- **P** — the register's **recorded prior art**: the coverage map **M** (33 rows: A–I, 10–33) ∪ the
+  known-baseline table **B** (111 rows) ∪ the nine state-kind and constraint templates **T** (A–I) ∪ the
+  sixty-eight rejection verdicts.
+- **A** — the **narrowed rule** (R-063's, unchanged since Cycle 117), a *function of P*: **(i)** the constructed
+  state must not be an accounting by-product of the flow it would trade; **(ii)** the constructed price wedge must
+  not already be in **B**; **(iii)** **T** must be run against the construction *before the literature*; plus the
+  strict bar — a **published decision-time state**, **sign-determining** rather than magnitude, an **unclaimed
+  sign**, a **feasible clean test** — plus the **Cycle-52 third test** (the state must not be a public real-time
+  by-product of the flow).
+- **C** — a **construction** = (state, flow, sign claim, instance).
+- **L** — the **external published literature**.
+
+**The register's method, M_reg.** *Supply* a construction **C**; apply **A(C)**; if **A** kills **C**, record the
+kill and add the kind to **M** and **B**; if **A** survives **C**, then **L** becomes reachable for **C** — the
+rule's own words, as R-064 restates them: *"Under rule (iii) the literature is reached only by a survivor"* — and
+**L** is then used to locate an instance and to check that the price wedge is unclaimed; if it is unclaimed, **C**
+becomes a candidate.
+
+**Where the dependency closes.** **L ← A ← P ← L**, in three steps:
+1. **A is a function of P.** Every clause of the screen appeals to something P records — a baseline row, a
+   template, a recorded kill.
+2. **P is a function of L.** The map's rows and the baseline table's rows are, apart from the constructions the
+   register wrote from its own knowledge, entries L supplied.
+3. **L is reachable only from a survivor of A.**
+⇒ **P can only grow through L; L can only be reached through A; A is a function of P.** The loop is closed, and it
+closes in exactly one place: **A's own adequacy cannot be tested by A.**
+
+### The decisive separation: two different limits, and the handoff's framing conflates them
+
+**(i) The epistemic closure — real, and irreducible.** Because the only instrument that can reach a state kind
+outside **M** is **L**, and **L** is gated behind a survivor produced by **A**, the register cannot in principle
+use its own screens to discover its own blind spot. This is not a defect in the method; it is the ordinary
+condition of any screening method whose screen derives from a finite record. **The correct response to it is a
+stated bound, not a licence** — and the register has already stated the bound correctly, in R-064 (*"the map is
+the register's lower bound on the space, not a proof of exhaustiveness"*), in R-067, and in R-068 (*"the corpus is
+a corpus of literature the register chose to read … the register has no instrument that makes it one"*).
+
+**(ii) The empirical emptiness of the productive range — real, but NOT caused by the loop.** If the loop were the
+binding constraint it would forbid *new* state kinds. **It does not.** The map grew from **21 rows** (R-064) to
+**24** (R-066) to **28** (R-067) to **33** (R-068 and the Cycle-131 additions) **because of** the constructions,
+each of which produced a new kind *and* a named kill. Fifteen named constructions across R-063 … R-068 (R-063 1,
+R-064 3, R-065 1, R-066 3, R-067 4, R-068 3 out-of-map kinds plus the closure of set (3)), plus the Cycles
+115–121 state-kind screens, **not one has produced a candidate** — R-068's own count, which Cycle 135 adopts
+unchanged. Every one was killed **at the design stage, at a cost of zero fetches**, by a **named clause**: the
+accounting-by-product clause, the obligor's-own-flow clause, the sign-versus-magnitude clause, the
+published-baseline clause, a template match, or the count-dilemma.
+
+**So the dependency is real; it is not what stopped a candidate. What stopped a candidate is that every
+construction the register has been able to write was killed on its own merits.**
+
+### Is the method total?
+
+A method is **total** over its input domain if it returns a verdict for every input, and **productive** if the
+candidate branch is non-empty on the domain it actually faces.
+
+- **Total: yes.** Every construction the register has supplied received a verdict, every verdict was a kill naming
+  a clause or a template, and **zero constructions were left undecided**. The screen is decision-complete: it
+  always decides.
+- **Productive: no.** The candidate branch is **empty over fifteen named constructions** and, since Cycle 134, the
+  register's second supply route is closed: the backward route has read **447 of 447** corpus entries (**100 %**,
+  at a cost of zero fetches) and returned **272 in-map · 172 not-a-state (168 (iv-a), 4 (iv-b)) · 3 out-of-map
+  entries, all three killed and mapped · 0 out-of-map survivors**.
+
+**The accurate verdict: the method is total and empty.** It decides every input it is given and has never
+converted an input into a candidate. It is a **screening** method, not a **generating** method, and it is closed
+under its own screens and open at exactly **one** place: **it requires an input to be supplied.**
+
+### The exit
+
+The formal analysis delivers something the handoff's framing did not anticipate. **The exit is not a licence to
+read literature. It is a third source of constructions.** The register has used exactly two supply routes, and
+both are now closed or exhausted:
+
+1. **The forward route** — constructions written from the register's own knowledge of mechanisms, screened blind.
+   **Fifteen constructions, every one killed by a named clause, zero fetches.** R-068's own diagnosis is exact:
+   the map is made of the same memory the constructions are drawn from, so a construction is guaranteed to be
+   screened against a map built from itself. The space of mechanisms is not finite, but the register's *own
+   memory* is the only supply it has used, and it has drawn on that supply fifteen times without a survivor.
+2. **The backward route** — read the register's own corpus for the state each published price effect conditions
+   on. **Exhausted at Cycle 134** (447 of 447; zero out-of-map survivors), and it is closed as a route in any case:
+   it supplies *states*, not constructions, and it can only supply states the register has already read.
+
+**The exit is therefore a route that supplies constructions from neither source** — and there is exactly one such
+route available inside the register's own artifacts at zero cost: **the map itself.**
+
+### Clause X-1 — the near-miss probe. DRAFTED, NOT ADOPTED, NOT EXECUTED.
+
+- **What it is.** For each **closed** coverage-map row, the register names the **nearest state kind that the
+  row's own closing clause does not cover**, writes it as a construction (state, flow, sign claim, instance), and
+  screens it under the **unchanged** narrowed rule. The **map's rows are the source of the constructions** — not
+  the register's free memory, and not the literature. That is precisely what separates X-1 from the forward
+  family screens, and it is why X-1 is not a re-run of any exhausted route.
+- **The precedent it generalises is the register's own.** R-067 carried a residual forward because *"a kill which
+  cannot name a clause is not a kill"*, and R-068 ran **D4** — a named rescuing sub-variant of a closed kind — and
+  killed it by the **count-dilemma**, closing **row 27 in full**. **The register has run this probe once, in one
+  of thirty-three rows, and it worked as a method**: it converted "closed as a kind" into "closed in full".
+- **What it does not change.** Clauses (i), (ii), the strict bar, the Cycle-52 third test and the nine templates
+  are **unchanged**. The rediscovery guard is **unchanged**: a killed probe's kind is added to the map and to the
+  baseline table with its kill; a surviving probe is a **construction**, not yet a candidate.
+- **Bounded scope.** **The 33 map rows**, at most **one probe per row**, written **blind** — that is, before the
+  row's closing clause is re-read — so that a probe is not simply the negation of the kill it is testing. Rows
+  are taken in pre-registered batches: **A–I** (the template programme), **10–17**, **18–25**, **26–33**. If the
+  next cycle's budget is short, **one batch of eight** may be run and the remainder deferred; the batch boundary
+  is fixed in advance, by row, so that the choice of which rows to probe cannot be made after seeing a result.
+- **Zero fetches until a construction survives the screens.** The probe reads **no document**. **X-1 does not
+  consult the literature at all**, so it is not the literature-first route and does not re-open the Cycle-132
+  decision. If a probe **survives** the screen, the narrowed rule's **own** exit opens — the literature becomes
+  reachable **for that construction alone**, and that is the only circumstance in which this method spends a
+  fetch.
+- **Enforcement bound.** A killed probe is killed by a **named clause**, as always, and the kill is written into
+  the map row and the baseline table. There is **no partial survivor**: a probe survives only by satisfying every
+  clause. A surviving probe must then pass the rule's literature step before it can become a candidate.
+- **The honest prior, stated in advance.** **R-068's D4 found a sub-variant and killed it.** One probe in one row
+  produced a kill, and that is the register's **entire** evidence base for X-1. **X-1 is not expected to produce a
+  candidate.** It is expected to produce either a kill with a named clause — the common case, and a genuine gain,
+  because it closes a row *in full* rather than by kind — or a survivor, which opens the register's own exit.
+  Either outcome is a gain in the register's knowledge; **neither is a candidate.**
+- **Relation to the Cycle-132 rejection — the standing precedent, respected.** The Cycle-132 decision rejected
+  the *literature-first route amendment* because (a) the "disinterested publisher" clause is not operational on
+  the aggregated-obligor side, and (b) a ten-document budget creates scope-creep pressure, with the empirical
+  premise that the backward route was still running and was the better thing to continue. **X-1 answers neither
+  question by re-proposing the route; it is a different route that reads no literature and consults no external
+  source.** For the record, **reason (b)'s empirical premise is now spent** — the backward route was carried to
+  completion (Cycle 134, 447 of 447) — and **reason (a) stands untouched**. **X-1 does not re-open the Cycle-132
+  decision, and this cycle does not re-open it either.**
+- **The decision not to execute X-1 in Cycle 135, recorded with its reason.** X-1 is a **route**, and a route
+  requires its own pre-registration, its own batch boundaries and its own outcome categories, in a cycle that has
+  time to run them. Executing it in the same cycle that specified it would make the specification unfalsifiable
+  by construction, and would spend the register's one clean cycle on a route whose own prior is one probe in one
+  row. **It is therefore handed to Cycle 136 as Priority 1, to be pre-registered there before its first probe is
+  written.** The handoff's own constraint is respected: **this task creates no candidate**, because no
+  construction has survived and none was screened.
+
+### One further finding, about the register's own rule rather than about the world
+
+**The narrowed rule is stricter than the mission it serves, and the register should know that.** The canonical
+prompt's own CONTINUOUS RESEARCH LOOP places **"Seek credible sources" (step 3) before "Form candidate hypotheses"
+(step 4)**, and defines originality as differentiation from *"the ideas already in this repository **and the
+closest known public analogues**"* — i.e. the mission expects the literature to be read as a matter of course, and
+expects prior art to be checked against published work rather than only against the register's own record. The
+narrowed rule inverts that order for the *forward* route: it gates the literature behind a survivor. That
+inversion is the register's **own** methodological choice, not a requirement of the canonical prompt, and the
+canonical prompt is maintainer-owned and is **not** modified here. The finding is recorded because it bears
+directly on the exit: **the loop is a self-imposed narrowing**, and X-1 is a way to reach an exit *without*
+reversing it. Any future decision to reverse it would be a decision about the register's own method, and would
+have to be taken against the Cycle-132 precedent rather than around it.
+
+### The register's position after Priority 2 — the bounded, honest negative, with the numbers
+
+1. **The method is total in form and empty in content on its actual input domain.** It has decided every
+   construction it has been given — **fifteen named constructions across R-063 … R-068, plus the Cycles 115–121
+   state-kind screens, all killed at the design stage at a cost of zero fetches** — and it has never produced a
+   candidate.
+2. **The dependency loop the handoff names is real, but it is the *epistemic* limit, not the cause of the
+   emptiness.** The map grew 21 → 24 → 28 → 33 **because of** the constructions, and every kill was a named clause
+   applied to a new kind.
+3. **The binding constraint is the supply of constructions.** The register's two supply routes are closed or
+   exhausted: its own memory (fifteen constructions, all killed) and its own corpus (**447 of 447**, zero
+   out-of-map survivors).
+4. **The exit is a supply route, and exactly one requires no licence and no fetch: X-1, the near-miss probe of
+   the register's own map**, generalised from the one instance the register has already run and recorded
+   (R-067's carried-forward residual → R-068's D4 → row 27 closed in full). It is **specified above, with a named
+   clause, a bounded scope, zero fetches until a construction survives, and an explicit enforcement bound**, and
+   it is **not executed in this cycle**.
+5. **The register's own bound stands and is not moved:** **33 map rows · 447 of 447 corpus entries probed from the
+   other side · zero out-of-map survivors · fifteen named constructions, all killed · 0 candidates · 0 fetches
+   spent on the forward route.** The map remains a **lower bound** on the space of published state kinds, because
+   the corpus is a corpus the register chose to read, and no instrument in the register makes it otherwise.
+
+## Cycle 135 — Priority 3 outcomes — the open gaps, and housekeeping
+
+### The open gaps. Tracked; **no action on G-37 and no action on G-33**; no gap opened and no gap closed.
+
+- **G-37 (IDEA-009's V-008 regime-gate limb):** **no action.** Its null **stands, recorded once**, and the
+  bounded search is **not** re-run a third time. The re-screen condition is unchanged: a **peer-reviewed**
+  within-contract trailing-sign flip in the funding–return relation, or a **peer-reviewed** version of the
+  S-454 classifier work applied to a funding state. **V-008 is not amended** — the Cycle-113 gate-value arm
+  already requires a validator to report the regime gate's own measured value and to report a gate
+  indistinguishable from zero as a **null on the gated rule**. **IDEA-009 unchanged at 42.0 (rank 4).**
+- **G-33 (IDEA-011's V-009 enforcement-priority statement):** **no action.** The three named dated routes are
+  unchanged (ESMA's own commitment to report on the 2026 AFR examinations; the annual FRWG (EECS)
+  enforcement-decision extract; the ESEF IFRS 18 tagging rate in the filed 2026 annual reports, a
+  validation-stage proxy carried in V-009 as a **fourth named object that must not be pooled**). ESMA's own
+  routes return **HTTP 403** and are **not retried**; the working carriers remain **S-455** (CySEC), **S-456**
+  (MFSA) and **S-457** (CSSF, Luxembourg; NBS, Slovakia). The statement remains an
+  **enforcement-priority statement, not a measurement**. **V-009 is not amended.** The early-adopter limb is
+  unchanged: S-437 line-verified, anchor issuer flatexDEGIRO, n = 1, the price test a validation task on
+  V-009, the 2027 interim season dated, not due. **IDEA-011 unchanged at 69.0 (rank 1).**
+- **G-11 (partially closed — IDEA-006's settlement-side residual untested), G-14 (dated 2029-03-29 — P-010's
+  unblocking condition), G-21 (handed to validation — IDEA-011's first-adopter-versus-repeat-adopter drift
+  comparison), G-28 (open and frozen — IDEA-004's pair-level netted identity is not constructible from
+  published data), G-32 (limb (a) closed; limbs (b) and (c) dated 2027 Q3)** were each checked against the
+  artifact that records it: **all unchanged.**
+- **G-30 remains exhausted** and **G-38 remains closed** (Cycle 113, on two published RIN cost anchors). **G-31
+  is closed** — see Priority 1, check (g) — and is now recorded in the register's own gap ledger.
+- **The open-gap list is therefore unchanged and is now complete in the register:**
+  **G-11 · G-14 · G-21 · G-28 · G-32 (limbs b and c) · G-33 · G-37.**
+
+### Housekeeping
+
+- **Counts re-derived from the files** (not carried forward from the handoff): **447 ledger entries, 446
+  verifiable** (S-290 struck) · **15 dossiers** (IDEA-001 … IDEA-015) · **68 rejections** (R-001 … R-068) ·
+  **13 parking records, 12 active** (P-001 … P-012, P-014; P-004 closed by R-038) · **11 validation
+  specifications** (V-001 … V-010, V-012) · **111 known-baseline rows** · **33 coverage-map rows** (A–I, 10–33)
+  · **backward state inventory complete at 447 of 447**. **Unchanged from Cycle 134** — Cycle 135 created no
+  dossier, no rejection, no parking record, no baseline row, no map row, no source entry and no specification.
+- **Next free identifiers: IDEA-017, S-458, V-013, G-39, R-069, P-015** (IDEA-016, S-210 … S-219, V-011, G-17,
+  G-26 and P-013 are reserved or skipped and unused).
+- **Rubric arithmetic re-run from the shortlist's own cells — clean, and nothing moved:** IDEA-011 4/3/3/4/2/5 =
+  20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 =
+  **63.0**; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0**; IDEA-009 2/3/1/2/1/4 = 10.0 + 12.0 +
+  3.0 + 6.0 + 3.0 + 8.0 = **42.0**; IDEA-010 (parked, P-014) terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0 + 6.0 +
+  4.0 = **55.0**. **Order unchanged: IDEA-011 (rank 1), IDEA-004 (rank 2), IDEA-014 (rank 3), IDEA-009 (rank 4).**
+- **All five artifact headers and their newest dated blocks advanced to "Cycle 135 complete"** and **read back**
+  in this session: `source_ledger.md` ("# SOURCE LEDGER — CYCLES 1–135" + a new Cycle-135 block),
+  `idea_register.md` (its "Last updated" line), `ranked_shortlist.md` ("# RANKED SHORTLIST — CYCLES 1–135" + a new
+  Cycle-135 block), `validation_handoffs.md` ("# THEORY-TO-VALIDATION HANDOFFS — CYCLES 1–135" + a new Cycle-135
+  block) and `rejected_and_parked.md` (its "Last updated" line). `research/README.md` updated: its next-cycle
+  pointer now reads "**Cycle 136**" and its cycle history carries the Cycle-135 paragraph, with the Cycle-134
+  and earlier history preserved beneath it.
+- **The standing identifier-integrity check was run and passed.** No identifier is over-run and none is
+  duplicated. Structurally, `idea_register.md` carries **15 `## IDEA-` dossiers and no IDEA-016**;
+  `source_ledger.md` carries **437 `### S-` headings plus the ten Cycle-58 document-record entries S-281 … S-290
+  = 447 entries**, with **S-210 … S-219 absent and reserved**; `validation_handoffs.md` carries **11 `## V-`
+  specifications and no V-011**; `rejected_and_parked.md` carries **R-001 … R-068 complete with no gap** and **13
+  `### P-` records with no P-013**; and — **newly, after Priority 1's repair (g)** — `idea_register.md` now
+  carries **every gap identifier the register has consumed** (G-01 … G-16, G-18 … G-38) with **G-17 the only
+  one absent, and it was never consumed** (the string "G-17" in the artifacts is the MSRB Rule G-17, a municipal
+  securities rule, and the register's own README, handoff and cycle notes all record that **G-17 and G-26 were
+  skipped by the sequence and never used**).
+- **The active book is unchanged:** IDEA-011 ACCTCLOCK · IDEA-004 SLOWCAP-COND · IDEA-014 RIN-DEADLINE ·
+  IDEA-009 PERP-FUND.
+
+**Cycle totals: no candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no
+document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification
+created, amended or withdrawn; no rejected-and-parked record created and no verdict changed; no map row or
+baseline row added, removed or renumbered. Three record defects repaired in place, each with a before/after:
+the Cycle-129 batch-2 outcome tally, R-068's residual sentence's (iv-a)/(iv-b) split, and G-31's absence from
+the register's gap ledger.**

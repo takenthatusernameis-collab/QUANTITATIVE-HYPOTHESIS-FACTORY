@@ -31,7 +31,54 @@ defined by the canonical mission prompt, which is **not** to be modified:
    *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 135**;
+   (next: **Cycle 136**;
+   **Cycle 135 completed three pre-registered priorities — the closure audit of the completed backward
+   state inventory, the register's own structural question stated and decided, and housekeeping. The
+   audit is the first time the register's largest artifact has been checked as a whole**, under seven
+   checks pre-registered with the check set and the repair list both fixed before the first repair:
+   **(a) identifier partition — PASS** (the union of the inventory tables' identifier sets is exactly the
+   corpus's **447** entry blocks — 437 `### S-NNN` headings plus the ten Cycle-58 document-record entries
+   S-281 … S-290 — the eleven batch tables pairwise disjoint and jointly contiguous, and S-001 and S-011
+   the only two identifiers in no batch table); **(b) cell-vs-tally agreement — ONE FAIL, repaired** (ten
+   of eleven batch outcome lines agree with their own tables; the **Cycle-129 batch-2** line read "33
+   in-map … 1 (iv-b)" where its thirty-nine cells give **32 in-map · 2 out-of-map · 3 (iv-a) · 2
+   (iv-b)**, because Cycle 134 adjusted the tally for the S-028 cell move but not for the S-021 cell move
+   — corrected in place with a before/after, and the corpus figure is unaffected because it was derived
+   from the cells); **(c) map resolution — PASS** (every map row named in an in-map cell exists in the map,
+   and all 33 rows name their closing entry; **141 of the 294 in-map cells name no map row and resolve by
+   family**, an asymmetry inherited from the Cycle-129 batches, recorded and not repaired); **(d) kill
+   resolution — PASS** (all six out-of-map cells name a kill by clause or template and a mapping; the
+   final state is three out-of-map cells, all killed and mapped); **(e) disagreement completeness — PASS,
+   with the check's own premise corrected** (of the four (iv-b) entries, **two are recorded
+   disagreements** — S-021 and S-028 — and **two are first readings** with no second reading to record);
+   **(f) whole-corpus arithmetic — PASS** (**272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447**,
+   re-derived from the cells); **(g) gap-ledger completeness — ONE FAIL, repaired** (**G-31**, opened in
+   Cycle 41 and closed in Cycle 42 with a *not found* verdict on both sub-routes, now written into
+   IDEA-010's dossier with its status and its provenance). **Three repairs, each with a before/after, none
+   touching a score, a rank, a flag, a gap's status, a rejection's verdict or a candidate's status.**
+   Priority 2 **stated the register's own dependency loop formally** (**L ← A ← P ← L**) and **decided**
+   it: the loop is **real** — the screen's own adequacy cannot be tested by the screen, because the only
+   instrument that can reach a state kind outside the map is the literature and the literature is gated
+   behind a survivor of a screen built from the map — but the **epistemic closure** and the **emptiness of
+   the productive range** are two different things, and the emptiness is **not** caused by the loop, since
+   the map grew 21 → 24 → 28 → 33 **because of** the constructions and all **fifteen named constructions**
+   across R-063 … R-068 were killed at the design stage by a **named clause** at a cost of **zero
+   fetches**. **The method is total in form and empty in content**, and the binding constraint is the
+   **supply of constructions** — both of the register's supply routes are now closed or exhausted (its
+   own memory: fifteen constructions, all killed; its own corpus: **447 of 447**, zero out-of-map
+   survivors). **The exit is "clause X-1", the near-miss probe of the register's own map** — for each
+   closed row, name the nearest state kind the row's own closing clause does not cover, write it blind,
+   and screen it under the **unchanged** narrowed rule; the register has run this probe once, in one of
+   thirty-three rows (R-067's carried-forward residual → R-068's D4 → row 27 closed in full). It is
+   **specified, not adopted and not executed**, and is handed to Cycle 136. **The Cycle-132 rejection of
+   the literature-first route amendment is untouched and is not re-opened.** The open gaps were tracked
+   with **no action on G-37 and no action on G-33**. Housekeeping re-derived the counts, re-ran the rubric
+   arithmetic clean — **no score or rank moved: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014
+   52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at a terminal 55.0** — advanced all five
+   artifact headers to "Cycle 135 complete" and read them back, and ran the standing identifier-integrity
+   check. **No candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no
+   document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation
+   specification created, amended or withdrawn.** Earlier history —
    **Cycle 134 completed three pre-registered priorities — a record-integrity repair and the completion
    of the backward state inventory.** The cycle's central finding is a **record-integrity** one and it is
    the third in this repository's sequence: **the Cycle-133 handoff asserted that the backward state
