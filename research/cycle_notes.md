@@ -6375,3 +6375,37 @@ The Cycle-131 pre-registration, the Priority-0 repair list, the Priority-2 draft
 ### Accounting — Cycle 131
 
 **No candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn.** The cycle's product is **three completed batches of the backward inventory (150 further ledger entries read), the map-vs-corpus audit with numbers, the eight Priority-0 repairs, and the literature-first route amendment written as a draft**. The register's construction-first ledger stands at **fifteen named constructions across six entries** (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4, R-068 3 plus the closure of R-067's set (3)), none of which produced a candidate, and **none of which now remains live**. The map stands at **thirty-three rows** and the known-baseline table at **111 rows**.
+
+---
+
+## Cycle 132 — 2026-10-22 (in progress/completed this session)
+
+Theory-only cycle executing priorities from the Cycle 132 handoff. No tests, no data acquisition, no strategy/signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** Execute (1) continue backward extraction from S-226 in pre-registered batches (batch 1 S-226 … S-270 written), (2) decide on literature-first route amendment (adopt or reject) with answers to its two open checks, (3) full gap-ledger audit of all thirty-eight gaps, (4) housekeeping (counts, rubric, headers/read-back, README, handoff, identifier integrity).
+
+**Pass 2 — Critique.** Must follow all integrity rules (no invented citations, kill must name clause/template, theory-only). For (2), cannot let draft become permanent item without decision. For (3), must check every gap G-01..G-38 status. For (4), header advance is recurring failure mode (12th occurrence in Cycle 131) — must advance all five and read back.
+
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+
+#### Priority 1 — backward extraction batch 1 (S-226 … S-270)
+Wrote per-source table to `rejected_and_parked.md`. **23 in-map, 0 out-of-map, 22 not-a-state (iv-a).** No candidate, no IDEA/S identifier, no fetch, no score/gap/spec changes. Remaining 155 entries (S-271 … S-457) to be done in subsequent batches (S-271…S-330, S-331…S-380, S-381…S-430, S-431…S-457) as per handoff.
+
+#### Priority 2 — literature-first route amendment: DECISION (REJECT)
+Reviewed draft (L-0..L-7) in Cycle 131. Open checks:
+1. Clause (a) operational for disinterested publisher series whose raw inputs are partly obligor-reported (aggregated-obligor side, R-067 third category)? The draft excludes aggregated-obligor aggregates (L-1a). R-067 already killed aggregated-obligor measurement family at design stage; making (a) operational would require distinguishing "disinterested publisher computing from obligor reports" vs "aggregated-obligor aggregate" — the boundary is fuzzy and hard to enforce without expanding the licence. The licence cost (map growth) is real; enforcing the boundary is error-prone.
+2. Budget of ten documents small enough to avoid literature re-run in disguise? Even with stopping rule (budget 10 or first surviving kind), once per cycle with named domain/routes/date creates pressure to keep searching; combined with (a) ambiguity, risk of scope creep is high. The backward route (Cycles 128-131) already probed 54.2% of corpus with zero fetches and found nothing — no evidence license is needed.
+
+**Decision: REJECT** the literature-first route amendment. Reason: backward extraction has been systematic and costless (zero fetches) with no survivors found; the two open checks cannot be answered satisfactorily without materially expanding licence scope/enforcement burden; better to continue backward extraction to completion (remaining ~155 entries, 4 batches) than to open licensed literature search. Record decision with reason; do not adopt clauses.
+
+#### Priority 3 — full gap-ledger audit (all thirty-eight gaps)
+Audited G-01 through G-38 against current artifacts:
+
+**Open/blocking/relevant:** G-01 (IDEA-002 parked context, not blocking active book), G-05 (IDEA-003 parked), G-11 (IDEA-006 partially closed residual settlement-side limb untested; fix rejected as R-007), G-12/G-13 (general principles, not single gaps blocking in same form), G-14 (IDEA-008 and IDEA-015 cost floor, public borrow-cost series not published before 2029-03-29), G-21 (handed to validation V-009, first-adopter-vs-repeat-adopter drift), G-28 (IDEA-004 pair-level netted identity not constructible from published data), G-30 (exhausted), G-32 (IDEA-011 limbs (b),(c) dated 2027 Q3, limb (a) closed), G-33 (IDEA-011 population rate not published, enforcement-priority not measurement), G-34/G-35 (IDEA-010 history, closed/parked), G-36 (IDEA-011 resilience dimension reconstruction, closed in Cycle 86), G-37 (IDEA-009 narrowed, null recorded once, not re-run), G-38 (IDEA-014 closed in Cycle 113). Others (G-02,G-03,G-04,G-06,G-07,G-08,G-09,G-10,G-15,G-16,G-17,G-18,G-19,G-20,G-22,G-23,G-24,G-25,G-26,G-27,G-29,G-31) appear closed/resolved or not active. **Corrected open list (active): G-11, G-14, G-21, G-28, G-32(limbs b,c), G-33, G-37.** No action on G-37/G-33 as before. Map-vs-corpus audit updated with batch 1: 237+45=282 distinct sources inventoried (64.5%), 155 remain (35.5%), distribution 193 in-map / 0 out-of-map survivors / 89 not-a-state (87 iv-a, 2 iv-b). Map remains lower bound.
+
+#### Priority 4 — housekeeping
+Counts re-derived from files: 15 dossiers, 437 sources, 68 rejections (R-001..R-068), 13 parking (12 active), 11 validation specs, 111 baseline rows, 33 coverage map rows. Next free: IDEA-017, S-458, V-013, R-069, P-015, G-39. Rubric arithmetic clean (IDEA-011 69.0 rank1, IDEA-004 63.0 rank2, IDEA-014 52.0 rank3, IDEA-009 42.0 rank4). Advanced all five artifact headers to "Cycle 132 complete" and read back. Updated README identifiers/cycle note. Identifier integrity check passed.
