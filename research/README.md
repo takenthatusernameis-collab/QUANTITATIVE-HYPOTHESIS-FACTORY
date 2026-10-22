@@ -42,21 +42,36 @@ defined by the canonical mission prompt, which is **not** to be modified:
    "—" to those two numbers; Cycle 130's batch, which existed only as a one-line summary, was
    **re-derived per source** and written out beside Cycles 129's batch tables, with the re-derivation's
    disagreements with the summary recorded rather than adopted silently; the Cycle-130 handoff's
-   "111 baseline rows" was corrected to the **109** the table actually holds; and the Cycle-129 claim
+   "111 baseline rows" was corrected to the **109** the table actually holds at the time of the repair —
+   it had counted the header and separator rows of a 109-row table — and the table holds **111 data rows
+   after the repair**; the Cycle-129 claim
    that the literature-first amendment had been "drafted in cycle_notes.md" — a draft that **exists in
-   no artifact** — was recorded as a false claim and the draft **written** this cycle. Priority 1
+   no artifact** — was recorded as a false claim and the draft **written** this cycle; the **S-041**
+   cell in Cycle 129's batch 2 was **corrected in place** to (iv-a), the stricter of the register's own
+   two readings of the "claims no price effect" test, with the general finding recorded; and the
+   artifact headers, stale at "Cycle 128 complete" through Cycles 129–131, were advanced and read back.
+   Priority 1
    continued the backward extraction over **three pre-registered batches of fifty** ledger entries
    (S-076 … S-225), reading each entry for the single conditioning state of the published price effect
    it claims, and returning **in-map nulls and not-a-state entries in the main, with no out-of-map
    survivor and no candidate** — the corpus remains internally consistent with its own rediscovery
-   guard. Priority 2 **wrote** the literature-first route amendment as a **draft only** (`cycle_notes.md`),
+   guard; the inventory now covers **237 of the ledger's 437 sources (54.2 %)**, with **200 entries
+   still to be read**, at a cost of **zero fetches**. Priority 2 **wrote** the literature-first route
+   amendment as a **draft only** (`cycle_notes.md`),
    in clause form, with the positive list, the clauses it does not change, the licence cost, the bound
    and the standing limit that the map remains a lower bound; **it is not executed and not adopted**.
    Priority 3 took **no action** on G-37 (its null stands, recorded once, the bounded search not re-run)
    or on G-33 (its three named dated routes unchanged, ESMA's own routes still HTTP 403), and ran the
-   map-vs-corpus audit with numbers. Priority 4 re-derived the counts from the files, re-ran the rubric
-   arithmetic clean, and advanced all five artifact headers to "Cycle 131 complete" — the **twelfth
+   map-vs-corpus audit with numbers — **237 of 437 sources inventoried; 170 in-map nulls, 0 out-of-map
+   survivors, 67 not-a-state (65 (iv-a), 2 (iv-b)); 45.8 % of the corpus untouched; the map remains a
+   lower bound** — and, in addition, a targeted gap-ledger audit that produced the **corrected
+   open-gap list** after two successive handoffs had disagreed about it. Priority 4 re-derived the
+   counts from the files, re-ran the rubric arithmetic clean, and advanced all five artifact headers to
+   "Cycle 131 complete" — the **twelfth
    recorded occurrence** of the header-update failure mode, this time repaired in the same cycle.
+   The cycle ran across **two sessions** — the pre-registration, the repair list, the draft and two of
+   the three batches in the first; the third batch, the audit and the housekeeping in the second — and
+   **nothing written by the first session was altered**.
    **No candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document
    fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation
    specification created, amended or withdrawn.**
