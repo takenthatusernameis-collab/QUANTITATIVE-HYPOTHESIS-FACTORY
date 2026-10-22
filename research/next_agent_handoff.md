@@ -1,11 +1,10 @@
 # Next agent handoff
 
-**Cycle 158 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
-
+**Cycle 159 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
 ## 1. State of the pipeline
 
 - **Active book unchanged:** IDEA-011 ACCTCLOCK **69.0** (rank 1) · IDEA-004 SLOWCAP-COND **63.0** (rank 2) · IDEA-014 RIN-DEADLINE **52.0** (rank 3) · IDEA-009 PERP-FUND **42.0** (rank 4). IDEA-010 parked (P-014) at a terminal 55.0. **No score, rank or hard-stop flag moved in Cycle 158.**
-- **Cycle 158 outcomes:** Priority 1 housekeeping and gap monitoring complete; counts re-derived and confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings, 12 active; 11 validation specs; 111 baseline rows; 34 map rows); named-construction total confirmed 50; gaps tracked unmoved (seven open / three not open), no dated triggers fired. Priority 2: monitored dated triggers and gaps — IDEA-014 (31 Mar 2027), IDEA-011 interims (30 Jun 2027), G-32(c)/G-33 (2027 Q3), G-14 (29 Mar 2029) all future-dated with no new published evidence requiring action; tracked without pre-emption. Priority 3: no trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged. Priority 4: rubric re-run clean, all artifacts advanced to "Cycle 158 complete", read back by content, README updated, handoff rewritten for Cycle 159, identifier-integrity check passed.
+- **Cycle 159 outcomes:** Priority 1 housekeeping and gap monitoring complete; counts re-derived and confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings, 12 active; 11 validation specs; 111 baseline rows; 34 map rows); named-construction total confirmed 50; gaps tracked unmoved (seven open / three not open), no dated triggers fired. Priority 2: monitored dated triggers and gaps — IDEA-014 (31 Mar 2027), IDEA-011 interims (30 Jun 2027), G-32(c)/G-33 (2027 Q3), G-14 (29 Mar 2029) all future-dated with no new published evidence requiring action; tracked without pre-emption. Priority 3: no trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged. Priority 4: rubric re-run clean, all artifacts advanced to "Cycle 159 complete", read back by content, README updated, handoff rewritten for Cycle 160, identifier-integrity check passed.
 
 ## 2. Open research tasks — Cycle 158
 
