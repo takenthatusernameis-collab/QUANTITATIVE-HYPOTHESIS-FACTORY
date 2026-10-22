@@ -28,7 +28,7 @@ defined by the canonical mission prompt, which is **not** to be modified:
    entries, and the corpus is **447 entries of which 446 are verifiable**, S-290 being struck),
     validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
      and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-      *state-free* specification),    rejections are `R-0NN` (next free: `R-075`), parkings are `P-0NN` (next
+      *state-free* specification),    rejections are `R-0NN` (next free: `R-076`), parkings are `P-0NN` (next
      free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
      `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
      (next: **Cycle 146**;

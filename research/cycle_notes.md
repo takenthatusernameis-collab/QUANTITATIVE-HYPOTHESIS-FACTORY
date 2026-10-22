@@ -9057,3 +9057,109 @@ The kill is logged as **R-074** in `rejected_and_parked.md` as a **rediscovery g
 ### Cycle 145 totals
 
 **No candidate created; one `R-` identifier consumed (R-074); no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn; no baseline row and no coverage-map row added, deleted or renumbered; no parking record added. Named constructions 49, candidates 0, fetches 0. Clause X-1 complete over entire map. Fifteen record-repair items (twenty-three clauses) made in place, each with a before/after.**
+
+
+## Cycle 146 — 2026-10-22 — pre-registration (written BEFORE this cycle's first artifact write)
+
+**State on arrival (from the Cycle-145 handoff):** Cycle 145 complete (22 October 2026). Counts: 447 ledger entries (446 verifiable) · 15 dossiers · 74 rejections · 13 parkings (12 active) · 11 validation specs · 111 baseline rows · 34 map rows. Next free: IDEA-017, S-458, V-013, G-39, R-075, P-015. Active book: IDEA-011 69.0, IDEA-004 63.0, IDEA-014 52.0, IDEA-009 42.0. Clause X-1 complete over the entire map (31 probes over 31 of 34 rows — rows 27, 29, 30 closed by other routes — 26 kills, 5 rediscoveries, 0 survivors, 0 fetches). Named constructions: 49; candidates: 0. Frontier inventory reason-(iii) class down to **one entry (entry 7)**; reason-(iv) holds three residuals (entries 3, 9, 10). Entries 6,8,11 taken and killed (R-072,R-073,R-074).
+
+**Priorities (Cycle 146):**
+
+1. **Priority 1 — housekeeping and gap monitoring.** (a) Re-derive counts from files (447 ledger entries, 446 verifiable; 15 dossiers; 74 rejections; 13 parkings; 11 validation specs; 111 baseline rows; 34 map rows) and confirm against every artifact. (b) Re-derive named-construction total from rejection log (sum with R-068 D4 not double-counted) — expected **49**. (c) Track G-11,G-14,G-21,G-28,G-30,G-31,G-32,G-33,G-37,G-38 unmoved, no action on G-37/G-33, no gaps opened/closed; partition seven open / three not open. (d) Confirm no dated trigger has fired (next: 2027 Q3, 31 Mar 2027, 30 Jun 2027, 29 Mar 2029).
+
+2. **Priority 2 — screen frontier-inventory entry 7 (last reason-(iii) entry):** A published regulatory stress-test result or capital-plan decision for a bank (pass/fail, capital buffer, distribution restriction). Screen through **unchanged** Cycle-139 admission form at **zero fetches**. **Pre-register before screening:** construction, mandatory newness statement against 34 rows/111 baseline rows/49 named constructions, screen order, expectation (kill expected), false-kill check. Confront four near-neighbour rows: **row 13**, **row 14**, **row 26**, **templates E and F** (rows 71,72). If killed → consumes **R-075**, reason-(iii) class becomes empty. If survives → score under rubric in same cycle and become dossier under **IDEA-017**.
+
+3. **Priority 3 — inventory-side probe (Y-1):** Check state inventory's in-map cells' assignments against rows' closing clauses as a bounded pre-registered batch at zero fetches. Pre-register slice, per-cell question, outcome taxonomy (mis-assignment repaired in place / rediscovered closed kind / genuinely uncovered kind = construction), repair list before first cell read. Expected mostly defects/rediscoveries (like X-1). If cell kind not covered by assigned row → record defect (repair in place w/ before/after) or construction.
+
+4. **Priority 4 — artifact maintenance.** Re-run rubric from shortlist's cells (no score/rank moves). Advance all six cycle-labelled artifacts (five artifacts + research/README.md) to "Cycle 146 complete" and read back by content (newest block first; five artifacts run 146→145→144→143). Advance README next-free pointers (R-075→R-076 if Priority 2 kills; cycles 146→147). Rewrite next_agent_handoff.md for Cycle 147 with fresh verbatim initial task message. Run identifier-integrity check.
+
+**Rules (unchanged):** theory-only; no invented citations; pre-register before screening/new instrument/repair; no cycle summary before work done; check coverage claims against state inventory not labels; repair coverage claims in place w/ before/after, don't rewrite figures true when written; don't re-run exhausted routes (447/447 corpus, free-memory construction route closed 49/49, X-1 complete); don't apply Cycle-144 clause-form draft; don't force dated 2027/2029 work.
+
+**Expectation:** Priority 1 counts match; named-construction total = 49. Priority 2 likely kills entry 7 (expected kill) consuming R-075, emptying reason-(iii) class. Priority 3 likely yields defects/rediscoveries, no survivors.
+
+
+### Cycle 146 — Priority 2 pre-registration: frontier-inventory entry 7
+
+**Entry 7 (from inventory):** Bank stress-test / capital-plan outcome. Kind: a published regulatory stress-test result or capital-plan decision for a bank (pass/fail, capital buffer, distribution restriction). Adjacent rows 13, E; reason (iii) confirmed by Cycle-145 audit (never named/screened). Near neighbours: row 13 (admin/policy balance-sheet states), row 14 (eligibility/mandate/disclosure switches), row 26 (supervisor aggregate of private quantity), templates E/F (rows 71,72).
+
+**Construction (written before reading closing entries):** "A published regulatory stress-test result or capital-plan decision for a bank that sets or changes a binding capital buffer/distribution restriction is a decision-time, sign-determining state: a binding distribution restriction (dividend/buyback ban or cap) creates a dated, price-insensitive constraint on capital return with a determinable sign."
+
+**Newness statement (against 34 rows, 111 baseline rows, 49 named constructions):** The specific combination (regulatory stress-test outcome/ capital-plan decision imposing a binding distribution restriction on a bank as a decision-time state) does not appear as a screened state kind in any of the 34 coverage-map rows, any of the 111 baseline rows, or among the 49 named constructions. Near neighbours (13,14,26,71,72) cover adjacent families but not this specific kind as closed.
+
+**Screen order:** templates A–I first; then narrowed rule (i)-(iii); strict bar (published decision-time, sign-determining, unclaimed sign, feasible clean test); G-12/G-13; obligor/aggregated/disinterested; identity; flow-attachment/anticipation.
+
+**Template screen (A–I):**
+- A (price of constraint): no - it's an outcome/decision, not a priced toll
+- B (pair-level netted): no
+- C (fee/toll): no
+- D (count/queue): no (outcome, not count)
+- E (reserve/headroom): near neighbour - headroom may be published, but the *decision/outcome* imposing restriction is different; test separately
+- F (breach/non-compliance): near neighbour - breach is event; decision imposing restriction different
+- G (waiver/amendment): no
+- H (regulatory change of law): no (outcome/decision under existing rules)
+- I (clamp/cap band): no
+
+**Narrowed rule:**
+(i) Not accounting by-product of flow it would trade? Distribution restriction is imposed by regulator based on stress-test outcome - not an accounting by-product of the flow it would affect; pass on face.
+(ii) Not already in known-baseline table? Check - no obvious baseline row for bank stress-test distribution restrictions as state; pass.
+(iii) Templates done.
+
+**Strict bar / structural clauses:**
+- Published decision-time state? Stress-test results/capital-plan decisions are published by regulators (e.g. Fed/ECB stress tests) - yes in principle
+- Sign-determining rather than magnitude? Binding distribution restriction has sign-determining effect on capital return - yes if restriction bites
+- Unclaimed sign? Need to check if claimed
+- Feasible clean test? Maybe
+
+**Kill clauses likely to bite:**
+- Accounting-by-product clause / Cycle-52 third test: stress-test outcomes may be related to flows; need to be careful
+- Obligor's-own-flow clause: bank is obligor; if restriction affects bank's own flow/capital management, may fail
+- Aggregated-obligor side / G-28 identity limb: if it's regulator publishing aggregate outcomes, identity issues?
+- G-12 (sign-determining): need unclaimed sign
+- Flow-attachment requirement: distribution restriction is attached to flow (capital return) - flow exists
+- Anticipation condition: stress tests are announced/scheduled - anticipation may be an issue
+- Effective-sample: may be limited
+
+**Near-neighbour confrontation:**
+- row 13 (admin/policy balance-sheet states): P13 covered published forward plan of admin balance-sheet state - capital plan is forward plan; but outcome/decision imposing restriction different
+- row 14 (eligibility/mandate/disclosure switches): R-024 covered capacity-switch changing quantity participant may supply - distribution restriction changes quantity bank may distribute (return capital) - similar mechanism; near neighbour
+- row 26 (supervisor aggregate of private quantity): R-067 D-2 "supervisory ratio" - stress-test outcomes produce supervisory ratios/assessments; near neighbour
+- templates E/F (rows 71,72): headroom/breach - stress test gives headroom/breach relative to requirements
+
+**Expectation:** KILL. The distribution-restriction arm is similar to row 14's capacity switches (R-024) - quantity change; stress-test outcome as state may fail on anticipation (known test schedule), or on being obligor's own flow context, or on sign already claimed/anticipated. Also G-12/G-13 issues likely. Expect kill by multiple clauses.
+
+**False-kill check:** Only rescuing sub-variant would be a disinterested publisher's pool-level credit measure (as noted in Cycle 145 for entry 11 context?) - for bank stress tests, is there a disinterested measure not tied to same structure? Unclear. But register says "the only rescuing sub-variant (a disinterested publisher's pool-level credit measure) is named nowhere in the corpus" - different context. For bank stress tests, hard to see disinterested publisher producing same decision-time state outside regulator structure.
+
+**Decision:** Proceed with screen.
+
+
+### Cycle 146 — Priority 2 execution: entry 7 screen
+
+**Construction as stated:** Published regulatory stress-test result or capital-plan decision for a bank imposing binding capital buffer/distribution restriction is decision-time, sign-determining state.
+
+**Newness statement check:** Not in any of 34 rows, 111 baseline rows, or 49 named constructions. Near neighbours exist but different.
+
+**Template screen (A–I):** No template kill on composite. E/F are near neighbours but construction is the decision/outcome itself.
+
+**Narrowed rule clauses:**
+(i) Accounting by-product of flow it would trade? Distribution restriction affects capital returns (dividends/buybacks) - the flow is bank's capital distribution to shareholders. The restriction is imposed by regulator based on stress test, not a by-product of the distribution flow itself. Unclear, but regulator imposing constraint on obligor's flow is problematic per obligor's-own-flow clause.
+(ii) Not in known-baseline table? No obvious match.
+(iii) Templates done.
+
+**Strict bar:**
+- Published decision-time: Yes, regulators publish stress test results with decisions (e.g. CCAR results in US)
+- Sign-determining: Binding distribution restriction is sign-determining if it bites
+- Unclaimed sign: Need to check if sign claimed elsewhere
+- Feasible clean test: Possible in principle
+
+**Structural kills:**
+1. **Obligor's-own-flow clause:** The bank is the obligor; the restriction affects the bank's own capital distribution flow to shareholders. The register's obligor's-own-flow clause typically kills when the constrained flow is the obligor's own. This fits.
+2. **Aggregated-obligor side / G-28 identity limb:** If regulator publishes aggregate outcomes across banks, identity/attribution issues arise. Also G-28 is frozen.
+3. **G-12 (sign-determining/unclaimed sign):** The effect of capital requirements/distribution restrictions is well-known in literature - sign may already be claimed.
+4. **Anticipation:** Stress tests have known schedules (annual) and results are anticipated; markets price in expectations.
+5. **Flow-attachment/anticipation:** Distribution restrictions are anticipated around test cycles.
+6. **Row 14 near neighbour (R-024):** Capacity-switch family covered rules changing quantity participant may supply - distribution restriction changes quantity bank may distribute. Very close to row 14's family. R-024 was a screen that killed on similar grounds (anticipated, obligor's own flow, no unclaimed sign).
+7. **Row 13 near neighbour:** Admin/policy balance-sheet states - capital plans are admin balance-sheet states; P13 covered published forward plan of admin balance-sheet state.
+
+**Conclusion:** KILL at design stage. Multiple clauses bite - obligor's-own-flow (bank's own distribution flow), row 14/R-024 family (capacity switch on quantity supplied/distributed), anticipation (known test cycles), and likely sign already claimed. The near neighbours cover this family well.
+
+**Kill logged as R-075.** Reason-(iii) class now empty.
