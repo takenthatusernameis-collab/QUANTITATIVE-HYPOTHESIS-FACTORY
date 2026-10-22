@@ -37,6 +37,11 @@ it off. That is the correct output, not a failure.
 ID sequences in use: `IDEA-001…012`, `S-001…094`, `V-001…009`, `R-001…007`, `P-001…007`,
 `G-01…11`, `Cycle 1–4`. Continue each series rather than restarting it.
 
+**The ID ranges above are historical and must not be used to allocate a new identifier.** The
+authoritative next-free identifiers are the ones stated in `research/next_agent_handoff.md` and
+`research/README.md` (as of Cycle 131: `IDEA-017`, `S-458`, `V-013`, `R-069`, `P-015`, `G-39`).
+Re-derive them from the artifacts before using one.
+
 ## Working rules
 
 1. Read the handoff and the register before generating anything; preserve prior work.

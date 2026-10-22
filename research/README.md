@@ -30,7 +30,38 @@ defined by the canonical mission prompt, which is **not** to be modified:
    *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 129**;
+   (next: **Cycle 132**;
+   **Cycle 131 completed four pre-registered priorities — a record-integrity repair, the continued
+   backward extraction, the literature-first amendment drafted, and housekeeping. The repair list was
+   pre-registered before the cycle's first artifact write and is itemised in `cycle_notes.md`: the
+   coverage map's rows 32 and 33 were written twice and the duplicate pair was removed; those rows'
+   attribution to "R-068, batch 2" was corrected to the cycle that produced them (Cycle 129); the two
+   baseline rows that Cycle 129's batch-2 summary claimed ("baseline row 107 (approx)" and "row 108")
+   but **never wrote** — and which collided with Cycle 128's own rows 107 and 108 — were written as
+   **rows 110 and 111**, and the map's baseline-row citations for rows 32 and 33 were corrected from
+   "—" to those two numbers; Cycle 130's batch, which existed only as a one-line summary, was
+   **re-derived per source** and written out beside Cycles 129's batch tables, with the re-derivation's
+   disagreements with the summary recorded rather than adopted silently; the Cycle-130 handoff's
+   "111 baseline rows" was corrected to the **109** the table actually holds; and the Cycle-129 claim
+   that the literature-first amendment had been "drafted in cycle_notes.md" — a draft that **exists in
+   no artifact** — was recorded as a false claim and the draft **written** this cycle. Priority 1
+   continued the backward extraction over **three pre-registered batches of fifty** ledger entries
+   (S-076 … S-225), reading each entry for the single conditioning state of the published price effect
+   it claims, and returning **in-map nulls and not-a-state entries in the main, with no out-of-map
+   survivor and no candidate** — the corpus remains internally consistent with its own rediscovery
+   guard. Priority 2 **wrote** the literature-first route amendment as a **draft only** (`cycle_notes.md`),
+   in clause form, with the positive list, the clauses it does not change, the licence cost, the bound
+   and the standing limit that the map remains a lower bound; **it is not executed and not adopted**.
+   Priority 3 took **no action** on G-37 (its null stands, recorded once, the bounded search not re-run)
+   or on G-33 (its three named dated routes unchanged, ESMA's own routes still HTTP 403), and ran the
+   map-vs-corpus audit with numbers. Priority 4 re-derived the counts from the files, re-ran the rubric
+   arithmetic clean, and advanced all five artifact headers to "Cycle 131 complete" — the **twelfth
+   recorded occurrence** of the header-update failure mode, this time repaired in the same cycle.
+   **No candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document
+   fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation
+   specification created, amended or withdrawn.**
+   **Cycles 129 and 130 left no paragraph here — a drift repaired in Cycle 131; their records are in
+   `cycle_notes.md` and `rejected_and_parked.md`**;
    **Cycle 128 completed four pre-registered priorities — the register's first screen whose unit of work is
    the *state* that each already-held source conditions on, read **backwards** from the register's own
    source ledger (the **inverted route**): the forty-four pre-registered sampled sources (S-001 … S-201,
