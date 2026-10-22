@@ -9572,8 +9572,8 @@ Theory-only cycle executing the four priorities from the Cycle-191 handoff. No t
 
 ---
 
-## Cycle 199 — 22 October 2026
-Theory-only cycle executing the four priorities from the Cycle-198 handoff. No tests, data acquisition, strategy or signal implementation, workflow changes, modification of the canonical prompt, or trading.
+## Cycle 199 — 22 October 2026 (reconstructed in Cycle 200 — the original block carried stale Cycle-196/197 content and is corrected here)
+Theory-only cycle executing the four priorities from the Cycle-198 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
 
 ### Three-pass task-framing loop
 **Pass 1 — Draft.** (1) Housekeeping and gap monitoring: re-derive all counts mechanically from the files. (2) Monitor dated triggers and gaps; no action expected. (3) Act only if a trigger fired; none expected. (4) Artifact maintenance per rules.
@@ -9581,7 +9581,25 @@ Theory-only cycle executing the four priorities from the Cycle-198 handoff. No t
 **Pass 3 — Revise.** Execute as specified.
 
 ### Outcomes
-1. **Counts re-derived from the files** — unchanged: 437 ledger entries (437 verifiable); 15 dossiers (IDEA-001 … IDEA-015); 33 rejections (next free R-076); 0 parking records (0 active); 11 validation specifications (V-001 … V-010, V-012); 0 known-baseline rows; 0 coverage-map rows; named-construction total 272; corpus classification 272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447. All counts match the handoff; no count moved.
+1. **Counts re-derived from the files** — unchanged from the true current state: **447 ledger entries (446 verifiable; S-290 struck) · 15 dossiers (IDEA-001 … IDEA-015) · 75 rejections (R-001 … R-075) · 13 parking records (12 active; P-004 closed by R-038) · 11 validation specifications (V-001 … V-010, V-012) · 111 known-baseline rows · 34 coverage-map rows (A–I, 10–34)**. **The named-construction total was re-derived from the rejection log and is fifty** (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4, R-068 3, R-069 9, R-070 21, R-071 1, R-072 1, R-073 1, R-074 1, R-075 1); the corpus classification was re-derived **272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447**. No count moved.
 2. **Dated triggers monitored** (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029): all future-dated vs 22 October 2026; no new published evidence requiring action; tracked without pre-emption. No gap opened and no gap closed; no `G-` identifier consumed.
 3. **No trigger fired; no bounded gap work undertaken**; frontier inventory bound unchanged; no candidate created; no score, rank or hard-stop flag moved.
-4. **Identifier-integrity check passed** — next free IDEA-017, S-458, V-013, G-39, R-076, P-015; reserved and unused IDEA-016, S-210 … S-219, V-011, P-013; skipped and never used G-17, G-26. No identifiers consumed; no document fetched. No record repair required.
+4. **Identifier-integrity check passed** — next free IDEA-017, S-458, V-013, G-39, R-076, P-015; reserved and unused IDEA-016, S-210 … S-219, V-011, P-013; skipped and never used G-17, G-26. No identifiers consumed; no document fetched.
+
+**Record-integrity note (Cycle 200).** The Cycle-199 block as originally written carried **stale Cycle-196/197 content** — "437 ledger entries (437 verifiable) … 33 rejections … 0 parking records (0 active) … 0 known-baseline rows … 0 coverage-map rows … named-construction total 272" — figures that do not match the artifacts at any point in Cycle 199. It is replaced here with the figures derived from the files, and the same defect was found in seven artifact blocks (labelled "Cycle 199"/"Cycle 197"), which are repaired in place in their own files. **This is the fourteenth recorded occurrence of the register's header-update / count-failure mode.** No score, rank, hard-stop flag, gap status, rejection verdict or candidate status was touched by the repair.
+
+---
+
+## Cycle 200 — 22 October 2026
+Theory-only cycle executing the four pre-registered priorities from the Cycle-199 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+**Pass 1 — Draft.** (1) Housekeeping and gap monitoring: re-derive all counts mechanically from the files. (2) Monitor dated triggers and gaps; no action expected. (3) Act only if a trigger fired; none expected. (4) Artifact maintenance per rules.
+**Pass 2 — Critique.** Counts must be re-derived from the files, not copied from the handoff. The Cycle-199 handoff's own state paragraph carried figures that do not match the files (see Priority 1) — a label/content defect this cycle detects and repairs in place, not one to carry forward. Triggers are all future-dated; do not pre-empt them.
+**Pass 3 — Revise.** Execute as specified, repairing the label/content defect with a before/after where the read-back finds one.
+
+### Outcomes
+1. **Priority 1 — housekeeping and gap monitoring.** Counts re-derived mechanically from the files — **447 ledger entries (446 verifiable; S-290 struck) · 15 dossiers (IDEA-001 … IDEA-015) · 75 rejections (R-001 … R-075) · 13 parking records (12 active; P-004 closed by R-038) · 11 validation specifications (V-001 … V-010, V-012) · 111 known-baseline rows · 34 coverage-map rows (A–I, 10–34)** — all match the figures carried in the Cycle-199 handoff. **The named-construction total was re-derived from the rejection log and is fifty** (R-063 1, R-064 3, R-065 1, R-066 3, R-067 4, R-068 3, R-069 9, R-070 21, R-071 1, R-072 1, R-073 1, R-074 1, R-075 1); the corpus classification was re-derived **272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447** — unchanged. The ten gap identifiers tracked unmoved, **no action on G-37/G-33**, **no gap opened/closed**; partition **seven open / three not open**; **no dated trigger fired**. **One record-integrity defect was found and repaired in place, with a before/after, and it touched no score, no rank, no hard-stop flag, no gap's status, no rejection's verdict and no candidate's status: the seven artifact blocks labelled "Cycle 199"/"Cycle 197" carried stale Cycle-196/197 content (437 ledger entries · 33 rejections · 0 parking records · 0 active · 0 known-baseline rows · 0 coverage-map rows · 272 named constructions) and are relabelled to their true cycle with the correct current figures; `rejected_and_parked.md`'s H1 title was advanced from "CYCLES 1–193" to "CYCLES 1–200".**
+2. **Priority 2 — monitor dated triggers and gaps.** IDEA-014 (31 Mar 2027), IDEA-011 interims (30 Jun 2027), G-32(c)/G-33 (2027 Q3), G-14 (29 Mar 2029): all future-dated vs 22 October 2026, no new published evidence requiring action; tracked without pre-emption.
+3. **Priority 3 — bounded gap work if triggered.** No trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged.
+4. **Priority 4 — artifact maintenance.** Rubric re-run clean — **IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0** — no cell/score/rank/flag moved. All artifacts advanced to "Cycle 200 complete" and read back by content; README updated; handoff rewritten for Cycle 201; identifier-integrity check passed (next free IDEA-017, S-458, V-013, G-39, R-076, P-015). **No record repair beyond the Priority-1 relabelling.**
