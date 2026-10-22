@@ -9163,3 +9163,15 @@ The kill is logged as **R-074** in `rejected_and_parked.md` as a **rediscovery g
 **Conclusion:** KILL at design stage. Multiple clauses bite - obligor's-own-flow (bank's own distribution flow), row 14/R-024 family (capacity switch on quantity supplied/distributed), anticipation (known test cycles), and likely sign already claimed. The near neighbours cover this family well.
 
 **Kill logged as R-075.** Reason-(iii) class now empty.
+
+## Cycle 147 — 22 October 2026 — cycle record
+
+Priority 1 housekeeping: counts re-derived and confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings, 12 active; 11 validation specs; 111 baseline rows; 34 map rows). Named-construction total re-derived: 50. Gaps tracked unmoved; no action on G-37/G-33; no gaps opened or closed; partition seven open / three not open; no dated trigger fired.
+
+Priority 2: reason-(iii) class empty; three reason-(iv) residuals (entries 3, 9, 10) remain. No screen warranted this cycle under standing rules; documented as residual, not exhausted.
+
+Priority 3: Y-1 probe complete over available cells; no extension needed.
+
+Priority 4: rubric re-run clean; no score/rank/flag moved. Handoff advanced to Cycle 148.
+
+No candidate, no new score, no new rank, no new hard-stop flag; no rejection, parking, baseline row or map row added; no document fetched; no identifier consumed.
