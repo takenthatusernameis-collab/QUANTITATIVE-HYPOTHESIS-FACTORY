@@ -23,14 +23,54 @@ defined by the canonical mission prompt, which is **not** to be modified:
 1. **Read `next_agent_handoff.md` first**, then the register and shortlist, before generating anything new.
 2. **Preserve prior work.** Add to the register; do not silently delete, relabel, or renumber existing IDs.
 3. **ID discipline.** Ideas are `IDEA-0NN` (next free: `IDEA-017`; `IDEA-016` is **reserved and
-   unused**),    sources are `S-0NN` (next free: `S-458`; `S-210 … S-219` and `S-281 … S-290` are
-   **reserved and unused**),
+   unused**),    sources are `S-0NN` (next free: `S-458`; **only** `S-210 … S-219` is
+   **reserved and unused** — `S-281 … S-290` are **live entries**, the ten Cycle-58 document-record
+   entries, and the corpus is **447 entries of which 446 are verifiable**, S-290 being struck),
    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
    *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 132**;
+   (next: **Cycle 135**;
+   **Cycle 134 completed three pre-registered priorities — a record-integrity repair and the completion
+   of the backward state inventory.** The cycle's central finding is a **record-integrity** one and it is
+   the third in this repository's sequence: **the Cycle-133 handoff asserted that the backward state
+   inventory was complete ("all 437 sources have been inventoried") and it was not** — a **mechanical
+   verification** (the ledger's entry blocks enumerated, the identifiers appearing in the inventory tables
+   enumerated, and the two differenced) returned **seventeen ledger entries that had never been read**
+   (S-439, S-440, S-442 … S-457), because the ledger grew by nineteen entries after Cycle 133's batches
+   were pre-registered while the extraction stopped at S-438; and the corpus figure itself was wrong in
+   **both** directions: the ledger holds **447 entry blocks** — 437 `### S-NNN` headings **plus the ten
+   Cycle-58 document-record entries S-281 … S-290**, which carry no heading of their own — of which **446
+   are verifiable** (S-290 is unverifiable and struck), so the long-propagated "437 verified sources
+   (S-001 … S-457; S-210–S-219 **and S-281–S-290 reserved and unused**)" understated the corpus by ten and
+   overstated the coverage by seventeen; the second "reserved" range was **false**, and the Cycle-35
+   reservation list reserves only **IDEA-016, S-210 … S-219, V-011, G-26 and P-013**. Eight repairs were
+   pre-registered before the cycle's first artifact write and executed with a before/after, **none of
+   which touched a score, a rank, a hard-stop flag, a gap's status, a rejection's verdict or a candidate's
+   status**: the corpus count; the **ten batch rows that described the ten live entries as reserved and
+   empty** (re-read and re-classified in place); **four batch outcome tallies that did not match their own
+   tables** (corrected to match the per-source cells, which are the primary record); the **Cycle-129
+   S-028** cell, which had stood as an unrecorded out-of-map entry with no kill and no map row behind it
+   (now (iv-b) not-a-state), and the **S-021** cell (now (iv-b), the stricter reading, with the
+   disagreement recorded rather than adopted silently); a retrospective **Cycle-133 boundary record**,
+   because Cycle 133 wrote three batch tables and left no cycle-log record; the Cycle-133 handoff's
+   garbled inventory paragraph; and this file's own identifiers. The final batch (S-439 … S-457) was then
+   written under the unchanged R-068 extraction rule, the stricter (iv-a) test and **zero fetches** —
+   nineteen slots, seventeen new reads and two double-reads — returning **7 in-map and 12 not-a-state
+   (iv-a), no out-of-map survivor and no candidate**. **The backward state inventory is now COMPLETE:
+   447 of 447 entries (100 %), distributed 272 in-map · 172 not-a-state (168 (iv-a), 4 (iv-b)) · 3
+   out-of-map entries, all three killed and mapped (coverage-map rows 29, 32, 33).** The open gaps were
+   tracked with **no action on G-37 and no action on G-33**. Housekeeping re-derived the counts, re-ran
+   the rubric arithmetic clean — **no score or rank moved: IDEA-011 69.0 (rank 1), IDEA-004 63.0
+   (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at a terminal
+   55.0** — advanced all five artifact headers to "Cycle 134 complete" and read them back, and ran the
+   standing identifier-integrity check. **No candidate created; no `IDEA-` identifier consumed; no `S-`
+   identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag
+   changed; no validation specification created, amended or withdrawn.** **Cycle 133** wrote the three
+   inventory batches (S-410 … S-438) into `rejected_and_parked.md` but **left no cycle-log record**, and
+   that omission was repaired retrospectively in Cycle 134; **Cycle 132** executed four pre-registered
+   priorities and changed no score, no rank and no flag. Earlier history —
    **Cycle 131 completed four pre-registered priorities — a record-integrity repair, the continued
    backward extraction, the literature-first amendment drafted, and housekeeping. The repair list was
    pre-registered before the cycle's first artifact write and is itemised in `cycle_notes.md`: the

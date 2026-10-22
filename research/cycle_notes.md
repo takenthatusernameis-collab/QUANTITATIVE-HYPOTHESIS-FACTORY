@@ -6409,3 +6409,111 @@ Audited G-01 through G-38 against current artifacts:
 
 #### Priority 4 — housekeeping
 Counts re-derived from files: 15 dossiers, 437 sources, 68 rejections (R-001..R-068), 13 parking (12 active), 11 validation specs, 111 baseline rows, 33 coverage map rows. Next free: IDEA-017, S-458, V-013, R-069, P-015, G-39. Rubric arithmetic clean (IDEA-011 69.0 rank1, IDEA-004 63.0 rank2, IDEA-014 52.0 rank3, IDEA-009 42.0 rank4). Advanced all five artifact headers to "Cycle 132 complete" and read back. Updated README identifiers/cycle note. Identifier integrity check passed.
+
+---
+
+## Cycle 133 — retrospective cycle-boundary record (written in Cycle 134)
+
+**Why this record exists.** Cycle 133 wrote three batch tables into `rejected_and_parked.md` (batches 2, 3 and 4 of the backward state inventory, covering S-271 … S-438) and advanced nothing else: **it left no cycle-boundary record in this log, no pre-registration and no outcomes block.** That is the same failure mode the register has recorded before (Cycle 97, Cycle 106, Cycle 122) — a cycle whose work is visible only as annotations in another artifact. The record is written now, from the Cycle-133 tables themselves, in the same form as the Cycle-97 and Cycle-122 retrospective records. **Nothing written by Cycle 133 is altered by this record.**
+
+**What Cycle 133 did.** It continued the backward extraction of conditioning states from the register's own source ledger, in three pre-registered batches, each read from `source_ledger.md` for the **single conditioning state** of the published price effect the entry claims, with its sign claim, its already-claimed status and its in/out-of-map status. **Zero fetches; zero new sources; zero new citations.** The batches and their **as-written** outcome tallies:
+
+| Batch | Range | Rows | Outcome as written in Cycle 133 |
+| --- | --- | --- | --- |
+| Cycle 133 batch 2 | S-271 … S-320 | 50 | 27 in-map, 0 out-of-map, 0 survivors, 23 not-a-state (iv-a) |
+| Cycle 133 batch 3 | S-321 … S-380 | 60 | 37 in-map, 0 out-of-map, 0 survivors, 23 not-a-state (iv-a) |
+| Cycle 133 batch 4 | S-381 … S-438 | 58 | 15 in-map, 0 out-of-map, 0 survivors, 43 not-a-state (iv-a) |
+
+**No candidate, no `IDEA-` identifier, no `S-` identifier, no fetch, no score change, no gap opened or closed, no specification created, amended or withdrawn.** The register's substantive finding of Cycle 133 is the same one every batch of this route has produced: **in-map nulls and not-a-state entries in the main, with no out-of-map survivor and no candidate.**
+
+**Three defects are found in Cycle 133's own work and are repaired in Cycle 134** (see the Cycle-134 Priority-0 list): the ten rows S-281 … S-290 assert that those identifiers are "reserved/unused per ledger" with "no entry content", which is **false** — they are ten real Cycle-58 entries written without a `### S-NNN` heading; the three outcome tallies **do not match their own tables** (the tables' own classification columns give 25/25, 39/21 and 18/40, not 27/23, 37/23 and 15/43); and Cycle 133 **asserted an inventory completion it had not achieved** — the ledger's last nineteen entries (S-439 … S-457) were never read, because the ledger had grown by nineteen entries since Cycle 133's batches were pre-registered and the batches stopped at S-438.
+
+---
+
+## Cycle 134 — 2026-10-22 — pre-registration (written BEFORE this cycle's first artifact write)
+
+Theory-only cycle executing the priorities of the Cycle-133 handoff. No tests, no data acquisition or processing, no strategy or signal implementation, no backtest, no parameter sweep, no performance or risk metric, no executable research infrastructure, no job or workflow launch, no change to the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** (1) **Verify the inventory**, as the handoff's Priority 1 instructs, against the corpus the ledger actually holds, and finish it if it is not complete. (2) **Track the open gaps** (G-11, G-14, G-21, G-28, G-32, G-33, G-37); no action on G-37 or G-33. (3) **Housekeeping**: counts re-derived, rubric re-run, all five artifact headers and their newest dated blocks advanced to "Cycle 134 complete" and read back, `research/README.md` repaired, the handoff rewritten for Cycle 135, the standing identifier-integrity check run.
+
+**Pass 2 — Critique.** The handoff's Priority 1 asserts that "all 437 sources have been inventoried" and that "no further backward extraction" is needed. That assertion is **a premise to be tested, not a fact to be assumed** — the register's own standing condition (Cycle 35's state-integrity rule) requires every count to be re-derived from the files. The verification must therefore be a **mechanical** one: enumerate the ledger's entry blocks, enumerate the identifiers that appear in the inventory tables, and difference them. If the difference is non-empty, the inventory is not complete and the cycle must say so and finish it, recording the deviation from the handoff's expectation **with its reason**, exactly as Cycles 128 and 131 did. The critique also requires the register's own rediscovery-guard standard: an inventory that rests on a **false** factual claim (that ten live entries are empty) is worse than an incomplete inventory, so the claim must be repaired before the inventory is certified. And the tally of every table must be **re-derived from the tables' own classification cells**, because the per-source cell is the primary record and the summary line is derived from it.
+
+**Pass 3 — Revise.** Execute as specified below, with the repair list pre-registered before the first repair and with a before/after for each.
+
+### Priority 0 — the record-integrity repair. REGISTERED BEFORE THE CYCLE'S FIRST ARTIFACT WRITE.
+
+Eight repairs, pre-registered as a list before any repair is executed, each with its before and after. **None of them touches a score, a rank, a hard-stop flag, a gap's status, a rejection's verdict, a candidate's status or a validation specification.**
+
+1. **The source count.** The ledger holds **447 entry blocks** — 437 `### S-NNN` headings **plus** the ten Cycle-58 document-record entries **S-281 … S-290**, which carry no `###` heading of their own — of which **S-290 is unverifiable and struck** (Cycle-58 state-integrity repair 4), leaving **446 verifiable entries**. Every artifact header since Cycle 114 has said "**437** verified sources (S-001 … S-457; S-210–S-219 **and S-281–S-290 reserved and unused**)". The second reserved range is **false**: the ten identifiers are the Cycle-58 entries (Repsol, Euronext Securities Athens, Airbus, Haleon, Standard Life, Saudi Tadawul — six IFRS 18 pre-adoption disclosure documents — and Lu et al., Camilleri & Green, Challet & Gourianov, Hendershott — four R-036 cross-session literature entries). The Cycle-35 reservation list in `rejected_and_parked.md` reserves only **IDEA-016, S-210 … S-219, V-011, G-26 and P-013**. **After:** the count reads **447 ledger entries (446 verifiable; S-290 struck)**; the reserved-and-unused range is **S-210 … S-219 only**; and the false reservation is withdrawn everywhere it is repeated.
+2. **The ten mis-described rows.** The Cycle-133 batch-2 rows for **S-281 … S-290** assert "(reserved/unused per ledger; no entry content)" and classify all ten as "not-a-state". **After:** each row carries the real conditioning state, sign claim, already-claimed status and in/out-of-map status read from its own ledger entry.
+3. **The Cycle-133 batch-2 outcome tally.** Corrected to the tally of the table's own classification column.
+4. **The Cycle-132 batch-1 and Cycle-133 batch-3 and batch-4 outcome tallies.** Same correction, same rule: the per-source cell is the primary record and the summary line is corrected to match it.
+5. **The Cycle-129 batch-2 outcome tally and its S-028 cell.** The table labels S-028 "out-of-map" while the outcome line counts it as in-map and names only two out-of-map entries; and no out-of-map kind for S-028 was ever killed or mapped. **After:** S-028 (Lou, Polk & Skouras 2019, overnight-versus-intraday expected-return decomposition) is classified **(iv-b) not-a-state** — it conditions a price effect on a *return decomposition*, which is not a published state of the world — and the outcome line is corrected to 33 in-map, 2 out-of-map (both killed into map rows 32 and 33), 4 not-a-state (3 (iv-a), 1 (iv-b)).
+6. **The Cycle-133 boundary record.** Written above, in the same form as the Cycle-97 and Cycle-122 retrospective records.
+7. **The handoff's inventory paragraph.** The Cycle-133 handoff's "Backward state inventory" paragraph is **garbled** — it reads "**495 of 437 sources inventoried? Wait —**" and then contradicts itself three times. **After:** it is replaced by a clean, re-derived statement.
+8. **`research/README.md`.** Its identifier paragraph repeats the false reserved range, and its next-cycle pointer still reads "Cycle 132". **After:** both are repaired and a Cycle-132/133/134 paragraph is added.
+
+### Priority 1 — finish the backward inventory, if the verification shows it unfinished. REGISTERED BEFORE THE FIRST SOURCE IS READ.
+
+The verification is run first and its result recorded; **if and only if** it shows the inventory incomplete, the remaining entries are read from the ledger under the **unchanged** R-068 extraction rule (one conditioning state per source, as the source states it; sign claim; already-claimed status; in/out-of-map status), with the **stricter (iv-a) test** and **zero fetches**. The remaining entries at the time of the pre-registration are believed to be **S-439 … S-457** minus the two identifiers the Cycle-128 sample already read (S-441, S-451), which are re-read as **double-reads** and compared with R-068's own rows, as every other batch did. **Expected outcome: in-map nulls and not-a-state entries in the main, with no out-of-map survivor and no candidate.**
+
+### Priority 2 — the open gaps. REGISTERED BEFORE THE CYCLE'S WORK.
+
+G-11, G-14, G-21, G-28, G-32, G-33 and G-37 are **tracked**, each checked against the artifact that records it. **No action on G-37 (its null stands, recorded once, the bounded search not re-run) and no action on G-33 (its three named dated routes unchanged).** No gap is opened or closed.
+
+### Priority 3 — housekeeping. REGISTERED BEFORE THE CYCLE'S WORK.
+
+Counts re-derived from the files; the rubric arithmetic re-run from the shortlist's own cells; all five artifact headers **and their newest dated blocks** advanced to "Cycle 134 complete" and read back; `research/README.md` repaired; the Cycle-134 outcomes written to this log; the handoff rewritten for Cycle 135 with a self-contained initial task message; the standing identifier-integrity check run.
+## Cycle 134 — 2026-10-22 — outcomes
+
+Theory-only cycle executing the three pre-registered priorities of the Cycle-133 handoff, plus the eight pre-registered Priority-0 repairs. No tests, no data acquisition or processing, no strategy or signal implementation, no backtest, no parameter sweep, no performance or risk metric, no workflow change, no modification of the canonical prompt, no trading, and **zero document fetches** — the instrument was the register's own `source_ledger.md` and its own artifact tables.
+
+### Outcomes
+
+#### Priority 0 — the record-integrity repair. Eight repairs, each executed with a before/after, as pre-registered.
+
+| # | Repair | Before | After |
+| --- | --- | --- | --- |
+| 1 | The source count | "**437** verified sources (S-001 … S-457; S-210–S-219 **and S-281–S-290 reserved and unused**)" | **447 ledger entries** — 437 `### S-NNN` headings **plus the ten Cycle-58 document-record entries S-281 … S-290** — of which **446 are verifiable** (S-290 struck); **only S-210 … S-219 is reserved** (with IDEA-016, V-011, G-26, P-013) |
+| 2 | The ten mis-described rows | Cycle-133 batch-2 rows S-281 … S-290 all read "(reserved/unused per ledger; no entry content)" → "not-a-state" | each row now carries the real entry content and the real cell: **S-281 … S-286 (the six IFRS 18 issuer pre-adoption disclosures) not-a-state (iv-a)**; **S-287, S-288, S-289, S-290 in-map (row 12; R-036)**, with **S-290 marked unverifiable and struck** |
+| 3 | The Cycle-133 batch-2 outcome tally | "27 in-map, 0 out-of-map, 0 survivors, 23 not-a-state (iv-a)" | **29 in-map, 0 out-of-map, 0 survivors, 21 not-a-state** |
+| 4 | Three further batch tallies | C-132 b1, C-133 b3, C-133 b4 tallies did not match their own tables | **C-132 b1 → 26 in-map / 19 not-a-state; C-133 b3 → 39 / 21; C-133 b4 → 18 / 40** |
+| 5 | The Cycle-129 batch-2 tally and the S-028 cell | the table read S-028 "out-of-map" while the outcome line counted it in-map and named only two out-of-map entries | **S-028 → not-a-state (iv-b)**; tally → **33 in-map, 2 out-of-map, 4 not-a-state (3 (iv-a), 1 (iv-b))** |
+| 6 | The Cycle-133 boundary record | absent — Cycle 133 wrote three batch tables and left no cycle-log record | **written above**, in the form of the Cycle-97 and Cycle-122 retrospective records |
+| 7 | The handoff's inventory paragraph | garbled: "**495 of 437 sources inventoried? Wait —**", then self-contradicting three times | **replaced** with the derived figures and an explicit statement of what the completed inventory does and does not establish |
+| 8 | `research/README.md` | repeated the false reserved range; next-cycle pointer read "Cycle 132" | **both repaired**; a Cycle-132/133/134 history paragraph added |
+
+**Nothing in this priority touched a score, a rank, a hard-stop flag, a gap's status, a rejection's verdict or a candidate's status.** The S-021 cell was separately corrected to **(iv-b)** under the Cycle-131 stricter-reading rule (the Cycle-133 batch table had read it in-map), and the disagreement is **recorded, not adopted silently**.
+
+#### Priority 1 — the backward state inventory, finished. The verification ran first, and its result was recorded before the first source was read.
+
+**The verification** enumerated the ledger's entry blocks, enumerated the identifiers appearing in the inventory tables, and differenced the two. It returned **seventeen entries never read** — **S-439, S-440, S-442 … S-457** — because the ledger grew by nineteen entries after Cycle 133's batches were pre-registered (S-439 … S-447 at Cycle 114, S-448 … S-453 at Cycle 123, S-454 and S-455 at Cycle 125, S-456 and S-457 at Cycle 126) while the extraction stopped at S-438. **The Cycle-133 handoff's assertion that "all 437 sources have been inventoried" and that "no further backward extraction" was needed was therefore false, and the cycle recorded it as false rather than inheriting it.**
+
+**The final batch (S-439 … S-457)** was written under the **unchanged R-068 extraction rule**, the **stricter (iv-a) test** and **zero fetches** — nineteen identifier slots, **seventeen new reads and two double-reads** (S-441 and S-451, both agreeing in substance with the Cycle-128 sample's own rows).
+
+- **In-map (7):** S-442, S-445, S-447, S-448, S-449, S-451, S-454.
+- **Not-a-state (12), all (iv-a):** S-439, S-440, S-441, S-443, S-444, S-446, S-450, S-452, S-453, S-455, S-456, S-457.
+- **Out-of-map: 0. Out-of-map survivors: 0. Candidates: 0. Fetches: 0. New `S-` identifiers: 0. New `IDEA-` identifiers: 0.**
+
+**The instrument, completed: 447 of 447 distinct entries read and classified — 100 % of the corpus.** The distribution over the 447 distinct entries is **272 in-map · 172 not-a-state (168 (iv-a), 4 (iv-b) — S-021, S-028, S-079, S-167) · 3 out-of-map entries, all three killed and mapped (S-011 → coverage-map row 29, S-027 → row 32, S-043 → row 33) · 0 out-of-map survivors.** The register's earlier "437 of 437 (100 %)" was false in **both** the numerator and the denominator.
+
+**What it establishes and what it does not.** It establishes that the register's own corpus contains **no published state kind the register has not already killed, mapped or recorded as a baseline** — the rediscovery guard holds at the level of the corpus. It does **not** establish exhaustiveness: the corpus is a corpus of literature the register chose to read, so the map remains a **lower bound**, and a state kind outside the register's prior art stays invisible to a register-memory check.
+
+#### Priority 2 — the open gaps. Tracked; **no action on G-37 and no action on G-33**; no gap opened or closed.
+
+- **G-37 (V-008 gate-value arm):** its null **stands, recorded once**; the bounded search was **not re-run**. **V-008 is not amended** — the Cycle-113 gate-value arm already requires the validator to report the regime gate's own measured value and to report a gate indistinguishable from zero as a **null on the gated rule**.
+- **G-33 (V-009 enforcement-priority statement):** remains an enforcement-priority statement with **no rate, no count and no sample**, so it still supplies nothing to the arm-A state construction beyond what the Cycle-126 amendment already names (the ESEF IFRS 18 entry-point tagging rate as a **fourth object**, a proxy that must not be pooled). **V-009 is not amended.**
+- **G-11 (partial), G-14 (dated 2029-03-29), G-21 (handed to validation), G-28 (open/frozen), G-32 (limb a closed; limbs b and c dated 2027 Q3):** checked against the artifact that records each one; **all unchanged**.
+- **G-30** remains exhausted and **G-38** remains closed.
+
+#### Priority 3 — housekeeping.
+
+- **Counts re-derived from the files (not carried forward):** **447 ledger entries, 446 verifiable** (S-290 struck) · **15 dossiers** (IDEA-001 … IDEA-015) · **68 rejections** (R-001 … R-068) · **13 parking records, 12 active** (P-001 … P-012, P-014; P-004 closed by R-038) · **11 validation specifications** (V-001 … V-010, V-012) · **111 known-baseline rows** · **33 coverage-map rows** (A–I, 10–33) · **backward state inventory complete at 447 of 447**.
+- **Next free identifiers: IDEA-017, S-458, V-013, G-39, R-069, P-015** (G-17 and G-26 skipped by the sequence and never used).
+- **Rubric arithmetic re-run from the shortlist's own cells — clean, and nothing moved:** IDEA-011 4/3/3/4/2/5 = 20.0 + 12.0 + 9.0 + 12.0 + 6.0 + 10.0 = **69.0**; IDEA-004 4/4/1/3/3/3 = 20.0 + 16.0 + 3.0 + 9.0 + 9.0 + 6.0 = **63.0**; IDEA-014 3/2/3/2/2/4 = 15.0 + 8.0 + 9.0 + 6.0 + 6.0 + 8.0 = **52.0**; IDEA-009 2/3/1/2/1/4 = 10.0 + 12.0 + 3.0 + 6.0 + 3.0 + 8.0 = **42.0**; IDEA-010 (parked, P-014) terminal 4/4/1/2/2/2 = 20.0 + 16.0 + 3.0 + 6.0 + 6.0 + 4.0 = **55.0**. **Order unchanged: IDEA-011 (rank 1), IDEA-004 (rank 2), IDEA-014 (rank 3), IDEA-009 (rank 4).**
+- **All five artifact headers and their newest dated blocks advanced to "Cycle 134 complete"** and **read back**: `source_ledger.md`, `idea_register.md`, `ranked_shortlist.md`, `validation_handoffs.md`, `rejected_and_parked.md`. `research/README.md` repaired. `research/next_agent_handoff.md` rewritten for Cycle 135. The standing identifier-integrity check was run: **no identifier is over-run and none is duplicated.** Structurally, `idea_register.md` carries **15 `## IDEA-` dossiers and no IDEA-016**; `source_ledger.md` carries **437 `### S-` headings plus the ten Cycle-58 document-record entries S-281 … S-290 = 447 entries**, with **S-210 … S-219 absent and reserved**; `validation_handoffs.md` carries **11 `## V-` specifications and no V-011**; `rejected_and_parked.md` carries **R-001 … R-068 complete with no gap** and **13 `### P-` records with no P-013**. **One location finding, not an allocation failure: G-31** — opened in Cycle 41 ("G-30 sub-routes (b) and (c) research") and recorded in `source_ledger.md` and `cycle_notes.md` — **has no entry in `idea_register.md`**, where its own status (closed in Cycle 42, both sub-routes NOT FOUND) is absent while G-30 is recorded as exhausted. **It is carried to Cycle 135's Priority 1 as check (g), gap-ledger completeness.**
+- **The active book is unchanged:** IDEA-011 ACCTCLOCK · IDEA-004 SLOWCAP-COND · IDEA-014 RIN-DEADLINE · IDEA-009 PERP-FUND.
+
+**Cycle totals: no candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn; no rejected-and-parked record created or its verdict changed.**
