@@ -1,6 +1,6 @@
 # Next agent handoff
 
-**Cycle 139 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
+**Cycle 140 complete (22 October 2026).** Read this file first, then `research/README.md`, then the register and shortlist. Durable history in `research/cycle_notes.md`. Theory-only; canonical prompt maintainer-owned, do not edit.
 
 ## 1. State of the pipeline
 
