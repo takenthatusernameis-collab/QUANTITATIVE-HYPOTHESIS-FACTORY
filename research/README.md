@@ -1,10 +1,8 @@
 # QUANTITATIVE HYPOTHESIS FACTORY — THEORY-ONLY RESEARCH AREA
 
-This directory holds the durable, theory-only research pipeline for this repository. Nothing in it
-is a backtest, a strategy implementation, a performance claim, or a validation result. The scope is
-defined by the canonical mission prompt, which is **not** to be modified:
+# QUANTITATIVE HYPOTHESIS FACTORY — THEORY-ONLY RESEARCH AREA
 
-- Mission prompt (canonical, maintainer-owned): `research_prompts/systematic_edge_discovery_agent_prompt.txt`
+**Cycle 148 complete (22 October 2026).** - Mission prompt (canonical, maintainer-owned): `research_prompts/systematic_edge_discovery_agent_prompt.txt`
 
 ## Files
 
