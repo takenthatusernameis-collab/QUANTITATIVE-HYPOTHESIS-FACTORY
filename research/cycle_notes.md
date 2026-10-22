@@ -8357,3 +8357,102 @@ This priority was pre-registered as a *decision*, not as a screen, and the decis
 **(h) The standing identifier-integrity check, run and passed.** No identifier is over-run; none is duplicated; every identifier this cycle claims to have consumed — **R-071** — appears in the artifact set; the reserved-and-unused identifiers (**IDEA-016, S-210 … S-219, V-011, G-17, G-26, P-013**) are untouched; and the next-free identifiers are now **IDEA-017, S-458, V-013, R-072, P-015, G-39**.
 
 **Cycle 138 totals:** **no candidate created; no `IDEA-` identifier consumed; no `S-` identifier consumed and no document fetched; no gap opened or closed; no score, rank or hard-stop flag changed; no validation specification created, amended or withdrawn; one rejection entry created (R-071); one known-baseline row amended in place (99); no baseline row added, deleted or renumbered; one coverage-map row closed in full (row 34); the map's row count unchanged at 34; the register's named-construction count moved 45 → 46; one pre-departure recorded (the final probe was informed rather than blind); and no fetch.**
+
+## Cycle 139 — Priority 1: coverage map membership criterion (stated and tested)
+
+**Pre-registered before testing (Cycle 139).**
+**Criterion (clause form):** A state kind *belongs* in the published-state-kind coverage map if and only if (a) it is a **kind of published institutional/state-level object** (not a private/model-internal decomposition, not a constructed index, not per-flow inference), (b) it is **published by a party disinterested in the flow it would condition on** or is a **published rule/parameter/record** of the institution that constrains flows (with the obligor-side/disinterested/aggregated-obligor taxonomy applied), (c) it is **decision-time observable in principle** (published before or at the decision window the candidate would use), (d) it is **a kind**, not an instance; (e) its closure is by a **named clause/template/rejection/guard row** in the register.
+**Conformance test:** for each row r in {A–I,10–34}, answer (conforms / does not conform / conforms only by another rule).
+**Repair rule:** if does not conform, repair in place with before/after; do **not** touch score/rank/flag/gap status/rejection verdict/candidate status. Zero fetches.
+
+**Test results (per row):**
+- A: conforms (R-039; published price of constraint)
+- B: conforms only by another rule (G-28 structural null; identity/category rule)
+- C: conforms (R-040)
+- D: conforms (R-041)
+- E: conforms (R-042)
+- F: conforms (R-043)
+- G: conforms (R-044)
+- H: conforms (R-045)
+- I: conforms (R-046)
+- 10: conforms (schedule of dated third-party flows)
+- 11: conforms (mandated purchase/surrender)
+- 12: conforms (delivery/settlement mechanics)
+- 13: conforms (administrative/policy balance-sheet)
+- 14: conforms (eligibility/mandate/disclosure switches)
+- 15: conforms (implied-distribution/price-surface)
+- 16: conforms (ownership/position states)
+- 17: conforms (structural price wedges/frictions)
+- 18: conforms (benchmark/index methodology)
+- 19: conforms (venue/regulatory trading constraints)
+- 20: conforms (asset-class mechanism families)
+- 21: conforms (published statutory budget-transfer)
+- 22: conforms (default-portfolio auction record)
+- 23: conforms (revision calendar)
+- 24: conforms (levy schedule)
+- 25: conforms (congestion/capacity measurement)
+- 26: conforms (supervisor aggregate)
+- 27: conforms only by another rule (closed by R-067+R-068 D4 count-dilemma; kind exists)
+- 28: conforms (venue-share/fragmentation)
+- 29: conforms only by another rule (closed by X-1 probe D / R-068 D1 published variant)
+- 30: conforms only by another rule (closed by X-1 probe E / R-068 D1 counterparty framing)
+- 31: conforms (execution channel aggregate)
+- 32: conforms only by another rule (closed by X-1 probe P32 / constructed attention; kind classified)
+- 33: conforms only by another rule (closed by X-1 probe P33 / structural share)
+- 34: conforms (dated published supply-loss notice; closed by X-1 probe P34)
+
+**Repairs:** none required (all conform or conform only by another rule as recorded). No scores/ranks/flags/gaps/rejections/candidates touched.
+
+## Cycle 139 — Priority 2: new-construction admission form (pre-registered, not used)
+
+**Form (register style):**
+- Proposal ID (to be assigned if ever used):
+- Construction (state/flow/mechanism):
+- Flow:
+- Sign claim:
+- Instance (concrete published instance or class):
+- Newness statement against the thirty-four closed rows (must state what differs; if none, rediscovery):
+- Screen order (templates A–I first; then narrowed rule (i)-(iii); G-12/G-13; obligor/aggregated/disinterested; identity):
+- Outcome categories: KILL / SURVIVOR / REDISCOVERY / UNDECIDED
+- Decision rule: must pass all screens; SURVIVOR only if passes literature step (costly); KILL must name clause/template/recorded result; REDISCOVERY logged without screening if no newness
+- Pre-registered: yes (Cycle 139). Not used this cycle (no construction supplied).
+
+## Cycle 139 — Priority 3: map "Closed by" correspondence (mechanical re-derivation)
+
+**Map rows A-I,10-34 checked against R-* entries cited.**
+- A: R-039 ✓
+- B: G-28 structural null ✓ (category rule)
+- C: R-040 ✓
+- D: R-041 ✓
+- E: R-042 ✓
+- F: R-043 ✓
+- G: R-044 ✓
+- H: R-045 ✓
+- I: R-046 ✓
+- 10: R-004,R-014,R-017,R-028,R-029,R-033 ✓
+- 11: R-016,R-063,IDEA-013,IDEA-014 ✓
+- 12: IDEA-006,IDEA-012,R-036 ✓
+- 13: R-012,R-035,R-047 ✓
+- 14: R-020,R-021,R-024,R-025 ✓
+- 15: IDEA-003 ✓
+- 16: IDEA-005,IDEA-008,G-28 ✓
+- 17: R-048,R-050,R-054,R-055,IDEA-010 ✓ (R-048 credited per Cycle 137)
+- 18: R-022,IDEA-001 ✓
+- 19: R-018,R-023,R-032 ✓
+- 20: R-004,R-049,R-051,R-052,R-053 ✓
+- 21: R-064 ✓
+- 22: R-066 ✓
+- 23: R-066 ✓
+- 24: R-066 ✓
+- 25: R-067 ✓
+- 26: R-067 ✓
+- 27: R-067 completed by R-068 D4 (count-dilemma) ✓
+- 28: R-067 ✓
+- 29: R-068/R-069 ✓
+- 30: R-068/R-069 ✓
+- 31: R-068/R-070 ✓
+- 32: Cycle 129 batch2 (S-027)/R-070 ✓
+- 33: Cycle 129 batch2 (S-043)/R-070 ✓
+- 34: R-065/R-071 ✓
+
+**Uncredited entries:** none found that constitute a new correspondence defect of the named class (closed kind with guard row but no map row). Existing structure matches. No repairs made.
