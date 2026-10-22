@@ -26,15 +26,37 @@ defined by the canonical mission prompt, which is **not** to be modified:
    unused**),    sources are `S-0NN` (next free: `S-458`; **only** `S-210 … S-219` is
    **reserved and unused** — `S-281 … S-290` are **live entries**, the ten Cycle-58 document-record
    entries, and the corpus is **447 entries of which 446 are verifiable**, S-290 being struck),
-   validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
-   and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
-   *state-free* specification),    rejections are `R-0NN` (next free: `R-071`), parkings are `P-0NN` (next
-   free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
-   `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 138**;
-   **Cycle 137 completed three pre-registered priorities and produced no candidate. The coverage map
-   now stands at thirty-four rows (A–I, 10–34), the known-baseline table at 111 rows, the register's
-   named-construction count at 45 — and not one of the forty-five has produced a candidate.**
+    validation specs are `V-0NN` (next free: `V-013`; `V-011` is **reserved and unused**, `V-010` is written
+    and marked **never-to-execute**, and `V-012` is written and **executable** — the register's first
+    *state-free* specification),    rejections are `R-0NN` (next free: `R-072`), parkings are `P-0NN` (next
+    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
+    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
+    (next: **Cycle 139**;
+    **Cycle 138 completed three pre-registered priorities and produced no candidate. Clause X-1 is now
+    complete over the entire coverage map: probe P34 of map row 34 — a firm, non-revisable,
+    location-priced supply-loss notice — was killed at the design stage by four named clauses (G-13;
+    R-063's reason 4; G-12; the obligor's-own-flow clause) at zero fetches, so the map stands at
+    thirty-four rows (A–I, 10–34) with every row closed in full: thirty-one probes over thirty-one of
+    those rows (rows 27, 29 and 30 were closed in full by other routes), twenty-six kills, five
+    rediscoveries, zero survivors, zero fetches. One departure is disclosed — the final probe was
+    written informed rather than blind, because row 34's closing entry was already in the register's own
+    file; the kill stands and the completion claim is a coverage claim. (ii) Priority 2 decided and
+    recorded the register's next route against its own measurements: the bound is stated as a finding
+    (forty-six named constructions, zero candidates, zero fetches, X-1 complete over the entire map, and
+    the standing dependency L ← A ← P ← L), the free-memory construction route is CLOSED as a standing
+    decision (a later session may restart it only if the new construction states what is new about it
+    relative to the forty-six already screened), the register's remaining authorized work is enumerated
+    with its dates, and no new instrument was adopted. (iii) Priority 3: no action on G-37 and no action
+    on G-33; the other gaps tracked and unmoved; no gap opened or closed; counts re-derived; the rubric
+    arithmetic re-run clean — no score or rank moved; all five artifact headers advanced to 'Cycle 138
+    complete' and read back; the header history chains repaired in place where that read-back found each
+    of the five had lost exactly one cycle's summary; this README updated; the handoff rewritten for
+    Cycle 139; and the standing identifier-integrity check run and passed. The known-baseline table
+    stands at 111 rows (one amended in place) and the register's named-construction count at 46 — and not
+    one of the forty-six has produced a candidate.**
+    **Cycle 137 completed three pre-registered priorities and produced no candidate. The coverage map
+    now stands at thirty-four rows (A–I, 10–34), the known-baseline table at 111 rows, the register's
+    named-construction count at 45 — and not one of the forty-five has produced a candidate.**
    **(i) Priority 1 — clause X-1, batches 2–4: the near-miss probe of the register's own map.** The
    Cycle-135 handoff's "exit" was executed over **twenty-one rows** — **rows 10 to 33 less the three
    already closed in full** (row 27 in Cycle 128; rows 29 and 30 in Cycle 136) — one **blind**
