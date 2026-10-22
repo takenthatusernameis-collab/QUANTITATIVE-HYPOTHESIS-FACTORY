@@ -9432,3 +9432,22 @@ The instrument, the slice, the per-cell question, the outcome taxonomy and the r
 ## Cycle 180 — 22 October 2026 — cycle record
 
 **Cycle 180** completed the four priorities from the handoff: housekeeping and gap monitoring; dated-trigger monitoring; no bounded gap work (no trigger fired); artifact maintenance. Counts re-derived and confirmed (447 ledger entries, 446 verifiable; 15 dossiers; 75 rejections; 13 parkings, 12 active; 11 validation specs; 111 baseline rows; 34 map rows). Named-construction total confirmed 50. Gaps tracked unmoved; no dated trigger fired. No score, rank or hard-stop flag moved. Artifacts advanced to "Cycle 180 complete"; handoff rewritten for Cycle 181. No identifiers consumed.
+
+## Cycle 181 — 2026-10-22
+
+Theory-only cycle executing the four priorities from the Cycle-180 handoff. No tests, data acquisition, strategy code, workflow changes, or modifications to the canonical prompt.
+
+### Three-pass task-framing loop
+
+**Pass 1 — Draft.** (1) housekeeping and gap monitoring — re-derive counts from files; (2) monitor dated triggers/gaps; (3) bounded gap work only if triggered; (4) artifact maintenance.
+
+**Pass 2 — Critique.** No dated trigger fired (all future-dated vs 22 October 2026); no bounded gap work warranted; gaps tracked unmoved.
+
+**Pass 3 — Revise.** Counts re-derived and confirmed unchanged; artifacts advanced to "Cycle 181 complete"; handoff rewritten for Cycle 182. No identifiers consumed.
+
+### Outcomes
+
+1. Counts re-derived and confirmed: 447 ledger entries (446 verifiable), 15 dossiers, 75 rejections, 13 parkings (12 active), 11 validation specs, 111 baseline rows, 34 map rows; named-construction total 50; classification 272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447.
+2. Dated triggers monitored (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029): all future-dated; no action.
+3. No trigger fired; no bounded gap work; frontier inventory bound unchanged.
+4. Artifacts advanced to "Cycle 181 complete"; README and handoff updated; identifier-integrity check passed (next free IDEA-017, S-458, V-013, G-39, R-076, P-015). No score, rank or hard-stop flag moved. No identifiers consumed.
