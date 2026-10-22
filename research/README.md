@@ -31,8 +31,8 @@ defined by the canonical mission prompt, which is **not** to be modified:
    *state-free* specification), rejections are `R-0NN` (next free: `R-069`), parkings are `P-0NN` (next
    free: `P-015`; `P-013` is **reserved and unused**), source gaps are `G-NN` (next free: `G-39`;
    `G-17` and `G-26` were skipped by the sequence and have never been used), and cycles are `Cycle N`
-   (next: **Cycle 136**;
-   **Cycle 135 completed three pre-registered priorities — the closure audit of the completed backward
+   (next: **Cycle 137**;
+   **Cycle 136 completed three pre-registered priorities — the closure audit of the completed backward
    state inventory, the register's own structural question stated and decided, and housekeeping. The
    audit is the first time the register's largest artifact has been checked as a whole**, under seven
    checks pre-registered with the check set and the repair list both fixed before the first repair:
