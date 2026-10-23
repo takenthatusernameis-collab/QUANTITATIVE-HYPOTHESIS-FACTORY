@@ -9685,3 +9685,18 @@ Theory-only cycle executing the four pre-registered priorities from the Cycle-21
 2. **Priority 2 — monitor dated triggers and gaps.** IDEA-014 (31 Mar 2027), IDEA-011 interims (30 Jun 2027), G-32(c)/G-33 (2027 Q3), G-14 (29 Mar 2029): all future-dated vs 23 October 2026; no new published evidence requiring action; tracked without pre-emption.
 3. **Priority 3 — bounded gap work if triggered.** No trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged.
 4. **Priority 4 — artifact maintenance.** Rubric re-run clean — **IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0** — no cell/score/rank/flag moved. All six artifacts advanced to "Cycle 212 complete" and read back by content; README updated; H1 titles advanced to CYCLES 1–212; `rejected_and_parked.md` footer advanced to Cycle 212; handoff rewritten for Cycle 213; identifier-integrity check passed (next free IDEA-017, S-458, V-013, G-39, R-076, P-015; reserved and unused IDEA-016, S-210 … S-219, V-011, P-013; skipped and never used G-17, G-26). **No record repair beyond the Priority-1 relabelling.**
+
+
+## Cycle 213 — 23 October 2026
+Theory-only cycle executing the four pre-registered priorities from the Cycle-212 handoff. No tests, no data acquisition, no strategy or signal implementation, no workflow changes, no modification of the canonical prompt, no trading.
+
+### Three-pass task-framing loop
+**Pass 1 — Draft.** (1) Housekeeping and gap monitoring: re-derive all counts mechanically from the files. (2) Monitor dated triggers and gaps; no action expected. (3) Act only if a trigger fired; none expected. (4) Artifact maintenance per rules.
+**Pass 2 — Critique.** Counts must be re-derived from the files, not copied from the handoff. Triggers all future-dated; do not pre-empt them.
+**Pass 3 — Revise.** Execute as specified.
+
+### Outcomes
+1. **Priority 1 — housekeeping and gap monitoring.** Counts re-derived mechanically from the files — **447 ledger entries (446 verifiable; S-290 struck) · 15 dossiers · 75 rejections (R-001 … R-075) · 13 parking records (12 active; P-004 closed by R-038) · 11 validation specifications (V-001 … V-010, V-012) · 111 known-baseline rows · 132 coverage-map rows (A–I, 10–34)** — all match. Named constructions 50; corpus classification 272 in-map · 168 (iv-a) · 4 (iv-b) · 3 out-of-map = 447 — unchanged. Ten gaps tracked unmoved; no action on G-37/G-33; no gap opened/closed; partition seven open / three not open; no dated trigger fired. No record-integrity defect found.
+2. **Priority 2 — monitor dated triggers and gaps.** IDEA-014 (31 Mar 2027), IDEA-011 interims (30 Jun 2027), G-32(c)/G-33 (2027 Q3), G-14 (29 Mar 2029): all future-dated vs 23 October 2026, no new published evidence requiring action; tracked without pre-emption.
+3. **Priority 3 — bounded gap work if triggered.** No trigger fired; no bounded gap work undertaken; frontier inventory bound unchanged.
+4. **Priority 4 — artifact maintenance.** Rubric re-run clean — **IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0** — no cell/score/rank/flag moved. All six artifacts advanced to "Cycle 213 complete" and read back by content; README updated; H1 titles advanced to CYCLES 1–213; `rejected_and_parked.md` footer advanced to Cycle 213; handoff rewritten for Cycle 214; identifier-integrity check passed (next free IDEA-017, S-458, V-013, G-39, R-076, P-015; reserved and unused IDEA-016, S-210 … S-219, V-011, P-013; skipped and never used G-17, G-26). No record repair.
