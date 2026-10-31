@@ -1,5 +1,8 @@
-# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:34Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:36Z (current session, no-op exit, completed)
 
+Session check 2026-10-31 15:36Z: HEAD `6024d80` vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl`. Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md. Dated triggers re-checked once: earliest IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired.
+
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:34Z (current session, no-op exit, completed)
 Session check 2026-10-31 15:34Z: HEAD vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl`. Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md. Dated triggers re-checked once: earliest IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired.
 
 Prior-session check 2026-10-31 15:33Z: same result — only handoff + diagnostics differ; all seven other artifacts byte-identical.
