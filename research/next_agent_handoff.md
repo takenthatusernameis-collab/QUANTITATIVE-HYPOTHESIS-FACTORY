@@ -1,6 +1,6 @@
-# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:47Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 16:33Z (current session, no-op exit, completed)
 
-Session check 2026-10-31 15:47Z: HEAD `3d6f9af` vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` (append-only run-log entries). Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md. Dated triggers re-checked once: earliest IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired.
+Session check 2026-10-31 16:33Z: HEAD `fca3cad` vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` (append-only run-log entries). Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md. Dated triggers re-checked once: earliest IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired.
 
 Per override: cycle number not incremented (last complete cycle remains 1252, 31 Oct 2026). Other seven artifacts not rewritten; timestamps not refreshed. No wake-up created (earliest trigger outside scheduling horizon). Only this handoff updated.
 
@@ -10,7 +10,7 @@ Recorded state holds: 437 ledger entries (423 verifiable; 14 struck: S-104, S-11
 
 Read `research/next_agent_handoff.md`, `research/idea_register.md`, `research/ranked_shortlist.md`, `research/source_ledger.md` first, then `research/validation_handoffs.md`, `research/rejected_and_parked.md`, `research/cycle_notes.md`, `research/README.md`.
 
-Apply DELAY-ELIMINATION OVERRIDE with state-delta first: compare tracked-file HEAD against last verified checkpoint `9e81274` before full reads.
+Apply DELAY-ELIMINATION OVERRIDE with state-delta first: compare tracked-file HEAD against last verified checkpoint `fca3cad` before full reads.
 1. If only `research/next_agent_handoff.md` or diagnostics changed and all other artifacts identical, do **not** increment cycle, rewrite artifacts, refresh timestamps, or create checkpoint commit/wake-up. Exit as no-op.
 2. Check dated triggers once (earliest IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029). If no trigger fired/source fetched/state change, exit no-op.
 3. If material change occurs, update only changed artifacts, run targeted identifier/integrity checks (full checks at milestone), rewrite handoff with next cycle's task message.
