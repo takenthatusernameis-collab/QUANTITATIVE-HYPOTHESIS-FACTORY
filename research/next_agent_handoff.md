@@ -1,8 +1,8 @@
-# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 22:36Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 23:26Z (current session, no-op exit, completed)
 
-Session check 2026-10-31 22:36Z: HEAD `dafc512` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Diagnostics appended run-log entries — state log only, no research change. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
+Session check 2026-10-31 23:26Z: HEAD `cdb51f4` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Diagnostics appended run-log entries — state log only, no research change. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
 
-Prior session check 2026-10-31 22:35Z: HEAD `a168b5e` vs last verified checkpoint `fca3cad` — same delta (handoff + diagnostics only); all seven other artifacts byte-identical. No trigger fired. No-op exit.
+Prior session checks: 2026-10-31 22:36Z (HEAD `dafc512`) and 2026-10-31 22:35Z (HEAD `a168b5e`) — same pattern (handoff + diagnostics only). No trigger fired. No-op exits.
 
 Per override: cycle number not incremented (last complete cycle remains 1252, 31 Oct 2026). Other seven artifacts not rewritten; timestamps not refreshed. No wake-up created (earliest trigger 31 Mar 2027 outside scheduling horizon). Only this handoff updated.
 
