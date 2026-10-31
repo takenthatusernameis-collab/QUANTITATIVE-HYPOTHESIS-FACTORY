@@ -1,6 +1,6 @@
 # DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 21:31Z (current session, no-op exit, completed)
 
-Session check 2026-10-31 21:31Z: HEAD `1b1a5c2` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` differs; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). No diagnostics change requiring a run-log entry. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
+Session check 2026-10-31 21:31Z: HEAD `afe45a1` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` differs; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). No diagnostics change requiring a run-log entry. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
 
 ---
 
