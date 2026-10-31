@@ -1,5 +1,11 @@
 # DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 21:26Z (current session, no-op exit, completed)
 
+Session check 2026-10-31 21:26Z: HEAD `95c74b3` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Diagnostics appended run-log entries — state log only, no research change. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
+
+---
+
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 21:26Z (current session, no-op exit, completed)
+
 Session check 2026-10-31 21:26Z: HEAD `76beeb8` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Diagnostics appended run-log entries — state log only, no research change. Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
 
 ---
@@ -37,4 +43,4 @@ Next free identifiers (re-derive from artifacts before use): IDEA-016, S-458, V-
 
 State at handoff: 437 ledger entries (423 verifiable; 14 struck) · 15 dossiers · 75 rejections · 13 parking records (12 active, 1 closed) · 11 validation specifications · 111 known-baseline rows · 34 coverage-map rows. Gaps: 7 open / 3 not open. Rubric ranks: IDEA-011 69.0 (1) · IDEA-004 63.0 (2) · IDEA-014 52.0 (3) · IDEA-009 42.0 (4); IDEA-010 parked at terminal 55.0.
 
-Last verified checkpoint: `fca3cad`. Latest session check: 2026-10-31 21:26Z (HEAD `76beeb8`, no-op exit).
+Last verified checkpoint: `fca3cad`. Latest session check: 2026-10-31 21:26Z (HEAD `95c74b3`, no-op exit).
