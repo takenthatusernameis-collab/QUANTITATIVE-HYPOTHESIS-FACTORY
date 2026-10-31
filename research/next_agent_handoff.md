@@ -1,6 +1,6 @@
-# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:32Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 15:33Z (current session, no-op exit, completed)
 
-Session check 2026-10-31 15:32Z: HEAD vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl`. Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md.
+Session check 2026-10-31 15:33Z: HEAD vs last verified checkpoint `9e81274` — `git diff --stat 9e81274 HEAD` shows only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl`. Per-file `git diff --quiet` confirms all seven other research artifacts byte-identical: idea_register.md, ranked_shortlist.md, source_ledger.md, validation_handoffs.md, rejected_and_parked.md, cycle_notes.md, README.md.
 
 Prior-session check 2026-10-31 14:45Z: same result — only handoff + diagnostics differ; all seven other artifacts byte-identical.
 
