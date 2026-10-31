@@ -234,13 +234,13 @@ Last verified checkpoint: `fca3cad`. Latest session check: 2026-10-31 20:23Z (HE
 
 ---
 
-# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 20:24Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE — state-delta check 2026-10-31 20:25Z (current session, no-op exit, completed)
 
-Session check 2026-10-31 20:24Z: HEAD `18795f3` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
+Session check 2026-10-31 20:25Z: HEAD `74935eb` vs last verified checkpoint `fca3cad` — only `research/next_agent_handoff.md` and `research_state/workflow_run_diagnostics.jsonl` differ; all seven other artifacts byte-identical (idea_register, ranked_shortlist, source_ledger, validation_handoffs, rejected_and_parked, cycle_notes, README). Dated triggers re-checked once: IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026; no trigger fired. No-op exit; cycle remains 1252.
 
 Per override: cycle number not incremented (last complete cycle remains 1252, 31 Oct 2026). Other seven artifacts not rewritten; timestamps not refreshed. No wake-up created (earliest trigger 31 Mar 2027 outside scheduling horizon). Only this handoff updated.
 
-Prior checks: 20:23Z (HEAD `bcf0b97`), 20:22Z (HEAD `19ef0ac`), 20:21Z (HEAD `047baad`), 19:49Z (HEAD `d774f6f`), 19:48Z (HEAD `1e02673`), 19:46Z (HEAD `e2adb3e`), 19:45Z (HEAD `e96449c`), 19:43Z (HEAD `f4923be`), 19:42Z (HEAD `f4923be`), 19:41Z (HEAD `56de583`), 19:39Z (HEAD `66ebefb`), 19:37Z (HEAD `9931302`), 18:48Z (HEAD `466325b`), 18:45Z (HEAD `1f41286`), 18:42Z (HEAD `3c514c8`), 18:40Z (HEAD `12c6782`), 18:39Z (HEAD `5283477`), 18:38Z (HEAD `79ca4d7`), 18:37Z (HEAD `b99d695`), 18:36Z (HEAD `c554115`), 17:48Z (HEAD `a1ff2cb`) — same pattern, no-op exits.
+Prior checks: 20:24Z (HEAD `18795f3`), 20:23Z (HEAD `bcf0b97`), 20:22Z (HEAD `19ef0ac`), 20:21Z (HEAD `047baad`), 19:49Z (HEAD `d774f6f`), 19:48Z (HEAD `1e02673`), 19:46Z (HEAD `e2adb3e`), 19:45Z (HEAD `e96449c`), 19:43Z (HEAD `f4923be`), 19:42Z (HEAD `f4923be`), 19:41Z (HEAD `56de583`), 19:39Z (HEAD `66ebefb`), 19:37Z (HEAD `9931302`), 18:48Z (HEAD `466325b`), 18:45Z (HEAD `1f41286`), 18:42Z (HEAD `3c514c8`), 18:40Z (HEAD `12c6782`), 18:39Z (HEAD `5283477`), 18:38Z (HEAD `79ca4d7`), 18:37Z (HEAD `b99d695`), 18:36Z (HEAD `c554115`), 17:48Z (HEAD `a1ff2cb`) — same pattern, no-op exits.
 
 ## Initial task message for the next agent (post Cycle 1252, 31 Oct 2026)
 
@@ -256,4 +256,4 @@ Next free identifiers (re-derive from artifacts before use): IDEA-016, S-458, V-
 
 State at handoff: 437 ledger entries (423 verifiable; 14 struck) · 15 dossiers · 75 rejections · 13 parking records (12 active, 1 closed) · 11 validation specifications · 111 known-baseline rows · 34 coverage-map rows. Gaps: 7 open / 3 not open. Rubric ranks: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4); IDEA-010 parked at terminal 55.0.
 
-Last verified checkpoint: `fca3cad`. Latest session check: 2026-10-31 20:24Z (HEAD `18795f3`, no-op exit).
+Last verified checkpoint: `fca3cad`. Latest session check: 2026-10-31 20:25Z (HEAD `74935eb`, no-op exit).
