@@ -20,7 +20,7 @@ Last verified checkpoint: `c8a4513`. Latest session check: 2026-11-04T08:53:04Z 
 
 Read `research/next_agent_handoff.md`, `research/idea_register.md`, `research/ranked_shortlist.md`, `research/source_ledger.md` first, then `research/validation_handoffs.md`, `research/rejected_and_parked.md`, `research/cycle_notes.md`, `research/README.md`.
 
-Apply the DELAY-ELIMINATION OVERRIDE state-delta check against the latest verified checkpoint (currently `e13898d`, the most recent `chore(kilo): checkpoint agent session` commit). If only the handoff and diagnostics changed since that checkpoint, exit as no-op — do not increment cycle, rewrite artifacts, refresh timestamps, or create a checkpoint commit/wake-up. Otherwise proceed with the four pre-registered priorities:
+Apply the DELAY-ELIMINATION OVERRIDE state-delta check against the latest verified checkpoint (currently `dd72e77`, the most recent `chore(kilo): checkpoint agent session` commit). If only the handoff and diagnostics changed since that checkpoint, exit as no-op — do not increment cycle, rewrite artifacts, refresh timestamps, or create a checkpoint commit/wake-up. Otherwise proceed with the four pre-registered priorities:
 (i) Priority 1 — housekeeping and gap monitoring (re-derive counts mechanically from file bodies before writing any figure; update cycle headers in all artifacts to current cycle if advancing).
 (ii) Priority 2 — monitor dated triggers and gaps, tracking without pre-emption.
 (iii) Priority 3 — bounded gap work only if a trigger fires; otherwise none.
