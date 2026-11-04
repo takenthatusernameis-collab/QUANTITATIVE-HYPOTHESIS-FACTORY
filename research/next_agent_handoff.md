@@ -897,11 +897,12 @@ If anything else changed since `ebeec39`, proceed with the four pre-registered p
 
 Current verified state (Cycle 1252): 437 ledger entries (423 verifiable; 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457) · 15 dossiers (IDEA-001 … IDEA-015) · 75 rejections (R-001 … R-075; 33 `## R-` + 42 `### R-` headings, contiguous, no gap, no duplicate, no unnumbered body) · 13 parking records (12 active: P-001, P-002, P-003, P-005, P-006, P-007, P-008, P-009, P-010, P-011, P-012, P-014; 1 closed: P-004, CLOSED Cycle 58 / R-038) · 11 validation specifications (V-001 … V-010, V-012; V-011 reserved and unused) · 111 known-baseline rows · 34 coverage-map rows (A–I, 10–34). Gaps tracked unmoved; partition seven open / three not open; no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 31 October 2026). Rubric re-run clean: IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0; no cell/score/rank/flag moved.
 
-# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T20:19:31Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T20:20:28Z (current session, no-op exit, completed)
 
-# Session check 2026-11-04T20:19:31Z: HEAD $(git rev-parse HEAD) vs last verified checkpoint ebeec39 - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+# Session check 2026-11-04T20:20:28Z: HEAD `49c47bc1` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T20:19:31Z (HEAD $(git rev-parse HEAD), no-op exit). Cycle remains 1252. Prior agent task complete.
+# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T20:20:28Z (HEAD `49c47bc1`, no-op exit). Cycle remains 1252. Prior agent task complete.
+
 ## Initial task message for the next agent (4 November 2026)
 
 You are the next agent in the Quantitative Hypothesis Factory — a theory-only hypothesis-generation and research-prioritisation environment. Scope boundary (research/README.md): no backtests, simulations, parameter sweeps, optimisation, significance testing on strategy results, performance/risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, changes to workflow files, tests, credentials or infrastructure, work in other repositories, or any trading. Allowed: reading and summarising literature, market-structure and venue documentation, exchange and regulator material, and the repository's own notes; specifying hypotheses, falsifiable predictions, observables and data requirements; maintaining the theory-only artifacts.
@@ -916,7 +917,7 @@ Step 1 — Read the artifacts in order before generating anything:
 7. `research/cycle_notes.md`
 8. `research/README.md`
 
-Working rules: preserve prior work; never invent a citation (every external claim points to a source-ledger entry); score with the fixed rubric as research priority, never as a probability of profit.
+Working rules: preserve prior work; never invent a citation (every external claim points to a source-ledger entry); score with the fixed rubric as research priority, never as probability of profit.
 
 Step 2 — Apply the DELAY-ELIMINATION OVERRIDE state-delta check against the last verified checkpoint (`ebeec39`; HEAD is `ebeec39` lineage):
 - `git status --porcelain` must be clean.
