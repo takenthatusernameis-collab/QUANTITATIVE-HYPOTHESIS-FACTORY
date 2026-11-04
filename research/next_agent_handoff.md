@@ -1,9 +1,8 @@
-# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T17:25:56Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T17:26:42Z (current session, no-op exit, completed)
 #
-# Session check 2026-11-04T17:25:56Z: HEAD `249948fe` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+# Session check 2026-11-04T17:26:42Z: HEAD `249948fe` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 #
-# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T17:25:56Z (HEAD `249948fe`, no-op exit). Cycle remains 1252. Prior agent task complete.
-
+# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T17:26:42Z (HEAD `249948fe`, no-op exit). Cycle remains 1252. Prior agent task complete.
 ## Initial task message for the next agent (4 November 2026)
 
 You are the next agent in the Quantitative Hypothesis Factory — a theory-only hypothesis-generation and research-prioritisation environment. Scope boundary (research/README.md): no backtests, simulations, parameter sweeps, optimisation, significance testing on strategy results, performance/risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, changes to workflow files, tests, credentials or infrastructure, work in other repositories, or any trading. Allowed: reading and summarising literature, market-structure and venue documentation, exchange and regulator material, and the repository's own notes; specifying hypotheses, falsifiable predictions, observables and data requirements; maintaining the theory-only artifacts.
