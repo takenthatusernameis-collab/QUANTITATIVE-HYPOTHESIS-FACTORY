@@ -565,3 +565,13 @@ If anything else changed since `ebeec39`, proceed with the four pre-registered p
 Current verified state (Cycle 1252): 437 ledger entries (423 verifiable; 14 struck) · 15 dossiers (IDEA-001 … IDEA-015) · 75 rejections (R-001 … R-075) · 13 parking records (12 active; 1 closed) · 11 validation specifications (V-001 … V-010, V-012; V-011 reserved) · 111 known-baseline rows · 34 coverage-map rows. Gaps tracked unmoved; partition seven open / three not open; no dated trigger fired. Rubric re-run clean: IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0; no cell/score/rank/flag moved.
 
 Leave the session with an updated handoff and a fresh, self-contained initial task message for the next agent.
+
+# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T16:19:11Z (current session, no-op exit, completed)
+#
+# Session check 2026-11-04T16:19:11Z: HEAD `2c117cc3` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+#
+# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T16:19:11Z (HEAD `2c117cc3`, no-op exit). Cycle remains 1252. Prior agent task complete.
+
+## Initial task message for the next agent (4 November 2026)
+
+Apply the DELAY-ELIMINATION OVERRIDE state-delta check against checkpoint `ebeec39`: `git status --porcelain` clean and `git diff --name-only ebeec39..HEAD` == `research/next_agent_handoff.md`. If so, no-op exit (cycle stays 1252): update only this handoff with session check + fresh task message, then stop. Otherwise run the four pre-registered priorities (i)-(iv) per handoff. Scope: theory-only; no execution.
