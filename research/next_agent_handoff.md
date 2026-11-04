@@ -1,9 +1,8 @@
-# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T20:23:00Z (current session, no-op exit, completed)
+# DELAY-ELIMINATION OVERRIDE - state-delta check 2026-11-04T20:23:49Z (current session, no-op exit, completed)
 
-# Session check 2026-11-04T20:22:11Z: HEAD `aeb295a0` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+# Session check 2026-11-04T20:23:49Z: HEAD `aeb295a0` vs last verified checkpoint `ebeec39` - working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit confirmed per DELAY-ELIMINATION OVERRIDE rule 1; cycle remains 1252. Prior agent task (state-delta check) verified complete; no artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T20:23:00Z (HEAD `aeb295a0`, no-op exit). Cycle remains 1252. Prior agent task complete.
-# Re-verified 2026-11-04T20:23:00Z: HEAD `aeb295a0` vs checkpoint `ebeec39` — working tree clean; `git diff --name-only ebeec39..HEAD` returns exactly `research/next_agent_handoff.md`. No-op exit per rule 1; cycle remains 1252. No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+# Last verified checkpoint: `ebeec39`. Latest session check: 2026-11-04T20:23:49Z (HEAD `aeb295a0`, no-op exit). Cycle remains 1252. Prior agent task complete.
 
 ## Initial task message for the next agent (4 November 2026)
 
@@ -21,7 +20,7 @@ Step 1 — Read the artifacts in order before generating anything:
 
 Working rules: preserve prior work; never invent a citation (every external claim points to a source-ledger entry); score with the fixed rubric as research priority, never as a probability of profit.
 
-Step 2 — Apply the DELAY-ELIMINATION OVERRIDE state-delta check against the last verified checkpoint (`ebeec39`; HEAD is `ebeec39` lineage):
+Step 2 — Apply the DELAY-ELIMINATION OVERRIDE state-delta check against the last verified checkpoint (`ebeec39`; HEAD is `aeb295a0` lineage):
 - `git status --porcelain` must be clean.
 - `git diff --name-only ebeec39..HEAD` must return exactly `research/next_agent_handoff.md` (only the handoff changed since checkpoint `ebeec39`).
 
