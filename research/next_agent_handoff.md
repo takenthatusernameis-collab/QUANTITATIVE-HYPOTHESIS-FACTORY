@@ -1,6 +1,6 @@
-Session check 2026-11-05T15:04:52Z (checkpoint base `ebeec39`, HEAD `f74ea130`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (state-delta passed at 2026-11-05T14:06:28Z, re-verified 2026-11-05T15:00:19Z, 2026-11-05T15:01:21Z, 2026-11-05T15:02:07Z, 2026-11-05T15:03:07Z, 2026-11-05T15:03:33Z, 2026-11-05T15:04:19Z, 2026-11-05T15:04:52Z). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-05T15:07:02Z (checkpoint base `ebeec39`, HEAD `bc6683d8`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (state-delta passed 2026-11-05T14:06:28Z, re-verified through 2026-11-05T15:07:02Z). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-## Initial task message for the next agent (2026-11-05T15:04:52Z)
+## Initial task message for the next agent (2026-11-05T15:07:02Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -29,7 +29,7 @@ Check: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39..HE
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
 ### 4) Prior agent task status
-**Complete (no-op).** State-delta passed 2026-11-05T14:06:28Z, re-verified 2026-11-05T15:00:19Z, 2026-11-05T15:01:21Z, 2026-11-05T15:02:07Z, 2026-11-05T15:03:07Z (`ebeec39`, HEAD `85c21af7`); only `research/next_agent_handoff.md` changed since checkpoint. This session (2026-11-05T15:04:52Z, HEAD `f74ea130`): re-verified clean, no-op exit, no further state change.
+**Complete (no-op).** State-delta passed 2026-11-05T14:06:28Z, re-verified through 2026-11-05T15:07:02Z (`ebeec39`, HEAD `bc6683d8`); only `research/next_agent_handoff.md` changed since checkpoint.
 
 ---
 
@@ -60,7 +60,7 @@ Check: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39..HE
 - Validation specs **11** (V-001–010,V-012; V-011 reserved)
 - Known baselines **111** · Coverage-map rows **34** (A–I,10–34)
 - Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 5 Nov 2026).
-- Rubric clean: IDEA-011 69.0 (#1) · IDEA-004 63.0 (#2) · IDEA-014 52.0 (#3) · IDEA-009 42.0 (#4) · IDEA-010 parked P-014 terminal 55.0.
+- Rubric clean: IDEA-011 69.0 (#1) · IDEA-004 63.0 (#2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (#4) · IDEA-010 parked P-014 terminal 55.0.
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
 ### 4) Prior agent task status
