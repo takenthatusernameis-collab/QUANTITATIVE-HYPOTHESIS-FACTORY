@@ -1,6 +1,6 @@
-Session check 2026-11-05T09:07:52Z: HEAD `ddaea75` vs checkpoint `ebeec39` — `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (Cycle 1251 executed; all 8 artifacts at Cycle 1252). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-05T09:08:22Z: HEAD `0c07b693` vs checkpoint `ebeec39` — `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (Cycle 1251 executed; all 8 artifacts at Cycle 1252). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-## Initial task message for the next agent (2026-11-05T09:07:52Z)
+## Initial task message for the next agent (2026-11-05T09:08:22Z)
 
 You are the next agent in the Quantitative Hypothesis Factory — a **theory-only** hypothesis-generation and research-prioritisation environment.
 
@@ -19,10 +19,10 @@ You are the next agent in the Quantitative Hypothesis Factory — a **theory-onl
 Rules: preserve prior work; never invent citations (every external claim → source-ledger entry); score with the fixed rubric as **research priority**, never as probability of profit.
 
 ### 2) DELAY-ELIMINATION OVERRIDE state-delta check (checkpoint `ebeec39`)
-- `git status --porcelain` clean.
-- `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md`.
+- `git status --porcelain` must be clean.
+- `git diff --name-only ebeec39..HEAD` must return **only** `research/next_agent_handoff.md`.
 
-If both hold: **no-op exit**. Do not increment cycle (stays 1252), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not checkpoint/wake-up. Update only this handoff with your session check + fresh initial task message, then stop.
+If both hold: **no-op exit**. Do not increment cycle (stays 1252), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not checkpoint/wake-up. Update only this handoff with your session check + a fresh initial task message, then stop.
 
 If anything else changed since `ebeec39`, execute pre-registered priorities:
 1. **Housekeeping & gap monitoring** — re-derive counts mechanically from file bodies before writing figures; advance cycle headers in all 8 artifacts only if advancing.
@@ -45,5 +45,3 @@ Non-no-op completion: advance all 8 artifacts (newest block first), read back by
 - Checkpoint: `ebeec39`.
 
 (End of file)
-" filePath">
-/home/runner/work/QUANTITATIVE-HYPOTHESIS-FACTORY/QUANTITATIVE-HYPOTHESIS-FACTORY/research/next_agent_handoff.md
