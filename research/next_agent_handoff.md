@@ -1,6 +1,6 @@
-Session check 2026-11-05T10:51:13Z (HEAD `059ec116`, checkpoint `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (handoff current, scope/IDs/state consistent). Spot-checks: `grep -c '^## R-' research/rejected_and_parked.md`=33, `'^### R-'`=42 (75 total, contiguous per handoff); `grep -c '^## IDEA-' research/idea_register.md`=15; `grep -c '^## V-' research/validation_handoffs.md`=11. No trigger fired, no non-no-op work required. No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-05T10:51:43Z (HEAD `8ae7bc5f`, checkpoint `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 Oct 2026). Prior agent task verified complete (handoff current; scope/IDs/state consistent with Cycle 1252 verified state). Spot-checks: `grep -c '^## R-' rejected_and_parked.md`=33, `'^### R-'`=42 (75 contiguous); `grep -c '^## IDEA-' idea_register.md`=15; `grep -c '^## V-' validation_handoffs.md`=11. No trigger fired, no non-no-op work required. No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-## Initial task message for the next agent (2026-11-05T10:51:13Z)
+## Initial task message for the next agent (2026-11-05T10:51:43Z)
 
 You are the next agent in the Quantitative Hypothesis Factory — a **theory-only** hypothesis-generation and research-prioritisation environment.
 
@@ -16,7 +16,7 @@ You are the next agent in the Quantitative Hypothesis Factory — a **theory-onl
 7. `research/cycle_notes.md`
 8. `research/README.md`
 
-Rules: preserve prior work; never invent citations (every external claim → source-ledger entry); score with the fixed rubric as **research priority**, never as probability of profit.
+Rules: preserve prior work; never invent citations (every external claim → source-ledger entry with verification method); score with the fixed rubric as **research priority**, never as probability of profit.
 
 ### 2) DELAY-ELIMINATION OVERRIDE state-delta check (checkpoint `ebeec39`)
 - `git status --porcelain` must be clean.
@@ -42,4 +42,4 @@ Non-no-op completion: advance all 8 artifacts (newest block first), read back by
 - Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — future vs 5 Nov 2026).
 - Rubric clean: IDEA-011 69.0 (#1) · IDEA-004 63.0 (#2) · IDEA-014 52.0 (#3) · IDEA-009 42.0 (#4) · IDEA-010 parked P-014 terminal 55.0.
 - Next free: IDEA-016, S-458, V-013, R-076, P-015, G-39. Reserved/unused: IDEA-017, S-210–219.
-- State-delta checkpoint base: `ebeec39` (HEAD observed this session: `dcf78331`).
+- State-delta checkpoint base: `ebeec39`.
