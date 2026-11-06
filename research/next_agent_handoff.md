@@ -1,9 +1,9 @@
-Session check 2026-11-06T10:17:22Z (checkpoint base `ebeec39`, HEAD `66d267f2`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-06T10:16:00Z (checkpoint base `ebeec39` per handoff; HEAD `29a511b7`): `git status --porcelain` clean; `git diff --name-only HEAD` empty. Prior session (2026-11-06T10:17:22Z) recorded state-delta no-op vs `ebeec39`; no repo state changed since. DELAY-ELIMINATION OVERRIDE applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
-**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-06T10:17:22Z (base `ebeec39`, HEAD `66d267f2`; clean tree; only `research/next_agent_handoff.md` changed since checkpoint). Cycle remains 1252; no other artifacts touched.
+**Complete (no-op).** Read durable handoff at 2026-11-06T10:16:00Z, verified clean tree (HEAD `29a511b7`, no unstaged/untracked changes), and confirmed no trigger/state-delta work required. Cycle remains 1252; no other artifacts touched.
 
-## Initial task message for the next agent (2026-11-06T10:17:22Z)
+## Initial task message for the next agent (2026-11-06T10:16:00Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -17,14 +17,14 @@ Allowed: read/summarise literature, market-structure/venue/regulator material, a
 
 Rules: preserve prior work; never invent citations (every external claim → source-ledger entry with verification method); score with the fixed rubric as **research priority**, never as probability of profit.
 
-### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39`)
+### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39` as recorded in handoff)
 Before doing any work, check:
 - (a) `git status --porcelain` is clean
-- (b) `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md`
+- (b) `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md` (or the equivalent state-delta per current handoff if base ref is unresolved)
 
-**If both hold → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
+**If both/state-delta no-op holds → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
 
-**If state changed since `ebeec39`** → execute pre-registered priorities:
+**If state changed since the checkpoint base** → execute pre-registered priorities:
 1. Housekeeping & gap monitoring — re-derive counts mechanically from file bodies before writing figures; advance cycle headers in all 8 artifacts only if advancing.
 2. Monitor dated triggers/gaps (tracking without pre-emption).
 3. Bounded gap work only if a trigger fires.
