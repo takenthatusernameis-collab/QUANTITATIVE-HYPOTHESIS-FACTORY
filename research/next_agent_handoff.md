@@ -1,9 +1,10 @@
-Session check 2026-11-06T11:03:23Z (checkpoint base `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-06T11:52:00Z (checkpoint base `ebeec39`, HEAD `664ef255`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+
 ## Prior agent task status
 
-**Complete (no-op).** Session check 2026-11-06T11:01:53Z (HEAD `dd386303`, base `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returned only `research/next_agent_handoff.md`. No trigger/state-delta work required. Cycle remains **1252** (31 October 2026); no other artifacts touched, no checkpoint commit, no wake-up scheduled.
+**Complete (no-op).** Session check 2026-11-06T11:52:00Z confirmed state-delta no-op (clean tree; only `research/next_agent_handoff.md` differs from `ebeec39`). No trigger/state-delta work required. Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
-## Initial task message for the next agent (2026-11-06T11:03:23Z)
+## Initial task message for the next agent (2026-11-06T11:52:00Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -17,14 +18,14 @@ Allowed: read/summarise literature, market-structure/venue/regulator material, a
 
 Rules: preserve prior work; never invent citations (every external claim → source-ledger entry with verification method); score with the fixed rubric as **research priority**, never as probability of profit.
 
-### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39` as recorded in handoff)
+### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39`)
 Before doing any work, check:
 - (a) `git status --porcelain` is clean
-- (b) `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md` (or the equivalent state-delta per current handoff if base ref is unresolved)
+- (b) `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md` (or equivalent state-delta per current handoff if base ref is unresolved)
 
-**If both/state-delta no-op holds → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
+**If (a)+(b)/state-delta no-op holds → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
 
-**If state changed since the checkpoint base** → execute pre-registered priorities:
+**If state changed since checkpoint base** → execute pre-registered priorities:
 1. Housekeeping & gap monitoring — re-derive counts mechanically from file bodies before writing figures; advance cycle headers in all 8 artifacts only if advancing.
 2. Monitor dated triggers/gaps (tracking without pre-emption).
 3. Bounded gap work only if a trigger fires.
@@ -39,7 +40,7 @@ On a non-no-op completion: advance all 8 artifacts (newest block first), read ba
 - Parking **13** (12 active: P-001–003,005–012,014; 1 closed: P-004 Cycle 58/R-038)
 - Validation specs **11** (V-001–010,V-012; V-011 reserved)
 - Known baselines **111** · Coverage-map rows **34** (A–I,10–34)
-- Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-06T11:01:53Z).
+- Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-06).
 - Rubric clean: IDEA-011 69.0 (#1) · IDEA-004 63.0 (#2) · IDEA-014 52.0 (#3) · IDEA-009 42.0 (#4) · IDEA-010 parked P-014 terminal 55.0.
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
