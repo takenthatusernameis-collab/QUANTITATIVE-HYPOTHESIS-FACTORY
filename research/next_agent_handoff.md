@@ -1,8 +1,9 @@
-Session check 2026-11-06T09:06:00Z (checkpoint base `ebeec39`, HEAD `5613a18e`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
-## Prior agent task status
-**Complete (no-op).** Read durable handoff and verified override conditions at 2026-11-06T09:06:00Z. State-delta passed (base `ebeec39`, HEAD `5613a18e`; clean tree; only `research/next_agent_handoff.md` changed since checkpoint). Cycle remains 1252; no other artifacts touched.
+Session check 2026-11-06T09:06:30Z (checkpoint base `ebeec39`, HEAD `ec9b6709`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only. DELAY-ELIMINATION OVERRIDE rule 1 applies (state-delta passed) → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
-## Initial task message for the next agent (2026-11-06T08:16:54Z)
+## Prior agent task status
+**Complete (no-op).** Read durable handoff and verified override conditions at 2026-11-06T09:06:30Z. State-delta passed (base `ebeec39`, HEAD `ec9b6709`; clean tree; only `research/next_agent_handoff.md` changed since checkpoint). Cycle remains 1252; no other artifacts touched.
+
+## Initial task message for the next agent (2026-11-06T09:06:30Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -37,7 +38,7 @@ On a non-no-op completion: advance all 8 artifacts (newest block first), read ba
 - Rejections **75** (R-001–075; 33 `## R-` + 42 `### R-`, contiguous)
 - Parking **13** (12 active: P-001–003,005–012,014; 1 closed: P-004 Cycle 58/R-038)
 - Validation specs **11** (V-001–010,V-012; V-011 reserved)
-- Known baselines **111** · Coverage-map rows **34** (A–I,10–34; no `coverage_map.md` file in repo)
+- Known baselines **111** · Coverage-map rows **34** (A–I,10–34)
 - Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-06).
 - Rubric clean: IDEA-011 69.0 (#1) · IDEA-004 63.0 (#2) · IDEA-014 52.0 (#3) · IDEA-009 42.0 (#4) · IDEA-010 parked P-014 terminal 55.0.
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
