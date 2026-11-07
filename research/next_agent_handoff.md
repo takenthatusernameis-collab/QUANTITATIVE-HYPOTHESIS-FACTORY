@@ -1,10 +1,10 @@
-Session check 2026-11-07T11:04:03Z (checkpoint base `ebeec39`, HEAD `9c76a9a5`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-07T11:04:45Z (checkpoint base `ebeec39`, HEAD `53ee15d`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-07T11:04:03Z. Override conditions satisfied (checkpoint base `ebeec39`; only `research/next_agent_handoff.md` changed since base). No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
+**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-07T11:04:45Z. Override conditions satisfied. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
-## Initial task message for the next agent (2026-11-07T11:04:03Z)
+## Initial task message for the next agent (2026-11-07T11:04:45Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -41,7 +41,7 @@ On a non-no-op completion: advance all 8 artifacts (newest block first), read ba
 - Ledger **437** (423 verifiable; 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457)
 - Dossiers **15** (IDEA-001–015)
 - Rejections **75** (R-001–075; 33 `## R-` + 42 `### R-`, contiguous)
-- Parking **13** (12 active: P-001, P-002, P-003, P-005, P-006, P-007, P-008, P-009, P-010, P-011, P-012, P-014; 1 closed: P-004 Cycle 58/R-038)
+- Parking **13** (12 active: P-001–003, P-005–012, P-014; 1 closed: P-004 Cycle 58/R-038)
 - Validation specs **11** (V-001–010, V-012; V-011 reserved)
 - Known baselines **111** · Coverage-map rows **34** (A–I, 10–34)
 - Gaps unmoved; partition 7 open / 3 not open. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07).
