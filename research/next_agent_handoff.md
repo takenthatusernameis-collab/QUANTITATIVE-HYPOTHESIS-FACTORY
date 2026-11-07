@@ -1,10 +1,10 @@
-Session check 2026-11-07T10:11:15Z (checkpoint base `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-07T10:12:07Z (checkpoint base `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Read durable handoff and verified artifacts/state at 2026-11-07T10:11:15Z. Override conditions satisfied: (a) clean tree, (b) only `research/next_agent_handoff.md` differs from `ebeec39`. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
+**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-07T10:12:07Z. Override conditions satisfied: (a) clean tree, (b) only `research/next_agent_handoff.md` differs from `ebeec39`. No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
-## Initial task message for the next agent (2026-11-07T10:11:15Z)
+## Initial task message for the next agent (2026-11-07T10:12:07Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
@@ -29,10 +29,10 @@ Before doing any work, check:
 **If (a)+(b)/state-delta no-op holds → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
 
 **If state changed since checkpoint base** → execute pre-registered priorities:
-1. Housekeeping & gap monitoring — re-derive counts mechanically from file bodies before writing figures; advance cycle headers in all 8 artifacts only if advancing.
-2. Monitor dated triggers/gaps (tracking without pre-emption).
-3. Bounded gap work only if a trigger fires.
-4. Rubric re-run — record only if a cell/score/rank/flag moves.
+1. **Housekeeping & gap monitoring** — re-derive counts mechanically from file bodies before writing figures; advance cycle headers in all 8 artifacts only if advancing.
+2. **Monitor dated triggers/gaps** (tracking without pre-emption).
+3. **Bounded gap work** only if a trigger fires.
+4. **Rubric re-run** — record only if a cell/score/rank/flag moves.
 
 On a non-no-op completion: advance all 8 artifacts (newest block first), read back by content, pass identifier-integrity check, then rewrite this handoff with a fresh initial task message.
 
