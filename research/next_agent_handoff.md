@@ -1,21 +1,23 @@
-Session check 2026-11-07T06:21:12Z (checkpoint base `ebeec39`, HEAD `52cc58a0`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-07T07:07:34Z (checkpoint base `ebeec39`, HEAD `5ffd72e9`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Read prior handoff and verified override conditions at 2026-11-07T06:21:12Z (`git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only; date 2026-11-07). No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
+**Complete (no-op).** Read prior handoff and verified override conditions at 2026-11-07T07:07:34Z (`git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` = `research/next_agent_handoff.md` only; date 2026-11-07). No trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — future-dated vs 2026-11-07). Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
-## Initial task message for the next agent (2026-11-07T06:21:12Z)
+## Initial task message for the next agent (2026-11-07T07:07:34Z)
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation).
 
 ### Scope boundary (hard)
 
 Do **not**: backtest, simulate, run parameter sweeps/optimisation, do significance testing on strategy results, compute performance/risk metrics, acquire/process market data, implement strategies/signals, build executable research infrastructure, launch jobs/workflows, change workflow files/tests/credentials/infra, work in other repos, or trade.
+
 Allowed: read/summarise literature, market-structure/venue/regulator material, and repo notes; specify hypotheses, falsifiable predictions, observables, and data requirements; maintain theory-only artifacts. If a question can only be answered by running something, write the question down precisely and hand it off.
 
 ### 1) Read first (in order)
 
 `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`.
+
 Rules: preserve prior work; never invent citations (every external claim → source-ledger entry with verification method); score with the fixed rubric as **research priority**, never as probability of profit.
 
 ### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39`)
@@ -47,5 +49,3 @@ On a non-no-op completion: advance all 8 artifacts (newest block first), read ba
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
 **If no trigger fires and state-delta remains no-op:** repeat override check (checkpoint base `ebeec39`); if passed, update only this handoff and stop.
-
-(End of file)
