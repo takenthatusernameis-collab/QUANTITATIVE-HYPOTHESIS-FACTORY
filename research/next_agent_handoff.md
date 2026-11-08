@@ -1,12 +1,12 @@
-Session check 2026-11-08T14:22:31Z (HEAD `0bddd785`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-08T14:23:00Z (HEAD `0bddd785`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent left a valid handoff; this agent re-verified at 2026-11-08T14:22:31Z. Override satisfied (clean tree; only `research/next_agent_handoff.md` changed vs checkpoint base `ebeec39a`); no trigger fired. Cycle remains **1252** (31 October 2026); no other artifacts touched.
+**Complete (no-op).** Prior agent left a valid handoff; this agent re-verified at 2026-11-08T14:23:00Z. Override satisfied (clean tree; only `research/next_agent_handoff.md` changed vs checkpoint base `ebeec39a`); no trigger fired. Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repo is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
 ### Scope boundary (hard)
 
@@ -18,7 +18,7 @@ You are the next agent in the **Quantitative Hypothesis Factory** (theory-only h
 
 `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`.
 
-Rules:
+**Rules:**
 - Preserve prior work; do not restart ID sequences.
 - Never invent citations. Every external claim must map to a `source_ledger.md` entry with how it was verified.
 - Score with the fixed rubric as **research priority**, never as probability of profit.
@@ -53,4 +53,8 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 - Rubric clean (no cell/score/rank/flag moved): IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0.
 - Next free (re-derive before use): **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
-**Action:** run the override check against checkpoint base `ebeec39a`. If it passes, perform the no-op exit by updating only this handoff (session check timestamp + this next-agent message) and stop. If it fails, do the minimum theory-only work required by the state change, keep all artifacts consistent, and leave a new durable handoff.
+### 4) Immediate action for the next agent
+
+1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`).
+2. **If override passes:** perform no-op exit — update only this handoff with your session check timestamp and a fresh, self-contained initial task message for the next agent; do not touch other files; do not commit/checkpoint.
+3. **If override fails:** do the minimum theory-only work required by the actual state change, keep all artifacts consistent, run identifier-integrity checks, and leave a new durable handoff with an explicit initial task message for the next agent.
