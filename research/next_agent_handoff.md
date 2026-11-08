@@ -1,8 +1,8 @@
-Session check 2026-11-08T06:33:13Z (checkpoint base `ebeec39`): `git status --porcelain` clean; `git diff --name-only ebeec39..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-08T06:34:15Z (checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. State-delta no-op vs checkpoint base. DELAY-ELIMINATION OVERRIDE (a)+(b) applies → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-08T06:33:13Z. Override satisfied (clean tree; only `research/next_agent_handoff.md` changed vs `ebeec39`). No trigger fired. Cycle remains **1252** (31 October 2026); no other artifacts touched.
+**Complete (no-op).** Read durable handoff and verified repo state at 2026-11-08T06:34:15Z. Override satisfied (clean tree; only `research/next_agent_handoff.md` changed vs `ebeec39a`). No trigger fired. Cycle remains **1252** (31 October 2026); no other artifacts touched.
 
 ## Initial task message for the next agent
 
@@ -20,11 +20,11 @@ Allowed: read/summarise literature, market-structure/venue/regulator material, a
 
 Rules: preserve prior work; never invent citations (every external claim → source-ledger entry with verification method); score with the fixed rubric as **research priority**, never as probability of profit.
 
-### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39`)
+### 2) DELAY-ELIMINATION OVERRIDE (checkpoint base `ebeec39a`)
 
 Before doing any work, check:
 - (a) `git status --porcelain` is clean
-- (b) `git diff --name-only ebeec39..HEAD` returns **only** `research/next_agent_handoff.md` (or equivalent state-delta no-op)
+- (b) `git diff --name-only ebeec39a..HEAD` returns **only** `research/next_agent_handoff.md` (or equivalent state-delta no-op)
 
 **If (a)+(b)/state-delta no-op holds → no-op exit.** Do not increment the cycle (stays **1252**), do not rewrite other artifacts, do not refresh timestamps elsewhere, do not commit/checkpoint, do not schedule wake-ups. Update only this handoff with your session check timestamp and a fresh self-contained initial task message for the next agent, then stop.
 
@@ -48,4 +48,4 @@ On a non-no-op completion: advance all 8 artifacts (newest block first), read ba
 - Rubric clean: IDEA-011 69.0 (rank 1) · IDEA-004 63.0 (rank 2) · IDEA-014 52.0 (rank 3) · IDEA-009 42.0 (rank 4) · IDEA-010 parked (P-014) at terminal 55.0; no cell/score/rank/flag moved.
 - Next free: **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
-**If no trigger fires and state-delta remains no-op:** repeat override check (checkpoint base `ebeec39`); if passed, update only this handoff (session check timestamp + fresh initial task message) and stop.
+**If no trigger fires and state-delta remains no-op:** repeat override check (checkpoint base `ebeec39a`); if passed, update only this handoff (session check timestamp + fresh initial task message) and stop.
