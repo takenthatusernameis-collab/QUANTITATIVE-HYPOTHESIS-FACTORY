@@ -1,13 +1,13 @@
-Session check 2026-11-09T08:17:02Z (HEAD `bed6f95f3aadde8cc8909ffa061efcb1f19f4298`; checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-09T08:17:57Z (HEAD `ece92ab0a3936a751ec6c4b455ee9eb5948ccfb6`; checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent (session check 2026-11-09T08:15:04Z) verified the DELAY-ELIMINATION OVERRIDE at HEAD `49aebd3b71e944f986fa27368beb84408ad4f2df` (base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differed from base; no dated trigger fired. Cycle remained **1252** (31 October 2026); no other artifacts touched.
-This session verified the override at 2026-11-09T08:17:02Z (HEAD `bed6f95f3aadde8cc8909ffa061efcb1f19f4298`, base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differs from base; no dated trigger fired as of 2026-11-09T08:17:02Z. No-op exit; no other artifacts touched.
+**Complete (no-op).** Prior agent (session check 2026-11-09T08:17:02Z) verified the DELAY-ELIMINATION OVERRIDE at HEAD `bed6f95f3aadde8cc8909ffa061efcb1f19f4298` (base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differed from base; no dated trigger fired. Cycle remained **1252** (31 October 2026); no other artifacts touched.
+This session verified the override at 2026-11-09T08:17:57Z (HEAD `ece92ab0a3936a751ec6c4b455ee9eb5948ccfb6`, base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differs from base; no dated trigger fired as of 2026-11-09T08:17:57Z. No-op exit; no other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-09T08:17:02Z (HEAD `bed6f95f3aadde8cc8909ffa061efcb1f19f4298`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-09T08:17:57Z (HEAD `ece92ab0a3936a751ec6c4b455ee9eb5948ccfb6`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 
 ### Scope boundary (hard)
 
