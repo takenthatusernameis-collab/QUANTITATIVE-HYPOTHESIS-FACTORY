@@ -1,12 +1,12 @@
-Session check 2026-11-09T21:32:14Z (HEAD `bb0886840478092e812672638b42920135372ee9`; checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-09T21:32:52Z (HEAD `fe45831710db74737d140778b04a1a019ebdb7aa`; checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior task read from durable handoff; override re-verified this session (2026-11-09T21:32:14Z, HEAD `bb088684`, base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differs from base; no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-09). No other artifacts touched.
+**Complete (no-op).** Prior task read from durable handoff; override re-verified this session (2026-11-09T21:32:52Z, HEAD `fe458317`, base `ebeec39a`): clean tree; only `research/next_agent_handoff.md` differs from base; no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-09). No other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-09T21:32:14Z (HEAD `bb0886840478092e812672638b42920135372ee9`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-09T21:32:52Z (HEAD `fe45831710db74737d140778b04a1a019ebdb7aa`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 
 ### Scope boundary (hard)
 
