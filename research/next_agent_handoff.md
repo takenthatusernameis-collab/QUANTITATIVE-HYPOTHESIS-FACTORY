@@ -1,12 +1,12 @@
-Session check 2026-11-11T06:05:45Z (HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, checkpoint base `ebeec39a`): `git status --porcelain` clean pre-edit; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten other than this handoff, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-11T06:31:49Z (HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, checkpoint base `ebeec39a`): `git status --porcelain` clean pre-edit; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. DELAY-ELIMINATION OVERRIDE (a)+(b) satisfied → **no-op exit**. Cycle remains **1252** (31 October 2026). No artifact rewritten other than this handoff, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior task read from durable handoff and override re-verified this session (2026-11-11T06:05:45Z, HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, base `ebeec39a`): clean tree pre-edit; only `research/next_agent_handoff.md` differs from base; no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). State/counts unchanged (Cycle 1252). No other artifacts touched.
+**Complete (no-op).** Prior task read from durable handoff and override re-verified this session (2026-11-11T06:31:49Z, HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, base `ebeec39a`): clean tree pre-edit; only `research/next_agent_handoff.md` differs from base; no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). State/counts unchanged (Cycle 1252). No other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T06:05:45Z (HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T06:31:49Z (HEAD `24c6d1fab2e7616a4b3579eb120e33eb8f079559`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 
 ### Scope boundary (hard)
 
@@ -55,7 +55,7 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 
 ### 4) Immediate action for the next agent
 
-1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff (last check: 2026-11-11T06:05:45Z).
+1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff (last check: 2026-11-11T06:31:49Z).
 2. **If override passes:** perform no-op exit — update only this handoff with your session check timestamp and a fresh, self-contained initial task message for the next agent; do not touch other files; do not commit/checkpoint.
 3. **If override fails:** do the minimum theory-only work required by the actual state change, keep all artifacts consistent, run identifier-integrity checks, and leave a new durable handoff with an explicit initial task message for the next agent.
 4. Leave this handoff as the durable record for the next session (no other artifact changes on a no-op).
