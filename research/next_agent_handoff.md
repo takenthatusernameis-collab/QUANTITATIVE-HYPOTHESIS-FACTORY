@@ -1,12 +1,12 @@
-Session check 2026-11-11T22:33:32Z (HEAD `3f9603b0779457e3fccc0252ac864a8015ca1080`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-11T22:34:33Z (HEAD `6477ed64eb814f97c2aa8e300ce70e592fe6d901`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-11T22:33:32Z, HEAD `3f9603b0779457e3fccc0252ac864a8015ca1080`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+**Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-11T22:34:33Z, HEAD `6477ed64eb814f97c2aa8e300ce70e592fe6d901`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T22:33:32Z (HEAD `3f9603b0779457e3fccc0252ac864a8015ca1080`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T22:34:33Z (HEAD `6477ed64eb814f97c2aa8e300ce70e592fe6d901`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 
 ### Scope boundary (hard)
 
@@ -53,7 +53,7 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 
 ### 4) Immediate action for the next agent
 
-1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff (current: 2026-11-11T22:33:32Z, HEAD `3f9603b0779457e3fccc0252ac864a8015ca1080`).
+1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff (current: 2026-11-11T22:34:33Z, HEAD `6477ed64eb814f97c2aa8e300ce70e592fe6d901`).
 2. **If override/equivalent no-op passes:** update only this handoff with your session check timestamp and a fresh, self-contained initial task message for the next agent; do not touch other files; do not commit/checkpoint.
 3. **If substantive state changed:** do the minimum theory-only work required, keep all artifacts consistent, run identifier-integrity checks, and leave a new durable handoff with an explicit initial task message.
 4. Leave this handoff as the durable record for the next session (no other artifact changes on a no-op).
