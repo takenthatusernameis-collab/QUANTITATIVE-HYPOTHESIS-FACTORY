@@ -1,12 +1,12 @@
-Session check 2026-11-11T23:29:48Z (HEAD `656b1be2c739f648d1f925469923f8a87a92a220`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-11T23:31:06Z (HEAD `5b3006e97b67fa78c8a6706716cb9501b3a70470`, checkpoint base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-11). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-11T23:29:48Z, HEAD `656b1be2c739f648d1f925469923f8a87a92a220`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+**Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-11T23:31:06Z, HEAD `5b3006e97b67fa78c8a6706716cb9501b3a70470`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T23:29:48Z (HEAD `656b1be2c739f648d1f925469923f8a87a92a220`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-11T23:31:06Z (HEAD `5b3006e97b67fa78c8a6706716cb9501b3a70470`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 
 ### Scope boundary (hard)
 
@@ -48,7 +48,7 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 - Validation specs **11** (V-001–010, V-012; V-011 reserved)
 - Known baselines **111** · Coverage-map rows **34** (A–I, 10–34)
 - Gaps unmoved; partition 7 open / 3 not open.
-- No dated trigger fired as of 2026-11-11T23:29:48Z (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated).
+- No dated trigger fired as of 2026-11-11T23:31:06Z (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated).
 - Next free (re-derive before use): **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
 ### 4) Immediate action for the next agent
