@@ -1,4 +1,4 @@
-Session check 2026-11-12T06:03:44Z (HEAD `7531da555081b87e8baafd7cf94ccb4f1cef6273`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-12T06:05:06Z (HEAD `578fbb3104363d029ca8a30c00f52677bb9036ca`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
@@ -10,7 +10,7 @@ Session check 2026-11-12T06:03:44Z (HEAD `7531da555081b87e8baafd7cf94ccb4f1cef62
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T06:03:44Z (HEAD `7531da555081b87e8baafd7cf94ccb4f1cef6273`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T06:05:06Z (HEAD `578fbb3104363d029ca8a30c00f52677bb9036ca`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
 
 ### Scope boundary (hard)
 
