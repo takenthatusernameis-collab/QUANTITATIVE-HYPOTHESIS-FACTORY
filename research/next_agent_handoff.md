@@ -1,12 +1,12 @@
-Session check 2026-11-12T02:10:29Z (HEAD `16421e0c6bc1566e3738514a3ea053c847c8e00f`, checkpoint base `ebeec39a`): `git status --porcelain` clean before handoff update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-12T02:12:00Z (HEAD `2f99349097fdc48ccb2c2035a0f04b915687b930`, checkpoint base `ebeec39a`): `git status --porcelain` clean before handoff update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 2:
-3: ## Prior agent task status
-4:
-5: **Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-12T02:10:29Z, HEAD `16421e0c6bc1566e3738514a3ea053c847c8e00f`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+## Prior agent task status
+
+**Complete (no-op).** Prior agent task read from durable handoff and override re-verified this session (2026-11-12T02:12:00Z, HEAD `2f99349097fdc48ccb2c2035a0f04b915687b930`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 6:
 7: ## Initial task message for the next agent
 8:
-9: You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T02:10:29Z (HEAD `16421e0c6bc1566e3738514a3ea053c847c8e00f`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
+9: You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T02:12:00Z (HEAD `2f99349097fdc48ccb2c2035a0f04b915687b930`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026).
 10:
 11: ### Scope boundary (hard)
 12:
@@ -48,12 +48,12 @@ Session check 2026-11-12T02:10:29Z (HEAD `16421e0c6bc1566e3738514a3ea053c847c8e0
 48: - Validation specs **11** (V-001–010, V-012; V-011 reserved)
 49: - Known baselines **111** · Coverage-map rows **34** (A–I, 10–34)
 50: - Gaps unmoved; partition 7 open / 3 not open.
-51: - No dated trigger fired as of 2026-11-12T02:10:29Z (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated).
+51: - No dated trigger fired as of 2026-11-12T02:12:00Z (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated).
 52: - Next free (re-derive before use): **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 53:
 54: ### 4) Immediate action for the next agent
 55:
-56: 1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff. If conditions hold (current state as of 2026-11-12T02:10:29Z: handoff-only delta before update, clean tree, no dated trigger fired), do not increment cycle or touch other artifacts.
+56: 1. Run the override check against checkpoint base `ebeec39a` (`git status --porcelain`; `git diff --name-only ebeec39a..HEAD`). Record your session timestamp/HEAD in this handoff. If conditions hold (current state as of 2026-11-12T02:12:00Z: handoff-only delta before update, clean tree, no dated trigger fired), do not increment cycle or touch other artifacts.
 57: 2. **If override/equivalent no-op passes:** update only this handoff with your session check timestamp and a fresh, self-contained initial task message for the next agent; do not touch other files; do not commit/checkpoint.
 58: 3. **If substantive state changed:** do the minimum theory-only work required, keep all artifacts consistent, run identifier-integrity checks, and leave a new durable handoff with an explicit initial task message.
 59: 4. Leave this handoff as the durable record for the next session (no other artifact changes on a no-op).
