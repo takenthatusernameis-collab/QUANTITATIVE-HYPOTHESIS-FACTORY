@@ -1,16 +1,16 @@
-Session check 2026-11-12T13:17:11Z (HEAD `036296c36177ce1b630dfa7ad625c17417f7d3a4`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-12T16:27:14Z (HEAD `b465c80c232d23a86fff82a137822372b608b251`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T13:17:11Z, HEAD `036296c36177ce1b630dfa7ad625c17417f7d3a4`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+**Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T16:27:14Z, HEAD `b465c80c232d23a86fff82a137822372b608b251`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 
 ## This session check
 
-**No-op exit.** Delay-elimination override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Spot-checks confirm carried state unchanged: 15 dossiers (IDEA-001…015), 75 rejections (R-001…075; 33 `## R-` + 42 `### R-`), 13 parking records (12 active, 1 closed P-004), 11 validation specs (V-001…010, V-012; V-011 reserved), highest ledger source ID `S-457` body heading with next-free `S-458`, 111 known baselines, 34 coverage-map rows. Ledger arithmetic carried forward (re-derived prior session, consistent): **409** `### S-` body headings **+ 28 early sources (S-001…S-028, cited but carried without body headings) = 437** entries; **14 struck** (S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457); **423 verifiable** (395 non-struck body headings + 28 early). No state delta; cycle remains **1252**. Only this handoff updated with current session check timestamp/HEAD and refreshed next-agent task message.
+**No-op exit.** Delay-elimination override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Carried state unchanged (verified against handoff/README/ranked_shortlist): 15 dossiers (IDEA-001…015), 75 rejections (R-001…075; 33 `## R-` + 42 `### R-`), 13 parking records (12 active: P-001, P-002, P-003, P-005–P-012, P-014; 1 closed: P-004), 11 validation specs (V-001…010, V-012; V-011 reserved), highest ledger source ID `S-457` with next-free `S-458`, 111 known baselines, 34 coverage-map rows (A–I, 10–34). Ledger arithmetic carried forward: **409** `### S-` body headings **+ 28 early sources (S-001…S-028, cited but carried without body headings) = 437** entries; **14 struck** (S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457); **423 verifiable** (395 non-struck body headings + 28 early). Rubric unchanged — IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at terminal 55.0. No state delta; cycle remains **1252**. Only this handoff updated with current session check timestamp/HEAD and refreshed next-agent task message.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T13:17:11Z (HEAD `036296c36177ce1b630dfa7ad625c17417f7d3a4`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T16:27:14Z (HEAD `b465c80c232d23a86fff82a137822372b608b251`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
 
 ### Scope boundary (hard)
 
@@ -49,7 +49,7 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 
 ### 3) Verified state to carry forward (Cycle 1252, 31 Oct 2026 — unchanged unless state delta requires work)
 
-- Ledger **437** entries (423 verifiable; 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457). Counting convention (re-derived this session): 409 `### S-` body headings (S-029…S-457, with the reserved/unused ranges S-210–219 and S-281–290 and S-458 absent) + 28 early sources S-001…S-028 cited without body headings = 437; 423 verifiable = 395 non-struck body headings + 28 early.
+- Ledger **437** entries (423 verifiable; 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457). Counting convention: 409 `### S-` body headings (S-029…S-457; reserved/unused S-210–219, S-281–290, S-458 absent) + 28 early sources S-001…S-028 cited without body headings = 437; 423 verifiable = 395 non-struck body headings + 28 early.
 - Dossiers **15** (IDEA-001–015)
 - Rejections **75** (R-001–075; 33 `## R-` + 42 `### R-` headings, contiguous, no gaps/duplicates/unnumbered bodies)
 - Parking **13** (12 active: P-001, P-002, P-003, P-005, P-006, P-007, P-008, P-009, P-010, P-011, P-012, P-014; 1 closed: P-004, CLOSED Cycle 58/R-038)
@@ -57,6 +57,7 @@ On any non-no-op completion: update all affected artifacts, then rewrite this ha
 - Known baselines **111** · Coverage-map rows **34** (A–I, 10–34)
 - Gaps unmoved; partition 7 open / 3 not open.
 - No dated trigger fired as of this check (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated).
+- Rubric (unchanged): IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at terminal 55.0.
 - Next free (re-derive before use): **IDEA-016, S-458, V-013, R-076, P-015, G-39**. Reserved/unused: IDEA-017, S-210–219.
 
 ### 4) Immediate action for the next agent
