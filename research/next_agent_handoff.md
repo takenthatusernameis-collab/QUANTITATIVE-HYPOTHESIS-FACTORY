@@ -1,8 +1,8 @@
-1: Session check 2026-11-12T10:14:57Z (HEAD `4d6c430a`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+1: Session check 2026-11-12T10:16:50Z (HEAD `8bf68d4a`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 2:
 3: ## Prior agent task status
 4:
-5: **Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T10:14:57Z, HEAD `4d6c430a`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+5: **Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T10:16:50Z, HEAD `8bf68d4a`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 6:
 7: ## This session check
 8:
@@ -10,7 +10,7 @@
 10:
 11: ## Initial task message for the next agent
 12:
-13: You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T10:14:57Z (HEAD `4d6c430a`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
+13: You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T10:16:50Z (HEAD `8bf68d4a`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
 14:
 15: ### Scope boundary (hard)
 16:
