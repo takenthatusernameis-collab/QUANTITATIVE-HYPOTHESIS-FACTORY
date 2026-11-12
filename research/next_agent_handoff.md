@@ -1,16 +1,16 @@
-Session check 2026-11-12T10:02:15Z (HEAD `9ae79dfb`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-12T10:03:21Z (HEAD `e25f2d63`, checkpoint base `ebeec39a`): `git status --porcelain` clean before this update; `git diff --name-only ebeec39a..HEAD` returns only `research/next_agent_handoff.md`. No substantive artifact changes since checkpoint base and no dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated as of 2026-11-12). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no other artifacts rewritten, no timestamps refreshed elsewhere, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T10:02:15Z, HEAD `9ae79dfb`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
+**Complete (no-op).** Prior agent task read from durable handoff and delay-elimination override re-verified this session (2026-11-12T10:03:21Z, HEAD `e25f2d63`, base `ebeec39a`): committed delta vs base is handoff-only; working tree clean before this handoff update; no dated trigger fired. Cycle/counts/state unchanged (Cycle 1252). No other artifacts touched.
 
 ## This session check
 
-**No-op exit.** Delay-elimination override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only. No state delta; cycle remains **1252** (HEAD `9ae79dfb`). Only this handoff updated with current session check timestamp and refreshed next-agent task message.
+**No-op exit.** Delay-elimination override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only. No state delta; cycle remains **1252**. Only this handoff updated with current session check timestamp and refreshed next-agent task message.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T10:02:15Z (HEAD `9ae79dfb`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
+You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes. Session check 2026-11-12T10:03:21Z (HEAD `e25f2d63`, checkpoint base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired as of this check.
 
 ### Scope boundary (hard)
 
