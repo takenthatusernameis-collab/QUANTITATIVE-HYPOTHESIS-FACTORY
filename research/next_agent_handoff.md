@@ -1,14 +1,14 @@
-Session check 2026-11-14T10:41:05Z (HEAD `82623c649ac16ee4c4d64fabeebd8676aee353d9`, base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts verified at top block **Cycle 1252 (31 October 2026)** (newest block first, chain continuous). No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no cycle increment, no other artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled. This session re-verified the no-op against HEAD `82623c649` and replaced this handoff with a compact current state + fresh initial task message (prior no-op session logs retained in git history).
+Session check 2026-11-14T10:42:30Z (HEAD `26492d8809036dc0b7578bd923c1a5c9c8a428cb`, base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts remain at top block **Cycle 1252 (31 October 2026)** (newest block first, chain continuous). No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no cycle increment, no other artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled. Prior no-op session logs retained in git history.
 
 ## Prior agent task status
 
-**Complete (no-op).** Prior task (read handoff, verify no-op override, refresh handoff) executed per durable handoff. This session re-verified the equivalent no-op (working tree clean; diff from base `ebeec39a` = `research/next_agent_handoff.md` only) and refreshed this handoff. Other artifacts unchanged at Cycle 1252 (31 Oct 2026); no dated trigger fired.
+**Complete (no-op).** Prior task (read durable handoff, verify DELAY-ELIMINATION OVERRIDE, refresh handoff) executed. This session re-verified against HEAD `26492d8809`: working tree clean and diff from base `ebeec39a` remains `research/next_agent_handoff.md` only. Other artifacts unchanged at Cycle 1252 (31 Oct 2026); no dated trigger fired.
 
 ## This session check
 
-**No-op exit (2026-11-14T10:41:05Z, HEAD `82623c649ac16ee4c4d64fabeebd8676aee353d9`, base `ebeec39a`).** Override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` returns **only** `research/next_agent_handoff.md` (equivalent state-delta no-op). HEAD advanced from `fbcb9298` (prior session) to `82623c649`; the diff from base is unchanged, so the equivalent no-op still holds.
+**No-op exit (2026-11-14T10:42:30Z, HEAD `26492d8809036dc0b7578bd923c1a5c9c8a428cb`, base `ebeec39a`).** Override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only. HEAD changed since prior check; state delta from base is unchanged (equivalent no-op). Handoff refreshed with this session check and a fresh initial task message only.
 
-Carried state (Cycle 1252, 31 Oct 2026) unchanged and re-verified read-only from durable handoff + artifact heads and bodies:
+Carried state (Cycle 1252, 31 Oct 2026) unchanged (re-verified read-only from durable handoff + artifact heads):
 
 - Dossiers **15** (IDEA-001–IDEA-015) — `^## IDEA-` heading count = 15 (distinct ids 15). Rejections **75** (R-001–R-075; 33 `## R-` + 42 `### R-`). Parking **13** (12 active: P-001–P-003, P-005–P-012, P-014; 1 closed: P-004). Validation specs **11** (V-001–V-010, V-012; V-011 reserved).
 - Ledger stated **437** (423 verifiable + 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457); raw `### S-` heading count = **409**, consistent with the documented S-001–S-028 no-individual-heading caveat. 437-vs-447 reconciliation remains open (substantive only).
@@ -26,7 +26,7 @@ The **cycle-log lines at the head of the artifacts** (README, idea_register, ran
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
-**Session context (carry forward):** check 2026-11-14T10:41:05Z (HEAD `82623c649ac16ee4c4d64fabeebd8676aee353d9`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
+**Session context (carry forward):** check 2026-11-14T10:42:30Z (HEAD `26492d8809036dc0b7578bd923c1a5c9c8a428cb`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
 
 ### 1) Read first (in order)
 
