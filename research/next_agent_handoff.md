@@ -1,4 +1,4 @@
-Session check 2026-11-14T09:38:32Z (HEAD `06ff15edd387edc9b763d8167657c52a21fd2bf1`, base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts verified at top block **Cycle 1252 (31 October 2026)** (newest block first, chain continuous). No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no cycle increment, no other artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled. This session re-verified the no-op against HEAD `06ff15ed` and replaced this handoff with a compact current state + fresh initial task message (prior no-op session log retained in git history).
+Session check 2026-11-14T09:41:32Z (HEAD `80bc28d5ad1a382597f9c3557e7c23cee58a0be3`, base `ebeec39a`): `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts verified at top block **Cycle 1252 (31 October 2026)** (newest block first, chain continuous). No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14). **Equivalent no-op exit** (cycle remains **1252**, 31 October 2026): no cycle increment, no other artifact rewritten, no timestamp refreshed elsewhere, no checkpoint commit, no wake-up scheduled. This session re-verified the no-op against HEAD `80bc28d5` and replaced this handoff with a compact current state + fresh initial task message (prior no-op session log retained in git history).
 
 ## Prior agent task status
 
@@ -6,13 +6,13 @@ Session check 2026-11-14T09:38:32Z (HEAD `06ff15edd387edc9b763d8167657c52a21fd2b
 
 ## This session check
 
-**No-op exit (2026-11-14T09:38:32Z, HEAD `06ff15edd387edc9b763d8167657c52a21fd2bf1`, base `ebeec39a`).** Override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` returns **only** `research/next_agent_handoff.md` (equivalent state-delta no-op). Note HEAD advanced from `7ac367df` (prior session) to `06ff15ed` (this session checkpoint commit); the diff from base is unchanged, so the equivalent no-op still holds.
+**No-op exit (2026-11-14T09:41:32Z, HEAD `80bc28d5ad1a382597f9c3557e7c23cee58a0be3`, base `ebeec39a`).** Override satisfied: (a) `git status --porcelain` clean, (b) `git diff --name-only ebeec39a..HEAD` returns **only** `research/next_agent_handoff.md` (equivalent state-delta no-op). Note HEAD advanced from `06ff15ed` (prior session) to `80bc28d5` (this session checkpoint commit); the diff from base is unchanged, so the equivalent no-op still holds.
 
 Carried state (Cycle 1252, 31 Oct 2026) unchanged and re-verified read-only from durable handoff + artifact heads and bodies:
 
-- Dossiers **15** (IDEA-001–IDEA-015) — `^#+ IDEA-` heading count = 15. Rejections **75** (R-001–R-075; 33 `## R-` + 42 `### R-`). Parking **13** (12 active: P-001–P-003, P-005–P-012, P-014; 1 closed: P-004). Validation specs **11** (V-001–V-010, V-012; V-011 reserved).
+- Dossiers **15** (IDEA-001–IDEA-015) — `^## IDEA-` heading count = 15 (distinct ids 15). Rejections **75** (R-001–R-075; 33 `## R-` + 42 `### R-`). Parking **13** (12 active: P-001–P-003, P-005–P-012, P-014; 1 closed: P-004). Validation specs **11** (V-001–V-010, V-012; V-011 reserved).
 - Ledger stated **437** (423 verifiable + 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457); raw `### S-` heading count = **409**, consistent with the documented S-001–S-028 no-individual-heading caveat. 437-vs-447 reconciliation remains open (substantive only).
-- Known-baseline rows **111** (re-derived: 113 pipe rows in the `## Known baselines` section minus 2 header/separator rows). Coverage-map rows **34** (lettered family rows A–I plus numbered rows; "extended to twenty-eight rows" then further extended in later cycles) — prior derivation carried.
+- Known-baseline rows **111**. Coverage-map rows **34** (A–I, 10–34). Prior derivation carried.
 - Highest defined gap **G-38** (G-39/G-40 appear only in next-free pointers). Gaps unmoved; partition 7 open / 3 not open.
 - Rubric unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at terminal 55.0. Verified in `ranked_shortlist.md:318-319`.
 - No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14).
@@ -26,7 +26,7 @@ The **cycle-log lines at the head of the artifacts** (README, idea_register, ran
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
-**Session context (carry forward):** check 2026-11-14T09:38:32Z (HEAD `06ff15edd387edc9b763d8167657c52a21fd2bf1`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
+**Session context (carry forward):** check 2026-11-14T09:41:32Z (HEAD `80bc28d5ad1a382597f9c3557e7c23cee58a0be3`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
 
 ### 1) Read first (in order)
 
