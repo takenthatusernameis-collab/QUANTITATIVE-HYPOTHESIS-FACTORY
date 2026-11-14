@@ -1,20 +1,20 @@
-Session check 2026-11-14T13:31Z (HEAD `ba562985e2cac8cb7a5ac73bd38ca97847bc89ef`, base `ebeec39a`): re-read durable handoff; verified `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts remain at top block **Cycle 1252 (31 October 2026)**. Carried state re-verified read-only from durable handoff and artifact heads (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, raw `### S-` headings 409, rubric IDEA-011 69.0 rank 1 / IDEA-004 63.0 rank 2 / IDEA-014 52.0 rank 3 / IDEA-009 42.0 rank 4 / IDEA-010 parked P-014 at terminal 55.0). No dated trigger fired. **No-op exit** (cycle remains **1252**): no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-14T14:16Z (HEAD `8fc74ccc4e69018209b3ff06204232c164fd3e6d`, base `ebeec39a`): re-read durable handoff; `git status --porcelain` empty (clean worktree); `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts remain at top block **Cycle 1252 (31 October 2026)**. Carried state re-verified read-only from durable handoff and artifact bodies (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, raw `### S-` headings 409, rubric IDEA-011 69.0 rank 1 / IDEA-004 63.0 rank 2 / IDEA-014 52.0 rank 3 / IDEA-009 42.0 rank 4 / IDEA-010 parked P-014 at terminal 55.0). No dated trigger fired. **No-op exit** (cycle remains **1252**): no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op, 2026-11-14T13:28Z, prior HEAD `f2a47d221bafd05350b8cda1408e0667bdcb0b81`).** Prior agent re-verified DELAY-ELIMINATION OVERRIDE conditions, confirmed `git status` clean and handoff-only state delta from base `ebeec39a`, and executed a no-op exit (cycle stayed 1252).
+**Complete (no-op, 2026-11-14T13:31Z, prior HEAD `ba562985e2cac8cb7a5ac73bd38ca97847bc89ef`).** Prior agent re-verified the DELAY-ELIMINATION OVERRIDE conditions, confirmed a clean worktree and handoff-only state delta from base `ebeec39a`, and executed a no-op exit (cycle stayed 1252).
 
 ## This session check
 
-**No-op exit (2026-11-14T13:31Z, HEAD `ba562985e2cac8cb7a5ac73bd38ca97847bc89ef`, base `ebeec39a`).** DELAY-ELIMINATION OVERRIDE satisfied: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Carried state confirmed unchanged from durable handoff/artifact heads (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, raw `### S-` headings 409, rubric rows as below). No-op exit — no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
+**No-op exit (2026-11-14T14:16Z, HEAD `8fc74ccc4e69018209b3ff06204232c164fd3e6d`, base `ebeec39a`).** DELAY-ELIMINATION OVERRIDE satisfied: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Carried state confirmed unchanged from durable handoff and artifact bodies (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, raw `### S-` headings 409, rubric rows as below). No-op exit — no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
 
-Carried state (Cycle 1252, 31 Oct 2026) unchanged (re-verified read-only from durable handoff + artifact heads + mechanical counts):
+Carried state (Cycle 1252, 31 Oct 2026) unchanged (re-verified read-only from durable handoff + artifact bodies + mechanical counts):
 
-- Dossiers **15** (IDEA-001–IDEA-015) — `^## IDEA-` heading count = 15 (distinct ids 15). Rejections **75** (R-001–R-075; 33 `## R-` + 42 `### R-`). Parking **13** (12 active: P-001–P-003, P-005–P-012, P-014; 1 closed: P-004). Validation specs **11** (V-001–V-010, V-012; V-011 reserved).
+- Dossiers **15** (IDEA-001–IDEA-015) — `^## IDEA-` heading count = 15 (17 distinct IDEA- token strings across artifacts, the extra two being the reserved IDEA-016 / next-free IDEA-017 references). Rejections **75** (R-001–R-075; 33 `## R-` + 42 `### R-`). Parking **13** (12 active: P-001–P-003, P-005–P-012, P-014; 1 closed: P-004). Validation specs **11** (V-001–V-010, V-012; V-011 reserved).
 - Ledger stated **437** (423 verifiable + 14 struck: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457); raw `### S-` heading count = **409**, consistent with the documented S-001–S-028 no-individual-heading caveat. 437-vs-447 reconciliation remains open (substantive only).
 - Known-baseline rows **111**. Coverage-map rows **34** (A–I, 10–34). Prior derivation carried.
 - Highest defined gap **G-38** (G-39/G-40 appear only in next-free pointers). Gaps unmoved; partition 7 open / 3 not open.
-- Rubric unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at terminal 55.0. Verified in `ranked_shortlist.md` ranking table.
+- Rubric unchanged: IDEA-011 69.0 (rank 1), IDEA-004 63.0 (rank 2), IDEA-014 52.0 (rank 3), IDEA-009 42.0 (rank 4), IDEA-010 parked (P-014) at terminal 55.0. Verified in `ranked_shortlist.md` ranking/cycle blocks.
 - No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14).
 - `AGENTS.md` historical summary is stale; this handoff and artifact bodies are authoritative (`AGENTS.md` not edited).
 
@@ -26,7 +26,7 @@ The **cycle-log lines at the head of the artifacts** (README, idea_register, ran
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
-**Session context (carry forward):** check 2026-11-14T13:31Z (HEAD `ba562985e2cac8cb7a5ac73bd38ca97847bc89ef`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
+**Session context (carry forward):** check 2026-11-14T14:16Z (HEAD `8fc74ccc4e69018209b3ff06204232c164fd3e6d`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
 
 ### 1) Read first (in order)
 
