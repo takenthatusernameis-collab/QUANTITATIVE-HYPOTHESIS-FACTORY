@@ -1,12 +1,12 @@
-Session check 2026-11-14T13:17Z (HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`): re-read durable handoff and artifact heads; verified `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts remain at top block **Cycle 1252 (31 October 2026)**. Counts re-derived read-only and unchanged. No dated trigger fired. **No-op exit** (cycle remains **1252**): no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled.
+Session check 2026-11-14T13:18Z (HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`): re-read durable handoff and artifact heads; verified `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). All eight artifacts remain at top block **Cycle 1252 (31 October 2026)**. Counts re-derived read-only and unchanged. No dated trigger fired. **No-op exit** (cycle remains **1252**): no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled.
 
 ## Prior agent task status
 
-**Complete (no-op, 2026-11-14T13:15Z, prior HEAD `c02b1c9b`, now checkpointed at `32458a6f`).** Prior agent re-verified DELAY-ELIMINATION OVERRIDE conditions, confirmed `git status` clean and handoff-only state delta from base `ebeec39a`, and executed a no-op exit (cycle stays 1252).
+**Complete (no-op, 2026-11-14T13:17Z, prior HEAD `32458a6f`, checkpointed at `32458a6f`).** Prior agent re-verified DELAY-ELIMINATION OVERRIDE conditions, confirmed `git status` clean and handoff-only state delta from base `ebeec39a`, and executed a no-op exit (cycle stays 1252).
 
 ## This session check
 
-**No-op exit (2026-11-14T13:17Z, HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`).** DELAY-ELIMINATION OVERRIDE satisfied: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op; `git diff --stat` = 1 file changed, 52 insertions / 12 deletions, all in this handoff). Mechanical re-derivation confirmed the carried state is unchanged (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, S `###` headings 409, rubric rows as below). No-op exit — no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
+**No-op exit (2026-11-14T13:18Z, HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`).** DELAY-ELIMINATION OVERRIDE satisfied: (a) `git status --porcelain` clean; (b) `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op; `git diff --stat` = 1 file changed, insertions/deletions in this handoff). Mechanical re-derivation confirmed the carried state is unchanged (dossiers 15, rejections 75 = 33 `## R-` + 42 `### R-`, parking 13, validation specs 11, S `###` headings 409, rubric rows as below). No-op exit — no cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
 
 Carried state (Cycle 1252, 31 Oct 2026) unchanged (re-verified read-only from durable handoff + artifact heads + mechanical counts):
 
@@ -26,7 +26,7 @@ The **cycle-log lines at the head of the artifacts** (README, idea_register, ran
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
-**Session context (carry forward):** check 2026-11-14T13:17Z (HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
+**Session context (carry forward):** check 2026-11-14T13:18Z (HEAD `32458a6f7654bfe59c3fc4e62640d280a5135a58`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
 
 ### 1) Read first (in order)
 
