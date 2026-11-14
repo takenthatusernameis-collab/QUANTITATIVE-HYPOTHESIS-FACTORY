@@ -1,4 +1,4 @@
-Recent no-op session checks (consolidated): 2026-11-14T14:16Z–16:23Z at HEADs `8fc74ccc`..`0854a59e` (base `ebeec39a`). Each confirmed clean worktree and handoff-only state delta, re-verified carried state unchanged (Cycle 1252), found no dated trigger fired, and exited no-op (no cycle increment, no other artifact rewritten, no checkpoint, no wake-up).
+Recent no-op session checks (consolidated): 2026-11-14T14:16Z–16:26Z at HEADs `8fc74ccc`..`5d3445ed` (base `ebeec39a`). Each confirmed clean worktree and handoff-only state delta, re-verified carried state unchanged (Cycle 1252), found no dated trigger fired, and exited no-op (no cycle increment, no other artifact rewritten, no checkpoint, no wake-up).
 
 ## Prior agent task status
 
@@ -6,7 +6,7 @@ Recent no-op session checks (consolidated): 2026-11-14T14:16Z–16:23Z at HEADs 
 
 ## This session check
 
-**No-op exit (2026-11-14T16:24Z, HEAD `0854a59e`, base `ebeec39a`).** Re-verified conditions (a)+(b): working tree clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Carried state unchanged (Cycle 1252). No dated trigger fired. No cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
+**No-op exit (2026-11-14T16:26Z, HEAD `5d3445ed`, base `ebeec39a`).** Re-verified conditions (a)+(b): working tree clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). Carried state unchanged (Cycle 1252) — re-confirmed by grep: all 8 artifacts carry `Cycle 1252`; counts (437 ledger / 15 dossiers / 75 rejections / 13 parking / 11 validation specs / 111 baselines / 34 coverage-map rows) and rubric (IDEA-011 69.0 rank 1, IDEA-004 63.0 rank 2, IDEA-014 52.0 rank 3, IDEA-009 42.0 rank 4, IDEA-010 parked P-014 at 55.0) unchanged. No dated trigger fired. No cycle increment, no other artifact rewritten, no checkpoint commit, no wake-up scheduled. Handoff updated with this session check and a fresh initial task message for the next agent.
 
 Carried state (Cycle 1252, 31 Oct 2026) unchanged (re-verified read-only from durable handoff + mechanical counts):
 
@@ -26,7 +26,7 @@ The **cycle-log lines at the head of the artifacts** (README, idea_register, ran
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). This repository is a durable research state machine: preserve prior work and make small, auditable, theory-only changes.
 
-**Session context (carry forward):** check 2026-11-14T16:24Z (HEAD `0854a59e`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
+**Session context (carry forward):** check 2026-11-14T16:26Z (HEAD `5d3445ed`, base `ebeec39a`); cycle remains **1252** (31 October 2026). No dated trigger fired (IDEA-014 31 Mar 2027; IDEA-011 interims 30 Jun 2027; G-32(c)/G-33 2027 Q3; G-14 29 Mar 2029 — all future-dated vs 2026-11-14). State delta from base remains `research/next_agent_handoff.md` only (equivalent no-op).
 
 ### 1) Read first (in order)
 
