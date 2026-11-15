@@ -21,7 +21,7 @@
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). Preserve prior work; make small, auditable, theory-only changes only.
 
-**Session context:** no-op exit **2026-11-15T13:47:18Z, HEAD `51a9fb8a`, base `ebeec39a`** (clean tree; no state delta vs base; only `research/next_agent_handoff.md` changed vs base). Cycle remains **1252** (31 Oct 2026). No dated triggers fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-15).
+**Session context:** no-op exit **2026-11-15T13:48:10Z, HEAD `ff7f9abf`, base `ebeec39a`** (clean tree; no state delta vs base; only `research/next_agent_handoff.md` changed vs base). Cycle remains **1252** (31 Oct 2026). No dated triggers fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-15).
 
 ### 1) Read first (in order)
 `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`.
