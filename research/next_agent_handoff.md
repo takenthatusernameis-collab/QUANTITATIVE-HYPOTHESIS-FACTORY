@@ -1,6 +1,6 @@
 ## Session check — no-op exit (consolidated)
 
-- **2026-11-14T23:59:29Z, HEAD `17c26f61`, base `ebeec39a`:** `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). No dated trigger fired, no cycle increment, no other artifact rewritten, no commit/checkpoint, no wake-ups. This supersedes all prior 2026-11-14 no-op checks by consolidation. Carried state unchanged (Cycle 1252, 31 Oct 2026): 437 ledger (423 verifiable; 14 struck: S-104,S-117,S-154,S-172,S-174,S-185,S-187,S-208,S-234,S-280,S-322,S-379,S-380,S-457) / 15 dossiers (IDEA-001–IDEA-015) / 75 rejections (R-001–R-075) / 13 parking (12 active: P-001–P-003,P-005–P-012,P-014; 1 closed: P-004) / 11 validation specs (V-001–V-010,V-012; V-011 reserved) / 111 baselines / 34 coverage-map rows (A–I). Rubric unchanged: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 terminal 55.0. No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-14). `AGENTS.md` historical summary stale; this handoff + artifact bodies authoritative.
+- **2026-11-15T00:00:29Z, HEAD `c2b25354`, base `ebeec39a`:** `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (equivalent state-delta no-op). No dated trigger fired, no cycle increment, no other artifact rewritten, no commit/checkpoint, no wake-ups. This supersedes all prior 2026-11-14 no-op checks by consolidation. Carried state unchanged (Cycle 1252, 31 Oct 2026): 437 ledger (423 verifiable; 14 struck: S-104,S-117,S-154,S-172,S-174,S-185,S-187,S-208,S-234,S-280,S-322,S-379,S-380,S-457) / 15 dossiers (IDEA-001–IDEA-015) / 75 rejections (R-001–R-075) / 13 parking (12 active: P-001–P-003,P-005–P-012,P-014; 1 closed: P-004) / 11 validation specs (V-001–V-010,V-012; V-011 reserved) / 111 baselines / 34 coverage-map rows (A–I). Rubric unchanged: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 terminal 55.0. No dated trigger fired (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future-dated vs 2026-11-15). `AGENTS.md` historical summary stale; this handoff + artifact bodies authoritative.
 
 - Carried state (Cycle 1252, 31 Oct 2026), re-verified read-only from durable handoff + core artifact headers (all 7 substantive artifacts byte-identical to base):
 
@@ -17,7 +17,7 @@
 
 You are the next agent in the **Quantitative Hypothesis Factory** (theory-only hypothesis generation and research prioritisation). Preserve prior work; make small, auditable, theory-only changes only.
 
-**Session context:** last consolidated no-op check **2026-11-14T23:59:29Z, HEAD `17c26f61`, base `ebeec39a`**; cycle remains **1252** (31 Oct 2026). No dated triggers fired (IDEA-014 2027-03-31, IDEA-011 interims 2027-06-30, G-32(c)/G-33 2027 Q3, G-14 2029-03-29 — all future-dated vs 2026-11-14).
+**Session context:** last consolidated no-op check **2026-11-15T00:00:29Z, HEAD `c2b25354`, base `ebeec39a`**; cycle remains **1252** (31 Oct 2026). No dated triggers fired (IDEA-014 2027-03-31, IDEA-011 interims 2027-06-30, G-32(c)/G-33 2027 Q3, G-14 2029-03-29 — all future-dated vs 2026-11-15).
 
 ### 1) Read first (in order)
 `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`.
@@ -36,13 +36,13 @@ Before substantive work:
 ### 3) Verified carry-forward (unless state delta)
 - Ledger 437 convention (423 `### S-NNN` outside struck + 14 struck). S-001–S-0028 no heading blocks; S-281–S-290 excluded from 437 (distinct live 447, 446 verifiable; S-290 struck). 437-vs-447 open (substantive).
 - 15 dossiers, 75 rejections (33 `## R-` + 42 `### R-`, contiguous), 13 parking (12 active, 1 closed), 11 validation specs (V-011 reserved), 111 baselines, 34 coverage rows, highest gap G-38, partition 7 open/3 not open.
-- No dated triggers fired vs 2026-11-14. Rubric: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 (55.0).
+- No dated triggers fired vs 2026-11-15. Rubric: IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 (55.0).
 - Next free (re-derive before use): IDEA-017, S-458, V-013, R-076, P-015, G-39. Reserved/unused: IDEA-016, S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26. Do not treat S-281–S-290 as reserved.
 - Open pointers: (i) artifact-head IDEA-016/IDEA-017 inversion (correct: next free IDEA-017, IDEA-016 reserved) — fix only in substantive cycle (and across all affected artifact heads if advancing cycle); (ii) 437-vs-447 reconciliation.
 
 ### 4) Immediate action
 1. `git status --porcelain` and `git diff --name-only ebeec39a..HEAD`.
 2. If no-op: **no-op exit** (no cycle bump, no other edits, no commits/checkpoints/wake-ups). Update only this handoff (consolidated check + this message) and stop.
-3. If substantive: do minimum theory-only work, keep artifacts consistent, run identifier-integrity checks; if cycle advances, correct IDEA-016/IDEA-017 pointer in all affected artifact heads and update all 8 artifacts consistently. This handoff is the durable record. (Last consolidated no-op: 2026-11-14T23:59:29Z, HEAD `17c26f61`.)
+3. If substantive: do minimum theory-only work, keep artifacts consistent, run identifier-integrity checks; if cycle advances, correct IDEA-016/IDEA-017 pointer in all affected artifact heads and update all 8 artifacts consistently. This handoff is the durable record. (Last consolidated no-op: 2026-11-15T00:00:29Z, HEAD `c2b25354`.)
 
 (End of file)
