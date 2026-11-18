@@ -1,4 +1,4 @@
-## Durable handoff — refreshed in place (2026-11-18T14:07Z, HEAD `2e884471`, base `ebeec39a`)
+## Durable handoff — refreshed in place (2026-11-18T14:22Z, HEAD `2e884471`, base `ebeec39a`)
 
 - **This session (2026-11-18T14:07Z):** loop-break run — `git status --porcelain` clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only ⇒ **no-op exit** (no state delta). No check block appended, no cycle bump, no other artifacts changed.
 - **Git:** clean; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only.
