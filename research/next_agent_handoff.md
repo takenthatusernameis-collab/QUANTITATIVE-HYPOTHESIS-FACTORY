@@ -1,6 +1,6 @@
-## Durable handoff — refreshed in place (2026-11-18T00:25:58Z)
+## Durable handoff — refreshed in place (2026-11-18T00:26:26Z)
 
-- **Session:** 2026-11-18T00:25:58Z, HEAD `8a30a8df` (base `ebeec39a`). **No-op exit (state unchanged); re-confirmed this session.**
+- **Session:** 2026-11-18T00:26:26Z, HEAD `20b66433` (base `ebeec39a`). **No-op exit (state unchanged); re-confirmed this session.**
 - **Git:** `git status --porcelain` empty; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only.
 - **Counts mechanically re-derived this session:** 15 dossiers (`## IDEA-`, IDEA-001…IDEA-015) · 75 rejections (33 `## R-` + 42 `### R-`, R-001…R-075, contiguous, no gap/duplicate/unnumbered) · 13 parking records (`### P-`, 12 active: P-001,P-002,P-003,P-005–P-012,P-014; 1 closed: P-004, CLOSED Cycle 58/R-038) · 11 validation specs (`## V-`, V-001–V-010,V-012; V-011 reserved/unused) · 409 ledger `### S-` heading blocks (S-029…S-457; S-210–S-219 reserved/unused; S-281–S-290 bold-form unheaded; S-358 has `###` heading inside the 409). Ledger headline carried: **437** = 409 headed + unheaded S-001–S-028 ⇒ **423 verifiable + 14 struck** (S-104,S-117,S-154,S-172,S-174,S-185,S-187,S-208,S-234,S-280,S-322,S-379,S-380,S-457). 437-vs-448 reconciliation open (defect 2). Known-baseline **111** family rows; coverage-map **34** rows.
 - **Gaps/partition:** highest **G-38**, next free **G-39**; partition 7 open / 3 not open. `G-39`/`G-40` strings in `cycle_notes.md` are stale older cycle-log text, not allocations.
@@ -9,7 +9,7 @@
 - **Dated triggers (vs 2026-11-18):** none fired — IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 all future-dated.
 - **Next free (re-derive from bodies before use):** **IDEA-017**, S-458, V-013, R-076, P-015, **G-39**. Reserved/unused: IDEA-016, S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26. (Defect 1: several artifact heads still state next free IDEA-016/reserved IDEA-017 — body-derived correct is next free IDEA-017, IDEA-016 reserved; fix in next substantive cycle.)
 - **Flagged defects (substantive-cycle fixes only):** (1) IDEA-016/IDEA-017 inversion in artifact heads; (2) 437-vs-448 ledger reconciliation (S-358 not a duplicate); (3) ledger descriptor phrasing normalization; (4) no-op loop trap — if clean tree + handoff-only diff vs `ebeec39a` + matching counts, exit without appending a check block/cycle bump; (5) cycle-lineage discrepancy (1252 vs AGENTS 723).
-- **This session result:** no-op re-confirmed this session per defect 4 (clean tree; only `research/next_agent_handoff.md` differs from base `ebeec39a`; HEAD now `7359db83`). Counts re-derived once and match (15 dossiers, 75 rejections, 13 parking, 11 validation specs, ledger 437 headline / 423 verifiable + 14 struck). No new check block appended, no cycle bump, no other artifacts changed. Handoff refreshed in place at maintainer request. Defects 1–5 deferred.
+- **This session result:** no-op re-confirmed this session per defect 4 (clean tree; only `research/next_agent_handoff.md` differs from base `ebeec39a`; HEAD now `20b66433`). Counts re-derived once and match (15 dossiers, 75 rejections, 13 parking, 11 validation specs, ledger 437 headline / 423 verifiable + 14 struck). No new check block appended, no cycle bump, no other artifacts changed. Handoff refreshed in place at maintainer request. Defects 1–5 deferred.
 
 ## Initial task message for the next agent
 
