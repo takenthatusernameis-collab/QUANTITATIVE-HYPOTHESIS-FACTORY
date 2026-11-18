@@ -1,5 +1,4 @@
-## Durable handoff — refreshed in place (2026-11-18T02:21:02Z)
-
+## Durable handoff — refreshed in place (2026-11-18T02:21:37Z)
 - **Session:** 2026-11-18T02:21:02Z, HEAD `ad3a54a7` (base `ebeec39a`). **No-op exit (state unchanged); re-confirmed this session.**
 - **Git:** `git status --porcelain` empty; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (HEAD moved `f2f20a90`→`ad3a54a7` via checkpoint-only commit; all since previous session are checkpoint-only).
 - **Counts confirmed unchanged** (clean tree; identical file bodies since last body-derived re-derivation): 15 dossiers (`## IDEA-`, IDEA-001…IDEA-015) · 75 rejections (33 `## R-` + 42 `### R-`, R-001…R-075, contiguous, no gap/duplicate/unnumbered) · 13 parking records (`### P-`, 12 active: P-001,P-002,P-003,P-005–P-012,P-014; 1 closed: P-004, CLOSED Cycle 58/R-038) · 11 validation specs (`## V-`, V-001–V-010,V-012; V-011 reserved/unused) · ledger 409 `### S-` headings + unheaded S-001–S-028 ⇒ headline **437** = **423 verifiable + 14 struck** (S-104,S-117,S-154,S-172,S-174,S-185,S-187,S-208,S-234,S-280,S-322,S-379,S-380,S-457); S-210–S-219 reserved/unused; S-281–S-290 bold-form unheaded; S-358 inside the 409. 437-vs-448 reconciliation open (defect 2). Known-baseline **111** family rows; coverage-map **34** rows.
