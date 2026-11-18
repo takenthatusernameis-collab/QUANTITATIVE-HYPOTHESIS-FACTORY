@@ -1,6 +1,6 @@
-## Durable handoff — refreshed in place (2026-11-18T01:22:23Z)
+## Durable handoff — refreshed in place (2026-11-18T01:24:39Z)
 
-- **Session:** 2026-11-18T01:22:23Z, HEAD `c463940a` (base `ebeec39a`). **No-op exit (state unchanged); re-confirmed this session.**
+- **Session:** 2026-11-18T01:24:39Z, HEAD `c463940a` (base `ebeec39a`). **No-op exit (state unchanged); re-confirmed this session.**
 - **Git:** `git status --porcelain` empty; `git diff --name-only ebeec39a..HEAD` = `research/next_agent_handoff.md` only (HEAD moved `167bf391`→`c463940a` by checkpoint commit only; `7a458dcf`→`b54da050`→`167bf391`→`c463940a` all checkpoint-only).
 - **Counts mechanically re-derived this session:** 15 dossiers (`## IDEA-`, IDEA-001…IDEA-015) · 75 rejections (33 `## R-` + 42 `### R-`, R-001…R-075, contiguous, no gap/duplicate/unnumbered) · 13 parking records (`### P-`, 12 active: P-001,P-002,P-003,P-005–P-012,P-014; 1 closed: P-004, CLOSED Cycle 58/R-038) · 11 validation specs (`## V-`, V-001–V-010,V-012; V-011 reserved/unused) · 409 ledger `### S-` heading blocks (S-029…S-457; S-210–S-219 reserved/unused; S-281–S-290 bold-form unheaded; S-358 has `###` heading inside the 409). Ledger headline carried: **437** = 409 headed + unheaded S-001–S-028 ⇒ **423 verifiable + 14 struck** (S-104,S-117,S-154,S-172,S-174,S-185,S-187,S-208,S-234,S-280,S-322,S-379,S-380,S-457). 437-vs-448 reconciliation open (defect 2). Known-baseline **111** family rows; coverage-map **34** rows.
 - **Gaps/partition:** highest **G-38**, next free **G-39**; partition 7 open / 3 not open. `G-39`/`G-40` strings in `cycle_notes.md` are stale older cycle-log text, not allocations.
