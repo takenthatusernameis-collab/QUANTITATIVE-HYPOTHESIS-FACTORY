@@ -1,16 +1,16 @@
-## Durable handoff — rewritten in place (2026-11-19T02:22Z, HEAD `e645d62d`)
+## Durable handoff — rewritten in place (2026-11-19T02:25Z, HEAD `668da7af`)
 
-**Status: prior task taken from the handoff and completed = NO-OP upheld. No research artifact changed. No cycle bumped. This session verified the clean tree at HEAD `e645d62d` (`git status --porcelain` empty) and re-derived every §2 count identically. One file touched: this one (the brief ordered a handoff update, and `AGENTS.md` working rule 4 requires one every session).**
+**Status: prior task taken from the handoff and completed = NO-OP upheld. No research artifact changed. No cycle bumped. Tree verified clean at HEAD `668da7af` (`git status --porcelain` empty, `git log -5` shows `668da7af`, `e645d62d`, `38562d2f`, `82831c3e`, `ebeda9dd`, all `chore(kilo): checkpoint agent session`). One file touched: this one — the brief ordered a handoff update, and `AGENTS.md` working rule 4 requires one every session.**
 
 ### 1) Result of the prior agent task (the §2 loop-break decision procedure)
 
-- `git status --porcelain` → **empty** before and after this session's work. `git log -5` → `e645d62d`, `38562d2f`, `82831c3e`, `ebeda9dd`, `f29e48d6`, all `chore(kilo): checkpoint agent session`.
+- `git status --porcelain` → **empty** before and after this session's work. `git log -5` → `668da7af`, `e645d62d`, `38562d2f`, `82831c3e`, `ebeda9dd`, all `chore(kilo): checkpoint agent session`.
 - Nothing in the six research artifacts has moved since **Cycle 1252 (31 October 2026)**.
 - No forward block appended to any artifact. No historical block edited. No commit.
 
-### 2) Counts — re-derived mechanically this session, third independent confirmation of the standing figure set
+### 2) Counts — re-derived mechanically this session, fourth independent confirmation of the standing figure set
 
-The previous handoff published this form after its own correction. This session ran it again from the file bodies and **every figure reproduced exactly** (third consecutive identical re-derivation). Use this form, and only this form:
+This session ran the §2 form again from the file bodies and **every figure reproduced exactly**. Use this form, and only this form:
 
 ```
 grep -c '^### S-' research/source_ledger.md                                    # 409  (S-029 … S-457)
@@ -68,7 +68,7 @@ Nothing else. No candidate, no score, no rank, no rejection, no parking record, 
 
 S-459 (S-458 is referenced in prose) · V-013 · R-076 · P-015 · G-39 · **IDEA-016** if allocating by lowest-unused (§6 item 3). Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
 
-## Initial task message for the next agent
+### 8) Initial task message for the next agent
 
 You are the next agent in the **Quantitative Hypothesis Factory** — a **theory-only** hypothesis-generation and research-prioritisation repository.
 
@@ -76,7 +76,7 @@ You are the next agent in the **Quantitative Hypothesis Factory** — a **theory
 
 **Read first, in order:** `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`. Do not read the `*.bak*` files.
 
-**Your first action:** `git status --porcelain`. If empty, the tree is clean — as expected at HEAD `e645d62d`.
+**Your first action:** `git status --porcelain`. If empty, the tree is clean — as expected.
 
 **Your second action — decide the cycle question, in exactly this form:**
 
@@ -89,4 +89,4 @@ You are the next agent in the **Quantitative Hypothesis Factory** — a **theory
 
 **Current state.** 15 dossiers (IDEA-001–015) · 75 rejections (R-001–R-075) · 13 parking records (12 active, P-004 closed) · 11 validation specs (V-011 reserved) · ledger 409 headings / 429 ids / 14 struck · baseline table 111 rows (`rejected_and_parked.md:2631`) · coverage map 34 rows (last table, line 4362) · gaps to G-38, next free G-39, seven open / three not open · rubric IDEA-011 69.0 (rank 1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 at terminal 55.0 · no dated trigger fired against 2026-11-19 · cycle lineage split: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026).
 
-**This session's record.** Prior task taken from the handoff and completed: verified tree clean at HEAD `e645d62d`, no research artifact changed, no cycle bump — the brief carried no cycle authorisation, and the handoff's own §5/§6 gate stands, so no-op exit per the initial task message. Independent re-derivation reproduced every §2 count exactly (409 `### S-` headings, 429 unique S-ids, 15 `## IDEA-`, 33 `## R-` + 42 `### R-` = 75, 13 `### P-`, 11 `## V-`); table figures re-located (baseline 111 rows at `rejected_and_parked.md:2631`; coverage map 34 rows at line 4362). No dated trigger fired against 2026-11-19 (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future). §5 consolidation finding stands unauthorised. Changed file: this one only. No commit.
+**This session's record.** Prior task taken from the handoff and completed: verified tree clean at HEAD `668da7af`, no research artifact changed, no cycle bump — the brief carried no cycle authorisation, and the handoff's own §5/§6 gate stands, so no-op exit per the initial task message. Independent re-derivation reproduced every §2 count exactly (409 `### S-` headings, 429 unique S-ids, 15 `## IDEA-`, 33 `## R-` + 42 `### R-` = 75, 13 `### P-`, 11 `## V-`); table figures re-located (baseline 111 rows at `rejected_and_parked.md:2631`; coverage map 34 rows at line 4362). No dated trigger fired against 2026-11-19 (IDEA-014 31 Mar 2027, IDEA-011 interims 30 Jun 2027, G-32(c)/G-33 2027 Q3, G-14 29 Mar 2029 — all future). §5 consolidation finding stands unauthorised. Changed file: this one only. No commit.
