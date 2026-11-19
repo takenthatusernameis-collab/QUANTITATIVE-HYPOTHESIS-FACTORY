@@ -1,4 +1,4 @@
-## Durable handoff — reconfirmed in place (2026-11-19, HEAD `cfe77d20`)
+## Durable handoff — reconfirmed in place (2026-11-19)
 
 **Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at read time (`git status --porcelain` empty). Every commit in `git log` is `chore(kilo): checkpoint agent session`; each checkpoint advances the prior handoff by touching only this file. **This file therefore records no HEAD hash:** HEAD advances by one checkpoint for every write of it, so a recorded hash is stale the moment it is written. Do not re-chase it — this sentence replaces the previous two hardcoded hashes, which disagreed with each other and with the tree. The only file touched in any session is this one, because the brief orders it and `AGENTS.md` rule 4 requires it.**
 
