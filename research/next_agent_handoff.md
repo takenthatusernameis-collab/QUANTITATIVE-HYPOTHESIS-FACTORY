@@ -1,12 +1,12 @@
-## Durable handoff — rewritten in place (2026-11-19, HEAD `5bae36cf`)
+## Durable handoff — rewritten in place (2026-11-19, HEAD `da6d4cf6`)
 
-**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `5bae36cf` before and after (`git status --porcelain` empty; `git log -3` = `5bae36cf`, `8cd4c732`, `81704705`, all `chore(kilo): checkpoint agent session`). The only file touched is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
+**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `da6d4cf6` before and after (`git status --porcelain` empty; `git log -3` = `da6d4cf6`, `5bae36cf`, `8cd4c732`, all `chore(kilo): checkpoint agent session`). The only file touched is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
 
 **Repeated generic briefs have exactly one legal output — a no-op plus this rewrite — so the correct move is to stop adding session records and ask the operator for authorisation (see §6). This version is a compression, not a new session log: it drops nothing that was verified and adds no cycle block.**
 
 ### 1) Result of the prior agent task
 
-Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git show --stat 5bae36cf` confirms the previous session also touched only this file.
+Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat 5bae36cf da6d4cf6` confirms the newest checkpoint also touched only this file.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
