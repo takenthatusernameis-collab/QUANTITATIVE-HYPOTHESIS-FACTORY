@@ -1,14 +1,14 @@
-## Durable handoff — rewritten in place (2026-11-19, HEAD `10015cde`)
+## Durable handoff — rewritten in place (2026-11-19, HEAD `26794979`)
 
-**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `10015cde` before and after (`git status --porcelain` empty; `git log -3` = `10015cde`, `9f0863fa`, `06931fd2`, all `chore(kilo): checkpoint agent session`). The only file touched is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
+**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `26794979` before and after (`git status --porcelain` empty; `git log -3` = `26794979`, `10015cde`, `9f0863fa`, all `chore(kilo): checkpoint agent session`). The only file touched is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
 
-**This session (2026-11-19) re-verified §2 mechanically and confirmed the file byte-identical in substance: `git status --porcelain` empty; counts 409 / 429 / 15 / 33 / 42 / 13 / 11 reproduce; baseline table header at `rejected_and_parked.md:2594` with 111 data rows (113 lines incl. header + separator); coverage map header at `:4362` with 34 data rows (36 lines); `grep -c '^### G-'` = 0, highest body gap G-38, next free G-39; no dated trigger fired against 2026-11-19; seven research files head at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026). `git diff --stat 9f0863fa 10015cde` = this file only, 3 insertions / 3 deletions. Nothing else changed.**
+**This session (2026-11-19) re-verified §2 mechanically and confirmed the file byte-identical in substance: `git status --porcelain` empty; counts 409 / 429 / 15 / 33 / 42 / 13 / 11 reproduce; baseline table header at `rejected_and_parked.md:2594` with 111 data rows (113 lines incl. header + separator); coverage map header at `:4362` with 34 data rows (36 lines); `grep -c '^### G-'` = 0, highest body gap G-38, next free G-39; no dated trigger fired against 2026-11-19; seven research files head at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026). `git diff --stat 10015cde 26794979` = this file only, 3 insertions / 3 deletions. Nothing else changed.**
 
 **Repeated generic briefs have exactly one legal output — a no-op plus this rewrite — so the correct move is to stop adding session records and ask the operator for authorisation (see §6). This version is a compression, not a new session log: it drops nothing that was verified and adds no cycle block.**
 
 ### 1) Result of the prior agent task
 
-Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat 9f0863fa 10015cde` confirms the newest checkpoint also touched only this file.
+Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat 10015cde 26794979` confirms the newest checkpoint also touched only this file.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
