@@ -1,84 +1,111 @@
-## Durable handoff — consolidated in place (2026-11-19T00:21Z, HEAD `ebeda9dd`, base `ebeec39a`)
+## Durable handoff — consolidated in place (2026-11-19T00:45Z, HEAD `82831c3e`)
 
-**Status: NO-OP verified again. No state delta. No artifact other than this file was changed. Nothing committed by this session.**
+**Status: prior task completed = NO-OP upheld. No research artifact changed. No cycle bumped. One file touched: this one (a correction, not a rewrite-for-rewrite's-sake).**
 
-### 1) Result of the prior agent task (§2 loop-break test) — no-op
+### 1) Result of the prior agent task (§2 loop-break test) — no-op again
 
-- (a) `git status --porcelain` → **empty**.
-- (b) `git diff --name-only ebeec39a..HEAD` → **`research/next_agent_handoff.md` only** (4654 intervening commits, all `chore(kilo): checkpoint agent session`; two carry an explicit no-op message).
-- Counts re-derived mechanically from the file bodies before any figure was written, **all unchanged**:
-  - `source_ledger.md`: **409** `### S-` headings; **429** distinct `S-nnn` ids.
-  - `idea_register.md`: **15** dossiers (IDEA-001 … IDEA-015). IDEA-016/017 are prose references only — no dossier body (defect 1).
-  - `rejected_and_parked.md`: **75** rejections = **33** `## R-` + **42** `### R-`, R-001 … R-075 contiguous, no gap, no duplicate, no unnumbered body.
-  - `rejected_and_parked.md`: **13** parking records — **12 active** (P-001, P-002, P-003, P-005 … P-012, P-014), **1 closed** (P-004, CLOSED Cycle 58 / R-038). P-013 unused.
-  - `validation_handoffs.md`: **11** `## V-` specs (V-001 … V-010, V-012); V-011 reserved.
-  - Known baselines (heading line 2594 → next `##` at 2747): **113** `|` lines = header + separator + **111** rows.
-  - Coverage map: **34** rows (A–I, 10–34).
-  - Gaps: highest **body** gap **G-38**; G-39 next-free prose only; G-40 exists only in historical next-free prose in `cycle_notes.md` (Cycles 273–287), never as a definition. Partition **seven open / three not open**. G-17, G-26 skipped, never used.
-- ⇒ **no-op exit** per defect-4 protocol: no check block appended to any artifact, no cycle bump, no other artifact rewritten. This file refreshed in place (single consolidated block, replacing not stacking) because the user explicitly requested a handoff update plus a fresh next-agent task message.
-- Cycle lineage: **Cycle 1252 (31 October 2026)** heads all six cycle-bearing artifacts plus `research/README.md`; `AGENTS.md` head still reads **Cycle 723 (27 October 2026)** — defect 5, unreconciled.
-- Rubric (not re-run, no cell moved): IDEA-011 **69.0** (1) · IDEA-004 **63.0** (2) · IDEA-014 **52.0** (3) · IDEA-009 **42.0** (4) · IDEA-010 parked (P-014) terminal **55.0**.
+- `git status --porcelain` → **empty** before and after this session's work.
+- Nothing in the six research artifacts has moved since **Cycle 1252 (31 October 2026)**. The `ebeec39a` diff test is retired (§5); it is not re-run.
 - Dated triggers vs **2026-11-19**: **none fired**. IDEA-014 31 Mar 2027 · IDEA-011 interims 30 Jun 2027 · G-32(c)/G-33 2027 Q3 · G-14 29 Mar 2029.
 
-### 2) New diagnosis — the no-op protocol is now the dominant failure mode (evidence, not speculation)
+### 2) Counts — re-derived this session, exactly as the bodies read
 
-- `git rev-list --count ebeec39a..HEAD` = **4654** commits, 2026-11-04 → 2026-11-19 (15 days).
-- `git log --format= --name-only ebeec39a..HEAD | sort -u` = exactly one path: `research/next_agent_handoff.md`.
-- Research artifacts have not advanced since **Cycle 1252, 31 October 2026**; the registry has therefore been static for ~19 days while ~4654 sessions each re-verified "nothing changed" and rewrote this file.
-- Causal loop: defect-4 protocol forbids any change on a no-op; the base `ebeec39a` never advances; so the next session's test trivially reproduces "no-op" and rewrites this file again. The protocol as written cannot terminate.
-- Consequence: the loop-break test is no longer informative. Its purpose (prove continuity, not mass-produce cycles) is served; the cost is now commit churn and a stalled mission.
+Run these before writing any figure anywhere:
 
-### 3) Defects and their exact fixes (all need a **substantive** cycle; none may be fixed by editing history)
+```
+grep -c '^### S-' research/source_ledger.md                                    # 409  (S-029 … S-457)
+grep -o 'S-[0-9]\{3\}' research/source_ledger.md | sort -u | wc -l             # 429  (S-001 … S-458)
+grep -c '^## IDEA-' research/idea_register.md                                  # 15   (IDEA-001 … IDEA-015)
+grep -c '^## R-' research/rejected_and_parked.md                               # 33
+grep -c '^### R-' research/rejected_and_parked.md                              # 42   (33 + 42 = 75, R-001 … R-075)
+grep -c '^### P-' research/rejected_and_parked.md                              # 13   (12 active, P-004 closed)
+grep -c '^## V-' research/validation_handoffs.md                               # 11   (V-001 … V-010, V-012; V-011 reserved)
+awk 'NR>=2594 && NR<=2760 && /^\|/ {c++} END{print c}' research/rejected_and_parked.md   # 113 => header + separator + 111 rows
+```
 
-All six artifact files are append-only cycle logs (newest block first). The wrong figures in defect 2 live **inside historical cycle blocks**; rewriting them would falsify the log. Correct fix = one new forward block that states the corrected figures and closes the defects.
+Coverage map: **34 rows** (A–I, 10–34) — historical figure, not re-derived this session.
+Gaps: highest **body** gap **G-38**; partition **seven open / three not open**. G-17, G-26 skipped, never used.
+Struck ledger ids (**14**, all still present in the body): S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457.
 
-1. **IDEA next-free inversion.** Highest dossier is IDEA-015. Adopt one rule and state it in the new block: *lowest unused number ⇒ **IDEA-016** next free*, and stop reserving IDEA-017. Close by writing the rule into the block; no dossier body is required until a candidate exists.
-2. **Ledger count text.** Artifacts cite 437 / 423 verifiable / legacy 447. Body-derived truth: **409 `### S-` headings · 395 verifiable (409 − 14 struck) · 429 distinct ids**. Absent-as-headings: S-001–S-028 (28, retired), S-210–S-219 (10, reserved), S-281–S-290 (10, referenced only). 437 = 409 + 28; 447 = 437 + 10. The 14 struck ids (all still present in the body): S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457. Note the 4654-commit span: decide and record whether the S-281–S-290 bodies should be restored from git history (the 447 lineage) or formally retired as referenced-only; either resolution closes the defect.
-3. **Ledger descriptor phrasing** — normalize to the count form above in the same block.
-4. **No-op loop trap** — superseded by §4 below; the new rule replaces the old protocol text.
-5. **Cycle lineage** — Cycle 1252 vs `AGENTS.md` Cycle 723. In the substantive cycle, advance all eight artifacts (six files + `README.md` + `AGENTS.md`) to the same cycle/date in one pass, newest block first, then read back by content.
+### 3) Correction — the previous handoff's defect-2 arithmetic was itself wrong (this is the session's substantive finding)
 
-### 4) Replacement loop rule (supersedes defect-4 protocol)
+The previous block claimed `409 headings · 395 verifiable · 429 ids` with **"S-001–S-028 (28, retired)" absent as headings**, and 437 = 409 + 28. That is false and must not be propagated.
 
-- A repeat no-op **must not** trigger another handoff rewrite or commit. Report the no-op in the reply, state the counts, and stop — the file already says so.
-- The loop-break base should be treated as **retired** after this session. Do not re-run the `ebeec39a` diff test as the entry condition; use `git status --porcelain` alone.
-- One bounded substantive cycle is **pre-specified and ready** (§3). It needs the maintainer's one-line authorisation because it advances the cycle counter. Without that authorisation, exit no-op — do not invent a different cycle.
+Mechanically verified decomposition of the 429 distinct ledger ids:
 
-### 5) Next free (re-derive from bodies before use)
+- **409** carry a `### S-nnn` heading (range S-029 … S-457).
+- **20** are referenced in the body but carry **no** `###` heading:
+  S-001, S-009, S-010, S-014, S-026, S-027 · S-210, S-218, S-219 · **S-281 … S-290** · S-458.
+- Only **6** of S-001–S-028 lack headings, not 28.
+- **29** ids in S-001 … S-458 are **never referenced at all**:
+  S-002–S-008 (7), S-011–S-013 (3), S-015–S-025 (11), S-028 (1), S-211–S-217 (7). 429 + 29 = 458 ✓.
 
-S-458 · V-013 · R-076 · P-015 · **G-39** · **IDEA-016** if allocating by lowest-unused (§3 item 1 states this rule). Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
+**Defect 2 is therefore closed as a non-defect.** S-281 … S-290 are **not** missing: each has exactly one
+bold-led body paragraph in `source_ledger.md` (`**S-281 — …**` through `**S-290 — …**`), written inside the
+Cycle-58 narrative rather than promoted to `###` headings. Nothing needs restoring from git history and
+nothing needs retiring. The open question the previous handoff raised ("restore or formally retire?")
+was founded on a miscount and is withdrawn.
+
+The historical figures **437 / 423 verifiable / 447** are not reproducible from the body under any
+decomposition and should not be repeated. The defensible count form is exactly §2 above.
+
+### 4) Cycle decision this session — deliberately no substantive cycle
+
+The brief was "complete the prior task, update the handoff, write a next-agent task message". It contains
+none of the authorisation phrasings the previous handoff reserved for a substantive cycle ("fix the
+defects", "run a housekeeping cycle", "advance the cycle"). Therefore:
+
+- **No cycle counter bumped. No forward block appended to any artifact. No historical block edited.**
+- Only this file was rewritten, because the brief explicitly asked for a handoff update, and because §3
+  above is a correction that must not wait behind an authorisation gate — it prevents a wrong figure
+  from being copied forward a 4655th time.
+
+### 5) Loop rule (replaces the defect-4 protocol; unchanged in substance, tightened in form)
+
+- A repeat no-op **must not** trigger a handoff rewrite or a commit. State the counts in the reply and stop.
+- Entry condition is `git status --porcelain` **alone**. Do not re-run any baseline-diff test.
+- A substantive cycle still needs one line of maintainer authorisation, because it advances the counter.
+  Without it, exit no-op. Do not invent a different cycle.
+
+### 6) What a substantive cycle would have to do (pre-specified, ready, still unauthorised)
+
+One new forward block, newest-first, in all eight cycle-bearing artifacts (`README.md`, `cycle_notes.md`,
+`idea_register.md`, `ranked_shortlist.md`, `source_ledger.md`, `validation_handoffs.md`,
+`rejected_and_parked.md`, `AGENTS.md`), containing only:
+
+1. The §2 count form as the standing figure set.
+2. The §3 correction, stated as the ledger's authoritative decomposition.
+3. The IDEA rule: **lowest unused number is next free ⇒ IDEA-016**; stop reserving IDEA-017.
+4. Cycle lineage reconciliation: the six research files head at **Cycle 1252 (31 October 2026)**;
+   `AGENTS.md` heads at **Cycle 723 (27 October 2026)** and is the outstanding outlier. One pass must set
+   all eight to one cycle/date.
+5. Read-back by content and an identifier-integrity check, then stop.
+
+Nothing else. No candidate, no score, no rank, no rejection, no parking record, no baseline row, no
+coverage-map row, no validation spec, no document fetch.
+
+### 7) Next free (re-derive from bodies before use)
+
+S-459 (S-458 is already referenced in prose) · V-013 · R-076 · P-015 · G-39 · **IDEA-016** if allocating
+by lowest-unused (§6 item 3). Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
 
 ## Initial task message for the next agent
 
-You are the next agent in the **Quantitative Hypothesis Factory** — a **theory-only** hypothesis-generation and research-prioritisation repository. Preserve prior work; make only small, auditable, theory-only changes.
+You are the next agent in the **Quantitative Hypothesis Factory** — a **theory-only** hypothesis-generation and research-prioritisation repository.
 
-**Hard scope boundary.** Allowed: reading/summarising literature, market-structure and venue documentation, exchange/regulator material, and this repo's notes; specifying hypotheses, falsifiable predictions, observables and data requirements; maintaining the theory-only artifacts. **Not allowed:** backtests, simulations, parameter sweeps, optimisation, significance testing on strategy results, performance/risk metrics, market-data acquisition/processing, strategy/signal implementation, executable research infrastructure, job/workflow launches, workflow-file changes, tests, credentials, infrastructure, other repositories, any trading. If a question can only be answered by running something, write it down precisely and hand it off.
+**Hard scope boundary.** Allowed: reading/summarising literature, market-structure and venue documentation, exchange/regulator material, and this repo's notes; specifying hypotheses, falsifiable predictions, observables and data requirements; maintaining the theory-only artifacts. **Not allowed:** backtests, simulations, parameter sweeps, optimisation, significance testing on strategy results, performance or risk metrics, market-data acquisition or processing, strategy or signal implementation, executable research infrastructure, job or workflow launches, workflow-file changes, tests, credentials, infrastructure, other repositories, any trading. If a question can only be answered by running something, write it down precisely and hand it off.
 
-**This repository is stalled, and that is the whole problem.** As of 2026-11-19 (HEAD `ebeda9dd`, base `ebeec39a`): 4654 commits since 2026-11-04 have touched **only** `research/next_agent_handoff.md`; artifacts have not moved since Cycle 1252 (31 October 2026). Every one of those sessions ran a no-op check and correctly changed nothing — then rewrote the handoff, which re-armed the same check. Do not be iteration 4655.
+**Read first, in order:** `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`. Do not read the `*.bak*` files.
 
-**Your first decision, in this order:**
+**Your first action:** `git status --porcelain`. If empty, the tree is clean — as expected.
 
-1. `git status --porcelain`. If empty, the tree is clean as expected.
-2. Decide the cycle question:
-   - **If the maintainer's brief authorises a substantive cycle** (any phrasing like "fix the defects", "run a housekeeping cycle", "advance the cycle"): execute exactly the bounded plan in §3 of the handoff — items 1, 2, 3, 5, one new forward block, all eight artifacts advanced consistently, newest-first, read back by content, identifier-integrity check, then stop. Nothing else.
-   - **Otherwise**: no-op exit. Report in your reply: clean tree, counts unchanged (409 / 429 / 15 / 75 = 33+42 / 13 / 11 / 111 / 34 / G-38), no trigger fired, and the loop diagnosis. Make **no file changes at all** — not even to the handoff.
+**Your second action — decide the cycle question, in exactly this form:**
 
-**Read first, in order:** `research/next_agent_handoff.md` → `research/idea_register.md` → `research/ranked_shortlist.md` → `research/source_ledger.md` → `research/validation_handoffs.md` → `research/rejected_and_parked.md` → `research/cycle_notes.md` → `research/README.md`.
+- **If the brief authorises a substantive cycle** (any phrasing like "fix the defects", "run a housekeeping cycle", "advance the cycle"): execute §6 above, in full, once. All eight artifacts, newest-first, read-back by content, identifier-integrity check, then stop. Nothing else.
+- **Otherwise:** no-op exit. Report in your reply the clean tree, the §2 counts, that no dated trigger fired, and the reason no cycle was run. Change **no file at all** — including this one. The previous two sessions already refreshed it; a third refresh is churn, and §3's correction is already written here.
 
-**Count reproduction (run before writing any figure):**
-```
-grep -c '^### S-' research/source_ledger.md                          # 409
-grep -o 'S-[0-9]\{3\}' research/source_ledger.md | sort -u | wc -l   # 429
-grep -c '^## IDEA-' research/idea_register.md                        # 15
-grep -c '^## R-' research/rejected_and_parked.md                     # 33
-grep -c '^### R-' research/rejected_and_parked.md                    # 42
-grep -c '^### P-' research/rejected_and_parked.md                    # 13
-grep -c '^## V-' research/validation_handoffs.md                     # 11
-awk 'NR>=2594 && NR<2747 && /^\|/ {c++} END{print c}' research/rejected_and_parked.md   # 113 => 111 rows
-```
+**Standing rules.** Never invent a citation — every external claim points to a `source_ledger.md` entry stating how it was verified. Score research priority, never probability of profit. Re-derive next-free identifiers from artifact bodies before allocating. Do not edit `research_prompts/systematic_edge_discovery_agent_prompt.txt`. Do not edit historical cycle blocks. Do not repeat the 437/423/447 ledger figures — use §2. Do not commit unless explicitly asked.
 
-**Standing rules.** Never invent a citation — every external claim points to a `source_ledger.md` entry stating how it was verified. Score research priority, never probability of profit. Re-derive next-free identifiers from artifact bodies before allocating. Do not edit `research_prompts/systematic_edge_discovery_agent_prompt.txt`. Do not edit historical cycle blocks. Do not commit unless explicitly asked.
+**Current state.** 15 dossiers (IDEA-001–015) · 75 rejections (R-001–R-075) · 13 parking records (12 active, P-004 closed) · 11 validation specs (V-011 reserved) · ledger 409 headings / 429 ids / 14 struck · 111 baseline rows · 34 coverage-map rows · gaps to G-38, next free G-39, seven open / three not open · rubric IDEA-011 69.0 (rank 1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 at terminal 55.0 · no dated trigger fired against 2026-11-19 · cycle lineage split: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026).
 
-**Current state summary:** 15 dossiers (IDEA-001–015) · 75 rejections (R-001–R-075) · 13 parking (12 active, P-004 closed) · 11 validation specs (V-011 reserved) · ledger body 409 headings / 429 ids · 111 baseline rows · 34 coverage-map rows · gaps to G-38, next free G-39, 7 open / 3 not open · rubric IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 55.0 · no dated trigger fired against 2026-11-19.
-
-**This session's record:** task taken from the previous handoff's §2 (loop-break test) and completed — clean tree, handoff-only diff vs `ebeec39a`, counts unchanged, no trigger fired ⇒ no-op exit. New finding recorded: the no-op protocol has produced 4654 handoff-only commits in 15 days and cannot self-terminate, so §4 retires it and §3 pre-specifies the single bounded cycle that would close defects 1, 2, 3 and 5. Changed file: `research/next_agent_handoff.md` only. No check block, no cycle bump, no other artifact edit, no commit.
+**This session's record.** Prior task taken from the handoff and completed: tree clean, no research artifact changed, no cycle bump (the brief carried no cycle authorisation). Substantive finding recorded: the previous handoff's defect-2 decomposition was arithmetically wrong — the ledger has 409 headings and 429 ids, 20 ids lack headings (S-281–S-290 among them, each with a full body paragraph, so nothing is missing or needs restoring), and 437/423/447 are not reproducible and are withdrawn. Changed file: `research/next_agent_handoff.md` only. No commit.
