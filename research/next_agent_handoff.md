@@ -6,11 +6,13 @@
 
 **Brief classification (§8 step 2): the brief "read the prior task, complete it, update the handoff" is the generic form, so no research artifact was changed and no cycle was bumped — the prior task was the §1 no-op itself, already complete.**
 
-**Repeated generic briefs have one legal output — a no-op plus this file's rewrite — so the correct move is to stop adding session records and ask the operator for authorisation (see §6).**
+**Repeated generic briefs have one legal output — a no-op that leaves this file byte-identical — so the correct move is to stop adding session records and ask the operator for authorisation (see §6). Rewriting this file on a generic brief is not a legal output: it is the defect (§5). Earlier versions of this note said "a no-op plus this file's rewrite", which contradicted §8 step 3 and licensed the churn it was meant to stop; that contradiction is removed here.**
+
+**Resolution (2026-11-19, this session).** The contradiction is the only measurable change: §8 step 2 and step 3 now agree that a generic brief produces no artifact write at all, including this file. The brief that produced this session was generic, so no research artifact and no cycle block changed; the counts below were re-derived mechanically and reproduce identically.
 
 ### 1) Result of the prior agent task
 
-Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat dc5357a1 5fc12328` confirms the newest checkpoint also touched only this file (4 insertions / 4 deletions).
+Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat dc5357a1 5fc12328` confirms the newest checkpoint also touched only this file (4 insertions / 4 deletions). This session's only write is the §0 contradiction fix above; no research artifact, cycle block, rejection, parking record, baseline row, coverage-map row or validation spec was touched, and no document was fetched.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
