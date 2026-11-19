@@ -2,7 +2,7 @@
 
 **Status (2026-11-19): prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed, no cycle bumped. Tree clean at read time (`git status --porcelain` empty); every commit in `git log` is `chore(kilo): checkpoint agent session` and each touched only this file. This file records no HEAD hash: HEAD advances by one checkpoint for every write of it, so a recorded hash is stale the moment it is written.**
 
-**This session re-derived §2 mechanically and reproduced every figure: 409 / 429 / 15 / 33 / 42 / 13 / 11; baseline table header `rejected_and_parked.md:2631`, 111 data rows (2633–2743); coverage map header `:4362`, 34 data rows (table ends 4398; earlier copies at 3987/21 rows, 4087, 4196 are superseded); `grep -c '^### G-'` = 0, highest body gap G-38, G-39 next free; no dated trigger fired against 2026-11-19; seven research files at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026); `README.md` 442 lines with 199 no-op blocks; `cycle_notes.md` 10,488 lines; rubric unchanged at IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked 55.0.**
+**This session re-derived §2 mechanically and reproduced every figure: 409 / 429 / 15 / 33 / 42 / 13 / 11; baseline table header `rejected_and_parked.md:2631`, 111 data rows (2633–2743); coverage map header `:4362`, 34 data rows (table ends 4398; earlier copies at 3987/21 rows, 4087, 4196 are superseded); `grep -c '^### G-' source_ledger.md` = 47 (verdict log headings; 0 in `rejected_and_parked.md`), highest body gap G-38, G-39 next free; no dated trigger fired against 2026-11-19; seven research files at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026); `README.md` 442 lines with 199 no-op blocks; `cycle_notes.md` 10,488 lines; rubric unchanged at IDEA-011 69.0 (1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked 55.0.**
 
 **Brief classification (§8 step 2): the brief "read the prior task, complete it, update the handoff" is the generic form, so no research artifact was changed and no cycle was bumped — the prior task was the §1 no-op itself, already complete.**
 
@@ -12,7 +12,7 @@
 
 ### 1) Result of the prior agent task
 
-Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat dc5357a1 5fc12328` confirms the newest checkpoint also touched only this file (4 insertions / 4 deletions). This session's only write is the §0 contradiction fix above; no research artifact, cycle block, rejection, parking record, baseline row, coverage-map row or validation spec was touched, and no document was fetched.
+Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git diff --stat dc5357a1 5fc12328` confirms the newest checkpoint also touched only this file (4 insertions / 4 deletions). This session's only writes are the §0 contradiction fix and the §2/§5 `### G-` count-command correction; no research artifact, cycle block, rejection, parking record, baseline row, coverage-map row or validation spec was touched, and no document was fetched.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
@@ -30,7 +30,7 @@ Table locations, verified again:
 
 - **Known-baseline table: 111 data rows**, header at **`rejected_and_parked.md:2631`**.
 - **Coverage map: 34 rows**, only in the **last** same-headed table — headers at 3987 (21 rows), 4087, 4196, **4362 (34 rows, authoritative)**. A naive whole-file count is meaningless; earlier copies are superseded.
-- **Gaps** are **prose, not headings** — `grep -c '^### G-'` returns **0** and always has. Highest body gap **G-38**; `G-39` appears only as "next free". Partition seven open / three not open (historical, not re-derived). G-17, G-26 skipped, never used.
+- **Gaps** — the open/not-open partition in `rejected_and_parked.md` is **prose, not headings** (`grep -c '^### G-' rejected_and_parked.md` = **0**), but the **verdict log in `source_ledger.md` does carry `### G-nn` headings** (`grep -c '^### G-' source_ledger.md` = **47**), so a repo-wide 47 is expected and is not evidence of new gaps. Highest body gap **G-38**; `G-39` appears only as "next free"; stale Cycle-~130 blocks in `cycle_notes.md` read "next free G-40" and must not be followed. Partition seven open / three not open (historical, not re-derived). G-17, G-26 skipped, never used.
 - **Struck ledger ids (14)**, all still present in body: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457.
 
 Ledger decomposition: 429 distinct ids = **409** `### S-nnn` headings + **20** body-only ids (S-001, S-009, S-010, S-014, S-026, S-027, S-210, S-218, S-219, S-281…S-290, S-458). **29** ids in S-001…S-458 are never referenced. 429 + 29 = 458 ✓. The figures **437 / 423 / 447** are not reproducible under any decomposition; they survive only in frozen Cycle-1252 blocks and must not be repeated in new prose.
