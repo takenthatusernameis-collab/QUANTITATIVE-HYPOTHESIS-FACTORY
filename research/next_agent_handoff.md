@@ -1,6 +1,6 @@
-## Durable handoff — reconfirmed in place (2026-11-19, HEAD `9b11edd4`)
+## Durable handoff — reconfirmed in place (2026-11-19, HEAD `5cd02c1f`)
 
-**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `9b11edd4` before and after (`git status --porcelain` empty; `git log -3` = `9b11edd4`, `fd3260b2`, `26794979`, all `chore(kilo): checkpoint agent session`; the newest commit touched only this file, 3 insertions / 3 deletions). The only file touched this session is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
+**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `5cd02c1f` before and after (`git status --porcelain` empty; `git log -3` = `5cd02c1f`, `9b11edd4`, `fd3260b2`, all `chore(kilo): checkpoint agent session`; the newest commit touched only this file, 2 insertions / 2 deletions). The only file touched this session is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
 
 **This session (2026-11-19) re-verified §2 mechanically and reproduced every figure: `git status --porcelain` empty; counts 409 / 429 / 15 / 33 / 42 / 13 / 11 reproduce; baseline table header at `rejected_and_parked.md:2631` with 111 data rows; coverage map header at `:4362` with 34 data rows; `grep -c '^### G-'` = 0, highest body gap G-38, next free G-39; no dated trigger fired against 2026-11-19; seven research files head at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026). Nothing else changed.**
 
