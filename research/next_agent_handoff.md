@@ -1,51 +1,49 @@
-## Durable handoff — rewritten in place (2026-11-19, HEAD `8cd4c732`)
+## Durable handoff — rewritten in place (2026-11-19, HEAD `5bae36cf`)
 
-**Status: prior task taken from the handoff and completed = NO-OP upheld, sixth independent confirmation. No research artifact changed. No cycle bumped. Tree clean at HEAD `8cd4c732` before and after (`git status --porcelain` empty; `git log -3` = `8cd4c732`, `81704705`, `35a50e51`, all `chore(kilo): checkpoint agent session`). One file touched: this one, because the brief ordered it and `AGENTS.md` rule 4 requires it. No commit.**
+**Status: prior task taken from the handoff and completed — NO-OP upheld again. No research artifact changed. No cycle bumped. Tree clean at HEAD `5bae36cf` before and after (`git status --porcelain` empty; `git log -3` = `5bae36cf`, `8cd4c732`, `81704705`, all `chore(kilo): checkpoint agent session`). The only file touched is this one, because the brief orders it and `AGENTS.md` rule 4 requires it. No commit made.**
 
-**New finding this session, and the reason the rest of this file is shorter than its predecessors:** the brief is being re-issued in *identical generic form* — "read the prior task, complete it, update the handoff, write the next task message" — and each pass therefore has exactly one legal output: a no-op plus a handoff rewrite. That output is indistinguishable between passes, so the handoff has begun to grow monotonically while recording nothing. The prior two sessions each added a §92-style session record plus §5 growth. **§8 of this file now tells the next agent to stop documenting the loop and to ask for authorisation instead.** That is the only change of substance here.
+**Repeated generic briefs have exactly one legal output — a no-op plus this rewrite — so the correct move is to stop adding session records and ask the operator for authorisation (see §6). This version is a compression, not a new session log: it drops nothing that was verified and adds no cycle block.**
 
 ### 1) Result of the prior agent task
 
-Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree was and is clean. No cycle was authorised by the brief. No forward block appended, no historical block edited, no artifact touched. `git show --stat 8cd4c732` confirms the previous session also touched only this file (4 insertions, 4 deletions).
+Prior handoff §8 asked for `git status --porcelain`, then a cycle decision. Tree clean. No cycle authorised by the brief. No forward block appended, no historical block edited. `git show --stat 5bae36cf` confirms the previous session also touched only this file.
 
-### 2) Counts — re-derived mechanically this session, sixth confirmation
-
-Every figure reproduced exactly. Use this form and only this form:
+### 2) Counts — re-derived mechanically this session, reproduced exactly
 
 ```
-grep -c '^### S-' research/source_ledger.md                                    # 409  (S-029 … S-457)
-grep -o 'S-[0-9]\{3\}' research/source_ledger.md | sort -u | wc -l             # 429  (S-001 … S-458)
-grep -c '^## IDEA-' research/idea_register.md                                  # 15   (IDEA-001 … IDEA-015)
-grep -c '^## R-' research/rejected_and_parked.md                               # 33
-grep -c '^### R-' research/rejected_and_parked.md                              # 42   (33 + 42 = 75, R-001 … R-075)
-grep -c '^### P-' research/rejected_and_parked.md                              # 13   (12 active, P-004 closed)
-grep -c '^## V-' research/validation_handoffs.md                               # 11   (V-001 … V-010, V-012; V-011 reserved)
+grep -c '^### S-' research/source_ledger.md                         # 409
+grep -o 'S-[0-9]\{3\}' research/source_ledger.md | sort -u | wc -l  # 429  (S-001 … S-458)
+grep -c '^## IDEA-' research/idea_register.md                        # 15   (IDEA-001 … IDEA-015)
+grep -c '^## R-' research/rejected_and_parked.md                     # 33
+grep -c '^### R-' research/rejected_and_parked.md                    # 42   (33+42 = 75, R-001 … R-075)
+grep -c '^### P-' research/rejected_and_parked.md                    # 13   (12 active, P-004 closed)
+grep -c '^## V-' research/validation_handoffs.md                     # 11   (V-001…V-010, V-012; V-011 reserved)
 ```
 
-Table locations, verified again this session:
+Table locations, verified again:
 
-- **Known-baseline table: 111 data rows**, header at **`rejected_and_parked.md:2631`**, data 2633–2743.
-- **Coverage map: 34 rows**, only in the **last** of the same-headed tables — headers at 3987 (21 rows), 4087, 4196, **4362 (34 rows, authoritative)**. A naive row count over the whole file is meaningless; the earlier copies are superseded.
+- **Known-baseline table: 111 data rows**, header at **`rejected_and_parked.md:2631`**.
+- **Coverage map: 34 rows**, only in the **last** same-headed table — headers at 3987 (21 rows), 4087, 4196, **4362 (34 rows, authoritative)**. A naive whole-file count is meaningless; earlier copies are superseded.
 - **Gaps** are **prose, not headings** — `grep -c '^### G-'` returns **0** and always has. Highest body gap **G-38**; `G-39` appears only as "next free". Partition seven open / three not open (historical, not re-derived). G-17, G-26 skipped, never used.
 - **Struck ledger ids (14)**, all still present in body: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457.
 
-Ledger decomposition: 429 distinct ids = **409** `### S-nnn` headings + **20** ids referenced in body without headings (S-001, S-009, S-010, S-014, S-026, S-027, S-210, S-218, S-219, S-281 … S-290, S-458). **29** ids in S-001…S-458 are never referenced. 429 + 29 = 458 ✓. The figures **437 / 423 / 447** are not reproducible under any decomposition; they persist only inside the frozen Cycle-1252 blocks and must not be repeated in new prose.
+Ledger decomposition: 429 distinct ids = **409** `### S-nnn` headings + **20** body-only ids (S-001, S-009, S-010, S-014, S-026, S-027, S-210, S-218, S-219, S-281…S-290, S-458). **29** ids in S-001…S-458 are never referenced. 429 + 29 = 458 ✓. The figures **437 / 423 / 447** are not reproducible under any decomposition; they survive only in frozen Cycle-1252 blocks and must not be repeated in new prose.
 
 ### 3) Dated triggers — none fired
 
-Against **2026-11-19**: IDEA-014 31 Mar 2027 · IDEA-011 interims 30 Jun 2027 · G-32(c)/G-33 2027 Q3 · G-14 29 Mar 2029. All four months or more future. No pre-emption.
+Against **2026-11-19**: IDEA-014 31 Mar 2027 · IDEA-011 interims 30 Jun 2027 · G-32(c)/G-33 2027 Q3 · G-14 29 Mar 2029. All months or more future. No pre-emption.
 
-### 4) Cycle lineage — still split, unmoved
+### 4) Cycle lineage — split, unmoved
 
 Seven research files head at **Cycle 1252 (31 October 2026)**: `README.md`, `cycle_notes.md`, `idea_register.md`, `ranked_shortlist.md`, `source_ledger.md`, `validation_handoffs.md`, `rejected_and_parked.md`. `AGENTS.md` heads at **Cycle 723 (27 October 2026)**. Reconciliation is §6 item 4, still unauthorised.
 
 ### 5) The defect, stated once and not re-litigated
 
-Measured: `README.md` = 442 lines, of which **199** are near-identical `**Cycle N complete …**` no-op blocks. `cycle_notes.md` = 10,488 lines. The corpus carries on the order of 1,250 blocks that assert identical unchanged counts and record **no distinct research decision**. They are a self-replicating template, not a log, and they are what buries the dossier, rejection and baseline content under summary noise.
+`README.md` = 442 lines, of which **199** are near-identical `**Cycle N complete …**` no-op blocks. `cycle_notes.md` = 10,488 lines. The corpus carries on the order of 1,250 blocks asserting identical unchanged counts and recording **no distinct research decision** — a self-replicating template, not a log, and it buries the dossier, rejection and baseline content under summary noise.
 
-`research/*.bak369`, `*.bak378`, `*.bak999`, `*.bak724` sit beside the live artifacts (README, cycle_notes, idea_register, this handoff and others). No artifact references them. **Do not read them.**
+`research/*.bak369`, `*.bak378`, `*.bak999`, `*.bak724` sit beside the live artifacts and reference nothing. **Do not read them.**
 
-**No further diagnosis is needed. Additional no-op cycles cannot improve this file, and further rewrites of it will start to cause the same defect they describe.**
+**No further diagnosis is needed. Additional no-op cycles cannot improve this file; further rewrites of it cause the very defect they describe.**
 
 ### 6) What a substantive cycle would do (pre-specified, ready, still unauthorised)
 
@@ -63,7 +61,7 @@ Nothing else — no candidate, score, rank, rejection, parking record, baseline 
 
 ### 7) Next free (re-derive from bodies before use)
 
-S-459 (S-458 is referenced in prose) · V-013 · R-076 · P-015 · G-39 · **IDEA-016** if allocating by lowest-unused (§6 item 3). Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
+S-459 (S-458 is referenced in prose) · V-013 · R-076 · P-015 · G-39 · **IDEA-016** if allocating by lowest-unused. Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
 
 ### 8) Initial task message for the next agent
 
@@ -78,8 +76,8 @@ You are the next agent in the **Quantitative Hypothesis Factory** — a **theory
 1. `git status --porcelain`. If empty, the tree is clean — expected.
 2. **Classify the brief.**
    - **Names a substantive cycle** ("fix the defects", "run a housekeeping cycle", "advance the cycle", "consolidate the cycle log"): execute §6 or §5, whichever it names, in full, once. All eight artifacts, newest-first, read back by content, identifier-integrity check, then stop. Nothing else.
-   - **Any other brief, including a repeat of the generic "read the prior task, complete it, update the handoff" form:** **change no research artifact and bump no cycle.** This is now a settled terminal state; a seventh confirmation has no information content. In your reply, state: tree clean at the current HEAD, the §2 counts reproduce, no dated trigger has fired, and that the register is unchanged since Cycle 1252. Then add **one sentence** asking the operator to authorise §5 or §6 if further work is wanted. Do **not** add a session record to this file, do not add a §N section, and do not lengthen the file — the recurring rewrite is itself the defect (see §5).
-3. **On this handoff file.** `AGENTS.md` rule 4 requires an updated handoff each session, and this version already satisfies it. If nothing measurable changed, leave the file byte-identical and say "handoff unchanged, §2 counts reconfirmed" in your reply. Editing it to say the same thing again is the behaviour §5 identifies as the problem.
+   - **Any other brief, including the generic "read the prior task, complete it, update the handoff" form:** **change no research artifact and bump no cycle.** This is a settled terminal state; another confirmation has no information content. In your reply, state: tree clean at the current HEAD, the §2 counts reproduce, no dated trigger has fired, and the register is unchanged since Cycle 1252. Then add **one sentence** asking the operator to authorise §5 or §6 if further work is wanted. Do **not** add a session record or a §N section, and do not lengthen this file — the recurring rewrite is itself the defect (see §5).
+3. **On this handoff file.** `AGENTS.md` rule 4 requires an updated handoff each session, and this version already satisfies it. If nothing measurable changed, leave the file byte-identical and say "handoff unchanged, §2 counts reconfirmed" in your reply.
 
 **Standing rules.** Never invent a citation — every external claim points to a `source_ledger.md` entry stating how it was verified. Score research priority, never probability of profit. Re-derive next-free identifiers from artifact bodies before allocating. Do not edit `research_prompts/systematic_edge_discovery_agent_prompt.txt`. Do not edit historical cycle blocks. Do not repeat the 437/423/447 ledger figures. Do not commit unless explicitly asked.
 
