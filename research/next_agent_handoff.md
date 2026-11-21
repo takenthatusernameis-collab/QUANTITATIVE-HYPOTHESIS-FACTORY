@@ -1,6 +1,6 @@
-## Durable handoff — reconfirmed in place (2026-11-21, HEAD 3e21076e)
+## Durable handoff — reconfirmed in place (2026-11-21, HEAD cfbd7a5e)
 
-**Status / Resolution (2026-11-21).** Prior task taken from the handoff and completed — NO-OP upheld. The brief was the generic form ("read the prior task, complete it, update the handoff"), so §8 step 2 applies: no research artifact, cycle block or identifier changed, no document fetched. §2 counts re-derived mechanically this session and reproduce identically (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline header `rejected_and_parked.md:2631`, 111 data rows 2633–2743; coverage-map header `:4362`, 34 rows 4364–4650; `^### G-` = 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest body gap G-38, G-39 only in prose, next free G-39). No dated trigger fires against 2026-11-21. Cycle lineage unmoved and re-verified by content: seven research files at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026). Tree clean at read time (`git status --porcelain` empty, HEAD 3e21076e, seven checkpoint commits ahead of 4e99de16). The only file modified is this handoff, and only net-shrinking edits are permitted.
+**Status / Resolution (2026-11-21).** Prior task taken from the handoff and completed — NO-OP upheld. The brief was the generic form ("read the prior task, complete it, update the handoff"), so §8 step 2 applies: no research artifact, cycle block or identifier changed, no document fetched. §2 counts re-derived mechanically this session and reproduce identically (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline header `rejected_and_parked.md:2594`, table header 2631, 111 data rows 2633–2743; coverage-map header `:4362`, last table 34 rows = A–I + 10–34; `^### G-` = 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest body gap G-39, next free G-40). No dated trigger fires against 2026-11-21. Cycle lineage unmoved and re-verified by content: seven research files at Cycle 1252 (31 Oct 2026), `AGENTS.md` at Cycle 723 (27 Oct 2026). Tree clean at read time (`git status --porcelain` empty, HEAD cfbd7a5e). The only file modified is this handoff, and only net-shrinking edits are permitted.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
@@ -16,16 +16,16 @@ grep -c '^## V-' research/validation_handoffs.md                     # 11   (V-0
 
 Table locations, verified again:
 
-- **Known-baseline table: 111 data rows**, header at **`rejected_and_parked.md:2631`**, body 2633–2743.
-- **Coverage map: 34 rows**, only in the **last** same-headed table — headers at 3987 (21 rows), 4087, 4196, **4362 (34 rows, body 4364–4650, authoritative)**. A naive whole-file count is meaningless; earlier copies are superseded.
-- **Gaps** — the open/not-open partition in `rejected_and_parked.md` is **prose, not headings** (`grep -c '^### G-' rejected_and_parked.md` = **0**), but the **verdict log in `source_ledger.md` does carry `### G-nn` headings** (`grep -c '^### G-' source_ledger.md` = **47**), so a repo-wide 47 is expected and is not evidence of new gaps. Highest body gap **G-38**; `G-39` appears only in prose ("next free"); stale Cycle-~130 blocks in `cycle_notes.md` read "next free G-40" and must not be followed. Partition seven open / three not open (historical, not re-derived). G-17, G-26 skipped, never used.
+- **Known-baseline table: 111 data rows**, `## Known baselines` at **`rejected_and_parked.md:2594`**, table header `| Baseline family |` at **2631**, body 2633–2743.
+- **Coverage map: 34 rows**, only in the **last** same-headed table — header at **4362** (rows A–I + 10–34, body 4364–4397). A naive whole-file count is meaningless; earlier copies (3987, 4087, 4196) are superseded.
+- **Gaps** — the open/not-open partition in `rejected_and_parked.md` is **prose, not headings** (`grep -c '^### G-' rejected_and_parked.md` = **0**), but the **verdict log in `source_ledger.md` carries `### G-nn` headings** (`grep -c '^### G-' source_ledger.md` = **47**). Highest gap id in body prose is **G-39**; next free is **G-40**. Stale Cycle-~130 blocks read "next free G-40" and are superseded. Partition seven open / three not open (historical). G-17, G-26 skipped, never used.
 - **Struck ledger ids (14)**, all still present in body: S-104, S-117, S-154, S-172, S-174, S-185, S-187, S-208, S-234, S-280, S-322, S-379, S-380, S-457.
 
 Ledger decomposition: 429 distinct ids = **409** `### S-nnn` headings + **20** body-only ids (S-001, S-009, S-010, S-014, S-026, S-027, S-210, S-218, S-219, S-281…S-290, S-458). **29** ids in S-001…S-458 are never referenced. 429 + 29 = 458 ✓. The figures **437 / 423 / 447** are not reproducible under any decomposition; they survive only in frozen Cycle-1252 blocks and must not be repeated in new prose.
 
 ### 3) Dated triggers — none fired
 
-Against **2026-11-20**: IDEA-014 31 Mar 2027 · IDEA-011 interims 30 Jun 2027 · G-32(c)/G-33 2027 Q3 · G-14 29 Mar 2029. All months or more future. No pre-emption.
+Against **2026-11-21**: IDEA-014 31 Mar 2027 · IDEA-011 interims 30 Jun 2027 · G-32(c)/G-33 2027 Q3 · G-14 29 Mar 2029. All months or more future. No pre-emption.
 
 ### 4) Cycle lineage — split, unmoved
 
@@ -55,7 +55,7 @@ Nothing else — no candidate, score, rank, rejection, parking record, baseline 
 
 ### 7) Next free (re-derive from bodies before use)
 
-S-459 (S-458 is referenced in prose) · V-013 · R-076 · P-015 · G-39 · **IDEA-016** if allocating by lowest-unused. Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
+S-459 (S-458 is referenced in prose) · V-013 · R-076 · P-015 · G-40 · **IDEA-016** if allocating by lowest-unused. Reserved/unused: S-210–S-219, V-011, P-013. Skipped never used: G-17, G-26.
 
 ### 8) Initial task message for the next agent
 
@@ -75,6 +75,6 @@ You are the next agent in the **Quantitative Hypothesis Factory** — a **theory
 
 **Standing rules.** Never invent a citation — every external claim points to a `source_ledger.md` entry stating how it was verified. Score research priority, never probability of profit. Re-derive next-free identifiers from artifact bodies before allocating. Do not edit `research_prompts/systematic_edge_discovery_agent_prompt.txt`. Do not edit historical cycle blocks. Do not repeat the 437/423/447 ledger figures. Do not commit unless explicitly asked.
 
-**Current state.** 15 dossiers (IDEA-001–015) · 75 rejections (R-001–R-075) · 13 parking records (12 active, P-004 closed) · 11 validation specs (V-011 reserved) · ledger 409 headings / 429 ids / 14 struck / 20 body-only ids · baseline table 111 rows (header `rejected_and_parked.md:2631`, first data row 2633) · coverage map 34 rows (last table, header 4362) · gaps to G-38, next free G-39, seven open / three not open · rubric IDEA-011 69.0 (rank 1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 at terminal 55.0 · no dated trigger fired against 2026-11-21 · cycle lineage split: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026) · `README.md` carries 199 superseded no-op blocks. Tree clean at read time; the only file ever modified is this handoff.
+**Current state.** 15 dossiers (IDEA-001–015) · 75 rejections (R-001–R-075) · 13 parking records (12 active, P-004 closed) · 11 validation specs (V-011 reserved) · ledger 409 headings / 429 ids / 14 struck / 20 body-only ids · baseline table 111 rows (header `rejected_and_parked.md:2631`, first data row 2633) · coverage map 34 rows (last table, header 4362, rows A–I + 10–34) · gaps to G-39, next free G-40, seven open / three not open · rubric IDEA-011 69.0 (rank 1), IDEA-004 63.0 (2), IDEA-014 52.0 (3), IDEA-009 42.0 (4), IDEA-010 parked P-014 at terminal 55.0 · no dated trigger fired against 2026-11-21 · cycle lineage split: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026) · `README.md` carries 199 superseded no-op blocks. Tree clean at read time; the only file ever modified is this handoff.
 
 (End of file)
