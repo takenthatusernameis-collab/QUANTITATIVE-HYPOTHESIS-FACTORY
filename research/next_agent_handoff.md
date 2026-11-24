@@ -1,6 +1,6 @@
-## Durable handoff — reconfirmed in place (2026-11-24, HEAD 33ccdbf8)
+## Durable handoff — reconfirmed in place (2026-11-24, HEAD 1e84d2dc)
 
-**Status / Resolution (2026-11-24, HEAD 33ccdbf8).** Generic brief (§8 step 2) completed as a NO-OP with full artifact read-back; no artifact, cycle block or identifier changed, no document fetched. §2 counts re-derived and reproduce exactly (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline `rejected_and_parked.md:2594`, table 2631, 111 rows; coverage `:4362`, 34 rows; `^### G-` 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest G-39, next G-40). No dated trigger fires against 2026-11-24. Cycle lineage unmoved: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026). Tree clean at HEAD `33ccdbf8`; only this handoff is modified, via net-shrinking edits only.
+**Status / Resolution (2026-11-24, HEAD 1e84d2dc).** Generic brief (§8 step 2) completed as a NO-OP with full artifact read-back; no artifact, cycle block or identifier changed, no document fetched. §2 counts re-derived and reproduce exactly (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline `rejected_and_parked.md:2594`, table 2631, 111 rows; coverage `:4362`, 34 rows; `^### G-` 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest G-39, next G-40). No dated trigger fires against 2026-11-24. Cycle lineage unmoved: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026). Tree clean at HEAD `1e84d2dc`; only this handoff is modified, via net-shrinking edits only.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
