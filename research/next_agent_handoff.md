@@ -1,6 +1,6 @@
 ## Durable handoff — reconfirmed in place (2026-11-25, HEAD ed5c8598)
 
-**Status / Resolution (2026-11-25, HEAD ed5c8598; prior ddf94d90).** Generic brief (§8 step 2) completed as a NO-OP with full read-back; no artifact, cycle block or identifier changed, no document fetched. §2 counts reproduce (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline `rejected_and_parked.md:2594`, table 2631, 111 rows; coverage `:4362`, 34 rows; `^### G-` 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest G-39, next G-40). No dated trigger fires vs 2026-11-25. Cycle lineage unmoved: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026). Tree clean at HEAD `ddf94d90` (checkpoint commit; no research file touched); only this handoff modified.
+**Status / Resolution (2026-11-26, HEAD ed5c8598; prior ddf94d90).** Generic brief (§8 step 2) completed as a NO-OP with full read-back; no artifact, cycle block or identifier changed, no document fetched. §2 counts reproduce (409 / 429 / 15 / 33 / 42 / 13 / 11; baseline `rejected_and_parked.md:2594`, table 2631, 111 rows; coverage `:4362`, 34 rows; `^### G-` 47 in `source_ledger.md`, 0 in `rejected_and_parked.md`; highest G-39, next G-40). No dated trigger fires vs 2026-11-25. Cycle lineage unmoved: research files Cycle 1252 (31 Oct 2026), `AGENTS.md` Cycle 723 (27 Oct 2026). Tree clean at HEAD `ddf94d90` (checkpoint commit; no research file touched); only this handoff modified.
 
 ### 2) Counts — re-derived mechanically this session, reproduced exactly
 
